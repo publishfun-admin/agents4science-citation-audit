@@ -1,0 +1,1156 @@
+{
+ "pdf": "106_fHUl3imA7t.pdf",
+ "n_entries": 24,
+ "fallback": false,
+ "error": null,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "226   [1] Vicsek, T., Czir\u00f3k, A., Ben-Jacob, E., Cohen, I., and Shochet, O. (1995). Novel Type of Phase 227       Transition in a System of Self-Driven Particles. Physical Review Letters. Available at https: 228       //doi.org/10.1103/PhysRevLett.75.1226.",
+   "title": "Novel Type of Phase 227 Transition in a System of Self-Driven Particles",
+   "authors": [
+    "Vicsek",
+    "Czir\u00f3k",
+    "Ben-Jacob",
+    "Cohen",
+    "Shochet"
+   ],
+   "year": 1995,
+   "doi": "10.1103/PhysRevLett.75.1226",
+   "arxiv": null,
+   "urls": [
+    "https:"
+   ],
+   "container": "Physical Review Letters",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1103/physrevlett.75.1226",
+    "title": "Novel Type of Phase Transition in a System of Self-Driven Particles",
+    "year": 1995,
+    "first_author": "Vicsek",
+    "container": "Physical Review Letters",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 94.02985074626866,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "229   [2] Toner, J., Tu, Y., and Ramaswamy, S. (2005). Hydrodynamics and Phases of Flocks. Annals of",
+   "title": "Hydrodynamics and Phases of Flocks",
+   "authors": [
+    "Toner",
+    "Tu",
+    "Ramaswamy"
+   ],
+   "year": 2005,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Annals of",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.aop.2005.04.011",
+    "title": "Hydrodynamics and phases of flocks",
+    "year": 2005,
+    "first_author": "Toner",
+    "container": "Annals of Physics",
+    "type": "journal-article",
+    "score": 47.444687
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": true,
+   "idx": 3,
+   "raw": "230       Physics. Available at https://doi.org/10.1016/j.aop.2005.04.011.",
+   "title": "Physics",
+   "authors": [],
+   "year": null,
+   "doi": "10.1016/j.aop.2005.04.011",
+   "arxiv": null,
+   "urls": [
+    "https://doi.org/10.1016/j.aop.2005.04.011"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1093/oseo/instance.00262292",
+    "title": "Physics",
+    "year": 1936,
+    "first_author": "Aristotle",
+    "container": "Aristotle's Physics",
+    "type": "book-chapter",
+    "score": 7.54575
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": [
+    {
+     "step": "doi_resolves_title_mismatch",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1016/j.aop.2005.04.011",
+      "title": "Hydrodynamics and phases of flocks",
+      "year": 2005,
+      "first_author": "Toner",
+      "container": "Annals of Physics",
+      "type": "journal-article",
+      "score": 1
+     },
+     "metrics": {
+      "title_sim": 24.390243902439025,
+      "containment": 0.0,
+      "partial_ratio": 41.17647058823529,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "231   [3] Toner, J., Guttenberg, N., and Tu, Y. (2018). Hydrodynamic Theory of Flocking in the Presence of 232       Quenched Disorder. Physical Review E. Available at https://doi.org/10.1103/PhysRevE. 233       98.062604. 234   [4] Ballerini, M., Cabibbo, N., Candelier, R., Cavagna, A., Cisbani, E., Giardina, I., Lecomte,",
+   "title": "Hydrodynamic Theory of Flocking in the Presence of 232 Quenched Disorder",
+   "authors": [
+    "Toner",
+    "Guttenberg",
+    "Tu"
+   ],
+   "year": 2018,
+   "doi": "10.1103/PhysRevE",
+   "arxiv": null,
+   "urls": [
+    "https://doi.org/10.1103/PhysRevE"
+   ],
+   "container": "Physical Review E",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1103/physreve.98.062604",
+    "title": "Hydrodynamic theory of flocking in the presence of quenched disorder",
+    "year": 2018,
+    "first_author": "Toner",
+    "container": "Physical Review E",
+    "type": "journal-article",
+    "score": 63.022503
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 94.11764705882352,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "doi_not_resolvable",
+     "doi": "10.1103/PhysRevE"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "235       V., Orlandi, A., Parisi, G., Procaccini, A., Viale, M., and Zdravkovic, V. (2007). Interaction",
+   "title": "Interaction",
+   "authors": [
+    "V.",
+    "A.",
+    "G.",
+    "A.",
+    "M.",
+    "Zdravkovic"
+   ],
+   "year": 2007,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1002/symb.2007.30.issue-1",
+      "title": "",
+      "year": 2007,
+      "first_author": null,
+      "container": "Symbolic Interaction",
+      "type": "journal-issue",
+      "score": 15.8747
+     },
+     "metrics": {
+      "title_sim": 0,
+      "containment": 0.0,
+      "partial_ratio": 0,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": true,
+   "idx": 6,
+   "raw": "236       ruling animal collective behavior depends on topological rather than metric distance: Evidence",
+   "title": "ruling animal collective behavior depends on topological rather than metric distance: Evidence",
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1073/pnas.0711437105",
+    "title": "Interaction ruling animal collective behavior depends on topological rather than metric distance: Evidence from a field study",
+    "year": 2008,
+    "first_author": "Ballerini",
+    "container": "Proceedings of the National Academy of Sciences",
+    "type": "journal-article",
+    "score": 59.681786
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.786,
+    "partial_ratio": 96.90721649484536,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "237       from a field study. Proceedings of the National Academy of Sciences. Available at https: 238       //pnas.org/doi/full/10.1073/pnas.0711437105. 239   [5] Ballerini, M., Cabibbo, N., Candelier, R., Cavagna, A., Cisbani, E., Giardina, I., Lecomte, V., 240       Orlandi, A., Parisi, G., Procaccini, A., Viale, M., and Zdravkovic, V. (2008). Interaction Ruling",
+   "title": "from a field study",
+   "authors": [
+    "Ballerini, M., Cabibbo, N., Candelier, R., Cavagna, A., Cisbani, E., Giardina, I., Lecomte, V., 240 Orlandi, A., Parisi, G., Procaccini, A., Viale, M., and Zdravkovic, V."
+   ],
+   "year": null,
+   "doi": "10.1073/pnas.0711437105",
+   "arxiv": null,
+   "urls": [
+    "https:"
+   ],
+   "container": "Proceedings of the National Academy of Sciences",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_search",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2604.05901v2",
+    "title": "Geodesics from Quantum Field Theory: A Case Study in AdS",
+    "year": 2026,
+    "first_author": "Vaibhav Burman"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.286,
+    "partial_ratio": 51.685393258426956,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": [
+    {
+     "step": "doi_resolves_title_mismatch",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1073/pnas.0711437105",
+      "title": "Interaction ruling animal collective behavior depends on topological rather than metric distance: Evidence from a field study",
+      "year": 2008,
+      "first_author": "Ballerini",
+      "container": "Proceedings of the National Academy of Sciences",
+      "type": "journal-article",
+      "score": 1
+     },
+     "metrics": {
+      "title_sim": 25.352112676056336,
+      "containment": 0.286,
+      "partial_ratio": 41.12903225806451,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1073/pnas.0711437105",
+      "title": "Interaction ruling animal collective behavior depends on topological rather than metric distance: Evidence from a field study",
+      "year": 2008,
+      "first_author": "Ballerini",
+      "container": "Proceedings of the National Academy of Sciences",
+      "type": "journal-article",
+      "score": 108.469475
+     },
+     "metrics": {
+      "title_sim": 25.352112676056336,
+      "containment": 0.286,
+      "partial_ratio": 41.12903225806451,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ]
+  },
+  {
+   "junk": true,
+   "idx": 8,
+   "raw": "241       Animal Collective Behavior Depends on Topological Rather than Metric Distance: Evidence",
+   "title": "Animal Collective Behavior Depends on Topological Rather than Metric Distance: Evidence",
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1073/pnas.0711437105",
+    "title": "Interaction ruling animal collective behavior depends on topological rather than metric distance: Evidence from a field study",
+    "year": 2008,
+    "first_author": "Ballerini",
+    "container": "Proceedings of the National Academy of Sciences",
+    "type": "journal-article",
+    "score": 52.375416
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.714,
+    "partial_ratio": 96.66666666666667,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": true,
+   "idx": 9,
+   "raw": "242       from a Field Study. Proceedings of the National Academy of Sciences of the United States of",
+   "title": "from a Field Study",
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the National Academy of Sciences of the United States of",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.7717/peerj.5936/supp-2",
+    "title": "Data S2: Data from the field study",
+    "year": 2018,
+    "first_author": null,
+    "container": "",
+    "type": "component",
+    "score": 16.648026
+   },
+   "metrics": {
+    "title_sim": 94.11764705882354,
+    "containment": 0.5,
+    "partial_ratio": 69.0909090909091,
+    "year_ok": true,
+    "first_author_ok": null
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "243       America. Available at https://doi.org/10.1073/pnas.0711437105. 244   [6] Ginelli, F., and Chat\u00e9, H. (2010). Relevance of Metric-Free Interactions in Flocking Phenom-",
+   "title": "Relevance of Metric-Free Interactions in Flocking Phenom",
+   "authors": [
+    "Ginelli",
+    "Chat\u00e9"
+   ],
+   "year": 2010,
+   "doi": "10.1073/pnas.0711437105",
+   "arxiv": null,
+   "urls": [
+    "https://doi.org/10.1073/pnas.0711437105"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1103/physrevlett.105.168103",
+    "title": "Relevance of Metric-Free Interactions in Flocking Phenomena",
+    "year": 2010,
+    "first_author": "Ginelli",
+    "container": "Physical Review Letters",
+    "type": "journal-article",
+    "score": 60.169186
+   },
+   "metrics": {
+    "title_sim": 97.3913043478261,
+    "containment": 0.833,
+    "partial_ratio": 97.3913043478261,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "doi_resolves_title_mismatch",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1073/pnas.0711437105",
+      "title": "Interaction ruling animal collective behavior depends on topological rather than metric distance: Evidence from a field study",
+      "year": 2008,
+      "first_author": "Ballerini",
+      "container": "Proceedings of the National Academy of Sciences",
+      "type": "journal-article",
+      "score": 1
+     },
+     "metrics": {
+      "title_sim": 34.44444444444444,
+      "containment": 0.071,
+      "partial_ratio": 40.77669902912622,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "245       ena. Physical Review Letters. Available at https://doi.org/10.1103/PhysRevLett.105. 246       168103. 247   [7] Cavagna, A., and Giardina, I. (2014). Bird flocks as condensed matter. Annu. Rev. Condens. Mat-",
+   "title": "ena",
+   "authors": [
+    "Cavagna",
+    "Giardina"
+   ],
+   "year": 2014,
+   "doi": "10.1103/PhysRevLett.105",
+   "arxiv": null,
+   "urls": [
+    "https://doi.org/10.1103/PhysRevLett.105"
+   ],
+   "container": "Physical Review Letters",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.5565/rev/mitologias.194",
+    "title": "Dancing library Ena Luc\u00eda Portela",
+    "year": 2014,
+    "first_author": "Iwasaki",
+    "container": "Mitolog\u00edas hoy",
+    "type": "journal-article",
+    "score": 20.038368
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.2,
+    "partial_ratio": 42.42424242424242,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": [
+    {
+     "step": "doi_not_resolvable",
+     "doi": "10.1103/PhysRevLett.105"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "248       ter Phys. Available at https://www.annualreviews.org/content/journals/10.1146/ 249       annurev-conmatphys-031113-133834. 250   [8] Chen, Q., Patelli, A., Chat\u00e9, H., Ma, Y.-Q., and Shi, X.-Q. (2017). Fore-aft Asymmetric Flocking.",
+   "title": "Fore-aft Asymmetric Flocking",
+   "authors": [
+    "Chen",
+    "Patelli",
+    "Chat\u00e9",
+    "Ma",
+    "Shi"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://www.annualreviews.org/content/journals/10.1146/"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1103/physreve.96.020601",
+    "title": "Fore-aft asymmetric flocking",
+    "year": 2017,
+    "first_author": "Chen",
+    "container": "Physical Review E",
+    "type": "journal-article",
+    "score": 49.444614
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "251       Physical Review E. Available at https://doi.org/10.1103/PhysRevE.96.020601. 252   [9] Pearce, D. J. G., Miller, A. M., Rowlands, G., and Turner, M. S. (2014). Role of Projection in the",
+   "title": "Role of Projection in the",
+   "authors": [
+    "Pearce",
+    "Miller",
+    "Rowlands",
+    "Turner"
+   ],
+   "year": 2014,
+   "doi": "10.1103/PhysRevE.96.020601",
+   "arxiv": null,
+   "urls": [
+    "https://doi.org/10.1103/PhysRevE.96.020601"
+   ],
+   "container": "Physical Review E",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1073/pnas.1402202111",
+    "title": "Role of projection in the control of bird flocks",
+    "year": 2014,
+    "first_author": "Pearce",
+    "container": "Proceedings of the National Academy of Sciences",
+    "type": "journal-article",
+    "score": 23.32257
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.4,
+    "partial_ratio": 68.49315068493152,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "doi_resolves_title_mismatch",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1103/physreve.96.020601",
+      "title": "Fore-aft asymmetric flocking",
+      "year": 2017,
+      "first_author": "Chen",
+      "container": "Physical Review E",
+      "type": "journal-article",
+      "score": 1
+     },
+     "metrics": {
+      "title_sim": 41.509433962264154,
+      "containment": 0.0,
+      "partial_ratio": 42.307692307692314,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ]
+  },
+  {
+   "junk": true,
+   "idx": 14,
+   "raw": "253       Control of Bird Flocks. Proceedings of the National Academy of Sciences of the United States of",
+   "title": "Control of Bird Flocks",
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the National Academy of Sciences of the United States of",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_search",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "1407.2414v1",
+    "title": "The Role of Projection in the Control of Bird Flocks",
+    "year": 2014,
+    "first_author": "Daniel J. G. Pearce"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.6,
+    "partial_ratio": 58.97435897435898,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.33612/diss.813786973",
+      "title": "Collective escape in bird flocks",
+      "year": 2023,
+      "first_author": null,
+      "container": "",
+      "type": "dissertation",
+      "score": 26.365011
+     },
+     "metrics": {
+      "title_sim": 66.66666666666666,
+      "containment": 0.5,
+      "partial_ratio": 55.172413793103445,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "254       America. Available at https://doi.org/10.1073/pnas.1402202111. 255   [10] Papadopoulou, M., Hildenbrandt, H., Sankey, D. W. E., Portugal, S., and Hemelrijk, C. (2021).",
+   "title": null,
+   "authors": [
+    "Papadopoulou",
+    "Hildenbrandt",
+    "Sankey",
+    "Portugal",
+    "Hemelrijk"
+   ],
+   "year": 2021,
+   "doi": "10.1073/pnas.1402202111",
+   "arxiv": null,
+   "urls": [
+    "https://doi.org/10.1073/pnas.1402202111"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "doi_resolves_title_mismatch",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1073/pnas.1402202111",
+      "title": "Role of projection in the control of bird flocks",
+      "year": 2014,
+      "first_author": "Pearce",
+      "container": "Proceedings of the National Academy of Sciences",
+      "type": "journal-article",
+      "score": 1
+     },
+     "metrics": {
+      "title_sim": 0,
+      "containment": 0.0,
+      "partial_ratio": 35.416666666666664,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1101/2021.07.04.450902",
+      "title": "Self-organization of collective escape in pigeon flocks",
+      "year": 2021,
+      "first_author": "Papadopoulou",
+      "container": "",
+      "type": "posted-content",
+      "score": 63.09476
+     },
+     "metrics": {
+      "title_sim": 0,
+      "containment": 0.0,
+      "partial_ratio": 34.54545454545455,
+      "year_ok": true,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": true,
+   "idx": 16,
+   "raw": "256       Self-organization of collective escape in pigeon flocks. PLoS Computational Biology. Available",
+   "title": "Self-organization of collective escape in pigeon flocks",
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "PLoS Computational Biology. Available",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1101/2021.07.04.450902",
+    "title": "Self-organization of collective escape in pigeon flocks",
+    "year": 2021,
+    "first_author": "Papadopoulou",
+    "container": "",
+    "type": "posted-content",
+    "score": 51.78446
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 17,
+   "raw": "257       at https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi. 258       1009772. 259   [11] Calovi, D. S., Lopez, U., Ngo, S., Sire, C., and Chat\u00e9, H. (2014). Swarming, schooling, milling:",
+   "title": null,
+   "authors": [
+    "Calovi",
+    "Lopez",
+    "Ngo",
+    "Sire",
+    "Chat\u00e9"
+   ],
+   "year": 2014,
+   "doi": "10.1371/journal.pcbi",
+   "arxiv": null,
+   "urls": [
+    "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "doi_not_resolvable",
+     "doi": "10.1371/journal.pcbi"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1088/1367-2630/16/1/015026",
+      "title": "Swarming, schooling, milling: phase diagram of a data-driven fish school model",
+      "year": 2014,
+      "first_author": "Calovi",
+      "container": "New Journal of Physics",
+      "type": "journal-article",
+      "score": 79.07154
+     },
+     "metrics": {
+      "title_sim": 0,
+      "containment": 0.3,
+      "partial_ratio": 51.48514851485149,
+      "year_ok": true,
+      "first_author_ok": true
+     }
+    },
+    {
+     "step": "urls_not_live",
+     "url_status": {
+      "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi": 404
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 18,
+   "raw": "260       phase diagram of a data-driven fish school model. Available at https://iopscience.iop. 261       org/article/10.1088/1367-2630/16/1/015026/meta. 262   [12] Filella, A., Nadal, F., Sire, C., Kanso, E., and Eloy, C. (2018). Model of collective fish behavior",
+   "title": "phase diagram of a data-driven fish school model",
+   "authors": [
+    "Filella",
+    "Nadal",
+    "Sire",
+    "Kanso",
+    "Eloy"
+   ],
+   "year": 2018,
+   "doi": "10.1088/1367-2630/16/1/015026/meta",
+   "arxiv": null,
+   "urls": [
+    "https://iopscience.iop"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "doi_not_resolvable",
+     "doi": "10.1088/1367-2630/16/1/015026/meta"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1088/1367-2630/16/1/015026",
+      "title": "Swarming, schooling, milling: phase diagram of a data-driven fish school model",
+      "year": 2014,
+      "first_author": "Calovi",
+      "container": "New Journal of Physics",
+      "type": "journal-article",
+      "score": 36.542
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 0.7,
+      "partial_ratio": 77.16535433070865,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    },
+    {
+     "step": "urls_not_live",
+     "url_status": {
+      "https://iopscience.iop": "error"
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": true,
+   "idx": 19,
+   "raw": "263       with hydrodynamic interactions. Physical Review Letters. Available at https://journals.",
+   "title": "with hydrodynamic interactions",
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://journals"
+   ],
+   "container": "Physical Review Letters",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.7554/elife.02750.019",
+      "title": "Decision letter: Flagellar synchronization through direct hydrodynamic interactions",
+      "year": 2014,
+      "first_author": null,
+      "container": "",
+      "type": "peer-review",
+      "score": 18.72954
+     },
+     "metrics": {
+      "title_sim": 51.78571428571428,
+      "containment": 0.25,
+      "partial_ratio": 51.72413793103448,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    },
+    {
+     "step": "urls_not_live",
+     "url_status": {
+      "https://journals": "error"
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": true,
+   "idx": 20,
+   "raw": "264       aps.org/prl/abstract/10.1103/PhysRevLett.120.198101.",
+   "title": null,
+   "authors": [],
+   "year": null,
+   "doi": "10.1103/PhysRevLett.120.198101",
+   "arxiv": null,
+   "urls": [
+    "aps.org/prl/abstract/10.1103/PhysRevLett.120.198101"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "doi_resolves_title_mismatch",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1103/physrevlett.120.198101",
+      "title": "Model of Collective Fish Behavior with Hydrodynamic Interactions",
+      "year": 2018,
+      "first_author": "Filella",
+      "container": "Physical Review Letters",
+      "type": "journal-article",
+      "score": 1
+     },
+     "metrics": {
+      "title_sim": 0,
+      "containment": 0.0,
+      "partial_ratio": 28.000000000000004,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1016/1058-9139(92)90060-p",
+      "title": "Cervicogenic headache",
+      "year": 1992,
+      "first_author": "Wilson",
+      "container": "APS Journal",
+      "type": "journal-article",
+      "score": 23.27964
+     },
+     "metrics": {
+      "title_sim": 0,
+      "containment": 0.0,
+      "partial_ratio": 28.57142857142857,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    },
+    {
+     "step": "urls_not_live",
+     "url_status": {
+      "aps.org/prl/abstract/10.1103/PhysRevLett.120.198101": "error"
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 21,
+   "raw": "265   [13] Baglietto, G., and Albano, E. (2006). Phase transitions in the collective motion of self-266       propelled individuals. International Journal of Modern Physics C. Available at https://www. 267       worldscientific.com/doi/abs/10.1142/S0129183106008492.",
+   "title": "Phase transitions in the collective motion of self-266 propelled individuals",
+   "authors": [
+    "Baglietto",
+    "Albano"
+   ],
+   "year": 2006,
+   "doi": "10.1142/S0129183106008492",
+   "arxiv": null,
+   "urls": [
+    "https://www",
+    "worldscientific.com/doi/abs/10.1142/S0129183106008492"
+   ],
+   "container": "International Journal of Modern Physics C",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1142/s0129183106008492",
+    "title": "PHASE TRANSITIONS IN THE COLLECTIVE MOTION OF SELF-PROPELLED INDIVIDUALS",
+    "year": 2006,
+    "first_author": "BAGLIETTO",
+    "container": "International Journal of Modern Physics C",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 94.44444444444444,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 22,
+   "raw": "268   [14] Baglietto, G., and Albano, E. V. (2009). Nature of the order\u2013disorder transition in the Vicsek 269       model for the collective motion of self-propelled particles. Physical Review E. Available at 270       https://journals.aps.org/pre/abstract/10.1103/PhysRevE.80.050103.",
+   "title": "Nature of the order\u2013disorder transition in the Vicsek 269 model for the collective motion of self-propelled particles",
+   "authors": [
+    "Baglietto",
+    "Albano"
+   ],
+   "year": 2009,
+   "doi": "10.1103/PhysRevE.80.050103",
+   "arxiv": null,
+   "urls": [
+    "https://journals.aps.org/pre/abstract/10.1103/PhysRevE.80.050103"
+   ],
+   "container": "Physical Review E",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1103/physreve.80.050103",
+    "title": "Nature of the order-disorder transition in the Vicsek model for the collective motion of self-propelled particles",
+    "year": 2009,
+    "first_author": "Baglietto",
+    "container": "Physical Review E",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 96.46017699115043,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 23,
+   "raw": "271   [15] Agrawal, N. K., and Mahapatra, P. S. (2020). Effect of particle fraction on phase transitions in 272       an active\u2013passive particles system. Physical Review E. Available at https://journals.aps. 273       org/pre/abstract/10.1103/PhysRevE.101.042607.",
+   "title": "Effect of particle fraction on phase transitions in 272 an active\u2013passive particles system",
+   "authors": [
+    "Agrawal",
+    "Mahapatra"
+   ],
+   "year": 2020,
+   "doi": "10.1103/PhysRevE.101.042607",
+   "arxiv": null,
+   "urls": [
+    "https://journals.aps"
+   ],
+   "container": "Physical Review E",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1103/physreve.101.042607",
+    "title": "Effect of particle fraction on phase transitions in an active-passive particles system",
+    "year": 2020,
+    "first_author": "Agrawal",
+    "container": "Physical Review E",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 95.34883720930233,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 24,
+   "raw": "274   [16] Rutten, P., Lees, M. H., Klous, S., and Heesterbeek, H. (2022). Modelling the dynamic relation-275       ship between spread of infection and observed crowd movement patterns at large-scale events. Sci-276       entific Reports. Available at https://www.nature.com/articles/s41598-022-19081-z.",
+   "title": "Modelling the dynamic relation-275 ship between spread of infection and observed crowd movement patterns at large-scale events",
+   "authors": [
+    "Rutten",
+    "Lees",
+    "Klous",
+    "Heesterbeek"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://www.nature.com/articles/s41598-022-19081-z"
+   ],
+   "container": null,
+   "type": "report",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/s41598-022-19081-z",
+    "title": "Modelling the dynamic relationship between spread of infection and observed crowd movement patterns at large scale events",
+    "year": 2022,
+    "first_author": "Rutten",
+    "container": "Scientific Reports",
+    "type": "journal-article",
+    "score": 81.66822
+   },
+   "metrics": {
+    "title_sim": 97.97570850202429,
+    "containment": 0.923,
+    "partial_ratio": 95.86776859504133,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  }
+ ]
+}

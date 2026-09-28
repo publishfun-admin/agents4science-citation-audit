@@ -6,12 +6,16 @@ from refs_anystyle import parse_pdf
 from refs_verify import verify_parsed_paper
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..')
 PDFS = os.path.join(ROOT, 'data', 'openreview', 'pdfs'); OUT = os.path.join(ROOT, 'data', 'refs'); os.makedirs(OUT, exist_ok=True)
+SHARD, NSHARDS = int(os.environ.get('SHARD', 0)), int(os.environ.get('NSHARDS', 1))
 idle = 0
 while True:
     todo = []
     for p in sorted(glob.glob(os.path.join(PDFS, '*.pdf'))):
         stem = os.path.basename(p)[:-4]
         if stem == 't' or os.path.exists(os.path.join(OUT, stem + '.verified.json')): continue
+        try:
+            if int(stem.split('_')[0]) % NSHARDS != SHARD: continue
+        except ValueError: continue
         if time.time() - os.path.getmtime(p) < 5: continue   # still being written
         todo.append((p, stem))
     if not todo:

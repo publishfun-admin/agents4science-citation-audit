@@ -1,0 +1,387 @@
+{
+ "pdf": "11_yh6WeaOCoq.pdf",
+ "n_entries": 9,
+ "fallback": false,
+ "error": null,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "275   [1] Ag\u00fcera y Arcas, B. (2022) Do large language models understand us? Daedalus, 151(2), pp. 183\u2013197. JSTOR, 276   https://www.jstor.org/stable/48662035. Accessed 29 July 2025.",
+   "title": "Do large language models understand us?",
+   "authors": [
+    "Arcas"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://www.jstor.org/stable/48662035"
+   ],
+   "container": "Daedalus",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1162/daed_a_01909",
+    "title": "Do Large Language Models Understand Us?",
+    "year": 2022,
+    "first_author": "y Arcas",
+    "container": "Daedalus",
+    "type": "journal-article",
+    "score": 58.542942
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "277   [2] Breuer, J. & Freud, S. (1966) Studies on Hysteria. Avon Books.",
+   "title": "Studies on Hysteria",
+   "authors": [
+    "Breuer",
+    "Freud"
+   ],
+   "year": 1966,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "openalex",
+   "match": {
+    "source": "openalex",
+    "id": "https://openalex.org/W1592305992",
+    "doi": null,
+    "title": "Studies on Hysteria",
+    "year": 1895,
+    "first_author": "Josef Breuer",
+    "container": "Medical Entomology and Zoology",
+    "type": "book"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.5040/9798881870355",
+      "title": "Studies on Hysteria Josef Breuer and Sigmund Freud 1893\u20131895",
+      "year": 2024,
+      "first_author": null,
+      "container": "",
+      "type": "book",
+      "score": 31.535217
+     },
+     "metrics": {
+      "title_sim": 48.10126582278481,
+      "containment": 0.5,
+      "partial_ratio": 54.32098765432099,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "278   [3] DeepSeek - R1. (2025) Incentivizing reasoning capability in LLMs via reinforcement learning. arXiv, 279   2501.12948v1 [cs.CL].",
+   "title": "3] DeepSeek - R1",
+   "authors": [],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1021/acs.jpclett.5c00804.s002",
+      "title": "DeepSyn: Operable Chemical Retrosynthetic Design with the DeepSeek R1 Model",
+      "year": 2025,
+      "first_author": null,
+      "container": "",
+      "type": "component",
+      "score": 29.915962
+     },
+     "metrics": {
+      "title_sim": 27.586206896551722,
+      "containment": 0.143,
+      "partial_ratio": 39.189189189189186,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "280   [4] Demszky, D. et al. (2023) Using large language models in psychology. Nature Reviews Psychology, 2, pp. 281   688\u2013701. https://doi.org/10.1038/s44159-023-00241-5.",
+   "title": "Using large language models in psychology",
+   "authors": [
+    "Demszky"
+   ],
+   "year": 2023,
+   "doi": "10.1038/s44159-023-00241-5",
+   "arxiv": null,
+   "urls": [
+    "https://doi.org/10.1038/s44159-023-00241-5"
+   ],
+   "container": "Nature Reviews Psychology",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/s44159-023-00241-5",
+    "title": "Using large language models in psychology",
+    "year": 2023,
+    "first_author": "Demszky",
+    "container": "Nature Reviews Psychology",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "282   [5] Freud, S. (2019) Introduction to Psychoanalysis (Z. Li, Trans.). Wuhan Publishing House, pp. 664\u2013678, 283   693\u2013712. Zlink.fqnovel.com, https://zlink.fqnovel.com/dhVGe. Accessed 16 July 2025.",
+   "title": "Introduction to Psychoanalysis",
+   "authors": [
+    "Freud"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://zlink.fqnovel.com/dhVGe"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.5422/fordham/9780823284115.003.0001",
+    "title": "Introduction",
+    "year": 2019,
+    "first_author": "Rottenberg",
+    "container": "For the Love of Psychoanalysis",
+    "type": "book-chapter",
+    "score": 33.718273
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "284   [6] Freud, S. (1922) Analysis of a Phobia in a Five-Year-Old Boy (L. A. Huish, Trans.). The Hogarth Press.",
+   "title": "Analysis of a Phobia in a Five-Year-Old Boy (L",
+   "authors": [
+    "Freud"
+   ],
+   "year": 1922,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1037/e417472005-239",
+    "title": "Analysis of a phobia in a five-year-old boy (1909). Part III. Discussion: I",
+    "year": 1971,
+    "first_author": "Freud",
+    "container": "PsycEXTRA Dataset",
+    "type": "dataset",
+    "score": 58.103203
+   },
+   "metrics": {
+    "title_sim": 97.61904761904762,
+    "containment": 0.6,
+    "partial_ratio": 72.85714285714286,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "285   [7] Freud, S. (1963) Fragment of an analysis of a case of hysteria. In Dora: An Analysis of a Case of Hysteria, 286   Collier.",
+   "title": "Fragment of an analysis of a case of hysteria",
+   "authors": [
+    "Freud"
+   ],
+   "year": 1963,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Dora: An Analysis of a Case of Hysteria",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1037/e417472005-164",
+    "title": "Fragment of an analysis of a case of hysteria: (1953) Editor's note",
+    "year": 1971,
+    "first_author": "Freud",
+    "container": "PsycEXTRA Dataset",
+    "type": "dataset",
+    "score": 42.805252
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.571,
+    "partial_ratio": 82.8125,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "287   [8] Luxton, D. D. (2013) Artificial intelligence in psychological practice: Current and future ap-288   plications and implications. Professional Psychology: Research and Practice, 45(5), pp. 332\u2013339.",
+   "title": "Artificial intelligence in psychological practice: Current and future ap-288 plications and implications",
+   "authors": [
+    "Luxton"
+   ],
+   "year": 2013,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Professional Psychology: Research and Practice",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1037/a0034559",
+    "title": "Artificial intelligence in psychological practice: Current and future applications and implications.",
+    "year": 2014,
+    "first_author": "Luxton",
+    "container": "Professional Psychology: Research and Practice",
+    "type": "journal-article",
+    "score": 50.62878
+   },
+   "metrics": {
+    "title_sim": 97.51243781094527,
+    "containment": 0.875,
+    "partial_ratio": 94.89795918367348,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "289   https://doi.org/10.1037/a0034559. 290   [9] Mitchell, M. (2025) Artificial intelligence learns to reason. Science, 387, eadw5211. 291   [10] Thorp, H. H. (2024) ChatGPT to the rescue? Science, 385, p. 1143. https://doi.org/10.1126/science.adt0007.",
+   "title": "Artificial intelligence learns to reason",
+   "authors": [
+    "Mitchell",
+    "Thorp"
+   ],
+   "year": 2025,
+   "doi": "10.1037/a0034559",
+   "arxiv": null,
+   "urls": [
+    "https://doi.org/10.1037/a0034559",
+    "https://doi.org/10.1126/science.adt0007"
+   ],
+   "container": "Science",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1126/science.adw5211",
+    "title": "Artificial intelligence learns to reason",
+    "year": 2025,
+    "first_author": "Mitchell",
+    "container": "Science",
+    "type": "journal-article",
+    "score": 50.570915
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "doi_resolves_title_mismatch",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1037/a0034559",
+      "title": "Artificial intelligence in psychological practice: Current and future applications and implications.",
+      "year": 2014,
+      "first_author": "Luxton",
+      "container": "Professional Psychology: Research and Practice",
+      "type": "journal-article",
+      "score": 1
+     },
+     "metrics": {
+      "title_sim": 52.17391304347826,
+      "containment": 0.25,
+      "partial_ratio": 48.97959183673469,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ]
+  }
+ ]
+}

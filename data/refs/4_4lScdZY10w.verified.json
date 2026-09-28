@@ -1,0 +1,1578 @@
+{
+ "pdf": "4_4lScdZY10w.pdf",
+ "n_entries": 39,
+ "fallback": true,
+ "error": null,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "Alberto Blanco-Justicia, Najeeb Jebreel, Benet ManzanaresSalor, David Sa\u0301nchez, Josep Domingo-Ferrer, Guillem Collell, and Kuan Eeik Tan. Digital forgetting in large language models: A survey of unlearning methods. Artificial Intelligence Review, 58(3):90, 2025. 1",
+   "title": "Digital forgetting in large language models: A survey of unlearning methods",
+   "authors": [
+    "Blanco-Justicia",
+    "Jebreel",
+    "ManzanaresSalor",
+    "S\u00e1nchez",
+    "Domingo-Ferrer",
+    "Collell",
+    "Tan"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Artificial Intelligence Review",
+   "type": "article-journal",
+   "parser": "anystyle-parse",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/s10462-024-11078-6",
+    "title": "Digital forgetting in large language models: a survey of unlearning methods",
+    "year": 2025,
+    "first_author": "Blanco-Justicia",
+    "container": "Artificial Intelligence Review",
+    "type": "journal-article",
+    "score": 64.86643
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "Kongyang Chen, Zixin Wang, Bing Mi, Waixi Liu, Shaowei Wang, Xiaojun Ren, and Jiaxing Shen. Machine unlearning in large language models. arXiv preprint arXiv:2404.16841, 2024. 1",
+   "title": "Machine unlearning in large language models",
+   "authors": [
+    "Chen",
+    "Wang",
+    "Mi",
+    "Liu",
+    "Wang",
+    "Ren",
+    "Shen"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": "2404.16841",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-parse",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2404.16841",
+    "title": "Machine Unlearning in Large Language Models",
+    "year": 2024,
+    "first_author": "Kongyang Chen"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "Ruizhe Chen, Jianfei Yang, Huimin Xiong, Jianhong Bai, Tianxiang Hu, Jin Hao, Yang Feng, Joey Tianyi Zhou, Jian 301 303 305 307 309 322 324 326 335 337 339 Wu, and Zuozhu Liu. Fast model debias with machine unlearning. Advances in Neural Information Processing Systems, 36, 2024. 2",
+   "title": "Fast model debias with machine unlearning",
+   "authors": [
+    "Chen",
+    "Yang",
+    "Xiong",
+    "Bai",
+    "Hu",
+    "Hao",
+    "Feng",
+    "Zhou",
+    "Wu",
+    "Liu"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems",
+   "type": "article-journal",
+   "parser": "anystyle-parse",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/075280-0639",
+    "title": "Fast Model DeBias with Machine Unlearning",
+    "year": 2023,
+    "first_author": "Chen",
+    "container": "Advances in Neural Information Processing Systems 36",
+    "type": "proceedings-article",
+    "score": 42.22045
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "Tianqi Chen, Shujian Zhang, and Mingyuan Zhou. Score forgetting distillation: A swift, data-free method for machine unlearning in diffusion models. arXiv preprint arXiv:2409.11219, 2024. 2",
+   "title": "Score forgetting distillation: A swift, data-free method for machine unlearning in diffusion models",
+   "authors": [
+    "Chen",
+    "Zhang",
+    "Zhou"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": "2409.11219",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-parse",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2409.11219",
+    "title": "Score Forgetting Distillation: A Swift, Data-Free Method for Machine Unlearning in Diffusion Models",
+    "year": 2024,
+    "first_author": "Tianqi Chen"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "Min Jin Chong and David Forsyth. Effectively unbiased fid and inception score and where to find them. In Proceedings of the IEEE/CVF conference on computer vision and pattern recognition, pages 6070\u20136079, 2020. 2, 5",
+   "title": "Effectively unbiased fid and inception score and where to find them",
+   "authors": [
+    "Chong",
+    "Forsyth"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+   "type": "paper-conference",
+   "parser": "anystyle-parse",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/cvpr42600.2020.00611",
+    "title": "Effectively Unbiased FID and Inception Score and Where to Find Them",
+    "year": 2020,
+    "first_author": "Chong",
+    "container": "2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "type": "proceedings-article",
+    "score": 85.90202
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "Jia Deng, Wei Dong, Richard Socher, Li-Jia Li, Kai Li, and Li Fei-Fei. Imagenet: A large-scale hierarchical image database. In 2009 IEEE conference on computer vision and pattern recognition, pages 248\u2013255. Ieee, 2009. 5",
+   "title": "Imagenet: A large-scale hierarchical image database",
+   "authors": [
+    "Deng",
+    "Dong",
+    "Socher",
+    "Li",
+    "Li",
+    "Fei-Fei"
+   ],
+   "year": 2009,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "2009 IEEE conference on computer vision and pattern recognition",
+   "type": "paper-conference",
+   "parser": "anystyle-parse",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/cvpr.2009.5206848",
+    "title": "ImageNet: A large-scale hierarchical image database",
+    "year": 2009,
+    "first_author": "Deng",
+    "container": "2009 IEEE Conference on Computer Vision and Pattern Recognition",
+    "type": "proceedings-article",
+    "score": 53.939625
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "Yigit Ekin, Ahmet Burak Yildirim, Erdem Eren Caglar, Aykut Erdem, Erkut Erdem, and Aysegul Dundar. Clipaway: Harmonizing focused embeddings for removing objects via diffusion models. arXiv preprint arXiv:2406.09368, 2024. 5",
+   "title": "Clipaway: Harmonizing focused embeddings for removing objects via diffusion models",
+   "authors": [
+    "Ekin",
+    "Yildirim",
+    "Caglar",
+    "Erdem",
+    "Erdem",
+    "Dundar"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": "2406.09368",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-parse",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2406.09368",
+    "title": "CLIPAway: Harmonizing Focused Embeddings for Removing Objects via Diffusion Models",
+    "year": 2024,
+    "first_author": "Yigit Ekin"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "Chongyu Fan, Jiancheng Liu, Alfred Hero, and Sijia Liu. Challenging forgets: Unveiling the worst-case forget sets in machine unlearning. In European Conference on Computer Vision, pages 278\u2013297. Springer, 2024. 1",
+   "title": "Challenging forgets: Unveiling the worst-case forget sets in machine unlearning",
+   "authors": [
+    "Fan",
+    "Liu",
+    "Hero",
+    "Liu"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "European Conference on Computer Vision",
+   "type": "paper-conference",
+   "parser": "anystyle-parse",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/978-3-031-72664-4_16",
+    "title": "Challenging Forgets: Unveiling the\u00a0Worst-Case Forget Sets in\u00a0Machine Unlearning",
+    "year": 2025,
+    "first_author": "Fan",
+    "container": "Lecture Notes in Computer Science",
+    "type": "book-chapter",
+    "score": 71.70763
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "Rohit Gandikota, Joanna Materzynska, Jaden FiottoKaufman, and David Bau. Erasing concepts from diffusion models. In Proceedings of the IEEE/CVF International Conference on Computer Vision, pages 2426\u20132436, 2023. 1, 2",
+   "title": "Erasing concepts from diffusion models",
+   "authors": [
+    "Gandikota",
+    "Materzynska",
+    "FiottoKaufman",
+    "Bau"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+   "type": "paper-conference",
+   "parser": "anystyle-parse",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/iccv51070.2023.00230",
+    "title": "Erasing Concepts from Diffusion Models",
+    "year": 2023,
+    "first_author": "Gandikota",
+    "container": "2023 IEEE/CVF International Conference on Computer Vision (ICCV)",
+    "type": "proceedings-article",
+    "score": 53.27964
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "Hongcheng Gao, Tianyu Pang, Chao Du, Taihang Hu, Zhijie Deng, and Min Lin. Meta-unlearning on diffusion models: Preventing relearning unlearned concepts. arXiv preprint arXiv:2410.12777, 2024. 2",
+   "title": "Meta-unlearning on diffusion models: Preventing relearning unlearned concepts",
+   "authors": [
+    "Gao",
+    "Pang",
+    "Du",
+    "Hu",
+    "Deng",
+    "Lin"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": "2410.12777",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-parse",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2410.12777",
+    "title": "Meta-Unlearning on Diffusion Models: Preventing Relearning Unlearned Concepts",
+    "year": 2024,
+    "first_author": "Hongcheng Gao"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "Hanlin Gu, WinKent Ong, Chee Seng Chan, and Lixin Fan. Ferrari: federated feature unlearning via optimizing feature sensitivity. Advances in Neural Information Processing Systems, 37:24150\u201324180, 2025. 1",
+   "title": "Ferrari: federated feature unlearning via optimizing feature sensitivity",
+   "authors": [
+    "Gu",
+    "Ong",
+    "Chan",
+    "Fan"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems",
+   "type": "article-journal",
+   "parser": "anystyle-parse",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/079017-0761",
+    "title": "Ferrari: Federated Feature Unlearning via Optimizing Feature Sensitivity",
+    "year": 2024,
+    "first_author": "Gu",
+    "container": "Advances in Neural Information Processing Systems 37",
+    "type": "proceedings-article",
+    "score": 76.05207
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "Jack Hessel, Ari Holtzman, Maxwell Forbes, Ronan Le Bras, and Yejin Choi. Clipscore: A reference-free evaluation metric for image captioning. arXiv preprint arXiv:2104.08718, 2021. 4",
+   "title": "Clipscore: A reference-free evaluation metric for image captioning",
+   "authors": [
+    "Hessel",
+    "Holtzman",
+    "Forbes",
+    "Bras",
+    "Choi"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": "2104.08718",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-parse",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2104.08718",
+    "title": "CLIPScore: A Reference-free Evaluation Metric for Image Captioning",
+    "year": 2021,
+    "first_author": "Jack Hessel"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "Alain Hore and Djemel Ziou. Image quality metrics: Psnr vs. ssim. In 2010 20th international conference on pattern recognition, pages 2366\u20132369. IEEE, 2010. 1",
+   "title": "Image quality metrics: Psnr vs. ssim",
+   "authors": [
+    "Hore",
+    "Ziou"
+   ],
+   "year": 2010,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "2010 20th international conference on pattern recognition",
+   "type": "paper-conference",
+   "parser": "anystyle-parse",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/icpr.2010.579",
+    "title": "Image Quality Metrics: PSNR vs. SSIM",
+    "year": 2010,
+    "first_author": "Hore",
+    "container": "2010 20th International Conference on Pattern Recognition",
+    "type": "proceedings-article",
+    "score": 77.89334
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "Sadeep Jayasumana, Srikumar Ramalingam, Andreas Veit, Daniel Glasner, Ayan Chakrabarti, and Sanjiv Kumar. Rethinking fid: Towards a better evaluation metric for image generation. In Proceedings of the IEEE/CVF Conference 340 342 344 346 348 350 352 354 356 358 360 362 364 366 368 370 372 374 376 378 380 382 384 ICCV #19 ICCV #19 ICCV 2025 Submission #19. CONFIDENTIAL REVIEW COPY. DO NOT DISTRIBUTE. 387 389 391 393 395 397 399 401 403 405 407 409 411 413 415 417 419 421 423 425 427 429 431 433 435 437 439 441 443",
+   "title": "Rethinking fid: Towards a better evaluation metric for image generation",
+   "authors": [
+    "Jayasumana",
+    "Ramalingam",
+    "Veit",
+    "Glasner",
+    "Chakrabarti",
+    "Kumar"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the IEEE/CVF Conference",
+   "type": "paper-conference",
+   "parser": "anystyle-parse",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/cvpr52733.2024.00889",
+    "title": "Rethinking FID: Towards a Better Evaluation Metric for Image Generation",
+    "year": 2024,
+    "first_author": "Jayasumana",
+    "container": "2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "type": "proceedings-article",
+    "score": 64.66479
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "Zhenyi Wang, Enneng Yang, Li Shen, and Heng Huang. A comprehensive survey of forgetting in deep learning beyond continual learning. IEEE Transactions on Pattern Analysis and Machine Intelligence, 2024. 2",
+   "title": "A comprehensive survey of forgetting in deep learning beyond continual learning",
+   "authors": [
+    "Wang",
+    "Yang",
+    "Shen",
+    "Huang"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+   "type": "article-journal",
+   "parser": "anystyle-parse",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/tpami.2024.3498346/mm1",
+    "title": "A Comprehensive Survey of Forgetting in Deep Learning Beyond Continual Learning_supp1-3498346.pdf",
+    "year": 2024,
+    "first_author": "Wang",
+    "container": "",
+    "type": "component",
+    "score": 69.78798
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.727,
+    "partial_ratio": 83.50515463917526,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 16,
+   "raw": "YiMin Wen, Xiang Liu, and Hang Yu. Adaptive tree-like neural network: Overcoming catastrophic forgetting to classify streaming data with concept drifts. Knowledge-Based Systems, 293:111636, 2024. 2",
+   "title": "Adaptive tree-like neural network: Overcoming catastrophic forgetting to classify streaming data with concept drifts",
+   "authors": [
+    "Wen",
+    "Liu",
+    "Yu"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Knowledge-Based Systems",
+   "type": "article-journal",
+   "parser": "anystyle-parse",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.knosys.2024.111636",
+    "title": "Adaptive tree-like neural network: Overcoming catastrophic forgetting to classify streaming data with concept drifts",
+    "year": 2024,
+    "first_author": "Wen",
+    "container": "Knowledge-Based Systems",
+    "type": "journal-article",
+    "score": 105.89009
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 17,
+   "raw": "Ruihan Wu, Chhavi Yadav, Russ Salakhutdinov, and Kamalika Chaudhuri. Evaluating deep unlearning in large language models. arXiv preprint arXiv:2410.15153, 2024. 1",
+   "title": "Evaluating deep unlearning in large language models",
+   "authors": [
+    "Wu",
+    "Yadav",
+    "Salakhutdinov",
+    "Chaudhuri"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": "2410.15153",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-parse",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2410.15153",
+    "title": "Evaluating Deep Unlearning in Large Language Models",
+    "year": 2024,
+    "first_author": "Ruihan Wu"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 18,
+   "raw": "Jie Xu, Zihan Wu, Cong Wang, and Xiaohua Jia. Machine unlearning: Solutions and challenges. IEEE Transactions on Emerging Topics in Computational Intelligence, 2024. 2",
+   "title": "Machine unlearning: Solutions and challenges",
+   "authors": [
+    "Xu",
+    "Wu",
+    "Wang",
+    "Jia"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE Transactions on Emerging Topics in Computational Intelligence",
+   "type": "article-journal",
+   "parser": "anystyle-parse",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/tetci.2024.3379240",
+    "title": "Machine Unlearning: Solutions and Challenges",
+    "year": 2024,
+    "first_author": "Xu",
+    "container": "IEEE Transactions on Emerging Topics in Computational Intelligence",
+    "type": "journal-article",
+    "score": 34.515705
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 19,
+   "raw": "Yuanshun Yao, Xiaojun Xu, and Yang Liu. Large language model unlearning. arXiv preprint arXiv:2310.10683, 2023.",
+   "title": "Large language model unlearning",
+   "authors": [
+    "Yao",
+    "Xu",
+    "Liu"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2310.10683",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-parse",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2310.10683",
+    "title": "Large Language Model Unlearning",
+    "year": 2023,
+    "first_author": "Yuanshun Yao"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 20,
+   "raw": "Yuanshun Yao, Xiaojun Xu, and Yang Liu. Large language model unlearning. Advances in Neural Information Processing Systems, 37:105425\u2013105475, 2024. 1",
+   "title": "Large language model unlearning",
+   "authors": [
+    "Yao",
+    "Xu",
+    "Liu"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems",
+   "type": "article-journal",
+   "parser": "anystyle-parse",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/079017-3346",
+    "title": "Large Language Model Unlearning",
+    "year": 2024,
+    "first_author": "Yao",
+    "container": "Advances in Neural Information Processing Systems 37",
+    "type": "proceedings-article",
+    "score": 40.642197
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 21,
+   "raw": "Ahmet Burak Yildirim, Vedat Baday, Erkut Erdem, Aykut Erdem, and Aysegul Dundar. Inst-inpaint: Instructing to remove objects with diffusion models. arXiv preprint arXiv:2304.03246, 2023. 1, 2, 5",
+   "title": "Inst-inpaint: Instructing to remove objects with diffusion models",
+   "authors": [
+    "Yildirim",
+    "Baday",
+    "Erdem",
+    "Erdem",
+    "Dundar"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2304.03246",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-parse",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2304.03246",
+    "title": "Inst-Inpaint: Instructing to Remove Objects with Diffusion Models",
+    "year": 2023,
+    "first_author": "Ahmet Burak Yildirim"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 22,
+   "raw": "Zhenyu Yu and Chee Seng Chan. Yuan: Yielding unblemished aesthetics through a unified network for visual imperfections removal in generated images. In Proceedings of the AAAI Conference on Artificial Intelligence, 2025. 1",
+   "title": "Yuan: Yielding unblemished aesthetics through a unified network for visual imperfections removal in generated images",
+   "authors": [
+    "Yu",
+    "Chan"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the AAAI Conference on Artificial Intelligence",
+   "type": "paper-conference",
+   "parser": "anystyle-parse",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1609/aaai.v39i9.33053",
+    "title": "Yuan: Yielding Unblemished Aesthetics Through a Unified Network for Visual Imperfections Removal in Generated Images",
+    "year": 2025,
+    "first_author": "Yu",
+    "container": "Proceedings of the AAAI Conference on Artificial Intelligence",
+    "type": "journal-article",
+    "score": 93.20502
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 23,
+   "raw": "Zhenyu Yu, Mohd Yamani Idna Idris, and Pei Wang. When cloud removal meets diffusion model in remote sensing. arXiv preprint arXiv:2504.14785, 2025. 2",
+   "title": "When cloud removal meets diffusion model in remote sensing",
+   "authors": [
+    "Yu",
+    "Idris",
+    "Wang"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": "2504.14785",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-parse",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2504.14785",
+    "title": "DC4CR: When Cloud Removal Meets Diffusion Control in Remote Sensing",
+    "year": 2025,
+    "first_author": "Zhenyu Yu"
+   },
+   "metrics": {
+    "title_sim": 94.54545454545455,
+    "containment": 0.778,
+    "partial_ratio": 84.84848484848484,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 24,
+   "raw": "Gong Zhang, Kai Wang, Xingqian Xu, Zhangyang Wang, and Humphrey Shi. Forget-me-not: Learning to forget in text-to-image diffusion models. In Proceedings of the IEEE/CVF conference on computer vision and pattern recognition, pages 1755\u20131764, 2024. 2",
+   "title": "Forget-me-not: Learning to forget in text-to-image diffusion models",
+   "authors": [
+    "Zhang",
+    "Wang",
+    "Xu",
+    "Wang",
+    "Shi"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+   "type": "paper-conference",
+   "parser": "anystyle-parse",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/cvprw63382.2024.00182",
+    "title": "Forget-Me-Not: Learning to Forget in Text-to-Image Diffusion Models",
+    "year": 2024,
+    "first_author": "Zhang",
+    "container": "2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)",
+    "type": "proceedings-article",
+    "score": 65.087555
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 25,
+   "raw": "Yimeng Zhang, Xin Chen, Jinghan Jia, Yihua Zhang, Chongyu Fan, Jiancheng Liu, Mingyi Hong, Ke Ding, and Sijia Liu. Defensive unlearning with adversarial training for robust concept erasure in diffusion models. Advances in neural information processing systems, 37:36748\u201336776, 2024.",
+   "title": "Defensive unlearning with adversarial training for robust concept erasure in diffusion models",
+   "authors": [
+    "Zhang",
+    "Chen",
+    "Jia",
+    "Zhang",
+    "Fan",
+    "Liu",
+    "Hong",
+    "Ding",
+    "Liu"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in neural information processing systems",
+   "type": "article-journal",
+   "parser": "anystyle-parse",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/079017-1158",
+    "title": "Defensive Unlearning with Adversarial Training for Robust Concept Erasure in Diffusion Models",
+    "year": 2024,
+    "first_author": "Zhang",
+    "container": "Advances in Neural Information Processing Systems 37",
+    "type": "proceedings-article",
+    "score": 70.356834
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 26,
+   "raw": "Kairan Zhao, Meghdad Kurmanji, George-Octavian Ba\u0306rbulescu, Eleni Triantafillou, and Peter Triantafillou. What makes unlearning hard and what to do about it. Advances in Neural Information Processing Systems, 37: 12293\u201312333, 2024. 2",
+   "title": "What makes unlearning hard and what to do about it",
+   "authors": [
+    "Zhao",
+    "Kurmanji",
+    "B\u0103rbulescu",
+    "Triantafillou",
+    "Triantafillou"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems",
+   "type": "article-journal",
+   "parser": "anystyle-parse",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/079017-0394",
+    "title": "What makes unlearning hard and what to do about it",
+    "year": 2024,
+    "first_author": "Zhao",
+    "container": "Advances in Neural Information Processing Systems 37",
+    "type": "proceedings-article",
+    "score": 61.563267
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 27,
+   "raw": "Jingyu Zhu, Ruiqi Zhang, Licong Lin, and Song Mei. Choose your anchor wisely: Effective unlearning diffusion models via concept reconditioning. In Neurips Safe Generative AI Workshop 2024. 2 on Computer Vision and Pattern Recognition, pages 9307\u2013 9315, 2024. 1, 2, 5",
+   "title": "Choose your anchor wisely: Effective unlearning diffusion models via concept reconditioning",
+   "authors": [
+    "Zhu",
+    "Zhang",
+    "Lin",
+    "Mei"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Neurips Safe Generative AI Workshop 2024. 2 on Computer Vision and Pattern Recognition",
+   "type": "chapter",
+   "parser": "anystyle-parse",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.52202/085713-2761",
+      "title": "CURE: Concept Unlearning via Orthogonal Representation Editing in Diffusion Models",
+      "year": 2025,
+      "first_author": "Biswas",
+      "container": "Advances in Neural Information Processing Systems 38",
+      "type": "proceedings-article",
+      "score": 36.001526
+     },
+     "metrics": {
+      "title_sim": 66.66666666666666,
+      "containment": 0.5,
+      "partial_ratio": 51.85185185185186,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 28,
+   "raw": "Rena Kass, Grace Kumar, V Suzanne Klimberg, Lawrence Kass, Ronda Henry-Tillman, Anita Johnson, Maureen Colvert, Sarah Lane, David Harshfield, Soheila Korourian, et al. Clip migration in stereotactic biopsy. The American journal of surgery, 184(4):325\u2013331, 2002. 1",
+   "title": "Clip migration in stereotactic biopsy",
+   "authors": [
+    "Kass",
+    "Grace Kumar",
+    "Kass",
+    "Henry-Tillman",
+    "Johnson",
+    "Colvert",
+    "Lane",
+    "Harshfield",
+    "Korourian"
+   ],
+   "year": 2002,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "The American journal of surgery",
+   "type": "article-journal",
+   "parser": "anystyle-parse",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/s0002-9610(02)00952-2",
+    "title": "Clip migration in stereotactic biopsy",
+    "year": 2002,
+    "first_author": "Kass",
+    "container": "The American Journal of Surgery",
+    "type": "journal-article",
+    "score": 44.411537
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 29,
+   "raw": "Aditya Khosla, Nityananda Jayadevaprakash, Bangpeng Yao, and Fei-Fei Li. Novel dataset for fine-grained image categorization: Stanford dogs. In Proc. CVPR workshop on fine-grained visual categorization (FGVC), 2011. 5",
+   "title": "Novel dataset for fine-grained image categorization: Stanford dogs",
+   "authors": [
+    "Khosla",
+    "Jayadevaprakash",
+    "Yao",
+    "Li"
+   ],
+   "year": 2011,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proc. CVPR workshop on fine-grained visual categorization (FGVC",
+   "type": "paper-conference",
+   "parser": "anystyle-parse",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/bigmm.2018.8499094",
+      "title": "PFNet: A Novel Part Fusion Network for Fine-Grained Image Categorization",
+      "year": 2018,
+      "first_author": "Guo",
+      "container": "2018 IEEE Fourth International Conference on Multimedia Big Data (BigMM)",
+      "type": "proceedings-article",
+      "score": 34.82764
+     },
+     "metrics": {
+      "title_sim": 79.62962962962963,
+      "containment": 0.556,
+      "partial_ratio": 74.64788732394366,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 30,
+   "raw": "Alexander Kirillov, Eric Mintun, Nikhila Ravi, Hanzi Mao, Chloe Rolland, Laura Gustafson, Tete Xiao, Spencer Whitehead, Alexander C Berg, Wan-Yen Lo, et al. Segment anything. In Proceedings of the IEEE/CVF International Conference on Computer Vision, pages 4015\u20134026, 2023. 4",
+   "title": "Segment anything",
+   "authors": [
+    "Kirillov",
+    "Mintun",
+    "Ravi",
+    "Mao",
+    "Rolland",
+    "Gustafson",
+    "Xiao",
+    "Whitehead",
+    "Berg",
+    "Lo"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+   "type": "paper-conference",
+   "parser": "anystyle-parse",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/iccv51070.2023.00371",
+    "title": "Segment Anything",
+    "year": 2023,
+    "first_author": "Kirillov",
+    "container": "2023 IEEE/CVF International Conference on Computer Vision (ICCV)",
+    "type": "proceedings-article",
+    "score": 29.76931
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 31,
+   "raw": "Nathaniel Li, Alexander Pan, Anjali Gopal, Summer Yue, Daniel Berrios, Alice Gatti, Justin D Li, Ann-Kathrin Dombrowski, Shashwat Goel, Long Phan, et al. The wmdp benchmark: Measuring and reducing malicious use with unlearning. arXiv preprint arXiv:2403.03218, 2024. 1",
+   "title": "The wmdp benchmark: Measuring and reducing malicious use with unlearning",
+   "authors": [
+    "Li",
+    "Pan",
+    "Gopal",
+    "Yue",
+    "Berrios",
+    "Gatti",
+    "Li",
+    "Dombrowski",
+    "Goel",
+    "Phan"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": "2403.03218",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-parse",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2403.03218",
+    "title": "The WMDP Benchmark: Measuring and Reducing Malicious Use With Unlearning",
+    "year": 2024,
+    "first_author": "Nathaniel Li"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 32,
+   "raw": "Sijia Liu, Yuanshun Yao, Jinghan Jia, Stephen Casper, Nathalie Baracaldo, Peter Hase, Yuguang Yao, Chris Yuhao Liu, Xiaojun Xu, Hang Li, et al. Rethinking machine unlearning for large language models. Nature Machine Intelligence, pages 1\u201314, 2025. 1",
+   "title": "Rethinking machine unlearning for large language models",
+   "authors": [
+    "Liu",
+    "Yao",
+    "Jia",
+    "Casper",
+    "Baracaldo",
+    "Hase",
+    "Yao",
+    "Liu",
+    "Xu",
+    "Li"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature Machine Intelligence",
+   "type": "article-journal",
+   "parser": "anystyle-parse",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/s42256-025-00985-0",
+    "title": "Rethinking machine unlearning for large language models",
+    "year": 2025,
+    "first_author": "Liu",
+    "container": "Nature Machine Intelligence",
+    "type": "journal-article",
+    "score": 41.820072
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 33,
+   "raw": "Zheyuan Liu, Guangyao Dou, Zhaoxuan Tan, Yijun Tian, and Meng Jiang. Towards safer large language models through machine unlearning. arXiv preprint arXiv:2402.10058, 2024. 1",
+   "title": "Towards safer large language models through machine unlearning",
+   "authors": [
+    "Liu",
+    "Dou",
+    "Tan",
+    "Tian",
+    "Jiang"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": "2402.10058",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-parse",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2402.10058",
+    "title": "Towards Safer Large Language Models through Machine Unlearning",
+    "year": 2024,
+    "first_author": "Zheyuan Liu"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 34,
+   "raw": "Ziyao Liu, Yu Jiang, Jiyuan Shen, Minyi Peng, Kwok-Yan Lam, Xingliang Yuan, and Xiaoning Liu. A survey on federated unlearning: Challenges, methods, and future directions. ACM Computing Surveys, 57(1):1\u201338, 2024. 2",
+   "title": "A survey on federated unlearning: Challenges, methods, and future directions",
+   "authors": [
+    "Liu",
+    "Jiang",
+    "Shen",
+    "Peng",
+    "Lam",
+    "Yuan",
+    "Liu"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "ACM Computing Surveys",
+   "type": "article-journal",
+   "parser": "anystyle-parse",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3679014",
+    "title": "A Survey on Federated Unlearning: Challenges, Methods, and Future Directions",
+    "year": 2025,
+    "first_author": "Liu",
+    "container": "ACM Computing Surveys",
+    "type": "journal-article",
+    "score": 50.6135
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 35,
+   "raw": "Robin Rombach, Andreas Blattmann, Dominik Lorenz, Patrick Esser, and Bjo\u0308rn Ommer. High-resolution image synthesis with latent diffusion models. In Proceedings of the IEEE/CVF conference on computer vision and pattern recognition, pages 10684\u201310695, 2022. 4",
+   "title": "High-resolution image synthesis with latent diffusion models",
+   "authors": [
+    "Rombach",
+    "Blattmann",
+    "Lorenz",
+    "Esser",
+    "Ommer"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+   "type": "paper-conference",
+   "parser": "anystyle-parse",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/cvpr52688.2022.01042",
+    "title": "High-Resolution Image Synthesis with Latent Diffusion Models",
+    "year": 2022,
+    "first_author": "Rombach",
+    "container": "2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "type": "proceedings-article",
+    "score": 55.710175
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 36,
+   "raw": "Vinith M Suriyakumar, Rohan Alur, Ayush Sekhari, Manish Raghavan, and Ashia C Wilson. Unstable unlearning: The hidden risk of concept resurgence in diffusion models. arXiv preprint arXiv:2410.08074, 2024. 2",
+   "title": "Unstable unlearning: The hidden risk of concept resurgence in diffusion models",
+   "authors": [
+    "Suriyakumar",
+    "Alur",
+    "Sekhari",
+    "Raghavan",
+    "Wilson"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": "2410.08074",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-parse",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2410.08074",
+    "title": "Unstable Unlearning: The Hidden Risk of Concept Resurgence in Diffusion Models",
+    "year": 2024,
+    "first_author": "Vinith M. Suriyakumar"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 37,
+   "raw": "Roman Suvorov, Elizaveta Logacheva, Anton Mashikhin, Anastasia Remizova, Arsenii Ashukha, Aleksei Silvestrov, Naejin Kong, Harshith Goka, Kiwoong Park, and Victor Lempitsky. Resolution-robust large mask inpainting with fourier convolutions. In Proceedings of the IEEE/CVF winter conference on applications of computer vision, pages 2149\u2013 2159, 2022. 4",
+   "title": "Resolution-robust large mask inpainting with fourier convolutions",
+   "authors": [
+    "Suvorov",
+    "Logacheva",
+    "Mashikhin",
+    "Remizova",
+    "Ashukha",
+    "Silvestrov",
+    "Kong",
+    "Goka",
+    "Park",
+    "Lempitsky"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the IEEE/CVF winter conference on applications of computer vision",
+   "type": "paper-conference",
+   "parser": "anystyle-parse",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/wacv51458.2022.00323",
+    "title": "Resolution-robust Large Mask Inpainting with Fourier Convolutions",
+    "year": 2022,
+    "first_author": "Suvorov",
+    "container": "2022 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)",
+    "type": "proceedings-article",
+    "score": 63.234924
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 38,
+   "raw": "Bozhong Tian, Xiaozhuan Liang, Siyuan Cheng, Qingbin Liu, Mengru Wang, Dianbo Sui, Xi Chen, Huajun Chen, and Ningyu Zhang. To forget or not? towards practical knowledge unlearning for large language models. arXiv preprint arXiv:2407.01920, 2024. 2",
+   "title": "To forget or not? towards practical knowledge unlearning for large language models",
+   "authors": [
+    "Tian",
+    "Liang",
+    "Cheng",
+    "Liu",
+    "Wang",
+    "Sui",
+    "Chen",
+    "Chen",
+    "Zhang"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": "2407.01920",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-parse",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2407.01920",
+    "title": "To Forget or Not? Towards Practical Knowledge Unlearning for Large Language Models",
+    "year": 2024,
+    "first_author": "Bozhong Tian"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 39,
+   "raw": "Catherine Wah, Steve Branson, Peter Welinder, Pietro Perona, and Serge Belongie. The caltech-ucsd birds-200-2011 dataset. 2011. 5 444 446 448 450 452 454 456 458 460 462 464 466 468 470 472 474 476 478 480 482 484 486 488 490 492 494",
+   "title": "The caltech-ucsd birds-200-2011 dataset",
+   "authors": [
+    "Wah",
+    "Branson",
+    "Welinder",
+    "Perona",
+    "Belongie"
+   ],
+   "year": 2011,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-parse",
+   "verdict": "VERIFIED",
+   "via": "openalex",
+   "match": {
+    "source": "openalex",
+    "id": "https://openalex.org/W1797268635",
+    "doi": "https://doi.org/10.57702/i9oeewf6",
+    "title": "Caltech-UCSD Birds-200-2011 Dataset",
+    "year": 2024,
+    "first_author": "Catherine Wah",
+    "container": "CaltechAUTHORS (California Institute of Technology)",
+    "type": "article"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.4016/37270.01",
+      "title": "UCSD Division of Biomedical Infomatics Seminar, 09/30/2011",
+      "year": 2011,
+      "first_author": null,
+      "container": "SciVee",
+      "type": "dataset",
+      "score": 30.298683
+     },
+     "metrics": {
+      "title_sim": 54.166666666666664,
+      "containment": 0.333,
+      "partial_ratio": 42.10526315789473,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ]
+  }
+ ]
+}

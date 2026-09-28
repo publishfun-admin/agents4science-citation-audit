@@ -1,0 +1,48 @@
+{
+ "pdf": "111_ary6ztIHwA.pdf",
+ "n_entries": 1,
+ "fallback": false,
+ "error": null,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "126   Y. Zheng et al. Learning dynamically-structured priors via hypernetworks. In Advances in Neural 127     Information Processing Systems, 2023.",
+   "title": "Learning dynamically-structured priors via hypernetworks",
+   "authors": [
+    "Zheng"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural 127 Information Processing Systems",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.23919/eusipco55093.2022.9909847",
+      "title": "Time-Varying Graph Learning Under Structured Temporal Priors",
+      "year": 2022,
+      "first_author": "Zhang",
+      "container": "2022 30th European Signal Processing Conference (EUSIPCO)",
+      "type": "proceedings-article",
+      "score": 24.775126
+     },
+     "metrics": {
+      "title_sim": 67.24137931034483,
+      "containment": 0.429,
+      "partial_ratio": 60.3448275862069,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  }
+ ]
+}

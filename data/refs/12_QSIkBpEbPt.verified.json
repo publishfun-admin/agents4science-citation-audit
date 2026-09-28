@@ -1,0 +1,519 @@
+{
+ "pdf": "12_QSIkBpEbPt.pdf",
+ "n_entries": 14,
+ "fallback": false,
+ "error": null,
+ "entries": [
+  {
+   "junk": true,
+   "idx": 1,
+   "raw": "285    [1] Leonardo de Moura, Soonho Kong, Jeremy Avigad, Floris van Doorn, and Jakob von Raumer.",
+   "title": null,
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/978-3-319-21401-6_26",
+      "title": "The Lean Theorem Prover (System Description)",
+      "year": 2015,
+      "first_author": "de Moura",
+      "container": "Lecture Notes in Computer Science",
+      "type": "book-chapter",
+      "score": 58.88069
+     },
+     "metrics": {
+      "title_sim": 0,
+      "containment": 0.0,
+      "partial_ratio": 38.095238095238095,
+      "year_ok": true,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "286        The lean theorem prover (system description). In International Conference on Automated 287        Deduction, pages 378\u2013388. Springer, 2015.",
+   "title": "The lean theorem prover (system description",
+   "authors": [],
+   "year": 2015,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Conference on Automated 287 Deduction",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/978-3-319-21401-6_26",
+    "title": "The Lean Theorem Prover (System Description)",
+    "year": 2015,
+    "first_author": "de Moura",
+    "container": "Lecture Notes in Computer Science",
+    "type": "book-chapter",
+    "score": 41.140907
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "288    [2] DeepMind. Advanced version of gemini with deep think officially achieves gold-medal standard 289        at the international mathematical olympiad. Nature AI, 2025.",
+   "title": "Advanced version of gemini with deep think officially achieves gold-medal standard 289 at the international mathematical olympiad",
+   "authors": [],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature AI",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1142/9789819808496_0010",
+    "title": "International Mathematical Olympiad",
+    "year": 2025,
+    "first_author": null,
+    "container": "Mathematical Olympiad Series",
+    "type": "book-chapter",
+    "score": 33.683083
+   },
+   "metrics": {
+    "title_sim": 42.6829268292683,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": null
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "290    [3] Siemion Fajtlowicz. On conjectures of graffiti. Discrete Mathematics, 72(1-3):113\u2013138, 1988.",
+   "title": "On conjectures of graffiti",
+   "authors": [
+    "Fajtlowicz"
+   ],
+   "year": 1988,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Discrete Mathematics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/0012-365x(88)90199-9",
+    "title": "On conjectures of Graffiti",
+    "year": 1988,
+    "first_author": "Fajtlowicz",
+    "container": "Discrete Mathematics",
+    "type": "journal-article",
+    "score": 49.66321
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "291    [4] Laura Kovacs and Andrei Voronkov. First-order theorem proving and vampire. In International 292        Conference on Computer Aided Verification, pages 1\u201335. Springer, 2013.",
+   "title": "First-order theorem proving and vampire",
+   "authors": [
+    "Kovacs",
+    "Voronkov"
+   ],
+   "year": 2013,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International 292 Conference on Computer Aided Verification",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/978-3-642-39799-8_1",
+    "title": "First-Order Theorem Proving and Vampire",
+    "year": 2013,
+    "first_author": "Kov\u00e1cs",
+    "container": "Lecture Notes in Computer Science",
+    "type": "book-chapter",
+    "score": 47.096596
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "293    [5] LeanConjecturer Team. Automatic generation of mathematical conjectures for theorem proving. 294        arXiv preprint arXiv:2506.22005, 2025.",
+   "title": "5] LeanConjecturer Team. Automatic generation of mathematical conjectures for theorem proving",
+   "authors": [],
+   "year": 2025,
+   "doi": null,
+   "arxiv": "2506.22005",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2506.22005",
+    "title": "LeanConjecturer: Automatic Generation of Mathematical Conjectures for Theorem Proving",
+    "year": 2025,
+    "first_author": "Naoto Onda"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 94.04761904761905,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "295    [6] Douglas B. Lenat. Automated mathematician. In Proceedings of IJCAI-77, pages 570\u2013576, 296        1977.",
+   "title": "Automated mathematician",
+   "authors": [
+    "Lenat"
+   ],
+   "year": 1977,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of IJCAI-77",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1093/anb/9780198606697.article.1302469",
+      "title": "Morse, Marston (1892-1977), mathematician",
+      "year": 2000,
+      "first_author": "Zund",
+      "container": "American National Biography Online",
+      "type": "reference-entry",
+      "score": 25.533184
+     },
+     "metrics": {
+      "title_sim": 72.22222222222223,
+      "containment": 0.4,
+      "partial_ratio": 54.054054054054056,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "297    [7] Aitor Lewkowycz, Anders Andreassen, David Dohan, Ethan Dyer, Henryk Michalewski, Vinay 298        Ramasesh, Ambrose Slone, Cem Anil, Imanol Schlag, Theo Gutman-Solo, et al. Solving 299        quantitative reasoning problems with language models. arXiv preprint arXiv:2206.14858, 2022.",
+   "title": "Solving 299 quantitative reasoning problems with language models",
+   "authors": [
+    "Aitor Lewkowycz, Anders Andreassen, David Dohan, Ethan Dyer, Henryk Michalewski, Vinay 298 Ramasesh, Ambrose Slone, Cem Anil, Imanol Schlag, Theo Gutman-Solo, et al."
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": "2206.14858",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2206.14858",
+    "title": "Solving Quantitative Reasoning Problems with Language Models",
+    "year": 2022,
+    "first_author": "Aitor Lewkowycz"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 93.33333333333333,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "300    [8] OEIS Foundation Inc. The on-line encyclopedia of integer sequences. https://oeis.org, 301        2025. 302    [9] Gal Raayoni, Shahar Gottlieb, Yoav Manor, George Pisha, Yehonatan Harris, Uri Mendlovic, 303        Dor Haviv, Yair Hadad, and Ido Kaminer. Generating conjectures on fundamental constants",
+   "title": null,
+   "authors": [],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://oeis.org"
+   ],
+   "container": "8] OEIS Foundation Inc. The on-line encyclopedia of integer sequences",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED_URL",
+   "via": "url",
+   "url_status": {
+    "https://oeis.org": 200
+   },
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1038/s41586-021-03229-4",
+      "title": "Generating conjectures on fundamental constants with the Ramanujan Machine",
+      "year": 2021,
+      "first_author": "Raayoni",
+      "container": "Nature",
+      "type": "journal-article",
+      "score": 126.1605
+     },
+     "metrics": {
+      "title_sim": 0,
+      "containment": 0.667,
+      "partial_ratio": 77.68595041322314,
+      "year_ok": false,
+      "first_author_ok": true
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "304        with the ramanujan machine. Nature, 590(7844):67\u201373, 2021.",
+   "title": "with the ramanujan machine",
+   "authors": [],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/s11139-020-00339-x",
+      "title": "On three identities of Ramanujan",
+      "year": 2021,
+      "first_author": "Hong",
+      "container": "The Ramanujan Journal",
+      "type": "journal-article",
+      "score": 21.961756
+     },
+     "metrics": {
+      "title_sim": 58.62068965517241,
+      "containment": 0.333,
+      "partial_ratio": 59.25925925925925,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "305   [10] Michael Schmidt and Hod Lipson. Distilling free-form natural laws from experimental data. 306        Science, 324(5923):81\u201385, 2009.",
+   "title": "Distilling free-form natural laws from experimental data",
+   "authors": [
+    "Schmidt",
+    "Lipson"
+   ],
+   "year": 2009,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "306 Science",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1126/science.1165893",
+    "title": "Distilling Free-Form Natural Laws from Experimental Data",
+    "year": 2009,
+    "first_author": "Schmidt",
+    "container": "Science",
+    "type": "journal-article",
+    "score": 66.2917
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "307   [11] Neil J. A. Sloane. The on-line encyclopedia of integer sequences. Notices of the American 308        Mathematical Society, 50(8):912\u2013915, 2003.",
+   "title": "The on-line encyclopedia of integer sequences",
+   "authors": [
+    "Sloane"
+   ],
+   "year": 2003,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Notices of the American 308 Mathematical Society",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1515/9780691197944-009",
+    "title": "The On-Line Encyclopedia of Integer Sequences",
+    "year": 2019,
+    "first_author": "Sloane",
+    "container": "The Best Writing on Mathematics 2019",
+    "type": "book-chapter",
+    "score": 43.963203
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "309   [12] Richard P. Stanley. Enumerative Combinatorics: Volume 1. Cambridge University Press, 2012.",
+   "title": "Stanley",
+   "authors": [
+    "Richard"
+   ],
+   "year": 2012,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Enumerative Combinatorics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1090//mbk/100/16",
+      "title": "Lessons I learned from Richard\n                    Stanley",
+      "year": 2016,
+      "first_author": "Propp",
+      "container": "The Mathematical Legacy of Richard P.\n                    Stanley",
+      "type": "book-chapter",
+      "score": 23.18438
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 0.5,
+      "partial_ratio": 54.83870967741935,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "310   [13] Silviu-Marius Udrescu and Max Tegmark. Ai feynman: A physics-inspired method for symbolic 311        regression. Science Advances, 6(16):eaay2631, 2020.",
+   "title": "13] Silviu-Marius Udrescu and Max Tegmark. Ai feynman: A physics-inspired method for symbolic 311 regression",
+   "authors": [],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Science Advances",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1126/sciadv.aay2631",
+    "title": "AI Feynman: A physics-inspired method for symbolic regression",
+    "year": 2020,
+    "first_author": "Udrescu",
+    "container": "Science Advances",
+    "type": "journal-article",
+    "score": 85.21804
+   },
+   "metrics": {
+    "title_sim": 72.72727272727273,
+    "containment": 1.0,
+    "partial_ratio": 93.33333333333333,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  }
+ ]
+}

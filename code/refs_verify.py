@@ -8,10 +8,10 @@ from rapidfuzz import fuzz
 from unidecode import unidecode
 
 UA = 'publishfun-firstpaper-research/0.1 (mailto:admin@publish.fun)'
-CACHE_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'data', 'cache', 'api_cache.json')
+CACHE_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'data', 'cache', 'api_cache_%s.json' % os.environ.get('SHARD', '0'))
 _cache = json.load(open(CACHE_PATH)) if os.path.exists(CACHE_PATH) else {}
 _last = {}
-GAPS = {'api.crossref.org': 0.3, 'api.openalex.org': 0.15, 'export.arxiv.org': 3.2, 'dblp.org': 1.0, 'doi.org': 0.3}
+GAPS = {'api.crossref.org': 0.6, 'api.openalex.org': 0.6, 'export.arxiv.org': 9.0, 'dblp.org': 2.0, 'doi.org': 0.6, 'api.semanticscholar.org': 3.5, 'openlibrary.org': 1.0, 'www.googleapis.com': 1.5}
 
 def _save_cache():
     json.dump(_cache, open(CACHE_PATH, 'w'))

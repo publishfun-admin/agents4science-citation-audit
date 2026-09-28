@@ -1,0 +1,46 @@
+{
+ "pdf": "101_QXyeIJ9PQ3.pdf",
+ "n_entries": 1,
+ "fallback": false,
+ "error": null,
+ "entries": [
+  {
+   "junk": true,
+   "idx": 1,
+   "raw": "Model                                          Detected Error command-a-03-2025                                      + command-r                                              + gemini-2.5-flash                                       + gemini-2.5-pro                                         + deepseek-ai DeepSeek-R1-0528                           -deepseek-ai DeepSeek-R1                                -deepseek-ai DeepSeek-V3                                -meta-llama Meta-Llama-3.1-405B-Instruct                -meta-llama Meta-Llama-3.1-70B-Instruct                 -meta-llama Meta-Llama-3.1-8B-Instruct                  -openai gpt-oss-120b                                    -Total Detection Rate                             4/11 (36.4%)",
+   "title": "Model Detected Error command-a-03-2025 + command-r + gemini-2.5-flash + gemini-2.5-pro + deepseek-ai DeepSeek-R1-0528 -deepseek-ai DeepSeek-R1 -deepseek-ai DeepSeek-V3 -meta-llama Meta-Llama-3.1-405B-Instruct -meta-llama Meta-Llama-3.1-70B-Instruct -meta-llama Meta-Llama-3.1-8B-Instruct -openai gpt-oss-120b -Total Detection Rate 4/11",
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.5231269",
+      "title": "Identification of Environmental Microplastics Using Large Language Models: Deepseek-R1-Distill-Llama-8b, Gpt-4o, and Gpt-4o-Mini",
+      "year": 2025,
+      "first_author": "Yang",
+      "container": "",
+      "type": "posted-content",
+      "score": 200.4208
+     },
+     "metrics": {
+      "title_sim": 33.70786516853933,
+      "containment": 0.333,
+      "partial_ratio": 42.400000000000006,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  }
+ ]
+}

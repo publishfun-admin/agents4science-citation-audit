@@ -1,0 +1,238 @@
+{
+ "pdf": "20_sEnMMnlztf.pdf",
+ "n_entries": 6,
+ "fallback": false,
+ "error": null,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "292   [1] Zhang, X. Q. (2025). Unified Field Theory (Academic Edition). Hope Grace Publishing.",
+   "title": "Unified Field Theory",
+   "authors": [
+    "Zhang"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.2139/ssrn.5037504",
+    "title": "Unified Field Theory",
+    "year": 2025,
+    "first_author": "Zhang",
+    "container": "",
+    "type": "posted-content",
+    "score": 33.442726
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "293   [2] Peskin, M. E., & Schroeder, D. V. (1995). An Introduction to Quantum Field Theory. Westview 294   Press.",
+   "title": "An Introduction to Quantum Field Theory",
+   "authors": [
+    "Peskin",
+    "Schroeder"
+   ],
+   "year": 1995,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1201/9780429503559",
+    "title": "An Introduction To Quantum Field Theory",
+    "year": 2018,
+    "first_author": "Peskin",
+    "container": "",
+    "type": "book",
+    "score": 43.395885
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "295   [3] Wang, H., Fu, T., Du, Y., Gao, W., Huang, K., Liu, Z., . . . & Tang, J. (2023). Scientific discovery 296   in the age of artificial intelligence. Nature, 620(7972), 47-60.",
+   "title": "Scientific discovery 296 in the age of artificial intelligence",
+   "authors": [
+    "Wang",
+    "Fu",
+    "Du",
+    "Gao",
+    "Huang",
+    "Liu",
+    "Tang"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.62891/54fe0b5d",
+      "title": "The Fifth Paradigm: Scientific Discovery in the Age of Autonomous Artificial Intelligence",
+      "year": 2025,
+      "first_author": "Henrique do Nascimento Oliveira",
+      "container": "",
+      "type": "posted-content",
+      "score": 37.764828
+     },
+     "metrics": {
+      "title_sim": 96.66666666666667,
+      "containment": 0.625,
+      "partial_ratio": 73.86363636363636,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "297   [4] McMullin, E. (1976). The fertility of theory and the unit for appraisal in science. In R. S. Cohen, 298   P. K. Feyerabend, & M. W. Wartofsky (Eds.), Essays in memory of Imre Lakatos (pp. 395-432). 299   Springer.",
+   "title": "The fertility of theory and the unit for appraisal in science",
+   "authors": [
+    "McMullin"
+   ],
+   "year": 1976,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Essays in memory of Imre Lakatos",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/978-94-010-1451-9_25",
+    "title": "The Fertility of Theory and the Unit for Appraisal in Science",
+    "year": 1976,
+    "first_author": "McMullin",
+    "container": "Boston Studies in the Philosophy of Science",
+    "type": "book-chapter",
+    "score": 48.355762
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "300   [5] Box, G. E., Hunter, W. G., & Hunter, J. S. (2005). Statistics for experimenters: design, innovation, 301   and discovery. John Wiley & Sons.",
+   "title": "Statistics for experimenters: design, innovation, 301 and discovery",
+   "authors": [
+    "Box",
+    "Hunter",
+    "Hunter"
+   ],
+   "year": 2005,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1198/tech.2006.s379",
+    "title": "Statistics for Experimenters: Design, Innovation and Discovery",
+    "year": 2006,
+    "first_author": "Pigeon",
+    "container": "Technometrics",
+    "type": "journal-article",
+    "score": 40.614697
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 93.33333333333333,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "302   [6] Zhang, X., & Xu, Y. (2025). Gravitational field and object motion generated by electromagnetic 303   changes. Xinjiang Iron and Steel, 173(1), 45-47. [In Chinese]",
+   "title": "Gravitational field and object motion generated by electromagnetic 303 changes",
+   "authors": [
+    "Zhang",
+    "Xu"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Xinjiang Iron and Steel",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.2139/ssrn.5389995",
+    "title": "Gravitational Field and Object Motion Generated by Electromagnetic Changes",
+    "year": 2025,
+    "first_author": "Zhang",
+    "container": "",
+    "type": "posted-content",
+    "score": 66.48021
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 94.5945945945946,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  }
+ ]
+}

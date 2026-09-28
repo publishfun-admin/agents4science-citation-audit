@@ -1,0 +1,1054 @@
+{
+ "pdf": "22_ycBbvnXPfB.pdf",
+ "n_entries": 25,
+ "fallback": false,
+ "error": null,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "106   Ananthanarayanan, R., et al. (2023). Autonomous discovery in materials science with large language models. 107   Nature Reviews Materials, 8(2), 123\u2013135.",
+   "title": "Autonomous discovery in materials science with large language models",
+   "authors": [
+    "Ananthanarayanan"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "107 Nature Reviews Materials",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1039/d5dd00578g",
+      "title": "Large language models for porous materials: from text mining to autonomous laboratory",
+      "year": 2026,
+      "first_author": "Han",
+      "container": "Digital Discovery",
+      "type": "journal-article",
+      "score": 34.717083
+     },
+     "metrics": {
+      "title_sim": 76.36363636363636,
+      "containment": 0.556,
+      "partial_ratio": 54.794520547945204,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "108   Bardzell, S. (2010). Feminist HCI: Taking stock and outlining an agenda for design. Proceedings of the SIGCHI 109   Conference on Human Factors in Computing Systems, 1301\u20131310.",
+   "title": "Feminist HCI: Taking stock and outlining an agenda for design",
+   "authors": [
+    "Bardzell"
+   ],
+   "year": 2010,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the SIGCHI 109 Conference on Human Factors in Computing Systems",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/1753326.1753521",
+    "title": "Feminist HCI",
+    "year": 2010,
+    "first_author": "Bardzell",
+    "container": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems",
+    "type": "proceedings-article",
+    "score": 78.80707
+   },
+   "metrics": {
+    "title_sim": 33.333333333333336,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "110   Barocas, S., Hardt, M., & Narayanan, A. (2019). Fairness and Machine Learning: Limitations and Opportunities. 111   fairmlbook.org.",
+   "title": "Fairness and Machine Learning: Limitations and Opportunities",
+   "authors": [
+    "Barocas",
+    "Hardt",
+    "Narayanan"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1145/3531146.3533122",
+      "title": "REAL ML: Recognizing, Exploring, and Articulating Limitations of Machine Learning Research",
+      "year": 2022,
+      "first_author": "Smith",
+      "container": "2022 ACM Conference on Fairness Accountability and Transparency",
+      "type": "proceedings-article",
+      "score": 36.62842
+     },
+     "metrics": {
+      "title_sim": 73.5632183908046,
+      "containment": 0.375,
+      "partial_ratio": 49.42528735632183,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "112   Binns, R. (2018). Fairness in machine learning: Lessons from political philosophy. Proceedings of the 2018 113   Conference on Fairness, Accountability, and Transparency, 149\u2013159.",
+   "title": "Fairness in machine learning: Lessons from political philosophy",
+   "authors": [
+    "Binns"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 2018 113 Conference on Fairness, Accountability, and Transparency",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "openalex",
+   "match": {
+    "source": "openalex",
+    "id": "https://openalex.org/W2773523653",
+    "doi": "https://doi.org/10.48550/arxiv.1712.03586",
+    "title": "Fairness in Machine Learning: Lessons from Political Philosophy",
+    "year": 2017,
+    "first_author": "Reuben Binns",
+    "container": "arXiv (Cornell University)",
+    "type": "preprint"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.4044812",
+      "title": "Fairness of Ratemaking for Catastrophe Insurance: Lessons from Machine Learning",
+      "year": 2022,
+      "first_author": "Zhang",
+      "container": "SSRN Electronic Journal",
+      "type": "journal-article",
+      "score": 32.18251
+     },
+     "metrics": {
+      "title_sim": 76.0,
+      "containment": 0.571,
+      "partial_ratio": 52.56410256410257,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "114   Chen, T., et al. (2023). Towards autonomous scientific research agents. arXiv preprint arXiv:2306.03666.",
+   "title": "Towards autonomous scientific research agents",
+   "authors": [
+    "Chen"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2306.03666",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_resolves_title_mismatch",
+     "rec": {
+      "source": "arxiv",
+      "arxiv": "2306.03666",
+      "title": "Probing the Dark Dimension with Auger data",
+      "year": 2023,
+      "first_author": "Neena T. Noble"
+     },
+     "metrics": {
+      "title_sim": 36.7816091954023,
+      "containment": 0.0,
+      "partial_ratio": 40.476190476190474,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.61700/jbn2c5tcpv93w2419",
+      "title": "Building Autonomous AI Agents for Scientific Research",
+      "year": 2026,
+      "first_author": "Maestri",
+      "container": "",
+      "type": "report",
+      "score": 28.831484
+     },
+     "metrics": {
+      "title_sim": 90.2439024390244,
+      "containment": 0.8,
+      "partial_ratio": 62.264150943396224,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "115   D\u2019Ignazio, C., & Klein, L. F. (2020). Data Feminism. MIT Press.",
+   "title": "Data Feminism",
+   "authors": [
+    "D\u2019Ignazio",
+    "Klein"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1017/9789048542079.016",
+    "title": "Data Journalism: What\u2019s Feminism Got to Do With I.T.?",
+    "year": 2021,
+    "first_author": "D\u2019Ignazio",
+    "container": "The Data Journalism Handbook",
+    "type": "other",
+    "score": 32.011562
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.4,
+    "partial_ratio": 46.57534246575342,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "116   Dotson, K. (2014). Conceptualizing epistemic oppression. Social Epistemology, 28(2), 115\u2013138.",
+   "title": "Conceptualizing epistemic oppression",
+   "authors": [
+    "Dotson"
+   ],
+   "year": 2014,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Social Epistemology",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1080/02691728.2013.782585",
+    "title": "Conceptualizing Epistemic Oppression",
+    "year": 2014,
+    "first_author": "Dotson",
+    "container": "Social Epistemology",
+    "type": "journal-article",
+    "score": 53.511635
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "117   Fricker, M. (2007). Epistemic Injustice: Power and the Ethics of Knowing. Oxford University Press.",
+   "title": "Epistemic Injustice: Power and the Ethics of Knowing",
+   "authors": [
+    "Fricker"
+   ],
+   "year": 2007,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1093/acprof:oso/9780198237907.001.0001",
+    "title": "Epistemic Injustice",
+    "year": 2007,
+    "first_author": "Fricker",
+    "container": "",
+    "type": "book",
+    "score": 68.794914
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "118   Friedman, B., Kahn, P. H., & Borning, A. (2006). Value sensitive design and information systems. Human-119   computer interaction and management information systems: Foundations, 1, 348\u2013372.",
+   "title": "Value sensitive design and information systems. Human-119 computer interaction and management information systems",
+   "authors": [
+    "Friedman",
+    "Kahn",
+    "Borning"
+   ],
+   "year": 2006,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Foundations",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.4324/9781315703619",
+      "title": "Human-computer Interaction and Management Information Systems: Foundations",
+      "year": 2015,
+      "first_author": "Zhang",
+      "container": "",
+      "type": "book",
+      "score": 44.462643
+     },
+     "metrics": {
+      "title_sim": 91.04477611940298,
+      "containment": 1.0,
+      "partial_ratio": 94.52054794520548,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "120   Hardt, M., Price, E., & Srebro, N. (2016). Equality of opportunity in supervised learning. Advances in Neural 121   Information Processing Systems, 29, 3315\u20133323.",
+   "title": "Equality of opportunity in supervised learning",
+   "authors": [
+    "Hardt",
+    "Price",
+    "Srebro"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural 121 Information Processing Systems",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "openalex",
+   "match": {
+    "source": "openalex",
+    "id": "https://openalex.org/W2530395818",
+    "doi": "https://doi.org/10.48550/arxiv.1610.02413",
+    "title": "Equality of Opportunity in Supervised Learning",
+    "year": 2016,
+    "first_author": "Moritz Hardt",
+    "container": "arXiv (Cornell University)",
+    "type": "preprint"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.4159/9780674042872-009",
+      "title": "8 Equality of Opportunity for Health",
+      "year": 1998,
+      "first_author": null,
+      "container": "Equality of Opportunity",
+      "type": "book-chapter",
+      "score": 26.706917
+     },
+     "metrics": {
+      "title_sim": 77.96610169491525,
+      "containment": 0.667,
+      "partial_ratio": 75.0,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "122   Hevner, A. R., et al. (2004). Design science in information systems research. MIS Quarterly, 28(1), 75\u2013105.",
+   "title": "Design science in information systems research",
+   "authors": [
+    "Hevner"
+   ],
+   "year": 2004,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "MIS Quarterly",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/978-1-4419-5653-8_2",
+    "title": "Design Science Research in Information Systems",
+    "year": 2010,
+    "first_author": "Hevner",
+    "container": "Integrated Series in Information Systems",
+    "type": "book-chapter",
+    "score": 38.17048
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 80.43478260869566,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "123   Holstein, K., et al. (2019). Improving fairness in machine learning systems: What do industry practitioners 124   need? CHI Conference on Human Factors in Computing Systems, 1\u201316.",
+   "title": "Improving fairness in machine learning systems: What do industry practitioners 124 need?",
+   "authors": [
+    "Holstein"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "CHI Conference on Human Factors in Computing Systems",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3290605.3300830",
+    "title": "Improving Fairness in Machine Learning Systems",
+    "year": 2019,
+    "first_author": "Holstein",
+    "container": "Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems",
+    "type": "proceedings-article",
+    "score": 69.74871
+   },
+   "metrics": {
+    "title_sim": 69.6969696969697,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "125   Jacovi, A., et al. (2021). Formalizing trust in artificial intelligence. CHI Conference, 1\u201318.",
+   "title": "Formalizing trust in artificial intelligence",
+   "authors": [
+    "Jacovi"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "CHI Conference",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3442188.3445923",
+    "title": "Formalizing Trust in Artificial Intelligence",
+    "year": 2021,
+    "first_author": "Jacovi",
+    "container": "Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency",
+    "type": "proceedings-article",
+    "score": 47.34792
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "126   Kearns, M., et al. (2019). An empirical study of rich subgroup fairness. FAT, 100\u2013109.",
+   "title": "An empirical study of rich subgroup fairness",
+   "authors": [
+    "Kearns"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3287560.3287592",
+    "title": "An Empirical Study of Rich Subgroup Fairness for Machine Learning",
+    "year": 2019,
+    "first_author": "Kearns",
+    "container": "Proceedings of the Conference on Fairness, Accountability, and Transparency",
+    "type": "proceedings-article",
+    "score": 52.10761
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.714,
+    "partial_ratio": 79.33884297520662,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "127   Klar, T., et al. (2024). Multi-agent fairness auditing: A simulation study. arXiv preprint arXiv:2402.08522.",
+   "title": "Multi-agent fairness auditing: A simulation study",
+   "authors": [
+    "Klar"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2402.08522",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_resolves_title_mismatch",
+     "rec": {
+      "source": "arxiv",
+      "arxiv": "2402.08522",
+      "title": "Fairness Auditing with Multi-Agent Collaboration",
+      "year": 2024,
+      "first_author": "Martijn de Vos"
+     },
+     "metrics": {
+      "title_sim": 79.16666666666667,
+      "containment": 0.8,
+      "partial_ratio": 62.5,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.17918/00009019",
+      "title": "A simulation-based study of TCP fairness in multi-hop wireless networks",
+      "year": 2024,
+      "first_author": "Shah",
+      "container": "",
+      "type": "dissertation",
+      "score": 27.873348
+     },
+     "metrics": {
+      "title_sim": 81.48148148148148,
+      "containment": 0.444,
+      "partial_ratio": 50.70422535211267,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 16,
+   "raw": "128   Lee, M. K., et al. (2022). Working with machines: Impact of algorithmic management. ACM Transactions on 129   Computer-Human Interaction, 29(1), 1\u201334.",
+   "title": "Working with machines: Impact of algorithmic management",
+   "authors": [
+    "Lee"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "ACM Transactions on 129 Computer-Human Interaction",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/2702123.2702548",
+    "title": "Working with Machines",
+    "year": 2015,
+    "first_author": "Lee",
+    "container": "Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems",
+    "type": "proceedings-article",
+    "score": 31.958317
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 17,
+   "raw": "130   Medina, J. (2013). The Epistemology of Resistance. Oxford University Press.",
+   "title": "The Epistemology of Resistance",
+   "authors": [
+    "Medina"
+   ],
+   "year": 2013,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1093/acprof:oso/9780199929023.001.0001",
+    "title": "The Epistemology of Resistance",
+    "year": 2013,
+    "first_author": "Medina",
+    "container": "",
+    "type": "book",
+    "score": 30.869099
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 18,
+   "raw": "131   Mitchell, M., et al. (2019). Model cards for model reporting. FAT, 220\u2013229.",
+   "title": "Model cards for model reporting",
+   "authors": [
+    "Mitchell"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3287560.3287596",
+    "title": "Model Cards for Model Reporting",
+    "year": 2019,
+    "first_author": "Mitchell",
+    "container": "Proceedings of the Conference on Fairness, Accountability, and Transparency",
+    "type": "proceedings-article",
+    "score": 37.688667
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 19,
+   "raw": "132   Park, J., et al. (2023). Generative agents: Interactive simulacra of human behavior. arXiv preprint 133   arXiv:2304.03442.",
+   "title": "Generative agents: Interactive simulacra of human behavior",
+   "authors": [
+    "Park"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2304.03442",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2304.03442",
+    "title": "Generative Agents: Interactive Simulacra of Human Behavior",
+    "year": 2023,
+    "first_author": "Joon Sung Park"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 20,
+   "raw": "134   Rahwan, I., et al. (2019). Machine behaviour. Nature, 568(7753), 477\u2013486.",
+   "title": "Machine behaviour",
+   "authors": [
+    "Rahwan"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "openalex",
+   "match": {
+    "source": "openalex",
+    "id": "https://openalex.org/W4211017739",
+    "doi": "https://doi.org/10.1038/s41586-019-1138-y",
+    "title": "Machine behaviour",
+    "year": 2019,
+    "first_author": "Iyad Rahwan",
+    "container": "Nature",
+    "type": "article"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1162/isal_a_00473",
+      "title": "Experiments in Machine Behavior",
+      "year": 2021,
+      "first_author": "Rahwan",
+      "container": "The 2021 Conference on Artificial Life",
+      "type": "proceedings-article",
+      "score": 24.929993
+     },
+     "metrics": {
+      "title_sim": 66.66666666666667,
+      "containment": 0.333,
+      "partial_ratio": 67.74193548387098,
+      "year_ok": false,
+      "first_author_ok": true
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 21,
+   "raw": "135   Raji, I. D., et al. (2020). Closing the AI accountability gap. FAT, 33\u201344.",
+   "title": "Closing the AI accountability gap",
+   "authors": [
+    "Raji"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3351095.3372873",
+    "title": "Closing the AI accountability gap",
+    "year": 2020,
+    "first_author": "Raji",
+    "container": "Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency",
+    "type": "proceedings-article",
+    "score": 40.184208
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 22,
+   "raw": "136   Selbst, A. D., et al. (2019). Fairness and abstraction in sociotechnical systems. FAT, 59\u201368.",
+   "title": "Fairness and abstraction in sociotechnical systems",
+   "authors": [
+    "Selbst"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3287560.3287598",
+    "title": "Fairness and Abstraction in Sociotechnical Systems",
+    "year": 2019,
+    "first_author": "Selbst",
+    "container": "Proceedings of the Conference on Fairness, Accountability, and Transparency",
+    "type": "proceedings-article",
+    "score": 50.85022
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 23,
+   "raw": "137   Sloane, M., et al. (2022). Participation is not a design fix. FAT, 677\u2013689.",
+   "title": "Participation is not a design fix",
+   "authors": [
+    "Sloane"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3551624.3555285",
+    "title": "Participation Is not a Design Fix for Machine Learning",
+    "year": 2022,
+    "first_author": "Sloane",
+    "container": "Equity and Access in Algorithms, Mechanisms, and Optimization",
+    "type": "proceedings-article",
+    "score": 36.55006
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.667,
+    "partial_ratio": 74.74747474747474,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 24,
+   "raw": "138   Wooldridge, M. (2009). An Introduction to MultiAgent Systems. Wiley.",
+   "title": "An Introduction to MultiAgent Systems",
+   "authors": [
+    "Wooldridge"
+   ],
+   "year": 2009,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "openalex",
+   "match": {
+    "source": "openalex",
+    "id": "https://openalex.org/W2145790759",
+    "doi": null,
+    "title": "An Introduction to MultiAgent Systems",
+    "year": 2002,
+    "first_author": "Michael Wooldridge",
+    "container": null,
+    "type": "article"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/978-3-662-08872-2_1",
+      "title": "Introduction",
+      "year": 2004,
+      "first_author": "Bussmann",
+      "container": "Springer Series on Agent Technology",
+      "type": "book-chapter",
+      "score": 30.385725
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 1.0,
+      "partial_ratio": 100.0,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 25,
+   "raw": "139   Zou, J. Y., et al. (2023). Science as a multi-agent system. Patterns, 4(5), 100723.",
+   "title": "Science as a multi-agent system",
+   "authors": [
+    "Zou"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Patterns",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.4638537",
+      "title": "Multi Agent System Applied in Healthcare",
+      "year": 2023,
+      "first_author": "Thakur",
+      "container": "",
+      "type": "posted-content",
+      "score": 25.341604
+     },
+     "metrics": {
+      "title_sim": 73.46938775510205,
+      "containment": 0.6,
+      "partial_ratio": 58.97435897435898,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  }
+ ]
+}
