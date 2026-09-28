@@ -1,0 +1,588 @@
+{
+ "pdf": "101_QXyeIJ9PQ3.pdf",
+ "n_entries": 14,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 2,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "References [1] AAAI. AAAI launches AI-powered peer review assessment system. AAAI Press Release, 2025.",
+   "title": "References [1] AAAI. AAAI launches AI-powered peer review assessment system",
+   "authors": [],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1609/aaaiss.v5i1.35599",
+      "title": "Human-Compatible AI and AI-Powered Science: Insights from AAAI Spring Symposium and Beyond",
+      "year": 2025,
+      "first_author": "Kido",
+      "container": "Proceedings of the AAAI Symposium Series",
+      "type": "journal-article",
+      "score": 45.977882
+     },
+     "metrics": {
+      "title_sim": 51.006711409395976,
+      "containment": 0.222,
+      "partial_ratio": 49.122807017543856,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2] Bo-Christer Bjork and David Solomon. The publishing delay in scholarly peer-reviewed journals. Journal of Informetrics, 7(4):914\u2013923, 2013.",
+   "title": "The publishing delay in scholarly peer-reviewed journals",
+   "authors": [
+    "Bjork",
+    "Solomon"
+   ],
+   "year": 2013,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Informetrics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.joi.2013.09.001",
+    "title": "The publishing delay in scholarly peer-reviewed journals",
+    "year": 2013,
+    "first_author": "Bj\u00f6rk",
+    "container": "Journal of Informetrics",
+    "type": "journal-article",
+    "score": 53.823574
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3] Nicholas J.L. Brown and James A.J. Heathers. The GRIM test: A simple technique detects numerous anomalies in the reporting of results in psychology. Social Psychological and Personality Science, 8(4):363\u2013369, 2017.",
+   "title": "The GRIM test: A simple technique detects numerous anomalies in the reporting of results in psychology",
+   "authors": [
+    "Brown",
+    "Heathers"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Social Psychological and Personality Science",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.7287/peerj.preprints.2064v1",
+    "title": "The GRIM test: A simple technique detects numerous anomalies in the reporting of results in psychology",
+    "year": 2016,
+    "first_author": "Brown",
+    "container": "",
+    "type": "posted-content",
+    "score": 86.33312
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4] Yanan Chen. A comprehensive review of benchmarks for LLMs evaluation. arXiv:2412.01020, 2024.",
+   "title": "A comprehensive review of benchmarks for LLMs evaluation",
+   "authors": [
+    "Chen"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2412.01020",
+   "urls": [
+    "arXiv:2412.01020"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_resolves_title_mismatch",
+     "rec": {
+      "source": "arxiv",
+      "arxiv": "2412.01020",
+      "title": "AI Benchmarks and Datasets for LLM Evaluation",
+      "year": 2024,
+      "first_author": "Todor Ivanov"
+     },
+     "metrics": {
+      "title_sim": 71.42857142857143,
+      "containment": 0.5,
+      "partial_ratio": 68.88888888888889,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.5220/0014951000004021",
+      "title": "LLMs in Web Development Education: An Evaluation of Existing Benchmarks",
+      "year": 2026,
+      "first_author": "Knipp",
+      "container": "Proceedings of the 18th International Conference on Computer Supported Education",
+      "type": "proceedings-article",
+      "score": 30.967592
+     },
+     "metrics": {
+      "title_sim": 68.23529411764706,
+      "containment": 0.429,
+      "partial_ratio": 47.05882352941176,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    },
+    {
+     "step": "urls_not_live",
+     "url_status": {
+      "arXiv:2412.01020": "error"
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5] Confident AI. DeepEval: The open-source LLM evaluation framework. GitHub Repository, 2024.",
+   "title": "DeepEval: The open-source LLM evaluation framework",
+   "authors": [
+    "Confident"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.7317098",
+      "title": "WeClaw: An Open-Source Adaptive Runtime Framework for Tool-Augmented Desktop LLM Agents",
+      "year": 2026,
+      "first_author": "WENG",
+      "container": "",
+      "type": "posted-content",
+      "score": 31.258669
+     },
+     "metrics": {
+      "title_sim": 67.56756756756756,
+      "containment": 0.364,
+      "partial_ratio": 51.94805194805194,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[6] Anonymous Authors. DeepReview: Improving LLM-based paper review with human-like deep thinking process. arXiv:2503.08569, 2025.",
+   "title": "DeepReview: Improving LLM-based paper review with human-like deep thinking process",
+   "authors": [
+    "Authors"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": "2503.08569",
+   "urls": [
+    "arXiv:2503.08569"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2503.08569",
+    "title": "DeepReview: Improving LLM-based Paper Review with Human-like Deep Thinking Process",
+    "year": 2025,
+    "first_author": "Minjun Zhu"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[7] Peder Olesen Larsen and Markus von Ins. The rate of growth in scientific publication and the decline in coverage provided by science citation index. Scientometrics, 84(3):575\u2013603, 2010.",
+   "title": "The rate of growth in scientific publication and the decline in coverage provided by science citation index",
+   "authors": [
+    "Larsen",
+    "Ins"
+   ],
+   "year": 2010,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Scientometrics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/s11192-010-0202-z",
+    "title": "The rate of growth in scientific publication and the decline in coverage provided by Science Citation Index",
+    "year": 2010,
+    "first_author": "Larsen",
+    "container": "Scientometrics",
+    "type": "journal-article",
+    "score": 74.144104
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[8] Percy Liang et al. Is your paper being reviewed by an LLM? Investigating AI text detectability in peer review. arXiv:2410.03019, 2024.",
+   "title": "Is your paper being reviewed by an LLM? Investigating AI text detectability in peer review",
+   "authors": [
+    "Liang"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2410.03019",
+   "urls": [
+    "arXiv:2410.03019"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2410.03019",
+    "title": "Is Your Paper Being Reviewed by an LLM? Investigating AI Text Detectability in Peer Review",
+    "year": 2024,
+    "first_author": "Sungduk Yu"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[9] Michele B. Nuijten, Chris H.J. Hartgerink, Marcel A.L.M. van Assen, Sacha Epskamp, and Jelte M. Wicherts. The prevalence of statistical reporting errors in psychology (1985\u20132013). Behavior Research Methods, 48(4):1205\u20131226, 2016.",
+   "title": "The prevalence of statistical reporting errors in psychology (1985\u20132013",
+   "authors": [
+    "Nuijten",
+    "Hartgerink",
+    "Assen",
+    "Epskamp",
+    "Wicherts"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Behavior Research Methods",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.3758/s13428-015-0664-2",
+    "title": "The prevalence of statistical reporting errors in psychology (1985\u20132013)",
+    "year": 2016,
+    "first_author": "Nuijten",
+    "container": "Behavior Research Methods",
+    "type": "journal-article",
+    "score": 52.54843
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[10] Sakana AI. The AI scientist generates its first peer-reviewed scientific publication. Sakana AI Blog, 2025.",
+   "title": "The AI scientist generates its first peer-reviewed scientific publication",
+   "authors": [
+    "Sakana"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1038/d41586-026-00899-w",
+      "title": "How to build an AI scientist: first peer-reviewed paper spills the secrets",
+      "year": 2026,
+      "first_author": "Castelvecchi",
+      "container": "Nature",
+      "type": "journal-article",
+      "score": 39.00888
+     },
+     "metrics": {
+      "title_sim": 67.12328767123287,
+      "containment": 0.444,
+      "partial_ratio": 58.74125874125874,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "[11] Richard Smith. Peer review: a flawed process at the heart of science and journals. Journal of the Royal Society of Medicine, 99(4):178\u2013182, 2006.",
+   "title": "Peer review: a flawed process at the heart of science and journals",
+   "authors": [
+    "Smith"
+   ],
+   "year": 2006,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of the Royal Society of Medicine",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1201/9781003579748-10",
+    "title": "Peer review: a flawed process at the heart of science and journals",
+    "year": 2024,
+    "first_author": "Smith",
+    "container": "The Trouble with Medical Journals",
+    "type": "book-chapter",
+    "score": 55.221443
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "[12] Tjebbe van Leeuwen et al. AI tools are spotting errors in research papers: inside a growing movement. Nature, 636:123\u2013127, 2024.",
+   "title": "AI tools are spotting errors in research papers: inside a growing movement",
+   "authors": [
+    "Leeuwen"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/d41586-025-00648-5",
+    "title": "AI tools are spotting errors in research papers: inside a growing movement",
+    "year": 2025,
+    "first_author": "Gibney",
+    "container": "Nature",
+    "type": "journal-article",
+    "score": 69.99976
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "[13] Shuai Wang et al. AI for scientific integrity: detecting ethical breaches, errors, and misconduct in manuscripts. Frontiers in Artificial Intelligence, 8:1644098, 2025.",
+   "title": "AI for scientific integrity: detecting ethical breaches, errors, and misconduct in manuscripts",
+   "authors": [
+    "Wang"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Frontiers in Artificial Intelligence",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.3389/frai.2025.1644098",
+    "title": "AI for scientific integrity: detecting ethical breaches, errors, and misconduct in manuscripts",
+    "year": 2025,
+    "first_author": "Pellegrina",
+    "container": "Frontiers in Artificial Intelligence",
+    "type": "journal-article",
+    "score": 78.16312
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "[14] Ming Zhang et al.            MAMORX: An open-source multi-module ASPR system. arXiv:2410.12345, 2024.",
+   "title": "MAMORX: An open-source multi-module ASPR system",
+   "authors": [
+    "Zhang"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2410.12345",
+   "urls": [
+    "arXiv:2410.12345"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_resolves_title_mismatch",
+     "rec": {
+      "source": "arxiv",
+      "arxiv": "2410.12345",
+      "title": "A Data-driven Contact Estimation Method for Wheeled-Biped Robots",
+      "year": 2024,
+      "first_author": "\u00dc. Bora G\u00f6kbakan"
+     },
+     "metrics": {
+      "title_sim": 41.81818181818182,
+      "containment": 0.0,
+      "partial_ratio": 40.625,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.36227/techrxiv.20306478.v1",
+      "title": "BEATS: An Open-Source, High-Precision, Multi-Channel EEG Acquisition Tool System",
+      "year": 2022,
+      "first_author": "zou",
+      "container": "",
+      "type": "posted-content",
+      "score": 25.989248
+     },
+     "metrics": {
+      "title_sim": 73.97260273972603,
+      "containment": 0.364,
+      "partial_ratio": 50.349650349650354,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    },
+    {
+     "step": "urls_not_live",
+     "url_status": {
+      "arXiv:2410.12345": "error"
+     }
+    }
+   ],
+   "likely_match": null
+  }
+ ],
+ "second_pass": true
+}

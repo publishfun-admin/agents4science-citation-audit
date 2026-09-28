@@ -1,0 +1,460 @@
+{
+ "pdf": "110_VONPKc9hae.pdf",
+ "n_entries": 11,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 2,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "References S. Bharti et al. Human-centric activity recognition via sensor placement classification. In Proceedings of ACM Multimedia, pp. 456\u2013465, 2019.",
+   "title": "Human-centric activity recognition via sensor placement classification",
+   "authors": [
+    "Bharti"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of ACM Multimedia",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.5220/0010269100370048",
+      "title": "Optimal Sensor Placement for Human Activity Recognition with a Minimal Smartphone\u2013IMU Setup",
+      "year": 2021,
+      "first_author": "Rahn",
+      "container": "Proceedings of the 10th International Conference on Sensor Networks",
+      "type": "proceedings-article",
+      "score": 35.72387
+     },
+     "metrics": {
+      "title_sim": 76.10619469026548,
+      "containment": 0.5,
+      "partial_ratio": 54.94505494505495,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "C. Ciliberto et al. Opportunity dataset: A benchmark for activity recognition in complex environments. In Proceedings of the International Conference on Multimodal Interaction, pp. 91\u2013100, 2021.",
+   "title": "Opportunity dataset: A benchmark for activity recognition in complex environments",
+   "authors": [
+    "Ciliberto"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the International Conference on Multimodal Interaction",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.3389/fcomp.2021.792065",
+      "title": "Opportunity++: A Multimodal Dataset for Video- and Wearable, Object and Ambient Sensors-Based Human Activity Recognition",
+      "year": 2021,
+      "first_author": "Ciliberto",
+      "container": "Frontiers in Computer Science",
+      "type": "journal-article",
+      "score": 36.613655
+     },
+     "metrics": {
+      "title_sim": 73.01587301587301,
+      "containment": 0.417,
+      "partial_ratio": 52.910052910052904,
+      "year_ok": true,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": {
+    "source": "crossref",
+    "doi": "10.3389/fcomp.2021.792065",
+    "title": "Opportunity++: A Multimodal Dataset for Video- and Wearable, Object and Ambient Sensors-Based Human Activity Recognition",
+    "year": 2021,
+    "first_author": "Ciliberto",
+    "container": "Frontiers in Computer Science",
+    "type": "journal-article",
+    "score": 36.613655
+   }
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "A. He et al. Human activity recognition using deep learning: Challenges and opportunities. Journal of Wearable Computing, 12:45\u201359, 2024.",
+   "title": "Human activity recognition using deep learning: Challenges and opportunities",
+   "authors": [
+    "He"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Wearable Computing",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.2139/ssrn.5190298",
+    "title": "Human Activity Recognition Using Deep Learning",
+    "year": 2025,
+    "first_author": "Khatoon",
+    "container": "",
+    "type": "posted-content",
+    "score": 37.17234
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "R. Krishnaleela et al. 1d cnns for wearable sensor data: Adaptive normalization and feature extraction. In Proceedings of the International Workshop on Deep Learning for Sensor Networks, 2024.",
+   "title": "1d cnns for wearable sensor data: Adaptive normalization and feature extraction",
+   "authors": [
+    "Krishnaleela"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the International Workshop on Deep Learning for Sensor Networks",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.3390/math12020202",
+      "title": "Adaptive Normalization and Feature Extraction for Electrodermal Activity Analysis",
+      "year": 2024,
+      "first_author": "Viana-Matesanz",
+      "container": "Mathematics",
+      "type": "journal-article",
+      "score": 34.865086
+     },
+     "metrics": {
+      "title_sim": 77.16535433070867,
+      "containment": 0.571,
+      "partial_ratio": 71.60493827160495,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "D. Li et al. Grasp stability analysis: A gating approach for robust sensor adaptation. In Proceedings of the Robotics: Science and Systems (RSS) Conference, 2025.",
+   "title": "Grasp stability analysis: A gating approach for robust sensor adaptation",
+   "authors": [
+    "Li"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the Robotics: Science and Systems (RSS) Conference",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.70675/70477032z50fbz43c9z96daz27535dacb622",
+      "title": "Tactile Sensing for Grasp Stability and Adaptation",
+      "year": 2026,
+      "first_author": "Kitouni",
+      "container": "",
+      "type": "dissertation",
+      "score": 31.339218
+     },
+     "metrics": {
+      "title_sim": 75.0,
+      "containment": 0.6,
+      "partial_ratio": 62.365591397849464,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "H. Liu et al. Disentangling invariant features for robust activity recognition. Neural Computing, 10: 121\u2013135, 2024.",
+   "title": "Disentangling invariant features for robust activity recognition",
+   "authors": [
+    "Liu"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Neural Computing",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/icaaic60222.2024.10575350",
+      "title": "Human Activity Recognition Using Rotation Invariant Radial Fourier Profile Features",
+      "year": 2024,
+      "first_author": "Kamble",
+      "container": "2024 3rd International Conference on Applied Artificial Intelligence and Computing (ICAAIC)",
+      "type": "proceedings-article",
+      "score": 30.343338
+     },
+     "metrics": {
+      "title_sim": 75.72815533980582,
+      "containment": 0.444,
+      "partial_ratio": 50.39370078740157,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "P. Mekruksanich et al. Device placement effects in activity recognition systems. In Proceedings of the International Conference on Wearable Sensors, pp. 101\u2013110, 2024.",
+   "title": "Device placement effects in activity recognition systems",
+   "authors": [
+    "Mekruksanich"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the International Conference on Wearable Sensors",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1002/dac.3010",
+      "title": "Smartphone\u2010based activity recognition independent of device orientation and placement",
+      "year": 2016,
+      "first_author": "Guo",
+      "container": "International Journal of Communication Systems",
+      "type": "journal-article",
+      "score": 27.06405
+     },
+     "metrics": {
+      "title_sim": 79.56989247311827,
+      "containment": 0.5,
+      "partial_ratio": 58.82352941176471,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "V. Rajkumar et al. Robust wearable inertial sensing for activity recognition. Sensors, 20:789, 2020.",
+   "title": "Robust wearable inertial sensing for activity recognition",
+   "authors": [
+    "Rajkumar"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Sensors",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/dac18072.2020.9218568",
+      "title": "AdaSense: Adaptive Low-Power Sensing and Activity Recognition for Wearable Devices",
+      "year": 2020,
+      "first_author": "Neseem",
+      "container": "2020 57th ACM/IEEE Design Automation Conference (DAC)",
+      "type": "proceedings-article",
+      "score": 29.822939
+     },
+     "metrics": {
+      "title_sim": 83.6734693877551,
+      "containment": 0.444,
+      "partial_ratio": 57.71812080536913,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "B. Son et al. Universal orientation correction using gravity-based calibration. IEEE Transactions on Sensor Networks, 14:200\u2013210, 2025.",
+   "title": "Universal orientation correction using gravity-based calibration",
+   "authors": [
+    "Son"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE Transactions on Sensor Networks",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.3390/s25154609",
+      "title": "Universal Vector Calibration for Orientation-Invariant 3D Sensor Data",
+      "year": 2025,
+      "first_author": "Son",
+      "container": "Sensors",
+      "type": "journal-article",
+      "score": 36.807495
+     },
+     "metrics": {
+      "title_sim": 69.17293233082707,
+      "containment": 0.571,
+      "partial_ratio": 56.52173913043479,
+      "year_ok": true,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "P. Wimpff et al. Calibration-free online test-time adaptation for deep neural networks. In Proceedings of the International Conference on Learning Representations (ICLR) Workshops, 2023.",
+   "title": "Calibration-free online test-time adaptation for deep neural networks",
+   "authors": [
+    "Wimpff"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the International Conference on Learning Representations (ICLR",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/bci60775.2024.10480468",
+      "title": "Calibration-free online test-time adaptation for electroencephalography motor imagery decoding",
+      "year": 2024,
+      "first_author": "Wimpff",
+      "container": "2024 12th International Winter Conference on Brain-Computer Interface (BCI)",
+      "type": "proceedings-article",
+      "score": 51.17054
+     },
+     "metrics": {
+      "title_sim": 82.05128205128204,
+      "containment": 0.6,
+      "partial_ratio": 71.27659574468085,
+      "year_ok": true,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": {
+    "source": "crossref",
+    "doi": "10.1109/bci60775.2024.10480468",
+    "title": "Calibration-free online test-time adaptation for electroencephalography motor imagery decoding",
+    "year": 2024,
+    "first_author": "Wimpff",
+    "container": "2024 12th International Winter Conference on Brain-Computer Interface (BCI)",
+    "type": "proceedings-article",
+    "score": 51.17054
+   }
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "Y. Zhang et al. Adaptive multi-source unsupervised domain adaptation for wearable activity recognition. In Proceedings of ICLR Workshops, 2021.",
+   "title": "Adaptive multi-source unsupervised domain adaptation for wearable activity recognition",
+   "authors": [
+    "Zhang"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of ICLR Workshops",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3412382.3458788",
+    "title": "A Multi-source Unsupervised Domain Adaptation Method for Wearable Sensor based Human Activity Recognition",
+    "year": 2021,
+    "first_author": "Zhang",
+    "container": "Proceedings of the 20th International Conference on Information Processing in Sensor Networks (co-located with CPS-IoT Week 2021)",
+    "type": "proceedings-article",
+    "score": 51.653336
+   },
+   "metrics": {
+    "title_sim": 94.47852760736197,
+    "containment": 0.667,
+    "partial_ratio": 77.07317073170732,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  }
+ ]
+}

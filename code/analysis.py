@@ -29,7 +29,16 @@ def main():
     refs = load_refs()
     dec_path = 'data/adjudication/decisions.csv'
     dec = pd.read_csv(dec_path) if os.path.exists(dec_path) else pd.DataFrame(columns=['number', 'idx', 'category'])
-    refs = refs.merge(dec[['number', 'idx', 'category']], on=['number', 'idx'], how='left')
+    # consistency: a decision only applies if the entry it was made for still has the same (normalised) title after any re-parse
+    import unidecode
+    def _n(x): return re.sub(r'[^a-z0-9]+', ' ', unidecode.unidecode(str(x or '')).lower()).strip()
+    dec = dec.rename(columns={'title': 'dec_title'})
+    refs = refs.merge(dec[['number', 'idx', 'category', 'dec_title', 'note']], on=['number', 'idx'], how='left')
+    mism = refs[refs.category.notna() & refs.dec_title.notna() & refs.title.notna() & (refs.apply(lambda r: _n(r.dec_title) != _n(r.title), axis=1))]
+    if len(mism):
+        print(f'WARNING: {len(mism)} decisions no longer match their entry title after re-parse; ignoring them:', mism[['number','idx']].values.tolist()[:20])
+        refs.loc[mism.index, 'category'] = None
+    refs['corrupt_tags'] = refs.note.fillna('').str.findall(r'\[(title|authors|identifier|venue|year)\]').apply(lambda l: ','.join(sorted(set(l))) if isinstance(l, list) else '')
     ok = refs[~refs.junk].copy()
     ok['status'] = np.where(ok.verdict.isin(['VERIFIED', 'VERIFIED_URL']), 'VERIFIED',
                    np.where(ok.category.isin(['EXISTS', 'WEB_RESOURCE_EXISTS']), 'EXISTS',
@@ -124,6 +133,11 @@ def main():
     L.append('## Q6 Categories of adjudicated entries\n')
     adj = ok[ok.status.isin(['EXISTS', 'EXISTS_CORRUPTED', 'NOT_FOUND', 'UNADJUDICABLE'])]
     L.append(adj.status.value_counts().to_frame('n').to_markdown()); L.append('')
+    cor = ok[ok.status == 'EXISTS_CORRUPTED']
+    if len(cor):
+        from collections import Counter
+        tc = Counter(t for tags in cor.corrupt_tags for t in tags.split(',') if t)
+        L.append(f"Corrupted attributes among EXISTS_CORRUPTED entries (n={len(cor)}): " + ', '.join(f"{k}: {v}" for k, v in tc.most_common()) + '\n')
     nfd = ok[ok.status == 'NOT_FOUND']
     if len(nfd): L.append(f"NOT_FOUND entries carrying a DOI: {int(nfd.doi.notna().sum())}; an arXiv id: {int(nfd.arxiv.notna().sum())}; a URL: {int(nfd.has_url.sum())}; cited year >= 2025: {int((nfd.year >= 2025).sum())} of {len(nfd)}\n")
     open('paper/results_tables.md', 'w').write('\n'.join(L))

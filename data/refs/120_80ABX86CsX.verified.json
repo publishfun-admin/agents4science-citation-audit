@@ -1,0 +1,503 @@
+{
+ "pdf": "120_80ABX86CsX.pdf",
+ "n_entries": 12,
+ "fallback": false,
+ "error": null,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "[1] Swanson, D. R. (1986). Undiscovered public knowledge. The Library Quarterly, 56(2), 103\u2013118.",
+   "title": "Undiscovered public knowledge",
+   "authors": [
+    "Swanson"
+   ],
+   "year": 1986,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "The Library Quarterly",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1086/601720",
+    "title": "Undiscovered Public Knowledge",
+    "year": 1986,
+    "first_author": "Swanson",
+    "container": "The Library Quarterly",
+    "type": "journal-article",
+    "score": 42.718845
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2] Si, S., et al. (2021). Discovery of biomedical hypotheses using literature-based knowledge graphs. Nature Communications.",
+   "title": "Discovery of biomedical hypotheses using literature-based knowledge graphs",
+   "authors": [
+    "Si"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature Communications",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1201/b19129-22",
+      "title": "\u25fe Literature-Based Knowledge Discovery",
+      "year": 2016,
+      "first_author": null,
+      "container": "Big Data Analysis for Bioinformatics and Biomedical Discoveries",
+      "type": "book-chapter",
+      "score": 31.584633
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 1.0,
+      "partial_ratio": 77.77777777777779,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3] Henry, S., et al. (2022). Literature-based discovery with knowledge graphs: challenges and opportunities. Briefings in Bioinformatics.",
+   "title": "Literature-based discovery with knowledge graphs: challenges and opportunities",
+   "authors": [
+    "Henry"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Briefings in Bioinformatics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1162/99608f92.e45650b8",
+      "title": "Knowledge Graphs and COVID-19: Opportunities, Challenges, and Implementation",
+      "year": 2020,
+      "first_author": "Kejriwal",
+      "container": "Harvard Data Science Review",
+      "type": "journal-article",
+      "score": 29.463377
+     },
+     "metrics": {
+      "title_sim": 78.94736842105263,
+      "containment": 0.667,
+      "partial_ratio": 65.75342465753424,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4] Caicedo, J. C., et al. (2018). Data analysis strategies for image-based cell profiling. Current Opinion in Biotechnology.",
+   "title": "Data analysis strategies for image-based cell profiling",
+   "authors": [
+    "Caicedo"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Current Opinion in Biotechnology",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/nmeth.4397",
+    "title": "Data-analysis strategies for image-based cell profiling",
+    "year": 2017,
+    "first_author": "Caicedo",
+    "container": "Nature Methods",
+    "type": "journal-article",
+    "score": 27.740013
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5] Godinez, W. J., et al. (2017). Unsupervised feature learning for cell morphology analysis in high-content screening microscopy. Molecular Informatics.",
+   "title": "Unsupervised feature learning for cell morphology analysis in high-content screening microscopy",
+   "authors": [
+    "Godinez"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1101/395954",
+      "title": "Learning unsupervised feature representations for single cell microscopy images with paired cell inpainting",
+      "year": 2018,
+      "first_author": "Lu",
+      "container": "",
+      "type": "posted-content",
+      "score": 33.783676
+     },
+     "metrics": {
+      "title_sim": 71.06598984771574,
+      "containment": 0.545,
+      "partial_ratio": 55.140186915887845,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[6] Radford, A., et al. (2021). Learning transferable visual models from natural language supervision. ICML.",
+   "title": "Learning transferable visual models from natural language supervision",
+   "authors": [
+    "Radford"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.24963/ijcai.2024/235",
+      "title": "Contrastive Learning Drug Response Models from Natural Language Supervision",
+      "year": 2024,
+      "first_author": "Li",
+      "container": "Proceedings of the Thirty-ThirdInternational Joint Conference on Artificial Intelligence",
+      "type": "proceedings-article",
+      "score": 31.590694
+     },
+     "metrics": {
+      "title_sim": 83.05084745762711,
+      "containment": 0.625,
+      "partial_ratio": 73.33333333333334,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "6f870f7f02a8c59c3e23f407f3ef00dd1dcf8fc4",
+    "title": "Learning Transferable Visual Models From Natural Language Supervision",
+    "year": 2021,
+    "first_author": "Alec Radford",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "DBLP": "conf/icml/RadfordKHRGASAM21",
+     "ArXiv": "2103.00020",
+     "CorpusId": 231591445
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[7] Alayrac, J.-B., et al. (2022). Flamingo: a visual language model for few-shot learning. NeurIPS.",
+   "title": "Flamingo: a visual language model for few-shot learning",
+   "authors": [
+    "Alayrac"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/068431-1723",
+    "title": "Flamingo: A Visual Language Model for Few-Shot Learning",
+    "year": 2022,
+    "first_author": "Alayrac",
+    "container": "Advances in Neural Information Processing Systems 35",
+    "type": "proceedings-article",
+    "score": 42.059456
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[8] OpenAI. (2023). GPT-4V(ision): Technical report. arXiv.",
+   "title": "GPT-4V(ision",
+   "authors": [],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "report",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.3390/ijgi13040127",
+    "title": "Map Reading and Analysis with GPT-4V(ision)",
+    "year": 2024,
+    "first_author": "Xu",
+    "container": "ISPRS International Journal of Geo-Information",
+    "type": "journal-article",
+    "score": 37.21574
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.4,
+    "partial_ratio": 55.88235294117647,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[9] Yao, S., et al. (2023). ReAct: Synergizing reasoning and acting in language models. ICLR.",
+   "title": "ReAct: Synergizing reasoning and acting in language models",
+   "authors": [
+    "Yao"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.4656090",
+      "title": "Large Language Models Reasoning and Reinforcement Learning",
+      "year": 2023,
+      "first_author": "Noguer I Alonso",
+      "container": "",
+      "type": "posted-content",
+      "score": 26.953947
+     },
+     "metrics": {
+      "title_sim": 71.30434782608695,
+      "containment": 0.5,
+      "partial_ratio": 53.16455696202531,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "99832586d55f540f603637e458a292406a0ed75d",
+    "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+    "year": 2022,
+    "first_author": "Shunyu Yao",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "DBLP": "conf/iclr/YaoZYDSN023",
+     "ArXiv": "2210.03629",
+     "CorpusId": 252762395
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[10] Shen, Y., et al. (2023). HuggingGPT: Solving AI tasks with ChatGPT and its friends in HuggingFace. arXiv.",
+   "title": "HuggingGPT: Solving AI tasks with ChatGPT and its friends in HuggingFace",
+   "authors": [
+    "Shen"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/075280-1657",
+    "title": "HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in Hugging Face",
+    "year": 2023,
+    "first_author": "Shen",
+    "container": "Advances in Neural Information Processing Systems 36",
+    "type": "proceedings-article",
+    "score": 63.990234
+   },
+   "metrics": {
+    "title_sim": 99.3006993006993,
+    "containment": 0.714,
+    "partial_ratio": 98.61111111111111,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "[11] Caicedo, J. C., et al. (2017). Data analysis strategies for image-based cell profiling. Nature Methods.",
+   "title": "Data analysis strategies for image-based cell profiling",
+   "authors": [
+    "Caicedo"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/nmeth.4397",
+    "title": "Data-analysis strategies for image-based cell profiling",
+    "year": 2017,
+    "first_author": "Caicedo",
+    "container": "Nature Methods",
+    "type": "journal-article",
+    "score": 31.147945
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "[12] Bray, M.-A., et al. (2016). Cell Painting, a high-content image-based assay for morphological profiling using multiplexed fluorescent dyes. Nature Protocols.",
+   "title": "Cell Painting, a high-content image-based assay for morphological profiling using multiplexed fluorescent dyes",
+   "authors": [
+    "Bray"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/nprot.2016.105",
+    "title": "Cell Painting, a high-content image-based assay for morphological profiling using multiplexed fluorescent dyes",
+    "year": 2016,
+    "first_author": "Bray",
+    "container": "Nature Protocols",
+    "type": "journal-article",
+    "score": 74.61622
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  }
+ ],
+ "second_pass": true
+}

@@ -27,8 +27,8 @@ while True:
         t0 = time.time()
         try:
             parsed = parse_pdf(p)
-            res = verify_parsed_paper(parsed) if parsed.get('entries') else []
-            json.dump({'pdf': os.path.basename(p), 'n_entries': parsed.get('n_entries', 0), 'fallback': parsed.get('fallback'), 'error': parsed.get('error'), 'entries': res},
+            res = verify_parsed_paper(parsed, do_arxiv_search=False) if parsed.get('entries') else []
+            json.dump({'pdf': os.path.basename(p), 'n_entries': parsed.get('n_entries', 0), 'fallback': parsed.get('fallback'), 'error': parsed.get('error'), 'linenumbers_stripped': parsed.get('linenumbers_stripped'), 'parser_version': parsed.get('parser_version'), 'entries': res},
                       open(os.path.join(OUT, stem + '.verified.json'), 'w'), indent=1)
             from collections import Counter
             c = Counter(r['verdict'] for r in res if not r.get('junk'))

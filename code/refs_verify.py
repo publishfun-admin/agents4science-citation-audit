@@ -313,9 +313,10 @@ def verify_parsed(e, do_arxiv_search=True):
         for c in openalex_search(t):
             ok, m = _accept_parsed(c, e)
             if ok: return done('openalex', c, m)
-        for c in dblp_search(t):
-            ok, m = _accept_parsed(c, e)
-            if ok: return done('dblp', c, m)
+        if os.environ.get('SKIP_DBLP') != '1':
+            for c in dblp_search(t):
+                ok, m = _accept_parsed(c, e)
+                if ok: return done('dblp', c, m)
         if do_arxiv_search:
             for c in arxiv_title_search(t):
                 ok, m = _accept_parsed(c, e)

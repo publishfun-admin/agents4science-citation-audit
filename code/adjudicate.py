@@ -68,6 +68,49 @@ if __name__ == '__main__':
                 w.writerow({'number': n, 'forum_id': fid, 'idx': idx, 'category': r['category'], 'evidence_url': r.get('evidence_url', ''), 'note': r.get('note', ''), 'title': t, 'first_author': au, 'year': y,
                             'adjudicated_by': 'claude-fable-5.1 (web search)', 'date': datetime.date.today().isoformat()}); new += 1
         print(f"recorded {new} decisions; total {len(load_decisions())}")
+    elif cmd == 'propagate':
+        # copy each decision to pending entries in other papers with the same normalised title + year (duplicate submissions)
+        import unidecode
+        def norm(x): return re.sub(r'[^a-z0-9]+', ' ', unidecode.unidecode(str(x or '')).lower()).strip()
+        dec = list(csv.DictReader(open(DEC))); done = load_decisions()
+        by_key = {}
+        for r in dec:
+            if r['title'] and len(norm(r['title'])) > 15: by_key[(norm(r['title']), str(r['year']))] = r
+        its = pending(); rows = []
+        for it in its:
+            k = (norm(it['title']), str(it['year']))
+            if k in by_key and (it['n'], it['idx']) not in done:
+                src = by_key[k]; rows.append({'key': it['key'], 'category': src['category'], 'evidence_url': src['evidence_url'], 'note': f"[propagated from {src['number']}:{src['idx']}] " + (src['note'] or '')})
+        if rows:
+            with open(DEC, 'a', newline='') as f:
+                w = csv.DictWriter(f, fieldnames=FIELDS)
+                papers = pd.read_csv('data/dataset/papers.csv').set_index('number')
+                info = {}
+                for fpath in glob.glob('data/refs/*.verified.json'):
+                    m = re.match(r'^(\d+)_([A-Za-z0-9_-]+)\.verified\.json$', os.path.basename(fpath))
+                    if not m: continue
+                    d = json.load(open(fpath))
+                    if isinstance(d, dict):
+                        for e in d.get('entries', []): info[(int(m.group(1)), e['idx'])] = (m.group(2), e.get('title'), (e.get('authors') or [None])[0], e.get('year'))
+                for r in rows:
+                    n, idx = map(int, r['key'].split(':')); fid, t, au, y = info.get((n, idx), (None, None, None, None))
+                    w.writerow({'number': n, 'forum_id': fid, 'idx': idx, 'category': r['category'], 'evidence_url': r['evidence_url'], 'note': r['note'], 'title': t, 'first_author': au, 'year': y, 'adjudicated_by': 'propagated (identical entry)', 'date': datetime.date.today().isoformat()})
+        print(f"propagated {len(rows)} decisions")
+    elif cmd == 'update':
+        # overwrite category/evidence_url/note for existing decisions; JSON list on stdin with key + fields to change; note_append appends
+        ups = {r['key']: r for r in json.load(sys.stdin)}
+        rows = list(csv.DictReader(open(DEC))); n = 0
+        for r in rows:
+            k = f"{r['number']}:{r['idx']}"
+            if k in ups:
+                u = ups[k]
+                for f_ in ('category', 'evidence_url', 'note'):
+                    if f_ in u: r[f_] = u[f_]
+                if 'note_append' in u: r['note'] = (r['note'] or '') + ' ' + u['note_append']
+                r['date'] = datetime.date.today().isoformat(); n += 1
+        with open(DEC, 'w', newline='') as f:
+            w = csv.DictWriter(f, fieldnames=FIELDS); w.writeheader(); w.writerows(rows)
+        print(f"updated {n} decisions")
     elif cmd == 'status':
         its = pending(); done = load_decisions()
         print(f"pending: {len(its)} | decided: {len(done)}")

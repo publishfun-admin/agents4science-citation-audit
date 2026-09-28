@@ -112,7 +112,20 @@ URL logged for every decision. Categories: EXISTS (a real work; automated recall
 work cited with a substantively wrong author, year, venue, identifier or title), NOT_FOUND (no trace of the work),
 WEB_RESOURCE, and UNADJUDICABLE (excluded). Fabricated = NOT_FOUND or EXISTS_CORRUPTED.
 
-**Analysis.** As pre-specified in paper/analysis_plan.md. [details - RESULTS]
+**Analysis.** All analyses were pre-specified (paper/analysis_plan.md in the repository) before any manual
+adjudication. Proportions are reported with 95% Wilson intervals. The organisers' flag is evaluated at the reference
+level (share of their flagged example references that adjudication classifies as fabricated) and at the paper level
+(sensitivity, specificity and Cohen's kappa of "at least one flagged example" against "at least one fabricated
+reference"). Associations between a paper's fabricated share and its self-reported writing autonomy tier use the
+Kruskal-Wallis test, and associations with the overall autonomy score and with each reviewer's overall score use
+Spearman's rank correlation. Acceptance is modelled with a logistic regression on the fabricated share and the mean
+LLM score. Reviewer detection is measured as the share of papers with at least one fabricated reference in which at
+least one LLM review, the human review, or the organisers' Correctness Check states explicitly that references are
+fabricated, non-existent, future-dated or unverifiable; candidate sentences were found with a keyword pattern and
+each was read and classified by the adjudicating agent as an independent assertion, an echo of the authors' own
+disclosure, a vague remark, or unrelated (data/dataset/strong_ref_statements_classified.csv). Because every reference
+in every submission is adjudicated, no sampling is involved and no multiple-comparison correction is applied to the
+six pre-specified questions; p-values are reported as descriptive evidence rather than as confirmatory tests.
 
 ## 5. Results
 

@@ -23,7 +23,10 @@ def clean_layout_text(pdf):
     txt = subprocess.run(['pdftotext', '-layout', '-enc', 'UTF-8', pdf, '-'], capture_output=True, text=True).stdout
     lines = txt.split('\n'); nonempty = [l for l in lines if l.strip()]
     numbered = sum(1 for l in nonempty if re.match(r'^\s*\d{1,3}\s{2,}\S', l))
-    stripped = numbered / max(len(nonempty), 1) >= 0.25
+    # review-template margin numbers: many lines start with a 1-3 digit number AND those numbers run consecutively
+    nums = [int(m.group(1)) for l in nonempty for m in [re.match(r'^\s*(\d{1,3})\s{2,}\S', l)] if m]
+    consecutive = sum(1 for a, b in zip(nums, nums[1:]) if b == a + 1)
+    stripped = (numbered / max(len(nonempty), 1) >= 0.25) or consecutive >= 30
     if stripped: lines = [LINENUM_RX.sub(r'\1\2', l) for l in lines]
     refidx = [i for i, l in enumerate(lines) if REFHEAD_RX.match(l)]
     if refidx:

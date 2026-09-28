@@ -1,0 +1,543 @@
+{
+ "pdf": "109_KQX70xNaL6.pdf",
+ "n_entries": 12,
+ "fallback": false,
+ "error": null,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "[1] Beber. Total reproducibility framework. 2025. Event sourcing approach providing complete, immutable records.",
+   "title": "Total reproducibility framework",
+   "authors": [],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.31219/osf.io/dcfzw",
+      "title": "Solving reproducibility",
+      "year": 2017,
+      "first_author": "Buck",
+      "container": "",
+      "type": "posted-content",
+      "score": 20.43188
+     },
+     "metrics": {
+      "title_sim": 78.94736842105263,
+      "containment": 0.5,
+      "partial_ratio": 78.26086956521739,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2] Katharine Y Chen, Maria Toro-Moreno, and Arvind Rasi Subramaniam. Github enables collaborative and reproducible laboratory research. PLoS Biology, 23(2):e3003029, 2025.",
+   "title": "Github enables collaborative and reproducible laboratory research",
+   "authors": [
+    "Chen",
+    "Toro-Moreno",
+    "Subramaniam"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "PLoS Biology",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1371/journal.pbio.3003029",
+    "title": "GitHub enables collaborative and reproducible laboratory research",
+    "year": 2025,
+    "first_author": "Chen",
+    "container": "PLOS Biology",
+    "type": "journal-article",
+    "score": 56.069286
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3] Daniela Conti. Exploring automation bias in human\u2013ai collaboration: a review and implications for explainable ai. AI & Society, 2025.",
+   "title": "Exploring automation bias in human\u2013ai collaboration: a review and implications for explainable ai",
+   "authors": [
+    "Conti"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/s00146-025-02422-7",
+    "title": "Exploring automation bias in human\u2013AI collaboration: a review and implications for explainable AI",
+    "year": 2026,
+    "first_author": "Romeo",
+    "container": "AI &amp; SOCIETY",
+    "type": "journal-article",
+    "score": 77.373344
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4] Arnab Dasgupta and Paul Nuyujukian. Arts: Automated reproducible and traceable scientific computing. arXiv preprint arXiv:2504.08171, 2024. Comprehensive framework combining containers, version control, and persistent archives.",
+   "title": "Arts: Automated reproducible and traceable scientific computing",
+   "authors": [
+    "Dasgupta",
+    "Nuyujukian"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2504.08171",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_resolves_title_mismatch",
+     "rec": {
+      "source": "arxiv",
+      "arxiv": "2504.08171",
+      "title": "An open framework for archival, reproducible, and transparent science",
+      "year": 2025,
+      "first_author": "Sabar Dasgupta"
+     },
+     "metrics": {
+      "title_sim": 62.01550387596899,
+      "containment": 0.333,
+      "partial_ratio": 59.70149253731343,
+      "year_ok": true,
+      "first_author_ok": true
+     }
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.5194/egusphere-egu26-7777",
+      "title": "Reproducible, transparent and traceable cleaning of IOC Tide Gauge Data",
+      "year": 2026,
+      "first_author": "Saillour",
+      "container": "",
+      "type": "posted-content",
+      "score": 25.881474
+     },
+     "metrics": {
+      "title_sim": 65.15151515151516,
+      "containment": 0.25,
+      "partial_ratio": 60.0,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5] et al. Furrer. Afford framework: Cost-effective fair. 2025. Staged FAIR implementation addressing manual effort burden.",
+   "title": "Afford framework: Cost-effective fair",
+   "authors": [],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1016/j.chempr.2022.05.012",
+      "title": "Precious-metal-free catalyst could afford cost-effective green hydrogen",
+      "year": 2022,
+      "first_author": "King",
+      "container": "Chem",
+      "type": "journal-article",
+      "score": 25.14775
+     },
+     "metrics": {
+      "title_sim": 73.6842105263158,
+      "containment": 0.3,
+      "partial_ratio": 56.91056910569105,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[6] Weiqiang Jin, Hongyang Du, Biao Zhao, et al. A comprehensive survey on multi-agent cooperative decision-making. arXiv preprint arXiv:2503.13415, 2025.",
+   "title": "A comprehensive survey on multi-agent cooperative decision-making",
+   "authors": [
+    "Jin",
+    "Du",
+    "Zhao"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": "2503.13415",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_resolves_title_mismatch",
+     "rec": {
+      "source": "arxiv",
+      "arxiv": "2503.13415",
+      "title": "A Comprehensive Survey on Multi-Agent Cooperative Decision-Making: Scenarios, Approaches, Challenges and Perspectives",
+      "year": 2025,
+      "first_author": "Weiqiang Jin"
+     },
+     "metrics": {
+      "title_sim": 72.62569832402235,
+      "containment": 0.636,
+      "partial_ratio": 73.14814814814814,
+      "year_ok": true,
+      "first_author_ok": true
+     }
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.32657/10356/183129",
+      "title": "Decision-making with cooperative multi-agent reinforcement learning",
+      "year": 2025,
+      "first_author": null,
+      "container": "",
+      "type": "dissertation",
+      "score": 41.287556
+     },
+     "metrics": {
+      "title_sim": 75.0,
+      "containment": 0.714,
+      "partial_ratio": 53.73134328358209,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": {
+    "source": "arxiv",
+    "arxiv": "2503.13415",
+    "title": "A Comprehensive Survey on Multi-Agent Cooperative Decision-Making: Scenarios, Approaches, Challenges and Perspectives",
+    "year": 2025,
+    "first_author": "Weiqiang Jin"
+   }
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[7] Klaus Kra\u00dfnitzer. Autoappendix: Towards one-click reproduction of computational artifacts. arXiv preprint arXiv:2504.00876, 2025.",
+   "title": "Autoappendix: Towards one-click reproduction of computational artifacts",
+   "authors": [
+    "Kra\u00dfnitzer"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": "2504.00876",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2504.00876",
+    "title": "AutoAppendix: Towards one-click Reproduction of Computational Artifacts",
+    "year": 2025,
+    "first_author": "Klaus Kra\u00dfnitzer"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[8] Giuseppe Russo Latona, Manoel Horta Ribeiro, and Robert West. The ai review lottery: Widespread ai-assisted peer reviews. arXiv preprint arXiv:2405.02150v1, 2024.",
+   "title": "The ai review lottery: Widespread ai-assisted peer reviews",
+   "authors": [
+    "Latona",
+    "Ribeiro",
+    "West"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2405.02150v1",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_resolves_title_mismatch",
+     "rec": {
+      "source": "arxiv",
+      "arxiv": "2405.02150v1",
+      "title": "The AI Review Lottery: Widespread AI-Assisted Peer Reviews Boost Paper Scores and Acceptance Rates",
+      "year": 2024,
+      "first_author": "Giuseppe Russo Latona"
+     },
+     "metrics": {
+      "title_sim": 74.02597402597402,
+      "containment": 0.545,
+      "partial_ratio": 69.43005181347151,
+      "year_ok": true,
+      "first_author_ok": true
+     }
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1145/3757667",
+      "title": "The AI Review Lottery: Widespread AI-Assisted Peer Reviews Boost Paper Scores and Acceptance Rates",
+      "year": 2025,
+      "first_author": "Russo",
+      "container": "Proceedings of the ACM on Human-Computer Interaction",
+      "type": "journal-article",
+      "score": 47.58866
+     },
+     "metrics": {
+      "title_sim": 74.02597402597402,
+      "containment": 0.545,
+      "partial_ratio": 69.43005181347151,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": {
+    "source": "arxiv",
+    "arxiv": "2405.02150v1",
+    "title": "The AI Review Lottery: Widespread AI-Assisted Peer Reviews Boost Paper Scores and Acceptance Rates",
+    "year": 2024,
+    "first_author": "Giuseppe Russo Latona"
+   }
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[9] Chris Lu, Cong Lu, Robert Tjarko Lange, et al. The ai scientist: Towards fully automated open-ended scientific discovery. arXiv preprint arXiv:2408.06292, 2024.",
+   "title": "The ai scientist: Towards fully automated open-ended scientific discovery",
+   "authors": [
+    "Lu",
+    "Lu",
+    "Lange"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2408.06292",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2408.06292",
+    "title": "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery",
+    "year": 2024,
+    "first_author": "Chris Lu"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[10] et al. Seitz. Economic validation of fair benefits. 2025. C2,600 annual savings from FAIR implementation in Materials Science PhD project.",
+   "title": "Economic validation of fair benefits",
+   "authors": [],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.55277/researchhub.mz9wqvk1.1",
+      "title": "Costs and Benefits of Fair Regression",
+      "year": 2025,
+      "first_author": "Zhao",
+      "container": "",
+      "type": "report",
+      "score": 25.256203
+     },
+     "metrics": {
+      "title_sim": 63.013698630136986,
+      "containment": 0.5,
+      "partial_ratio": 48.64864864864865,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "[11] et al. Zhang. aixiv: Ai-generated research platform. arXiv preprint arXiv:2508.15126, 2024.",
+   "title": "Zhang",
+   "authors": [],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2508.15126",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1287/5f9a83c9-9aae-4bee-b4eb-f5c78ac2bd48",
+    "title": "Shengfan Zhang",
+    "year": 2024,
+    "first_author": "Zhang",
+    "container": "Authors group",
+    "type": "dataset",
+    "score": 10.462333
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.5,
+    "partial_ratio": 57.14285714285714,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_resolves_title_mismatch",
+     "rec": {
+      "source": "arxiv",
+      "arxiv": "2508.15126",
+      "title": "aiXiv: A Next-Generation Open Access Ecosystem for Scientific Discovery Generated by AI Scientists",
+      "year": 2025,
+      "first_author": "Pengsong Zhang"
+     },
+     "metrics": {
+      "title_sim": 5.882352941176472,
+      "containment": 0.2,
+      "partial_ratio": 42.95302013422819,
+      "year_ok": true,
+      "first_author_ok": true
+     }
+    }
+   ]
+  },
+  {
+   "junk": true,
+   "idx": 12,
+   "raw": "Open-access platform for human and AI scientist collaboration.",
+   "title": "Open-access platform for human and AI scientist collaboration",
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.20944/preprints202510.1331.v1",
+      "title": "DIVO: A Social-Generative Platform Architecture for Multi-Stakeholder AI-Human Content Collaboration",
+      "year": 2025,
+      "first_author": "Lauk-Dubitskiy",
+      "container": "",
+      "type": "posted-content",
+      "score": 27.332172
+     },
+     "metrics": {
+      "title_sim": 72.91666666666667,
+      "containment": 0.3,
+      "partial_ratio": 60.0,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  }
+ ],
+ "second_pass": true
+}

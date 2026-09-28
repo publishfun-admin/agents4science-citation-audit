@@ -1,0 +1,584 @@
+{
+ "pdf": "119_Fbc7TctYBi.pdf",
+ "n_entries": 13,
+ "fallback": false,
+ "error": null,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "[1] Huang, J., et al. (2023). A Survey on Hallucination in Large Language Models. arXiv preprint arXiv:2305.13534.",
+   "title": "A Survey on Hallucination in Large Language Models",
+   "authors": [
+    "Huang"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2305.13534",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_resolves_title_mismatch",
+     "rec": {
+      "source": "arxiv",
+      "arxiv": "2305.13534",
+      "title": "How Language Model Hallucinations Can Snowball",
+      "year": 2023,
+      "first_author": "Muru Zhang"
+     },
+     "metrics": {
+      "title_sim": 68.75,
+      "containment": 0.167,
+      "partial_ratio": 56.52173913043479,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.20944/preprints202504.1236.v2",
+      "title": "A Survey on Hallucination in Large Language and Foundation Models",
+      "year": 2025,
+      "first_author": "Ahadian",
+      "container": "",
+      "type": "posted-content",
+      "score": 38.27496
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 0.833,
+      "partial_ratio": 76.92307692307692,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2] Bai, Y., et al. (2025). A Taxonomy of Hallucinations in Multimodal LLMs. Transactions on Machine Learning Research.",
+   "title": "A Taxonomy of Hallucinations in Multimodal LLMs",
+   "authors": [
+    "Bai"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Transactions on Machine Learning Research",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.32388/qyjyru",
+      "title": "A Geometric Taxonomy of Hallucinations in LLMs",
+      "year": 2026,
+      "first_author": "Marin",
+      "container": "",
+      "type": "posted-content",
+      "score": 37.89137
+     },
+     "metrics": {
+      "title_sim": 87.8048780487805,
+      "containment": 0.75,
+      "partial_ratio": 76.08695652173914,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3] Gao, L., et al. (2024). Retrieval-Augmented Generation for Large Language Models: A Survey. arXiv preprint arXiv:2407.12345.",
+   "title": "Retrieval-Augmented Generation for Large Language Models: A Survey",
+   "authors": [
+    "Gao"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2407.12345",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.2139/ssrn.4895062",
+    "title": "Graph Retrieval-Augmented Generation for Large Language Models: A Survey",
+    "year": 2024,
+    "first_author": "Procko",
+    "container": "",
+    "type": "posted-content",
+    "score": 55.38388
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.875,
+    "partial_ratio": 92.95774647887323,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_resolves_title_mismatch",
+     "rec": {
+      "source": "arxiv",
+      "arxiv": "2407.12345",
+      "title": "VisionTrap: Vision-Augmented Trajectory Prediction Guided by Textual Descriptions",
+      "year": 2024,
+      "first_author": "Seokha Moon"
+     },
+     "metrics": {
+      "title_sim": 49.6551724137931,
+      "containment": 0.125,
+      "partial_ratio": 44.99999999999999,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4] Boden, M. (2004). The Creative Mind: Myths and Mechanisms. Routledge.",
+   "title": "The Creative Mind: Myths and Mechanisms",
+   "authors": [
+    "Boden"
+   ],
+   "year": 2004,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.4324/9780203508527",
+    "title": "The Creative Mind",
+    "year": 2004,
+    "first_author": "Boden",
+    "container": "",
+    "type": "book",
+    "score": 40.51701
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5] Amabile, T. (2012). Componential Theory of Creativity. In Encyclopedia of Management Theory. Sage.",
+   "title": "Componential Theory of Creativity",
+   "authors": [
+    "Amabile"
+   ],
+   "year": 2012,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Encyclopedia of Management Theory",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.4135/9781452276090.n50",
+    "title": "Componential Theory of Creativity",
+    "year": 2013,
+    "first_author": null,
+    "container": "Encyclopedia of Management Theory",
+    "type": "reference-entry",
+    "score": 35.12595
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": null
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[6] Guilford, J. P. (1950). Creativity. American Psychologist, 5(9), 444\u2013454.",
+   "title": "Creativity",
+   "authors": [
+    "Guilford"
+   ],
+   "year": 1950,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "American Psychologist",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1037/h0063487",
+    "title": "Creativity.",
+    "year": 1950,
+    "first_author": "Guilford",
+    "container": "American Psychologist",
+    "type": "journal-article",
+    "score": 31.198565
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[7] Wang, X., et al. (2023). Self-Consistency Improves Chain-of-Thought Reasoning in Language Models. ICLR.",
+   "title": "Self-Consistency Improves Chain-of-Thought Reasoning in Language Models",
+   "authors": [
+    "Wang"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.59350/90sh1-hbs94",
+      "title": "Multimodal Chain-of-Thought Reasoning in Language Models",
+      "year": 2025,
+      "first_author": "Thoram",
+      "container": "",
+      "type": "posted-content",
+      "score": 40.4292
+     },
+     "metrics": {
+      "title_sim": 89.10891089108911,
+      "containment": 0.833,
+      "partial_ratio": 87.5,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "5f19ae1135a9500940978104ec15a5b8751bc7d2",
+    "title": "Self-Consistency Improves Chain of Thought Reasoning in Language Models",
+    "year": 2022,
+    "first_author": "Xuezhi Wang",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "DBLP": "conf/iclr/0002WSLCNCZ23",
+     "ArXiv": "2203.11171",
+     "CorpusId": 247595263
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[8] Xin, J., et al. (2025). The Art of Abstention: Selective Prediction in NLP. Findings of ACL.",
+   "title": "The Art of Abstention: Selective Prediction in NLP",
+   "authors": [
+    "Xin"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.52202/085713-1316",
+      "title": "Selective Omniprediction and Fair Abstention",
+      "year": 2025,
+      "first_author": "Casacuberta",
+      "container": "Advances in Neural Information Processing Systems 38",
+      "type": "proceedings-article",
+      "score": 25.389673
+     },
+     "metrics": {
+      "title_sim": 77.41935483870968,
+      "containment": 0.5,
+      "partial_ratio": 64.36781609195403,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[9] Zhang, A., et al. (2025). Selective-LAMA: Benchmarking Abstention in Knowledge Retrieval. EACL Findings.",
+   "title": "Selective-LAMA: Benchmarking Abstention in Knowledge Retrieval",
+   "authors": [
+    "Zhang"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/access.2025.3648942",
+      "title": "A Benchmarking Blueprint for Ontology-Based Information Retrieval in Large-Scale Knowledge Systems",
+      "year": 2025,
+      "first_author": "Sassi",
+      "container": "IEEE Access",
+      "type": "journal-article",
+      "score": 26.362204
+     },
+     "metrics": {
+      "title_sim": 72.91666666666667,
+      "containment": 0.3,
+      "partial_ratio": 47.87234042553191,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[10] Lehman, J., & Stanley, K. O. (2011). Abandoning Objectives: Evolution through the Search for Novelty Alone. Evolutionary Computation, 19(2), 189\u2013223.",
+   "title": "Abandoning Objectives: Evolution through the Search for Novelty Alone",
+   "authors": [
+    "Lehman",
+    "Stanley"
+   ],
+   "year": 2011,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Evolutionary Computation",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1162/evco_a_00025",
+    "title": "Abandoning Objectives: Evolution Through the Search for Novelty Alone",
+    "year": 2011,
+    "first_author": "Lehman",
+    "container": "Evolutionary Computation",
+    "type": "journal-article",
+    "score": 72.90854
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "[11] Jiang, W., et al. (2024). A Survey on LLM Hallucination via a Creativity Perspective. arXiv preprint arXiv:2401.12345.",
+   "title": "A Survey on LLM Hallucination via a Creativity Perspective",
+   "authors": [
+    "Jiang"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2401.12345",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_resolves_title_mismatch",
+     "rec": {
+      "source": "arxiv",
+      "arxiv": "2401.12345",
+      "title": "Distributionally Robust Receive Combining",
+      "year": 2024,
+      "first_author": "Shixiong Wang"
+     },
+     "metrics": {
+      "title_sim": 41.23711340206186,
+      "containment": 0.0,
+      "partial_ratio": 43.90243902439024,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/iccbd-ai65562.2024.00067",
+      "title": "Hallucination Mitigation in LLM-Based Video Captioning via Multi-Scale Feature Fusion",
+      "year": 2024,
+      "first_author": "Zhou",
+      "container": "2024 5th International Conference on Computer, Big Data and Artificial Intelligence (ICCBD+AI)",
+      "type": "proceedings-article",
+      "score": 28.151045
+     },
+     "metrics": {
+      "title_sim": 56.737588652482266,
+      "containment": 0.2,
+      "partial_ratio": 45.28301886792453,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "[12] Li, S., et al. (2025). AgenticHypothesis: A Survey on Hypothesis Generation Using LLM Systems. OpenReview Preprint.",
+   "title": "AgenticHypothesis: A Survey on Hypothesis Generation Using LLM Systems",
+   "authors": [
+    "Li"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.18653/v1/2025.findings-naacl.420",
+      "title": "Hypothesis Generation for Materials Discovery and Design Using Goal-Driven and Constraint-Guided LLM Agents",
+      "year": 2025,
+      "first_author": "Kumbhar",
+      "container": "Findings of the Association for Computational Linguistics: NAACL 2025",
+      "type": "proceedings-article",
+      "score": 27.407076
+     },
+     "metrics": {
+      "title_sim": 62.0,
+      "containment": 0.273,
+      "partial_ratio": 49.397590361445786,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "[13] Mendelsohn, J., et al. (2024). How AI Ideas Affect the Creativity, Diversity, and Evolution of Human Ideas. Nature Human Behaviour, 8(5), 610\u2013622.",
+   "title": "How AI Ideas Affect the Creativity, Diversity, and Evolution of Human Ideas",
+   "authors": [
+    "Mendelsohn"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature Human Behaviour",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1017/cbo9780511779978.012",
+      "title": "How Does Human Diversity Affect Cultural Evolution?",
+      "year": 2010,
+      "first_author": null,
+      "container": "Cultural Evolution",
+      "type": "book-chapter",
+      "score": 36.70265
+     },
+     "metrics": {
+      "title_sim": 83.72093023255815,
+      "containment": 0.714,
+      "partial_ratio": 56.00000000000001,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  }
+ ],
+ "second_pass": true
+}
