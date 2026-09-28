@@ -1,0 +1,353 @@
+{
+ "pdf": "118_AjTMGsbx9Q.pdf",
+ "n_entries": 8,
+ "fallback": true,
+ "error": null,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "IPCC. Climate Change 2023: Synthesis Report. Summary for Policymakers. Intergovernmental Panel on Climate Change, 2023. Available at: https://www.ipcc.ch/report/ar6/syr/ summary-for-policymakers/.",
+   "title": "Climate Change 2023: Synthesis Report. Summary for Policymakers",
+   "authors": [],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://www.ipcc.ch/report/ar6/syr/"
+   ],
+   "container": "Intergovernmental Panel on Climate Change",
+   "type": "article-journal",
+   "parser": "anystyle-parse",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1017/9781009157926.001",
+    "title": "Summary for Policymakers",
+    "year": 2023,
+    "first_author": null,
+    "container": "Climate Change 2022 - Mitigation of Climate Change",
+    "type": "book-chapter",
+    "score": 46.75143
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": null
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "UNEP. Emissions Gap Report 2023: Broken Record \u2013 Temperatures hit new highs, yet world fails to cut emissions (again). United Nations Environment Programme, 2023. Key figure: global 260 262 264 266 268 270 272 274 276 278 280 282 284 GHG emissions \u223c 57.4 GtCO2 e in 2022. Available at: https://www.unep.org/resources/ emissions-gap-report-2023 and interactive: https://www.unep.org/interactives/ emissions-gap-report/2023/.",
+   "title": "Emissions Gap Report 2023: Broken Record \u2013 Temperatures hit new highs, yet world fails to cut emissions (again",
+   "authors": [],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://www.unep.org/resources/",
+    "https://www.unep.org/interactives/"
+   ],
+   "container": "United Nations Environment Programme",
+   "type": "article-journal",
+   "parser": "anystyle-parse",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.59117/20.500.11822/43922",
+    "title": "Emissions Gap Report 2023: Broken Record \u2013 Temperatures hit new highs, yet world fails to cut emissions (again)",
+    "year": 2023,
+    "first_author": null,
+    "container": "",
+    "type": "monograph",
+    "score": 141.06247
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": null
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "Ember. Global Electricity Review 2024. 2024. Provides global power-sector emissions intensity trends and renewable shares. Available at: https://ember-energy.org/ latest-insights/global-electricity-review-2024/.",
+   "title": "Global Electricity Review 2024",
+   "authors": [],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://ember-energy.org/"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-parse",
+   "verdict": "VERIFIED_URL",
+   "via": "url",
+   "url_status": {
+    "https://ember-energy.org/": 200
+   },
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.4733363",
+      "title": "A Review of Global Electricity Market",
+      "year": 2024,
+      "first_author": "Hajigholam Saryazdi",
+      "container": "",
+      "type": "posted-content",
+      "score": 29.169579
+     },
+     "metrics": {
+      "title_sim": 90.9090909090909,
+      "containment": 0.75,
+      "partial_ratio": 75.0,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "IRENA. Renewable Power Generation Costs in 2023. International Renewable Energy Agency, 2024. See PV performance and cost benchmarks. Available at: https://www.irena.org/ Publications/2024/Sep/Renewable-Power-Generation-Costs-in-2023.",
+   "title": "Renewable Power Generation Costs in 2023",
+   "authors": [],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://www.irena.org/"
+   ],
+   "container": "International Renewable Energy Agency",
+   "type": "article-journal",
+   "parser": "anystyle-parse",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1049/rpg2.v18.12",
+      "title": "",
+      "year": 2024,
+      "first_author": null,
+      "container": "IET Renewable Power Generation",
+      "type": "journal-issue",
+      "score": 29.676441
+     },
+     "metrics": {
+      "title_sim": 0,
+      "containment": 0.0,
+      "partial_ratio": 0,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    },
+    {
+     "step": "urls_not_live",
+     "url_status": {
+      "https://www.irena.org/": 403
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "IEA. Renewables 2024. International Energy Agency, 2024. Market analysis and forecasts for PV and wind additions. Available at: https://www.iea.org/reports/renewables-2024.",
+   "title": "International Energy Agency",
+   "authors": [
+    "Renewables"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://www.iea.org/reports/renewables-2024"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-parse",
+   "verdict": "VERIFIED_URL",
+   "via": "url",
+   "url_status": {
+    "https://www.iea.org/reports/renewables-2024": 200
+   },
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1787/renew-2011-en",
+      "title": "Renewables Information 2011",
+      "year": 2011,
+      "first_author": null,
+      "container": "Renewables Information",
+      "type": "book",
+      "score": 35.07321
+     },
+     "metrics": {
+      "title_sim": 40.74074074074074,
+      "containment": 0.333,
+      "partial_ratio": 70.37037037037037,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "UK Department for Energy Security and Net Zero. Contracts for Difference and Capacity Market Scheme Update 2024. 2024. Official policy update for AR7 and beyond. Available at: https: //assets.publishing.service.gov.uk/media/6750505a0b3e68dfc448c861/ contracts-for-difference-and-capacity-market-scheme-update-2024.pdf.",
+   "title": "UK Department for Energy Security and Net Zero. Contracts for Difference and Capacity Market Scheme Update 2024",
+   "authors": [],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https:"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-parse",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1093/ww/9780199540884.013.u301739",
+      "title": "McLaughlin, Ryan Hugh, ( born 27 April 1985), Director, Net Zero Strategy, Department for Energy Security and Net Zero, since 2024",
+      "year": 2025,
+      "first_author": null,
+      "container": "Who's Who",
+      "type": "reference-entry",
+      "score": 48.884895
+     },
+     "metrics": {
+      "title_sim": 68.22429906542055,
+      "containment": 0.471,
+      "partial_ratio": 55.62130177514793,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    },
+    {
+     "step": "urls_not_live",
+     "url_status": {
+      "https:": "error"
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "Federal Ministry for Economic Affairs and Climate Action (BMWK), Germany. Funding Programme for Carbon Contracts for Difference. Press release and programme resources, 12 March 2024. Available at: https://www.bundeswirtschaftsministerium.de/Redaktion/EN/ Downloads/F/funding-programme-for-carbon-contracts-for-difference.html and portal https://www.klimaschutzvertraege.info/en/home.",
+   "title": "Federal Ministry for Economic Affairs and Climate Action (BMWK), Germany. Funding Programme for Carbon Contracts for Difference",
+   "authors": [],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://www.bundeswirtschaftsministerium.de/Redaktion/EN/",
+    "https://www.klimaschutzvertraege.info/en/home"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-parse",
+   "verdict": "VERIFIED_URL",
+   "via": "url",
+   "url_status": {
+    "https://www.bundeswirtschaftsministerium.de/Redaktion/EN/": 200,
+    "https://www.klimaschutzvertraege.info/en/home": 200
+   },
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1002/fgc.33683",
+      "title": "Regional Conservation Partnership Program Alternative Funding Arrangements (USDA)",
+      "year": 2024,
+      "first_author": null,
+      "container": "Federal Grants &amp; Contracts",
+      "type": "journal-article",
+      "score": 35.229454
+     },
+     "metrics": {
+      "title_sim": 41.584158415841586,
+      "containment": 0.125,
+      "partial_ratio": 45.56962025316456,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "European Environment Agency (EEA). Use of ETS auctioning revenues \u2014 Reporting year 2023. Dataset and figures on EU ETS revenue use. Available at: https://www.eea.europa.eu/ data-and-maps/data/external/use-of-ets-auctioning-revenues. See also Ecologic Institute (2022): The use of auctioning revenues from the EU ETS for climate action. https://www.ecologic.eu/sites/default/files/publication/2022/ EcologicInstitute-2022-UseAucRevClimate-Summary.pdf. 286 288 290 A Responsible AI Statement The research presented in this paper examines opportunities and risks of large-scale zero-capex solar PV programs for climate mitigation. While such programs show strong potential to accelerate decarbonization, they also raise ethical and practical concerns if misinterpreted or applied without governance. We therefore adopt the following safeguards and principles: \u2022 Transparency: All assumptions (capacity factors, grid emission factors, costs, discount rates) are explicitly stated, with units and update rules provided. Conditions under which conclusions may fail are clearly flagged. \u2022 Scope Awareness: We highlight that results pertain strictly to technical and fiscal feasibility. Governance, equity, and political implementation are identified as crucial but remain outside the scope of our closed-form analysis. \u2022 Risk Awareness: Model outputs should not be misused as prescriptive policy advice. They must be validated in real-world contexts before influencing fiscal planning or climate targets. \u2022 Equity and Fairness: While the analysis uses global averages, we acknowledge distributional impacts across regions and consumer groups. Equity concerns are noted as central to implementation. \u2022 Accountability: All formulas, derivations, and sensitivity analyses are transparent, auditable, and based on publicly available data sources. 292 294 296 298 300 302 305 By integrating these safeguards, we aim to ensure that technical insights on solar PV deployment enhance climate science without undermining ethical standards or public trust. B We place strong emphasis on reproducibility and transparency. To this end, we provide: 308 310 312 314 316 318 320 322 324 Reproducibility Statement \u2022 Equations and Symbols: All results derive from closed-form algebraic expressions with clearly defined symbols, units, and mappings. \u2022 Parameters and Data: Inputs (PV capacity factors, grid emission intensities, capital costs, O&M costs, social cost of carbon) are sourced from openly available reports (IPCC, UNEP, IEA, IRENA). \u2022 Update Rules: Simple update rules are provided to incorporate new emissions inventories or revised system parameters. \u2022 Sensitivity Analyses: Ranges for key parameters (capacity factor, emissions factor, deployment rate) are documented to allow robustness checks. \u2022 Reproduction Path: Results can be exactly replicated with a calculator or minimal code; no proprietary models, hidden datasets, or machine learning training are required. \u2022 Figures and Tables: All tables (e.g., break-even year by deployment rate) and figures (e.g., sensitivity plots) are derived directly from closed-form equations and can be regenerated with the provided mappings. To facilitate accessibility, all formulas and assumptions are fully documented in the main text. This ensures that results can be independently reproduced, tested under alternative assumptions, and extended by the research community. 325 327 329 331 333 335 337 339 341 343 345 347 349 351 353 355 357 359 361 363 365 367 369 371 373 375 377",
+   "title": "The use of auctioning revenues from the EU ETS for climate action",
+   "authors": [
+    "Ecologic Institute"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://www.eea.europa.eu/",
+    "https://www.ecologic.eu/sites/default/files/publication/2022/"
+   ],
+   "container": "European Environment Agency (EEA). Use of ETS auctioning revenues \u2014 Reporting year 2023. Dataset and figures on EU ETS revenue use",
+   "type": "chapter",
+   "parser": "anystyle-parse",
+   "verdict": "VERIFIED_URL",
+   "via": "url",
+   "url_status": {
+    "https://www.eea.europa.eu/": 200,
+    "https://www.ecologic.eu/sites/default/files/publication/2022/": 404
+   },
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.4018/978-1-7998-7967-1.ch003",
+      "title": "Revenues of the EU ETS Auctioning and Their Impact on Budgetary Allocation",
+      "year": 2021,
+      "first_author": "Marchewka-Bartkowiak",
+      "container": "Advances in Finance, Accounting, and Economics",
+      "type": "book-chapter",
+      "score": 39.375546
+     },
+     "metrics": {
+      "title_sim": 72.5925925925926,
+      "containment": 0.429,
+      "partial_ratio": 55.4054054054054,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ]
+  }
+ ]
+}

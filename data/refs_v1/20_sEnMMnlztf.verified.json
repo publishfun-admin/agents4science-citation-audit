@@ -98,7 +98,7 @@
    "container": "Nature",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -121,7 +121,26 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "crossref_title",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/s41586-023-06221-2",
+    "title": "Scientific discovery in the age of artificial intelligence",
+    "year": 2023,
+    "first_author": "Wang",
+    "container": "Nature",
+    "type": "journal-article",
+    "score": 36.067463
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 93.10344827586206,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -234,5 +253,6 @@
    },
    "evidence": []
   }
- ]
+ ],
+ "second_pass": true
 }

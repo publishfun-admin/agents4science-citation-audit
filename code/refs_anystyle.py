@@ -14,9 +14,31 @@ def _first(v):
     if isinstance(v, list): return v[0] if v else None
     return v
 
+LINENUM_RX = re.compile(r'^(\s*)\d{1,3}(\s{2,})')
+CHECKLIST_RX = re.compile(r'^\s*(?:\d+\s+)?(?:neurips paper checklist|agents4science(?: ai involvement)? checklist|checklist|ai involvement checklist|appendix [a-z][:.]?\s*checklist)\s*$', re.I)
+REFHEAD_RX = re.compile(r'^\s*(?:\d+\s+)?(references|bibliography)\s*$', re.I)
+
+def clean_layout_text(pdf):
+    """pdftotext -layout, with review-template margin line numbers stripped and the trailing checklist removed."""
+    txt = subprocess.run(['pdftotext', '-layout', '-enc', 'UTF-8', pdf, '-'], capture_output=True, text=True).stdout
+    lines = txt.split('\n'); nonempty = [l for l in lines if l.strip()]
+    numbered = sum(1 for l in nonempty if re.match(r'^\s*\d{1,3}\s{2,}\S', l))
+    stripped = numbered / max(len(nonempty), 1) >= 0.25
+    if stripped: lines = [LINENUM_RX.sub(r'\1\2', l) for l in lines]
+    refidx = [i for i, l in enumerate(lines) if REFHEAD_RX.match(l)]
+    if refidx:
+        start = refidx[-1]
+        for i in range(start + 1, len(lines)):
+            if CHECKLIST_RX.match(lines[i]): lines = lines[:i]; break
+    return '\n'.join(lines), stripped
+
 def parse_pdf(pdf):
-    j = _run(['-f', 'json', 'find', pdf])
-    r = _run(['-f', 'ref', 'find', pdf])
+    import tempfile
+    text, stripped = clean_layout_text(pdf)
+    with tempfile.NamedTemporaryFile('w', suffix='.txt', delete=False) as tf:
+        tf.write(text); txtpath = tf.name
+    j = _run(['-f', 'json', 'find', txtpath])
+    r = _run(['-f', 'ref', 'find', txtpath])
     recs, raws, fallback = [], [], False
     if j.returncode == 0 and j.stdout.strip():
         try: recs = json.loads(j.stdout)
@@ -64,7 +86,7 @@ def parse_pdf(pdf):
             'urls': urls, 'container': _first(rec.get('container-title')) or _first(rec.get('journal')),
             'type': _first(rec.get('type')), 'parser': 'anystyle-parse' if fallback else 'anystyle-find',
         })
-    return {'pdf': pdf, 'n_entries': len(entries), 'entries': entries, 'fallback': fallback}
+    return {'pdf': pdf, 'n_entries': len(entries), 'entries': entries, 'fallback': fallback, 'linenumbers_stripped': stripped, 'parser_version': 2}
 
 if __name__ == '__main__':
     for p in sys.argv[1:]:

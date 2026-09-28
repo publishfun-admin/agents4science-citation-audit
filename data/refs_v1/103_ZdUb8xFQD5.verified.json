@@ -1,13 +1,13 @@
 {
  "pdf": "103_ZdUb8xFQD5.pdf",
  "n_entries": 4,
- "fallback": false,
+ "fallback": true,
  "error": null,
  "entries": [
   {
    "junk": false,
    "idx": 1,
-   "raw": "[1] Ebubechukwu, I. et al. (2024) Dialogue you can trust: Human and AI perspectives on generated conversations. arXiv: 2409.01808",
+   "raw": "Ebubechukwu, I. et al. (2024) Dialogue you can trust: Human and AI perspectives on generated conversations. arXiv: 2409.01808",
    "title": "Dialogue you can trust: Human and AI perspectives on generated conversations",
    "authors": [
     "Ebubechukwu"
@@ -18,7 +18,7 @@
    "urls": [],
    "container": null,
    "type": null,
-   "parser": "anystyle-find",
+   "parser": "anystyle-parse",
    "verdict": "VERIFIED",
    "via": "arxiv_id",
    "match": {
@@ -40,7 +40,7 @@
   {
    "junk": false,
    "idx": 2,
-   "raw": "[2] Xu, S. et al. (2024) Large language model based situational dialogues for second language learning. arXiv: 2403.20005",
+   "raw": "Xu, S. et al. (2024) Large language model based situational dialogues for second language learning. arXiv: 2403.20005",
    "title": "Large language model based situational dialogues for second language learning",
    "authors": [
     "Xu"
@@ -51,7 +51,7 @@
    "urls": [],
    "container": null,
    "type": null,
-   "parser": "anystyle-find",
+   "parser": "anystyle-parse",
    "verdict": "VERIFIED",
    "via": "arxiv_id",
    "match": {
@@ -73,7 +73,7 @@
   {
    "junk": false,
    "idx": 3,
-   "raw": "[3] Guan, S. et al. (2025) Evaluating LLM-based agents for multi-turn conversations: A survey. arXiv: 2503.22458",
+   "raw": "Guan, S. et al. (2025) Evaluating LLM-based agents for multi-turn conversations: A survey. arXiv: 2503.22458",
    "title": "Evaluating LLM-based agents for multi-turn conversations: A survey",
    "authors": [
     "Guan"
@@ -84,7 +84,7 @@
    "urls": [],
    "container": null,
    "type": null,
-   "parser": "anystyle-find",
+   "parser": "anystyle-parse",
    "verdict": "VERIFIED",
    "via": "arxiv_id",
    "match": {
@@ -106,10 +106,10 @@
   {
    "junk": false,
    "idx": 4,
-   "raw": "[4] Rzadeczka, M. et al. (2025) The efficacy of conversational AI in rectifying the theory-of-mind and autonomy biases: comparative analysis. JMIR Mental Health. 12:e64396.",
+   "raw": "Rza\u0327deczka, M. et al. (2025) The efficacy of conversational AI in rectifying the theory-of-mind and autonomy biases: comparative analysis. JMIR Mental Health. 12:e64396. 228 230 232 234 236 238 240 242 244 246 248 250 252 254 256 258 260 262 264 266 268 270 272 274 276",
    "title": "The efficacy of conversational AI in rectifying the theory-of-mind and autonomy biases: comparative analysis",
    "authors": [
-    "Rzadeczka"
+    "Rza\u0327deczka"
    ],
    "year": 2025,
    "doi": null,
@@ -117,7 +117,7 @@
    "urls": [],
    "container": "JMIR Mental Health",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-parse",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -128,7 +128,7 @@
     "first_author": "Rz\u0105deczka",
     "container": "JMIR Mental Health",
     "type": "journal-article",
-    "score": 67.44863
+    "score": 67.506134
    },
    "metrics": {
     "title_sim": 100.0,

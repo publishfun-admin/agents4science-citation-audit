@@ -1,0 +1,16 @@
+- [Bianchi et al. 2025] Federico Bianchi, Owen Queen, Nitya Thakkar et al. Exploring the use of AI authors and reviewers at Agents4Science. arXiv:2511.15534 (2025). Nature Biotechnology, published online 17 December 2025, doi:10.1038/s41587-025-02963-8; arXiv:2511.15534.
+- [Zhao et al. 2026] Zhenyue Zhao, Yihe Wang, Toby Stuart et al. LLM hallucinations in the wild: Large-scale evidence from non-existent citations. arXiv:2605.07723 (2026).
+- [Xu et al. 2026] Zuyao Xu, Yuqi Qiu, Lu Sun et al. GhostCite: A Large-Scale Analysis of Citation Validity in the Age of Large Language Models. arXiv:2602.06718 (2026).
+- [Ansari 2026] Samar Ansari. Compound Deception in Elite Peer Review: A Failure Mode Taxonomy of 100 Fabricated Citations at NeurIPS 2025. arXiv:2602.05930 (2026).
+- [Rao et al. 2026] Delip Rao and Chris Callison-Burch. BibTeX Citation Errors in Scientific Publishing Agents: Evaluation and Mitigation. arXiv:2604.03159 (2026).
+- [Reizinger et al. 2026] Patrik Reizinger and Wieland Brendel. HALLMARK: Diagnosing Three Failure Modes in LLM Citation Verifiers. arXiv:2607.18360 (2026).
+- [Biswas et al. 2026] Joydeep Biswas, Sheila Schoepp, Gautham Vasan et al. AI-Assisted Peer Review at Scale: The AAAI-26 AI Review Pilot. arXiv:2604.13940 (2026).
+- [Jiang et al. 2025] Fengqing Jiang, Yichen Feng, Yuetai Li et al. BadScientist: Can a Research Agent Write Convincing but Unsound Papers that Fool LLM Reviewers?. arXiv:2510.18003 (2025).
+- [Baumann et al. 2026] Joachim Baumann, Jiaxin Pei, Sanmi Koyejo et al. Stop Automating Peer Review Without Rigorous Evaluation. arXiv:2605.03202 (2026).
+- [Nguyen et al. 2026] Dang Nguyen, Wanqing Hao, Yanai Elazar et al. Benchmarking Agentic Review Systems. arXiv:2606.19749 (2026).
+- [Hatzel et al. 2026] Hans Ole Hatzel, Sebastian Steindl, Jan Strich. Review Arcade: On the Human Alignment and Gameability of LLM Reviews. arXiv:2605.28897 (2026).
+- [Zhu et al. 2025] Changjia Zhu, Junjie Xiong, Renkai Ma et al. When Your Reviewer is an LLM: Biases, Divergence, and Prompt Injection Risks in Peer Review. arXiv:2509.09912 (2025).
+- [Alharbi 2026] Emad Alharbi. Do large language models scrutinise what they review? A multimodal audit of scoring calibration, error detection, and author-identity effects. arXiv:2608.28626 (2026).
+- [Naser 2026] MZ Naser. How LLMs Cite and Why It Matters: A Cross-Model Audit of Reference Fabrication in AI-Assisted Academic Writing and Methods to Detect Phantom Citations. arXiv:2603.03299 (2026).
+- [Topaz et al. 2026] Maxim Topaz, Nir Roguin, Pallavi Gupta, Zhihong Zhang, and Laura-Maria Peltonen. Fabricated citations: an audit across 2·5 million biomedical papers. The Lancet 407(10541):1779–1781 (2026). doi:10.1016/S0140-6736(26)00603-3.
+- [Naddaf and Quill 2026] Miryam Naddaf and Elizabeth Quill. Hallucinated citations are polluting the scientific literature. What can be done? Nature, 1 April 2026. doi:10.1038/d41586-026-00969-z.

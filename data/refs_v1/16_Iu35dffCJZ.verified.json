@@ -428,7 +428,7 @@
    "container": "Advances in Neural Information Processing Systems (NeurIPS",
    "type": "chapter",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -451,7 +451,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "f583f9e720c16f6bb50f9d624b61c3bc851be008",
+    "title": "Risk-Sensitive and Robust Decision-Making: a CVaR Optimization Approach",
+    "year": 2015,
+    "first_author": "Yinlam Chow",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "MAG": "580164506",
+     "DBLP": "journals/corr/ChowTMP15",
+     "ArXiv": "1506.02188",
+     "CorpusId": 5559664
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 94.28571428571428,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -565,5 +588,6 @@
    },
    "evidence": []
   }
- ]
+ ],
+ "second_pass": true
 }
