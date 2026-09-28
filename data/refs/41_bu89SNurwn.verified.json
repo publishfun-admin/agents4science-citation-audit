@@ -1,0 +1,569 @@
+{
+ "pdf": "41_bu89SNurwn.pdf",
+ "n_entries": 14,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": false,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "[1] Shelley, M. (1818) Frankenstein; or, The Modern Prometheus. Lackington, Hughes, Harding, Mavor & Jones.",
+   "title": "Frankenstein; or, The Modern Prometheus",
+   "authors": [
+    "Shelley"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1093/owc/9780199537167.001.0001",
+    "title": "Frankenstein",
+    "year": 2008,
+    "first_author": "Shelley",
+    "container": "",
+    "type": "edited-book",
+    "score": 51.736984
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2] Asimov, I. (1950) I, Robot. Gnome Press.",
+   "title": "I, Robot",
+   "authors": [
+    "Asimov"
+   ],
+   "year": 1950,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1002/9781118922590.ch12",
+      "title": "Robot Dreams",
+      "year": 2016,
+      "first_author": "Asimov",
+      "container": "Science Fiction and Philosophy",
+      "type": "other",
+      "score": 23.481688
+     },
+     "metrics": {
+      "title_sim": 83.33333333333333,
+      "containment": 0.5,
+      "partial_ratio": 58.33333333333333,
+      "year_ok": false,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3] Murphy, R. R. & Woods, D. D. (2009) Beyond Asimov: The three laws of responsible robotics. IEEE Intelligent Systems, 24(4), 14\u201320.",
+   "title": "Beyond Asimov: The three laws of responsible robotics",
+   "authors": [
+    "Murphy",
+    "Woods"
+   ],
+   "year": 2009,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE Intelligent Systems",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/mis.2009.69",
+    "title": "Beyond Asimov: The Three Laws of Responsible Robotics",
+    "year": 2009,
+    "first_author": "Murphy",
+    "container": "IEEE Intelligent Systems",
+    "type": "journal-article",
+    "score": 61.56568
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4] Alexander, J.A. & Mozer, M.C. (1995) Template-based algorithms for connectionist rule extraction. In G. Tesauro, D.S. Touretzky and T.K. Leen (eds.), Advances in Neural Information Processing Systems 7, pp. 609\u2013616. Cambridge, MA: MIT Press.",
+   "title": "Template-based algorithms for connectionist rule extraction",
+   "authors": [
+    "Alexander",
+    "Mozer"
+   ],
+   "year": 1995,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems 7",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1016/b978-0-444-88771-9.50030-1",
+      "title": "HYBRID CONNECTIONIST RULE-BASED SYSTEMS",
+      "year": 1990,
+      "first_author": "KASABOV",
+      "container": "Artificial Intelligence IV",
+      "type": "book-chapter",
+      "score": 27.18182
+     },
+     "metrics": {
+      "title_sim": 76.19047619047619,
+      "containment": 0.8,
+      "partial_ratio": 64.1025641025641,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5] Garc\u00eda, J. & Fern\u00e1ndez, F. (2015) A comprehensive survey on safe reinforcement learning. Journal of Machine Learning Research, 16(1), 1437\u20131480.",
+   "title": "A comprehensive survey on safe reinforcement learning",
+   "authors": [
+    "Garc\u00eda",
+    "Fern\u00e1ndez"
+   ],
+   "year": 2015,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Machine Learning Research",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.36227/techrxiv.176231647.70843991/v1",
+      "title": "Deep Reinforcement Learning for Residential EV Charging: A Comprehensive Survey",
+      "year": 2025,
+      "first_author": "Shuvo",
+      "container": "",
+      "type": "posted-content",
+      "score": 28.773373
+     },
+     "metrics": {
+      "title_sim": 91.83673469387755,
+      "containment": 0.571,
+      "partial_ratio": 58.97435897435898,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[6] Winfield, A. F. & Jirotka, M. (2018) Ethical governance is essential to building trust in robotics and artificial intelligence systems. Philosophical Transactions of the Royal Society A, 376(2133), 20180085.",
+   "title": "Ethical governance is essential to building trust in robotics and artificial intelligence systems",
+   "authors": [
+    "Winfield",
+    "Jirotka"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Philosophical Transactions of the Royal Society A",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1098/rsta.2018.0085",
+    "title": "Ethical governance is essential to building trust in robotics and artificial intelligence systems",
+    "year": 2018,
+    "first_author": "Winfield",
+    "container": "Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences",
+    "type": "journal-article",
+    "score": 60.020252
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[7] Botvinick, M. M., Braver, T. S., Barch, D. M., Carter, C. S. & Cohen, J. D. (2001) Conflict monitoring and cognitive control. Psychological Review, 108(3), 624\u2013652.",
+   "title": "Conflict monitoring and cognitive control",
+   "authors": [
+    "Botvinick",
+    "Braver",
+    "Barch",
+    "Carter",
+    "Cohen"
+   ],
+   "year": 2001,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Psychological Review",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1037/0033-295x.108.3.624",
+    "title": "Conflict monitoring and cognitive control.",
+    "year": 2001,
+    "first_author": "Botvinick",
+    "container": "Psychological Review",
+    "type": "journal-article",
+    "score": 38.941875
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[8] Mazur, J. E. (1987) An adjusting procedure for studying delayed reinforcement. Quantitative Analyses of Behavior, 5, 55\u201373.",
+   "title": "An adjusting procedure for studying delayed reinforcement",
+   "authors": [
+    "Mazur"
+   ],
+   "year": 1987,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Quantitative Analyses of Behavior",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2466/pr0.82.3.1047-1050",
+      "title": "A POSSIBLE ADJUSTING PROCEDURE FOR STUDYING OUTCOMES OF RISK-TAKING",
+      "year": 1998,
+      "first_author": "DIXON",
+      "container": "Psychological Reports",
+      "type": "journal-article",
+      "score": 27.251953
+     },
+     "metrics": {
+      "title_sim": 71.91011235955057,
+      "containment": 0.429,
+      "partial_ratio": 64.17910447761194,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[9] Chen, L., Lu, K., Rajeswaran, A., Lee, K., Grover, A., Laskin, M., Pieter, P., Abbeel, P. & Mordatch, I. (2021) Decision transformer: Reinforcement learning via sequence modeling. Advances in Neural Information Processing Systems, 34, 15084\u201315097.",
+   "title": "Decision transformer: Reinforcement learning via sequence modeling",
+   "authors": [
+    "Chen",
+    "Lu",
+    "Rajeswaran",
+    "Lee",
+    "Grover",
+    "Laskin",
+    "Pieter",
+    "Abbeel",
+    "Mordatch"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.2139/ssrn.3971444",
+    "title": "Decision Transformer: Reinforcement Learning via Sequence Modelling - Paper Review (Presentation Slides)",
+    "year": 2021,
+    "first_author": "Benhamou",
+    "container": "SSRN Electronic Journal",
+    "type": "journal-article",
+    "score": 45.35399
+   },
+   "metrics": {
+    "title_sim": 92.56198347107438,
+    "containment": 0.5,
+    "partial_ratio": 79.7979797979798,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[10] Bower, J.M. & Beeman, D. (1995) The Book of GENESIS: Exploring Realistic Neural Models with the GEneral NEural SImulation System. New York: TELOS/Springer\u2013Verlag.",
+   "title": "The Book of GENESIS: Exploring Realistic Neural Models with the GEneral NEural SImulation System",
+   "authors": [
+    "Bower",
+    "Beeman"
+   ],
+   "year": 1995,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/s0006-3495(95)80092-5",
+    "title": "Review of Bower and Beeman: The Book of GENESIS: Exploring Realistic Neural Models with the GEneral NEural SImulation System",
+    "year": 1995,
+    "first_author": "Hasselmo",
+    "container": "Biophysical Journal",
+    "type": "journal-article",
+    "score": 74.64684
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.923,
+    "partial_ratio": 90.1639344262295,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "[11] Achiam, J., Held, D., Tamar, A. & Abbeel, P. (2017) Constrained policy optimization. International Conference on Machine Learning, 22\u201331.",
+   "title": "Constrained policy optimization",
+   "authors": [
+    "Achiam",
+    "Held",
+    "Tamar",
+    "Abbeel"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Conference on Machine Learning",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1002/9781119136378.ch3",
+      "title": "Constrained Continuous Evolutionary Optimization",
+      "year": 2017,
+      "first_author": null,
+      "container": "Evolutionary Algorithms",
+      "type": "other",
+      "score": 22.655396
+     },
+     "metrics": {
+      "title_sim": 87.27272727272728,
+      "containment": 0.5,
+      "partial_ratio": 60.41666666666667,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "[12] Ames, A. D., Xu, X., Grizzle, J. W. & Tabuada, P. (2017) Control barrier function based quadratic programs for safety critical systems. IEEE Transactions on Automatic Control, 62(8), 3861\u20133876.",
+   "title": "Control barrier function based quadratic programs for safety critical systems",
+   "authors": [
+    "Ames",
+    "Xu",
+    "Grizzle",
+    "Tabuada"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE Transactions on Automatic Control",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/tac.2016.2638961",
+    "title": "Control Barrier Function Based Quadratic Programs for Safety Critical Systems",
+    "year": 2017,
+    "first_author": "Ames",
+    "container": "IEEE Transactions on Automatic Control",
+    "type": "journal-article",
+    "score": 59.01567
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "[13] Hasselmo, M.E., Schnell, E. & Barkai, E. (1995) Dynamics of learning and recall at excitatory recurrent synapses and cholinergic modulation in rat hippocampal region CA3. Journal of Neuroscience 15(7):5249-5262.",
+   "title": "Dynamics of learning and recall at excitatory recurrent synapses and cholinergic modulation in rat hippocampal region CA3",
+   "authors": [
+    "Hasselmo",
+    "Schnell",
+    "Barkai"
+   ],
+   "year": 1995,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Neuroscience",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1523/jneurosci.15-07-05249.1995",
+    "title": "Dynamics of learning and recall at excitatory recurrent synapses and cholinergic modulation in rat hippocampal region CA3",
+    "year": 1995,
+    "first_author": "Hasselmo",
+    "container": "The Journal of Neuroscience",
+    "type": "journal-article",
+    "score": 100.39931
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "[14] Thananjeyan, B., Balakrishna, A., Nair, S., Luo, M., Srinivasan, K., Hwang, M., Joseph, J., Ichnowski, J., V. Seita, Pokorny, F. T. & Goldberg, K. (2021) Recovery RL: Safe reinforcement learning with learned recovery zones. IEEE Robotics and Automation Letters, 6(3), 4915\u20134922.",
+   "title": "Recovery RL: Safe reinforcement learning with learned recovery zones",
+   "authors": [
+    "Thananjeyan",
+    "Balakrishna",
+    "Nair",
+    "Luo",
+    "Srinivasan",
+    "Hwang",
+    "Joseph",
+    "Ichnowski",
+    "Seita",
+    "Pokorny",
+    "Goldberg"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE Robotics and Automation Letters",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/lra.2021.3070252",
+    "title": "Recovery RL: Safe Reinforcement Learning With Learned Recovery Zones",
+    "year": 2021,
+    "first_author": "Thananjeyan",
+    "container": "IEEE Robotics and Automation Letters",
+    "type": "journal-article",
+    "score": 65.6063
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  }
+ ]
+}

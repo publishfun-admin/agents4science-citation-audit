@@ -1,0 +1,889 @@
+{
+ "pdf": "259_c8L0vgerBs.pdf",
+ "n_entries": 21,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": true,
+   "idx": 1,
+   "raw": "References",
+   "title": null,
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/9780470547038.ch3",
+      "title": "Voltage References",
+      "year": 2009,
+      "first_author": null,
+      "container": "Voltage References",
+      "type": "book-chapter",
+      "score": 13.509074
+     },
+     "metrics": {
+      "title_sim": 0,
+      "containment": 0.5,
+      "partial_ratio": 100.0,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[1] Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., ... & Polosukhin, I. (2017). Attention is all you need. Advances in Neural Information Processing Systems, 30.",
+   "title": "Attention is all you need",
+   "authors": [
+    "Vaswani",
+    "Shazeer",
+    "Parmar",
+    "Uszkoreit",
+    "Jones",
+    "Gomez",
+    "Polosukhin"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.65215/r5bs2d54",
+    "title": "Attention Is All You Need",
+    "year": 2025,
+    "first_author": "Vaswani",
+    "container": "",
+    "type": "posted-content",
+    "score": 43.621082
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[2] Brown, T. B., Mann, B., Ryder, N., Subbiah, M., Kaplan, J. D., Dhariwal, P., ... & Amodei, D. (2020). Language models are few-shot learners. Advances in Neural Information Processing Systems, 33, 1877\u20131901.",
+   "title": "Language models are few-shot learners",
+   "authors": [
+    "Brown",
+    "Mann",
+    "Ryder",
+    "Subbiah",
+    "Kaplan",
+    "Dhariwal",
+    "Amodei"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2021.mrl-1.1",
+    "title": "Language Models are Few-shot Multilingual Learners",
+    "year": 2021,
+    "first_author": "Winata",
+    "container": "Proceedings of the 1st Workshop on Multilingual Representation Learning",
+    "type": "proceedings-article",
+    "score": 33.99663
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.833,
+    "partial_ratio": 74.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[3] Bender, E. M., Gebru, T., McMillan-Major, A., & Shmitchell, S. (2021). On the dangers of stochastic parrots: Can language models be too big? In Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency (pp. 610-623).",
+   "title": "On the dangers of stochastic parrots: Can language models be too big?",
+   "authors": [
+    "Bender",
+    "Gebru",
+    "McMillan-Major",
+    "Shmitchell"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3442188.3445922",
+    "title": "On the Dangers of Stochastic Parrots",
+    "year": 2021,
+    "first_author": "Bender",
+    "container": "Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency",
+    "type": "proceedings-article",
+    "score": 67.07632
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[4] Blodgett, S. L., Barocas, S., Daum\u00e9 III, H., & Wallach, H. (2020). Language (technology) is power: A critical survey of \u201cbias\u201d in nlp. arXiv preprint arXiv:2005.14050.",
+   "title": "Language (technology) is power: A critical survey of \u201cbias",
+   "authors": [
+    "Blodgett, S. L., Barocas, S., Daum\u00e9 III, H., & Wallach, H."
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": "2005.14050",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2020.acl-main.485",
+    "title": "Language (Technology) is Power: A Critical Survey of \u201cBias\u201d in NLP",
+    "year": 2020,
+    "first_author": "Blodgett",
+    "container": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+    "type": "proceedings-article",
+    "score": 81.83449
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2005.14050"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[5] Zhang, B. H., Lemoine, B., & Mitchell, M. (2018). Mitigating unwanted biases with adversarial learning. In Proceedings of the 2018 AAAI/ACM Conference on AI, Ethics, and Society (pp. 335-340).",
+   "title": "Mitigating unwanted biases with adversarial learning",
+   "authors": [
+    "Zhang",
+    "Lemoine",
+    "Mitchell"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 2018 AAAI/ACM Conference on AI, Ethics, and Society",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3278721.3278779",
+    "title": "Mitigating Unwanted Biases with Adversarial Learning",
+    "year": 2018,
+    "first_author": "Zhang",
+    "container": "Proceedings of the 2018 AAAI/ACM Conference on AI, Ethics, and Society",
+    "type": "proceedings-article",
+    "score": 50.95906
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[6] Bolukbasi, T., Chang, K. W., Zou, J. Y., Saligrama, V., & Kalai, A. T. (2016). Man is to computer programmer as woman is to homemaker? debiasing word embeddings. Advances in Neural Information Processing Systems, 29.",
+   "title": "Man is to computer programmer as woman is to homemaker? debiasing word embeddings",
+   "authors": [
+    "Bolukbasi",
+    "Chang",
+    "Zou",
+    "Saligrama",
+    "Kalai"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/978-3-030-59491-6_8",
+      "title": "Joint Multiclass Debiasing of Word Embeddings",
+      "year": 2020,
+      "first_author": "Popovi\u0107",
+      "container": "Lecture Notes in Computer Science",
+      "type": "book-chapter",
+      "score": 29.585934
+     },
+     "metrics": {
+      "title_sim": 71.42857142857143,
+      "containment": 0.6,
+      "partial_ratio": 68.88888888888889,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[7] Zhao, J., Wang, T., Yatskar, M., Ordonez, V., & Chang, K. W. (2017). Men also like shopping: Reducing gender bias amplification using corpus-level constraints. arXiv preprint arXiv:1707.09457.",
+   "title": "Men also like shopping: Reducing gender bias amplification using corpus-level constraints",
+   "authors": [
+    "Zhao",
+    "Wang",
+    "Yatskar",
+    "Ordonez",
+    "Chang"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": "1707.09457",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/d17-1323",
+    "title": "Men Also Like Shopping: Reducing Gender Bias Amplification using\n            Corpus-level Constraints",
+    "year": 2017,
+    "first_author": "Zhao",
+    "container": "Proceedings of the 2017 Conference on Empirical Methods in Natural\n          Language Processing",
+    "type": "proceedings-article",
+    "score": 85.037056
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "1707.09457"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[8] Sheng, E., Chang, K. W., Natarajan, P., & Peng, N. (2019). The woman worked as a babysitter: On biases in language generation. arXiv preprint arXiv:1909.01326.",
+   "title": "The woman worked as a babysitter: On biases in language generation",
+   "authors": [
+    "Sheng",
+    "Chang",
+    "Natarajan",
+    "Peng"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": "1909.01326",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/d19-1339",
+    "title": "The Woman Worked as a Babysitter: On Biases in Language Generation",
+    "year": 2019,
+    "first_author": "Sheng",
+    "container": "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)",
+    "type": "proceedings-article",
+    "score": 57.26728
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "1909.01326"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[9] Kurita, K., Vyas, N., Pareek, A., Black, A. W., & Tsvetkov, Y. (2019). Measuring bias in contextualized word representations. arXiv preprint arXiv:1906.07337.",
+   "title": "Measuring bias in contextualized word representations",
+   "authors": [
+    "Kurita",
+    "Vyas",
+    "Pareek",
+    "Black",
+    "Tsvetkov"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": "1906.07337",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/w19-3823",
+    "title": "Measuring Bias in Contextualized Word Representations",
+    "year": 2019,
+    "first_author": "Kurita",
+    "container": "Proceedings of the First Workshop on Gender Bias in Natural Language Processing",
+    "type": "proceedings-article",
+    "score": 55.3952
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "1906.07337"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "[10] Nadeem, M., Bethke, A., & Reddy, S. (2021). StereoSet: Measuring stereotypical bias in pretrained language models. arXiv preprint arXiv:2004.09456.",
+   "title": "StereoSet: Measuring stereotypical bias in pretrained language models",
+   "authors": [
+    "Nadeem",
+    "Bethke",
+    "Reddy"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": "2004.09456",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2021.acl-long.416",
+    "title": "StereoSet: Measuring stereotypical bias in pretrained language models",
+    "year": 2021,
+    "first_author": "Nadeem",
+    "container": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+    "type": "proceedings-article",
+    "score": 67.64301
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2004.09456"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "[11] Nangia, N., Vania, C., Bhalerao, R., & Bowman, S. R. (2020). CrowS-Pairs: A challenge dataset for measuring social biases in masked language models. arXiv preprint arXiv:2010.00133.",
+   "title": "CrowS-Pairs: A challenge dataset for measuring social biases in masked language models",
+   "authors": [
+    "Nangia",
+    "Vania",
+    "Bhalerao",
+    "Bowman"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": "2010.00133",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2020.emnlp-main.154",
+    "title": "CrowS-Pairs: A Challenge Dataset for Measuring Social Biases in Masked Language Models",
+    "year": 2020,
+    "first_author": "Nangia",
+    "container": "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+    "type": "proceedings-article",
+    "score": 83.821236
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2010.00133"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "[12] Webster, K., Wang, X., Tenney, I., Beutel, A., Pitler, E., & Pavlick, E. (2020). Measuring and reducing gendered correlations in pretrained models. arXiv preprint arXiv:2010.06032.",
+   "title": "Measuring and reducing gendered correlations in pretrained models",
+   "authors": [
+    "Webster",
+    "Wang",
+    "Tenney",
+    "Beutel",
+    "Pitler",
+    "Pavlick"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": "2010.06032",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2010.06032"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/978-1-4842-5648-0_15",
+      "title": "Example 3 \u2013 Pretrained Models",
+      "year": 2020,
+      "first_author": "Milosevic",
+      "container": "Introduction to Convolutional Neural Networks",
+      "type": "book-chapter",
+      "score": 24.02835
+     },
+     "metrics": {
+      "title_sim": 77.27272727272728,
+      "containment": 0.667,
+      "partial_ratio": 74.07407407407408,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "[13] Lauscher, A., Lueken, T., & Glava\u0161, G. (2021). Sustainable modular debiasing of language models. arXiv preprint arXiv:2109.03646.",
+   "title": "Sustainable modular debiasing of language models",
+   "authors": [
+    "Lauscher",
+    "Lueken",
+    "Glava\u0161"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": "2109.03646",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2021.findings-emnlp.411",
+    "title": "Sustainable Modular Debiasing of Language Models",
+    "year": 2021,
+    "first_author": "Lauscher",
+    "container": "Findings of the Association for Computational Linguistics: EMNLP 2021",
+    "type": "proceedings-article",
+    "score": 57.175808
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2109.03646"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "[14] Czarnowska, P., Vyas, Y., & Shah, K. (2021). Quantifying social biases in NLP: A generalization and empirical comparison of extrinsic fairness metrics. Transactions of the Association for Computational Linguistics, 9, 1249-1267.",
+   "title": "Quantifying social biases in NLP: A generalization and empirical comparison of extrinsic fairness metrics",
+   "authors": [
+    "Czarnowska",
+    "Vyas",
+    "Shah"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Transactions of the Association for Computational Linguistics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1162/tacl_a_00425",
+    "title": "Quantifying Social Biases in NLP: A Generalization and Empirical Comparison of Extrinsic Fairness Metrics",
+    "year": 2021,
+    "first_author": "Czarnowska",
+    "container": "Transactions of the Association for Computational Linguistics",
+    "type": "journal-article",
+    "score": 91.74162
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 16,
+   "raw": "[15] Cheung, V., Maier, M., & Lieder, F. (2025). Large language models show amplified cognitive biases in moral decision-making. Proceedings of the National Academy of Sciences, 122(25), e2412015122.",
+   "title": "Large language models show amplified cognitive biases in moral decision-making",
+   "authors": [
+    "Cheung",
+    "Maier",
+    "Lieder"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the National Academy of Sciences",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.31234/osf.io/aj46b_v3",
+    "title": "Large Language Models Show Amplified Cognitive Biases in Moral Decision-Making",
+    "year": 2025,
+    "first_author": "Cheung",
+    "container": "",
+    "type": "posted-content",
+    "score": 90.85636
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 17,
+   "raw": "[16] Hu, T., Kyrychenko, Y., Rathje, S., Collier, N., van der Linden, S., & Roozenbeek, J. (2025). Generative language models exhibit social identity biases. Nature Computational Science, 5(1), 65-75.",
+   "title": "Generative language models exhibit social identity biases",
+   "authors": [
+    "Hu",
+    "Kyrychenko",
+    "Rathje",
+    "Collier",
+    "Linden",
+    "Roozenbeek"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature Computational Science",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/s43588-024-00741-1",
+    "title": "Generative language models exhibit social identity biases",
+    "year": 2024,
+    "first_author": "Hu",
+    "container": "Nature Computational Science",
+    "type": "journal-article",
+    "score": 48.940315
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 18,
+   "raw": "[17] Tao, Y., Viberg, O., Baker, R. S., & Kizilcec, R. F. (2024). Cultural bias and cultural alignment of large language models. PNAS nexus, 3(9), pgae346.",
+   "title": "Cultural bias and cultural alignment of large language models",
+   "authors": [
+    "Tao",
+    "Viberg",
+    "Baker",
+    "Kizilcec"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "PNAS nexus",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1093/pnasnexus/pgae346",
+    "title": "Cultural bias and cultural alignment of large language models",
+    "year": 2024,
+    "first_author": "Tao",
+    "container": "PNAS Nexus",
+    "type": "journal-article",
+    "score": 58.77764
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 19,
+   "raw": "[18] Lee, J. K., & Chung, T. M. (2024, June). Detecting Bias in Large Language Models: Fine-Tuned KcBERT. In International Conference on Pattern Recognition and Artificial Intelligence (pp. 76-90). Singapore: Springer Nature Singapore.",
+   "title": "Detecting Bias in Large Language Models: Fine-Tuned KcBERT",
+   "authors": [
+    "Lee",
+    "Chung"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Conference on Pattern Recognition and Artificial Intelligence",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/978-981-97-8705-0_6",
+    "title": "Detecting Bias in\u00a0Large Language Models: Fine-Tuned KcBERT",
+    "year": 2025,
+    "first_author": "Lee",
+    "container": "Lecture Notes in Computer Science",
+    "type": "book-chapter",
+    "score": 57.43189
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 20,
+   "raw": "[19] Wei, X., Kumar, N., & Zhang, H. (2025). Addressing bias in generative AI: Challenges and research opportunities in information management. arXiv preprint arXiv:2502.10407.",
+   "title": "Addressing bias in generative AI: Challenges and research opportunities in information management",
+   "authors": [
+    "Wei",
+    "Kumar",
+    "Zhang"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": "2502.10407",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.im.2025.104103",
+    "title": "Addressing bias in generative AI: Challenges and research opportunities in information management",
+    "year": 2025,
+    "first_author": "Wei",
+    "container": "Information &amp; Management",
+    "type": "journal-article",
+    "score": 66.829475
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2502.10407"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 21,
+   "raw": "[20] Wang, Z., Shi, Z., Zhou, H., Gao, S., Sun, Q., & Li, J. (2025). Towards objective fine-tuning: How LLMs\u2019 prior knowledge causes potential poor calibration? arXiv preprint arXiv:2505.20903.",
+   "title": "Towards objective fine-tuning: How LLMs",
+   "authors": [
+    "Wang",
+    "Shi",
+    "Zhou",
+    "Gao",
+    "Sun",
+    "Li"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": "2505.20903",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2025.acl-long.722",
+    "title": "Towards Objective Fine-tuning: How LLMs\u2019 Prior Knowledge Causes Potential Poor Calibration?",
+    "year": 2025,
+    "first_author": "Wang",
+    "container": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "type": "proceedings-article",
+    "score": 42.876446
+   },
+   "metrics": {
+    "title_sim": 60.31746031746032,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2505.20903"
+    }
+   ]
+  }
+ ]
+}

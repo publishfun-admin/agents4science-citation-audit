@@ -1,0 +1,438 @@
+{
+ "pdf": "244_TX4BUsNGsA.pdf",
+ "n_entries": 11,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 2,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "[1] A. Vaswani et al., \u201cAttention Is All You Need,\u201d 2017.",
+   "title": "Attention Is All You Need",
+   "authors": [
+    "Vaswani"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.65215/r5bs2d54",
+    "title": "Attention Is All You Need",
+    "year": 2025,
+    "first_author": "Vaswani",
+    "container": "",
+    "type": "posted-content",
+    "score": 43.596626
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2] A. Graves, \u201cAdaptive Computation Time for Neural Networks,\u201d 2016.",
+   "title": "Adaptive Computation Time for Neural Networks",
+   "authors": [
+    "Graves"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.7764/tesisuc/ing/61644",
+      "title": "A differentiable adaptive computation time algorithm for neural networks",
+      "year": 2023,
+      "first_author": "Eyzaguirre",
+      "container": "",
+      "type": "dissertation",
+      "score": 37.082603
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 0.714,
+      "partial_ratio": 79.66101694915254,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3] C. Maddison et al., \u201cThe Concrete Distribution:     A Continuous Relaxation of Discrete Random Variables,\u201d 2017.",
+   "title": "The Concrete Distribution: A Continuous Relaxation of Discrete Random Variables",
+   "authors": [
+    "Maddison"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1002/9781118351994.ch2",
+      "title": "Discrete and Continuous Random Variables",
+      "year": 2012,
+      "first_author": null,
+      "container": "Wiley Series in Probability and Statistics",
+      "type": "other",
+      "score": 34.29103
+     },
+     "metrics": {
+      "title_sim": 94.73684210526315,
+      "containment": 1.0,
+      "partial_ratio": 71.42857142857143,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4] M. I. Belghazi et al., \u201cMutual Information Neural Estimation,\u201d 2018.",
+   "title": "Mutual Information Neural Estimation",
+   "authors": [
+    "Belghazi"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.52202/085713-1492",
+      "title": "Neural Mutual Information Estimation with Vector Copulas",
+      "year": 2025,
+      "first_author": "Chen",
+      "container": "Advances in Neural Information Processing Systems 38",
+      "type": "proceedings-article",
+      "score": 29.335205
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 0.667,
+      "partial_ratio": 66.01941747572815,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": true,
+   "idx": 5,
+   "raw": "[5] Survey:   \u201cEfficient Transformers,\u201d various authors.",
+   "title": "Efficient Transformers",
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "various authors",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.14264/f93f236",
+    "title": "Information-preserving efficient vision transformers",
+    "year": 2025,
+    "first_author": "Xu",
+    "container": "",
+    "type": "dissertation",
+    "score": 20.72669
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.4,
+    "partial_ratio": 61.904761904761905,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": true,
+   "idx": 6,
+   "raw": "[6] Paper:    \u201cStructured Pruning of Transformer Models,\u201d various authors.",
+   "title": "Structured Pruning of Transformer Models",
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "various authors",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/aiotc63215.2024.10748287",
+      "title": "ADMM Based Semi-Structured Pattern Pruning Framework for Transformer",
+      "year": 2024,
+      "first_author": "Wang",
+      "container": "2024 3rd International Conference on Artificial Intelligence, Internet of Things and Cloud Computing Technology (AIoTC)",
+      "type": "proceedings-article",
+      "score": 25.269129
+     },
+     "metrics": {
+      "title_sim": 85.71428571428571,
+      "containment": 0.375,
+      "partial_ratio": 59.01639344262295,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "Appendix D: Reproduction Instructions \u2022 Synthetic pipeline (NumPy): \u2013 Run: python3 code/experiment_runner.py \u2013 Outputs: results_YYYYMMDD_HHMMSS/ with figures, all_results.json, efficiency.json, ROC arrays.",
+   "title": "Reproduction Instructions \u2022 Synthetic pipeline (NumPy): \u2013 Run: python3 code/experiment_runner.py \u2013 Outputs: results_YYYYMMDD_HHMMSS/ with figures, all_results.json, efficiency.json, ROC arrays",
+   "authors": [
+    "Appendix"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.7717/peerj.18597/supp-3",
+      "title": "Supplemental Information 3: R code with statistics and outputs for pre-plant cover for Results 1 and Figures 1 and S1",
+      "year": 2025,
+      "first_author": null,
+      "container": "",
+      "type": "component",
+      "score": 41.005997
+     },
+     "metrics": {
+      "title_sim": 40.27303754266212,
+      "containment": 0.4,
+      "partial_ratio": 44.827586206896555,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "\u2013 Figures: loss_curves.png, val_accuracy.png, val_auc.png, bar_accuracy.png, bar_kept_tokens.png, ablation.png, roc_proposed.png.",
+   "title": "Figures: loss_curves.png, val_accuracy.png, val_auc.png, bar_accuracy.png, bar_kept_tokens.png, ablation.png, roc_proposed.png",
+   "authors": [
+    "\u2013"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.47688/rba_archives_pn-006420",
+      "title": "Bank's Functions - PNG Division - Educational Facilities for Indigens - PNG Bankers College - PNG Bankers College Course 5 - 12 February 1968 - 1 March 1968",
+      "year": 2021,
+      "first_author": null,
+      "container": "",
+      "type": "report",
+      "score": 118.0305
+     },
+     "metrics": {
+      "title_sim": 39.54372623574145,
+      "containment": 0.167,
+      "partial_ratio": 43.96551724137932,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "\u2022 Real-world SST-2 pipeline (PyTorch/HuggingFace): \u2013 Run: Open and execute the Jupyter notebook experiment_sst2.ipynb.",
+   "title": null,
+   "authors": [
+    "SST-2"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.7717/peerj-cs.1621/supp-1",
+      "title": "Supplemental Information 1: Jupyter notebook running the algorithm on synthetic and real datasets",
+      "year": 2023,
+      "first_author": null,
+      "container": "",
+      "type": "component",
+      "score": 36.623726
+     },
+     "metrics": {
+      "title_sim": 0,
+      "containment": 0.333,
+      "partial_ratio": 45.56962025316456,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "\u2013 Dependencies: PyTorch, HuggingFace Transformers, Datasets, and scikit-learn.",
+   "title": "Dependencies: PyTorch, HuggingFace Transformers, Datasets, and scikit-learn",
+   "authors": [
+    "\u2013"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/978-1-4842-7921-2_12",
+      "title": "Neural Network and PyTorch Basics",
+      "year": 2022,
+      "first_author": "Pajankar",
+      "container": "Hands-on Machine Learning with Python",
+      "type": "book-chapter",
+      "score": 38.79469
+     },
+     "metrics": {
+      "title_sim": 50.0,
+      "containment": 0.25,
+      "partial_ratio": 48.14814814814815,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "\u2013 Outputs: The notebook prints scalar validation results (Accuracy, AUC, FLOPs) for both the baseline and proposed model.",
+   "title": "Outputs: The notebook prints scalar validation results",
+   "authors": [
+    "\u2013"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.3897/rio.coll.353",
+      "title": "TETTRIs Project Outputs and Results",
+      "year": 1970,
+      "first_author": null,
+      "container": "",
+      "type": "database",
+      "score": 21.232008
+     },
+     "metrics": {
+      "title_sim": 60.0,
+      "containment": 0.5,
+      "partial_ratio": 48.57142857142858,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  }
+ ]
+}

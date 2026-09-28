@@ -1,0 +1,838 @@
+{
+ "pdf": "168_I7meDPJFy8.pdf",
+ "n_entries": 20,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": false,
+ "parser_version": 2,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "References [1] Gary S. Becker. Crime and punishment: An economic approach. Journal of Political Economy, 76(2):169\u2013217, 1968.",
+   "title": "Crime and punishment: An economic approach",
+   "authors": [
+    "References [1] Gary S. Becker."
+   ],
+   "year": 1968,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Political Economy",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/978-1-349-62853-7_2",
+    "title": "Crime and Punishment: an Economic Approach",
+    "year": 1968,
+    "first_author": "Becker",
+    "container": "The Economic Dimensions of Crime",
+    "type": "book-chapter",
+    "score": 51.57507
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2] California Court of Appeal, First District, Division 2. Coalition on homelessness v. city & county of san francisco, a164180, 2023.",
+   "title": "First District, Division 2. Coalition on homelessness v",
+   "authors": [
+    "Appeal"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "city & county of san francisco",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.4324/9781315860817-15",
+      "title": "First-Person Accounts of Homelessness",
+      "year": 2023,
+      "first_author": "Henslin",
+      "container": "Homelessness",
+      "type": "book-chapter",
+      "score": 25.378391
+     },
+     "metrics": {
+      "title_sim": 65.45454545454545,
+      "containment": 0.5,
+      "partial_ratio": 62.16216216216216,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3] Dick M. Carpenter, Chelsea Lawson, and Courtney Deuser. What the great recession revealed about taxation by citation and what can be done about it. University of Michigan Journal of Law Reform, 54(4):927\u2013966, 2021.",
+   "title": "What the great recession revealed about taxation by citation and what can be done about it",
+   "authors": [
+    "Carpenter",
+    "Lawson",
+    "Deuser"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "University of Michigan Journal of Law Reform",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.36646/mjlr.54.4.great",
+    "title": "What the Great Recession Revealed About Taxation by Citation and What Can Be Done About It",
+    "year": 2021,
+    "first_author": "Carpenter II",
+    "container": "University of Michigan Journal of Law Reform",
+    "type": "journal-article",
+    "score": 92.40144
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4] Beth A. Colgan. The excessive fines clause: Challenging the modern debtors\u2019 prison. UCLA Law Review, 65(2), 2019.",
+   "title": "The excessive fines clause: Challenging the modern debtors\u2019 prison",
+   "authors": [
+    "Colgan"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "UCLA Law Review",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.3791826",
+      "title": "The Burdens of the Excessive Fines Clause",
+      "year": 2021,
+      "first_author": "Colgan",
+      "container": "",
+      "type": "posted-content",
+      "score": 53.130535
+     },
+     "metrics": {
+      "title_sim": 82.53968253968254,
+      "containment": 0.75,
+      "partial_ratio": 78.04878048780488,
+      "year_ok": false,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "3805f72c4ff8e971bf3c939844fde8fb22086d61",
+    "title": "The Excessive Fines Clause: Challenging the Modern Debtors' Prison",
+    "year": 2018,
+    "first_author": "Beth A. Colgan",
+    "container": "",
+    "ext": {
+     "MAG": "2795356718",
+     "CorpusId": 158379760
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5] Fines and Fees Justice Center.   About fines and fees, 2021.    https:// finesandfeesjusticecenter.org/about-fines-fees-justice-center/.",
+   "title": "About fines and fees",
+   "authors": [
+    "Center"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.4795322",
+      "title": "Reimagining Traffic Fines and Fees",
+      "year": 2024,
+      "first_author": "Woods",
+      "container": "",
+      "type": "posted-content",
+      "score": 27.194824
+     },
+     "metrics": {
+      "title_sim": 82.35294117647058,
+      "containment": 0.5,
+      "partial_ratio": 60.0,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    },
+    {
+     "step": "urls_not_live",
+     "url_status": {
+      "https://": "error"
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[6] Alexes Harris. A Pound of Flesh: Monetary Sanctions as Punishment for the Poor. Russell Sage Foundation, 2016.",
+   "title": "A Pound of Flesh: Monetary Sanctions as Punishment for the Poor",
+   "authors": [
+    "Harris"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1177/1362480617693706",
+    "title": "Alexes Harris, A Pound of Flesh: Monetary Sanctions as Punishment for the Poor",
+    "year": 2017,
+    "first_author": "Western",
+    "container": "Theoretical Criminology",
+    "type": "journal-article",
+    "score": 61.461166
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[7] Daniel Kahneman. Thinking, Fast and Slow. Farrar, Straus and Giroux, 2011.",
+   "title": "Thinking, Fast and Slow",
+   "authors": [
+    "Kahneman"
+   ],
+   "year": 2011,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1332/251569211x15665367493742",
+    "title": "Kahneman, D., Thinking, Fast and Slow",
+    "year": 2011,
+    "first_author": "Galli",
+    "container": "Journal of Public Finance and Public Choice",
+    "type": "journal-article",
+    "score": 40.75169
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 93.93939393939394,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[8] David Laibson. Golden eggs and hyperbolic discounting. The Quarterly Journal of Economics, 112(2):443\u2013478, 1997.",
+   "title": "Golden eggs and hyperbolic discounting",
+   "authors": [
+    "Laibson"
+   ],
+   "year": 1997,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "The Quarterly Journal of Economics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.2307/j.ctvcm4j8j.20",
+    "title": "Golden Eggs and Hyperbolic Discounting",
+    "year": 2011,
+    "first_author": "LAIBSON",
+    "container": "Advances in Behavioral Economics",
+    "type": "book-chapter",
+    "score": 59.75347
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[9] Guy Lansley. Cars and socio-economics: Understanding neighbourhood variations in car characteristics from administrative data. Regional Studies, Regional Science, 3(1):264\u2013285, 2016.",
+   "title": "Cars and socio-economics: Understanding neighbourhood variations in car characteristics from administrative data",
+   "authors": [
+    "Lansley"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Regional Studies, Regional Science",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1080/21681376.2016.1177466",
+    "title": "Cars and socio-economics: understanding neighbourhood variations in car characteristics from administrative data",
+    "year": 2016,
+    "first_author": "Lansley",
+    "container": "Regional Studies, Regional Science",
+    "type": "journal-article",
+    "score": 90.04005
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[10] Benjamin Love. Community caretaking or \u201cpoverty towing?\u201d: Vehicle residents and the fourth amendment. Illinois Law Review, 2025(1), 2025.",
+   "title": "Community caretaking or \u201cpoverty towing?\u201d: Vehicle residents and the fourth amendment",
+   "authors": [
+    "Love"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Illinois Law Review",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.7234538",
+      "title": "Poverty Towing and the Fourth Amendment&amp;nbsp;",
+      "year": 2026,
+      "first_author": "Larett",
+      "container": "",
+      "type": "posted-content",
+      "score": 47.281982
+     },
+     "metrics": {
+      "title_sim": 89.65517241379311,
+      "containment": 0.667,
+      "partial_ratio": 66.66666666666667,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "[11] Anandi Mani, Sendhil Mullainathan, Eldar Shafir, and Jiaying Zhao. Poverty impedes cognitive function. Science, 341(6149):976\u2013980, 2013.",
+   "title": "Poverty impedes cognitive function",
+   "authors": [
+    "Mani",
+    "Mullainathan",
+    "Shafir",
+    "Zhao"
+   ],
+   "year": 2013,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Science",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1126/science.1238041",
+    "title": "Poverty Impedes Cognitive Function",
+    "year": 2013,
+    "first_author": "Mani",
+    "container": "Science",
+    "type": "journal-article",
+    "score": 48.20956
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "[12] Sian Mughan. Municipal reliance on fine and fee revenues: How local courts contribute to extractive revenue practices in u.s. cities. Public Budgeting & Finance, 40(4):48\u201370, 2020.",
+   "title": "Municipal reliance on fine and fee revenues: How local courts contribute to extractive revenue practices in u.s. cities",
+   "authors": [
+    "Mughan"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Public Budgeting & Finance",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1111/pbaf.12277",
+    "title": "Municipal reliance on fine and fee revenues: How local courts contribute to extractive revenue practices in US cities",
+    "year": 2021,
+    "first_author": "Mughan",
+    "container": "Public Budgeting &amp; Finance",
+    "type": "journal-article",
+    "score": 111.44357
+   },
+   "metrics": {
+    "title_sim": 99.57081545064378,
+    "containment": 1.0,
+    "partial_ratio": 99.13793103448276,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "[13] Sendhil Mullainathan and Eldar Shafir. Scarcity: Why Having Too Little Means So Much. Henry Holt and Company, 2013.",
+   "title": "Scarcity: Why Having Too Little Means So Much",
+   "authors": [
+    "Mullainathan",
+    "Shafir"
+   ],
+   "year": 2013,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1002/scin.5591840820",
+    "title": "Bookshelf: Scarcity: Why having too little means so much",
+    "year": 2013,
+    "first_author": null,
+    "container": "Science News",
+    "type": "journal-article",
+    "score": 75.839966
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.875,
+    "partial_ratio": 88.88888888888889,
+    "year_ok": true,
+    "first_author_ok": null
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "[14] Richard A. Posner. An economic theory of the criminal law. Columbia Law Review, 85(6): 1193\u20131231, 1985.",
+   "title": "An economic theory of the criminal law",
+   "authors": [
+    "Posner"
+   ],
+   "year": 1985,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Columbia Law Review",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.2307/1122392",
+    "title": "An Economic Theory of the Criminal Law",
+    "year": 1985,
+    "first_author": "Posner",
+    "container": "Columbia Law Review",
+    "type": "journal-article",
+    "score": 45.56604
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "[15] San Francisco Municipal Transportation Agency. San francisco transportation code, division ii, section 320: Tow and storage fees. https://codelibrary.amlegal.com/codes/san_ francisco/latest/sf_transportation/0-0-0-52255, 2020.",
+   "title": "San francisco transportation code, division ii, section 320: Tow and storage fees",
+   "authors": [
+    "Agency"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://codelibrary.amlegal.com/codes/san_"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.15368/theses.2010.63",
+      "title": "PLANNING FOR STOP SPACING UNDER THE SAN FRANCISCO MUNICIPAL TRANSPORTATION AGENCY BUS STOP CONSOLIDATION PROPOSAL",
+      "year": 2016,
+      "first_author": "Cooper",
+      "container": "",
+      "type": "dissertation",
+      "score": 34.77225
+     },
+     "metrics": {
+      "title_sim": 58.064516129032256,
+      "containment": 0.417,
+      "partial_ratio": 64.24870466321244,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    },
+    {
+     "step": "urls_not_live",
+     "url_status": {
+      "https://codelibrary.amlegal.com/codes/san_": 403
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 16,
+   "raw": "[16] Herbert A. Simon. Models of Man, Social and Rational: Mathematical Essays on Rational Human Behavior in a Social Setting. Wiley, 1957.",
+   "title": "Models of Man, Social and Rational: Mathematical Essays on Rational Human Behavior in a Social Setting",
+   "authors": [
+    "Simon"
+   ],
+   "year": 1957,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1515/jbnst-1958-1700124",
+    "title": "Simon, Herbert A., Models of Man, Social and Rational: Mathematical Essays on Rational Human Behavior in a Social Setting",
+    "year": 1958,
+    "first_author": "Fels",
+    "container": "Jahrb\u00fccher f\u00fcr National\u00f6konomie und Statistik",
+    "type": "journal-article",
+    "score": 75.18403
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 94.82758620689656,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 17,
+   "raw": "[17] George J. Stigler. The optimum enforcement of laws. Journal of Political Economy, 78(3): 526\u2013536, 1970.",
+   "title": "The optimum enforcement of laws",
+   "authors": [
+    "Stigler"
+   ],
+   "year": 1970,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Political Economy",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1086/259646",
+    "title": "The Optimum Enforcement of Laws",
+    "year": 1970,
+    "first_author": "Stigler",
+    "container": "Journal of Political Economy",
+    "type": "journal-article",
+    "score": 46.42701
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 18,
+   "raw": "[18] Kyle Sweetland, Dick M. Carpenter, and Jennifer McDonald. The price of taxation by citation. Technical report, Institute for Justice, 2021.",
+   "title": "The price of taxation by citation",
+   "authors": [
+    "Sweetland",
+    "Carpenter",
+    "McDonald"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "report",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.5040/9798216022657.ch-001",
+      "title": "Taxation, the Price We Pay",
+      "year": 2019,
+      "first_author": null,
+      "container": "Taxation",
+      "type": "other",
+      "score": 22.632847
+     },
+     "metrics": {
+      "title_sim": 83.72093023255815,
+      "containment": 0.667,
+      "partial_ratio": 60.0,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 19,
+   "raw": "[19] Western Center on Law & Poverty, et al. Towed into debt: How towing practices in california punish poor people. Technical report, Western Center on Law & Poverty, 2019. https: //wclp.org/wp-content/uploads/2019/03/TowedIntoDebt.Report.pdf.",
+   "title": "Towed into debt: How towing practices in california punish poor people",
+   "authors": [
+    "Law"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https:"
+   ],
+   "container": null,
+   "type": "report",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.3403/bsiso6489",
+      "title": "Agricultural vehicles. Mechanical connections between towed and towing vehicles",
+      "year": 2015,
+      "first_author": null,
+      "container": "",
+      "type": "standard",
+      "score": 31.959751
+     },
+     "metrics": {
+      "title_sim": 50.72463768115942,
+      "containment": 0.25,
+      "partial_ratio": 47.05882352941176,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    },
+    {
+     "step": "urls_not_live",
+     "url_status": {
+      "https:": "error"
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 20,
+   "raw": "[20] Anna Yurko. From consumer incomes to car ages: How the distribution of income affects the distribution of vehicle vintages. MPRA Paper, (8849), 2008.",
+   "title": "From consumer incomes to car ages: How the distribution of income affects the distribution of vehicle vintages",
+   "authors": [
+    "Yurko"
+   ],
+   "year": 2008,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "MPRA Paper",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.25071/1874-6322.15296",
+      "title": "The Beaman Distribution: A New Descriptive Model for the Size\nDistribution of Incomes",
+      "year": 2008,
+      "first_author": "Maclachlan",
+      "container": "Journal of Income Distribution\u00ae",
+      "type": "journal-article",
+      "score": 38.892746
+     },
+     "metrics": {
+      "title_sim": 61.53846153846154,
+      "containment": 0.375,
+      "partial_ratio": 58.33333333333333,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "5b446a79f81ccca9cde8f56c770aed3c6bc6ad9d",
+    "title": "From Consumer Incomes to Car Ages: How the Distribution of Income Affects the Distribution of Vehicle Vintages",
+    "year": 2008,
+    "first_author": "A. Yurko",
+    "container": "",
+    "ext": {
+     "MAG": "2139272486",
+     "CorpusId": 54944944
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  }
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
+}

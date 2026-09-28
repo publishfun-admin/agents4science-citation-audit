@@ -1,0 +1,2167 @@
+{
+ "pdf": "38_ONQPEgMGqn.pdf",
+ "n_entries": 57,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": true,
+   "idx": 1,
+   "raw": "8     Therapeutic Horizons: Drugging the PTM Machinery to Combat Fibrosis 8.1   Kinase Inhibitors: A Well-Established Paradigm",
+   "title": "Therapeutic Horizons: Drugging the PTM Machinery to Combat Fibrosis 8.1 Kinase Inhibitors: A Well-Established Paradigm",
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1021/acs.jmedchem.5c02169.s001",
+      "title": "Thiazole-Based Tumor Pyruvate Kinase M2 Inhibitors: A Paradigm-Shifting Therapeutic Strategy Targeting Metabolic and Microbial Synergy in Colorectal Cancer",
+      "year": 2025,
+      "first_author": null,
+      "container": "",
+      "type": "component",
+      "score": 31.258545
+     },
+     "metrics": {
+      "title_sim": 59.25925925925926,
+      "containment": 0.25,
+      "partial_ratio": 49.16201117318436,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": true,
+   "idx": 2,
+   "raw": "8.2   Targeting the Epigenetic and Non-Histone Acetylation Machinery: HDAC and HAT Inhibitors",
+   "title": "Targeting the Epigenetic and Non-Histone Acetylation",
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1039/9781782628484-00168",
+      "title": "Targeting Non-Acetylation Histone Erasers",
+      "year": 2015,
+      "first_author": "Lu",
+      "container": "Epigenetics for Drug Discovery",
+      "type": "book-chapter",
+      "score": 33.680603
+     },
+     "metrics": {
+      "title_sim": 89.1891891891892,
+      "containment": 0.8,
+      "partial_ratio": 63.41463414634146,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": true,
+   "idx": 3,
+   "raw": "8.3   Modulating Protein Stability: Targeting E3 Ligases, DUBs, and Ubiquitin-Like Pathways",
+   "title": "Modulating Protein Stability: Targeting E3 Ligases, DUBs, and Ubiquitin-Like Pathways",
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.70675/0aa33054zc607z413dz8aedz05ed052d5438",
+      "title": "Regulation of NFATc3 stability by SUMO and E3 ubiquitin-ligases Trim39 and Trim17",
+      "year": 2026,
+      "first_author": "Basu Shrivastava",
+      "container": "",
+      "type": "dissertation",
+      "score": 42.44441
+     },
+     "metrics": {
+      "title_sim": 67.9245283018868,
+      "containment": 0.375,
+      "partial_ratio": 55.00000000000001,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "References [1] Henderson, N. C., Rieder, F., & Wynn, T. A. (2020). Fibrosis: from mechanisms to medicines. Nature, 587(7835), 555-566.",
+   "title": "Fibrosis: from mechanisms to medicines",
+   "authors": [
+    "References [1] Henderson, N. C., Rieder, F., & Wynn, T. A."
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/s41586-020-2938-9",
+    "title": "Fibrosis: from mechanisms to medicines",
+    "year": 2020,
+    "first_author": "Henderson",
+    "container": "Nature",
+    "type": "journal-article",
+    "score": 61.267536
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[2] Wynn, T. A. (2008). Cellular and molecular mechanisms of fibrosis. Journal of pathology, 214(2), 199-210.",
+   "title": "Cellular and molecular mechanisms of fibrosis",
+   "authors": [
+    "Wynn"
+   ],
+   "year": 2008,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of pathology",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1002/path.2277",
+    "title": "Cellular and molecular mechanisms of fibrosis",
+    "year": 2008,
+    "first_author": "Wynn",
+    "container": "The Journal of Pathology",
+    "type": "journal-article",
+    "score": 39.752254
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[3] Zeisberg, E. M., & Kalluri, R. (2013). The role of epithelial-to-mesenchymal transition in organ fibrosis. Journal of molecular medicine, 91(5), 585-596.",
+   "title": "The role of epithelial-to-mesenchymal transition in organ fibrosis",
+   "authors": [
+    "Zeisberg",
+    "Kalluri"
+   ],
+   "year": 2013,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of molecular medicine",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/s00109-003-0517-9",
+    "title": "The role of epithelial-to-mesenchymal transition in renal fibrosis",
+    "year": 2004,
+    "first_author": "Zeisberg",
+    "container": "Journal of Molecular Medicine",
+    "type": "journal-article",
+    "score": 45.05966
+   },
+   "metrics": {
+    "title_sim": 95.45454545454545,
+    "containment": 0.833,
+    "partial_ratio": 95.45454545454545,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[4] Meng, X. M., Nikolic-Paterson, D. J., & Lan, H. Y. (2016). TGF-\u03b2: the master regulator of fibrosis. Nature Reviews Nephrology, 12(6), 325-338.",
+   "title": "TGF-\u03b2: the master regulator of fibrosis",
+   "authors": [
+    "Meng",
+    "Nikolic-Paterson",
+    "Lan"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature Reviews Nephrology",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/nrneph.2016.48",
+    "title": "TGF-\u03b2: the master regulator of fibrosis",
+    "year": 2016,
+    "first_author": "Meng",
+    "container": "Nature Reviews Nephrology",
+    "type": "journal-article",
+    "score": 42.264805
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[5] Parola, M., & Pinzani, M. (2019). Liver fibrosis: Pathophysiology, pathogenetic targets and clinical issues. Molecular aspects of medicine, 65, 37-55.",
+   "title": "Liver fibrosis: Pathophysiology, pathogenetic targets and clinical issues",
+   "authors": [
+    "Parola",
+    "Pinzani"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Molecular aspects of medicine",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.mam.2018.09.002",
+    "title": "Liver fibrosis: Pathophysiology, pathogenetic targets and clinical issues",
+    "year": 2019,
+    "first_author": "Parola",
+    "container": "Molecular Aspects of Medicine",
+    "type": "journal-article",
+    "score": 67.20211
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[6] Travers, J. G., Kamal, F. A., Robbins, J., Yutzey, K. E., & Blaxall, B. C. (2016). Cardiac fibrosis: the fibroblast awakens. Circulation research, 118(6), 1021-1040.",
+   "title": "Cardiac fibrosis: the fibroblast awakens",
+   "authors": [
+    "Travers",
+    "Kamal",
+    "Robbins",
+    "Yutzey",
+    "Blaxall"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Circulation research",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1161/circresaha.115.306565",
+    "title": "Cardiac Fibrosis",
+    "year": 2016,
+    "first_author": "Travers",
+    "container": "Circulation Research",
+    "type": "journal-article",
+    "score": 47.263474
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[7] Ramazi, S., & Zahiri, J. (2021). Post-translational modification in the context of multi-omics data. Frontiers in genetics, 12, 733394.",
+   "title": "Post-translational modification in the context of multi-omics data",
+   "authors": [
+    "Ramazi",
+    "Zahiri"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Frontiers in genetics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1002/9783527626601.ch1",
+      "title": "Post\u2010Translational Modifications in the Context of Therapeutic Proteins: An Introductory Overview",
+      "year": 2009,
+      "first_author": "Walsh",
+      "container": "Post\u2010translational Modification of Protein Biopharmaceuticals",
+      "type": "other",
+      "score": 31.217571
+     },
+     "metrics": {
+      "title_sim": 74.07407407407408,
+      "containment": 0.375,
+      "partial_ratio": 69.79166666666667,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "[8] Liu, Y. (2011). Renal fibrosis: new insights into the pathogenesis and therapeutics. Kidney international, 80(8), 823-835.",
+   "title": "Renal fibrosis: new insights into the pathogenesis and therapeutics",
+   "authors": [
+    "Liu"
+   ],
+   "year": 2011,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Kidney international",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/sj.ki.5000054",
+    "title": "Renal fibrosis: New insights into the pathogenesis and therapeutics",
+    "year": 2006,
+    "first_author": "Liu",
+    "container": "Kidney International",
+    "type": "journal-article",
+    "score": 45.652645
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "[9] Inui, N., Sakai, S., & Kitagawa, M. (2021). Molecular Pathogenesis of Pulmonary Fibrosis, with Focus on Pathways Related to TGF-beta and the Ubiquitin-Proteasome Pathway. International journal of molecular sciences, 22(11), 5963.",
+   "title": "Molecular Pathogenesis of Pulmonary Fibrosis, with Focus on Pathways Related to TGF-beta and the Ubiquitin-Proteasome Pathway",
+   "authors": [
+    "Inui",
+    "Sakai",
+    "Kitagawa"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International journal of molecular sciences",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.3390/ijms22116107",
+    "title": "Molecular Pathogenesis of Pulmonary Fibrosis, with Focus on Pathways Related to TGF-\u03b2 and the Ubiquitin-Proteasome Pathway",
+    "year": 2021,
+    "first_author": "Inui",
+    "container": "International Journal of Molecular Sciences",
+    "type": "journal-article",
+    "score": 86.08675
+   },
+   "metrics": {
+    "title_sim": 99.16666666666667,
+    "containment": 1.0,
+    "partial_ratio": 97.52066115702479,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "[10] Shimokawa, H., & Sunamura, S. (2020). The role of rho-kinase in the cardiovascular system. Circulation Journal, 84(4), 525-534.",
+   "title": "The role of rho-kinase in the cardiovascular system",
+   "authors": [
+    "Shimokawa",
+    "Sunamura"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Circulation Journal",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1254/jpssuppl.wcp2018.0_sy84-5",
+    "title": "RhoA/Rho-kinase in the Cardiovascular System",
+    "year": 2018,
+    "first_author": "Shimokawa",
+    "container": "Proceedings for Annual Meeting of The Japanese Pharmacological Society",
+    "type": "journal-article",
+    "score": 38.46152
+   },
+   "metrics": {
+    "title_sim": 93.97590361445783,
+    "containment": 0.8,
+    "partial_ratio": 93.18181818181819,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "[11] Derynck, R., & Akhurst, R. J. (2007). Differentiation plasticity regulated by TGF-\u03b2 family proteins in development and disease. Nature cell biology, 9(9), 1000-1004.",
+   "title": "Differentiation plasticity regulated by TGF-\u03b2 family proteins in development and disease",
+   "authors": [
+    "Derynck",
+    "Akhurst"
+   ],
+   "year": 2007,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature cell biology",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/ncb434",
+    "title": "Differentiation plasticity regulated by TGF-\u03b2 family proteins in development and disease",
+    "year": 2007,
+    "first_author": "Derynck",
+    "container": "Nature Cell Biology",
+    "type": "journal-article",
+    "score": 67.40105
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "[12] Massagu\u00e9, J. (2012). TGF\u03b2 signalling in context. Nature reviews Molecular cell biology, 13(10), 616-630.",
+   "title": "TGF\u03b2 signalling in context",
+   "authors": [
+    "Massagu\u00e9"
+   ],
+   "year": 2012,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature reviews Molecular cell biology",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/nrm3434",
+    "title": "TGF\u03b2 signalling in context",
+    "year": 2012,
+    "first_author": "Massagu\u00e9",
+    "container": "Nature Reviews Molecular Cell Biology",
+    "type": "journal-article",
+    "score": 44.77424
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 16,
+   "raw": "[13] Dijke, P. T., & Hill, C. S. (2004). New insights into TGF-\u03b2\u2013Smad signalling. Trends in biochemical sciences, 29(5), 265-273.",
+   "title": "New insights into TGF-\u03b2\u2013Smad signalling",
+   "authors": [
+    "Dijke",
+    "Hill"
+   ],
+   "year": 2004,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Trends in biochemical sciences",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.tibs.2004.03.008",
+    "title": "New insights into TGF-\u03b2\u2013Smad signalling",
+    "year": 2004,
+    "first_author": "Dijke",
+    "container": "Trends in Biochemical Sciences",
+    "type": "journal-article",
+    "score": 62.27591
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 17,
+   "raw": "[14] Nishikawa, K., Osawa, Y., & Koyama, Y. (2018). The role of Wnt signaling in hepatic stellate cells and liver fibrosis. Cancers, 10(9), 328.",
+   "title": "The role of Wnt signaling in hepatic stellate cells and liver fibrosis",
+   "authors": [
+    "Nishikawa",
+    "Osawa",
+    "Koyama"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Cancers",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1097/hep.0000000000000666",
+      "title": "Erratum: Interleukin-18 signaling promotes activation of hepatic stellate cells in mouse liver fibrosis",
+      "year": 2023,
+      "first_author": null,
+      "container": "Hepatology",
+      "type": "journal-article",
+      "score": 45.111877
+     },
+     "metrics": {
+      "title_sim": 86.1788617886179,
+      "containment": 0.545,
+      "partial_ratio": 63.1578947368421,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 18,
+   "raw": "[15] Monga, S. P. (2015). \u03b2-Catenin signaling and roles in liver homeostasis, injury, and tumorigenesis. Gastroenterology, 148(7), 1294-1310.",
+   "title": "\u03b2-Catenin signaling and roles in liver homeostasis, injury, and tumorigenesis",
+   "authors": [
+    "Monga"
+   ],
+   "year": 2015,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Gastroenterology",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1053/j.gastro.2015.02.056",
+    "title": "\u03b2-Catenin Signaling and Roles in Liver Homeostasis, Injury, and Tumorigenesis",
+    "year": 2015,
+    "first_author": "Monga",
+    "container": "Gastroenterology",
+    "type": "journal-article",
+    "score": 72.18764
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 19,
+   "raw": "[16] He, L., et al. (2020). A-485 alleviates fibrosis and apoptosis in kidney by disrupting tandem activation of acetylation and phosphorylation on STAT3. Biomedicine & Pharmacotherapy, 130, 110594.",
+   "title": "A-485 alleviates fibrosis and apoptosis in kidney by disrupting tandem activation of acetylation and phosphorylation on STAT3",
+   "authors": [
+    "He"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Biomedicine & Pharmacotherapy",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1016/j.biopha.2025.118217",
+      "title": "A-485 alleviates fibrosis and apoptosis in kidney by disrupting tandem activation of acetylation and phosphorylation on STAT3",
+      "year": 2025,
+      "first_author": "Du",
+      "container": "Biomedicine &amp; Pharmacotherapy",
+      "type": "journal-article",
+      "score": 67.839424
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 1.0,
+      "partial_ratio": 100.0,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 20,
+   "raw": "[17] Hillmer, E. J., Zhang, H., Li, H. S., & Watowich, S. S. (2016). STAT3 signaling in immunity. Cytokine growth factor reviews, 31, 1-15.",
+   "title": "STAT3 signaling in immunity",
+   "authors": [
+    "Hillmer",
+    "Zhang",
+    "Li",
+    "Watowich"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Cytokine growth factor reviews",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.cytogfr.2016.05.001",
+    "title": "STAT3 signaling in immunity",
+    "year": 2016,
+    "first_author": "Hillmer",
+    "container": "Cytokine &amp; Growth Factor Reviews",
+    "type": "journal-article",
+    "score": 38.431175
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 21,
+   "raw": "[18] Amano, M., Nakayama, M., & Kaibuchi, K. (2010). Rho-kinase/ROCK: a key regulator of the cytoskeleton and cell polarity. Cytoskeleton, 67(9), 545-554.",
+   "title": "Rho-kinase/ROCK: a key regulator of the cytoskeleton and cell polarity",
+   "authors": [
+    "Amano",
+    "Nakayama",
+    "Kaibuchi"
+   ],
+   "year": 2010,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Cytoskeleton",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1002/cm.20472",
+    "title": "Rho\u2010kinase/ROCK: A key regulator of the cytoskeleton and cell polarity",
+    "year": 2010,
+    "first_author": "Amano",
+    "container": "Cytoskeleton",
+    "type": "journal-article",
+    "score": 79.72171
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 22,
+   "raw": "[19] Kong, X., et al. (2014). The role of lysine acetylation in the regulation of cardiac fibrosis. Journal of molecular and cellular cardiology, 76, 1-9.",
+   "title": "The role of lysine acetylation in the regulation of cardiac fibrosis",
+   "authors": [
+    "Kong"
+   ],
+   "year": 2014,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of molecular and cellular cardiology",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.11569/wcjd.v20.i36.3621",
+      "title": "Role of lysine acetylation of proteins in the pathogenesis of hepatic fibrosis",
+      "year": 2012,
+      "first_author": "Zhang",
+      "container": "World Chinese Journal of Digestology",
+      "type": "journal-article",
+      "score": 31.007046
+     },
+     "metrics": {
+      "title_sim": 81.55339805825243,
+      "containment": 0.571,
+      "partial_ratio": 69.23076923076923,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 23,
+   "raw": "[20] Glozak, M. A., & Seto, E. (2007). Histone deacetylases and cancer. Oncogene, 26(37), 5420-5432.",
+   "title": "Histone deacetylases and cancer",
+   "authors": [
+    "Glozak",
+    "Seto"
+   ],
+   "year": 2007,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Oncogene",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/sj.onc.1210610",
+    "title": "Histone deacetylases and cancer",
+    "year": 2007,
+    "first_author": "Glozak",
+    "container": "Oncogene",
+    "type": "journal-article",
+    "score": 49.053585
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 24,
+   "raw": "[21] Sun, Y. (2010). E3 ubiquitin ligases as cancer targets and biomarkers. Neoplasia, 12(9), 645-654.",
+   "title": "E3 ubiquitin ligases as cancer targets and biomarkers",
+   "authors": [
+    "Sun"
+   ],
+   "year": 2010,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Neoplasia",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1593/neo.06376",
+    "title": "E3 Ubiquitin Ligases as Cancer Targets and Biomarkers",
+    "year": 2006,
+    "first_author": "Sun",
+    "container": "Neoplasia",
+    "type": "journal-article",
+    "score": 60.210663
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 25,
+   "raw": "[22] Udeshi, N. D., et al. (2013). A global survey of lysine ubiquitination identifies spatial and temporal regulation. Cell, 153(6), 1363-1375.",
+   "title": "A global survey of lysine ubiquitination identifies spatial and temporal regulation",
+   "authors": [
+    "Udeshi"
+   ],
+   "year": 2013,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Cell",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1038/nprot.2013.120",
+      "title": "Large-scale identification of ubiquitination sites by mass spectrometry",
+      "year": 2013,
+      "first_author": "Udeshi",
+      "container": "Nature Protocols",
+      "type": "journal-article",
+      "score": 27.099264
+     },
+     "metrics": {
+      "title_sim": 58.44155844155844,
+      "containment": 0.143,
+      "partial_ratio": 50.70422535211267,
+      "year_ok": true,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 26,
+   "raw": "[23] Liu, Y., et al. (2025). The role of E3 ubiquitin ligases and deubiquitinases in metabolic dysfunctionassociated steatotic liver disease. BMB Reports.",
+   "title": "The role of E3 ubiquitin ligases and deubiquitinases in metabolic dysfunctionassociated steatotic liver disease",
+   "authors": [
+    "Liu"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1186/s12967-025-06255-2",
+    "title": "The emerging role of E3 ubiquitin ligases and deubiquitinases in metabolic dysfunction-associated steatotic liver disease",
+    "year": 2025,
+    "first_author": "Zhang",
+    "container": "Journal of Translational Medicine",
+    "type": "journal-article",
+    "score": 71.50404
+   },
+   "metrics": {
+    "title_sim": 95.6896551724138,
+    "containment": 0.727,
+    "partial_ratio": 91.73553719008265,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 27,
+   "raw": "[24] Komander, D., & Rape, M. (2012). The ubiquitin code. Annual review of biochemistry, 81, 203-229.",
+   "title": "The ubiquitin code",
+   "authors": [
+    "Komander",
+    "Rape"
+   ],
+   "year": 2012,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Annual review of biochemistry",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1146/annurev-biochem-060310-170328",
+    "title": "The Ubiquitin Code",
+    "year": 2012,
+    "first_author": "Komander",
+    "container": "Annual Review of Biochemistry",
+    "type": "journal-article",
+    "score": 36.6578
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 28,
+   "raw": "[25] Pang, M., & Zhuang, S. (2010). Histone deacetylase: a potential therapeutic target for fibrotic disorders. Journal of pharmacology and experimental therapeutics, 335(2), 266-272.",
+   "title": "Histone deacetylase: a potential therapeutic target for fibrotic disorders",
+   "authors": [
+    "Pang",
+    "Zhuang"
+   ],
+   "year": 2010,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of pharmacology and experimental therapeutics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1124/jpet.110.168385",
+    "title": "Histone Deacetylase: A Potential Therapeutic Target for Fibrotic Disorders",
+    "year": 2010,
+    "first_author": "Pang",
+    "container": "The Journal of Pharmacology and Experimental Therapeutics",
+    "type": "journal-article",
+    "score": 61.061012
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 29,
+   "raw": "[26] Han, Y., et al. (2024). SUMOylation and NEDDylation: Potential Therapeutic Targets for Organ Fibrosis. Frontiers in Pharmacology, 15, 1476699.",
+   "title": "SUMOylation and NEDDylation: Potential Therapeutic Targets for Organ Fibrosis",
+   "authors": [
+    "Han"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Frontiers in Pharmacology",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2174/1566524016666161223105201",
+      "title": "Sumoylation Pathway as Potential Therapeutic Targets in Cancer",
+      "year": 2017,
+      "first_author": "Gong",
+      "container": "Current Molecular Medicine",
+      "type": "journal-article",
+      "score": 32.007607
+     },
+     "metrics": {
+      "title_sim": 79.6116504854369,
+      "containment": 0.667,
+      "partial_ratio": 75.80645161290323,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 30,
+   "raw": "[27] Geiss-Friedlander, R., & Melchior, F. (2007). Concepts in sumoylation: a decade on. Nature reviews Molecular cell biology, 8(12), 947-956.",
+   "title": "Concepts in sumoylation: a decade on",
+   "authors": [
+    "Geiss-Friedlander",
+    "Melchior"
+   ],
+   "year": 2007,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature reviews Molecular cell biology",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/nrm2293",
+    "title": "Concepts in sumoylation: a decade on",
+    "year": 2007,
+    "first_author": "Geiss-Friedlander",
+    "container": "Nature Reviews Molecular Cell Biology",
+    "type": "journal-article",
+    "score": 52.855206
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 31,
+   "raw": "[28] Hendriks, I. A., & Vertegaal, A. C. (2016). A comprehensive compilation of SUMO proteomics. Nature Reviews Molecular Cell Biology, 17(9), 581-595.",
+   "title": "A comprehensive compilation of SUMO proteomics",
+   "authors": [
+    "Hendriks",
+    "Vertegaal"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature Reviews Molecular Cell Biology",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/nrm.2016.81",
+    "title": "A comprehensive compilation of SUMO proteomics",
+    "year": 2016,
+    "first_author": "Hendriks",
+    "container": "Nature Reviews Molecular Cell Biology",
+    "type": "journal-article",
+    "score": 47.0105
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 32,
+   "raw": "[29] Li, T., & Chen, X. (2014). The SUMO-specific protease SENP1 and its role in the TGF-\u03b2 signaling pathway. Genes cancer, 5(5-6), 190.",
+   "title": "The SUMO-specific protease SENP1 and its role in the TGF-\u03b2 signaling pathway",
+   "authors": [
+    "Li",
+    "Chen"
+   ],
+   "year": 2014,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Genes cancer",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1002/jcb.29838",
+      "title": "The SUMO\u2010specific protease SENP1 deSUMOylates p53 and regulates its activity",
+      "year": 2021,
+      "first_author": "Chauhan",
+      "container": "Journal of Cellular Biochemistry",
+      "type": "journal-article",
+      "score": 37.010715
+     },
+     "metrics": {
+      "title_sim": 71.42857142857143,
+      "containment": 0.5,
+      "partial_ratio": 65.78947368421053,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 33,
+   "raw": "[30] Ulrich, H. D. (2009). A SUMO-ubiquitin relay. Nature structural molecular biology, 16(6), 577-578.",
+   "title": "A SUMO-ubiquitin relay",
+   "authors": [
+    "Ulrich"
+   ],
+   "year": 2009,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature structural molecular biology",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1016/j.dnarep.2009.01.012",
+      "title": "Ubiquitin, SUMO and the maintenance of genome stability",
+      "year": 2009,
+      "first_author": "Ulrich",
+      "container": "DNA Repair",
+      "type": "journal-article",
+      "score": 37.252098
+     },
+     "metrics": {
+      "title_sim": 77.77777777777777,
+      "containment": 0.4,
+      "partial_ratio": 46.29629629629629,
+      "year_ok": true,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": {
+    "source": "crossref",
+    "doi": "10.1016/j.dnarep.2009.01.012",
+    "title": "Ubiquitin, SUMO and the maintenance of genome stability",
+    "year": 2009,
+    "first_author": "Ulrich",
+    "container": "DNA Repair",
+    "type": "journal-article",
+    "score": 37.252098
+   }
+  },
+  {
+   "junk": false,
+   "idx": 34,
+   "raw": "[31] G\u00e1l, M., et al. (2019). Mucins as a New Frontier in Pulmonary Fibrosis. Journal of clinical medicine, 8(9), 1447.",
+   "title": "Mucins as a New Frontier in Pulmonary Fibrosis",
+   "authors": [
+    "G\u00e1l"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of clinical medicine",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.3390/jcm8091447",
+    "title": "Mucins as a New Frontier in Pulmonary Fibrosis",
+    "year": 2019,
+    "first_author": "Ballester",
+    "container": "Journal of Clinical Medicine",
+    "type": "journal-article",
+    "score": 43.25485
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 35,
+   "raw": "[32] Noma, K., Rikitake, Y., & Liao, J. K. (2008). The role of Rho kinases in cardiovascular physiology. Trends in cardiovascular medicine, 18(1), 1-7.",
+   "title": "The role of Rho kinases in cardiovascular physiology",
+   "authors": [
+    "Noma",
+    "Rikitake",
+    "Liao"
+   ],
+   "year": 2008,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Trends in cardiovascular medicine",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1097/fjc.0b013e3182a3718f",
+      "title": "Rho Kinases in Cardiovascular Physiology and Pathophysiology",
+      "year": 2013,
+      "first_author": "Shi",
+      "container": "Journal of Cardiovascular Pharmacology",
+      "type": "journal-article",
+      "score": 32.36515
+     },
+     "metrics": {
+      "title_sim": 86.95652173913044,
+      "containment": 0.8,
+      "partial_ratio": 78.33333333333333,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 36,
+   "raw": "[33] Shimizu, T., & Liao, J. K. (2016). Rho kinases and cardiac remodeling. Circulation journal, 80(7), 1491-1498.",
+   "title": "Rho kinases and cardiac remodeling",
+   "authors": [
+    "Shimizu",
+    "Liao"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Circulation journal",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1253/circj.cj-16-0433",
+    "title": "Rho Kinases and Cardiac Remodeling",
+    "year": 2016,
+    "first_author": "Shimizu",
+    "container": "Circulation Journal",
+    "type": "journal-article",
+    "score": 48.54706
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 37,
+   "raw": "[34] Sun, L., et al. (2025). Acetylation-regulated DUSP1 deficiency contributes to renal fibrosis progression. Theranostics, 15(10), 3781-3798.",
+   "title": "Acetylation-regulated DUSP1 deficiency contributes to renal fibrosis progression",
+   "authors": [
+    "Sun"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Theranostics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.7150/thno.108992",
+    "title": "Acetylation-regulated DUSP1 deficiency contributes to renal fibrosis progression",
+    "year": 2025,
+    "first_author": "Wang",
+    "container": "Theranostics",
+    "type": "journal-article",
+    "score": 58.815907
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 38,
+   "raw": "[35] Grivennikov, S. I., Greten, F. R., & Karin, M. (2010). Immunity, inflammation, and cancer. Cell, 140(6), 883-899.",
+   "title": "Immunity, inflammation, and cancer",
+   "authors": [
+    "Grivennikov",
+    "Greten",
+    "Karin"
+   ],
+   "year": 2010,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Cell",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.cell.2010.01.025",
+    "title": "Immunity, Inflammation, and Cancer",
+    "year": 2010,
+    "first_author": "Grivennikov",
+    "container": "Cell",
+    "type": "journal-article",
+    "score": 41.224895
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 39,
+   "raw": "[36] Lasko, L. M., et al. (2017). Discovery of a selective catalytic p300/CBP inhibitor that targets lineage-specific tumours. Nature, 550(7674), 128-132.",
+   "title": "Discovery of a selective catalytic p300/CBP inhibitor that targets lineage-specific tumours",
+   "authors": [
+    "Lasko"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.3410/f.731383984.793551646",
+    "title": "Faculty Opinions recommendation of Discovery of a selective catalytic p300/CBP inhibitor that targets lineage-specific tumours.",
+    "year": 2018,
+    "first_author": "McKinsey",
+    "container": "Faculty Opinions \u2013 Post-Publication Peer Review of the Biomedical Literature",
+    "type": "dataset",
+    "score": 78.51383
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.786,
+    "partial_ratio": 82.15767634854771,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 40,
+   "raw": "[37] Xiong, Y., et al. (2024). STAT3 Protein\u2013Protein Interaction Analysis Finds P300 as a Regulator of STAT3 and Histone 3 Lysine 27 Acetylation in Pericytes. Journal of the American Society of Nephrology, 35(5), 721-736.",
+   "title": "STAT3 Protein\u2013Protein Interaction Analysis Finds P300 as a Regulator of STAT3 and Histone 3 Lysine 27 Acetylation in Pericytes",
+   "authors": [
+    "Xiong"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of the American Society of Nephrology",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.3390/biomedicines12092102",
+    "title": "STAT3 Protein\u2013Protein Interaction Analysis Finds P300 as a Regulator of STAT3 and Histone 3 Lysine 27 Acetylation in Pericytes",
+    "year": 2024,
+    "first_author": "Kundu",
+    "container": "Biomedicines",
+    "type": "journal-article",
+    "score": 93.926765
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 41,
+   "raw": "[38] Rockey, D. C., Bell, P. D., & Hill, J. A. (2015). Fibrosis\u2014a common pathway to organ injury and failure. New England Journal of Medicine, 372(12), 1138-1149.",
+   "title": "Fibrosis\u2014a common pathway to organ injury and failure",
+   "authors": [
+    "Rockey",
+    "Bell",
+    "Hill"
+   ],
+   "year": 2015,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "New England Journal of Medicine",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1056/nejmra1300575",
+    "title": "Fibrosis \u2014 A Common Pathway to Organ Injury and Failure",
+    "year": 2015,
+    "first_author": "Rockey",
+    "container": "New England Journal of Medicine",
+    "type": "journal-article",
+    "score": 51.4559
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 42,
+   "raw": "[39] Weiskirchen, R., Weiskirchen, S., & Tacke, F. (2019). Organ and tissue fibrosis: molecular signals, cellular mechanisms and translational implications. Molecular aspects of medicine, 65, 2-15.",
+   "title": "Organ and tissue fibrosis: molecular signals, cellular mechanisms and translational implications",
+   "authors": [
+    "Weiskirchen",
+    "Weiskirchen",
+    "Tacke"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Molecular aspects of medicine",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.mam.2018.06.003",
+    "title": "Organ and tissue fibrosis: Molecular signals, cellular mechanisms and translational implications",
+    "year": 2019,
+    "first_author": "Weiskirchen",
+    "container": "Molecular Aspects of Medicine",
+    "type": "journal-article",
+    "score": 78.62671
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 43,
+   "raw": "[40] Friedman, S. L. (2008). Hepatic stellate cells: protean, multifunctional, and enigmatic cells of the liver. Physiological reviews, 88(1), 125-172.",
+   "title": "Hepatic stellate cells: protean, multifunctional, and enigmatic cells of the liver",
+   "authors": [
+    "Friedman"
+   ],
+   "year": 2008,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Physiological reviews",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1152/physrev.00013.2007",
+    "title": "Hepatic Stellate Cells: Protean, Multifunctional, and Enigmatic Cells of the Liver",
+    "year": 2008,
+    "first_author": "Friedman",
+    "container": "Physiological Reviews",
+    "type": "journal-article",
+    "score": 81.75163
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 44,
+   "raw": "[41] Frangogiannis, N. G. (2019). Cardiac fibrosis. Cardiovascular research, 115(1), 128-140.",
+   "title": "Cardiac fibrosis",
+   "authors": [
+    "Frangogiannis"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Cardiovascular research",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1093/cvr/cvaa324",
+    "title": "Cardiac fibrosis",
+    "year": 2021,
+    "first_author": "Frangogiannis",
+    "container": "Cardiovascular Research",
+    "type": "journal-article",
+    "score": 31.792841
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 45,
+   "raw": "[42] Hinz, B., et al. (2007). The myofibroblast: one function, multiple origins. American Journal of Pathology, 170(6), 1807-1816.",
+   "title": "The myofibroblast: one function, multiple origins",
+   "authors": [
+    "Hinz"
+   ],
+   "year": 2007,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "American Journal of Pathology",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1101/2025.07.06.663342",
+      "title": "Multiple origins, one function: evolutionary pathways of HSP70 proteins in viruses",
+      "year": 2025,
+      "first_author": "Maachi",
+      "container": "",
+      "type": "posted-content",
+      "score": 27.44701
+     },
+     "metrics": {
+      "title_sim": 76.3157894736842,
+      "containment": 0.444,
+      "partial_ratio": 52.112676056338024,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 46,
+   "raw": "[43] Kalluri, R., & Weinberg, R. A. (2009). The basics of epithelial-mesenchymal transition. Journal of clinical investigation, 119(6), 1420-1428.",
+   "title": "The basics of epithelial-mesenchymal transition",
+   "authors": [
+    "Kalluri",
+    "Weinberg"
+   ],
+   "year": 2009,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of clinical investigation",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1172/jci39104",
+    "title": "The basics of epithelial-mesenchymal transition",
+    "year": 2009,
+    "first_author": "Kalluri",
+    "container": "Journal of Clinical Investigation",
+    "type": "journal-article",
+    "score": 49.110313
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 47,
+   "raw": "[44] MacDonald, B. T., Tamai, K., & He, X. (2009). Wnt/\u03b2-catenin signaling: components, mechanisms, and diseases. Developmental cell, 17(1), 9-26.",
+   "title": "Wnt/\u03b2-catenin signaling: components, mechanisms, and diseases",
+   "authors": [
+    "MacDonald",
+    "Tamai",
+    "He"
+   ],
+   "year": 2009,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Developmental cell",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.devcel.2009.06.016",
+    "title": "Wnt/\u03b2-Catenin Signaling: Components, Mechanisms, and Diseases",
+    "year": 2009,
+    "first_author": "MacDonald",
+    "container": "Developmental Cell",
+    "type": "journal-article",
+    "score": 57.340946
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 48,
+   "raw": "[45] Wang, R., Cherukuri, P., & Luo, J. (2005). Activation of Stat3 sequence-specific DNA binding and transcription by p300-mediated acetylation. Journal of Biological Chemistry, 280(12), 11528-11534.",
+   "title": "Activation of Stat3 sequence-specific DNA binding and transcription by p300-mediated acetylation",
+   "authors": [
+    "Wang",
+    "Cherukuri",
+    "Luo"
+   ],
+   "year": 2005,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Biological Chemistry",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1074/jbc.m413930200",
+    "title": "Activation of Stat3 Sequence-specific DNA Binding and Transcription by p300/CREB-binding Protein-mediated Acetylation",
+    "year": 2005,
+    "first_author": "Wang",
+    "container": "Journal of Biological Chemistry",
+    "type": "journal-article",
+    "score": 77.283646
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.846,
+    "partial_ratio": 82.05128205128204,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 49,
+   "raw": "[46] O\u2019Shea, J. J., Holland, S. M., & Staudt, L. M. (2013). JAKs and STATs in immunity, immunodeficiency, and cancer. New England Journal of Medicine, 368(2), 161-170.",
+   "title": "JAKs and STATs in immunity, immunodeficiency, and cancer",
+   "authors": [
+    "O\u2019Shea",
+    "Holland",
+    "Staudt"
+   ],
+   "year": 2013,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "New England Journal of Medicine",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1056/nejmra1202117",
+    "title": "JAKs and STATs in Immunity, Immunodeficiency, and Cancer",
+    "year": 2013,
+    "first_author": "O'Shea",
+    "container": "New England Journal of Medicine",
+    "type": "journal-article",
+    "score": 46.078278
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 50,
+   "raw": "[47] Levy, D. E., & Darnell Jr, J. E. (2002). Stats: transcriptional control and biological impact. Nature reviews Molecular cell biology, 3(9), 651-662.",
+   "title": "Stats: transcriptional control and biological impact",
+   "authors": [
+    "Levy, D. E., & Darnell Jr, J. E."
+   ],
+   "year": 2002,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature reviews Molecular cell biology",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/nrm909",
+    "title": "STATs: transcriptional control and biological impact",
+    "year": 2002,
+    "first_author": "Levy",
+    "container": "Nature Reviews Molecular Cell Biology",
+    "type": "journal-article",
+    "score": 56.9055
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 51,
+   "raw": "[48] Schofield, A. V., & Bernard, O. (2013). Rho-associated coiled-coil kinase (ROCK) signaling and disease. Critical reviews in biochemistry and molecular biology, 48(4), 301-316.",
+   "title": "Rho-associated coiled-coil kinase (ROCK) signaling and disease",
+   "authors": [
+    "Schofield",
+    "Bernard"
+   ],
+   "year": 2013,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Critical reviews in biochemistry and molecular biology",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.3109/10409238.2013.786671",
+    "title": "Rho-associated coiled-coil kinase (ROCK) signaling and disease",
+    "year": 2013,
+    "first_author": "Schofield",
+    "container": "Critical Reviews in Biochemistry and Molecular Biology",
+    "type": "journal-article",
+    "score": 65.48172
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 52,
+   "raw": "[49] Manning, G., Whyte, D. B., Martinez, R., Hunter, T., & Sudarsanam, S. (2002). The protein kinase complement of the human genome. Science, 298(5600), 1912-1934.",
+   "title": "The protein kinase complement of the human genome",
+   "authors": [
+    "Manning",
+    "Whyte",
+    "Martinez",
+    "Hunter",
+    "Sudarsanam"
+   ],
+   "year": 2002,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Science",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1126/science.1075762",
+    "title": "The Protein Kinase Complement of the Human Genome",
+    "year": 2002,
+    "first_author": "Manning",
+    "container": "Science",
+    "type": "journal-article",
+    "score": 45.322712
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 53,
+   "raw": "[50] Stamos, J. L., & Weis, W. I. (2013). The \u03b2-catenin destruction complex. Cold Spring Harbor perspectives in biology, 5(1), a007898.",
+   "title": "The \u03b2-catenin destruction complex",
+   "authors": [
+    "Stamos",
+    "Weis"
+   ],
+   "year": 2013,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Cold Spring Harbor perspectives in biology",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1101/cshperspect.a007898",
+    "title": "The \u00a0-Catenin Destruction Complex",
+    "year": 2013,
+    "first_author": "Stamos",
+    "container": "Cold Spring Harbor Perspectives in Biology",
+    "type": "journal-article",
+    "score": 38.722923
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 93.5483870967742,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 54,
+   "raw": "[51] Yuan, Y., et al. (2013). p300-dependent STAT3 acetylation is necessary for angiotensin II-induced profibrotic responses in renal tubular epithelial cells. Acta physiologica, 209(4), 296-306.",
+   "title": "STAT3 acetylation is necessary for angiotensin II-induced profibrotic responses in renal tubular epithelial cells",
+   "authors": [
+    "Yuan"
+   ],
+   "year": 2013,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Acta physiologica",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/aps.2014.54",
+    "title": "P300-dependent STAT3 acetylation is necessary for angiotensin II-induced pro-fibrotic responses in renal tubular epithelial cells",
+    "year": 2014,
+    "first_author": "Ni",
+    "container": "Acta Pharmacologica Sinica",
+    "type": "journal-article",
+    "score": 54.168617
+   },
+   "metrics": {
+    "title_sim": 94.39252336448598,
+    "containment": 0.857,
+    "partial_ratio": 99.2248062015504,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 55,
+   "raw": "[52] Wang, S., et al. (2025). Acetylation-regulated DUSP1 deficiency contributes to renal fibrosis progression. Theranostics, 15(10), 3781-3798.",
+   "title": "Acetylation-regulated DUSP1 deficiency contributes to renal fibrosis progression",
+   "authors": [
+    "Wang"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Theranostics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.7150/thno.108992",
+    "title": "Acetylation-regulated DUSP1 deficiency contributes to renal fibrosis progression",
+    "year": 2025,
+    "first_author": "Wang",
+    "container": "Theranostics",
+    "type": "journal-article",
+    "score": 63.81375
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 56,
+   "raw": "[53] Talman, V., & Ruskoaho, H. (2016). Cardiac fibrosis in myocardial infarction\u2014from repair and remodeling to regeneration. Cell and tissue research, 365(3), 563-581.",
+   "title": "Cardiac fibrosis in myocardial infarction\u2014from repair and remodeling to regeneration",
+   "authors": [
+    "Talman",
+    "Ruskoaho"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Cell and tissue research",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/s00441-016-2431-9",
+    "title": "Cardiac fibrosis in myocardial infarction\u2014from repair and remodeling to regeneration",
+    "year": 2016,
+    "first_author": "Talman",
+    "container": "Cell and Tissue Research",
+    "type": "journal-article",
+    "score": 68.232155
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 57,
+   "raw": "[54] Peng, J., et al. (2019). p300/CBP inhibitor A-485 alleviates acute liver injury by regulating macrophage activation and polarization. Theranostics, 9(26), 8344.",
+   "title": "p300/CBP inhibitor A-485 alleviates acute liver injury by regulating macrophage activation and polarization",
+   "authors": [
+    "Peng"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Theranostics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.7150/thno.30707",
+    "title": "p300/CBP inhibitor A-485 alleviates acute liver injury by regulating macrophage activation and polarization",
+    "year": 2019,
+    "first_author": "Peng",
+    "container": "Theranostics",
+    "type": "journal-article",
+    "score": 76.70904
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  }
+ ]
+}

@@ -1,0 +1,242 @@
+{
+ "pdf": "225_1g8lpVSLZ1.pdf",
+ "n_entries": 6,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": true,
+   "idx": 1,
+   "raw": "References",
+   "title": null,
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/9780470547038.ch3",
+      "title": "Voltage References",
+      "year": 2009,
+      "first_author": null,
+      "container": "Voltage References",
+      "type": "book-chapter",
+      "score": 13.509434
+     },
+     "metrics": {
+      "title_sim": 0,
+      "containment": 0.5,
+      "partial_ratio": 100.0,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[1] Dorigo, M., Maniezzo, V., & Colorni, A. (1996). Ant system: optimization by a colony of cooperating agents. IEEE Transactions on Systems, Man, and Cybernetics, 26(1), 29-41.",
+   "title": "Ant system: optimization by a colony of cooperating agents",
+   "authors": [
+    "Dorigo",
+    "Maniezzo",
+    "Colorni"
+   ],
+   "year": 1996,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE Transactions on Systems, Man, and Cybernetics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/3477.484436",
+    "title": "Ant system: optimization by a colony of cooperating agents",
+    "year": 1996,
+    "first_author": "Dorigo",
+    "container": "IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics)",
+    "type": "journal-article",
+    "score": 52.74995
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[2] Kennedy, J., & Eberhart, R. (1995). Particle swarm optimization. Proceedings of IEEE International Conference on Neural Networks, 4, 1942-1948.",
+   "title": "Particle swarm optimization",
+   "authors": [
+    "Kennedy",
+    "Eberhart"
+   ],
+   "year": 1995,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of IEEE International Conference on Neural Networks",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/978-0-387-30164-8_630",
+    "title": "Particle Swarm Optimization",
+    "year": 2011,
+    "first_author": "Kennedy",
+    "container": "Encyclopedia of Machine Learning",
+    "type": "book-chapter",
+    "score": 33.998352
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[3] Karaboga, D. (2005). An idea based on honey bee swarm for numerical optimization. Technical Report, Erciyes University.",
+   "title": "An idea based on honey bee swarm for numerical optimization",
+   "authors": [
+    "Karaboga"
+   ],
+   "year": 2005,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "report",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.26686/wgtn.14298869.v1",
+      "title": "Pareto front feature selection based on artificial bee colony optimization",
+      "year": 2021,
+      "first_author": "Hancer",
+      "container": "",
+      "type": "posted-content",
+      "score": 35.17467
+     },
+     "metrics": {
+      "title_sim": 61.65413533834587,
+      "containment": 0.333,
+      "partial_ratio": 51.35135135135135,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[4] Zitzler, E., Deb, K., & Thiele, L. (2000). Comparison of multiobjective evolutionary algorithms: Empirical results. Evolutionary Computation, 8(2), 173-195.",
+   "title": "Comparison of multiobjective evolutionary algorithms: Empirical results",
+   "authors": [
+    "Zitzler",
+    "Deb",
+    "Thiele"
+   ],
+   "year": 2000,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Evolutionary Computation",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1162/106365600568202",
+    "title": "Comparison of Multiobjective Evolutionary Algorithms: Empirical Results",
+    "year": 2000,
+    "first_author": "Zitzler",
+    "container": "Evolutionary Computation",
+    "type": "journal-article",
+    "score": 65.90303
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[5] Deb, K., Jain, H. (2014). An evolutionary many-objective optimization algorithm using referencepoint-based nondominated sorting approach. IEEE Transactions on Evolutionary Computation, 18(4), 577-601.",
+   "title": "An evolutionary many-objective optimization algorithm using referencepoint-based nondominated sorting approach",
+   "authors": [
+    "Deb",
+    "Jain"
+   ],
+   "year": 2014,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE Transactions on Evolutionary Computation",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1016/j.future.2023.03.034",
+      "title": "Many-objective many-task optimization using reference-points-based nondominated sorting approach",
+      "year": 2023,
+      "first_author": "Cheng",
+      "container": "Future Generation Computer Systems",
+      "type": "journal-article",
+      "score": 52.7517
+     },
+     "metrics": {
+      "title_sim": 86.25,
+      "containment": 0.727,
+      "partial_ratio": 87.5,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  }
+ ]
+}

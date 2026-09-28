@@ -1,0 +1,1727 @@
+{
+ "pdf": "198_ge6aUTPvYE.pdf",
+ "n_entries": 36,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 2,
+ "entries": [
+  {
+   "junk": true,
+   "idx": 1,
+   "raw": "References follow the acknowledgments in the camera-ready paper. Use unnumbered first-level heading for the references. Any choice of citation style is acceptable as long as you are consistent. It is permissible to reduce the font size to small (9 point) when listing the references. Note that the Reference section does not count towards the page limit.",
+   "title": "References follow the acknowledgments in the camera-ready paper. Use unnumbered first-level heading for the references. Any choice of citation style is acceptable as long as you are consistent. It is permissible to reduce the font size to small (9 point) when listing the references",
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.4135/9781036221492.n1",
+      "title": "The Most Prominent Citation Styles and Style Guides for Research Papers",
+      "year": 2024,
+      "first_author": null,
+      "container": "How to Cite References in a Research Paper (For Beginners)",
+      "type": "book-chapter",
+      "score": 52.307297
+     },
+     "metrics": {
+      "title_sim": 31.60919540229885,
+      "containment": 0.25,
+      "partial_ratio": 52.112676056338024,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[1] Bansal, G., Nushi, B., Kamar, E., Horvitz, E., & Weld, D. S. (2019) Beyond accuracy: The role of mental models in human-AI trust. In *Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems*, pp.1\u201314.",
+   "title": "Beyond accuracy: The role of mental models in human-AI trust",
+   "authors": [
+    "Bansal",
+    "Nushi",
+    "Kamar",
+    "Horvitz",
+    "Weld"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "*Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems*",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1609/hcomp.v7i1.5285",
+    "title": "Beyond Accuracy: The Role of Mental Models in Human-AI Team Performance",
+    "year": 2019,
+    "first_author": "Bansal",
+    "container": "Proceedings of the AAAI Conference on Human Computation and Crowdsourcing",
+    "type": "journal-article",
+    "score": 44.77402
+   },
+   "metrics": {
+    "title_sim": 94.64285714285714,
+    "containment": 0.75,
+    "partial_ratio": 87.14285714285714,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[2] Cave, S. & \u00d3h\u00c9igeartaigh, S. S. (2019) Bridging near- and long-term concerns about AI. *Nature Machine Intelligence*, 1(1):5\u20136. [https://doi.org/10.1038/s42256-018-0003-2](https://doi.org/10.1038/s42256-018-0003-2)",
+   "title": "Bridging near- and long-term concerns about AI",
+   "authors": [
+    "Cave",
+    "\u00d3h\u00c9igeartaigh"
+   ],
+   "year": 2019,
+   "doi": "10.1038/s42256-018-0003-2",
+   "arxiv": null,
+   "urls": [
+    "https://doi.org/10.1038/s42256-018-0003-2",
+    "https://doi.org/10.1038/s42256-018-0003-2)"
+   ],
+   "container": "*Nature Machine Intelligence*",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/s42256-018-0003-2",
+    "title": "Bridging near- and long-term concerns about AI",
+    "year": 2019,
+    "first_author": "Cave",
+    "container": "Nature Machine Intelligence",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[3] Chalmers, D. J. (2023) *Reality+: Virtual worlds and the problems of philosophy*. W. W. Norton & Company.",
+   "title": "*Reality+: Virtual worlds and the problems of philosophy*",
+   "authors": [
+    "Chalmers"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1353/pew.2023.0017",
+    "title": "Reality+: Virtual Worlds and the Problems of Philosophy by David J. Chalmers",
+    "year": 2023,
+    "first_author": "Vaidya",
+    "container": "Philosophy East and West",
+    "type": "journal-article",
+    "score": 49.376015
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.857,
+    "partial_ratio": 81.37931034482759,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[4] Christiano, P. F., Leike, J., Brown, T., Martic, M., Legg, S., & Amodei, D. (2017) Deep reinforcement learning from human preferences. In I. Guyon, U. V. Luxburg, S. Bengio, H. Wallach, R. Fergus, S. Vishwanathan, & R. Garnett (Eds.), *Advances in Neural Information Processing Systems 30*, pp.4299\u20134307.",
+   "title": "Deep reinforcement learning from human preferences",
+   "authors": [
+    "Christiano",
+    "Leike",
+    "Brown",
+    "Martic",
+    "Legg",
+    "Amodei"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "*Advances in Neural Information Processing Systems",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1016/j.oceaneng.2024.120036",
+      "title": "Deep reinforcement learning from human preferences for ROV path tracking",
+      "year": 2025,
+      "first_author": "Niu",
+      "container": "Ocean Engineering",
+      "type": "journal-article",
+      "score": 33.217747
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 0.625,
+      "partial_ratio": 77.77777777777779,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "5bbb6f9a8204eb13070b6f033e61c84ef8ee68dd",
+    "title": "Deep Reinforcement Learning from Human Preferences",
+    "year": 2017,
+    "first_author": "P. Christiano",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "MAG": "2626804490",
+     "ArXiv": "1706.03741",
+     "DBLP": "journals/corr/abs-1706-03741",
+     "CorpusId": 4787508
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[5] Clark, A. (2013) Whatever next? Predictive brains, situated agents, and the future of cognitive science. *Behavioral and Brain Sciences*, 36(3):181\u2013204.",
+   "title": "Whatever next? Predictive brains, situated agents, and the future of cognitive science",
+   "authors": [
+    "Clark"
+   ],
+   "year": 2013,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "*Behavioral and Brain Sciences*",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1017/s0140525x12000477",
+    "title": "Whatever next? Predictive brains, situated agents, and the future of cognitive science",
+    "year": 2013,
+    "first_author": "Clark",
+    "container": "Behavioral and Brain Sciences",
+    "type": "journal-article",
+    "score": 76.60662
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[6] Crawford, K. (2021) Atlas of AI: Power, politics, and the planetary costs of artificial intelligence. Yale University Press.",
+   "title": "Atlas of AI: Power, politics, and the planetary costs of artificial intelligence",
+   "authors": [
+    "Crawford"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2307/j.ctv1ghv45t",
+      "title": "The Atlas of AI",
+      "year": 2021,
+      "first_author": "CRAWFORD",
+      "container": "",
+      "type": "monograph",
+      "score": 72.152664
+     },
+     "metrics": {
+      "title_sim": 30.434782608695656,
+      "containment": 1.0,
+      "partial_ratio": 80.0,
+      "year_ok": true,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "c18ff70a0a0ac21b22e9736ecebc627707924fa7",
+    "title": "Atlas of AI: Power, Politics and the Planetary Costs of Artificial Intelligence",
+    "year": 2021,
+    "first_author": "Kate Crawford",
+    "container": "Perspectives on Science and Christian Faith",
+    "ext": {
+     "DBLP": "books/x/C2021",
+     "DOI": "10.12987/9780300252392",
+     "CorpusId": 233592266
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[7] Dafoe, A., Bachrach, Y., Hadfield, G., Horvitz, E., Larson, K., & Graepel, T. (2021) Cooperative AI: Machines must learn to find common ground. *Nature*, 593(7857):33\u201336.",
+   "title": "Cooperative AI: Machines must learn to find common ground",
+   "authors": [
+    "Dafoe",
+    "Bachrach",
+    "Hadfield",
+    "Horvitz",
+    "Larson",
+    "Graepel"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "*Nature*",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/d41586-021-01170-0",
+    "title": "Cooperative AI: machines must learn to find common ground",
+    "year": 2021,
+    "first_author": "Dafoe",
+    "container": "Nature",
+    "type": "journal-article",
+    "score": 73.975914
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[8] Danaher, J. (2022) Robot ethics and the philosophy of technology. *AI & Society*, 37(1):1\u201313.",
+   "title": "Robot ethics and the philosophy of technology",
+   "authors": [
+    "Danaher"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "*AI & Society*",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/s13347-022-00591-7",
+      "title": "To Each Technology Its Own Ethics: The Problem of Ethical Proliferation",
+      "year": 2022,
+      "first_author": "S\u00e6tra",
+      "container": "Philosophy &amp; Technology",
+      "type": "journal-article",
+      "score": 34.47524
+     },
+     "metrics": {
+      "title_sim": 69.56521739130434,
+      "containment": 0.286,
+      "partial_ratio": 46.37681159420289,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": true,
+   "idx": 10,
+   "raw": "[https://doi.org/10.1007/s00146-021-01212-w](https://doi.org/10.1007/s00146-021-01212-w)",
+   "title": null,
+   "authors": [],
+   "year": null,
+   "doi": "10.1007/s00146-021-01212-w](https://doi.org/10.1007/s00146-021-01212-w)",
+   "arxiv": null,
+   "urls": [
+    "https://doi.org/10.1007/s00146-021-01212-w"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "doi_not_resolvable",
+     "doi": "10.1007/s00146-021-01212-w](https://doi.org/10.1007/s00146-021-01212-w)"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.15620/cdc/164176",
+      "title": "DOI reserve for Community Guide 021",
+      "year": 2024,
+      "first_author": null,
+      "container": "",
+      "type": "report",
+      "score": 54.58603
+     },
+     "metrics": {
+      "title_sim": 0,
+      "containment": 0.4,
+      "partial_ratio": 37.735849056603776,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "[9] Floridi, L. & Cowls, J. (2021) A unified framework of five principles for AI in society. *Harvard Data Science Review*, 3(1). [https://doi.org/10.1162/99608f92.fcd550d1](https://doi.org/10.1162/99608f92.fcd550d1)",
+   "title": "A unified framework of five principles for AI in society",
+   "authors": [
+    "Floridi",
+    "Cowls"
+   ],
+   "year": 2021,
+   "doi": "10.1162/99608f92.fcd550d1",
+   "arxiv": null,
+   "urls": [
+    "https://doi.org/10.1162/99608f92.fcd550d1",
+    "https://doi.org/10.1162/99608f92.fcd550d1)"
+   ],
+   "container": "*Harvard Data Science Review*",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.2139/ssrn.3831321",
+    "title": "A Unified Framework of Five Principles for AI in Society",
+    "year": 2021,
+    "first_author": "Floridi",
+    "container": "",
+    "type": "posted-content",
+    "score": 63.10129
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "doi_not_resolvable",
+     "doi": "10.1162/99608f92.fcd550d1"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "[10] Floridi, L. & Cowls, J. (2021) A unified framework of five principles for AI in society. In *The Ethics of Artificial Intelligence*, pp.1\u201319. Oxford University Press.",
+   "title": "A unified framework of five principles for AI in society",
+   "authors": [
+    "Floridi",
+    "Cowls"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "*The Ethics of Artificial Intelligence*",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.2139/ssrn.3831321",
+    "title": "A Unified Framework of Five Principles for AI in Society",
+    "year": 2021,
+    "first_author": "Floridi",
+    "container": "",
+    "type": "posted-content",
+    "score": 63.10129
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "[11] Gal, Y. & Ghahramani, Z. (2016) Dropout as a Bayesian approximation: Representing model uncertainty in deep learning. *Proceedings of the 33rd International Conference on Machine Learning*, 48:1050\u20131059.",
+   "title": "Dropout as a Bayesian approximation: Representing model uncertainty in deep learning",
+   "authors": [
+    "Gal",
+    "Ghahramani"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "*Proceedings of the 33rd International Conference on Machine Learning*",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1515/remav-2020-0028",
+      "title": "Representing Uncertainty in Property Valuation Through a Bayesian Deep Learning Approach",
+      "year": 2020,
+      "first_author": "Lee",
+      "container": "Real Estate Management and Valuation",
+      "type": "journal-article",
+      "score": 33.48736
+     },
+     "metrics": {
+      "title_sim": 78.3625730994152,
+      "containment": 0.556,
+      "partial_ratio": 57.95454545454546,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "f35de4f9b1a7c4d3fa96a0d2ab1bf8937671f6b6",
+    "title": "Dropout as a Bayesian Approximation: Representing Model Uncertainty in Deep Learning",
+    "year": 2015,
+    "first_author": "Y. Gal",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "MAG": "2964059111",
+     "DBLP": "journals/corr/GalG15",
+     "ArXiv": "1506.02142",
+     "CorpusId": 160705
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "[12] Geifman, Y. & El-Yaniv, R. (2017) Selective classification for deep neural networks. In *Advances in Neural Information Processing Systems (NeurIPS) 30*, pp.4878\u20134887.",
+   "title": "Selective classification for deep neural networks",
+   "authors": [
+    "Geifman",
+    "El-Yaniv"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "*Advances in Neural Information Processing Systems (NeurIPS",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/ijcnn.2017.7966078",
+      "title": "Classification of Android apps and malware using deep neural networks",
+      "year": 2017,
+      "first_author": "Nix",
+      "container": "2017 International Joint Conference on Neural Networks (IJCNN)",
+      "type": "proceedings-article",
+      "score": 32.390114
+     },
+     "metrics": {
+      "title_sim": 83.33333333333333,
+      "containment": 0.571,
+      "partial_ratio": 60.86956521739131,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "2ed7cc027367295b1a7d7cd49406acfa5c580138",
+    "title": "Selective Classification for Deep Neural Networks",
+    "year": 2017,
+    "first_author": "Yonatan Geifman",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "MAG": "2963613748",
+     "ArXiv": "1705.08500",
+     "DBLP": "conf/nips/GeifmanE17",
+     "CorpusId": 491127
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "[13] Geifman, Y. & El-Yaniv, R. (2019) Selectivenet: A deep neural network with an integrated reject option. In *International Conference on Machine Learning (ICML)*, pp.2151\u20132159.",
+   "title": "Selectivenet: A deep neural network with an integrated reject option",
+   "authors": [
+    "Geifman",
+    "El-Yaniv"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "*International Conference on Machine Learning (ICML)*",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/s10489-025-06998-x",
+      "title": "A neural network with reject option approach for equalization and error detection",
+      "year": 2025,
+      "first_author": "Almeida",
+      "container": "Applied Intelligence",
+      "type": "journal-article",
+      "score": 29.853588
+     },
+     "metrics": {
+      "title_sim": 68.91891891891892,
+      "containment": 0.5,
+      "partial_ratio": 61.728395061728406,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "0e587ccf0395daf87a29caa6ec94741339fa2a4b",
+    "title": "SelectiveNet: A Deep Neural Network with an Integrated Reject Option",
+    "year": 2019,
+    "first_author": "Yonatan Geifman",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "ArXiv": "1901.09192",
+     "DBLP": "journals/corr/abs-1901-09192",
+     "MAG": "2914735679",
+     "CorpusId": 59316904
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 16,
+   "raw": "[14] Guo, C., Pleiss, G., Sun, Y., & Weinberger, K. Q. (2017) On calibration of modern neural networks. In *International Conference on Machine Learning (ICML)*, pp.1321\u20131330.",
+   "title": "On calibration of modern neural networks",
+   "authors": [
+    "Guo",
+    "Pleiss",
+    "Sun",
+    "Weinberger"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "*International Conference on Machine Learning (ICML)*",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/978-3-319-59072-1_37",
+      "title": "Matrix Neural Networks",
+      "year": 2017,
+      "first_author": "Gao",
+      "container": "Lecture Notes in Computer Science",
+      "type": "book-chapter",
+      "score": 25.144365
+     },
+     "metrics": {
+      "title_sim": 81.08108108108108,
+      "containment": 0.667,
+      "partial_ratio": 81.81818181818181,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "d65ce2b8300541414bfe51d03906fca72e93523c",
+    "title": "On Calibration of Modern Neural Networks",
+    "year": 2017,
+    "first_author": "Chuan Guo",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "MAG": "2950953798",
+     "ArXiv": "1706.04599",
+     "DBLP": "conf/icml/GuoPSW17",
+     "CorpusId": 28671436
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 17,
+   "raw": "[15] Hagendorff, T. (2022) The ethics of AI ethics: An evaluation of guidelines. *Minds and Machines*, 30:99\u2013120.",
+   "title": "The ethics of AI ethics: An evaluation of guidelines",
+   "authors": [
+    "Hagendorff"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "*Minds and Machines*",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/s11023-020-09517-8",
+    "title": "The Ethics of AI Ethics: An Evaluation of Guidelines",
+    "year": 2020,
+    "first_author": "Hagendorff",
+    "container": "Minds and Machines",
+    "type": "journal-article",
+    "score": 50.08049
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 18,
+   "raw": "[16] Harvey, P. (2012) An introduction to Buddhism: Teachings, history and practices. Cambridge University Press.",
+   "title": "An introduction to Buddhism: Teachings, history and practices",
+   "authors": [
+    "Harvey"
+   ],
+   "year": 2012,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1017/cbo9781139050531",
+    "title": "An Introduction to Buddhism",
+    "year": 2012,
+    "first_author": "Harvey",
+    "container": "",
+    "type": "monograph",
+    "score": 60.978214
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 19,
+   "raw": "[17] Henricks, R. G. (1989) *Lao-Tzu: Te-Tao Ching*. Ballantine Books.",
+   "title": "*Lao-Tzu: Te-Tao Ching*",
+   "authors": [
+    "Henricks"
+   ],
+   "year": 1989,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1515/9781438409481-009",
+      "title": "Appendix: Index to Citations from Tao-te-ching Chapters",
+      "year": 1998,
+      "first_author": null,
+      "container": "Lao-tzu and the Tao-te-ching",
+      "type": "book-chapter",
+      "score": 59.399326
+     },
+     "metrics": {
+      "title_sim": 75.0,
+      "containment": 0.333,
+      "partial_ratio": 44.44444444444444,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 20,
+   "raw": "[18] Ji, Z., Lee, N., Frieske, R., Yu, T., Su, D., Xu, Y., Ishii, E., Bang, Y. J., Madotto, A., & Fung, P. (2023) Survey of hallucination in natural language generation. *ACM Computing Surveys*, 55(12):Article 248.",
+   "title": "Survey of hallucination in natural language generation",
+   "authors": [
+    "Ji",
+    "Lee",
+    "Frieske",
+    "Yu",
+    "Su",
+    "Xu",
+    "Ishii",
+    "Bang",
+    "Madotto",
+    "Fung"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "*ACM Computing Surveys*",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3571730",
+    "title": "Survey of Hallucination in Natural Language Generation",
+    "year": 2023,
+    "first_author": "Ji",
+    "container": "ACM Computing Surveys",
+    "type": "journal-article",
+    "score": 37.116688
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": true,
+   "idx": 21,
+   "raw": "[https://doi.org/10.1145/3571730](https://doi.org/10.1145/3571730)",
+   "title": null,
+   "authors": [],
+   "year": null,
+   "doi": "10.1145/3571730](https://doi.org/10.1145/3571730)",
+   "arxiv": null,
+   "urls": [
+    "https://doi.org/10.1145/3571730"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "doi_not_resolvable",
+     "doi": "10.1145/3571730](https://doi.org/10.1145/3571730)"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1039/c4qo90040e",
+      "title": "Contents list",
+      "year": 2014,
+      "first_author": null,
+      "container": "Org. Chem. Front.",
+      "type": "journal-article",
+      "score": 47.540436
+     },
+     "metrics": {
+      "title_sim": 0,
+      "containment": 0.0,
+      "partial_ratio": 45.45454545454546,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 22,
+   "raw": "[19] Kadavath, S., Conerly, T., Askell, A., Henighan, T., Drain, D., Perez, E., Schiefer, N., Hatfield-Dodds, Z., DasSarma, N., Tran-Johnson, E., Johnston, S., El-Showk, S., Jones, A., Elhage, N., Hume, T., Chen, A., Bai, Y., Bowman, S., Fort, S., ... Amodei, D. (2022) Language models (mostly) know what they know. *arXiv preprint*. [https://arxiv.org/abs/2207.05221](https://arxiv.org/abs/2207.05221)",
+   "title": null,
+   "authors": [
+    "Kadavath",
+    "Conerly",
+    "Askell",
+    "Henighan",
+    "Drain",
+    "Perez",
+    "Schiefer",
+    "Hatfield-Dodds",
+    "DasSarma",
+    "Tran-Johnson",
+    "Johnston",
+    "El-Showk",
+    "Jones",
+    "Elhage",
+    "Hume",
+    "Chen",
+    "Bai",
+    "Bowman",
+    "Fort",
+    "Amodei"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": "2207.05221",
+   "urls": [
+    "https://arxiv.org/abs/2207.05221"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2207.05221",
+    "title": "Language Models (Mostly) Know What They Know",
+    "year": 2022,
+    "first_author": "Saurav Kadavath"
+   },
+   "metrics": {
+    "title_sim": 0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 23,
+   "raw": "[20] Kalai, A. T., Nachum, O., Vempala, S. S., & Zhang, E. (2025) Why language models hallucinate. OpenAI. [https://cdn.openai.com/papers/why-language-models-hallucinate.pdf](https://cdn.openai.com/papers/whylanguage-models-hallucinate.pdf)",
+   "title": "Why language models hallucinate",
+   "authors": [
+    "Kalai",
+    "Nachum",
+    "Vempala",
+    "Zhang"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://cdn.openai.com/papers/why-language-models-hallucinate.pdf",
+    "https://cdn.openai.com/papers/whylanguage-models-hallucinate.pdf"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.20944/preprints202601.1447.v1",
+    "title": "Language Without Propositions: Why Large Language Models Hallucinate",
+    "year": 2026,
+    "first_author": "M\u00e1cha",
+    "container": "",
+    "type": "posted-content",
+    "score": 41.826363
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.625,
+    "partial_ratio": 67.24137931034483,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 24,
+   "raw": "[21] Laozi. (2003) *The Daodejing of Laozi* (P. J. Ivanhoe, Trans.). Hackett Publishing.",
+   "title": "*The Daodejing of Laozi*",
+   "authors": [],
+   "year": 2003,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2307/jj.18255244.5",
+      "title": "Reading the Daodejing Synthetically",
+      "year": 2015,
+      "first_author": null,
+      "container": "In the Shadows of the Dao",
+      "type": "book-chapter",
+      "score": 34.572227
+     },
+     "metrics": {
+      "title_sim": 74.28571428571428,
+      "containment": 0.333,
+      "partial_ratio": 53.968253968253975,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "88a7407117f485645ec730445e7d83c7b1ab6436",
+    "title": "The Daodejing of Laozi",
+    "year": 2002,
+    "first_author": "P. J. Ivanhoe",
+    "container": "",
+    "ext": {
+     "MAG": "647800723",
+     "CorpusId": 160101748
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 25,
+   "raw": "[22] Lewis, P., Perez, E., Piktus, A., Petroni, F., Karpukhin, V., Goyal, N., K\u00fcttler, H., Lewis, M., Yih, W., Rockt\u00e4schel, T., Riedel, S., & Kiela, D. (2020) Retrieval-augmented generation for knowledge-intensive NLP tasks. In H. Larochelle, M. Ranzato, R. Hadsell, M. F. Balcan, & H. Lin (Eds.), *Advances in Neural Information Processing Systems 33*, pp.9459\u20139474.",
+   "title": "Retrieval-augmented generation for knowledge-intensive NLP tasks",
+   "authors": [
+    "Lewis",
+    "Perez",
+    "Piktus",
+    "Petroni",
+    "Karpukhin",
+    "Goyal",
+    "K\u00fcttler",
+    "Lewis",
+    "Yih",
+    "Rockt\u00e4schel",
+    "Riedel",
+    "Kiela"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "*Advances in Neural Information Processing Systems",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1002/9781394374717.ch03",
+      "title": "Retrieval\u2010Augmented Generation",
+      "year": 2026,
+      "first_author": null,
+      "container": "Advanced Retrieval\u2010Augmented Generation",
+      "type": "other",
+      "score": 37.191616
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 1.0,
+      "partial_ratio": 100.0,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "659bf9ce7175e1ec266ff54359e2bd76e0b7ff31",
+    "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+    "year": 2020,
+    "first_author": "Patrick Lewis",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "DBLP": "conf/nips/LewisPPPKGKLYR020",
+     "MAG": "3027879771",
+     "ArXiv": "2005.11401",
+     "CorpusId": 218869575
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 26,
+   "raw": "[23] Lin, S., Hilton, J., & Evans, O. (2021) TruthfulQA: Measuring how models mimic human falsehoods.",
+   "title": "TruthfulQA: Measuring how models mimic human falsehoods",
+   "authors": [
+    "Lin",
+    "Hilton",
+    "Evans"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2022.acl-long.229",
+    "title": "TruthfulQA: Measuring How Models Mimic Human Falsehoods",
+    "year": 2022,
+    "first_author": "Lin",
+    "container": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "type": "proceedings-article",
+    "score": 62.799065
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": true,
+   "idx": 27,
+   "raw": "*arXiv preprint*. [https://arxiv.org/abs/2109.07958](https://arxiv.org/abs/2109.07958)",
+   "title": null,
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": "2109.07958",
+   "urls": [
+    "https://arxiv.org/abs/2109.07958"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2109.07958"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.20944/preprints202411.2377.v1",
+      "title": "Comment on the Paper Titled \u2019The Origin of Quantum Mechanical Statistics: Insights from Research on Human Language\u2019 (arXiv preprint arXiv:2407.14924, 2024)",
+      "year": 2024,
+      "first_author": "Sienicki",
+      "container": "",
+      "type": "posted-content",
+      "score": 64.8507
+     },
+     "metrics": {
+      "title_sim": 0,
+      "containment": 0.176,
+      "partial_ratio": 51.78571428571428,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 28,
+   "raw": "[24] Liu, X. (2021) Daoism explained: From the dream of the butterfly to the fishnet allegory. Open Court.",
+   "title": "Daoism explained: From the dream of the butterfly to the fishnet allegory",
+   "authors": [
+    "Liu"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1353/cri.0.0009",
+      "title": "Daoism Explained: From the Dream of the Butterfly to the Fishnet Allegory (review)",
+      "year": 2007,
+      "first_author": "Defoort",
+      "container": "China Review International",
+      "type": "journal-article",
+      "score": 69.73716
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 0.857,
+      "partial_ratio": 93.67088607594937,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 29,
+   "raw": "[25] Luk, C. (1972) The Surangama Sutra. Shambhala.",
+   "title": "The Surangama Sutra",
+   "authors": [
+    "Luk"
+   ],
+   "year": 1972,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2307/jj.11102885.11",
+      "title": "SUTRA SURANGAMA",
+      "year": 2024,
+      "first_author": null,
+      "container": "Una Biblia Budista.",
+      "type": "book-chapter",
+      "score": 37.05787
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 1.0,
+      "partial_ratio": 73.33333333333334,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 30,
+   "raw": "[26] Maynez, J., Narayan, S., Bohnet, B., & McDonald, R. (2020) On faithfulness and factuality in abstractive summarization. In *Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL)*, pp.1906\u20131919. [https://doi.org/10.18653/v1/2020.acl-main.173](https://doi.org/10.18653/v1/2020.aclmain.173)",
+   "title": "On faithfulness and factuality in abstractive summarization",
+   "authors": [
+    "Maynez",
+    "Narayan",
+    "Bohnet",
+    "McDonald"
+   ],
+   "year": 2020,
+   "doi": "10.18653/v1/2020.acl-main.173](https://doi.org/10.18653/v1/2020.aclmain.173)",
+   "arxiv": null,
+   "urls": [
+    "https://doi.org/10.18653/v1/2020.acl-main.173",
+    "https://doi.org/10.18653/v1/2020.aclmain.173"
+   ],
+   "container": "*Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL)*",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2020.acl-main.173",
+    "title": "On Faithfulness and Factuality in Abstractive Summarization",
+    "year": 2020,
+    "first_author": "Maynez",
+    "container": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+    "type": "proceedings-article",
+    "score": 64.23346
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "doi_not_resolvable",
+     "doi": "10.18653/v1/2020.acl-main.173](https://doi.org/10.18653/v1/2020.aclmain.173)"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 31,
+   "raw": "[27] Ovadia, Y., Fertig, E., Ren, J., Nado, Z., Sculley, D., Nowozin, S., ... & Snoek, J. (2019) Can you trust your model\u2019s uncertainty? Evaluating predictive uncertainty under dataset shift. In *Advances in Neural Information Processing Systems (NeurIPS)*, pp.13991\u201314002.",
+   "title": "Can you trust your model\u2019s uncertainty? Evaluating predictive uncertainty under dataset shift",
+   "authors": [
+    "Ovadia",
+    "Fertig",
+    "Ren",
+    "Nado",
+    "Sculley",
+    "Nowozin",
+    "Snoek"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "*Advances in Neural Information Processing Systems (NeurIPS)*",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1037/e633962013-645",
+      "title": "Why rare events can cause a risky shift in decisions under uncertainty",
+      "year": 2006,
+      "first_author": "Haberstroh",
+      "container": "PsycEXTRA Dataset",
+      "type": "dataset",
+      "score": 43.00063
+     },
+     "metrics": {
+      "title_sim": 64.0,
+      "containment": 0.333,
+      "partial_ratio": 54.28571428571429,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "1eb7f46b1a0a7df823194d86543e5554aa21021a",
+    "title": "Can You Trust Your Model's Uncertainty? Evaluating Predictive Uncertainty Under Dataset Shift",
+    "year": 2019,
+    "first_author": "Yaniv Ovadia",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "MAG": "2970859221",
+     "DBLP": "conf/nips/SnoekOFLNSDRN19",
+     "ArXiv": "1906.02530",
+     "CorpusId": 174803437
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 32,
+   "raw": "[28] Pregadio, F. (2023) The encyclopedia of Taoism. Routledge.",
+   "title": "The encyclopedia of Taoism",
+   "authors": [
+    "Pregadio"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.4324/9781003764182",
+    "title": "The Routledge Encyclopedia of Taoism",
+    "year": 2026,
+    "first_author": "Pregadio",
+    "container": "",
+    "type": "monograph",
+    "score": 41.924007
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 72.22222222222221,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 33,
+   "raw": "[29] Slingerland, E. (2003) Effortless action: Wu-wei as conceptual metaphor and spiritual ideal in early China. Oxford University Press.",
+   "title": "Effortless action: Wu-wei as conceptual metaphor and spiritual ideal in early China",
+   "authors": [
+    "Slingerland"
+   ],
+   "year": 2003,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1093/oso/9780195138993.001.0001",
+    "title": "Effortless Action",
+    "year": 2003,
+    "first_author": "Slingerland",
+    "container": "",
+    "type": "book",
+    "score": 104.90245
+   },
+   "metrics": {
+    "title_sim": 34.34343434343434,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 34,
+   "raw": "[30] Weidinger, L., Mellor, J., Rauh, M., Griffin, C., Uesato, J., Huang, P. S., ... & Gabriel, I. (2021) Ethical and social risks of harm from language models. *arXiv preprint arXiv:2112.04359*.",
+   "title": "Ethical and social risks of harm from language models",
+   "authors": [
+    "Weidinger",
+    "Mellor",
+    "Rauh",
+    "Griffin",
+    "Uesato",
+    "Huang",
+    "Gabriel"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": "2112.04359",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2112.04359"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1037/e578482014-234",
+      "title": "Social networking, risks and harm among younger users: Findings from EU Kids Online",
+      "year": 2013,
+      "first_author": "O'Neill",
+      "container": "PsycEXTRA Dataset",
+      "type": "dataset",
+      "score": 26.695614
+     },
+     "metrics": {
+      "title_sim": 65.82278481012659,
+      "containment": 0.3,
+      "partial_ratio": 46.753246753246756,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "fd1b829261ba04bb92e0ab60c4f6e7cea0d99fbf",
+    "title": "Ethical and social risks of harm from Language Models",
+    "year": 2021,
+    "first_author": "Laura Weidinger",
+    "container": "arXiv.org",
+    "ext": {
+     "ArXiv": "2112.04359",
+     "DBLP": "journals/corr/abs-2112-04359",
+     "CorpusId": 244954639
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 35,
+   "raw": "[31] Williams, P. (2009) Mahayana Buddhism: The doctrinal foundations. Routledge.",
+   "title": "Mahayana Buddhism: The doctrinal foundations",
+   "authors": [
+    "Williams"
+   ],
+   "year": 2009,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.4324/9780203428474",
+    "title": "Mahayana Buddhism",
+    "year": 2008,
+    "first_author": "Williams",
+    "container": "",
+    "type": "book",
+    "score": 62.305107
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 36,
+   "raw": "[32] Zhou, K., Zhang, T., & Liu, Y. (2023, December) Fact-checking with language models and knowledge graphs. In *Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing*, pp.12345\u201312358.",
+   "title": "Fact-checking with language models and knowledge graphs",
+   "authors": [
+    "Zhou",
+    "Zhang",
+    "Liu"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "*Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing*",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.18653/v1/2024.kallm-1.11",
+      "title": "Zero-Shot Fact-Checking with Semantic Triples and Knowledge Graphs",
+      "year": 2024,
+      "first_author": "Yuan",
+      "container": "Proceedings of the 1st Workshop on Knowledge Graphs and Large Language Models (KaLLM 2024)",
+      "type": "proceedings-article",
+      "score": 45.742382
+     },
+     "metrics": {
+      "title_sim": 82.97872340425532,
+      "containment": 0.5,
+      "partial_ratio": 72.72727272727273,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  }
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
+}

@@ -1,0 +1,412 @@
+{
+ "pdf": "272_2qm4sB6BbS.pdf",
+ "n_entries": 10,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "Antoine Bordes, Nicolas Usunier, Alberto Garcia-Duran, Jason Weston, and Oksana Yakhnenko. Translating embeddings for modeling multi-relational data. In Advances in Neural Information Processing Systems, 2013.",
+   "title": "Translating embeddings for modeling multi-relational data",
+   "authors": [
+    "Bordes",
+    "Usunier",
+    "Garcia-Duran",
+    "Weston",
+    "Yakhnenko"
+   ],
+   "year": 2013,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/978-1-4419-9863-7_100974",
+      "title": "Multi-Relational Data Mining",
+      "year": 2013,
+      "first_author": null,
+      "container": "Encyclopedia of Systems Biology",
+      "type": "book-chapter",
+      "score": 27.963577
+     },
+     "metrics": {
+      "title_sim": 85.71428571428571,
+      "containment": 0.75,
+      "partial_ratio": 85.71428571428572,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "Yarin Gal and Zoubin Ghahramani. Dropout as a bayesian approximation: Representing model uncertainty in deep learning. In International Conference on Machine Learning, 2016.",
+   "title": "Dropout as a bayesian approximation: Representing model uncertainty in deep learning",
+   "authors": [
+    "Gal",
+    "Ghahramani"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Conference on Machine Learning",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1515/remav-2020-0028",
+      "title": "Representing Uncertainty in Property Valuation Through a Bayesian Deep Learning Approach",
+      "year": 2020,
+      "first_author": "Lee",
+      "container": "Real Estate Management and Valuation",
+      "type": "journal-article",
+      "score": 33.48848
+     },
+     "metrics": {
+      "title_sim": 78.3625730994152,
+      "containment": 0.556,
+      "partial_ratio": 56.81818181818181,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "Daniel S Himmelstein et al. Systematic integration of biomedical knowledge for drug repurposing. eLife, 2017.",
+   "title": "Systematic integration of biomedical knowledge for drug repurposing",
+   "authors": [
+    "Himmelstein"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "eLife",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.7554/elife.26726.017",
+    "title": "Author response: Systematic integration of biomedical knowledge prioritizes drugs for repurposing",
+    "year": 2017,
+    "first_author": "Himmelstein",
+    "container": "",
+    "type": "peer-review",
+    "score": 46.79469
+   },
+   "metrics": {
+    "title_sim": 96.12403100775194,
+    "containment": 0.556,
+    "partial_ratio": 77.09497206703911,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "Weiyang Huang et al. Active learning of graph neural networks. In NeurIPS Workshop, 2018.",
+   "title": "Active learning of graph neural networks",
+   "authors": [
+    "Huang"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "NeurIPS Workshop",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.26226/morressier.612f6739bc9810372410095e",
+      "title": "Machine learning of Physics-informed Graph Neural Networks from TCAD models",
+      "year": 2021,
+      "first_author": "Huang",
+      "container": "",
+      "type": "posted-content",
+      "score": 33.606865
+     },
+     "metrics": {
+      "title_sim": 90.41095890410959,
+      "containment": 0.444,
+      "partial_ratio": 61.42857142857143,
+      "year_ok": false,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "Balaji Lakshminarayanan, Alexander Pritzel, and Charles Blundell. Simple and scalable predictive uncertainty estimation using deep ensembles. In Advances in Neural Information Processing Systems, 2017.",
+   "title": "Simple and scalable predictive uncertainty estimation using deep ensembles",
+   "authors": [
+    "Lakshminarayanan",
+    "Pritzel",
+    "Blundell"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.3390/w8040125",
+      "title": "Predictive Uncertainty Estimation of Hydrological Multi-Model Ensembles Using Pair-Copula Construction",
+      "year": 2016,
+      "first_author": "Klein",
+      "container": "Water",
+      "type": "journal-article",
+      "score": 33.34453
+     },
+     "metrics": {
+      "title_sim": 79.67479674796748,
+      "containment": 0.4,
+      "partial_ratio": 63.725490196078425,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "Jiaqi Ma et al. Active learning on graphs: A survey. In arXiv, 2021.",
+   "title": "Active learning on graphs: A survey",
+   "authors": [
+    "Ma"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "In arXiv",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1017/9781108924184",
+    "title": "Deep Learning on Graphs",
+    "year": 2021,
+    "first_author": "Ma",
+    "container": "",
+    "type": "monograph",
+    "score": 27.515228
+   },
+   "metrics": {
+    "title_sim": 87.8048780487805,
+    "containment": 0.667,
+    "partial_ratio": 86.95652173913044,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "Burr Settles. Active learning literature survey. University of Wisconsin, Madison, 2009.",
+   "title": "Active learning literature survey",
+   "authors": [
+    "Settles"
+   ],
+   "year": 2009,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/978-3-031-01560-1",
+    "title": "Active Learning",
+    "year": 2012,
+    "first_author": "Settles",
+    "container": "Synthesis Lectures on Artificial Intelligence and Machine Learning",
+    "type": "book",
+    "score": 26.786697
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "Glenn Shafer and Vladimir Vovk. A tutorial on conformal prediction. Journal of Machine Learning Research, 2008.",
+   "title": "A tutorial on conformal prediction",
+   "authors": [
+    "Shafer",
+    "Vovk"
+   ],
+   "year": 2008,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Machine Learning Research",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.31234/osf.io/xzqgt_v1",
+      "title": "A tutorial on distribution-free uncertainty quantification using conformal prediction",
+      "year": 2025,
+      "first_author": "Kaiser",
+      "container": "",
+      "type": "posted-content",
+      "score": 29.051182
+     },
+     "metrics": {
+      "title_sim": 57.14285714285714,
+      "containment": 0.429,
+      "partial_ratio": 52.0,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "Jasper Snoek, Hugo Larochelle, and Ryan P Adams. Practical bayesian optimization of machine learning algorithms. In Advances in Neural Information Processing Systems, 2012.",
+   "title": "Practical bayesian optimization of machine learning algorithms",
+   "authors": [
+    "Snoek",
+    "Larochelle",
+    "Adams"
+   ],
+   "year": 2012,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.3390/a18110695",
+      "title": "Machine Learning Systems Tuned by Bayesian Optimization to Forecast Electricity Demand and Production",
+      "year": 2025,
+      "first_author": "Wang",
+      "container": "Algorithms",
+      "type": "journal-article",
+      "score": 32.506718
+     },
+     "metrics": {
+      "title_sim": 76.0,
+      "containment": 0.5,
+      "partial_ratio": 53.46534653465347,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "Theo Trouillon, Johannes Welbl, Sebastian Riedel, Eric Gaussier, and Guillaume Bouchard. Complex embeddings for simple link prediction. In International Conference on Machine Learning, 2016.",
+   "title": "Complex embeddings for simple link prediction",
+   "authors": [
+    "Trouillon",
+    "Welbl",
+    "Riedel",
+    "Gaussier",
+    "Bouchard"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Conference on Machine Learning",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.7717/peerj-cs.172/table-7",
+      "title": "Table 7: Comparing link embeddings for the link prediction problem on the HSE dataset.",
+      "year": 2019,
+      "first_author": null,
+      "container": "",
+      "type": "component",
+      "score": 30.684347
+     },
+     "metrics": {
+      "title_sim": 80.0,
+      "containment": 0.444,
+      "partial_ratio": 60.71428571428572,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  }
+ ]
+}

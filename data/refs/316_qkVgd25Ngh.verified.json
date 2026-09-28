@@ -1,0 +1,502 @@
+{
+ "pdf": "316_qkVgd25Ngh.pdf",
+ "n_entries": 11,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": false,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": true,
+   "idx": 1,
+   "raw": "Our systematic analysis covers 29 papers selected through structured search across academic databases and industry research. Selection criteria prioritized: \u2022 Theoretical Relevance: Papers addressing commoditization, platform competition, or technology product lifecycles \u2022 Empirical Quality: Academic papers with substantial citation impact or industry research with methodological rigor \u2022 Temporal Coverage: 15-year span (2010-2025) capturing both historical patterns and contemporary developments \u2022 Source Diversity: Balanced representation of economics, business strategy, and technology management perspectives",
+   "title": "Our systematic analysis covers 29 papers selected through structured search across academic databases and industry research. Selection criteria prioritized: \u2022 Theoretical Relevance: Papers addressing commoditization, platform competition, or technology product lifecycles \u2022 Empirical Quality: Academic papers with substantial citation impact or industry research with methodological rigor \u2022 Temporal Coverage: 15-year span (2010-2025) capturing both historical patterns and contemporary developments \u2022 Source Diversity",
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.35534/es.0604146",
+      "title": "Research on Academic Evaluation \u2014 Empirical Analysis Based on the Relationship Between Academic Quality and Influence of Papers",
+      "year": 2024,
+      "first_author": "Ling",
+      "container": "Education Study",
+      "type": "journal-article",
+      "score": 56.588425
+     },
+     "metrics": {
+      "title_sim": 30.670926517571885,
+      "containment": 0.583,
+      "partial_ratio": 50.4,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "H. Bauer, S. Burghardt, S. Tandon, and F. Thalmayr. Memory: Are challenges ahead?, 2016. URL https://www.mckinsey.com/~/media/McKinsey/Industries/Semiconductors/Our%20Insights/ Memory%20Are%20challenges%20ahead/Memory%20are%20challenges%20ahead%20final.pdf. McKinsey & Company. T. Chan, R. Dhar, and W. P. Putsis. The technological conundrum: How rapidly advancing technology can lead to commoditization, 2015. URL https://papers.ssrn.com/sol3/papers.cfm?abstract_id= 2580902. SSRN Working Paper.",
+   "title": "Memory: Are challenges ahead?",
+   "authors": [
+    "Bauer",
+    "Burghardt",
+    "Tandon",
+    "Thalmayr",
+    "McKinsey",
+    "Chan",
+    "Dhar",
+    "Putsis"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://www.mckinsey.com/~/media/McKinsey/Industries/Semiconductors/Our%20Insights/",
+    "https://papers.ssrn.com/sol3/papers.cfm?abstract_id="
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1057/978-1-137-58742-8_7",
+    "title": "Challenges Ahead",
+    "year": 2016,
+    "first_author": "Reyes Mercado",
+    "container": "Eco-Innovations in Emerging Markets",
+    "type": "book-chapter",
+    "score": 23.087042
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "J. Farrell and P. Klemperer. Coordination and lock-in: Competition with switching costs and network effects, 2006. URL https://papers.ssrn.com/sol3/papers.cfm?abstract_id=917785. CEPR Discussion Paper No. 5798. W. He, M. Li, and J. Zheng. Switching cost, network externality and platform competition. International Journal of Industrial Organization, 84:428\u2013443, 2023. doi: 10.1016/j.ijindorg.2022.102877. URL https: //ideas.repec.org/a/eee/reveco/v84y2023icp428-443.html.",
+   "title": "Coordination and lock-in: Competition with switching costs and network effects, 2006",
+   "authors": [
+    "Farrell",
+    "Klemperer",
+    "He",
+    "Li",
+    "Zheng"
+   ],
+   "year": 2023,
+   "doi": "10.1016/j.ijindorg.2022.102877",
+   "arxiv": null,
+   "urls": [
+    "https:",
+    "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=917785"
+   ],
+   "container": "URL https://papers.ssrn.com/sol3/papers.cfm?abstract_id=917785. CEPR Discussion Paper",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.2139/ssrn.917785",
+    "title": "Coordination and Lock-In: Competition with Switching Costs and Network Effects",
+    "year": 2006,
+    "first_author": "Farrell",
+    "container": "SSRN Electronic Journal",
+    "type": "journal-article",
+    "score": 66.543465
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "doi_resolves_title_mismatch",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1016/j.ijindorg.2022.102877",
+      "title": "Open price contracts, locked-in buyers, and opportunism",
+      "year": 2022,
+      "first_author": "Noel",
+      "container": "International Journal of Industrial Organization",
+      "type": "journal-article",
+      "score": 1
+     },
+     "metrics": {
+      "title_sim": 44.274809160305345,
+      "containment": 0.0,
+      "partial_ratio": 47.16981132075472,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "T. Kannegieter.  Taking ai commoditization seriously, 2025.            URL https://techpolicy.press/ taking-ai-commoditization-seriously. Tech Policy Press.",
+   "title": "Taking ai commoditization seriously",
+   "authors": [
+    "Kannegieter"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://techpolicy.press/"
+   ],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED_URL",
+   "via": "url",
+   "url_status": {
+    "https://techpolicy.press/": 200
+   },
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1002/9781394319749.about",
+      "title": "Taking Testing Seriously",
+      "year": 2025,
+      "first_author": null,
+      "container": "Taking Testing Seriously",
+      "type": "other",
+      "score": 31.966953
+     },
+     "metrics": {
+      "title_sim": 80.0,
+      "containment": 0.667,
+      "partial_ratio": 62.5,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "K. H. Lee. A strategic analysis of the DRAM industry after the year 2000. PhD thesis, MIT, 2013. URL https://dspace.mit.edu/handle/1721.1/81087.",
+   "title": "A strategic analysis of the DRAM industry after the year 2000",
+   "authors": [
+    "Lee"
+   ],
+   "year": 2013,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://dspace.mit.edu/handle/1721.1/81087"
+   ],
+   "container": null,
+   "type": "thesis",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED_URL",
+   "via": "url",
+   "url_status": {
+    "https://dspace.mit.edu/handle/1721.1/81087": 200
+   },
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1080/09700161.2013.847109",
+      "title": "India\u2019s Nuclear Policy: The Year After",
+      "year": 2013,
+      "first_author": "Singh",
+      "container": "Strategic Analysis",
+      "type": "journal-article",
+      "score": 32.39582
+     },
+     "metrics": {
+      "title_sim": 55.319148936170215,
+      "containment": 0.4,
+      "partial_ratio": 51.35135135135135,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "Precedence Research. Graphic processing unit (gpu) market size to hit usd 1,414.39 bn by 2034, 2025. URL https://www.precedenceresearch.com/graphic-processing-unit-market. Market Research Report. M. Reimann, O. Schilke, and J. S. Thomas. Toward an understanding of industry commoditization: Its nature and role in evolving marketing competition. International Journal of Research in Marketing, 27(2): 188\u2013197, 2010. doi: 10.1016/j.ijresmar.2009.10.001. URL https://www.sciencedirect.com/science/ article/abs/pii/S0167811609000858.",
+   "title": "Graphic processing unit (gpu) market size to hit usd 1,414.39 bn by 2034",
+   "authors": [
+    "Research",
+    "Reimann",
+    "Schilke",
+    "Thomas"
+   ],
+   "year": 2025,
+   "doi": "10.1016/j.ijresmar.2009.10.001",
+   "arxiv": null,
+   "urls": [
+    "https://www.sciencedirect.com/science/",
+    "https://www.precedenceresearch.com/graphic-processing-unit-market"
+   ],
+   "container": "Market Research Report",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.ijresmar.2009.10.001",
+    "title": "Toward an understanding of industry commoditization: Its nature and role in evolving marketing competition",
+    "year": 2010,
+    "first_author": "Reimann",
+    "container": "International Journal of Research in Marketing",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 36.57142857142857,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true,
+    "rule": "id+raw_containment"
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "O. Rogers. Neoclouds: a cost-effective ai infrastructure alternative, 2025. URL https://journal. uptimeinstitute.com/neoclouds-a-cost-effective-ai-infrastructure-alternative/.          Uptime Institute Journal.",
+   "title": "Neoclouds: a cost-effective ai infrastructure alternative, 2025",
+   "authors": [
+    "Rogers"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://journal"
+   ],
+   "container": "Uptime Institute Journal",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.12968/s0047-9624(25)60212-4",
+      "title": "Demand for Cost Effective AI Infrastructure",
+      "year": 2025,
+      "first_author": null,
+      "container": "New Electronics",
+      "type": "journal-article",
+      "score": 33.73307
+     },
+     "metrics": {
+      "title_sim": 85.33333333333333,
+      "containment": 0.75,
+      "partial_ratio": 83.72093023255813,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    },
+    {
+     "step": "urls_not_live",
+     "url_status": {
+      "https://journal": "error"
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "S. Sato. Usage lock-in and platform competition, 2022. URL https://papers.ssrn.com/sol3/papers. cfm?abstract_id=3864942. SSRN Working Paper.",
+   "title": "Usage lock-in and platform competition",
+   "authors": [
+    "Sato"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://papers.ssrn.com/sol3/papers"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.2139/ssrn.3864942",
+    "title": "Usage Lock-In and Platform Competition",
+    "year": 2021,
+    "first_author": "Sato",
+    "container": "",
+    "type": "posted-content",
+    "score": 50.57894
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "M. J. Tremblay. Platform competition and endogenous switching costs, 2018. URL https://papers.ssrn. com/sol3/papers.cfm?abstract_id=2633680. SSRN Working Paper.",
+   "title": "Platform competition and endogenous switching costs",
+   "authors": [
+    "Tremblay"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://papers.ssrn"
+   ],
+   "container": "com/sol3/papers.cfm?abstract_id=2633680",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/s10842-019-00301-8",
+    "title": "Platform Competition and Endogenous Switching Costs",
+    "year": 2019,
+    "first_author": "Tremblay",
+    "container": "Journal of Industry, Competition and Trade",
+    "type": "journal-article",
+    "score": 48.85998
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "UncoverAlpha. Inside the ai chip market: Nvidia, tsmc, custom asics, 2024. URL https://www. uncoveralpha.com/p/inside-the-ai-chip-market-nvidia. UncoverAlpha Research. C. M. Wilson. Market frictions: A unified model of search costs and switching costs. European Economic Review, 56(6):1070\u20131086, 2012. doi: 10.1016/j.euroecorev.2012.05.007.",
+   "title": "Inside the ai chip market: Nvidia, tsmc, custom asics",
+   "authors": [
+    "UncoverAlpha Research. C. M. Wilson"
+   ],
+   "year": 2024,
+   "doi": "10.1016/j.euroecorev.2012.05.007",
+   "arxiv": null,
+   "urls": [
+    "https://www"
+   ],
+   "container": "European Economic Review",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.euroecorev.2012.05.007",
+    "title": "Market frictions: A unified model of search costs and switching costs",
+    "year": 2012,
+    "first_author": "Wilson",
+    "container": "European Economic Review",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 48.214285714285715,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true,
+    "rule": "id+raw_containment"
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "C. Woodun. Nvidia: Deepseek could trigger gpu commoditization, 2025. URL https://seekingalpha. com/article/4753270-nvidia-deepseek-could-trigger-gpu-commoditization. Seeking Alpha.",
+   "title": "Nvidia: Deepseek could trigger gpu commoditization",
+   "authors": [
+    "Woodun"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://seekingalpha"
+   ],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.64628/ade.5tjx4j7y4",
+      "title": "DeepSeek, Nvidia e a corrida pela IA que est\u00e1 moldando o futuro",
+      "year": 2025,
+      "first_author": "D'Alvia",
+      "container": "",
+      "type": "posted-content",
+      "score": 31.447475
+     },
+     "metrics": {
+      "title_sim": 55.85585585585586,
+      "containment": 0.25,
+      "partial_ratio": 45.16129032258065,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    },
+    {
+     "step": "urls_not_live",
+     "url_status": {
+      "https://seekingalpha": "error"
+     }
+    }
+   ],
+   "likely_match": null
+  }
+ ]
+}

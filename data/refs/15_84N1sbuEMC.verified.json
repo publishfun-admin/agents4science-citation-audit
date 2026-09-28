@@ -1,248 +1,18 @@
 {
  "pdf": "15_84N1sbuEMC.pdf",
- "n_entries": 31,
+ "n_entries": 43,
  "fallback": false,
  "error": null,
  "linenumbers_stripped": true,
- "parser_version": 2,
+ "two_column": true,
+ "parser_version": 3,
+ "reprocessed": true,
  "entries": [
   {
    "junk": false,
    "idx": 1,
-   "raw": "(MAE) (Chai and Draxler 2014) measure pixel-level acblurred reconstructions and spectral distortion, due to the abcuracy, with lower values indicating better fidelity. Peak sence of terrain- or time-specific conditioning.",
-   "title": "measure pixel-level acblurred reconstructions and spectral distortion, due to the abcuracy, with lower values indicating better fidelity. Peak sence of terrain- or time-specific conditioning",
-   "authors": [],
-   "year": 2014,
-   "doi": null,
-   "arxiv": null,
-   "urls": [],
-   "container": null,
-   "type": null,
-   "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
-   "evidence": [
-    {
-     "step": "crossref_best_reject",
-     "rec": {
-      "source": "crossref",
-      "doi": "10.1088/1748-0221/9/04/c04027",
-      "title": "Pixel area variations in sensors: a novel framework for predicting pixel fidelity and distortion in flat field response",
-      "year": 2014,
-      "first_author": "Rasmussen",
-      "container": "Journal of Instrumentation",
-      "type": "journal-article",
-      "score": 32.591816
-     },
-     "metrics": {
-      "title_sim": 48.026315789473685,
-      "containment": 0.308,
-      "partial_ratio": 50.0,
-      "year_ok": true,
-      "first_author_ok": false
-     }
-    }
-   ],
-   "likely_match": null
-  },
-  {
-   "junk": true,
-   "idx": 2,
-   "raw": "Signal-to-Noise Ratio (PSNR) (Hore and Ziou 2010) and ControlNet (Zhang, Rao, and Agrawala 2023), adapted Structural Similarity Index Measure (SSIM) (Wang et al. with DEM guidance, significantly improves generation qual-2004) assess image quality and structural similarity, where ity, yielding PSNR of 21.1847\u00b10.72 and RMSE of 0.0873\u00b1 higher values reflect better reconstruction. Learned Percep-0.005. This demonstrates the value of integrating physical tual Image Patch Similarity (LPIPS) (Zhang et al. 2018) priors into the generation process. evaluates perceptual similarity using deep features, with AlignDiff improves upon ControlNet by introducing a lower scores indicating closer alignment to the reference. VGG-based adapter for distribution alignment, achieving the best PSNR (23.04 \u00b1 0.69), RMSE (0.0713 \u00b1 0.004), Comparison with Existing Methods                                  and MAE (0.0500 \u00b1 0.002). Despite slightly lower SSIM, Task-1: Spatial Completion across Diverse Regions. We             qualitative results (Fig. 4) show more coherent and terraincompare with state-of-the-art methods including natural im-       consistent outputs, confirming the benefit of combining age inpainting models, unconditioned diffusion models, and        geospatial priors with perceptual alignment. terrain-aware diffusion baselines.                                   Task-2: Spatiotemporal Completion under Structured Palette (Saharia et al. 2022) and LaMa (Suvorov et al.         Constraints. In this setting, we evaluate the model\u2019s ability",
-   "title": "with DEM guidance, significantly improves generation qual-2004) assess image quality and structural similarity, where ity, yielding PSNR of 21.1847\u00b10.72 and RMSE of 0.0873\u00b1 higher values reflect better reconstruction. Learned Percep-0.005. This demonstrates the value of integrating physical tual Image Patch Similarity (LPIPS) (Zhang et al. 2018) priors into the generation process. evaluates perceptual similarity using deep features, with AlignDiff improves upon ControlNet by introducing a lower scores indicating closer alignment to the reference. VGG-based adapter for distribution alignment, achieving the best PSNR (23.04 \u00b1 0.69",
-   "authors": [],
-   "year": null,
-   "doi": null,
-   "arxiv": null,
-   "urls": [],
-   "container": "RMSE (0.0713 \u00b1 0.004), Comparison with Existing Methods and MAE",
-   "type": "article-journal",
-   "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
-   "evidence": [
-    {
-     "step": "crossref_best_reject",
-     "rec": {
-      "source": "crossref",
-      "doi": "10.7554/elife.40162.029",
-      "title": "Figure 4\u2014figure supplement 1. Migration-independent cell counting to assess cell proliferation upon EGF addition to EPC2:CP-A in 5% serum.",
-      "year": 2019,
-      "first_author": null,
-      "container": "",
-      "type": "component",
-      "score": 23.505077
-     },
-     "metrics": {
-      "title_sim": 27.925531914893618,
-      "containment": 0.133,
-      "partial_ratio": 44.44444444444444,
-      "year_ok": true,
-      "first_author_ok": null
-     }
-    }
-   ],
-   "likely_match": null
-  },
-  {
-   "junk": true,
-   "idx": 3,
-   "raw": "2022), originally designed for natural image inpainting,          to restore missing observations across both spatial and tem-DEM           Interpolation        STCNN          AutoEncoder       ControlNet         AlignDiff        Groundtruth Prompt: <AlignDiff> SQC, 2017-07-02, Day:6, Blue / Green / Red / NIR",
-   "title": "originally designed for natural image inpainting, to restore missing observations across both spatial and tem-DEM Interpolation STCNN AutoEncoder ControlNet AlignDiff Groundtruth Prompt",
-   "authors": [],
-   "year": null,
-   "doi": null,
-   "arxiv": null,
-   "urls": [],
-   "container": null,
-   "type": null,
-   "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
-   "evidence": [
-    {
-     "step": "crossref_best_reject",
-     "rec": {
-      "source": "crossref",
-      "doi": "10.1016/j.image.2014.09.009",
-      "title": "Hybrid error concealment method combining exemplar-based image inpainting and spatial interpolation",
-      "year": 2014,
-      "first_author": "Chung",
-      "container": "Signal Processing: Image Communication",
-      "type": "journal-article",
-      "score": 33.253746
-     },
-     "metrics": {
-      "title_sim": 41.696113074204945,
-      "containment": 0.364,
-      "partial_ratio": 51.36612021857923,
-      "year_ok": true,
-      "first_author_ok": false
-     }
-    }
-   ],
-   "likely_match": null
-  },
-  {
-   "junk": false,
-   "idx": 4,
-   "raw": "Prompt: <AlignDiff> SQC, 2017-07-07, Day:6, Blue / Green / Red / NIR",
-   "title": null,
-   "authors": [
-    "Prompt: <AlignDiff> SQC"
-   ],
-   "year": 2017,
-   "doi": null,
-   "arxiv": null,
-   "urls": [],
-   "container": null,
-   "type": null,
-   "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
-   "evidence": [
-    {
-     "step": "crossref_best_reject",
-     "rec": {
-      "source": "crossref",
-      "doi": "10.1063/pt.6.3.20170721a",
-      "title": "Climate catastrophe article meets red team\u2013blue team stunt",
-      "year": 2017,
-      "first_author": "Corneliussen",
-      "container": "Physics Today",
-      "type": "journal-article",
-      "score": 35.95722
-     },
-     "metrics": {
-      "title_sim": 0,
-      "containment": 0.222,
-      "partial_ratio": 40.0,
-      "year_ok": true,
-      "first_author_ok": false
-     }
-    }
-   ],
-   "likely_match": null
-  },
-  {
-   "junk": false,
-   "idx": 5,
-   "raw": "Prompt: <AlignDiff> SQC, 2017-07-07, Day:1, Blue / Green / Red / NIR",
-   "title": null,
-   "authors": [
-    "Prompt: <AlignDiff> SQC"
-   ],
-   "year": 2017,
-   "doi": null,
-   "arxiv": null,
-   "urls": [],
-   "container": null,
-   "type": null,
-   "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
-   "evidence": [
-    {
-     "step": "crossref_best_reject",
-     "rec": {
-      "source": "crossref",
-      "doi": "10.1063/pt.6.3.20170721a",
-      "title": "Climate catastrophe article meets red team\u2013blue team stunt",
-      "year": 2017,
-      "first_author": "Corneliussen",
-      "container": "Physics Today",
-      "type": "journal-article",
-      "score": 35.95722
-     },
-     "metrics": {
-      "title_sim": 0,
-      "containment": 0.222,
-      "partial_ratio": 40.0,
-      "year_ok": true,
-      "first_author_ok": false
-     }
-    }
-   ],
-   "likely_match": null
-  },
-  {
-   "junk": true,
-   "idx": 6,
-   "raw": "varying missing ratios (10% to 50%), using PSNR and                                                                     The proposed framework offers a scalable, generalizable, RMSE as primary indicators (see Figure 7). Traditional                                                                  and geophysically grounded solution for satellite image reinterpolation methods exhibit the lowest resilience, with                                                               covery, particularly in regions with persistent data scarcity. References                               Iizuka, S.; Simo-Serra, E.; and Ishikawa, H. 2017. Globally",
-   "title": "varying missing ratios (10% to 50%), using PSNR and The proposed framework offers a scalable, generalizable, RMSE as primary indicators (see Figure 7). Traditional and geophysically grounded solution for satellite image reinterpolation methods exhibit the lowest resilience, with covery, particularly in regions with persistent data scarcity",
-   "authors": [],
-   "year": null,
-   "doi": null,
-   "arxiv": null,
-   "urls": [],
-   "container": "References Iizuka",
-   "type": "article-journal",
-   "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
-   "evidence": [
-    {
-     "step": "crossref_best_reject",
-     "rec": {
-      "source": "crossref",
-      "doi": "10.3390/rs17101731",
-      "title": "Enhancing Aquifer Reliability and Resilience Assessment in Data-Scarce Regions Using Satellite Data: Application to the Chao Phraya River Basin",
-      "year": 2025,
-      "first_author": "Sharma",
-      "container": "Remote Sensing",
-      "type": "journal-article",
-      "score": 29.087793
-     },
-     "metrics": {
-      "title_sim": 40.76433121019109,
-      "containment": 0.333,
-      "partial_ratio": 47.887323943661976,
-      "year_ok": true,
-      "first_author_ok": false
-     }
-    }
-   ],
-   "likely_match": null
-  },
-  {
-   "junk": false,
-   "idx": 7,
-   "raw": "Belgiu, M.; and Dragut, L. 2016. Random forest in remote      and locally consistent image completion. ACM Transactions sensing: A review of applications and future directions. IS-    on Graphics (ToG), 36(4): 1\u201314.",
-   "title": "Random forest in remote and locally consistent image completion. ACM Transactions sensing: A review of applications and future directions",
+   "raw": "Belgiu, M.; and Dragut, L. 2016. Random forest in remote sensing: A review of applications and future directions. ISPRS journal of photogrammetry and remote sensing, 114: 24\u201331.",
+   "title": "Random forest in remote sensing: A review of applications and future directions",
    "authors": [
     "Belgiu",
     "Dragut"
@@ -251,33 +21,12 @@
    "doi": null,
    "arxiv": null,
    "urls": [],
-   "container": "IS- on Graphics (ToG",
+   "container": "ISPRS journal of photogrammetry and remote sensing",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
-   "evidence": [
-    {
-     "step": "crossref_best_reject",
-     "rec": {
-      "source": "crossref",
-      "doi": "10.1016/j.isprsjprs.2016.01.011",
-      "title": "Random forest in remote sensing: A review of applications and future directions",
-      "year": 2016,
-      "first_author": "Belgiu",
-      "container": "ISPRS Journal of Photogrammetry and Remote Sensing",
-      "type": "journal-article",
-      "score": 65.33718
-     },
-     "metrics": {
-      "title_sim": 73.23943661971832,
-      "containment": 1.0,
-      "partial_ratio": 80.76923076923077,
-      "year_ok": true,
-      "first_author_ok": true
-     }
-    }
-   ],
-   "likely_match": {
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
     "source": "crossref",
     "doi": "10.1016/j.isprsjprs.2016.01.011",
     "title": "Random forest in remote sensing: A review of applications and future directions",
@@ -285,56 +34,22 @@
     "first_author": "Belgiu",
     "container": "ISPRS Journal of Photogrammetry and Remote Sensing",
     "type": "journal-article",
-    "score": 65.33718
-   }
+    "score": 65.114456
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
   },
   {
    "junk": false,
-   "idx": 8,
-   "raw": "PRS journal of photogrammetry and remote sensing, 114:          Jang, D.; Kim, N.; and Choo, H. 2024. Kriging Interpolation 24\u201331.                                                          for Constructing Database of the Atmospheric Refractivity in Korea. Remote Sensing, 16(13): 2379.",
-   "title": "PRS journal of photogrammetry and remote sensing, 114",
-   "authors": [
-    "Jang",
-    "Kim",
-    "Choo"
-   ],
-   "year": 2024,
-   "doi": null,
-   "arxiv": null,
-   "urls": [],
-   "container": "Remote Sensing",
-   "type": "article-journal",
-   "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
-   "evidence": [
-    {
-     "step": "crossref_best_reject",
-     "rec": {
-      "source": "crossref",
-      "doi": "10.1016/s0924-2716(00)00021-6",
-      "title": "Report on the ISPRS Journal of Photogrammetry and Remote Sensing (PRS) for the period 1996\u20132000",
-      "year": 2000,
-      "first_author": "Baltsavias",
-      "container": "ISPRS Journal of Photogrammetry and Remote Sensing",
-      "type": "journal-article",
-      "score": 39.822357
-     },
-     "metrics": {
-      "title_sim": 68.96551724137932,
-      "containment": 0.5,
-      "partial_ratio": 69.93006993006993,
-      "year_ok": false,
-      "first_author_ok": false
-     }
-    }
-   ],
-   "likely_match": null
-  },
-  {
-   "junk": false,
-   "idx": 9,
-   "raw": "Chai, T.; and Draxler, R. R. 2014. Root mean square error",
-   "title": "Root mean square error",
+   "idx": 2,
+   "raw": "Chai, T.; and Draxler, R. R. 2014. Root mean square error (RMSE) or mean absolute error (MAE)?\u2013Arguments against avoiding RMSE in the literature. Geoscientific model development, 7(3): 1247\u20131250.",
+   "title": "Root mean square error (RMSE) or mean absolute error (MAE)?\u2013Arguments against avoiding RMSE in the literature",
    "authors": [
     "Chai",
     "Draxler"
@@ -343,25 +58,25 @@
    "doi": null,
    "arxiv": null,
    "urls": [],
-   "container": null,
-   "type": null,
+   "container": "Geoscientific model development",
+   "type": "article-journal",
    "parser": "anystyle-find",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
     "source": "crossref",
-    "doi": "10.5194/gmdd-7-1525-2014",
-    "title": "Root mean square error (RMSE) or mean absolute error (MAE)?",
+    "doi": "10.5194/gmd-7-1247-2014",
+    "title": "Root mean square error (RMSE) or mean absolute error (MAE)? \u2013 Arguments against avoiding RMSE in the literature",
     "year": 2014,
     "first_author": "Chai",
-    "container": "",
-    "type": "posted-content",
-    "score": 53.358162
+    "container": "Geoscientific Model Development",
+    "type": "journal-article",
+    "score": 141.49937
    },
    "metrics": {
     "title_sim": 100.0,
-    "containment": 0.667,
-    "partial_ratio": 61.111111111111114,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
     "year_ok": true,
     "first_author_ok": true
    },
@@ -369,65 +84,22 @@
   },
   {
    "junk": false,
-   "idx": 10,
-   "raw": "(RMSE) or mean absolute error (MAE)?\u2013Arguments against          Ju, J.; and Roy, D. P. 2008. The availability of cloud-free avoiding RMSE in the literature. Geoscientific model devel-     Landsat ETM+ data over the conterminous United States opment, 7(3): 1247\u20131250.                                        and globally. Remote Sensing of Environment, 112(3): 1196\u20131211.",
-   "title": "The availability of cloud-free avoiding RMSE in the literature. Geoscientific model devel- Landsat ETM+ data over the conterminous United States opment",
-   "authors": [
-    "RMSE) or mean absolute error (MAE)?\u2013Arguments against Ju, J.; and Roy, D. P."
-   ],
-   "year": 2008,
-   "doi": null,
-   "arxiv": null,
-   "urls": [],
-   "container": "and globally. Remote Sensing of Environment",
-   "type": "article-journal",
-   "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
-   "evidence": [
-    {
-     "step": "crossref_best_reject",
-     "rec": {
-      "source": "crossref",
-      "doi": "10.1016/j.rse.2007.08.011",
-      "title": "The availability of cloud-free Landsat ETM+ data over the conterminous United States and globally",
-      "year": 2008,
-      "first_author": "Ju",
-      "container": "Remote Sensing of Environment",
-      "type": "journal-article",
-      "score": 88.497986
-     },
-     "metrics": {
-      "title_sim": 69.67213114754098,
-      "containment": 1.0,
-      "partial_ratio": 75.0,
-      "year_ok": true,
-      "first_author_ok": false
-     }
-    }
-   ],
-   "likely_match": null
-  },
-  {
-   "junk": false,
-   "idx": 11,
-   "raw": "Daras, G.; Shah, K.; Dagan, Y.; Gollakota, A.; Dimakis, A.; and Klivans, A. 2024. Ambient diffusion: Learning clean         Kakar, P.; Sudha, N.; and Ser, W. 2011. Exposing digital distributions from corrupted data. Advances in Neural In-       image forgeries by detecting discrepancies in motion blur. formation Processing Systems, 36.                               IEEE Transactions on Multimedia, 13(3): 443\u2013452.",
-   "title": "Ambient diffusion: Learning clean",
+   "idx": 3,
+   "raw": "Daras, G.; Shah, K.; Dagan, Y.; Gollakota, A.; Dimakis, A.; and Klivans, A. 2024. Ambient diffusion: Learning clean distributions from corrupted data. Advances in Neural Information Processing Systems, 36.",
+   "title": "Ambient diffusion: Learning clean distributions from corrupted data",
    "authors": [
     "Daras",
     "Shah",
     "Dagan",
     "Gollakota",
     "Dimakis",
-    "Klivans",
-    "Kakar",
-    "Sudha",
-    "Ser"
+    "Klivans"
    ],
    "year": 2024,
    "doi": null,
    "arxiv": null,
    "urls": [],
-   "container": "Advances in Neural In- image forgeries by detecting discrepancies in motion blur. formation Processing Systems, 36. IEEE Transactions on Multimedia",
+   "container": "Advances in Neural Information Processing Systems",
    "type": "article-journal",
    "parser": "anystyle-find",
    "verdict": "VERIFIED",
@@ -440,12 +112,12 @@
     "first_author": "Daras",
     "container": "Advances in Neural Information Processing Systems 36",
     "type": "proceedings-article",
-    "score": 39.13568
+    "score": 65.441734
    },
    "metrics": {
     "title_sim": 100.0,
     "containment": 1.0,
-    "partial_ratio": 68.18181818181819,
+    "partial_ratio": 100.0,
     "year_ok": true,
     "first_author_ok": true
    },
@@ -453,320 +125,280 @@
   },
   {
    "junk": false,
-   "idx": 12,
-   "raw": "De Luca, G.; Carotenuto, F.; Genesio, L.; Pepe, M.; Toscano,    Kingma, D. P. 2013. Auto-encoding variational bayes. arXiv P.; Boschetti, M.; Miglietta, F.; and Gioli, B. 2024. Improv-   preprint arXiv:1312.6114.",
-   "title": "Auto-encoding variational bayes",
+   "idx": 4,
+   "raw": "De Luca, G.; Carotenuto, F.; Genesio, L.; Pepe, M.; Toscano, P.; Boschetti, M.; Miglietta, F.; and Gioli, B. 2024. Improving PRISMA hyperspectral spatial resolution and geolocation by using Sentinel-2: development and test of an operational procedure in urban and rural areas. ISPRS Journal of Photogrammetry and Remote Sensing, 215: 112\u2013135.",
+   "title": "Improving PRISMA hyperspectral spatial resolution and geolocation by using Sentinel-2: development and test of an operational procedure in urban and rural areas",
    "authors": [
     "Luca",
     "Carotenuto",
     "Genesio",
     "Pepe",
     "Toscano",
-    "P",
-    "P.",
     "Boschetti",
     "Miglietta",
     "Gioli"
    ],
-   "year": 2013,
-   "doi": null,
-   "arxiv": "1312.6114",
-   "urls": [],
-   "container": null,
-   "type": null,
-   "parser": "anystyle-find",
-   "verdict": "VERIFIED",
-   "via": "arxiv_id",
-   "match": {
-    "source": "arxiv",
-    "arxiv": "1312.6114",
-    "title": "Auto-Encoding Variational Bayes",
-    "year": 2013,
-    "first_author": "Diederik P Kingma"
-   },
-   "metrics": {
-    "title_sim": 100.0,
-    "containment": 1.0,
-    "partial_ratio": 100.0,
-    "year_ok": true,
-    "first_author_ok": false
-   },
-   "evidence": []
-  },
-  {
-   "junk": false,
-   "idx": 13,
-   "raw": "ing PRISMA hyperspectral spatial resolution and geoloca-        Kingma, D. P.; Welling, M.; et al. 2019. An introduction tion by using Sentinel-2: development and test of an opera-     to variational autoencoders. Foundations and Trends\u00ae in tional procedure in urban and rural areas. ISPRS Journal of     Machine Learning, 12(4): 307\u2013392.",
-   "title": "An introduction tion by using Sentinel-2: development and test of an opera- to variational autoencoders. Foundations and Trends\u00ae in tional procedure in urban and rural areas",
-   "authors": [
-    "resolution",
-    "Kingma",
-    "Welling"
-   ],
-   "year": 2019,
+   "year": 2024,
    "doi": null,
    "arxiv": null,
    "urls": [],
-   "container": "ISPRS Journal of Machine Learning",
-   "type": "article-journal",
-   "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
-   "evidence": [
-    {
-     "step": "crossref_best_reject",
-     "rec": {
-      "source": "crossref",
-      "doi": "10.1016/j.isprsjprs.2024.07.003",
-      "title": "Improving PRISMA hyperspectral spatial resolution and geolocation by using Sentinel-2: development and test of an operational procedure in urban and rural areas",
-      "year": 2024,
-      "first_author": "De Luca",
-      "container": "ISPRS Journal of Photogrammetry and Remote Sensing",
-      "type": "journal-article",
-      "score": 39.420216
-     },
-     "metrics": {
-      "title_sim": 75.32467532467533,
-      "containment": 0.786,
-      "partial_ratio": 69.18238993710692,
-      "year_ok": false,
-      "first_author_ok": false
-     }
-    }
-   ],
-   "likely_match": null
-  },
-  {
-   "junk": false,
-   "idx": 14,
-   "raw": "Photogrammetry and Remote Sensing, 215: 112\u2013135.                Li, Z.-L.; Wu, H.; Duan, S.-B.; Zhao, W.; Ren, H.; Liu, X.; Dhariwal, P.; and Nichol, A. 2021. Diffusion models beat        Leng, P.; Tang, R.; Ye, X.; Zhu, J.; et al. 2023. Satellite regans on image synthesis. Advances in neural information         mote sensing of global land surface temperature: Definition, processing systems, 34: 8780\u20138794.                              methods, products, and applications. Reviews of Geophysics, Goodfellow, I.; Pouget-Abadie, J.; Mirza, M.; Xu, B.;           61(1).",
-   "title": "Diffusion models beat Leng",
-   "authors": [
-    "Li",
-    "Wu",
-    "Duan",
-    "Zhao",
-    "Ren",
-    "Liu",
-    "Dhariwal",
-    "Nichol",
-    "P.",
-    "R.",
-    "X."
-   ],
-   "year": 2021,
-   "doi": null,
-   "arxiv": null,
-   "urls": [],
-   "container": "Photogrammetry and Remote Sensing",
-   "type": "article-journal",
-   "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
-   "evidence": [
-    {
-     "step": "crossref_best_reject",
-     "rec": {
-      "source": "crossref",
-      "doi": "10.1609/aaai.v37i8.26093",
-      "title": "Diffusion Models Beat GANs on Topology Optimization",
-      "year": 2023,
-      "first_author": "Maz\u00e9",
-      "container": "Proceedings of the AAAI Conference on Artificial Intelligence",
-      "type": "journal-article",
-      "score": 21.57105
-     },
-     "metrics": {
-      "title_sim": 89.36170212765957,
-      "containment": 0.5,
-      "partial_ratio": 60.7843137254902,
-      "year_ok": false,
-      "first_author_ok": false
-     }
-    }
-   ],
-   "likely_match": null
-  },
-  {
-   "junk": false,
-   "idx": 15,
-   "raw": "Warde-Farley, D.; Ozair, S.; Courville, A.; and Bengio, Y.      Liu, G.; Reda, F. A.; Shih, K. J.; Wang, T.-C.; Tao, A.; and 2014. Generative adversarial nets. Advances in neural in-       Catanzaro, B. 2018. Image inpainting for irregular holes formation processing systems, 27.                               using partial convolutions. In Proceedings of the European conference on computer vision (ECCV), 85\u2013100.",
-   "title": "Generative adversarial nets. Advances in neural in",
-   "authors": [
-    "Warde-Farley",
-    "Ozair",
-    "Courville",
-    "Bengio",
-    "G.",
-    "A.",
-    "Shih",
-    "Wang",
-    "Tao",
-    "Catanzaro"
-   ],
-   "year": 2014,
-   "doi": null,
-   "arxiv": null,
-   "urls": [],
-   "container": "Proceedings of the European conference on computer vision (ECCV",
-   "type": "paper-conference",
-   "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
-   "evidence": [
-    {
-     "step": "crossref_best_reject",
-     "rec": {
-      "source": "crossref",
-      "doi": "10.32614/cran.package.rgan",
-      "title": "RGAN: Generative Adversarial Nets (GAN) in R",
-      "year": 2022,
-      "first_author": "Neunhoeffer",
-      "container": "CRAN: Contributed Packages",
-      "type": "dataset",
-      "score": 32.302868
-     },
-     "metrics": {
-      "title_sim": 84.50704225352112,
-      "containment": 0.6,
-      "partial_ratio": 85.36585365853658,
-      "year_ok": false,
-      "first_author_ok": false
-     }
-    }
-   ],
-   "likely_match": null
-  },
-  {
-   "junk": false,
-   "idx": 16,
-   "raw": "Gorelick, N.; Hancher, M.; Dixon, M.; Ilyushchenko, S.; Thau, D.; and Moore, R. 2017. Google Earth Engine:              McKinley, S.; and Levine, M. 1998. Cubic spline interpola-Planetary-scale geospatial analysis for everyone. Remote        tion. College of the Redwoods, 45(1): 1049\u20131060.",
-   "title": "Google Earth Engine",
-   "authors": [
-    "Gorelick",
-    "Hancher",
-    "Dixon",
-    "Ilyushchenko",
-    "Thau",
-    "Moore",
-    "McKinley",
-    "Levine"
-   ],
-   "year": 2017,
-   "doi": null,
-   "arxiv": null,
-   "urls": [],
-   "container": "Remote tion. College of the Redwoods",
+   "container": "ISPRS Journal of Photogrammetry and Remote Sensing",
    "type": "article-journal",
    "parser": "anystyle-find",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
     "source": "crossref",
-    "doi": "10.5220/0006352702500255",
-    "title": "First Experiences with Google Earth Engine",
-    "year": 2017,
-    "first_author": "Navarro",
-    "container": "Proceedings of the 3rd International Conference on Geographical Information Systems Theory, Applications and Management",
-    "type": "proceedings-article",
-    "score": 32.577065
+    "doi": "10.1016/j.isprsjprs.2024.07.003",
+    "title": "Improving PRISMA hyperspectral spatial resolution and geolocation by using Sentinel-2: development and test of an operational procedure in urban and rural areas",
+    "year": 2024,
+    "first_author": "De Luca",
+    "container": "ISPRS Journal of Photogrammetry and Remote Sensing",
+    "type": "journal-article",
+    "score": 84.83559
    },
    "metrics": {
     "title_sim": 100.0,
-    "containment": 0.6,
-    "partial_ratio": 57.14285714285714,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
     "year_ok": true,
-    "first_author_ok": false
+    "first_author_ok": true
    },
    "evidence": []
   },
   {
    "junk": false,
-   "idx": 17,
-   "raw": "sensing of Environment, 202: 18\u201327.                             Oliver, M. A.; and Webster, R. 1990. Kriging: a method of Gribbon, K. T.; and Bailey, D. G. 2004. A novel approach        interpolation for geographical information systems. Interto real-time bilinear interpolation. In Proceedings. DELTA      national Journal of Geographical Information System, 4(3): 2004. Second IEEE international workshop on electronic          313\u2013332. design, test and applications, 126\u2013131. IEEE.                   Requena-Mesa, C.; Benson, V.; Reichstein, M.; Runge, J.; Gu, J.; Wang, Z.; Kuen, J.; Ma, L.; Shahroudy, A.; Shuai,       and Denzler, J. 2021. EarthNet2021: A large-scale dataset B.; Liu, T.; Wang, X.; Wang, G.; Cai, J.; et al. 2018. Recent   and challenge for Earth surface forecasting as a guided video advances in convolutional neural networks. Pattern recogni-     prediction task. In Proceedings of the IEEE/CVF Confertion, 77: 354\u2013377.                                              ence on Computer Vision and Pattern Recognition, 1132\u20131142.",
-   "title": "Kriging: a method of",
+   "idx": 5,
+   "raw": "Dhariwal, P.; and Nichol, A. 2021. Diffusion models beat gans on image synthesis. Advances in neural information processing systems, 34: 8780\u20138794.",
+   "title": "Diffusion models beat gans on image synthesis",
    "authors": [
-    "Oliver",
-    "Webster",
-    "Gribbon",
-    "Bailey",
-    "Requena-Mesa",
-    "C.",
-    "V.",
-    "M.",
-    "J.",
-    "J.",
-    "Z.",
-    "J.",
-    "L.",
-    "A.",
-    "Denzler",
-    "Liu",
-    "Wang",
-    "Wang",
-    "Cai"
+    "Dhariwal",
+    "Nichol"
    ],
-   "year": 1990,
+   "year": 2021,
    "doi": null,
    "arxiv": null,
    "urls": [],
-   "container": "Proceedings of the IEEE/CVF Confertion",
+   "container": "Advances in neural information processing systems",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
      "rec": {
       "source": "crossref",
-      "doi": "10.1111/j.1475-2743.1990.tb00817.x",
-      "title": "Estimating soil salinity by disjunctive kriging",
-      "year": 1990,
-      "first_author": "Wood",
-      "container": "Soil Use and Management",
+      "doi": "10.36948/ijfmr.2025.v07i05.59218",
+      "title": "A Survey on Generative Models for Image Synthesis: GANs, Diffusion Models, and Beyond",
+      "year": 2025,
+      "first_author": "V",
+      "container": "International Journal For Multidisciplinary Research",
       "type": "journal-article",
-      "score": 25.577589
+      "score": 34.262207
      },
      "metrics": {
-      "title_sim": 53.84615384615385,
-      "containment": 0.2,
-      "partial_ratio": 44.680851063829785,
-      "year_ok": true,
+      "title_sim": 94.11764705882354,
+      "containment": 0.667,
+      "partial_ratio": 53.65853658536586,
+      "year_ok": false,
       "first_author_ok": false
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "64ea8f180d0682e6c18d1eb688afdb2027c02794",
+    "title": "Diffusion Models Beat GANs on Image Synthesis",
+    "year": 2021,
+    "first_author": "Prafulla Dhariwal",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "ArXiv": "2105.05233",
+     "DBLP": "journals/corr/abs-2105-05233",
+     "CorpusId": 234357997
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
-   "idx": 18,
-   "raw": "Gui, S.; Song, S.; Qin, R.; and Tang, Y. 2024. Remote sensing object detection in the deep learning era\u2014a review. Re-     Rifai, S.; Vincent, P.; Muller, X.; Glorot, X.; and Bengio, Y. mote Sensing, 16(2): 327.                                       2011. Contractive auto-encoders: Explicit invariance during feature extraction. In Proceedings of the 28th international He, Z.; Chow, C.-Y.; and Zhang, J.-D. 2019. STCNN: A            conference on international conference on machine learnspatio-temporal convolutional neural network for long-term      ing, 833\u2013840. traffic prediction. In 2019 20th IEEE international confer-Rombach, R.; Blattmann, A.; Lorenz, D.; Esser, P.; and Omence on mobile data management (MDM), 226\u2013233. IEEE. mer, B. 2022. High-resolution image synthesis with latent Ho, J.; Jain, A.; and Abbeel, P. 2020. Denoising diffusion      diffusion models. In Proceedings of the IEEE/CVF conferprobabilistic models. Advances in neural information pro-       ence on computer vision and pattern recognition, 10684\u2013cessing systems, 33: 6840\u20136851.                                 10695.",
+   "idx": 6,
+   "raw": "Goodfellow, I.; Pouget-Abadie, J.; Mirza, M.; Xu, B.; Warde-Farley, D.; Ozair, S.; Courville, A.; and Bengio, Y. 2014. Generative adversarial nets. Advances in neural information processing systems, 27.",
+   "title": "Generative adversarial nets",
+   "authors": [
+    "Goodfellow",
+    "Pouget-Abadie",
+    "Mirza",
+    "Xu",
+    "Warde-Farley",
+    "Ozair",
+    "Courville",
+    "Bengio"
+   ],
+   "year": 2014,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in neural information processing systems",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.5220/0008096801170121",
+      "title": "3D Bounding Box Generative Adversarial Nets",
+      "year": 2019,
+      "first_author": "Kuang",
+      "container": "Proceedings of the International Conference on Advances in Computer Technology, Information Science and Communications",
+      "type": "proceedings-article",
+      "score": 33.35535
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 0.6,
+      "partial_ratio": 79.06976744186046,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "crossref_title",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3422622",
+    "title": "Generative adversarial networks",
+    "year": 2020,
+    "first_author": "Goodfellow",
+    "container": "Communications of the ACM",
+    "type": "journal-article",
+    "score": 29.74616
+   },
+   "metrics": {
+    "title_sim": 93.10344827586206,
+    "containment": 0.667,
+    "partial_ratio": 87.09677419354838,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "Gorelick, N.; Hancher, M.; Dixon, M.; Ilyushchenko, S.; Thau, D.; and Moore, R. 2017. Google Earth Engine: Planetary-scale geospatial analysis for everyone. Remote sensing of Environment, 202: 18\u201327.",
+   "title": "Google Earth Engine: Planetary-scale geospatial analysis for everyone",
+   "authors": [
+    "Gorelick",
+    "Hancher",
+    "Dixon",
+    "Ilyushchenko",
+    "Thau",
+    "Moore"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Remote sensing of Environment",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.rse.2017.06.031",
+    "title": "Google Earth Engine: Planetary-scale geospatial analysis for everyone",
+    "year": 2017,
+    "first_author": "Gorelick",
+    "container": "Remote Sensing of Environment",
+    "type": "journal-article",
+    "score": 68.14622
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "Gribbon, K. T.; and Bailey, D. G. 2004. A novel approach to real-time bilinear interpolation. In Proceedings. DELTA 2004. Second IEEE international workshop on electronic design, test and applications, 126\u2013131. IEEE. Gu, J.; Wang, Z.; Kuen, J.; Ma, L.; Shahroudy, A.; Shuai, B.; Liu, T.; Wang, X.; Wang, G.; Cai, J.; et al. 2018. Recent advances in convolutional neural networks. Pattern recognition, 77: 354\u2013377.",
+   "title": "A novel approach to real-time bilinear interpolation",
+   "authors": [
+    "Gribbon",
+    "Bailey",
+    "Gu",
+    "J.",
+    "Z.",
+    "J.",
+    "L.",
+    "A.",
+    "B.",
+    "T.",
+    "X.",
+    "G."
+   ],
+   "year": 2004,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings. DELTA 2004. Second IEEE international workshop on electronic design, test and applications",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/delta.2004.10055",
+    "title": "A Novel Approach to Real-time Bilinear Interpolation",
+    "year": 2005,
+    "first_author": "Gribbon",
+    "container": "Second IEEE International Workshop on Electronic Design, Test and Applications",
+    "type": "proceedings-article",
+    "score": 56.50395
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "Gui, S.; Song, S.; Qin, R.; and Tang, Y. 2024. Remote sensing object detection in the deep learning era\u2014a review. Remote Sensing, 16(2): 327.",
    "title": "Remote sensing object detection in the deep learning era\u2014a review",
    "authors": [
     "Gui",
     "Song",
     "Qin",
-    "Tang",
-    "Re- Rifai",
-    "Vincent",
-    "Muller",
-    "Glorot",
-    "Bengio",
-    "Z.",
-    "C.-Y.",
-    "Zhang",
-    "R.",
-    "A.",
-    "D.",
-    "P.",
-    "on",
-    "J.",
-    "A.",
-    "Abbeel"
+    "Tang"
    ],
    "year": 2024,
    "doi": null,
    "arxiv": null,
    "urls": [],
-   "container": "Proceedings of the 28th international He",
+   "container": "Remote Sensing",
    "type": "article-journal",
    "parser": "anystyle-find",
    "verdict": "VERIFIED",
@@ -779,7 +411,401 @@
     "first_author": "Gui",
     "container": "Remote Sensing",
     "type": "journal-article",
-    "score": 63.12164
+    "score": 63.121742
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "He, Z.; Chow, C.-Y.; and Zhang, J.-D. 2019. STCNN: A spatio-temporal convolutional neural network for long-term traffic prediction. In 2019 20th IEEE international conference on mobile data management (MDM), 226\u2013233. IEEE.",
+   "title": "STCNN: A spatio-temporal convolutional neural network for long-term traffic prediction",
+   "authors": [
+    "He",
+    "Chow",
+    "Zhang"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "2019 20th IEEE international conference on mobile data management (MDM",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/mdm.2019.00-53",
+    "title": "STCNN: A Spatio-Temporal Convolutional Neural Network for Long-Term Traffic Prediction",
+    "year": 2019,
+    "first_author": "He",
+    "container": "2019 20th IEEE International Conference on Mobile Data Management (MDM)",
+    "type": "proceedings-article",
+    "score": 78.54715
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "Ho, J.; Jain, A.; and Abbeel, P. 2020. Denoising diffusion probabilistic models. Advances in neural information processing systems, 33: 6840\u20136851.",
+   "title": "Denoising diffusion probabilistic models",
+   "authors": [
+    "Ho",
+    "Jain",
+    "Abbeel"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in neural information processing systems",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/powertech55446.2023.10202713",
+      "title": "Denoising Diffusion Probabilistic Models for Probabilistic Energy Forecasting",
+      "year": 2023,
+      "first_author": "Capel",
+      "container": "2023 IEEE Belgrade PowerTech",
+      "type": "proceedings-article",
+      "score": 35.232975
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 0.714,
+      "partial_ratio": 72.72727272727273,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "5c126ae3421f05768d8edd97ecd44b1364e2c99a",
+    "title": "Denoising Diffusion Probabilistic Models",
+    "year": 2020,
+    "first_author": "Jonathan Ho",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "ArXiv": "2006.11239",
+     "MAG": "3100572490",
+     "DBLP": "journals/corr/abs-2006-11239",
+     "CorpusId": 219955663
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "Hore, A.; and Ziou, D. 2010. Image quality metrics: PSNR vs. SSIM. In 2010 20th international conference on pattern recognition, 2366\u20132369. IEEE. Hu, E. J.; Shen, Y.; Wallis, P.; Allen-Zhu, Z.; Li, Y.; Wang, S.; Wang, L.; and Chen, W. 2021. Lora: Low-rank adaptation of large language models. arXiv preprint arXiv:2106.09685.",
+   "title": "Image quality metrics: PSNR vs",
+   "authors": [
+    "Hore",
+    "Ziou",
+    "Hu",
+    "J.",
+    "Shen",
+    "Wallis",
+    "Allen-Zhu",
+    "Li",
+    "Wang",
+    "Wang",
+    "Chen"
+   ],
+   "year": 2010,
+   "doi": null,
+   "arxiv": "2106.09685",
+   "urls": [],
+   "container": "SSIM. In 2010 20th international conference on pattern recognition",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2106.09685",
+    "title": "LoRA: Low-Rank Adaptation of Large Language Models",
+    "year": 2021,
+    "first_author": "Edward J. Hu"
+   },
+   "metrics": {
+    "title_sim": 30.769230769230774,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true,
+    "rule": "id+raw_containment"
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "Iizuka, S.; Simo-Serra, E.; and Ishikawa, H. 2017. Globally and locally consistent image completion. ACM Transactions on Graphics (ToG), 36(4): 1\u201314.",
+   "title": "Globally and locally consistent image completion",
+   "authors": [
+    "Iizuka",
+    "Simo-Serra",
+    "Ishikawa"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "ACM Transactions on Graphics (ToG",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3072959.3073659",
+    "title": "Globally and locally consistent image completion",
+    "year": 2017,
+    "first_author": "Iizuka",
+    "container": "ACM Transactions on Graphics",
+    "type": "journal-article",
+    "score": 54.923576
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "Jang, D.; Kim, N.; and Choo, H. 2024. Kriging Interpolation for Constructing Database of the Atmospheric Refractivity in Korea. Remote Sensing, 16(13): 2379.",
+   "title": "Kriging Interpolation for Constructing Database of the Atmospheric Refractivity in Korea",
+   "authors": [
+    "Jang",
+    "Kim",
+    "Choo"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Remote Sensing",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.3390/rs16132379",
+    "title": "Kriging Interpolation for Constructing Database of the Atmospheric Refractivity in Korea",
+    "year": 2024,
+    "first_author": "Jang",
+    "container": "Remote Sensing",
+    "type": "journal-article",
+    "score": 72.91189
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "Ju, J.; and Roy, D. P. 2008. The availability of cloud-free Landsat ETM+ data over the conterminous United States and globally. Remote Sensing of Environment, 112(3): 1196\u20131211.",
+   "title": "The availability of cloud-free Landsat ETM+ data over the conterminous United States and globally",
+   "authors": [
+    "Ju",
+    "Roy"
+   ],
+   "year": 2008,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Remote Sensing of Environment",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.rse.2007.08.011",
+    "title": "The availability of cloud-free Landsat ETM+ data over the conterminous United States and globally",
+    "year": 2008,
+    "first_author": "Ju",
+    "container": "Remote Sensing of Environment",
+    "type": "journal-article",
+    "score": 90.83883
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 16,
+   "raw": "Kakar, P.; Sudha, N.; and Ser, W. 2011. Exposing digital image forgeries by detecting discrepancies in motion blur. IEEE Transactions on Multimedia, 13(3): 443\u2013452.",
+   "title": "Exposing digital image forgeries by detecting discrepancies in motion blur",
+   "authors": [
+    "Kakar",
+    "Sudha",
+    "Ser"
+   ],
+   "year": 2011,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE Transactions on Multimedia",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/tmm.2011.2121056",
+    "title": "Exposing Digital Image Forgeries by Detecting Discrepancies in Motion Blur",
+    "year": 2011,
+    "first_author": "Kakar",
+    "container": "IEEE Transactions on Multimedia",
+    "type": "journal-article",
+    "score": 82.54523
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 17,
+   "raw": "Kingma, D. P. 2013. Auto-encoding variational bayes. arXiv preprint arXiv:1312.6114.",
+   "title": "Auto-encoding variational bayes",
+   "authors": [
+    "Kingma"
+   ],
+   "year": 2013,
+   "doi": null,
+   "arxiv": "1312.6114",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "1312.6114"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.18653/v1/2020.coling-main.458",
+      "title": "Auto-Encoding Variational Bayes for Inferring Topics and Visualization",
+      "year": 2020,
+      "first_author": "Pham",
+      "container": "Proceedings of the 28th International Conference on Computational Linguistics",
+      "type": "proceedings-article",
+      "score": 36.218285
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 0.571,
+      "partial_ratio": 63.63636363636363,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "arxiv_id_repass",
+   "match": {
+    "source": "arxiv_abs",
+    "arxiv": "1312.6114",
+    "title": "Auto-Encoding Variational Bayes",
+    "year": 2013,
+    "first_author": "Kingma, Diederik P"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   }
+  },
+  {
+   "junk": false,
+   "idx": 18,
+   "raw": "Kingma, D. P.; Welling, M.; et al. 2019. An introduction to variational autoencoders. Foundations and Trends\u00ae in Machine Learning, 12(4): 307\u2013392.",
+   "title": "An introduction to variational autoencoders",
+   "authors": [
+    "Kingma",
+    "Welling"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Foundations and Trends\u00ae in Machine Learning",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1561/9781680836233",
+    "title": "An Introduction to Variational Autoencoders",
+    "year": 2019,
+    "first_author": "Kingma",
+    "container": "",
+    "type": "monograph",
+    "score": 49.92787
    },
    "metrics": {
     "title_sim": 100.0,
@@ -793,82 +819,103 @@
   {
    "junk": false,
    "idx": 19,
-   "raw": "Hore, A.; and Ziou, D. 2010. Image quality metrics: PSNR        Rukundo, O.; and Cao, H. 2012. Nearest neighbor value vs. SSIM. In 2010 20th international conference on pattern      interpolation. arXiv preprint arXiv:1211.1768. recognition, 2366\u20132369. IEEE.                                   Saharia, C.; Chan, W.; Chang, H.; Lee, C.; Ho, J.; Salimans, Hu, E. J.; Shen, Y.; Wallis, P.; Allen-Zhu, Z.; Li, Y.; Wang,   T.; Fleet, D.; and Norouzi, M. 2022. Palette: Image-to-image S.; Wang, L.; and Chen, W. 2021. Lora: Low-rank adaptation      diffusion models. In ACM SIGGRAPH 2022 conference proof large language models. arXiv preprint arXiv:2106.09685.      ceedings, 1\u201310.",
-   "title": "Image quality metrics: PSNR",
+   "raw": "Li, Z.-L.; Wu, H.; Duan, S.-B.; Zhao, W.; Ren, H.; Liu, X.; Leng, P.; Tang, R.; Ye, X.; Zhu, J.; et al. 2023. Satellite remote sensing of global land surface temperature: Definition, methods, products, and applications. Reviews of Geophysics, 61(1).",
+   "title": "Satellite remote sensing of global land surface temperature: Definition, methods, products, and applications",
    "authors": [
-    "Hore",
-    "Ziou",
-    "Rukundo",
-    "Cao",
-    "Saharia",
-    "C.",
-    "W.",
-    "H.",
-    "C.",
-    "J.",
-    "Hu",
-    "Shen",
-    "Wallis",
-    "Allen-Zhu",
     "Li",
-    "Wang",
-    "Fleet",
-    "Norouzi",
-    "Wang",
-    "Chen"
+    "Wu",
+    "Duan",
+    "Zhao",
+    "Ren",
+    "Liu",
+    "Leng",
+    "Tang",
+    "Ye",
+    "Zhu"
    ],
-   "year": 2010,
+   "year": 2023,
    "doi": null,
-   "arxiv": "1211.1768",
-   "urls": [
-    "recognition"
-   ],
-   "container": "SSIM. In 2010 20th international conference on pattern interpolation",
-   "type": "paper-conference",
+   "arxiv": null,
+   "urls": [],
+   "container": "Reviews of Geophysics",
+   "type": "article-journal",
    "parser": "anystyle-find",
    "verdict": "VERIFIED",
-   "via": "arxiv_id",
+   "via": "crossref",
    "match": {
-    "source": "arxiv",
-    "arxiv": "1211.1768",
-    "title": "Nearest Neighbor Value Interpolation",
-    "year": 2012,
-    "first_author": "Olivier Rukundo"
+    "source": "crossref",
+    "doi": "10.1029/2022rg000777",
+    "title": "Satellite Remote Sensing of Global Land Surface Temperature: Definition, Methods, Products, and Applications",
+    "year": 2023,
+    "first_author": "Li",
+    "container": "Reviews of Geophysics",
+    "type": "journal-article",
+    "score": 51.423885
    },
    "metrics": {
-    "title_sim": 38.70967741935484,
+    "title_sim": 100.0,
     "containment": 1.0,
-    "partial_ratio": 72.22222222222221,
-    "year_ok": false,
-    "first_author_ok": true,
-    "rule": "id+raw_containment"
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
    },
    "evidence": []
   },
   {
    "junk": false,
    "idx": 20,
-   "raw": "Sastry, S.; Khanal, S.; Dhakal, A.; and Jacobs, N. 2024.        Zhu, X. X.; Tuia, D.; Mou, L.; Xia, G.-S.; Zhang, L.; Xu, GeoSynth: Contextually-Aware High-Resolution Satellite          F.; and Fraundorfer, F. 2017. Deep learning in remote sens-Image Synthesis. In Proceedings of the IEEE/CVF Confer-         ing: A comprehensive review and list of resources. IEEE ence on Computer Vision and Pattern Recognition, 460\u2013470.       geoscience and remote sensing magazine, 5(4): 8\u201336.",
-   "title": "Deep learning in remote sens-Image Synthesis",
+   "raw": "Liu, G.; Reda, F. A.; Shih, K. J.; Wang, T.-C.; Tao, A.; and Catanzaro, B. 2018. Image inpainting for irregular holes using partial convolutions. In Proceedings of the European conference on computer vision (ECCV), 85\u2013100.",
+   "title": "Image inpainting for irregular holes using partial convolutions",
    "authors": [
-    "Sastry",
-    "Khanal",
-    "Dhakal",
-    "Jacobs",
-    "Zhu",
-    "Tuia",
-    "Mou",
-    "Xia",
-    "Zhang",
-    "Xu",
-    "F.",
-    "Fraundorfer"
+    "Liu",
+    "Reda",
+    "Shih",
+    "Wang",
+    "Tao",
+    "Catanzaro"
    ],
-   "year": 2024,
+   "year": 2018,
    "doi": null,
    "arxiv": null,
    "urls": [],
-   "container": "Proceedings of the IEEE/CVF Confer- ing: A comprehensive review and list of resources. IEEE ence on Computer Vision and Pattern Recognition",
+   "container": "Proceedings of the European conference on computer vision (ECCV",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/978-3-030-01252-6_6",
+    "title": "Image Inpainting for Irregular Holes Using Partial Convolutions",
+    "year": 2018,
+    "first_author": "Liu",
+    "container": "Lecture Notes in Computer Science",
+    "type": "book-chapter",
+    "score": 50.601994
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 21,
+   "raw": "McKinley, S.; and Levine, M. 1998. Cubic spline interpolation. College of the Redwoods, 45(1): 1049\u20131060.",
+   "title": "Cubic spline interpolation",
+   "authors": [
+    "McKinley",
+    "Levine"
+   ],
+   "year": 1998,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "College of the Redwoods",
    "type": "article-journal",
    "parser": "anystyle-find",
    "verdict": "UNVERIFIED",
@@ -877,18 +924,18 @@
      "step": "crossref_best_reject",
      "rec": {
       "source": "crossref",
-      "doi": "10.1007/978-3-031-02256-2_4",
-      "title": "Deep Learning-Based Image Fusion Approaches in Remote Sensing",
-      "year": 2021,
-      "first_author": "Azarang",
-      "container": "Synthesis Lectures on Image, Video, and Multimedia Processing",
-      "type": "book-chapter",
-      "score": 31.987152
+      "doi": "10.2172/6783354",
+      "title": "Flexible cubic spline interpolation",
+      "year": 1972,
+      "first_author": "Abu-Shumays",
+      "container": "",
+      "type": "report",
+      "score": 37.19123
      },
      "metrics": {
-      "title_sim": 79.45205479452055,
-      "containment": 0.625,
-      "partial_ratio": 63.934426229508205,
+      "title_sim": 100.0,
+      "containment": 0.75,
+      "partial_ratio": 80.0,
       "year_ok": false,
       "first_author_ok": false
      }
@@ -898,18 +945,199 @@
   },
   {
    "junk": false,
-   "idx": 21,
-   "raw": "Song, C.; Lin, Y.; Guo, S.; and Wan, H. 2020. Spatialtemporal synchronous graph convolutional networks: A new                     Reproducibility Checklist framework for spatial-temporal network data forecasting.",
-   "title": "Spatialtemporal synchronous graph convolutional networks: A new Reproducibility Checklist framework for spatial-temporal network data forecasting",
+   "idx": 22,
+   "raw": "Oliver, M. A.; and Webster, R. 1990. Kriging: a method of interpolation for geographical information systems. International Journal of Geographical Information System, 4(3): 313\u2013332.",
+   "title": "Kriging: a method of interpolation for geographical information systems",
    "authors": [
-    "Song",
-    "Lin",
-    "Guo",
-    "Wan"
+    "Oliver",
+    "Webster"
    ],
-   "year": 2020,
+   "year": 1990,
    "doi": null,
    "arxiv": null,
+   "urls": [],
+   "container": "International Journal of Geographical Information System",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1080/02693799008941549",
+    "title": "Kriging: a method of interpolation for geographical information systems",
+    "year": 1990,
+    "first_author": "OLIVER",
+    "container": "International journal of geographical information systems",
+    "type": "journal-article",
+    "score": 60.74384
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 23,
+   "raw": "Requena-Mesa, C.; Benson, V.; Reichstein, M.; Runge, J.; and Denzler, J. 2021. EarthNet2021: A large-scale dataset and challenge for Earth surface forecasting as a guided video prediction task. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 1132\u20131142.",
+   "title": "EarthNet2021: A large-scale dataset and challenge for Earth surface forecasting as a guided video prediction task",
+   "authors": [
+    "Requena-Mesa",
+    "Benson",
+    "Reichstein",
+    "Runge",
+    "Denzler"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/cvprw53098.2021.00124",
+    "title": "EarthNet2021: A large-scale dataset and challenge for Earth surface forecasting as a guided video prediction task",
+    "year": 2021,
+    "first_author": "Requena-Mesa",
+    "container": "2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)",
+    "type": "proceedings-article",
+    "score": 93.549446
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 24,
+   "raw": "Rifai, S.; Vincent, P.; Muller, X.; Glorot, X.; and Bengio, Y. 2011. Contractive auto-encoders: Explicit invariance during feature extraction. In Proceedings of the 28th international conference on international conference on machine learning, 833\u2013840.",
+   "title": "Contractive auto-encoders: Explicit invariance during feature extraction",
+   "authors": [
+    "Rifai",
+    "Vincent",
+    "Muller",
+    "Glorot",
+    "Bengio"
+   ],
+   "year": 2011,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 28th international conference on international conference on machine learning",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/icecce52056.2021.9514202",
+      "title": "Class Aware Auto Encoders for Better Feature Extraction",
+      "year": 2021,
+      "first_author": "Islam",
+      "container": "2021 International Conference on Electrical, Communication, and Computer Engineering (ICECCE)",
+      "type": "proceedings-article",
+      "score": 34.791832
+     },
+     "metrics": {
+      "title_sim": 73.5632183908046,
+      "containment": 0.571,
+      "partial_ratio": 60.0,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "195d0a8233a7a46329c742eaff56c276f847fadc",
+    "title": "Contractive Auto-Encoders: Explicit Invariance During Feature Extraction",
+    "year": 2011,
+    "first_author": "Salah Rifai",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "DBLP": "conf/icml/RifaiVMGB11",
+     "MAG": "2218318129",
+     "CorpusId": 8141422
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 25,
+   "raw": "Rombach, R.; Blattmann, A.; Lorenz, D.; Esser, P.; and Ommer, B. 2022. High-resolution image synthesis with latent diffusion models. In Proceedings of the IEEE/CVF conference on computer vision and pattern recognition, 10684\u201310695.",
+   "title": "High-resolution image synthesis with latent diffusion models",
+   "authors": [
+    "Rombach",
+    "Blattmann",
+    "Lorenz",
+    "Esser",
+    "Ommer"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/cvpr52688.2022.01042",
+    "title": "High-Resolution Image Synthesis with Latent Diffusion Models",
+    "year": 2022,
+    "first_author": "Rombach",
+    "container": "2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "type": "proceedings-article",
+    "score": 55.742275
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 26,
+   "raw": "Rukundo, O.; and Cao, H. 2012. Nearest neighbor value interpolation. arXiv preprint arXiv:1211.1768.",
+   "title": "Nearest neighbor value interpolation",
+   "authors": [
+    "Rukundo",
+    "Cao"
+   ],
+   "year": 2012,
+   "doi": null,
+   "arxiv": "1211.1768",
    "urls": [],
    "container": null,
    "type": null,
@@ -918,18 +1146,66 @@
    "via": "crossref",
    "match": {
     "source": "crossref",
-    "doi": "10.1609/aaai.v34i01.5438",
-    "title": "Spatial-Temporal Synchronous Graph Convolutional Networks: A New Framework for Spatial-Temporal Network Data Forecasting",
-    "year": 2020,
-    "first_author": "Song",
-    "container": "Proceedings of the AAAI Conference on Artificial Intelligence",
+    "doi": "10.14569/ijacsa.2012.030405",
+    "title": "Nearest Neighbor Value Interpolation",
+    "year": 2012,
+    "first_author": "Olivier",
+    "container": "International Journal of Advanced Computer Science and Applications",
     "type": "journal-article",
-    "score": 70.79362
+    "score": 40.169544
    },
    "metrics": {
     "title_sim": 100.0,
     "containment": 1.0,
-    "partial_ratio": 78.15126050420169,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "1211.1768"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 27,
+   "raw": "Saharia, C.; Chan, W.; Chang, H.; Lee, C.; Ho, J.; Salimans, T.; Fleet, D.; and Norouzi, M. 2022. Palette: Image-to-image diffusion models. In ACM SIGGRAPH 2022 conference proceedings, 1\u201310.",
+   "title": "Palette: Image-to-image diffusion models",
+   "authors": [
+    "Saharia",
+    "Chan",
+    "Chang",
+    "Lee",
+    "Ho",
+    "Salimans",
+    "Fleet",
+    "Norouzi"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "ACM SIGGRAPH 2022 conference proceedings",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3528233.3530757",
+    "title": "Palette: Image-to-Image Diffusion Models",
+    "year": 2022,
+    "first_author": "Saharia",
+    "container": "Special Interest Group on Computer Graphics and Interactive Techniques Conference Proceedings",
+    "type": "proceedings-article",
+    "score": 50.740208
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
     "year_ok": true,
     "first_author_ok": true
    },
@@ -937,12 +1213,53 @@
   },
   {
    "junk": false,
-   "idx": 22,
-   "raw": "In Proceedings of the AAAI conference on artificial intelligence, volume 34, 914\u2013921.                                    Instructions for Authors: Song, Y.; and Ermon, S. 2020. Improved techniques for              This document outlines key aspects for assessing reprotraining score-based generative models. Advances in neu-        ducibility. Please provide your input by editing this .tex ral information processing systems, 33: 12438\u201312448.            file directly.",
-   "title": "Instructions for Authors",
+   "idx": 28,
+   "raw": "Sastry, S.; Khanal, S.; Dhakal, A.; and Jacobs, N. 2024. GeoSynth: Contextually-Aware High-Resolution Satellite Image Synthesis. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 460\u2013470.",
+   "title": "GeoSynth: Contextually-Aware High-Resolution Satellite Image Synthesis",
+   "authors": [
+    "Sastry",
+    "Khanal",
+    "Dhakal",
+    "Jacobs"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/cvprw63382.2024.00051",
+    "title": "GeoSynth: Contextually-Aware High-Resolution Satellite Image Synthesis",
+    "year": 2024,
+    "first_author": "Sastry",
+    "container": "2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)",
+    "type": "proceedings-article",
+    "score": 73.77536
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 29,
+   "raw": "Song, C.; Lin, Y.; Guo, S.; and Wan, H. 2020. Spatialtemporal synchronous graph convolutional networks: A new framework for spatial-temporal network data forecasting. In Proceedings of the AAAI conference on artificial intelligence, volume 34, 914\u2013921.",
+   "title": "Spatialtemporal synchronous graph convolutional networks: A new framework for spatial-temporal network data forecasting",
    "authors": [
     "Song",
-    "Ermon"
+    "Lin",
+    "Guo",
+    "Wan"
    ],
    "year": 2020,
    "doi": null,
@@ -955,28 +1272,92 @@
    "via": "crossref",
    "match": {
     "source": "crossref",
-    "doi": "10.14714/cp96.1699",
-    "title": "Instructions to Authors",
+    "doi": "10.1609/aaai.v34i01.5438",
+    "title": "Spatial-Temporal Synchronous Graph Convolutional Networks: A New Framework for Spatial-Temporal Network Data Forecasting",
     "year": 2020,
-    "first_author": "Instructions",
-    "container": "Cartographic Perspectives",
+    "first_author": "Song",
+    "container": "Proceedings of the AAAI Conference on Artificial Intelligence",
     "type": "journal-article",
-    "score": 28.093552
+    "score": 70.795
    },
    "metrics": {
-    "title_sim": 93.61702127659575,
+    "title_sim": 100.0,
     "containment": 1.0,
-    "partial_ratio": 91.30434782608697,
+    "partial_ratio": 99.15966386554622,
     "year_ok": true,
-    "first_author_ok": false
+    "first_author_ok": true
    },
    "evidence": []
   },
   {
    "junk": false,
-   "idx": 23,
-   "raw": "Sun, M.; Lan, L.; Zhu, C.-G.; and Lei, F. 2023. Cubic spline       For each question (that applies), replace the \u201cType your interpolation with optimal end conditions. Journal of Com-      response here\u201d text with your answer. putational and Applied Mathematics, 425: 115039.",
-   "title": "Cubic spline For each question (that applies), replace the \u201cType your interpolation with optimal end conditions",
+   "idx": 30,
+   "raw": "Song, Y.; and Ermon, S. 2020. Improved techniques for training score-based generative models. Advances in neural information processing systems, 33: 12438\u201312448.",
+   "title": "Improved techniques for training score-based generative models",
+   "authors": [
+    "Song",
+    "Ermon"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in neural information processing systems",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/978-3-031-64087-2_9",
+      "title": "Score-Based Generative Models",
+      "year": 2024,
+      "first_author": "Tomczak",
+      "container": "Deep Generative Modeling",
+      "type": "book-chapter",
+      "score": 31.466406
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 1.0,
+      "partial_ratio": 100.0,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "1156e277fa7ec195b043161d3c5c97715da17658",
+    "title": "Improved Techniques for Training Score-Based Generative Models",
+    "year": 2020,
+    "first_author": "Yang Song",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "DBLP": "conf/nips/0011E20",
+     "MAG": "3035384201",
+     "ArXiv": "2006.09011",
+     "CorpusId": 219708245
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 31,
+   "raw": "Sun, M.; Lan, L.; Zhu, C.-G.; and Lei, F. 2023. Cubic spline interpolation with optimal end conditions. Journal of Computational and Applied Mathematics, 425: 115039.",
+   "title": "Cubic spline interpolation with optimal end conditions",
    "authors": [
     "Sun",
     "Lan",
@@ -987,88 +1368,91 @@
    "doi": null,
    "arxiv": null,
    "urls": [],
-   "container": "Journal of Com- response here\u201d text with your answer. putational and Applied Mathematics",
+   "container": "Journal of Computational and Applied Mathematics",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
-   "evidence": [
-    {
-     "step": "crossref_best_reject",
-     "rec": {
-      "source": "crossref",
-      "doi": "10.1016/0096-3003(89)90015-5",
-      "title": "End conditions for cubic spline interpolation derived from integration",
-      "year": 1989,
-      "first_author": "Behforooz",
-      "container": "Applied Mathematics and Computation",
-      "type": "journal-article",
-      "score": 40.641037
-     },
-     "metrics": {
-      "title_sim": 78.26086956521739,
-      "containment": 0.714,
-      "partial_ratio": 52.85714285714286,
-      "year_ok": false,
-      "first_author_ok": false
-     }
-    }
-   ],
-   "likely_match": null
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.cam.2022.115039",
+    "title": "Cubic spline interpolation with optimal end conditions",
+    "year": 2023,
+    "first_author": "Sun",
+    "container": "Journal of Computational and Applied Mathematics",
+    "type": "journal-article",
+    "score": 51.715378
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
   },
   {
    "junk": false,
-   "idx": 24,
-   "raw": "Suvorov, R.; Logacheva, E.; Mashikhin, A.; Remizova, A.;        Example: If a question appears as Ashukha, A.; Silvestrov, A.; Kong, N.; Goka, H.; Park, K.;         \\question{Proofs of all novel claims and Lempitsky, V. 2022. Resolution-robust large mask in-           are included} {(yes/partial/no)} painting with fourier convolutions. In Proceedings of the          Type your response here IEEE/CVF winter conference on applications of computer          you would change it to: vision, 2149\u20132159.                                                 \\question{Proofs of all novel claims Wang, Z.; Bovik, A. C.; Sheikh, H. R.; and Simoncelli, E. P.       are included} {(yes/partial/no)}",
-   "title": "Resolution-robust large mask in- are included} {(yes/partial/no)} painting with fourier convolutions",
+   "idx": 32,
+   "raw": "Suvorov, R.; Logacheva, E.; Mashikhin, A.; Remizova, A.; Ashukha, A.; Silvestrov, A.; Kong, N.; Goka, H.; Park, K.; and Lempitsky, V. 2022. Resolution-robust large mask inpainting with fourier convolutions. In Proceedings of the IEEE/CVF winter conference on applications of computer vision, 2149\u20132159.",
+   "title": "Resolution-robust large mask inpainting with fourier convolutions",
    "authors": [
-    "Suvorov, R.; Logacheva, E.; Mashikhin, A.; Remizova, A.; Example: If a question appears as Ashukha, A.; Silvestrov, A.; Kong, N.; Goka, H.; Park, K.; \\question{Proofs of all novel claims and Lempitsky, V."
+    "Suvorov",
+    "Logacheva",
+    "Mashikhin",
+    "Remizova",
+    "Ashukha",
+    "Silvestrov",
+    "Kong",
+    "Goka",
+    "Park",
+    "Lempitsky"
    ],
    "year": 2022,
    "doi": null,
    "arxiv": null,
    "urls": [],
-   "container": "Proceedings of the Type your response here IEEE/CVF winter conference on applications of computer you would change it to: vision",
+   "container": "Proceedings of the IEEE/CVF winter conference on applications of computer vision",
    "type": "paper-conference",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
-   "evidence": [
-    {
-     "step": "crossref_best_reject",
-     "rec": {
-      "source": "crossref",
-      "doi": "10.1109/wacv51458.2022.00323",
-      "title": "Resolution-robust Large Mask Inpainting with Fourier Convolutions",
-      "year": 2022,
-      "first_author": "Suvorov",
-      "container": "2022 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)",
-      "type": "proceedings-article",
-      "score": 148.46884
-     },
-     "metrics": {
-      "title_sim": 90.75630252100841,
-      "containment": 0.857,
-      "partial_ratio": 70.76923076923076,
-      "year_ok": true,
-      "first_author_ok": false
-     }
-    }
-   ],
-   "likely_match": null
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/wacv51458.2022.00323",
+    "title": "Resolution-robust Large Mask Inpainting with Fourier Convolutions",
+    "year": 2022,
+    "first_author": "Suvorov",
+    "container": "2022 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)",
+    "type": "proceedings-article",
+    "score": 63.200104
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
   },
   {
    "junk": false,
-   "idx": 25,
-   "raw": "2004. Image quality assessment: from error visibility to           yes structural similarity. IEEE transactions on image process-      Please make sure to: ing, 13(4): 600\u2013612. \u2022 Replace ONLY the \u201cType your response here\u201d text and Willmott, C. J.; and Matsuura, K. 2005. Advantages of the           nothing else. mean absolute error (MAE) over the root mean square error (RMSE) in assessing average model performance. Climate            \u2022 Use one of the options listed for that question (e.g., yes, research, 30(1): 79\u201382.                                             no, partial, or NA).",
-   "title": "Image quality assessment: from error visibility to yes structural similarity",
+   "idx": 33,
+   "raw": "Wang, Z.; Bovik, A. C.; Sheikh, H. R.; and Simoncelli, E. P. 2004. Image quality assessment: from error visibility to structural similarity. IEEE transactions on image processing, 13(4): 600\u2013612.",
+   "title": "Image quality assessment: from error visibility to structural similarity",
    "authors": [
-    "J.",
-    "Matsuura"
+    "Wang",
+    "Bovik",
+    "Sheikh",
+    "Simoncelli"
    ],
    "year": 2004,
    "doi": null,
    "arxiv": null,
    "urls": [],
-   "container": "IEEE transactions on image process- Please make sure to: ing",
+   "container": "IEEE transactions on image processing",
    "type": "article-journal",
    "parser": "anystyle-find",
    "verdict": "VERIFIED",
@@ -1081,67 +1465,101 @@
     "first_author": "Zhou Wang",
     "container": "IEEE Transactions on Image Processing",
     "type": "journal-article",
-    "score": 51.81208
+    "score": 55.06711
    },
    "metrics": {
     "title_sim": 100.0,
     "containment": 1.0,
-    "partial_ratio": 94.36619718309859,
+    "partial_ratio": 100.0,
     "year_ok": true,
-    "first_author_ok": false
+    "first_author_ok": true
    },
    "evidence": []
   },
   {
    "junk": false,
-   "idx": 26,
-   "raw": "Xie, K.; Ning, X.; Wang, X.; Xie, D.; Cao, J.; Xie, G.; and       \u2022 Not modify any other part of the \\question com-Wen, J. 2016. Recover corrupted data in sensor networks: A          mand or any other lines in this document. matrix completion solution. IEEE Transactions on Mobile Computing, 16(5): 1434\u20131448.",
-   "title": "Not modify any other part of the \\question com-Wen",
+   "idx": 34,
+   "raw": "Willmott, C. J.; and Matsuura, K. 2005. Advantages of the mean absolute error (MAE) over the root mean square error (RMSE) in assessing average model performance. Climate research, 30(1): 79\u201382.",
+   "title": "Advantages of the mean absolute error (MAE) over the root mean square error (RMSE) in assessing average model performance",
+   "authors": [
+    "Willmott",
+    "Matsuura"
+   ],
+   "year": 2005,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Climate research",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.3354/cr030079",
+    "title": "Advantages of the mean absolute error (MAE) over the root mean square error (RMSE) in assessing average model performance",
+    "year": 2005,
+    "first_author": "Willmott",
+    "container": "Climate Research",
+    "type": "journal-article",
+    "score": 132.3047
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 35,
+   "raw": "Xie, K.; Ning, X.; Wang, X.; Xie, D.; Cao, J.; Xie, G.; and Wen, J. 2016. Recover corrupted data in sensor networks: A matrix completion solution. IEEE Transactions on Mobile Computing, 16(5): 1434\u20131448.",
+   "title": "Recover corrupted data in sensor networks: A matrix completion solution",
    "authors": [
     "Xie",
     "Ning",
     "Wang",
     "Xie",
     "Cao",
-    "Xie"
+    "Xie",
+    "Wen"
    ],
    "year": 2016,
    "doi": null,
    "arxiv": null,
    "urls": [],
-   "container": "J",
+   "container": "IEEE Transactions on Mobile Computing",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
-   "evidence": [
-    {
-     "step": "crossref_best_reject",
-     "rec": {
-      "source": "crossref",
-      "doi": "10.4324/9781843142133-68",
-      "title": "The value of any counterclaim or other Part 20 claim",
-      "year": 2001,
-      "first_author": null,
-      "container": "Civil Procedure",
-      "type": "book-chapter",
-      "score": 23.922161
-     },
-     "metrics": {
-      "title_sim": 65.34653465346534,
-      "containment": 0.5,
-      "partial_ratio": 50.0,
-      "year_ok": false,
-      "first_author_ok": null
-     }
-    }
-   ],
-   "likely_match": null
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/tmc.2016.2595569",
+    "title": "Recover Corrupted Data in Sensor Networks: A Matrix Completion Solution",
+    "year": 2017,
+    "first_author": "Xie",
+    "container": "IEEE Transactions on Mobile Computing",
+    "type": "journal-article",
+    "score": 60.860077
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
   },
   {
    "junk": false,
-   "idx": 27,
-   "raw": "Xing, Y.; Song, Q.; and Cheng, G. 2022. Benefit of inter-          You can \\input this .tex file right before polation in nearest neighbor algorithms. SIAM Journal on        \\end{document} of your main file or compile it as Mathematics of Data Science, 4(2): 935\u2013956.                     a stand-alone document. Check the instructions on your conference\u2019s website to see if you will be asked to provide Yan, F.; Zhao, S.; Venegas-Andraca, S. E.; and Hirota, K. this checklist with your paper or separately.",
-   "title": "Benefit of inter- You can \\input this .tex file right before polation in nearest neighbor algorithms",
+   "idx": 36,
+   "raw": "Xing, Y.; Song, Q.; and Cheng, G. 2022. Benefit of interpolation in nearest neighbor algorithms. SIAM Journal on Mathematics of Data Science, 4(2): 935\u2013956.",
+   "title": "Benefit of interpolation in nearest neighbor algorithms",
    "authors": [
     "Xing",
     "Song",
@@ -1151,33 +1569,12 @@
    "doi": null,
    "arxiv": null,
    "urls": [],
-   "container": "SIAM Journal on",
+   "container": "SIAM Journal on Mathematics of Data Science",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
-   "evidence": [
-    {
-     "step": "crossref_best_reject",
-     "rec": {
-      "source": "crossref",
-      "doi": "10.1137/21m1437457",
-      "title": "Benefit of Interpolation in Nearest Neighbor Algorithms",
-      "year": 2022,
-      "first_author": "Xing",
-      "container": "SIAM Journal on Mathematics of Data Science",
-      "type": "journal-article",
-      "score": 42.058334
-     },
-     "metrics": {
-      "title_sim": 72.36842105263158,
-      "containment": 0.8,
-      "partial_ratio": 81.81818181818181,
-      "year_ok": true,
-      "first_author_ok": true
-     }
-    }
-   ],
-   "likely_match": {
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
     "source": "crossref",
     "doi": "10.1137/21m1437457",
     "title": "Benefit of Interpolation in Nearest Neighbor Algorithms",
@@ -1185,15 +1582,28 @@
     "first_author": "Xing",
     "container": "SIAM Journal on Mathematics of Data Science",
     "type": "journal-article",
-    "score": 42.058334
-   }
+    "score": 50.23169
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
   },
   {
    "junk": false,
-   "idx": 28,
-   "raw": "2021. Implementing bilinear interpolation with quantum images. Digital Signal Processing, 117: 103149.",
+   "idx": 37,
+   "raw": "Yan, F.; Zhao, S.; Venegas-Andraca, S. E.; and Hirota, K. 2021. Implementing bilinear interpolation with quantum images. Digital Signal Processing, 117: 103149.",
    "title": "Implementing bilinear interpolation with quantum images",
-   "authors": [],
+   "authors": [
+    "Yan",
+    "Zhao",
+    "Venegas-Andraca",
+    "Hirota"
+   ],
    "year": 2021,
    "doi": null,
    "arxiv": null,
@@ -1211,22 +1621,22 @@
     "first_author": "Yan",
     "container": "Digital Signal Processing",
     "type": "journal-article",
-    "score": 44.03218
+    "score": 49.991592
    },
    "metrics": {
     "title_sim": 100.0,
     "containment": 1.0,
     "partial_ratio": 100.0,
     "year_ok": true,
-    "first_author_ok": false
+    "first_author_ok": true
    },
    "evidence": []
   },
   {
    "junk": false,
-   "idx": 29,
-   "raw": "Yu, J.; Lin, Z.; Yang, J.; Shen, X.; Lu, X.; and Huang, T. S. 1. General Paper Structure 2018. Generative image inpainting with contextual attention. In Proceedings of the IEEE conference on computer         1.1. Includes a conceptual outline and/or pseudocode devision and pattern recognition, 5505\u20135514.                           scription of AI methods introduced (yes/partial/no/NA)",
-   "title": "1",
+   "idx": 38,
+   "raw": "Yu, J.; Lin, Z.; Yang, J.; Shen, X.; Lu, X.; and Huang, T. S. 2018. Generative image inpainting with contextual attention. In Proceedings of the IEEE conference on computer vision and pattern recognition, 5505\u20135514.",
+   "title": "Generative image inpainting with contextual attention",
    "authors": [
     "Yu",
     "Lin",
@@ -1239,50 +1649,43 @@
    "doi": null,
    "arxiv": null,
    "urls": [],
-   "container": "Proceedings of the IEEE conference on computer 1.1. Includes a conceptual outline and/or pseudocode devision and pattern recognition",
-   "type": "article-journal",
+   "container": "Proceedings of the IEEE conference on computer vision and pattern recognition",
+   "type": "paper-conference",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
-   "evidence": [
-    {
-     "step": "crossref_best_reject",
-     "rec": {
-      "source": "crossref",
-      "doi": "10.5194/acp-2018-832-rc1",
-      "title": "Review of Yu et al. (2018)",
-      "year": 2018,
-      "first_author": null,
-      "container": "",
-      "type": "peer-review",
-      "score": 12.947262
-     },
-     "metrics": {
-      "title_sim": 8.333333333333337,
-      "containment": 0.5,
-      "partial_ratio": 47.82608695652174,
-      "year_ok": true,
-      "first_author_ok": null
-     }
-    }
-   ],
-   "likely_match": null
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/cvpr.2018.00577",
+    "title": "Generative Image Inpainting with Contextual Attention",
+    "year": 2018,
+    "first_author": "Yu",
+    "container": "2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "type": "proceedings-article",
+    "score": 48.062042
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
   },
   {
    "junk": false,
-   "idx": 30,
-   "raw": "Zhang, J. 2010. Multi-source remote sensing data fusion:             yes status and trends. International Journal of Image and Data Fusion, 1(1): 5\u201324.                                             1.2. Clearly delineates statements that are opinions, hypoth-Zhang, L.; Rao, A.; and Agrawala, M. 2023. Adding condi-             esis, and speculation from objective facts and results tional control to text-to-image diffusion models. In Proceed-        (yes/no) yes ings of the IEEE/CVF International Conference on Com-1.3. Provides well-marked pedagogical references for lessputer Vision, 3836\u20133847. familiar readers to gain background necessary to repli-Zhang, R.; Isola, P.; Efros, A. A.; Shechtman, E.; and Wang,         cate the paper (yes/no) yes O. 2018. The unreasonable effectiveness of deep features as a perceptual metric. In Proceedings of the IEEE conference      2. Theoretical Contributions on computer vision and pattern recognition, 586\u2013595.",
-   "title": "Multi-source remote sensing data fusion: yes status and trends",
+   "idx": 39,
+   "raw": "Zhang, J. 2010. Multi-source remote sensing data fusion: status and trends. International Journal of Image and Data Fusion, 1(1): 5\u201324.",
+   "title": "Multi-source remote sensing data fusion: status and trends",
    "authors": [
-    "Zhang",
-    "hypoth-Zhang",
-    "Rao",
-    "Agrawala"
+    "Zhang"
    ],
    "year": 2010,
    "doi": null,
    "arxiv": null,
    "urls": [],
-   "container": "Proceed- (yes/no) yes ings of the IEEE/CVF International Conference on Com-1.3. Provides well-marked pedagogical references for lessputer Vision",
+   "container": "International Journal of Image and Data Fusion",
    "type": "article-journal",
    "parser": "anystyle-find",
    "verdict": "VERIFIED",
@@ -1295,12 +1698,12 @@
     "first_author": "Zhang",
     "container": "International Journal of Image and Data Fusion",
     "type": "journal-article",
-    "score": 57.01073
+    "score": 57.010452
    },
    "metrics": {
     "title_sim": 100.0,
     "containment": 1.0,
-    "partial_ratio": 92.98245614035088,
+    "partial_ratio": 100.0,
     "year_ok": true,
     "first_author_ok": true
    },
@@ -1308,9 +1711,87 @@
   },
   {
    "junk": false,
-   "idx": 31,
-   "raw": "Zhang, W.; Wang, Y.; Ni, B.; and Yang, X. 2023. Fully           2.1. Does this paper make theoretical contributions? context-aware image inpainting with a learned semantic               (yes/no) no pyramid. Pattern Recognition, 143: 109741.                       If yes, please address the following points:",
-   "title": "Fully 2.1. Does this paper make theoretical contributions? context-aware image inpainting with a learned semantic (yes/no) no pyramid",
+   "idx": 40,
+   "raw": "Zhang, L.; Rao, A.; and Agrawala, M. 2023. Adding conditional control to text-to-image diffusion models. In Proceedings of the IEEE/CVF International Conference on Computer Vision, 3836\u20133847.",
+   "title": "Adding conditional control to text-to-image diffusion models",
+   "authors": [
+    "Zhang",
+    "Rao",
+    "Agrawala"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/iccv51070.2023.00355",
+    "title": "Adding Conditional Control to Text-to-Image Diffusion Models",
+    "year": 2023,
+    "first_author": "Zhang",
+    "container": "2023 IEEE/CVF International Conference on Computer Vision (ICCV)",
+    "type": "proceedings-article",
+    "score": 55.141563
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 41,
+   "raw": "Zhang, R.; Isola, P.; Efros, A. A.; Shechtman, E.; and Wang, O. 2018. The unreasonable effectiveness of deep features as a perceptual metric. In Proceedings of the IEEE conference on computer vision and pattern recognition, 586\u2013595.",
+   "title": "The unreasonable effectiveness of deep features as a perceptual metric",
+   "authors": [
+    "Zhang",
+    "Isola",
+    "Efros",
+    "Shechtman",
+    "Wang"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the IEEE conference on computer vision and pattern recognition",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/cvpr.2018.00068",
+    "title": "The Unreasonable Effectiveness of Deep Features as a Perceptual Metric",
+    "year": 2018,
+    "first_author": "Zhang",
+    "container": "2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "type": "proceedings-article",
+    "score": 52.131123
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 42,
+   "raw": "Zhang, W.; Wang, Y.; Ni, B.; and Yang, X. 2023. Fully context-aware image inpainting with a learned semantic pyramid. Pattern Recognition, 143: 109741.",
+   "title": "Fully context-aware image inpainting with a learned semantic pyramid",
    "authors": [
     "Zhang",
     "Wang",
@@ -1324,30 +1805,70 @@
    "container": "Pattern Recognition",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
-   "evidence": [
-    {
-     "step": "crossref_best_reject",
-     "rec": {
-      "source": "crossref",
-      "doi": "10.1016/j.patcog.2023.109741",
-      "title": "Fully context-aware image inpainting with a learned semantic pyramid",
-      "year": 2023,
-      "first_author": "Zhang",
-      "container": "Pattern Recognition",
-      "type": "journal-article",
-      "score": 71.88999
-     },
-     "metrics": {
-      "title_sim": 69.03553299492387,
-      "containment": 1.0,
-      "partial_ratio": 85.29411764705883,
-      "year_ok": true,
-      "first_author_ok": true
-     }
-    }
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.patcog.2023.109741",
+    "title": "Fully context-aware image inpainting with a learned semantic pyramid",
+    "year": 2023,
+    "first_author": "Zhang",
+    "container": "Pattern Recognition",
+    "type": "journal-article",
+    "score": 71.8917
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 43,
+   "raw": "Zhu, X. X.; Tuia, D.; Mou, L.; Xia, G.-S.; Zhang, L.; Xu, F.; and Fraundorfer, F. 2017. Deep learning in remote sensing: A comprehensive review and list of resources. IEEE geoscience and remote sensing magazine, 5(4): 8\u201336.",
+   "title": "Deep learning in remote sensing: A comprehensive review and list of resources",
+   "authors": [
+    "Zhu",
+    "Tuia",
+    "Mou",
+    "Xia",
+    "Zhang",
+    "Xu",
+    "Fraundorfer"
    ],
-   "likely_match": null
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE geoscience and remote sensing magazine",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/mgrs.2017.2762307",
+    "title": "Deep Learning in Remote Sensing: A Comprehensive Review and List of Resources",
+    "year": 2017,
+    "first_author": "Zhu",
+    "container": "IEEE Geoscience and Remote Sensing Magazine",
+    "type": "journal-article",
+    "score": 47.106056
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

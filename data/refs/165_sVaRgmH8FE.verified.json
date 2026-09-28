@@ -1,0 +1,658 @@
+{
+ "pdf": "165_sVaRgmH8FE.pdf",
+ "n_entries": 13,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": false,
+ "parser_version": 2,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "Runjin Chen, Andy Arditi, Henry Sleight, Owain Evans, and Jack Lindsey. Persona vectors: Monitoring and controlling character traits in language models, 2025. URL https://arxiv.org/abs/ 2507.21509. Ameet Deshpande, Vishvak Murahari, Tanmay Rajpurohit, Ashwin Kalyan, and Karthik Narasimhan. Toxicity in ChatGPT: Analyzing persona-assigned language models. In Findings of the Association for Computational Linguistics: EMNLP 2023, pages 1235\u20131270, 2023.",
+   "title": "Persona vectors: Monitoring and controlling character traits in language models",
+   "authors": [
+    "Chen",
+    "Arditi",
+    "Sleight",
+    "Evans",
+    "Lindsey",
+    "Deshpande",
+    "Murahari",
+    "Rajpurohit",
+    "Kalyan",
+    "Narasimhan"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://arxiv.org/abs/"
+   ],
+   "container": "Findings of the Association for Computational Linguistics: EMNLP 2023",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/cars67163.2025.11337402",
+      "title": "Persona Vectors in Controlling Hallucination of Small Large Language Models: A Safety-Oriented Analysis",
+      "year": 2025,
+      "first_author": "Kose",
+      "container": "2025 Cyber Awareness and Research Symposium (CARS)",
+      "type": "proceedings-article",
+      "score": 41.225193
+     },
+     "metrics": {
+      "title_sim": 74.19354838709677,
+      "containment": 0.455,
+      "partial_ratio": 59.80392156862745,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "2df2c5f11c1cf8eb012fcf65c7092eed3d22c7a4",
+    "title": "Persona Vectors: Monitoring and Controlling Character Traits in Language Models",
+    "year": 2025,
+    "first_author": "Runjin Chen",
+    "container": "arXiv.org",
+    "ext": {
+     "ArXiv": "2507.21509",
+     "DBLP": "journals/corr/abs-2507-21509",
+     "DOI": "10.48550/arXiv.2507.21509",
+     "CorpusId": 280337840
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "Shashank Gupta, Vaishnavi Shrivastava, Ameet Deshpande, Ashwin Kalyan, Peter Clark, Ashish Sabharwal, and Tushar Khot. Bias runs deep: Implicit reasoning biases in persona-assigned LLMs. arXiv preprint arXiv:2311.04892, 2023.",
+   "title": "Bias runs deep: Implicit reasoning biases in persona-assigned LLMs",
+   "authors": [
+    "Gupta",
+    "Shrivastava",
+    "Deshpande",
+    "Kalyan",
+    "Clark",
+    "Sabharwal",
+    "Khot"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2311.04892",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2311.04892"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.4880335",
+      "title": "Implicit bias in LLMs: Bias in financial advice based on implied gender",
+      "year": 2024,
+      "first_author": "Etgar",
+      "container": "",
+      "type": "posted-content",
+      "score": 31.356031
+     },
+     "metrics": {
+      "title_sim": 62.99212598425197,
+      "containment": 0.444,
+      "partial_ratio": 51.42857142857142,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "arxiv_id_repass",
+   "match": {
+    "source": "arxiv_abs",
+    "arxiv": "2311.04892",
+    "title": "Bias Runs Deep: Implicit Reasoning Biases in Persona-Assigned LLMs",
+    "year": 2023,
+    "first_author": "Gupta, Shashank"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   }
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "Tiancheng Hu and Nigel Collier. Quantifying the persona effect in llm simulations. arXiv preprint arXiv:2402.10811, 2024.",
+   "title": "Quantifying the persona effect in llm simulations",
+   "authors": [
+    "Hu",
+    "Collier"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2402.10811",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2024.acl-long.554",
+    "title": "Quantifying the Persona Effect in LLM Simulations",
+    "year": 2024,
+    "first_author": "Hu",
+    "container": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "type": "proceedings-article",
+    "score": 46.461647
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2402.10811"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "Junseok Kim, Nakyeong Yang, and Kyomin Jung. Persona is a double-edged sword: Mitigating the negative impact of role-playing prompts in zero-shot reasoning tasks, 2024. URL https: //arxiv.org/abs/2408.08631.",
+   "title": "Persona is a double-edged sword: Mitigating the negative impact of role-playing prompts in zero-shot reasoning tasks",
+   "authors": [
+    "Kim",
+    "Yang",
+    "Jung"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2408.08631",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2025.findings-ijcnlp.51",
+    "title": "Persona is a Double-Edged Sword: Rethinking the Impact of Role-play Prompts in Zero-shot Reasoning Tasks",
+    "year": 2025,
+    "first_author": "Kim",
+    "container": "Proceedings of the 14th International Joint Conference on Natural Language Processing and the 4th Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics",
+    "type": "proceedings-article",
+    "score": 72.32768
+   },
+   "metrics": {
+    "title_sim": 91.57894736842105,
+    "containment": 0.846,
+    "partial_ratio": 83.49514563106796,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2408.08631"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "Aobo Kong, Shiwan Zhao, Hao Chen, Qicheng Li, Yong Qin, Ruiqi Sun, Xin Zhou, Enzhi Wang, and Xiaohang Dong. Better zero-shot reasoning with role-play prompting. arXiv preprint arXiv:2308.07702, 2024.",
+   "title": "Better zero-shot reasoning with role-play prompting",
+   "authors": [
+    "Kong",
+    "Zhao",
+    "Chen",
+    "Li",
+    "Qin",
+    "Sun",
+    "Zhou",
+    "Wang",
+    "Dong"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2308.07702",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2024.naacl-long.228",
+    "title": "Better Zero-Shot Reasoning with Role-Play Prompting",
+    "year": 2024,
+    "first_author": "Kong",
+    "container": "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+    "type": "proceedings-article",
+    "score": 50.863995
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2308.07702"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "Andy Liu, Mona Diab, and Daniel Fried. Evaluating large language model biases in persona-steered generation. arXiv preprint arXiv:2405.20253, 2024.",
+   "title": "Evaluating large language model biases in persona-steered generation",
+   "authors": [
+    "Liu",
+    "Diab",
+    "Fried"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2405.20253",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2024.findings-acl.586",
+    "title": "Evaluating Large Language Model Biases in Persona-Steered Generation",
+    "year": 2024,
+    "first_author": "Liu",
+    "container": "Findings of the Association for Computational Linguistics ACL 2024",
+    "type": "proceedings-article",
+    "score": 68.26095
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2405.20253"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "Pedro Henrique Luz de Araujo and Benjamin Roth. Helpful assistant or fruitful facilitator? investigating how personas affect language model behavior. PLOS One, 20(6):e0325664, June 2025.",
+   "title": "Helpful assistant or fruitful facilitator? investigating how personas affect language model behavior",
+   "authors": [
+    "Araujo",
+    "Roth"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "PLOS One",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1371/journal.pone.0325664",
+    "title": "Helpful assistant or fruitful facilitator? Investigating how personas affect language model behavior",
+    "year": 2025,
+    "first_author": "Luz de Araujo",
+    "container": "PLOS One",
+    "type": "journal-article",
+    "score": 94.21559
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "ISSN 1932-6203. doi: 10.1371/journal.pone.0325664. URL http://dx.doi.org/10.1371/ journal.pone.0325664.",
+   "title": null,
+   "authors": [],
+   "year": 1932,
+   "doi": "10.1371/journal.pone.0325664",
+   "arxiv": null,
+   "urls": [
+    "http://dx.doi.org/10.1371/"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "doi_resolves_title_mismatch",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1371/journal.pone.0325664",
+      "title": "Helpful assistant or fruitful facilitator? Investigating how personas affect language model behavior",
+      "year": 2025,
+      "first_author": "Luz de Araujo",
+      "container": "PLOS One",
+      "type": "journal-article",
+      "score": 1
+     },
+     "metrics": {
+      "title_sim": 0,
+      "containment": 0.0,
+      "partial_ratio": 28.260869565217394,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1371/journal.pone.0335353",
+      "title": "Correction: The future of digital donation crowdfunding",
+      "year": 2025,
+      "first_author": "Sirisawat",
+      "container": "PLOS One",
+      "type": "journal-article",
+      "score": 47.062607
+     },
+     "metrics": {
+      "title_sim": 0,
+      "containment": 0.0,
+      "partial_ratio": 37.03703703703704,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "Pedro Henrique Luz de Araujo, Paul R\u00f6ttger, Dirk Hovy, and Benjamin Roth. Principled personas: Defining and measuring the intended effects of persona prompting on task performance. arXiv preprint arXiv:2508.19764, 2025.",
+   "title": "Principled personas: Defining and measuring the intended effects of persona prompting on task performance",
+   "authors": [
+    "Araujo",
+    "R\u00f6ttger",
+    "Hovy",
+    "Roth"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": "2508.19764",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2025.emnlp-main.1364",
+    "title": "Principled Personas: Defining and Measuring the Intended Effects of Persona Prompting on Task Performance",
+    "year": 2025,
+    "first_author": "Luz de Araujo",
+    "container": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+    "type": "proceedings-article",
+    "score": 84.041664
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2508.19764"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "Leonard Salewski, Stephan Alaniz, Isabel Rio-Torto, Eric Schulz, and Zeynep Akata. In-context impersonation reveals large language models\u2019 strengths and biases. In Advances in Neural Information Processing Systems, volume 36, 2023.",
+   "title": "In-context impersonation reveals large language models\u2019 strengths and biases",
+   "authors": [
+    "Salewski",
+    "Alaniz",
+    "Rio-Torto",
+    "Schulz",
+    "Akata"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/075280-3152",
+    "title": "In-Context Impersonation Reveals Large Language Models' Strengths and Biases",
+    "year": 2023,
+    "first_author": "Salewski",
+    "container": "Advances in Neural Information Processing Systems 36",
+    "type": "proceedings-article",
+    "score": 74.312935
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "Benfeng Xu, An Yang, Junyang Lin, Quan Wang, Chang Zhou, Yongdong Zhang, and Zhendong Mao. Expertprompting: Instructing large language models to be distinguished experts, 2025. URL https://arxiv.org/abs/2305.14688. Mingqian Zheng, Jiaxin Pei, Lajanugen Logeswaran, Moontae Lee, and David Jurgens. When \"a helpful assistant\" is not really helpful: Personas in system prompts do not improve performances of large language models, 2024. URL https://arxiv.org/abs/2311.10054.",
+   "title": "Expertprompting: Instructing large language models to be distinguished experts",
+   "authors": [
+    "Xu",
+    "Yang",
+    "Lin",
+    "Wang",
+    "Zhou",
+    "Zhang",
+    "Mao",
+    "Zheng",
+    "Pei",
+    "Logeswaran",
+    "Lee",
+    "Jurgens"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": "2305.14688",
+   "urls": [
+    "https://arxiv.org/abs/2305.14688",
+    "https://arxiv.org/abs/2311.10054"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2305.14688"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.18653/v1/2024.findings-eacl.148",
+      "title": "ICE-Score: Instructing Large Language Models to Evaluate Code",
+      "year": 2024,
+      "first_author": "Zhuo",
+      "container": "Findings of the Association for Computational Linguistics: EACL 2024",
+      "type": "proceedings-article",
+      "score": 30.981712
+     },
+     "metrics": {
+      "title_sim": 75.0,
+      "containment": 0.5,
+      "partial_ratio": 73.33333333333334,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "arxiv_id_repass",
+   "match": {
+    "source": "arxiv_abs",
+    "arxiv": "2305.14688",
+    "title": "ExpertPrompting: Instructing Large Language Models to be Distinguished Experts",
+    "year": 2023,
+    "first_author": "Xu, Benfeng"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": false
+   }
+  },
+  {
+   "junk": true,
+   "idx": 12,
+   "raw": "D.4     Llama D.4.1    With Chain-of-Thought Mathematics: Given a math problem involving numbers, quantities, and operations, provide a step-by-step solution with clear calculations, ensuring accuracy and precision. The problem may involve solving for a single unknown, multiple unknowns, or a combination of arithmetic, algebraic, and mathematical relationships.",
+   "title": "D.4 Llama D.4.1 With Chain-of-Thought Mathematics: Given a math problem involving numbers, quantities, and operations, provide a step-by-step solution with clear calculations, ensuring accuracy and precision. The problem may involve solving for a single unknown, multiple unknowns, or a combination of arithmetic, algebraic, and mathematical relationships",
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/s11858-019-01098-w",
+      "title": "How does imposing a step-by-step solution method impact students\u2019 approach to mathematical word problem solving?",
+      "year": 2020,
+      "first_author": "Goulet-Lyle",
+      "container": "ZDM",
+      "type": "journal-article",
+      "score": 49.420036
+     },
+     "metrics": {
+      "title_sim": 35.16483516483516,
+      "containment": 0.429,
+      "partial_ratio": 57.27272727272727,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": true,
+   "idx": 13,
+   "raw": "Psychology: To provide the most accurate answer, please consider the following context and questions from the domain of psychology, education, and research methods:",
+   "title": "Psychology: To provide the most accurate answer, please consider the following context and questions from the domain of psychology, education, and research methods",
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.7551/mitpress/7573.003.0006",
+      "title": "Social Intuitionists Answer Six Questions about Moral Psychology",
+      "year": 2007,
+      "first_author": null,
+      "container": "Moral Psychology",
+      "type": "book-chapter",
+      "score": 34.400208
+     },
+     "metrics": {
+      "title_sim": 43.04932735426009,
+      "containment": 0.375,
+      "partial_ratio": 57.8125,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  }
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
+}

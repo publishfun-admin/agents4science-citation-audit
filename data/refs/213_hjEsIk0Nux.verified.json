@@ -1,0 +1,1747 @@
+{
+ "pdf": "213_hjEsIk0Nux.pdf",
+ "n_entries": 39,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": false,
+ "parser_version": 2,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "[1] Maddalena Zuccotto, Alberto Castellini, Davide Torre, Lapo Mola, and Alessandro Farinelli. Reinforcement learning applications in environmental sustainability: a review. Artificial intelligence review, 57, 2024. doi: 10.1007/s10462-024-10706-5.",
+   "title": "Reinforcement learning applications in environmental sustainability: a review",
+   "authors": [
+    "Zuccotto",
+    "Castellini",
+    "Torre",
+    "Mola",
+    "Farinelli"
+   ],
+   "year": 2024,
+   "doi": "10.1007/s10462-024-10706-5",
+   "arxiv": null,
+   "urls": [],
+   "container": "Artificial intelligence review",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/s10462-024-10706-5",
+    "title": "Reinforcement learning applications in environmental sustainability: a review",
+    "year": 2024,
+    "first_author": "Zuccotto",
+    "container": "Artificial Intelligence Review",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2] US Energy Information Administration. Eia - annual energy outlook 2025, 2023. URL https://www.eia.gov/outlooks/aeo/.",
+   "title": "US Energy Information Administration",
+   "authors": [],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://www.eia.gov/outlooks/aeo/"
+   ],
+   "container": "Eia - annual energy outlook 2025",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2172/1329373",
+      "title": "Annual Energy Outlook 2016 With Projections to 2040",
+      "year": 2016,
+      "first_author": null,
+      "container": "",
+      "type": "report",
+      "score": 27.533361
+     },
+     "metrics": {
+      "title_sim": 45.97701149425287,
+      "containment": 0.5,
+      "partial_ratio": 60.7843137254902,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    },
+    {
+     "step": "urls_not_live",
+     "url_status": {
+      "https://www.eia.gov/outlooks/aeo/": 503
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3] The UK Green Building Council. Worldgbc business case report, 2025. URL https://ukgbc. org/resources/worldgbc-business-case-report/.",
+   "title": "The UK Green Building Council",
+   "authors": [],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://ukgbc"
+   ],
+   "container": null,
+   "type": "report",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1111/beer.70070/v3/review2",
+      "title": "Review for \"From Rating System to Thought Leadership: The Evolution of the Canada Green Building Council\"",
+      "year": 2025,
+      "first_author": null,
+      "container": "",
+      "type": "peer-review",
+      "score": 26.235725
+     },
+     "metrics": {
+      "title_sim": 42.74809160305344,
+      "containment": 0.3,
+      "partial_ratio": 43.609022556390975,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    },
+    {
+     "step": "urls_not_live",
+     "url_status": {
+      "https://ukgbc": "error"
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "crossref_title",
+   "match": {
+    "source": "crossref",
+    "doi": "10.5040/9798216171355.ch-86",
+    "title": "U.S. Green Building Council",
+    "year": 2024,
+    "first_author": null,
+    "container": "Energy in American History",
+    "type": "other",
+    "score": 26.895794
+   },
+   "metrics": {
+    "title_sim": 91.66666666666667,
+    "containment": 1.0,
+    "partial_ratio": 92.3076923076923,
+    "year_ok": true,
+    "first_author_ok": null
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4] Francesco Di Maddaloni and Luca Sabini. Very important, yet very neglected: Where do local communities stand when examining social sustainability in major construction projects? International Journal of Project Management, 40:778\u2013797, 2022. doi: 10.1016/j.ijproman.2022. 08.007.",
+   "title": "Very important, yet very neglected: Where do local communities stand when examining social sustainability in major construction projects?",
+   "authors": [
+    "Maddaloni",
+    "Sabini"
+   ],
+   "year": 2022,
+   "doi": "10.1016/j.ijproman.2022",
+   "arxiv": null,
+   "urls": [],
+   "container": "International Journal of Project Management",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.ijproman.2022.08.007",
+    "title": "Very important, yet very neglected: Where do local communities stand when examining social sustainability in major construction projects?",
+    "year": 2022,
+    "first_author": "Maddaloni",
+    "container": "International Journal of Project Management",
+    "type": "journal-article",
+    "score": 124.55302
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "doi_not_resolvable",
+     "doi": "10.1016/j.ijproman.2022"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5] Elisabeth Ekener, Julia Hansson, Aron Larsson, and Philip Peck. Developing life cycle sustainability assessment methodology by applying values-based sustainability weighting - tested on biomass based and fossil transportation fuels. Journal of Cleaner Production, 181:337\u2013351, 04 2018. doi: 10.1016/j.jclepro.2018.01.211.",
+   "title": "Developing life cycle sustainability assessment methodology by applying values-based sustainability weighting - tested on biomass based and fossil transportation fuels",
+   "authors": [
+    "Ekener",
+    "Hansson",
+    "Larsson",
+    "Peck"
+   ],
+   "year": 2018,
+   "doi": "10.1016/j.jclepro.2018.01.211",
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Cleaner Production",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.jclepro.2018.01.211",
+    "title": "Developing Life Cycle Sustainability Assessment methodology by applying values-based sustainability weighting - Tested on biomass based and fossil transportation fuels",
+    "year": 2018,
+    "first_author": "Ekener",
+    "container": "Journal of Cleaner Production",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[6] Royal Institution of Chartered Surveyors. Whole life carbon assessment for the built environment, 2023. URL https://www.rics.org/content/dam/ricsglobal/documents/ standards/Whole_life_carbon_assessment_PS_Sept23.pdf.",
+   "title": "Royal Institution of Chartered Surveyors. Whole life carbon assessment for the built environment",
+   "authors": [],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://www.rics.org/content/dam/ricsglobal/documents/"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1108/ijdrbe.2010.43501aab.001",
+      "title": "The Royal Institution of Chartered Surveyors (RICS) \u2013 Annual Construction, Building and Real Estate Research Conference 2010 (COBRA 2010)",
+      "year": 2010,
+      "first_author": null,
+      "container": "International Journal of Disaster Resilience in the Built Environment",
+      "type": "journal-article",
+      "score": 47.82861
+     },
+     "metrics": {
+      "title_sim": 63.30935251798561,
+      "containment": 0.333,
+      "partial_ratio": 59.91561181434599,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    },
+    {
+     "step": "urls_not_live",
+     "url_status": {
+      "https://www.rics.org/content/dam/ricsglobal/documents/": 404
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[7] Monika Szczerbak and Pawe\u0142 Dec. Managing selected types of costs related to esg implementation in enterprises. e-mentor, 107:76\u201386, 12 2024. doi: 10.15219/em107.1686.",
+   "title": "Managing selected types of costs related to esg implementation in enterprises",
+   "authors": [
+    "Szczerbak",
+    "Dec"
+   ],
+   "year": 2024,
+   "doi": "10.15219/em107.1686",
+   "arxiv": null,
+   "urls": [],
+   "container": "e-mentor",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.15219/em107.1686",
+    "title": "Managing selected types of costs related to ESG implementation in enterprises",
+    "year": 2024,
+    "first_author": null,
+    "container": "e-mentor",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": null
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[8] Amadi Ibim and Kelechukwu Dimkpa. Nigerian construction industry reforms and private sector involvement: X-raying cost engineering roles in sustainable infrastructure procurement. Journal of Evrimata, 3:170\u2013178, 04 2025. doi: 10.70822/journalofevrmata.v3i01.71.",
+   "title": "Nigerian construction industry reforms and private sector involvement: X-raying cost engineering roles in sustainable infrastructure procurement",
+   "authors": [
+    "Ibim",
+    "Dimkpa"
+   ],
+   "year": 2025,
+   "doi": "10.70822/journalofevrmata.v3i01.71",
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Evrimata",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.70822/journalofevrmata.v3i01.71",
+    "title": "Nigerian Construction Industry Reforms and Private Sector Involvement: X-raying Cost Engineering Roles in Sustainable Infrastructure Procurement",
+    "year": 2025,
+    "first_author": "Ibim",
+    "container": "Journal of Evr\u00edmata: Engineering and Physics",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[9] Energy Information Administration. Commercial buildings energy consumption survey (cbecs), 2025. URL https://www.eia.gov/consumption/commercial/.",
+   "title": "Commercial buildings energy consumption survey (cbecs",
+   "authors": [
+    "Administration"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://www.eia.gov/consumption/commercial/"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.17226/12922",
+      "title": "Commercial Buildings Energy Consumption Survey Letter Report",
+      "year": 2010,
+      "first_author": null,
+      "container": "",
+      "type": "edited-book",
+      "score": 41.647465
+     },
+     "metrics": {
+      "title_sim": 93.87755102040816,
+      "containment": 0.714,
+      "partial_ratio": 83.33333333333334,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    },
+    {
+     "step": "urls_not_live",
+     "url_status": {
+      "https://www.eia.gov/consumption/commercial/": 503
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[10] Office of Gas and Electricity Markets. Annual report and accounts (2024-2025), 2025.  URL https://www.ofgem.gov.uk/sites/default/files/2025-07/ Ofgem-ARA-24-25-Final.pdf.",
+   "title": "Office of Gas and Electricity Markets",
+   "authors": [],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://www.ofgem.gov.uk/sites/default/files/2025-07/"
+   ],
+   "container": null,
+   "type": "report",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1093/ww/9780199540884.013.u25784",
+      "title": "McIntyre, (John) Paul, (born 4 Dec. 1951), Managing Director, E-Serve, Office of Gas and Electricity Markets, 2010\u201311",
+      "year": 2007,
+      "first_author": null,
+      "container": "Who's Who",
+      "type": "reference-entry",
+      "score": 33.555885
+     },
+     "metrics": {
+      "title_sim": 51.74825174825175,
+      "containment": 0.286,
+      "partial_ratio": 54.42176870748299,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    },
+    {
+     "step": "urls_not_live",
+     "url_status": {
+      "https://www.ofgem.gov.uk/sites/default/files/2025-07/": 404
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "crossref_title",
+   "match": {
+    "source": "crossref",
+    "doi": "10.4337/9781035328024.00027",
+    "title": "Electricity and gas markets",
+    "year": 2024,
+    "first_author": "Block",
+    "container": "Research Handbook on EU Energy Law and Policy",
+    "type": "book-chapter",
+    "score": 27.427261
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 70.37037037037037,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "[11] US Environmental Protection Agency. Emissions & generation resource integrated database (egrid), 2022. URL https://www.epa.gov/egrid.",
+   "title": "US Environmental Protection Agency. Emissions & generation resource integrated database (egrid",
+   "authors": [],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://www.epa.gov/egrid"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED_URL",
+   "via": "url",
+   "url_status": {
+    "https://www.epa.gov/egrid": 200
+   },
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2172/6483",
+      "title": "Mexico joins the venture: Joint Implementation and Greenhouse Gas Emissions",
+      "year": 1998,
+      "first_author": null,
+      "container": "",
+      "type": "report",
+      "score": 33.80272
+     },
+     "metrics": {
+      "title_sim": 53.65853658536585,
+      "containment": 0.125,
+      "partial_ratio": 52.892561983471076,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "[12] Met Office. Met office uk climate series, 2023. URL https://www.metoffice.gov.uk/ research/climate/maps-and-data/about/archives.",
+   "title": "Met office uk climate series",
+   "authors": [
+    "Office"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://www.metoffice.gov.uk/"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED_URL",
+   "via": "url",
+   "url_status": {
+    "https://www.metoffice.gov.uk/": 200
+   },
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/978-1-4615-4094-6_7",
+      "title": "MIDAS \u2014 The UK Met Office Project to Replace its Climate Data Banks",
+      "year": 1997,
+      "first_author": "Ward",
+      "container": "Climate and Environmental Database Systems",
+      "type": "book-chapter",
+      "score": 37.801895
+     },
+     "metrics": {
+      "title_sim": 85.71428571428571,
+      "containment": 0.5,
+      "partial_ratio": 56.86274509803921,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "[13] Pramod Khargonekar. Ai engineering: a strategic research framework to benefit society\u2013executive summary. Social Science Research Network, 01 2024. doi: 10.2139/ssrn.4833755.",
+   "title": "Ai engineering: a strategic research framework to benefit society\u2013executive summary",
+   "authors": [
+    "Khargonekar"
+   ],
+   "year": 2024,
+   "doi": "10.2139/ssrn.4833755",
+   "arxiv": null,
+   "urls": [],
+   "container": "Social Science Research Network",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.2139/ssrn.4833755",
+    "title": "AI Engineering: A Strategic Research Framework to Benefit Society - Executive Summary",
+    "year": 2024,
+    "first_author": "Khargonekar",
+    "container": "",
+    "type": "posted-content",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "[14] Korbinian Randl, John Pavlopoulos, Aron Henriksson, and Tony Lindgren. Evaluating the reliability of self-explanations in large language models. ArXiv, pages 36\u201351, 01 2025. doi: 10.1007/978-3-031-78977-9_3. URL https://arxiv.org/abs/2407.14487.",
+   "title": "Evaluating the reliability of self-explanations in large language models",
+   "authors": [
+    "Randl",
+    "Pavlopoulos",
+    "Henriksson",
+    "Lindgren"
+   ],
+   "year": 2025,
+   "doi": "10.1007/978-3-031-78977-9_3",
+   "arxiv": "2407.14487",
+   "urls": [
+    "https://arxiv.org/abs/2407.14487"
+   ],
+   "container": "ArXiv",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/978-3-031-78977-9_3",
+    "title": "Evaluating the\u00a0Reliability of\u00a0Self-explanations in\u00a0Large Language Models",
+    "year": 2025,
+    "first_author": "Randl",
+    "container": "Lecture Notes in Computer Science",
+    "type": "book-chapter",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "[15] Richard Sutton and Andrew Barto. Reinforcement learning: an Introduction. The Mit Press, 2nd edition, 2018.",
+   "title": "Reinforcement learning: an Introduction",
+   "authors": [
+    "Sutton",
+    "Barto"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/978-1-4615-3618-5_1",
+    "title": "Introduction: The Challenge of Reinforcement Learning",
+    "year": 1992,
+    "first_author": "Sutton",
+    "container": "Reinforcement Learning",
+    "type": "book-chapter",
+    "score": 34.509758
+   },
+   "metrics": {
+    "title_sim": 95.89041095890411,
+    "containment": 0.75,
+    "partial_ratio": 69.23076923076923,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 16,
+   "raw": "[16] Xingbin Lin, Deyu Yuan, and Xifei Li. Reinforcement learning with dual safety policies for energy savings in building energy systems. Buildings, 13:580, 02 2023. doi: 10.3390/ buildings13030580.",
+   "title": "Reinforcement learning with dual safety policies for energy savings in building energy systems",
+   "authors": [
+    "Lin",
+    "Yuan",
+    "Li"
+   ],
+   "year": 2023,
+   "doi": "doi:",
+   "arxiv": null,
+   "urls": [],
+   "container": "Buildings",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.3390/buildings13030580",
+    "title": "Reinforcement Learning with Dual Safety Policies for Energy Savings in Building Energy Systems",
+    "year": 2023,
+    "first_author": "Lin",
+    "container": "Buildings",
+    "type": "journal-article",
+    "score": 71.8034
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "doi_not_resolvable",
+     "doi": "doi:"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 17,
+   "raw": "[17] Hongxia Hu, Shouguo Jiang, Shankha Goswami, and Yafei Zhao. Fuzzy integrated delphiism-micmac hybrid multi-criteria approach to optimize the artificial intelligence (ai) factors influencing cost management in civil engineering. Information, 15:280\u2013280, 05 2024. doi: 10.3390/info15050280.",
+   "title": "Fuzzy integrated delphiism-micmac hybrid multi-criteria approach to optimize the artificial intelligence (ai) factors influencing cost management in civil engineering",
+   "authors": [
+    "Hu",
+    "Jiang",
+    "Goswami",
+    "Zhao"
+   ],
+   "year": null,
+   "doi": "10.3390/info15050280",
+   "arxiv": null,
+   "urls": [],
+   "container": "Information",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.3390/info15050280",
+    "title": "Fuzzy Integrated Delphi-ISM-MICMAC Hybrid Multi-Criteria Approach to Optimize the Artificial Intelligence (AI) Factors Influencing Cost Management in Civil Engineering",
+    "year": 2024,
+    "first_author": "Hu",
+    "container": "Information",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 99.69604863221885,
+    "containment": 0.889,
+    "partial_ratio": 99.39393939393939,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 18,
+   "raw": "[18] Omia Hadidi, Ahmed Meshref, Karim El-Dash, and Mohamed Basiouny. Evaluation of a building life cycle cost (lcc) criteria in egypt using the analytic hierarchy process (ahp). International Journal of the Analytic Hierarchy Process, 14, 08 2022. doi: 10.13033/ijahp. v14i2.958.",
+   "title": "Evaluation of a building life cycle cost (lcc) criteria in egypt using the analytic hierarchy process (ahp",
+   "authors": [
+    "Hadidi",
+    "Meshref",
+    "El-Dash",
+    "Basiouny"
+   ],
+   "year": 2022,
+   "doi": "10.13033/ijahp",
+   "arxiv": null,
+   "urls": [],
+   "container": "International Journal of the Analytic Hierarchy Process",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.13033/ijahp",
+    "title": "International Journal of the Analytic Hierarchy Process",
+    "year": 2015,
+    "first_author": null,
+    "container": "",
+    "type": "journal",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 55.696202531645575,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": null,
+    "rule": "id+raw_containment"
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 19,
+   "raw": "[19] Guilherme Zanghelini, Edivan Cherubini, and Sebasti\u00e3o Soares. How multi-criteria decision analysis (mcda) is aiding life cycle assessment (lca) in results interpretation. Journal of Cleaner Production, 172:609\u2013622, 01 2018. doi: 10.1016/j.jclepro.2017.10.230.",
+   "title": "How multi-criteria decision analysis (mcda) is aiding life cycle assessment (lca) in results interpretation",
+   "authors": [
+    "Zanghelini",
+    "Cherubini",
+    "Soares"
+   ],
+   "year": 2018,
+   "doi": "10.1016/j.jclepro.2017.10.230",
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Cleaner Production",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.jclepro.2017.10.230",
+    "title": "How Multi-Criteria Decision Analysis (MCDA) is aiding Life Cycle Assessment (LCA) in results interpretation",
+    "year": 2018,
+    "first_author": "Zanghelini",
+    "container": "Journal of Cleaner Production",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 20,
+   "raw": "[20] Dorota Burchart and Iga Przytu\u0142a. Sustainability assessment methods for the transport sector considering the life cycle concept-a review. Sustainability, 16:8148, 09 2024. doi: 10.3390/ su16188148. URL https://www.mdpi.com/2071-1050/16/18/8148.",
+   "title": "Sustainability assessment methods for the transport sector considering the life cycle concept-a review",
+   "authors": [
+    "Burchart",
+    "Przytu\u0142a"
+   ],
+   "year": 2024,
+   "doi": "doi:",
+   "arxiv": null,
+   "urls": [
+    "https://www.mdpi.com/2071-1050/16/18/8148"
+   ],
+   "container": "Sustainability",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.3390/su16188148",
+    "title": "Sustainability Assessment Methods for the Transport Sector Considering the Life Cycle Concept\u2014A Review",
+    "year": 2024,
+    "first_author": "Burchart",
+    "container": "Sustainability",
+    "type": "journal-article",
+    "score": 81.994064
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "doi_not_resolvable",
+     "doi": "doi:"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 21,
+   "raw": "[21] Jiajun Du, Wei Wang, Ting Lou, and Hongyu Zhou. Resilience and sustainability-informed probabilistic multi-criteria decision-making framework for design solutions selection. Journal of Building Engineering, 71:106421\u2013106421, 07 2023. doi: 10.1016/j.jobe.2023.106421.",
+   "title": "Resilience and sustainability-informed probabilistic multi-criteria decision-making framework for design solutions selection",
+   "authors": [
+    "Du",
+    "Wang",
+    "Lou",
+    "Zhou"
+   ],
+   "year": 2023,
+   "doi": "10.1016/j.jobe.2023.106421",
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Building Engineering",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.jobe.2023.106421",
+    "title": "Resilience and sustainability-informed probabilistic multi-criteria decision-making framework for design solutions selection",
+    "year": 2023,
+    "first_author": "Du",
+    "container": "Journal of Building Engineering",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 22,
+   "raw": "[22] Peder Wolkoff. Indoor air humidity, air quality, and health-an overview. International Journal of Hygiene and Environmental Health, 221:376\u2013390, 2018. doi: 10.1016/j.ijheh.2018.01.015. URL https://www.sciencedirect.com/science/article/pii/S1438463917306946.",
+   "title": "Indoor air humidity, air quality, and health-an overview",
+   "authors": [
+    "Wolkoff"
+   ],
+   "year": 2018,
+   "doi": "10.1016/j.ijheh.2018.01.015",
+   "arxiv": null,
+   "urls": [
+    "https://www.sciencedirect.com/science/article/pii/S1438463917306946"
+   ],
+   "container": "International Journal of Hygiene and Environmental Health",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.ijheh.2018.01.015",
+    "title": "Indoor air humidity, air quality, and health \u2013 An overview",
+    "year": 2018,
+    "first_author": "Wolkoff",
+    "container": "International Journal of Hygiene and Environmental Health",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 23,
+   "raw": "[23] Robert Yin. Case Study Research and Applications: Design and Methods. Sage Publications, 6 edition, 2018.",
+   "title": "Case Study Research and Applications: Design and Methods",
+   "authors": [
+    "Yin"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.33524/cjar.v14i1.73",
+      "title": "Yin, R. K. (2009). Case study research: Design and methods (4th Ed.). Thousand Oaks, CA: Sage.",
+      "year": 2013,
+      "first_author": "Aberdeen",
+      "container": "The Canadian Journal of Action Research",
+      "type": "journal-article",
+      "score": 26.709373
+     },
+     "metrics": {
+      "title_sim": 85.3932584269663,
+      "containment": 0.636,
+      "partial_ratio": 63.74999999999999,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "4469b120f6665e4454c1c324ce06bc756f98d032",
+    "title": "Case Study Research and Applications: Design and Methods",
+    "year": 2017,
+    "first_author": "Robert K. Yin",
+    "container": "",
+    "ext": {
+     "MAG": "2925515791",
+     "CorpusId": 169945812
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 24,
+   "raw": "[24] Mark Saunders, Philip Lewis, and Adrian Thornhill. Research Methods for Business Students. Pearson, 9 edition, 2023.",
+   "title": "Research Methods for Business Students",
+   "authors": [
+    "Saunders",
+    "Lewis",
+    "Thornhill"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.4135/9781529716702",
+      "title": "Conducting Case Study Research for Business and Management Students",
+      "year": 2017,
+      "first_author": "Lee",
+      "container": "",
+      "type": "monograph",
+      "score": 26.485613
+     },
+     "metrics": {
+      "title_sim": 88.23529411764706,
+      "containment": 0.429,
+      "partial_ratio": 55.223880597014926,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "bef028d7d7fcb4705c24451304b089f4912920d4",
+    "title": "Research Methods for Business Students",
+    "year": 2006,
+    "first_author": "M. Saunders",
+    "container": "",
+    "ext": {
+     "MAG": "1505999675",
+     "CorpusId": 61060976
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 25,
+   "raw": "[25] Ian Goodfellow, Yoshua Bengio, and Aaron Courville. Deep Learning. The MIT Press, 2016. URL https://www.deeplearningbook.org/.",
+   "title": "Deep Learning",
+   "authors": [
+    "Goodfellow",
+    "Bengio",
+    "Courville"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://www.deeplearningbook.org/"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/2976749.2978318",
+    "title": "Deep Learning with Differential Privacy",
+    "year": 2016,
+    "first_author": "Abadi",
+    "container": "Proceedings of the 2016 ACM SIGSAC Conference on Computer and Communications Security",
+    "type": "proceedings-article",
+    "score": 24.87365
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.5,
+    "partial_ratio": 56.41025641025641,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 26,
+   "raw": "[26] D Kingma and Ba, L. Adam: a Method for Stochastic Optimization. Arxiv.Org, 2015.",
+   "title": "Adam: a Method for Stochastic Optimization",
+   "authors": [
+    "Kingma",
+    "Ba"
+   ],
+   "year": 2015,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/978-3-662-46214-0_1",
+      "title": "Stochastic Optimization Methods",
+      "year": 2015,
+      "first_author": "Marti",
+      "container": "Stochastic Optimization Methods",
+      "type": "book-chapter",
+      "score": 23.508997
+     },
+     "metrics": {
+      "title_sim": 85.18518518518519,
+      "containment": 0.667,
+      "partial_ratio": 80.64516129032258,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "a6cb366736791bcccc5c8639de5a8f9636bf87e8",
+    "title": "Adam: A Method for Stochastic Optimization",
+    "year": 2014,
+    "first_author": "Diederik P. Kingma",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "MAG": "1522301498",
+     "DBLP": "journals/corr/KingmaB14",
+     "ArXiv": "1412.6980",
+     "CorpusId": 6628106
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 27,
+   "raw": "[27] Open Energy Information. American society of heating, refrigerating and air-conditioning engineers climate zones, 2025. URL https://openei.org/wiki/ASHRAE_Climate_Zones.",
+   "title": "American society of heating, refrigerating and air-conditioning engineers climate zones",
+   "authors": [
+    "Information"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://openei.org/wiki/ASHRAE_Climate_Zones"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1016/0140-7007(79)90114-2",
+      "title": "American society of heating, refrigerating and air-conditioning engineers",
+      "year": 1979,
+      "first_author": null,
+      "container": "International Journal of Refrigeration",
+      "type": "journal-article",
+      "score": 51.211597
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 1.0,
+      "partial_ratio": 100.0,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    },
+    {
+     "step": "urls_not_live",
+     "url_status": {
+      "https://openei.org/wiki/ASHRAE_Climate_Zones": 503
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 28,
+   "raw": "[28] Department for Energy Security and Net Zero. Statistics from department for energy security and net zero, 2023. URL https://www.gov.uk/government/organisations/ department-for-energy-security-and-net-zero.",
+   "title": "Department for Energy Security and Net Zero",
+   "authors": [],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://www.gov.uk/government/organisations/"
+   ],
+   "container": "Statistics from department for energy security and net zero",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED_URL",
+   "via": "url",
+   "url_status": {
+    "https://www.gov.uk/government/organisations/": 200
+   },
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1093/ww/9780199540884.013.u301742",
+      "title": "Brown, Selvin, Director, Net Zero Buildings, Domestic, Department for Energy Security and Net Zero, since 2020",
+      "year": 2025,
+      "first_author": null,
+      "container": "Who's Who",
+      "type": "reference-entry",
+      "score": 43.84183
+     },
+     "metrics": {
+      "title_sim": 58.50340136054422,
+      "containment": 0.5,
+      "partial_ratio": 70.1923076923077,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 29,
+   "raw": "[29] The Inventory of Carbon and Energy. Embodied carbon footprint database, 2024. URL https://circularecology.com/embodied-carbon-footprint-database.html.",
+   "title": "The Inventory of Carbon and Energy",
+   "authors": [],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://circularecology.com/embodied-carbon-footprint-database.html"
+   ],
+   "container": "Embodied carbon footprint database",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED_URL",
+   "via": "url",
+   "url_status": {
+    "https://circularecology.com/embodied-carbon-footprint-database.html": 200
+   },
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1557/s43581-023-00074-y",
+      "title": "Carbon footprint inventory using life cycle energy analysis",
+      "year": 2024,
+      "first_author": "Chen",
+      "container": "MRS Energy &amp; Sustainability",
+      "type": "journal-article",
+      "score": 23.069668
+     },
+     "metrics": {
+      "title_sim": 80.7017543859649,
+      "containment": 0.571,
+      "partial_ratio": 49.48453608247423,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 30,
+   "raw": "[30] Matthew Doheny. Building Construction Costs with RSMeans Data 2024. RS Means, 2023.",
+   "title": "Building Construction Costs with RSMeans Data 2024",
+   "authors": [
+    "Doheny"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1002/9781119898849.ch6",
+      "title": "Building a Data Centre",
+      "year": 2023,
+      "first_author": null,
+      "container": "Data Centre Essentials",
+      "type": "other",
+      "score": 24.592005
+     },
+     "metrics": {
+      "title_sim": 74.28571428571428,
+      "containment": 0.667,
+      "partial_ratio": 59.09090909090908,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 31,
+   "raw": "[31] Building Cost Information Service Construction. Bcis, 2025. URL https://bcis.co.uk/.",
+   "title": "Building Cost Information Service Construction",
+   "authors": [],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://bcis.co.uk/"
+   ],
+   "container": "Bcis",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED_URL",
+   "via": "url",
+   "url_status": {
+    "https://bcis.co.uk/": 200
+   },
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1016/j.autcon.2022.104662",
+      "title": "Low-cost mobile augmented reality service for building information modeling",
+      "year": 2023,
+      "first_author": "Um",
+      "container": "Automation in Construction",
+      "type": "journal-article",
+      "score": 29.478321
+     },
+     "metrics": {
+      "title_sim": 83.54430379746836,
+      "containment": 0.444,
+      "partial_ratio": 46.875,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 32,
+   "raw": "[32] International Labour Office. Safety and health in construction, 2021.",
+   "title": "International Labour Office. Safety and health in construction",
+   "authors": [],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.5848/ilo.978-9-221249-71-9_6",
+      "title": "Occupational safety and health management systems",
+      "year": 2015,
+      "first_author": null,
+      "container": "Safety and Health in Agriculture: A code of practice",
+      "type": "book-chapter",
+      "score": 33.452988
+     },
+     "metrics": {
+      "title_sim": 54.54545454545455,
+      "containment": 0.4,
+      "partial_ratio": 61.224489795918366,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 33,
+   "raw": "[33] The White House. Council of economic advisers, 2025. URL https://www.whitehouse. gov/cea/.",
+   "title": "The White House",
+   "authors": [],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://www.whitehouse"
+   ],
+   "container": "Council of economic advisers",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.4135/9781071967447",
+    "title": "The White House Whitewash",
+    "year": 2025,
+    "first_author": "Roohani",
+    "container": "",
+    "type": "reference-book",
+    "score": 22.550562
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.667,
+    "partial_ratio": 72.72727272727273,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 34,
+   "raw": "[34] Her Majesty\u2019s Treasury. The Green Book : Appraisal and Evaluation in Central Government : Treasury guidance. Stationery Office, 2022.",
+   "title": "The Green Book : Appraisal and Evaluation in Central Government : Treasury guidance",
+   "authors": [
+    "Treasury"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1163/9789004307339_003",
+      "title": "1 The Central Government\u2019s Silver Treasury",
+      "year": 2016,
+      "first_author": "Shi",
+      "container": "Central Government Silver Treasury: Revenue, Expenditure and Inventory Statistics, ca. 1667-1899",
+      "type": "book-chapter",
+      "score": 44.755405
+     },
+     "metrics": {
+      "title_sim": 84.93150684931507,
+      "containment": 0.75,
+      "partial_ratio": 71.42857142857143,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 35,
+   "raw": "[35] Occupational Safety and Health Administration. Osha, 2025. URL https://www.osha.gov/.",
+   "title": "Occupational Safety and Health Administration",
+   "authors": [],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://www.osha.gov/"
+   ],
+   "container": "Osha",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED_URL",
+   "via": "url",
+   "url_status": {
+    "https://www.osha.gov/": 200
+   },
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1201/9781315269603-43",
+      "title": "Occupational Safety and Health Administration (OSHA)",
+      "year": 2017,
+      "first_author": null,
+      "container": "Occupational Safety and\u00a0Health",
+      "type": "book-chapter",
+      "score": 31.51617
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 1.0,
+      "partial_ratio": 100.0,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 36,
+   "raw": "[36] Health and Safety Executive. Hse: Information about health and safety at work, 2023. URL https://www.hse.gov.uk/.",
+   "title": "Hse: Information about health and safety at work",
+   "authors": [
+    "Executive"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://www.hse.gov.uk/"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED_URL",
+   "via": "url",
+   "url_status": {
+    "https://www.hse.gov.uk/": 200
+   },
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.4324/9780080505367-32",
+      "title": "O Health and Safety Executive (HSE) publications and information",
+      "year": 2014,
+      "first_author": null,
+      "container": "Electronic Servicing and Repairs",
+      "type": "book-chapter",
+      "score": 39.336315
+     },
+     "metrics": {
+      "title_sim": 82.5,
+      "containment": 0.833,
+      "partial_ratio": 81.4814814814815,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 37,
+   "raw": "[37] QAFactEval: Improved QA-Based Factual Consistency Evaluation for Summarization, 2022.",
+   "title": "Improved QA-Based Factual Consistency Evaluation for Summarization",
+   "authors": [],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2022.naacl-main.187",
+    "title": "QAFactEval: Improved QA-Based Factual Consistency Evaluation for Summarization",
+    "year": 2022,
+    "first_author": "Fabbri",
+    "container": "Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+    "type": "proceedings-article",
+    "score": 52.26395
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": true,
+   "idx": 38,
+   "raw": "Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Association for Computational Linguistics. doi: 10.18653/v1/2022.naacl-main.187. URL https://aclanthology.org/ 2022.naacl-main.187/.",
+   "title": null,
+   "authors": [],
+   "year": null,
+   "doi": "10.18653/v1/2022.naacl-main.187",
+   "arxiv": null,
+   "urls": [
+    "https://aclanthology.org/"
+   ],
+   "container": "Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Association for Computational Linguistics",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED_URL",
+   "via": "url",
+   "url_status": {
+    "https://aclanthology.org/": 200
+   },
+   "evidence": [
+    {
+     "step": "doi_resolves_title_mismatch",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.18653/v1/2022.naacl-main.187",
+      "title": "QAFactEval: Improved QA-Based Factual Consistency Evaluation for Summarization",
+      "year": 2022,
+      "first_author": "Fabbri",
+      "container": "Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+      "type": "proceedings-article",
+      "score": 1
+     },
+     "metrics": {
+      "title_sim": 0,
+      "containment": 0.0,
+      "partial_ratio": 45.45454545454546,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.3115/1614164",
+      "title": "Proceedings of Human Language Technologies: The Annual Conference of the North American Chapter of the Association for Computational Linguistics: Demonstrations on XX - NAACL '07",
+      "year": 2007,
+      "first_author": null,
+      "container": "",
+      "type": "proceedings",
+      "score": 96.23474
+     },
+     "metrics": {
+      "title_sim": 0,
+      "containment": 0.857,
+      "partial_ratio": 78.2312925170068,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 39,
+   "raw": "[38] Joseph G. Allen, Piers MacNaughton, Jose Guillermo Cedeno Laurent, Skye S. Flanigan, Erika Sita Eitland, and John D. Spengler. Green buildings and health. Current Environmental Health Reports, 2:250\u2013258, 07 2015. doi: 10.1007/s40572-015-0063-y. URL https://link. springer.com/article/10.1007/s40572-015-0063-y.",
+   "title": "Green buildings and health",
+   "authors": [
+    "Allen",
+    "MacNaughton",
+    "Laurent",
+    "Flanigan",
+    "Eitland",
+    "Spengler"
+   ],
+   "year": 2015,
+   "doi": "10.1007/s40572-015-0063-y",
+   "arxiv": null,
+   "urls": [
+    "https://link"
+   ],
+   "container": "Current Environmental Health Reports",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/s40572-015-0063-y",
+    "title": "Green Buildings and Health",
+    "year": 2015,
+    "first_author": "Allen",
+    "container": "Current Environmental Health Reports",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  }
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
+}

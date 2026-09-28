@@ -1,0 +1,386 @@
+{
+ "pdf": "341_MH6zuzCAiH.pdf",
+ "n_entries": 10,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": true,
+   "idx": 1,
+   "raw": "References",
+   "title": null,
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/9780470547038.ch3",
+      "title": "Voltage References",
+      "year": 2009,
+      "first_author": null,
+      "container": "Voltage References",
+      "type": "book-chapter",
+      "score": 13.501859
+     },
+     "metrics": {
+      "title_sim": 0,
+      "containment": 0.5,
+      "partial_ratio": 100.0,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[1] Berti, A., van Zelst, S., and van der Aalst, W. M. P. PM4Py: Process mining for Python. SoftwareX, 11:100110, 2020.",
+   "title": "PM4Py: Process mining for Python",
+   "authors": [
+    "Berti",
+    "Zelst",
+    "Aalst"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "SoftwareX",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.simpa.2023.100556",
+    "title": "PM4Py: A process mining library for Python",
+    "year": 2023,
+    "first_author": "Berti",
+    "container": "Software Impacts",
+    "type": "journal-article",
+    "score": 49.41652
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.8,
+    "partial_ratio": 75.60975609756098,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[2] Camargo, M., D. M. and Gonz\u00e1lez-Rojas, O. Learning accurate lstm models of business processes. Information Systems, 84:1\u201314, 2020.",
+   "title": "Learning accurate lstm models of business processes",
+   "authors": [
+    "Camargo",
+    "M.",
+    "Gonz\u00e1lez-Rojas"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Information Systems",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/978-3-030-26619-6_19",
+    "title": "Learning Accurate LSTM Models of Business Processes",
+    "year": 2019,
+    "first_author": "Camargo",
+    "container": "Lecture Notes in Computer Science",
+    "type": "book-chapter",
+    "score": 40.552197
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[3] Evermann, J., Rehse, J.-R., and Fettke, P. Predicting process behaviour using deep learning. Decision Support Systems, 100:129\u2013140, 2017.",
+   "title": "Predicting process behaviour using deep learning",
+   "authors": [
+    "Evermann",
+    "Rehse",
+    "Fettke"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Decision Support Systems",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.dss.2017.04.003",
+    "title": "Predicting process behaviour using deep learning",
+    "year": 2017,
+    "first_author": "Evermann",
+    "container": "Decision Support Systems",
+    "type": "journal-article",
+    "score": 52.31281
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[4] Goodfellow, I., Bengio, Y., and Courville, A. Deep Learning. MIT Press, 2016.",
+   "title": "Deep Learning",
+   "authors": [
+    "Goodfellow",
+    "Bengio",
+    "Courville"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/2976749.2978318",
+    "title": "Deep Learning with Differential Privacy",
+    "year": 2016,
+    "first_author": "Abadi",
+    "container": "Proceedings of the 2016 ACM SIGSAC Conference on Computer and Communications Security",
+    "type": "proceedings-article",
+    "score": 24.874142
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.5,
+    "partial_ratio": 59.70149253731343,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[5] Hochreiter, S. and Schmidhuber, J. Long short-term memory. Neural Computation, 9(8): 1735\u20131780, 1997.",
+   "title": "Long short-term memory",
+   "authors": [
+    "Hochreiter",
+    "Schmidhuber"
+   ],
+   "year": 1997,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Neural Computation",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1162/neco.1997.9.8.1735",
+    "title": "Long Short-Term Memory",
+    "year": 1997,
+    "first_author": "Hochreiter",
+    "container": "Neural Computation",
+    "type": "journal-article",
+    "score": 46.30622
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[6] Hosmer, D. W., Lemeshow, S., and Sturdivant, R. X. Applied Logistic Regression. Wiley, 3 edition, 2013.",
+   "title": "Applied Logistic Regression",
+   "authors": [
+    "Hosmer",
+    "Lemeshow",
+    "Sturdivant"
+   ],
+   "year": 2013,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1002/0471722146",
+    "title": "Applied Logistic Regression",
+    "year": 2000,
+    "first_author": "Hosmer",
+    "container": "",
+    "type": "monograph",
+    "score": 42.112434
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[7] Law, A. M. Simulation Modeling and Analysis. McGraw-Hill, 5 edition, 2014.",
+   "title": "Simulation Modeling and Analysis",
+   "authors": [
+    "Law"
+   ],
+   "year": 2014,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1002/9781118960486.ch3",
+    "title": "Modeling, Analysis, and Simulation of AC\u2013MTDC Grids",
+    "year": 2014,
+    "first_author": null,
+    "container": "Multi\u2010Terminal Direct\u2010Current Grids",
+    "type": "other",
+    "score": 23.84176
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.6,
+    "partial_ratio": 55.670103092783506,
+    "year_ok": true,
+    "first_author_ok": null
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[8] Tax, N., Verenich, I., La Rosa, M., and Dumas, M. Predictive business process monitoring with lstm neural networks. In CAiSE, pp. 477\u2013492. Springer, 2017.",
+   "title": "Predictive business process monitoring with lstm neural networks",
+   "authors": [
+    "Tax",
+    "Verenich",
+    "Rosa",
+    "Dumas"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "CAiSE",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/978-3-319-59536-8_30",
+    "title": "Predictive Business Process Monitoring with LSTM Neural Networks",
+    "year": 2017,
+    "first_author": "Tax",
+    "container": "Lecture Notes in Computer Science",
+    "type": "book-chapter",
+    "score": 45.625458
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[9] van der Aalst, W. M. P. Process Mining: Data Science in Action. Springer, 2016.",
+   "title": "Process Mining: Data Science in Action",
+   "authors": [
+    "Aalst"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/978-3-662-49851-4_1",
+    "title": "Data Science in Action",
+    "year": 2016,
+    "first_author": "van der Aalst",
+    "container": "Process Mining",
+    "type": "book-chapter",
+    "score": 49.75465
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  }
+ ]
+}

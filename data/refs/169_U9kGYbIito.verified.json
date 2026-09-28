@@ -628,7 +628,7 @@
    "container": "Perspectives on Psychological Science",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -651,7 +651,26 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "crossref_title",
+   "match": {
+    "source": "crossref",
+    "doi": "10.4324/9781315113371-9",
+    "title": "The Deliberate Practice View",
+    "year": 2017,
+    "first_author": "Macnamara",
+    "container": "The Science of Expertise",
+    "type": "book-chapter",
+    "score": 37.342857
+   },
+   "metrics": {
+    "title_sim": 90.19607843137254,
+    "containment": 0.667,
+    "partial_ratio": 75.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -803,5 +822,7 @@
    ],
    "likely_match": null
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

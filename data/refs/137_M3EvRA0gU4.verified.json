@@ -133,7 +133,7 @@
    "container": "Harvard Business Review",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -156,7 +156,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "dc5df9d6c1fb1bda4ef92395ba31040e68ade395",
+    "title": "Increasing returns and the new world of business.",
+    "year": 1996,
+    "first_author": "W. Arthur",
+    "container": "Harvard Business Review",
+    "ext": {
+     "MAG": "2400933615",
+     "CorpusId": 11739795,
+     "PubMed": "10158472"
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -292,7 +314,7 @@
    "container": null,
    "type": "book",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -315,7 +337,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "f738b6c3830f46cc63ae7bd8e82f3371ff60b44f",
+    "title": "The design of inquiring systems: basic concepts of systems and organization",
+    "year": 1971,
+    "first_author": "C. Churchman",
+    "container": "",
+    "ext": {
+     "MAG": "2107928912",
+     "DOI": "10.2307/1162585",
+     "CorpusId": 154575340
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -369,7 +413,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -396,7 +440,22 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "arxiv_id_repass",
+   "match": {
+    "source": "arxiv_abs",
+    "arxiv": "2005.01643",
+    "title": "Offline Reinforcement Learning: Tutorial, Review, and Perspectives on Open Problems",
+    "year": 2020,
+    "first_author": "Levine, Sergey"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": false
+   }
   },
   {
    "junk": false,
@@ -451,7 +510,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -484,7 +543,22 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "arxiv_id_repass",
+   "match": {
+    "source": "arxiv_abs",
+    "arxiv": "2501.05707",
+    "title": "Multiagent Finetuning: Self Improvement with Diverse Reasoning Chains",
+    "year": 2025,
+    "first_author": "Subramaniam, Vighnesh"
+   },
+   "metrics": {
+    "title_sim": 94.57364341085271,
+    "containment": 0.857,
+    "partial_ratio": 92.64705882352942,
+    "year_ok": true,
+    "first_author_ok": false
+   }
   },
   {
    "junk": false,
@@ -688,7 +762,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -721,7 +795,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "7878cafbdf57ebefd0dd9349f13b6cca082e3a19",
+    "title": "Advancements and Challenges in Continual Reinforcement Learning: A Comprehensive Review",
+    "year": 2025,
+    "first_author": "Amara Zuffer",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2506-21899",
+     "ArXiv": "2506.21899",
+     "DOI": "10.48550/arXiv.2506.21899",
+     "CorpusId": 280012029
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.714,
+    "partial_ratio": 80.70175438596492,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1088,7 +1185,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -1115,7 +1212,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "e1078aaf47cd70c95e05b11d29b2cfbb3b4f0168",
+    "title": "Multiagent Finetuning: Self Improvement with Diverse Reasoning Chains",
+    "year": 2025,
+    "first_author": "Vighnesh Subramaniam",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "DBLP": "conf/iclr/SubramaniamDT0025",
+     "ArXiv": "2501.05707",
+     "DOI": "10.48550/arXiv.2501.05707",
+     "CorpusId": 275458404
+    }
+   },
+   "metrics": {
+    "title_sim": 94.57364341085271,
+    "containment": 0.857,
+    "partial_ratio": 92.64705882352942,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1225,5 +1345,7 @@
    },
    "evidence": []
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

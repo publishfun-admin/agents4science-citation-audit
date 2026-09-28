@@ -1,0 +1,503 @@
+{
+ "pdf": "282_ioHldPPWKK.pdf",
+ "n_entries": 12,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "[1] Liang-Chieh Chen, George Papandreou, Iasonas Kokkinos, Kevin Murphy, and Alan L Yuille. Rethinking atrous convolution for semantic image segmentation. arXiv preprint arXiv:1706.05587, 2017.",
+   "title": "Rethinking atrous convolution for semantic image segmentation",
+   "authors": [
+    "Chen",
+    "Papandreou",
+    "Kokkinos",
+    "Murphy",
+    "Yuille"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": "1706.05587",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "1706.05587"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1016/j.procs.2025.08.020",
+      "title": "Atrous separable Kolmogorov-Arnold convolution for semantic image segmentation",
+      "year": 2025,
+      "first_author": "Wang",
+      "container": "Procedia Computer Science",
+      "type": "journal-article",
+      "score": 43.7568
+     },
+     "metrics": {
+      "title_sim": 90.09009009009009,
+      "containment": 0.625,
+      "partial_ratio": 71.7948717948718,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2] Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. Deep residual learning for image recognition. Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 770\u2013778, 2016.",
+   "title": "Deep residual learning for image recognition",
+   "authors": [
+    "He",
+    "Zhang",
+    "Ren",
+    "Sun"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/cvpr.2016.90",
+    "title": "Deep Residual Learning for Image Recognition",
+    "year": 2016,
+    "first_author": "He",
+    "container": "2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "type": "proceedings-article",
+    "score": 42.465828
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3] Jie Hu, Li Shen, and Gang Sun. Squeeze-and-excitation networks. Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 7132\u20137141, 2018.",
+   "title": "Squeeze-and-excitation networks",
+   "authors": [
+    "Hu",
+    "Shen",
+    "Sun"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/cvpr.2018.00745",
+    "title": "Squeeze-and-Excitation Networks",
+    "year": 2018,
+    "first_author": "Hu",
+    "container": "2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "type": "proceedings-article",
+    "score": 36.005478
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4] Gao Huang, Zhuang Liu, Laurens Van Der Maaten, and Kilian Q Weinberger. Densely connected convolutional networks. Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 4700\u20134708, 2017.",
+   "title": "Densely connected convolutional networks",
+   "authors": [
+    "Huang",
+    "Liu",
+    "Maaten",
+    "Weinberger"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.17504/protocols.io.8j6hure",
+    "title": "A Limit of Densely Connected Convolutional Networks v1",
+    "year": 2019,
+    "first_author": "Huang",
+    "container": "",
+    "type": "posted-content",
+    "score": 44.563335
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.8,
+    "partial_ratio": 81.4814814814815,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5] Jonathan Long, Evan Shelhamer, and Trevor Darrell. Fully convolutional networks for semantic segmentation. Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 3431\u20133440, 2015.",
+   "title": "Fully convolutional networks for semantic segmentation",
+   "authors": [
+    "Long",
+    "Shelhamer",
+    "Darrell"
+   ],
+   "year": 2015,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/cvpr.2015.7298965",
+    "title": "Fully convolutional networks for semantic segmentation",
+    "year": 2015,
+    "first_author": "Long",
+    "container": "2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "type": "proceedings-article",
+    "score": 47.91234
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[6] Ozan Oktay, Jo Schlemper, Loic Le Folgoc, Mattias Lee, Mattias Heinrich, Kazunari Misawa, Kensaku Mori, Steven McDonagh, Nils Hammerla, Bernhard Kainz, et al. Attention u-net: Learning where to look for the pancreas. arXiv preprint arXiv:1804.03999, 2018.",
+   "title": "Attention u-net: Learning where to look for the pancreas",
+   "authors": [
+    "Oktay",
+    "Schlemper",
+    "Folgoc",
+    "Lee",
+    "Heinrich",
+    "Misawa",
+    "Mori",
+    "McDonagh",
+    "Hammerla",
+    "Kainz"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": "1804.03999",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "1804.03999"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1142/9781860943850_0004",
+      "title": "Selective Attention: Where to Look",
+      "year": 2000,
+      "first_author": null,
+      "container": "Dynamic Vision",
+      "type": "book-chapter",
+      "score": 26.137691
+     },
+     "metrics": {
+      "title_sim": 82.14285714285714,
+      "containment": 0.75,
+      "partial_ratio": 66.66666666666667,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[7] Olaf Ronneberger, Philipp Fischer, and Thomas Brox. U-net: Convolutional networks for biomedical image segmentation. arXiv preprint arXiv:1505.04597, 2015.",
+   "title": "U-net: Convolutional networks for biomedical image segmentation",
+   "authors": [
+    "Ronneberger",
+    "Fischer",
+    "Brox"
+   ],
+   "year": 2015,
+   "doi": null,
+   "arxiv": "1505.04597",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "1505.04597",
+    "title": "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+    "year": 2015,
+    "first_author": "Olaf Ronneberger"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[8] Jo Schlemper, Ozan Oktay, Michiel Schaap, Mattias Heinrich, Bernhard Kainz, Ben Glocker, and Daniel Rueckert. Attention gated networks: Learning to leverage salient regions in medical images. Medical Image Analysis, 53:197\u2013207, 2019.",
+   "title": "Attention gated networks: Learning to leverage salient regions in medical images",
+   "authors": [
+    "Schlemper",
+    "Oktay",
+    "Schaap",
+    "Heinrich",
+    "Kainz",
+    "Glocker",
+    "Rueckert"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Medical Image Analysis",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.media.2019.01.012",
+    "title": "Attention gated networks: Learning to leverage salient regions in medical images",
+    "year": 2019,
+    "first_author": "Schlemper",
+    "container": "Medical Image Analysis",
+    "type": "journal-article",
+    "score": 75.039185
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[9] Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N Gomez, \u0141ukasz Kaiser, and Illia Polosukhin. Attention is all you need. Advances in Neural Information Processing Systems, pages 5998\u20136008, 2017.",
+   "title": "Attention is all you need",
+   "authors": [
+    "Vaswani",
+    "Shazeer",
+    "Parmar",
+    "Uszkoreit",
+    "Jones",
+    "Gomez",
+    "Kaiser",
+    "Polosukhin"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.65215/r5bs2d54",
+    "title": "Attention Is All You Need",
+    "year": 2025,
+    "first_author": "Vaswani",
+    "container": "",
+    "type": "posted-content",
+    "score": 43.621178
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[10] Xiaolong Wang, Ross Girshick, Abhinav Gupta, and Kaiming He. Non-local neural networks. Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 7794\u20137803, 2018.",
+   "title": "Non-local neural networks",
+   "authors": [
+    "Wang",
+    "Girshick",
+    "Gupta",
+    "He"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/cvpr.2018.00813",
+    "title": "Non-local Neural Networks",
+    "year": 2018,
+    "first_author": "Wang",
+    "container": "2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "type": "proceedings-article",
+    "score": 31.270224
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "[11] Sanghyun Woo, Jongchan Park, Joon-Young Lee, and In So Kweon. Cbam: Convolutional block attention module. Proceedings of the European Conference on Computer Vision, pages 3\u201319, 2018.",
+   "title": "Cbam: Convolutional block attention module",
+   "authors": [
+    "Woo",
+    "Park",
+    "Lee",
+    "Kweon"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the European Conference on Computer Vision",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/978-3-030-01234-2_1",
+    "title": "CBAM: Convolutional Block Attention Module",
+    "year": 2018,
+    "first_author": "Woo",
+    "container": "Lecture Notes in Computer Science",
+    "type": "book-chapter",
+    "score": 46.449768
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "[12] Hengshuang Zhao, Jianping Shi, Xiaojuan Qi, Xiaogang Wang, and Jiaya Jia. Pyramid scene parsing network. Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 2881\u20132890, 2017.",
+   "title": "Pyramid scene parsing network",
+   "authors": [
+    "Zhao",
+    "Shi",
+    "Qi",
+    "Wang",
+    "Jia"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/cvpr.2017.660",
+    "title": "Pyramid Scene Parsing Network",
+    "year": 2017,
+    "first_author": "Zhao",
+    "container": "2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "type": "proceedings-article",
+    "score": 44.392403
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  }
+ ]
+}

@@ -18,6 +18,8 @@ LINENUM_RX = re.compile(r'^(\s*)\d{1,3}(\s{2,})')
 CHECKLIST_RX = re.compile(r'^\s*(?:\d+\s+)?(?:neurips paper checklist|agents4science(?: ai involvement)? checklist|checklist|ai involvement checklist|appendix [a-z][:.]?\s*checklist)\s*$', re.I)
 REFHEAD_RX = re.compile(r'^\s*(?:\d+\s+)?(references|bibliography)\s*$', re.I)
 
+TWOCOL_RX = re.compile(r'\S.{9,}?\s{5,}\S')   # text, wide gap, text on one line
+
 def clean_layout_text(pdf):
     """pdftotext -layout, with review-template margin line numbers stripped and the trailing checklist removed."""
     txt = subprocess.run(['pdftotext', '-layout', '-enc', 'UTF-8', pdf, '-'], capture_output=True, text=True).stdout
@@ -33,11 +35,24 @@ def clean_layout_text(pdf):
         start = refidx[-1]
         for i in range(start + 1, len(lines)):
             if CHECKLIST_RX.match(lines[i]): lines = lines[:i]; break
-    return '\n'.join(lines), stripped
+    # two-column papers: -layout interleaves the columns (most lines carry text, a wide gap, then more text),
+    # which garbles every reference. Detect that at document level and use pdftotext's reading-order output instead.
+    gapped = sum(1 for l in nonempty if TWOCOL_RX.search(l))
+    two_col = len(nonempty) >= 50 and gapped / len(nonempty) >= 0.3
+    if two_col:
+        raw = subprocess.run(['pdftotext', '-enc', 'UTF-8', pdf, '-'], capture_output=True, text=True).stdout
+        rl = raw.split('\n')
+        if stripped: rl = [l for l in rl if not re.match(r'^\s*\d{1,3}\s*$', l)]
+        ridx2 = [i for i, l in enumerate(rl) if REFHEAD_RX.match(l)]
+        if ridx2:
+            for i in range(ridx2[-1] + 1, len(rl)):
+                if CHECKLIST_RX.match(rl[i]): rl = rl[:i]; break
+        lines = rl
+    return '\n'.join(lines), stripped, two_col
 
 def parse_pdf(pdf):
     import tempfile
-    text, stripped = clean_layout_text(pdf)
+    text, stripped, two_col = clean_layout_text(pdf)
     with tempfile.NamedTemporaryFile('w', suffix='.txt', delete=False) as tf:
         tf.write(text); txtpath = tf.name
     j = _run(['-f', 'json', 'find', txtpath])
@@ -111,7 +126,7 @@ def parse_pdf(pdf):
             'urls': urls, 'container': _first(rec.get('container-title')) or _first(rec.get('journal')),
             'type': _first(rec.get('type')), 'parser': ('anystyle-marker-guided' if fallback == 'marker-guided' else ('anystyle-parse' if fallback else 'anystyle-find')),
         })
-    return {'pdf': pdf, 'n_entries': len(entries), 'entries': entries, 'fallback': fallback, 'linenumbers_stripped': stripped, 'parser_version': 2}
+    return {'pdf': pdf, 'n_entries': len(entries), 'entries': entries, 'fallback': fallback, 'linenumbers_stripped': stripped, 'two_column': two_col, 'parser_version': 3}
 
 if __name__ == '__main__':
     for p in sys.argv[1:]:

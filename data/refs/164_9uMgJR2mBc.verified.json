@@ -139,7 +139,7 @@
    "container": "International Conference on Machine Learning",
    "type": "paper-conference",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -162,7 +162,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "d65ce2b8300541414bfe51d03906fca72e93523c",
+    "title": "On Calibration of Modern Neural Networks",
+    "year": 2017,
+    "first_author": "Chuan Guo",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "MAG": "2950953798",
+     "ArXiv": "1706.04599",
+     "DBLP": "conf/icml/GuoPSW17",
+     "CorpusId": 28671436
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -183,7 +206,7 @@
    "container": "Advances in Neural Information Processing Systems",
    "type": "chapter",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -206,7 +229,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "477e46461e3442220cd505f02b59195be016c747",
+    "title": "Nonlinear causal discovery with additive noise models",
+    "year": 2008,
+    "first_author": "P. Hoyer",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "DBLP": "conf/nips/HoyerJMPS08",
+     "MAG": "2165582599",
+     "CorpusId": 704137
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -225,7 +270,7 @@
    "container": "International Conference on Machine Learning",
    "type": "paper-conference",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -248,7 +293,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "6f55f2234a002c69001df8ef9108cb86f1dfa506",
+    "title": "Accurate Uncertainties for Deep Learning Using Calibrated Regression",
+    "year": 2018,
+    "first_author": "Volodymyr Kuleshov",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "DBLP": "journals/corr/abs-1807-00263",
+     "MAG": "2963081736",
+     "ArXiv": "1807.00263",
+     "CorpusId": 49559279
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -306,7 +374,7 @@
    "container": "Advances in Neural Information Processing Systems",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -329,7 +397,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "802168a81571dde28f5ddb94d84677bc007afa7b",
+    "title": "Simple and Scalable Predictive Uncertainty Estimation using Deep Ensembles",
+    "year": 2016,
+    "first_author": "Balaji Lakshminarayanan",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "MAG": "2560321925",
+     "DBLP": "journals/corr/Lakshminarayanan16c",
+     "ArXiv": "1612.01474",
+     "CorpusId": 6294674
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -350,7 +441,7 @@
    "container": "Journal of Machine Learning Research",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -373,7 +464,27 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "025a1a10674d6a1712e59f1fc4800da3b27cdf94",
+    "title": "Distinguishing Cause from Effect Using Observational Data: Methods and Benchmarks",
+    "year": 2014,
+    "first_author": "J. Peters",
+    "container": "Journal of machine learning research",
+    "ext": {
+     "CorpusId": 333683
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -506,7 +617,7 @@
    "container": "Journal of Machine Learning Research",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -529,7 +640,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "478e3b41718d8abcd7492a0dd4d18ae63e6709ab",
+    "title": "A Linear Non-Gaussian Acyclic Model for Causal Discovery",
+    "year": 2006,
+    "first_author": "Shohei Shimizu",
+    "container": "Journal of machine learning research",
+    "ext": {
+     "MAG": "2151226328",
+     "DBLP": "journals/jmlr/ShimizuHHK06",
+     "CorpusId": 15430624
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -744,7 +877,7 @@
    "container": "Advances in Neural Information Processing Systems",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -767,7 +900,32 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "8ef09697eca6a3201b1703a5a21722159cf64fcd",
+    "title": "DAGs with NO TEARS: Continuous Optimization for Structure Learning",
+    "year": 2018,
+    "first_author": "Xun Zheng",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "MAG": "2889900103",
+     "DBLP": "conf/nips/ZhengARX18",
+     "ArXiv": "1803.01422",
+     "CorpusId": 53217974
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

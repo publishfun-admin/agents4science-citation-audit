@@ -1,0 +1,528 @@
+{
+ "pdf": "245_UlGjJrW88p.pdf",
+ "n_entries": 13,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": false,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "[1] Zou Group. virtual-lab GitHub repository. Available at: https://github.com/zou-group/ virtual-lab (MIT License, commit from February 2025). Accessed August 28, 2025.",
+   "title": "virtual-lab GitHub repository",
+   "authors": [
+    "Group"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://github.com/zou-group/"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED_URL",
+   "via": "url",
+   "url_status": {
+    "https://github.com/zou-group/": 200
+   },
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.5281/zenodo.60356",
+      "title": "The Series Distance matlab code, GitHub repository,",
+      "year": 2016,
+      "first_author": null,
+      "container": "",
+      "type": "component",
+      "score": 29.747225
+     },
+     "metrics": {
+      "title_sim": 73.91304347826087,
+      "containment": 0.333,
+      "partial_ratio": 62.22222222222222,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2] T. Saito and M. Rehmsmeier. The precision\u2013recall plot is more informative than the ROC plot when evaluating binary classifiers on imbalanced datasets. PLoS ONE, 10(3):e0118432, 2015.",
+   "title": "The precision\u2013recall plot is more informative than the ROC plot when evaluating binary classifiers on imbalanced datasets",
+   "authors": [
+    "Saito",
+    "Rehmsmeier"
+   ],
+   "year": 2015,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "PLoS ONE",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1371/journal.pone.0118432",
+    "title": "The Precision-Recall Plot Is More Informative than the ROC Plot When Evaluating Binary Classifiers on Imbalanced Datasets",
+    "year": 2015,
+    "first_author": "Saito",
+    "container": "PLOS ONE",
+    "type": "journal-article",
+    "score": 125.86697
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3] C. Guo, G. Pleiss, Y. Sun, and K. Q. Weinberger. On calibration of modern neural networks. In Proceedings of the 34th International Conference on Machine Learning (ICML), pages 1321\u20131330, 2017. Also available at: arXiv:1706.04599.",
+   "title": "On calibration of modern neural networks",
+   "authors": [
+    "Guo",
+    "Pleiss",
+    "Sun",
+    "Weinberger"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": "1706.04599",
+   "urls": [],
+   "container": "Proceedings of the 34th International Conference on Machine Learning (ICML",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "1706.04599"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/978-3-319-59072-1_37",
+      "title": "Matrix Neural Networks",
+      "year": 2017,
+      "first_author": "Gao",
+      "container": "Lecture Notes in Computer Science",
+      "type": "book-chapter",
+      "score": 25.144045
+     },
+     "metrics": {
+      "title_sim": 81.08108108108108,
+      "containment": 0.667,
+      "partial_ratio": 81.81818181818181,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4] W. E. Johnson, C. Li, and A. Rabinovic. Adjusting batch effects in microarray expression data using empirical Bayes methods. Biostatistics, 8(1):118\u2013127, 2007.",
+   "title": "Adjusting batch effects in microarray expression data using empirical Bayes methods",
+   "authors": [
+    "Johnson",
+    "Li",
+    "Rabinovic"
+   ],
+   "year": 2007,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Biostatistics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1093/biostatistics/kxj037",
+    "title": "Adjusting batch effects in microarray expression data using empirical Bayes methods",
+    "year": 2007,
+    "first_author": "Johnson",
+    "container": "Biostatistics",
+    "type": "journal-article",
+    "score": 76.939186
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5] J. T. Leek and J. D. Storey. Capturing heterogeneity in gene expression studies by surrogate variable analysis. PLoS Genetics, 3(9):e161, 2007.",
+   "title": "Capturing heterogeneity in gene expression studies by surrogate variable analysis",
+   "authors": [
+    "Leek",
+    "Storey"
+   ],
+   "year": 2007,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "PLoS Genetics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1371/journal.pgen.0030161",
+    "title": "Capturing Heterogeneity in Gene Expression Studies by Surrogate Variable Analysis",
+    "year": 2007,
+    "first_author": "Leek",
+    "container": "PLoS Genetics",
+    "type": "journal-article",
+    "score": 68.08912
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[6] P. J. Rousseeuw. Silhouettes: A graphical aid to the interpretation and validation of cluster analysis. Journal of Computational and Applied Mathematics, 20:53\u201365, 1987.",
+   "title": "Silhouettes: A graphical aid to the interpretation and validation of cluster analysis",
+   "authors": [
+    "Rousseeuw"
+   ],
+   "year": 1987,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Computational and Applied Mathematics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/0377-0427(87)90125-7",
+    "title": "Silhouettes: A graphical aid to the interpretation and validation of cluster analysis",
+    "year": 1987,
+    "first_author": "Rousseeuw",
+    "container": "Journal of Computational and Applied Mathematics",
+    "type": "journal-article",
+    "score": 69.76629
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[7] Y. Zhang, G. Parmigiani, and W. E. Johnson. ComBat-seq: batch effect adjustment for RNA-seq count data. NAR Genomics and Bioinformatics, 2(3):lqaa078, 2020.",
+   "title": "ComBat-seq: batch effect adjustment for RNA-seq count data",
+   "authors": [
+    "Zhang",
+    "Parmigiani",
+    "Johnson"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "NAR Genomics and Bioinformatics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1101/2020.01.13.904730",
+    "title": "<i>ComBat-Seq</i>\n                  : batch effect adjustment for RNA-Seq count data",
+    "year": 2020,
+    "first_author": "Zhang",
+    "container": "",
+    "type": "posted-content",
+    "score": 89.348015
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 95.08196721311475,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[8] J. H. Won et al. Rotenone-induced impairment of mitochondrial electron transport chain complex I leads to ATP depletion and loss of mitochondrial membrane potential. International Journal of Molecular Sciences, 16(7):16610\u201316624, 2015.",
+   "title": "Rotenone-induced impairment of mitochondrial electron transport chain complex I leads to ATP depletion and loss of mitochondrial membrane potential",
+   "authors": [
+    "Won"
+   ],
+   "year": 2015,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Journal of Molecular Sciences",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1074/jbc.m115.667063",
+      "title": "Rotenone-induced Impairment of Mitochondrial Electron Transport Chain Confers a Selective Priming Signal for NLRP3 Inflammasome Activation",
+      "year": 2015,
+      "first_author": "Won",
+      "container": "Journal of Biological Chemistry",
+      "type": "journal-article",
+      "score": 58.380623
+     },
+     "metrics": {
+      "title_sim": 71.64179104477611,
+      "containment": 0.5,
+      "partial_ratio": 71.01449275362319,
+      "year_ok": true,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": {
+    "source": "crossref",
+    "doi": "10.1074/jbc.m115.667063",
+    "title": "Rotenone-induced Impairment of Mitochondrial Electron Transport Chain Confers a Selective Priming Signal for NLRP3 Inflammasome Activation",
+    "year": 2015,
+    "first_author": "Won",
+    "container": "Journal of Biological Chemistry",
+    "type": "journal-article",
+    "score": 58.380623
+   }
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[9] A. L. Misko, S. Jiang, I. Wegorzewska, J. Milbrandt, and R. H. Baloh. Mitofusin 2 is necessary for transport of axonal mitochondria and interacts with the Miro/Milton complex. Journal of Neuroscience, 30(12):4232\u20134240, 2010.",
+   "title": "Mitofusin 2 is necessary for transport of axonal mitochondria and interacts with the Miro/Milton complex",
+   "authors": [
+    "Misko",
+    "Jiang",
+    "Wegorzewska",
+    "Milbrandt",
+    "Baloh"
+   ],
+   "year": 2010,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Neuroscience",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1523/jneurosci.6248-09.2010",
+    "title": "Mitofusin 2 Is Necessary for Transport of Axonal Mitochondria and Interacts with the Miro/Milton Complex",
+    "year": 2010,
+    "first_author": "Misko",
+    "container": "The Journal of Neuroscience",
+    "type": "journal-article",
+    "score": 85.802704
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[10] W. J. H. Koopman et al. Partial complex I inhibition decreases mitochondrial motility and velocity. Biochimica et Biophysica Acta (BBA) \u2013 Bioenergetics, 1767(8):730\u2013741, 2007.",
+   "title": "Partial complex I inhibition decreases mitochondrial motility and velocity",
+   "authors": [
+    "Koopman"
+   ],
+   "year": 2007,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Biochimica et Biophysica Acta (BBA) \u2013 Bioenergetics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1371/journal.pone.0001066",
+      "title": "Hsp90 Inhibition Decreases Mitochondrial Protein Turnover",
+      "year": 2007,
+      "first_author": "Margineantu",
+      "container": "PLoS ONE",
+      "type": "journal-article",
+      "score": 26.545204
+     },
+     "metrics": {
+      "title_sim": 74.72527472527473,
+      "containment": 0.5,
+      "partial_ratio": 77.19298245614034,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "[11] V. Henrichs et al. Mitochondria-adaptor TRAK1 promotes kinesin-1-driven transport in crowded environments. Nature Communications, 11:3123, 2020.",
+   "title": "Mitochondria-adaptor TRAK1 promotes kinesin-1-driven transport in crowded environments",
+   "authors": [
+    "Henrichs"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature Communications",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1242/prelights.17071",
+    "title": "Mitochondria-adaptor TRAK1 promotes kinesin-1 driven transport in crowded environments",
+    "year": 2020,
+    "first_author": "Ananthanarayanan",
+    "container": "",
+    "type": "posted-content",
+    "score": 97.23714
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "[12] M. van Spronsen et al. TRAK/Milton motor-adaptor proteins steer mitochondrial trafficking to axons and dendrites. Neuron, 77(3):485\u2013502, 2013.",
+   "title": "TRAK/Milton motor-adaptor proteins steer mitochondrial trafficking to axons and dendrites",
+   "authors": [
+    "Spronsen"
+   ],
+   "year": 2013,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Neuron",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.3410/f.717977400.793486460",
+    "title": "Faculty Opinions recommendation of TRAK/Milton motor-adaptor proteins steer mitochondrial trafficking to axons and dendrites.",
+    "year": 2013,
+    "first_author": "Jan",
+    "container": "Faculty Opinions \u2013 Post-Publication Peer Review of the Biomedical Literature",
+    "type": "dataset",
+    "score": 92.33227
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.769,
+    "partial_ratio": 84.38818565400844,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "[13] E. E. Glater, L. J. Megeath, R. S. Stowers, and T. L. Schwarz. Axonal transport of mitochondria requires Milton to recruit kinesin heavy chains and is light-chain independent. Journal of Cell Biology, 173(4):545\u2013557, 2006.",
+   "title": "Axonal transport of mitochondria requires Milton to recruit kinesin heavy chains and is light-chain independent",
+   "authors": [
+    "Glater",
+    "Megeath",
+    "Stowers",
+    "Schwarz"
+   ],
+   "year": 2006,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Cell Biology",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1083/jcb.200601067",
+    "title": "Axonal transport of mitochondria requires milton to recruit kinesin heavy chain and is light chain independent",
+    "year": 2006,
+    "first_author": "Glater",
+    "container": "The Journal of Cell Biology",
+    "type": "journal-article",
+    "score": 96.68811
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 99.0909090909091,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  }
+ ]
+}

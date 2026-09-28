@@ -59,7 +59,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -82,7 +82,31 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "4cdf2fad22afc865999747336c7399fe422e6e8e",
+    "title": "Optuna: A Next-generation Hyperparameter Optimization Framework",
+    "year": 2019,
+    "first_author": "Takuya Akiba",
+    "container": "Knowledge Discovery and Data Mining",
+    "ext": {
+     "DBLP": "conf/kdd/AkibaSYOK19",
+     "MAG": "2962897394",
+     "ArXiv": "1907.10902",
+     "DOI": "10.1145/3292500.3330701",
+     "CorpusId": 196194314
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -101,7 +125,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -128,7 +152,22 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "arxiv_id_repass",
+   "match": {
+    "source": "arxiv_abs",
+    "arxiv": "1607.06450",
+    "title": "Layer Normalization",
+    "year": 2016,
+    "first_author": "Ba, Jimmy Lei"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   }
   },
   {
    "junk": false,
@@ -380,7 +419,7 @@
    "container": "ArXiv",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -407,7 +446,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "6baca6351dc55baac44f0416e74a7e0ba2bfd03e",
+    "title": "Visualizing the Loss Landscape of Neural Nets",
+    "year": 2017,
+    "first_author": "Hao Li",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "MAG": "2890400812",
+     "DBLP": "journals/corr/abs-1712-09913",
+     "ArXiv": "1712.09913",
+     "CorpusId": 3693334
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -429,7 +491,7 @@
    "container": "ArXiv",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -456,7 +518,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "4afa7896ad35c5fc65112dc586c7a3e90f0404f3",
+    "title": "Tune: A Research Platform for Distributed Model Selection and Training",
+    "year": 2018,
+    "first_author": "Richard Liaw",
+    "container": "arXiv.org",
+    "ext": {
+     "MAG": "2883265831",
+     "DBLP": "journals/corr/abs-1807-05118",
+     "ArXiv": "1807.05118",
+     "CorpusId": 49741140
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -509,7 +594,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -532,7 +617,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "84069287da0a6b488b8c933f3cb5be759cb6237e",
+    "title": "On the difficulty of training recurrent neural networks",
+    "year": 2012,
+    "first_author": "Razvan Pascanu",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "MAG": "2949190276",
+     "ArXiv": "1211.5063",
+     "DBLP": "conf/icml/PascanuMB13",
+     "CorpusId": 14650762
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -558,7 +666,7 @@
    "container": "Advances in neural information processing systems",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -581,7 +689,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "3c8a456509e6c0805354bd40a35e3f2dbf8069b1",
+    "title": "PyTorch: An Imperative Style, High-Performance Deep Learning Library",
+    "year": 2019,
+    "first_author": "Adam Paszke",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "MAG": "2970971581",
+     "ArXiv": "1912.01703",
+     "DBLP": "conf/nips/PaszkeGMLBCKLGA19",
+     "CorpusId": 202786778
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -603,7 +734,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -626,7 +757,28 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "9405cc0d6169988371b2755e573cc28650d14dfe",
+    "title": "Language Models are Unsupervised Multitask Learners",
+    "year": 2019,
+    "first_author": "Alec Radford",
+    "container": "",
+    "ext": {
+     "MAG": "2955855238",
+     "CorpusId": 160025533
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -671,5 +823,7 @@
    },
    "evidence": []
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

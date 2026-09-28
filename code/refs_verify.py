@@ -32,6 +32,8 @@ def http(url, headers=None, kind='json', max_tries=3, timeout=25):
             with urllib.request.urlopen(req, timeout=timeout) as r:
                 _last[host] = time.time()
                 body = r.read().decode('utf-8', 'replace')
+                if not body.strip():
+                    time.sleep(wait); wait = min(wait * 2, 20); continue        # empty response (e.g. arXiv API hiccup): retry, never cache
                 try:
                     val = json.loads(body) if kind == 'json' else body
                 except Exception:
@@ -272,8 +274,8 @@ def _accept_parsed(cand, e):
     year_ok = (ey is None or y is None or abs(int(y) - int(ey)) <= 1)
     fa = cand.get('first_author')
     fa_ok = None
-    if fa and e.get('authors'):
-        fa_ok = norm(fa).split()[-1] in {norm(a).split()[-1] for a in e['authors'] if norm(a)}
+    if fa and norm(fa).split() and e.get('authors'):
+        fa_ok = norm(fa).split()[-1] in {norm(a).split()[-1] for a in e['authors'] if norm(a).split()}
     elif fa:
         fa_ok = surname_in_entry(fa, e['raw'])
     ok = ((sim >= 92 and (year_ok or fa_ok)) or (sim >= 85 and year_ok and fa_ok) or

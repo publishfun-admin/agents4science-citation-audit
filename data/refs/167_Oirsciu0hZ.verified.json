@@ -1,0 +1,330 @@
+{
+ "pdf": "167_Oirsciu0hZ.pdf",
+ "n_entries": 7,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 2,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "[1] Carroll, S.C., Castellanos, M.E., Stevenson, R.A., & Henning, L. (2004) Incidence and risk factors for travellers\u2019 diarrhoea among short-term international adult travellers. Journal of Travel Medicine, 12(1).",
+   "title": "Incidence and risk factors for travellers\u2019 diarrhoea among short-term international adult travellers",
+   "authors": [
+    "Carroll",
+    "Castellanos",
+    "Stevenson",
+    "Henning"
+   ],
+   "year": 2004,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Travel Medicine",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1186/1471-2334-11-295",
+      "title": "Incidence, risk factors and treatment of diarrhoea among Dutch travellers: reasons not to routinely prescribe antibiotics",
+      "year": 2011,
+      "first_author": "Belderok",
+      "container": "BMC Infectious Diseases",
+      "type": "journal-article",
+      "score": 43.89278
+     },
+     "metrics": {
+      "title_sim": 75.177304964539,
+      "containment": 0.462,
+      "partial_ratio": 58.82352941176471,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2] European Commission. (2022) Proposal for a Regulation on the European Health Data Space. EUR-Lex. Retrieved from https://eur-lex.europa.eu/legal-content/EN/ TXT/?uri=CELEX:52022PC0197",
+   "title": "Proposal for a Regulation on the European Health Data Space",
+   "authors": [
+    "Commission"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://eur-lex.europa.eu/legal-content/EN/"
+   ],
+   "container": "EUR-Lex",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1136/ejhpharm-2022-003413",
+      "title": "European health data space proposal launched",
+      "year": 2022,
+      "first_author": "Kohl",
+      "container": "European Journal of Hospital Pharmacy",
+      "type": "journal-article",
+      "score": 33.09015
+     },
+     "metrics": {
+      "title_sim": 88.60759493670886,
+      "containment": 0.833,
+      "partial_ratio": 72.72727272727273,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    },
+    {
+     "step": "urls_not_live",
+     "url_status": {
+      "https://eur-lex.europa.eu/legal-content/EN/": 202
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3] Meng, X., et al. (2024) The application of large language models in medicine: A scoping review. iScience, 27(5).",
+   "title": "The application of large language models in medicine: A scoping review",
+   "authors": [
+    "Meng"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "iScience",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1186/s13020-026-01346-8",
+      "title": "Tuning and clinical application of large language models in Traditional Chinese Medicine: scoping review",
+      "year": 2026,
+      "first_author": "Han",
+      "container": "Chinese Medicine",
+      "type": "journal-article",
+      "score": 35.957695
+     },
+     "metrics": {
+      "title_sim": 95.45454545454545,
+      "containment": 0.636,
+      "partial_ratio": 72.91666666666667,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "6153c4652e415ce80104bd758e4c890244a1a282",
+    "title": "The application of large language models in medicine: A scoping review",
+    "year": 2024,
+    "first_author": "Xiangbin Meng",
+    "container": "iScience",
+    "ext": {
+     "PubMedCentral": "11091685",
+     "DOI": "10.1016/j.isci.2024.109713",
+     "CorpusId": 269354751,
+     "PubMed": "38746668"
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4] Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A.N., Kaiser, L., & Polosukhin, I. (2017) Attention Is All You Need. Advances in Neural Information Processing Systems, 30.",
+   "title": "Attention Is All You Need",
+   "authors": [
+    "Vaswani",
+    "Shazeer",
+    "Parmar",
+    "Uszkoreit",
+    "Jones",
+    "Gomez",
+    "Kaiser",
+    "Polosukhin"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.65215/r5bs2d54",
+    "title": "Attention Is All You Need",
+    "year": 2025,
+    "first_author": "Vaswani",
+    "container": "",
+    "type": "posted-content",
+    "score": 43.59537
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5] Griot, M., Hemptinne, C., Vanderdonckt, J., & Yuksel, D. (2024) Impact of high-quality, mixeddomain data on the performance of medical language models. Journal of the American Medical Informatics Association, 31(9), 1875-1883.",
+   "title": "Impact of high-quality, mixeddomain data on the performance of medical language models",
+   "authors": [
+    "Griot",
+    "Hemptinne",
+    "Vanderdonckt",
+    "Yuksel"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of the American Medical Informatics Association",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1093/jamia/ocae120",
+    "title": "Impact of high-quality, mixed-domain data on the performance of medical language models",
+    "year": 2024,
+    "first_author": "Griot",
+    "container": "Journal of the American Medical Informatics Association",
+    "type": "journal-article",
+    "score": 49.829422
+   },
+   "metrics": {
+    "title_sim": 99.41520467836258,
+    "containment": 0.8,
+    "partial_ratio": 98.83720930232558,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[6] Pal, A., & Sankarasubbu, M. (2024) OpenBioLLMs: Advancing Open-Source Large Language Models for Healthcare and Life Sciences. Saama AI Labs Technical Report.",
+   "title": "OpenBioLLMs: Advancing Open-Source Large Language Models for Healthcare and Life Sciences",
+   "authors": [
+    "Pal",
+    "Sankarasubbu"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.21275/sr26726161252",
+      "title": "Comparative Study of Open-Source Large Language Models",
+      "year": 2026,
+      "first_author": "Tiwari",
+      "container": "International Journal of Science and Research (IJSR)",
+      "type": "journal-article",
+      "score": 36.805813
+     },
+     "metrics": {
+      "title_sim": 75.86206896551724,
+      "containment": 0.714,
+      "partial_ratio": 72.22222222222221,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[7] Labrak, Y., et al. (2024) BioMistral: A Collection of Open-Source Pretrained Large Language Models for Medical Domains. arXiv:2402.10373.",
+   "title": "BioMistral: A Collection of Open-Source Pretrained Large Language Models for Medical Domains",
+   "authors": [
+    "Labrak"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2402.10373",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2024.findings-acl.348",
+    "title": "BioMistral: A Collection of Open-Source Pretrained Large Language Models for Medical Domains",
+    "year": 2024,
+    "first_author": "Labrak",
+    "container": "Findings of the Association for Computational Linguistics ACL 2024",
+    "type": "proceedings-article",
+    "score": 82.78175
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2402.10373"
+    }
+   ]
+  }
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
+}

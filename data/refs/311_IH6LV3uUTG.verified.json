@@ -1,0 +1,198 @@
+{
+ "pdf": "311_IH6LV3uUTG.pdf",
+ "n_entries": 5,
+ "fallback": "marker-guided",
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "Shigeru Kondo and Takashi Miura. Reaction-diffusion model as a framework for understanding biological pattern formation. Science, 329(5999):1616\u20131620, 2010.",
+   "title": "Reaction-diffusion model as a framework for understanding biological pattern formation",
+   "authors": [
+    "Kondo",
+    "Miura"
+   ],
+   "year": 2010,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Science",
+   "type": "article-journal",
+   "parser": "anystyle-marker-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1126/science.1179047",
+    "title": "Reaction-Diffusion Model as a Framework for Understanding Biological Pattern Formation",
+    "year": 2010,
+    "first_author": "Kondo",
+    "container": "Science",
+    "type": "journal-article",
+    "score": 60.341797
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "Takashi Miura and Philip K. Maini. Modeling and analysis of cell-cell interaction patterns in biological systems. HFSP Journal, 1(1):58\u201366, 2006.",
+   "title": "Modeling and analysis of cell-cell interaction patterns in biological systems",
+   "authors": [
+    "Miura",
+    "Maini"
+   ],
+   "year": 2006,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "HFSP Journal",
+   "type": "article-journal",
+   "parser": "anystyle-marker-guided",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/vppc.2006.364277",
+      "title": "Modeling and Analysis of Hybrid Fuel Cell Systems for Vehicular Applications",
+      "year": 2006,
+      "first_author": "Abedini",
+      "container": "2006 IEEE Vehicle Power and Propulsion Conference",
+      "type": "proceedings-article",
+      "score": 28.529978
+     },
+     "metrics": {
+      "title_sim": 68.91891891891892,
+      "containment": 0.5,
+      "partial_ratio": 59.210526315789465,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "John E. Pearson. Complex patterns in a simple system. Science, 261(5118):189\u2013192, 1993.",
+   "title": "Complex patterns in a simple system",
+   "authors": [
+    "Pearson"
+   ],
+   "year": 1993,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Science",
+   "type": "article-journal",
+   "parser": "anystyle-marker-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1126/science.261.5118.189",
+    "title": "Complex Patterns in a Simple System",
+    "year": 1993,
+    "first_author": "Pearson",
+    "container": "Science",
+    "type": "journal-article",
+    "score": 41.70566
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "A. M. Turing. The chemical basis of morphogenesis. Philosophical Transactions of the Royal Society of London. Series B, Biological Sciences, 237(641):37\u201372, 1952.",
+   "title": "The chemical basis of morphogenesis",
+   "authors": [
+    "Turing"
+   ],
+   "year": 1952,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Philosophical Transactions of the Royal Society of London. Series B, Biological Sciences",
+   "type": "article-journal",
+   "parser": "anystyle-marker-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1093/oso/9780198250791.003.0022",
+    "title": "The Chemical Basis of Morphogenesis (1952)",
+    "year": 2004,
+    "first_author": "Turing",
+    "container": "The Essential Turing",
+    "type": "book-chapter",
+    "score": 49.558903
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 90.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "C. Varea, J. L. Arag\u00f3n, and R. A. Barrio. Turing patterns on a growing domain. Physical Review E, 60(4):4588\u20134592, 1999. 7 Agents4Science Paper Checklist 1. Claims Question: Do the main claims made in the abstract and introduction accurately reflect the paper\u2019s contributions and scope? Answer: [Yes] Justification: As far as I read the paper, it looks OK. Guidelines: \u2022 The answer NA means that the abstract and introduction do not include the claims made in the paper. \u2022 The abstract and/or introduction should clearly state the claims made, including the contributions made in the paper and important assumptions and limitations. A No or NA answer to this question will not be perceived well by the reviewers. \u2022 The claims made should match theoretical and experimental results, and reflect how much the results can be expected to generalize to other settings. \u2022 It is fine to include aspirational goals as motivation as long as it is clear that these goals are not attained by the paper. 2. Limitations Question: Does the paper discuss the limitations of the work performed by the authors? Answer: [Yes] Justification: The limitation is written in the discussion section. Guidelines: \u2022 The answer NA means that the paper has no limitation while the answer No means that the paper has limitations, but those are not discussed in the paper. \u2022 The authors are encouraged to create a separate \"Limitations\" section in their paper. \u2022 The paper should point out any strong assumptions and how robust the results are to violations of these assumptions (e.g., independence assumptions, noiseless settings, model well-specification, asymptotic approximations only holding locally). The authors should reflect on how these assumptions might be violated in practice and what the implications would be. \u2022 The authors should reflect on the scope of the claims made, e.g., if the approach was only tested on a few datasets or with a few runs. In general, empirical results often depend on implicit assumptions, which should be articulated. \u2022 The authors should reflect on the factors that influence the performance of the approach. For example, a facial recognition algorithm may perform poorly when image resolution is low or images are taken in low lighting. \u2022 The authors should discuss the computational efficiency of the proposed algorithms and how they scale with dataset size. \u2022 If applicable, the authors should discuss possible limitations of their approach to address problems of privacy and fairness. \u2022 While the authors might fear that complete honesty about limitations might be used by reviewers as grounds for rejection, a worse outcome might be that reviewers discover limitations that aren\u2019t acknowledged in the paper. Reviewers will be specifically instructed to not penalize honesty concerning limitations. 3. Theory assumptions and proofs Question: For each theoretical result, does the paper provide the full set of assumptions and a complete (and correct) proof? Answer: [Yes] Justification: As far as I read the paper, it looks OK. Guidelines: \u2022 The answer NA means that the paper does not include theoretical results. 8 \u2022 All the theorems, formulas, and proofs in the paper should be numbered and cross- referenced. \u2022 All assumptions should be clearly stated or referenced in the statement of any theorems. \u2022 The proofs can either appear in the main paper or the supplemental material, but if they appear in the supplemental material, the authors are encouraged to provide a short proof sketch to provide intuition. 4. Experimental result reproducibility Question: Does the paper fully disclose all the information needed to reproduce the main ex- perimental results of the paper to the extent that it affects the main claims and/or conclusions of the paper (regardless of whether the code and data are provided or not)? Answer: [Yes] Justification: The source code to run the simulation of the research is avaiable. Guidelines: \u2022 The answer NA means that the paper does not include experiments. \u2022 If the paper includes experiments, a No answer to this question will not be perceived well by the reviewers: Making the paper reproducible is important. \u2022 If the contribution is a dataset and/or model, the authors should describe the steps taken to make their results reproducible or verifiable. \u2022 We recognize that reproducibility may be tricky in some cases, in which case authors are welcome to describe the particular way they provide for reproducibility. In the case of closed-source models, it may be that access to the model is limited in some way (e.g., to registered users), but it should be possible for other researchers to have some path to reproducing or verifying the results. 5. Open access to data and code Question: Does the paper provide open access to the data and code, with sufficient instruc- tions to faithfully reproduce the main experimental results, as described in supplemental material? Answer: [NA] . Justification: No data are used. The code is avaiable in my local condition. Guidelines: \u2022 The answer NA means that paper does not include experiments requiring code. \u2022 Please see the Agents4Science code and data submission guidelines on the conference website for more details. \u2022 While we encourage the release of code and data, we understand that this might not be possible, so \u201cNo\u201d is an acceptable answer. Papers cannot be rejected simply for not including code, unless this is central to the contribution (e.g., for a new open-source benchmark). \u2022 The instructions should contain the exact command and environment needed to run to reproduce the results. \u2022 At submission time, to preserve anonymity, the authors should release anonymized versions (if applicable). 6. Experimental setting/details Question: Does the paper specify all the training and test details (e.g., data splits, hyper- parameters, how they were chosen, type of optimizer, etc.) necessary to understand the results? Answer:[NA] . Justification: traning data are not used. Guidelines: \u2022 The answer NA means that the paper does not include experiments. \u2022 The experimental setting should be presented in the core of the paper to a level of detail that is necessary to appreciate the results and make sense of them. 9 \u2022 The full details can be provided either with the code, in appendix, or as supplemental material. 7. Experiment statistical significance Question: Does the paper report error bars suitably and correctly defined or other appropriate information about the statistical significance of the experiments? Answer: [NA] . Justification: There are no statistical data. Guidelines: \u2022 The answer NA means that the paper does not include experiments. \u2022 The authors should answer \"Yes\" if the results are accompanied by error bars, confi- dence intervals, or statistical significance tests, at least for the experiments that support the main claims of the paper. \u2022 The factors of variability that the error bars are capturing should be clearly stated (for example, train/test split, initialization, or overall run with given experimental conditions). 8. Experiments compute resources Question: For each experiment, does the paper provide sufficient information on the com- puter resources (type of compute workers, memory, time of execution) needed to reproduce the experiments? Answer: [No] Justification: No, the computation were run on a laptop. Guidelines: \u2022 The answer NA means that the paper does not include experiments. \u2022 The paper should indicate the type of compute workers CPU or GPU, internal cluster, or cloud provider, including relevant memory and storage. \u2022 The paper should provide the amount of compute required for each of the individual experimental runs as well as estimate the total compute. 9. Code of ethics Question: Does the research conducted in the paper conform, in every respect, with the Agents4Science Code of Ethics (see conference website)? Answer: [Yes] Justification:As far as I read the paper, it looks OK. Guidelines: \u2022 The answer NA means that the authors have not reviewed the Agents4Science Code of Ethics. \u2022 If the authors answer No, they should explain the special circumstances that require a deviation from the Code of Ethics. 10. Broader impacts Question: Does the paper discuss both potential positive societal impacts and negative societal impacts of the work performed? Answer: [Yes] Justification: It is somehow written in the discussion. Guidelines: \u2022 The answer NA means that there is no societal impact of the work performed. \u2022 If the authors answer NA or No, they should explain why their work has no societal impact or why the paper does not address societal impact. \u2022 Examples of negative societal impacts include potential malicious or unintended uses (e.g., disinformation, generating fake profiles, surveillance), fairness considerations, privacy considerations, and security considerations. \u2022 If there are negative societal impacts, the authors could also discuss possible mitigation strategies. 10",
+   "title": "Turing patterns on a growing domain",
+   "authors": [
+    "Varea",
+    "Arag\u00f3n",
+    "Barrio"
+   ],
+   "year": 1999,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Answer: [NA] . Justification: No data are used. The code is avaiable in my local condition. Guidelines: \u2022 The answer NA means that paper does not include experiments requiring code. \u2022 Please see the Agents4Science code and data submission guidelines on the conference website for more details",
+   "type": "article-journal",
+   "parser": "anystyle-marker-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1103/physreve.60.4588",
+    "title": "Turing patterns on a sphere",
+    "year": 1999,
+    "first_author": "Varea",
+    "container": "Physical Review E",
+    "type": "journal-article",
+    "score": 34.44629
+   },
+   "metrics": {
+    "title_sim": 85.1063829787234,
+    "containment": 0.667,
+    "partial_ratio": 81.4814814814815,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  }
+ ]
+}

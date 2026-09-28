@@ -505,7 +505,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -532,7 +532,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "104b0bb1da562d53cbda87aec79ef6a2827d191a",
+    "title": "Llama 2: Open Foundation and Fine-Tuned Chat Models",
+    "year": 2023,
+    "first_author": "Hugo Touvron",
+    "container": "arXiv.org",
+    "ext": {
+     "ArXiv": "2307.09288",
+     "DBLP": "journals/corr/abs-2307-09288",
+     "CorpusId": 259950998
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -645,5 +667,7 @@
    },
    "evidence": []
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

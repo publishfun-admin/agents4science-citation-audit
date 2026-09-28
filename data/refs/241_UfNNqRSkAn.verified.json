@@ -1,0 +1,731 @@
+{
+ "pdf": "241_UfNNqRSkAn.pdf",
+ "n_entries": 17,
+ "fallback": "marker-guided",
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "European Medicines Agency. European public assessment reports (epar): structure and content. Available at https://www.ema.europa.eu/en/medicines/european-public-assessment- reports, 2025. Accessed 16 September 2025.",
+   "title": "European public assessment reports (epar): structure and content",
+   "authors": [
+    "Agency"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://www.ema.europa.eu/en/medicines/european-public-assessment-"
+   ],
+   "container": "reports",
+   "type": "article-journal",
+   "parser": "anystyle-marker-guided",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/978-3-211-89836-9_516",
+      "title": "European Public Assessment Report (EPAR)",
+      "year": 2009,
+      "first_author": "Nahler",
+      "container": "Dictionary of Pharmaceutical Medicine",
+      "type": "book-chapter",
+      "score": 31.712564
+     },
+     "metrics": {
+      "title_sim": 89.85507246376811,
+      "containment": 0.8,
+      "partial_ratio": 97.36842105263158,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    },
+    {
+     "step": "urls_not_live",
+     "url_status": {
+      "https://www.ema.europa.eu/en/medicines/european-public-assessment-": 404
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "U.S. Food and Drug Administration. FDA adverse event reporting system (faers). Available at https://www.fda.gov/drugs/surveillance/fda-adverse-event-reporting-system-faers, 2025. Ac- cessed 16 September 2025.",
+   "title": "FDA adverse event reporting system (faers",
+   "authors": [
+    "Food",
+    "Administration"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://www.fda.gov/drugs/surveillance/fda-adverse-event-reporting-system-faers"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-marker-guided",
+   "verdict": "VERIFIED_URL",
+   "via": "url",
+   "url_status": {
+    "https://www.fda.gov/drugs/surveillance/fda-adverse-event-reporting-system-faers": 200
+   },
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1201/9781003615323-4",
+      "title": "Search and Analysis of the Food and Drug Administration's FDA Adverse Event Reporting System (FAERS)",
+      "year": 2025,
+      "first_author": "Danese",
+      "container": "O'Donnell's Drug Injury",
+      "type": "book-chapter",
+      "score": 58.598026
+     },
+     "metrics": {
+      "title_sim": 57.971014492753625,
+      "containment": 0.818,
+      "partial_ratio": 84.21052631578947,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "Michael Kuhn, Ivica Letunic, Lars Juhl Jensen, and Peer Bork. The SIDER database of drugs and side effects. Nucleic Acids Research, 44(D1):D1075\u2013D1079, 2016.",
+   "title": "The SIDER database of drugs and side effects",
+   "authors": [
+    "Kuhn",
+    "Letunic",
+    "Jensen",
+    "Bork"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nucleic Acids Research",
+   "type": "article-journal",
+   "parser": "anystyle-marker-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1093/nar/gkv1075",
+    "title": "The SIDER database of drugs and side effects",
+    "year": 2016,
+    "first_author": "Kuhn",
+    "container": "Nucleic Acids Research",
+    "type": "journal-article",
+    "score": 47.052246
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "Yonghyun Kim and et al. TOXRIC: a comprehensive toxicology knowledgebase. Nucleic Acids Research, 51(D1):D1502\u2013D1510, 2023.",
+   "title": "TOXRIC: a comprehensive toxicology knowledgebase",
+   "authors": [
+    "and"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nucleic Acids Research",
+   "type": "article-journal",
+   "parser": "anystyle-marker-guided",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1021/acs.jcim.4c02214.s001",
+      "title": "ASVirus: A Comprehensive Knowledgebase for the Viral Alternative Splicing",
+      "year": 2025,
+      "first_author": null,
+      "container": "",
+      "type": "component",
+      "score": 25.18007
+     },
+     "metrics": {
+      "title_sim": 76.3157894736842,
+      "containment": 0.333,
+      "partial_ratio": 56.94444444444444,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "E. G. Brown, L. Wood, and S. Wood. The medical dictionary for regulatory activities (meddra). Drug Safety, 20(2):109\u2013117, 1999.",
+   "title": "The medical dictionary for regulatory activities (meddra",
+   "authors": [
+    "Brown",
+    "Wood",
+    "Wood"
+   ],
+   "year": 1999,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Drug Safety",
+   "type": "article-journal",
+   "parser": "anystyle-marker-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.2165/00002018-199920020-00002",
+    "title": "The Medical Dictionary for Regulatory Activities (MedDRA)",
+    "year": 1999,
+    "first_author": "Brown",
+    "container": "Drug Safety",
+    "type": "journal-article",
+    "score": 51.165257
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "Robert G. Newcombe. Two-sided confidence intervals for the single proportion: comparison of seven methods. Statistics in Medicine, 17(8):857\u2013872, 1998.",
+   "title": "Two-sided confidence intervals for the single proportion: comparison of seven methods",
+   "authors": [
+    "Newcombe"
+   ],
+   "year": 1998,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Statistics in Medicine",
+   "type": "article-journal",
+   "parser": "anystyle-marker-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1002/(sici)1097-0258(19980430)17:8<857::aid-sim777>3.0.co;2-e",
+    "title": "Two-sided confidence intervals for the single proportion: comparison of seven methods",
+    "year": 1998,
+    "first_author": "Newcombe",
+    "container": "Statistics in Medicine",
+    "type": "journal-article",
+    "score": 81.05755
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "Bradley Efron. Bootstrap methods: another look at the jackknife. Annals of Statistics, 7(1): 1\u201326, 1979. 6",
+   "title": "Bootstrap methods: another look at the jackknife",
+   "authors": [
+    "Efron"
+   ],
+   "year": 1979,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Annals of Statistics",
+   "type": "article-journal",
+   "parser": "anystyle-marker-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1214/aos/1176344552",
+    "title": "Bootstrap Methods: Another Look at the Jackknife",
+    "year": 1979,
+    "first_author": "Efron",
+    "container": "The Annals of Statistics",
+    "type": "journal-article",
+    "score": 68.31929
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "Barry D. Kahan and Rapamune US Study Group. Efficacy of sirolimus compared with aza- thioprine for reduction of acute renal allograft rejection: a randomised multicentre study. The Lancet, 356(9225):194\u2013202, 2000. doi: 10.1016/S0140-6736(00)02480-6.",
+   "title": "Efficacy of sirolimus compared with aza- thioprine for reduction of acute renal allograft rejection: a randomised multicentre study",
+   "authors": [
+    "Kahan",
+    "Group"
+   ],
+   "year": 2000,
+   "doi": "10.1016/S0140-6736(00)02480-6",
+   "arxiv": null,
+   "urls": [],
+   "container": "The Lancet",
+   "type": "article-journal",
+   "parser": "anystyle-marker-guided",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/s0140-6736(00)02480-6",
+    "title": "Efficacy of sirolimus compared with azathioprine for reduction of acute renal allograft rejection: a randomised multicentre study",
+    "year": 2000,
+    "first_author": "Kahan",
+    "container": "The Lancet",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 99.61089494163424,
+    "containment": 0.917,
+    "partial_ratio": 99.21875,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "A. S. MacDonald and Rapamune Global Study Group. A worldwide, phase III, randomized, controlled, safety and efficacy study of a sirolimus/cyclosporine regimen for prevention of acute rejection in recipients of primary mismatched renal allografts. Transplantation, 71(2): 271\u2013280, 2001. doi: 10.1097/00007890-200101270-00019.",
+   "title": "A worldwide, phase III, randomized, controlled, safety and efficacy study of a sirolimus/cyclosporine regimen for prevention of acute rejection in recipients of primary mismatched renal allografts",
+   "authors": [
+    "MacDonald",
+    "Group"
+   ],
+   "year": 2001,
+   "doi": "10.1097/00007890-200101270-00019",
+   "arxiv": null,
+   "urls": [],
+   "container": "Transplantation",
+   "type": "article-journal",
+   "parser": "anystyle-marker-guided",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1097/00007890-200101270-00019",
+    "title": "A WORLDWIDE, PHASE III, RANDOMIZED, CONTROLLED, SAFETY AND EFFICACY STUDY OF A SIROLIMUS/CYCLOSPORINE REGIMEN FOR PREVENTION OF ACUTE REJECTION IN RECIPIENTS OF PRIMARY MISMATCHED RENAL ALLOGRAFTS",
+    "year": 2001,
+    "first_author": "MacDonald",
+    "container": "Transplantation",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "R. Oberbauer and Rapamune Maintenance Regimen Study Group. Long-term improvement in renal function with sirolimus after early cyclosporine withdrawal in renal transplant recipients: 2-year results. Transplantation, 76(2):364\u2013370, 2003. doi: 10.1097/01.TP.0000074360.62032. 39.",
+   "title": "Long-term improvement in renal function with sirolimus after early cyclosporine withdrawal in renal transplant recipients: 2-year results",
+   "authors": [
+    "Oberbauer",
+    "Group"
+   ],
+   "year": 2003,
+   "doi": "10.1097/01.TP.0000074360.62032",
+   "arxiv": null,
+   "urls": [],
+   "container": "Transplantation",
+   "type": "article-journal",
+   "parser": "anystyle-marker-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1097/01.tp.0000074360.62032.39",
+    "title": "Long-term improvement in renal function with sirolimus after early cyclosporine withdrawal in renal transplant recipients: 2-year results of the rapamune maintenance regimen study1 2",
+    "year": 2003,
+    "first_author": "Oberbauer",
+    "container": "Transplantation",
+    "type": "journal-article",
+    "score": 91.841156
+   },
+   "metrics": {
+    "title_sim": 85.8044164037855,
+    "containment": 0.947,
+    "partial_ratio": 83.42541436464089,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "doi_not_resolvable",
+     "doi": "10.1097/01.TP.0000074360.62032"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "Francis X. McCormack and et al. Efficacy and safety of sirolimus in lymphangioleiomy- omatosis. New England Journal of Medicine, 364(17):1595\u20131606, 2011. doi: 10.1056/ NEJMoa1100391.",
+   "title": "Efficacy and safety of sirolimus in lymphangioleiomy- omatosis",
+   "authors": [
+    "and"
+   ],
+   "year": 2011,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "New England Journal of Medicine",
+   "type": "article-journal",
+   "parser": "anystyle-marker-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1056/nejmc1106358",
+    "title": "Efficacy and Safety of Sirolimus in Lymphangioleiomyomatosis",
+    "year": 2011,
+    "first_author": null,
+    "container": "New England Journal of Medicine",
+    "type": "journal-article",
+    "score": 28.50652
+   },
+   "metrics": {
+    "title_sim": 99.17355371900827,
+    "containment": 0.75,
+    "partial_ratio": 98.33333333333333,
+    "year_ok": true,
+    "first_author_ok": null
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "Francis X. McCormack, Nishant Gupta, Gregory R. Finlay, and et al. Official ats/jrs clini- cal practice guidelines: Lymphangioleiomyomatosis. American Journal of Respiratory and Critical Care Medicine, 194(6):748\u2013761, 2016. doi: 10.1164/rccm.201607-1384ST.",
+   "title": "Official ats/jrs clini- cal practice guidelines: Lymphangioleiomyomatosis",
+   "authors": [
+    "McCormack",
+    "Gupta",
+    "Finlay"
+   ],
+   "year": 2016,
+   "doi": "10.1164/rccm.201607-1384ST",
+   "arxiv": null,
+   "urls": [],
+   "container": "American Journal of Respiratory and Critical Care Medicine",
+   "type": "article-journal",
+   "parser": "anystyle-marker-guided",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "doi_resolves_title_mismatch",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1164/rccm.201607-1384st",
+      "title": "Official American Thoracic Society/Japanese Respiratory Society Clinical Practice Guidelines: Lymphangioleiomyomatosis Diagnosis and Management",
+      "year": 2016,
+      "first_author": "McCormack",
+      "container": "American Journal of Respiratory and Critical Care Medicine",
+      "type": "journal-article",
+      "score": 1
+     },
+     "metrics": {
+      "title_sim": 65.72769953051643,
+      "containment": 0.462,
+      "partial_ratio": 63.38028169014085,
+      "year_ok": true,
+      "first_author_ok": true
+     }
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1164/rccm.201702-0272le",
+      "title": "The ATS/JRS Guidelines on Lymphangioleiomyomatosis: Filling in the Gaps",
+      "year": 2017,
+      "first_author": "Harari",
+      "container": "American Journal of Respiratory and Critical Care Medicine",
+      "type": "journal-article",
+      "score": 39.670483
+     },
+     "metrics": {
+      "title_sim": 78.89908256880734,
+      "containment": 0.667,
+      "partial_ratio": 67.14285714285715,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "Bruce Kaplan, Yasir Qazi, and Jason R. Wellen. Strategies for the management of adverse events associated with mTOR inhibitors. Transplantation Reviews, 28(3):126\u2013133, 2014. doi: 10.1016/j.trre.2014.03.002.",
+   "title": "Strategies for the management of adverse events associated with mTOR inhibitors",
+   "authors": [
+    "Kaplan",
+    "Qazi",
+    "Wellen"
+   ],
+   "year": 2014,
+   "doi": "10.1016/j.trre.2014.03.002",
+   "arxiv": null,
+   "urls": [],
+   "container": "Transplantation Reviews",
+   "type": "article-journal",
+   "parser": "anystyle-marker-guided",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.trre.2014.03.002",
+    "title": "Strategies for the management of adverse events associated with mTOR inhibitors",
+    "year": 2014,
+    "first_author": "Kaplan",
+    "container": "Transplantation Reviews",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "Laurent S. Nguyen, Me\u0301lanie Vautier, Yann Allenbach, and et al. Sirolimus and everolimus in solid organ transplantation: safety profile and synthesis of adverse events. Drug Safety, 42(7): 813\u2013825, 2019. doi: 10.1007/s40264-019-00806-8.",
+   "title": "Sirolimus and everolimus in solid organ transplantation: safety profile and synthesis of adverse events",
+   "authors": [
+    "Nguyen",
+    "Vautier",
+    "Allenbach"
+   ],
+   "year": 2019,
+   "doi": "10.1007/s40264-019-00806-8",
+   "arxiv": null,
+   "urls": [],
+   "container": "Drug Safety",
+   "type": "article-journal",
+   "parser": "anystyle-marker-guided",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "doi_not_resolvable",
+     "doi": "10.1007/s40264-019-00806-8"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/s40278-026-96829-3",
+      "title": "Tacrolimus combined with everolimus versus sirolimus in organ transplantation: adverse-event profiles compared",
+      "year": 2026,
+      "first_author": null,
+      "container": "Reactions Weekly",
+      "type": "journal-article",
+      "score": 45.087315
+     },
+     "metrics": {
+      "title_sim": 76.32850241545894,
+      "containment": 0.455,
+      "partial_ratio": 64.22018348623853,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "Owen Johnston and et al. Sirolimus is associated with new-onset proteinuria in kidney trans- plant recipients. Journal of the American Society of Nephrology, 19(7):1411\u20131418, 2008. doi: 10.1681/ASN.2007111202.",
+   "title": "Sirolimus is associated with new-onset proteinuria in kidney trans- plant recipients",
+   "authors": [
+    "and"
+   ],
+   "year": 2008,
+   "doi": "10.1681/ASN.2007111202",
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of the American Society of Nephrology",
+   "type": "article-journal",
+   "parser": "anystyle-marker-guided",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "doi_resolves_title_mismatch",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1681/asn.2007111202",
+      "title": "Sirolimus Is Associated with New-Onset Diabetes in Kidney Transplant Recipients",
+      "year": 2008,
+      "first_author": "Johnston",
+      "container": "Journal of the American Society of Nephrology",
+      "type": "journal-article",
+      "score": 1
+     },
+     "metrics": {
+      "title_sim": 90.12345679012346,
+      "containment": 0.75,
+      "partial_ratio": 87.34177215189874,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1681/asn.2007111202",
+      "title": "Sirolimus Is Associated with New-Onset Diabetes in Kidney Transplant Recipients",
+      "year": 2008,
+      "first_author": "Johnston",
+      "container": "Journal of the American Society of Nephrology",
+      "type": "journal-article",
+      "score": 42.900578
+     },
+     "metrics": {
+      "title_sim": 90.12345679012346,
+      "containment": 0.75,
+      "partial_ratio": 87.34177215189874,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 16,
+   "raw": "Se\u0301bastien Euvrard and et al. Sirolimus and secondary skin cancers in kidney transplantation: randomized trial. New England Journal of Medicine, 367(4):329\u2013339, 2012. doi: 10.1056/ NEJMoa1204166.",
+   "title": "Sirolimus and secondary skin cancers in kidney transplantation: randomized trial",
+   "authors": [
+    "and"
+   ],
+   "year": 2012,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "New England Journal of Medicine",
+   "type": "article-journal",
+   "parser": "anystyle-marker-guided",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.3410/f.717955959.793460902",
+      "title": "Faculty Opinions recommendation of Sirolimus and secondary skin-cancer prevention in kidney transplantation.",
+      "year": 2012,
+      "first_author": "Garmyn",
+      "container": "Faculty Opinions \u2013 Post-Publication Peer Review of the Biomedical Literature",
+      "type": "dataset",
+      "score": 41.625393
+     },
+     "metrics": {
+      "title_sim": 81.203007518797,
+      "containment": 0.5,
+      "partial_ratio": 73.09644670050761,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 17,
+   "raw": "J. Zuber, D. Anglicheau, C. Elie, L. Bererhi, M.-O. Timsit, and et al. Sirolimus may reduce fertility in male renal transplant recipients. American Journal of Transplantation, 8(7):1471\u2013 1479, 2008. doi: 10.1111/j.1600-6143.2008.02267.x. 7",
+   "title": "Sirolimus may reduce fertility in male renal transplant recipients",
+   "authors": [
+    "Zuber",
+    "Anglicheau",
+    "Elie",
+    "Bererhi",
+    "Timsit"
+   ],
+   "year": 2008,
+   "doi": "10.1111/j.1600-6143.2008.02267.x",
+   "arxiv": null,
+   "urls": [],
+   "container": "American Journal of Transplantation",
+   "type": "article-journal",
+   "parser": "anystyle-marker-guided",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1111/j.1600-6143.2008.02267.x",
+    "title": "Sirolimus May Reduce Fertility in Male Renal Transplant Recipients",
+    "year": 2008,
+    "first_author": "Zuber",
+    "container": "American Journal of Transplantation",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  }
+ ]
+}

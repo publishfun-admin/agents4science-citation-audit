@@ -1,0 +1,496 @@
+{
+ "pdf": "331_7k3i6JYvFo.pdf",
+ "n_entries": 12,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": true,
+   "idx": 1,
+   "raw": "[1] AIXC. The self-limiting nature of qbo-dependent sai: An optimization agent\u2019s discovery of intervention-variability feedback. Submitted to the Agents4Science 2025 Workshop, 2025.",
+   "title": "The self-limiting nature of qbo-dependent sai: An optimization agent\u2019s discovery of intervention-variability feedback",
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.5194/acp-2016-870-rc2",
+      "title": "Stratospheric variability at a glance - analysis of the intra decadal timescale and the QBO",
+      "year": 2016,
+      "first_author": null,
+      "container": "",
+      "type": "peer-review",
+      "score": 24.52356
+     },
+     "metrics": {
+      "title_sim": 54.54545454545455,
+      "containment": 0.25,
+      "partial_ratio": 47.19101123595506,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2] AIXC. The verifiability gateway: A governance agent\u2019s discovery of sai non-identifiability. Submitted to the Agents4Science 2025 Workshop, 2025.",
+   "title": "The verifiability gateway: A governance agent\u2019s discovery of sai non-identifiability",
+   "authors": [],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Submitted to the Agents4Science 2025 Workshop",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1093/acprof:oso/9780198252177.003.0046",
+      "title": "The Verifiability of the Truth of a Statement\u2014The Non-verifiability of the Validity of a Norm",
+      "year": 1991,
+      "first_author": "Kelsen",
+      "container": "General Theory of Norms",
+      "type": "book-chapter",
+      "score": 23.329334
+     },
+     "metrics": {
+      "title_sim": 63.41463414634146,
+      "containment": 0.429,
+      "partial_ratio": 54.83870967741935,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3] George EP Box, Gwilym M Jenkins, and Gregory C Reinsel. Time series analysis: forecasting and control. Holden-Day, 1976.",
+   "title": "Time series analysis: forecasting and control",
+   "authors": [
+    "Box",
+    "Jenkins",
+    "Reinsel"
+   ],
+   "year": 1976,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Holden-Day",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1057/9781137291264_6",
+    "title": "Box and Jenkins: Time Series Analysis, Forecasting and Control",
+    "year": 2013,
+    "first_author": "Box",
+    "container": "A Very British Affair",
+    "type": "book-chapter",
+    "score": 38.823948
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 86.66666666666667,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4] R Dennis Cook. Detection of influential observation in linear regression. Technometrics, 19(1):15\u201318, 1977.",
+   "title": "Detection of influential observation in linear regression",
+   "authors": [
+    "Cook"
+   ],
+   "year": 1977,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Technometrics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1080/00401706.1977.10489493",
+    "title": "Detection of Influential Observation in Linear Regression",
+    "year": 1977,
+    "first_author": "Cook",
+    "container": "Technometrics",
+    "type": "journal-article",
+    "score": 56.201897
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5] Nikola Kovachki, Zongyi Li, Burigede Liu, Kamyar Azizzadenesheli, Kaushik Bhattacharya, Andrew Stuart, and Anima Anandkumar. Neural operator: Learning maps between function spaces. arXiv preprint arXiv:2108.08481, 2021.",
+   "title": "Neural operator: Learning maps between function spaces",
+   "authors": [
+    "Kovachki",
+    "Li",
+    "Liu",
+    "Azizzadenesheli",
+    "Bhattacharya",
+    "Stuart",
+    "Anandkumar"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": "2108.08481",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2108.08481"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.5353/th_b4020334",
+      "title": "Separating maps between function spaces",
+      "year": 2012,
+      "first_author": "Cheong",
+      "container": "",
+      "type": "dissertation",
+      "score": 33.58007
+     },
+     "metrics": {
+      "title_sim": 83.58208955223881,
+      "containment": 0.8,
+      "partial_ratio": 89.74358974358975,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[6] Ben Kravitz, Alan Robock, Simone Tilmes, Olivier Boucher, James M English, Peter J Irvine, Andy Jones, Mark G Lawrence, Michael MacCracken, Helene Muri, et al. The geoengineering model intercomparison project phase 6 (geomip6): simulation design and preliminary results. Geoscientific Model Development, 8(11):3379\u20133392, 2015.",
+   "title": "The geoengineering model intercomparison project phase 6 (geomip6): simulation design and preliminary results",
+   "authors": [
+    "Kravitz",
+    "Robock",
+    "Tilmes",
+    "Boucher",
+    "English",
+    "Irvine",
+    "Jones",
+    "Lawrence",
+    "MacCracken",
+    "Muri"
+   ],
+   "year": 2015,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Geoscientific Model Development",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.5194/gmdd-8-4697-2015",
+    "title": "The Geoengineering Model Intercomparison Project Phase 6 (GeoMIP6): simulation design and preliminary results",
+    "year": 2015,
+    "first_author": "Kravitz",
+    "container": "",
+    "type": "posted-content",
+    "score": 66.92556
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[7] Zongyi Li, Nikola Kovachki, Kamyar Azizzadenesheli, Burigede Liu, Kaushik Bhattacharya, Andrew Stuart, and Anima Anandkumar. Fourier neural operator for parametric partial differential equations. arXiv preprint arXiv:2010.08895, 2020.",
+   "title": "Fourier neural operator for parametric partial differential equations",
+   "authors": [
+    "Li",
+    "Kovachki",
+    "Azizzadenesheli",
+    "Liu",
+    "Bhattacharya",
+    "Stuart",
+    "Anandkumar"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": "2010.08895",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2010.08895",
+    "title": "Fourier Neural Operator for Parametric Partial Differential Equations",
+    "year": 2020,
+    "first_author": "Zongyi Li"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[8] Edward N Lorenz. Deterministic nonperiodic flow. Journal of atmospheric sciences, 20(2):130\u2013141, 1963.",
+   "title": "Deterministic nonperiodic flow",
+   "authors": [
+    "Lorenz"
+   ],
+   "year": 1963,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of atmospheric sciences",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1175/1520-0469(1963)020<0130:dnf>2.0.co;2",
+    "title": "Deterministic Nonperiodic Flow",
+    "year": 1963,
+    "first_author": "Lorenz",
+    "container": "Journal of the Atmospheric Sciences",
+    "type": "journal-article",
+    "score": 47.41002
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[9] Michael J Mills, Anja Schmidt, Richard Easter, Susan Solomon, Douglas E Kinnison, Steven J Ghan, Ryan R Neely III, Daniel R Marsh, Andrew Conley, Charles G Bardeen, et al. Global volcanic aerosol properties derived from emissions, 1990\u20132014, using cesm1 (waccm). Journal of Geophysical Research: Atmospheres, 122(5):2332\u20132348, 2017.",
+   "title": "Global volcanic aerosol properties derived from emissions, 1990\u20132014, using cesm1 (waccm",
+   "authors": [
+    "Mills",
+    "Schmidt",
+    "Easter",
+    "Solomon",
+    "Kinnison",
+    "Ghan",
+    "Neely",
+    "Marsh",
+    "Conley",
+    "Bardeen"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Geophysical Research: Atmospheres",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1002/2015jd024290",
+    "title": "Global volcanic aerosol properties derived from emissions, 1990\u20132014, using CESM1(WACCM)",
+    "year": 2016,
+    "first_author": "Mills",
+    "container": "Journal of Geophysical Research: Atmospheres",
+    "type": "journal-article",
+    "score": 67.78661
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[10] Mervyn Stone. Cross-validatory choice and assessment of statistical predictions. Journal of the Royal Statistical Society: Series B, 36(2):111\u2013147, 1974.",
+   "title": "Cross-validatory choice and assessment of statistical predictions",
+   "authors": [
+    "Stone"
+   ],
+   "year": 1974,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of the Royal Statistical Society: Series B",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1111/j.2517-6161.1974.tb00994.x",
+    "title": "Cross-Validatory Choice and Assessment of Statistical Predictions",
+    "year": 1974,
+    "first_author": "Stone",
+    "container": "Journal of the Royal Statistical Society Series B: Statistical Methodology",
+    "type": "journal-article",
+    "score": 64.27405
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "[11] S. Tilmes, J. Richter, B. Kravitz, D. MacMartin, Michael J. Mills, I. Simpson, A. Glanville, J. Fasullo, A. Phillips, J. Lamarque, J. Tribbia, Jim Edwards, Sheri Mickelson, and Siddhartha S. Ghosh. Cesm1(waccm) stratospheric aerosol geoengineering large ensemble project. Bulletin of the American Meteorological Society, 2018.",
+   "title": "Cesm1(waccm) stratospheric aerosol geoengineering large ensemble project",
+   "authors": [
+    "Tilmes",
+    "Richter",
+    "Kravitz",
+    "MacMartin",
+    "Mills",
+    "Simpson",
+    "Glanville",
+    "Fasullo",
+    "Phillips",
+    "Lamarque",
+    "Tribbia",
+    "Edwards",
+    "Mickelson",
+    "Ghosh"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Bulletin of the American Meteorological Society",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1175/bams-d-17-0267.1",
+    "title": "CESM1(WACCM) Stratospheric Aerosol Geoengineering Large Ensemble Project",
+    "year": 2018,
+    "first_author": "Tilmes",
+    "container": "Bulletin of the American Meteorological Society",
+    "type": "journal-article",
+    "score": 68.378296
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "[12] Peter Welch. The use of fast fourier transform for the estimation of power spectra: a method based on time averaging over short, modified periodograms. IEEE Transactions on audio and electroacoustics, 15(2):70\u201373, 1967.",
+   "title": "The use of fast fourier transform for the estimation of power spectra: a method based on time averaging over short, modified periodograms",
+   "authors": [
+    "Welch"
+   ],
+   "year": 1967,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE Transactions on audio and electroacoustics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/tau.1967.1161901",
+    "title": "The use of fast Fourier transform for the estimation of power spectra: A method based on time averaging over short, modified periodograms",
+    "year": 1967,
+    "first_author": "Welch",
+    "container": "IEEE Transactions on Audio and Electroacoustics",
+    "type": "journal-article",
+    "score": 100.83736
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  }
+ ]
+}

@@ -1,0 +1,319 @@
+{
+ "pdf": "231_3oCWrOf4Gj.pdf",
+ "n_entries": 7,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "[1] Han, S., Mao, H., & Dally, W. J. (2015). Deep compression: Compressing deep neural networks with pruning, trained quantization and huffman coding. arXiv preprint arXiv:1510.00149.",
+   "title": "Deep compression: Compressing deep neural networks with pruning, trained quantization and huffman coding",
+   "authors": [
+    "Han",
+    "Mao",
+    "Dally"
+   ],
+   "year": 2015,
+   "doi": null,
+   "arxiv": "1510.00149",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "1510.00149"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1609/aaai.v35i9.16950",
+      "title": "OPQ: Compressing Deep Neural Networks with One-shot Pruning-Quantization",
+      "year": 2021,
+      "first_author": "Hu",
+      "container": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "type": "journal-article",
+      "score": 46.18119
+     },
+     "metrics": {
+      "title_sim": 89.92248062015504,
+      "containment": 0.667,
+      "partial_ratio": 84.50704225352112,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2] Jacob, B., Kligys, S., Chen, B., Zhu, M., Tang, M., Howard, A., ... & Kalenichenko, D. (2018). Quantization and training of neural networks for efficient integer-arithmetic-only inference. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (pp. 2704-2713).",
+   "title": "Quantization and training of neural networks for efficient integer-arithmetic-only inference",
+   "authors": [
+    "Jacob",
+    "Kligys",
+    "Chen",
+    "Zhu",
+    "Tang",
+    "Howard",
+    "Kalenichenko"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/cvpr.2018.00286",
+    "title": "Quantization and Training of Neural Networks for Efficient Integer-Arithmetic-Only Inference",
+    "year": 2018,
+    "first_author": "Jacob",
+    "container": "2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "type": "proceedings-article",
+    "score": 68.43035
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3] Hinton, G., Vinyals, O., & Dean, J. (2015). Distilling the knowledge in a neural network. arXiv preprint arXiv:1503.02531.",
+   "title": "Distilling the knowledge in a neural network",
+   "authors": [
+    "Hinton",
+    "Vinyals",
+    "Dean"
+   ],
+   "year": 2015,
+   "doi": null,
+   "arxiv": "1503.02531",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "1503.02531"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.21437/interspeech.2023-190",
+      "title": "Distilling knowledge from Gaussian process teacher to neural network student",
+      "year": 2023,
+      "first_author": "Wong",
+      "container": "INTERSPEECH 2023",
+      "type": "proceedings-article",
+      "score": 30.52737
+     },
+     "metrics": {
+      "title_sim": 88.60759493670886,
+      "containment": 0.5,
+      "partial_ratio": 57.89473684210527,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4] Chen, T., Moreau, T., Jiang, Z., Zheng, L., Yan, E., Shen, H., ... & Rabbah, R. (2018). TVMS: An automated end-to-end optimizing framework for deep learning. In USENIX Symposium on Operating Systems Design and Implementation (OSDI).",
+   "title": "TVMS: An automated end-to-end optimizing framework for deep learning",
+   "authors": [
+    "Chen",
+    "Moreau",
+    "Jiang",
+    "Zheng",
+    "Yan",
+    "Shen",
+    "Rabbah"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "USENIX Symposium on Operating Systems Design and Implementation (OSDI",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.3390/seeds4040067",
+      "title": "Automated End-to-End Deep Learning Framework for Complex Multiclass Brassica Seed Classification",
+      "year": 2025,
+      "first_author": "Elfatimi",
+      "container": "Seeds",
+      "type": "journal-article",
+      "score": 41.370113
+     },
+     "metrics": {
+      "title_sim": 82.24299065420561,
+      "containment": 0.545,
+      "partial_ratio": 59.375,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5] Ansor, J., Cheng, R., Jin, K., Karamched, B., Ni, J., Satish, N., ... & Rabbah, R. (2020). MXFusion: A flexible and extensible autotuner for deep learning. In ACM SIGPLAN Notices (Vol. 55, No. 1, pp. 1-16).",
+   "title": "MXFusion: A flexible and extensible autotuner for deep learning",
+   "authors": [
+    "Ansor",
+    "Cheng",
+    "Jin",
+    "Karamched",
+    "Ni",
+    "Satish",
+    "Rabbah"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "ACM SIGPLAN Notices",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/icalt.2006.1652355",
+      "title": "A Flexible and Extensible Architecture For Context-Aware Annotation in E-Learning",
+      "year": 2006,
+      "first_author": "Azouaou",
+      "container": "Sixth IEEE International Conference on Advanced Learning Technologies (ICALT'06)",
+      "type": "proceedings-article",
+      "score": 23.938204
+     },
+     "metrics": {
+      "title_sim": 76.0,
+      "containment": 0.429,
+      "partial_ratio": 64.19753086419753,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[6] Devlin, C. J., Rafferty, A. N., Barzilay, R. (2017). RobustFill: Neural Program Learning under Noisy Conditions. In Advances in Neural Information Processing Systems (pp. 4710-4720).",
+   "title": "RobustFill: Neural Program Learning under Noisy Conditions",
+   "authors": [
+    "Devlin",
+    "Rafferty",
+    "Barzilay"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1016/j.neucom.2022.03.011",
+      "title": "SuperCoder: Program learning under noisy conditions from superposition of states",
+      "year": 2022,
+      "first_author": "Davody",
+      "container": "Neurocomputing",
+      "type": "journal-article",
+      "score": 31.390457
+     },
+     "metrics": {
+      "title_sim": 81.25,
+      "containment": 0.571,
+      "partial_ratio": 67.08860759493672,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[7] Lample, G., Charton, F. (2019). Deep learning for symbolic mathematics. In Advances in Neural Information Processing Systems (pp. 8570-8580).",
+   "title": "Deep learning for symbolic mathematics",
+   "authors": [
+    "Lample",
+    "Charton"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.20944/preprints202311.0446.v1",
+      "title": "Symbolic Analysis of Classical Neural Networks for Deep Learning",
+      "year": 2023,
+      "first_author": "Lutovac-Banduka",
+      "container": "",
+      "type": "posted-content",
+      "score": 24.939484
+     },
+     "metrics": {
+      "title_sim": 81.25,
+      "containment": 0.571,
+      "partial_ratio": 54.6875,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  }
+ ]
+}

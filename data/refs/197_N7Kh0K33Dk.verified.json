@@ -1,0 +1,1646 @@
+{
+ "pdf": "197_N7Kh0K33Dk.pdf",
+ "n_entries": 32,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": false,
+ "parser_version": 2,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "References [1] Craig W. Reynolds. Flocks, herds and schools: A distributed behavioral model. In SIGGRAPH \u201987, pages 25\u201334. ACM, 1987.",
+   "title": "Flocks, herds and schools: A distributed behavioral model",
+   "authors": [
+    "References [1] Craig W. Reynolds."
+   ],
+   "year": 1987,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "SIGGRAPH \u201987",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/37402.37406",
+    "title": "Flocks, herds and schools: A distributed behavioral model",
+    "year": 1987,
+    "first_author": "Reynolds",
+    "container": "ACM SIGGRAPH Computer Graphics",
+    "type": "journal-article",
+    "score": 63.17202
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2] Tam\u00e1s Vicsek, Andr\u00e1s Czir\u00f3k, Eshel Ben-Jacob, Inon Cohen, and Ofer Shochet. Novel type of phase transition in a system of self-driven particles. Physical Review Letters, 75(6):1226\u20131229, 1995.",
+   "title": "Novel type of phase transition in a system of self-driven particles",
+   "authors": [
+    "Vicsek",
+    "Czir\u00f3k",
+    "Ben-Jacob",
+    "Cohen",
+    "Shochet"
+   ],
+   "year": 1995,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Physical Review Letters",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1103/physrevlett.75.1226",
+    "title": "Novel Type of Phase Transition in a System of Self-Driven Particles",
+    "year": 1995,
+    "first_author": "Vicsek",
+    "container": "Physical Review Letters",
+    "type": "journal-article",
+    "score": 54.830013
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3] John Toner and Yuhai Tu. Long-range order in a two-dimensional dynamical model: How birds fly together. Physical Review Letters, 75(23):4326\u20134329, 1995.",
+   "title": "Long-range order in a two-dimensional dynamical model: How birds fly together",
+   "authors": [
+    "Toner",
+    "Tu"
+   ],
+   "year": 1995,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Physical Review Letters",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1127/0935-1221/01/0013-0273",
+      "title": "A two-dimensional spin model of Al/Si order in feldspars: visualization of short-range and long-range order",
+      "year": 2001,
+      "first_author": "Vinograd",
+      "container": "European Journal of Mineralogy",
+      "type": "journal-article",
+      "score": 40.69667
+     },
+     "metrics": {
+      "title_sim": 72.26890756302521,
+      "containment": 0.667,
+      "partial_ratio": 46.37681159420289,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "1db8cd8ffaee90a510328aee9f2f106a8c3b1b6f",
+    "title": "Long-Range Order in a Two-Dimensional Dynamical XY Model: How Birds Fly Together.",
+    "year": 1995,
+    "first_author": "John Toner",
+    "container": "Physical Review Letters",
+    "ext": {
+     "MAG": "2063134919",
+     "DOI": "10.1103/PHYSREVLETT.75.4326",
+     "CorpusId": 31280946,
+     "PubMed": "10059876"
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 96.20253164556962,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4] David J. T. Sumpter. The principles of collective animal behaviour. Philosophical Transactions of the Royal Society B, 361(1465):5\u201322, 2006.",
+   "title": "The principles of collective animal behaviour",
+   "authors": [
+    "Sumpter"
+   ],
+   "year": 2006,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Philosophical Transactions of the Royal Society B",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1098/rstb.2005.1733",
+    "title": "The principles of collective animal behaviour",
+    "year": 2006,
+    "first_author": "Sumpter",
+    "container": "Philosophical Transactions of the Royal Society B: Biological Sciences",
+    "type": "journal-article",
+    "score": 41.284904
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5] Dirk Helbing and P\u00e9ter Moln\u00e1r. Social force model for pedestrian dynamics. Physical Review E, 51(5):4282\u20134286, 1995.",
+   "title": "Social force model for pedestrian dynamics",
+   "authors": [
+    "Helbing",
+    "Moln\u00e1r"
+   ],
+   "year": 1995,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Physical Review E",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1103/physreve.51.4282",
+    "title": "Social force model for pedestrian dynamics",
+    "year": 1995,
+    "first_author": "Helbing",
+    "container": "Physical Review E",
+    "type": "journal-article",
+    "score": 48.677605
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[6] Reza Olfati-Saber. Flocking for multi-agent dynamic systems: Algorithms and theory. IEEE Transactions on Automatic Control, 51(3):401\u2013420, 2006.",
+   "title": "Flocking for multi-agent dynamic systems: Algorithms and theory",
+   "authors": [
+    "Olfati-Saber"
+   ],
+   "year": 2006,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE Transactions on Automatic Control",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/tac.2005.864190",
+    "title": "Flocking for Multi-Agent Dynamic Systems: Algorithms and Theory",
+    "year": 2006,
+    "first_author": "Olfati-Saber",
+    "container": "IEEE Transactions on Automatic Control",
+    "type": "journal-article",
+    "score": 73.72873
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[7] Manuele Brambilla, Eliseo Ferrante, Mauro Birattari, and Marco Dorigo. Swarm robotics: a review from the swarm engineering perspective. Swarm Intelligence, 7(1):1\u201341, 2013.",
+   "title": "Swarm robotics: a review from the swarm engineering perspective",
+   "authors": [
+    "Brambilla",
+    "Ferrante",
+    "Birattari",
+    "Dorigo"
+   ],
+   "year": 2013,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Swarm Intelligence",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/s11721-012-0075-2",
+    "title": "Swarm robotics: a review from the swarm engineering perspective",
+    "year": 2013,
+    "first_author": "Brambilla",
+    "container": "Swarm Intelligence",
+    "type": "journal-article",
+    "score": 63.401215
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[8] Iain D. Couzin, Jens Krause, Nigel R. Franks, and Simon A. Levin. Effective leadership and decision-making in animal groups on the move. Nature, 433(7025):513\u2013516, 2005.",
+   "title": "Effective leadership and decision-making in animal groups on the move",
+   "authors": [
+    "Couzin",
+    "Krause",
+    "Franks",
+    "Levin"
+   ],
+   "year": 2005,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/nature03236",
+    "title": "Effective leadership and decision-making in animal groups on the move",
+    "year": 2005,
+    "first_author": "Couzin",
+    "container": "Nature",
+    "type": "journal-article",
+    "score": 61.274647
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[9] Thomas S. Ray. An approach to the synthesis of life. In Christopher G. Langton, Charles Taylor, J. Doyne Farmer, and Steen Rasmussen, editors, Artificial Life II, volume XI of Santa Fe Institute Studies in the Sciences of Complexity, pages 371\u2013408. Addison-Wesley, Redwood City, CA, 1991.",
+   "title": "An approach to the synthesis of life",
+   "authors": [
+    "Ray"
+   ],
+   "year": 1991,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Artificial Life II",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1055/s-1991-26436",
+      "title": "A Mild, Efficient Approach to 3-Acylfurans: A Short Synthesis of Perilla Ketone",
+      "year": 1991,
+      "first_author": "Bailey",
+      "container": "Synthesis",
+      "type": "journal-article",
+      "score": 20.157532
+     },
+     "metrics": {
+      "title_sim": 56.63716814159292,
+      "containment": 0.25,
+      "partial_ratio": 53.52112676056338,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "2e140a4435f22a04570e35b1b442a22ae90053bd",
+    "title": "An Approach to the Synthesis of Life",
+    "year": 1991,
+    "first_author": "T. Ray",
+    "container": "",
+    "ext": {
+     "MAG": "102349577",
+     "CorpusId": 59633479
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[10] Charles Ofria and Claus O. Wilke. Avida: A software platform for research in computational evolutionary biology. Artificial Life, 10(2):191\u2013229, 2004.",
+   "title": "Avida: A software platform for research in computational evolutionary biology",
+   "authors": [
+    "Ofria",
+    "Wilke"
+   ],
+   "year": 2004,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Artificial Life",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1162/106454604773563612",
+    "title": "Avida: A Software Platform for Research in Computational Evolutionary Biology",
+    "year": 2004,
+    "first_author": "Ofria",
+    "container": "Artificial Life",
+    "type": "journal-article",
+    "score": 67.16846
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "[11] Joel Lehman and Kenneth O. Stanley. Abandoning objectives: Evolution through the search for novelty alone. Evolutionary Computation, 19(2):189\u2013223, 2011.",
+   "title": "Abandoning objectives: Evolution through the search for novelty alone",
+   "authors": [
+    "Lehman",
+    "Stanley"
+   ],
+   "year": 2011,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Evolutionary Computation",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1162/evco_a_00025",
+    "title": "Abandoning Objectives: Evolution Through the Search for Novelty Alone",
+    "year": 2011,
+    "first_author": "Lehman",
+    "container": "Evolutionary Computation",
+    "type": "journal-article",
+    "score": 72.879776
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "[12] Jean-Baptiste Mouret and Jeff Clune.           Illuminating search spaces by mapping elites. arXiv:1504.04909, 2015.",
+   "title": "Illuminating search spaces by mapping elites",
+   "authors": [
+    "Mouret",
+    "Clune"
+   ],
+   "year": 2015,
+   "doi": null,
+   "arxiv": "1504.04909",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1201/b18456-13",
+    "title": "Illuminating Spaces",
+    "year": 2015,
+    "first_author": null,
+    "container": "Light Sources",
+    "type": "book-chapter",
+    "score": 24.93988
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 84.21052631578947,
+    "year_ok": true,
+    "first_author_ok": null
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "1504.04909"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "[13] Matthew C. Fontaine, Julian Togelius, Stefanos Nikolaidis, and Amy K. Hoover. Covariance matrix adaptation for the rapid illumination of behavior space. arXiv:1912.02400, 2020.",
+   "title": "Covariance matrix adaptation for the rapid illumination of behavior space",
+   "authors": [
+    "Fontaine",
+    "Togelius",
+    "Nikolaidis",
+    "Hoover"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": "1912.02400",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3377930.3390232",
+    "title": "Covariance matrix adaptation for the rapid illumination of behavior space",
+    "year": 2020,
+    "first_author": "Fontaine",
+    "container": "Proceedings of the 2020 Genetic and Evolutionary Computation Conference",
+    "type": "proceedings-article",
+    "score": 59.754395
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "1912.02400"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "[14] Rui Wang, Joel Lehman, Jeff Clune, and Kenneth O. Stanley. Paired open-ended trailblazer (poet): Endlessly generating increasingly complex and diverse learning environments and their solutions, 2019.",
+   "title": "Paired open-ended trailblazer (poet): Endlessly generating increasingly complex and diverse learning environments and their solutions",
+   "authors": [
+    "Wang",
+    "Lehman",
+    "Clune",
+    "Stanley"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.33612/diss.1528523889",
+      "title": "Open-Ended Interactive Robot Learning in Human-Centered Environments",
+      "year": 2026,
+      "first_author": "Tziafas",
+      "container": "",
+      "type": "dissertation",
+      "score": 34.10549
+     },
+     "metrics": {
+      "title_sim": 51.515151515151516,
+      "containment": 0.5,
+      "partial_ratio": 52.94117647058824,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "c48ca266c1e16f9adc5fb7770afd95a0feec8753",
+    "title": "Paired Open-Ended Trailblazer (POET): Endlessly Generating Increasingly Complex and Diverse Learning Environments and Their Solutions",
+    "year": 2019,
+    "first_author": "Rui Wang",
+    "container": "arXiv.org",
+    "ext": {
+     "MAG": "2908460759",
+     "ArXiv": "1901.01753",
+     "DBLP": "journals/corr/abs-1901-01753",
+     "CorpusId": 57573844
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "[15] Bowen Baker, Ingmar Kanitscheider, Todor Markov, Yi Wu, Glenn Powell, Bob McGrew, and Igor Mordatch. Emergent tool use from multi-agent autocurricula, 2019.",
+   "title": "Emergent tool use from multi-agent autocurricula",
+   "authors": [
+    "Baker",
+    "Kanitscheider",
+    "Markov",
+    "Wu",
+    "Powell",
+    "McGrew",
+    "Mordatch"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.4324/9781351165129-6",
+      "title": "Multi-agent simulation as a tool for studying emergent processes in societies",
+      "year": 2018,
+      "first_author": "Drogoul",
+      "container": "Simulating Societies",
+      "type": "book-chapter",
+      "score": 27.514656
+     },
+     "metrics": {
+      "title_sim": 68.4931506849315,
+      "containment": 0.5,
+      "partial_ratio": 45.45454545454546,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "33a2c0f3b9a0adc452a13d53f950c0c3c4abb11b",
+    "title": "Emergent Tool Use From Multi-Agent Autocurricula",
+    "year": 2019,
+    "first_author": "Bowen Baker",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "MAG": "2973525135",
+     "ArXiv": "1909.07528",
+     "DBLP": "journals/corr/abs-1909-07528",
+     "CorpusId": 202583612
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 16,
+   "raw": "[16] Micah Carroll, Rohin Shah, Mark K. Ho, Thomas L. Griffiths, Sanjit A. Seshia, Pieter Abbeel, and Anca D. Dragan. On the utility of learning about humans for human-ai coordination. In Advances in Neural Information Processing Systems (NeurIPS), 2019.",
+   "title": "On the utility of learning about humans for human-ai coordination",
+   "authors": [
+    "Carroll",
+    "Shah",
+    "Ho",
+    "Griffiths",
+    "Seshia",
+    "Abbeel",
+    "Dragan"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems (NeurIPS",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1257/rct.12622-1.0",
+      "title": "Human learning about AI performance",
+      "year": 2023,
+      "first_author": "Raux",
+      "container": "AEA Randomized Controlled Trials",
+      "type": "dataset",
+      "score": 26.677975
+     },
+     "metrics": {
+      "title_sim": 79.3103448275862,
+      "containment": 0.75,
+      "partial_ratio": 68.57142857142857,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "eb41a0cffa84d3d6035e6f5f420806ddc962b1e6",
+    "title": "On the Utility of Learning about Humans for Human-AI Coordination",
+    "year": 2019,
+    "first_author": "Micah Carroll",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "MAG": "2970894611",
+     "ArXiv": "1910.05789",
+     "DBLP": "conf/nips/CarrollSHGSAD19",
+     "CorpusId": 202770731
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 17,
+   "raw": "[17] Open Ended Learning Team, Adam Stooke, Anuj Mahajan, et al. Open-ended learning leads to generally capable agents. arXiv:2107.12808, 2021.",
+   "title": "Open-ended learning leads to generally capable agents",
+   "authors": [
+    "Team",
+    "Stooke",
+    "Mahajan"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": "2107.12808",
+   "urls": [
+    "arXiv:2107.12808"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2107.12808"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.70675/ed12e12czdf55z4051zbcbbzc5db4ffee436",
+      "title": "Language as a cognitive tool for open ended agents",
+      "year": 2026,
+      "first_author": "Carta",
+      "container": "",
+      "type": "dissertation",
+      "score": 28.353382
+     },
+     "metrics": {
+      "title_sim": 64.07766990291262,
+      "containment": 0.5,
+      "partial_ratio": 52.0,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    },
+    {
+     "step": "urls_not_live",
+     "url_status": {
+      "arXiv:2107.12808": "error"
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "e75fb417b54a6eae589ff382874de09d7f58a3de",
+    "title": "Open-Ended Learning Leads to Generally Capable Agents",
+    "year": 2021,
+    "first_author": "Open Ended Learning Team",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2107-12808",
+     "ArXiv": "2107.12808",
+     "CorpusId": 236447390
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 18,
+   "raw": "[18] Joseph Su\u00e1rez, Phillip Isola, Kyoung Whan Choe, et al. Neural mmo 2.0: A massively multi-task addition to massively multi-agent learning. In NeurIPS Datasets & Benchmarks, 2023.",
+   "title": "Neural mmo 2.0: A massively multi-task addition to massively multi-agent learning",
+   "authors": [
+    "Su\u00e1rez",
+    "Isola",
+    "Choe"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "NeurIPS Datasets & Benchmarks",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/075280-2178",
+    "title": "Neural MMO 2.0: A Massively Multi-task Addition to Massively Multi-agent Learning",
+    "year": 2023,
+    "first_author": "Suarez",
+    "container": "Advances in Neural Information Processing Systems 36",
+    "type": "proceedings-article",
+    "score": 71.9129
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 19,
+   "raw": "[19] Timo Schick, Jane Dwivedi-Yu, et al. Toolformer: Language models can teach themselves to use tools. arXiv:2302.04761, 2023.",
+   "title": "Toolformer: Language models can teach themselves to use tools",
+   "authors": [
+    "Schick",
+    "Dwivedi-Yu"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2302.04761",
+   "urls": [
+    "arXiv:2302.04761"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2302.04761",
+    "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+    "year": 2023,
+    "first_author": "Timo Schick"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 20,
+   "raw": "[20] Guanzhi Wang et al. Voyager: An open-ended embodied agent with large language models. arXiv:2305.16291, 2023.",
+   "title": "Voyager: An open-ended embodied agent with large language models",
+   "authors": [
+    "Wang"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2305.16291",
+   "urls": [
+    "arXiv:2305.16291"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2305.16291"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.18653/v1/2023.findings-emnlp.226",
+      "title": "Open-Ended Instructable Embodied Agents with Memory-Augmented Large Language Models",
+      "year": 2023,
+      "first_author": "Sarch",
+      "container": "Findings of the Association for Computational Linguistics: EMNLP 2023",
+      "type": "proceedings-article",
+      "score": 43.443245
+     },
+     "metrics": {
+      "title_sim": 84.40366972477064,
+      "containment": 0.6,
+      "partial_ratio": 66.24203821656052,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    },
+    {
+     "step": "urls_not_live",
+     "url_status": {
+      "arXiv:2305.16291": "error"
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "f197bf0fc2f228483f6af3285000d54d8d97f9eb",
+    "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
+    "year": 2023,
+    "first_author": "Guanzhi Wang",
+    "container": "Trans. Mach. Learn. Res.",
+    "ext": {
+     "DBLP": "journals/tmlr/WangX0MXZFA24",
+     "ArXiv": "2305.16291",
+     "DOI": "10.48550/arXiv.2305.16291",
+     "CorpusId": 258887849
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 21,
+   "raw": "[21] Guohao Li, Hasan Abed Al Kader Hammoud, Hani Itani, Dmitrii Khizbullin, and Bernard Ghanem. Camel: Communicative agents for \"mind\" exploration of large language model society, 2023.",
+   "title": "Camel: Communicative agents for \"mind\" exploration of large language model society",
+   "authors": [
+    "Li",
+    "Hammoud",
+    "Itani",
+    "Khizbullin",
+    "Ghanem"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/075280-2264",
+    "title": "CAMEL: Communicative Agents for \"Mind\" Exploration of Large Language Model Society",
+    "year": 2023,
+    "first_author": "Li",
+    "container": "Advances in Neural Information Processing Systems 36",
+    "type": "proceedings-article",
+    "score": 64.362686
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 22,
+   "raw": "[22] Qingyun Wu, Gagan Bansal, Jieyu Zhang, Yiran Wu, Beibin Li, Erkang Zhu, Li Jiang, Xiaoyun Zhang, Shaokun Zhang, Jiale Liu, Ahmed Hassan Awadallah, Ryen W White, Doug Burger, and Chi Wang. Autogen: Enabling next-gen llm applications via multi-agent conversation, 2023.",
+   "title": "Autogen: Enabling next-gen llm applications via multi-agent conversation",
+   "authors": [
+    "Wu",
+    "Bansal",
+    "Zhang",
+    "Wu",
+    "Li",
+    "Zhu",
+    "Jiang",
+    "Zhang",
+    "Zhang",
+    "Liu",
+    "Awadallah",
+    "White",
+    "Burger",
+    "Wang"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.6532560",
+      "title": "Optimizing Multi\u2011Agent LLM Collaboration via Communication\u2011Flow Control\u200b",
+      "year": 2026,
+      "first_author": "Tian",
+      "container": "",
+      "type": "posted-content",
+      "score": 32.121704
+     },
+     "metrics": {
+      "title_sim": 59.15492957746479,
+      "containment": 0.375,
+      "partial_ratio": 53.73134328358209,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "9ea0757c750ab1222a7442d3485a74d1c526b04c",
+    "title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
+    "year": 2023,
+    "first_author": "Qingyun Wu",
+    "container": "",
+    "ext": {
+     "ArXiv": "2308.08155",
+     "CorpusId": 263611068
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 23,
+   "raw": "[23] Joon Sung Park, Joseph C. O\u2019Brien, Carrie J. Cai, Meredith Ringel Morris, Percy Liang, and Michael S. Bernstein. Generative agents: Interactive simulacra of human behavior. arXiv:2304.03442, 2023.",
+   "title": "Generative agents",
+   "authors": [
+    "Park",
+    "O\u2019Brien",
+    "Cai",
+    "Morris",
+    "Liang",
+    "Bernstein"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2304.03442",
+   "urls": [],
+   "container": "Interactive simulacra of human behavior",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3586183.3606763",
+    "title": "Generative Agents: Interactive Simulacra of Human Behavior",
+    "year": 2023,
+    "first_author": "Park",
+    "container": "Proceedings of the 36th Annual ACM Symposium on User Interface Software and Technology",
+    "type": "proceedings-article",
+    "score": 21.082977
+   },
+   "metrics": {
+    "title_sim": 45.945945945945944,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2304.03442"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 24,
+   "raw": "[24] Antoine Cully, Jeff Clune, Danesh Tarapore, and Jean-Baptiste Mouret. Robots that can adapt like animals. Nature, 521(7553):503\u2013507, 2015.",
+   "title": "Robots that can adapt like animals",
+   "authors": [
+    "Cully",
+    "Clune",
+    "Tarapore",
+    "Mouret"
+   ],
+   "year": 2015,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/nature14422",
+    "title": "Robots that can adapt like animals",
+    "year": 2015,
+    "first_author": "Cully",
+    "container": "Nature",
+    "type": "journal-article",
+    "score": 55.528584
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 25,
+   "raw": "[25] Michael Dennis, Natasha Jaques, Eugene Vinitsky, Alexandre Bayen, Stuart Russell, Andrew Critch, and Sergey Levine. Emergent complexity and zero-shot transfer via unsupervised environment design. In NeurIPS, volume 33, pages 13049\u201313061, 2020.",
+   "title": "Emergent complexity and zero-shot transfer via unsupervised environment design",
+   "authors": [
+    "Dennis",
+    "Jaques",
+    "Vinitsky",
+    "Bayen",
+    "Russell",
+    "Critch",
+    "Levine"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "NeurIPS",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/cvprw59228.2023.00513",
+      "title": "Zero-shot Unsupervised Transfer Instance Segmentation",
+      "year": 2023,
+      "first_author": "Shin",
+      "container": "2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)",
+      "type": "proceedings-article",
+      "score": 31.119827
+     },
+     "metrics": {
+      "title_sim": 73.80952380952381,
+      "containment": 0.667,
+      "partial_ratio": 58.490566037735846,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "93b2788fb1f2aed0e545d9f9d7dca1c05a63208a",
+    "title": "Emergent Complexity and Zero-shot Transfer via Unsupervised Environment Design",
+    "year": 2020,
+    "first_author": "Michael Dennis",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "MAG": "3101966195",
+     "DBLP": "conf/nips/0001JVBRCL20",
+     "ArXiv": "2012.02096",
+     "CorpusId": 227254851
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 26,
+   "raw": "[26] John P. Agapiou, Alexander Sasha Vezhnevets, Edgar A. Du\u00e9\u00f1ez-Guzm\u00e1n, et al. Melting pot 2.0, 2022.",
+   "title": null,
+   "authors": [
+    "Agapiou",
+    "Vezhnevets",
+    "Du\u00e9\u00f1ez-Guzm\u00e1n"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1017/s0140525x21001357",
+      "title": "Learning agents that acquire representations of social groups",
+      "year": 2022,
+      "first_author": "Leibo",
+      "container": "Behavioral and Brain Sciences",
+      "type": "journal-article",
+      "score": 50.466587
+     },
+     "metrics": {
+      "title_sim": 0,
+      "containment": 0.0,
+      "partial_ratio": 40.98360655737705,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 27,
+   "raw": "[27] Cornelius Ruhdorfer et al. The overcooked generalisation challenge. arXiv:2406.17949, 2024.",
+   "title": "The overcooked generalisation challenge",
+   "authors": [
+    "Ruhdorfer"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2406.17949",
+   "urls": [
+    "arXiv:2406.17949"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2406.17949"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1093/oed/5777787254",
+      "title": "overcooked, adj.",
+      "year": 2023,
+      "first_author": null,
+      "container": "Oxford English Dictionary",
+      "type": "book-chapter",
+      "score": 22.88226
+     },
+     "metrics": {
+      "title_sim": 83.33333333333333,
+      "containment": 0.5,
+      "partial_ratio": 78.57142857142857,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    },
+    {
+     "step": "urls_not_live",
+     "url_status": {
+      "arXiv:2406.17949": "error"
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "b5718931570960c896868bd094f22ef3dbb9d281",
+    "title": "The Overcooked Generalisation Challenge",
+    "year": 2024,
+    "first_author": "Constantin Ruhdorfer",
+    "container": "Trans. Mach. Learn. Res.",
+    "ext": {
+     "ArXiv": "2406.17949",
+     "DBLP": "journals/corr/abs-2406-17949",
+     "DOI": "10.48550/arXiv.2406.17949",
+     "CorpusId": 270737838
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 28,
+   "raw": "[28] Da Yin, Faeze Brahman, Abhilasha Ravichander, Khyathi Chandu, Kai-Wei Chang, Yejin Choi, and Bill Yuchen Lin. Agent lumos: Unified and modular training for open-source language agents. In ACL, pages 12380\u201312403, 2024.",
+   "title": "Agent lumos: Unified and modular training for open-source language agents",
+   "authors": [
+    "Yin",
+    "Brahman",
+    "Ravichander",
+    "Chandu",
+    "Chang",
+    "Choi",
+    "Lin"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "ACL",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2024.acl-long.670",
+    "title": "Agent Lumos: Unified and Modular Training for Open-Source Language Agents",
+    "year": 2024,
+    "first_author": "Yin",
+    "container": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "type": "proceedings-article",
+    "score": 62.595837
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 29,
+   "raw": "[29] Ziyi Yang, Zaibin Zhang, Zirui Zheng, Yuxian Jiang, Ziyue Gan, Zhiyu Wang, Zijian Ling, Jinsong Chen, Martz Ma, Bowen Dong, et al. Oasis: Open agent social interaction simulations with one million agents, 2024.",
+   "title": "Oasis: Open agent social interaction simulations with one million agents",
+   "authors": [
+    "Yang",
+    "Zhang",
+    "Zheng",
+    "Jiang",
+    "Gan",
+    "Wang",
+    "Ling",
+    "Chen",
+    "Ma",
+    "Dong"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.33540/1464",
+      "title": "Agents with Social Norms and Values",
+      "year": 2022,
+      "first_author": null,
+      "container": "",
+      "type": "dissertation",
+      "score": 29.651112
+     },
+     "metrics": {
+      "title_sim": 67.9245283018868,
+      "containment": 0.5,
+      "partial_ratio": 54.28571428571429,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "9a6206f4ea5a809132c1df7697c37a53b88aeff3",
+    "title": "OASIS: Open Agent Social Interaction Simulations with One Million Agents",
+    "year": 2024,
+    "first_author": "Ziyi Yang",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2411-11581",
+     "ArXiv": "2411.11581",
+     "DOI": "10.48550/arXiv.2411.11581",
+     "CorpusId": 274131262
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 30,
+   "raw": "[30] Mengkang Hu, Yuhang Zhou, Wendong Fan, Yuzhou Nie, Bowei Xia, Tao Sun, Ziyu Ye, Zhaoxuan Jin, Yingru Li, Qiguang Chen, et al. Owl: Optimized workforce learning for general multi-agent assistance in real-world task automation, 2025.",
+   "title": "Owl: Optimized workforce learning for general multi-agent assistance in real-world task automation",
+   "authors": [
+    "Hu",
+    "Zhou",
+    "Fan",
+    "Nie",
+    "Xia",
+    "Sun",
+    "Ye",
+    "Jin",
+    "Li",
+    "Chen"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/085713-1697",
+    "title": "OWL: Optimized Workforce Learning for General Multi-Agent Assistance in Real-World Task Automation",
+    "year": 2025,
+    "first_author": "Hu",
+    "container": "Advances in Neural Information Processing Systems 38",
+    "type": "proceedings-article",
+    "score": 67.609825
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 31,
+   "raw": "[31] Sha Li, Revanth Gangi Reddy, Khanh Duy Nguyen, Qingyun Wang, Yi (May) Fung, Chi Han, Jiawei Han, Kartik Natarajan, Clare R. Voss, and Heng Ji. Schema-guided culture-aware complex event simulation with multi-agent role-play. In EMNLP System Demonstrations, pages 372\u2013381, 2024.",
+   "title": "Schema-guided culture-aware complex event simulation with multi-agent role-play",
+   "authors": [
+    "Li",
+    "Reddy",
+    "Nguyen",
+    "Wang",
+    "Fung",
+    "Han",
+    "Han",
+    "Natarajan",
+    "Voss",
+    "Ji"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "EMNLP System Demonstrations",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2024.emnlp-demo.39",
+    "title": "Schema-Guided Culture-Aware Complex Event Simulation with Multi-Agent Role-Play",
+    "year": 2024,
+    "first_author": "Li",
+    "container": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing: System Demonstrations",
+    "type": "proceedings-article",
+    "score": 62.101727
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 32,
+   "raw": "[32] Zhitao He, Zijun Liu, Peng Li, Yi R. Fung, Ming Yan, Ji Zhang, Fei Huang, and Yang Liu. Advancing language multi-agent learning with credit re-assignment for interactive environment generalization, 2025.",
+   "title": "Advancing language multi-agent learning with credit re-assignment for interactive environment generalization",
+   "authors": [
+    "He",
+    "Liu",
+    "Li",
+    "Fung",
+    "Yan",
+    "Zhang",
+    "Huang",
+    "Liu"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.24963/ijcai.2025/20",
+      "title": "Asynchronous Credit Assignment for Multi-Agent Reinforcement Learning",
+      "year": 2025,
+      "first_author": "Liang",
+      "container": "Proceedings of the Thirty-Fourth International Joint Conference on Artificial Intelligence",
+      "type": "proceedings-article",
+      "score": 35.31516
+     },
+     "metrics": {
+      "title_sim": 75.67567567567568,
+      "containment": 0.714,
+      "partial_ratio": 59.42028985507246,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "fcde368302111abbcefaad3f67510002c9f29321",
+    "title": "Advancing Language Multi-Agent Learning with Credit Re-Assignment for Interactive Environment Generalization",
+    "year": 2025,
+    "first_author": "Zhitao He",
+    "container": "",
+    "ext": {
+     "ArXiv": "2502.14496",
+     "CorpusId": 276482209
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  }
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
+}

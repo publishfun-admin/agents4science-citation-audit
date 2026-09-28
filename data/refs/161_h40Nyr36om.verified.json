@@ -349,7 +349,7 @@
    "container": "Nucleic Acids Research",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "doi_resolves_title_mismatch",
@@ -392,7 +392,26 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "crossref_title",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1093/nar/gkae1142",
+    "title": "CZ CELLxGENE Discover: a single-cell data platform for scalable exploration, analysis and modeling of aggregated data",
+    "year": 2025,
+    "first_author": null,
+    "container": "Nucleic Acids Research",
+    "type": "journal-article",
+    "score": 80.75592
+   },
+   "metrics": {
+    "title_sim": 83.33333333333334,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": null
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -2577,5 +2596,7 @@
    },
    "evidence": []
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

@@ -1,0 +1,2447 @@
+{
+ "pdf": "261_tSkCiacKNK.pdf",
+ "n_entries": 61,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": false,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "Brooks, R. A. (1991). Intelligence without representation. Artificial Intelligence, 47(1-3), 139-159.",
+   "title": "Intelligence without representation",
+   "authors": [
+    "Brooks"
+   ],
+   "year": 1991,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Artificial Intelligence",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/0004-3702(91)90053-m",
+    "title": "Intelligence without representation",
+    "year": 1991,
+    "first_author": "Brooks",
+    "container": "Artificial Intelligence",
+    "type": "journal-article",
+    "score": 41.011604
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "Duan, Y., et al. (2022). A survey on embodied AI: From simulators to real-world applications. arXiv preprint arXiv:2203.12345.",
+   "title": "A survey on embodied AI: From simulators to real-world applications",
+   "authors": [
+    "Duan"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": "2203.12345",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2203.12345"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/tetci.2022.3141105",
+      "title": "A Survey of Embodied AI: From Simulators to Research Tasks",
+      "year": 2022,
+      "first_author": "Duan",
+      "container": "IEEE Transactions on Emerging Topics in Computational Intelligence",
+      "type": "journal-article",
+      "score": 38.45894
+     },
+     "metrics": {
+      "title_sim": 81.25,
+      "containment": 0.6,
+      "partial_ratio": 84.21052631578947,
+      "year_ok": true,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": {
+    "source": "crossref",
+    "doi": "10.1109/tetci.2022.3141105",
+    "title": "A Survey of Embodied AI: From Simulators to Research Tasks",
+    "year": 2022,
+    "first_author": "Duan",
+    "container": "IEEE Transactions on Emerging Topics in Computational Intelligence",
+    "type": "journal-article",
+    "score": 38.45894
+   }
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "Zhuang, F., et al. (2021). A comprehensive survey on transfer learning. Proceedings of the IEEE, 109(1), 43-76.",
+   "title": "A comprehensive survey on transfer learning",
+   "authors": [
+    "Zhuang"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the IEEE",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/jproc.2020.3004555",
+    "title": "A Comprehensive Survey on Transfer Learning",
+    "year": 2021,
+    "first_author": "Zhuang",
+    "container": "Proceedings of the IEEE",
+    "type": "journal-article",
+    "score": 30.190248
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "Baltru\u0161aitis, T., et al. (2019). Multimodal machine learning: A survey and taxonomy. IEEE TPAMI, 41(2), 423-443.",
+   "title": "Multimodal machine learning: A survey and taxonomy",
+   "authors": [
+    "Baltru\u0161aitis"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE TPAMI",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/tpami.2018.2798607",
+    "title": "Multimodal Machine Learning: A Survey and Taxonomy",
+    "year": 2019,
+    "first_author": "Baltrusaitis",
+    "container": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+    "type": "journal-article",
+    "score": 33.00052
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "Finn, C., et al. (2017). Model-agnostic meta-learning for fast adaptation of deep networks. ICML, 1126-1135.",
+   "title": "Model-agnostic meta-learning for fast adaptation of deep networks",
+   "authors": [
+    "Finn"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/isc260477.2024.11004295",
+      "title": "Study on Adaptation of Model-Agnostic Meta-Learning Integrated Deep Q-Learning for HVAC Control",
+      "year": 2024,
+      "first_author": "Kumkam",
+      "container": "2024 IEEE International Smart Cities Conference (ISC2)",
+      "type": "proceedings-article",
+      "score": 36.74841
+     },
+     "metrics": {
+      "title_sim": 87.93103448275862,
+      "containment": 0.636,
+      "partial_ratio": 58.285714285714285,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "Szot, A., et al. (2021). Habitat 2.0: Training home assistants to rearrange their habitat. NeurIPS, 1234-1245.",
+   "title": "Habitat 2.0: Training home assistants to rearrange their habitat",
+   "authors": [
+    "Szot"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.23860/thesis-garrison-julian-2023",
+      "title": "HOME IS WHERE THE HABITAT IS: MODELING SHORTFIN MAKO HABITAT SUITABILITY VIA MACHINE LEARNING METHODS",
+      "year": 2023,
+      "first_author": null,
+      "container": "",
+      "type": "dissertation",
+      "score": 32.120815
+     },
+     "metrics": {
+      "title_sim": 47.22222222222222,
+      "containment": 0.273,
+      "partial_ratio": 44.44444444444444,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "Li, X., et al. (2020). Domain adaptation meta-relation networks for fault diagnosis. IEEE TII, 16(8), 5123-5132.",
+   "title": "Domain adaptation meta-relation networks for fault diagnosis",
+   "authors": [
+    "Li"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE TII",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1016/j.neucom.2020.02.049",
+      "title": "Sparse filtering based domain adaptation for mechanical fault diagnosis",
+      "year": 2020,
+      "first_author": "Zhang",
+      "container": "Neurocomputing",
+      "type": "journal-article",
+      "score": 35.480423
+     },
+     "metrics": {
+      "title_sim": 76.28865979381443,
+      "containment": 0.5,
+      "partial_ratio": 60.56338028169015,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "Atrey, P. K., et al. (2010). Multimodal fusion for multimedia analysis: A survey. Multimedia Systems, 16(6), 345-379.",
+   "title": "Multimodal fusion for multimedia analysis: A survey",
+   "authors": [
+    "Atrey"
+   ],
+   "year": 2010,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Multimedia Systems",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/s00530-010-0182-0",
+    "title": "Multimodal fusion for multimedia analysis: a survey",
+    "year": 2010,
+    "first_author": "Atrey",
+    "container": "Multimedia Systems",
+    "type": "journal-article",
+    "score": 50.335358
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "Wang, Y., et al. (2021). Depth-guided adaptive meta-fusion for video recognition. CVPR, 5678-5687.",
+   "title": "Depth-guided adaptive meta-fusion for video recognition",
+   "authors": [
+    "Wang"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "CVPR",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3394171.3413502",
+    "title": "Depth Guided Adaptive Meta-Fusion Network for Few-shot Video Recognition",
+    "year": 2020,
+    "first_author": "Fu",
+    "container": "Proceedings of the 28th ACM International Conference on Multimedia",
+    "type": "proceedings-article",
+    "score": 45.57053
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.7,
+    "partial_ratio": 77.46478873239437,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "Ramachandram, D., et al. (2017). Deep multimodal learning: A survey on recent advances and trends. IEEE SPM, 34(6), 96-108.",
+   "title": "Deep multimodal learning: A survey on recent advances and trends",
+   "authors": [
+    "Ramachandram"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE SPM",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/msp.2017.2738401",
+    "title": "Deep Multimodal Learning: A Survey on Recent Advances and Trends",
+    "year": 2017,
+    "first_author": "Ramachandram",
+    "container": "IEEE Signal Processing Magazine",
+    "type": "journal-article",
+    "score": 56.4943
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "Savva, M., et al. (2019). Habitat: A platform for embodied AI research. ICCV, 9339-9347.",
+   "title": "Habitat: A platform for embodied AI research",
+   "authors": [
+    "Savva"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/iccv.2019.00943",
+    "title": "Habitat: A Platform for Embodied AI Research",
+    "year": 2019,
+    "first_author": "Savva",
+    "container": "2019 IEEE/CVF International Conference on Computer Vision (ICCV)",
+    "type": "proceedings-article",
+    "score": 42.291588
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "Shi, W., et al. (2016). Edge computing: Vision and challenges. IEEE IoT Journal, 3(5), 637-646.",
+   "title": "Edge computing: Vision and challenges",
+   "authors": [
+    "Shi"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE IoT Journal",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/jiot.2016.2579198",
+    "title": "Edge Computing: Vision and Challenges",
+    "year": 2016,
+    "first_author": "Shi",
+    "container": "IEEE Internet of Things Journal",
+    "type": "journal-article",
+    "score": 32.69316
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "Lahat, D., et al. (2015). Multimodal data fusion: An overview of methods, challenges, and prospects. Proceedings of the IEEE, 103(9), 1449-1477.",
+   "title": "Multimodal data fusion: An overview of methods, challenges, and prospects",
+   "authors": [
+    "Lahat"
+   ],
+   "year": 2015,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the IEEE",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/jproc.2015.2460697",
+    "title": "Multimodal Data Fusion: An Overview of Methods, Challenges, and Prospects",
+    "year": 2015,
+    "first_author": "Lahat",
+    "container": "Proceedings of the IEEE",
+    "type": "journal-article",
+    "score": 57.32199
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "Roy, N., et al. (2020). Embodied artificial intelligence: A survey. arXiv preprint arXiv:2004.09888.",
+   "title": "Embodied artificial intelligence: A survey",
+   "authors": [
+    "Roy"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": "2004.09888",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2004.09888"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1016/s0004-3702(03)00055-9",
+      "title": "Embodied artificial intelligence",
+      "year": 2003,
+      "first_author": "Chrisley",
+      "container": "Artificial Intelligence",
+      "type": "journal-article",
+      "score": 28.716167
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 1.0,
+      "partial_ratio": 100.0,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "Kober, J., et al. (2013). Reinforcement learning in robotics: A survey. IJRR, 32(11), 1238-1274.",
+   "title": "Reinforcement learning in robotics: A survey",
+   "authors": [
+    "Kober"
+   ],
+   "year": 2013,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IJRR",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/978-3-642-27645-3_18",
+    "title": "Reinforcement Learning in Robotics: A Survey",
+    "year": 2012,
+    "first_author": "Kober",
+    "container": "Adaptation, Learning, and Optimization",
+    "type": "book-chapter",
+    "score": 41.510704
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 16,
+   "raw": "Thomason, J., et al. (2020). Socially-aware embodied AI: Challenges and opportunities. arXiv preprint arXiv:2010.12345.",
+   "title": "Socially-aware embodied AI: Challenges and opportunities",
+   "authors": [
+    "Thomason"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": "2010.12345",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2010.12345"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1142/9789811266638_0004",
+      "title": "Challenges of Socially Responsible AI",
+      "year": 2023,
+      "first_author": null,
+      "container": "Socially Responsible AI",
+      "type": "book-chapter",
+      "score": 30.07352
+     },
+     "metrics": {
+      "title_sim": 74.57627118644068,
+      "containment": 0.667,
+      "partial_ratio": 56.75675675675676,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 17,
+   "raw": "Finn, C., et al. (2017). Model-agnostic meta-learning for fast adaptation. ICML.",
+   "title": "Model-agnostic meta-learning for fast adaptation",
+   "authors": [
+    "Finn"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/taslp.2023.3275029",
+      "title": "Model-Agnostic Meta-Learning for Fast Text-Dependent Speaker Embedding Adaptation",
+      "year": 2023,
+      "first_author": "Lin",
+      "container": "IEEE/ACM Transactions on Audio, Speech, and Language Processing",
+      "type": "journal-article",
+      "score": 34.028126
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 0.6,
+      "partial_ratio": 71.9298245614035,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 18,
+   "raw": "Dou, D., et al. (2024). Domain Generalization through Meta-Learning: A Survey. arXiv:2404.02785.",
+   "title": "Domain Generalization through Meta-Learning: A Survey",
+   "authors": [
+    "Dou"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2404.02785",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/s10462-024-10922-z",
+    "title": "Domain generalization through meta-learning: a survey",
+    "year": 2024,
+    "first_author": "Khoee",
+    "container": "Artificial Intelligence Review",
+    "type": "journal-article",
+    "score": 41.797497
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2404.02785"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 19,
+   "raw": "Zhu, Y., et al. (2024). A Comprehensive Survey on Embodied AI. arXiv:2407.06886.",
+   "title": "A Comprehensive Survey on Embodied AI",
+   "authors": [
+    "Zhu"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2407.06886",
+   "urls": [
+    "arXiv:2407.06886"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2407.06886"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/978-981-95-7750-7_1",
+      "title": "Embodied AI",
+      "year": 2026,
+      "first_author": "Wang",
+      "container": "Autonomous Embodied AI",
+      "type": "book-chapter",
+      "score": 27.158827
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 1.0,
+      "partial_ratio": 0,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    },
+    {
+     "step": "urls_not_live",
+     "url_status": {
+      "arXiv:2407.06886": "error"
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 20,
+   "raw": "Chen, Y., et al. (2024). A Comprehensive Survey of Cross-Domain Policy Transfer for Embodied Agents. arXiv:2402.04580.",
+   "title": "A Comprehensive Survey of Cross-Domain Policy Transfer for Embodied Agents",
+   "authors": [
+    "Chen"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2402.04580",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.24963/ijcai.2024/906",
+    "title": "A Comprehensive Survey of Cross-Domain Policy Transfer for Embodied Agents",
+    "year": 2024,
+    "first_author": "Niu",
+    "container": "Proceedings of the Thirty-ThirdInternational Joint Conference on Artificial Intelligence",
+    "type": "proceedings-article",
+    "score": 51.671165
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2402.04580"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 21,
+   "raw": "Chen, Y., et al. (2024). A comprehensive survey of cross-domain policy transfer for embodied agents. IJCAI.",
+   "title": "A comprehensive survey of cross-domain policy transfer for embodied agents",
+   "authors": [
+    "Chen"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.24963/ijcai.2024/906",
+    "title": "A Comprehensive Survey of Cross-Domain Policy Transfer for Embodied Agents",
+    "year": 2024,
+    "first_author": "Niu",
+    "container": "Proceedings of the Thirty-ThirdInternational Joint Conference on Artificial Intelligence",
+    "type": "proceedings-article",
+    "score": 51.686985
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 22,
+   "raw": "Huang, Y. (2024). Generalization of Embodied Robot Learning. Medium.",
+   "title": "Generalization of Embodied Robot Learning",
+   "authors": [
+    "Huang"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Medium",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/hri.2016.7451875",
+      "title": "Embodied queries for robot task learning",
+      "year": 2016,
+      "first_author": "Bullard",
+      "container": "2016 11th ACM/IEEE International Conference on Human-Robot Interaction (HRI)",
+      "type": "proceedings-article",
+      "score": 24.532509
+     },
+     "metrics": {
+      "title_sim": 73.01587301587301,
+      "containment": 0.6,
+      "partial_ratio": 65.71428571428571,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 23,
+   "raw": "Feng, L., et al. (2024). Multi-agent Embodied AI: Advances and Future Directions. arXiv:2405.05108.",
+   "title": "Multi-agent Embodied AI: Advances and Future Directions",
+   "authors": [
+    "Feng"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2405.05108",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/s11432-025-4820-4",
+    "title": "Multi-agent embodied AI: advances and future directions",
+    "year": 2026,
+    "first_author": "Feng",
+    "container": "Science China Information Sciences",
+    "type": "journal-article",
+    "score": 42.54967
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2405.05108"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 24,
+   "raw": "Li, J., et al. (2024). Multimodal Data Storage and Retrieval for Embodied AI: A Survey. arXiv:2408.13901.",
+   "title": "Multimodal Data Storage and Retrieval for Embodied AI: A Survey",
+   "authors": [
+    "Li"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2408.13901",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2408.13901"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/tkde.2024.3399746",
+      "title": "Scene-Driven Multimodal Knowledge Graph Construction for Embodied AI",
+      "year": 2024,
+      "first_author": "Song",
+      "container": "IEEE Transactions on Knowledge and Data Engineering",
+      "type": "journal-article",
+      "score": 29.136309
+     },
+     "metrics": {
+      "title_sim": 64.61538461538461,
+      "containment": 0.286,
+      "partial_ratio": 57.35294117647059,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 25,
+   "raw": "Chen, Z., et al. (2024). Multimodal Alignment and Fusion: A Survey. arXiv:2411.17040.",
+   "title": "Multimodal Alignment and Fusion: A Survey",
+   "authors": [
+    "Chen"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2411.17040",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2411.17040"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/s11263-025-02667-1",
+      "title": "Multimodal Alignment and Fusion: A Survey",
+      "year": 2026,
+      "first_author": "Li",
+      "container": "International Journal of Computer Vision",
+      "type": "journal-article",
+      "score": 28.509245
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 1.0,
+      "partial_ratio": 100.0,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 26,
+   "raw": "Baltru\u0161aitis, T., et al. (2019). Multimodal machine learning: A survey and taxonomy. IEEE TPAMI.",
+   "title": "Multimodal machine learning: A survey and taxonomy",
+   "authors": [
+    "Baltru\u0161aitis"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/tpami.2018.2798607",
+    "title": "Multimodal Machine Learning: A Survey and Taxonomy",
+    "year": 2019,
+    "first_author": "Baltrusaitis",
+    "container": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+    "type": "journal-article",
+    "score": 33.00052
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 27,
+   "raw": "Chen, Z., et al. (2024). Multimodal Alignment and Fusion: A Survey. arXiv:2411.17040.",
+   "title": "Multimodal Alignment and Fusion: A Survey",
+   "authors": [
+    "Chen"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2411.17040",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2411.17040"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/s11263-025-02667-1",
+      "title": "Multimodal Alignment and Fusion: A Survey",
+      "year": 2026,
+      "first_author": "Li",
+      "container": "International Journal of Computer Vision",
+      "type": "journal-article",
+      "score": 28.509245
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 1.0,
+      "partial_ratio": 100.0,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 28,
+   "raw": "Chen, Z., et al. (2024). Adaptive Multimodal Fusion. arXiv:2411.17040.",
+   "title": "Adaptive Multimodal Fusion",
+   "authors": [
+    "Chen"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2411.17040",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2411.17040"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1038/s41598-026-63857-6",
+      "title": "An intelligent synapse fusion network with dynamic adaptive control for multimodal fusion",
+      "year": 2026,
+      "first_author": "Zhai",
+      "container": "Scientific Reports",
+      "type": "journal-article",
+      "score": 27.665455
+     },
+     "metrics": {
+      "title_sim": 45.21739130434783,
+      "containment": 0.444,
+      "partial_ratio": 55.44554455445545,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 29,
+   "raw": "Shin, S., et al. (2024). Semantic Skill Grounding for Embodied Instruction-Following in Cross-Domain Environments. ACL Findings.",
+   "title": "Semantic Skill Grounding for Embodied Instruction-Following in Cross-Domain Environments",
+   "authors": [
+    "Shin"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2024.findings-acl.200",
+    "title": "Semantic Skill Grounding for Embodied Instruction-Following in Cross-Domain Environments",
+    "year": 2024,
+    "first_author": "Shin",
+    "container": "Findings of the Association for Computational Linguistics ACL 2024",
+    "type": "proceedings-article",
+    "score": 74.52112
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 30,
+   "raw": "Shin, S., et al. (2024). SemTra: A Semantic Skill Translator for Cross-Domain Zero-Shot Policy Adaptation. AAAI.",
+   "title": "SemTra: A Semantic Skill Translator for Cross-Domain Zero-Shot Policy Adaptation",
+   "authors": [
+    "Shin"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1609/aaai.v38i13.29421",
+    "title": "SemTra: A Semantic Skill Translator for Cross-Domain Zero-Shot Policy Adaptation",
+    "year": 2024,
+    "first_author": "Shin",
+    "container": "Proceedings of the AAAI Conference on Artificial Intelligence",
+    "type": "journal-article",
+    "score": 82.579384
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 31,
+   "raw": "Hospedales, T., et al. (2024). Domain generalization through meta-learning: a survey. Machine Vision and Applications.",
+   "title": "Domain generalization through meta-learning: a survey",
+   "authors": [
+    "Hospedales"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Machine Vision and Applications",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/s10462-024-10922-z",
+    "title": "Domain generalization through meta-learning: a survey",
+    "year": 2024,
+    "first_author": "Khoee",
+    "container": "Artificial Intelligence Review",
+    "type": "journal-article",
+    "score": 41.725555
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 32,
+   "raw": "Lum, T. G. W., et al. (2024). Crossing the Human-Robot Embodiment Gap with Sim-to-Real RL using One Human Demonstration. arXiv:2504.12609.",
+   "title": "Crossing the Human-Robot Embodiment Gap with Sim-to-Real RL using One Human Demonstration",
+   "authors": [
+    "Lum"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2504.12609",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2504.12609"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1145/2559636.2563713",
+      "title": "Human embodiment creates problems for robot learning by demonstration using a control panel",
+      "year": 2014,
+      "first_author": "Kirstein",
+      "container": "Proceedings of the 2014 ACM/IEEE international conference on Human-robot interaction",
+      "type": "proceedings-article",
+      "score": 39.69294
+     },
+     "metrics": {
+      "title_sim": 67.816091954023,
+      "containment": 0.444,
+      "partial_ratio": 54.94505494505495,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 33,
+   "raw": "Jiang, Y., et al. (2024). Sim-to-Real Policy Transfer by Learning from Online Correction. arXiv:2405.10315.",
+   "title": "Sim-to-Real Policy Transfer by Learning from Online Correction",
+   "authors": [
+    "Jiang"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2405.10315",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2405.10315"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/access.2025.3581035/mm1",
+      "title": "Sim-to-Real Transfer of Deep Reinforcement Learning Agents for Online Coverage Path Planning_supp5-3581035.mp4",
+      "year": 2025,
+      "first_author": "Jonnarth",
+      "container": "",
+      "type": "component",
+      "score": 34.409668
+     },
+     "metrics": {
+      "title_sim": 55.81395348837209,
+      "containment": 0.357,
+      "partial_ratio": 52.74725274725275,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 34,
+   "raw": "Ma, Y., et al. (2024). DrEureka: Language Model Guided Sim-To-Real Transfer. RSS.",
+   "title": "DrEureka: Language Model Guided Sim-To-Real Transfer",
+   "authors": [
+    "Ma"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.15607/rss.2024.xx.094",
+    "title": "DrEureka: Language Model Guided Sim-To-Real Transfer",
+    "year": 2024,
+    "first_author": "Ma",
+    "container": "Robotics: Science and Systems XX",
+    "type": "proceedings-article",
+    "score": 60.334023
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 35,
+   "raw": "Tobin, J., et al. (2017). Domain randomization for transferring deep neural networks from simulation to the real world. IROS.",
+   "title": "Domain randomization for transferring deep neural networks from simulation to the real world",
+   "authors": [
+    "Tobin"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/iros.2017.8202133",
+    "title": "Domain randomization for transferring deep neural networks from simulation to the real world",
+    "year": 2017,
+    "first_author": "Tobin",
+    "container": "2017 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+    "type": "proceedings-article",
+    "score": 67.7021
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 36,
+   "raw": "Peng, X., et al. (2018). Sim-to-real transfer of robotic control with dynamics randomization. ICRA.",
+   "title": "Sim-to-real transfer of robotic control with dynamics randomization",
+   "authors": [
+    "Peng"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/icra.2018.8460528",
+    "title": "Sim-to-Real Transfer of Robotic Control with Dynamics Randomization",
+    "year": 2018,
+    "first_author": "Peng",
+    "container": "2018 IEEE International Conference on Robotics and Automation (ICRA)",
+    "type": "proceedings-article",
+    "score": 55.78205
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 37,
+   "raw": "James, S., et al. (2019). Sim-to-real via sim-to-sim: Data-efficient robotic grasping via randomized-to-canonical adaptation networks. CVPR.",
+   "title": "Sim-to-real via sim-to-sim: Data-efficient robotic grasping via randomized-to-canonical adaptation networks",
+   "authors": [
+    "James"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/cvpr.2019.01291",
+    "title": "Sim-To-Real via Sim-To-Sim: Data-Efficient Robotic Grasping via Randomized-To-Canonical Adaptation Networks",
+    "year": 2019,
+    "first_author": "James",
+    "container": "2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "type": "proceedings-article",
+    "score": 105.13964
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 38,
+   "raw": "Szot, A., et al. (2024). From Multimodal LLMs to Generalist Embodied Agents: Methods and Lessons. arXiv:2412.08442.",
+   "title": "From Multimodal LLMs to Generalist Embodied Agents: Methods and Lessons",
+   "authors": [
+    "Szot"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2412.08442",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/cvpr52734.2025.00995",
+    "title": "From Multimodal LLMs to Generalist Embodied Agents: Methods and Lessons",
+    "year": 2025,
+    "first_author": "Szot",
+    "container": "2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "type": "proceedings-article",
+    "score": 60.911552
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2412.08442"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 39,
+   "raw": "Deitke, M., et al. (2022). ProcTHOR: Large-Scale Embodied AI Using Procedural Generation. arXiv:2206.06994.",
+   "title": "ProcTHOR: Large-Scale Embodied AI Using Procedural Generation",
+   "authors": [
+    "Deitke"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": "2206.06994",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/068431-0433",
+    "title": "ProcTHOR: Large-Scale Embodied AI Using Procedural Generation",
+    "year": 2022,
+    "first_author": "Deitke",
+    "container": "Advances in Neural Information Processing Systems 35",
+    "type": "proceedings-article",
+    "score": 69.69345
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2206.06994"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 40,
+   "raw": "Bakirtzis, G., et al. (2024). Dynamic certification for responsible embodied AI. arXiv:2409.00015.",
+   "title": "Dynamic certification for responsible embodied AI",
+   "authors": [
+    "Bakirtzis"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2409.00015",
+   "urls": [
+    "arXiv:2409.00015"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2409.00015"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1016/b978-0-44-340553-2.00019-8",
+      "title": "Navigating the sociotechnical labyrinth: dynamic certification for responsible embodied AI",
+      "year": 2025,
+      "first_author": "Bakirtzis",
+      "container": "Bi-directionality in Human-AI Collaborative Systems",
+      "type": "book-chapter",
+      "score": 51.368156
+     },
+     "metrics": {
+      "title_sim": 71.01449275362319,
+      "containment": 0.571,
+      "partial_ratio": 75.77639751552795,
+      "year_ok": true,
+      "first_author_ok": true
+     }
+    },
+    {
+     "step": "urls_not_live",
+     "url_status": {
+      "arXiv:2409.00015": "error"
+     }
+    }
+   ],
+   "likely_match": {
+    "source": "crossref",
+    "doi": "10.1016/b978-0-44-340553-2.00019-8",
+    "title": "Navigating the sociotechnical labyrinth: dynamic certification for responsible embodied AI",
+    "year": 2025,
+    "first_author": "Bakirtzis",
+    "container": "Bi-directionality in Human-AI Collaborative Systems",
+    "type": "book-chapter",
+    "score": 51.368156
+   }
+  },
+  {
+   "junk": false,
+   "idx": 41,
+   "raw": "Resseguier, A., et al. (2019). Your Robot Therapist Will See You Now: Ethical Implications of Embodied AI. JMIR.",
+   "title": "Your Robot Therapist Will See You Now: Ethical Implications of Embodied AI",
+   "authors": [
+    "Resseguier"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1038/d41586-019-02874-0",
+      "title": "Your robot surgeon will see you now",
+      "year": 2019,
+      "first_author": "Svoboda",
+      "container": "Nature",
+      "type": "journal-article",
+      "score": 45.693916
+     },
+     "metrics": {
+      "title_sim": 87.09677419354838,
+      "containment": 0.857,
+      "partial_ratio": 77.14285714285715,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 42,
+   "raw": "van de Ven, G., et al. (2024). Continual Learning for Embodied Agents: Methods, Evaluation and Challenges. arXiv.",
+   "title": "Continual Learning for Embodied Agents: Methods, Evaluation and Challenges",
+   "authors": [
+    "Ven"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.20944/preprints202607.1301.v1",
+      "title": "Continual Learning in Medical Imaging: Methods, Foundation Models, Challenges, and Clinical Translation",
+      "year": 2026,
+      "first_author": "Qamar",
+      "container": "",
+      "type": "posted-content",
+      "score": 29.338776
+     },
+     "metrics": {
+      "title_sim": 72.56637168141593,
+      "containment": 0.4,
+      "partial_ratio": 66.66666666666667,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 43,
+   "raw": "Wang, L., et al. (2023). Continual learning in embodied AI: A review. Nature Machine Intelligence.",
+   "title": "Continual learning in embodied AI: A review",
+   "authors": [
+    "Wang"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature Machine Intelligence",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/978-3-031-84363-1_2",
+      "title": "Continual Learning for Edge AI",
+      "year": 2025,
+      "first_author": "Wang",
+      "container": "Synthesis Lectures on Learning, Networks, and Algorithms",
+      "type": "book-chapter",
+      "score": 29.801485
+     },
+     "metrics": {
+      "title_sim": 82.35294117647058,
+      "containment": 0.667,
+      "partial_ratio": 76.66666666666666,
+      "year_ok": false,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 44,
+   "raw": "Lesort, T., et al. (2020). Continual learning for robotics: Definition, framework, learning strategies, opportunities and challenges. Information Fusion.",
+   "title": "Continual learning for robotics: Definition, framework, learning strategies, opportunities and challenges",
+   "authors": [
+    "Lesort"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.inffus.2019.12.004",
+    "title": "Continual learning for robotics: Definition, framework, learning strategies, opportunities and challenges",
+    "year": 2020,
+    "first_author": "Lesort",
+    "container": "Information Fusion",
+    "type": "journal-article",
+    "score": 74.39111
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 45,
+   "raw": "Parisi, G., et al. (2019). Continual lifelong learning with neural networks: A review. Neural Networks.",
+   "title": "Continual lifelong learning with neural networks: A review",
+   "authors": [
+    "Parisi"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.neunet.2019.01.012",
+    "title": "Continual lifelong learning with neural networks: A review",
+    "year": 2019,
+    "first_author": "Parisi",
+    "container": "Neural Networks",
+    "type": "journal-article",
+    "score": 57.318993
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 46,
+   "raw": "Stone, P., et al. (2010). Multiagent systems: A survey from a machine learning perspective. Autonomous Robots.",
+   "title": "Multiagent systems: A survey from a machine learning perspective",
+   "authors": [
+    "Stone"
+   ],
+   "year": 2010,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.21236/ada333248",
+    "title": "Multiagent Systems: A Survey from a Machine Learning Perspective",
+    "year": 1997,
+    "first_author": "Stone",
+    "container": "",
+    "type": "report",
+    "score": 56.31383
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 47,
+   "raw": "Oroojlooy, A., et al. (2023). A review of cooperative multi-agent deep reinforcement learning. Applied Intelligence.",
+   "title": "A review of cooperative multi-agent deep reinforcement learning",
+   "authors": [
+    "Oroojlooy"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Applied Intelligence",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/s10489-022-04105-y",
+    "title": "A review of cooperative multi-agent deep reinforcement learning",
+    "year": 2023,
+    "first_author": "Oroojlooy",
+    "container": "Applied Intelligence",
+    "type": "journal-article",
+    "score": 59.66003
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 48,
+   "raw": "Xie, Z., et al. (2024). Zero-shot generalization in sim-to-real. arXiv.",
+   "title": "Zero-shot generalization in sim-to-real",
+   "authors": [
+    "Xie"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.7717/peerj-cs.3690/table-4",
+      "title": "Table 4: Zero-shot cross-dataset generalization results.",
+      "year": 2026,
+      "first_author": null,
+      "container": "",
+      "type": "component",
+      "score": 34.233826
+     },
+     "metrics": {
+      "title_sim": 76.19047619047619,
+      "containment": 0.429,
+      "partial_ratio": 64.58333333333333,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 49,
+   "raw": "Xie, Z., et al. (2024). Bayesian meta-learning for sim-to-real. arXiv.",
+   "title": "Bayesian meta-learning for sim-to-real",
+   "authors": [
+    "Xie"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/iros47612.2022.9982175",
+      "title": "Bayesian Active Learning for Sim-to-Real Robotic Perception",
+      "year": 2022,
+      "first_author": "Feng",
+      "container": "2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+      "type": "proceedings-article",
+      "score": 25.559933
+     },
+     "metrics": {
+      "title_sim": 92.95774647887323,
+      "containment": 0.571,
+      "partial_ratio": 73.7864077669903,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 50,
+   "raw": "Paolo, G., et al. (2024). A call for embodied AI. arXiv:2402.03824.",
+   "title": "A call for embodied AI",
+   "authors": [
+    "Paolo"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2402.03824",
+   "urls": [
+    "arXiv:2402.03824"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2402.03824"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/978-3-031-68256-8_17",
+      "title": "The Industrial AI Revolution: A Guide to Embodied AI Systems",
+      "year": 2024,
+      "first_author": "Choubey",
+      "container": "Information Systems Engineering and Management",
+      "type": "book-chapter",
+      "score": 23.310205
+     },
+     "metrics": {
+      "title_sim": 74.28571428571428,
+      "containment": 0.2,
+      "partial_ratio": 45.714285714285715,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    },
+    {
+     "step": "urls_not_live",
+     "url_status": {
+      "arXiv:2402.03824": "error"
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 51,
+   "raw": "Duan, Y., et al. (2022). A survey of embodied ai: From simulators to research tasks. arXiv.",
+   "title": "A survey of embodied ai: From simulators to research tasks",
+   "authors": [
+    "Duan"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/tetci.2022.3141105",
+    "title": "A Survey of Embodied AI: From Simulators to Research Tasks",
+    "year": 2022,
+    "first_author": "Duan",
+    "container": "IEEE Transactions on Emerging Topics in Computational Intelligence",
+    "type": "journal-article",
+    "score": 48.01753
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 52,
+   "raw": "Chen, Y., et al. (2024). Embodied AI: Bridging Simulation and Reality in Robotics. arXiv.",
+   "title": "Embodied AI: Bridging Simulation and Reality in Robotics",
+   "authors": [
+    "Chen"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/raiie65740.2025.11140070",
+    "title": "Embodied AI: Bridging Simulation and Reality in Robotics",
+    "year": 2025,
+    "first_author": "Xu",
+    "container": "2025 4th International Symposium on Robotics, Artificial Intelligence and Information Engineering (RAIIE)",
+    "type": "proceedings-article",
+    "score": 46.706768
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 53,
+   "raw": "Peng, X., et al. (2018). Sim-to-real transfer in robotics. ICRA.",
+   "title": "Sim-to-real transfer in robotics",
+   "authors": [
+    "Peng"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "ICRA",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/icra.2018.8460528",
+      "title": "Sim-to-Real Transfer of Robotic Control with Dynamics Randomization",
+      "year": 2018,
+      "first_author": "Peng",
+      "container": "2018 IEEE International Conference on Robotics and Automation (ICRA)",
+      "type": "proceedings-article",
+      "score": 36.686398
+     },
+     "metrics": {
+      "title_sim": 76.92307692307692,
+      "containment": 0.429,
+      "partial_ratio": 70.45454545454545,
+      "year_ok": true,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": {
+    "source": "crossref",
+    "doi": "10.1109/icra.2018.8460528",
+    "title": "Sim-to-Real Transfer of Robotic Control with Dynamics Randomization",
+    "year": 2018,
+    "first_author": "Peng",
+    "container": "2018 IEEE International Conference on Robotics and Automation (ICRA)",
+    "type": "proceedings-article",
+    "score": 36.686398
+   }
+  },
+  {
+   "junk": false,
+   "idx": 54,
+   "raw": "Finn, C., et al. (2017). Meta-Controller. ICML.",
+   "title": "Meta-Controller",
+   "authors": [
+    "Finn"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1201/9781315275208",
+      "title": "Thermal Physics",
+      "year": 2017,
+      "first_author": "Finn",
+      "container": "",
+      "type": "book",
+      "score": 18.374031
+     },
+     "metrics": {
+      "title_sim": 40.0,
+      "containment": 0.0,
+      "partial_ratio": 45.45454545454546,
+      "year_ok": true,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 55,
+   "raw": "Finn, C., et al. (2017). Unsupervised reinforcement learning of transferable meta-skills for embodied navigation. ICML.",
+   "title": "Unsupervised reinforcement learning of transferable meta-skills for embodied navigation",
+   "authors": [
+    "Finn"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/cvpr42600.2020.01214",
+      "title": "Unsupervised Reinforcement Learning of Transferable Meta-Skills for Embodied Navigation",
+      "year": 2020,
+      "first_author": "Li",
+      "container": "2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "type": "proceedings-article",
+      "score": 53.49019
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 1.0,
+      "partial_ratio": 100.0,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 56,
+   "raw": "Liang, P., et al. (2021). Cross-Modal Generalization: Learning in Low Resource Modalities via Meta-Alignment. MM \u201921.",
+   "title": "Cross-Modal Generalization: Learning in Low Resource Modalities via Meta-Alignment",
+   "authors": [
+    "Liang"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3474085.3475247",
+    "title": "Cross-Modal Generalization: Learning in Low Resource Modalities via Meta-Alignment",
+    "year": 2021,
+    "first_author": "Liang",
+    "container": "Proceedings of the 29th ACM International Conference on Multimedia",
+    "type": "proceedings-article",
+    "score": 70.73565
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 57,
+   "raw": "Chen, Z., et al. (2024). AdaTAMP. arXiv.",
+   "title": null,
+   "authors": [
+    "Chen"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.21428/44468e7f.590bf9f4",
+      "title": "Al-Hikmah: Jurnal Ilmu Dakwah, Vol. 4, No. 2 (Oktober) 2013",
+      "year": 2024,
+      "first_author": null,
+      "container": "Arxiv Ismail Suardi Wekke",
+      "type": "journal-issue",
+      "score": 25.20886
+     },
+     "metrics": {
+      "title_sim": 0,
+      "containment": 0.0,
+      "partial_ratio": 36.065573770491795,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 58,
+   "raw": "Brohan, A., et al. (2023). RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control. arXiv:2307.15818.",
+   "title": "RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control",
+   "authors": [
+    "Brohan"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2307.15818",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2307.15818"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.56028/aetr.15.1.1423.2025",
+      "title": "RT-2: Vision-Language-Action Models for Generalizable Robotic Control: A Comprehensive Review",
+      "year": 2025,
+      "first_author": "Zhou",
+      "container": "Advances in Engineering Technology Research",
+      "type": "journal-article",
+      "score": 44.729786
+     },
+     "metrics": {
+      "title_sim": 79.36507936507937,
+      "containment": 0.667,
+      "partial_ratio": 70.32967032967032,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 59,
+   "raw": "Deitke, M., et al. (2022). ProcTHOR: Large-Scale Embodied AI Using Procedural Generation. arXiv:2206.06994.",
+   "title": "ProcTHOR: Large-Scale Embodied AI Using Procedural Generation",
+   "authors": [
+    "Deitke"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": "2206.06994",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/068431-0433",
+    "title": "ProcTHOR: Large-Scale Embodied AI Using Procedural Generation",
+    "year": 2022,
+    "first_author": "Deitke",
+    "container": "Advances in Neural Information Processing Systems 35",
+    "type": "proceedings-article",
+    "score": 69.69345
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2206.06994"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 60,
+   "raw": "Lv, Q., et al. (2024). Meta-MolNet: A Cross-Domain Benchmark for Few Examples Drug Discovery. IEEE Transactions on Neural Networks and Learning Systems.",
+   "title": "Meta-MolNet: A Cross-Domain Benchmark for Few Examples Drug Discovery",
+   "authors": [
+    "Lv"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE Transactions on Neural Networks and Learning Systems",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/tnnls.2024.3359657",
+    "title": "Meta-MolNet: A Cross-Domain Benchmark for Few Examples Drug Discovery",
+    "year": 2025,
+    "first_author": "Lv",
+    "container": "IEEE Transactions on Neural Networks and Learning Systems",
+    "type": "journal-article",
+    "score": 64.242256
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 61,
+   "raw": "Zhou, K., et al. (2022). Domain generalization: A survey. IEEE TPAMI.",
+   "title": "Domain generalization: A survey",
+   "authors": [
+    "Zhou"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/tpami.2022.3195549",
+    "title": "Domain Generalization: A Survey",
+    "year": 2022,
+    "first_author": "Zhou",
+    "container": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+    "type": "journal-article",
+    "score": 26.262598
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  }
+ ]
+}

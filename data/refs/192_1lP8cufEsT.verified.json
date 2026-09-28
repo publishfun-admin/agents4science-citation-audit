@@ -1,0 +1,893 @@
+{
+ "pdf": "192_1lP8cufEsT.pdf",
+ "n_entries": 19,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 2,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "[1] Chelsea Finn, Pieter Abbeel, and Sergey Levine. Model-agnostic meta-learning for fast adaptation of deep networks. In Proceedings of the 34th International Conference on Machine Learning (ICML), volume 70, pages 1126\u20131135. PMLR, 2017.",
+   "title": "Model-agnostic meta-learning for fast adaptation of deep networks",
+   "authors": [
+    "Finn",
+    "Abbeel",
+    "Levine"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 34th International Conference on Machine Learning (ICML",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/isc260477.2024.11004295",
+      "title": "Study on Adaptation of Model-Agnostic Meta-Learning Integrated Deep Q-Learning for HVAC Control",
+      "year": 2024,
+      "first_author": "Kumkam",
+      "container": "2024 IEEE International Smart Cities Conference (ISC2)",
+      "type": "proceedings-article",
+      "score": 36.77884
+     },
+     "metrics": {
+      "title_sim": 87.93103448275862,
+      "containment": 0.636,
+      "partial_ratio": 56.84210526315789,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "c889d6f98e6d79b89c3a6adf8a921f88fa6ba518",
+    "title": "Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks",
+    "year": 2017,
+    "first_author": "Chelsea Finn",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "DBLP": "journals/corr/FinnAL17",
+     "MAG": "2951775809",
+     "ArXiv": "1703.03400",
+     "CorpusId": 6719686
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2] Joao Gama, Indre Zliobaite, Albert Bifet, Mykola Pechenizkiy, and Abdelhamid Bouchachia. A survey on concept drift adaptation. ACM Computing Surveys, 46(4):44:1\u201344:37, 2014.",
+   "title": "A survey on concept drift adaptation",
+   "authors": [
+    "Gama",
+    "Zliobaite",
+    "Bifet",
+    "Pechenizkiy",
+    "Bouchachia"
+   ],
+   "year": 2014,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "ACM Computing Surveys",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/2523813",
+    "title": "A survey on concept drift adaptation",
+    "year": 2014,
+    "first_author": "Gama",
+    "container": "ACM Computing Surveys",
+    "type": "journal-article",
+    "score": 41.310177
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3] Yaroslav Ganin, Evgeniya Ustinova, Hana Ajakan, Pascal Germain, Hugo Larochelle, Francois Laviolette, Mario Marchand, and Victor Lempitsky. Domain-adversarial training of neural networks. Journal of Machine Learning Research, 17(59):1\u201335, 2016.",
+   "title": "Domain-adversarial training of neural networks",
+   "authors": [
+    "Ganin",
+    "Ustinova",
+    "Ajakan",
+    "Germain",
+    "Larochelle",
+    "Laviolette",
+    "Marchand",
+    "Lempitsky"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Machine Learning Research",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/978-3-319-58347-1_10",
+    "title": "Domain-Adversarial Training of Neural Networks",
+    "year": 2017,
+    "first_author": "Ganin",
+    "container": "Advances in Computer Vision and Pattern Recognition",
+    "type": "book-chapter",
+    "score": 39.209213
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4] Zainab Binti Hassan and Haris Mohd Yusof. Meta-learning approaches for context-aware decision support in smart agriculture and autonomous systems. PatternIQ Mining, 1(4):65\u201378, 2024. Accessed 2025-09-14.",
+   "title": "Meta-learning approaches for context-aware decision support in smart agriculture and autonomous systems",
+   "authors": [
+    "Hassan",
+    "Yusof"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "PatternIQ Mining",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.70023/sahd/241106",
+    "title": "Meta-Learning Approaches for Context-Aware Decision Support in Smart Agriculture and Autonomous Systems",
+    "year": 2024,
+    "first_author": "Hassan",
+    "container": "PatternIQ Mining",
+    "type": "journal-article",
+    "score": 76.743645
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5] Timothy M. Hospedales, Antreas Antoniou, Paul Micaelli, and Amos J. Storkey. Meta-learning in neural networks: A survey. IEEE Transactions on Pattern Analysis and Machine Intelligence, 44(9):5149\u20135179, 2022.",
+   "title": "Meta-learning in neural networks: A survey",
+   "authors": [
+    "Hospedales",
+    "Antoniou",
+    "Micaelli",
+    "Storkey"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/tpami.2021.3079209",
+    "title": "Meta-Learning in Neural Networks: A Survey",
+    "year": 2021,
+    "first_author": "Hospedales",
+    "container": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+    "type": "journal-article",
+    "score": 35.971592
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[6] James Kirkpatrick, Razvan Pascanu, Neil Rabinowitz, Joel Veness, Guillaume Desjardins, Andrei A. Rusu, K. Milan, John Quan, Tiago Ramalho, Agnieszka Grabska-Barwinska, et al. Overcoming catastrophic forgetting in neural networks. Proceedings of the National Academy of Sciences (PNAS), 114(13):3521\u20133526, 2017.",
+   "title": "Overcoming catastrophic forgetting in neural networks",
+   "authors": [
+    "Kirkpatrick",
+    "Pascanu",
+    "Rabinowitz",
+    "Veness",
+    "Desjardins",
+    "Rusu",
+    "Milan",
+    "Quan",
+    "Ramalho",
+    "Grabska-Barwinska"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the National Academy of Sciences (PNAS",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1073/pnas.1611835114",
+    "title": "Overcoming catastrophic forgetting in neural networks",
+    "year": 2017,
+    "first_author": "Kirkpatrick",
+    "container": "Proceedings of the National Academy of Sciences",
+    "type": "journal-article",
+    "score": 40.370804
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[7] Changhee Lee, Andrew Y. Ng, Jinsung Yoon, and Mihaela van der Schaar. Meta-learning in healthcare: A survey, 2023.",
+   "title": "Meta-learning in healthcare: A survey",
+   "authors": [
+    "Lee",
+    "Ng",
+    "Yoon",
+    "Schaar"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/b978-0-323-89931-4.00007-9",
+    "title": "Meta-learning for healthcare",
+    "year": 2023,
+    "first_author": "Zou",
+    "container": "Meta-Learning",
+    "type": "book-chapter",
+    "score": 29.071203
+   },
+   "metrics": {
+    "title_sim": 92.3076923076923,
+    "containment": 1.0,
+    "partial_ratio": 89.28571428571429,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[8] Mingsheng Long, Yue Cao, Jianmin Wang, and Michael I. Jordan. Learning transferable features with deep adaptation networks. In Proceedings of the 32nd International Conference on Machine Learning (ICML), pages 97\u2013105. PMLR, 2015.",
+   "title": "Learning transferable features with deep adaptation networks",
+   "authors": [
+    "Long",
+    "Cao",
+    "Wang",
+    "Jordan"
+   ],
+   "year": 2015,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 32nd International Conference on Machine Learning (ICML",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/tpami.2018.2868685",
+      "title": "Transferable Representation Learning with Deep Adaptation Networks",
+      "year": 2019,
+      "first_author": "Long",
+      "container": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "type": "journal-article",
+      "score": 32.61661
+     },
+     "metrics": {
+      "title_sim": 91.89189189189189,
+      "containment": 0.833,
+      "partial_ratio": 71.21212121212122,
+      "year_ok": false,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "7340f090f8a0df5b109682e9f6d57e4b8ca1a2f7",
+    "title": "Learning Transferable Features with Deep Adaptation Networks",
+    "year": 2015,
+    "first_author": "Mingsheng Long",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "DBLP": "journals/corr/Long015",
+     "ArXiv": "1502.02791",
+     "MAG": "2951670162",
+     "CorpusId": 556999
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[9] Tsendsuren Munkhdalai and Hong Yu. Meta networks. In Proceedings of the 34th International Conference on Machine Learning (ICML), volume 70, pages 2554\u20132563. PMLR, 2017.",
+   "title": "Meta networks",
+   "authors": [
+    "Munkhdalai",
+    "Yu"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 34th International Conference on Machine Learning (ICML",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/978-3-319-55895-0_12",
+      "title": "Network Meta-analysis",
+      "year": 2017,
+      "first_author": "Cleophas",
+      "container": "Modern Meta-Analysis",
+      "type": "book-chapter",
+      "score": 20.309042
+     },
+     "metrics": {
+      "title_sim": 70.58823529411765,
+      "containment": 0.333,
+      "partial_ratio": 47.61904761904761,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "470d11b8ca4586c930adbbfc3f60bff08f2a0161",
+    "title": "Meta Networks",
+    "year": 2017,
+    "first_author": "Tsendsuren Munkhdalai",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "MAG": "2948974578",
+     "DBLP": "conf/icml/MunkhdalaiY17",
+     "ArXiv": "1703.00837",
+     "PubMedCentral": "6519722",
+     "CorpusId": 18702258,
+     "PubMed": "31106300"
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[10] Alex Nichol, Joshua Achiam, and John Schulman. On first-order meta-learning algorithms, 2018.",
+   "title": "On first-order meta-learning algorithms",
+   "authors": [
+    "Nichol",
+    "Achiam",
+    "Schulman"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1201/b19011-16",
+    "title": "- Meta-Learning",
+    "year": 2018,
+    "first_author": null,
+    "container": "Online Portfolio Selection",
+    "type": "book-chapter",
+    "score": 26.25543
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": null
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "[11] Sibaram Prasad Panda. Ai in decision support systems. SSRN, 2025. Accessed 2025-09-14.",
+   "title": "Ai in decision support systems",
+   "authors": [
+    "Panda"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "SSRN",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.2139/ssrn.5250480",
+    "title": "AI in Decision Support Systems",
+    "year": 2025,
+    "first_author": "Panda",
+    "container": "",
+    "type": "posted-content",
+    "score": 44.19109
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "[12] German I. Parisi, Ronald Kemker, Jose L. Part, Christopher Kanan, and Stefan Wermter. Continual lifelong learning with neural networks: A review. Neural Networks, 113:54\u201371, 2019.",
+   "title": "Continual lifelong learning with neural networks: A review",
+   "authors": [
+    "Parisi",
+    "Kemker",
+    "Part",
+    "Kanan",
+    "Wermter"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Neural Networks",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.neunet.2019.01.012",
+    "title": "Continual lifelong learning with neural networks: A review",
+    "year": 2019,
+    "first_author": "Parisi",
+    "container": "Neural Networks",
+    "type": "journal-article",
+    "score": 57.318546
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "[13] Daniel J. Power. Decision support systems: A historical overview. In Frada Burstein and Clyde W. Holsapple, editors, Handbook on Decision Support Systems 1: Basic Themes, pages 121\u2013140. Springer, 2008.",
+   "title": "Decision support systems: A historical overview",
+   "authors": [
+    "Power"
+   ],
+   "year": 2008,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Handbook on Decision Support Systems 1: Basic Themes",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/978-3-540-48713-5_7",
+    "title": "Decision Support Systems: A Historical Overview",
+    "year": 2008,
+    "first_author": "Power",
+    "container": "International Handbooks on Information Systems",
+    "type": "book-chapter",
+    "score": 43.497208
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "[14] Kun Qian and Xuan Liu. Metaagent: Toward self-evolving agent via tool meta-learning, 2025.",
+   "title": "Metaagent: Toward self-evolving agent via tool meta-learning",
+   "authors": [
+    "Qian",
+    "Liu"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.20944/preprints202604.1991.v1",
+      "title": "Self-Evolving Machine Learning Models via Meta-Learning and Neural Architecture Search",
+      "year": 2026,
+      "first_author": "Shukla",
+      "container": "",
+      "type": "posted-content",
+      "score": 32.126366
+     },
+     "metrics": {
+      "title_sim": 68.88888888888889,
+      "containment": 0.5,
+      "partial_ratio": 54.13533834586466,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "61b307002e3289f2e1b5ad45b13d2e2c5e71309f",
+    "title": "MetaAgent: Toward Self-Evolving Agent via Tool Meta-Learning",
+    "year": 2025,
+    "first_author": "Hong-Jin Qian",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2508-00271",
+     "ArXiv": "2508.00271",
+     "DOI": "10.48550/arXiv.2508.00271",
+     "CorpusId": 280417513
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "[15] A. B. Rashid and coauthors. Ai revolutionizing industries worldwide: A comprehensive review. Elsevier (ScienceDirect) preprint, 2024. Accessed 2025-09-14.",
+   "title": "Rashid and coauthors. Ai revolutionizing industries worldwide: A comprehensive review",
+   "authors": [
+    "B"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1016/j.hybadv.2024.100277",
+      "title": "AI revolutionizing industries worldwide: A comprehensive overview of its diverse applications",
+      "year": 2024,
+      "first_author": "Rashid",
+      "container": "Hybrid Advances",
+      "type": "journal-article",
+      "score": 46.074684
+     },
+     "metrics": {
+      "title_sim": 82.28571428571428,
+      "containment": 0.571,
+      "partial_ratio": 78.26086956521739,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 16,
+   "raw": "[16] Sylvestre-Alvise Rebuffi, Alexander Kolesnikov, Georg Sperl, and Christoph H. Lampert. icarl: Incremental classifier and representation learning. In IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 5533\u20135542, 2017.",
+   "title": "Incremental classifier and representation learning",
+   "authors": [
+    "Rebuffi",
+    "Kolesnikov",
+    "Sperl",
+    "icarl"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE Conference on Computer Vision and Pattern Recognition (CVPR",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/cvpr.2017.587",
+    "title": "iCaRL: Incremental Classifier and Representation Learning",
+    "year": 2017,
+    "first_author": "Rebuffi",
+    "container": "2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "type": "proceedings-article",
+    "score": 47.742573
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 17,
+   "raw": "[17] Joan Serra, Didac Suris, Marius Miron, and Alexandros Karatzoglou. Overcoming catastrophic forgetting with hard attention to the task. In Proceedings of the 35th International Conference on Machine Learning (ICML), volume 80, pages 4548\u20134557. PMLR, 2018.",
+   "title": "Overcoming catastrophic forgetting with hard attention to the task",
+   "authors": [
+    "Serra",
+    "Suris",
+    "Miron",
+    "Karatzoglou"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 35th International Conference on Machine Learning (ICML",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.6552789",
+      "title": "Overcoming Catastrophic Forgetting in Continuous",
+      "year": 2026,
+      "first_author": "Aleixo",
+      "container": "",
+      "type": "posted-content",
+      "score": 36.17696
+     },
+     "metrics": {
+      "title_sim": 82.92682926829268,
+      "containment": 0.75,
+      "partial_ratio": 79.16666666666666,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "3aa673abd49f0837ed2fbf5cffcada9ba6f48693",
+    "title": "Overcoming catastrophic forgetting with hard attention to the task",
+    "year": 2018,
+    "first_author": "J. Serr\u00e0",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "DBLP": "journals/corr/abs-1801-01423",
+     "ArXiv": "1801.01423",
+     "MAG": "2963813679",
+     "CorpusId": 2157345
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 18,
+   "raw": "[18] A. Srivastava, R. Gupta, L. Zhao, and S. Kumar. A multimodal deep reinforcement learning approach for iot-driven adaptive scheduling and robustness optimization in global logistics networks. Scientific Reports, 15(1):1\u201315, 2025. Article URL provided in text; update DOI when available.",
+   "title": "A multimodal deep reinforcement learning approach for iot-driven adaptive scheduling and robustness optimization in global logistics networks",
+   "authors": [
+    "Srivastava",
+    "Gupta",
+    "Zhao",
+    "Kumar"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Scientific Reports",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/s41598-025-10512-1",
+    "title": "A multimodal deep reinforcement learning approach for IoT-driven adaptive scheduling and robustness optimization in global logistics networks",
+    "year": 2025,
+    "first_author": "Lu",
+    "container": "Scientific Reports",
+    "type": "journal-article",
+    "score": 91.71513
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 19,
+   "raw": "[19] Jason Weston, Sumit Chopra, and Antoine Bordes.          Memory networks.       arXiv preprint arXiv:1410.3916, 2014.",
+   "title": "Memory networks",
+   "authors": [
+    "Weston",
+    "Chopra",
+    "Bordes"
+   ],
+   "year": 2014,
+   "doi": null,
+   "arxiv": "1410.3916",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3109859.3109868",
+    "title": "Memory Networks for Recommendation",
+    "year": 2017,
+    "first_author": "Weston",
+    "container": "Proceedings of the Eleventh ACM Conference on Recommender Systems",
+    "type": "proceedings-article",
+    "score": 23.980396
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.667,
+    "partial_ratio": 64.70588235294117,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "1410.3916"
+    }
+   ]
+  }
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
+}

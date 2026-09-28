@@ -1,0 +1,265 @@
+{
+ "pdf": "20_sEnMMnlztf.pdf",
+ "n_entries": 6,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 2,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "[1] Zhang, X. Q. (2025). Unified Field Theory (Academic Edition). Hope Grace Publishing.",
+   "title": "Unified Field Theory",
+   "authors": [
+    "Zhang"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.2139/ssrn.5037504",
+    "title": "Unified Field Theory",
+    "year": 2025,
+    "first_author": "Zhang",
+    "container": "",
+    "type": "posted-content",
+    "score": 33.442875
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2] Peskin, M. E., & Schroeder, D. V. (1995). An Introduction to Quantum Field Theory. Westview Press.",
+   "title": "An Introduction to Quantum Field Theory",
+   "authors": [
+    "Peskin",
+    "Schroeder"
+   ],
+   "year": 1995,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1201/9780429503559",
+    "title": "An Introduction To Quantum Field Theory",
+    "year": 2018,
+    "first_author": "Peskin",
+    "container": "",
+    "type": "book",
+    "score": 43.412632
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3] Wang, H., Fu, T., Du, Y., Gao, W., Huang, K., Liu, Z., . . . & Tang, J. (2023). Scientific discovery in the age of artificial intelligence. Nature, 620(7972), 47-60.",
+   "title": "Scientific discovery in the age of artificial intelligence",
+   "authors": [
+    "Wang",
+    "Fu",
+    "Du",
+    "Gao",
+    "Huang",
+    "Liu",
+    "Tang"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.62891/54fe0b5d",
+      "title": "The Fifth Paradigm: Scientific Discovery in the Age of Autonomous Artificial Intelligence",
+      "year": 2025,
+      "first_author": "Henrique do Nascimento Oliveira",
+      "container": "",
+      "type": "posted-content",
+      "score": 37.77001
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 0.625,
+      "partial_ratio": 73.86363636363636,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "f08060425aa8a212d74185ee23a08329b89abcd2",
+    "title": "Scientific discovery in the age of artificial intelligence",
+    "year": 2023,
+    "first_author": "Hanchen Wang",
+    "container": "Nature",
+    "ext": {
+     "DBLP": "journals/nature/WangFD0HLCLKDAB23",
+     "DOI": "10.1038/s41586-023-06221-2",
+     "CorpusId": 260384616,
+     "PubMed": "37532811"
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4] McMullin, E. (1976). The fertility of theory and the unit for appraisal in science. In R. S. Cohen, P. K. Feyerabend, & M. W. Wartofsky (Eds.), Essays in memory of Imre Lakatos (pp. 395-432). Springer.",
+   "title": "The fertility of theory and the unit for appraisal in science",
+   "authors": [
+    "McMullin"
+   ],
+   "year": 1976,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Essays in memory of Imre Lakatos",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/978-94-010-1451-9_25",
+    "title": "The Fertility of Theory and the Unit for Appraisal in Science",
+    "year": 1976,
+    "first_author": "McMullin",
+    "container": "Boston Studies in the Philosophy of Science",
+    "type": "book-chapter",
+    "score": 48.35833
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5] Box, G. E., Hunter, W. G., & Hunter, J. S. (2005). Statistics for experimenters: design, innovation, and discovery. John Wiley & Sons.",
+   "title": "Statistics for experimenters: design, innovation, and discovery",
+   "authors": [
+    "Box",
+    "Hunter",
+    "Hunter"
+   ],
+   "year": 2005,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1198/tech.2006.s379",
+    "title": "Statistics for Experimenters: Design, Innovation and Discovery",
+    "year": 2006,
+    "first_author": "Pigeon",
+    "container": "Technometrics",
+    "type": "journal-article",
+    "score": 40.626434
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[6] Zhang, X., & Xu, Y. (2025). Gravitational field and object motion generated by electromagnetic changes. Xinjiang Iron and Steel, 173(1), 45-47. [In Chinese]",
+   "title": "Gravitational field and object motion generated by electromagnetic changes",
+   "authors": [
+    "Zhang",
+    "Xu"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Xinjiang Iron and Steel",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.2139/ssrn.5389995",
+    "title": "Gravitational Field and Object Motion Generated by Electromagnetic Changes",
+    "year": 2025,
+    "first_author": "Zhang",
+    "container": "",
+    "type": "posted-content",
+    "score": 66.48282
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  }
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
+}

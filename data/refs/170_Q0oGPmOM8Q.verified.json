@@ -1,0 +1,1428 @@
+{
+ "pdf": "170_Q0oGPmOM8Q.pdf",
+ "n_entries": 29,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 2,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "References [1] Ziwei Ji, Nayeon Lee, Jason Fries, et al. Survey of hallucination in natural language generation. ACM Computing Surveys, 55(12), 2023.",
+   "title": "Survey of hallucination in natural language generation",
+   "authors": [
+    "References [1] Ziwei Ji, Nayeon Lee, Jason Fries, et al."
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "ACM Computing Surveys",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3571730",
+    "title": "Survey of Hallucination in Natural Language Generation",
+    "year": 2023,
+    "first_author": "Ji",
+    "container": "ACM Computing Surveys",
+    "type": "journal-article",
+    "score": 41.00366
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2] Patrick Lewis, Ethan Perez, Aleksandra Piktus, Fabio Petroni, Vladimir Karpukhin, Naman Goyal, Heinrich K\u00fcttler, Mike Lewis, Wen-tau Yih, Tim Rockt\u00e4schel, et al. Retrieval-augmented generation for knowledgeintensive nlp tasks. In Advances in Neural Information Processing Systems (NeurIPS), volume 33, pages 9459\u20139474, 2020.",
+   "title": "Retrieval-augmented generation for knowledgeintensive nlp tasks",
+   "authors": [
+    "Lewis",
+    "Perez",
+    "Piktus",
+    "Petroni",
+    "Karpukhin",
+    "Goyal",
+    "K\u00fcttler",
+    "Lewis",
+    "Yih",
+    "Rockt\u00e4schel"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems (NeurIPS",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.18653/v1/2024.uncertainlp-1.2",
+      "title": "Context Tuning for Retrieval Augmented Generation",
+      "year": 2024,
+      "first_author": "Anantha",
+      "container": "Proceedings of the 1st Workshop on Uncertainty-Aware NLP (UncertaiNLP 2024)",
+      "type": "proceedings-article",
+      "score": 33.01824
+     },
+     "metrics": {
+      "title_sim": 81.92771084337349,
+      "containment": 0.6,
+      "partial_ratio": 75.51020408163265,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3] Jerome H Friedman. Greedy function approximation: A gradient boosting machine. Annals of Statistics, 29(5):1189\u20131232, 2001.",
+   "title": "Greedy function approximation: A gradient boosting machine",
+   "authors": [
+    "Friedman"
+   ],
+   "year": 2001,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Annals of Statistics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1214/aos/1013203451",
+    "title": "Greedy function approximation: A gradient boosting machine.",
+    "year": 2001,
+    "first_author": "Friedman",
+    "container": "The Annals of Statistics",
+    "type": "journal-article",
+    "score": 64.54469
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4] Tianqi Chen and Carlos Guestrin. Xgboost: A scalable tree boosting system. In Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, pages 785\u2013794. ACM, 2016.",
+   "title": "Xgboost: A scalable tree boosting system",
+   "authors": [
+    "Chen",
+    "Guestrin"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/2939672.2939785",
+    "title": "XGBoost",
+    "year": 2016,
+    "first_author": "Chen",
+    "container": "Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining",
+    "type": "proceedings-article",
+    "score": 47.442795
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5] Gautier Izacard, Fabio Petroni, Lucas Hosseini, et al. Active retrieval-augmented generation. In Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing (EMNLP), 2023.",
+   "title": "Active retrieval-augmented generation",
+   "authors": [
+    "Izacard",
+    "Petroni",
+    "Hosseini"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing (EMNLP",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1002/9781394374717.ch03",
+      "title": "Retrieval\u2010Augmented Generation",
+      "year": 2026,
+      "first_author": null,
+      "container": "Advanced Retrieval\u2010Augmented Generation",
+      "type": "other",
+      "score": 30.879223
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 1.0,
+      "partial_ratio": 100.0,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "88884b8806262a4095036041e3567d450dba39f7",
+    "title": "Active Retrieval Augmented Generation",
+    "year": 2023,
+    "first_author": "Zhengbao Jiang",
+    "container": "Conference on Empirical Methods in Natural Language Processing",
+    "ext": {
+     "ArXiv": "2305.06983",
+     "DBLP": "journals/corr/abs-2305-06983",
+     "DOI": "10.48550/arXiv.2305.06983",
+     "CorpusId": 258615731
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[6] Peter B\u00fchlmann and Torsten Hothorn. Boosting algorithms: Regularization, prediction and model fitting. Statistical Science, 22(4):477\u2013505, 2007.",
+   "title": "Boosting algorithms: Regularization, prediction and model fitting",
+   "authors": [
+    "B\u00fchlmann",
+    "Hothorn"
+   ],
+   "year": 2007,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Statistical Science",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1214/07-sts242",
+    "title": "Boosting Algorithms: Regularization, Prediction and Model Fitting",
+    "year": 2007,
+    "first_author": "B\u00fchlmann",
+    "container": "Statistical Science",
+    "type": "journal-article",
+    "score": 67.41868
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[7] Trevor Hastie, Robert Tibshirani, and Jerome Friedman. The Elements of Statistical Learning: Data Mining, Inference, and Prediction. Springer, 2009.",
+   "title": "The Elements of Statistical Learning: Data Mining, Inference, and Prediction",
+   "authors": [
+    "Hastie",
+    "Tibshirani",
+    "Friedman"
+   ],
+   "year": 2009,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/bf02985802",
+      "title": "The elements of statistical learning: data mining, inference and prediction",
+      "year": 2005,
+      "first_author": "Franklin",
+      "container": "The Mathematical Intelligencer",
+      "type": "journal-article",
+      "score": 43.35811
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 1.0,
+      "partial_ratio": 100.0,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "4cd4ccd9225f0a3c79cd4c72bd171039e28f2ab6",
+    "title": "The Elements of Statistical Learning: Data Mining, Inference, and Prediction",
+    "year": 2001,
+    "first_author": "T. Hastie",
+    "container": "Springer Series in Statistics",
+    "ext": {
+     "MAG": "1480376833",
+     "DBLP": "books/sp/HastieFT01",
+     "DOI": "10.1007/978-0-387-84858-7",
+     "CorpusId": 58068920
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[8] Kelvin Guu, Kenton Lee, Zora Tung, Panupong Pasupat, and Ming-Wei Chang. Realm: Retrievalaugmented language model pre-training. arXiv preprint arXiv:2002.08909, 2020.",
+   "title": "Realm",
+   "authors": [
+    "Guu",
+    "Lee",
+    "Tung",
+    "Pasupat",
+    "Chang"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": "2002.08909",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2002.08909"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1601/ex.31945",
+      "title": "Exemplar Abstract for Lactobacillus bambusae Guu et al. 2018 and Levilactobacillus bambusae (Guu et al. 2018) Zheng et al. 2020.",
+      "year": 2018,
+      "first_author": "Parker",
+      "container": "The NamesforLife Abstracts",
+      "type": "dataset",
+      "score": 20.379745
+     },
+     "metrics": {
+      "title_sim": 7.874015748031493,
+      "containment": 0.25,
+      "partial_ratio": 37.704918032786885,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "arxiv_id_repass",
+   "match": {
+    "source": "arxiv_abs",
+    "arxiv": "2002.08909",
+    "title": "REALM: Retrieval-Augmented Language Model Pre-Training",
+    "year": 2020,
+    "first_author": "Guu, Kelvin"
+   },
+   "metrics": {
+    "title_sim": 17.24137931034483,
+    "containment": 0.714,
+    "partial_ratio": 98.11320754716981,
+    "year_ok": true,
+    "first_author_ok": false
+   }
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[9] Vladimir Karpukhin, Barlas Oguz, Sewon Min, Ledell Wu, Sergey Edunov, Danqi Chen, and Wen-tau Yih. Dense passage retrieval for open-domain question answering. In Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), pages 6769\u20136781, 2020.",
+   "title": "Dense passage retrieval for open-domain question answering",
+   "authors": [
+    "Karpukhin",
+    "Oguz",
+    "Min",
+    "Wu",
+    "Edunov",
+    "Chen",
+    "Yih"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2020.emnlp-main.550",
+    "title": "Dense Passage Retrieval for Open-Domain Question Answering",
+    "year": 2020,
+    "first_author": "Karpukhin",
+    "container": "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+    "type": "proceedings-article",
+    "score": 62.137363
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[10] Gautier Izacard and Edouard Grave. Leveraging passage retrieval with generative models. arXiv preprint arXiv:2101.00294, 2021.",
+   "title": "Leveraging passage retrieval with generative models",
+   "authors": [
+    "Izacard",
+    "Grave"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": "2101.00294",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2021.eacl-main.74",
+    "title": "Leveraging Passage Retrieval with Generative Models for Open Domain Question Answering",
+    "year": 2021,
+    "first_author": "Izacard",
+    "container": "Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics: Main Volume",
+    "type": "proceedings-article",
+    "score": 51.41506
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.556,
+    "partial_ratio": 73.25581395348837,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2101.00294"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "[11] Sebastian Borgeaud, Arthur Mensch, Jordan Hoffmann, Trevor Cai, Eliza Rutherford, Katharine Millican, et al. Improving language models by retrieving from trillions of tokens. arXiv preprint arXiv:2112.04426, 2022.",
+   "title": "Improving language models by retrieving from trillions of tokens",
+   "authors": [
+    "Borgeaud",
+    "Mensch",
+    "Hoffmann",
+    "Cai",
+    "Rutherford",
+    "Millican"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": "2112.04426",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2112.04426"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.64898/2026.05.12.724593",
+      "title": "Structure tokens sharpen the feature vocabulary of protein language models",
+      "year": 2026,
+      "first_author": "Steenwyk",
+      "container": "",
+      "type": "posted-content",
+      "score": 26.710007
+     },
+     "metrics": {
+      "title_sim": 62.31884057971015,
+      "containment": 0.375,
+      "partial_ratio": 54.054054054054056,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "002c256d30d6be4b23d365a8de8ae0e67e4c9641",
+    "title": "Improving language models by retrieving from trillions of tokens",
+    "year": 2021,
+    "first_author": "Sebastian Borgeaud",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "DBLP": "conf/icml/BorgeaudMHCRM0L22",
+     "ArXiv": "2112.04426",
+     "CorpusId": 244954723
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "[12] Kurt Shuster, Aleksandra Piktus, et al. Retrieval-augmented generation for knowledge-intensive dialogue. arXiv preprint arXiv:2101.00168, 2021.",
+   "title": "Retrieval-augmented generation for knowledge-intensive dialogue",
+   "authors": [
+    "Shuster",
+    "Piktus"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": "2101.00168",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1002/9781394374717.ch03",
+      "title": "Retrieval\u2010Augmented Generation",
+      "year": 2026,
+      "first_author": null,
+      "container": "Advanced Retrieval\u2010Augmented Generation",
+      "type": "other",
+      "score": 37.191486
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 1.0,
+      "partial_ratio": 100.0,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    },
+    {
+     "step": "arxiv_id_resolves_title_mismatch",
+     "rec": {
+      "source": "arxiv_abs",
+      "arxiv": "2101.00168",
+      "title": "A matter of shape: seeing the deformation of atomic nuclei at high-energy colliders",
+      "year": 2021,
+      "first_author": "Giacalone, Giuliano"
+     },
+     "metrics": {
+      "title_sim": 42.75862068965517,
+      "containment": 0.0,
+      "partial_ratio": 43.90243902439024,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "[13] Michihiro Yasunaga et al.       Retrieval-augmented scientific question answering.       arXiv preprint arXiv:2203.08115, 2022.",
+   "title": "Retrieval-augmented scientific question answering",
+   "authors": [
+    "Yasunaga"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": "2203.08115",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.6530458",
+      "title": "Question Answering in the Construction Domain Using Retrieval-Augmented Generation",
+      "year": 2026,
+      "first_author": "Busch",
+      "container": "",
+      "type": "posted-content",
+      "score": 40.344692
+     },
+     "metrics": {
+      "title_sim": 87.35632183908046,
+      "containment": 0.571,
+      "partial_ratio": 54.01459854014598,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    },
+    {
+     "step": "arxiv_id_resolves_title_mismatch",
+     "rec": {
+      "source": "arxiv_abs",
+      "arxiv": "2203.08115",
+      "title": "Analysis of the competition among viral strains using a temporal interaction-driven contagion model",
+      "year": 2022,
+      "first_author": "Abbey, Alex"
+     },
+     "metrics": {
+      "title_sim": 35.13513513513513,
+      "containment": 0.0,
+      "partial_ratio": 41.93548387096774,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "[14] Omer Ram et al. Corrective retrieval augmentation. arXiv preprint arXiv:2303.09858, 2023.",
+   "title": "Corrective retrieval augmentation",
+   "authors": [
+    "Ram"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2303.09858",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/978-981-99-3726-4_25",
+      "title": "Corrective Breast Surgery After Augmentation, Lift, and Reduction",
+      "year": 2023,
+      "first_author": "Romeo",
+      "container": "Manual of Cosmetic Medicine and Surgery",
+      "type": "book-chapter",
+      "score": 22.879797
+     },
+     "metrics": {
+      "title_sim": 82.14285714285714,
+      "containment": 0.286,
+      "partial_ratio": 58.730158730158735,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    },
+    {
+     "step": "arxiv_id_resolves_title_mismatch",
+     "rec": {
+      "source": "arxiv_abs",
+      "arxiv": "2303.09858",
+      "title": "Preventing Unauthorized AI Over-Analysis by Medical Image Adversarial Watermarking",
+      "year": 2023,
+      "first_author": "Wei, Xingxing"
+     },
+     "metrics": {
+      "title_sim": 34.78260869565217,
+      "containment": 0.0,
+      "partial_ratio": 40.6015037593985,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "[15] Weijia Shi et al. Self-rag: Learning to retrieve, generate, and reflect. arXiv preprint arXiv:2310.11511, 2023.",
+   "title": "Self-rag: Learning to retrieve, generate, and reflect",
+   "authors": [
+    "Shi"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2310.11511",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.20944/preprints202508.1211.v1",
+      "title": "Learning to Retrieve, Generate, and Compress: A Unified View of Efficient RAG",
+      "year": 2025,
+      "first_author": "Brontes",
+      "container": "",
+      "type": "posted-content",
+      "score": 38.39357
+     },
+     "metrics": {
+      "title_sim": 85.05747126436782,
+      "containment": 0.5,
+      "partial_ratio": 63.51351351351351,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    },
+    {
+     "step": "arxiv_id_resolves_title_mismatch",
+     "rec": {
+      "source": "arxiv_abs",
+      "arxiv": "2310.11511",
+      "title": "Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection",
+      "year": 2023,
+      "first_author": "Asai, Akari"
+     },
+     "metrics": {
+      "title_sim": 91.30434782608695,
+      "containment": 0.667,
+      "partial_ratio": 69.33333333333334,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 16,
+   "raw": "[16] Angeliki Lazaridou et al. Adaptive retrieval for question answering. arXiv preprint arXiv:2204.11117, 2022.",
+   "title": "Adaptive retrieval for question answering",
+   "authors": [
+    "Lazaridou"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": "2204.11117",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.18653/v1/d18-1055",
+      "title": "Adaptive Document Retrieval for Deep Question Answering",
+      "year": 2018,
+      "first_author": "Kratzwald",
+      "container": "Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing",
+      "type": "proceedings-article",
+      "score": 32.11887
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 0.667,
+      "partial_ratio": 74.54545454545455,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    },
+    {
+     "step": "arxiv_id_resolves_title_mismatch",
+     "rec": {
+      "source": "arxiv_abs",
+      "arxiv": "2204.11117",
+      "title": "Exploring the Role of Task Transferability in Large-Scale Multi-Task Learning",
+      "year": 2022,
+      "first_author": "Padmakumar, Vishakh"
+     },
+     "metrics": {
+      "title_sim": 42.3728813559322,
+      "containment": 0.0,
+      "partial_ratio": 42.465753424657535,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 17,
+   "raw": "[17] Christopher JC Burges, Tal Shaked, Erin Renshaw, Ari Lazier, Matt Deeds, Nicole Hamilton, and Greg Hullender. Learning to rank with nonsmooth cost functions. In Advances in Neural Information Processing Systems (NeurIPS), 2006.",
+   "title": "Learning to rank with nonsmooth cost functions",
+   "authors": [
+    "Burges",
+    "Shaked",
+    "Renshaw",
+    "Lazier",
+    "Deeds",
+    "Hamilton",
+    "Hullender"
+   ],
+   "year": 2006,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems (NeurIPS",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.7551/mitpress/7503.003.0029",
+    "title": "Learning to Rank with Nonsmooth Cost Functions",
+    "year": 2007,
+    "first_author": "Burges",
+    "container": "Advances in Neural Information Processing Systems 19",
+    "type": "book-chapter",
+    "score": 51.670788
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 18,
+   "raw": "[18] Zhe Cao, Tao Qin, Tie-Yan Liu, Ming-Feng Tsai, and Hang Li. Learning to rank: From pairwise approach to listwise approach. In Proceedings of the 24th International Conference on Machine Learning (ICML), pages 129\u2013136, 2007.",
+   "title": "Learning to rank: From pairwise approach to listwise approach",
+   "authors": [
+    "Cao",
+    "Qin",
+    "Liu",
+    "Tsai",
+    "Li"
+   ],
+   "year": 2007,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 24th International Conference on Machine Learning (ICML",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/1273496.1273513",
+    "title": "Learning to rank",
+    "year": 2007,
+    "first_author": "Cao",
+    "container": "Proceedings of the 24th international conference on Machine learning",
+    "type": "proceedings-article",
+    "score": 62.91008
+   },
+   "metrics": {
+    "title_sim": 42.10526315789473,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 19,
+   "raw": "[19] Tie-Yan Liu. Learning to Rank for Information Retrieval. Springer, 2009.",
+   "title": "Learning to Rank for Information Retrieval",
+   "authors": [
+    "Liu"
+   ],
+   "year": 2009,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1561/1500000016",
+    "title": "Learning to Rank for Information Retrieval",
+    "year": 2009,
+    "first_author": "Liu",
+    "container": "Foundations and Trends\u00ae in Information Retrieval",
+    "type": "journal-article",
+    "score": 39.723995
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 20,
+   "raw": "[20] Olivier Chapelle and Yi Chang. Yahoo! learning to rank challenge overview. In Journal of Machine Learning Research Workshop and Conference Proceedings, volume 14, pages 1\u201324, 2011.",
+   "title": "Yahoo! learning to rank challenge overview",
+   "authors": [
+    "Chapelle",
+    "Chang"
+   ],
+   "year": 2011,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Machine Learning Research Workshop and Conference Proceedings",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.4135/9781412994170.n401",
+    "title": "Yahoo!",
+    "year": 2011,
+    "first_author": null,
+    "container": "Encyclopedia of Social Networks",
+    "type": "reference-entry",
+    "score": 23.175594
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 0,
+    "year_ok": true,
+    "first_author_ok": null
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 21,
+   "raw": "[21] Joshua Maynez, Shashi Narayan, Bernd Bohnet, and Ryan McDonald. On faithfulness and factuality in abstractive summarization. In Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL), pages 1906\u20131917, 2020.",
+   "title": "On faithfulness and factuality in abstractive summarization",
+   "authors": [
+    "Maynez",
+    "Narayan",
+    "Bohnet",
+    "McDonald"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2020.acl-main.173",
+    "title": "On Faithfulness and Factuality in Abstractive Summarization",
+    "year": 2020,
+    "first_author": "Maynez",
+    "container": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+    "type": "proceedings-article",
+    "score": 64.23409
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 22,
+   "raw": "[22] Wayne Zhao et al. Calibrated measures of hallucination for open-domain qa.               arXiv preprint arXiv:2102.01521, 2021.",
+   "title": "Calibrated measures of hallucination for open-domain qa",
+   "authors": [
+    "Zhao"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": "2102.01521",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.4195978",
+      "title": "Benchmarking Fairness Measures for Calibrated Recommendation Systems on Movies Domain",
+      "year": 2022,
+      "first_author": "Silva",
+      "container": "SSRN Electronic Journal",
+      "type": "journal-article",
+      "score": 25.008364
+     },
+     "metrics": {
+      "title_sim": 70.58823529411765,
+      "containment": 0.375,
+      "partial_ratio": 52.22929936305732,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    },
+    {
+     "step": "arxiv_id_resolves_title_mismatch",
+     "rec": {
+      "source": "arxiv_abs",
+      "arxiv": "2102.01521",
+      "title": "Pathogenesis, Symptomatology, and Transmission of SARS-CoV-2 through Analysis of Viral Genomics and Structure",
+      "year": 2021,
+      "first_author": "Rando, Halie M."
+     },
+     "metrics": {
+      "title_sim": 35.802469135802475,
+      "containment": 0.0,
+      "partial_ratio": 39.583333333333336,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 23,
+   "raw": "[23] Christopher D Manning, Prabhakar Raghavan, and Hinrich Sch\u00fctze. Introduction to Information Retrieval. Cambridge University Press, 2008.",
+   "title": "Introduction to Information Retrieval",
+   "authors": [
+    "Manning",
+    "Raghavan",
+    "Sch\u00fctze"
+   ],
+   "year": 2008,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1017/cbo9780511809071",
+    "title": "Introduction to Information Retrieval",
+    "year": 2008,
+    "first_author": "Manning",
+    "container": "",
+    "type": "monograph",
+    "score": 38.522266
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 24,
+   "raw": "[24] Luyu Gao et al. A survey on retrieval-augmented generation. arXiv preprint arXiv:2307.03172, 2023.",
+   "title": "A survey on retrieval-augmented generation",
+   "authors": [
+    "Gao"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2307.03172",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.2139/ssrn.4895062",
+    "title": "Graph Retrieval-Augmented Generation for Large Language Models: A Survey",
+    "year": 2024,
+    "first_author": "Procko",
+    "container": "",
+    "type": "posted-content",
+    "score": 32.335133
+   },
+   "metrics": {
+    "title_sim": 96.29629629629629,
+    "containment": 0.5,
+    "partial_ratio": 59.154929577464785,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_resolves_title_mismatch",
+     "rec": {
+      "source": "arxiv",
+      "arxiv": "2307.03172",
+      "title": "Lost in the Middle: How Language Models Use Long Contexts",
+      "year": 2023,
+      "first_author": "Nelson F. Liu"
+     },
+     "metrics": {
+      "title_sim": 38.775510204081634,
+      "containment": 0.0,
+      "partial_ratio": 40.44943820224719,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 25,
+   "raw": "[25] Huayang Li, Luyu Gao, et al.        Retrieval-augmented text generation: A survey.       arXiv preprint arXiv:2202.01110, 2022.",
+   "title": "Retrieval-augmented text generation: A survey",
+   "authors": [
+    "Li",
+    "Gao"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": "2202.01110",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2202.01110"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.7428138",
+      "title": "From Retrieval to Action: A Survey of Agentic Retrieval-augmented Generation",
+      "year": 2026,
+      "first_author": "Anwar",
+      "container": "",
+      "type": "posted-content",
+      "score": 34.734604
+     },
+     "metrics": {
+      "title_sim": 93.97590361445783,
+      "containment": 0.714,
+      "partial_ratio": 63.309352517985616,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "crossref_title",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.caeai.2025.100417",
+    "title": "Retrieval-augmented generation for educational application: A systematic survey",
+    "year": 2025,
+    "first_author": "Li",
+    "container": "Computers and Education: Artificial Intelligence",
+    "type": "journal-article",
+    "score": 31.541088
+   },
+   "metrics": {
+    "title_sim": 93.97590361445783,
+    "containment": 0.571,
+    "partial_ratio": 56.41025641025641,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 26,
+   "raw": "[26] Richard Evans and Edward Grefenstette. Language models as knowledge bases?                arXiv preprint arXiv:2102.01096, 2021.",
+   "title": "Language models as knowledge bases?",
+   "authors": [
+    "Evans",
+    "Grefenstette"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": "2102.01096",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2021.emnlp-main.388",
+    "title": "Can Language Models be Biomedical Knowledge Bases?",
+    "year": 2021,
+    "first_author": "Sung",
+    "container": "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing",
+    "type": "proceedings-article",
+    "score": 28.940685
+   },
+   "metrics": {
+    "title_sim": 95.38461538461539,
+    "containment": 0.667,
+    "partial_ratio": 71.42857142857143,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2102.01096"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 27,
+   "raw": "[27] Nandan Thakur, Nils Reimers, Johannes Daxenberger, et al. Beir: A heterogeneous benchmark for zeroshot evaluation of information retrieval models. In Proceedings of the 43rd European Conference on IR Research (ECIR), pages 3\u201322, 2021.",
+   "title": "Beir: A heterogeneous benchmark for zeroshot evaluation of information retrieval models",
+   "authors": [
+    "Thakur",
+    "Reimers",
+    "Daxenberger"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 43rd European Conference on IR Research (ECIR",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.28995/2075-7182-2025-23-195-205",
+      "title": "Building Russian Benchmark for Evaluation of Information Retrieval Models",
+      "year": 2025,
+      "first_author": "Kovalev",
+      "container": "Computational Linguistics and Intellectual Technologies",
+      "type": "proceedings-article",
+      "score": 32.226856
+     },
+     "metrics": {
+      "title_sim": 86.82170542635659,
+      "containment": 0.714,
+      "partial_ratio": 82.1917808219178,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 28,
+   "raw": "[28] James Thorne, Andreas Vlachos, Christos Christodoulopoulos, and Arpit Mittal. Fever: Fact extraction and verification. In Proceedings of NAACL-HLT, pages 809\u2013819, 2018.",
+   "title": "Fever: Fact extraction and verification",
+   "authors": [
+    "Thorne",
+    "Vlachos",
+    "Christodoulopoulos",
+    "Mittal"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of NAACL-HLT",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/w18-5501",
+    "title": "The Fact Extraction and VERification (FEVER) Shared Task",
+    "year": 2018,
+    "first_author": "Thorne",
+    "container": "Proceedings of the First Workshop on Fact Extraction and VERification (FEVER)",
+    "type": "proceedings-article",
+    "score": 53.554607
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.667,
+    "partial_ratio": 74.07407407407408,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 29,
+   "raw": "[29] Gautier Izacard et al. Towards active retrieval for language models. arXiv preprint arXiv:2202.07227, 2022.",
+   "title": "Towards active retrieval for language models",
+   "authors": [
+    "Izacard"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": "2202.07227",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.5220/0012738500003702",
+      "title": "Towards Scenario Retrieval of Real Driving Data with Large Vision-Language Models",
+      "year": 2024,
+      "first_author": "Sohn",
+      "container": "Proceedings of the 10th International Conference on Vehicle Technology and Intelligent Transport Systems",
+      "type": "proceedings-article",
+      "score": 26.187004
+     },
+     "metrics": {
+      "title_sim": 85.71428571428571,
+      "containment": 0.333,
+      "partial_ratio": 53.333333333333336,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    },
+    {
+     "step": "arxiv_id_resolves_title_mismatch",
+     "rec": {
+      "source": "arxiv_abs",
+      "arxiv": "2202.07227",
+      "title": "Coordinate rings of some $SL_2$-character varieties",
+      "year": 2022,
+      "first_author": "Mu\u00f1oz, Vicente"
+     },
+     "metrics": {
+      "title_sim": 45.16129032258065,
+      "containment": 0.0,
+      "partial_ratio": 46.31578947368421,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  }
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
+}

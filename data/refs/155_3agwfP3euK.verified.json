@@ -99,7 +99,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -126,7 +126,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "89c3bd70ad33c4f8832f00ab98872b77861ee0ec",
+    "title": "Discovering Latent Knowledge in Language Models Without Supervision",
+    "year": 2022,
+    "first_author": "Collin Burns",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "DBLP": "conf/iclr/BurnsYKS23",
+     "ArXiv": "2212.03827",
+     "DOI": "10.48550/arXiv.2212.03827",
+     "CorpusId": 254366253
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -287,7 +310,7 @@
    "container": "Advances in Neural Information Processing Systems",
    "type": "chapter",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -310,7 +333,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "5951ede73a1dbb9c5ea8b4d95f31c5ed646aacbd",
+    "title": "Causal Abstractions of Neural Networks",
+    "year": 2021,
+    "first_author": "Atticus Geiger",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "DBLP": "conf/nips/GeigerLIP21",
+     "ArXiv": "2106.02997",
+     "CorpusId": 235358214
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -377,7 +422,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -404,7 +449,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "57d1e7ac339e783898f2c3b1af55737cbeee9fc5",
+    "title": "Measuring Mathematical Problem Solving With the MATH Dataset",
+    "year": 2021,
+    "first_author": "Dan Hendrycks",
+    "container": "NeurIPS Datasets and Benchmarks",
+    "ext": {
+     "DBLP": "conf/nips/HendrycksBKABTS21",
+     "ArXiv": "2103.03874",
+     "CorpusId": 232134851
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -424,7 +491,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -451,7 +518,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "3f5b31c4f7350dc88002c121aecbdc82f86eb5bb",
+    "title": "BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models",
+    "year": 2023,
+    "first_author": "Junnan Li",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "DBLP": "journals/corr/abs-2301-12597",
+     "ArXiv": "2301.12597",
+     "DOI": "10.48550/arXiv.2301.12597",
+     "CorpusId": 256390509
+    }
+   },
+   "metrics": {
+    "title_sim": 99.50248756218906,
+    "containment": 0.833,
+    "partial_ratio": 99.00990099009901,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -511,7 +601,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -538,7 +628,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "f680d47a51a0e470fcb228bf0110c026535ead1b",
+    "title": "Progress measures for grokking via mechanistic interpretability",
+    "year": 2023,
+    "first_author": "Neel Nanda",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "ArXiv": "2301.05217",
+     "DBLP": "journals/corr/abs-2301-05217",
+     "DOI": "10.48550/arXiv.2301.05217",
+     "CorpusId": 255749430
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -609,7 +722,7 @@
    "container": "International Conference on Machine Learning",
    "type": "paper-conference",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -632,7 +745,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "6f870f7f02a8c59c3e23f407f3ef00dd1dcf8fc4",
+    "title": "Learning Transferable Visual Models From Natural Language Supervision",
+    "year": 2021,
+    "first_author": "Alec Radford",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "DBLP": "conf/icml/RadfordKHRGASAM21",
+     "ArXiv": "2103.00020",
+     "CorpusId": 231591445
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -652,7 +787,7 @@
    "container": "AI Magazine",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -675,7 +810,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "f577654d9dd29d88c6db9ee39a4fd831573b8770",
+    "title": "Understanding the Capabilities, Limitations, and Societal Impact of Large Language Models",
+    "year": 2021,
+    "first_author": "Alex Tamkin",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2102-02503",
+     "ArXiv": "2102.02503",
+     "CorpusId": 231802467
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -737,7 +894,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -764,7 +921,31 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "47030369e97cc44d4b2e3cf1be85da0fd134904a",
+    "title": "Universal and Transferable Adversarial Attacks on Aligned Language Models",
+    "year": 2023,
+    "first_author": "Andy Zou",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2307-15043",
+     "ArXiv": "2307.15043",
+     "CorpusId": 260202961
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

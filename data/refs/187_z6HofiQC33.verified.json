@@ -1,0 +1,1700 @@
+{
+ "pdf": "187_z6HofiQC33.pdf",
+ "n_entries": 31,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 2,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "References [1] Marc Bellemare, Yavar Naddaf, Joel Veness, and Michael Bowling. The Arcade Learning Environment: An Evaluation Platform for General Agents. In J. Artif. Intell. Res., 2013.",
+   "title": "The Arcade Learning Environment: An Evaluation Platform for General Agents",
+   "authors": [
+    "References [1] Marc Bellemare, Yavar Naddaf, Joel Veness, and Michael Bowling."
+   ],
+   "year": 2013,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "J. Artif. Intell. Res",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1613/jair.3912",
+    "title": "The Arcade Learning Environment: An Evaluation Platform for General Agents",
+    "year": 2013,
+    "first_author": "Bellemare",
+    "container": "Journal of Artificial Intelligence Research",
+    "type": "journal-article",
+    "score": 95.66907
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2] Jingwei Chen, Jianxiang Huang, Liwei Wen, Shaojun Li, and Wei-Ying Ma. Survey of Specialized Large Language Model. arXiv preprint arXiv:2508.19667, 2024.",
+   "title": "Survey of Specialized Large Language Model",
+   "authors": [
+    "Chen",
+    "Huang",
+    "Wen",
+    "Li",
+    "Ma"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2508.19667",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2508.19667"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.31224/3975",
+      "title": "Taxonomy Classification of Large Language Model Survey Papers",
+      "year": 2024,
+      "first_author": "Boateng",
+      "container": "",
+      "type": "posted-content",
+      "score": 31.26959
+     },
+     "metrics": {
+      "title_sim": 83.33333333333333,
+      "containment": 0.571,
+      "partial_ratio": 59.01639344262295,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "ec9ee072f79613d56cd6902fd524b1747ac6f1d1",
+    "title": "Survey of Specialized Large Language Model",
+    "year": 2025,
+    "first_author": "Chenghan Yang",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2508-19667",
+     "ArXiv": "2508.19667",
+     "DOI": "10.48550/arXiv.2508.19667",
+     "CorpusId": 280918613
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3] Zhihong Chen, Jiayi Wang, Zhenwen Li, Muzhou Zhang, Jian Wu, Guangcheng Wang, Xiaodi Liu, and Shufan Zhang. Enhancing LLM Reasoning via Critique Models with Test-Time and Training-Time Supervision. arXiv preprint arXiv:2411.16579, 2024.",
+   "title": "Enhancing LLM Reasoning via Critique Models with Test-Time and Training-Time Supervision",
+   "authors": [
+    "Chen",
+    "Wang",
+    "Li",
+    "Zhang",
+    "Wu",
+    "Wang",
+    "Liu",
+    "Zhang"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2411.16579",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2411.16579"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.24963/ijcai.2026/666",
+      "title": "MathCritique: Enhancing LLM Reasoning via Critique Models with Test-Time and Training-Time Supervision",
+      "year": 2026,
+      "first_author": "Xi",
+      "container": "Proceedings of the Thirty-Fifth International Joint Conference on Artificial Intelligence",
+      "type": "proceedings-article",
+      "score": 47.866158
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 0.909,
+      "partial_ratio": 90.0990099009901,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "7d3ed6f660cf63236092ff3b3a95187b9f463330",
+    "title": "Enhancing LLM Reasoning via Critique Models with Test-Time and Training-Time Supervision",
+    "year": 2024,
+    "first_author": "Zhi-Heng Xi",
+    "container": "arXiv.org",
+    "ext": {
+     "ArXiv": "2411.16579",
+     "DBLP": "journals/corr/abs-2411-16579",
+     "DOI": "10.48550/arXiv.2411.16579",
+     "CorpusId": 274281286
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4] Karl Cobbe, Vineet Kosaraju, Mohammad Bavarian, Mark Chen, Heewoo Jun, Lukasz Kaiser, Matthias Plappert, Jerry Tworek, Jacob Hilton, Reiichiro Nakano, Christopher Hesse, and John Schulman. Training Verifiers to Solve Math Word Problems. arXiv preprint arXiv:2110.14168, 2021.",
+   "title": "Training Verifiers to Solve Math Word Problems",
+   "authors": [
+    "Cobbe",
+    "Kosaraju",
+    "Bavarian",
+    "Chen",
+    "Jun",
+    "Kaiser",
+    "Plappert",
+    "Tworek",
+    "Hilton",
+    "Nakano",
+    "Hesse",
+    "Schulman"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": "2110.14168",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2110.14168",
+    "title": "Training Verifiers to Solve Math Word Problems",
+    "year": 2021,
+    "first_author": "Karl Cobbe"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5] Zhihan Cui, Zhenwen Huang, Muzhou Wang, Jian Wu, Guangcheng Wang, Xiaodi Liu, Shufan Zhang, Jiang Wang, and Kai Zhou. Agentic Reasoning and Tool Integration for LLMs via Reinforcement Learning. arXiv preprint arXiv:2505.01441, 2024.",
+   "title": "Agentic Reasoning and Tool Integration for LLMs via Reinforcement Learning",
+   "authors": [
+    "Cui",
+    "Huang",
+    "Wang",
+    "Wu",
+    "Wang",
+    "Liu",
+    "Zhang",
+    "Wang",
+    "Zhou"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2505.01441",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2505.01441"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.18653/v1/2026.acl-long.1161",
+      "title": "AgentGL: Towards Agentic Graph Learning with LLMs via Reinforcement Learning",
+      "year": 2026,
+      "first_author": "Sun",
+      "container": "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+      "type": "proceedings-article",
+      "score": 34.67208
+     },
+     "metrics": {
+      "title_sim": 74.28571428571428,
+      "containment": 0.714,
+      "partial_ratio": 68.0,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "d804b6420700e5e72fe571316d922bef9dfaa8ca",
+    "title": "Agentic Reasoning and Tool Integration for LLMs via Reinforcement Learning",
+    "year": 2025,
+    "first_author": "Joykirat Singh",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2505-01441",
+     "ArXiv": "2505.01441",
+     "DOI": "10.48550/arXiv.2505.01441",
+     "CorpusId": 278327533
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[6] Epoch AI. FrontierMath: A Benchmark for Evaluating Advanced Mathematical Reasoning in AI. Technical report, Epoch AI, 2024.",
+   "title": "FrontierMath: A Benchmark for Evaluating Advanced Mathematical Reasoning in AI",
+   "authors": [
+    "Epoch"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "report",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/rait65068.2025.11089442",
+      "title": "GanitBench: A bi-lingual benchmark for evaluating mathematical reasoning in Vision Language Models",
+      "year": 2025,
+      "first_author": "Bandooni",
+      "container": "2025 6th International Conference on Recent Advances in Information Technology (RAIT)",
+      "type": "proceedings-article",
+      "score": 28.363857
+     },
+     "metrics": {
+      "title_sim": 80.62015503875969,
+      "containment": 0.444,
+      "partial_ratio": 68.08510638297872,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "e7fadf3ba6f389d9db67fe578c466e7f9610e0fc",
+    "title": "FrontierMath: A Benchmark for Evaluating Advanced Mathematical Reasoning in AI",
+    "year": 2024,
+    "first_author": "Elliott S. Glazer",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2411-04872",
+     "ArXiv": "2411.04872",
+     "CorpusId": 273877467
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[7] Dan Hendrycks, Collin Burns, Steven Basart, Andrew Critch, Dawn Song Li, and Jacob Steinhardt Song. Measuring Mathematical Problem Solving With the MATH Dataset. In NeurIPS, 2021.",
+   "title": "Measuring Mathematical Problem Solving With the MATH Dataset",
+   "authors": [
+    "Hendrycks",
+    "Burns",
+    "Basart",
+    "Critch",
+    "Li",
+    "Song"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "NeurIPS",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1037/e627722013-472",
+      "title": "Traditional music and problem solving: The effect of Bugis music on mathematical problem solving",
+      "year": 2013,
+      "first_author": "Saputra",
+      "container": "PsycEXTRA Dataset",
+      "type": "dataset",
+      "score": 31.559471
+     },
+     "metrics": {
+      "title_sim": 69.56521739130434,
+      "containment": 0.5,
+      "partial_ratio": 62.10526315789473,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "57d1e7ac339e783898f2c3b1af55737cbeee9fc5",
+    "title": "Measuring Mathematical Problem Solving With the MATH Dataset",
+    "year": 2021,
+    "first_author": "Dan Hendrycks",
+    "container": "NeurIPS Datasets and Benchmarks",
+    "ext": {
+     "DBLP": "conf/nips/HendrycksBKABTS21",
+     "ArXiv": "2103.03874",
+     "CorpusId": 232134851
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[8] Jie Huang, Xinyun Gu, Shuyang Shen, Zhewei Ren, Wenhao Zhou, Xiang Chen, Jiawei Liu, and Kai Zhang. When Can LLMs Actually Correct Their Own Mistakes? A Critical Survey of Self-Correction of LLMs. Transactions of the Association for Computational Linguistics, 12:850\u2013867, 2024.",
+   "title": "When Can LLMs Actually Correct Their Own Mistakes? A Critical Survey of Self-Correction of LLMs",
+   "authors": [
+    "Huang",
+    "Gu",
+    "Shen",
+    "Ren",
+    "Zhou",
+    "Chen",
+    "Liu",
+    "Zhang"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Transactions of the Association for Computational Linguistics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1162/tacl_a_00713",
+    "title": "When Can LLMs\n                    <i>Actually</i>\n                    Correct Their Own Mistakes? A Critical Survey of Self-Correction of LLMs",
+    "year": 2024,
+    "first_author": "Kamoi",
+    "container": "Transactions of the Association for Computational Linguistics",
+    "type": "journal-article",
+    "score": 90.95277
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 95.91836734693877,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[9] A. Lewkowycz and et al. Solving Quantitative Reasoning Problems with Language Models. arXiv preprint arXiv:2206.14858, 2022.",
+   "title": "Solving Quantitative Reasoning Problems with Language Models",
+   "authors": [
+    "and"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": "2206.14858",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2206.14858",
+    "title": "Solving Quantitative Reasoning Problems with Language Models",
+    "year": 2022,
+    "first_author": "Aitor Lewkowycz"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[10] Jiaqi Li, Yifan Liu, Jian Wang, Kai Zhang, Jian Wu, Guangcheng Wang, and Xiaodi Liu. Process Reward Models for Mathematical Problem Solving. arXiv preprint arXiv:2312.06588, 2024.",
+   "title": "Process Reward Models for Mathematical Problem Solving",
+   "authors": [
+    "Li",
+    "Liu",
+    "Wang",
+    "Zhang",
+    "Wu",
+    "Wang",
+    "Liu"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2312.06588",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.4324/9780203052884-12",
+      "title": "Problem Solving, Problem Posing, and Mathematical Thinking",
+      "year": 2012,
+      "first_author": null,
+      "container": "Mathematics Education",
+      "type": "book-chapter",
+      "score": 30.75506
+     },
+     "metrics": {
+      "title_sim": 73.6842105263158,
+      "containment": 0.667,
+      "partial_ratio": 51.78571428571428,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    },
+    {
+     "step": "arxiv_id_resolves_title_mismatch",
+     "rec": {
+      "source": "arxiv_abs",
+      "arxiv": "2312.06588",
+      "title": "Braneworlds in Warped Einsteinian Cubic Gravity",
+      "year": 2023,
+      "first_author": "Lessa, L. A."
+     },
+     "metrics": {
+      "title_sim": 39.603960396039604,
+      "containment": 0.0,
+      "partial_ratio": 42.553191489361694,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "[11] Jiaqi Liang, Zujie Li, Lei Wang, Fengjun Xia, Jian Liu, Chenghao Xiong, and Lingpeng Zhu. Improve Mathematical Reasoning in Language Models by Automated Process Supervision. arXiv preprint arXiv:2406.06592, 2024.",
+   "title": "Improve Mathematical Reasoning in Language Models by Automated Process Supervision",
+   "authors": [
+    "Liang",
+    "Li",
+    "Wang",
+    "Xia",
+    "Liu",
+    "Xiong",
+    "Zhu"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2406.06592",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2406.06592"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.18653/v1/2024.emnlp-main.817",
+      "title": "Learn Beyond The Answer: Training Language Models with Reflection for Mathematical Reasoning",
+      "year": 2024,
+      "first_author": "Zhang",
+      "container": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+      "type": "proceedings-article",
+      "score": 31.182896
+     },
+     "metrics": {
+      "title_sim": 65.89595375722544,
+      "containment": 0.444,
+      "partial_ratio": 53.84615384615385,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "f32bcc2155997110a7905da050df4c8404867b24",
+    "title": "Improve Mathematical Reasoning in Language Models by Automated Process Supervision",
+    "year": 2024,
+    "first_author": "Liangchen Luo",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2406-06592",
+     "ArXiv": "2406.06592",
+     "CorpusId": 270379625
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "[12] Ben Lightman and et al. Let\u2019s Verify Step by Step. arXiv preprint arXiv:2305.20050, 2023.",
+   "title": "Let\u2019s Verify Step by Step",
+   "authors": [
+    "and"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2305.20050",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2305.20050",
+    "title": "Let's Verify Step by Step",
+    "year": 2023,
+    "first_author": "Hunter Lightman"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "[13] Yucheng Lin, Jiayi Wang, Zhenwen Li, Muzhou Zhang, Jian Wu, and Guangcheng Wang. ZebraLogic: A Logical Reasoning Benchmark for Evaluating LLMs with Logic Puzzles. arXiv preprint arXiv:2407.18946, 2024.",
+   "title": "ZebraLogic: A Logical Reasoning Benchmark for Evaluating LLMs with Logic Puzzles",
+   "authors": [
+    "Lin",
+    "Wang",
+    "Li",
+    "Zhang",
+    "Wu",
+    "Wang"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2407.18946",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1016/j.knosys.2026.115885",
+      "title": "Logical reasoning in evolving scenarios: Evaluating LLMs with dynamic epistemic logic puzzles",
+      "year": 2026,
+      "first_author": "Li",
+      "container": "Knowledge-Based Systems",
+      "type": "journal-article",
+      "score": 50.417233
+     },
+     "metrics": {
+      "title_sim": 79.38931297709924,
+      "containment": 0.6,
+      "partial_ratio": 64.13043478260869,
+      "year_ok": false,
+      "first_author_ok": true
+     }
+    },
+    {
+     "step": "arxiv_id_resolves_title_mismatch",
+     "rec": {
+      "source": "arxiv_abs",
+      "arxiv": "2407.18946",
+      "title": "WalkTheDog: Cross-Morphology Motion Alignment via Phase Manifolds",
+      "year": 2024,
+      "first_author": "Li, Peizhuo"
+     },
+     "metrics": {
+      "title_sim": 43.35664335664335,
+      "containment": 0.0,
+      "partial_ratio": 40.625,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "[14] Jiayi Liu, Zhenwen Wang, Muzhou Zhang, Jian Wu, Guangcheng Wang, Xiaodi Liu, Shufan Zhang, Jiang Wang, and Kai Zhou. MathEval: A Comprehensive Benchmark for Evaluating Large Language Models on Mathematical Reasoning Capabilities. Frontiers in Data and Engineering, 2:53, 2025.",
+   "title": "MathEval: A Comprehensive Benchmark for Evaluating Large Language Models on Mathematical Reasoning Capabilities",
+   "authors": [
+    "Liu",
+    "Wang",
+    "Zhang",
+    "Wu",
+    "Wang",
+    "Liu",
+    "Zhang",
+    "Wang",
+    "Zhou"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Frontiers in Data and Engineering",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/s44366-025-0053-z",
+    "title": "MathEval: A Comprehensive Benchmark for Evaluating Large Language Models on Mathematical Reasoning Capabilities",
+    "year": 2025,
+    "first_author": "Liu",
+    "container": "Frontiers of Digital Education",
+    "type": "journal-article",
+    "score": 74.91829
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "[15] Long Ouyang, Jeff Wu, Xu Jiang, Diogo Almeida, Carroll L Wainwright, Pamela Mishkin, Chong Zhang, Sandhini Agarwal, Katarina Slama, Alex Ray, et al. Training language models to follow instructions with human feedback. In NeurIPS, 2022.",
+   "title": "Training language models to follow instructions with human feedback",
+   "authors": [
+    "Ouyang",
+    "Wu",
+    "Jiang",
+    "Almeida",
+    "Wainwright",
+    "Mishkin",
+    "Zhang",
+    "Agarwal",
+    "Slama",
+    "Ray"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "NeurIPS",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/068431-2011",
+    "title": "Training Language Models to Follow Instructions with Human Feedback",
+    "year": 2022,
+    "first_author": "Ouyang",
+    "container": "Advances in Neural Information Processing Systems 35",
+    "type": "proceedings-article",
+    "score": 41.000435
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 16,
+   "raw": "[16] Liangming Pan, Jiayi Wang, Zhenwen Li, Muzhou Zhang, Jian Wu, and Guangcheng Wang. When AIs Judge AIs: The Rise of Agent-as-a-Judge Evaluation for LLMs. arXiv preprint arXiv:2508.02994, 2024.",
+   "title": "When AIs Judge AIs: The Rise of Agent-as-a-Judge Evaluation for LLMs",
+   "authors": [
+    "Pan",
+    "Wang",
+    "Li",
+    "Zhang",
+    "Wu",
+    "Wang"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2508.02994",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2508.02994"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.26520/mcdsare.2025.9.37-43",
+      "title": "ARE LLMS AND AIS DANGEROUS FOR HUMANITY?",
+      "year": 2025,
+      "first_author": "COULARDEAU",
+      "container": "International Multidisciplinary Scientific Conferences on the Dialogue between Sciences &amp; Arts, Religion &amp; Education",
+      "type": "journal-article",
+      "score": 36.75097
+     },
+     "metrics": {
+      "title_sim": 56.25,
+      "containment": 0.5,
+      "partial_ratio": 48.71794871794872,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "10734df8302641767f638c4a02fbf9e1cf08a666",
+    "title": "When AIs Judge AIs: The Rise of Agent-as-a-Judge Evaluation for LLMs",
+    "year": 2025,
+    "first_author": "Fangyi Yu",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2508-02994",
+     "ArXiv": "2508.02994",
+     "DOI": "10.48550/arXiv.2508.02994",
+     "CorpusId": 280527079
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 17,
+   "raw": "[17] Weizhe Shi and et al. Reflexion: Language Agents with Verbal Reinforcement Learning. arXiv preprint arXiv:2303.11366, 2023.",
+   "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+   "authors": [
+    "and"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2303.11366",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/075280-0377",
+    "title": "Reflexion: language agents with verbal reinforcement learning",
+    "year": 2023,
+    "first_author": "Shinn",
+    "container": "Advances in Neural Information Processing Systems 36",
+    "type": "proceedings-article",
+    "score": 47.17374
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2303.11366"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 18,
+   "raw": "[18] UC Berkeley EECS Department. Benchmarking LLMs on Advanced Mathematical Reasoning. Technical Report EECS-2025-121, University of California, Berkeley, 2025.",
+   "title": "Benchmarking LLMs on Advanced Mathematical Reasoning",
+   "authors": [
+    "Department"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "report",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.18653/v1/2025.findings-acl.457",
+      "title": "XFinBench: Benchmarking LLMs in Complex Financial Problem Solving and Reasoning",
+      "year": 2025,
+      "first_author": "Zhang",
+      "container": "Findings of the Association for Computational Linguistics: ACL 2025",
+      "type": "proceedings-article",
+      "score": 30.957836
+     },
+     "metrics": {
+      "title_sim": 68.35443037974683,
+      "containment": 0.375,
+      "partial_ratio": 56.41025641025641,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "0e6a8ad9c81f27c3d61b5a88d50c7ef5b8c50eb1",
+    "title": "Benchmarking LLMs on Advanced Mathematical Reasoning",
+    "year": null,
+    "first_author": "J. Yue",
+    "container": "",
+    "ext": {
+     "CorpusId": 281827513
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 19,
+   "raw": "[19] Jiayi Wang, Zhenwen Li, Muzhou Wang, Jian Wu, Guangcheng Zhang, Chenhe Wang, Xiaodi Liu, Shufan Zhang, Jiang Wang, Kai Zhou, et al. Benchmarking Large Language Models for Math Reasoning Tasks. arXiv preprint arXiv:2408.10839, 2024.",
+   "title": "Benchmarking Large Language Models for Math Reasoning Tasks",
+   "authors": [
+    "Wang",
+    "Li",
+    "Wang",
+    "Wu",
+    "Zhang",
+    "Wang",
+    "Liu",
+    "Zhang",
+    "Wang",
+    "Zhou"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2408.10839",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2024.findings-acl.382",
+    "title": "TRAM: Benchmarking Temporal Reasoning for Large Language Models",
+    "year": 2024,
+    "first_author": "Wang",
+    "container": "Findings of the Association for Computational Linguistics ACL 2024",
+    "type": "proceedings-article",
+    "score": 43.276184
+   },
+   "metrics": {
+    "title_sim": 89.7196261682243,
+    "containment": 0.714,
+    "partial_ratio": 59.67741935483871,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2408.10839"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 20,
+   "raw": "[20] Jiayi Wang, Zhenwen Li, Muzhou Zhang, Jian Wu, Guangcheng Wang, Xiaodi Liu, and Shufan Zhang. Enhancing Mathematical Reasoning in LLMs by Stepwise Correction. arXiv preprint arXiv:2410.12934, 2024.",
+   "title": "Enhancing Mathematical Reasoning in LLMs by Stepwise Correction",
+   "authors": [
+    "Wang",
+    "Li",
+    "Zhang",
+    "Wu",
+    "Wang",
+    "Liu",
+    "Zhang"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2410.12934",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2025.acl-long.1048",
+    "title": "Enhancing Mathematical Reasoning in LLMs by Stepwise Correction",
+    "year": 2025,
+    "first_author": "Wu",
+    "container": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "type": "proceedings-article",
+    "score": 40.692368
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2410.12934"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 21,
+   "raw": "[21] Peiyi Wang, Lei Li, Zhihong Zheng, Runxin Xu, Dahua Pang, Yifan Zhou, Bo Yang, Chaofan Liu, Haowei Yu, Sirui Gao, et al. Math-Shepherd: Verify and Reinforce LLMs Step-by-step without Human Annotations. In Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics, pages 8983\u20139004, 2024.",
+   "title": "Math-Shepherd: Verify and Reinforce LLMs Step-by-step without Human Annotations",
+   "authors": [
+    "Wang",
+    "Li",
+    "Zheng",
+    "Xu",
+    "Pang",
+    "Zhou",
+    "Yang",
+    "Liu",
+    "Yu",
+    "Gao"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2024.acl-long.510",
+    "title": "Math-Shepherd: Verify and Reinforce LLMs Step-by-step without Human Annotations",
+    "year": 2024,
+    "first_author": "Wang",
+    "container": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "type": "proceedings-article",
+    "score": 75.83174
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 22,
+   "raw": "[22] Yichen Wang, Zhenwen Huang, Muzhou Zhang, Jian Wu, Guangcheng Wang, Xiaodi Liu, Shufan Zhang, and Jiang Wang. Training Reasoning Agents in Interactive, Complex Environments. Northwestern Engineering Technical Report, 2024.",
+   "title": "Training Reasoning Agents in Interactive, Complex Environments",
+   "authors": [
+    "Wang",
+    "Huang",
+    "Zhang",
+    "Wu",
+    "Wang",
+    "Liu",
+    "Zhang",
+    "Wang"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1080/10494820.2024.2350641",
+      "title": "Design and implementation of interactive virtual reality supported first aid training",
+      "year": 2025,
+      "first_author": "Ugur",
+      "container": "Interactive Learning Environments",
+      "type": "journal-article",
+      "score": 28.422905
+     },
+     "metrics": {
+      "title_sim": 58.9041095890411,
+      "containment": 0.222,
+      "partial_ratio": 49.411764705882355,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 23,
+   "raw": "[23] Zijun Wang, Yining Zhang, Chenhe Wang, Xiaodi Liu, Shufan Zhang, Jiang Wang, and Kai Zhou. LLMs Can Easily Learn to Reason from Demonstrations: Structure, not content, is what matters! arXiv preprint arXiv:2502.07374, 2025.",
+   "title": "LLMs Can Easily Learn to Reason from Demonstrations: Structure, not content",
+   "authors": [
+    "Wang",
+    "Zhang",
+    "Wang",
+    "Liu",
+    "Zhang",
+    "Wang",
+    "Zhou"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": "2502.07374",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2502.07374"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.18653/v1/2025.findings-emnlp.866",
+      "title": "Language Models Can Easily Learn to Reason from Demonstrations",
+      "year": 2025,
+      "first_author": "Li",
+      "container": "Findings of the Association for Computational Linguistics: EMNLP 2025",
+      "type": "proceedings-article",
+      "score": 41.073364
+     },
+     "metrics": {
+      "title_sim": 85.18518518518519,
+      "containment": 0.714,
+      "partial_ratio": 83.87096774193549,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "41c1e54f605bea3450810c44b071724ab0270424",
+    "title": "LLMs Can Easily Learn to Reason from Demonstrations Structure, not content, is what matters!",
+    "year": 2025,
+    "first_author": "Da-Cheng Li",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2502-07374",
+     "ArXiv": "2502.07374",
+     "DOI": "10.48550/arXiv.2502.07374",
+     "CorpusId": 276258697
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 24,
+   "raw": "[24] Jason Wei and et al. Chain-of-Thought Prompting Elicits Reasoning in Large Language Models. In NeurIPS, 2022.",
+   "title": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+   "authors": [
+    "and"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "NeurIPS",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/068431-1800",
+    "title": "Chain-Of-Thought Prompting Elicits Reasoning in Large Language Models",
+    "year": 2022,
+    "first_author": "Wei",
+    "container": "Advances in Neural Information Processing Systems 35",
+    "type": "proceedings-article",
+    "score": 54.958054
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 25,
+   "raw": "[25] Shunyu Yao and et al. ReAct: Synergizing Reasoning and Acting in Language Models. In ICLR, 2023.",
+   "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+   "authors": [
+    "and"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "ICLR",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.3390/encyclopedia3020049",
+      "title": "Large Language Models and Logical Reasoning",
+      "year": 2023,
+      "first_author": "Friedman",
+      "container": "Encyclopedia",
+      "type": "journal-article",
+      "score": 25.26548
+     },
+     "metrics": {
+      "title_sim": 80.55555555555556,
+      "containment": 0.6,
+      "partial_ratio": 63.888888888888886,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "99832586d55f540f603637e458a292406a0ed75d",
+    "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+    "year": 2022,
+    "first_author": "Shunyu Yao",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "DBLP": "conf/iclr/YaoZYDSN023",
+     "ArXiv": "2210.03629",
+     "CorpusId": 252762395
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 26,
+   "raw": "[26] Longhui Yu, Weisen Jiang, Han Shi, Jincheng Yu, Zhengying Liu, Yu Zhang, James T Kwok, Zhenguo Li, and Qi Liu. Outcome Reward Models for Mathematical Reasoning. arXiv preprint arXiv:2404.15381, 2024.",
+   "title": "Outcome Reward Models for Mathematical Reasoning",
+   "authors": [
+    "Yu",
+    "Jiang",
+    "Shi",
+    "Yu",
+    "Liu",
+    "Zhang",
+    "Kwok",
+    "Li",
+    "Liu"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2404.15381",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2024.findings-naacl.55",
+    "title": "OVM, Outcome-supervised Value Models for Planning in Mathematical Reasoning",
+    "year": 2024,
+    "first_author": "Yu",
+    "container": "Findings of the Association for Computational Linguistics: NAACL 2024",
+    "type": "proceedings-article",
+    "score": 34.91103
+   },
+   "metrics": {
+    "title_sim": 92.13483146067416,
+    "containment": 0.5,
+    "partial_ratio": 63.51351351351351,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2404.15381"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 27,
+   "raw": "[27] Chen Zhang, Dawei Wang, Zihan Li, Kai Zhang, Xiangtai Wang, Liying Wu, Qing Zhou, Conghui Zhao, Xiangyu Hu, Zishuo Li, et al. Domain Specialization as the Key to Make Large Language Models Disruptive: A Comprehensive Survey. arXiv preprint arXiv:2305.18703, 2024.",
+   "title": "Domain Specialization as the Key to Make Large Language Models Disruptive: A Comprehensive Survey",
+   "authors": [
+    "Zhang",
+    "Wang",
+    "Li",
+    "Zhang",
+    "Wang",
+    "Wu",
+    "Zhou",
+    "Zhao",
+    "Hu",
+    "Li"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2305.18703",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2305.18703"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1145/3764579",
+      "title": "Domain Specialization as the Key to Make Large Language Models Disruptive: A Comprehensive Survey",
+      "year": 2026,
+      "first_author": "Ling",
+      "container": "ACM Computing Surveys",
+      "type": "journal-article",
+      "score": 44.74631
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 1.0,
+      "partial_ratio": 100.0,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "6847b9658f287f430098199cd81bf26308da13f9",
+    "title": "Domain Specialization as the Key to Make Large Language Models Disruptive: A Comprehensive Survey",
+    "year": 2023,
+    "first_author": "Chen Ling",
+    "container": "ACM Computing Surveys",
+    "ext": {
+     "DBLP": "journals/csur/LingZLDZWCLCZZPMPCWLCCW26",
+     "ArXiv": "2305.18703",
+     "DOI": "10.1145/3764579",
+     "CorpusId": 259502302
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 28,
+   "raw": "[28] Kai Zhang, Jiayi Wang, Zhenwen Li, Muzhou Zhang, Jian Wu, and Guangcheng Wang. Evaluation-Driven Development of LLM Agents: A Process Model and Reference Architecture. In NeurIPS Workshop on Foundation Models for Decision Making, 2024.",
+   "title": "Evaluation-Driven Development of LLM Agents: A Process Model and Reference Architecture",
+   "authors": [
+    "Zhang",
+    "Wang",
+    "Li",
+    "Zhang",
+    "Wu",
+    "Wang"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "NeurIPS Workshop on Foundation Models for Decision Making",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.2139/ssrn.5775317",
+    "title": "Evaluation-Driven Development and Operations of LLM Agents: A Process Model and Reference Architecture",
+    "year": 2025,
+    "first_author": "Xia",
+    "container": "",
+    "type": "posted-content",
+    "score": 57.22619
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.9,
+    "partial_ratio": 85.14851485148515,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 29,
+   "raw": "[29] Tony Zhang, Lei Li, Peiyi Wang, Chaofan Liu, Haowei Yu, Sirui Gao, et al. Agent RL Scaling Law: Spontaneous Code Execution for Mathematical Problem Solving. arXiv preprint arXiv:2505.07773, 2024.",
+   "title": "Agent RL Scaling Law: Spontaneous Code Execution for Mathematical Problem Solving",
+   "authors": [
+    "Zhang",
+    "Li",
+    "Wang",
+    "Liu",
+    "Yu",
+    "Gao"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2505.07773",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/085713-0251",
+    "title": "Agentic RL Scaling Law: Spontaneous Code Execution for Mathematical Problem Solving",
+    "year": 2025,
+    "first_author": "Mai",
+    "container": "Advances in Neural Information Processing Systems 38",
+    "type": "proceedings-article",
+    "score": 66.839676
+   },
+   "metrics": {
+    "title_sim": 98.76543209876543,
+    "containment": 0.889,
+    "partial_ratio": 97.5609756097561,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2505.07773"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 30,
+   "raw": "[30] Tony Zhao, Yifan Zhang, Lei Li, Peiyi Wang, Chaofan Liu, Haowei Yu, Sirui Gao, et al. Multi-Turn Puzzles: Evaluating Interactive Reasoning and Strategic Dialogue in LLMs. arXiv preprint arXiv:2508.10142, 2024.",
+   "title": "Multi-Turn Puzzles: Evaluating Interactive Reasoning and Strategic Dialogue in LLMs",
+   "authors": [
+    "Zhao",
+    "Zhang",
+    "Li",
+    "Wang",
+    "Liu",
+    "Yu",
+    "Gao"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2508.10142",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2508.10142"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/s10489-026-07186-1",
+      "title": "KG-guided proactive questioning for LLMs in multi-turn interactive medical reasoning",
+      "year": 2026,
+      "first_author": "Li",
+      "container": "Applied Intelligence",
+      "type": "journal-article",
+      "score": 35.195084
+     },
+     "metrics": {
+      "title_sim": 69.87951807228916,
+      "containment": 0.556,
+      "partial_ratio": 55.952380952380956,
+      "year_ok": false,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "60d2f1f78d2c745bd39c0e33127b78a863b4f92c",
+    "title": "Multi-Turn Puzzles: Evaluating Interactive Reasoning and Strategic Dialogue in LLMs",
+    "year": 2025,
+    "first_author": "Kartikeya Badola",
+    "container": "arXiv.org",
+    "ext": {
+     "ArXiv": "2508.10142",
+     "DBLP": "journals/corr/abs-2508-10142",
+     "DOI": "10.48550/arXiv.2508.10142",
+     "CorpusId": 280649945
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 31,
+   "raw": "[31] Zehan Zhou, Lei Li, Peiyi Wang, Chaofan Liu, Haowei Yu, Sirui Gao, et al. WebAgent-R1: Training Web Agents via End-to-End Multi-Turn Reinforcement Learning. arXiv preprint arXiv:2505.16421, 2024.",
+   "title": "WebAgent-R1: Training Web Agents via End-to-End Multi-Turn Reinforcement Learning",
+   "authors": [
+    "Zhou",
+    "Li",
+    "Wang",
+    "Liu",
+    "Yu",
+    "Gao"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2505.16421",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2025.emnlp-main.401",
+    "title": "WebAgent-R1: Training Web Agents via End-to-End Multi-Turn Reinforcement Learning",
+    "year": 2025,
+    "first_author": "Wei",
+    "container": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+    "type": "proceedings-article",
+    "score": 72.63867
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2505.16421"
+    }
+   ]
+  }
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
+}

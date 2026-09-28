@@ -1,0 +1,1002 @@
+{
+ "pdf": "343_mEbFdPy2oy.pdf",
+ "n_entries": 25,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "References [1] Jonas Adler and Ozan \u00d6ktem. Learned primal-dual reconstruction. IEEE Transactions on Medical Imaging, 37(6):1322\u20131332, 2018.",
+   "title": "References [1] Jonas Adler and Ozan \u00d6ktem. Learned primal-dual reconstruction",
+   "authors": [],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE Transactions on Medical Imaging",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/tmi.2018.2799231",
+    "title": "Learned Primal-Dual Reconstruction",
+    "year": 2018,
+    "first_author": "Adler",
+    "container": "IEEE Transactions on Medical Imaging",
+    "type": "journal-article",
+    "score": 45.667126
+   },
+   "metrics": {
+    "title_sim": 62.96296296296296,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2] Hemant K. Aggarwal, Merry P. Mani, and Mathews Jacob. Modl: Model-based deep learning architecture for inverse problems. IEEE Transactions on Medical Imaging, 38(2):394\u2013405, 2018.",
+   "title": "Modl: Model-based deep learning architecture for inverse problems",
+   "authors": [
+    "Aggarwal",
+    "Mani",
+    "Jacob"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE Transactions on Medical Imaging",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/tmi.2018.2865356",
+    "title": "MoDL: Model-Based Deep Learning Architecture for Inverse Problems",
+    "year": 2019,
+    "first_author": "Aggarwal",
+    "container": "IEEE Transactions on Medical Imaging",
+    "type": "journal-article",
+    "score": 54.995865
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3] Robert E. Alvarez and Albert Macovski. Energy-selective reconstructions in x-ray computed tomography. Physics in Medicine and Biology, 21(5):733\u2013744, 1976.",
+   "title": "Energy-selective reconstructions in x-ray computed tomography",
+   "authors": [
+    "Alvarez",
+    "Macovski"
+   ],
+   "year": 1976,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Physics in Medicine and Biology",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1088/0031-9155/21/5/002",
+    "title": "Energy-selective reconstructions in X-ray computerised tomography",
+    "year": 1976,
+    "first_author": "R E Alvarez",
+    "container": "Physics in Medicine &amp; Biology",
+    "type": "journal-article",
+    "score": 48.96125
+   },
+   "metrics": {
+    "title_sim": 96.82539682539682,
+    "containment": 0.833,
+    "partial_ratio": 93.84615384615384,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4] Xavier Bresson, Pierre Vandergheynst, Jean-Philippe Thiran, and Pascal Frossard. Multiscale total variation for image decomposition. Multiscale Modeling & Simulation, 7(2):480\u2013498, 2010.",
+   "title": "Multiscale total variation for image decomposition",
+   "authors": [
+    "Bresson",
+    "Vandergheynst",
+    "Thiran",
+    "Frossard"
+   ],
+   "year": 2010,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Multiscale Modeling & Simulation",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.21236/ada460529",
+      "title": "The Total Variation Regularized L1 Model for Multiscale Decomposition",
+      "year": 2006,
+      "first_author": "Yin",
+      "container": "",
+      "type": "report",
+      "score": 34.011387
+     },
+     "metrics": {
+      "title_sim": 93.61702127659575,
+      "containment": 0.667,
+      "partial_ratio": 60.86956521739131,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5] Thomas M. Buzug. Computed Tomography: From Projections to 3D Images. Springer, Berlin, Heidelberg, 2008.",
+   "title": "Computed Tomography: From Projections to 3D Images",
+   "authors": [
+    "Buzug"
+   ],
+   "year": 2008,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/978-3-540-74658-4_16",
+    "title": "Computed Tomography",
+    "year": 2011,
+    "first_author": "Buzug",
+    "container": "Springer Handbook of Medical Technology",
+    "type": "book-chapter",
+    "score": 32.83258
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[6] H. Chen, Y. Zhang, W. Zhang, and et al. Learn: Learned experts\u2019 assessment-based reconstruction network for sparse-data ct. IEEE Transactions on Medical Imaging, 39(1):68\u201380, 2020.",
+   "title": "Learn: Learned experts\u2019 assessment-based reconstruction network for sparse-data ct",
+   "authors": [
+    "Chen",
+    "Zhang",
+    "Zhang"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE Transactions on Medical Imaging",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/tmi.2018.2805692",
+    "title": "LEARN: Learned Experts\u2019 Assessment-Based Reconstruction Network for Sparse-Data CT",
+    "year": 2018,
+    "first_author": "Chen",
+    "container": "IEEE Transactions on Medical Imaging",
+    "type": "journal-article",
+    "score": 56.34709
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[7] Yu Chen, Xia Huang, and Hui Zhang. Low-rank and total variation-based dual-energy ct reconstruction. IEEE Transactions on Medical Imaging, 36(9):1854\u20131866, 2017.",
+   "title": "Low-rank and total variation-based dual-energy ct reconstruction",
+   "authors": [
+    "Chen",
+    "Huang",
+    "Zhang"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE Transactions on Medical Imaging",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/nssmic.2012.6551536",
+      "title": "Dual-energy CT reconstruction based on dictionary learning and total variation constraint",
+      "year": 2012,
+      "first_author": "Li",
+      "container": "2012 IEEE Nuclear Science Symposium and Medical Imaging Conference Record (NSS/MIC)",
+      "type": "proceedings-article",
+      "score": 42.050026
+     },
+     "metrics": {
+      "title_sim": 92.43697478991596,
+      "containment": 0.667,
+      "partial_ratio": 57.14285714285714,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[8] Jeffrey A. Fessler. Model-based image reconstruction for mri. IEEE Signal Processing Magazine, 27(4):81\u201389, 2020.",
+   "title": "Model-based image reconstruction for mri",
+   "authors": [
+    "Fessler"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE Signal Processing Magazine",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/msp.2010.936726",
+    "title": "Model-Based Image Reconstruction for MRI",
+    "year": 2010,
+    "first_author": "Fessler",
+    "container": "IEEE Signal Processing Magazine",
+    "type": "journal-article",
+    "score": 41.30823
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[9] Thomas G. Flohr, Martin G. Mack, Stephan Ulzheimer, Christoph H. McCollough, Rainer Raupach, Christian Suess, Karl Stierstorfer, Michael Bruder, and Bernhard Schmidt. Dual-source ct: principles, hardware, and applications. European Radiology, 16(Suppl 7):S2\u2013S10, 2006.",
+   "title": "Dual-source ct: principles, hardware, and applications",
+   "authors": [
+    "Flohr",
+    "Mack",
+    "Ulzheimer",
+    "McCollough",
+    "Raupach",
+    "Suess",
+    "Stierstorfer",
+    "Bruder",
+    "Schmidt"
+   ],
+   "year": 2006,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "European Radiology",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.ejmp.2020.10.014",
+    "title": "Principles and applications of dual source CT",
+    "year": 2020,
+    "first_author": "Schmidt",
+    "container": "Physica Medica",
+    "type": "journal-article",
+    "score": 45.895
+   },
+   "metrics": {
+    "title_sim": 96.55172413793103,
+    "containment": 1.0,
+    "partial_ratio": 68.88888888888889,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[10] Hao Gao, Liang Li, Yuxiang Xing, and Zhiqiang Chen. Low-rank and sparse matrix decomposition-based material decomposition in dual-energy ct. Medical Physics, 41(7):071906, 2014.",
+   "title": "Low-rank and sparse matrix decomposition-based material decomposition in dual-energy ct",
+   "authors": [
+    "Gao",
+    "Li",
+    "Xing",
+    "Chen"
+   ],
+   "year": 2014,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Medical Physics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.4218/etrij.13.0213.0033",
+      "title": "Speech Denoising via Low-Rank and Sparse Matrix Decomposition",
+      "year": 2014,
+      "first_author": "Huang",
+      "container": "ETRI Journal",
+      "type": "journal-article",
+      "score": 51.246895
+     },
+     "metrics": {
+      "title_sim": 79.20792079207921,
+      "containment": 0.714,
+      "partial_ratio": 78.68852459016394,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "[11] Per Christian Hansen and Mads Saxild-Hansen. Air scans and sinogram inpainting for computed tomography. Numerical Algorithms, 43(1):1\u201321, 2006.",
+   "title": "Air scans and sinogram inpainting for computed tomography",
+   "authors": [
+    "Hansen",
+    "Saxild-Hansen"
+   ],
+   "year": 2006,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Numerical Algorithms",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/nssmic.2011.6153697",
+      "title": "Sparsity constrained sinogram inpainting for metal artifact reduction in x-ray computed tomography",
+      "year": 2011,
+      "first_author": "Mehranian",
+      "container": "2011 IEEE Nuclear Science Symposium Conference Record",
+      "type": "proceedings-article",
+      "score": 37.152626
+     },
+     "metrics": {
+      "title_sim": 68.38709677419355,
+      "containment": 0.4,
+      "partial_ratio": 56.122448979591844,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "[12] J. He, Y. Wang, J. Ma, and et al. Spectral ct image reconstruction with a deep learned material decomposition network. Medical Image Analysis, 75:102257, 2022.",
+   "title": "Spectral ct image reconstruction with a deep learned material decomposition network",
+   "authors": [
+    "He",
+    "Wang",
+    "Ma"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Medical Image Analysis",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.70675/cf790272z39d7z4520za1c6zcdfaf43ac1ea",
+      "title": "An approach to image reconstruction and material decomposition in spectral tomography with diffusion model regularization.",
+      "year": 2026,
+      "first_author": "Vazia",
+      "container": "",
+      "type": "dissertation",
+      "score": 38.136166
+     },
+     "metrics": {
+      "title_sim": 81.42857142857143,
+      "containment": 0.5,
+      "partial_ratio": 60.33057851239669,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "[13] Bj\u00f6rn Heismann and J\u00f6rg Kachelrie\u00df. Computed Tomography: From Photon Statistics to Modern Cone-Beam CT. Springer, Berlin, Heidelberg, 2012.",
+   "title": "Computed Tomography: From Photon Statistics to Modern Cone-Beam CT",
+   "authors": [
+    "Heismann",
+    "Kachelrie\u00df"
+   ],
+   "year": 2012,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1118/1.3176026",
+      "title": "Computed Tomography From Photon Statistics to Modern Cone-Beam CT",
+      "year": 2009,
+      "first_author": "Mihailidis",
+      "container": "Medical Physics",
+      "type": "journal-article",
+      "score": 62.719967
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 1.0,
+      "partial_ratio": 100.0,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "[14] Hyun Jung Lee, Dongwook Kim, Jung Hoon Cho, and Jong Chul Ye. View-interpolation-based projection completion method for sparse-view ct reconstruction. Medical Physics, 42(1):171\u2013181, 2015.",
+   "title": "View-interpolation-based projection completion method for sparse-view ct reconstruction",
+   "authors": [
+    "Lee",
+    "Kim",
+    "Cho",
+    "Ye"
+   ],
+   "year": 2015,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Medical Physics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1145/3503161.3548204",
+      "title": "Learning Projection Views for Sparse-View CT Reconstruction",
+      "year": 2022,
+      "first_author": "Yang",
+      "container": "Proceedings of the 30th ACM International Conference on Multimedia",
+      "type": "proceedings-article",
+      "score": 43.85599
+     },
+     "metrics": {
+      "title_sim": 85.4368932038835,
+      "containment": 0.667,
+      "partial_ratio": 77.96610169491525,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "[15] Yong Long, Jian-Feng Cai, Zhaosong Luan, Shi-Ze Li, Xiao qun Zhang, Hong-Kai Xiong, and Dai shan Liu. Split bregman-based reconstruction for dual-energy computed tomography. Computers in Biology and Medicine, 44:90\u201399, 2014.",
+   "title": "Split bregman-based reconstruction for dual-energy computed tomography",
+   "authors": [
+    "Long",
+    "Cai",
+    "Luan",
+    "Li",
+    "Zhang",
+    "Xiong",
+    "Liu"
+   ],
+   "year": 2014,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Computers in Biology and Medicine",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1209/0295-5075/ad2ba6",
+      "title": "Split Bregman quantum noise removal algorithm for 3D reconstruction of neutron computed tomography image",
+      "year": 2024,
+      "first_author": "Zhu",
+      "container": "Europhysics Letters",
+      "type": "journal-article",
+      "score": 38.222397
+     },
+     "metrics": {
+      "title_sim": 85.24590163934427,
+      "containment": 0.455,
+      "partial_ratio": 60.57692307692308,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 16,
+   "raw": "[16] Cynthia H. McCollough, Shuai Leng, Lifeng Yu, and Joel G. Fletcher. Dual- and multi-energy ct: Principles, technical approaches, and clinical applications. Radiology, 276(3):638\u2013653, 2015.",
+   "title": "Dual- and multi-energy ct: Principles, technical approaches, and clinical applications",
+   "authors": [
+    "McCollough",
+    "Leng",
+    "Yu",
+    "Fletcher"
+   ],
+   "year": 2015,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Radiology",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1148/radiol.2015142631",
+    "title": "Dual- and Multi-Energy CT: Principles, Technical Approaches, and Clinical Applications",
+    "year": 2015,
+    "first_author": "McCollough",
+    "container": "Radiology",
+    "type": "journal-article",
+    "score": 63.278038
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 17,
+   "raw": "[17] Frank Natterer. The Mathematics of Computerized Tomography. Classics in Applied Mathematics. Society for Industrial and Applied Mathematics (SIAM), Philadelphia, PA, 2001.",
+   "title": "The Mathematics of Computerized Tomography",
+   "authors": [
+    "Natterer"
+   ],
+   "year": 2001,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Classics in Applied Mathematics. Society for Industrial and Applied Mathematics (SIAM",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1137/1.9780898719284",
+    "title": "The Mathematics of Computerized Tomography",
+    "year": 2001,
+    "first_author": "Natterer",
+    "container": "",
+    "type": "monograph",
+    "score": 52.669125
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 18,
+   "raw": "[18] Sathish Ramani, Jeffrey A. Fessler, and Jiang Hsieh. A splitting-based iterative algorithm for accelerated statistical x-ray ct reconstruction. IEEE Transactions on Medical Imaging, 31(3):677\u2013688, 2012.",
+   "title": "A splitting-based iterative algorithm for accelerated statistical x-ray ct reconstruction",
+   "authors": [
+    "Ramani",
+    "Fessler",
+    "Hsieh"
+   ],
+   "year": 2012,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE Transactions on Medical Imaging",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/tmi.2011.2175233",
+    "title": "A Splitting-Based Iterative Algorithm for Accelerated Statistical X-Ray CT Reconstruction",
+    "year": 2012,
+    "first_author": "Ramani",
+    "container": "IEEE Transactions on Medical Imaging",
+    "type": "journal-article",
+    "score": 68.87714
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 19,
+   "raw": "[19] Yaniv Romano, Michael Elad, and Peyman Milanfar. The little engine that could: Regularization by denoising (red). SIAM Journal on Imaging Sciences, 10(4):1804\u20131844, 2017.",
+   "title": "The little engine that could: Regularization by denoising (red",
+   "authors": [
+    "Romano",
+    "Elad",
+    "Milanfar"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "SIAM Journal on Imaging Sciences",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1137/16m1102884",
+    "title": "The Little Engine That Could: Regularization by Denoising (RED)",
+    "year": 2017,
+    "first_author": "Romano",
+    "container": "SIAM Journal on Imaging Sciences",
+    "type": "journal-article",
+    "score": 58.959064
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 20,
+   "raw": "[20] Emil Y. Sidky, J. H. J\u00f8rgensen, and Xiaochuan Pan. Convex optimization-based image reconstruction from sparse-data. Proceedings of the SPIE, 7246:72460I, 2009.",
+   "title": "Convex optimization-based image reconstruction from sparse-data",
+   "authors": [
+    "Sidky",
+    "J\u00f8rgensen",
+    "Pan"
+   ],
+   "year": 2009,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the SPIE",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1088/0031-9155/58/2/205",
+      "title": "Optimization-based image reconstruction from sparse-view data in offset-detector CBCT",
+      "year": 2013,
+      "first_author": "Bian",
+      "container": "Physics in Medicine and Biology",
+      "type": "journal-article",
+      "score": 42.088272
+     },
+     "metrics": {
+      "title_sim": 94.11764705882354,
+      "containment": 0.6,
+      "partial_ratio": 77.64705882352942,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 21,
+   "raw": "[21] Emil Y. Sidky and Xiaochuan Pan. Image reconstruction in circular cone-beam computed tomography by constrained, total-variation minimization. Physics in Medicine & Biology, 53(17):4777\u20134807, 2008.",
+   "title": "Image reconstruction in circular cone-beam computed tomography by constrained, total-variation minimization",
+   "authors": [
+    "Sidky",
+    "Pan"
+   ],
+   "year": 2008,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Physics in Medicine & Biology",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1088/0031-9155/53/17/021",
+    "title": "Image reconstruction in circular cone-beam computed tomography by constrained, total-variation minimization",
+    "year": 2008,
+    "first_author": "Sidky",
+    "container": "Physics in Medicine and Biology",
+    "type": "journal-article",
+    "score": 88.37061
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 22,
+   "raw": "[22] Singanallur V. Venkatakrishnan, Charles A. Bouman, and Brendt Wohlberg. Plug-and-play priors for model based reconstruction. In Proceedings of IEEE Global Conference on Signal and Information Processing (GlobalSIP), pages 945\u2013948. IEEE, 2013.",
+   "title": "Plug-and-play priors for model based reconstruction",
+   "authors": [
+    "Venkatakrishnan",
+    "Bouman",
+    "Wohlberg"
+   ],
+   "year": 2013,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of IEEE Global Conference on Signal and Information Processing (GlobalSIP",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/globalsip.2013.6737048",
+    "title": "Plug-and-Play priors for model based reconstruction",
+    "year": 2013,
+    "first_author": "Venkatakrishnan",
+    "container": "2013 IEEE Global Conference on Signal and Information Processing",
+    "type": "proceedings-article",
+    "score": 59.37924
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 23,
+   "raw": "[23] Bruce R. Whiting. Signal statistics in x-ray computed tomography. Proceedings of SPIE, 6142:61420I, 2006.",
+   "title": "Signal statistics in x-ray computed tomography",
+   "authors": [
+    "Whiting"
+   ],
+   "year": 2006,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of SPIE",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1117/12.465601",
+    "title": "&lt;title&gt;Signal statistics in x-ray computed tomography&lt;/title&gt;",
+    "year": 2002,
+    "first_author": "Whiting",
+    "container": "SPIE Proceedings",
+    "type": "proceedings-article",
+    "score": 38.65662
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.714,
+    "partial_ratio": 77.14285714285715,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 24,
+   "raw": "[24] Rui Zhang, J. Webster Stayman, G. L. C. D. G. Nuyts, and Jeffrey H. Siewerdsen. A joint statistical framework for material decomposition and image reconstruction in spectral ct. IEEE Transactions on Medical Imaging, 35(6):1415\u20131428, 2016.",
+   "title": "A joint statistical framework for material decomposition and image reconstruction in spectral ct",
+   "authors": [
+    "Rui Zhang",
+    "Nuyts",
+    "Siewerdsen"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE Transactions on Medical Imaging",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/tmi.2014.2320284",
+      "title": "Multi-Material Decomposition Using Statistical Image Reconstruction for Spectral CT",
+      "year": 2014,
+      "first_author": "Long",
+      "container": "IEEE Transactions on Medical Imaging",
+      "type": "journal-article",
+      "score": 43.22762
+     },
+     "metrics": {
+      "title_sim": 92.20779220779221,
+      "containment": 0.857,
+      "partial_ratio": 73.49397590361446,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 25,
+   "raw": "[25] Jianhua Zhao, Ge Wang, and Hengyong Yu. Dictionary learning based sinogram extrapolation for metal artifact reduction in ct. IEEE Transactions on Medical Imaging, 32(11):2181\u20132193, 2013.",
+   "title": "Dictionary learning based sinogram extrapolation for metal artifact reduction in ct",
+   "authors": [
+    "Zhao",
+    "Wang",
+    "Yu"
+   ],
+   "year": 2013,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE Transactions on Medical Imaging",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2352/issn.2470-1173.2018.15.coimg-472",
+      "title": "Deep Learning Based Sinogram Correction for Metal Artifact Reduction",
+      "year": 2018,
+      "first_author": "Ghani",
+      "container": "Electronic Imaging",
+      "type": "journal-article",
+      "score": 44.629158
+     },
+     "metrics": {
+      "title_sim": 86.66666666666667,
+      "containment": 0.75,
+      "partial_ratio": 86.76470588235294,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  }
+ ]
+}

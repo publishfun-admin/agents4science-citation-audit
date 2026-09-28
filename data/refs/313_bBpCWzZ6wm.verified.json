@@ -1,0 +1,283 @@
+{
+ "pdf": "313_bBpCWzZ6wm.pdf",
+ "n_entries": 7,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": true,
+   "idx": 1,
+   "raw": "References",
+   "title": null,
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/9780470547038.ch3",
+      "title": "Voltage References",
+      "year": 2009,
+      "first_author": null,
+      "container": "Voltage References",
+      "type": "book-chapter",
+      "score": 13.50932
+     },
+     "metrics": {
+      "title_sim": 0,
+      "containment": 0.5,
+      "partial_ratio": 100.0,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[1] Meier, L. (2019), Popular music, collaboration, and the digital workflow.Popular Music and Society 42(3), 312-328",
+   "title": "Popular music, collaboration",
+   "authors": [
+    "Meier"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "and the digital workflow.Popular Music and Society",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.4324/9781003055099-19",
+      "title": "Collaboration and creativity in popular music production pedagogy",
+      "year": 2022,
+      "first_author": "Anthony",
+      "container": "Music Production Cultures",
+      "type": "book-chapter",
+      "score": 28.408548
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 0.5,
+      "partial_ratio": 66.15384615384615,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[2] Lawrence M. Fisher. (2016). Marvin Minsky.                    In Communications of the ACM. https://dl.acm.org/doi/10.1145/2892716",
+   "title": "Marvin Minsky",
+   "authors": [
+    "Fisher"
+   ],
+   "year": 2016,
+   "doi": "10.1145/2892716",
+   "arxiv": null,
+   "urls": [
+    "https://dl.acm.org/doi/10.1145/2892716"
+   ],
+   "container": "Communications of the ACM",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/2892716",
+    "title": "Marvin Minsky",
+    "year": 2016,
+    "first_author": "Fisher",
+    "container": "Communications of the ACM",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[3] Hilker, E. (1986), Artificial Intelligence: A Review of Current Information Sources. In Collection Building.",
+   "title": "Artificial Intelligence: A Review of Current Information Sources",
+   "authors": [
+    "Hilker"
+   ],
+   "year": 1986,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Collection Building",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1108/eb023192",
+    "title": "Artificial Intelligence: A Review of Current Information Sources",
+    "year": 1986,
+    "first_author": "Hilker",
+    "container": "Collection Building",
+    "type": "journal-article",
+    "score": 55.971207
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[4] Cope, D. (1987), Experiments in Musical Intelligence. University of California Press",
+   "title": "Experiments in Musical Intelligence",
+   "authors": [
+    "Cope"
+   ],
+   "year": 1987,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2307/899968",
+      "title": "Experiments in Musical Intelligence",
+      "year": 1997,
+      "first_author": "Kostka",
+      "container": "Notes",
+      "type": "journal-article",
+      "score": 34.47169
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 1.0,
+      "partial_ratio": 100.0,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[5] D Waymer (2025), Artificial intelligence, corporate influence, and hip hop: The Curious Case of FN Meka and the Dangers of Digital Corporate Blackfishing. In Howard Journal of Communications",
+   "title": "Artificial intelligence, corporate influence, and hip hop: The Curious Case of FN Meka and the Dangers of Digital Corporate Blackfishing",
+   "authors": [
+    "Waymer"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Howard Journal of Communications",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1080/10646175.2025.2538645",
+    "title": "Artificial Intelligence, Corporate Influence, and Hip Hop: The Curious Case of FN Meka and the Dangers of\n                    <i>Digital Corporate Blackfishing</i>",
+    "year": 2025,
+    "first_author": "Waymer",
+    "container": "Howard Journal of Communications",
+    "type": "journal-article",
+    "score": 118.48896
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 98.54014598540147,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[6] K Robinson. (2023). What An Anonymous Artist Taught Us About The Future Of AI In Music. In Billboard. https://go.gale.com/ps/i.do?id=GALE",
+   "title": "What An Anonymous Artist Taught Us About The Future Of AI In Music",
+   "authors": [
+    "Robinson"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://go.gale.com/ps/i.do?id=GALE"
+   ],
+   "container": "Billboard",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED_URL",
+   "via": "url",
+   "url_status": {
+    "https://go.gale.com/ps/i.do?id=GALE": 200
+   },
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1287/orms.2026.01.01",
+      "title": "What GenAI Taught Us About the Future of Global Optimization",
+      "year": 2026,
+      "first_author": null,
+      "container": "Volume\u00a053, Issue\u00a01,\u00a02026",
+      "type": "dataset",
+      "score": 41.19281
+     },
+     "metrics": {
+      "title_sim": 73.01587301587301,
+      "containment": 0.571,
+      "partial_ratio": 71.66666666666667,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ]
+  }
+ ]
+}

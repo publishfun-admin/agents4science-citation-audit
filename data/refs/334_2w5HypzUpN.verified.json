@@ -1,0 +1,460 @@
+{
+ "pdf": "334_2w5HypzUpN.pdf",
+ "n_entries": 11,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "All code, structures, docking logs, and analysis scripts are available in supplementary files and a public repository. Software versions and exact settings permit full replication. References [1] H. Lemke, F. Weniger, Death receptor signaling in cancer stem cells: Implications for TRAIL-based therapies. Curr Med Chem. 24, 3743\u20133757 (2017).",
+   "title": "All code, structures, docking logs, and analysis scripts are available in supplementary files and a public repository. Software versions and exact settings permit full replication",
+   "authors": [
+    "Lemke",
+    "Weniger"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "References",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.7554/elife.37272.031",
+      "title": "Supplementary file 1. Datasets generated using R scripts available in Supplementary file 3 and used to make Source Data files for figures.",
+      "year": 2018,
+      "first_author": null,
+      "container": "",
+      "type": "component",
+      "score": 40.936325
+     },
+     "metrics": {
+      "title_sim": 57.74647887323944,
+      "containment": 0.357,
+      "partial_ratio": 56.61764705882353,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2] S. S. Wang, Y. Chen, X. J. Gao, TRAIL and cancer therapy: Targeting apoptosis pathways. Cell Death Dis. 16, 229 (2025).",
+   "title": "TRAIL and cancer therapy: Targeting apoptosis pathways",
+   "authors": [
+    "Wang",
+    "Chen",
+    "Gao"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Cell Death Dis",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2174/1568009043332763",
+      "title": "Targeting Apoptosis Pathways in Cancer Therapy",
+      "year": 2004,
+      "first_author": "Fulda",
+      "container": "Current Cancer Drug Targets",
+      "type": "journal-article",
+      "score": 33.93974
+     },
+     "metrics": {
+      "title_sim": 96.62921348314607,
+      "containment": 1.0,
+      "partial_ratio": 73.91304347826086,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3] A. Ashkenazi, Targeting death and decoy receptors of the tumour-necrosis factor superfamily. Nat Rev Cancer. 15, 382\u2013400 (2015).",
+   "title": "Targeting death and decoy receptors of the tumour-necrosis factor superfamily",
+   "authors": [
+    "Ashkenazi"
+   ],
+   "year": 2015,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nat Rev Cancer",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/nrc821",
+    "title": "Targeting death and decoy receptors of the tumour-necrosis factor superfamily",
+    "year": 2002,
+    "first_author": "Ashkenazi",
+    "container": "Nature Reviews Cancer",
+    "type": "journal-article",
+    "score": 74.909164
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4] Y. Li, S. Chen, Molecular insights into DR5/TRAIL-mediated apoptosis. Front Cell Dev Biol. 11, 101624 (2023).",
+   "title": "Molecular insights into DR5/TRAIL-mediated apoptosis",
+   "authors": [
+    "Li",
+    "Chen"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Front Cell Dev Biol",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1093/carcin/bgl026",
+      "title": "Curcumin sensitizes tumor necrosis factor-related apoptosis-inducing ligand (TRAIL)-mediated apoptosis through CHOP-independent DR5 upregulation",
+      "year": 2006,
+      "first_author": "Jung",
+      "container": "Carcinogenesis",
+      "type": "journal-article",
+      "score": 37.042496
+     },
+     "metrics": {
+      "title_sim": 41.23711340206185,
+      "containment": 0.294,
+      "partial_ratio": 51.61290322580645,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5] D. J. Hymowitz, H. M. Christinger, G. Fuh, M. Ultsch, R. O\u2019Connell, A. Kelley, A. Ashkenazi, A. M. de Vos, Triggering cell death: The crystal structure of Apo2L/TRAIL in a complex with death receptor 5. Proc Natl Acad Sci U S A. 96, 8431\u20138436 (1999).",
+   "title": "Triggering cell death: The crystal structure of Apo2L/TRAIL in a complex with death receptor 5",
+   "authors": [
+    "Hymowitz",
+    "Christinger",
+    "Fuh",
+    "Ultsch",
+    "O\u2019Connell",
+    "Kelley",
+    "Ashkenazi",
+    "Vos"
+   ],
+   "year": 1999,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proc Natl Acad Sci U S A",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.2210/pdb1d0g/pdb",
+    "title": "CRYSTAL STRUCTURE OF DEATH RECEPTOR 5 (DR5) BOUND TO APO2L/TRAIL",
+    "year": 1999,
+    "first_author": "Hymowitz",
+    "container": "",
+    "type": "component",
+    "score": 72.77792
+   },
+   "metrics": {
+    "title_sim": 88.28828828828829,
+    "containment": 0.75,
+    "partial_ratio": 56.4516129032258,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[6] A. W. Kelley, M. J. S. Henke, Recombinant TRAIL: A potential cancer therapeutic. IUBMB Life. 64, 411\u2013418 (2012).",
+   "title": "Recombinant TRAIL: A potential cancer therapeutic",
+   "authors": [
+    "Kelley",
+    "Henke"
+   ],
+   "year": 2012,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IUBMB Life",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1016/s0083-6729(04)67018-x",
+      "title": "Potential for TRAIL as a Therapeutic Agent in Ovarian Cancer",
+      "year": 2004,
+      "first_author": "Abdollahi",
+      "container": "Vitamins &amp; Hormones",
+      "type": "book-chapter",
+      "score": 28.941195
+     },
+     "metrics": {
+      "title_sim": 85.71428571428571,
+      "containment": 0.667,
+      "partial_ratio": 50.0,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[7] S. R. Smyth, Y. Wei, TRAIL-based therapeutics: From bench to bedside. Exp Biol Med. 240, 685\u2013699 (2015).",
+   "title": "TRAIL-based therapeutics: From bench to bedside",
+   "authors": [
+    "Smyth",
+    "Wei"
+   ],
+   "year": 2015,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Exp Biol Med",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.31083/ph.2015.4774",
+    "title": "Bottleneck limitations for microRNA-based therapeutics from bench to the bedside",
+    "year": 2015,
+    "first_author": "Chen",
+    "container": "Die Pharmazie",
+    "type": "journal-article",
+    "score": 35.065697
+   },
+   "metrics": {
+    "title_sim": 93.02325581395348,
+    "containment": 0.571,
+    "partial_ratio": 69.44444444444444,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[8] National Library of Medicine, A study of recombinant human Apo2L/TRAIL in subjects with advanced cancer. https://clinicaltrials.gov/ct2/show/NCT03083743 (2017).",
+   "title": "A study of recombinant human Apo2L/TRAIL in subjects with advanced cancer",
+   "authors": [
+    "Medicine"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://clinicaltrials.gov/ct2/show/NCT03083743"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED_URL",
+   "via": "url",
+   "url_status": {
+    "https://clinicaltrials.gov/ct2/show/NCT03083743": 200
+   },
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1200/jco.2008.26.15_suppl.2525",
+      "title": "Population pharmacokinetic (PPK) analysis of recombinant human Apo2L/TRAIL (rhApo2L/TRAIL) in a Phase 1a Study in advanced cancer and lymphoma",
+      "year": 2008,
+      "first_author": "Xin",
+      "container": "Journal of Clinical Oncology",
+      "type": "journal-article",
+      "score": 37.172455
+     },
+     "metrics": {
+      "title_sim": 58.76777251184835,
+      "containment": 0.533,
+      "partial_ratio": 62.295081967213115,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[9] M. J. Screaton, S. V. Mongkolsapaya, X. Xu, A. E. Cowper, S. L. McMichael, J. I. Bell, TRICK2, a new alternatively spliced receptor that transduces the cytotoxic signal from TRAIL. Immunity. 7, 813\u2013820 (1997).",
+   "title": "TRICK2, a new alternatively spliced receptor that transduces the cytotoxic signal from TRAIL",
+   "authors": [
+    "Screaton",
+    "Mongkolsapaya",
+    "Xu",
+    "Cowper",
+    "McMichael",
+    "Bell"
+   ],
+   "year": 1997,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Immunity",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/s0960-9822(06)00297-1",
+    "title": "TRICK2, a new alternatively spliced receptor that transduces the cytotoxic signal from TRAIL",
+    "year": 1997,
+    "first_author": "Screaton",
+    "container": "Current Biology",
+    "type": "journal-article",
+    "score": 91.01175
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[10] H. Pan, J. Ni, G. Wei, T. Yu, M. P. Gentz, W. Xu, C. S. Dixit, Identification and functional characterization of DR5, a novel death domain-containing TNF receptor. Mol Cell. 4, 563\u2013571 (1999).",
+   "title": "Identification and functional characterization of DR5, a novel death domain-containing TNF receptor",
+   "authors": [
+    "Pan",
+    "Ni",
+    "Wei",
+    "Yu",
+    "Gentz",
+    "Xu",
+    "Dixit"
+   ],
+   "year": 1999,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Mol Cell",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/s0014-5793(98)00791-1",
+    "title": "Identification and functional characterization of DR6, a novel death domain\u2010containing TNF receptor",
+    "year": 1998,
+    "first_author": "Pan",
+    "container": "FEBS Letters",
+    "type": "journal-article",
+    "score": 48.403828
+   },
+   "metrics": {
+    "title_sim": 98.9795918367347,
+    "containment": 0.9,
+    "partial_ratio": 98.9795918367347,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "[11] M. V. Lemmon, J. Kuriyan, Specificity of protein\u2013protein interactions examined by docking. Nat Protoc. 16, 3162\u20133202 (2021).",
+   "title": "Specificity of protein\u2013protein interactions examined by docking",
+   "authors": [
+    "Lemmon",
+    "Kuriyan"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nat Protoc",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/0-387-24532-4_6",
+      "title": "Protein-Protein Docking Methods",
+      "year": 2006,
+      "first_author": "Marshall",
+      "container": "Protein Reviews",
+      "type": "book-chapter",
+      "score": 34.391785
+     },
+     "metrics": {
+      "title_sim": 78.94736842105263,
+      "containment": 0.75,
+      "partial_ratio": 70.96774193548387,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  }
+ ]
+}

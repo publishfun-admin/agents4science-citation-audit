@@ -1,0 +1,1905 @@
+{
+ "pdf": "56_xB2bCxRacM.pdf",
+ "n_entries": 51,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "[1]Siegel RL, Miller KD, Wagle NS, Jemal A. Cancer statistics, 2023. CA Cancer J Clin. 2023 Jan;73(1):17-48.",
+   "title": null,
+   "authors": [
+    "RL",
+    "NS",
+    "statistics"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.3322/caac.21763",
+      "title": "Cancer statistics, 2023",
+      "year": 2023,
+      "first_author": "Siegel",
+      "container": "CA: A Cancer Journal for Clinicians",
+      "type": "journal-article",
+      "score": 85.26441
+     },
+     "metrics": {
+      "title_sim": 0,
+      "containment": 1.0,
+      "partial_ratio": 100.0,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2]Vincent A, Herman J, Schulick R,et al. Pancreatic cancer. Lancet. 2011 Aug 13;378(9791):607-20.",
+   "title": "Pancreatic cancer",
+   "authors": [
+    "A, Herman J, Schulick R,et al."
+   ],
+   "year": 2011,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Lancet",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/s0140-6736(10)62307-0",
+    "title": "Pancreatic cancer",
+    "year": 2011,
+    "first_author": "Vincent",
+    "container": "The Lancet",
+    "type": "journal-article",
+    "score": 40.385677
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3]Balachandran VP, \u0141uksza M, Zhao JN, et al. Identification of unique neoantigen qualities in long-term survivors of pancreatic cancer. Nature. 2017 Nov 23;551(7681):512-516.",
+   "title": "Identification of unique neoantigen qualities in long-term survivors of pancreatic cancer",
+   "authors": [
+    "VP",
+    "JN"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.3410/f.732091698.793539857",
+    "title": "Faculty Opinions recommendation of Identification of unique neoantigen qualities in long-term survivors of pancreatic cancer.",
+    "year": 2017,
+    "first_author": "Fernandez-Zapico",
+    "container": "Faculty Opinions \u2013 Post-Publication Peer Review of the Biomedical Literature",
+    "type": "dataset",
+    "score": 67.83171
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.75,
+    "partial_ratio": 80.64516129032258,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4]Raghavan S, Winter PS, Navia AW,et al. Microenvironment drives cell state, plasticity, and drug response in pancreatic cancer. Cell. 2021 Dec 9;184(25):6119-6137.e26.",
+   "title": "Microenvironment drives cell state, plasticity, and drug response in pancreatic cancer",
+   "authors": [
+    "S, Winter PS, Navia AW,et al."
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Cell",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1158/2159-8290.cd-rw2026-018",
+      "title": "High-Plasticity Cell State Drives Lung Cancer Progression and Drug Resistance",
+      "year": 2026,
+      "first_author": null,
+      "container": "Cancer Discovery",
+      "type": "journal-article",
+      "score": 38.69925
+     },
+     "metrics": {
+      "title_sim": 75.77639751552795,
+      "containment": 0.6,
+      "partial_ratio": 53.24675324675325,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5]Rubinstein MR, Wang X, Liu W,et al. Fusobacterium nucleatum promotes colorectal carcinogenesis by modulating E-cadherin/beta-catenin signaling via its FadA adhesin. Cell Host Microbe. 2013 Aug 14;14(2):195-206.",
+   "title": "Fusobacterium nucleatum promotes colorectal carcinogenesis by modulating E-cadherin/beta-catenin signaling via its FadA adhesin",
+   "authors": [
+    "MR, Wang X, Liu W,et al."
+   ],
+   "year": 2013,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Cell Host Microbe",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.chom.2013.07.012",
+    "title": "Fusobacterium nucleatum Promotes Colorectal Carcinogenesis by Modulating E-Cadherin/\u03b2-Catenin Signaling via its FadA Adhesin",
+    "year": 2013,
+    "first_author": "Rubinstein",
+    "container": "Cell Host &amp; Microbe",
+    "type": "journal-article",
+    "score": 106.21214
+   },
+   "metrics": {
+    "title_sim": 99.1869918699187,
+    "containment": 1.0,
+    "partial_ratio": 97.58064516129032,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[6]Yu LX, Yan HX, Liu Q, et al. Endotoxin accumulation prevents carcinogen-induced apoptosis and promotes liver tumorigenesis in rodents. Hepatology. 2010 Oct;52(4):1322-33.",
+   "title": "Endotoxin accumulation prevents carcinogen-induced apoptosis and promotes liver tumorigenesis in rodents",
+   "authors": [
+    "LX",
+    "Q"
+   ],
+   "year": 2010,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Hepatology",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1002/hep.23845",
+    "title": "Endotoxin Accumulation Prevents Carcinogen-Induced Apoptosis and Promotes Liver Tumorigenesis in Rodents",
+    "year": 2010,
+    "first_author": "Yu",
+    "container": "Hepatology",
+    "type": "journal-article",
+    "score": 61.899384
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[7]Kim TK, Vandsemb EN, Herbst RS, et al. Adaptive immune resistance at the tumour site: mechanisms and therapeutic opportunities. Nat Rev Drug Discov. 2022 Jul;21(7):529-540.",
+   "title": "Adaptive immune resistance at the tumour site: mechanisms and therapeutic opportunities",
+   "authors": [
+    "TK",
+    "RS"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nat Rev Drug Discov",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/s41573-022-00493-5",
+    "title": "Adaptive immune resistance at the tumour site: mechanisms and therapeutic opportunities",
+    "year": 2022,
+    "first_author": "Kim",
+    "container": "Nature Reviews Drug Discovery",
+    "type": "journal-article",
+    "score": 49.285324
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[8]Zhang J, Chen M, Yang Y,et al. Amino acid metabolic reprogramming in the tumor microenvironment and its implication for cancer therapy. J Cell Physiol. 2024 Nov;239(11):e31349.",
+   "title": "Amino acid metabolic reprogramming in the tumor microenvironment and its implication for cancer therapy",
+   "authors": [
+    "J, Chen M, Yang Y,et al."
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "J Cell Physiol",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1002/jcp.31349",
+    "title": "Amino acid metabolic reprogramming in the tumor microenvironment and its implication for cancer therapy",
+    "year": 2024,
+    "first_author": "Zhang",
+    "container": "Journal of Cellular Physiology",
+    "type": "journal-article",
+    "score": 63.06223
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[9]Chen S, Li G, Jiang Z,et al. Regulation of dendritic cell biology by amino acids and their transporters. Front Immunol. 2025 Jul 4;16:1626973.",
+   "title": "Regulation of dendritic cell biology by amino acids and their transporters",
+   "authors": [
+    "S, Li G, Jiang Z,et al."
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Front Immunol",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.3389/fimmu.2025.1626973",
+    "title": "Regulation of dendritic cell biology by amino acids and their transporters",
+    "year": 2025,
+    "first_author": "Chen",
+    "container": "Frontiers in Immunology",
+    "type": "journal-article",
+    "score": 56.80938
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[10]Yu L, Lu J, Du W. Tryptophan metabolism in digestive system tumors: unraveling the pathways and implications. Cell Commun Signal. 2024 Mar 11;22(1):174.",
+   "title": "Tryptophan metabolism in digestive system tumors: unraveling the pathways and implications",
+   "authors": [
+    "L",
+    "W"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Cell Commun Signal",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1186/s12964-024-01552-7",
+    "title": "Tryptophan metabolism in digestive system tumors: unraveling the pathways and implications",
+    "year": 2024,
+    "first_author": "Yu",
+    "container": "Cell Communication and Signaling",
+    "type": "journal-article",
+    "score": 58.72162
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "[11]Li P, Xu W, Liu F,et al. The emerging roles of IDO2 in cancer and its potential as a therapeutic target. Biomed Pharmacother. 2021 May;137:111295.",
+   "title": "The emerging roles of IDO2 in cancer and its potential as a therapeutic target",
+   "authors": [
+    "P, Xu W, Liu F,et al."
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Biomed Pharmacother",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.biopha.2021.111295",
+    "title": "The emerging roles of IDO2 in cancer and its potential as a therapeutic target",
+    "year": 2021,
+    "first_author": "Li",
+    "container": "Biomedicine &amp; Pharmacotherapy",
+    "type": "journal-article",
+    "score": 59.07798
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "[12]Miyamoto K, Sujino T, Kanai T. The tryptophan metabolic pathway of the microbiome and host cells in health and disease. Int Immunol. 2024 Nov 14;36(12):601-616.",
+   "title": "The tryptophan metabolic pathway of the microbiome and host cells in health and disease",
+   "authors": [
+    "K",
+    "T"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Int Immunol",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1093/intimm/dxae035",
+    "title": "The tryptophan metabolic pathway of the microbiome and host cells in health and disease",
+    "year": 2024,
+    "first_author": "Miyamoto",
+    "container": "International Immunology",
+    "type": "journal-article",
+    "score": 53.917206
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "[13]Seo SK, Kwon B. Immune regulation through tryptophan metabolism. Exp Mol Med. 2023 Jul;55(7):1371-1379.",
+   "title": "Immune regulation through tryptophan metabolism",
+   "authors": [
+    "SK"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Exp Mol Med",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/s12276-023-01028-7",
+    "title": "Immune regulation through tryptophan metabolism",
+    "year": 2023,
+    "first_author": "Seo",
+    "container": "Experimental &amp; Molecular Medicine",
+    "type": "journal-article",
+    "score": 37.702976
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "[14]Chandan G, Saini AK, Kumari R,et al. The exploitation of enzyme-based cancer immunotherapy. Hum Cell. 2023 Jan;36(1):98-120.",
+   "title": "The exploitation of enzyme-based cancer immunotherapy",
+   "authors": [
+    "G, Saini AK, Kumari R,et al."
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Hum Cell",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/s13577-022-00821-2",
+    "title": "The exploitation of enzyme-based cancer immunotherapy",
+    "year": 2022,
+    "first_author": "Chandan",
+    "container": "Human Cell",
+    "type": "journal-article",
+    "score": 47.801487
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "[15]Lin S, Zheng G, Yan Y,et al. Targeting the Kynurenine Pathway: A Novel Approach in Tumor Therapy. Expert Rev Mol Med. 2025 Mar 5:1-33.",
+   "title": "Targeting the Kynurenine Pathway: A Novel Approach in Tumor Therapy",
+   "authors": [
+    "S, Zheng G, Yan Y,et al."
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Expert Rev Mol Med",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1017/erm.2025.5",
+    "title": "Targeting the kynurenine pathway: a novel approach in tumour therapy",
+    "year": 2025,
+    "first_author": "Lin",
+    "container": "Expert Reviews in Molecular Medicine",
+    "type": "journal-article",
+    "score": 52.324966
+   },
+   "metrics": {
+    "title_sim": 99.24812030075188,
+    "containment": 0.857,
+    "partial_ratio": 98.50746268656717,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 16,
+   "raw": "[16]Yan J, Chen D, Ye Z,et al. Molecular mechanisms and therapeutic significance of Tryptophan Metabolism and signaling in cancer. Mol Cancer. 2024 Oct 30;23(1):241.",
+   "title": "Molecular mechanisms and therapeutic significance of Tryptophan Metabolism and signaling in cancer",
+   "authors": [
+    "J, Chen D, Ye Z,et al."
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Mol Cancer",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1186/s12943-024-02164-y",
+    "title": "Molecular mechanisms and therapeutic significance of Tryptophan Metabolism and signaling in cancer",
+    "year": 2024,
+    "first_author": "Yan",
+    "container": "Molecular Cancer",
+    "type": "journal-article",
+    "score": 56.80729
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 17,
+   "raw": "[17]Wang W, Fan Z, Yan Q,et al. Gut microbiota determines the fate of dietary fiber-targeted interventions in host health. Gut Microbes. 2024 Jan-Dec;16(1):2416915.",
+   "title": "Gut microbiota determines the fate of dietary fiber-targeted interventions in host health",
+   "authors": [
+    "W, Fan Z, Yan Q,et al."
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Gut Microbes",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1080/19490976.2024.2416915",
+    "title": "Gut microbiota determines the fate of dietary fiber-targeted interventions in host health",
+    "year": 2024,
+    "first_author": "Wang",
+    "container": "Gut Microbes",
+    "type": "journal-article",
+    "score": 78.57174
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 18,
+   "raw": "[18]Lu Z, Zhang C, Zhang J, et al. The Kynurenine Pathway and Indole Pathway in Tryptophan Metabolism Influence Tumor Progression. Cancer Med. 2025 Mar;14(6):e70703.",
+   "title": "The Kynurenine Pathway and Indole Pathway in Tryptophan Metabolism Influence Tumor Progression",
+   "authors": [
+    "Z",
+    "J"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Cancer Med",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1002/cam4.70703",
+    "title": "The Kynurenine Pathway and Indole Pathway in Tryptophan Metabolism Influence Tumor Progression",
+    "year": 2025,
+    "first_author": "Lu",
+    "container": "Cancer Medicine",
+    "type": "journal-article",
+    "score": 69.68635
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 19,
+   "raw": "[19]Barnes AF, Yeo TP, Leiby B, et al. Pancreatic Cancer-Associated Depression: A Case Report and Review of the Literature. Pancreas. 2018 Oct;47(9):1065-1077.",
+   "title": "Pancreatic Cancer-Associated Depression: A Case Report and Review of the Literature",
+   "authors": [
+    "AF",
+    "B"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Pancreas",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.29011/2574-7754.101685",
+      "title": "Pancreatic Neuroendocrine Tumor Associated with Carcinoid Heart Disease: A Case Report and Review of Literature",
+      "year": 2024,
+      "first_author": null,
+      "container": "Annals of Case Reports",
+      "type": "journal-article",
+      "score": 34.746258
+     },
+     "metrics": {
+      "title_sim": 84.50704225352112,
+      "containment": 0.545,
+      "partial_ratio": 64.54545454545455,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 20,
+   "raw": "[20]Ye D, Xu H, Xia H, et al. Targeting SERT promotes tryptophan metabolism: mechanisms and implications in colon cancer treatment. J Exp Clin Cancer Res. 2021 May 18;40(1):173.",
+   "title": "Targeting SERT promotes tryptophan metabolism: mechanisms and implications in colon cancer treatment",
+   "authors": [
+    "D",
+    "H"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "J Exp Clin Cancer Res",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1186/s13046-021-01971-1",
+    "title": "Targeting SERT promotes tryptophan metabolism: mechanisms and implications in colon cancer treatment",
+    "year": 2021,
+    "first_author": "Ye",
+    "container": "Journal of Experimental &amp; Clinical Cancer Research",
+    "type": "journal-article",
+    "score": 64.56961
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 21,
+   "raw": "[21]Xue C, Li G, Zheng Q, et al. Tryptophan metabolism in health and disease. Cell Metab. 2023 Aug 8;35(8):1304-1326.",
+   "title": "Tryptophan metabolism in health and disease",
+   "authors": [
+    "C",
+    "Q"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Cell Metab",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.cmet.2023.06.004",
+    "title": "Tryptophan metabolism in health and disease",
+    "year": 2023,
+    "first_author": "Xue",
+    "container": "Cell Metabolism",
+    "type": "journal-article",
+    "score": 27.834229
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 22,
+   "raw": "[22]Pan Y, Yuan C, Zeng C, et al. Cancer stem cells and niches: challenges in immunotherapy resistance. Molecular Cancer. 2025;24(1):52.",
+   "title": "Cancer stem cells and niches: challenges in immunotherapy resistance",
+   "authors": [
+    "Y",
+    "C"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Molecular Cancer",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1186/s12943-025-02265-2",
+    "title": "Cancer stem cells and niches: challenges in immunotherapy resistance",
+    "year": 2025,
+    "first_author": "Pan",
+    "container": "Molecular Cancer",
+    "type": "journal-article",
+    "score": 44.664005
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 23,
+   "raw": "[23]Griffith BD, Frankel TL. The Aryl Hydrocarbon Receptor: Impact on the Tumor Immune Microenvironment and Modulation as a Potential Therapy. Cancers (Basel). 2024 Jan 23;16(3):472.",
+   "title": "The Aryl Hydrocarbon Receptor: Impact on the Tumor Immune Microenvironment and Modulation as a Potential Therapy",
+   "authors": [
+    "BD"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Cancers (Basel",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.3390/cancers16030472",
+    "title": "The Aryl Hydrocarbon Receptor: Impact on the Tumor Immune Microenvironment and Modulation as a Potential Therapy",
+    "year": 2024,
+    "first_author": "Griffith",
+    "container": "Cancers",
+    "type": "journal-article",
+    "score": 66.893295
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 24,
+   "raw": "[24]Stone TW, Williams RO. Interactions of IDO and the Kynurenine Pathway with Cell Transduction Systems and Metabolism at the Inflammation-Cancer Interface. Cancers (Basel). 2023 May 24;15(11):2895.",
+   "title": "Interactions of IDO and the Kynurenine Pathway with Cell Transduction Systems and Metabolism at the Inflammation-Cancer Interface",
+   "authors": [
+    "TW"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Cancers (Basel",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.3390/cancers15112895",
+    "title": "Interactions of IDO and the Kynurenine Pathway with Cell Transduction Systems and Metabolism at the Inflammation\u2013Cancer Interface",
+    "year": 2023,
+    "first_author": "Stone",
+    "container": "Cancers",
+    "type": "journal-article",
+    "score": 74.478645
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 25,
+   "raw": "[25]Ehrlich AK, Pennington JM, Tilton S, et al. AhR activation increases IL-2 production by alloreactive CD4+ T cells initiating the differentiation of mucosal-homing Tim3+ Lag3+ Tr1 cells. Eur J Immunol. 2017 Nov;47(11):1989-2001.",
+   "title": "AhR activation increases IL-2 production by alloreactive CD4+ T cells initiating the differentiation of mucosal-homing Tim3+ Lag3+ Tr1 cells",
+   "authors": [
+    "AK",
+    "S"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Eur J Immunol",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1002/eji.201747121",
+    "title": "AhR activation increases IL\u20102 production by alloreactive CD4<sup>+</sup>T cells initiating the differentiation of mucosal\u2010homing Tim3<sup>+</sup>Lag3<sup>+</sup>Tr1 cells",
+    "year": 2017,
+    "first_author": "Ehrlich",
+    "container": "European Journal of Immunology",
+    "type": "journal-article",
+    "score": 98.54287
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.714,
+    "partial_ratio": 85.09316770186335,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 26,
+   "raw": "[26]Hou Y, Li J, Ying S. Tryptophan Metabolism and Gut Microbiota: A Novel Regulatory Axis Integrating the Microbiome, Immunity, and Cancer. Metabolites. 2023; 13(11):1166.",
+   "title": "Tryptophan Metabolism and Gut Microbiota: A Novel Regulatory Axis Integrating the Microbiome, Immunity, and Cancer",
+   "authors": [
+    "Y",
+    "S"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Metabolites",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.3390/metabo13111166",
+    "title": "Tryptophan Metabolism and Gut Microbiota: A Novel Regulatory Axis Integrating the Microbiome, Immunity, and Cancer",
+    "year": 2023,
+    "first_author": "Hou",
+    "container": "Metabolites",
+    "type": "journal-article",
+    "score": 78.483536
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 27,
+   "raw": "[27]Lin M, Mo Y, Li CM, et al. GRP78 as a potential therapeutic target in cancer treatment: an updated review of its role in chemoradiotherapy resistance of cancer cells. Med Oncol. 2025 Jan 18;42(2):49.",
+   "title": "GRP78 as a potential therapeutic target in cancer treatment: an updated review of its role in chemoradiotherapy resistance of cancer cells",
+   "authors": [
+    "M",
+    "CM"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Med Oncol",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/s12032-024-02586-0",
+    "title": "GRP78 as a potential therapeutic target in cancer treatment: an updated review of its role in chemoradiotherapy resistance of cancer cells",
+    "year": 2025,
+    "first_author": "Lin",
+    "container": "Medical Oncology",
+    "type": "journal-article",
+    "score": 77.99812
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 28,
+   "raw": "[28]Pan Y, Yuan C, Zeng C, et al. Cancer stem cells and niches: challenges in immunotherapy resistance. Molecular Cancer. 2025;24(1):52.",
+   "title": "Cancer stem cells and niches: challenges in immunotherapy resistance",
+   "authors": [
+    "Y",
+    "C"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Molecular Cancer",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1186/s12943-025-02265-2",
+    "title": "Cancer stem cells and niches: challenges in immunotherapy resistance",
+    "year": 2025,
+    "first_author": "Pan",
+    "container": "Molecular Cancer",
+    "type": "journal-article",
+    "score": 44.664005
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 29,
+   "raw": "[29]Hou Y, Li J, Ying S. Tryptophan Metabolism and Gut Microbiota: A Novel Regulatory Axis Integrating the Microbiome, Immunity, and Cancer. Metabolites. 2023 Nov 20;13(11):1166.",
+   "title": "Tryptophan Metabolism and Gut Microbiota: A Novel Regulatory Axis Integrating the Microbiome, Immunity, and Cancer",
+   "authors": [
+    "Y",
+    "S"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Metabolites",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.3390/metabo13111166",
+    "title": "Tryptophan Metabolism and Gut Microbiota: A Novel Regulatory Axis Integrating the Microbiome, Immunity, and Cancer",
+    "year": 2023,
+    "first_author": "Hou",
+    "container": "Metabolites",
+    "type": "journal-article",
+    "score": 78.483536
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 30,
+   "raw": "[30]Steeghs N, Gomez-Roca C, Rohrberg KS, et al. Safety, Pharmacokinetics, Pharmacodynamics, and Antitumor Activity from a Phase I Study of Simlukafusp Alfa (FAP-IL2v) in Advanced/Metastatic Solid Tumors. Clin Cancer Res. 2024;30(13):2693-2701.",
+   "title": "Safety, Pharmacokinetics, Pharmacodynamics, and Antitumor Activity from a Phase I Study of Simlukafusp Alfa (FAP-IL2v) in Advanced/Metastatic Solid Tumors",
+   "authors": [
+    "N",
+    "KS"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Clin Cancer Res",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1158/1078-0432.26134609.v1",
+    "title": "Supplementary Table S1 from Safety, Pharmacokinetics, Pharmacodynamics, and Antitumor Activity from a Phase I Study of Simlukafusp Alfa (FAP-IL2v) in Advanced/Metastatic Solid Tumors",
+    "year": 2024,
+    "first_author": "Steeghs",
+    "container": "",
+    "type": "posted-content",
+    "score": 86.96065
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.882,
+    "partial_ratio": 89.26553672316385,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 31,
+   "raw": "[31]Ozga K, Stepuch P, Maciejewski R, et al. Promising Gastric Cancer Biomarkers-Focus on Tryptophan Metabolism via the Kynurenine Pathway. Int J Mol Sci. 2025 Apr 14;26(8):3706.",
+   "title": "Promising Gastric Cancer Biomarkers-Focus on Tryptophan Metabolism via the Kynurenine Pathway",
+   "authors": [
+    "K",
+    "R"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Int J Mol Sci",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.3390/ijms26083706",
+    "title": "Promising Gastric Cancer Biomarkers\u2014Focus on Tryptophan Metabolism via the Kynurenine Pathway",
+    "year": 2025,
+    "first_author": "O\u017cga",
+    "container": "International Journal of Molecular Sciences",
+    "type": "journal-article",
+    "score": 71.80698
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 32,
+   "raw": "[32]Badawy AA. Tryptophan metabolism and disposition in cancer biology and immunotherapy. Biosci Rep. 2022 Nov 30;42(11):BSR20221682.",
+   "title": "Tryptophan metabolism and disposition in cancer biology and immunotherapy",
+   "authors": [],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Biosci Rep",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1042/bsr20221682",
+    "title": "Tryptophan metabolism and disposition in cancer biology and immunotherapy",
+    "year": 2022,
+    "first_author": "Badawy",
+    "container": "Bioscience Reports",
+    "type": "journal-article",
+    "score": 49.37637
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 33,
+   "raw": "[33]Sworder BJ, Kurtz DM, Alig SK, et al. Determinants of resistance to engineered T cell therapies targeting CD19 in large B cell lymphomas. Cancer Cell. 2023 Jan 9;41(1):210-225.e5.",
+   "title": "Determinants of resistance to engineered T cell therapies targeting CD19 in large B cell lymphomas",
+   "authors": [
+    "BJ",
+    "SK"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Cancer Cell",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.ccell.2022.12.005",
+    "title": "Determinants of resistance to engineered T cell therapies targeting CD19 in large B cell lymphomas",
+    "year": 2023,
+    "first_author": "Sworder",
+    "container": "Cancer Cell",
+    "type": "journal-article",
+    "score": 39.68022
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 34,
+   "raw": "[34]Zhang Y, Tu S, Ji X, et al. Dubosiella newyorkensis modulates immune tolerance in colitis via the L-lysine-activated AhR-IDO1-Kyn pathway. Nat Commun. 2024;15:1333.",
+   "title": "Dubosiella newyorkensis modulates immune tolerance in colitis via the L-lysine-activated AhR-IDO1-Kyn pathway",
+   "authors": [
+    "Y",
+    "X"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nat Commun",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/s41467-024-45636-x",
+    "title": "Dubosiella newyorkensis modulates immune tolerance in colitis via the L-lysine-activated AhR-IDO1-Kyn pathway",
+    "year": 2024,
+    "first_author": "Zhang",
+    "container": "Nature Communications",
+    "type": "journal-article",
+    "score": 94.965935
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 35,
+   "raw": "[35]Sawas T, Wani S, Katzka DA. Endoscopic Surveillance After Endoscopic Eradication Therapy for Barrett\u2019s Esophagus With Neoplasia: Is the Vial Half Empty or Half Full?. Gastroenterology. 2024;166(6):963-964.",
+   "title": "Endoscopic Surveillance After Endoscopic Eradication Therapy for Barrett\u2019s Esophagus With Neoplasia: Is the Vial Half Empty or Half Full?",
+   "authors": [
+    "T",
+    "DA"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Gastroenterology",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1053/j.gastro.2024.03.021",
+    "title": "Endoscopic Surveillance After Endoscopic Eradication Therapy for Barrett\u2019s Esophagus With Neoplasia: Is the Vial Half Empty or Half Full?",
+    "year": 2024,
+    "first_author": "Sawas",
+    "container": "Gastroenterology",
+    "type": "journal-article",
+    "score": 118.71747
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 36,
+   "raw": "[36]Feng B, Li R, Li W, et al. Metabolic immunoengineering approaches to enhance CD8+ T cellbased cancer immunotherapy. Cell Syst. 2024 Dec 18;15(12):1225-1244.",
+   "title": "Metabolic immunoengineering approaches to enhance CD8+ T cellbased cancer immunotherapy",
+   "authors": [
+    "B",
+    "W"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Cell Syst",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.cels.2024.11.010",
+    "title": "Metabolic immunoengineering approaches to enhance CD8+ T\u00a0cell-based cancer immunotherapy",
+    "year": 2024,
+    "first_author": "Feng",
+    "container": "Cell Systems",
+    "type": "journal-article",
+    "score": 56.96641
+   },
+   "metrics": {
+    "title_sim": 99.42196531791907,
+    "containment": 0.889,
+    "partial_ratio": 98.85057471264368,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 37,
+   "raw": "[37]Bianco C, Imperlini E, Calogero R, et al. Indole-3-acetic acid improves Escherichia coli\u2019s defences to stress. Arch Microbiol. 2006;185(5):373-382.",
+   "title": "Indole-3-acetic acid improves Escherichia coli\u2019s defences to stress",
+   "authors": [
+    "C",
+    "R"
+   ],
+   "year": 2006,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Arch Microbiol",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/s00203-006-0103-y",
+    "title": "Indole-3-acetic acid improves Escherichia coli\u2019s defences to stress",
+    "year": 2006,
+    "first_author": "Bianco",
+    "container": "Archives of Microbiology",
+    "type": "journal-article",
+    "score": 66.887085
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 38,
+   "raw": "[38]Laird TS, Flores N, Leveau JHJ. Bacterial catabolism of indole-3-acetic acid. Appl Microbiol Biotechnol. 2020;104(22):9535-9550.",
+   "title": "Bacterial catabolism of indole-3-acetic acid",
+   "authors": [
+    "TS",
+    "JHJ"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Appl Microbiol Biotechnol",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/s00253-020-10938-9",
+    "title": "Bacterial catabolism of indole-3-acetic acid",
+    "year": 2020,
+    "first_author": "Laird",
+    "container": "Applied Microbiology and Biotechnology",
+    "type": "journal-article",
+    "score": 42.71932
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 39,
+   "raw": "[39]Zelante T, Iannitti RG, Cunha C, De Luca A, Giovannini G, Pieraccini G, Zecchi R, D\u2019Angelo C, Massi-Benedetti C, Fallarino F, Carvalho A, Puccetti P, Romani L. Tryptophan catabolites from microbiota engage aryl hydrocarbon receptor and balance mucosal reactivity via interleukin-22. Immunity. 2013 Aug 22;39(2):372-85.",
+   "title": "Tryptophan catabolites from microbiota engage aryl hydrocarbon receptor and balance mucosal reactivity via interleukin-22",
+   "authors": [
+    "T",
+    "C",
+    "Luca A",
+    "G",
+    "G",
+    "R",
+    "C",
+    "C",
+    "F",
+    "A",
+    "P",
+    "L"
+   ],
+   "year": 2013,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Immunity",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.3410/f.718085421.793483370",
+    "title": "Faculty Opinions recommendation of Tryptophan catabolites from microbiota engage aryl hydrocarbon receptor and balance mucosal reactivity via interleukin-22.",
+    "year": 2013,
+    "first_author": "Kolls",
+    "container": "Faculty Opinions \u2013 Post-Publication Peer Review of the Biomedical Literature",
+    "type": "dataset",
+    "score": 103.299484
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.786,
+    "partial_ratio": 86.53846153846155,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 40,
+   "raw": "[40]Chatterjee P, Banerjee S. Unveiling the mechanistic role of the Aryl hydrocarbon receptor in environmentally induced Breast cancer. Biochem Pharmacol. 2023;218:115866.",
+   "title": "Unveiling the mechanistic role of the Aryl hydrocarbon receptor in environmentally induced Breast cancer",
+   "authors": [
+    "P"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Biochem Pharmacol",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.bcp.2023.115866",
+    "title": "Unveiling the mechanistic role of the Aryl hydrocarbon receptor in environmentally induced Breast cancer",
+    "year": 2023,
+    "first_author": "Chatterjee",
+    "container": "Biochemical Pharmacology",
+    "type": "journal-article",
+    "score": 72.345024
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 41,
+   "raw": "[41]Wu H, Fu M, Wu M, et al. Emerging mechanisms and promising approaches in pancreatic cancer metabolism. Cell Death and Disease. 2024 Aug;15(8):553. doi: 10.1038/s41419-024-06930-0",
+   "title": "Emerging mechanisms and promising approaches in pancreatic cancer metabolism",
+   "authors": [
+    "H",
+    "M"
+   ],
+   "year": 2024,
+   "doi": "10.1038/s41419-024-06930-0",
+   "arxiv": null,
+   "urls": [],
+   "container": "Cell Death and Disease",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/s41419-024-06930-0",
+    "title": "Emerging mechanisms and promising approaches in pancreatic cancer metabolism",
+    "year": 2024,
+    "first_author": "Wu",
+    "container": "Cell Death &amp; Disease",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 42,
+   "raw": "[42]Platten M, Nollen EAA, R\u00f6hrig UF, et al. Tryptophan metabolism as a common therapeutic target in cancer, neurodegeneration and beyond. Nat Rev Drug Discov. 2019 May;18(5):379-401.",
+   "title": "Tryptophan metabolism as a common therapeutic target in cancer, neurodegeneration and beyond",
+   "authors": [
+    "M",
+    "UF"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nat Rev Drug Discov",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/s41573-019-0016-5",
+    "title": "Tryptophan metabolism as a common therapeutic target in cancer, neurodegeneration and beyond",
+    "year": 2019,
+    "first_author": "Platten",
+    "container": "Nature Reviews Drug Discovery",
+    "type": "journal-article",
+    "score": 49.680473
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 43,
+   "raw": "[43]Hang S, Paik D, Yao L, et al. Bile acid metabolites control TH17 and Treg cell differentiation. Nature. 2019 Dec;576(7785):143-148. doi: 10.1038/s41586-019-1785-z . Epub 2019 Nov 27.",
+   "title": "Bile acid metabolites control TH17 and Treg cell differentiation",
+   "authors": [
+    "S",
+    "L"
+   ],
+   "year": 2019,
+   "doi": "10.1038/s41586-019-1785-z",
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/s41586-019-1785-z",
+    "title": "Bile acid metabolites control TH17 and Treg cell differentiation",
+    "year": 2019,
+    "first_author": "Hang",
+    "container": "Nature",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 44,
+   "raw": "Erratum in: Nature. 2020 Mar;579(7798):E7.",
+   "title": null,
+   "authors": [
+    "in"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1038/d41586-020-00691-4",
+      "title": "End chronic kidney disease neglect",
+      "year": 2020,
+      "first_author": null,
+      "container": "Nature",
+      "type": "journal-article",
+      "score": 32.627373
+     },
+     "metrics": {
+      "title_sim": 0,
+      "containment": 0.0,
+      "partial_ratio": 34.61538461538461,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 45,
+   "raw": "[44]Lamas B, Natividad JM, Sokol H. Aryl hydrocarbon receptor and intestinal immunity. Mucosal Immunol. 2018 Jul;11(4):1024-1038.",
+   "title": "Aryl hydrocarbon receptor and intestinal immunity",
+   "authors": [
+    "B",
+    "H"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Mucosal Immunol",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/s41385-018-0019-2",
+    "title": "Aryl hydrocarbon receptor and intestinal immunity",
+    "year": 2018,
+    "first_author": "Lamas",
+    "container": "Mucosal Immunology",
+    "type": "journal-article",
+    "score": 43.3352
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 46,
+   "raw": "[45]Perl M, Fante MA, Herfeld K, et al. Microbiota-derived metabolites: Key modulators of cancer immunotherapies. Med. 2025 Jul 15:100773.",
+   "title": "Microbiota-derived metabolites: Key modulators of cancer immunotherapies",
+   "authors": [
+    "M",
+    "K"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Med",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.medj.2025.100773",
+    "title": "Microbiota-derived metabolites: Key modulators of cancer immunotherapies",
+    "year": 2025,
+    "first_author": "Perl",
+    "container": "Med",
+    "type": "journal-article",
+    "score": 54.56656
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 47,
+   "raw": "[46]Huang X, Zhang F, Wang X, et al. The Role of Indoleamine 2, 3-Dioxygenase 1 in Regulating Tumor Microenvironment. Cancers (Basel). 2022 Jun 1;14(11):2756.",
+   "title": "The Role of Indoleamine 2, 3-Dioxygenase 1 in Regulating Tumor Microenvironment",
+   "authors": [
+    "X",
+    "X"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.3390/cancers14112756",
+    "title": "The Role of Indoleamine 2, 3-Dioxygenase 1 in Regulating Tumor Microenvironment",
+    "year": 2022,
+    "first_author": "Huang",
+    "container": "Cancers",
+    "type": "journal-article",
+    "score": 48.939663
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 48,
+   "raw": "[47]Otter LM, Eder K, Kilburn MR, et al. Growth dynamics and amorphous-to-crystalline phase transformation in natural nacre. Nat Commun. 2023 Apr 20;14(1):2254. doi: 10.1038/s41467-023-37814-0",
+   "title": "Growth dynamics and amorphous-to-crystalline phase transformation in natural nacre",
+   "authors": [
+    "LM",
+    "MR"
+   ],
+   "year": 2023,
+   "doi": "10.1038/s41467-023-37814-0",
+   "arxiv": null,
+   "urls": [],
+   "container": "Nat Commun",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/s41467-023-37814-0",
+    "title": "Growth dynamics and amorphous-to-crystalline phase transformation in natural nacre",
+    "year": 2023,
+    "first_author": "Otter",
+    "container": "Nature Communications",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 49,
+   "raw": "[48]Huang TX, Fu L. The immune landscape of esophageal cancer. Cancer Commun (Lond). 2019 Nov 26;39(1):79.",
+   "title": "The immune landscape of esophageal cancer",
+   "authors": [
+    "TX"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1186/s40880-019-0427-z",
+    "title": "The immune landscape of esophageal cancer",
+    "year": 2019,
+    "first_author": "Huang",
+    "container": "Cancer Communications",
+    "type": "journal-article",
+    "score": 30.360443
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 50,
+   "raw": "[49]Li M, Wang L, Lin D, et al. Advanced Bioinspired Multifunctional Platforms Focusing on Gut Microbiota Regulation. ACS Nano. 2024 Aug 13;18(32):20886-20933.",
+   "title": "Advanced Bioinspired Multifunctional Platforms Focusing on Gut Microbiota Regulation",
+   "authors": [
+    "M",
+    "D"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "ACS Nano",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1021/acsnano.4c05013",
+    "title": "Advanced Bioinspired Multifunctional Platforms Focusing on Gut Microbiota Regulation",
+    "year": 2024,
+    "first_author": "Li",
+    "container": "ACS Nano",
+    "type": "journal-article",
+    "score": 55.607056
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 51,
+   "raw": "[50]Wang Q, Guo F, Jin Y, et al. Applications of human organoids in the personalized treatment for digestive diseases. Signal Transduct Target Ther. 2022 Sep 27;7(1):336.",
+   "title": "Applications of human organoids in the personalized treatment for digestive diseases",
+   "authors": [
+    "Q",
+    "Y"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Signal Transduct Target Ther",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/s41392-022-01194-6",
+    "title": "Applications of human organoids in the personalized treatment for digestive diseases",
+    "year": 2022,
+    "first_author": "Wang",
+    "container": "Signal Transduction and Targeted Therapy",
+    "type": "journal-article",
+    "score": 44.965904
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  }
+ ]
+}

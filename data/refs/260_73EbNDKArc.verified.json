@@ -1,0 +1,395 @@
+{
+ "pdf": "260_73EbNDKArc.pdf",
+ "n_entries": 10,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "References [1] Breiman, L. (2001). Random forests. Machine Learning, 45(1), 5-32.",
+   "title": "Random forests",
+   "authors": [
+    "References [1] Breiman, L."
+   ],
+   "year": 2001,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Machine Learning",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1023/a:1010933404324",
+    "title": "Random Forests",
+    "year": 2001,
+    "first_author": "Breiman",
+    "container": "Machine Learning",
+    "type": "journal-article",
+    "score": 38.697884
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2] Cohen, W. W. (1995). Fast effective rule induction. In Machine Learning Proceedings 1995 (pp. 115-123).",
+   "title": "Fast effective rule induction",
+   "authors": [
+    "Cohen"
+   ],
+   "year": 1995,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Machine Learning Proceedings 1995",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/b978-1-55860-377-6.50023-2",
+    "title": "Fast Effective Rule Induction",
+    "year": 1995,
+    "first_author": "Cohen",
+    "container": "Machine Learning Proceedings 1995",
+    "type": "book-chapter",
+    "score": 49.607784
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3] Ribeiro, M. T., Singh, S., & Guestrin, C. (2016). \u201cWhy should I trust you?\u201d: Explaining the predictions of any classifier. In Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (pp. 1135-1144).",
+   "title": "Why should I trust you?\u201d: Explaining the predictions of any classifier",
+   "authors": [
+    "Ribeiro",
+    "Singh",
+    "Guestrin"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/2939672.2939778",
+    "title": "\"Why Should I Trust You?\"",
+    "year": 2016,
+    "first_author": "Ribeiro",
+    "container": "Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining",
+    "type": "proceedings-article",
+    "score": 69.04406
+   },
+   "metrics": {
+    "title_sim": 49.43820224719101,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4] Lundberg, S. M., & Lee, S. I. (2017). A unified approach to interpreting model predictions. Advances in Neural Information Processing Systems, 30.",
+   "title": "A unified approach to interpreting model predictions",
+   "authors": [
+    "Lundberg",
+    "Lee"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.32920/22734407",
+      "title": "Interpreting Uncertainty in Model Predictions for Covid-19 Diagnosis",
+      "year": 2023,
+      "first_author": "Murugamoorthy",
+      "container": "",
+      "type": "posted-content",
+      "score": 26.444668
+     },
+     "metrics": {
+      "title_sim": 73.17073170731707,
+      "containment": 0.5,
+      "partial_ratio": 58.82352941176471,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5] Garcez, A. S. D., Broda, K., & Gabbay, D. M. (2002). Neural-symbolic learning systems: foundations and applications. Springer Science & Business Media.",
+   "title": "Neural-symbolic learning systems: foundations and applications",
+   "authors": [
+    "Garcez",
+    "Broda",
+    "Gabbay"
+   ],
+   "year": 2002,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/978-1-4471-0211-3",
+    "title": "Neural-Symbolic Learning Systems",
+    "year": 2002,
+    "first_author": "d\u2019Avila Garcez",
+    "container": "Perspectives in Neural Computing",
+    "type": "book",
+    "score": 44.560875
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[6] Yang, Z., Ishay, A., & Lee, J. (2019). NeuRule: A neuro-symbolic approach for structured data classification. In Proceedings of the 28th International Joint Conference on Artificial Intelligence (pp. 4136-4142).",
+   "title": "NeuRule: A neuro-symbolic approach for structured data classification",
+   "authors": [
+    "Yang",
+    "Ishay",
+    "Lee"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 28th International Joint Conference on Artificial Intelligence",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.21203/rs.3.rs-10142900/v1",
+      "title": "A Neuro-Symbolic Fuzzy Rule-based Approach forMelanoma Classification",
+      "year": 2026,
+      "first_author": "Ibrahimi",
+      "container": "",
+      "type": "posted-content",
+      "score": 31.351648
+     },
+     "metrics": {
+      "title_sim": 75.91240875912409,
+      "containment": 0.5,
+      "partial_ratio": 68.11594202898551,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[7] Chen, T., & Guestrin, C. (2016). XGBoost: A scalable tree boosting system. In Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (pp. 785-794).",
+   "title": "XGBoost: A scalable tree boosting system",
+   "authors": [
+    "Chen",
+    "Guestrin"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/2939672.2939785",
+    "title": "XGBoost",
+    "year": 2016,
+    "first_author": "Chen",
+    "container": "Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining",
+    "type": "proceedings-article",
+    "score": 47.444244
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[8] Rudin, C. (2019). Stop explaining black box machine learning models for high stakes decisions and use interpretable models instead. Nature Machine Intelligence, 1(5), 206-215.",
+   "title": "Stop explaining black box machine learning models for high stakes decisions and use interpretable models instead",
+   "authors": [
+    "Rudin"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature Machine Intelligence",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/s42256-019-0048-x",
+    "title": "Stop explaining black box machine learning models for high stakes decisions and use interpretable models instead",
+    "year": 2019,
+    "first_author": "Rudin",
+    "container": "Nature Machine Intelligence",
+    "type": "journal-article",
+    "score": 115.472496
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[9] Angelino, E., Larus-Stone, N., Alabi, D., Seltzer, M., & Rudin, C. (2017). Learning certifiably optimal rule lists for categorical data. Journal of Machine Learning Research, 18(234), 1-78.",
+   "title": "Learning certifiably optimal rule lists for categorical data",
+   "authors": [
+    "Angelino",
+    "Larus-Stone",
+    "Alabi",
+    "Seltzer",
+    "Rudin"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Machine Learning Research",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3097983.3098047",
+    "title": "Learning Certifiably Optimal Rule Lists",
+    "year": 2017,
+    "first_author": "Angelino",
+    "container": "Proceedings of the 23rd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining",
+    "type": "proceedings-article",
+    "score": 59.65394
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[10] Wang, F., & Rudin, C. (2015). Falling rule lists. In Artificial Intelligence and Statistics (pp. 1013-1022).",
+   "title": "Falling rule lists",
+   "authors": [
+    "Wang",
+    "Rudin"
+   ],
+   "year": 2015,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Artificial Intelligence and Statistics",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1287/ijoc.2022.1242.cd",
+      "title": "Code and Data Repository for Disjunctive Rule Lists",
+      "year": 2022,
+      "first_author": "Ragodos",
+      "container": "INFORMS Journal on Computing",
+      "type": "journal-article",
+      "score": 22.774517
+     },
+     "metrics": {
+      "title_sim": 71.42857142857143,
+      "containment": 0.333,
+      "partial_ratio": 47.82608695652174,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  }
+ ]
+}

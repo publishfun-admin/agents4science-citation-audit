@@ -1,0 +1,1834 @@
+{
+ "pdf": "206_6pr7BUGkLp.pdf",
+ "n_entries": 36,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": false,
+ "parser_version": 2,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "[1] Yue Chen Li, Stefan Zetzsche, and Siva Somayyajula. Dafny as verification-aware intermediate language for code generation. In Dafny 2025 Workshop @ POPL 2025, Denver, CO, USA, 2025. URL https://popl25.sigplan.org/details/dafny-2025-papers/11/ Dafny-as-Verification-Aware-Intermediate-Language-for-Code-Generation.",
+   "title": "Dafny as verification-aware intermediate language for code generation",
+   "authors": [
+    "Li",
+    "Zetzsche",
+    "Somayyajula"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://popl25.sigplan.org/details/dafny-2025-papers/11/"
+   ],
+   "container": "Dafny 2025 Workshop @ POPL 2025",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED_URL",
+   "via": "url",
+   "url_status": {
+    "https://popl25.sigplan.org/details/dafny-2025-papers/11/": 200
+   },
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/978-1-4842-7978-6",
+      "title": "Introducing Software Verification with Dafny Language",
+      "year": 2022,
+      "first_author": "Sitnikovski",
+      "container": "",
+      "type": "book",
+      "score": 31.90995
+     },
+     "metrics": {
+      "title_sim": 67.5,
+      "containment": 0.6,
+      "partial_ratio": 60.37735849056604,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2] Jason Wei, Xuezhi Wang, Dale Schuurmans, Maarten Bosma, Fei Xia, Ed Chi, Quoc V Le, Denny Zhou, et al. Chain-of-thought prompting elicits reasoning in large language models. Advances in neural information processing systems, 35:24824\u201324837, 2022.",
+   "title": "Chain-of-thought prompting elicits reasoning in large language models",
+   "authors": [
+    "Wei",
+    "Wang",
+    "Schuurmans",
+    "Bosma",
+    "Xia",
+    "Chi",
+    "Le",
+    "Zhou"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in neural information processing systems",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/068431-1800",
+    "title": "Chain-Of-Thought Prompting Elicits Reasoning in Large Language Models",
+    "year": 2022,
+    "first_author": "Wei",
+    "container": "Advances in Neural Information Processing Systems 35",
+    "type": "proceedings-article",
+    "score": 60.126316
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3] Mark Chen, Jerry Tworek, Heewoo Jun, Qiming Yuan, Henrique Ponde De Oliveira Pinto, Jared Kaplan, Harri Edwards, Yuri Burda, Nicholas Joseph, Greg Brockman, et al. Evaluating large language models trained on code. arXiv preprint arXiv:2107.03374, 2021.",
+   "title": "Evaluating large language models trained on code",
+   "authors": [
+    "Chen",
+    "Tworek",
+    "Jun",
+    "Yuan",
+    "Oliveira Pinto",
+    "Kaplan",
+    "Edwards",
+    "Burda",
+    "Joseph",
+    "Brockman"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": "2107.03374",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2107.03374"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.31274/td-20250502-3",
+      "title": "Analyzing redundancy in code-trained language models",
+      "year": 2025,
+      "first_author": "Sharma",
+      "container": "",
+      "type": "dissertation",
+      "score": 36.189175
+     },
+     "metrics": {
+      "title_sim": 76.0,
+      "containment": 0.667,
+      "partial_ratio": 55.769230769230774,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "acbdbf49f9bc3f151b93d9ca9a06009f4f6eb269",
+    "title": "Evaluating Large Language Models Trained on Code",
+    "year": 2021,
+    "first_author": "Mark Chen",
+    "container": "arXiv.org",
+    "ext": {
+     "ArXiv": "2107.03374",
+     "DBLP": "journals/corr/abs-2107-03374",
+     "CorpusId": 235755472
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4] OpenAI. Hello GPT-4o. https://openai.com/index/hello-gpt-4o/, 2024. Accessed 2025-09-15.",
+   "title": "Hello GPT-4o",
+   "authors": [],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://openai.com/index/hello-gpt-4o/"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED_URL",
+   "via": "url",
+   "url_status": {
+    "https://openai.com/index/hello-gpt-4o/": 200
+   },
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.59350/n19n1-2q0",
+      "title": "Llama 3.1 405B vs GPT-4o: Which model is better?",
+      "year": 2024,
+      "first_author": "Yang",
+      "container": "",
+      "type": "posted-content",
+      "score": 32.04482
+     },
+     "metrics": {
+      "title_sim": 66.66666666666666,
+      "containment": 0.167,
+      "partial_ratio": 41.30434782608695,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5] Anthropic. Claude 3.7 sonnet and claude code. https://www.anthropic.com/news/ claude-3-7-sonnet, 2025. Accessed 2025-09-15.",
+   "title": "Claude 3.7 sonnet and claude code",
+   "authors": [],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://www.anthropic.com/news/"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED_URL",
+   "via": "url",
+   "url_status": {
+    "https://www.anthropic.com/news/": 200
+   },
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1515/9781501522079-007",
+      "title": "Chapter 6: Claude 3 and Python Code",
+      "year": 2025,
+      "first_author": null,
+      "container": "Beginning Python 3 with Claude 3",
+      "type": "book-chapter",
+      "score": 39.91116
+     },
+     "metrics": {
+      "title_sim": 79.06976744186046,
+      "containment": 0.5,
+      "partial_ratio": 55.88235294117647,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[6] Anthropic. Introducing claude 3.5 sonnet.     https://www.anthropic.com/news/ claude-3-5-sonnet, 2024. Accessed 2025-09-15.",
+   "title": "Introducing claude 3.5 sonnet",
+   "authors": [],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://www.anthropic.com/news/"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED_URL",
+   "via": "url",
+   "url_status": {
+    "https://www.anthropic.com/news/": 200
+   },
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.59350/zy1ch-5wc78",
+      "title": "Beyond the Benchmark: A Hands-On Evaluation of Claude 3.7 Sonnet",
+      "year": 2025,
+      "first_author": "Luo",
+      "container": "",
+      "type": "posted-content",
+      "score": 24.117188
+     },
+     "metrics": {
+      "title_sim": 68.18181818181819,
+      "containment": 0.333,
+      "partial_ratio": 51.92307692307692,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[7] Leslie Lamport. Specifying Systems: The TLA+ Language and Tools for Hardware and Software Engineers. Addison-Wesley, 2002. URL https://lamport.azurewebsites.net/ tla/book.html.",
+   "title": "Specifying Systems: The TLA+ Language and Tools for Hardware and Software Engineers",
+   "authors": [
+    "Lamport"
+   ],
+   "year": 2002,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://lamport.azurewebsites.net/"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/mc.2002.1033032",
+    "title": "Specifying Systems: The TLA+ Language and Tools for Hardware and Software Engineers [Book Review]",
+    "year": 2002,
+    "first_author": null,
+    "container": "Computer",
+    "type": "journal-article",
+    "score": 70.10415
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.9,
+    "partial_ratio": 91.39784946236558,
+    "year_ok": true,
+    "first_author_ok": null
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[8] Alloy Team. Alloy tools. https://alloytools.org/, 2025. Accessed 2025-09-15.",
+   "title": "Alloy tools",
+   "authors": [
+    "Team"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://alloytools.org/"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED_URL",
+   "via": "url",
+   "url_status": {
+    "https://alloytools.org/": 200
+   },
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.64357/digital-collaboration-tools-2025",
+      "title": "Digital Collaboration Tools: Enhancing Team Productivity",
+      "year": 2025,
+      "first_author": null,
+      "container": "",
+      "type": "monograph",
+      "score": 21.933136
+     },
+     "metrics": {
+      "title_sim": 30.303030303030297,
+      "containment": 0.333,
+      "partial_ratio": 39.56043956043956,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[9] K. Rustan M. Leino. Dafny: An automatic program verifier for functional correctness. In LPAR-16, Lecture Notes in Computer Science. Springer, 2010. doi: 10.1007/978-3-642-17511-4_20. URL https://link.springer.com/chapter/10.1007/978-3-642-17511-4_20.",
+   "title": "Dafny: An automatic program verifier for functional correctness",
+   "authors": [
+    "Leino"
+   ],
+   "year": 2010,
+   "doi": "10.1007/978-3-642-17511-4_20",
+   "arxiv": null,
+   "urls": [
+    "https://link.springer.com/chapter/10.1007/978-3-642-17511-4_20"
+   ],
+   "container": "LPAR-16, Lecture Notes in Computer Science",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/978-3-642-17511-4_20",
+    "title": "Dafny: An Automatic Program Verifier for Functional Correctness",
+    "year": 2010,
+    "first_author": "Leino",
+    "container": "Lecture Notes in Computer Science",
+    "type": "book-chapter",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[10] Baptiste Rozi\u00e8re, Jonas Gehring, Fabian Gloeckle, et al. Code llama: Open foundation models for code. arXiv preprint arXiv:2308.12950, 2023. doi: 10.48550/arXiv.2308.12950. URL https://arxiv.org/abs/2308.12950.",
+   "title": "Code llama: Open foundation models for code",
+   "authors": [
+    "Rozi\u00e8re",
+    "Gehring",
+    "Gloeckle"
+   ],
+   "year": 2023,
+   "doi": "10.48550/arXiv.2308.12950",
+   "arxiv": "2308.12950",
+   "urls": [
+    "https://arxiv.org/abs/2308.12950"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "doi_not_resolvable",
+     "doi": "10.48550/arXiv.2308.12950"
+    },
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2308.12950"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.59350/hkbyq-c5h78",
+      "title": "Creating an OBF-wide Code of Conduct",
+      "year": 2019,
+      "first_author": null,
+      "container": "",
+      "type": "posted-content",
+      "score": 37.162
+     },
+     "metrics": {
+      "title_sim": 49.31506849315068,
+      "containment": 0.2,
+      "partial_ratio": 50.0,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "0b0debb710366cdff461938c80763eace1651af6",
+    "title": "Code Llama: Open Foundation Models for Code",
+    "year": 2023,
+    "first_author": "Baptiste Rozi\u00e8re",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2308-12950",
+     "ArXiv": "2308.12950",
+     "DOI": "10.48550/arXiv.2308.12950",
+     "CorpusId": 261100919
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "[11] Raymond Li, Loubna Ben Allal, Yangtian Zi, Niklas Muennighoff, Denis Kocetkov, Chenghao Mou, Marc Marone, Christopher Akiki, Jia Li, Jenny Chim, et al. Starcoder: may the source be with you! arXiv preprint arXiv:2305.06161, 2023.",
+   "title": "Starcoder",
+   "authors": [
+    "Li",
+    "Allal",
+    "Zi",
+    "Muennighoff",
+    "Kocetkov",
+    "Mou",
+    "Marone",
+    "Akiki",
+    "Li",
+    "Chim"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2305.06161",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2305.06161"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/icmla58977.2023.00007",
+      "title": "Organizing Committee",
+      "year": 2023,
+      "first_author": null,
+      "container": "2023 International Conference on Machine Learning and Applications (ICMLA)",
+      "type": "proceedings-article",
+      "score": 10.387897
+     },
+     "metrics": {
+      "title_sim": 27.58620689655173,
+      "containment": 0.0,
+      "partial_ratio": 44.99999999999999,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "arxiv_id_repass",
+   "match": {
+    "source": "arxiv_abs",
+    "arxiv": "2305.06161",
+    "title": "StarCoder: may the source be with you!",
+    "year": 2023,
+    "first_author": "Li, Raymond"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   }
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "[12] Jacob Austin, Augustus Odena, Maxwell Nye, Maarten Bosma, Henryk Michalewski, et al. Program synthesis with large language models. arXiv preprint arXiv:2108.07732, 2021. doi: 10.48550/arXiv.2108.07732. URL https://arxiv.org/abs/2108.07732.",
+   "title": "Program synthesis with large language models",
+   "authors": [
+    "Austin",
+    "Odena",
+    "Nye",
+    "Bosma",
+    "Michalewski"
+   ],
+   "year": 2021,
+   "doi": "10.48550/arXiv.2108.07732",
+   "arxiv": "2108.07732",
+   "urls": [
+    "https://arxiv.org/abs/2108.07732"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "doi_not_resolvable",
+     "doi": "10.48550/arXiv.2108.07732"
+    },
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2108.07732"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1145/3680410",
+      "title": "On Program Synthesis and Large Language Models",
+      "year": 2025,
+      "first_author": "H\u00fcttel",
+      "container": "Communications of the ACM",
+      "type": "journal-article",
+      "score": 28.277782
+     },
+     "metrics": {
+      "title_sim": 93.97590361445783,
+      "containment": 1.0,
+      "partial_ratio": 89.13043478260869,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "a38e0f993e4805ba8a9beae4c275c91ffcec01df",
+    "title": "Program Synthesis with Large Language Models",
+    "year": 2021,
+    "first_author": "Jacob Austin",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2108-07732",
+     "ArXiv": "2108.07732",
+     "CorpusId": 237142385
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "[13] Dan Hendrycks, Steven Basart, Saurav Kadavath, Mantas Mazeika, Akul Arora, et al. Measuring coding challenge competence with apps. arXiv preprint arXiv:2105.09938, 2021. doi: 10.",
+   "title": "Measuring coding challenge competence with apps",
+   "authors": [
+    "Hendrycks",
+    "Basart",
+    "Kadavath",
+    "Mazeika",
+    "Arora"
+   ],
+   "year": 2021,
+   "doi": "doi: 10",
+   "arxiv": "2105.09938",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "doi_not_resolvable",
+     "doi": "doi: 10"
+    },
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2105.09938"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.59350/wzk7w-dw091",
+      "title": "Seles: Tennis coding challenge",
+      "year": 2021,
+      "first_author": "Royle",
+      "container": "",
+      "type": "posted-content",
+      "score": 24.680817
+     },
+     "metrics": {
+      "title_sim": 71.11111111111111,
+      "containment": 0.5,
+      "partial_ratio": 72.41379310344827,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "1ccd031f28dccfb226f6c0c588c93a97a50bf95f",
+    "title": "Measuring Coding Challenge Competence With APPS",
+    "year": 2021,
+    "first_author": "Dan Hendrycks",
+    "container": "NeurIPS Datasets and Benchmarks",
+    "ext": {
+     "DBLP": "conf/nips/HendrycksBKMAGB21",
+     "ArXiv": "2105.09938",
+     "CorpusId": 234790100
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": true,
+   "idx": 14,
+   "raw": "48550/arXiv.2105.09938. URL https://arxiv.org/abs/2105.09938.",
+   "title": null,
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": "2105.09938",
+   "urls": [
+    "https://arxiv.org/abs/2105.09938"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2105.09938"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.32614/cran.package.arxiv",
+      "title": "aRxiv: Interface to the arXiv API",
+      "year": 2014,
+      "first_author": "Ram",
+      "container": "CRAN: Contributed Packages",
+      "type": "dataset",
+      "score": 40.91087
+     },
+     "metrics": {
+      "title_sim": 0,
+      "containment": 0.5,
+      "partial_ratio": 50.0,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "[14] Carlos E Jimenez, John Yang, Alexander Wettig, Shunyu Yao, Kexin Pei, Ofir Press, and Karthik Narasimhan. Swe-bench: Can language models resolve real-world github issues? arXiv preprint arXiv:2310.06770, 2023.",
+   "title": "Swe-bench: Can language models resolve real-world github issues?",
+   "authors": [
+    "Jimenez",
+    "Yang",
+    "Wettig",
+    "Yao",
+    "Pei",
+    "Press",
+    "Narasimhan"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2310.06770",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2310.06770",
+    "title": "SWE-bench: Can Language Models Resolve Real-World GitHub Issues?",
+    "year": 2023,
+    "first_author": "Carlos E. Jimenez"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 16,
+   "raw": "[15] Feng Lin, Dong Jae Kim, et al. Soen-101: Code generation by emulating software process models using large language model agents. arXiv preprint arXiv:2403.15852, 2024.",
+   "title": "Soen-101: Code generation by emulating software process models using large language model agents",
+   "authors": [
+    "Lin",
+    "Kim"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2403.15852",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/icse55347.2025.00140",
+    "title": "SOEN-101: Code Generation by Emulating Software Process Models Using Large Language Model Agents",
+    "year": 2025,
+    "first_author": "Lin",
+    "container": "2025 IEEE/ACM 47th International Conference on Software Engineering (ICSE)",
+    "type": "proceedings-article",
+    "score": 86.65065
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2403.15852"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 17,
+   "raw": "[16] Xuezhi Wang, Jason Wei, Dale Schuurmans, Quoc V. Le, Ed H. Chi, Sharan Narang, Aakanksha Chowdhery, and Denny Zhou. Self-consistency improves chain of thought reasoning in language models. arXiv preprint arXiv:2203.11171, 2022. doi: 10.48550/arXiv.2203.11171. URL https://arxiv.org/abs/2203.11171.",
+   "title": "Self-consistency improves chain of thought reasoning in language models",
+   "authors": [
+    "Wang",
+    "Wei",
+    "Schuurmans",
+    "Le",
+    "Chi",
+    "Narang",
+    "Chowdhery",
+    "Zhou"
+   ],
+   "year": 2022,
+   "doi": "10.48550/arXiv.2203.11171",
+   "arxiv": "2203.11171",
+   "urls": [
+    "https://arxiv.org/abs/2203.11171"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "doi_not_resolvable",
+     "doi": "10.48550/arXiv.2203.11171"
+    },
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2203.11171"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.59350/90sh1-hbs94",
+      "title": "Multimodal Chain-of-Thought Reasoning in Language Models",
+      "year": 2025,
+      "first_author": "Thoram",
+      "container": "",
+      "type": "posted-content",
+      "score": 40.428593
+     },
+     "metrics": {
+      "title_sim": 89.10891089108911,
+      "containment": 0.833,
+      "partial_ratio": 87.5,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "5f19ae1135a9500940978104ec15a5b8751bc7d2",
+    "title": "Self-Consistency Improves Chain of Thought Reasoning in Language Models",
+    "year": 2022,
+    "first_author": "Xuezhi Wang",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "DBLP": "conf/iclr/0002WSLCNCZ23",
+     "ArXiv": "2203.11171",
+     "CorpusId": 247595263
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 18,
+   "raw": "[17] Denny Zhou, Nathanael Sch\u00e4rli, Le Hou, et al. Least-to-most prompting enables complex reasoning in large language models. arXiv preprint arXiv:2205.10625, 2022. doi: 10.48550/ arXiv.2205.10625. URL https://arxiv.org/abs/2205.10625.",
+   "title": "Least-to-most prompting enables complex reasoning in large language models",
+   "authors": [
+    "Zhou",
+    "Sch\u00e4rli",
+    "Hou"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": "2205.10625",
+   "urls": [
+    "https://arxiv.org/abs/2205.10625"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2205.10625"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.52202/068431-1800",
+      "title": "Chain-Of-Thought Prompting Elicits Reasoning in Large Language Models",
+      "year": 2022,
+      "first_author": "Wei",
+      "container": "Advances in Neural Information Processing Systems 35",
+      "type": "proceedings-article",
+      "score": 38.10962
+     },
+     "metrics": {
+      "title_sim": 77.87610619469027,
+      "containment": 0.625,
+      "partial_ratio": 78.26086956521739,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "5437e8adab596d7294124c0e798708e050e25321",
+    "title": "Least-to-Most Prompting Enables Complex Reasoning in Large Language Models",
+    "year": 2022,
+    "first_author": "Denny Zhou",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "DBLP": "conf/iclr/ZhouSHWS0SCBLC23",
+     "ArXiv": "2205.10625",
+     "DOI": "10.48550/arXiv.2205.10625",
+     "CorpusId": 248986239
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 19,
+   "raw": "[18] Wenhu Chen, Xueguang Ma, Xinyi Wang, Wenhan Xiong, and William W. Cohen. Program of thoughts prompting: Disentangling computation from reasoning for numerical reasoning tasks. arXiv preprint arXiv:2211.12588, 2023. doi: 10.48550/arXiv.2211.12588. URL https: //arxiv.org/abs/2211.12588.",
+   "title": "Program of thoughts prompting: Disentangling computation from reasoning for numerical reasoning tasks",
+   "authors": [
+    "Chen",
+    "Ma",
+    "Wang",
+    "Xiong",
+    "Cohen"
+   ],
+   "year": 2023,
+   "doi": "10.48550/arXiv.2211.12588",
+   "arxiv": "2211.12588",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "doi_not_resolvable",
+     "doi": "10.48550/arXiv.2211.12588"
+    },
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2211.12588"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.18653/v1/2023.findings-acl.668",
+      "title": "Leveraging Training Data in Few-Shot Prompting for Numerical Reasoning",
+      "year": 2023,
+      "first_author": "Jie",
+      "container": "Findings of the Association for Computational Linguistics: ACL 2023",
+      "type": "proceedings-article",
+      "score": 38.08003
+     },
+     "metrics": {
+      "title_sim": 64.07766990291262,
+      "containment": 0.375,
+      "partial_ratio": 68.57142857142857,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "6c943670dca38bfc7c8b477ae7c2d1fba1ad3691",
+    "title": "Program of Thoughts Prompting: Disentangling Computation from Reasoning for Numerical Reasoning Tasks",
+    "year": 2022,
+    "first_author": "Wenhu Chen",
+    "container": "Trans. Mach. Learn. Res.",
+    "ext": {
+     "ArXiv": "2211.12588",
+     "DBLP": "journals/corr/abs-2211-12588",
+     "CorpusId": 253801709
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 20,
+   "raw": "[19] Luyu Gao, Aman Madaan, Shuyan Zhou, Uri Alon, Pengfei Liu, Yiming Yang, Jamie Callan, and Graham Neubig. Pal: Program-aided language models. In International Conference on Machine Learning, pages 10764\u201310799. PMLR, 2023.",
+   "title": "Pal: Program-aided language models",
+   "authors": [
+    "Gao",
+    "Madaan",
+    "Zhou",
+    "Alon",
+    "Liu",
+    "Yang",
+    "Callan",
+    "Neubig"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Conference on Machine Learning",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.18653/v1/2023.emnlp-main.661",
+      "title": "Conceptor-Aided Debiasing of Large Language Models",
+      "year": 2023,
+      "first_author": "Yifei",
+      "container": "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+      "type": "proceedings-article",
+      "score": 24.021938
+     },
+     "metrics": {
+      "title_sim": 77.77777777777777,
+      "containment": 0.5,
+      "partial_ratio": 58.00000000000001,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "6c1e1cc1e0e1f8fd026fe517607b2d4535565fa7",
+    "title": "PAL: Program-aided Language Models",
+    "year": 2022,
+    "first_author": "Luyu Gao",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "ArXiv": "2211.10435",
+     "DBLP": "journals/corr/abs-2211-10435",
+     "DOI": "10.48550/arXiv.2211.10435",
+     "CorpusId": 253708270
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 21,
+   "raw": "[20] Minal Suresh Patil, Gustav Ung, and Mattias Nyberg. Towards specification-driven llm-based generation of embedded automotive software. In Bridging the Gap Between AI and Reality (AISoLA 2024), volume 15217 of Lecture Notes in Computer Science, pages 125\u2013144. Springer, 2024. doi: 10.1007/978-3-031-75434-0_9.",
+   "title": "Towards specification-driven llm-based generation of embedded automotive software",
+   "authors": [
+    "Patil",
+    "Ung",
+    "Nyberg"
+   ],
+   "year": 2024,
+   "doi": "10.1007/978-3-031-75434-0_9",
+   "arxiv": null,
+   "urls": [],
+   "container": "Bridging the Gap Between AI and Reality (AISoLA 2024",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/978-3-031-75434-0_9",
+    "title": "Towards Specification-Driven LLM-Based Generation of\u00a0Embedded Automotive Software",
+    "year": 2025,
+    "first_author": "Patil",
+    "container": "Lecture Notes in Computer Science",
+    "type": "book-chapter",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 22,
+   "raw": "[21] William Murphy, Nikolaus Holzer, Feitong Qiao, Leyi Cui, Raven Rothkopf, Nathan Koenig, and Mark Santolucito. Combining llm code generation with formal specifications and reactive program synthesis. arXiv preprint arXiv:2410.19736, 2024. doi: 10.48550/arXiv.2410.19736.",
+   "title": "Combining llm code generation with formal specifications and reactive program synthesis",
+   "authors": [
+    "Murphy",
+    "Holzer",
+    "Qiao",
+    "Cui",
+    "Rothkopf",
+    "Koenig",
+    "Santolucito"
+   ],
+   "year": 2024,
+   "doi": "10.48550/arXiv.2410.19736",
+   "arxiv": "2410.19736",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "doi_not_resolvable",
+     "doi": "10.48550/arXiv.2410.19736"
+    },
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2410.19736"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/tai.1991.167086",
+      "title": "Abstraction of formal specifications from program code",
+      "year": 2002,
+      "first_author": "Cheng",
+      "container": "[Proceedings] Third International Conference on Tools for Artificial Intelligence - TAI 91",
+      "type": "proceedings-article",
+      "score": 32.592552
+     },
+     "metrics": {
+      "title_sim": 77.27272727272728,
+      "containment": 0.8,
+      "partial_ratio": 72.22222222222221,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "6801e48e38c1d49dac04a14ed076642a92c982ae",
+    "title": "Combining LLM Code Generation with Formal Specifications and Reactive Program Synthesis",
+    "year": 2024,
+    "first_author": "William Murphy",
+    "container": "arXiv.org",
+    "ext": {
+     "ArXiv": "2410.19736",
+     "DBLP": "journals/corr/abs-2410-19736",
+     "DOI": "10.48550/arXiv.2410.19736",
+     "CorpusId": 273654511
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 23,
+   "raw": "[22] Timo Schick, Jane Dwivedi-Yu, Roberto Dess\u00ec, Roberta Raileanu, Maria Lomeli, Luke Zettlemoyer, Nicola Cancedda, and Thomas Scialom. Toolformer: Language models can teach themselves to use tools. arXiv preprint arXiv:2302.04761, 2023. doi: 10.48550/arXiv.2302.04761. URL https://arxiv.org/abs/2302.04761.",
+   "title": "Toolformer: Language models can teach themselves to use tools",
+   "authors": [
+    "Schick",
+    "Dwivedi-Yu",
+    "Dess\u00ec",
+    "Raileanu",
+    "Lomeli",
+    "Zettlemoyer",
+    "Cancedda",
+    "Scialom"
+   ],
+   "year": 2023,
+   "doi": "10.48550/arXiv.2302.04761",
+   "arxiv": "2302.04761",
+   "urls": [
+    "https://arxiv.org/abs/2302.04761"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2302.04761",
+    "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+    "year": 2023,
+    "first_author": "Timo Schick"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "doi_not_resolvable",
+     "doi": "10.48550/arXiv.2302.04761"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 24,
+   "raw": "[23] Aman Madaan, Niket Tandon, Prakhar Gupta, Skyler Hallinan, Luyu Gao, et al. Self-refine: Iterative refinement with self-feedback. arXiv preprint arXiv:2303.17651, 2023. doi: 10.48550/ arXiv.2303.17651. URL https://arxiv.org/abs/2303.17651.",
+   "title": "Self-refine: Iterative refinement with self-feedback",
+   "authors": [
+    "Madaan",
+    "Tandon",
+    "Gupta",
+    "Hallinan",
+    "Gao"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2303.17651",
+   "urls": [
+    "https://arxiv.org/abs/2303.17651"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/075280-2019",
+    "title": "Self-Refine: Iterative Refinement with Self-Feedback",
+    "year": 2023,
+    "first_author": "Madaan",
+    "container": "Advances in Neural Information Processing Systems 36",
+    "type": "proceedings-article",
+    "score": 51.761765
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2303.17651"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 25,
+   "raw": "[24] Noah Shinn, Federico Cassano, Ashwin Gopinath, Karthik Narasimhan, and Shunyu Yao. Reflexion: Language agents with verbal reinforcement learning. Advances in Neural Information Processing Systems, 36:8634\u20138652, 2023.",
+   "title": "Reflexion: Language agents with verbal reinforcement learning",
+   "authors": [
+    "Shinn",
+    "Cassano",
+    "Gopinath",
+    "Narasimhan",
+    "Yao"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/075280-0377",
+    "title": "Reflexion: language agents with verbal reinforcement learning",
+    "year": 2023,
+    "first_author": "Shinn",
+    "container": "Advances in Neural Information Processing Systems 36",
+    "type": "proceedings-article",
+    "score": 58.496414
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 26,
+   "raw": "[25] Xinyun Chen, Maxwell Lin, Nathanael Sch\u00e4rli, and Denny Zhou. Teaching large language models to self-debug. arXiv preprint arXiv:2304.05128, 2023.",
+   "title": "Teaching large language models to self-debug",
+   "authors": [
+    "Chen",
+    "Lin",
+    "Sch\u00e4rli",
+    "Zhou"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2304.05128",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2304.05128"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.18260/1-2-119-46353",
+      "title": "Leveraging Large Language Models in Education: Enhancing Learning and Teaching",
+      "year": 2024,
+      "first_author": "Saiedian",
+      "container": "2023 ASEE Midwest Section Conference Proceedings",
+      "type": "proceedings-article",
+      "score": 28.985003
+     },
+     "metrics": {
+      "title_sim": 81.08108108108108,
+      "containment": 0.5,
+      "partial_ratio": 57.14285714285714,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "9e3c493fb09dcd61bb05e8c5659f23327b7b6340",
+    "title": "Teaching Large Language Models to Self-Debug",
+    "year": 2023,
+    "first_author": "Xin-Yun Chen",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "ArXiv": "2304.05128",
+     "DBLP": "journals/corr/abs-2304-05128",
+     "DOI": "10.48550/arXiv.2304.05128",
+     "CorpusId": 258059885
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": true,
+   "idx": 27,
+   "raw": "- USER_EXPLANATION (optional, if provided): {{USER_EXPLANATION}} - FUNCTION_SIGNATURE: {{FUNCTION_SIGNATURE}}",
+   "title": null,
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1145/3742413.3789089",
+      "title": "Who Needs What Explanation? How User Traits Affect Explanation Effectiveness in AI-Assisted Decision-Making",
+      "year": 2026,
+      "first_author": "Farmer",
+      "container": "Proceedings of the 31st International Conference on Intelligent User Interfaces",
+      "type": "proceedings-article",
+      "score": 41.195736
+     },
+     "metrics": {
+      "title_sim": 0,
+      "containment": 0.231,
+      "partial_ratio": 56.52173913043479,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": true,
+   "idx": 28,
+   "raw": "A.3.3     SpecInstantiator (schema \u2192 instance) [SYSTEM] You are \u201cSpecInstantiator\u201d. Fill the SCHEMA with concrete values from the ORIGINAL_NL_REQUIREMENTS and ,\u2192  FUNCTION_SIGNATURE. If a field is unknown, set it to `TBD`.",
+   "title": "A.3.3 SpecInstantiator (schema \u2192 instance) [SYSTEM] You are \u201cSpecInstantiator\u201d. Fill the SCHEMA with concrete values from the ORIGINAL_NL_REQUIREMENTS and ,\u2192 FUNCTION_SIGNATURE. If a field is unknown, set it to `TBD`",
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/978-3-642-12550-8_26",
+      "title": "A Hybrid Approach for Data Mart Schema Design from NL-OLAP Requirements",
+      "year": 2010,
+      "first_author": "Bargui",
+      "container": "Lecture Notes in Computer Science",
+      "type": "book-chapter",
+      "score": 36.315548
+     },
+     "metrics": {
+      "title_sim": 36.162361623616235,
+      "containment": 0.25,
+      "partial_ratio": 52.112676056338024,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": true,
+   "idx": 29,
+   "raw": "FUNCTION_SIGNATURE: {FUNCTION_SIGNATURE} [OUTPUT]",
+   "title": null,
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.7717/peerj.16935/fig-9",
+      "title": "Figure 9: The validation of cellular regulation function of signature.",
+      "year": 2024,
+      "first_author": null,
+      "container": "",
+      "type": "component",
+      "score": 36.003937
+     },
+     "metrics": {
+      "title_sim": 0,
+      "containment": 0.333,
+      "partial_ratio": 65.75342465753424,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": true,
+   "idx": 30,
+   "raw": "Return ONLY the instantiated spec (same format as SCHEMA).",
+   "title": "Return ONLY the instantiated spec (same format as SCHEMA",
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.5594/smpte.st2021-4.2023",
+      "title": "Broadcast Exchange Format (BXF) Schema Documentation",
+      "year": 2024,
+      "first_author": null,
+      "container": "",
+      "type": "standard",
+      "score": 27.024174
+     },
+     "metrics": {
+      "title_sim": 55.23809523809524,
+      "containment": 0.333,
+      "partial_ratio": 54.32098765432099,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": true,
+   "idx": 31,
+   "raw": "A.3.4   SpecApplier (apply user answers back to spec) [SYSTEM] You are \u201cSpecApplier\u201d. Update the CURRENT_SPEC to reflect the user\u2019s answers to ,\u2192  the FM questions.",
+   "title": "A.3.4 SpecApplier (apply user answers back to spec) [SYSTEM] You are \u201cSpecApplier\u201d. Update the CURRENT_SPEC to reflect the user\u2019s answers to ,\u2192 the FM questions",
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.17487/rfc1578",
+      "title": "FYI on Questions and Answers - Answers to Commonly Asked \"Primary and Secondary School Internet User\" Questions",
+      "year": 1994,
+      "first_author": "Sellers",
+      "container": "",
+      "type": "report",
+      "score": 45.00223
+     },
+     "metrics": {
+      "title_sim": 48.24902723735408,
+      "containment": 0.417,
+      "partial_ratio": 47.663551401869164,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": true,
+   "idx": 32,
+   "raw": "A.3.5   FMConfirmer (natural-language confirmation) [SYSTEM] You are \u201cFMConfirmer\u201d. Summarize the key decisions just made, in clear natural ,\u2192  language, suitable for user confirmation.",
+   "title": "A.3.5 FMConfirmer (natural-language confirmation) [SYSTEM] You are \u201cFMConfirmer\u201d. Summarize the key decisions just made, in clear natural ,\u2192 language, suitable for user confirmation",
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/springerreference_10116",
+    "title": "clear confirmation",
+    "year": 2011,
+    "first_author": null,
+    "container": "SpringerReference",
+    "type": "reference-entry",
+    "score": 41.523464
+   },
+   "metrics": {
+    "title_sim": 19.25133689839572,
+    "containment": 1.0,
+    "partial_ratio": 90.9090909090909,
+    "year_ok": true,
+    "first_author_ok": null
+   },
+   "evidence": []
+  },
+  {
+   "junk": true,
+   "idx": 33,
+   "raw": "A.3.6   SpecExecutor (implementation from agreed spec) [SYSTEM]",
+   "title": null,
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.2072855",
+      "title": "Implementation of National Broadband Plans: Agreed Regulatory Principles and Their Evolution",
+      "year": 2012,
+      "first_author": "Lacey",
+      "container": "",
+      "type": "posted-content",
+      "score": 22.351114
+     },
+     "metrics": {
+      "title_sim": 0,
+      "containment": 0.222,
+      "partial_ratio": 49.54128440366973,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": true,
+   "idx": 34,
+   "raw": "- FUNCTION_SIGNATURE: {{FUNCTION_SIGNATURE}}",
+   "title": null,
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.7717/peerj.16935/fig-9",
+      "title": "Figure 9: The validation of cellular regulation function of signature.",
+      "year": 2024,
+      "first_author": null,
+      "container": "",
+      "type": "component",
+      "score": 35.939034
+     },
+     "metrics": {
+      "title_sim": 0,
+      "containment": 0.333,
+      "partial_ratio": 73.01587301587303,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": true,
+   "idx": 35,
+   "raw": "- FUNCTION_SIGNATURE: {{FUNCTION_SIGNATURE}}",
+   "title": null,
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.7717/peerj.16935/fig-9",
+      "title": "Figure 9: The validation of cellular regulation function of signature.",
+      "year": 2024,
+      "first_author": null,
+      "container": "",
+      "type": "component",
+      "score": 35.939034
+     },
+     "metrics": {
+      "title_sim": 0,
+      "containment": 0.333,
+      "partial_ratio": 73.01587301587303,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": true,
+   "idx": 36,
+   "raw": "Here is the original user request: \"{{USER_REQUEST}}\" - FUNCTION_SIGNATURE: {{FUNCTION_SIGNATURE}}",
+   "title": "Here is the original user request: \"{{USER_REQUEST}}",
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.52545/3-3-4",
+      "title": "Using the Consent Request User Interface Prototype",
+      "year": 2021,
+      "first_author": "Drozd",
+      "container": "",
+      "type": "report",
+      "score": 43.226246
+     },
+     "metrics": {
+      "title_sim": 65.3061224489796,
+      "containment": 0.4,
+      "partial_ratio": 58.00000000000001,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  }
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
+}

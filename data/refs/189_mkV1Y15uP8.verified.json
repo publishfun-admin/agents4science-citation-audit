@@ -1,0 +1,421 @@
+{
+ "pdf": "189_mkV1Y15uP8.pdf",
+ "n_entries": 10,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 2,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "We thank David J. Peterson for creating Dothraki\u2019s comprehensive linguistic documentation, and the language community for maintaining resources that made this research possible. References [1] P. Koehn and R. Knowles, \u201dSix challenges for neural machine translation,\u201d in Proceedings of the First Workshop on Neural Machine Translation, Vancouver, Canada, 2017, pp. 28\u201339.",
+   "title": "Peterson for creating Dothraki\u2019s comprehensive linguistic documentation, and the language community for maintaining resources that made this research possible",
+   "authors": [
+    "David J",
+    "Koehn",
+    "Knowles"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the First Workshop on Neural Machine Translation",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.63317/5bx7ntetjjxi",
+      "title": "The Language Resource Life Cycle: Towards a Generic Model for Creating, Maintaining, Using and Distributing Language Resources",
+      "year": 2016,
+      "first_author": "Rehm",
+      "container": "Proceedings of the Language Resources and Evaluation Conference",
+      "type": "proceedings-article",
+      "score": 30.247705
+     },
+     "metrics": {
+      "title_sim": 62.92134831460674,
+      "containment": 0.455,
+      "partial_ratio": 47.96747967479674,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2] P. Joshi, S. Santy, A. Budhiraja, K. Bali, and M. Choudhury, \u201dThe state and fate of linguistic diversity and inclusion in the NLP world,\u201d in Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics, 2020, pp. 6282\u20136293.",
+   "title": "The state and fate of linguistic diversity and inclusion in the NLP world",
+   "authors": [
+    "Joshi",
+    "Santy",
+    "Budhiraja",
+    "Bali",
+    "Choudhury"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2020.acl-main.560",
+    "title": "The State and Fate of Linguistic Diversity and Inclusion in the NLP World",
+    "year": 2020,
+    "first_author": "Joshi",
+    "container": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+    "type": "proceedings-article",
+    "score": 53.74409
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3] P. Koehn, \u201dNeural machine translation,\u201d arXiv preprint arXiv:1709.07809, 2017.",
+   "title": "Neural machine translation",
+   "authors": [
+    "Koehn"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": "1709.07809",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/w17-3204",
+    "title": "Six Challenges for Neural Machine Translation",
+    "year": 2017,
+    "first_author": "Koehn",
+    "container": "Proceedings of the First Workshop on Neural Machine Translation",
+    "type": "proceedings-article",
+    "score": 42.702694
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.6,
+    "partial_ratio": 74.07407407407408,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "1709.07809"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4] B. Zoph, D. Yuret, J. May, and K. Knight, \u201dTransfer learning for low-resource neural machine translation,\u201d in Proceedings of the 2016 Conference on Empirical Methods in Natural Language Processing, Austin, Texas, 2016, pp. 1568\u20131575.",
+   "title": "Transfer learning for low-resource neural machine translation",
+   "authors": [
+    "Zoph",
+    "Yuret",
+    "May",
+    "Knight"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 2016 Conference on Empirical Methods in Natural Language Processing",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/d16-1163",
+    "title": "Transfer Learning for Low-Resource Neural Machine Translation",
+    "year": 2016,
+    "first_author": "Zoph",
+    "container": "Proceedings of the 2016 Conference on Empirical Methods in Natural\n          Language Processing",
+    "type": "proceedings-article",
+    "score": 57.10019
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5] M. Johnson, M. Schuster, Q. V. Le, et al., \u201dGoogle\u2019s multilingual neural machine translation system: Enabling zero-shot translation,\u201d Transactions of the Association for Computational Linguistics, vol. 5, pp. 339\u2013351, 2017.",
+   "title": "Google\u2019s multilingual neural machine translation system: Enabling zero-shot translation",
+   "authors": [
+    "Johnson",
+    "Schuster",
+    "Le"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Transactions of the Association for Computational Linguistics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1162/tacl_a_00065",
+    "title": "Google\u2019s Multilingual Neural Machine Translation System: Enabling                     Zero-Shot Translation",
+    "year": 2017,
+    "first_author": "Johnson",
+    "container": "Transactions of the Association for Computational Linguistics",
+    "type": "journal-article",
+    "score": 72.951416
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[6] R. Sennrich, B. Haddow, and A. Birch, \u201dImproving neural machine translation models with monolingual data,\u201d in Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics, Berlin, Germany, 2016, pp. 86\u201396.",
+   "title": "Improving neural machine translation models with monolingual data",
+   "authors": [
+    "Sennrich",
+    "Haddow",
+    "Birch"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/p16-1009",
+    "title": "Improving Neural Machine Translation Models with Monolingual Data",
+    "year": 2016,
+    "first_author": "Sennrich",
+    "container": "Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "type": "proceedings-article",
+    "score": 59.41509
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[7] R. Aharoni, M. Johnson, and O. Firat, \u201dMassively multilingual neural machine translation,\u201d in Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics, 2019, pp. 3874\u20133884.",
+   "title": "Massively multilingual neural machine translation",
+   "authors": [
+    "Aharoni",
+    "Johnson",
+    "Firat"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/n19-1388",
+    "title": "Massively Multilingual Neural Machine Translation",
+    "year": 2019,
+    "first_author": "Aharoni",
+    "container": "Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)",
+    "type": "proceedings-article",
+    "score": 47.300903
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[8] N. Arivazhagan et al., \u201dMassively multilingual neural machine translation in the wild: Findings and challenges,\u201d arXiv preprint arXiv:1907.05019, 2019.",
+   "title": "Massively multilingual neural machine translation in the wild: Findings and challenges",
+   "authors": [
+    "Arivazhagan"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": "1907.05019",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/n19-1388",
+    "title": "Massively Multilingual Neural Machine Translation",
+    "year": 2019,
+    "first_author": "Aharoni",
+    "container": "Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)",
+    "type": "proceedings-article",
+    "score": 37.162983
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "1907.05019"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[9] B. Zhang et al., \u201dImproving massively multilingual neural machine translation and zero-shot translation,\u201d in Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics, 2020, pp. 1628\u20131639.",
+   "title": "Improving massively multilingual neural machine translation and zero-shot translation",
+   "authors": [
+    "Zhang"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2020.acl-main.148",
+    "title": "Improving Massively Multilingual Neural Machine Translation and Zero-Shot Translation",
+    "year": 2020,
+    "first_author": "Zhang",
+    "container": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+    "type": "proceedings-article",
+    "score": 74.73798
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[10] D. J. Peterson, The Art of Language Invention. Penguin Books, 2015.",
+   "title": "The Art of Language Invention",
+   "authors": [
+    "Peterson"
+   ],
+   "year": 2015,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1093/oso/9780198829874.003.0015",
+      "title": "Artistry in language invention",
+      "year": 2020,
+      "first_author": "Peterson",
+      "container": "Language Invention in Linguistics Pedagogy",
+      "type": "book-chapter",
+      "score": 28.25983
+     },
+     "metrics": {
+      "title_sim": 77.96610169491525,
+      "containment": 0.667,
+      "partial_ratio": 76.66666666666666,
+      "year_ok": false,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "openlibrary",
+   "match": {
+    "source": "openlibrary",
+    "id": "/works/OL20010313W",
+    "title": "The art of language invention",
+    "year": 2015,
+    "first_author": "David J. Peterson"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  }
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
+}

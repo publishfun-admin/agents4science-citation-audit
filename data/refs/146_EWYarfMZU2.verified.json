@@ -280,7 +280,7 @@
    "container": null,
    "type": "book",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -303,7 +303,23 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "openlibrary",
+   "match": {
+    "source": "openlibrary",
+    "id": "/works/OL3941624W",
+    "title": "Statistical estimates and transformed beta-variables",
+    "year": 1958,
+    "first_author": "Gunnar Blom"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1721,7 +1737,7 @@
    "container": "Contemporary Intellectual Assessment: Theories, Tests, and Issues",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -1744,7 +1760,28 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "17e70f76ac3d11418e1f1ebc2ca0c9a5a38fb6c7",
+    "title": "The Cattell-Horn-Carroll model of intelligence.",
+    "year": 2012,
+    "first_author": "W. J. Schneider",
+    "container": "",
+    "ext": {
+     "MAG": "2472520946",
+     "CorpusId": 148467552
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1799,7 +1836,7 @@
    "container": "Educational Measurement: Issues and Practice",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -1822,7 +1859,28 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "9e00d9fec56e611936fb0d2a16f1105bf091ede7",
+    "title": "Implications of cognitive psychology for educational measurement.",
+    "year": 1989,
+    "first_author": "R. Snow",
+    "container": "",
+    "ext": {
+     "MAG": "1771616203",
+     "CorpusId": 143218235
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -2091,7 +2149,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -2114,7 +2172,28 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "3f0fd835b0be27fd28753a3a5f6a4d90e3d1ff9c",
+    "title": "Manual for the Wechsler Adult Intelligence Scale.",
+    "year": 1955,
+    "first_author": "D. Wechsler",
+    "container": "",
+    "ext": {
+     "MAG": "2053293311",
+     "CorpusId": 144570946
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -2153,5 +2232,7 @@
    },
    "evidence": []
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

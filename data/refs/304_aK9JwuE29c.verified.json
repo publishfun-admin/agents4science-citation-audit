@@ -1,0 +1,916 @@
+{
+ "pdf": "304_aK9JwuE29c.pdf",
+ "n_entries": 22,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "References [1] Barrett R Anderson, Romit Harr\u00e9, Karanjeet Sharma, Mohsen Aghazadeh, Jared Bates, Mathew Soulos, and Parker Nowick. Homogenization effects of large language models on human creative ideation. arXiv preprint arXiv:2402.01536, 2024.",
+   "title": "Homogenization effects of large language models on human creative ideation",
+   "authors": [
+    "References [1] Barrett R Anderson, Romit Harr\u00e9, Karanjeet Sharma, Mohsen Aghazadeh, Jared Bates, Mathew Soulos, and Parker Nowick."
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2402.01536",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3635636.3656204",
+    "title": "Homogenization Effects of Large Language Models on Human Creative Ideation",
+    "year": 2024,
+    "first_author": "Anderson",
+    "container": "Creativity and Cognition",
+    "type": "proceedings-article",
+    "score": 65.55582
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2402.01536"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2] Yoshua Bengio, Yann LeCun, and Geoffrey Hinton. Deep learning for ai. Communications of the ACM, 64(7):58\u201365, 2021.",
+   "title": "Deep learning for ai",
+   "authors": [
+    "Bengio",
+    "LeCun",
+    "Hinton"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Communications of the ACM",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1561/9781601982957",
+    "title": "Learning Deep Architectures for AI",
+    "year": 2009,
+    "first_author": "Bengio",
+    "container": "",
+    "type": "monograph",
+    "score": 37.655907
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.667,
+    "partial_ratio": 55.88235294117647,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3] Alice Chen, Bob Wang, and Carol Zhang. Bias in llm-as-a-judge evaluation. arXiv preprint, 2024.",
+   "title": "Bias in llm-as-a-judge evaluation",
+   "authors": [
+    "Chen",
+    "Wang",
+    "Zhang"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.14711/thesis-hdl174616",
+      "title": "Towards Meta-evaluation for LLM-as-a-judge in Web Development Quality",
+      "year": 2026,
+      "first_author": "Li",
+      "container": "",
+      "type": "dissertation",
+      "score": 28.652779
+     },
+     "metrics": {
+      "title_sim": 91.80327868852459,
+      "containment": 0.429,
+      "partial_ratio": 50.72463768115942,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4] Wei-Lin Chiang, Zhuohan Li, Zi Lin, Ying Sheng, Zhanghao Wu, Hao Zhang, Lianmin Zheng, Siyuan Chen, Yonghao Zhuang, Siyuan Zhuang, et al. Chatbot arena: Crowdsourced evaluation platform for llms. arXiv preprint, 2024.",
+   "title": null,
+   "authors": [
+    "Chiang",
+    "Li",
+    "Lin",
+    "Sheng",
+    "Wu",
+    "Zhang",
+    "Zheng",
+    "Chen",
+    "Zhuang",
+    "Zhuang"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.52202/075280-2020",
+      "title": "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena",
+      "year": 2023,
+      "first_author": "Zheng",
+      "container": "Advances in Neural Information Processing Systems 36",
+      "type": "proceedings-article",
+      "score": 70.534004
+     },
+     "metrics": {
+      "title_sim": 0,
+      "containment": 0.333,
+      "partial_ratio": 50.0,
+      "year_ok": true,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5] Jana Haase and Paul H P Hanel. Assessing and understanding creativity in large language models. arXiv preprint arXiv:2401.12491, 2024.",
+   "title": "Assessing and understanding creativity in large language models",
+   "authors": [
+    "Haase",
+    "Hanel"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2401.12491",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.5334/bde.f",
+    "title": "Large language models and creativity",
+    "year": 2025,
+    "first_author": "Poibeau",
+    "container": "Understanding Conversational AI: Philosophy, Ethics, and Social Impact of Large Language Models",
+    "type": "book-chapter",
+    "score": 37.692963
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 77.77777777777779,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2401.12491"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[6] Sarah Jackson, David Thompson, and Emma Williams. Diversity and excellence in research assessment. Research Policy, 53(4):104\u2013120, 2024.",
+   "title": "Diversity and excellence in research assessment",
+   "authors": [
+    "Jackson",
+    "Thompson",
+    "Williams"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Research Policy",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.7759/cureus.56114",
+      "title": "The Impact of Gender Diversity on Excellence in Pathology Research and Education",
+      "year": 2024,
+      "first_author": "Kiran",
+      "container": "Cureus",
+      "type": "journal-article",
+      "score": 21.489601
+     },
+     "metrics": {
+      "title_sim": 86.74698795180723,
+      "containment": 0.429,
+      "partial_ratio": 62.5,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[7] Carlos E Jimenez, John Yang, Alexander Wettig, Shunyu Yao, Kexin Pei, Ofir Press, and Karthik Narasimhan. Swe-bench: Can language models resolve real-world github issues? arXiv preprint arXiv:2310.06770, 2023.",
+   "title": "Swe-bench: Can language models resolve real-world github issues?",
+   "authors": [
+    "Jimenez",
+    "Yang",
+    "Wettig",
+    "Yao",
+    "Pei",
+    "Press",
+    "Narasimhan"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2310.06770",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2310.06770",
+    "title": "SWE-bench: Can Language Models Resolve Real-World GitHub Issues?",
+    "year": 2023,
+    "first_author": "Carlos E. Jimenez"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[8] Hyunwoo Kim, Jiaxuan Lee, and Sungjin Park. Virtual scientists: Multi-agent systems for scientific discovery. arXiv preprint, 2024.",
+   "title": "Virtual scientists: Multi-agent systems for scientific discovery",
+   "authors": [
+    "Kim",
+    "Lee",
+    "Park"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1038/s44387-026-00102-5",
+      "title": "AgenticSciML: collaborative multi-agent systems for emergent discovery in scientific machine learning",
+      "year": 2026,
+      "first_author": "Jiang",
+      "container": "npj Artificial Intelligence",
+      "type": "journal-article",
+      "score": 28.26049
+     },
+     "metrics": {
+      "title_sim": 82.24299065420561,
+      "containment": 0.5,
+      "partial_ratio": 60.46511627906976,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[9] Micha\u0142 Kosinski and Christopher D Manning. Scientific hypothesis generation by large language models: laboratory validation in breast cancer treatment. Journal of The Royal Society Interface, 21(220):20240674, 2024.",
+   "title": "Scientific hypothesis generation by large language models: laboratory validation in breast cancer treatment",
+   "authors": [
+    "Kosinski",
+    "Manning"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of The Royal Society Interface",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52843/cassyni.9gxrjf",
+    "title": "Scientific hypothesis generation by large language models: laboratory validation in breast cancer treatment",
+    "year": 2025,
+    "first_author": "Rehim",
+    "container": "",
+    "type": "posted-content",
+    "score": 69.620224
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[10] Kevin Lee, Michelle Park, and Daniel Zhang. Domain-specific bert fine-tuning for semantic similarity. arXiv preprint, 2024.",
+   "title": "Domain-specific bert fine-tuning for semantic similarity",
+   "authors": [
+    "Lee",
+    "Park",
+    "Zhang"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.21203/rs.3.rs-6345204/v1",
+      "title": "BERT-Based Fine-Tuning for Efficient Context Similarity Analysis",
+      "year": 2025,
+      "first_author": "Gotad",
+      "container": "",
+      "type": "posted-content",
+      "score": 37.10935
+     },
+     "metrics": {
+      "title_sim": 73.33333333333333,
+      "containment": 0.5,
+      "partial_ratio": 62.903225806451616,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "[11] Chris Lu, Cong Lu, Robert Tjarko Lange, Jakob Foerster, Jeff Clune, and David Ha. The ai scientist: Towards fully automated open-ended scientific discovery. arXiv preprint arXiv:2408.06292, 2024.",
+   "title": "The ai scientist: Towards fully automated open-ended scientific discovery",
+   "authors": [
+    "Lu",
+    "Lu",
+    "Lange",
+    "Foerster",
+    "Clune",
+    "Ha"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2408.06292",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2408.06292",
+    "title": "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery",
+    "year": 2024,
+    "first_author": "Chris Lu"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "[12] Carlos Martinez, Jennifer Lee, and Michael Wang. Topic modeling for research quality assessment. Scientometrics, 129(8):4523\u20134545, 2024.",
+   "title": "Topic modeling for research quality assessment",
+   "authors": [
+    "Martinez",
+    "Lee",
+    "Wang"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Scientometrics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.32920/24084828.v1",
+      "title": "A Topic Modeling Assessment of Emerging Research Trends in the Environmental Science and Engineering Discipline",
+      "year": 2024,
+      "first_author": "Palanichamy",
+      "container": "",
+      "type": "posted-content",
+      "score": 29.471212
+     },
+     "metrics": {
+      "title_sim": 44.5859872611465,
+      "containment": 0.4,
+      "partial_ratio": 47.71573604060914,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "[13] Nils Reimers and Iryna Gurevych. Sentence-bert: Sentence embeddings using siamese bertnetworks. Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing, pages 3982\u20133992, 2019.",
+   "title": "Sentence-bert: Sentence embeddings using siamese bertnetworks",
+   "authors": [
+    "Reimers",
+    "Gurevych"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/d19-1410",
+    "title": "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks",
+    "year": 2019,
+    "first_author": "Reimers",
+    "container": "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)",
+    "type": "proceedings-article",
+    "score": 70.795166
+   },
+   "metrics": {
+    "title_sim": 99.17355371900827,
+    "containment": 0.857,
+    "partial_ratio": 98.36065573770492,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "[14] Maria Rodriguez, James Thompson, and Sarah Chen. Evaluating creativity: Can llms be good evaluators in creative writing tasks? Applied Sciences, 15(6):2971, 2025.",
+   "title": "Evaluating creativity: Can llms be good evaluators in creative writing tasks?",
+   "authors": [
+    "Rodriguez",
+    "Thompson",
+    "Chen"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Applied Sciences",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.3390/app15062971",
+    "title": "Evaluating Creativity: Can LLMs Be Good Evaluators in Creative Writing Tasks?",
+    "year": 2025,
+    "first_author": "Kim",
+    "container": "Applied Sciences",
+    "type": "journal-article",
+    "score": 79.06156
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "[15] Kai Ruan, Xuan Wang, Jixiang Hong, and Hao Sun. Liveideabench: Evaluating llms\u2019 scientific creativity and idea generation with minimal context. arXiv preprint arXiv:2412.17596, 2024.",
+   "title": "Liveideabench: Evaluating llms\u2019 scientific creativity and idea generation with minimal context",
+   "authors": [
+    "Ruan",
+    "Wang",
+    "Hong",
+    "Sun"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2412.17596",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2412.17596"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1038/s41467-026-70245-1",
+      "title": "Evaluating LLMs' divergent thinking capabilities for scientific idea generation with minimal context",
+      "year": 2026,
+      "first_author": "Ruan",
+      "container": "Nature Communications",
+      "type": "journal-article",
+      "score": 55.4819
+     },
+     "metrics": {
+      "title_sim": 81.29032258064515,
+      "containment": 0.7,
+      "partial_ratio": 67.67676767676767,
+      "year_ok": false,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 16,
+   "raw": "[16] Kai Ruan, Xuan Wang, Jixiang Hong, and Hao Sun. Liveideabench: Evaluating llms\u2019 scientific creativity and idea generation with minimal context. arXiv preprint arXiv:2412.17596, 2024.",
+   "title": "Liveideabench: Evaluating llms\u2019 scientific creativity and idea generation with minimal context",
+   "authors": [
+    "Ruan",
+    "Wang",
+    "Hong",
+    "Sun"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2412.17596",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2412.17596"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1038/s41467-026-70245-1",
+      "title": "Evaluating LLMs' divergent thinking capabilities for scientific idea generation with minimal context",
+      "year": 2026,
+      "first_author": "Ruan",
+      "container": "Nature Communications",
+      "type": "journal-article",
+      "score": 55.4819
+     },
+     "metrics": {
+      "title_sim": 81.29032258064515,
+      "containment": 0.7,
+      "partial_ratio": 67.67676767676767,
+      "year_ok": false,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 17,
+   "raw": "[17] Anthropic Team. Large language model performance rankings and benchmarks. Technical Report, 2024.",
+   "title": "Large language model performance rankings and benchmarks",
+   "authors": [
+    "Team"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "report",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1101/2025.08.01.668022",
+      "title": "Federated Knowledge Retrieval Elevates Large Language Model Performance on Biomedical Benchmarks",
+      "year": 2025,
+      "first_author": "Joy",
+      "container": "",
+      "type": "posted-content",
+      "score": 35.103985
+     },
+     "metrics": {
+      "title_sim": 61.8421052631579,
+      "containment": 0.5,
+      "partial_ratio": 65.88235294117646,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 18,
+   "raw": "[18] BGE Team. Sentence embeddings benchmark: Mteb leaderboard analysis. Technical Report, 2024.",
+   "title": "Sentence embeddings benchmark: Mteb leaderboard analysis",
+   "authors": [
+    "Team"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "report",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.18653/v1/2024.findings-emnlp.855",
+      "title": "LEGOBench: Scientific Leaderboard Generation Benchmark",
+      "year": 2024,
+      "first_author": "Singh",
+      "container": "Findings of the Association for Computational Linguistics: EMNLP 2024",
+      "type": "proceedings-article",
+      "score": 29.253448
+     },
+     "metrics": {
+      "title_sim": 66.66666666666666,
+      "containment": 0.4,
+      "partial_ratio": 56.60377358490566,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 19,
+   "raw": "[19] UNESCO. Responsible research and innovation: Unesco guidelines. UNESCO Science Report, 2023.",
+   "title": "Responsible research and innovation: Unesco guidelines",
+   "authors": [],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.59350/pgx2k-gee15",
+      "title": "Navigating Responsible Research Assessment Guidelines",
+      "year": 2023,
+      "first_author": "Gauffriau",
+      "container": "",
+      "type": "posted-content",
+      "score": 28.741499
+     },
+     "metrics": {
+      "title_sim": 77.35849056603774,
+      "containment": 0.6,
+      "partial_ratio": 66.03773584905662,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 20,
+   "raw": "[20] Xuan Wang, Jiajun Chen, and Yilong Zhang. Ai and the future of collaborative work: Group ideation with an llm in a virtual canvas. Proceedings of the 3rd Annual Meeting of the Symposium on Human-Computer Interaction for Work, pages 1\u201312, 2024.",
+   "title": "Ai and the future of collaborative work: Group ideation with an llm in a virtual canvas",
+   "authors": [
+    "Wang",
+    "Chen",
+    "Zhang"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 3rd Annual Meeting of the Symposium on Human-Computer Interaction for Work",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3663384.3663398",
+    "title": "AI and the Future of Collaborative Work: Group Ideation with an LLM in a Virtual Canvas",
+    "year": 2024,
+    "first_author": "He",
+    "container": "Proceedings of the 3rd Annual Meeting of the Symposium on Human-Computer Interaction for Work",
+    "type": "proceedings-article",
+    "score": 55.396435
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 21,
+   "raw": "[21] Li Zhang, Xiaoning Wang, and Hao Liu. Causal knowledge graphs for psychology research: A case study on creativity. arXiv preprint, 2024.",
+   "title": "Causal knowledge graphs for psychology research: A case study on creativity",
+   "authors": [
+    "Zhang",
+    "Wang",
+    "Liu"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1057/9780230363144_3",
+      "title": "Creativity Research in the East Midlands (CreEM): A Critical Case Study",
+      "year": 2012,
+      "first_author": "Smith",
+      "container": "Knowledge Transfer in Higher Education",
+      "type": "book-chapter",
+      "score": 25.748325
+     },
+     "metrics": {
+      "title_sim": 64.0,
+      "containment": 0.5,
+      "partial_ratio": 47.05882352941176,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 22,
+   "raw": "[22] Lianmin Zheng, Wei-Lin Chiang, Ying Sheng, Siyuan Zhuang, Zhanghao Wu, Yonghao Zhuang, Zi Lin, Zhuohan Li, Dacheng Li, Eric P Xing, et al. Judging llm-as-a-judge with mt-bench and chatbot arena. Advances in Neural Information Processing Systems, 36:46595\u201346623, 2023.",
+   "title": "Judging llm-as-a-judge with mt-bench and chatbot arena",
+   "authors": [
+    "Zheng",
+    "Chiang",
+    "Sheng",
+    "Zhuang",
+    "Wu",
+    "Zhuang",
+    "Lin",
+    "Li",
+    "Li",
+    "Xing"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/075280-2020",
+    "title": "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena",
+    "year": 2023,
+    "first_author": "Zheng",
+    "container": "Advances in Neural Information Processing Systems 36",
+    "type": "proceedings-article",
+    "score": 60.07018
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  }
+ ]
+}

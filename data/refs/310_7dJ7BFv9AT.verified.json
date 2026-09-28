@@ -1,0 +1,563 @@
+{
+ "pdf": "310_7dJ7BFv9AT.pdf",
+ "n_entries": 14,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": true,
+   "idx": 1,
+   "raw": "References follow the acknowledgments in the camera-ready paper. Use unnumbered first-level heading for the references. Any choice of citation style is acceptable as long as you are consistent. It is permissible to reduce the font size to small (9 point) when listing the references. Note that the Reference section does not count towards the page limit.",
+   "title": "References follow the acknowledgments in the camera-ready paper. Use unnumbered first-level heading for the references. Any choice of citation style is acceptable as long as you are consistent. It is permissible to reduce the font size to small (9 point) when listing the references",
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.4135/9781036221492.n1",
+      "title": "The Most Prominent Citation Styles and Style Guides for Research Papers",
+      "year": 2024,
+      "first_author": null,
+      "container": "How to Cite References in a Research Paper (For Beginners)",
+      "type": "book-chapter",
+      "score": 52.468636
+     },
+     "metrics": {
+      "title_sim": 31.60919540229885,
+      "containment": 0.25,
+      "partial_ratio": 52.112676056338024,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "1. A. Madaan et al. Self-Refine: Iterative Refinement with Self-Feedback. arXiv:2303.17651, 2023.",
+   "title": "Self-Refine: Iterative Refinement with Self-Feedback",
+   "authors": [
+    "Madaan"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2303.17651",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/075280-2019",
+    "title": "Self-Refine: Iterative Refinement with Self-Feedback",
+    "year": 2023,
+    "first_author": "Madaan",
+    "container": "Advances in Neural Information Processing Systems 36",
+    "type": "proceedings-article",
+    "score": 51.76357
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2303.17651"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "2. N. Shinn et al. Reflexion: Language Agents with Verbal Reinforcement Learning. arXiv:2303.11366 (NeurIPS 2023 poster), 2023.",
+   "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+   "authors": [
+    "Shinn"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": "2303.11366",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/075280-0377",
+    "title": "Reflexion: language agents with verbal reinforcement learning",
+    "year": 2023,
+    "first_author": "Shinn",
+    "container": "Advances in Neural Information Processing Systems 36",
+    "type": "proceedings-article",
+    "score": 55.42346
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2303.11366"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "3. Y. Bai et al. Constitutional AI: Harmlessness from AI Feedback. arXiv:2212.08073, 2022.",
+   "title": "Constitutional AI: Harmlessness from AI Feedback",
+   "authors": [
+    "Bai"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": "2212.08073",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2212.08073",
+    "title": "Constitutional AI: Harmlessness from AI Feedback",
+    "year": 2022,
+    "first_author": "Yuntao Bai"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "4. L. Zheng et al. Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena. arXiv:2306.05685 (NeurIPS 2023), 2023.",
+   "title": "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena",
+   "authors": [
+    "Zheng"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": "2306.05685",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/075280-2020",
+    "title": "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena",
+    "year": 2023,
+    "first_author": "Zheng",
+    "container": "Advances in Neural Information Processing Systems 36",
+    "type": "proceedings-article",
+    "score": 57.680363
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2306.05685"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "5. Q. Wu et al. AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation Framework. arXiv:2308.08155; Microsoft Research Tech Report, 2024.",
+   "title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation Framework",
+   "authors": [
+    "Wu"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2308.08155",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2308.08155"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.7162224",
+      "title": "Self-Refining Topology Optimization via an LLM-Based Multi-Agent Framework",
+      "year": 2026,
+      "first_author": "Park",
+      "container": "",
+      "type": "posted-content",
+      "score": 37.82387
+     },
+     "metrics": {
+      "title_sim": 67.09677419354838,
+      "containment": 0.444,
+      "partial_ratio": 58.10810810810811,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "6. Y. Du et al. Improving Factuality and Reasoning in Language Models through Multiagent Debate. arXiv:2305.14325, 2023.",
+   "title": "Improving Factuality and Reasoning in Language Models through Multiagent Debate",
+   "authors": [
+    "Du"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2305.14325",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2305.14325",
+    "title": "Improving Factuality and Reasoning in Language Models through Multiagent Debate",
+    "year": 2023,
+    "first_author": "Yilun Du"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "7. R. Liu and N. B. Shah. ReviewerGPT? ... arXiv:2306.00622, 2023.",
+   "title": "Shah",
+   "authors": [
+    "Liu",
+    "B"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2306.00622",
+   "urls": [],
+   "container": "ReviewerGPT?",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2306.00622"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.21437/interspeech.2023-1118",
+      "title": "SlothSpeech: Denial-of-service Attack Against Speech Recognition Models",
+      "year": 2023,
+      "first_author": "Haque",
+      "container": "INTERSPEECH 2023",
+      "type": "proceedings-article",
+      "score": 15.368409
+     },
+     "metrics": {
+      "title_sim": 10.81081081081081,
+      "containment": 0.0,
+      "partial_ratio": 33.009708737864074,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "8. J. Lee et al. The Role of Large Language Models in the Peer-Review Process. Frontiers in Big Data, 2025.",
+   "title": "The Role of Large Language Models in the Peer-Review Process",
+   "authors": [
+    "Lee"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Frontiers in Big Data",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/s11192-025-05440-w",
+      "title": "Large language models in peer review: challenges and opportunities",
+      "year": 2025,
+      "first_author": "Sun",
+      "container": "Scientometrics",
+      "type": "journal-article",
+      "score": 32.258034
+     },
+     "metrics": {
+      "title_sim": 78.26086956521739,
+      "containment": 0.714,
+      "partial_ratio": 72.3076923076923,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "9. C. Li et al. Can Large Language Models Be Trusted Paper Reviewers? arXiv:2506.17311, 2025.",
+   "title": "Li et al",
+   "authors": [],
+   "year": 2025,
+   "doi": null,
+   "arxiv": "2506.17311",
+   "urls": [],
+   "container": "Can Large Language Models Be Trusted Paper Reviewers?",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.5194/egusphere-2025-1739-rc1",
+    "title": "Comment on Kaiwen Li et al.",
+    "year": 2025,
+    "first_author": null,
+    "container": "",
+    "type": "peer-review",
+    "score": 21.789438
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.0,
+    "partial_ratio": 52.63157894736843,
+    "year_ok": true,
+    "first_author_ok": null
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2506.17311"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "10. X. Tan et al. Large Language Models for Automated Scholarly Paper Review (ASPR): A Survey. arXiv:2501.10326, 2025.",
+   "title": "Large Language Models for Automated Scholarly Paper Review (ASPR): A Survey",
+   "authors": [
+    "Tan"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": "2501.10326",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.inffus.2025.103332",
+    "title": "Large language models for automated scholarly paper review: A survey",
+    "year": 2025,
+    "first_author": "Zhuang",
+    "container": "Information Fusion",
+    "type": "journal-article",
+    "score": 49.960934
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 92.53731343283582,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2501.10326"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "11. T.-L. Lin et al. Breaking the Reviewer: ... arXiv:2506.11113, 2025.",
+   "title": "Lin et al",
+   "authors": [],
+   "year": 2025,
+   "doi": null,
+   "arxiv": "2506.11113",
+   "urls": [],
+   "container": "Breaking the Reviewer",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1017/s0007114526107661.sm001",
+    "title": "Lin et al. supplementary material",
+    "year": 2026,
+    "first_author": null,
+    "container": "",
+    "type": "component",
+    "score": 21.448814
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.333,
+    "partial_ratio": 53.125,
+    "year_ok": true,
+    "first_author_ok": null
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2506.11113"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "12. M. Naddaf. AI tool detects ... Nature News, 2025.",
+   "title": "AI tool detects",
+   "authors": [
+    "Naddaf"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature News",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1038/d41586-025-00528-y",
+      "title": "AI tool diagnoses diabetes, HIV and COVID from a blood sample",
+      "year": 2025,
+      "first_author": "Naddaf",
+      "container": "Nature",
+      "type": "journal-article",
+      "score": 31.769882
+     },
+     "metrics": {
+      "title_sim": 37.33333333333333,
+      "containment": 0.143,
+      "partial_ratio": 47.887323943661976,
+      "year_ok": true,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "13. Scientists reportedly hiding ... The Guardian, 2025.",
+   "title": "Scientists reportedly hiding",
+   "authors": [],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1016/j.fopow.2025.06.013",
+      "title": "BASF reportedly considers sale of its coatings division",
+      "year": 2025,
+      "first_author": null,
+      "container": "Focus on Powder Coatings",
+      "type": "journal-article",
+      "score": 20.478958
+     },
+     "metrics": {
+      "title_sim": 53.01204819277108,
+      "containment": 0.167,
+      "partial_ratio": 48.0,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  }
+ ]
+}

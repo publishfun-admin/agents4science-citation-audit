@@ -1,0 +1,1115 @@
+{
+ "pdf": "215_5cqTODhW4g.pdf",
+ "n_entries": 20,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 2,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "[1] AI at Meta. The Llama 3 Herd of Models. arXiv preprint arXiv:2407.21783, 2024.",
+   "title": "The Llama 3 Herd of Models",
+   "authors": [
+    "Meta"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2407.21783",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2407.21783"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1016/b978-1-4377-2352-6.00004-3",
+      "title": "Camelid Herd Health and Nutrition",
+      "year": 2014,
+      "first_author": "Johnson",
+      "container": "Llama and Alpaca Care",
+      "type": "book-chapter",
+      "score": 25.510162
+     },
+     "metrics": {
+      "title_sim": 44.067796610169495,
+      "containment": 0.25,
+      "partial_ratio": 45.45454545454546,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "40e8af970329135ec95057d73e239dab805ad128",
+    "title": "The Llama 3 Herd of Models",
+    "year": 2024,
+    "first_author": "Aaron Grattafiori",
+    "container": "",
+    "ext": {
+     "ArXiv": "2407.21783",
+     "CorpusId": 271571434
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2] Anirudh Ajith, Mengzhou Xia, Alexis Chevalier, Tanya Goyal, Danqi Chen, and Tianyu Gao. LitSearch: A Retrieval Benchmark for Scientific Literature Search. arXiv preprint arXiv:2407.18940, 2024.",
+   "title": "LitSearch: A Retrieval Benchmark for Scientific Literature Search",
+   "authors": [
+    "Ajith",
+    "Xia",
+    "Chevalier",
+    "Goyal",
+    "Chen",
+    "Gao"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2407.18940",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2024.emnlp-main.840",
+    "title": "LitSearch: A Retrieval Benchmark for Scientific Literature Search",
+    "year": 2024,
+    "first_author": "Ajith",
+    "container": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+    "type": "proceedings-article",
+    "score": 60.250156
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2407.18940"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3] T. Calinski and J. Harabasz. A dendrite method for cluster analysis. Communications in Statistics-Theory and Methods, 3(1):1\u201327, 1974.",
+   "title": "A dendrite method for cluster analysis",
+   "authors": [
+    "Calinski",
+    "Harabasz"
+   ],
+   "year": 1974,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Communications in Statistics-Theory and Methods",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1080/03610917408548446",
+    "title": "A Dendrite Method for Cluster Analysis",
+    "year": 1974,
+    "first_author": "Calinski",
+    "container": "Communications in Statistics - Simulation and Computation",
+    "type": "journal-article",
+    "score": 47.144817
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4] Yupeng Chang, Xu Wang, Jindong Wang, Yuan Wu, Linyi Yang, Kaijie Zhu, Hao Chen, Xiaoyuan Yi, Cunxiang Wang, Yidong Wang, Wei Ye, Yue Zhang, Yi Chang, Philip S. Yu, Qiang Yang, and Xing Xie. A Survey on Evaluation of Large Language Models. ACM Transactions on Intelligent Systems and Technology, 15(3):1\u201345, 2024.",
+   "title": "A Survey on Evaluation of Large Language Models",
+   "authors": [
+    "Chang",
+    "Wang",
+    "Wang",
+    "Wu",
+    "Yang",
+    "Zhu",
+    "Chen",
+    "Yi",
+    "Wang",
+    "Wang",
+    "Ye",
+    "Zhang",
+    "Chang",
+    "Yu",
+    "Yang",
+    "Xie"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "ACM Transactions on Intelligent Systems and Technology",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.31224/3981",
+      "title": "A Comprehensive Analysis of Survey Papers on Large Language Models",
+      "year": 2024,
+      "first_author": "Thapa Magar",
+      "container": "",
+      "type": "posted-content",
+      "score": 31.030773
+     },
+     "metrics": {
+      "title_sim": 86.74698795180723,
+      "containment": 0.571,
+      "partial_ratio": 60.60606060606061,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "888728745dbb769e29ed475d4f7661eebe1a71cf",
+    "title": "A Survey on Evaluation of Large Language Models",
+    "year": 2023,
+    "first_author": "Yu-Peng Chang",
+    "container": "ACM Transactions on Intelligent Systems and Technology",
+    "ext": {
+     "DBLP": "journals/tist/ChangWWWYZCYWWYZCYYX24",
+     "ArXiv": "2307.03109",
+     "DOI": "10.1145/3641289",
+     "CorpusId": 259360395
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5] David L. Davies and Donald W. Bouldin. A cluster separation measure. IEEE Transactions on Pattern Analysis and Machine Intelligence, PAMI-1(2):224\u2013227, 1979.",
+   "title": "A cluster separation measure",
+   "authors": [
+    "Davies",
+    "Bouldin"
+   ],
+   "year": 1979,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/tpami.1979.4766909",
+    "title": "A Cluster Separation Measure",
+    "year": 1979,
+    "first_author": "Davies",
+    "container": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+    "type": "journal-article",
+    "score": 32.060566
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[6] Tyna Eloundou, Sam Manning, Pamela Mishkin, and Daniel Rock. The emergence of Large Language Models (LLM) as a tool in literature reviews: an LLM automated systematic review. Journal of the American Medical Informatics Association, 32(6):1071\u20131085, 2025.",
+   "title": "The emergence of Large Language Models (LLM) as a tool in literature reviews: an LLM automated systematic review",
+   "authors": [
+    "Eloundou",
+    "Manning",
+    "Mishkin",
+    "Rock"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of the American Medical Informatics Association",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1002/eng2.70365/v2/review1",
+      "title": "Review for \"Systematic Literature Review of LLM\u2010Large Language Model in Medical: Digital Health, Technology and Applications\"",
+      "year": 2025,
+      "first_author": null,
+      "container": "",
+      "type": "peer-review",
+      "score": 55.107967
+     },
+     "metrics": {
+      "title_sim": 72.14611872146119,
+      "containment": 0.615,
+      "partial_ratio": 50.413223140495866,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "0785475eedc549a1f3f3c3e1e6bf04e4816805ce",
+    "title": "The emergence of Large Language Models (LLM) as a tool in literature reviews: an LLM automated systematic review",
+    "year": 2024,
+    "first_author": "D. Scherbakov",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2409-04600",
+     "DOI": "10.48550/arXiv.2409.04600",
+     "CorpusId": 278636240
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[7] Tomohiro Gao, Jun Zhang, and Yue Zhang. Comprehensive Evaluation of Large Language Models for Topic Modeling. In Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing, 2024.",
+   "title": "Comprehensive Evaluation of Large Language Models for Topic Modeling",
+   "authors": [
+    "Gao",
+    "Zhang",
+    "Zhang"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.32388/fpnrkt",
+      "title": "Review of: \"Leveraging Large Language Models and Topic Modeling for Toxicity Classification\"",
+      "year": 2025,
+      "first_author": "Becker",
+      "container": "",
+      "type": "peer-review",
+      "score": 36.99593
+     },
+     "metrics": {
+      "title_sim": 77.47747747747748,
+      "containment": 0.556,
+      "partial_ratio": 62.92134831460674,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "5b9a313513b5deddeedbb58e8e39c1f3eb6c1b92",
+    "title": "Comprehensive Evaluation of Large Language Models for Topic Modeling",
+    "year": 2024,
+    "first_author": "T. Doi",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2406-00697",
+     "ArXiv": "2406.00697",
+     "DOI": "10.48550/arXiv.2406.00697",
+     "CorpusId": 270218401
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[8] Yichen He, Guanhua Huang, Peiyuan Feng, Yuan Lin, Yuchen Zhang, Hang Li, and Weinan E. PaSa: An LLM Agent for Comprehensive Academic Paper Search. arXiv preprint arXiv:2501.10120, 2025.",
+   "title": "An LLM Agent for Comprehensive Academic Paper Search",
+   "authors": [
+    "He",
+    "Huang",
+    "Feng",
+    "Lin",
+    "Zhang",
+    "Li",
+    "PaSa"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": "2501.10120",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2025.acl-long.572",
+    "title": "PaSa: An LLM Agent for Comprehensive Academic Paper Search",
+    "year": 2025,
+    "first_author": "He",
+    "container": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "type": "proceedings-article",
+    "score": 42.96127
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2501.10120"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[9] Rodney Kinley, Mark Neumann, Kuansan Wang, Lucy Lu Wang, and Kyle Lo. The Semantic Scholar Open Data Platform. arXiv preprint arXiv:2301.10140, 2023.",
+   "title": "The Semantic Scholar Open Data Platform",
+   "authors": [
+    "Kinley",
+    "Neumann",
+    "Wang",
+    "Wang",
+    "Lo"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2301.10140",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2301.10140"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.20868/upm.thesis.49151",
+      "title": "A Semantic Implementation for Data Management in an Open Building Automation Platform",
+      "year": 2018,
+      "first_author": "Song",
+      "container": "",
+      "type": "dissertation",
+      "score": 29.76223
+     },
+     "metrics": {
+      "title_sim": 51.61290322580645,
+      "containment": 0.5,
+      "partial_ratio": 49.411764705882355,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "cb92a7f9d9dbcf9145e32fdfa0e70e2a6b828eb1",
+    "title": "The Semantic Scholar Open Data Platform",
+    "year": 2023,
+    "first_author": "Rodney Michael Kinney",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2301-10140",
+     "ArXiv": "2301.10140",
+     "DOI": "10.48550/arXiv.2301.10140",
+     "CorpusId": 256194545
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[10] Yongchao Liu, Hanyang Zhong, and Yang Li. A Survey on LLM-based Multi-Agent System: Recent Advances and New Frontiers in Application. arXiv preprint arXiv:2412.17481, 2024.",
+   "title": "A Survey on LLM-based Multi-Agent System: Recent Advances and New Frontiers in Application",
+   "authors": [
+    "Liu",
+    "Zhong",
+    "Li"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2412.17481",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2412.17481"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.3389/fnins.2025.1688509",
+      "title": "LLM-based multi-agent system for neuro-ophthalmic diagnosis and personalized treatment planning",
+      "year": 2025,
+      "first_author": "Wang",
+      "container": "Frontiers in Neuroscience",
+      "type": "journal-article",
+      "score": 36.357006
+     },
+     "metrics": {
+      "title_sim": 63.04347826086956,
+      "containment": 0.455,
+      "partial_ratio": 60.0,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "84f93f0cb97daf7ee15b64cd5d1a355e13b7e4d6",
+    "title": "A Survey on LLM-based Multi-Agent System: Recent Advances and New Frontiers in Application",
+    "year": 2024,
+    "first_author": "Shuaihang Chen",
+    "container": "",
+    "ext": {
+     "ArXiv": "2412.17481",
+     "CorpusId": 274981589
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "[11] S. Lloyd. Least squares quantization in PCM. IEEE Transactions on Information Theory, 28(2):129\u2013137, 1982.",
+   "title": "Least squares quantization in PCM",
+   "authors": [
+    "Lloyd"
+   ],
+   "year": 1982,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE Transactions on Information Theory",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/tit.1982.1056489",
+    "title": "Least squares quantization in PCM",
+    "year": 1982,
+    "first_author": "Lloyd",
+    "container": "IEEE Transactions on Information Theory",
+    "type": "journal-article",
+    "score": 52.9919
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "[12] Nils Reimers and Iryna Gurevych. Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks. In Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP), pages 3982\u20133992. Association for Computational Linguistics, 2019.",
+   "title": "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks",
+   "authors": [
+    "Reimers",
+    "Gurevych"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/d19-1410",
+    "title": "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks",
+    "year": 2019,
+    "first_author": "Reimers",
+    "container": "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)",
+    "type": "proceedings-article",
+    "score": 87.59219
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "[13] Peter J. Rousseeuw. Silhouettes: a graphical aid to the interpretation and validation of cluster analysis. Journal of Computational and Applied Mathematics, 20:53\u201365, 1987.",
+   "title": "Silhouettes: a graphical aid to the interpretation and validation of cluster analysis",
+   "authors": [
+    "Rousseeuw"
+   ],
+   "year": 1987,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Computational and Applied Mathematics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/0377-0427(87)90125-7",
+    "title": "Silhouettes: A graphical aid to the interpretation and validation of cluster analysis",
+    "year": 1987,
+    "first_author": "Rousseeuw",
+    "container": "Journal of Computational and Applied Mathematics",
+    "type": "journal-article",
+    "score": 69.75957
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "[14] Said A. Salloum, Muhammad Alshurideh, and Ahmad Aburayya. Automating Systematic Literature Reviews with Retrieval-Augmented Generation: A Comprehensive Overview. Applied Sciences, 14(19):9103, 2024.",
+   "title": "Automating Systematic Literature Reviews with Retrieval-Augmented Generation: A Comprehensive Overview",
+   "authors": [
+    "Salloum",
+    "Alshurideh",
+    "Aburayya"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Applied Sciences",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.3390/app14199103",
+    "title": "Automating Systematic Literature Reviews with Retrieval-Augmented Generation: A Comprehensive Overview",
+    "year": 2024,
+    "first_author": "Han",
+    "container": "Applied Sciences",
+    "type": "journal-article",
+    "score": 65.12755
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "[15] Hanchen Wang, Tianfan Fu, Yuanqi Du, Wenhao Gao, Kexin Huang, Ziming Liu, Payal Chandak, Shengchao Liu, Peter Van Katwyk, Andreea Deac, Anima Anandkumar, Karianne Bergen, Carla P. Gomes, Shuiwang Ji, Pushmeet Kohli, Joan Lasenby, Jure Leskovec, Tie-Yan Liu, Arjun Manrai, Debora Marks, Bharath Ramsundar, Le Song, Jimeng Sun, Jian Tang, Petar Veljkovic, Max Welling, Lerrel Pinto, Tommi Jaakkola, and Regina Barzilay. Scientific discovery in the age of artificial intelligence. Nature, 620(7972):47\u201360, 2023.",
+   "title": "Scientific discovery in the age of artificial intelligence",
+   "authors": [
+    "Wang",
+    "Fu",
+    "Du",
+    "Gao",
+    "Huang",
+    "Liu",
+    "Chandak",
+    "Liu",
+    "Katwyk",
+    "Deac",
+    "Anandkumar",
+    "Bergen",
+    "Gomes",
+    "Ji",
+    "Kohli",
+    "Lasenby",
+    "Leskovec",
+    "Liu",
+    "Manrai",
+    "Marks",
+    "Ramsundar",
+    "Song",
+    "Sun",
+    "Tang",
+    "Veljkovic",
+    "Welling",
+    "Pinto",
+    "Jaakkola",
+    "Barzilay"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.62891/54fe0b5d",
+      "title": "The Fifth Paradigm: Scientific Discovery in the Age of Autonomous Artificial Intelligence",
+      "year": 2025,
+      "first_author": "Henrique do Nascimento Oliveira",
+      "container": "",
+      "type": "posted-content",
+      "score": 37.77001
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 0.625,
+      "partial_ratio": 73.86363636363636,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "f08060425aa8a212d74185ee23a08329b89abcd2",
+    "title": "Scientific discovery in the age of artificial intelligence",
+    "year": 2023,
+    "first_author": "Hanchen Wang",
+    "container": "Nature",
+    "ext": {
+     "DBLP": "journals/nature/WangFD0HLCLKDAB23",
+     "DOI": "10.1038/s41586-023-06221-2",
+     "CorpusId": 260384616,
+     "PubMed": "37532811"
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 16,
+   "raw": "[16] Lei Wang, Chen Ma, Xueyang Feng, Zeyu Zhang, Hao Yang, Jingsen Zhang, Zhiyuan Chen, Jiakai Tang, Xu Chen, Yankai Lin, Wayne Xin Zhao, Zhewei Wei, and Ji-Rong Wen. A Survey on Large Language Model based Autonomous Agents. arXiv preprint arXiv:2308.11432, 2024.",
+   "title": "A Survey on Large Language Model based Autonomous Agents",
+   "authors": [
+    "Wang",
+    "Ma",
+    "Feng",
+    "Zhang",
+    "Yang",
+    "Zhang",
+    "Chen",
+    "Tang",
+    "Chen",
+    "Lin",
+    "Zhao",
+    "Wei",
+    "Wen"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2308.11432",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2308.11432",
+    "title": "A Survey on Large Language Model based Autonomous Agents",
+    "year": 2023,
+    "first_author": "Lei Wang"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 17,
+   "raw": "[17] Xintao Wang, Jiangjie Chen, Nianqi Li, Lida Chen, Xinfeng Yuan, Wei Shi, Xuyang Ge, Rui Xu, and Yanghua Xiao. SurveyAgent: A Conversational System for Personalized and Efficient Research Survey. arXiv preprint arXiv:2404.06364, 2024.",
+   "title": "SurveyAgent: A Conversational System for Personalized and Efficient Research Survey",
+   "authors": [
+    "Wang",
+    "Chen",
+    "Li",
+    "Chen",
+    "Yuan",
+    "Shi",
+    "Ge",
+    "Xu",
+    "Xiao"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2404.06364",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2404.06364"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.21275/v5i3.nov162232",
+      "title": "A Survey on Personalized Recommendation System for Web Services",
+      "year": 2016,
+      "first_author": null,
+      "container": "International Journal of Science and Research (IJSR)",
+      "type": "journal-article",
+      "score": 26.173885
+     },
+     "metrics": {
+      "title_sim": 70.34482758620689,
+      "containment": 0.5,
+      "partial_ratio": 57.14285714285714,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "arxiv_id_repass",
+   "match": {
+    "source": "arxiv_abs",
+    "arxiv": "2404.06364",
+    "title": "SurveyAgent: A Conversational System for Personalized and Efficient Research Survey",
+    "year": 2024,
+    "first_author": "Wang, Xintao"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   }
+  },
+  {
+   "junk": false,
+   "idx": 18,
+   "raw": "[18] Yidong Wang, Qi Guo, Wenjin Yao, Hongbo Zhang, Xin Zhang, Zhen Wu, Meishan Zhang, Xinyu Dai, Min Zhang, Qingsong Wen, Wei Ye, Shikun Zhang, and Yue Zhang. AutoSurvey: Large Language Models Can Automatically Write Surveys. arXiv preprint arXiv:2406.10252, 2024.",
+   "title": "AutoSurvey: Large Language Models Can Automatically Write Surveys",
+   "authors": [
+    "Wang",
+    "Guo",
+    "Yao",
+    "Zhang",
+    "Zhang",
+    "Wu",
+    "Zhang",
+    "Dai",
+    "Zhang",
+    "Wen",
+    "Ye",
+    "Zhang",
+    "Zhang"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2406.10252",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/079017-3655",
+    "title": "AutoSurvey: Large Language Models Can Automatically Write Surveys",
+    "year": 2024,
+    "first_author": "Wang",
+    "container": "Advances in Neural Information Processing Systems 37",
+    "type": "proceedings-article",
+    "score": 59.67712
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2406.10252"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 19,
+   "raw": "[19] Shunyu Yao, Jeffrey Zhao, Dian Yu, Nan Du, Izhak Shafran, Karthik Narasimhan, and Yuan Cao. ReAct: Synergizing Reasoning and Acting in Language Models. In Proceedings of the International Conference on Learning Representations (ICLR), 2023.",
+   "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+   "authors": [
+    "Yao",
+    "Zhao",
+    "Yu",
+    "Du",
+    "Shafran",
+    "Narasimhan",
+    "Cao"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the International Conference on Learning Representations (ICLR",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.4656090",
+      "title": "Large Language Models Reasoning and Reinforcement Learning",
+      "year": 2023,
+      "first_author": "Noguer I Alonso",
+      "container": "",
+      "type": "posted-content",
+      "score": 26.95406
+     },
+     "metrics": {
+      "title_sim": 71.30434782608695,
+      "containment": 0.667,
+      "partial_ratio": 58.62068965517242,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "99832586d55f540f603637e458a292406a0ed75d",
+    "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+    "year": 2022,
+    "first_author": "Shunyu Yao",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "DBLP": "conf/iclr/YaoZYDSN023",
+     "ArXiv": "2210.03629",
+     "CorpusId": 252762395
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 20,
+   "raw": "[20] Wayne Xin Zhao, Kun Zhou, Junyi Li, Tianyi Tang, Xiaolei Wang, Yupeng Hou, Yingqian Min, Beichen Zhang, Junjie Zhang, Zican Dong, Yifan Du, Chen Yang, Yushuo Chen, Zhipeng Chen, Jinhao Jiang, Ruiyang Ren, Yifan Li, Xinyu Tang, Zikang Liu, Peiyu Liu, Jian-Yun Nie, and Ji-Rong Wen. A Survey of Large Language Models. arXiv preprint arXiv:2303.18223, 2024.",
+   "title": "A Survey of Large Language Models",
+   "authors": [
+    "Zhao",
+    "Zhou",
+    "Li",
+    "Tang",
+    "Wang",
+    "Hou",
+    "Min",
+    "Zhang",
+    "Zhang",
+    "Dong",
+    "Du",
+    "Yang",
+    "Chen",
+    "Chen",
+    "Jiang",
+    "Ren",
+    "Li",
+    "Tang",
+    "Liu",
+    "Liu",
+    "Nie",
+    "Wen"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2303.18223",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2303.18223",
+    "title": "A Survey of Large Language Models",
+    "year": 2023,
+    "first_author": "Wayne Xin Zhao"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  }
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
+}

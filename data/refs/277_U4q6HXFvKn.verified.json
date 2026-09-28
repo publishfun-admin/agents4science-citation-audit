@@ -1,0 +1,1240 @@
+{
+ "pdf": "277_U4q6HXFvKn.pdf",
+ "n_entries": 30,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "References [1] Turki M. Alanzi. Impact of chatgpt on teleconsultants in healthcare: Perceptions of healthcare experts in saudi arabia. Journal of Multidisciplinary Healthcare, 16:2309\u20132321, 2023.",
+   "title": "Impact of chatgpt on teleconsultants in healthcare: Perceptions of healthcare experts in saudi arabia",
+   "authors": [
+    "References [1] Turki M. Alanzi."
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Multidisciplinary Healthcare",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.2147/jmdh.s419847",
+    "title": "Impact of ChatGPT on Teleconsultants in Healthcare: Perceptions of Healthcare Experts in Saudi Arabia",
+    "year": 2023,
+    "first_author": "Alanzi",
+    "container": "Journal of Multidisciplinary Healthcare",
+    "type": "journal-article",
+    "score": 96.397385
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2] Yonatan Belinkov and Yonatan Bisk. Synthetic and natural noise both break neural machine translation. In International Conference on Learning Representations, 2018.",
+   "title": "Synthetic and natural noise both break neural machine translation",
+   "authors": [
+    "Belinkov",
+    "Bisk"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Conference on Learning Representations",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.18653/v1/w18-2710",
+      "title": "Bi-Directional Neural Machine Translation with Synthetic Parallel Data",
+      "year": 2018,
+      "first_author": "Niu",
+      "container": "Proceedings of the 2nd Workshop on Neural Machine Translation and Generation",
+      "type": "proceedings-article",
+      "score": 35.291573
+     },
+     "metrics": {
+      "title_sim": 74.07407407407408,
+      "containment": 0.571,
+      "partial_ratio": 62.857142857142854,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3] Noam Chomsky. Syntactic Structures. Mouton, 1957.",
+   "title": "Syntactic Structures",
+   "authors": [
+    "Chomsky"
+   ],
+   "year": 1957,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1515/9783112316009",
+    "title": "Syntactic Structures",
+    "year": 1957,
+    "first_author": "Chomsky",
+    "container": "",
+    "type": "edited-book",
+    "score": 48.527046
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4] Kevin Clark, Urvashi Khandelwal, Omer Levy, and Christopher D. Manning. What does bert look at? an analysis of bert\u2019s attention. In Proceedings of the 2019 ACL Workshop BlackboxNLP: Analyzing and Interpreting Neural Networks for NLP, pages 276\u2013286, 2019.",
+   "title": "What does bert look at? an analysis of bert\u2019s attention",
+   "authors": [
+    "Clark",
+    "Khandelwal",
+    "Levy",
+    "Manning"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 2019 ACL Workshop BlackboxNLP: Analyzing and Interpreting Neural Networks for NLP",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/w19-4828",
+    "title": "What Does BERT Look at? An Analysis of BERT\u2019s Attention",
+    "year": 2019,
+    "first_author": "Clark",
+    "container": "Proceedings of the 2019 ACL Workshop BlackboxNLP: Analyzing and Interpreting Neural Networks for NLP",
+    "type": "proceedings-article",
+    "score": 61.398766
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5] Kevin Clark, Minh-Thang Luong, Quoc V. Le, and Christopher D. Manning. Electra: Pretraining text encoders as discriminators rather than generators. In International Conference on Learning Representations, 2020.",
+   "title": "Electra: Pretraining text encoders as discriminators rather than generators",
+   "authors": [
+    "Clark",
+    "Luong",
+    "Le",
+    "Manning"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Conference on Learning Representations",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.36227/techrxiv.14737350",
+      "title": "Fast Transformation of Discriminators into Encoders using Pre-Trained GANs",
+      "year": 2021,
+      "first_author": "Yu",
+      "container": "",
+      "type": "posted-content",
+      "score": 29.837088
+     },
+     "metrics": {
+      "title_sim": 64.86486486486487,
+      "containment": 0.286,
+      "partial_ratio": 54.054054054054056,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[6] Jeremy Cohen, Elan Rosenfeld, and Zico Kolter. Certified adversarial robustness via randomized smoothing. In International Conference on Machine Learning, pages 1310\u20131320, 2019.",
+   "title": "Certified adversarial robustness via randomized smoothing",
+   "authors": [
+    "Cohen",
+    "Rosenfeld",
+    "Kolter"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Conference on Machine Learning",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.52202/079017-4263",
+      "title": "Certified Adversarial Robustness via Randomized $\\alpha$-Smoothing for Regression Models",
+      "year": 2024,
+      "first_author": "Rekavandi",
+      "container": "Advances in Neural Information Processing Systems 37",
+      "type": "proceedings-article",
+      "score": 48.5577
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 0.625,
+      "partial_ratio": 78.82352941176471,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[7] Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. Bert: Pre-training of deep bidirectional transformers for language understanding. In Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers), pages 4171\u20134186, 2019.",
+   "title": "Bert: Pre-training of deep bidirectional transformers for language understanding",
+   "authors": [
+    "Devlin",
+    "Chang",
+    "Lee",
+    "Toutanova"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/n19-1423",
+    "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+    "year": 2019,
+    "first_author": "Devlin",
+    "container": "Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)",
+    "type": "proceedings-article",
+    "score": 60.74732
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[8] Sergey Edunov, Myle Ott, Michael Auli, and David Grangier. Understanding back-translation at scale. In Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing, pages 489\u2013500, 2018.",
+   "title": "Understanding back-translation at scale",
+   "authors": [
+    "Edunov",
+    "Ott",
+    "Auli",
+    "Grangier"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/d18-1045",
+    "title": "Understanding Back-Translation at Scale",
+    "year": 2018,
+    "first_author": "Edunov",
+    "container": "Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing",
+    "type": "proceedings-article",
+    "score": 45.541122
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[9] Angela Fan, Edouard Grave, and Armand Joulin. Reducing transformer depth on demand with structured dropout. In International Conference on Learning Representations, 2020.",
+   "title": "Reducing transformer depth on demand with structured dropout",
+   "authors": [
+    "Fan",
+    "Grave",
+    "Joulin"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Conference on Learning Representations",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/isgt-asia.2018.8467930",
+      "title": "Reducing the Ageing of Transformer using Demand Responsive HVAC",
+      "year": 2018,
+      "first_author": null,
+      "container": "2018 IEEE Innovative Smart Grid Technologies - Asia (ISGT Asia)",
+      "type": "proceedings-article",
+      "score": 24.874357
+     },
+     "metrics": {
+      "title_sim": 65.04065040650406,
+      "containment": 0.5,
+      "partial_ratio": 55.55555555555556,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[10] Dan Hendrycks, Andy Zou, Mantas Mazeika, Leonard Tang, Bo Li, Dawn Song, and Jacob Steinhardt. Augmax: Adversarial composition of random augmentations for robust training. In Advances in Neural Information Processing Systems, 2020.",
+   "title": "Augmax: Adversarial composition of random augmentations for robust training",
+   "authors": [
+    "Hendrycks",
+    "Zou",
+    "Mazeika",
+    "Tang",
+    "Li",
+    "Song",
+    "Steinhardt"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1117/12.3013613",
+      "title": "Adversarial physics-based augmentations for robust training using synthetic data",
+      "year": 2024,
+      "first_author": "Clark",
+      "container": "Algorithms for Synthetic Aperture Radar Imagery XXXI",
+      "type": "proceedings-article",
+      "score": 32.534027
+     },
+     "metrics": {
+      "title_sim": 75.63025210084034,
+      "containment": 0.5,
+      "partial_ratio": 73.75,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "[11] John Hewitt and Christopher D. Manning. A structural probe for finding syntax in word representations. In Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers), pages 4129\u20134138, 2019.",
+   "title": "A structural probe for finding syntax in word representations",
+   "authors": [
+    "Hewitt",
+    "Manning"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/n19-1419",
+    "title": "A Structural Probe for Finding Syntax in Word Representations",
+    "year": 2019,
+    "first_author": "Hewitt",
+    "container": "Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)",
+    "type": "proceedings-article",
+    "score": 50.554146
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "[12] Di Jin, Zhijing Jin, Joey Tianyi Zhou, and Peter Szolovits. Is bert really robust? a strong baseline for natural language attack on text classification and entailment. In Proceedings of the AAAI Conference on Artificial Intelligence, volume 34, pages 8018\u20138025, 2020.",
+   "title": "Is bert really robust? a strong baseline for natural language attack on text classification and entailment",
+   "authors": [
+    "Jin",
+    "Jin",
+    "Zhou",
+    "Szolovits"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the AAAI Conference on Artificial Intelligence",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1609/aaai.v34i05.6311",
+    "title": "Is BERT Really Robust? A Strong Baseline for Natural Language Attack on Text Classification and Entailment",
+    "year": 2020,
+    "first_author": "Jin",
+    "container": "Proceedings of the AAAI Conference on Artificial Intelligence",
+    "type": "journal-article",
+    "score": 82.698906
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "[13] Zhenzhong Lan, Mingda Chen, Sebastian Goodman, Kevin Gimpel, Piyush Sharma, and Radu Soricut. Albert: A lite bert for self-supervised learning of language representations. In International Conference on Learning Representations, 2020.",
+   "title": "Albert: A lite bert for self-supervised learning of language representations",
+   "authors": [
+    "Lan",
+    "Chen",
+    "Goodman",
+    "Gimpel",
+    "Sharma",
+    "Soricut"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Conference on Learning Representations",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/slt48900.2021.9383575",
+    "title": "Audio Albert: A Lite Bert for Self-Supervised Learning of Audio Representation",
+    "year": 2021,
+    "first_author": "Chi",
+    "container": "2021 IEEE Spoken Language Technology Workshop (SLT)",
+    "type": "proceedings-article",
+    "score": 44.822803
+   },
+   "metrics": {
+    "title_sim": 93.15068493150685,
+    "containment": 0.667,
+    "partial_ratio": 90.9090909090909,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "[14] Junyan Li, Li Li, Xuanwei Qin, Shaoguang Yan, Yunqing Xia, Yuqing Yang, Ting Cao, Hao Sun, Weiwei Deng, Qi Zhang, and Mao Yang. Constraint-aware and ranking-distilled token pruning for efficient transformer inference. In Proceedings of the 29th ACM SIGKDD Conference on Knowledge Discovery and Data Mining, pages 4365\u20134374, 2023.",
+   "title": "Constraint-aware and ranking-distilled token pruning for efficient transformer inference",
+   "authors": [
+    "Li",
+    "Li",
+    "Qin",
+    "Yan",
+    "Xia",
+    "Yang",
+    "Cao",
+    "Sun",
+    "Deng",
+    "Zhang",
+    "Yang"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 29th ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3580305.3599284",
+    "title": "Constraint-aware and Ranking-distilled Token Pruning for Efficient Transformer Inference",
+    "year": 2023,
+    "first_author": "Li",
+    "container": "Proceedings of the 29th ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+    "type": "proceedings-article",
+    "score": 66.11717
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "[15] Yinhan Liu, Myle Ott, Naman Goyal, Jingfei Du, Mandar Joshi, Danqi Chen, Omer Levy, Mike Lewis, Luke Zettlemoyer, and Veselin Stoyanov. Roberta: A robustly optimized bert pretraining approach. arXiv preprint arXiv:1907.11692, 2019.",
+   "title": "Roberta: A robustly optimized bert pretraining approach",
+   "authors": [
+    "Liu",
+    "Ott",
+    "Goyal",
+    "Du",
+    "Joshi",
+    "Chen",
+    "Levy",
+    "Lewis",
+    "Zettlemoyer",
+    "Stoyanov"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": "1907.11692",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "1907.11692",
+    "title": "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+    "year": 2019,
+    "first_author": "Yinhan Liu"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 16,
+   "raw": "[16] Aleksander Madry, Aleksandar Makelov, Ludwig Schmidt, Dimitris Tsipras, and Adrian Vladu. Towards deep learning models resistant to adversarial attacks. In International Conference on Learning Representations, 2018.",
+   "title": "Towards deep learning models resistant to adversarial attacks",
+   "authors": [
+    "Madry",
+    "Makelov",
+    "Schmidt",
+    "Tsipras",
+    "Vladu"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Conference on Learning Representations",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.31979/etd.49ee-sknc",
+    "title": "On Adversarial Attacks on Deep Learning Models",
+    "year": 2019,
+    "first_author": "Mani",
+    "container": "",
+    "type": "dissertation",
+    "score": 43.122047
+   },
+   "metrics": {
+    "title_sim": 96.3855421686747,
+    "containment": 1.0,
+    "partial_ratio": 71.73913043478262,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 17,
+   "raw": "[17] Paul Michel, Omer Levy, and Graham Neubig. Are sixteen heads really better than one? In Advances in Neural Information Processing Systems, volume 32, 2019.",
+   "title": "Are sixteen heads really better than one?",
+   "authors": [
+    "Michel",
+    "Levy",
+    "Neubig"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1126/scitranslmed.3008863",
+      "title": "Are Two Heads Really Better than One?",
+      "year": 2014,
+      "first_author": "Narla",
+      "container": "Science Translational Medicine",
+      "type": "journal-article",
+      "score": 40.926186
+     },
+     "metrics": {
+      "title_sim": 94.11764705882354,
+      "containment": 0.833,
+      "partial_ratio": 83.33333333333334,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 18,
+   "raw": "[18] John Morris, Eli Lifland, Jin Yong Yoo, Jake Grigsby, Di Jin, and Yanjun Qi. Textattack: A framework for adversarial attacks, data augmentation, and adversarial training in nlp. In Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing: System Demonstrations, pages 119\u2013126, 2020.",
+   "title": "Textattack: A framework for adversarial attacks, data augmentation, and adversarial training in nlp",
+   "authors": [
+    "Morris",
+    "Lifland",
+    "Yoo",
+    "Grigsby",
+    "Jin",
+    "Qi"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing: System Demonstrations",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2020.emnlp-demos.16",
+    "title": "TextAttack: A Framework for Adversarial Attacks, Data Augmentation, and Adversarial Training in NLP",
+    "year": 2020,
+    "first_author": "Morris",
+    "container": "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing: System Demonstrations",
+    "type": "proceedings-article",
+    "score": 80.55359
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 19,
+   "raw": "[19] Bhawna Piryani, Jamshid Mozafari, Abdelrahman Abdallah, Antoine Doucet, and Adam Jatowt. Evaluating robustness of llms in question answering on multilingual noisy ocr data. In arXiv preprint arXiv:2502.16781, 2025.",
+   "title": "Evaluating robustness of llms in question answering on multilingual noisy ocr data",
+   "authors": [
+    "Piryani",
+    "Mozafari",
+    "Abdallah",
+    "Doucet",
+    "Jatowt"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": "2502.16781",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3746252.3761295",
+    "title": "Evaluating Robustness of LLMs in Question Answering on Multilingual Noisy OCR Data",
+    "year": 2025,
+    "first_author": "Piryani",
+    "container": "Proceedings of the 34th ACM International Conference on Information and Knowledge Management",
+    "type": "proceedings-article",
+    "score": 83.91156
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2502.16781"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 20,
+   "raw": "[20] Pranav Rajpurkar, Robin Jia, and Percy Liang. Squad 2.0: The stanford question answering dataset. In Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics, pages 784\u2013789, 2018.",
+   "title": "Squad 2.0: The stanford question answering dataset",
+   "authors": [
+    "Rajpurkar",
+    "Jia",
+    "Liang"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.18653/v1/w18-2602",
+      "title": "Systematic Error Analysis of the Stanford Question Answering Dataset",
+      "year": 2018,
+      "first_author": "Rondeau",
+      "container": "Proceedings of the Workshop on Machine Reading for Question Answering",
+      "type": "proceedings-article",
+      "score": 42.389923
+     },
+     "metrics": {
+      "title_sim": 88.63636363636364,
+      "containment": 0.571,
+      "partial_ratio": 72.05882352941177,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 21,
+   "raw": "[21] Anna Rogers, Olga Kovaleva, and Anna Rumshisky. A primer on neural network architectures for natural language processing. Transactions of the Association for Computational Linguistics, 8:542\u2013570, 2020.",
+   "title": "A primer on neural network architectures for natural language processing",
+   "authors": [
+    "Rogers",
+    "Kovaleva",
+    "Rumshisky"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Transactions of the Association for Computational Linguistics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1613/jair.4992",
+      "title": "A Primer on Neural Network Models for Natural Language Processing",
+      "year": 2016,
+      "first_author": "Goldberg",
+      "container": "Journal of Artificial Intelligence Research",
+      "type": "journal-article",
+      "score": 37.34245
+     },
+     "metrics": {
+      "title_sim": 94.3089430894309,
+      "containment": 0.857,
+      "partial_ratio": 83.07692307692307,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 22,
+   "raw": "[22] Victor Sanh, Lysandre Debut, Julien Chaumond, and Thomas Wolf. Distilbert, a distilled version of bert: smaller, faster, cheaper and lighter. arXiv preprint arXiv:1910.01108, 2019.",
+   "title": "Distilbert, a distilled version of bert: smaller, faster, cheaper and lighter",
+   "authors": [
+    "Sanh",
+    "Debut",
+    "Chaumond",
+    "Wolf"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": "1910.01108",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "1910.01108"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1108/eb007743",
+      "title": "Optical sensors: smaller, cheaper, faster",
+      "year": 1988,
+      "first_author": null,
+      "container": "Sensor Review",
+      "type": "journal-article",
+      "score": 38.301235
+     },
+     "metrics": {
+      "title_sim": 73.33333333333333,
+      "containment": 0.6,
+      "partial_ratio": 60.526315789473685,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 23,
+   "raw": "[23] Xiaosen Shen, Zhengyang Chen, Michael Backes, and Yang Zhang. Textshield: Robust text classification via adversarial training. In Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing, pages 1873\u20131886, 2023.",
+   "title": "Textshield: Robust text classification via adversarial training",
+   "authors": [
+    "Shen",
+    "Chen",
+    "Backes",
+    "Zhang"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/access.2020.2981616",
+      "title": "Deep Learning Based Robust Text Classification Method via Virtual Adversarial Training",
+      "year": 2020,
+      "first_author": "Zhang",
+      "container": "IEEE Access",
+      "type": "journal-article",
+      "score": 40.244095
+     },
+     "metrics": {
+      "title_sim": 90.26548672566372,
+      "containment": 0.5,
+      "partial_ratio": 73.25581395348837,
+      "year_ok": false,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 24,
+   "raw": "[24] Ian Tenney, Dipanjan Das, and Ellie Pavlick. Bert rediscovers the classical nlp pipeline. In Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics, pages 4593\u20134601, 2019.",
+   "title": "Bert rediscovers the classical nlp pipeline",
+   "authors": [
+    "Tenney",
+    "Das",
+    "Pavlick"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/p19-1452",
+    "title": "BERT Rediscovers the Classical NLP Pipeline",
+    "year": 2019,
+    "first_author": "Tenney",
+    "container": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+    "type": "proceedings-article",
+    "score": 66.0631
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 25,
+   "raw": "[25] Betty van Aken, Benjamin Winter, Alexander L\u00f6ser, and Felix A. Gers. How does bert answer questions? a layer-wise analysis of transformer representations. In Proceedings of the 28th ACM International Conference on Information and Knowledge Management, pages 1823\u20131832, 2019.",
+   "title": "How does bert answer questions? a layer-wise analysis of transformer representations",
+   "authors": [
+    "Aken",
+    "Winter",
+    "L\u00f6ser",
+    "Gers"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 28th ACM International Conference on Information and Knowledge Management",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3357384.3358028",
+    "title": "How Does BERT Answer Questions?",
+    "year": 2019,
+    "first_author": "van Aken",
+    "container": "Proceedings of the 28th ACM International Conference on Information and Knowledge Management",
+    "type": "proceedings-article",
+    "score": 78.38597
+   },
+   "metrics": {
+    "title_sim": 53.09734513274336,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 26,
+   "raw": "[26] Alex Wang, Amanpreet Singh, Julian Michael, Felix Hill, Omer Levy, and Samuel R. Bowman. Glue: A multi-task benchmark and analysis platform for natural language understanding. In Proceedings of the 2018 EMNLP Workshop BlackboxNLP: Analyzing and Interpreting Neural Networks for NLP, pages 353\u2013355, 2018.",
+   "title": "Glue: A multi-task benchmark and analysis platform for natural language understanding",
+   "authors": [
+    "Wang",
+    "Singh",
+    "Michael",
+    "Hill",
+    "Levy",
+    "Bowman"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 2018 EMNLP Workshop BlackboxNLP: Analyzing and Interpreting Neural Networks for NLP",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/w18-5446",
+    "title": "GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding",
+    "year": 2018,
+    "first_author": "Wang",
+    "container": "Proceedings of the 2018 EMNLP Workshop BlackboxNLP: Analyzing and Interpreting Neural Networks for NLP",
+    "type": "proceedings-article",
+    "score": 58.684383
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 27,
+   "raw": "[27] Joey Tianyi Wang, Yuankai Lu, Kim-Kwang Raymond Chow, Yongxuan Ma, and Qiang Peng. Dual adversarial neural transfer for low-resource named entity recognition. In Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics, pages 3461\u20133471, 2020.",
+   "title": "Dual adversarial neural transfer for low-resource named entity recognition",
+   "authors": [
+    "Wang",
+    "Lu",
+    "Chow",
+    "Ma",
+    "Peng"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/p19-1336",
+    "title": "Dual Adversarial Neural Transfer for Low-Resource Named Entity Recognition",
+    "year": 2019,
+    "first_author": "Zhou",
+    "container": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+    "type": "proceedings-article",
+    "score": 51.72427
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 28,
+   "raw": "[28] Jason Wei and Kai Zou. Eda: Easy data augmentation techniques for boosting performance on text classification tasks. In Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP), pages 6382\u20136388, 2019.",
+   "title": "Eda: Easy data augmentation techniques for boosting performance on text classification tasks",
+   "authors": [
+    "Wei",
+    "Zou"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/d19-1670",
+    "title": "EDA: Easy Data Augmentation Techniques for Boosting Performance on Text Classification Tasks",
+    "year": 2019,
+    "first_author": "Wei",
+    "container": "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)",
+    "type": "proceedings-article",
+    "score": 70.86226
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 29,
+   "raw": "[29] Yifei Yang, Zouying Cao, and Hai Zhao. Laco: Large language model pruning via layer collapse. In Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing, 2024.",
+   "title": "Laco: Large language model pruning via layer collapse",
+   "authors": [
+    "Yang",
+    "Cao",
+    "Zhao"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2024.findings-emnlp.372",
+    "title": "LaCo: Large Language Model Pruning via Layer Collapse",
+    "year": 2024,
+    "first_author": "Yang",
+    "container": "Findings of the Association for Computational Linguistics: EMNLP 2024",
+    "type": "proceedings-article",
+    "score": 69.25784
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 30,
+   "raw": "[30] Tianlong Zhou, Shifan Lieberman, Jiyan Tan, Margaret Mohler, Haoyu Yu, Zhangyang Liu, Yingkai Chen, and Pulkit Agrawal. The lottery ticket hypothesis for pre-trained bert networks. Advances in Neural Information Processing Systems, 33:15834\u201315846, 2020.",
+   "title": "The lottery ticket hypothesis for pre-trained bert networks",
+   "authors": [
+    "Zhou",
+    "Lieberman",
+    "Tan",
+    "Mohler",
+    "Yu",
+    "Liu",
+    "Chen",
+    "Agrawal"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/isvlsi54635.2022.00035",
+      "title": "Pruning Coherent Integrated Photonic Neural Networks Using the Lottery Ticket Hypothesis",
+      "year": 2022,
+      "first_author": "Banerjee",
+      "container": "2022 IEEE Computer Society Annual Symposium on VLSI (ISVLSI)",
+      "type": "proceedings-article",
+      "score": 34.845833
+     },
+     "metrics": {
+      "title_sim": 78.35051546391753,
+      "containment": 0.556,
+      "partial_ratio": 57.95454545454546,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  }
+ ]
+}

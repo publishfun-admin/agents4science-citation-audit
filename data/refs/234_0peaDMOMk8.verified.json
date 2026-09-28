@@ -1,0 +1,680 @@
+{
+ "pdf": "234_0peaDMOMk8.pdf",
+ "n_entries": 16,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 2,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "References [1] Emmanuel J. Cand\u00e8s and Benjamin Recht. Exact matrix completion via convex optimization. Foundations of Computational Mathematics, 9(6):717\u2013772, 2009.",
+   "title": "Exact matrix completion via convex optimization",
+   "authors": [
+    "References [1] Emmanuel J. Cand\u00e8s and Benjamin Recht."
+   ],
+   "year": 2009,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Foundations of Computational Mathematics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/s10208-009-9045-5",
+    "title": "Exact Matrix Completion via Convex Optimization",
+    "year": 2009,
+    "first_author": "Cand\u00e8s",
+    "container": "Foundations of Computational Mathematics",
+    "type": "journal-article",
+    "score": 71.040596
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2] Anpei Chen, Zexiang Xu, Andreas Geiger, Jingyi Yu, and Hao Su. Tensorf: Tensorial radiance fields. ECCV, 2022.",
+   "title": "Tensorf: Tensorial radiance fields",
+   "authors": [
+    "Chen",
+    "Xu",
+    "Geiger",
+    "Yu",
+    "Su"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "ECCV",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/978-3-031-19824-3_20",
+    "title": "TensoRF: Tensorial Radiance Fields",
+    "year": 2022,
+    "first_author": "Chen",
+    "container": "Lecture Notes in Computer Science",
+    "type": "book-chapter",
+    "score": 44.59637
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3] Zhengyun Cheng, Changhao Wang, Guanwen Zhang, Yi Xu, Wei Zhou, and Xiangyang Ji. Low-rank implicit neural representation via schatten-p quasi-norm and jacobian regularization. arXiv preprint, 2025.",
+   "title": "Low-rank implicit neural representation via schatten-p quasi-norm and jacobian regularization",
+   "authors": [
+    "Cheng",
+    "Wang",
+    "Zhang",
+    "Xu",
+    "Zhou",
+    "Ji"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1016/j.neucom.2026.134312",
+      "title": "Low-rank tensor recovery via variational schatten-p quasi-norm and Jacobian regularization",
+      "year": 2026,
+      "first_author": "Cheng",
+      "container": "Neurocomputing",
+      "type": "journal-article",
+      "score": 68.80791
+     },
+     "metrics": {
+      "title_sim": 81.57894736842105,
+      "containment": 0.7,
+      "partial_ratio": 76.66666666666666,
+      "year_ok": true,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": {
+    "source": "crossref",
+    "doi": "10.1016/j.neucom.2026.134312",
+    "title": "Low-rank tensor recovery via variational schatten-p quasi-norm and Jacobian regularization",
+    "year": 2026,
+    "first_author": "Cheng",
+    "container": "Neurocomputing",
+    "type": "journal-article",
+    "score": 68.80791
+   }
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4] Sara Fridovich-Keil, Giacomo Meanti, Frederik Rahb\u00e6k Warburg, Benjamin Recht, and Angjoo Kanazawa. K-planes: Explicit radiance fields in space, time, and appearance. CVPR, 2023.",
+   "title": "K-planes: Explicit radiance fields in space, time, and appearance",
+   "authors": [
+    "Fridovich-Keil",
+    "Meanti",
+    "Warburg",
+    "Recht",
+    "Kanazawa"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "CVPR",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/cvpr52729.2023.01201",
+    "title": "K-Planes: Explicit Radiance Fields in Space, Time, and Appearance",
+    "year": 2023,
+    "first_author": "Fridovich-Keil",
+    "container": "2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "type": "proceedings-article",
+    "score": 75.16198
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5] Kang Han and Wei Xiang. Multiscale tensor decomposition and rendering equation encoding for view synthesis. CVPR, 2023.",
+   "title": "Multiscale tensor decomposition and rendering equation encoding for view synthesis",
+   "authors": [
+    "Han",
+    "Xiang"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "CVPR",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/cvpr52729.2023.00412",
+    "title": "Multiscale Tensor Decomposition and Rendering Equation Encoding for View Synthesis",
+    "year": 2023,
+    "first_author": "Han",
+    "container": "2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "type": "proceedings-article",
+    "score": 70.63782
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[6] Jianan Li, Huan Chen, Wangcai Zhao, Rui Chen, and Tingfa Xu. Mixed-granularity implicit representation for continuous hyperspectral compressive reconstruction. IEEE Transactions on Neural Networks and Learning Systems, 2025.",
+   "title": "Mixed-granularity implicit representation for continuous hyperspectral compressive reconstruction",
+   "authors": [
+    "Li",
+    "Chen",
+    "Zhao",
+    "Chen",
+    "Xu"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE Transactions on Neural Networks and Learning Systems",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/tnnls.2025.3551891",
+    "title": "Mixed-Granularity Implicit Representation for Continuous Hyperspectral Compressive Reconstruction",
+    "year": 2025,
+    "first_author": "Li",
+    "container": "IEEE Transactions on Neural Networks and Learning Systems",
+    "type": "journal-article",
+    "score": 59.603226
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[7] Mengxuan Li, Ke Liu, Jialong Guo, Jiajun Bu, Hongwei Wang, and Haishuai Wang. Imputeinr: Time series imputation via implicit neural representations for disease diagnosis with missing data. arXiv preprint, 2025.",
+   "title": "Imputeinr: Time series imputation via implicit neural representations for disease diagnosis with missing data",
+   "authors": [
+    "Li",
+    "Liu",
+    "Guo",
+    "Bu",
+    "Wang",
+    "Wang"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.24963/ijcai.2025/1027",
+    "title": "ImputeINR: Time Series Imputation via Implicit Neural Representations for Disease Diagnosis with Missing Data",
+    "year": 2025,
+    "first_author": "Li",
+    "container": "Proceedings of the Thirty-Fourth International Joint Conference on Artificial Intelligence",
+    "type": "proceedings-article",
+    "score": 77.88078
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[8] Ben Mildenhall, Pratul P. Srinivasan, Matthew Tancik, Jonathan T. Barron, Ravi Ramamoorthi, and Ren Ng. Nerf: Representing scenes as neural radiance fields for view synthesis. ECCV, 2020.",
+   "title": "Nerf: Representing scenes as neural radiance fields for view synthesis",
+   "authors": [
+    "Mildenhall",
+    "Srinivasan",
+    "Tancik",
+    "Barron",
+    "Ramamoorthi",
+    "Ng"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "ECCV",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/978-3-030-58452-8_24",
+    "title": "NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis",
+    "year": 2020,
+    "first_author": "Mildenhall",
+    "container": "Lecture Notes in Computer Science",
+    "type": "book-chapter",
+    "score": 63.635666
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[9] Thomas M\u00fcller, Alex Evans, Christoph Schied, and Alexander Keller. Instant neural graphics primitives with a multiresolution hash encoding. ACM Transactions on Graphics (ToG), 41(4):1\u201315.",
+   "title": "Instant neural graphics primitives with a multiresolution hash encoding",
+   "authors": [
+    "M\u00fcller",
+    "Evans",
+    "Schied",
+    "Keller"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "ACM Transactions on Graphics (ToG",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3528223.3530127",
+    "title": "Instant neural graphics primitives with a multiresolution hash encoding",
+    "year": 2022,
+    "first_author": "M\u00fcller",
+    "container": "ACM Transactions on Graphics",
+    "type": "journal-article",
+    "score": 68.61953
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[10] Lixuan Rao, Xinlin Zhang, Yiman Huang, Tao Tan, and Tong Tong. Implicit neural representation-based mri reconstruction method with sensitivity map constraints. arXiv preprint, 2025.",
+   "title": "Implicit neural representation-based mri reconstruction method with sensitivity map constraints",
+   "authors": [
+    "Rao",
+    "Zhang",
+    "Huang",
+    "Tan",
+    "Tong"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/tim.2026.3662877/mm1",
+    "title": "Implicit Neural Representation-Based MRI Reconstruction Method with Sensitivity Map Constraints_supp1-3662877.pdf",
+    "year": 2026,
+    "first_author": "Rao",
+    "container": "",
+    "type": "component",
+    "score": 77.79714
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.769,
+    "partial_ratio": 88.49557522123894,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "[11] Benjamin Recht. A simpler approach to matrix completion. Journal of Machine Learning Research, 12:3413\u20133430, 2011.",
+   "title": "A simpler approach to matrix completion",
+   "authors": [
+    "Recht"
+   ],
+   "year": 2011,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Machine Learning Research",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2118/173835-ms",
+      "title": "A New Approach that Enables Simpler Well Completion and Higher Recovery",
+      "year": 2015,
+      "first_author": "B\u00e5rdsen",
+      "container": "SPE Bergen One Day Seminar",
+      "type": "proceedings-article",
+      "score": 26.791924
+     },
+     "metrics": {
+      "title_sim": 85.29411764705883,
+      "containment": 0.333,
+      "partial_ratio": 53.52112676056338,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "[12] Jiayang Shi, Junyi Zhu, Daniel M. Pelt, K. Joost Batenburg, and Matthew B. Blaschko. Implicit neural representations for robust joint sparse-view ct reconstruction. Transactions on Machine Learning Research, 2024.",
+   "title": "Implicit neural representations for robust joint sparse-view ct reconstruction",
+   "authors": [
+    "Shi",
+    "Zhu",
+    "Pelt",
+    "Batenburg",
+    "Blaschko"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Transactions on Machine Learning Research",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/tvcg.2025.3582627/mm1",
+      "title": "Neural Implicit Representations for Multi-View Surface Reconstruction: A Survey_supp1-3582627.pdf",
+      "year": 2025,
+      "first_author": "Ren",
+      "container": "",
+      "type": "component",
+      "score": 43.879463
+     },
+     "metrics": {
+      "title_sim": 82.70676691729324,
+      "containment": 0.455,
+      "partial_ratio": 63.54166666666667,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "[13] Vincent Sitzmann, Julien Martel, Alexander Bergman, David Lindell, and Gordon Wetzstein. Implicit neural representations with periodic activation functions. NeurIPS, 2020.",
+   "title": "Implicit neural representations with periodic activation functions",
+   "authors": [
+    "Sitzmann",
+    "Martel",
+    "Bergman",
+    "Lindell",
+    "Wetzstein"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "NeurIPS",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/tensymp61132.2024.10752188",
+      "title": "FPGA Implementation and Analysis of Non-Linear Activation Functions for Implicit Neural Representations",
+      "year": 2024,
+      "first_author": "Waseem",
+      "container": "2024 IEEE Region 10 Symposium (TENSYMP)",
+      "type": "proceedings-article",
+      "score": 33.160007
+     },
+     "metrics": {
+      "title_sim": 88.13559322033899,
+      "containment": 0.5,
+      "partial_ratio": 59.22330097087378,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "[14] Irmak Sivgin, Sara Fridovich-Keil, Gordon Wetzstein, and Mert Pilanci. Geometric algebra planes: Convex implicit neural volumes. ICML, 2025.",
+   "title": "Geometric algebra planes",
+   "authors": [
+    "Sivgin",
+    "Fridovich-Keil",
+    "Wetzstein",
+    "Pilanci"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Convex implicit neural",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1016/s1385-7258(62)50043-7",
+      "title": "On the Geometric Algebra of the Octave Planes",
+      "year": 1962,
+      "first_author": "Springer",
+      "container": "Indagationes Mathematicae (Proceedings)",
+      "type": "journal-article",
+      "score": 26.716011
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 0.75,
+      "partial_ratio": 64.44444444444444,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "[15] Matthew Tancik, Pratul P. Srinivasan, Ben Mildenhall, Sara Fridovich-Keil, Nithin Raghavan, Utkarsh Singhal, Ravi Ramamoorthi, Jonathan T. Barron, and Ren Ng. Fourier features let networks learn high frequency functions in low dimensional domains. NeurIPS, 2020.",
+   "title": "Fourier features let networks learn high frequency functions in low dimensional domains",
+   "authors": [
+    "Tancik",
+    "Srinivasan",
+    "Mildenhall",
+    "Fridovich-Keil",
+    "Raghavan",
+    "Singhal",
+    "Ramamoorthi",
+    "Barron",
+    "Ng"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "NeurIPS",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/mmul.2021.3053698",
+      "title": "Generalized Face Antispoofing by Learning to Fuse Features From High- and Low-Frequency Domains",
+      "year": 2021,
+      "first_author": "Chen",
+      "container": "IEEE MultiMedia",
+      "type": "journal-article",
+      "score": 27.862785
+     },
+     "metrics": {
+      "title_sim": 66.29834254143645,
+      "containment": 0.5,
+      "partial_ratio": 52.127659574468076,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 16,
+   "raw": "[16] Haonan Zhang, Guoyan Lao, Yuyao Zhang, and Hongjiang Wei. Low-rank augmented implicit neural representation for unsupervised high-dimensional quantitative mri reconstruction. arXiv preprint, 2025.",
+   "title": "Low-rank augmented implicit neural representation for unsupervised high-dimensional quantitative mri reconstruction",
+   "authors": [
+    "Zhang",
+    "Lao",
+    "Zhang",
+    "Wei"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/isbi53787.2023.10230813",
+      "title": "A Scan-Specific Unsupervised Method for Parallel MRI Reconstruction Via Implicit Neural Representation",
+      "year": 2023,
+      "first_author": "Feng",
+      "container": "2023 IEEE 20th International Symposium on Biomedical Imaging (ISBI)",
+      "type": "proceedings-article",
+      "score": 44.80612
+     },
+     "metrics": {
+      "title_sim": 78.57142857142857,
+      "containment": 0.6,
+      "partial_ratio": 56.08465608465609,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  }
+ ]
+}

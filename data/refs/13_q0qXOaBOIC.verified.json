@@ -1,10 +1,12 @@
 {
  "pdf": "13_q0qXOaBOIC.pdf",
- "n_entries": 19,
+ "n_entries": 18,
  "fallback": false,
  "error": null,
  "linenumbers_stripped": false,
- "parser_version": 2,
+ "two_column": true,
+ "parser_version": 3,
+ "reprocessed": true,
  "entries": [
   {
    "junk": false,
@@ -35,7 +37,7 @@
       "first_author": "Shegelski",
       "container": "Canadian Journal of Physics",
       "type": "journal-article",
-      "score": 29.74179
+      "score": 29.743006
      },
      "metrics": {
       "title_sim": 77.77777777777777,
@@ -51,8 +53,8 @@
   {
    "junk": false,
    "idx": 2,
-   "raw": "The results demonstrate the effectiveness of the proposed         [2] Hao, Yuze and Wang, Yueqi. (2023). Quasi liquid layer-pressure asymmulti-modal deep learning framework for analyzing curling                metrical model for the motion of of a curling rock on ice surface. arXiv preprint arXiv:2302.11348",
-   "title": "The results demonstrate the effectiveness of the proposed",
+   "raw": "[2] Hao, Yuze and Wang, Yueqi. (2023). Quasi liquid layer-pressure asymmetrical model for the motion of of a curling rock on ice surface. arXiv preprint arXiv:2302.11348",
+   "title": "Quasi liquid layer-pressure asymmetrical model for the motion of of a curling rock on ice surface",
    "authors": [
     "Hao",
     "Wang"
@@ -65,29 +67,36 @@
    "type": null,
    "parser": "anystyle-find",
    "verdict": "VERIFIED",
-   "via": "arxiv_id",
+   "via": "crossref",
    "match": {
-    "source": "arxiv",
-    "arxiv": "2302.11348",
+    "source": "crossref",
+    "doi": "10.14293/s2199-1006.1.sor-.ppi7gob.v1",
     "title": "Quasi liquid layer-pressure asymmetrical model for the motion of of a curling rock on ice surface",
     "year": 2023,
-    "first_author": "Yuze Hao"
+    "first_author": "Hao",
+    "container": "",
+    "type": "posted-content",
+    "score": 96.780106
    },
    "metrics": {
-    "title_sim": 38.961038961038966,
-    "containment": 0.909,
-    "partial_ratio": 76.28865979381443,
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
     "year_ok": true,
-    "first_author_ok": true,
-    "rule": "id+raw_containment"
+    "first_author_ok": true
    },
-   "evidence": []
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2302.11348"
+    }
+   ]
   },
   {
    "junk": false,
    "idx": 3,
-   "raw": "stone trajectories and elucidating the underlying tribological       [3] Yuze, Hao and Yueqi, Wang. (2023). Quasi liquid layer-pressure asymmechanisms. The integration of visual, IMU, and environmen-              metrical model for the motion of of a curling rock on ice surface. tal data allows the model to capture the complex interplay               ScienceOpen.",
-   "title": "stone trajectories and elucidating the underlying tribological",
+   "raw": "[3] Yuze, Hao and Yueqi, Wang. (2023). Quasi liquid layer-pressure asymmetrical model for the motion of of a curling rock on ice surface. ScienceOpen.",
+   "title": "Quasi liquid layer-pressure asymmetrical model for the motion of of a curling rock on ice surface",
    "authors": [
     "Yuze",
     "Yueqi"
@@ -97,38 +106,34 @@
    "arxiv": null,
    "urls": [],
    "container": null,
-   "type": null,
+   "type": "book",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
-   "evidence": [
-    {
-     "step": "crossref_best_reject",
-     "rec": {
-      "source": "crossref",
-      "doi": "10.54014/0hf0-9gdg",
-      "title": "Elucidating the transcriptional regulation underlying neural induction",
-      "year": 2025,
-      "first_author": null,
-      "container": "",
-      "type": "dissertation",
-      "score": 24.111166
-     },
-     "metrics": {
-      "title_sim": 68.18181818181819,
-      "containment": 0.333,
-      "partial_ratio": 52.800000000000004,
-      "year_ok": false,
-      "first_author_ok": null
-     }
-    }
-   ],
-   "likely_match": null
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.14293/s2199-1006.1.sor-.ppi7gob.v1",
+    "title": "Quasi liquid layer-pressure asymmetrical model for the motion of of a curling rock on ice surface",
+    "year": 2023,
+    "first_author": "Hao",
+    "container": "",
+    "type": "posted-content",
+    "score": 89.09377
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
   },
   {
    "junk": false,
    "idx": 4,
-   "raw": "[4] Nyberg, J., Szczepanski, J. (2013). Curling: A sliding friction problem between friction, pressure distribution, and the QLL.                    with phase transitions. American Journal of Physics, 81(3), 184-191.",
-   "title": "Curling: A sliding friction problem between friction, pressure distribution, and the QLL. with phase transitions",
+   "raw": "[4] Nyberg, J., Szczepanski, J. (2013). Curling: A sliding friction problem with phase transitions. American Journal of Physics, 81(3), 184-191.",
+   "title": "Curling: A sliding friction problem with phase transitions",
    "authors": [
     "Nyberg",
     "Szczepanski"
@@ -150,10 +155,10 @@
     "first_author": null,
     "container": "Friction, Wear, and Erosion Atlas",
     "type": "book-chapter",
-    "score": 40.274635
+    "score": 27.871225
    },
    "metrics": {
-    "title_sim": 25.806451612903224,
+    "title_sim": 43.83561643835616,
     "containment": 1.0,
     "partial_ratio": 100.0,
     "year_ok": true,
@@ -164,8 +169,8 @@
   {
    "junk": false,
    "idx": 5,
-   "raw": "The superior performance of the multi-modal model com-            [5] Denny, M. (2008). The physics of curling. Physics Today, 61(1), 52-57.",
-   "title": "The superior performance of the multi-modal model com",
+   "raw": "[5] Denny, M. (2008). The physics of curling. Physics Today, 61(1), 52-57.",
+   "title": "The physics of curling",
    "authors": [
     "Denny"
    ],
@@ -182,20 +187,20 @@
      "step": "crossref_best_reject",
      "rec": {
       "source": "crossref",
-      "doi": "10.7717/peerj-cs.491/fig-4",
-      "title": "Figure 4: Performance of vectorization methods on multi-modal datasets.",
-      "year": 2021,
-      "first_author": null,
-      "container": "",
-      "type": "component",
-      "score": 23.310722
+      "doi": "10.1139/p03-066",
+      "title": "Comment on \"The motion of a curling rock\"",
+      "year": 2003,
+      "first_author": "Denny",
+      "container": "Canadian Journal of Physics",
+      "type": "journal-article",
+      "score": 27.4691
      },
      "metrics": {
-      "title_sim": 69.33333333333333,
-      "containment": 0.429,
-      "partial_ratio": 59.82905982905983,
+      "title_sim": 77.77777777777777,
+      "containment": 0.25,
+      "partial_ratio": 54.54545454545454,
       "year_ok": false,
-      "first_author_ok": null
+      "first_author_ok": true
      }
     }
    ],
@@ -204,8 +209,8 @@
   {
    "junk": false,
    "idx": 6,
-   "raw": "pared to the analytical model highlights the limitations of tra-     [6] Johnston, D. L., Smith, D. W. (1993). Analysis of the motion of a curling rock. Canadian Journal of Physics, 71(1-2), 1-10.",
-   "title": "pared to the analytical model highlights the limitations of tra",
+   "raw": "[6] Johnston, D. L., Smith, D. W. (1993). Analysis of the motion of a curling rock. Canadian Journal of Physics, 71(1-2), 1-10.",
+   "title": "Analysis of the motion of a curling rock",
    "authors": [
     "Johnston",
     "Smith"
@@ -223,18 +228,18 @@
      "step": "crossref_best_reject",
      "rec": {
       "source": "crossref",
-      "doi": "10.1056/aip2501128",
-      "title": "Letter: Model Performance Convergence Highlights Data Limitations in a Patient Preference Predictor",
-      "year": 2026,
-      "first_author": "Nahum",
-      "container": "NEJM AI",
-      "type": "journal-article",
-      "score": 22.054237
+      "doi": "10.14293/s2199-1006.1.sor-.ppi7gob.v1",
+      "title": "Quasi liquid layer-pressure asymmetrical model for the motion of of a curling rock on ice surface",
+      "year": 2023,
+      "first_author": "Hao",
+      "container": "",
+      "type": "posted-content",
+      "score": 28.470375
      },
      "metrics": {
-      "title_sim": 64.36781609195403,
-      "containment": 0.3,
-      "partial_ratio": 51.93370165745856,
+      "title_sim": 54.01459854014598,
+      "containment": 0.273,
+      "partial_ratio": 54.64480874316939,
       "year_ok": false,
       "first_author_ok": false
      }
@@ -245,8 +250,8 @@
   {
    "junk": false,
    "idx": 7,
-   "raw": "ditional approaches that rely on simplifying assumptions. The        [7] Beaglehole, D., Nason, D. (1996). Surface melting of ice. Surface deep learning model is able to learn directly from experimental          Science Reports, 27(1-3), 1-49.",
-   "title": "ditional approaches that rely on simplifying assumptions",
+   "raw": "[7] Beaglehole, D., Nason, D. (1996). Surface melting of ice. Surface Science Reports, 27(1-3), 1-49.",
+   "title": "Surface melting of ice",
    "authors": [
     "Beaglehole",
     "Nason"
@@ -255,39 +260,61 @@
    "doi": null,
    "arxiv": null,
    "urls": [],
-   "container": "The",
+   "container": "Surface Science Reports",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
      "rec": {
       "source": "crossref",
-      "doi": "10.1017/cbo9780511572050.005",
-      "title": "Tests of simplifying assumptions",
-      "year": 1986,
-      "first_author": null,
-      "container": "Econometric Applications of Maximum Likelihood Methods",
-      "type": "book-chapter",
-      "score": 24.789455
+      "doi": "10.1016/0039-6028(80)90313-1",
+      "title": "Transition layer on the surface on ice",
+      "year": 1980,
+      "first_author": "Beaglehole",
+      "container": "Surface Science",
+      "type": "journal-article",
+      "score": 29.803009
      },
      "metrics": {
-      "title_sim": 83.63636363636364,
-      "containment": 0.667,
-      "partial_ratio": 84.375,
+      "title_sim": 66.66666666666666,
+      "containment": 0.5,
+      "partial_ratio": 55.263157894736835,
       "year_ok": false,
-      "first_author_ok": null
+      "first_author_ok": true
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "38eaa6b999232e3ec46a0c858c39f8ef44391ce7",
+    "title": "SURFACE MELTING OF ICE",
+    "year": 1997,
+    "first_author": "L. Makkonen",
+    "container": "",
+    "ext": {
+     "MAG": "2086202757",
+     "DOI": "10.1021/JP963248C",
+     "CorpusId": 97569438
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
    "idx": 8,
-   "raw": "data and capture the dynamic and spatially varying nature of         [8] Lucey, P., Bialkowski, A., Carr, P., Crowley, E. (2013). Analyzing team sports using spatiotemporal tracking data. IEEE Computer, 46(1), 50-56.",
-   "title": "data and capture the dynamic and spatially varying nature of",
+   "raw": "[8] Lucey, P., Bialkowski, A., Carr, P., Crowley, E. (2013). Analyzing team sports using spatiotemporal tracking data. IEEE Computer, 46(1), 50-56.",
+   "title": "Analyzing team sports using spatiotemporal tracking data",
    "authors": [
     "Lucey",
     "Bialkowski",
@@ -307,30 +334,39 @@
      "step": "crossref_best_reject",
      "rec": {
       "source": "crossref",
-      "doi": "10.32614/cran.package.sptdyn",
-      "title": "spTDyn: Spatially Varying and Spatio-Temporal Dynamic Linear Models",
-      "year": 2015,
-      "first_author": "Bakar",
-      "container": "CRAN: Contributed Packages",
-      "type": "dataset",
-      "score": 26.297419
+      "doi": "10.1109/icdmw.2014.167",
+      "title": "Identifying Team Style in Soccer Using Formations Learned from Spatiotemporal Tracking Data",
+      "year": 2014,
+      "first_author": "Bialkowski",
+      "container": "2014 IEEE International Conference on Data Mining Workshop",
+      "type": "proceedings-article",
+      "score": 40.1495
      },
      "metrics": {
-      "title_sim": 68.23529411764706,
-      "containment": 0.375,
-      "partial_ratio": 56.060606060606055,
-      "year_ok": false,
-      "first_author_ok": false
+      "title_sim": 82.10526315789474,
+      "containment": 0.444,
+      "partial_ratio": 57.309941520467845,
+      "year_ok": true,
+      "first_author_ok": true
      }
     }
    ],
-   "likely_match": null
+   "likely_match": {
+    "source": "crossref",
+    "doi": "10.1109/icdmw.2014.167",
+    "title": "Identifying Team Style in Soccer Using Formations Learned from Spatiotemporal Tracking Data",
+    "year": 2014,
+    "first_author": "Bialkowski",
+    "container": "2014 IEEE International Conference on Data Mining Workshop",
+    "type": "proceedings-article",
+    "score": 40.1495
+   }
   },
   {
    "junk": false,
    "idx": 9,
-   "raw": "the friction coefficient.                                            [9] He, K., Zhang, X., Ren, S., Sun, J. (2016). Deep residual learning for The visual-only model performs better than the analytical             image recognition. In Proceedings of the IEEE conference on computer model, indicating the importance of visual information in                vision and pattern recognition (pp. 770-778).",
-   "title": "the friction coefficient",
+   "raw": "[9] He, K., Zhang, X., Ren, S., Sun, J. (2016). Deep residual learning for image recognition. In Proceedings of the IEEE conference on computer vision and pattern recognition (pp. 770-778).",
+   "title": "Deep residual learning for image recognition",
    "authors": [
     "He",
     "Zhang",
@@ -341,61 +377,20 @@
    "doi": null,
    "arxiv": null,
    "urls": [],
-   "container": "Proceedings of the IEEE conference on computer model, indicating the importance of visual information in vision and pattern recognition",
+   "container": "Proceedings of the IEEE conference on computer vision and pattern recognition",
    "type": "paper-conference",
-   "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
-   "evidence": [
-    {
-     "step": "crossref_best_reject",
-     "rec": {
-      "source": "crossref",
-      "doi": "10.1016/0032-3861(88)90392-8",
-      "title": "Monomeric friction coefficient of 1,2-polybutadienes",
-      "year": 1988,
-      "first_author": "LIU",
-      "container": "Polymer",
-      "type": "journal-article",
-      "score": 23.25268
-     },
-     "metrics": {
-      "title_sim": 90.9090909090909,
-      "containment": 0.5,
-      "partial_ratio": 63.63636363636363,
-      "year_ok": false,
-      "first_author_ok": false
-     }
-    }
-   ],
-   "likely_match": null
-  },
-  {
-   "junk": false,
-   "idx": 10,
-   "raw": "[10] Hochreiter, S., Schmidhuber, J. (1997). Long short-term memory.",
-   "title": "Long short-term memory",
-   "authors": [
-    "Hochreiter",
-    "Schmidhuber"
-   ],
-   "year": 1997,
-   "doi": null,
-   "arxiv": null,
-   "urls": [],
-   "container": null,
-   "type": null,
    "parser": "anystyle-find",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
     "source": "crossref",
-    "doi": "10.1162/neco.1997.9.8.1735",
-    "title": "Long Short-Term Memory",
-    "year": 1997,
-    "first_author": "Hochreiter",
-    "container": "Neural Computation",
-    "type": "journal-article",
-    "score": 46.279472
+    "doi": "10.1109/cvpr.2016.90",
+    "title": "Deep Residual Learning for Image Recognition",
+    "year": 2016,
+    "first_author": "He",
+    "container": "2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "type": "proceedings-article",
+    "score": 42.414677
    },
    "metrics": {
     "title_sim": 100.0,
@@ -407,48 +402,47 @@
    "evidence": []
   },
   {
-   "junk": true,
-   "idx": 11,
-   "raw": "understanding the stone\u2019s trajectory. However, the multi-modal           Neural computation, 9(8), 1735-1780.",
-   "title": "understanding the stone\u2019s trajectory",
-   "authors": [],
-   "year": null,
+   "junk": false,
+   "idx": 10,
+   "raw": "[10] Hochreiter, S., Schmidhuber, J. (1997). Long short-term memory. Neural computation, 9(8), 1735-1780.",
+   "title": "Long short-term memory",
+   "authors": [
+    "Hochreiter",
+    "Schmidhuber"
+   ],
+   "year": 1997,
    "doi": null,
    "arxiv": null,
    "urls": [],
-   "container": "However, the multi-modal Neural computation",
+   "container": "Neural computation",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
-   "evidence": [
-    {
-     "step": "crossref_best_reject",
-     "rec": {
-      "source": "crossref",
-      "doi": "10.1093/owc/9780198941781.003.0013",
-      "title": "Stone\u2019s Hill",
-      "year": 2025,
-      "first_author": "Verne",
-      "container": "Journey to the Moon",
-      "type": "book-chapter",
-      "score": 22.23897
-     },
-     "metrics": {
-      "title_sim": 73.6842105263158,
-      "containment": 0.5,
-      "partial_ratio": 66.66666666666667,
-      "year_ok": true,
-      "first_author_ok": false
-     }
-    }
-   ],
-   "likely_match": null
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1162/neco.1997.9.8.1735",
+    "title": "Long Short-Term Memory",
+    "year": 1997,
+    "first_author": "Hochreiter",
+    "container": "Neural Computation",
+    "type": "journal-article",
+    "score": 46.306232
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
   },
   {
    "junk": false,
-   "idx": 12,
-   "raw": "model outperforms the visual-only model, demonstrating the          [11] Ebert, D., Petrenko, V. F. (2019). Friction of ice: A review. Cold Regions added value of incorporating IMU and environmental data.                 Science and Technology, 165, 102815.",
-   "title": "model outperforms the visual-only model, demonstrating the",
+   "idx": 11,
+   "raw": "[11] Ebert, D., Petrenko, V. F. (2019). Friction of ice: A review. Cold Regions Science and Technology, 165, 102815.",
+   "title": "Friction of ice: A review",
    "authors": [
     "Ebert",
     "Petrenko"
@@ -457,37 +451,33 @@
    "doi": null,
    "arxiv": null,
    "urls": [],
-   "container": "Science and Technology",
+   "container": "Cold Regions Science and Technology",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
-   "evidence": [
-    {
-     "step": "crossref_best_reject",
-     "rec": {
-      "source": "crossref",
-      "doi": "10.15607/rss.2025.xxi.058",
-      "title": "Demonstrating the Octopi-1.5 Visual-Tactile-Language Model",
-      "year": 2025,
-      "first_author": "Yu",
-      "container": "Robotics: Science and Systems XXI",
-      "type": "proceedings-article",
-      "score": 28.08123
-     },
-     "metrics": {
-      "title_sim": 77.92207792207792,
-      "containment": 0.5,
-      "partial_ratio": 51.72413793103448,
-      "year_ok": false,
-      "first_author_ok": false
-     }
-    }
-   ],
-   "likely_match": null
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.5194/tc-2019-204-rc1",
+    "title": "review",
+    "year": 2019,
+    "first_author": "Anonymous",
+    "container": "",
+    "type": "posted-content",
+    "score": 21.8933
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
   },
   {
    "junk": false,
-   "idx": 13,
+   "idx": 12,
    "raw": "[12] Mishima, O. (2007). Phase diagram of ice under pressure: What are the real phases?. Journal of Chemical Physics, 126(24), 244507.",
    "title": "Phase diagram of ice under pressure: What are the real phases?",
    "authors": [
@@ -512,7 +502,7 @@
       "first_author": "Mishima",
       "container": "The Journal of Chemical Physics",
       "type": "journal-article",
-      "score": 35.20522
+      "score": 35.206177
      },
      "metrics": {
       "title_sim": 84.375,
@@ -527,9 +517,9 @@
   },
   {
    "junk": false,
-   "idx": 14,
-   "raw": "[13] Robert, J., Tabor, D. (2010). The friction of ice. Proceedings of the A. Limitations                                                           Royal Society A: Mathematical, Physical and Engineering Sciences, 466(2119), 1973-1992.",
-   "title": "The friction of ice. Proceedings of the A",
+   "idx": 13,
+   "raw": "[13] Robert, J., Tabor, D. (2010). The friction of ice. Proceedings of the Royal Society A: Mathematical, Physical and Engineering Sciences, 466(2119), 1973-1992.",
+   "title": "The friction of ice",
    "authors": [
     "Robert",
     "Tabor"
@@ -538,7 +528,7 @@
    "doi": null,
    "arxiv": null,
    "urls": [],
-   "container": "Limitations Royal Society A: Mathematical, Physical and Engineering Sciences",
+   "container": "Proceedings of the Royal Society A: Mathematical, Physical and Engineering Sciences",
    "type": "article-journal",
    "parser": "anystyle-find",
    "verdict": "UNVERIFIED",
@@ -553,10 +543,10 @@
       "first_author": "Kietzig",
       "container": "Journal of Applied Physics",
       "type": "journal-article",
-      "score": 21.77192
+      "score": 21.777164
      },
      "metrics": {
-      "title_sim": 78.94736842105263,
+      "title_sim": 88.23529411764706,
       "containment": 0.667,
       "partial_ratio": 60.86956521739131,
       "year_ok": true,
@@ -568,9 +558,9 @@
   },
   {
    "junk": false,
-   "idx": 15,
-   "raw": "The current study has several limitations. The dataset is        [14] Sheppard, A. P., Szilder, K. (2011). A mathematical model of the curling limited to a specific ice surface and environmental conditions.          rock. Cold Regions Science and Technology, 65(1), 1-10.",
-   "title": "The current study has several limitations. The dataset is",
+   "idx": 14,
+   "raw": "[14] Sheppard, A. P., Szilder, K. (2011). A mathematical model of the curling rock. Cold Regions Science and Technology, 65(1), 1-10.",
+   "title": "A mathematical model of the curling rock",
    "authors": [
     "Sheppard",
     "Szilder"
@@ -588,18 +578,59 @@
      "step": "crossref_best_reject",
      "rec": {
       "source": "crossref",
-      "doi": "10.1037/e519162011-005",
-      "title": "PTSD and limitations to the current diagnostic system: A clinician's viewpoint",
-      "year": 2004,
-      "first_author": "Daly",
-      "container": "PsycEXTRA Dataset",
-      "type": "dataset",
-      "score": 22.592113
+      "doi": "10.1007/s11249-019-1144-0",
+      "title": "A Scratch-Guide Model for the Motion of a Curling Rock",
+      "year": 2019,
+      "first_author": "Penner",
+      "container": "Tribology Letters",
+      "type": "journal-article",
+      "score": 24.223248
      },
      "metrics": {
-      "title_sim": 61.333333333333336,
-      "containment": 0.286,
-      "partial_ratio": 49.350649350649356,
+      "title_sim": 80.59701492537313,
+      "containment": 0.5,
+      "partial_ratio": 57.407407407407405,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "[15] Gaydos, T., Hastie, T. (2019). Machine learning for sports. Annual Review of Statistics and Its Application, 6, 301-327.",
+   "title": "Machine learning for sports",
+   "authors": [
+    "Gaydos",
+    "Hastie"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Annual Review of Statistics and Its Application",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/978-3-662-70155-3_21",
+      "title": "Responsible Use of Machine Learning in Sports Science",
+      "year": 2025,
+      "first_author": "Wunderlich",
+      "container": "Artificial Intelligence and Machine Learning in Sports Science",
+      "type": "book-chapter",
+      "score": 22.937279
+     },
+     "metrics": {
+      "title_sim": 92.0,
+      "containment": 0.5,
+      "partial_ratio": 62.264150943396224,
       "year_ok": false,
       "first_author_ok": false
      }
@@ -610,49 +641,8 @@
   {
    "junk": false,
    "idx": 16,
-   "raw": "[15] Gaydos, T., Hastie, T. (2019). Machine learning for sports. Annual Further research is needed to evaluate the model\u2019s performance           Review of Statistics and Its Application, 6, 301-327.",
-   "title": "Machine learning for sports. Annual Further research is needed to evaluate the model\u2019s performance",
-   "authors": [
-    "Gaydos",
-    "Hastie"
-   ],
-   "year": 2019,
-   "doi": null,
-   "arxiv": null,
-   "urls": [],
-   "container": "Review of Statistics and Its Application",
-   "type": "article-journal",
-   "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
-   "evidence": [
-    {
-     "step": "crossref_best_reject",
-     "rec": {
-      "source": "crossref",
-      "doi": "10.21275/sr24708194212",
-      "title": "Evaluate the Predictive Performance of Supervised Machine Learning Algorithms in Diabetes Dataset",
-      "year": 2024,
-      "first_author": "Jamaner Rahaman",
-      "container": "International Journal of Science and Research (IJSR)",
-      "type": "journal-article",
-      "score": 30.05486
-     },
-     "metrics": {
-      "title_sim": 65.97938144329896,
-      "containment": 0.444,
-      "partial_ratio": 53.333333333333336,
-      "year_ok": false,
-      "first_author_ok": false
-     }
-    }
-   ],
-   "likely_match": null
-  },
-  {
-   "junk": false,
-   "idx": 17,
-   "raw": "on different ice surfaces and under varying environmental           [16] Goodfellow, I., Bengio, Y., Courville, A. (2016). Deep learning. MIT conditions. The QLL thickness distribution estimation using              press.",
-   "title": "on different ice surfaces and under varying environmental",
+   "raw": "[16] Goodfellow, I., Bengio, Y., Courville, A. (2016). Deep learning. MIT press.",
+   "title": "Deep learning",
    "authors": [
     "Goodfellow",
     "Bengio",
@@ -662,39 +652,35 @@
    "doi": null,
    "arxiv": null,
    "urls": [],
-   "container": "MIT conditions",
-   "type": "article-journal",
+   "container": null,
+   "type": "book",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
-   "evidence": [
-    {
-     "step": "crossref_best_reject",
-     "rec": {
-      "source": "crossref",
-      "doi": "10.1017/s0260305500009411",
-      "title": "Impurity Distributions In Ice Under Different Environmental Conditions",
-      "year": 1990,
-      "first_author": "Wolff",
-      "container": "Annals of Glaciology",
-      "type": "journal-article",
-      "score": 23.627441
-     },
-     "metrics": {
-      "title_sim": 74.01574803149606,
-      "containment": 0.667,
-      "partial_ratio": 53.73134328358209,
-      "year_ok": false,
-      "first_author_ok": false
-     }
-    }
-   ],
-   "likely_match": null
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/2976749.2978318",
+    "title": "Deep Learning with Differential Privacy",
+    "year": 2016,
+    "first_author": "Abadi",
+    "container": "Proceedings of the 2016 ACM SIGSAC Conference on Computer and Communications Security",
+    "type": "proceedings-article",
+    "score": 24.843262
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.5,
+    "partial_ratio": 61.29032258064516,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
   },
   {
    "junk": false,
-   "idx": 18,
-   "raw": "[17] LeCun, Y., Bengio, Y., Hinton, G. (2015). Deep learning. Nature, optical interferometry is also subject to errors. Future work            521(7553), 436-444.",
-   "title": "Deep learning. Nature, optical interferometry is also subject to errors",
+   "idx": 17,
+   "raw": "[17] LeCun, Y., Bengio, Y., Hinton, G. (2015). Deep learning. Nature, 521(7553), 436-444.",
+   "title": "Deep learning",
    "authors": [
     "LeCun",
     "Bengio",
@@ -704,25 +690,25 @@
    "doi": null,
    "arxiv": null,
    "urls": [],
-   "container": "Future work",
+   "container": "Nature",
    "type": "article-journal",
    "parser": "anystyle-find",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
     "source": "crossref",
-    "doi": "10.1038/nature14539",
-    "title": "Deep learning",
+    "doi": "10.1109/hotchips.2015.7477328",
+    "title": "Deep learning &amp; convolutional networks",
     "year": 2015,
     "first_author": "LeCun",
-    "container": "Nature",
-    "type": "journal-article",
-    "score": 39.849106
+    "container": "2015 IEEE Hot Chips 27 Symposium (HCS)",
+    "type": "proceedings-article",
+    "score": 32.940395
    },
    "metrics": {
-    "title_sim": 31.707317073170728,
-    "containment": 1.0,
-    "partial_ratio": 100.0,
+    "title_sim": 100.0,
+    "containment": 0.4,
+    "partial_ratio": 46.753246753246756,
     "year_ok": true,
     "first_author_ok": true
    },
@@ -730,9 +716,9 @@
   },
   {
    "junk": false,
-   "idx": 19,
-   "raw": "could explore alternative methods for measuring the QLL             [18] Szepesvari, C. (2010). Algorithms for reinforcement learning. Synthesis thickness distribution.                                                  lectures on artificial intelligence and machine learning.",
-   "title": "could explore alternative methods for measuring the QLL",
+   "idx": 18,
+   "raw": "[18] Szepesvari, C. (2010). Algorithms for reinforcement learning. Synthesis lectures on artificial intelligence and machine learning.",
+   "title": "Algorithms for reinforcement learning",
    "authors": [
     "Szepesvari"
    ],
@@ -740,33 +726,31 @@
    "doi": null,
    "arxiv": null,
    "urls": [],
-   "container": "Synthesis thickness distribution. lectures on artificial intelligence and machine learning",
+   "container": "Synthesis lectures on artificial intelligence and machine learning",
    "type": "chapter",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
-   "evidence": [
-    {
-     "step": "crossref_best_reject",
-     "rec": {
-      "source": "crossref",
-      "doi": "10.3386/w8095",
-      "title": "Alternative Methods for Measuring Productivity Growth",
-      "year": 2001,
-      "first_author": "Nordhaus",
-      "container": "",
-      "type": "report",
-      "score": 24.766237
-     },
-     "metrics": {
-      "title_sim": 76.74418604651163,
-      "containment": 0.6,
-      "partial_ratio": 69.90291262135922,
-      "year_ok": false,
-      "first_author_ok": false
-     }
-    }
-   ],
-   "likely_match": null
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/978-3-031-01551-9",
+    "title": "Algorithms for Reinforcement Learning",
+    "year": 2010,
+    "first_author": "Szepesv\u00e1ri",
+    "container": "Synthesis Lectures on Artificial Intelligence and Machine Learning",
+    "type": "book",
+    "score": 27.5138
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

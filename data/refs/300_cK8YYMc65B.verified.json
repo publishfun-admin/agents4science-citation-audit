@@ -1,0 +1,2001 @@
+{
+ "pdf": "300_cK8YYMc65B.pdf",
+ "n_entries": 47,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": false,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "References [1]    OpenAI Josh Achiam et al. \u201cGPT-4 Technical Report\u201d. In: 2023. [2]    Payal Bajaj et al. \u201cMS MARCO: A Human Generated MAchine Reading COmprehension Dataset\u201d. In: ArXiv abs/1611.09268 (2016). [3]    Georgios Balikas et al. \u201cBioASQ: A Challenge on Large-Scale Biomedical Semantic Indexing and Question Answering\u201d. In: Multimodal Retrieval in the Medical Domain. Springer International Publishing, 2015, pp. 26\u201339. ISBN: 9783319244716. DOI: 10.1007/978-3-319-24471-6_3. URL: http://dx.doi.org/10.1007/978-3-319-24471-6_3.",
+   "title": "GPT-4 Technical Report\u201d",
+   "authors": [
+    "References [1] OpenAI Josh Achiam et al.",
+    "Bajaj",
+    "Balikas"
+   ],
+   "year": 2023,
+   "doi": "10.1007/978-3-319-24471-6_3",
+   "arxiv": "1611.09268",
+   "urls": [
+    "http://dx.doi.org/10.1007/978-3-319-24471-6_3"
+   ],
+   "container": "ArXiv abs/1611.09268",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/978-3-319-24471-6_3",
+    "title": "BioASQ: A Challenge on Large-Scale Biomedical Semantic Indexing and Question Answering",
+    "year": 2015,
+    "first_author": "Balikas",
+    "container": "Lecture Notes in Computer Science",
+    "type": "book-chapter",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 24.29906542056075,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true,
+    "rule": "id+raw_containment"
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[4]   Tim Baumg\u00e4rtner, Ted Briscoe, and Iryna Gurevych. \u201cPeerQA: A Scientific Question Answering Dataset from Peer Reviews\u201d. In: Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers). Ed. by Luis Chiruzzo, Alan Ritter, and Lu Wang. Albuquerque, New Mexico: Association for Computational Linguistics, Apr. 2025, pp. 508\u2013544. ISBN: 979-8-89176-189-6. DOI: 10.18653/v1/2025.naacl-long.22. URL: https://aclanthology.org/2025.naacl-long.22/.",
+   "title": "PeerQA: A Scientific Question Answering Dataset from Peer Reviews\u201d",
+   "authors": [
+    "Baumg\u00e4rtner",
+    "Briscoe",
+    "Gurevych"
+   ],
+   "year": 2025,
+   "doi": "10.18653/v1/2025.naacl-long.22",
+   "arxiv": null,
+   "urls": [
+    "https://aclanthology.org/2025.naacl-long.22/"
+   ],
+   "container": "Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2025.naacl-long.22",
+    "title": "PeerQA: A Scientific Question Answering Dataset from Peer Reviews",
+    "year": 2025,
+    "first_author": "Baumg\u00e4rtner",
+    "container": "Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+    "type": "proceedings-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[5]   Stefano Ceri et al. \u201cAn Introduction to Information Retrieval\u201d. In: Web Information Retrieval. Springer Berlin Heidelberg, 2013, pp. 3\u201311. ISBN: 9783642393143. DOI: 10.1007/978-3-642-39314-3_1. URL: http://dx.doi.org/10.1007/978-3-642-39314-3_1.",
+   "title": "An Introduction to Information Retrieval\u201d",
+   "authors": [
+    "Ceri"
+   ],
+   "year": 2013,
+   "doi": "10.1007/978-3-642-39314-3_1",
+   "arxiv": null,
+   "urls": [
+    "http://dx.doi.org/10.1007/978-3-642-39314-3_1"
+   ],
+   "container": "Web Information Retrieval",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/978-3-642-39314-3_1",
+    "title": "An Introduction to Information Retrieval",
+    "year": 2013,
+    "first_author": "Ceri",
+    "container": "Web Information Retrieval",
+    "type": "book-chapter",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[6]   Danqi Chen et al. \u201cReading Wikipedia to Answer Open-Domain Questions\u201d. In: Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). Association for Computational Linguistics, 2017. DOI: 10.18653/v1/p17-1171. URL: http://dx.doi.org/10.18653/v1/P17-1171.",
+   "title": "Reading Wikipedia to Answer Open-Domain Questions\u201d",
+   "authors": [
+    "Chen"
+   ],
+   "year": 2017,
+   "doi": "10.18653/v1/p17-1171",
+   "arxiv": null,
+   "urls": [
+    "http://dx.doi.org/10.18653/v1/P17-1171"
+   ],
+   "container": "Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/p17-1171",
+    "title": "Reading Wikipedia to Answer Open-Domain Questions",
+    "year": 2017,
+    "first_author": "Chen",
+    "container": "Proceedings of the 55th Annual Meeting of the Association for\n          Computational Linguistics (Volume 1: Long Papers)",
+    "type": "proceedings-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[7]   Eunsol Choi et al. Decontextualization: Making Sentences Stand-Alone. 2021. DOI: 10.48550/ ARXIV.2102.05169. URL: https://arxiv.org/abs/2102.05169.",
+   "title": "Decontextualization: Making Sentences Stand-Alone",
+   "authors": [
+    "Choi"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": "2102.05169",
+   "urls": [
+    "https://arxiv.org/abs/2102.05169"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1162/tacl_a_00377",
+    "title": "Decontextualization: Making Sentences Stand-Alone",
+    "year": 2021,
+    "first_author": "Choi",
+    "container": "Transactions of the Association for Computational Linguistics",
+    "type": "journal-article",
+    "score": 56.359978
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2102.05169"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[8]   Jeffrey Dalton, Chenyan Xiong, and Jamie Callan. TREC CAsT 2019: The Conversational Assistance Track Overview. 2020. DOI: 10 . 48550 / ARXIV . 2003 . 13624. URL: https : //arxiv.org/abs/2003.13624.",
+   "title": "TREC CAsT 2019: The Conversational Assistance Track Overview",
+   "authors": [
+    "Dalton",
+    "Xiong",
+    "Callan"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": "2003.13624",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.6028/nist.sp.500-335.cast-overview",
+    "title": "TREC CAsT 2021: The Conversational Assistance Track Overview",
+    "year": 2021,
+    "first_author": "Dalton",
+    "container": "",
+    "type": "component",
+    "score": 75.07805
+   },
+   "metrics": {
+    "title_sim": 98.30508474576271,
+    "containment": 0.857,
+    "partial_ratio": 98.30508474576271,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2003.13624"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[9]   Pradeep Dasigi et al. \u201cA Dataset of Information-Seeking Questions and Answers Anchored in Research Papers\u201d. In: Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies. Association for Computational Linguistics, 2021. DOI: 10.18653/v1/2021.naacl-main.365. URL: http://dx.doi.org/10.18653/V1/2021.NAACL-MAIN.365.",
+   "title": "A Dataset of Information-Seeking Questions and Answers Anchored in Research Papers\u201d",
+   "authors": [
+    "Dasigi"
+   ],
+   "year": 2021,
+   "doi": "10.18653/v1/2021.naacl-main.365",
+   "arxiv": null,
+   "urls": [
+    "http://dx.doi.org/10.18653/V1/2021.NAACL-MAIN.365"
+   ],
+   "container": "Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2021.naacl-main.365",
+    "title": "A Dataset of Information-Seeking Questions and Answers Anchored in Research Papers",
+    "year": 2021,
+    "first_author": "Dasigi",
+    "container": "Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+    "type": "proceedings-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[10]   Matthijs Douze et al. The Faiss library. 2024. DOI: 10.48550/ARXIV.2401.08281. URL: https://arxiv.org/abs/2401.08281.",
+   "title": "The Faiss library",
+   "authors": [
+    "Douze"
+   ],
+   "year": 2024,
+   "doi": "10.48550/ARXIV.2401.08281",
+   "arxiv": "2401.08281",
+   "urls": [
+    "https://arxiv.org/abs/2401.08281"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/tbdata.2025.3618474/mm1",
+    "title": "THE FAISS LIBRARY_supp1-3618474.pdf",
+    "year": 2025,
+    "first_author": "douze",
+    "container": "",
+    "type": "component",
+    "score": 36.93777
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.4,
+    "partial_ratio": 60.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "doi_not_resolvable",
+     "doi": "10.48550/ARXIV.2401.08281"
+    },
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2401.08281"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[11]   Alexander Fabbri et al. \u201cQAFactEval: Improved QA-Based Factual Consistency Evaluation for Summarization\u201d. In: Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies. Association for Computational Linguistics, 2022, pp. 2587\u20132601. DOI: 10.18653/v1/2022.naaclmain.187. URL: http://dx.doi.org/10.18653/v1/2022.naacl-main.187.",
+   "title": "QAFactEval: Improved QA-Based Factual Consistency Evaluation for Summarization\u201d",
+   "authors": [
+    "Fabbri"
+   ],
+   "year": 2022,
+   "doi": "10.18653/v1/2022.naaclmain.187",
+   "arxiv": null,
+   "urls": [
+    "http://dx.doi.org/10.18653/v1/2022.naacl-main.187"
+   ],
+   "container": "Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2022.naacl-main.187",
+    "title": "QAFactEval: Improved QA-Based Factual Consistency Evaluation for Summarization",
+    "year": 2022,
+    "first_author": "Fabbri",
+    "container": "Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+    "type": "proceedings-article",
+    "score": 74.39796
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "doi_not_resolvable",
+     "doi": "10.18653/v1/2022.naaclmain.187"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[12]   Thibault Formal, Benjamin Piwowarski, and St\u00e9phane Clinchant. \u201cSPLADE: Sparse Lexical and Expansion Model for First Stage Ranking\u201d. In: Proceedings of the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval. SIGIR \u201921. ACM, July 2021, pp. 2288\u20132292. DOI: 10 . 1145 / 3404835 . 3463098. URL: http : //dx.doi.org/10.1145/3404835.3463098.",
+   "title": "SPLADE: Sparse Lexical and Expansion Model for First Stage Ranking\u201d",
+   "authors": [
+    "Formal",
+    "Piwowarski",
+    "Clinchant"
+   ],
+   "year": 2021,
+   "doi": "10.1145/3404835.3463098",
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval. SIGIR \u201921",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3404835.3463098",
+    "title": "SPLADE: Sparse Lexical and Expansion Model for First Stage Ranking",
+    "year": 2021,
+    "first_author": "Formal",
+    "container": "Proceedings of the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval",
+    "type": "proceedings-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "[13]   Gautier Izacard and Edouard Grave. \u201cLeveraging Passage Retrieval with Generative Models for Open Domain Question Answering\u201d. In: Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics: Main Volume. Association for Computational Linguistics, 2021. DOI: 10.18653/v1/2021.eacl-main.74. URL: http: //dx.doi.org/10.18653/v1/2021.eacl-main.74.",
+   "title": "Leveraging Passage Retrieval with Generative Models for Open Domain Question Answering\u201d",
+   "authors": [
+    "Izacard",
+    "Grave"
+   ],
+   "year": 2021,
+   "doi": "10.18653/v1/2021.eacl-main.74",
+   "arxiv": null,
+   "urls": [
+    "http:"
+   ],
+   "container": "Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics: Main Volume",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2021.eacl-main.74",
+    "title": "Leveraging Passage Retrieval with Generative Models for Open Domain Question Answering",
+    "year": 2021,
+    "first_author": "Izacard",
+    "container": "Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics: Main Volume",
+    "type": "proceedings-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "[14]   Gautier Izacard et al. \u201cUnsupervised Dense Information Retrieval with Contrastive Learning\u201d. In: Trans. Mach. Learn. Res. 2022 (2021).",
+   "title": "Unsupervised Dense Information Retrieval with Contrastive Learning\u201d",
+   "authors": [
+    "Izacard"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1145/3773966.3778015",
+      "title": "Unsupervised Dense Retrieval with Conterfactual Contrastive Learning",
+      "year": 2026,
+      "first_author": "Chen",
+      "container": "Proceedings of the Nineteenth ACM International Conference on Web Search and Data Mining",
+      "type": "proceedings-article",
+      "score": 34.276665
+     },
+     "metrics": {
+      "title_sim": 90.0,
+      "containment": 0.833,
+      "partial_ratio": 79.41176470588236,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "[15]   Kalervo J\u00e4rvelin and Jaana Kek\u00e4l\u00e4inen. \u201cCumulated gain-based evaluation of IR techniques\u201d. In: ACM Transactions on Information Systems 20.4 (Oct. 2002), pp. 422\u2013446. ISSN: 1558-2868. DOI: 10.1145/582415.582418. URL: http://dx.doi.org/10.1145/582415.582418.",
+   "title": "Cumulated gain-based evaluation of IR techniques\u201d",
+   "authors": [
+    "J\u00e4rvelin",
+    "Kek\u00e4l\u00e4inen"
+   ],
+   "year": 2002,
+   "doi": "10.1145/582415.582418",
+   "arxiv": null,
+   "urls": [
+    "http://dx.doi.org/10.1145/582415.582418"
+   ],
+   "container": "ACM Transactions on Information Systems",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/582415.582418",
+    "title": "Cumulated gain-based evaluation of IR techniques",
+    "year": 2002,
+    "first_author": "J\u00e4rvelin",
+    "container": "ACM Transactions on Information Systems",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "[16]   Qiao Jin et al. \u201cPubMedQA: A Dataset for Biomedical Research Question Answering\u201d. In: Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP).",
+   "title": "PubMedQA: A Dataset for Biomedical Research Question Answering\u201d",
+   "authors": [
+    "Jin"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/d19-1259",
+    "title": "PubMedQA: A Dataset for Biomedical Research Question Answering",
+    "year": 2019,
+    "first_author": "Jin",
+    "container": "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)",
+    "type": "proceedings-article",
+    "score": 44.402813
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": true,
+   "idx": 15,
+   "raw": "Association for Computational Linguistics, 2019. DOI: 10 . 18653 / v1 / d19 - 1259. URL: http://dx.doi.org/10.18653/v1/D19-1259.",
+   "title": "Association for Computational Linguistics, 2019",
+   "authors": [],
+   "year": null,
+   "doi": "10.18653/v1/D19-1259",
+   "arxiv": null,
+   "urls": [
+    "http://dx.doi.org/10.18653/v1/D19-1259"
+   ],
+   "container": "DOI",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "doi_resolves_title_mismatch",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.18653/v1/d19-1259",
+      "title": "PubMedQA: A Dataset for Biomedical Research Question Answering",
+      "year": 2019,
+      "first_author": "Jin",
+      "container": "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)",
+      "type": "proceedings-article",
+      "score": 1
+     },
+     "metrics": {
+      "title_sim": 41.12149532710281,
+      "containment": 0.0,
+      "partial_ratio": 40.0,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1162/tacl_a_00260",
+      "title": "Autosegmental Input Strictly Local Functions",
+      "year": 2019,
+      "first_author": "Chandlee",
+      "container": "Transactions of the Association for Computational Linguistics",
+      "type": "journal-article",
+      "score": 27.69463
+     },
+     "metrics": {
+      "title_sim": 42.22222222222222,
+      "containment": 0.0,
+      "partial_ratio": 42.352941176470594,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 16,
+   "raw": "[17]   Dongyeop Kang et al. A Dataset of Peer Reviews (PeerRead): Collection, Insights and NLP Applications. 2018. DOI: 10.48550/ARXIV.1804.09635. URL: https://arxiv.org/abs/ 1804.09635.",
+   "title": "A Dataset of Peer Reviews (PeerRead): Collection, Insights and NLP Applications",
+   "authors": [
+    "Kang"
+   ],
+   "year": 2018,
+   "doi": "10.48550/ARXIV.1804.09635",
+   "arxiv": null,
+   "urls": [
+    "https://arxiv.org/abs/"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/n18-1149",
+    "title": "A Dataset of Peer Reviews (PeerRead): Collection, Insights and NLP Applications",
+    "year": 2018,
+    "first_author": "Kang",
+    "container": "Proceedings of the 2018 Conference of the North American Chapter of\n          the Association for Computational Linguistics: Human Language\n          Technologies, Volume 1 (Long Papers)",
+    "type": "proceedings-article",
+    "score": 55.859505
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "doi_not_resolvable",
+     "doi": "10.48550/ARXIV.1804.09635"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 17,
+   "raw": "[18] Vladimir Karpukhin et al. \u201cDense Passage Retrieval for Open-Domain Question Answering\u201d. In: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP). Association for Computational Linguistics, 2020. DOI: 10 . 18653 / v1 / 2020 . emnlp-main.550. URL: http://dx.doi.org/10.18653/v1/2020.emnlp-main.550.",
+   "title": "Dense Passage Retrieval for Open-Domain Question Answering\u201d",
+   "authors": [
+    "Karpukhin"
+   ],
+   "year": null,
+   "doi": "10.18653/v1/2020.emnlp-main.550",
+   "arxiv": null,
+   "urls": [
+    "http://dx.doi.org/10.18653/v1/2020.emnlp-main.550"
+   ],
+   "container": "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP). Association for Computational Linguistics, 2020. DOI",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2020.emnlp-main.550",
+    "title": "Dense Passage Retrieval for Open-Domain Question Answering",
+    "year": 2020,
+    "first_author": "Karpukhin",
+    "container": "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+    "type": "proceedings-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 18,
+   "raw": "[19] Omar Khattab and Matei Zaharia. \u201cColBERT: Efficient and Effective Passage Search via Contextualized Late Interaction over BERT\u201d. In: Proceedings of the 43rd International ACM SIGIR Conference on Research and Development in Information Retrieval. SIGIR \u201920. ACM, July 2020, pp. 39\u201348. DOI: 10.1145/3397271.3401075. URL: http://dx.doi.org/10. 1145/3397271.3401075.",
+   "title": "ColBERT: Efficient and Effective Passage Search via Contextualized Late Interaction over BERT\u201d",
+   "authors": [
+    "Khattab",
+    "Zaharia"
+   ],
+   "year": 2020,
+   "doi": "10.1145/3397271.3401075",
+   "arxiv": null,
+   "urls": [
+    "http://dx.doi.org/10"
+   ],
+   "container": "Proceedings of the 43rd International ACM SIGIR Conference on Research and Development in Information Retrieval. SIGIR \u201920",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3397271.3401075",
+    "title": "ColBERT",
+    "year": 2020,
+    "first_author": "Khattab",
+    "container": "Proceedings of the 43rd International ACM SIGIR Conference on Research and Development in Information Retrieval",
+    "type": "proceedings-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 14.141414141414144,
+    "containment": 1.0,
+    "partial_ratio": 0,
+    "year_ok": true,
+    "first_author_ok": true,
+    "rule": "id+raw_containment"
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 19,
+   "raw": "[20] Kenton Lee, Ming-Wei Chang, and Kristina Toutanova. \u201cLatent Retrieval for Weakly Supervised Open Domain Question Answering\u201d. In: Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics. Association for Computational Linguistics, 2019. DOI: 10.18653/v1/p19-1612. URL: http://dx.doi.org/10.18653/v1/P19-1612.",
+   "title": "Latent Retrieval for Weakly Supervised Open Domain Question Answering\u201d",
+   "authors": [
+    "Lee",
+    "Chang",
+    "Toutanova"
+   ],
+   "year": 2019,
+   "doi": "10.18653/v1/p19-1612",
+   "arxiv": null,
+   "urls": [
+    "http://dx.doi.org/10.18653/v1/P19-1612"
+   ],
+   "container": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/p19-1612",
+    "title": "Latent Retrieval for Weakly Supervised Open Domain Question Answering",
+    "year": 2019,
+    "first_author": "Lee",
+    "container": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+    "type": "proceedings-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 20,
+   "raw": "[21] Patrick Lewis et al. \u201cRetrieval-Augmented Generation for Knowledge-Intensive NLP Tasks\u201d. In: ArXiv abs/2005.11401 (2020).",
+   "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks\u201d",
+   "authors": [
+    "Lewis"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": "2005.11401",
+   "urls": [],
+   "container": "ArXiv abs/2005.11401",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2005.11401"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1002/9781394374717.ch03",
+      "title": "Retrieval\u2010Augmented Generation",
+      "year": 2026,
+      "first_author": null,
+      "container": "Advanced Retrieval\u2010Augmented Generation",
+      "type": "other",
+      "score": 37.196396
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 1.0,
+      "partial_ratio": 100.0,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 21,
+   "raw": "[22] Chin-Yew Lin. \u201cROUGE: A Package for Automatic Evaluation of Summaries\u201d. In: Annual Meeting of the Association for Computational Linguistics. 2004, pp. 74\u201381.",
+   "title": "ROUGE: A Package for Automatic Evaluation of Summaries\u201d",
+   "authors": [
+    "Lin"
+   ],
+   "year": 2004,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Annual Meeting of the Association for Computational Linguistics",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.3115/1118162.1118168",
+      "title": "Manual and automatic evaluation of summaries",
+      "year": 2002,
+      "first_author": "Lin",
+      "container": "Proceedings of the ACL-02 Workshop on Automatic Summarization  -",
+      "type": "proceedings-article",
+      "score": 30.341633
+     },
+     "metrics": {
+      "title_sim": 85.71428571428571,
+      "containment": 0.75,
+      "partial_ratio": 84.0909090909091,
+      "year_ok": false,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 22,
+   "raw": "[23] Jimmy J. Lin et al. \u201cPyserini: An Easy-to-Use Python Toolkit to Support Replicable IR Research with Sparse and Dense Representations\u201d. In: ArXiv abs/2102.10073 (2021).",
+   "title": "Pyserini: An Easy-to-Use Python Toolkit to Support Replicable IR Research with Sparse and Dense Representations\u201d",
+   "authors": [
+    "Lin"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": "2102.10073",
+   "urls": [],
+   "container": "In",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2102.10073"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1145/3404835.3463238",
+      "title": "Pyserini: A Python Toolkit for Reproducible Information Retrieval Research with Sparse and Dense Representations",
+      "year": 2021,
+      "first_author": "Lin",
+      "container": "Proceedings of the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval",
+      "type": "proceedings-article",
+      "score": 61.011616
+     },
+     "metrics": {
+      "title_sim": 80.73394495412845,
+      "containment": 0.7,
+      "partial_ratio": 77.47747747747748,
+      "year_ok": true,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": {
+    "source": "crossref",
+    "doi": "10.1145/3404835.3463238",
+    "title": "Pyserini: A Python Toolkit for Reproducible Information Retrieval Research with Sparse and Dense Representations",
+    "year": 2021,
+    "first_author": "Lin",
+    "container": "Proceedings of the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval",
+    "type": "proceedings-article",
+    "score": 61.011616
+   }
+  },
+  {
+   "junk": false,
+   "idx": 23,
+   "raw": "[24] Junyong Lin et al. ScIRGen: Synthesize Realistic and Large-Scale RAG Dataset for Scientific Research. 2025. DOI: 10.48550/ARXIV.2506.11117. URL: https://arxiv.org/abs/ 2506.11117.",
+   "title": "ScIRGen: Synthesize Realistic and Large-Scale RAG Dataset for Scientific Research",
+   "authors": [
+    "Lin"
+   ],
+   "year": 2025,
+   "doi": "10.48550/ARXIV.2506.11117",
+   "arxiv": null,
+   "urls": [
+    "https://arxiv.org/abs/"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3711896.3737432",
+    "title": "ScIRGen: Synthesize Realistic and Large-Scale RAG Dataset for Scientific Research",
+    "year": 2025,
+    "first_author": "Lin",
+    "container": "Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2",
+    "type": "proceedings-article",
+    "score": 63.490974
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "doi_not_resolvable",
+     "doi": "10.48550/ARXIV.2506.11117"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 24,
+   "raw": "[25] Yang Liu et al. G-Eval: NLG Evaluation using GPT-4 with Better Human Alignment. 2023. DOI: 10.48550/ARXIV.2303.16634. URL: https://arxiv.org/abs/2303.16634.",
+   "title": "G-Eval: NLG Evaluation using GPT-4 with Better Human Alignment",
+   "authors": [
+    "Liu"
+   ],
+   "year": 2023,
+   "doi": "10.48550/ARXIV.2303.16634",
+   "arxiv": "2303.16634",
+   "urls": [
+    "https://arxiv.org/abs/2303.16634"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2023.emnlp-main.153",
+    "title": "G-Eval: NLG Evaluation using Gpt-4 with Better Human Alignment",
+    "year": 2023,
+    "first_author": "Liu",
+    "container": "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+    "type": "proceedings-article",
+    "score": 62.299213
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "doi_not_resolvable",
+     "doi": "10.48550/ARXIV.2303.16634"
+    },
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2303.16634"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 25,
+   "raw": "[26] Kyle Lo et al. \u201cS2ORC: The Semantic Scholar Open Research Corpus\u201d. In: Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics. Association for Computational Linguistics, 2020. DOI: 10 . 18653 / v1 / 2020 . acl - main . 447. URL: http://dx.doi.org/10.18653/V1/2020.ACL-MAIN.447.",
+   "title": "S2ORC: The Semantic Scholar Open Research Corpus\u201d",
+   "authors": [
+    "Lo"
+   ],
+   "year": null,
+   "doi": "10.18653/V1/2020.ACL-MAIN.447",
+   "arxiv": null,
+   "urls": [
+    "http://dx.doi.org/10.18653/V1/2020.ACL-MAIN.447"
+   ],
+   "container": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics. Association for Computational Linguistics, 2020. DOI",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2020.acl-main.447",
+    "title": "S2ORC: The Semantic Scholar Open Research Corpus",
+    "year": 2020,
+    "first_author": "Lo",
+    "container": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+    "type": "proceedings-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 26,
+   "raw": "[27] Xueguang Ma, Tommaso Teofili, and Jimmy Lin. Anserini Gets Dense Retrieval: Integration of Lucene\u2019s HNSW Indexes. 2023. DOI: 10 . 48550 / ARXIV . 2304 . 12139. URL: https : //arxiv.org/abs/2304.12139.",
+   "title": "Anserini Gets Dense Retrieval: Integration of Lucene\u2019s HNSW Indexes",
+   "authors": [
+    "Ma",
+    "Teofili",
+    "Lin"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2304.12139",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3583780.3615112",
+    "title": "Anserini Gets Dense Retrieval: Integration of Lucene's HNSW Indexes",
+    "year": 2023,
+    "first_author": "Ma",
+    "container": "Proceedings of the 32nd ACM International Conference on Information and Knowledge Management",
+    "type": "proceedings-article",
+    "score": 78.23288
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2304.12139"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 27,
+   "raw": "[28] Joshua Maynez et al. \u201cOn Faithfulness and Factuality in Abstractive Summarization\u201d. In: Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics. Association for Computational Linguistics, 2020. DOI: 10.18653/v1/2020.acl-main.173. URL: http://dx.doi.org/10.18653/v1/2020.acl-main.173.",
+   "title": "On Faithfulness and Factuality in Abstractive Summarization\u201d",
+   "authors": [
+    "Maynez"
+   ],
+   "year": 2020,
+   "doi": "10.18653/v1/2020.acl-main.173",
+   "arxiv": null,
+   "urls": [
+    "http://dx.doi.org/10.18653/v1/2020.acl-main.173"
+   ],
+   "container": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2020.acl-main.173",
+    "title": "On Faithfulness and Factuality in Abstractive Summarization",
+    "year": 2020,
+    "first_author": "Maynez",
+    "container": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+    "type": "proceedings-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 28,
+   "raw": "[29] Bhaskar Mitra and Nick Craswell. \u201cAn Introduction to Neural Information Retrieval t\u201d. In: Foundations and Trends\u00ae in Information Retrieval 13.1 (2018), pp. 1\u2013126. ISSN: 1554-0677. DOI: 10.1561/1500000061. URL: http://dx.doi.org/10.1561/1500000061.",
+   "title": "An Introduction to Neural Information Retrieval t\u201d",
+   "authors": [
+    "Mitra",
+    "Craswell"
+   ],
+   "year": 2018,
+   "doi": "10.1561/1500000061",
+   "arxiv": null,
+   "urls": [
+    "http://dx.doi.org/10.1561/1500000061"
+   ],
+   "container": "Foundations and Trends\u00ae in Information Retrieval",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1561/1500000061",
+    "title": "An Introduction to Neural Information Retrieval",
+    "year": 2018,
+    "first_author": "Mitra",
+    "container": "Foundations and Trends\u00ae in Information Retrieval",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 29,
+   "raw": "[30] Rodrigo Nogueira and Kyunghyun Cho. \u201cPassage Re-ranking with BERT\u201d. In: ArXiv abs/1901.04085 (2019).",
+   "title": "Passage Re-ranking with BERT\u201d",
+   "authors": [
+    "Nogueira",
+    "Cho"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": "1901.04085",
+   "urls": [],
+   "container": "ArXiv abs/1901.04085",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "1901.04085"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.6028/nist.sp.1266.deep-uob",
+      "title": "Faster BERT-based Re-ranking through Candidate Passage Extraction",
+      "year": 2020,
+      "first_author": "Reed",
+      "container": "",
+      "type": "component",
+      "score": 42.019615
+     },
+     "metrics": {
+      "title_sim": 90.19607843137254,
+      "containment": 0.375,
+      "partial_ratio": 48.33333333333333,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 30,
+   "raw": "[31] Rodrigo Nogueira et al. \u201cDocument Expansion by Query Prediction\u201d. In: ArXiv abs/1904.08375 (2019).",
+   "title": "Document Expansion by Query Prediction\u201d",
+   "authors": [
+    "Nogueira"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": "1904.08375",
+   "urls": [],
+   "container": "ArXiv abs/1904.08375",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "1904.08375"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.3724/sp.j.1087.2009.00852",
+      "title": "Query expansion based on context of document and search result",
+      "year": 2009,
+      "first_author": "JIANG",
+      "container": "Journal of Computer Applications",
+      "type": "journal-article",
+      "score": 30.326632
+     },
+     "metrics": {
+      "title_sim": 77.41935483870968,
+      "containment": 0.429,
+      "partial_ratio": 45.52845528455285,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 31,
+   "raw": "[32] Rodrigo Nogueira et al. \u201cDocument Ranking with a Pretrained Sequence-to-Sequence Model\u201d. In: Findings of the Association for Computational Linguistics: EMNLP 2020. Association for Computational Linguistics, 2020. DOI: 10.18653/v1/2020.findings-emnlp.63. URL: http://dx.doi.org/10.18653/v1/2020.findings-emnlp.63.",
+   "title": "Document Ranking with a Pretrained Sequence-to-Sequence Model\u201d",
+   "authors": [
+    "Nogueira"
+   ],
+   "year": 2020,
+   "doi": "10.18653/v1/2020.findings-emnlp.63",
+   "arxiv": null,
+   "urls": [
+    "http://dx.doi.org/10.18653/v1/2020.findings-emnlp.63"
+   ],
+   "container": "Findings of the Association for Computational Linguistics: EMNLP 2020",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2020.findings-emnlp.63",
+    "title": "Document Ranking with a Pretrained Sequence-to-Sequence Model",
+    "year": 2020,
+    "first_author": "Nogueira",
+    "container": "Findings of the Association for Computational Linguistics: EMNLP 2020",
+    "type": "proceedings-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 32,
+   "raw": "[33] Richard Yuanzhe Pang et al. \u201cQuALITY: Question Answering with Long Input Texts, Yes!\u201d In: Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies. Association for Computational Linguistics, 2022. DOI: 10.18653/v1/2022.naacl- main.391. URL: http://dx.doi. org/10.18653/v1/2022.naacl-main.391.",
+   "title": "QuALITY: Question Answering with Long Input Texts, Yes!",
+   "authors": [
+    "Pang"
+   ],
+   "year": 2022,
+   "doi": "10.18653/v1/2022.naacl-",
+   "arxiv": null,
+   "urls": [
+    "http://dx.doi"
+   ],
+   "container": "Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2022.naacl-main.391",
+    "title": "QuALITY: Question Answering with Long Input Texts, Yes!",
+    "year": 2022,
+    "first_author": "Pang",
+    "container": "Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+    "type": "proceedings-article",
+    "score": 50.08345
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "doi_not_resolvable",
+     "doi": "10.18653/v1/2022.naacl-"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 33,
+   "raw": "[34] Fabio Petroni et al. \u201cKILT: a Benchmark for Knowledge Intensive Language Tasks\u201d. In: Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies. Association for Computational Linguistics, 2021. DOI: 10.18653/v1/2021.naacl- main.200. URL: http://dx.doi. org/10.18653/V1/2021.NAACL-MAIN.200.",
+   "title": "KILT: a Benchmark for Knowledge Intensive Language Tasks\u201d",
+   "authors": [
+    "Petroni"
+   ],
+   "year": 2021,
+   "doi": "10.18653/v1/2021.naacl-",
+   "arxiv": null,
+   "urls": [
+    "http://dx.doi"
+   ],
+   "container": "Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2021.naacl-main.200",
+    "title": "KILT: a Benchmark for Knowledge Intensive Language Tasks",
+    "year": 2021,
+    "first_author": "Petroni",
+    "container": "Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+    "type": "proceedings-article",
+    "score": 50.931213
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "doi_not_resolvable",
+     "doi": "10.18653/v1/2021.naacl-"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 34,
+   "raw": "[35] Pranav Rajpurkar, Robin Jia, and Percy Liang. \u201cKnow What You Don\u2019t Know: Unanswerable Questions for SQuAD\u201d. In: Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers). Association for Computational Linguistics, 2018. DOI: 10.18653/v1/p18-2124. URL: http://dx.doi.org/10.18653/ v1/P18-2124.",
+   "title": "Know What You Don\u2019t Know: Unanswerable Questions for SQuAD\u201d",
+   "authors": [
+    "Rajpurkar",
+    "Jia",
+    "Liang"
+   ],
+   "year": 2018,
+   "doi": "10.18653/v1/p18-2124",
+   "arxiv": null,
+   "urls": [
+    "http://dx.doi.org/10.18653/"
+   ],
+   "container": "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/p18-2124",
+    "title": "Know What You Don\u2019t Know: Unanswerable Questions for SQuAD",
+    "year": 2018,
+    "first_author": "Rajpurkar",
+    "container": "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+    "type": "proceedings-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 35,
+   "raw": "[36] Nils Reimers and Iryna Gurevych. \u201cSentence-BERT: Sentence Embeddings using Siamese BERT-Networks\u201d. In: Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP). Association for Computational Linguistics, 2019. DOI: 10. 18653/v1/d19-1410. URL: http://dx.doi.org/10.18653/v1/D19-1410.",
+   "title": "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks\u201d",
+   "authors": [
+    "Reimers",
+    "Gurevych"
+   ],
+   "year": null,
+   "doi": "10.18653/v1/D19-1410",
+   "arxiv": null,
+   "urls": [
+    "http://dx.doi.org/10.18653/v1/D19-1410"
+   ],
+   "container": "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP). Association for Computational Linguistics, 2019. DOI",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/d19-1410",
+    "title": "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks",
+    "year": 2019,
+    "first_author": "Reimers",
+    "container": "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)",
+    "type": "proceedings-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 36,
+   "raw": "[37] Adam Roberts, Colin Raffel, and Noam Shazeer. \u201cHow Much Knowledge Can You Pack Into the Parameters of a Language Model?\u201d In: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP). Association for Computational Linguistics, 2020. DOI: 10.18653/v1/2020.emnlp- main.437. URL: http://dx.doi. org/10.18653/v1/2020.emnlp-main.437.",
+   "title": "How Much Knowledge Can You Pack Into the Parameters of a Language Model?",
+   "authors": [
+    "Roberts",
+    "Raffel",
+    "Shazeer"
+   ],
+   "year": 2020,
+   "doi": "10.18653/v1/2020.emnlp-",
+   "arxiv": null,
+   "urls": [
+    "http://dx.doi"
+   ],
+   "container": "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP). Association for Computational Linguistics",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2020.emnlp-main.437",
+    "title": "How Much Knowledge Can You Pack Into the Parameters of a Language Model?",
+    "year": 2020,
+    "first_author": "Roberts",
+    "container": "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+    "type": "proceedings-article",
+    "score": 65.50745
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "doi_not_resolvable",
+     "doi": "10.18653/v1/2020.emnlp-"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 37,
+   "raw": "[38] Stephen Robertson and Hugo Zaragoza. \u201cThe Probabilistic Relevance Framework: BM25 and Beyond\u201d. In: Foundations and Trends\u00ae in Information Retrieval 3.4 (2009), pp. 333\u2013389.",
+   "title": "The Probabilistic Relevance Framework: BM25 and Beyond\u201d",
+   "authors": [
+    "Robertson",
+    "Zaragoza"
+   ],
+   "year": 2009,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Foundations and Trends\u00ae in Information Retrieval",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1561/1500000019",
+    "title": "The Probabilistic Relevance Framework: BM25 and Beyond",
+    "year": 2009,
+    "first_author": "Robertson",
+    "container": "Foundations and Trends\u00ae in Information Retrieval",
+    "type": "journal-article",
+    "score": 55.738068
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": true,
+   "idx": 38,
+   "raw": "ISSN : 1554-0677. DOI : 10.1561/1500000019. URL : http://dx.doi.org/10.1561/ 1500000019.",
+   "title": null,
+   "authors": [],
+   "year": null,
+   "doi": "10.1561/1500000019",
+   "arxiv": null,
+   "urls": [
+    "http://dx.doi.org/10.1561/"
+   ],
+   "container": "ISSN : 1554-0677. DOI : 10.1561/1500000019. URL",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "doi_resolves_title_mismatch",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1561/1500000019",
+      "title": "The Probabilistic Relevance Framework: BM25 and Beyond",
+      "year": 2009,
+      "first_author": "Robertson",
+      "container": "Foundations and Trends\u00ae in Information Retrieval",
+      "type": "journal-article",
+      "score": 1
+     },
+     "metrics": {
+      "title_sim": 0,
+      "containment": 0.0,
+      "partial_ratio": 23.913043478260864,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.21518/1561-5936-2016-10-25-27",
+      "title": "Market of dietary supplements to increase potency: sales leaders and key trends  DOI: http://dx.doi.org/",
+      "year": 2016,
+      "first_author": null,
+      "container": "Remedium. Journal about the Russian market of medicines and medical equipment",
+      "type": "journal-article",
+      "score": 42.563866
+     },
+     "metrics": {
+      "title_sim": 0,
+      "containment": 0.308,
+      "partial_ratio": 43.29896907216495,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 39,
+   "raw": "[39] G. Salton, A. Wong, and C. S. Yang. \u201cA vector space model for automatic indexing\u201d. In: Communications of the ACM 18.11 (Nov. 1975), pp. 613\u2013620. ISSN: 1557-7317. DOI: 10. 1145/361219.361220. URL: http://dx.doi.org/10.1145/361219.361220.",
+   "title": "A vector space model for automatic indexing\u201d",
+   "authors": [
+    "Salton",
+    "Wong",
+    "Yang"
+   ],
+   "year": 1975,
+   "doi": "10.1145/361219.361220",
+   "arxiv": null,
+   "urls": [
+    "http://dx.doi.org/10.1145/361219.361220"
+   ],
+   "container": "ISSN: 1557-7317. DOI",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/361219.361220",
+    "title": "A vector space model for automatic indexing",
+    "year": 1975,
+    "first_author": "Salton",
+    "container": "Communications of the ACM",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 40,
+   "raw": "[40] Keshav Santhanam et al. \u201cColBERTv2: Effective and Efficient Retrieval via Lightweight Late Interaction\u201d. In: Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies. Association for Computational Linguistics, 2022. DOI: 10.18653/v1/2022.naacl-main.272. URL: http://dx.doi.org/10.18653/v1/2022.naacl-main.272.",
+   "title": "ColBERTv2: Effective and Efficient Retrieval via Lightweight Late Interaction\u201d",
+   "authors": [
+    "Santhanam"
+   ],
+   "year": 2022,
+   "doi": "10.18653/v1/2022.naacl-main.272",
+   "arxiv": null,
+   "urls": [
+    "http://dx.doi.org/10.18653/v1/2022.naacl-main.272"
+   ],
+   "container": "Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2022.naacl-main.272",
+    "title": "ColBERTv2: Effective and Efficient Retrieval via Lightweight Late Interaction",
+    "year": 2022,
+    "first_author": "Santhanam",
+    "container": "Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+    "type": "proceedings-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 41,
+   "raw": "[41] KAREN SPARCK JONES. \u201cA STATISTICAL INTERPRETATION OF TERM SPECIFICITY AND ITS APPLICATION IN RETRIEVAL\u201d. In: Journal of Documentation 28.1 (Jan. 1972), pp. 11\u201321. ISSN: 0022-0418. DOI: 10.1108/eb026526. URL: http://dx.doi.org/10. 1108/EB026526.",
+   "title": "A STATISTICAL INTERPRETATION OF TERM SPECIFICITY AND ITS APPLICATION IN RETRIEVAL\u201d",
+   "authors": [
+    "JONES"
+   ],
+   "year": 1972,
+   "doi": "10.1108/eb026526",
+   "arxiv": null,
+   "urls": [
+    "http://dx.doi.org/10"
+   ],
+   "container": "Journal of Documentation",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1108/eb026526",
+    "title": "A STATISTICAL INTERPRETATION OF TERM SPECIFICITY AND ITS APPLICATION IN RETRIEVAL",
+    "year": 1972,
+    "first_author": "SPARCK JONES",
+    "container": "Journal of Documentation",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 42,
+   "raw": "[42] Nandan Thakur et al. \u201cBEIR: A Heterogenous Benchmark for Zero-shot Evaluation of Information Retrieval Models\u201d. In: ArXiv abs/2104.08663 (2021).",
+   "title": "BEIR: A Heterogenous Benchmark for Zero-shot Evaluation of Information Retrieval Models\u201d",
+   "authors": [
+    "Thakur"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": "2104.08663",
+   "urls": [],
+   "container": "In",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2104.08663"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.63317/3tsv3vgn8kns",
+      "title": "BEIR-PL: Zero Shot Information Retrieval Benchmark for the Polish Language",
+      "year": 2024,
+      "first_author": "Wojtasik",
+      "container": "Proceedings of the Language Resources and Evaluation Conference",
+      "type": "proceedings-article",
+      "score": 45.43189
+     },
+     "metrics": {
+      "title_sim": 81.30081300813008,
+      "containment": 0.75,
+      "partial_ratio": 61.64383561643836,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 43,
+   "raw": "[43] James Thorne et al. \u201cFEVER: a Large-scale Dataset for Fact Extraction and VERification\u201d. In: Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long Papers).",
+   "title": "FEVER: a Large-scale Dataset for Fact Extraction and VERification\u201d",
+   "authors": [
+    "Thorne"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/n18-1074",
+    "title": "FEVER: a Large-scale Dataset for Fact Extraction and VERification",
+    "year": 2018,
+    "first_author": "Thorne",
+    "container": "Proceedings of the 2018 Conference of the North American Chapter of\n          the Association for Computational Linguistics: Human Language\n          Technologies, Volume 1 (Long Papers)",
+    "type": "proceedings-article",
+    "score": 48.964787
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": true,
+   "idx": 44,
+   "raw": "Association for Computational Linguistics, 2018. DOI: 10 . 18653 / v1 / n18 - 1074. URL: http://dx.doi.org/10.18653/v1/N18-1074.",
+   "title": "Association for Computational Linguistics, 2018",
+   "authors": [],
+   "year": null,
+   "doi": "10.18653/v1/N18-1074",
+   "arxiv": null,
+   "urls": [
+    "http://dx.doi.org/10.18653/v1/N18-1074"
+   ],
+   "container": "DOI",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "doi_resolves_title_mismatch",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.18653/v1/n18-1074",
+      "title": "FEVER: a Large-scale Dataset for Fact Extraction and VERification",
+      "year": 2018,
+      "first_author": "Thorne",
+      "container": "Proceedings of the 2018 Conference of the North American Chapter of\n          the Association for Computational Linguistics: Human Language\n          Technologies, Volume 1 (Long Papers)",
+      "type": "proceedings-article",
+      "score": 1
+     },
+     "metrics": {
+      "title_sim": 41.81818181818182,
+      "containment": 0.0,
+      "partial_ratio": 44.66019417475729,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.18653/v1/p18-1",
+      "title": "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+      "year": 2018,
+      "first_author": null,
+      "container": "",
+      "type": "proceedings",
+      "score": 24.672998
+     },
+     "metrics": {
+      "title_sim": 55.84415584415585,
+      "containment": 0.3,
+      "partial_ratio": 57.861635220125784,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 45,
+   "raw": "[44] Yuwei Wan et al. SciQAG: A Framework for Auto-Generated Science Question Answering Dataset with Fine-grained Evaluation. 2024. DOI: 10.48550/ARXIV.2405.09939. URL: https://arxiv.org/abs/2405.09939.",
+   "title": "SciQAG: A Framework for Auto-Generated Science Question Answering Dataset with Fine-grained Evaluation",
+   "authors": [
+    "Wan"
+   ],
+   "year": 2024,
+   "doi": "10.48550/ARXIV.2405.09939",
+   "arxiv": "2405.09939",
+   "urls": [
+    "https://arxiv.org/abs/2405.09939"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "doi_not_resolvable",
+     "doi": "10.48550/ARXIV.2405.09939"
+    },
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2405.09939"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/igarss53475.2024.10642697",
+      "title": "FAIR1M-GQA: Fine-Grained Grounded Question Answering Dataset in Remote Sensing",
+      "year": 2024,
+      "first_author": "Hu",
+      "container": "IGARSS 2024 - 2024 IEEE International Geoscience and Remote Sensing Symposium",
+      "type": "proceedings-article",
+      "score": 38.92431
+     },
+     "metrics": {
+      "title_sim": 67.41573033707866,
+      "containment": 0.5,
+      "partial_ratio": 63.63636363636363,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 46,
+   "raw": "[45] Wenhui Wang et al. \u201cMiniLM: Deep Self-Attention Distillation for Task-Agnostic Compression of Pre-Trained Transformers\u201d. In: ArXiv abs/2002.10957 (2020).",
+   "title": "MiniLM: Deep Self-Attention Distillation for Task-Agnostic Compression of Pre-Trained Transformers\u201d",
+   "authors": [
+    "Wang"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": "2002.10957",
+   "urls": [],
+   "container": "ArXiv",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2002.10957"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.52202/075280-1366",
+      "title": "Causal Interpretation of Self-Attention in Pre-Trained Transformers",
+      "year": 2023,
+      "first_author": "Rohekar",
+      "container": "Advances in Neural Information Processing Systems 36",
+      "type": "proceedings-article",
+      "score": 39.012787
+     },
+     "metrics": {
+      "title_sim": 77.06422018348624,
+      "containment": 0.714,
+      "partial_ratio": 64.17910447761194,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 47,
+   "raw": "[46] Zhilin Yang et al. \u201cHotpotQA: A Dataset for Diverse, Explainable Multi-hop Question Answering\u201d. In: Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing. Association for Computational Linguistics, 2018. DOI: 10.18653/v1/d18-1259. URL: http://dx.doi.org/10.18653/v1/D18-1259.",
+   "title": "HotpotQA: A Dataset for Diverse, Explainable Multi-hop Question Answering\u201d",
+   "authors": [
+    "Yang"
+   ],
+   "year": 2018,
+   "doi": "10.18653/v1/d18-1259",
+   "arxiv": null,
+   "urls": [
+    "http://dx.doi.org/10.18653/v1/D18-1259"
+   ],
+   "container": "Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/d18-1259",
+    "title": "HotpotQA: A Dataset for Diverse, Explainable Multi-hop Question Answering",
+    "year": 2018,
+    "first_author": "Yang",
+    "container": "Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing",
+    "type": "proceedings-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  }
+ ]
+}

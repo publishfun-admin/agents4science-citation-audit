@@ -780,7 +780,7 @@
    "container": "Proceedings of the 34th USENIX Security Symposium",
    "type": "paper-conference",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -803,7 +803,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "a02a3315313b34b910b36cd909800094804d614f",
+    "title": "Exploring User Security and Privacy Attitudes and Concerns Toward the Use of General-Purpose LLM Chatbots for Mental Health",
+    "year": 2025,
+    "first_author": "Jabari Kwesi",
+    "container": "USENIX Security Symposium",
+    "ext": {
+     "ArXiv": "2507.10695",
+     "DBLP": "conf/uss/KwesiCMN25",
+     "DOI": "10.48550/arXiv.2507.10695",
+     "CorpusId": 280275232
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1054,7 +1077,7 @@
    "container": "Proceedings of the 45th Annual Meeting of the Association of Computational Linguistics",
    "type": "paper-conference",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -1077,7 +1100,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "9021ee37482ff91e008b545ea9c7fced007d2918",
+    "title": "PERSONAGE: Personality Generation for Dialogue",
+    "year": 2007,
+    "first_author": "Fran\u00e7ois Mairesse",
+    "container": "Annual Meeting of the Association for Computational Linguistics",
+    "ext": {
+     "DBLP": "conf/acl/MairesseW07",
+     "ACL": "P07-1063",
+     "MAG": "2115648139",
+     "CorpusId": 2817528
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1603,7 +1649,7 @@
    "container": "Computational Linguistics",
    "type": "chapter",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -1626,7 +1672,32 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "66b7d31527f980bb2eecc23629f08ba6037facc4",
+    "title": "The Design and Implementation of XiaoIce, an Empathetic Social Chatbot",
+    "year": 2018,
+    "first_author": "Li Zhou",
+    "container": "International Conference on Computational Logic",
+    "ext": {
+     "DBLP": "journals/corr/abs-1812-08989",
+     "ArXiv": "1812.08989",
+     "MAG": "2998563994",
+     "ACL": "2020.cl-1.2",
+     "DOI": "10.1162/coli_a_00368",
+     "CorpusId": 56657857
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1908,5 +1979,7 @@
    ],
    "likely_match": null
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

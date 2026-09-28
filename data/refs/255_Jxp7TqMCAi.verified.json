@@ -1,0 +1,825 @@
+{
+ "pdf": "255_Jxp7TqMCAi.pdf",
+ "n_entries": 20,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "[1] S\u00e9bastien Benzekry, Clare Lamont, Afshin Beheshti, Amanda Tracz, John ML Ebos, Lynn Hlatky, and Philip Hahnfeldt. Classical mathematical models for description and prediction of experimental tumor growth. PLoS computational biology, 10(8):e1003800, 2014.",
+   "title": "Classical mathematical models for description and prediction of experimental tumor growth",
+   "authors": [
+    "Benzekry",
+    "Lamont",
+    "Beheshti",
+    "Tracz",
+    "Ebos",
+    "Hlatky",
+    "Hahnfeldt"
+   ],
+   "year": 2014,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "PLoS computational biology",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1371/journal.pcbi.1003800",
+    "title": "Classical Mathematical Models for Description and Prediction of Experimental Tumor Growth",
+    "year": 2014,
+    "first_author": "Benzekry",
+    "container": "PLoS Computational Biology",
+    "type": "journal-article",
+    "score": 55.483288
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2] Johannes Brandstetter, Rianne van den Berg, Max Welling, and Jayesh K Gupta. Clifford neural layers for pde modeling. In International Conference on Learning Representations, 2022.",
+   "title": "Clifford neural layers for pde modeling",
+   "authors": [
+    "Brandstetter",
+    "Berg",
+    "Welling",
+    "Gupta"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Conference on Learning Representations",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.52202/075280-2748",
+      "title": "Clifford Group Equivariant Neural Networks",
+      "year": 2023,
+      "first_author": "Ruhe",
+      "container": "Advances in Neural Information Processing Systems 36",
+      "type": "proceedings-article",
+      "score": 31.670553
+     },
+     "metrics": {
+      "title_sim": 56.79012345679013,
+      "containment": 0.4,
+      "partial_ratio": 47.61904761904761,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3] Mark AJ Chaplain and Georgios Lolas. Mathematical modelling of cancer invasion of tissue: dynamic heterogeneity. Networks & Heterogeneous Media, 1(3):399, 2006.",
+   "title": "Mathematical modelling of cancer invasion of tissue: dynamic heterogeneity",
+   "authors": [
+    "Chaplain",
+    "Lolas"
+   ],
+   "year": 2006,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Networks & Heterogeneous Media",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.3934/nhm.2006.1.399",
+    "title": "Mathematical modelling of cancer invasion of tissue: dynamic heterogeneity",
+    "year": 2006,
+    "first_author": "Chaplain",
+    "container": "Networks &amp; Heterogeneous Media",
+    "type": "journal-article",
+    "score": 54.761692
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4] Thomas S Deisboeck, Zhihui Wang, Paul Macklin, and Vittorio Cristini. Multiscale cancer modeling. Annual review of biomedical engineering, 13:127\u2013155, 2011.",
+   "title": "Multiscale cancer modeling",
+   "authors": [
+    "Deisboeck",
+    "Wang",
+    "Macklin",
+    "Cristini"
+   ],
+   "year": 2011,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Annual review of biomedical engineering",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1201/b10407",
+    "title": "Multiscale Cancer Modeling",
+    "year": 2010,
+    "first_author": null,
+    "container": "",
+    "type": "reference-book",
+    "score": 42.35637
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": null
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5] Hermann B Frieboes, John S Lowengrub, Steven Wise, Xiaoqiang Zheng, Paul Macklin, Elaine L Bearer, and Vittorio Cristini. Computer simulation of glioma growth and morphology. NeuroImage, 37:S59\u2013S70, 2007.",
+   "title": "Computer simulation of glioma growth and morphology",
+   "authors": [
+    "Frieboes",
+    "Lowengrub",
+    "Wise",
+    "Zheng",
+    "Macklin",
+    "Bearer",
+    "Cristini"
+   ],
+   "year": 2007,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "NeuroImage",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.neuroimage.2007.03.008",
+    "title": "Computer simulation of glioma growth and morphology",
+    "year": 2007,
+    "first_author": "Frieboes",
+    "container": "NeuroImage",
+    "type": "journal-article",
+    "score": 47.35569
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[6] Somdatta Goswami, Katiana Kontolati, Michael D Shields, and George Em Karniadakis. Physics-informed deep neural operator networks. Machine Learning and the Physical Sciences Workshop at NeurIPS, 2022.",
+   "title": "Physics-informed deep neural operator networks",
+   "authors": [
+    "Goswami",
+    "Kontolati",
+    "Shields",
+    "Karniadakis"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Machine Learning and the Physical Sciences Workshop at NeurIPS",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/978-3-031-36644-4_6",
+    "title": "Physics-Informed Deep Neural Operator Networks",
+    "year": 2023,
+    "first_author": "Goswami",
+    "container": "Computational Methods in Engineering &amp; the Sciences",
+    "type": "book-chapter",
+    "score": 40.03541
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[7] David A Hormuth II, Jared A Weis, Stephanie L Barnes, Michael I Miga, Erin C Rericha, Vito Quaranta, and Thomas E Yankeelov. A mechanically coupled reaction\u2013diffusion model for predicting the response of breast tumors to neoadjuvant chemotherapy. Physics in Medicine & Biology, 62(7):2851, 2017.",
+   "title": "A mechanically coupled reaction\u2013diffusion model for predicting the response of breast tumors to neoadjuvant chemotherapy",
+   "authors": [
+    "Hormuth",
+    "Weis",
+    "Barnes",
+    "Miga",
+    "Rericha",
+    "Quaranta",
+    "Yankeelov"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Physics in Medicine & Biology",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1088/0031-9155/58/17/5851",
+    "title": "A mechanically coupled reaction\u2013diffusion model for predicting the response of breast tumors to neoadjuvant chemotherapy",
+    "year": 2013,
+    "first_author": "Weis",
+    "container": "Physics in Medicine and Biology",
+    "type": "journal-article",
+    "score": 54.741665
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[8] George Em Karniadakis, Ioannis G Kevrekidis, Lu Lu, Paris Perdikaris, Sifan Wang, and Liu Yang. Physics-informed machine learning. Nature Reviews Physics, 3(6):422\u2013440, 2021.",
+   "title": "Physics-informed machine learning",
+   "authors": [
+    "Karniadakis",
+    "Kevrekidis",
+    "Lu",
+    "Perdikaris",
+    "Wang",
+    "Yang"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature Reviews Physics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/s42254-021-00314-5",
+    "title": "Physics-informed machine learning",
+    "year": 2021,
+    "first_author": "Karniadakis",
+    "container": "Nature Reviews Physics",
+    "type": "journal-article",
+    "score": 38.085407
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[9] Nikola Kovachki, Zongyi Li, Burigede Liu, Kamyar Azizzadenesheli, Kaushik Bhattacharya, Andrew Stuart, and Anima Anandkumar. Neural operator: Learning maps between function spaces with applications to pdes. Journal of Machine Learning Research, 24(89):1\u201397, 2023.",
+   "title": "Neural operator: Learning maps between function spaces with applications to pdes",
+   "authors": [
+    "Kovachki",
+    "Li",
+    "Liu",
+    "Azizzadenesheli",
+    "Bhattacharya",
+    "Stuart",
+    "Anandkumar"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Machine Learning Research",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.4509361",
+      "title": "Hno: Hyena Neural Operator for Solving Pdes",
+      "year": 2023,
+      "first_author": "Patil",
+      "container": "",
+      "type": "posted-content",
+      "score": 32.683407
+     },
+     "metrics": {
+      "title_sim": 64.51612903225806,
+      "containment": 0.5,
+      "partial_ratio": 64.28571428571428,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[10] Zongyi Li, Nikola Kovachki, Kamyar Azizzadenesheli, Burigede Liu, Kaushik Bhattacharya, Andrew Stuart, and Anima Anandkumar. Fourier neural operator for parametric partial differential equations. arXiv preprint arXiv:2010.08895, 2020.",
+   "title": "Fourier neural operator for parametric partial differential equations",
+   "authors": [
+    "Li",
+    "Kovachki",
+    "Azizzadenesheli",
+    "Liu",
+    "Bhattacharya",
+    "Stuart",
+    "Anandkumar"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": "2010.08895",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.2139/ssrn.4944664",
+    "title": "D-Fno: A Decomposed Fourier Neural Operator for Large-Scale Parametric Partial Differential Equations",
+    "year": 2024,
+    "first_author": "Li",
+    "container": "",
+    "type": "posted-content",
+    "score": 59.698242
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.636,
+    "partial_ratio": 77.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2010.08895"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "[11] John S Lowengrub, Hermann B Frieboes, Feng Jin, Yao-Li Chuang, Xiaoqiang Li, Paul Macklin, Steven M Wise, and Vittorio Cristini. Nonlinear modelling of cancer: bridging the gap between cells and tumours. Nonlinearity, 23(1):R1, 2010.",
+   "title": "Nonlinear modelling of cancer: bridging the gap between cells and tumours",
+   "authors": [
+    "Lowengrub",
+    "Frieboes",
+    "Jin",
+    "Chuang",
+    "Li",
+    "Macklin",
+    "Wise",
+    "Cristini"
+   ],
+   "year": 2010,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nonlinearity",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1088/0951-7715/23/1/r01",
+    "title": "Nonlinear modelling of cancer: bridging the gap between cells and tumours",
+    "year": 2010,
+    "first_author": "Lowengrub",
+    "container": "Nonlinearity",
+    "type": "journal-article",
+    "score": 56.960163
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "[12] Lu Lu, Pengzhan Jin, Guofei Pang, Zhongqiang Zhang, and George Em Karniadakis. Learning nonlinear operators via deeponet based on the universal approximation theorem of operators. Nature Machine Intelligence, 3(3):218\u2013229, 2021.",
+   "title": "Learning nonlinear operators via deeponet based on the universal approximation theorem of operators",
+   "authors": [
+    "Lu",
+    "Jin",
+    "Pang",
+    "Zhang",
+    "Karniadakis"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature Machine Intelligence",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/s42256-021-00302-5",
+    "title": "Learning nonlinear operators via DeepONet based on the universal approximation theorem of operators",
+    "year": 2021,
+    "first_author": "Lu",
+    "container": "Nature Machine Intelligence",
+    "type": "journal-article",
+    "score": 77.9483
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "[13] Paul Macklin, Steven McDougall, Alexander RA Anderson, Mark AJ Chaplain, Vittorio Cristini, and John Lowengrub. Multiscale modelling and nonlinear simulation of vascular tumour growth. Journal of mathematical biology, 58(4):765\u2013798, 2009.",
+   "title": "Multiscale modelling and nonlinear simulation of vascular tumour growth",
+   "authors": [
+    "Macklin",
+    "McDougall",
+    "Anderson",
+    "Chaplain",
+    "Cristini",
+    "Lowengrub"
+   ],
+   "year": 2009,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of mathematical biology",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/s00285-008-0216-9",
+    "title": "Multiscale modelling and nonlinear simulation of vascular tumour growth",
+    "year": 2009,
+    "first_author": "Macklin",
+    "container": "Journal of Mathematical Biology",
+    "type": "journal-article",
+    "score": 51.907406
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "[14] James D Murray. Mathematical biology: I. an introduction. Springer-Verlag, New York, 17:551\u2013568, 2002.",
+   "title": "Mathematical biology: I. an introduction",
+   "authors": [
+    "Murray"
+   ],
+   "year": 2002,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/b98868",
+    "title": "Mathematical Biology",
+    "year": 2002,
+    "first_author": null,
+    "container": "Interdisciplinary Applied Mathematics",
+    "type": "book",
+    "score": 33.176254
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": null
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "[15] Kevin J Painter and Thomas Hillen. Continuous models for cell migration in tissues and applications to cell sorting via differential chemotaxis. Bulletin of mathematical biology, 64(1):29\u201355, 2002.",
+   "title": "Continuous models for cell migration in tissues and applications to cell sorting via differential chemotaxis",
+   "authors": [
+    "Painter",
+    "Hillen"
+   ],
+   "year": 2002,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Bulletin of mathematical biology",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/s11538-009-9396-8",
+    "title": "Continuous Models for Cell Migration in Tissues and\u00a0Applications to Cell Sorting via Differential Chemotaxis",
+    "year": 2009,
+    "first_author": "Painter",
+    "container": "Bulletin of Mathematical Biology",
+    "type": "journal-article",
+    "score": 76.42236
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 16,
+   "raw": "[16] Jaideep Pathak, Shashank Subramanian, Peter Harrington, Sanjeev Raja, Ashesh Chattopadhyay, Morteza Mardani, Thorsten Kurth, David Hall, Zongyi Li, Kamyar Azizzadenesheli, et al. Fourcastnet: A global data-driven high-resolution weather model using adaptive fourier neural operators. arXiv preprint arXiv:2202.11214, 2022.",
+   "title": "Fourcastnet: A global data-driven high-resolution weather model using adaptive fourier neural operators",
+   "authors": [
+    "Pathak",
+    "Subramanian",
+    "Harrington",
+    "Raja",
+    "Chattopadhyay",
+    "Mardani",
+    "Kurth",
+    "Hall",
+    "Li",
+    "Azizzadenesheli"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": "2202.11214",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3592979.3593412",
+    "title": "FourCastNet: Accelerating Global High-Resolution Weather Forecasting Using Adaptive Fourier Neural Operators",
+    "year": 2023,
+    "first_author": "Kurth",
+    "container": "Proceedings of the Platform for Advanced Scientific Computing Conference",
+    "type": "proceedings-article",
+    "score": 67.70687
+   },
+   "metrics": {
+    "title_sim": 89.13043478260869,
+    "containment": 0.818,
+    "partial_ratio": 81.30841121495327,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2202.11214"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 17,
+   "raw": "[17] Maziar Raissi, Paris Perdikaris, and George E Karniadakis. Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations. Journal of Computational physics, 378:686\u2013707, 2019.",
+   "title": "Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations",
+   "authors": [
+    "Raissi",
+    "Perdikaris",
+    "Karniadakis"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Computational physics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.jcp.2018.10.045",
+    "title": "Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations",
+    "year": 2019,
+    "first_author": "Raissi",
+    "container": "Journal of Computational Physics",
+    "type": "journal-article",
+    "score": 105.0734
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 18,
+   "raw": "[18] Kristin R Swanson, Ellsworth C Alvord Jr, and JD Murray. A mathematical modelling tool for predicting survival of individual patients following resection of glioblastoma: a proof of principle. British journal of cancer, 98(1):113\u2013119, 2008.",
+   "title": "A mathematical modelling tool for predicting survival of individual patients following resection of glioblastoma: a proof of principle",
+   "authors": [
+    "Swanson",
+    "Alvord",
+    "Murray"
+   ],
+   "year": 2008,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "British journal of cancer",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/sj.bjc.6604125",
+    "title": "A mathematical modelling tool for predicting survival of individual patients following resection of glioblastoma: a proof of principle",
+    "year": 2008,
+    "first_author": "Swanson",
+    "container": "British Journal of Cancer",
+    "type": "journal-article",
+    "score": 78.10068
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 19,
+   "raw": "[19] Alan M Turing. The chemical basis of morphogenesis. Philosophical Transactions of the Royal Society of London. Series B, Biological Sciences, 237(641):37\u201372, 1952.",
+   "title": "The chemical basis of morphogenesis",
+   "authors": [
+    "Turing"
+   ],
+   "year": 1952,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Philosophical Transactions of the Royal Society of London. Series B, Biological Sciences",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1093/oso/9780198250791.003.0022",
+    "title": "The Chemical Basis of Morphogenesis (1952)",
+    "year": 2004,
+    "first_author": "Turing",
+    "container": "The Essential Turing",
+    "type": "book-chapter",
+    "score": 49.565685
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 90.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 20,
+   "raw": "[20] Sifan Wang, Hanwen Wang, and Paris Perdikaris. Learning the solution operator of parametric partial differential equations with physics-informed deeponets. Science advances, 7(40):eabi8605, 2021.",
+   "title": "Learning the solution operator of parametric partial differential equations with physics-informed deeponets",
+   "authors": [
+    "Wang",
+    "Wang",
+    "Perdikaris"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Science advances",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.26226/morressier.612f6736bc98103724100850",
+    "title": "Learning the solution operator of parametric partial differential equations with physics-informed DeepOnets",
+    "year": 2021,
+    "first_author": "Perdikaris",
+    "container": "",
+    "type": "posted-content",
+    "score": 90.95703
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  }
+ ]
+}

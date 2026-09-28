@@ -1,4 +1,6 @@
-# [TITLE TBD] Fabricated references in AI-first-authored research: a manually verified audit of all Agents4Science 2025 submissions
+# Fabricated references in AI-first-authored research: a manually verified audit of all Agents4Science 2025 submissions
+
+<!-- keywords: fabricated citations, hallucinated references, AI-generated research, Agents4Science, LLM peer review, research integrity, citation audit -->
 
 > Draft skeleton written before results were available. Sections marked [RESULTS] are filled from data/dataset outputs.
 
@@ -95,22 +97,35 @@ writing), the LLM topic classification, and the reviewer scores, which agree exa
 ## 4. Methods
 
 **Reference extraction.** Reference lists were extracted from the PDFs with AnyStyle 1.6 (a conditional-random-field
-reference parser); when it found no reference section, a heuristic segmenter located the section and AnyStyle parsed
-the raw strings. Entries without a year and author, or whose title is a table or figure caption, were tagged as parse
-artefacts and excluded.
+reference parser) applied to pdftotext output. Three layout problems were handled before parsing: margin line numbers
+from the review template were stripped when at least a quarter of the lines began with a running number; two-column
+papers, detected when at least 30% of lines contained a wide internal gap (the layout-preserving text of such papers
+interleaves the two columns), were re-extracted in reading order; and bracket-numbered lists in which the parser had
+dropped entries were segmented at the bracket markers and parsed entry by entry. Entries without a year and author, or
+consisting of body text, captions or affiliation blocks, were tagged as parse artefacts and excluded; artefacts that
+survived this filter were classified as UNADJUDICABLE during adjudication.
 
-**Automated verification.** Each entry was checked in order against (1) its DOI via Crossref and its arXiv identifier via
-the arXiv API, accepting the entry when the resolved title is contained in the entry text; (2) Crossref's bibliographic
-query, OpenAlex, DBLP and arXiv title search, accepting a candidate when its title agrees with the parsed title (fuzzy
-ratio >= 92, or >= 85 with matching year and first author) and the cited year is within one year; (3) Semantic Scholar,
-Crossref title queries, OpenLibrary and Google Books in a second pass; (4) for entries citing only a URL, whether the
-URL is live. All API responses are cached and released with the code, so the automated stage is exactly reproducible.
+**Automated verification.** Each entry was checked in order against (1) its DOI via Crossref and its arXiv identifier
+via the arXiv API or abstract page, accepting the entry when the resolved title is contained in the entry text (a
+re-pass repeated the arXiv lookups after an outage of the arXiv API); (2) Crossref's bibliographic query and OpenAlex,
+accepting a candidate when its title agrees with the parsed title (fuzzy ratio >= 92, or >= 85 with matching year and
+first author) and the cited year is within one year; (3) in a second pass, Semantic Scholar's title match, Crossref
+title queries, OpenLibrary and Google Books; (4) for entries citing only a URL, whether the URL is live. All API
+responses are cached and released with the code, so the automated stage is exactly reproducible.
 
-**Manual adjudication.** Every entry that remained unverified was adjudicated by the author's AI agent under the written
-protocol in data/adjudication/PROTOCOL.md: exact-title web search, then author-plus-keywords search, with the evidence
-URL logged for every decision. Categories: EXISTS (a real work; automated recall failure), EXISTS_CORRUPTED (a real
-work cited with a substantively wrong author, year, venue, identifier or title), NOT_FOUND (no trace of the work),
-WEB_RESOURCE, and UNADJUDICABLE (excluded). Fabricated = NOT_FOUND or EXISTS_CORRUPTED.
+**Manual adjudication.** Every entry that remained unverified was adjudicated by the author's AI agent under the
+written protocol in data/adjudication/PROTOCOL.md (with one amendment adding the PLACEHOLDER category): an exact-title
+search and, before any NOT_FOUND decision, a second search by author plus keywords, with the evidence URL or the
+searches performed logged for every decision. Searches used the agent's web-search tool and, when its budget or a
+search engine's bot detection ran out, Google, Brave or Yahoo search pages opened in a browser, plus PubMed for
+biomedical references and Crossref, OpenLibrary and arXiv abstract pages for identifiers. Categories: EXISTS (a real
+work correctly cited; an automated recall failure; typographic differences and truncated titles allowed),
+EXISTS_CORRUPTED (a real work is clearly intended but at least one substantive attribute is wrong, tagged as title,
+authors, venue, year or identifier), NOT_FOUND (no trace of the work), WEB_RESOURCE_EXISTS or WEB_RESOURCE_NOT_FOUND
+(URL-only citations), PLACEHOLDER (deliberately incomplete stubs such as "Authors. Title. arXiv preprint" or a venue
+given as "[Conference]"), and UNADJUDICABLE (parse artefacts and grey literature that cannot be located either way;
+excluded from denominators). Fabricated = NOT_FOUND or EXISTS_CORRUPTED; a sensitivity analysis adds PLACEHOLDER
+("defective").
 
 **Analysis.** All analyses were pre-specified (paper/analysis_plan.md in the repository) before any manual
 adjudication. Proportions are reported with 95% Wilson intervals. The organisers' flag is evaluated at the reference
@@ -119,7 +134,8 @@ level (share of their flagged example references that adjudication classifies as
 reference"). Associations between a paper's fabricated share and its self-reported writing autonomy tier use the
 Kruskal-Wallis test, and associations with the overall autonomy score and with each reviewer's overall score use
 Spearman's rank correlation. Acceptance is modelled with a logistic regression on the fabricated share and the mean
-LLM score. Reviewer detection is measured as the share of papers with at least one fabricated reference in which at
+LLM score; if that regression cannot be fitted because of complete separation, acceptance is instead compared between
+papers with and without fabricated references by Fisher's exact test (a deviation from the plan, noted where it applies). Reviewer detection is measured as the share of papers with at least one fabricated reference in which at
 least one LLM review, the human review, or the organisers' Correctness Check states explicitly that references are
 fabricated, non-existent, future-dated or unverifiable; candidate sentences were found with a keyword pattern and
 each was read and classified by the adjudicating agent as an independent assertion, an echo of the authors' own
@@ -163,9 +179,34 @@ six pre-specified questions; p-values are reported as descriptive evidence rathe
 
 ## 7. Limitations
 
-[to be completed with the results; includes: NOT_FOUND is evidence of absence from indexes and the web, not proof of
-non-existence; parser recall; adjudication by an AI agent with logged evidence rather than by two independent humans;
-self-reported autonomy tiers; the corpus is one venue and one moment in time.]
+**Absence of evidence.** NOT_FOUND means that a reference could not be found in Crossref, OpenAlex, Semantic Scholar,
+arXiv, OpenLibrary or PubMed, nor by two web searches; it is evidence of absence from the indexed record and the open
+web, not proof that no such work exists. Grey literature, non-English and paywalled items can be missed, which is why
+grey literature that could not be located either way was set aside as UNADJUDICABLE rather than counted, and why
+EXISTS_CORRUPTED decisions name the real work that was evidently intended.
+
+**Parser recall and precision.** Reference extraction from PDFs is imperfect: entries the parser missed are absent from
+the denominators, and some references were fragmented or merged (the fragments are reported as UNADJUDICABLE). Recall
+was checked against the bracket-marker counts of numbered reference lists, and two-column layouts were re-extracted in
+reading order after the first pass had garbled them.
+
+**One adjudicator.** Adjudication was performed by one AI agent following a written protocol with logged evidence,
+not by two independent human coders, and some rules (for example, which title differences count as corruption)
+involve judgement. Every decision, its category, its evidence URL and its note are released so that any of them can
+be re-checked. The search channels changed during the audit (the agent's web-search tool, then Google, Brave and Yahoo
+search pages, PubMed and Crossref) as usage limits and bot detection intervened; exact-phrase searches on some engines
+have lower recall, which the mandatory second search by author and keywords was designed to offset.
+
+**Identifier-based acceptance.** The automated stage accepts an entry when its DOI or arXiv identifier resolves to a
+work whose title is contained in the entry; wrong authors or years in such entries are detected only when the entry
+was also adjudicated manually, so the reported fabricated share is a lower bound for that class of corruption.
+
+**Self-reported and machine-extracted covariates.** Autonomy tiers were self-reported by the submitting teams and
+extracted by the organisers' LLM pipeline; review scores come from three LLM reviewers whose scales differ markedly.
+
+**One venue, one moment.** The corpus is a single conference at a single time (the first AI-first-author venue,
+September 2025); the submitting agents, prompts and human oversight were heterogeneous and largely undocumented, and
+a few teams submitted near-duplicate papers, which are kept as separate submissions as the organisers kept them.
 
 ## AI-use disclosure
 
@@ -181,7 +222,12 @@ submission. The author has no relationship with Agents4Science or its organisers
 
 ## Data and code availability
 
-[repository URL - to be added]
+All code, the cached API responses that make the automated stage reproducible, the parsed reference lists, the
+adjudication protocol and the complete decision log (one row per adjudicated reference with category, evidence URL and
+note), the merged dataset and the analysis outputs are available at
+https://github.com/publishfun-admin/agents4science-citation-audit. The submissions, reviews and organiser comments are public on
+OpenReview (venue Agents4Science 2025) and the conference data files are public at
+https://agents4science.stanford.edu/data/; the repository records how they were retrieved.
 
 ## References
 

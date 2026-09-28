@@ -1,0 +1,467 @@
+{
+ "pdf": "326_7qIGNFpf1C.pdf",
+ "n_entries": 10,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "Yujia Du, Chen Henry Liu, Ang Li, Kai-Wei Chang, John Canny, Xin Lu, Lei Hou, and Zhiyuan Yu. Streamingllm: Distributed generation with multi-agent cooperation. In International Conference on Machine Learning (ICML), 2023.",
+   "title": "Streamingllm: Distributed generation with multi-agent cooperation",
+   "authors": [
+    "Du",
+    "Liu",
+    "Li",
+    "Chang",
+    "Canny",
+    "Lu",
+    "Hou",
+    "Yu"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Conference on Machine Learning (ICML",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1016/j.ifacol.2023.10.1450",
+      "title": "Distributed Model Predictive Control for Periodic Cooperation of Multi-Agent Systems",
+      "year": 2023,
+      "first_author": "K\u00f6hler",
+      "container": "IFAC-PapersOnLine",
+      "type": "journal-article",
+      "score": 29.677011
+     },
+     "metrics": {
+      "title_sim": 70.7070707070707,
+      "containment": 0.444,
+      "partial_ratio": 51.19047619047619,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "Joe G Greener, Lachlan Moffat, and David T Jones. Design of metalloproteins and novel protein folds using variational autoencoders. Scientific Reports, 8(1):1\u201312, 2018.",
+   "title": "Design of metalloproteins and novel protein folds using variational autoencoders",
+   "authors": [
+    "Greener",
+    "Moffat",
+    "Jones"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Scientific Reports",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/s41598-018-34533-1",
+    "title": "Design of metalloproteins and novel protein folds using variational autoencoders",
+    "year": 2018,
+    "first_author": "Greener",
+    "container": "Scientific Reports",
+    "type": "journal-article",
+    "score": 74.628456
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "John Jumper, Richard Evans, Alexander Pritzel, Tim Green, Michael Figurnov, Olaf Ronneberger, Kathryn Tunyasuvunakool, Russ Bates, Augustin \u017d\u00eddek, Anna Potapenko, et al. Highly accurate protein structure prediction with alphafold. Nature, 596(7873):583\u2013589, 2021.",
+   "title": "Highly accurate protein structure prediction with alphafold",
+   "authors": [
+    "Jumper",
+    "Evans",
+    "Pritzel",
+    "Green",
+    "Figurnov",
+    "Ronneberger",
+    "Tunyasuvunakool",
+    "Bates",
+    "\u017d\u00eddek",
+    "Potapenko"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.3410/f.740477161.793588722",
+    "title": "Faculty Opinions recommendation of Highly accurate protein structure prediction with AlphaFold.",
+    "year": 2021,
+    "first_author": "Herault",
+    "container": "Faculty Opinions \u2013 Post-Publication Peer Review of the Biomedical Literature",
+    "type": "dataset",
+    "score": 48.639996
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.667,
+    "partial_ratio": 76.59574468085107,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "Andrew Leaver-Fay, Michael Tyka, Stephen M Lewis, Oliver F Lange, James Thompson, Ron Jacak, Kim W Kaufman, Paul D Renfrew, Christopher A Smith, William Sheffler, et al. Rosetta3: an object-oriented software suite for the simulation and design of macromolecules. Methods in Enzymology, 487:545\u2013574, 2011.",
+   "title": "Rosetta3: an object-oriented software suite for the simulation and design of macromolecules",
+   "authors": [
+    "Leaver-Fay",
+    "Tyka",
+    "Lewis",
+    "Lange",
+    "Thompson",
+    "Jacak",
+    "Kaufman",
+    "Renfrew",
+    "Smith",
+    "Sheffler"
+   ],
+   "year": 2011,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Methods in Enzymology",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/9780470545416.ch6",
+      "title": "Design Strategies for ObjectOriented Simulation Testbeds that Support Software Integration",
+      "year": 2009,
+      "first_author": null,
+      "container": "Object-Oriented Simulation",
+      "type": "book-chapter",
+      "score": 38.24541
+     },
+     "metrics": {
+      "title_sim": 67.77777777777777,
+      "containment": 0.333,
+      "partial_ratio": 48.88888888888889,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "Zeming Lin, Gustaf Ahdritz, Anvita Ray, Justin Ruffolo, Lachlan Moffat, Timothy Green, Ali Madani, et al. Protein design with equivariant diffusion models. Nature, 2023.",
+   "title": "Protein design with equivariant diffusion models",
+   "authors": [
+    "Lin",
+    "Ahdritz",
+    "Ray",
+    "Ruffolo",
+    "Moffat",
+    "Green",
+    "Madani"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1089/genbio.2023.29114.fli",
+      "title": "Diffusion Evolution: New Artificial Intelligence Models Break Barriers in Protein Design",
+      "year": 2023,
+      "first_author": "Lin",
+      "container": "GEN Biotechnology",
+      "type": "journal-article",
+      "score": 31.455523
+     },
+     "metrics": {
+      "title_sim": 78.48101265822785,
+      "containment": 0.4,
+      "partial_ratio": 49.42528735632183,
+      "year_ok": true,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": {
+    "source": "crossref",
+    "doi": "10.1089/genbio.2023.29114.fli",
+    "title": "Diffusion Evolution: New Artificial Intelligence Models Break Barriers in Protein Design",
+    "year": 2023,
+    "first_author": "Lin",
+    "container": "GEN Biotechnology",
+    "type": "journal-article",
+    "score": 31.455523
+   }
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "Ali Madani, Ben Krause, Eric R Greene, Suresh Subramanian, Ben P Mohr, Jason M Holton, Edison D Zhong, Sandeep Hegde, Seungwon Jang, Peter Haas, et al. Large language models generate functional protein sequences across diverse families. Nature Biotechnology, 2023.",
+   "title": "Large language models generate functional protein sequences across diverse families",
+   "authors": [
+    "Madani",
+    "Krause",
+    "Greene",
+    "Subramanian",
+    "Mohr",
+    "Holton",
+    "Zhong",
+    "Hegde",
+    "Jang",
+    "Haas"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature Biotechnology",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/s41587-022-01618-2",
+    "title": "Large language models generate functional protein sequences across diverse families",
+    "year": 2023,
+    "first_author": "Madani",
+    "container": "Nature Biotechnology",
+    "type": "journal-article",
+    "score": 59.829865
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "Erik Nijkamp, Justin A Ruffolo, Eli J Weinstein, Nilesh Naik, Ali Madani, Sungryul Kim, Roshan Rao, Pascal Notin, David P Carbone, Abraham Rubinsteyn, et al. Progen: Language modeling for protein generation. bioRxiv, 2022.",
+   "title": "Abraham Rubinsteyn, et al",
+   "authors": [
+    "Nijkamp",
+    "Ruffolo",
+    "Weinstein",
+    "Naik",
+    "Madani",
+    "Kim",
+    "Rao",
+    "Notin",
+    "Carbone"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Progen: Language modeling for protein generation. bioRxiv",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1017/ice.2026.10532.sm001",
+      "title": "Abraham et al. supplementary material",
+      "year": 2026,
+      "first_author": null,
+      "container": "",
+      "type": "component",
+      "score": 25.604885
+     },
+     "metrics": {
+      "title_sim": 70.27027027027027,
+      "containment": 0.333,
+      "partial_ratio": 52.77777777777778,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "Roshan Rao, Jason Liu, Robert Verkuil, Joshua Meier, John Canny, Pieter Abbeel, Tom Sercu, and Alexander Rives. Msa transformer. bioRxiv, 2021.",
+   "title": "Tom Sercu, and Alexander Rives",
+   "authors": [
+    "Rao",
+    "Liu",
+    "Verkuil",
+    "Meier",
+    "Canny",
+    "Abbeel"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Msa transformer. bioRxiv",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1101/2021.02.12.430858",
+    "title": "MSA Transformer",
+    "year": 2021,
+    "first_author": "Rao",
+    "container": "",
+    "type": "posted-content",
+    "score": 37.040154
+   },
+   "metrics": {
+    "title_sim": 36.36363636363637,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "Donatas Repecka, Vaidas Jauniskis, Laurynas Karpus, Egle Rembeza, Jan Zrimec, Sigute Poviloniene, Igoris Rokaitis, Arunas Laurynenas, S\u00f6ren Viknander, Wael Abuajwa, et al. Expanding functional protein sequence spaces using generative adversarial networks. Nature Machine Intelligence, 3(4): 324\u2013333, 2021.",
+   "title": "Expanding functional protein sequence spaces using generative adversarial networks",
+   "authors": [
+    "Repecka",
+    "Jauniskis",
+    "Karpus",
+    "Rembeza",
+    "Zrimec",
+    "Poviloniene",
+    "Rokaitis",
+    "Laurynenas",
+    "Viknander",
+    "Abuajwa"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature Machine Intelligence",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/s42256-021-00310-5",
+    "title": "Expanding functional protein sequence spaces using generative adversarial networks",
+    "year": 2021,
+    "first_author": "Repecka",
+    "container": "Nature Machine Intelligence",
+    "type": "journal-article",
+    "score": 58.72892
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "Alexander Rives, Joshua Meier, Tom Sercu, Siddharth Goyal, Zeming Lin, Jason Liu, Demi Guo, Myle Ott, C Lawrence Zitnick, Jerry Ma, et al. Biological structure and function emerge from scaling unsupervised learning to 250 million protein sequences. Proceedings of the National Academy of Sciences, 118(15), 2021.",
+   "title": "Biological structure and function emerge from scaling unsupervised learning to 250 million protein sequences",
+   "authors": [
+    "Rives",
+    "Meier",
+    "Sercu",
+    "Goyal",
+    "Lin",
+    "Liu",
+    "Guo",
+    "Myle Ott",
+    "Ma"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the National Academy of Sciences",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.3410/f.739876259.793585293",
+    "title": "Faculty Opinions recommendation of Biological structure and function emerge from scaling unsupervised learning to 250 million protein sequences.",
+    "year": 2021,
+    "first_author": "Koehl",
+    "container": "Faculty Opinions \u2013 Post-Publication Peer Review of the Biomedical Literature",
+    "type": "dataset",
+    "score": 80.321396
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.786,
+    "partial_ratio": 84.61538461538461,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  }
+ ]
+}

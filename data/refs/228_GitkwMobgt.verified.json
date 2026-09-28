@@ -1,0 +1,523 @@
+{
+ "pdf": "228_GitkwMobgt.pdf",
+ "n_entries": 12,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 2,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "[1] P. Christiano, J. Leike, T. Brown, M. Martic, S. Legg, and D. Amodei, \u201cDeep reinforcement learning from human preferences,\u201d in Advances in Neural Information Processing Systems, 2017, pp. 4299\u20134307.",
+   "title": "Deep reinforcement learning from human preferences",
+   "authors": [
+    "Christiano",
+    "Leike",
+    "Brown",
+    "Martic",
+    "Legg",
+    "Amodei"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1016/j.oceaneng.2024.120036",
+      "title": "Deep reinforcement learning from human preferences for ROV path tracking",
+      "year": 2025,
+      "first_author": "Niu",
+      "container": "Ocean Engineering",
+      "type": "journal-article",
+      "score": 33.217747
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 0.625,
+      "partial_ratio": 79.16666666666666,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2] J. Leike, D. Krueger, T. Everitt, M. Martic, V. Maini, and S. Legg, \u201cScalable agent alignment via reward modeling: A research direction,\u201d arXiv preprint arXiv:1811.07871, 2018.",
+   "title": "Scalable agent alignment via reward modeling: A research direction",
+   "authors": [
+    "Leike",
+    "Krueger",
+    "Everitt",
+    "Martic",
+    "Maini",
+    "Legg"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": "1811.07871",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "1811.07871"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.18653/v1/2026.acl-long.791",
+      "title": "OpenRubrics: Towards Scalable Synthetic Rubric Generation for Reward Modeling and LLM Alignment",
+      "year": 2026,
+      "first_author": "Liu",
+      "container": "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+      "type": "proceedings-article",
+      "score": 25.333902
+     },
+     "metrics": {
+      "title_sim": 68.68686868686869,
+      "containment": 0.444,
+      "partial_ratio": 53.191489361702125,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3] D. Amodei, C. Olah, J. Steinhardt, P. Christiano, J. Schulman, and D. Man\u00e9, \u201cConcrete problems in AI safety,\u201d arXiv preprint arXiv:1606.06565, 2016.",
+   "title": "Concrete problems in AI safety",
+   "authors": [
+    "Amodei",
+    "Olah",
+    "Steinhardt",
+    "Christiano",
+    "Schulman",
+    "Man\u00e9"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": "1606.06565",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "1606.06565",
+    "title": "Concrete Problems in AI Safety",
+    "year": 2016,
+    "first_author": "Dario Amodei"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4] D. M. Ziegler, N. Stiennon, J. Wu, T. B. Brown, A. Radford, D. Amodei, P. Christiano, and G. Irving, \u201cFine-tuning language models from human preferences,\u201d arXiv preprint arXiv:1909.08593, 2019.",
+   "title": "Fine-tuning language models from human preferences",
+   "authors": [
+    "Ziegler",
+    "Stiennon",
+    "Wu",
+    "Brown",
+    "Radford",
+    "Amodei",
+    "Christiano",
+    "Irving"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": "1909.08593",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "1909.08593"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.5040/bci-0kgo.ch-006",
+      "title": "Fine-Tuning Language Models for Token Classification",
+      "year": 2024,
+      "first_author": null,
+      "container": "Mastering Transformers",
+      "type": "other",
+      "score": 33.665516
+     },
+     "metrics": {
+      "title_sim": 70.58823529411765,
+      "containment": 0.667,
+      "partial_ratio": 69.23076923076923,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5] N. Stiennon, L. Ouyang, J. Wu, D. Ziegler, R. Lowe, C. Voss, A. Radford, D. Amodei, and P. F. Christiano, \u201cLearning to summarize with human feedback,\u201d in Advances in Neural Information Processing Systems, 2020, pp. 3008\u20133021.",
+   "title": "Learning to summarize with human feedback",
+   "authors": [
+    "Stiennon",
+    "Ouyang",
+    "Wu",
+    "Ziegler",
+    "Lowe",
+    "Voss",
+    "Radford",
+    "Amodei",
+    "Christiano"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.4324/9781315801759-16",
+      "title": "How to Summarize",
+      "year": 2014,
+      "first_author": null,
+      "container": "Learning Counseling and Problem-Solving Skills",
+      "type": "book-chapter",
+      "score": 21.910007
+     },
+     "metrics": {
+      "title_sim": 85.71428571428571,
+      "containment": 0.5,
+      "partial_ratio": 81.25,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[6] A. Y. Ng, D. Harada, and S. Russell, \u201cPolicy invariance under reward transformations: Theory and application to reward shaping,\u201d in Proceedings of the 16th International Conference on Machine Learning, 1999, pp. 278\u2013287.",
+   "title": "Policy invariance under reward transformations: Theory and application to reward shaping",
+   "authors": [
+    "Ng",
+    "Harada",
+    "Russell"
+   ],
+   "year": 1999,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 16th International Conference on Machine Learning",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/s1462-3889(99)80449-9",
+    "title": "Reward-reward reward-reward reward-reward reward-reward",
+    "year": 1999,
+    "first_author": null,
+    "container": "European Journal of Oncology Nursing",
+    "type": "journal-article",
+    "score": 39.613686
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 49.09090909090909,
+    "year_ok": true,
+    "first_author_ok": null
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[7] G. D. Hadfield-Menell, S. J. Russell, P. Abbeel, and A. Dragan, \u201cCooperative inverse reinforcement learning,\u201d in Advances in Neural Information Processing Systems, 2016, pp. 3909\u20133917.",
+   "title": "Cooperative inverse reinforcement learning",
+   "authors": [
+    "Hadfield-Menell",
+    "Russell",
+    "Abbeel",
+    "Dragan"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/s10458-024-09682-5",
+      "title": "Formal contracts mitigate social dilemmas in multi-agent reinforcement learning",
+      "year": 2024,
+      "first_author": "Haupt",
+      "container": "Autonomous Agents and Multi-Agent Systems",
+      "type": "journal-article",
+      "score": 32.936466
+     },
+     "metrics": {
+      "title_sim": 68.75,
+      "containment": 0.222,
+      "partial_ratio": 51.89873417721519,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[8] S. Singh, R. L. Lewis, and A. G. Barto, \u201cWhere do rewards come from,\u201d in Proceedings of the Annual Conference of the Cognitive Science Society, vol. 32, 2010.",
+   "title": "Where do rewards come from",
+   "authors": [
+    "Singh",
+    "Lewis",
+    "Barto"
+   ],
+   "year": 2010,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the Annual Conference of the Cognitive Science Society",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.1728510",
+      "title": "Where do Preferences Come From?",
+      "year": 2010,
+      "first_author": "List",
+      "container": "",
+      "type": "posted-content",
+      "score": 37.19185
+     },
+     "metrics": {
+      "title_sim": 82.14285714285714,
+      "containment": 0.667,
+      "partial_ratio": 76.66666666666666,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[9] G. Katz, C. Barrett, D. L. Dill, K. Julian, and M. J. Kochenderfer, \u201cReluplex: An efficient SMT solver for verifying deep neural networks,\u201d in International Conference on Computer Aided Verification, 2017, pp. 97\u2013117.",
+   "title": "Reluplex: An efficient SMT solver for verifying deep neural networks",
+   "authors": [
+    "Katz",
+    "Barrett",
+    "Dill",
+    "Julian",
+    "Kochenderfer"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Conference on Computer Aided Verification",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/978-3-319-63387-9_5",
+    "title": "Reluplex: An Efficient SMT Solver for Verifying Deep Neural Networks",
+    "year": 2017,
+    "first_author": "Katz",
+    "container": "Lecture Notes in Computer Science",
+    "type": "book-chapter",
+    "score": 62.236115
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[10] S. Wang, K. Pei, J. Whitehouse, J. Yang, and S. Jana, \u201cFormal security analysis of neural networks using symbolic intervals,\u201d in 27th USENIX Security Symposium, 2018, pp. 1599\u20131614.",
+   "title": "Formal security analysis of neural networks using symbolic intervals",
+   "authors": [
+    "Wang",
+    "Pei",
+    "Whitehouse",
+    "Yang",
+    "Jana"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "27th USENIX Security Symposium",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.23919/fmcad.2017.8102229",
+      "title": "Symbolic security analysis using the Tamarin prover",
+      "year": 2017,
+      "first_author": "Cremers",
+      "container": "2017 Formal Methods in Computer Aided Design (FMCAD)",
+      "type": "proceedings-article",
+      "score": 32.86113
+     },
+     "metrics": {
+      "title_sim": 77.10843373493975,
+      "containment": 0.6,
+      "partial_ratio": 56.86274509803921,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "[11] S. A. Seshia, D. Sadigh, and S. S. Sastry, \u201cTowards verified artificial intelligence,\u201d Communications of the ACM, vol. 65, no. 7, pp. 46\u201355, 2022.",
+   "title": "Towards verified artificial intelligence",
+   "authors": [
+    "Seshia",
+    "Sadigh",
+    "Sastry"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Communications of the ACM",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3503914",
+    "title": "Toward verified artificial intelligence",
+    "year": 2022,
+    "first_author": "Seshia",
+    "container": "Communications of the ACM",
+    "type": "journal-article",
+    "score": 38.8839
+   },
+   "metrics": {
+    "title_sim": 98.73417721518987,
+    "containment": 1.0,
+    "partial_ratio": 97.43589743589743,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "[12] J. Schulman, F. Wolski, P. Dhariwal, A. Radford, and O. Klimov, \u201cProximal policy optimization algorithms,\u201d arXiv preprint arXiv:1707.06347, 2017.",
+   "title": "Proximal policy optimization algorithms",
+   "authors": [
+    "Schulman",
+    "Wolski",
+    "Dhariwal",
+    "Radford",
+    "Klimov"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": "1707.06347",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "1707.06347",
+    "title": "Proximal Policy Optimization Algorithms",
+    "year": 2017,
+    "first_author": "John Schulman"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  }
+ ]
+}

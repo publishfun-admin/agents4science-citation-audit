@@ -1,0 +1,320 @@
+{
+ "pdf": "278_rgpgukbeVf.pdf",
+ "n_entries": 8,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": false,
+ "parser_version": 2,
+ "entries": [
+  {
+   "junk": true,
+   "idx": 1,
+   "raw": "References",
+   "title": null,
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/9780470547038.ch3",
+      "title": "Voltage References",
+      "year": 2009,
+      "first_author": null,
+      "container": "Voltage References",
+      "type": "book-chapter",
+      "score": 13.50932
+     },
+     "metrics": {
+      "title_sim": 0,
+      "containment": 0.5,
+      "partial_ratio": 100.0,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[1] D. Van Veen et al., \u201cAdapted large language models can outperform medical experts in clinical text summarization,\u201d Nature Medicine 30(4), pp. 1134\u20131142, 2024.",
+   "title": "Adapted large language models can outperform medical experts in clinical text summarization",
+   "authors": [
+    "Veen"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature Medicine",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/s41591-024-02855-5",
+    "title": "Adapted large language models can outperform medical experts in clinical text summarization",
+    "year": 2024,
+    "first_author": "Van Veen",
+    "container": "Nature Medicine",
+    "type": "journal-article",
+    "score": 60.180122
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[2] L. Blankemeier et al., \u201cMerlin: A vision language foundation model for 3d computed tomography,\u201d Research Square , 2024.",
+   "title": "Merlin: A vision language foundation model for 3d computed tomography",
+   "authors": [
+    "Blankemeier"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Research Square",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.21203/rs.3.rs-4546309/v1",
+    "title": "Merlin: A Vision Language Foundation Model for 3D Computed Tomography",
+    "year": 2024,
+    "first_author": "Blankemeier",
+    "container": "",
+    "type": "posted-content",
+    "score": 42.94653
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[3] Z. Chen et al., \u201cChexagent: Towards a foundation model for chest x-ray interpretation,\u201d 2024.",
+   "title": "Chexagent: Towards a foundation model for chest x-ray interpretation",
+   "authors": [
+    "Chen"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.3997/2214-4609.2024101119",
+      "title": "Towards a Foundation Model for Seismic Interpretation",
+      "year": 2024,
+      "first_author": "Ordonez",
+      "container": "85th EAGE Annual Conference &amp; Exhibition",
+      "type": "proceedings-article",
+      "score": 29.785227
+     },
+     "metrics": {
+      "title_sim": 91.83673469387755,
+      "containment": 0.75,
+      "partial_ratio": 83.01886792452831,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[4] H. Cunningham et al., \u201cSparse autoencoders find highly interpretable features in language models,\u201d 2023.",
+   "title": "Sparse autoencoders find highly interpretable features in language models",
+   "authors": [
+    "Cunningham"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1101/2024.11.14.623630",
+      "title": "InterPLM: Discovering Interpretable Features in Protein Language Models via Sparse Autoencoders",
+      "year": 2024,
+      "first_author": "Simon",
+      "container": "",
+      "type": "posted-content",
+      "score": 53.384457
+     },
+     "metrics": {
+      "title_sim": 91.04477611940298,
+      "containment": 0.667,
+      "partial_ratio": 63.80368098159509,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[5] A. Templeton et al., \u201cScaling monosemanticity: Extracting interpretable features from claude 3 sonnet,\u201d Transformer Circuits Thread , 2024.",
+   "title": "Scaling monosemanticity: Extracting interpretable features from claude 3 sonnet",
+   "authors": [
+    "Templeton"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.18653/v1/2024.naacl-short.5",
+      "title": "Extracting Lexical Features from Dialects via Interpretable Dialect Classifiers",
+      "year": 2024,
+      "first_author": "Xie",
+      "container": "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 2: Short Papers)",
+      "type": "proceedings-article",
+      "score": 27.720024
+     },
+     "metrics": {
+      "title_sim": 68.78980891719745,
+      "containment": 0.429,
+      "partial_ratio": 55.696202531645575,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[6] L. Gao et al., \u201cScaling and evaluating sparse autoencoders,\u201d 2024.",
+   "title": "Scaling and evaluating sparse autoencoders",
+   "authors": [
+    "Gao"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.18653/v1/2026.findings-eacl.313",
+      "title": "Evaluating Sparse Autoencoders for Monosemantic Representation",
+      "year": 2026,
+      "first_author": "Fereidouni",
+      "container": "Findings of the Association for Computational Linguistics: EACL 2026",
+      "type": "proceedings-article",
+      "score": 26.54968
+     },
+     "metrics": {
+      "title_sim": 83.33333333333333,
+      "containment": 0.6,
+      "partial_ratio": 67.3913043478261,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[7] B. Bussmann et al., \u201cLearning multi-level features with matryoshka sparse autoencoders,\u201d 2025.",
+   "title": "Learning multi-level features with matryoshka sparse autoencoders",
+   "authors": [
+    "Bussmann"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.4182178",
+      "title": "Autoencoders Learning Sparse Representation",
+      "year": 2022,
+      "first_author": "Sharma",
+      "container": "",
+      "type": "posted-content",
+      "score": 32.21389
+     },
+     "metrics": {
+      "title_sim": 78.87323943661971,
+      "containment": 0.75,
+      "partial_ratio": 46.51162790697675,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  }
+ ]
+}

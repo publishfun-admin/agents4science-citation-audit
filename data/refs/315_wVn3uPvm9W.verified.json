@@ -1,0 +1,427 @@
+{
+ "pdf": "315_wVn3uPvm9W.pdf",
+ "n_entries": 9,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": false,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "David Silver, Aja Huang, Chris J Maddison, Arthur Guez, Laurent Sifre, George Van Den Driessche, Julian Schrittwieser, Ioannis Antonoglou, Veda Panneershelvam, Marc Lanctot, et al. Mastering the game of go with deep neural networks and tree search. nature, 529(7587):484\u2013489, 2016.",
+   "title": "Mastering the game of go with deep neural networks and tree search",
+   "authors": [
+    "Silver",
+    "Huang",
+    "Maddison",
+    "Guez",
+    "Sifre",
+    "Den Driessche",
+    "Schrittwieser",
+    "Antonoglou",
+    "Panneershelvam",
+    "Lanctot"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "nature",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.3410/f.726105619.793525345",
+    "title": "Faculty Opinions recommendation of Mastering the game of Go with deep neural networks and tree search.",
+    "year": 2016,
+    "first_author": "Chittka",
+    "container": "Faculty Opinions \u2013 Post-Publication Peer Review of the Biomedical Literature",
+    "type": "dataset",
+    "score": 57.06131
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.7,
+    "partial_ratio": 78.21782178217822,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "Haoyang Su, Renqi Chen, Shixiang Tang, Zhenfei Yin, Xinzhe Zheng, Jinzhe Li, Biqing Qi, Qi Wu, Hui Li, Wanli Ouyang, et al. Many heads are better than one: Improved scientific idea generation by a llm-based multi-agent system. arXiv preprint arXiv:2410.09403, 2024.",
+   "title": "Many heads are better than one: Improved scientific idea generation by a llm-based multi-agent system",
+   "authors": [
+    "Su",
+    "Chen",
+    "Tang",
+    "Yin",
+    "Zheng",
+    "Li",
+    "Qi",
+    "Wu",
+    "Li",
+    "Ouyang"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2410.09403",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2025.acl-long.1368",
+    "title": "Many Heads Are Better Than One: Improved Scientific Idea Generation by A LLM-Based Multi-Agent System",
+    "year": 2025,
+    "first_author": "Su",
+    "container": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "type": "proceedings-article",
+    "score": 69.44252
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2410.09403"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "Wenxiao Wang, Lihui Gu, Liye Zhang, Yunxiang Luo, Yi Dai, Chen Shen, Liang Xie, Binbin Lin, Xiaofei He, and Jieping Ye. Scipip: An llm-based scientific paper idea proposer. arXiv preprint arXiv:2410.23166, 2024.",
+   "title": "Scipip",
+   "authors": [
+    "Wang",
+    "Gu",
+    "Zhang",
+    "Luo",
+    "Dai",
+    "Shen",
+    "Xie",
+    "Lin",
+    "He",
+    "Ye"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2410.23166",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2410.23166"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/978-3-031-62906-8_1",
+      "title": "Introduction",
+      "year": 2024,
+      "first_author": "Wang",
+      "container": "Encountering Mobile Data Dynamics in Heterogeneous Wireless Networks",
+      "type": "book-chapter",
+      "score": 10.272345
+     },
+     "metrics": {
+      "title_sim": 22.22222222222223,
+      "containment": 0.0,
+      "partial_ratio": 41.666666666666664,
+      "year_ok": true,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "Jason Wei, Xuezhi Wang, Dale Schuurmans, Maarten Bosma, Fei Xia, Ed Chi, Quoc V Le, Denny Zhou, et al. Chain-of-thought prompting elicits reasoning in large language models. Advances in neural information processing systems, 35:24824\u201324837, 2022.",
+   "title": "Chain-of-thought prompting elicits reasoning in large language models",
+   "authors": [
+    "Wei",
+    "Wang",
+    "Schuurmans",
+    "Bosma",
+    "Xia",
+    "Chi",
+    "Le",
+    "Zhou"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in neural information processing systems",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/068431-1800",
+    "title": "Chain-Of-Thought Prompting Elicits Reasoning in Large Language Models",
+    "year": 2022,
+    "first_author": "Wei",
+    "container": "Advances in Neural Information Processing Systems 35",
+    "type": "proceedings-article",
+    "score": 60.12538
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "An Yang, Anfeng Li, Baosong Yang, Beichen Zhang, Binyuan Hui, Bo Zheng, Bowen Yu, Chang Gao, Chengen Huang, Chenxu Lv, et al. Qwen3 technical report. arXiv preprint arXiv:2505.09388, 2025.",
+   "title": "Qwen3 technical report",
+   "authors": [
+    "Yang",
+    "Li",
+    "Yang",
+    "Zhang",
+    "Hui",
+    "Zheng",
+    "Yu",
+    "Gao",
+    "Huang",
+    "Lv"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": "2505.09388",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2505.09388",
+    "title": "Qwen3 Technical Report",
+    "year": 2025,
+    "first_author": "An Yang"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "Shunyu Yao, Dian Yu, Jeffrey Zhao, Izhak Shafran, Tom Griffiths, Yuan Cao, and Karthik Narasimhan. Tree of thoughts: Deliberate problem solving with large language models. Advances in neural information processing systems, 36:11809\u201311822, 2023a.",
+   "title": "Tree of thoughts: Deliberate problem solving with large language models",
+   "authors": [
+    "Yao",
+    "Yu",
+    "Zhao",
+    "Shafran",
+    "Griffiths",
+    "Cao",
+    "Narasimhan"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in neural information processing systems",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/075280-0517",
+    "title": "Tree of Thoughts: Deliberate Problem Solving with Large Language Models",
+    "year": 2023,
+    "first_author": "Yao",
+    "container": "Advances in Neural Information Processing Systems 36",
+    "type": "proceedings-article",
+    "score": 58.39103
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "Shunyu Yao, Jeffrey Zhao, Dian Yu, Nan Du, Izhak Shafran, Karthik Narasimhan, and Yuan Cao. React: Synergizing reasoning and acting in language models. In International Conference on Learning Representations (ICLR), 2023b.",
+   "title": "React: Synergizing reasoning and acting in language models",
+   "authors": [
+    "Yao",
+    "Zhao",
+    "Yu",
+    "Du",
+    "Shafran",
+    "Narasimhan",
+    "Cao"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Conference on Learning Representations (ICLR), 2023b",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.36227/techrxiv.175756693.33854887/v1",
+      "title": "Meta-of-Thought: Reasoning About Reasoning in Large Language Models",
+      "year": 2025,
+      "first_author": "Haque",
+      "container": "",
+      "type": "posted-content",
+      "score": 25.654774
+     },
+     "metrics": {
+      "title_sim": 67.2566371681416,
+      "containment": 0.5,
+      "partial_ratio": 65.15151515151516,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "Yiming Zhang, Harshita Diddee, Susan Holm, Hanchen Liu, Xinyue Liu, Vinay Samuel, Barry Wang, and Daphne Ippolito. Noveltybench: Evaluating language models for humanlike diversity. arXiv preprint arXiv:2504.05228, 2025.",
+   "title": "Noveltybench: Evaluating language models for humanlike diversity",
+   "authors": [
+    "Zhang",
+    "Diddee",
+    "Holm",
+    "Liu",
+    "Liu",
+    "Samuel",
+    "Wang",
+    "Ippolito"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": "2504.05228",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2504.05228"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.5336635",
+      "title": "Causalbench: A Multi-Domain Benchmark for Evaluating Causal Reasoning in Large Language Models",
+      "year": 2025,
+      "first_author": "Zhang",
+      "container": "",
+      "type": "posted-content",
+      "score": 26.637981
+     },
+     "metrics": {
+      "title_sim": 64.51612903225806,
+      "containment": 0.3,
+      "partial_ratio": 48.38709677419355,
+      "year_ok": true,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "Wayne Xin Zhao, Kun Zhou, Junyi Li, Tianyi Tang, Xiaolei Wang, Yupeng Hou, Yingqian Min, Beichen Zhang, Junjie Zhang, Zican Dong, et al. A survey of large language models, 2023.",
+   "title": "A survey of large language models",
+   "authors": [
+    "Zhao",
+    "Zhou",
+    "Li",
+    "Tang",
+    "Wang",
+    "Hou",
+    "Min",
+    "Zhang",
+    "Zhang",
+    "Dong"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.20944/preprints202409.1085.v1",
+    "title": "Large Language Models in Entrepreneurship: A Survey",
+    "year": 2024,
+    "first_author": "Li",
+    "container": "",
+    "type": "posted-content",
+    "score": 30.329685
+   },
+   "metrics": {
+    "title_sim": 95.23809523809524,
+    "containment": 0.8,
+    "partial_ratio": 57.89473684210527,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  }
+ ]
+}

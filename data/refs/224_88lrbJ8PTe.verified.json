@@ -1,0 +1,363 @@
+{
+ "pdf": "224_88lrbJ8PTe.pdf",
+ "n_entries": 7,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 2,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "[1] O\u2019Neil, J., Benes, C., Tuck, D., Jaeger, S. (2022). DrugComb: an integrative cancer drug synergy data portal. Nucleic Acids Research, 50(D1), D912\u2013D921. https://doi.org/10.1093/nar/ gkab1007",
+   "title": "DrugComb: an integrative cancer drug synergy data portal",
+   "authors": [
+    "O\u2019Neil",
+    "Benes",
+    "Tuck",
+    "Jaeger"
+   ],
+   "year": 2022,
+   "doi": "10.1093/nar/",
+   "arxiv": null,
+   "urls": [
+    "https://doi.org/10.1093/nar/"
+   ],
+   "container": "Nucleic Acids Research",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "doi_not_resolvable",
+     "doi": "10.1093/nar/"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1101/560227",
+      "title": "DrugComb - an integrative cancer drug combination data portal",
+      "year": 2019,
+      "first_author": "Zagidullin",
+      "container": "",
+      "type": "posted-content",
+      "score": 45.17449
+     },
+     "metrics": {
+      "title_sim": 92.15686274509804,
+      "containment": 0.857,
+      "partial_ratio": 83.05084745762711,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2] Preuer, K., Lewis, R. P., Hochreiter, S., Klambauer, G. (2018). DeepSynergy: predicting anticancer drug synergy with deep learning. Bioinformatics, 34(9), 1538\u20131546. https://doi.org/ 10.1093/bioinformatics/bty018",
+   "title": "DeepSynergy: predicting anticancer drug synergy with deep learning",
+   "authors": [
+    "Preuer",
+    "Lewis",
+    "Hochreiter",
+    "Klambauer"
+   ],
+   "year": 2018,
+   "doi": "10.1093/bioinformatics/bty018",
+   "arxiv": null,
+   "urls": [
+    "https://doi.org/"
+   ],
+   "container": "Bioinformatics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1093/bioinformatics/btx806",
+    "title": "DeepSynergy: predicting anti-cancer drug synergy with Deep Learning",
+    "year": 2018,
+    "first_author": "Preuer",
+    "container": "Bioinformatics",
+    "type": "journal-article",
+    "score": 57.897053
+   },
+   "metrics": {
+    "title_sim": 99.23664122137404,
+    "containment": 0.75,
+    "partial_ratio": 98.48484848484848,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "doi_resolves_title_mismatch",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1093/bioinformatics/bty018",
+      "title": "Informational and linguistic analysis of large genomic sequence collections via efficient Hadoop cluster algorithms",
+      "year": 2018,
+      "first_author": "Ferraro Petrillo",
+      "container": "Bioinformatics",
+      "type": "journal-article",
+      "score": 1
+     },
+     "metrics": {
+      "title_sim": 35.55555555555555,
+      "containment": 0.0,
+      "partial_ratio": 37.78801843317973,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3] Zhang, H., Liu, M., Xiong, Y. (2023). PharmAgent: a multi-agent framework for dose-aware drug synergy prediction. arXiv preprint arXiv:2305.12345.",
+   "title": "PharmAgent: a multi-agent framework for dose-aware drug synergy prediction",
+   "authors": [
+    "Zhang",
+    "Liu",
+    "Xiong"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2305.12345",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2305.12345"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/ijcnn64981.2025.11227938",
+      "title": "Multi-Channel Learning Framework Based on Relation-Aware Transformer For Drug Synergy Prediction",
+      "year": 2025,
+      "first_author": "Zhang",
+      "container": "2025 International Joint Conference on Neural Networks (IJCNN)",
+      "type": "proceedings-article",
+      "score": 39.18436
+     },
+     "metrics": {
+      "title_sim": 80.32786885245902,
+      "containment": 0.545,
+      "partial_ratio": 56.38297872340425,
+      "year_ok": false,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4] Chen, B., Li, J., Wong, L. (2022). MatchMaker: cooperative multi-agent policy for drug-drug interaction mining. In Proceedings of the NeurIPS ML4H Workshop.",
+   "title": "MatchMaker: cooperative multi-agent policy for drug-drug interaction mining",
+   "authors": [
+    "Chen",
+    "Li",
+    "Wong"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the NeurIPS ML4H Workshop",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/bibm.2013.6732517",
+      "title": "Text mining driven drug-drug interaction detection",
+      "year": 2013,
+      "first_author": "Yan",
+      "container": "2013 IEEE International Conference on Bioinformatics and Biomedicine",
+      "type": "proceedings-article",
+      "score": 32.941906
+     },
+     "metrics": {
+      "title_sim": 67.64705882352942,
+      "containment": 0.571,
+      "partial_ratio": 65.99999999999999,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5] Wang, L., Zhou, Y., He, X., Zhang, Y. (2021). DKPE-GraphSYN: drug-drug interaction prediction via knowledge-enhanced graph neural networks. In Proceedings of the ACM SIGKDD Conference on Knowledge Discovery and Data Mining (pp. 2154\u20132162). https://doi.org/ 10.1145/3447548.3467263",
+   "title": "DKPE-GraphSYN: drug-drug interaction prediction via knowledge-enhanced graph neural networks",
+   "authors": [
+    "Wang",
+    "Zhou",
+    "He",
+    "Zhang"
+   ],
+   "year": 2021,
+   "doi": "10.1145/3447548.3467263",
+   "arxiv": null,
+   "urls": [
+    "https://doi.org/"
+   ],
+   "container": "Proceedings of the ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "doi_resolves_title_mismatch",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1145/3447548.3467263",
+      "title": "Exploring Self-Supervised Representation Ensembles for COVID-19 Cough Classification",
+      "year": 2021,
+      "first_author": "Xue",
+      "container": "Proceedings of the 27th ACM SIGKDD Conference on Knowledge Discovery &amp; Data Mining",
+      "type": "proceedings-article",
+      "score": 1
+     },
+     "metrics": {
+      "title_sim": 36.470588235294116,
+      "containment": 0.0,
+      "partial_ratio": 39.28571428571429,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/ickecs61492.2024.10617242",
+      "title": "Enhanced Drug-Drug Interaction Prediction with Graph Neural Networks and SVM",
+      "year": 2024,
+      "first_author": "Gnanabaskaran",
+      "container": "2024 International Conference on Knowledge Engineering and Communication Systems (ICKECS)",
+      "type": "proceedings-article",
+      "score": 50.766327
+     },
+     "metrics": {
+      "title_sim": 89.92248062015504,
+      "containment": 0.889,
+      "partial_ratio": 73.6842105263158,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[6] NCI ALMANAC Consortium. (2022). Clinical dose-limiting guidelines for platinumbased combinations. National Cancer Institute. Retrieved from https://dtp.cancer.gov/ nci-almanac-clinical",
+   "title": "Clinical dose-limiting guidelines for platinumbased combinations",
+   "authors": [
+    "Consortium"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://dtp.cancer.gov/"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED_URL",
+   "via": "url",
+   "url_status": {
+    "https://dtp.cancer.gov/": 200
+   },
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/978-3-319-52636-2_80",
+      "title": "Dose Finding for Drug Combinations",
+      "year": 2022,
+      "first_author": "Tighiouart",
+      "container": "Principles and Practice of Clinical Trials",
+      "type": "book-chapter",
+      "score": 27.082996
+     },
+     "metrics": {
+      "title_sim": 76.36363636363636,
+      "containment": 0.5,
+      "partial_ratio": 58.82352941176471,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[7] Liu, Q., Wang, S., Hu, P. (2022). DeepSynergy-MARL: reinforcement learning for anticancer combination screening. Bioinformatics, 38(22), 5045\u20135053. https://doi.org/10. 1093/bioinformatics/btac644",
+   "title": "DeepSynergy-MARL: reinforcement learning for anticancer combination screening",
+   "authors": [
+    "Liu",
+    "Wang",
+    "Hu"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://doi.org/10"
+   ],
+   "container": "Bioinformatics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1016/j.knosys.2026.116683",
+      "title": "CTG-MARL: Cooperative Transformer Graph Reinforcement Learning with Adaptive Policy Modularization",
+      "year": 2026,
+      "first_author": "Cao",
+      "container": "Knowledge-Based Systems",
+      "type": "journal-article",
+      "score": 28.640957
+     },
+     "metrics": {
+      "title_sim": 60.115606936416185,
+      "containment": 0.3,
+      "partial_ratio": 52.127659574468076,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  }
+ ]
+}

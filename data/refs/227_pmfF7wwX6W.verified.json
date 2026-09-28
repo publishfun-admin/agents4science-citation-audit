@@ -1,0 +1,899 @@
+{
+ "pdf": "227_pmfF7wwX6W.pdf",
+ "n_entries": 22,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "[1] Alain, G. and Bengio, Y. (2016). Understanding intermediate layers using linear classifier probes. arXiv preprint arXiv:1610.01644.",
+   "title": "Understanding intermediate layers using linear classifier probes",
+   "authors": [
+    "Alain",
+    "Bengio"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": "1610.01644",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "1610.01644"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.18653/v1/2020.coling-main.450",
+      "title": "Classifier Probes May Just Learn from Linear Context Features",
+      "year": 2020,
+      "first_author": "Kunz",
+      "container": "Proceedings of the 28th International Conference on Computational Linguistics",
+      "type": "proceedings-article",
+      "score": 24.828018
+     },
+     "metrics": {
+      "title_sim": 65.6,
+      "containment": 0.375,
+      "partial_ratio": 52.727272727272734,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2] Bartlett, P. L. and Shawe-Taylor, J. (1998). Generalization performance of support vector machines and other pattern classifiers. Advances in Kernel Methods, 43\u201354.",
+   "title": "Generalization performance of support vector machines and other pattern classifiers",
+   "authors": [
+    "Bartlett",
+    "Shawe-Taylor"
+   ],
+   "year": 1998,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Kernel Methods",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.7551/mitpress/1130.003.0007",
+    "title": "Generalization Performance of Support Vector Machines and Other Pattern Classifiers",
+    "year": 1998,
+    "first_author": "Bartlett",
+    "container": "Advances in Kernel Methods",
+    "type": "book-chapter",
+    "score": 79.056786
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3] Belinkov, Y. and Glass, J. (2017). Analysis methods in neural language processing: A survey. Transactions of the Association for Computational Linguistics, 7, 49\u201372.",
+   "title": "Analysis methods in neural language processing: A survey",
+   "authors": [
+    "Belinkov",
+    "Glass"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Transactions of the Association for Computational Linguistics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1162/tacl_a_00254",
+    "title": "Analysis Methods in Neural Language Processing: A Survey",
+    "year": 2019,
+    "first_author": "Belinkov",
+    "container": "Transactions of the Association for Computational Linguistics",
+    "type": "journal-article",
+    "score": 45.30275
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4] Chan, L., Garriga-Alonso, A., Goldowsky-Dill, N., Greenblatt, R., Nitishinskaya, J., Radhakrishnan, A., Shlegeris, B., and Thomas, N. (2022). Causal scrubbing: a method for rigorously testing interpretability hypotheses. arXiv preprint arXiv:2211.00032.",
+   "title": "Causal scrubbing: a method for rigorously testing interpretability hypotheses",
+   "authors": [
+    "Chan",
+    "Garriga-Alonso",
+    "Goldowsky-Dill",
+    "Greenblatt",
+    "Nitishinskaya",
+    "Radhakrishnan",
+    "Shlegeris",
+    "Thomas"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": "2211.00032",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2211.00032"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1093/acprof:oso/9780199574131.003.0031",
+      "title": "Multiple testing of causal hypotheses",
+      "year": 2011,
+      "first_author": "Kleinberg",
+      "container": "Causality in the Sciences",
+      "type": "book-chapter",
+      "score": 27.962872
+     },
+     "metrics": {
+      "title_sim": 80.64516129032258,
+      "containment": 0.75,
+      "partial_ratio": 59.45945945945945,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5] Conneau, A., Kruszewski, G., Lample, G., Barrault, L., and Baroni, M. (2018). What you can cram into a single vector: Probing sentence embeddings for linguistic properties. Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics, 2126\u20132136.",
+   "title": "What you can cram into a single vector: Probing sentence embeddings for linguistic properties",
+   "authors": [
+    "Conneau",
+    "Kruszewski",
+    "Lample",
+    "Barrault",
+    "Baroni"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/p18-1198",
+    "title": "What you can cram into a single $&amp;!#* vector: Probing sentence embeddings for linguistic properties",
+    "year": 2018,
+    "first_author": "Conneau",
+    "container": "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "type": "proceedings-article",
+    "score": 83.212006
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.917,
+    "partial_ratio": 95.83333333333334,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[6] Cover, T. M. (1965). Geometrical and statistical properties of systems of linear inequalities with applications in pattern recognition. IEEE Transactions on Electronic Computers, (3), 326\u2013334.",
+   "title": "Geometrical and statistical properties of systems of linear inequalities with applications in pattern recognition",
+   "authors": [
+    "Cover"
+   ],
+   "year": 1965,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE Transactions on Electronic Computers",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/pgec.1965.264137",
+    "title": "Geometrical and Statistical Properties of Systems of Linear Inequalities with Applications in Pattern Recognition",
+    "year": 1965,
+    "first_author": "Cover",
+    "container": "IEEE Transactions on Electronic Computers",
+    "type": "journal-article",
+    "score": 63.793278
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[7] Doshi-Velez, F. and Kim, B. (2017). Towards a rigorous science of interpretable machine learning. arXiv preprint arXiv:1702.08608.",
+   "title": "Towards a rigorous science of interpretable machine learning",
+   "authors": [
+    "Doshi-Velez",
+    "Kim"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": "1702.08608",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "1702.08608"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/978-3-319-98131-4_1",
+      "title": "Considerations for Evaluation and Generalization in Interpretable Machine Learning",
+      "year": 2018,
+      "first_author": "Doshi-Velez",
+      "container": "The Springer Series on Challenges in Machine Learning",
+      "type": "book-chapter",
+      "score": 42.317852
+     },
+     "metrics": {
+      "title_sim": 66.66666666666666,
+      "containment": 0.5,
+      "partial_ratio": 57.31707317073172,
+      "year_ok": true,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[8] Eldan, R. and Shamir, O. (2016). The power of depth for feedforward neural networks. Conference on Learning Theory, 907\u2013940.",
+   "title": "The power of depth for feedforward neural networks",
+   "authors": [
+    "Eldan",
+    "Shamir"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Conference on Learning Theory",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1049/pbpo161e_ch6",
+      "title": "Feedforward neural networks",
+      "year": 2021,
+      "first_author": null,
+      "container": "Artificial Intelligence for Smarter Power Systems: Fuzzy logic and neural networks",
+      "type": "book-chapter",
+      "score": 32.69656
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 1.0,
+      "partial_ratio": 100.0,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[9] Gilpin, L. H., Bau, D., Yuan, B. Z., Bajwa, A., Specter, M., and Kagal, L. (2018). Explaining explanations: An overview of interpretability of machine learning. 2018 IEEE 5th International Conference on Data Science and Advanced Analytics, 80\u201389.",
+   "title": "Explaining explanations: An overview of interpretability of machine learning",
+   "authors": [
+    "Gilpin",
+    "Bau",
+    "Yuan",
+    "Bajwa",
+    "Specter",
+    "Kagal"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "2018 IEEE 5th International Conference on Data Science and Advanced Analytics",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/dsaa.2018.00018",
+    "title": "Explaining Explanations: An Overview of Interpretability of Machine Learning",
+    "year": 2018,
+    "first_author": "Gilpin",
+    "container": "2018 IEEE 5th International Conference on Data Science and Advanced Analytics (DSAA)",
+    "type": "proceedings-article",
+    "score": 55.700554
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[10] Gordon, Y. (1988). On Milman\u2019s inequality and random subspaces which escape through a mesh in Rn . Geometric Aspects of Functional Analysis, 84, 84\u2013106.",
+   "title": "On Milman\u2019s inequality and random subspaces which escape through a mesh in Rn",
+   "authors": [
+    "Gordon"
+   ],
+   "year": 1988,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Geometric Aspects of Functional Analysis",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/bfb0081737",
+    "title": "On Milman's inequality and random subspaces which escape through a mesh in \u211d n",
+    "year": 1988,
+    "first_author": "Gordon",
+    "container": "Lecture Notes in Mathematics",
+    "type": "book-chapter",
+    "score": 64.43007
+   },
+   "metrics": {
+    "title_sim": 99.35483870967742,
+    "containment": 1.0,
+    "partial_ratio": 98.71794871794873,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "[11] H\u00e5stad, J. (1986). Almost optimal lower bounds for small depth circuits. Proceedings of the eighteenth annual ACM symposium on Theory of computing, 6\u201320.",
+   "title": "Almost optimal lower bounds for small depth circuits",
+   "authors": [
+    "H\u00e5stad"
+   ],
+   "year": 1986,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the eighteenth annual ACM symposium on Theory of computing",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/12130.12132",
+    "title": "Almost optimal lower bounds for small depth circuits",
+    "year": 1986,
+    "first_author": "Hastad",
+    "container": "Proceedings of the eighteenth annual ACM symposium on Theory of computing  - STOC '86",
+    "type": "proceedings-article",
+    "score": 59.195896
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "[12] Hewitt, J. and Manning, C. D. (2019). A structural probe for finding syntax in word representations. Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics, 4129\u20134138.",
+   "title": "A structural probe for finding syntax in word representations",
+   "authors": [
+    "Hewitt",
+    "Manning"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/n19-1419",
+    "title": "A Structural Probe for Finding Syntax in Word Representations",
+    "year": 2019,
+    "first_author": "Hewitt",
+    "container": "Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)",
+    "type": "proceedings-article",
+    "score": 50.554146
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "[13] Koh, P. W., Nguyen, T., Tang, Y. S., Mussmann, S., Pierson, E., Kim, B., and Liang, P. (2020). Concept bottleneck models. International Conference on Machine Learning, 5338\u20135348.",
+   "title": "Concept bottleneck models",
+   "authors": [
+    "Koh",
+    "Nguyen",
+    "Tang",
+    "Mussmann",
+    "Pierson",
+    "Kim",
+    "Liang"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Conference on Machine Learning",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.6517596",
+      "title": "Sparse Concept Absence Network for Concept Bottleneck Models",
+      "year": 2026,
+      "first_author": "Cockayne",
+      "container": "",
+      "type": "posted-content",
+      "score": 28.333843
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 0.571,
+      "partial_ratio": 65.0,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "[14] Lipton, Z. C. (2018). The mythos of model interpretability. Communications of the ACM, 61(10), 36\u201343.",
+   "title": "The mythos of model interpretability",
+   "authors": [
+    "Lipton"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Communications of the ACM",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3233231",
+    "title": "The mythos of model interpretability",
+    "year": 2018,
+    "first_author": "Lipton",
+    "container": "Communications of the ACM",
+    "type": "journal-article",
+    "score": 43.0079
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "[15] Naitzat, G., Zhitnikov, A., and Lim, L. H. (2020). Topology of deep neural networks. The Journal of Machine Learning Research, 21(1), 7503\u20137542.",
+   "title": "Topology of deep neural networks",
+   "authors": [
+    "Naitzat",
+    "Zhitnikov",
+    "Lim"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "The Journal of Machine Learning Research",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1016/j.neunet.2020.01.018",
+      "title": "Theory of deep convolutional neural networks: Downsampling",
+      "year": 2020,
+      "first_author": "Zhou",
+      "container": "Neural Networks",
+      "type": "journal-article",
+      "score": 28.432806
+     },
+     "metrics": {
+      "title_sim": 83.63636363636364,
+      "containment": 0.5,
+      "partial_ratio": 59.64912280701755,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 16,
+   "raw": "[16] O\u2019Donnell, R. and Servedio, R. A. (2003). Learning monotone decision trees in polynomial time. SIAM Journal on Computing, 37(3), 827\u2013844.",
+   "title": "Learning monotone decision trees in polynomial time",
+   "authors": [
+    "O\u2019Donnell",
+    "Servedio"
+   ],
+   "year": 2003,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "SIAM Journal on Computing",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/ccc.2006.25",
+    "title": "Learning Monotone Decision Trees in Polynomial Time",
+    "year": 2006,
+    "first_author": "O'Donnell",
+    "container": "21st Annual IEEE Conference on Computational Complexity (CCC'06)",
+    "type": "proceedings-article",
+    "score": 45.595177
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 17,
+   "raw": "[17] Olah, C., Cammarata, N., Schubert, L., Goh, G., Petrov, M., and Carter, S. (2020). Zoom in: An introduction to circuits. Distill, 5(3), e00024\u2013001.",
+   "title": "Zoom in: An introduction to circuits",
+   "authors": [
+    "Olah",
+    "Cammarata",
+    "Schubert",
+    "Goh",
+    "Petrov",
+    "Carter"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Distill",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.23915/distill.00024.001",
+    "title": "Zoom In: An Introduction to Circuits",
+    "year": 2020,
+    "first_author": "Olah",
+    "container": "Distill",
+    "type": "journal-article",
+    "score": 39.09777
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 18,
+   "raw": "[18] Rossman, B. (2008). On the constant-depth complexity of k-clique. Proceedings of the fortieth annual ACM symposium on Theory of computing, 721\u2013730.",
+   "title": "On the constant-depth complexity of k-clique",
+   "authors": [
+    "Rossman"
+   ],
+   "year": 2008,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the fortieth annual ACM symposium on Theory of computing",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/1374376.1374480",
+    "title": "On the constant-depth complexity of k-clique",
+    "year": 2008,
+    "first_author": "Rossman",
+    "container": "Proceedings of the fortieth annual ACM symposium on Theory of computing",
+    "type": "proceedings-article",
+    "score": 53.526035
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 19,
+   "raw": "[19] Sundararajan, M., Taly, A., and Yan, Q. (2017). Axiomatic attribution for deep networks. International Conference on Machine Learning, 3319\u20133328.",
+   "title": "Axiomatic attribution for deep networks",
+   "authors": [
+    "Sundararajan",
+    "Taly",
+    "Yan"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Conference on Machine Learning",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1145/1993574.1993601",
+      "title": "Axiomatic attribution for multilinear functions",
+      "year": 2011,
+      "first_author": "Sun",
+      "container": "Proceedings of the 12th ACM conference on Electronic commerce",
+      "type": "proceedings-article",
+      "score": 34.4598
+     },
+     "metrics": {
+      "title_sim": 78.125,
+      "containment": 0.5,
+      "partial_ratio": 70.2127659574468,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 20,
+   "raw": "[20] Telgarsky, M. (2016). Benefits of depth in neural networks. Conference on Learning Theory, 1517\u20131539.",
+   "title": "Benefits of depth in neural networks",
+   "authors": [
+    "Telgarsky"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Conference on Learning Theory",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/ijcnn.2016.7727303",
+      "title": "On the energy benefits of spiking deep neural networks: A case study",
+      "year": 2016,
+      "first_author": "Han",
+      "container": "2016 International Joint Conference on Neural Networks (IJCNN)",
+      "type": "proceedings-article",
+      "score": 26.758842
+     },
+     "metrics": {
+      "title_sim": 85.71428571428571,
+      "containment": 0.375,
+      "partial_ratio": 62.4,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 21,
+   "raw": "[21] Vapnik, V. N. and Chervonenkis, A. Y. (1971). On the uniform convergence of relative frequencies of events to their probabilities. Theory of Probability & Its Applications, 16(2), 264\u2013280.",
+   "title": "On the uniform convergence of relative frequencies of events to their probabilities",
+   "authors": [
+    "Vapnik",
+    "Chervonenkis"
+   ],
+   "year": 1971,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Theory of Probability & Its Applications",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1137/1116025",
+    "title": "On the Uniform Convergence of Relative Frequencies of Events to Their Probabilities",
+    "year": 1971,
+    "first_author": "Vapnik",
+    "container": "Theory of Probability &amp; Its Applications",
+    "type": "journal-article",
+    "score": 62.777058
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 22,
+   "raw": "[22] Vig, J., Gehrmann, S., Belinkov, Y., Qian, S., Nevo, D., Singer, Y., and Shieber, S. (2020). Causal mediation analysis for interpreting neural NLP: The case of gender bias. arXiv preprint arXiv:2004.12265.",
+   "title": "Causal mediation analysis for interpreting neural NLP: The case of gender bias",
+   "authors": [
+    "Vig",
+    "Gehrmann",
+    "Belinkov",
+    "Qian",
+    "Nevo",
+    "Singer",
+    "Shieber"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": "2004.12265",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2004.12265"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.18653/v1/2022.blackboxnlp-1.26",
+      "title": "Testing Pre-trained Language Models\u2019 Understanding of Distributivity via Causal Mediation Analysis",
+      "year": 2022,
+      "first_author": "Ban",
+      "container": "Proceedings of the Fifth BlackboxNLP Workshop on Analyzing and Interpreting Neural Networks for NLP",
+      "type": "proceedings-article",
+      "score": 39.47787
+     },
+     "metrics": {
+      "title_sim": 62.06896551724138,
+      "containment": 0.3,
+      "partial_ratio": 54.639175257731964,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  }
+ ]
+}

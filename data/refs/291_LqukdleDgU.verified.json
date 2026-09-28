@@ -1,0 +1,705 @@
+{
+ "pdf": "291_LqukdleDgU.pdf",
+ "n_entries": 16,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": false,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "[1] Wei, J., Wang X., Schuurmans, D., Bosma, M., Ichter, B., Xia, F., Chi, E., Le, Q. & Zhou, D. (2022) Chain-of-Thought Prompting Elicits Reasoning in Large Language Models. NeurIPS.",
+   "title": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+   "authors": [
+    "Wei",
+    "X.",
+    "Schuurmans",
+    "Bosma",
+    "Ichter",
+    "Xia",
+    "Chi",
+    "Le",
+    "Zhou"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/068431-1800",
+    "title": "Chain-Of-Thought Prompting Elicits Reasoning in Large Language Models",
+    "year": 2022,
+    "first_author": "Wei",
+    "container": "Advances in Neural Information Processing Systems 35",
+    "type": "proceedings-article",
+    "score": 60.11679
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2] Wang, X., Wei, J., Schuurmans, D., Le, Q., Chi, E., Narang, S., Chowdhery, A. & Zhou, D. (2023) Self-Consistency Improves Chain of Thought Reasoning in Language Models. ICLR.",
+   "title": "Self-Consistency Improves Chain of Thought Reasoning in Language Models",
+   "authors": [
+    "Wang",
+    "Wei",
+    "Schuurmans",
+    "Le",
+    "Chi",
+    "Narang",
+    "Chowdhery",
+    "Zhou"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.59350/90sh1-hbs94",
+      "title": "Multimodal Chain-of-Thought Reasoning in Language Models",
+      "year": 2025,
+      "first_author": "Thoram",
+      "container": "",
+      "type": "posted-content",
+      "score": 40.42914
+     },
+     "metrics": {
+      "title_sim": 89.10891089108911,
+      "containment": 0.833,
+      "partial_ratio": 87.5,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3] Kojima, T., Gu, S..S., Reid, M., Matsuo, Y. & Iwasawa, Y. (2022) Large Language Models are Zero-Shot Reasoners. NeurIPS.",
+   "title": "Large Language Models are Zero-Shot Reasoners",
+   "authors": [
+    "Kojima",
+    "Gu",
+    "Reid",
+    "Matsuo",
+    "Iwasawa"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/068431-1613",
+    "title": "Large Language Models Are Zero-Shot Reasoners",
+    "year": 2022,
+    "first_author": "Kojima",
+    "container": "Advances in Neural Information Processing Systems 35",
+    "type": "proceedings-article",
+    "score": 59.181477
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4] Huang, L., Yu, W., Ma, W., Zhong, W., Feng, Z., Wang, H., Chen, Q., Peng, W., Feng, X., Qin, B. & Liu, T. (2025) A Survey on Hallucination in Large Language Models: Principles, Taxonomy, Challenges, and Open Questions. ACM Transactions on Information Systems, Volume 43, Issue 2.",
+   "title": "A Survey on Hallucination in Large Language Models: Principles, Taxonomy, Challenges, and Open Questions",
+   "authors": [
+    "Huang",
+    "Yu",
+    "Ma",
+    "Zhong",
+    "Feng",
+    "Wang",
+    "Chen",
+    "Peng",
+    "Feng",
+    "Qin",
+    "Liu"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "ACM Transactions on Information Systems",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3703155",
+    "title": "A Survey on Hallucination in Large Language Models: Principles, Taxonomy, Challenges, and Open Questions",
+    "year": 2025,
+    "first_author": "Huang",
+    "container": "ACM Transactions on Information Systems",
+    "type": "journal-article",
+    "score": 57.37545
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5] Ouyang, L., Wu, J., Jiang, X., Almeida, D., Wainwright, C.L., Mishkin, P., Zhang, C., Agarwal, S., Slama, K., Ray, A., Schulman, J., Hilton, J., Kelton, F., Miller, L., Simens, M., Askell, A., Welinder, P., Christiano, P., Leike, J. & Lowe, R. (2022) Training language models to follow instructions with human feedback. NeurIPS.",
+   "title": "Training language models to follow instructions with human feedback",
+   "authors": [
+    "Ouyang",
+    "Wu",
+    "Jiang",
+    "Almeida",
+    "Wainwright",
+    "Mishkin",
+    "Zhang",
+    "Agarwal",
+    "Slama",
+    "Ray",
+    "Schulman",
+    "Hilton",
+    "Kelton",
+    "Miller",
+    "Simens",
+    "Askell",
+    "Welinder",
+    "Christiano",
+    "Leike",
+    "Lowe"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/068431-2011",
+    "title": "Training Language Models to Follow Instructions with Human Feedback",
+    "year": 2022,
+    "first_author": "Ouyang",
+    "container": "Advances in Neural Information Processing Systems 35",
+    "type": "proceedings-article",
+    "score": 41.03418
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[6] Chow, Y., Tamar, A., Mannor, S. & Pavone, M. (2015) Risk-Sensitive and Robust Decision-Making: a CVaR Optimization Approach. NeurIPS.",
+   "title": "Risk-Sensitive and Robust Decision-Making: a CVaR Optimization Approach",
+   "authors": [
+    "Chow",
+    "Tamar",
+    "Mannor",
+    "Pavone"
+   ],
+   "year": 2015,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1016/j.ijpe.2014.03.021",
+      "title": "Robust inventory decision under distribution uncertainty: A CVaR-based optimization approach",
+      "year": 2014,
+      "first_author": "Qiu",
+      "container": "International Journal of Production Economics",
+      "type": "journal-article",
+      "score": 32.94451
+     },
+     "metrics": {
+      "title_sim": 77.19298245614036,
+      "containment": 0.556,
+      "partial_ratio": 64.0,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[7] Yao, S., Zhao, J., Yu, D., Du, N., Shafran, I., Narasimhan, K. & Cao, Y. (2023) ReAct: Synergizing Reasoning and Acting in Language Models. ICLR.",
+   "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+   "authors": [
+    "Yao",
+    "Zhao",
+    "Yu",
+    "Du",
+    "Shafran",
+    "Narasimhan",
+    "Cao"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.4656090",
+      "title": "Large Language Models Reasoning and Reinforcement Learning",
+      "year": 2023,
+      "first_author": "Noguer I Alonso",
+      "container": "",
+      "type": "posted-content",
+      "score": 26.9443
+     },
+     "metrics": {
+      "title_sim": 71.30434782608695,
+      "containment": 0.5,
+      "partial_ratio": 53.16455696202531,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[8] Schick, T., Dwivedi-Yu, J., Dessi, R., Raileanu, R., Lomeli, M., Hambro, E., Zettlemoyer, L., Cancedda, N. & Scialom, T. (2023) Toolformer: Language Models Can Teach Themselves to Use Tools. NeurIPS.",
+   "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+   "authors": [
+    "Schick",
+    "Dwivedi-Yu",
+    "Dessi",
+    "Raileanu",
+    "Lomeli",
+    "Hambro",
+    "Zettlemoyer",
+    "Cancedda",
+    "Scialom"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/075280-2997",
+    "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+    "year": 2023,
+    "first_author": "Schick",
+    "container": "Advances in Neural Information Processing Systems 36",
+    "type": "proceedings-article",
+    "score": 66.821495
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[9] Howard, R.A. & Matheson, J.E. (1984) Influence Diagrams. Readings on the Principles and Applications of Decision Analysis.",
+   "title": "Influence Diagrams",
+   "authors": [
+    "Howard",
+    "Matheson"
+   ],
+   "year": 1984,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Readings on the Principles and Applications of Decision Analysis",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1287/deca.1050.0020",
+    "title": "Influence Diagrams",
+    "year": 2005,
+    "first_author": "Howard",
+    "container": "Decision Analysis",
+    "type": "journal-article",
+    "score": 24.223171
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[10] Rockafellar, R.T. & Uryasev, S. (1999) Optimization of Conditional Value-at-Risk. Journal of Risk.",
+   "title": "Optimization of Conditional Value-at-Risk",
+   "authors": [
+    "Rockafellar",
+    "Uryasev"
+   ],
+   "year": 1999,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Risk",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.21314/jor.2000.038",
+    "title": "Optimization of conditional value-at-risk",
+    "year": 2000,
+    "first_author": "Rockafellar",
+    "container": "The Journal of Risk",
+    "type": "journal-article",
+    "score": 42.690807
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "[11] Ji, Z., Lee, N., Frieske, R., Yu, T., Su, D., Xu, Y., Ishii, E., Bang, Y., Madotto, A., & Fung, P. (2023) Survey of Hallucination in Natural Language Generation. ACM Computing Surveys.",
+   "title": "Survey of Hallucination in Natural Language Generation",
+   "authors": [
+    "Ji",
+    "Lee",
+    "Frieske",
+    "Yu",
+    "Su",
+    "Xu",
+    "Ishii",
+    "Bang",
+    "Madotto",
+    "Fung"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3571730",
+    "title": "Survey of Hallucination in Natural Language Generation",
+    "year": 2023,
+    "first_author": "Ji",
+    "container": "ACM Computing Surveys",
+    "type": "journal-article",
+    "score": 37.112915
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "[12] Nease, R.F., & Owens, D.K. (1997) Use of influence diagrams to structure medical decisions. Medical Decision Making.",
+   "title": "Use of influence diagrams to structure medical decisions",
+   "authors": [
+    "Nease",
+    "Owens"
+   ],
+   "year": 1997,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1177/0272989x9701700302",
+    "title": "Use of Influence Diagrams to Structure Medical Decisions",
+    "year": 1997,
+    "first_author": "Nease",
+    "container": "Medical Decision Making",
+    "type": "journal-article",
+    "score": 56.849655
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "[13] Charnes, J.M., & Shenoy, P.P. (1997) A forward Monte Carlo method for solving influence diagrams using local computation. AISTATS.",
+   "title": "A forward Monte Carlo method for solving influence diagrams using local computation",
+   "authors": [
+    "Charnes",
+    "Shenoy"
+   ],
+   "year": 1997,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1287/mnsc.1030.0138",
+    "title": "Multistage Monte Carlo Method for Solving Influence Diagrams Using Local Computation",
+    "year": 2004,
+    "first_author": "Charnes",
+    "container": "Management Science",
+    "type": "journal-article",
+    "score": 69.68822
+   },
+   "metrics": {
+    "title_sim": 93.58974358974359,
+    "containment": 0.889,
+    "partial_ratio": 89.28571428571429,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "[14] Moore, E.A., & Agogino, A.M. (1987) INFORM: an architecture for expert-directed knowledge acquisition. International Journal of Man-Machine Studies.",
+   "title": "INFORM: an architecture for expert-directed knowledge acquisition",
+   "authors": [
+    "Moore",
+    "Agogino"
+   ],
+   "year": 1987,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Journal of Man-Machine Studies",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/s0020-7373(87)80092-5",
+    "title": "INFORM: an architecture for expert-directed knowledge acquisition",
+    "year": 1987,
+    "first_author": "Moore",
+    "container": "International Journal of Man-Machine Studies",
+    "type": "journal-article",
+    "score": 52.626038
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "[15] Nye, M., Andreassen, A.J., Gur-Ari, G., Michalewski, H., Austin, J., Bieber, D., Dohan, D., Lewkowycz, A., Bosma, M., Luan, D., Sutton, C. & Odena, A. (2021) Show Your Work: Scratchpads for Intermediate Computation with Language Models. arXiv preprint.",
+   "title": null,
+   "authors": [
+    "Nye",
+    "Andreassen",
+    "Gur-Ari",
+    "Michalewski",
+    "Austin",
+    "Bieber",
+    "Dohan",
+    "Lewkowycz",
+    "Bosma",
+    "Luan",
+    "Sutton",
+    "Odena"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.52202/068431-0278",
+      "title": "Solving Quantitative Reasoning Problems with Language Models",
+      "year": 2022,
+      "first_author": "Lewkowycz",
+      "container": "Advances in Neural Information Processing Systems 35",
+      "type": "proceedings-article",
+      "score": 66.86061
+     },
+     "metrics": {
+      "title_sim": 0,
+      "containment": 0.333,
+      "partial_ratio": 56.666666666666664,
+      "year_ok": true,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 16,
+   "raw": "[16] Zhou, D., Sch\u00e4rli, N., Hou, L., Wei, J., Scales, N., Wang, X., Schuurmans, D., Cui, C., Bousquet, O., & Chi, E. (2022) Large Language Models Are Human-Level Prompt Engineers. arXiv preprint.",
+   "title": "Large Language Models Are Human-Level Prompt Engineers",
+   "authors": [
+    "Zhou",
+    "Sch\u00e4rli",
+    "Hou",
+    "Wei",
+    "Scales",
+    "Wang",
+    "Schuurmans",
+    "Cui",
+    "Bousquet",
+    "Chi"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.4504303",
+      "title": "Prompt Engineering for Large Language Models",
+      "year": 2023,
+      "first_author": "Gao",
+      "container": "",
+      "type": "posted-content",
+      "score": 33.915764
+     },
+     "metrics": {
+      "title_sim": 79.59183673469389,
+      "containment": 0.8,
+      "partial_ratio": 63.63636363636363,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  }
+ ]
+}

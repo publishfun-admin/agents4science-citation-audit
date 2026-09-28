@@ -1,0 +1,841 @@
+{
+ "pdf": "257_X26I2fwt3f.pdf",
+ "n_entries": 19,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "Sina Alemohammad, Josue Casco-Rodriguez, Lorenzo Luzi, Ahmed Imtiaz Humayun, Hossein Babaei, Daniel LeJeune, Ali Siahkoohi, and Richard G Baraniuk. Self-consuming generative models go mad. arXiv preprint arXiv:2307.01850, 2023.",
+   "title": "Self-consuming generative models go mad",
+   "authors": [
+    "Alemohammad",
+    "Casco-Rodriguez",
+    "Luzi",
+    "Humayun",
+    "Babaei",
+    "LeJeune",
+    "Siahkoohi",
+    "Baraniuk"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2307.01850",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52591/lxai202312101",
+    "title": "Self-Consuming Generative Models go MAD",
+    "year": 2023,
+    "first_author": "Casco-Rodriguez",
+    "container": "LatinX in AI at Neural Information Processing Systems Conference 2023",
+    "type": "proceedings-article",
+    "score": 60.481007
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2307.01850"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "Jacob Austin, Augustus Odena, Maxwell Nye, Maarten Bosma, Henryk Michalewski, David Dohan, Ellen Jiang, Carrie Cai, Michael Terry, Quoc Le, et al. Program synthesis with large language models. arXiv preprint arXiv:2108.07732, 2021.",
+   "title": "Program synthesis with large language models",
+   "authors": [
+    "Austin",
+    "Odena",
+    "Nye",
+    "Bosma",
+    "Michalewski",
+    "Dohan",
+    "Jiang",
+    "Cai",
+    "Terry",
+    "Le"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": "2108.07732",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2108.07732"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1145/3680410",
+      "title": "On Program Synthesis and Large Language Models",
+      "year": 2025,
+      "first_author": "H\u00fcttel",
+      "container": "Communications of the ACM",
+      "type": "journal-article",
+      "score": 28.27823
+     },
+     "metrics": {
+      "title_sim": 93.97590361445783,
+      "containment": 1.0,
+      "partial_ratio": 89.13043478260869,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "Ali Borji. Pros and cons of gan evaluation measures: New developments. Computer Vision and Image Understanding, 215:103329, 2022.",
+   "title": "Pros and cons of gan evaluation measures: New developments",
+   "authors": [
+    "Borji"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Computer Vision and Image Understanding",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.cviu.2021.103329",
+    "title": "Pros and cons of GAN evaluation measures: New developments",
+    "year": 2022,
+    "first_author": "Borji",
+    "container": "Computer Vision and Image Understanding",
+    "type": "journal-article",
+    "score": 69.40084
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "Tom B Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, et al. Language models are few-shot learners. Advances in neural information processing systems, 33:1877\u20131901, 2020.",
+   "title": "Language models are few-shot learners",
+   "authors": [
+    "Brown",
+    "Mann",
+    "Ryder",
+    "Subbiah",
+    "Kaplan",
+    "Dhariwal",
+    "Neelakantan",
+    "Shyam",
+    "Sastry",
+    "Askell"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in neural information processing systems",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2021.mrl-1.1",
+    "title": "Language Models are Few-shot Multilingual Learners",
+    "year": 2021,
+    "first_author": "Winata",
+    "container": "Proceedings of the 1st Workshop on Multilingual Representation Learning",
+    "type": "proceedings-article",
+    "score": 33.996895
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.833,
+    "partial_ratio": 74.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "Deborah Charlesworth and John H Willis. The genetics of inbreeding depression. Nature Reviews Genetics, 10(11):783\u2013796, 2009.",
+   "title": "The genetics of inbreeding depression",
+   "authors": [
+    "Charlesworth",
+    "Willis"
+   ],
+   "year": 2009,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature Reviews Genetics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/nrg2664",
+    "title": "The genetics of inbreeding depression",
+    "year": 2009,
+    "first_author": "Charlesworth",
+    "container": "Nature Reviews Genetics",
+    "type": "journal-article",
+    "score": 43.585262
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "Mark Chen, Jerry Tworek, Heewoo Jun, Qiming Yuan, Henrique Ponde de Oliveira Pinto, Jared Kaplan, Harri Edwards, Yuri Burda, Nicholas Joseph, Greg Brockman, et al. Evaluating large language models trained on code. arXiv preprint arXiv:2107.03374, 2021.",
+   "title": "Evaluating large language models trained on code",
+   "authors": [
+    "Chen",
+    "Tworek",
+    "Jun",
+    "Yuan",
+    "Oliveira Pinto",
+    "Kaplan",
+    "Edwards",
+    "Burda",
+    "Joseph",
+    "Brockman"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": "2107.03374",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2107.03374"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.31274/td-20250502-3",
+      "title": "Analyzing redundancy in code-trained language models",
+      "year": 2025,
+      "first_author": "Sharma",
+      "container": "",
+      "type": "dissertation",
+      "score": 36.195316
+     },
+     "metrics": {
+      "title_sim": 76.0,
+      "containment": 0.667,
+      "partial_ratio": 55.769230769230774,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "Aakanksha Chowdhery, Sharan Narang, Jacob Devlin, Maarten Bosma, Gaurav Mishra, Adam Roberts, Paul Barham, Hyung Won Chung, Charles Sutton, Sebastian Gehrmann, et al. Palm: Scaling language modeling with pathways. arXiv preprint arXiv:2204.02311, 2022.",
+   "title": "Palm: Scaling language modeling with pathways",
+   "authors": [
+    "Chowdhery",
+    "Narang",
+    "Devlin",
+    "Bosma",
+    "Mishra",
+    "Roberts",
+    "Barham",
+    "Chung",
+    "Sutton",
+    "Gehrmann"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": "2204.02311",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2204.02311",
+    "title": "PaLM: Scaling Language Modeling with Pathways",
+    "year": 2022,
+    "first_author": "Aakanksha Chowdhery"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "Thomas M Cover and Joy A Thomas. Elements of information theory. John Wiley & Sons, 1999.",
+   "title": "Elements of information theory",
+   "authors": [
+    "Cover",
+    "Thomas"
+   ],
+   "year": 1999,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1002/0471200611",
+    "title": "Elements of Information Theory",
+    "year": 2001,
+    "first_author": "Cover",
+    "container": "",
+    "type": "monograph",
+    "score": 28.289127
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "Matthias Gerstgrasser, Rylan Schaeffer, Apratim Dey, Rafael Rafailov, Henry Sleight, John Hughes, Tomasz Korbak, Rajashree Agrawal, Dhruv Bhandarkar Pai, Andrey Gromov, et al. Is model collapse inevitable? breaking the curse of recursion by accumulating real and synthetic data. arXiv preprint arXiv:2404.01413, 2024.",
+   "title": "Is model collapse inevitable? breaking the curse of recursion by accumulating real and synthetic data",
+   "authors": [
+    "Gerstgrasser",
+    "Schaeffer",
+    "Dey",
+    "Rafailov",
+    "Sleight",
+    "Hughes",
+    "Korbak",
+    "Agrawal",
+    "Pai",
+    "Gromov"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2404.01413",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2404.01413"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.31219/osf.io/et6hm_v1",
+      "title": "Osmotic Recursion and the Collapse Threshold: A Recursive Collapse Model of Mitosis and Cellular Division",
+      "year": 2025,
+      "first_author": "Serio",
+      "container": "",
+      "type": "posted-content",
+      "score": 28.948372
+     },
+     "metrics": {
+      "title_sim": 61.78010471204188,
+      "containment": 0.4,
+      "partial_ratio": 45.192307692307686,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "Dan Hendrycks, Collin Burns, Steven Basart, Andy Zou, Mantas Mazeika, Dawn Song, and Jacob Steinhardt. Measuring massive multitask language understanding. arXiv preprint arXiv:2009.03300, 2020.",
+   "title": "Measuring massive multitask language understanding",
+   "authors": [
+    "Hendrycks",
+    "Burns",
+    "Basart",
+    "Zou",
+    "Mazeika",
+    "Song",
+    "Steinhardt"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": "2009.03300",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2009.03300"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.18653/v1/2026.findings-acl.593",
+      "title": "BnMMLU: Measuring Massive Multitask Language Understanding in Bengali",
+      "year": 2026,
+      "first_author": "Joy",
+      "container": "Findings of the Association for Computational Linguistics: ACL 2026",
+      "type": "proceedings-article",
+      "score": 39.32206
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 0.714,
+      "partial_ratio": 83.82352941176471,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "Jordan Hoffmann, Sebastian Borgeaud, Arthur Mensch, Elena Buchatskaya, Trevor Cai, Eliza Rutherford, Diego de Las Casas, Lisa Anne Hendricks, Johannes Welbl, Aidan Clark, et al. Training compute-optimal large language models. arXiv preprint arXiv:2203.15556, 2022.",
+   "title": "Training compute-optimal large language models",
+   "authors": [
+    "Hoffmann",
+    "Borgeaud",
+    "Mensch",
+    "Buchatskaya",
+    "Cai",
+    "Rutherford",
+    "Las Casas",
+    "Hendricks",
+    "Welbl",
+    "Clark"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": "2203.15556",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2203.15556",
+    "title": "Training Compute-Optimal Large Language Models",
+    "year": 2022,
+    "first_author": "Jordan Hoffmann"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "Yuanzhi Li, S\u00e9bastien Bubeck, Ronen Eldan, Allie Del Giorno, Suriya Gunasekar, and Yin Tat Lee. Textbooks are all you need ii: phi-1.5 technical report. arXiv preprint arXiv:2309.05463, 2023.",
+   "title": "Textbooks are all you need ii",
+   "authors": [
+    "Li",
+    "Bubeck",
+    "Eldan",
+    "Giorno",
+    "Gunasekar",
+    "Lee"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2309.05463",
+   "urls": [],
+   "container": null,
+   "type": "report",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2309.05463"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.5104419",
+      "title": "(International Law) Textbooks Are All You Need \n&lt;br&gt;",
+      "year": 2025,
+      "first_author": "Ridi",
+      "container": "",
+      "type": "posted-content",
+      "score": 36.372265
+     },
+     "metrics": {
+      "title_sim": 94.54545454545455,
+      "containment": 0.667,
+      "partial_ratio": 71.69811320754718,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "Stephanie Lin, Jacob Hilton, and Owain Evans. Truthfulqa: Measuring how models mimic human falsehoods. Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics, pages 3214\u20133252, 2022.",
+   "title": "Truthfulqa: Measuring how models mimic human falsehoods",
+   "authors": [
+    "Lin",
+    "Hilton",
+    "Evans"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2022.acl-long.229",
+    "title": "TruthfulQA: Measuring How Models Mimic Human Falsehoods",
+    "year": 2022,
+    "first_author": "Lin",
+    "container": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "type": "proceedings-article",
+    "score": 65.833046
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "Keisuke Sakaguchi, Ronan Le Bras, Chandra Bhagavatula, and Yejin Choi. Winogrande: An adversarial winograd schema challenge at scale. Communications of the ACM, 64(9):99\u2013106, 2021.",
+   "title": "Winogrande: An adversarial winograd schema challenge at scale",
+   "authors": [
+    "Sakaguchi",
+    "Bras",
+    "Bhagavatula",
+    "Choi"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Communications of the ACM",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1609/aaai.v34i05.6399",
+    "title": "WinoGrande: An Adversarial Winograd Schema Challenge at Scale",
+    "year": 2020,
+    "first_author": "Sakaguchi",
+    "container": "Proceedings of the AAAI Conference on Artificial Intelligence",
+    "type": "journal-article",
+    "score": 62.910793
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "Mohamed El Amine Seddik, Suei-Wen Chen, Soufiane Hayou, Pierre Youssef, and Merouane Debbah. How bad is training on synthetic data? a statistical analysis of language model collapse. arXiv preprint arXiv:2404.05090, 2024.",
+   "title": "How bad is training on synthetic data? a statistical analysis of language model collapse",
+   "authors": [
+    "Seddik",
+    "Chen",
+    "Hayou",
+    "Youssef",
+    "Debbah"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2404.05090",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2404.05090"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/southeastcon52093.2024.10500084",
+      "title": "Synthetic Data Creation for ML/AL Model Training",
+      "year": 2024,
+      "first_author": null,
+      "container": "SoutheastCon 2024",
+      "type": "proceedings-article",
+      "score": 31.596668
+     },
+     "metrics": {
+      "title_sim": 75.32467532467533,
+      "containment": 0.8,
+      "partial_ratio": 58.33333333333333,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 16,
+   "raw": "Claude Elwood Shannon. A mathematical theory of communication. The Bell system technical journal, 27(3):379\u2013423, 1948.",
+   "title": "A mathematical theory of communication",
+   "authors": [
+    "Shannon"
+   ],
+   "year": 1948,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "The Bell system technical journal",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1002/j.1538-7305.1948.tb01338.x",
+    "title": "A Mathematical Theory of Communication",
+    "year": 1948,
+    "first_author": "Shannon",
+    "container": "Bell System Technical Journal",
+    "type": "journal-article",
+    "score": 37.98263
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 17,
+   "raw": "Ilia Shumailov, Zakhar Shumaylov, Yiren Zhao, Yarin Gal, Nicolas Papernot, and Ross Anderson. The curse of recursion: Training on generated data makes models forget. Nature, 626(7998): 309\u2013314, 2024.",
+   "title": "The curse of recursion: Training on generated data makes models forget",
+   "authors": [
+    "Shumailov",
+    "Shumaylov",
+    "Zhao",
+    "Gal",
+    "Papernot",
+    "Anderson"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.5199919",
+      "title": "Generative AI-generated Synthetic Medical Data for Training AI Models",
+      "year": 2025,
+      "first_author": "Singh",
+      "container": "",
+      "type": "posted-content",
+      "score": 28.682785
+     },
+     "metrics": {
+      "title_sim": 69.62962962962963,
+      "containment": 0.571,
+      "partial_ratio": 46.37681159420289,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 18,
+   "raw": "Hugo Touvron, Louis Martin, Kevin Stone, Peter Albert, Amjad Almahairi, Yasmine Babaei, Nikolay Bashlykov, Soumya Batra, Prajjwal Bhargava, Shruti Bhosale, et al. Llama 2: Open foundation and fine-tuned chat models. arXiv preprint arXiv:2307.09288, 2023.",
+   "title": "Llama 2: Open foundation and fine-tuned chat models",
+   "authors": [
+    "Touvron",
+    "Martin",
+    "Stone",
+    "Albert",
+    "Almahairi",
+    "Babaei",
+    "Bashlykov",
+    "Batra",
+    "Bhargava",
+    "Bhosale"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2307.09288",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2307.09288",
+    "title": "Llama 2: Open Foundation and Fine-Tuned Chat Models",
+    "year": 2023,
+    "first_author": "Hugo Touvron"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": true,
+   "idx": 19,
+   "raw": "Immediate Priority Studies (0-6 months): \u2022 Statistical Power Enhancement: Scale to N=50+ samples for robust significance testing \u2022 Architecture Diversification: Validate across transformer variants, RNNs, and emerging architectures \u2022 Metric Expansion: Include task-specific evaluations (coding, reasoning, factual accuracy) \u2022 Bootstrap Validation: Implement advanced statistical methods for small-sample inference Medium-Term Research Directions (6-18 months): \u2022 Production-Scale Validation: Full model training experiments with major computing resources \u2022 Extended Generational Analysis: Track degradation patterns through Generation 5+ \u2022 Intervention Studies: Test mitigation strategies including: \u2013 Optimal human/synthetic data mixing ratios \u2013 Quality filtering and curation techniques \u2013 Active learning approaches for data selection \u2013 Regularization methods for preventing collapse \u2022 Real-World Deployment Studies: Monitor capability changes in production AI systems Long-Term Research Vision (18+ months):",
+   "title": "Immediate Priority Studies (0-6 months): \u2022 Statistical Power Enhancement: Scale to N=50+ samples for robust significance testing \u2022 Architecture Diversification: Validate across transformer variants, RNNs, and emerging architectures \u2022 Metric Expansion: Include task-specific evaluations (coding, reasoning, factual accuracy) \u2022 Bootstrap Validation: Implement advanced statistical methods for small-sample inference Medium-Term Research Directions (6-18 months): \u2022 Production-Scale Validation: Full model training experiments with major computing resources \u2022 Extended Generational Analysis: Track degradation patterns through Generation 5+ \u2022 Intervention Studies: Test mitigation strategies including: \u2013 Optimal human/synthetic data mixing ratios \u2013 Quality filtering and curation techniques \u2013 Active learning approaches for data selection",
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.7554/elife.47864.026",
+      "title": "Figure 5. \u2018FAMA interactome\u2019 experiment \u2013 PL with TbID reveals potential FAMA interactors involved in transcriptional regulation.",
+      "year": 2019,
+      "first_author": null,
+      "container": "",
+      "type": "component",
+      "score": 11.737553
+     },
+     "metrics": {
+      "title_sim": 23.11886586695747,
+      "containment": 0.0,
+      "partial_ratio": 49.59349593495935,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  }
+ ]
+}

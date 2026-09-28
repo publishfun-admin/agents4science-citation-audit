@@ -1,0 +1,468 @@
+{
+ "pdf": "290_ud9cRk9yBM.pdf",
+ "n_entries": 11,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "[1] Abhimanyu Das, Weihao Kong, Rajat Sen, and Yichen Zhou. A decoder-only foundation model for time-series forecasting. arXiv preprint arXiv:2310.10688, 2023. ICML 2024.",
+   "title": "A decoder-only foundation model for time-series forecasting",
+   "authors": [
+    "Das",
+    "Kong",
+    "Sen",
+    "Zhou"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2310.10688",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2310.10688"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/979-8-8688-1276-7_8",
+      "title": "TimesFM: Time Series Forecasting Using Decoder-Only Foundation Model",
+      "year": 2025,
+      "first_author": "Vishwas",
+      "container": "Time Series Forecasting Using Generative AI",
+      "type": "book-chapter",
+      "score": 51.310734
+     },
+     "metrics": {
+      "title_sim": 94.64285714285714,
+      "containment": 0.875,
+      "partial_ratio": 62.68656716417911,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2] Amir Ansari, Rose Yu, et al.       Chronos: Learning the language of time series.         arXiv preprint arXiv:2403.07815, 2024.",
+   "title": "Chronos: Learning the language of time series",
+   "authors": [
+    "Ansari",
+    "Yu"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2403.07815",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2403.07815"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/mlnlp63328.2024.10800007",
+      "title": "A Selective Ensemble Learning Method for Time Series Forecasting",
+      "year": 2024,
+      "first_author": "Wang",
+      "container": "2024 7th International Conference on Machine Learning and Natural Language Processing (MLNLP)",
+      "type": "proceedings-article",
+      "score": 25.261087
+     },
+     "metrics": {
+      "title_sim": 62.5,
+      "containment": 0.429,
+      "partial_ratio": 57.8125,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3] Luoxiao Yang, Yun Wang, Xinqi Fan, Israel Cohen, Jingdong Chen, Yue Zhao, and Zijun Zhang. Vitime: A visual intelligence-based foundation model for time series forecasting. arXiv preprint arXiv:2407.07311, 2024.",
+   "title": "Vitime: A visual intelligence-based foundation model for time series forecasting",
+   "authors": [
+    "Yang",
+    "Wang",
+    "Fan",
+    "Cohen",
+    "Chen",
+    "Zhao",
+    "Zhang"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2407.07311",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2407.07311"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.32657/10356/166596",
+      "title": "Computational intelligence-based time series forecasting",
+      "year": 2023,
+      "first_author": null,
+      "container": "",
+      "type": "dissertation",
+      "score": 35.221027
+     },
+     "metrics": {
+      "title_sim": 85.71428571428571,
+      "containment": 0.833,
+      "partial_ratio": 64.28571428571428,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4] Sean J Taylor and Benjamin Letham. Forecasting at scale. The American Statistician, 72(1):37\u201345, 2018.",
+   "title": "Forecasting at scale",
+   "authors": [
+    "Taylor",
+    "Letham"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "The American Statistician",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1080/00031305.2017.1380080",
+    "title": "Forecasting at Scale",
+    "year": 2018,
+    "first_author": "Taylor",
+    "container": "The American Statistician",
+    "type": "journal-article",
+    "score": 25.565771
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5] Shaojie Bai, J Zico Kolter, and Vladlen Koltun. An empirical evaluation of generic convolutional and recurrent networks for sequence modeling. In NeurIPS, 2018.",
+   "title": "An empirical evaluation of generic convolutional and recurrent networks for sequence modeling",
+   "authors": [
+    "Shaojie Bai",
+    "Koltun"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "NeurIPS",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/978-3-030-04167-0_33",
+      "title": "Structured Sequence Modeling with Graph Convolutional Recurrent Networks",
+      "year": 2018,
+      "first_author": "Seo",
+      "container": "Lecture Notes in Computer Science",
+      "type": "book-chapter",
+      "score": 31.126057
+     },
+     "metrics": {
+      "title_sim": 81.9672131147541,
+      "containment": 0.714,
+      "partial_ratio": 62.5,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[6] Edward Hu, Yelong Shen, et al. Lora: Low-rank adaptation of large language models. arXiv preprint arXiv:2106.09685, 2022.",
+   "title": "Lora: Low-rank adaptation of large language models",
+   "authors": [
+    "Hu",
+    "Shen"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": "2106.09685",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2106.09685",
+    "title": "LoRA: Low-Rank Adaptation of Large Language Models",
+    "year": 2021,
+    "first_author": "Edward J. Hu"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[7] Denys Boiko et al. Emergent autonomous scientific research capabilities of large language models. arXiv preprint arXiv:2304.05332, 2023.",
+   "title": "Emergent autonomous scientific research capabilities of large language models",
+   "authors": [
+    "Boiko"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2304.05332",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/s41586-023-06792-0",
+    "title": "Autonomous chemical research with large language models",
+    "year": 2023,
+    "first_author": "Boiko",
+    "container": "Nature",
+    "type": "journal-article",
+    "score": 41.86254
+   },
+   "metrics": {
+    "title_sim": 85.41666666666667,
+    "containment": 0.833,
+    "partial_ratio": 67.27272727272727,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2304.05332"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[8] Barret Zoph and Quoc V Le. Neural architecture search with reinforcement learning. In ICLR, 2017.",
+   "title": "Neural architecture search with reinforcement learning",
+   "authors": [
+    "Zoph",
+    "Le"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "ICLR",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.4861524",
+      "title": "Contrastive Meta-Reinforcement Learning for Heterogeneous Graph Neural Architecture Search",
+      "year": 2024,
+      "first_author": "Xu",
+      "container": "",
+      "type": "posted-content",
+      "score": 36.58574
+     },
+     "metrics": {
+      "title_sim": 95.14563106796116,
+      "containment": 0.556,
+      "partial_ratio": 55.55555555555556,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[9] H. Zhou, S. Zhang, J. Peng, et al. Informer: Beyond efficient transformer for long sequence time-series forecasting. In Proceedings of the AAAI Conference on Artificial Intelligence, 2021.",
+   "title": "Informer: Beyond efficient transformer for long sequence time-series forecasting",
+   "authors": [
+    "Zhou",
+    "Zhang",
+    "Peng"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the AAAI Conference on Artificial Intelligence",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1609/aaai.v35i12.17325",
+    "title": "Informer: Beyond Efficient Transformer for Long Sequence Time-Series Forecasting",
+    "year": 2021,
+    "first_author": "Zhou",
+    "container": "Proceedings of the AAAI Conference on Artificial Intelligence",
+    "type": "journal-article",
+    "score": 59.209156
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[10] A. Bagnall, J. Lines, A. Bostrom, J. Large, and E. Keogh. The uea multivariate time series classification archive, 2018. arXiv preprint arXiv:1811.00075, 2018.",
+   "title": "The uea multivariate time series classification archive",
+   "authors": [
+    "Bagnall",
+    "Lines",
+    "Bostrom",
+    "Large",
+    "Keogh"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": "1811.00075",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "1811.00075"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.11606/d.55.2025.tde-26062026-170449",
+      "title": "Multivariate Time Series Classification from Multiple Sources Using Fusion Models",
+      "year": 2026,
+      "first_author": "Bastos",
+      "container": "",
+      "type": "dissertation",
+      "score": 29.675629
+     },
+     "metrics": {
+      "title_sim": 82.97872340425532,
+      "containment": 0.5,
+      "partial_ratio": 62.96296296296296,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "[11] K. E. Trenberth. The definition of el ni\u00f1o. Bulletin of the American Meteorological Society, 78(12): 2771\u20132777, 1997.",
+   "title": "The definition of el ni\u00f1o",
+   "authors": [
+    "Trenberth"
+   ],
+   "year": 1997,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Bulletin of the American Meteorological Society",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1175/1520-0477(1997)078<2771:tdoeno>2.0.co;2",
+    "title": "The Definition of El Ni\u00f1o",
+    "year": 1997,
+    "first_author": "Trenberth",
+    "container": "Bulletin of the American Meteorological Society",
+    "type": "journal-article",
+    "score": 42.74019
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  }
+ ]
+}

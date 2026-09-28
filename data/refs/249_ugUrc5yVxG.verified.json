@@ -1,0 +1,280 @@
+{
+ "pdf": "249_ugUrc5yVxG.pdf",
+ "n_entries": 7,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "two_column": true,
+ "parser_version": 3,
+ "reprocessed": true,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "1. Kingma, D.P., Welling, M.: Auto-Encoding Variational Bayes. In: ICLR (2014).",
+   "title": "Auto-Encoding Variational Bayes",
+   "authors": [
+    "Kingma",
+    "Welling"
+   ],
+   "year": 2014,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.18653/v1/2020.coling-main.458",
+      "title": "Auto-Encoding Variational Bayes for Inferring Topics and Visualization",
+      "year": 2020,
+      "first_author": "Pham",
+      "container": "Proceedings of the 28th International Conference on Computational Linguistics",
+      "type": "proceedings-article",
+      "score": 36.234688
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 0.571,
+      "partial_ratio": 66.01941747572815,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "2. Higgins, I. et al.: beta-VAE: Learning Basic Visual Concepts with a Constrained Variational Framework. In: ICLR (2017).",
+   "title": "I. et al.: beta-VAE: Learning Basic Visual Concepts with a Constrained Variational Framework",
+   "authors": [],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1117/12.2632749",
+      "title": "A beta-variational autoencoder (beta-VAE) to retrieve relevant degrees of freedom in a physical system",
+      "year": 2022,
+      "first_author": "Lenaerts",
+      "container": "Applications of Machine Learning 2022",
+      "type": "proceedings-article",
+      "score": 32.350624
+     },
+     "metrics": {
+      "title_sim": 54.14364640883978,
+      "containment": 0.364,
+      "partial_ratio": 48.97959183673469,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "3. Heusel, M. et al.: GANs Trained by a Two Time-Scale Update Rule Converge to a Local Nash Equilibrium. In: NeurIPS (2017).",
+   "title": "GANs Trained by a Two Time-Scale Update Rule Converge to a Local Nash Equilibrium",
+   "authors": [
+    "Heusel"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.18034/ajase.v8i1.9",
+      "title": "GANs Trained by a Two Time-Scale Update Rule Converge to a Local Nash Equilibrium",
+      "year": 2019,
+      "first_author": "Bynagari",
+      "container": "Asian Journal of Applied Science and Engineering",
+      "type": "journal-article",
+      "score": 73.48409
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 1.0,
+      "partial_ratio": 100.0,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "4. Wang, Z., Bovik, A.C., Sheikh, H.R., Simoncelli, E.P.: Image Quality Assessment: From Error Visibility to Structural Similarity. IEEE TIP (2004).",
+   "title": "E.P.: Image Quality Assessment: From Error Visibility to Structural Similarity",
+   "authors": [
+    "Wang",
+    "Bovik",
+    "Sheikh"
+   ],
+   "year": 2004,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE TIP",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/tip.2003.819861",
+    "title": "Image quality assessment: from error visibility to structural similarity",
+    "year": 2004,
+    "first_author": "Zhou Wang",
+    "container": "IEEE Transactions on Image Processing",
+    "type": "journal-article",
+    "score": 55.067074
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "5. Ronneberger, O., Fischer, P., Brox, T.: U-Net: Convolutional Networks for Biomedical Image Segmentation. In: MICCAI (2015).",
+   "title": "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+   "authors": [
+    "Ronneberger",
+    "Fischer",
+    "Brox"
+   ],
+   "year": 2015,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/978-3-662-54345-0_3",
+    "title": "Invited Talk: U-Net Convolutional Networks for Biomedical Image Segmentation",
+    "year": 2017,
+    "first_author": "Ronneberger",
+    "container": "Informatik aktuell",
+    "type": "book-chapter",
+    "score": 53.92498
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.75,
+    "partial_ratio": 88.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "6. Karras, T., Laine, S., Aila, T.: A Style-Based Generator Architecture for GANs. In: CVPR (2019).",
+   "title": "T.: A Style-Based Generator Architecture for GANs",
+   "authors": [
+    "Karras",
+    "Laine"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/cvpr.2019.00453",
+    "title": "A Style-Based Generator Architecture for Generative Adversarial Networks",
+    "year": 2019,
+    "first_author": "Karras",
+    "container": "2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "type": "proceedings-article",
+    "score": 41.502922
+   },
+   "metrics": {
+    "title_sim": 91.95402298850574,
+    "containment": 0.571,
+    "partial_ratio": 73.84615384615385,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "7. Wang, X. et al.: ChestX-ray8: Hospital-Scale Chest X-ray Database and Benchmarks on Weakly-Supervised Thorax Disease Classification. In: CVPR (2017).",
+   "title": "ChestX-ray8: Hospital-Scale Chest X-ray Database and Benchmarks on Weakly-Supervised Thorax Disease Classification",
+   "authors": [
+    "Wang"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/cvpr.2017.369",
+    "title": "ChestX-Ray8: Hospital-Scale Chest X-Ray Database and Benchmarks on Weakly-Supervised Classification and Localization of Common Thorax Diseases",
+    "year": 2017,
+    "first_author": "Wang",
+    "container": "2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "type": "proceedings-article",
+    "score": 92.78374
+   },
+   "metrics": {
+    "title_sim": 96.3302752293578,
+    "containment": 0.8,
+    "partial_ratio": 82.78688524590164,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  }
+ ]
+}

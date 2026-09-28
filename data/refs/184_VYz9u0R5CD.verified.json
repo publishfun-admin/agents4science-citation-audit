@@ -1,0 +1,4869 @@
+{
+ "pdf": "184_VYz9u0R5CD.pdf",
+ "n_entries": 104,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 2,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "References [1] World Health Organization. Noncommunicable diseases. https://www.who.int/news-room/ fact-sheets/detail/noncommunicable-diseases, 2023. Accessed: 2025-09-04. [2] Concepci\u00f3 Violan, Quim Foguet-Boreu, Gemma Flores-Mateo, Chris Salisbury, Jeanet Blom, Marlene Freitag, Liam Glynn, and Christian Muth. Prevalence, determinants and patterns of multimorbidity in primary care: a systematic review of observational studies. PLoS ONE, 9(7):e102149, 2014. doi: 10.1371/journal.pone.0102149. [3] Lukasz Piwek, David A. Ellis, Sally Andrews, and Adam Joinson. The rise of consumer health wearables:",
+   "title": "Noncommunicable diseases",
+   "authors": [
+    "References [1] World Health Organization.",
+    "Violan",
+    "Foguet-Boreu",
+    "Flores-Mateo",
+    "Salisbury",
+    "Blom",
+    "Freitag",
+    "Glynn",
+    "Muth"
+   ],
+   "year": 2023,
+   "doi": "10.1371/journal.pone.0102149",
+   "arxiv": null,
+   "urls": [
+    "https://www.who.int/news-room/"
+   ],
+   "container": "PLoS ONE",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1371/journal.pone.0102149",
+    "title": "Prevalence, Determinants and Patterns of Multimorbidity in Primary Care: A Systematic Review of Observational Studies",
+    "year": 2014,
+    "first_author": "Violan",
+    "container": "PLoS ONE",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 25.899280575539574,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true,
+    "rule": "id+raw_containment"
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "Promises and barriers. PLoS Medicine, 13(2):e1001953, 2016. doi: 10.1371/journal.pmed.1001953.",
+   "title": "Promises and barriers",
+   "authors": [],
+   "year": 2016,
+   "doi": "10.1371/journal.pmed.1001953",
+   "arxiv": null,
+   "urls": [],
+   "container": "PLoS Medicine",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1371/journal.pmed.1001953",
+    "title": "The Rise of Consumer Health Wearables: Promises and Barriers",
+    "year": 2016,
+    "first_author": "Piwek",
+    "container": "PLOS Medicine",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.333,
+    "partial_ratio": 52.5,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[4] Shyamal Patel, H. Park, P. Bonato, L. Chan, and M. Rodgers. A review of wearable sensors and systems with application in rehabilitation. Journal of NeuroEngineering and Rehabilitation, 9(21), 2012. doi: 10.1186/1743-0003-9-21.",
+   "title": "A review of wearable sensors and systems with application in rehabilitation",
+   "authors": [
+    "Shyamal Patel",
+    "Bonato",
+    "Chan",
+    "Rodgers"
+   ],
+   "year": 2012,
+   "doi": "10.1186/1743-0003-9-21",
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of NeuroEngineering and Rehabilitation",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1186/1743-0003-9-21",
+    "title": "A review of wearable sensors and systems with application in rehabilitation",
+    "year": 2012,
+    "first_author": "Patel",
+    "container": "Journal of NeuroEngineering and Rehabilitation",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[5] J. Wang. The impact of intelligent device utilization on household medical expenditure: Evidence from the 2020 china longitudinal aging social survey (class). Scientific Reports, 15, 2025.",
+   "title": "The impact of intelligent device utilization on household medical expenditure: Evidence from the 2020 china longitudinal aging social survey (class",
+   "authors": [
+    "Wang"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Scientific Reports",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1186/s12889-025-23718-9",
+      "title": "Impact of multimorbidity on household expenditure in China: evidence from the China health and retirement longitudinal study",
+      "year": 2025,
+      "first_author": "Ouyang",
+      "container": "BMC Public Health",
+      "type": "journal-article",
+      "score": 42.619392
+     },
+     "metrics": {
+      "title_sim": 75.53191489361703,
+      "containment": 0.636,
+      "partial_ratio": 65.04065040650406,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[6] MA Merrill et al. Transforming Wearable Data into Personal Health Insights with LLM Agents (PHIA). arXiv preprint arXiv:2406.06464, 2024.",
+   "title": "Transforming Wearable Data into Personal Health Insights with LLM",
+   "authors": [
+    "Merrill"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2406.06464",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/s41467-025-67922-y",
+    "title": "Transforming wearable data into personal health insights using large language model agents",
+    "year": 2026,
+    "first_author": "Merrill",
+    "container": "Nature Communications",
+    "type": "journal-article",
+    "score": 32.293533
+   },
+   "metrics": {
+    "title_sim": 92.56198347107438,
+    "containment": 0.7,
+    "partial_ratio": 76.66666666666666,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2406.06464"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[7] Mohammad Feli, Iman Azimi, Pasi Liljeberg, and Amir M. Rahmani. An llm-powered agent for physiological data analysis: A case study on ppg-based heart rate estimation. arXiv preprint arXiv:2502.12836, 2025.",
+   "title": "An llm-powered agent for physiological data analysis: A case study on ppg-based heart rate estimation",
+   "authors": [
+    "Feli",
+    "Azimi",
+    "Liljeberg",
+    "Rahmani"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": "2502.12836",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/embc58623.2025.11254428",
+    "title": "An LLM-Powered Agent for Physiological Data Analysis: A Case Study on PPG-based Heart Rate Estimation",
+    "year": 2025,
+    "first_author": "Feli",
+    "container": "2025 47th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)",
+    "type": "proceedings-article",
+    "score": 81.559006
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2502.12836"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[8] S. A. Imran et al. Llasa: A multimodal llm for human activity analysis. arXiv preprint arXiv:2406.14498, 2024.",
+   "title": "Llasa: A multimodal llm for human activity analysis",
+   "authors": [
+    "Imran"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2406.14498",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/icmac64768.2025.11003262",
+      "title": "A Novel Multimodal LLM-Driven RF Sensing Method for Human Activity Recognition",
+      "year": 2025,
+      "first_author": "Khan",
+      "container": "2025 2nd International Conference on Microwave, Antennas &amp;amp; Circuits (ICMAC)",
+      "type": "proceedings-article",
+      "score": 31.621885
+     },
+     "metrics": {
+      "title_sim": 82.35294117647058,
+      "containment": 0.444,
+      "partial_ratio": 58.57142857142856,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    },
+    {
+     "step": "arxiv_id_resolves_title_mismatch",
+     "rec": {
+      "source": "arxiv_abs",
+      "arxiv": "2406.14498",
+      "title": "LLaSA: A Sensor-Aware LLM for Natural Language Reasoning of Human Activity from IMU Data",
+      "year": 2024,
+      "first_author": "Imran, Sheikh Asif"
+     },
+     "metrics": {
+      "title_sim": 75.0,
+      "containment": 0.364,
+      "partial_ratio": 50.66666666666666,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[9] Y. Zhang et al. Sensorlm: Learning the language of wearable sensors. arXiv preprint arXiv:2506.09108, 2025.",
+   "title": "Sensorlm: Learning the language of wearable sensors",
+   "authors": [
+    "Zhang"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": "2506.09108",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/085713-1559",
+    "title": "SensorLM: Learning the Language of Wearable Sensors",
+    "year": 2025,
+    "first_author": "Zhang",
+    "container": "Advances in Neural Information Processing Systems 38",
+    "type": "proceedings-article",
+    "score": 34.343052
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2506.09108"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[10] Benjamin Shickel, Patrick J. Tighe, Azra Bihorac, and Parisa Rashidi. Multi-agent systems in healthcare: Review and future directions. Artificial Intelligence in Medicine, 89:16\u201322, 2018. doi: 10.1016/j.artmed. 2018.05.005.",
+   "title": "Multi-agent systems in healthcare: Review and future directions",
+   "authors": [
+    "Shickel",
+    "Tighe",
+    "Bihorac",
+    "Rashidi"
+   ],
+   "year": 2018,
+   "doi": "10.1016/j.artmed",
+   "arxiv": null,
+   "urls": [],
+   "container": "Artificial Intelligence in Medicine",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "doi_not_resolvable",
+     "doi": "10.1016/j.artmed"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1142/9789814354196_0005",
+      "title": "Conclusions and Future Directions",
+      "year": 1994,
+      "first_author": null,
+      "container": "Cooperation in Industrial Multi-Agent Systems",
+      "type": "book-chapter",
+      "score": 34.513866
+     },
+     "metrics": {
+      "title_sim": 77.77777777777777,
+      "containment": 0.667,
+      "partial_ratio": 72.72727272727273,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[11] Souvik Chakraborty et al. Applications of multi-agent systems in smart healthcare: A survey. Information Fusion, 76:1\u201321, 2022. doi: 10.1016/j.inffus.2021.05.010.",
+   "title": "Applications of multi-agent systems in smart healthcare: A survey",
+   "authors": [
+    "Chakraborty"
+   ],
+   "year": 2022,
+   "doi": "10.1016/j.inffus.2021.05.010",
+   "arxiv": null,
+   "urls": [],
+   "container": "Information Fusion",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "doi_resolves_title_mismatch",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1016/j.inffus.2021.05.010",
+      "title": "Advances in multimodality data fusion in neuroimaging",
+      "year": 2021,
+      "first_author": "Zhang",
+      "container": "Information Fusion",
+      "type": "journal-article",
+      "score": 1
+     },
+     "metrics": {
+      "title_sim": 43.85964912280702,
+      "containment": 0.2,
+      "partial_ratio": 45.28301886792453,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1049/pbpc018e_ch5",
+      "title": "Applications of multi-agent systems in smart grid: a survey and taxonomy",
+      "year": 2019,
+      "first_author": null,
+      "container": "Modeling and Simulation of Complex Communication Networks",
+      "type": "book-chapter",
+      "score": 34.420242
+     },
+     "metrics": {
+      "title_sim": 90.5982905982906,
+      "containment": 0.75,
+      "partial_ratio": 83.09859154929578,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "[12] Jae-Young Kang, Sung-Min Park, and Hee-Jin Kim. Wearable health monitoring systems: A comprehensive survey. IEEE Access, 10:12345\u201312367, 2022.",
+   "title": "Wearable health monitoring systems: A comprehensive survey",
+   "authors": [
+    "Kang",
+    "Park",
+    "Kim"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE Access",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.23919/cisti.2018.8399422",
+      "title": "A survey on wearable health monitoring systems",
+      "year": 2018,
+      "first_author": "Cruz",
+      "container": "2018 13th Iberian Conference on Information Systems and Technologies (CISTI)",
+      "type": "proceedings-article",
+      "score": 30.51381
+     },
+     "metrics": {
+      "title_sim": 96.62921348314607,
+      "containment": 1.0,
+      "partial_ratio": 82.6086956521739,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "[13] Yusuf Ozgur Can, Niaz Chalabianloo, Deniz Ekiz, and Cem Ersoy. Continuous health monitoring with wearable devices: Challenges and opportunities. Computer Communications, 149:45\u201355, 2019.",
+   "title": "Continuous health monitoring with wearable devices: Challenges and opportunities",
+   "authors": [
+    "Can",
+    "Chalabianloo",
+    "Ekiz",
+    "Ersoy"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Computer Communications",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/codec60112.2023.10466000",
+      "title": "Wearable Health Monitoring: Challenges and Opportunities",
+      "year": 2023,
+      "first_author": "Gupta",
+      "container": "2023 8th International Conference on Computers and Devices for Communication (CODEC)",
+      "type": "proceedings-article",
+      "score": 40.65308
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 1.0,
+      "partial_ratio": 72.72727272727273,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "[14] Li Yao, Wei Chen, and Ming Zhang. Foundation models for wearable health monitoring: Opportunities and challenges. Nature Digital Medicine, 6(1):1\u201315, 2023.",
+   "title": "Foundation models for wearable health monitoring: Opportunities and challenges",
+   "authors": [
+    "Yao",
+    "Chen",
+    "Zhang"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature Digital Medicine",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/codec60112.2023.10466000",
+    "title": "Wearable Health Monitoring: Challenges and Opportunities",
+    "year": 2023,
+    "first_author": "Gupta",
+    "container": "2023 8th International Conference on Computers and Devices for Communication (CODEC)",
+    "type": "proceedings-article",
+    "score": 38.093613
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 72.72727272727273,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "[15] Dhruv R Seshadri, Ethan V Davies, Ethan R Harlow, Jeffrey J Hsu, Sarah C Knighton, Timothy A Walker, James E Voos, and Colin K Drummond. Wearable sensors for covid-19: A call to action to harness our digital infrastructure for remote patient monitoring and virtual assessments. Frontiers in Digital Health, 2:8, 2019.",
+   "title": "Wearable sensors for covid-19: A call to action to harness our digital infrastructure for remote patient monitoring and virtual assessments",
+   "authors": [
+    "Seshadri",
+    "Davies",
+    "Harlow",
+    "Hsu",
+    "Knighton",
+    "Walker",
+    "Voos",
+    "Drummond"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Frontiers in Digital Health",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.3389/fdgth.2020.00008",
+    "title": "Wearable Sensors for COVID-19: A Call to Action to Harness Our Digital Infrastructure for Remote Patient Monitoring and Virtual Assessments",
+    "year": 2020,
+    "first_author": "Seshadri",
+    "container": "Frontiers in Digital Health",
+    "type": "journal-article",
+    "score": 84.11397
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "[16] Xiaoming Liu, Yue Wang, and Feng Chen. Stresswear: Real-time stress detection using wearable devices. IEEE Transactions on Biomedical Engineering, 70(3):789\u2013801, 2023.",
+   "title": "Stresswear: Real-time stress detection using wearable devices",
+   "authors": [
+    "Liu",
+    "Wang",
+    "Chen"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE Transactions on Biomedical Engineering",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.52783/fhi.36",
+      "title": "Real-time Cardiac Arrhythmia Detection Using Machine Learning and Wearable Devices",
+      "year": 2024,
+      "first_author": null,
+      "container": "Frontiers in Health Informatics",
+      "type": "journal-article",
+      "score": 40.500206
+     },
+     "metrics": {
+      "title_sim": 82.35294117647058,
+      "containment": 0.556,
+      "partial_ratio": 54.87804878048781,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 16,
+   "raw": "[17] Philip Schmidt, Attila Reiss, Robert Duerichen, Claus Marberger, and Kristof Van Laerhoven. Introducing wesad, a multimodal dataset for wearable stress and affect detection. Proceedings of the 20th ACM international conference on multimodal interaction, pages 400\u2013408, 2018.",
+   "title": "Introducing wesad, a multimodal dataset for wearable stress and affect detection",
+   "authors": [
+    "Schmidt",
+    "Reiss",
+    "Duerichen",
+    "Marberger",
+    "Laerhoven"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 20th ACM international conference on multimodal interaction",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3242969.3242985",
+    "title": "Introducing WESAD, a Multimodal Dataset for Wearable Stress and Affect Detection",
+    "year": 2018,
+    "first_author": "Schmidt",
+    "container": "Proceedings of the 20th ACM International Conference on Multimodal Interaction",
+    "type": "proceedings-article",
+    "score": 70.68037
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 17,
+   "raw": "[18] Awni Y Hannun, Pranav Rajpurkar, Masoumeh Haghpanahi, Geoffrey H Tison, Codie Bourn, Mintu P Turakhia, and Andrew Y Ng. Cardiologist-level arrhythmia detection and classification in ambulatory electrocardiograms using a deep neural network. Nature Medicine, 25(1):65\u201369, 2019.",
+   "title": "Cardiologist-level arrhythmia detection and classification in ambulatory electrocardiograms using a deep neural network",
+   "authors": [
+    "Hannun",
+    "Rajpurkar",
+    "Haghpanahi",
+    "Tison",
+    "Bourn",
+    "Turakhia",
+    "Ng"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature Medicine",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/s41591-018-0268-3",
+    "title": "Cardiologist-level arrhythmia detection and classification in ambulatory electrocardiograms using a deep neural network",
+    "year": 2019,
+    "first_author": "Hannun",
+    "container": "Nature Medicine",
+    "type": "journal-article",
+    "score": 78.832375
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 18,
+   "raw": "[19] Abdul Rehman, Sanjeev Kumar, and Raj Patel. Deep learning approaches for physiological signal analysis: A comprehensive review. Biomedical Signal Processing and Control, 78:103456, 2022.",
+   "title": "Deep learning approaches for physiological signal analysis: A comprehensive review",
+   "authors": [
+    "Rehman",
+    "Kumar",
+    "Patel"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Biomedical Signal Processing and Control",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.14704/web/v19i1/web19053",
+      "title": "A Comprehensive Study of Deep Learning Approaches for Lung Nodule Analysis with Recent Computational Techniques",
+      "year": 2022,
+      "first_author": "R.",
+      "container": "Webology",
+      "type": "journal-article",
+      "score": 34.316868
+     },
+     "metrics": {
+      "title_sim": 79.1044776119403,
+      "containment": 0.455,
+      "partial_ratio": 59.45945945945945,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 19,
+   "raw": "[20] Sajad Mousavi, Fatemeh Afghah, and U Rajendra Acharya. Sleepeegnet: Automated sleep stage scoring with sequence to sequence deep learning approach. PLoS One, 14(5):e0216456, 2019.",
+   "title": "Sleepeegnet: Automated sleep stage scoring with sequence to sequence deep learning approach",
+   "authors": [
+    "Mousavi",
+    "Afghah",
+    "Acharya"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "PLoS One",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1371/journal.pone.0216456",
+    "title": "SleepEEGNet: Automated sleep stage scoring with sequence to sequence deep learning approach",
+    "year": 2019,
+    "first_author": "Mousavi",
+    "container": "PLOS ONE",
+    "type": "journal-article",
+    "score": 87.36403
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 20,
+   "raw": "[21] Yan Gao, Jing Li, and Hui Zhang. Multimodal fusion for wearable health monitoring: A survey. IEEE Sensors Journal, 21(12):13245\u201313260, 2021.",
+   "title": "Multimodal fusion for wearable health monitoring: A survey",
+   "authors": [
+    "Gao",
+    "Li",
+    "Zhang"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE Sensors Journal",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1021/acssensors.1c00281.s001",
+      "title": "Multimodal Wearable Sensor Sheet for Health-Related Chemical and Physical Monitoring",
+      "year": 2021,
+      "first_author": null,
+      "container": "",
+      "type": "component",
+      "score": 33.226677
+     },
+     "metrics": {
+      "title_sim": 83.6734693877551,
+      "containment": 0.444,
+      "partial_ratio": 48.484848484848484,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 21,
+   "raw": "[22] Lei Zhang, Xin Wang, and Mei Liu. Multimodal physiological signal integration for health assessment. IEEE Journal of Biomedical and Health Informatics, 25(8):2987\u20133000, 2021.",
+   "title": "Multimodal physiological signal integration for health assessment",
+   "authors": [
+    "Zhang",
+    "Wang",
+    "Liu"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE Journal of Biomedical and Health Informatics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1038/s41598-026-56111-6",
+      "title": "Deep learning for multimodal physiological signal based assessment of sleep disordered breathing",
+      "year": 2026,
+      "first_author": "Zhang",
+      "container": "Scientific Reports",
+      "type": "journal-article",
+      "score": 28.965155
+     },
+     "metrics": {
+      "title_sim": 82.88288288288288,
+      "containment": 0.4,
+      "partial_ratio": 62.5,
+      "year_ok": false,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 22,
+   "raw": "[23] Xinlei Chen, Haoqi Ma, Ji Wan, Bo Li, and Tian Xia. Multimodal deep learning for robust rgb-d object recognition. IEEE Transactions on Pattern Analysis and Machine Intelligence, 43(8):2675\u20132688, 2021.",
+   "title": "Multimodal deep learning for robust rgb-d object recognition",
+   "authors": [
+    "Chen",
+    "Ma",
+    "Wan",
+    "Li",
+    "Xia"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/iros.2015.7353446",
+      "title": "Multimodal deep learning for robust RGB-D object recognition",
+      "year": 2015,
+      "first_author": "Eitel",
+      "container": "2015 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+      "type": "proceedings-article",
+      "score": 44.348026
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 1.0,
+      "partial_ratio": 100.0,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 23,
+   "raw": "[24] Sana Tonekaboni, Shalmali Joshi, Melissa D McCradden, and Anna Goldenberg. What clinicians want: Contextualizing explainable machine learning for clinical end use. Proceedings of the 4th Machine Learning for Healthcare Conference, pages 359\u2013380, 2019.",
+   "title": "What clinicians want: Contextualizing explainable machine learning for clinical end use",
+   "authors": [
+    "Tonekaboni",
+    "Joshi",
+    "McCradden",
+    "Goldenberg"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 4th Machine Learning for Healthcare Conference",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1200/cci.20.00049",
+      "title": "Machine Learning in Oncology: What Should Clinicians Know?",
+      "year": 2020,
+      "first_author": "Nagy",
+      "container": "JCO Clinical Cancer Informatics",
+      "type": "journal-article",
+      "score": 30.393486
+     },
+     "metrics": {
+      "title_sim": 72.72727272727272,
+      "containment": 0.571,
+      "partial_ratio": 55.35714285714286,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "91ed985917cf4c317b7d91e15c1ec55e746153bf",
+    "title": "What Clinicians Want: Contextualizing Explainable Machine Learning for Clinical End Use",
+    "year": 2019,
+    "first_author": "S. Tonekaboni",
+    "container": "Machine Learning in Health Care",
+    "ext": {
+     "ArXiv": "1905.05134",
+     "MAG": "2990652486",
+     "DBLP": "conf/mlhc/TonekaboniJMG19",
+     "CorpusId": 152282619
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 24,
+   "raw": "[25] Cynthia Rudin. Stop explaining black box machine learning models for high stakes decisions and use interpretable models instead. Nature Machine Intelligence, 1(5):206\u2013215, 2019.",
+   "title": "Stop explaining black box machine learning models for high stakes decisions and use interpretable models instead",
+   "authors": [
+    "Rudin"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature Machine Intelligence",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/s42256-019-0048-x",
+    "title": "Stop explaining black box machine learning models for high stakes decisions and use interpretable models instead",
+    "year": 2019,
+    "first_author": "Rudin",
+    "container": "Nature Machine Intelligence",
+    "type": "journal-article",
+    "score": 115.50322
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 25,
+   "raw": "[26] Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N Gomez, \u0141ukasz Kaiser, and Illia Polosukhin. Attention is all you need. Advances in Neural Information Processing Systems, 30, 2017.",
+   "title": "Attention is all you need",
+   "authors": [
+    "Vaswani",
+    "Shazeer",
+    "Parmar",
+    "Uszkoreit",
+    "Jones",
+    "Gomez",
+    "Kaiser",
+    "Polosukhin"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.65215/r5bs2d54",
+    "title": "Attention Is All You Need",
+    "year": 2025,
+    "first_author": "Vaswani",
+    "container": "",
+    "type": "posted-content",
+    "score": 43.621082
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 26,
+   "raw": "[27] Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. Bert: Pre-training of deep bidirectional transformers for language understanding. arXiv preprint arXiv:1810.04805, 2019.",
+   "title": "Bert: Pre-training of deep bidirectional transformers for language understanding",
+   "authors": [
+    "Devlin",
+    "Chang",
+    "Lee",
+    "Toutanova"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": "1810.04805",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "1810.04805",
+    "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+    "year": 2018,
+    "first_author": "Jacob Devlin"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 27,
+   "raw": "[28] Alec Radford, Karthik Narasimhan, Tim Salimans, and Ilya Sutskever. Improving language understanding by generative pre-training. OpenAI preprint, 2018.",
+   "title": "Improving language understanding by generative pre-training",
+   "authors": [
+    "Radford",
+    "Narasimhan",
+    "Salimans",
+    "Sutskever"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.3390/bdcc10060198",
+      "title": "Improving Entity Understanding for Vision-Language Pre-Training via Active Learning",
+      "year": 2026,
+      "first_author": "Wang",
+      "container": "Big Data and Cognitive Computing",
+      "type": "journal-article",
+      "score": 26.312038
+     },
+     "metrics": {
+      "title_sim": 86.53846153846153,
+      "containment": 0.556,
+      "partial_ratio": 62.576687116564415,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "cd18800a0fe0b668a1cc19f2ec95b5003d0a5035",
+    "title": "Improving Language Understanding by Generative Pre-Training",
+    "year": 2018,
+    "first_author": "Alec Radford",
+    "container": "",
+    "ext": {
+     "MAG": "2965425874",
+     "CorpusId": 49313245
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 28,
+   "raw": "[29] Tom Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared D Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, et al. Language models are few-shot learners. Advances in Neural Information Processing Systems, 33:1877\u20131901, 2020.",
+   "title": "Language models are few-shot learners",
+   "authors": [
+    "Brown",
+    "Mann",
+    "Ryder",
+    "Subbiah",
+    "Kaplan",
+    "Dhariwal",
+    "Neelakantan",
+    "Shyam",
+    "Sastry",
+    "Askell"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2021.mrl-1.1",
+    "title": "Language Models are Few-shot Multilingual Learners",
+    "year": 2021,
+    "first_author": "Winata",
+    "container": "Proceedings of the 1st Workshop on Multilingual Representation Learning",
+    "type": "proceedings-article",
+    "score": 33.99663
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.833,
+    "partial_ratio": 74.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 29,
+   "raw": "[30] Jinhyuk Lee, Wonjin Yoon, Sungdong Kim, Donghyeon Kim, Sunkyu Kim, Chan Ho So, and Jaewoo Kang. Biobert: a pre-trained biomedical language representation model for biomedical text mining. Bioinformatics, 36(4):1234\u20131240, 2020.",
+   "title": "Biobert: a pre-trained biomedical language representation model for biomedical text mining",
+   "authors": [
+    "Lee",
+    "Yoon",
+    "Kim",
+    "Kim",
+    "Kim",
+    "So",
+    "Kang"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Bioinformatics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.3410/f.736581786.793584048",
+    "title": "Faculty Opinions recommendation of BioBERT: a pre-trained biomedical language representation model for biomedical text mining.",
+    "year": 2021,
+    "first_author": "Louren\u00e7o",
+    "container": "Faculty Opinions \u2013 Post-Publication Peer Review of the Biomedical Literature",
+    "type": "dataset",
+    "score": 79.121895
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.769,
+    "partial_ratio": 82.25806451612902,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 30,
+   "raw": "[31] Emily Alsentzer, John Murphy, William Boag, Wei-Hung Weng, Di Jindi, Tristan Naumann, and Matthew McDermott. Publicly available clinical bert embeddings. arXiv preprint arXiv:1904.03323, 2019.",
+   "title": "Publicly available clinical bert embeddings",
+   "authors": [
+    "Alsentzer",
+    "Murphy",
+    "Boag",
+    "Weng",
+    "Jindi",
+    "Naumann",
+    "McDermott"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": "1904.03323",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/w19-1909",
+    "title": "Publicly Available Clinical",
+    "year": 2019,
+    "first_author": "Alsentzer",
+    "container": "Proceedings of the 2nd Clinical Natural Language Processing Workshop",
+    "type": "proceedings-article",
+    "score": 41.146416
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "1904.03323"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 31,
+   "raw": "[32] Renqian Luo, Liai Sun, Yingce Xia, Tao Qin, Sheng Zhang, Hoifung Poon, and Tie-Yan Liu. Biogpt: generative pre-trained transformer for biomedical text generation and mining. Briefings in Bioinformatics, 23(6):bbac409, 2022.",
+   "title": "Biogpt: generative pre-trained transformer for biomedical text generation and mining",
+   "authors": [
+    "Luo",
+    "Sun",
+    "Xia",
+    "Qin",
+    "Zhang",
+    "Poon",
+    "Liu"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Briefings in Bioinformatics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1093/bib/bbac409",
+    "title": "BioGPT: generative pre-trained transformer for biomedical text generation and mining",
+    "year": 2022,
+    "first_author": "Luo",
+    "container": "Briefings in Bioinformatics",
+    "type": "journal-article",
+    "score": 73.70456
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 32,
+   "raw": "[33] Alex Wang, Amanpreet Singh, Julian Michael, Felix Hill, Omer Levy, and Samuel R Bowman. Glue: A multi-task benchmark and analysis platform for natural language understanding. arXiv preprint arXiv:1804.07461, 2018.",
+   "title": "Glue: A multi-task benchmark and analysis platform for natural language understanding",
+   "authors": [
+    "Wang",
+    "Singh",
+    "Michael",
+    "Hill",
+    "Levy",
+    "Bowman"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": "1804.07461",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/w18-5446",
+    "title": "GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding",
+    "year": 2018,
+    "first_author": "Wang",
+    "container": "Proceedings of the 2018 EMNLP Workshop BlackboxNLP: Analyzing and Interpreting Neural Networks for NLP",
+    "type": "proceedings-article",
+    "score": 58.663498
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "1804.07461"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 33,
+   "raw": "[34] Jacob Devlin Ming-Wei Chang Kenton and Lee Kristina Toutanova. Bert: Pre-training of deep bidirectional transformers for language understanding. Proceedings of NAACL-HLT, pages 4171\u20134186, 2019.",
+   "title": "Bert: Pre-training of deep bidirectional transformers for language understanding",
+   "authors": [
+    "Kenton",
+    "Toutanova"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of NAACL-HLT",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/n19-1423",
+    "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+    "year": 2019,
+    "first_author": "Devlin",
+    "container": "Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)",
+    "type": "proceedings-article",
+    "score": 52.556675
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 34,
+   "raw": "[35] Karan Singhal, Shekoofeh Azizi, Tao Tu, S Sara Mahdavi, Jason Wei, Hyung Won Chung, Nathan Scales, Ajay Tanwani, Heather Cole-Lewis, Stephen Pfohl, et al. Large language models encode clinical knowledge. Nature, 620(7972):172\u2013180, 2023.",
+   "title": "Large language models encode clinical knowledge",
+   "authors": [
+    "Singhal",
+    "Azizi",
+    "Tao Tu",
+    "Wei",
+    "Chung",
+    "Scales",
+    "Tanwani",
+    "Cole-Lewis",
+    "Pfohl"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.59350/bk59j-te848",
+      "title": "The knowledge dividend of large language models",
+      "year": 2023,
+      "first_author": "von Csefalvay",
+      "container": "",
+      "type": "posted-content",
+      "score": 31.165834
+     },
+     "metrics": {
+      "title_sim": 80.85106382978724,
+      "containment": 0.8,
+      "partial_ratio": 65.95744680851064,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "6052486bc9144dc1730c12bf35323af3792a1fd0",
+    "title": "Large language models encode clinical knowledge",
+    "year": 2022,
+    "first_author": "K. Singhal",
+    "container": "Nature",
+    "ext": {
+     "DBLP": "journals/corr/abs-2212-13138",
+     "PubMedCentral": "10396962",
+     "ArXiv": "2212.13138",
+     "DOI": "10.1038/s41586-023-06291-2",
+     "CorpusId": 255124952,
+     "PubMed": "37438534"
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 35,
+   "raw": "[36] Peter Lee, S\u00e9bastien Bubeck, and Joseph Petro. Clinicalgpt: Large language models finetuned with diverse medical data and comprehensive evaluation. arXiv preprint arXiv:2306.09968, 2023.",
+   "title": "Clinicalgpt: Large language models finetuned with diverse medical data and comprehensive evaluation",
+   "authors": [
+    "Lee",
+    "Bubeck",
+    "Petro"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2306.09968",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2306.09968"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.7063638",
+      "title": "A Comprehensive Review of Large Language Models: Taxonomy, Architectures, Data, Adaptation, and Evaluation (2013-2026)",
+      "year": 2026,
+      "first_author": "Singh",
+      "container": "",
+      "type": "posted-content",
+      "score": 36.144623
+     },
+     "metrics": {
+      "title_sim": 71.89542483660131,
+      "containment": 0.5,
+      "partial_ratio": 54.95495495495495,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "ebc502a4d173f6550a8cd6384cb06f2c43c7c1a3",
+    "title": "ClinicalGPT: Large Language Models Finetuned with Diverse Medical Data and Comprehensive Evaluation",
+    "year": 2023,
+    "first_author": "Guangyu Wang",
+    "container": "arXiv.org",
+    "ext": {
+     "ArXiv": "2306.09968",
+     "DBLP": "journals/corr/abs-2306-09968",
+     "DOI": "10.48550/arXiv.2306.09968",
+     "CorpusId": 259187929
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 36,
+   "raw": "[37] Yunxiang Li, Zihan Li, Kai Zhang, Ruilong Dan, Steve Jiang, and You Zhang. Chatdoctor: A medical chat model fine-tuned on a large language model meta-ai/llama for medical domain. arXiv preprint arXiv:2303.14070, 2023.",
+   "title": "Chatdoctor: A medical chat model fine-tuned on a large language model meta-ai/llama for medical domain",
+   "authors": [
+    "Li",
+    "Li",
+    "Zhang",
+    "Dan",
+    "Jiang",
+    "Zhang"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2303.14070",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.7759/cureus.40895",
+    "title": "ChatDoctor: A Medical Chat Model Fine-Tuned on a Large Language Model Meta-AI (LLaMA) Using Medical Domain Knowledge",
+    "year": 2023,
+    "first_author": "Li",
+    "container": "Cureus",
+    "type": "journal-article",
+    "score": 106.87605
+   },
+   "metrics": {
+    "title_sim": 97.59036144578313,
+    "containment": 0.929,
+    "partial_ratio": 88.49557522123894,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2303.14070"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 37,
+   "raw": "[38] Karan Singhal, Shekoofeh Azizi, Tao Tu, S Sara Mahdavi, Jason Wei, Hyung Won Chung, Nathan Scales, Ajay Tanwani, Heather Cole-Lewis, Stephen Pfohl, et al. Large language models encode clinical knowledge. arXiv preprint arXiv:2212.13138, 2022.",
+   "title": "Large language models encode clinical knowledge",
+   "authors": [
+    "Singhal",
+    "Azizi",
+    "Tao Tu",
+    "Wei",
+    "Chung",
+    "Scales",
+    "Tanwani",
+    "Cole-Lewis",
+    "Pfohl"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": "2212.13138",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2212.13138"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.21203/rs.3.rs-4559971/v1",
+      "title": "Leveraging Large Language Models for Knowledge-free Weak Supervision in Clinical Natural Language Processing",
+      "year": 2024,
+      "first_author": "Hsu",
+      "container": "",
+      "type": "posted-content",
+      "score": 30.444656
+     },
+     "metrics": {
+      "title_sim": 51.61290322580645,
+      "containment": 0.5,
+      "partial_ratio": 50.0,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "6052486bc9144dc1730c12bf35323af3792a1fd0",
+    "title": "Large language models encode clinical knowledge",
+    "year": 2022,
+    "first_author": "K. Singhal",
+    "container": "Nature",
+    "ext": {
+     "DBLP": "journals/corr/abs-2212-13138",
+     "PubMedCentral": "10396962",
+     "ArXiv": "2212.13138",
+     "DOI": "10.1038/s41586-023-06291-2",
+     "CorpusId": 255124952,
+     "PubMed": "37438534"
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 38,
+   "raw": "[39] Arun James Thirunavukarasu, Daniel Shu Wei Ting, Kabilan Elangovan, Laura Gutierrez, Ting Fang Tan, and Daniel Shu Wei Ting. Large language models in medicine. Nature Medicine, 29(8):1930\u20131940, 2023.",
+   "title": "Large language models in medicine",
+   "authors": [
+    "Thirunavukarasu",
+    "Ting",
+    "Elangovan",
+    "Gutierrez",
+    "Tan",
+    "Ting"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature Medicine",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/s41591-023-02448-8",
+    "title": "Large language models in medicine",
+    "year": 2023,
+    "first_author": "Thirunavukarasu",
+    "container": "Nature Medicine",
+    "type": "journal-article",
+    "score": 34.950108
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 39,
+   "raw": "[40] Harsha Nori, Nicholas King, Scott Mayer McKinney, Dean Carignan, and Eric Horvitz. Capabilities of gpt-4 on medical challenge problems. arXiv preprint arXiv:2303.13375, 2023.",
+   "title": "Capabilities of gpt-4 on medical challenge problems",
+   "authors": [
+    "Nori",
+    "King",
+    "McKinney",
+    "Carignan",
+    "Horvitz"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2303.13375",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2303.13375"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1515/9780804756556-004",
+      "title": "3. Growing Capabilities, Growing Problems",
+      "year": 2005,
+      "first_author": null,
+      "container": "Rising to the Challenge",
+      "type": "book-chapter",
+      "score": 24.739706
+     },
+     "metrics": {
+      "title_sim": 80.76923076923077,
+      "containment": 0.5,
+      "partial_ratio": 56.41025641025641,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "348a1efa54376fa39053e5e25d52bd0eb6a0ba68",
+    "title": "Capabilities of GPT-4 on Medical Challenge Problems",
+    "year": 2023,
+    "first_author": "Harsha Nori",
+    "container": "arXiv.org",
+    "ext": {
+     "ArXiv": "2303.13375",
+     "DBLP": "journals/corr/abs-2303-13375",
+     "DOI": "10.48550/arXiv.2303.13375",
+     "CorpusId": 257687695
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 40,
+   "raw": "[41] Denny Zhou, Nathanael Sch\u00e4rli, Le Hou, Jason Wei, Nathan Scales, Xuezhi Wang, Dale Schuurmans, Claire Cui, Olivier Bousquet, Quoc Le, et al. A survey of large language models for healthcare: From data processing to applications. arXiv preprint arXiv:2311.05112, 2023.",
+   "title": "A survey of large language models for healthcare: From data processing to applications",
+   "authors": [
+    "Zhou",
+    "Sch\u00e4rli",
+    "Hou",
+    "Wei",
+    "Scales",
+    "Wang",
+    "Schuurmans",
+    "Cui",
+    "Bousquet",
+    "Le"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2311.05112",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.2139/ssrn.4809363",
+    "title": "A Survey of Large Language Models for Healthcare: From Data, Technology, and Applications to Accountability and Ethics",
+    "year": 2024,
+    "first_author": "He",
+    "container": "",
+    "type": "posted-content",
+    "score": 38.23995
+   },
+   "metrics": {
+    "title_sim": 93.08176100628931,
+    "containment": 0.7,
+    "partial_ratio": 73.04347826086956,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2311.05112"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 41,
+   "raw": "[42] Xian Zhang, Yue Yang, Jing Li, Xiaoming Wang, and Feng Chen. Large language models for healthcare: A comprehensive survey. IEEE Transactions on Medical Imaging, 42(11):3291\u20133308, 2023.",
+   "title": "Large language models for healthcare: A comprehensive survey",
+   "authors": [
+    "Zhang",
+    "Yang",
+    "Li",
+    "Wang",
+    "Chen"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE Transactions on Medical Imaging",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.5979157",
+      "title": "Post-Training of Large Language Models: A Comprehensive Survey",
+      "year": 2026,
+      "first_author": "Chia",
+      "container": "",
+      "type": "posted-content",
+      "score": 36.70087
+     },
+     "metrics": {
+      "title_sim": 85.4368932038835,
+      "containment": 0.714,
+      "partial_ratio": 75.40983606557377,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 42,
+   "raw": "[43] Peter Stone and Manuela Veloso. Multiagent systems: A modern approach to distributed artificial intelligence. MIT Press, 2000.",
+   "title": "Multiagent systems: A modern approach to distributed artificial intelligence",
+   "authors": [
+    "Stone",
+    "Veloso"
+   ],
+   "year": 2000,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1142/s1469026801000159",
+    "title": "BOOK REVIEW: \"MULTIAGENT SYSTEMS: A MODERN APPROACH TO DISTRIBUTED ARTIFICIAL INTELLIGENCE\", GERHARD WEISS",
+    "year": 2001,
+    "first_author": "Zilberstein",
+    "container": "International Journal of Computational Intelligence and Applications",
+    "type": "journal-article",
+    "score": 38.94062
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.636,
+    "partial_ratio": 85.12820512820512,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 43,
+   "raw": "[44] Michael Wooldridge. An introduction to multiagent systems. John Wiley & Sons, 2009.",
+   "title": "An introduction to multiagent systems",
+   "authors": [
+    "Wooldridge"
+   ],
+   "year": 2009,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/978-3-662-08872-2_1",
+      "title": "Introduction",
+      "year": 2004,
+      "first_author": "Bussmann",
+      "container": "Springer Series on Agent Technology",
+      "type": "book-chapter",
+      "score": 30.350462
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 1.0,
+      "partial_ratio": 100.0,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "openlibrary",
+   "match": {
+    "source": "openlibrary",
+    "id": "/works/OL12331202W",
+    "title": "An introduction to multiagent systems",
+    "year": 2002,
+    "first_author": "Michael J. Wooldridge"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 44,
+   "raw": "[45] Qingyun Wu, Gagan Bansal, Jieyu Zhang, Yiran Wu, Beibin Li, Erkang Zhu, Li Jiang, Xiaoyun Zhang, Shaokun Zhang, Jiali Liu, et al. Autogen: Enabling next-gen llm applications via multi-agent conversation. arXiv preprint arXiv:2308.08155, 2023.",
+   "title": "Autogen: Enabling next-gen llm applications via multi-agent conversation",
+   "authors": [
+    "Wu",
+    "Bansal",
+    "Zhang",
+    "Wu",
+    "Li",
+    "Zhu",
+    "Jiang",
+    "Zhang",
+    "Zhang",
+    "Liu"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2308.08155",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2308.08155"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.6532560",
+      "title": "Optimizing Multi\u2011Agent LLM Collaboration via Communication\u2011Flow Control\u200b",
+      "year": 2026,
+      "first_author": "Tian",
+      "container": "",
+      "type": "posted-content",
+      "score": 32.141857
+     },
+     "metrics": {
+      "title_sim": 59.15492957746479,
+      "containment": 0.375,
+      "partial_ratio": 52.112676056338024,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "9ea0757c750ab1222a7442d3485a74d1c526b04c",
+    "title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
+    "year": 2023,
+    "first_author": "Qingyun Wu",
+    "container": "",
+    "ext": {
+     "ArXiv": "2308.08155",
+     "CorpusId": 263611068
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 45,
+   "raw": "[46] Weize Wu, Yiran Wang, Kai Lv, Yujun Chen, Cheng Lin, Lifeng Shang, Xin Liu, Jiang Jiang, Xiang Zhao, Yankai Chen, et al. Agentverse: Facilitating multi-agent collaboration and exploring emergent behaviors. arXiv preprint arXiv:2308.10848, 2024.",
+   "title": "Agentverse: Facilitating multi-agent collaboration and exploring emergent behaviors",
+   "authors": [
+    "Wu",
+    "Wang",
+    "Lv",
+    "Chen",
+    "Lin",
+    "Shang",
+    "Liu",
+    "Jiang",
+    "Zhao",
+    "Chen"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2308.10848",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2308.10848"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.5957495",
+      "title": "Multi-Agent Systems and Social Intelligence: A Comprehensive Survey on Collaboration, Communication, and Emergent Behaviors",
+      "year": 2026,
+      "first_author": "Deng",
+      "container": "",
+      "type": "posted-content",
+      "score": 32.357872
+     },
+     "metrics": {
+      "title_sim": 73.84615384615384,
+      "containment": 0.455,
+      "partial_ratio": 53.333333333333336,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "ad97671a924a9b3a060fee857e561f140ec79dd7",
+    "title": "AgentVerse: Facilitating Multi-Agent Collaboration and Exploring Emergent Behaviors in Agents",
+    "year": 2023,
+    "first_author": "Weize Chen",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "DBLP": "conf/iclr/ChenSZ0YCYLHQQC24",
+     "ArXiv": "2308.10848",
+     "DOI": "10.48550/arXiv.2308.10848",
+     "CorpusId": 261048935
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.889,
+    "partial_ratio": 93.47826086956522,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 46,
+   "raw": "[47] CrewAI. Crewai: Multi-agent orchestration framework. https://github.com/joaomdmoura/crewAI, 2024.",
+   "title": "Crewai: Multi-agent orchestration framework",
+   "authors": [],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://github.com/joaomdmoura/crewAI"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED_URL",
+   "via": "url",
+   "url_status": {
+    "https://github.com/joaomdmoura/crewAI": 200
+   },
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.5928934",
+      "title": "CodeAir: A Multi-Agent Orchestration Framework for AI-Assisted Software Development",
+      "year": 2026,
+      "first_author": "Rangel",
+      "container": "",
+      "type": "posted-content",
+      "score": 33.643913
+     },
+     "metrics": {
+      "title_sim": 64.51612903225806,
+      "containment": 0.5,
+      "partial_ratio": 66.18705035971223,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 47,
+   "raw": "[48] Joon Sung Park, Joseph O\u2019Brien, Carrie Jun Cai, Meredith Ringel Morris, Percy Liang, and Michael S Bernstein. Generative agents: Interactive simulacra of human behavior. Proceedings of the 36th Annual ACM Symposium on User Interface Software and Technology, pages 1\u201322, 2023.",
+   "title": "Generative agents: Interactive simulacra of human behavior",
+   "authors": [
+    "Park",
+    "O\u2019Brien",
+    "Cai",
+    "Morris",
+    "Liang",
+    "Bernstein"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 36th Annual ACM Symposium on User Interface Software and Technology",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3586183.3606763",
+    "title": "Generative Agents: Interactive Simulacra of Human Behavior",
+    "year": 2023,
+    "first_author": "Park",
+    "container": "Proceedings of the 36th Annual ACM Symposium on User Interface Software and Technology",
+    "type": "proceedings-article",
+    "score": 46.74453
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 48,
+   "raw": "[49] Chen Qian, Xin Cong, Cheng Yang, Weize Chen, Yusheng Su, Juyuan Xu, Zhiyuan Liu, and Maosong Sun. Communicative agents for software development. arXiv preprint arXiv:2307.07924, 2023.",
+   "title": "Communicative agents for software development",
+   "authors": [
+    "Qian",
+    "Cong",
+    "Yang",
+    "Chen",
+    "Su",
+    "Xu",
+    "Liu",
+    "Sun"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2307.07924",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2024.acl-long.810",
+    "title": "ChatDev: Communicative Agents for Software Development",
+    "year": 2024,
+    "first_author": "Qian",
+    "container": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "type": "proceedings-article",
+    "score": 25.365837
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.8,
+    "partial_ratio": 86.79245283018868,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2307.07924"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 49,
+   "raw": "[50] Sirui Hong, Xiawu Zheng, Jonathan Chen, Yuheng Cheng, Ceyao Wang, Zili Wang, Steven C.H. Yau, Zijuan Lin, Liyang Zhou, Chenyu Ran, et al. Metagpt: Meta programming for multi-agent collaborative framework. arXiv preprint arXiv:2308.00352, 2023.",
+   "title": "Metagpt: Meta programming for multi-agent collaborative framework",
+   "authors": [
+    "Hong",
+    "Zheng",
+    "Chen",
+    "Cheng",
+    "Wang",
+    "Wang",
+    "Yau",
+    "Lin",
+    "Zhou",
+    "Ran"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2308.00352",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2308.00352"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/tsc.2026.3676128/mm1",
+      "title": "MARS: A Multi-Agent Collaborative Reasoning Framework for Service Recommendation_supp1-3676128.pdf",
+      "year": 2026,
+      "first_author": "Wang",
+      "container": "",
+      "type": "component",
+      "score": 30.741135
+     },
+     "metrics": {
+      "title_sim": 75.72815533980582,
+      "containment": 0.364,
+      "partial_ratio": 59.64912280701755,
+      "year_ok": false,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "703035b483c181953de1b55b5fd59cd4cd4cf211",
+    "title": "MetaGPT: Meta Programming for Multi-Agent Collaborative Framework",
+    "year": 2023,
+    "first_author": "Si-Rui Hong",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2308-00352",
+     "ArXiv": "2308.00352",
+     "DOI": "10.48550/arXiv.2308.00352",
+     "CorpusId": 260351380
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 50,
+   "raw": "[51] Weize Chen, Yusheng Su, Jingwei Zuo, Cheng Yang, Chenfei Yuan, Chen Qian, Chi-Min Chan, Yujia Qin, Yaxi Lu, Ruobing Xie, et al. Agentverse: Facilitating multi-agent collaboration and exploring emergent behaviors in llms. arXiv preprint arXiv:2308.10848, 2023.",
+   "title": "Agentverse: Facilitating multi-agent collaboration and exploring emergent behaviors in llms",
+   "authors": [
+    "Chen",
+    "Su",
+    "Zuo",
+    "Yang",
+    "Yuan",
+    "Qian",
+    "Chan",
+    "Qin",
+    "Lu",
+    "Xie"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2308.10848",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2308.10848"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.5957495",
+      "title": "Multi-Agent Systems and Social Intelligence: A Comprehensive Survey on Collaboration, Communication, and Emergent Behaviors",
+      "year": 2026,
+      "first_author": "Deng",
+      "container": "",
+      "type": "posted-content",
+      "score": 32.35783
+     },
+     "metrics": {
+      "title_sim": 69.56521739130434,
+      "containment": 0.455,
+      "partial_ratio": 53.333333333333336,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "ad97671a924a9b3a060fee857e561f140ec79dd7",
+    "title": "AgentVerse: Facilitating Multi-Agent Collaboration and Exploring Emergent Behaviors in Agents",
+    "year": 2023,
+    "first_author": "Weize Chen",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "DBLP": "conf/iclr/ChenSZ0YCYLHQQC24",
+     "ArXiv": "2308.10848",
+     "DOI": "10.48550/arXiv.2308.10848",
+     "CorpusId": 261048935
+    }
+   },
+   "metrics": {
+    "title_sim": 97.14285714285714,
+    "containment": 0.889,
+    "partial_ratio": 94.56521739130434,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 51,
+   "raw": "[52] Lei Wang, Chen Ma, Xueyang Feng, Zeyu Zhang, Hao Yang, Jingsen Zhang, Zhiyuan Chen, Jiakai Tang, Xu Chen, Yankai Lin, et al. A survey on large language model based autonomous agents. arXiv preprint arXiv:2308.11432, 2023.",
+   "title": "A survey on large language model based autonomous agents",
+   "authors": [
+    "Wang",
+    "Ma",
+    "Feng",
+    "Zhang",
+    "Yang",
+    "Zhang",
+    "Chen",
+    "Tang",
+    "Chen",
+    "Lin"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2308.11432",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2308.11432",
+    "title": "A Survey on Large Language Model based Autonomous Agents",
+    "year": 2023,
+    "first_author": "Lei Wang"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 52,
+   "raw": "[53] Zhiheng Xi, Wenxiang Chen, Xin Guo, Wei He, Yiwen Ding, Boyang Hong, Ming Zhang, Junzhe Wang, Senjie Jin, Enyu Zhou, et al. The rise and potential of large language model based agents: A survey. arXiv preprint arXiv:2309.07864, 2023.",
+   "title": "The rise and potential of large language model based agents: A survey",
+   "authors": [
+    "Xi",
+    "Chen",
+    "Guo",
+    "He",
+    "Ding",
+    "Hong",
+    "Zhang",
+    "Wang",
+    "Jin",
+    "Zhou"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2309.07864",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2309.07864"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1093/bib/bbaf601",
+      "title": "The rise and potential opportunities of large language model agents in bioinformatics and biomedicine",
+      "year": 2025,
+      "first_author": "Yang",
+      "container": "Briefings in Bioinformatics",
+      "type": "journal-article",
+      "score": 31.89907
+     },
+     "metrics": {
+      "title_sim": 87.60330578512396,
+      "containment": 0.667,
+      "partial_ratio": 61.386138613861384,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "0c72450890a54b68d63baa99376131fda8f06cf9",
+    "title": "The Rise and Potential of Large Language Model Based Agents: A Survey",
+    "year": 2023,
+    "first_author": "Zhiheng Xi",
+    "container": "arXiv.org",
+    "ext": {
+     "ArXiv": "2309.07864",
+     "DBLP": "journals/corr/abs-2309-07864",
+     "DOI": "10.48550/arXiv.2309.07864",
+     "CorpusId": 261817592
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 53,
+   "raw": "[54] Gr\u00e9goire Mialon, Roberto Dess\u00ec, Maria Lomeli, Christoforos Nalmpantis, Ram Pasunuru, Roberta Raileanu, Baptiste Rozi\u00e8re, Timo Schick, Jane Dwivedi-Yu, Asli Celikyilmaz, et al. Augmented language models: A survey. arXiv preprint arXiv:2302.07842, 2023.",
+   "title": "Augmented language models: A survey",
+   "authors": [
+    "Mialon",
+    "Dess\u00ec",
+    "Lomeli",
+    "Nalmpantis",
+    "Pasunuru",
+    "Raileanu",
+    "Rozi\u00e8re",
+    "Schick",
+    "Dwivedi-Yu",
+    "Celikyilmaz"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2302.07842",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.2139/ssrn.4895062",
+    "title": "Graph Retrieval-Augmented Generation for Large Language Models: A Survey",
+    "year": 2024,
+    "first_author": "Procko",
+    "container": "",
+    "type": "posted-content",
+    "score": 28.974304
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.5,
+    "partial_ratio": 59.154929577464785,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2302.07842"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 54,
+   "raw": "[55] Jie Xu, Benjamin S Glicksberg, Chang Su, Peter Walker, Jiang Bian, and Fei Wang. Federated learning for healthcare informatics. Journal of Healthcare Informatics Research, 3(1):1\u201319, 2019.",
+   "title": "Federated learning for healthcare informatics",
+   "authors": [
+    "Xu",
+    "Glicksberg",
+    "Su",
+    "Walker",
+    "Bian",
+    "Wang"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Healthcare Informatics Research",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/s41666-020-00082-4",
+    "title": "Federated Learning for Healthcare Informatics",
+    "year": 2021,
+    "first_author": "Xu",
+    "container": "Journal of Healthcare Informatics Research",
+    "type": "journal-article",
+    "score": 32.363327
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 55,
+   "raw": "[56] Tian Li, Anit Kumar Sahu, Ameet Talwalkar, and Virginia Smith. Federated learning: Challenges, methods, and future directions. IEEE Signal Processing Magazine, 37(3):50\u201360, 2020.",
+   "title": "Federated learning: Challenges, methods, and future directions",
+   "authors": [
+    "Li",
+    "Sahu",
+    "Talwalkar",
+    "Smith"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE Signal Processing Magazine",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/msp.2020.2975749",
+    "title": "Federated Learning: Challenges, Methods, and Future Directions",
+    "year": 2020,
+    "first_author": "Li",
+    "container": "IEEE Signal Processing Magazine",
+    "type": "journal-article",
+    "score": 41.10754
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 56,
+   "raw": "[57] Richard J Chen, Ming Y Lu, Tiffany Y Chen, Drew FK Williamson, and Faisal Mahmood. Synthetic data generation for privacy-preserving healthcare applications. Nature Machine Intelligence, 3(11):985\u2013997, 2021.",
+   "title": "Synthetic data generation for privacy-preserving healthcare applications",
+   "authors": [
+    "Chen",
+    "Lu",
+    "Chen",
+    "Williamson",
+    "Mahmood"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature Machine Intelligence",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/isncc70543.2026.11693884",
+      "title": "Privacy-Preserving Synthetic Data Generation in Healthcare",
+      "year": 2026,
+      "first_author": "Abdulkareem",
+      "container": "2026 International Symposium on Networks, Computers and Communications (ISNCC)",
+      "type": "proceedings-article",
+      "score": 43.17865
+     },
+     "metrics": {
+      "title_sim": 97.34513274336283,
+      "containment": 1.0,
+      "partial_ratio": 65.51724137931035,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 57,
+   "raw": "[58] Cristobal Esteban, Stephanie L Hyland, and Gunnar R\u00e4tsch. Real-valued (medical) time series generation with recurrent conditional gans. arXiv preprint arXiv:1706.02633, 2017.",
+   "title": "Real-valued (medical) time series generation with recurrent conditional gans",
+   "authors": [
+    "Esteban",
+    "Hyland",
+    "R\u00e4tsch"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": "1706.02633",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "1706.02633"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.3623086",
+      "title": "Conditional Sig-Wasserstein GANs for Time Series Generation",
+      "year": 2020,
+      "first_author": "Ni",
+      "container": "SSRN Electronic Journal",
+      "type": "journal-article",
+      "score": 35.544918
+     },
+     "metrics": {
+      "title_sim": 79.59183673469389,
+      "containment": 0.714,
+      "partial_ratio": 59.32203389830508,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "d01f5f3d1971e7906d58dcc8baf9efb406c47fd2",
+    "title": "Real-valued (Medical) Time Series Generation with Recurrent Conditional GANs",
+    "year": 2017,
+    "first_author": "Crist\u00f3bal Esteban",
+    "container": "arXiv.org",
+    "ext": {
+     "MAG": "2622068151",
+     "DBLP": "journals/corr/EstebanHR17",
+     "ArXiv": "1706.02633",
+     "CorpusId": 29681354
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 58,
+   "raw": "[59] Ian Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron Courville, and Yoshua Bengio. Generative adversarial nets. Advances in Neural Information Processing Systems, 27, 2014.",
+   "title": "Generative adversarial nets",
+   "authors": [
+    "Goodfellow",
+    "Pouget-Abadie",
+    "Mirza",
+    "Xu",
+    "Warde-Farley",
+    "Ozair",
+    "Courville",
+    "Bengio"
+   ],
+   "year": 2014,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.5220/0008096801170121",
+      "title": "3D Bounding Box Generative Adversarial Nets",
+      "year": 2019,
+      "first_author": "Kuang",
+      "container": "Proceedings of the International Conference on Advances in Computer Technology, Information Science and Communications",
+      "type": "proceedings-article",
+      "score": 33.33174
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 0.6,
+      "partial_ratio": 81.3953488372093,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "crossref_title",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3422622",
+    "title": "Generative adversarial networks",
+    "year": 2020,
+    "first_author": "Goodfellow",
+    "container": "Communications of the ACM",
+    "type": "journal-article",
+    "score": 29.74616
+   },
+   "metrics": {
+    "title_sim": 93.10344827586206,
+    "containment": 0.667,
+    "partial_ratio": 87.09677419354838,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 59,
+   "raw": "[60] Jinsung Yoon, Lydia N Drumright, and Mihaela Van Der Schaar. Anonymization through data synthesis using generative adversarial networks (ads-gan). IEEE Journal of Biomedical and Health Informatics, 24 (8):2378\u20132388, 2020.",
+   "title": "Anonymization through data synthesis using generative adversarial networks (ads-gan",
+   "authors": [
+    "Yoon",
+    "Drumright",
+    "Schaar"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE Journal of Biomedical and Health Informatics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/jbhi.2020.2980262",
+    "title": "Anonymization Through Data Synthesis Using Generative Adversarial Networks (ADS-GAN)",
+    "year": 2020,
+    "first_author": "Yoon",
+    "container": "IEEE Journal of Biomedical and Health Informatics",
+    "type": "journal-article",
+    "score": 68.71136
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 60,
+   "raw": "[61] James Jordon, Jinsung Yoon, and Mihaela Van Der Schaar. Pate-gan: Generating synthetic data with differential privacy guarantees. International Conference on Learning Representations, 2018.",
+   "title": "Pate-gan: Generating synthetic data with differential privacy guarantees",
+   "authors": [
+    "Jordon",
+    "Yoon",
+    "Schaar"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Conference on Learning Representations",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/978-3-030-75178-4_11",
+      "title": "Privacy Guarantees in Synthetic Data",
+      "year": 2021,
+      "first_author": "Nikolenko",
+      "container": "Springer Optimization and Its Applications",
+      "type": "book-chapter",
+      "score": 33.011017
+     },
+     "metrics": {
+      "title_sim": 95.65217391304348,
+      "containment": 1.0,
+      "partial_ratio": 72.22222222222221,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "af1841e1db6579f1f1777a59c7e9e4658d2ac466",
+    "title": "PATE-GAN: Generating Synthetic Data with Differential Privacy Guarantees",
+    "year": 2018,
+    "first_author": "James Jordon",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "MAG": "2908109788",
+     "DBLP": "conf/iclr/JordonYS19a",
+     "CorpusId": 53342261
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 61,
+   "raw": "[62] Eoin Brophy, Zhengwei Wang, Qi She, and Tomas Ward. Synthesis of realistic ecg using generative adversarial networks. arXiv preprint arXiv:2101.06809, 2023.",
+   "title": "Synthesis of realistic ecg using generative adversarial networks",
+   "authors": [
+    "Brophy",
+    "Wang",
+    "She",
+    "Ward"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2101.06809",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.31223/osf.io/n5b7h",
+      "title": "Realistic River Image Synthesis using Deep Generative Adversarial Networks",
+      "year": 2020,
+      "first_author": "Gautam",
+      "container": "",
+      "type": "posted-content",
+      "score": 46.00666
+     },
+     "metrics": {
+      "title_sim": 94.21487603305785,
+      "containment": 0.625,
+      "partial_ratio": 70.27027027027026,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    },
+    {
+     "step": "arxiv_id_resolves_title_mismatch",
+     "rec": {
+      "source": "arxiv_abs",
+      "arxiv": "2101.06809",
+      "title": "Metachronal waves in concentrations of swimming Turbatrix aceti nematodes and an oscillator chain model for their coordinated motions",
+      "year": 2021,
+      "first_author": "Quillen, A. C."
+     },
+     "metrics": {
+      "title_sim": 38.57868020304569,
+      "containment": 0.0,
+      "partial_ratio": 41.35338345864662,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 62,
+   "raw": "[63] Jessamyn Dahmen and Diane Cook. Synsys: A synthetic data generation system for healthcare applications. Sensors, 19(5):1181, 2019.",
+   "title": "Synsys: A synthetic data generation system for healthcare applications",
+   "authors": [
+    "Dahmen",
+    "Cook"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Sensors",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.3390/s19051181",
+    "title": "SynSys: A Synthetic Data Generation System for Healthcare Applications",
+    "year": 2019,
+    "first_author": "Dahmen",
+    "container": "Sensors",
+    "type": "journal-article",
+    "score": 69.3337
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 63,
+   "raw": "[64] Shayom Rashidian, Janos Hajagos, Richard A Moffitt, Fusheng Wang, Katherine Noel, Mary Saltz, and Joel Saltz. Bridging the gap between clinical research and clinical practice: The promise of synthetic data. Journal of Medical Internet Research, 22(5):e16926, 2020.",
+   "title": "Bridging the gap between clinical research and clinical practice: The promise of synthetic data",
+   "authors": [
+    "Rashidian",
+    "Hajagos",
+    "Moffitt",
+    "Wang",
+    "Noel",
+    "Saltz",
+    "Saltz"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Medical Internet Research",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.14293/pr2199.001444.v1",
+      "title": "Translational AI: Bridging the Gap Between Research and Clinical Practice",
+      "year": 2025,
+      "first_author": "Reddy",
+      "container": "",
+      "type": "posted-content",
+      "score": 43.573708
+     },
+     "metrics": {
+      "title_sim": 86.61417322834646,
+      "containment": 0.857,
+      "partial_ratio": 81.94444444444444,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 64,
+   "raw": "[65] Eric J Topol. High-performance medicine: The convergence of human and artificial intelligence. Nature Medicine, 25(1):44\u201356, 2019.",
+   "title": "High-performance medicine: The convergence of human and artificial intelligence",
+   "authors": [
+    "Topol"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature Medicine",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/s41591-018-0300-7",
+    "title": "High-performance medicine: the convergence of human and artificial intelligence",
+    "year": 2019,
+    "first_author": "Topol",
+    "container": "Nature Medicine",
+    "type": "journal-article",
+    "score": 53.014946
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 65,
+   "raw": "[66] Andre Esteva, Alexandre Robicquet, Bharath Ramsundar, Volodymyr Kuleshov, Mark DePristo, Katherine Chou, Claire Cui, Greg Corrado, Sebastian Thrun, and Jeff Dean. A guide to deep learning in healthcare. Nature Medicine, 25(1):24\u201329, 2019.",
+   "title": "A guide to deep learning in healthcare",
+   "authors": [
+    "Esteva",
+    "Robicquet",
+    "Ramsundar",
+    "Kuleshov",
+    "DePristo",
+    "Chou",
+    "Cui",
+    "Corrado",
+    "Thrun",
+    "Dean"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature Medicine",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/s41591-018-0316-z",
+    "title": "A guide to deep learning in healthcare",
+    "year": 2019,
+    "first_author": "Esteva",
+    "container": "Nature Medicine",
+    "type": "journal-article",
+    "score": 34.327354
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 66,
+   "raw": "[67] Andrew L Beam and Isaac S Kohane. Big data and machine learning in health care. JAMA, 319(13): 1317\u20131318, 2018.",
+   "title": "Big data and machine learning in health care",
+   "authors": [
+    "Beam",
+    "Kohane"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "JAMA",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1001/jama.2017.18391",
+    "title": "Big Data and Machine Learning in Health Care",
+    "year": 2018,
+    "first_author": "Beam",
+    "container": "JAMA",
+    "type": "journal-article",
+    "score": 44.612915
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 67,
+   "raw": "[68] Alvin Rajkomar, Jeffrey Dean, and Isaac Kohane. Machine learning in medicine. New England Journal of Medicine, 380(14):1347\u20131358, 2019.",
+   "title": "Machine learning in medicine",
+   "authors": [
+    "Rajkomar",
+    "Dean",
+    "Kohane"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "New England Journal of Medicine",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1056/nejmra1814259",
+    "title": "Machine Learning in Medicine",
+    "year": 2019,
+    "first_author": "Rajkomar",
+    "container": "New England Journal of Medicine",
+    "type": "journal-article",
+    "score": 34.308716
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 68,
+   "raw": "[69] Steven R Steinhubl and Eric J Topol. Digital medicine, on its way to being just plain medicine. NPJ Digital Medicine, 1(1):20175, 2015.",
+   "title": "Digital medicine, on its way to being just plain medicine",
+   "authors": [
+    "Steinhubl",
+    "Topol"
+   ],
+   "year": 2015,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "NPJ Digital Medicine",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/s41746-017-0005-1",
+    "title": "Digital medicine, on its way to being just plain medicine",
+    "year": 2018,
+    "first_author": "Steinhubl",
+    "container": "npj Digital Medicine",
+    "type": "journal-article",
+    "score": 70.239685
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 69,
+   "raw": "[70] Eric J Topol. Deep medicine: How artificial intelligence can make healthcare human again. Basic Books, 2019.",
+   "title": "Deep medicine: How artificial intelligence can make healthcare human again",
+   "authors": [
+    "Topol"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2196/preprints.17211",
+      "title": "How Can Artificial Intelligence Make Medicine More Preemptive? (Preprint)",
+      "year": 2019,
+      "first_author": "Iqbal",
+      "container": "",
+      "type": "posted-content",
+      "score": 39.788124
+     },
+     "metrics": {
+      "title_sim": 78.26086956521739,
+      "containment": 0.667,
+      "partial_ratio": 60.0,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "e8f834463b7540a3db591a19c1025f89d1a1be1d",
+    "title": "Deep Medicine: How Artificial Intelligence Can Make Healthcare Human Again",
+    "year": 2019,
+    "first_author": "R. Atkinson",
+    "container": "",
+    "ext": {
+     "MAG": "2940793412",
+     "CorpusId": 150046020
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 70,
+   "raw": "[71] Cheryl D Fryar, Margaret D Carroll, and Joseph Afful. Prevalence of overweight, obesity, and severe obesity among adults aged 20 and over: United states, 1960\u20131962 through 2017\u20132018, 2020. NCHS Health E-Stats.",
+   "title": "Prevalence of overweight, obesity, and severe obesity among adults aged 20 and over: United states",
+   "authors": [
+    "Fryar",
+    "Carroll",
+    "Afful"
+   ],
+   "year": 1960,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "through 2017\u20132018, 2020. NCHS Health E-Stats",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1001/jama.293.5.546",
+      "title": "Prevalence of Overweight and Obesity Among Adults With Diagnosed Diabetes\u2014United States, 1988-1994 and 1999-2002",
+      "year": 2005,
+      "first_author": null,
+      "container": "JAMA",
+      "type": "journal-article",
+      "score": 53.458305
+     },
+     "metrics": {
+      "title_sim": 86.3013698630137,
+      "containment": 0.538,
+      "partial_ratio": 70.27027027027026,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "d3f045d622dc12a6ba704f28d19786d94dc9ec0f",
+    "title": "Prevalence of overweight, obesity, and severe obesity among adults aged 20 and over: United States, 1960\u20131962 through 2015\u20132016",
+    "year": 2018,
+    "first_author": "C. Fryar",
+    "container": "",
+    "ext": {
+     "MAG": "2897121048",
+     "CorpusId": 81091897
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.867,
+    "partial_ratio": 98.3739837398374,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 71,
+   "raw": "[72] Craig M Hales, Margaret D Carroll, Cheryl D Fryar, and Cynthia L Ogden. Prevalence of obesity and severe obesity among adults: United states, 2017\u20132018, 2020. NCHS Data Brief, no. 360.",
+   "title": "Prevalence of obesity and severe obesity among adults: United states, 2017\u20132018, 2020",
+   "authors": [
+    "Hales",
+    "Carroll",
+    "Fryar",
+    "Ogden"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "NCHS Data Brief",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1016/j.xkme.2022.100568",
+      "title": "Prevalence of Obesity and CKD Among Adults in the United States, 2017-2020",
+      "year": 2023,
+      "first_author": "Friedman",
+      "container": "Kidney Medicine",
+      "type": "journal-article",
+      "score": 56.883263
+     },
+     "metrics": {
+      "title_sim": 91.85185185185185,
+      "containment": 0.889,
+      "partial_ratio": 80.82191780821918,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "8e65a173b7a38e9d8ba037a5a6289f3eabb18105",
+    "title": "Prevalence of Obesity and Severe Obesity Among Adults: United States, 2017-2018.",
+    "year": 2020,
+    "first_author": "Craig M. Hales",
+    "container": "NCHS data brief",
+    "ext": {
+     "MAG": "3010682058",
+     "CorpusId": 216360640,
+     "PubMed": "32487284"
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 72,
+   "raw": "[73] American Diabetes Association Professional Practice Committee. 2. classification and diagnosis of diabetes: standards of medical care in diabetes\u20142022. Diabetes Care, 45(Supplement_1):S17\u2013S38, 2022.",
+   "title": "American Diabetes Association Professional Practice Committee. 2. classification and diagnosis of diabetes: standards of medical care in diabetes\u20142022",
+   "authors": [],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Diabetes Care",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.2337/dc22-s002",
+    "title": "2. Classification and Diagnosis of Diabetes:\n                    <i>Standards of Medical Care in Diabetes\u20142022</i>",
+    "year": 2022,
+    "first_author": null,
+    "container": "Diabetes Care",
+    "type": "journal-article",
+    "score": 92.36499
+   },
+   "metrics": {
+    "title_sim": 72.03389830508475,
+    "containment": 1.0,
+    "partial_ratio": 97.75280898876404,
+    "year_ok": true,
+    "first_author_ok": null
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 73,
+   "raw": "[74] Daphne P Guh, Wei Zhang, Nick Bansback, Zubin Amarsi, C Laird Birmingham, and Aslam H Anis. The incidence of co-morbidities related to obesity and overweight: a systematic review and meta-analysis. BMC Public Health, 9(1):88, 2009.",
+   "title": "The incidence of co-morbidities related to obesity and overweight: a systematic review and meta-analysis",
+   "authors": [
+    "Guh",
+    "Zhang",
+    "Bansback",
+    "Zubin Amarsi",
+    "Anis"
+   ],
+   "year": 2009,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "BMC Public Health",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1186/1471-2458-9-88",
+    "title": "The incidence of co-morbidities related to obesity and overweight: A systematic review and meta-analysis",
+    "year": 2009,
+    "first_author": "Guh",
+    "container": "BMC Public Health",
+    "type": "journal-article",
+    "score": 69.87866
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 74,
+   "raw": "[75] Paul K Whelton, Robert M Carey, Wilbert S Aronow, Donald E Casey, Karen J Collins, Cheryl Dennison Himmelfarb, Sondra M DePalma, Samuel Gidding, Kenneth A Jamerson, Daniel W Jones, et al. 2017 acc/aha/aapa/abc/acpm/ags/apha/ash/aspc/nma/pcna guideline for the prevention, detection, evaluation, and management of high blood pressure in adults: a report of the american college of cardiology/american heart association task force on clinical practice guidelines. Journal of the American College of Cardiology, 71(19):e127\u2013e248, 2018.",
+   "title": "acc/aha/aapa/abc/acpm/ags/apha/ash/aspc/nma/pcna guideline for the prevention, detection, evaluation, and management of high blood pressure in adults: a report of the american college of cardiology/american heart association task force on clinical practice guidelines",
+   "authors": [
+    "Whelton",
+    "Carey",
+    "Aronow",
+    "Casey",
+    "Collins",
+    "Himmelfarb",
+    "DePalma",
+    "Gidding",
+    "Jamerson",
+    "Jones"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of the American College of Cardiology",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1161/hyp.0000000000000076",
+    "title": "Correction to: 2017 ACC/AHA/AAPA/ABC/ACPM/AGS/APhA/ASH/ASPC/NMA/PCNA Guideline for the Prevention, Detection, Evaluation, and Management of High Blood Pressure in Adults: A Report of the American College of Cardiology/American Heart Association Task Force on Clinical Practice Guidelines",
+    "year": 2018,
+    "first_author": null,
+    "container": "Hypertension",
+    "type": "journal-article",
+    "score": 185.90324
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.971,
+    "partial_ratio": 96.80851063829788,
+    "year_ok": true,
+    "first_author_ok": null
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 75,
+   "raw": "[76] Peter WF Wilson, Ralph B D\u2019Agostino, Daniel Levy, Albert M Belanger, Halit Silbershatz, and William B Kannel. Prediction of coronary heart disease using risk factor categories. Circulation, 97(18):1837\u20131847, 1998.",
+   "title": "Prediction of coronary heart disease using risk factor categories",
+   "authors": [
+    "Wilson",
+    "D\u2019Agostino",
+    "Levy",
+    "Belanger",
+    "Silbershatz",
+    "Kannel"
+   ],
+   "year": 1998,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Circulation",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1161/01.cir.97.18.1837",
+    "title": "Prediction of Coronary Heart Disease Using Risk Factor Categories",
+    "year": 1998,
+    "first_author": "Wilson",
+    "container": "Circulation",
+    "type": "journal-article",
+    "score": 52.556778
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 76,
+   "raw": "[77] William B Kannel and Daniel L McGee. Diabetes and cardiovascular disease: the framingham study. JAMA, 241(19):2035\u20132038, 1979.",
+   "title": "Diabetes and cardiovascular disease: the framingham study",
+   "authors": [
+    "Kannel",
+    "McGee"
+   ],
+   "year": 1979,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "JAMA",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1001/jama.1979.03290450033020",
+    "title": "Diabetes and Cardiovascular Disease",
+    "year": 1979,
+    "first_author": "Kannel",
+    "container": "JAMA",
+    "type": "journal-article",
+    "score": 58.138668
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 77,
+   "raw": "[78] Catrine Tudor-Locke and David R Bassett Jr. How many steps/day are enough? preliminary pedometer indices for public health. Sports Medicine, 34(1):1\u20138, 2004.",
+   "title": "How many steps/day are enough? preliminary pedometer indices for public health",
+   "authors": [
+    "Tudor-Locke",
+    "Bassett"
+   ],
+   "year": 2004,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Sports Medicine",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.2165/00007256-200434010-00001",
+    "title": "How Many Steps/Day Are Enough?",
+    "year": 2004,
+    "first_author": "Tudor-Locke",
+    "container": "Sports Medicine",
+    "type": "journal-article",
+    "score": 97.8647
+   },
+   "metrics": {
+    "title_sim": 54.71698113207547,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 78,
+   "raw": "[79] Richard W Bohannon. Number of pedometer-assessed steps taken per day by adults: a descriptive meta-analysis. Physical Therapy, 87(12):1642\u20131650, 2007.",
+   "title": "Number of pedometer-assessed steps taken per day by adults: a descriptive meta-analysis",
+   "authors": [
+    "Bohannon"
+   ],
+   "year": 2007,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Physical Therapy",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.2522/ptj.20060037",
+    "title": "Number of Pedometer-Assessed Steps Taken Per Day by Adults: A Descriptive Meta-Analysis",
+    "year": 2007,
+    "first_author": "Bohannon",
+    "container": "Physical Therapy",
+    "type": "journal-article",
+    "score": 99.80982
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 79,
+   "raw": "[80] Massimo F Piepoli, Ugo Corr\u00e0, Werner Benzer, Birna Bjarnason-Wehrens, Paul Dendale, Dan Gaita, Hannah McGee, Miguel Mendes, Josef Niebauer, Ann-Dorthe Olsen Zwisler, et al. Secondary prevention through cardiac rehabilitation: from knowledge to implementation. a position paper from the cardiac rehabilitation section of the european association of cardiovascular prevention and rehabilitation. European Journal of Cardiovascular Prevention & Rehabilitation, 17(1):1\u201317, 2010.",
+   "title": "Secondary prevention through cardiac rehabilitation: from knowledge to implementation. a position paper from the cardiac rehabilitation section of the european association of cardiovascular prevention and rehabilitation",
+   "authors": [
+    "Piepoli",
+    "Corr\u00e0",
+    "Benzer",
+    "Bjarnason-Wehrens",
+    "Dendale",
+    "Gaita",
+    "McGee",
+    "Mendes",
+    "Niebauer",
+    "Zwisler"
+   ],
+   "year": 2010,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "European Journal of Cardiovascular Prevention & Rehabilitation",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1097/hjr.0b013e3283313592",
+    "title": "Secondary prevention through cardiac rehabilitation: from knowledge to implementation. A position paper from the Cardiac Rehabilitation Section of the European Association of Cardiovascular Prevention and Rehabilitation",
+    "year": 2010,
+    "first_author": "Piepoli",
+    "container": "European Journal of Cardiovascular Prevention &amp; Rehabilitation",
+    "type": "journal-article",
+    "score": 117.855606
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 80,
+   "raw": "[81] Henrik Watz, Benjamin Waschki, Tanja Meyer, and Helgo Magnussen. Physical activity in patients with copd. European Respiratory Journal, 33(2):262\u2013272, 2009.",
+   "title": "Physical activity in patients with copd",
+   "authors": [
+    "Watz",
+    "Waschki",
+    "Meyer",
+    "Magnussen"
+   ],
+   "year": 2009,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "European Respiratory Journal",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1164/ajrccm-conference.2009.179.1_meetingabstracts.a1545",
+    "title": "Physical Activity in Patients with Chronic Obstructive Pulmonary Disease.",
+    "year": 2009,
+    "first_author": "Waschki",
+    "container": "A40. COPD: FUNCTIONAL ASSESSMENT",
+    "type": "proceedings-article",
+    "score": 40.591595
+   },
+   "metrics": {
+    "title_sim": 93.15068493150685,
+    "containment": 0.429,
+    "partial_ratio": 66.66666666666667,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 81,
+   "raw": "[82] Dorothy D Dunlop, Jing Song, Pamela A Semanik, Rowland W Chang, Leena Sharma, Joan M Bathon, Charles B Eaton, Marc C Hochberg, Rebecca D Jackson, C Kent Kwoh, et al. Physical activity levels and functional performance in the osteoarthritis initiative: a graded relationship. Arthritis & Rheumatism, 63 (1):127\u2013136, 2011.",
+   "title": "Physical activity levels and functional performance in the osteoarthritis initiative: a graded relationship",
+   "authors": [
+    "Dunlop",
+    "Song",
+    "Semanik",
+    "Chang",
+    "Sharma",
+    "Bathon",
+    "Eaton",
+    "Hochberg",
+    "Jackson",
+    "Kwoh"
+   ],
+   "year": 2011,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Arthritis & Rheumatism",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1002/art.27760",
+    "title": "Physical activity levels and functional performance in the osteoarthritis initiative: A graded relationship",
+    "year": 2011,
+    "first_author": "Dunlop",
+    "container": "Arthritis &amp; Rheumatism",
+    "type": "journal-article",
+    "score": 59.841564
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 82,
+   "raw": "[83] Felipe B Schuch, Davy Vancampfort, Joseph Firth, Simon Rosenbaum, Philip B Ward, Edson S Silva, Mats Hallgren, Antonio Ponce De Leon, Andrea L Dunn, Andrea C Deslandes, et al. Physical activity and incident depression: a meta-analysis of prospective cohort studies. American Journal of Psychiatry, 175(7):631\u2013648, 2018.",
+   "title": "Physical activity and incident depression: a meta-analysis of prospective cohort studies",
+   "authors": [
+    "Schuch",
+    "Vancampfort",
+    "Firth",
+    "Rosenbaum",
+    "Ward",
+    "Silva",
+    "Hallgren",
+    "Leon",
+    "Dunn",
+    "Deslandes"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "American Journal of Psychiatry",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1176/appi.ajp.2018.17111194",
+    "title": "Physical Activity and Incident Depression: A Meta-Analysis of Prospective Cohort Studies",
+    "year": 2018,
+    "first_author": "Schuch",
+    "container": "American Journal of Psychiatry",
+    "type": "journal-article",
+    "score": 48.35924
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 83,
+   "raw": "[84] Sonia Ancoli-Israel, Raymond Cole, Cathy Alessi, Michael Chambers, William Moorcroft, and Charles P Pollak. The role of actigraphy in the study of sleep and circadian rhythms. Sleep, 26(5):521\u2013528, 2003.",
+   "title": "The role of actigraphy in the study of sleep and circadian rhythms",
+   "authors": [
+    "Ancoli-Israel",
+    "Cole",
+    "Alessi",
+    "Chambers",
+    "Moorcroft",
+    "Pollak"
+   ],
+   "year": 2003,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Sleep",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1093/sleep/26.3.342",
+    "title": "The Role of Actigraphy in the Study of Sleep and Circadian Rhythms",
+    "year": 2003,
+    "first_author": "Ancoli-Israel",
+    "container": "Sleep",
+    "type": "journal-article",
+    "score": 67.64718
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 84,
+   "raw": "[85] Maurice M Ohayon, Mary A Carskadon, Christian Guilleminault, and Michael V Vitiello. Meta-analysis of quantitative sleep parameters from childhood to old age in healthy individuals: developing normative sleep values across the human lifespan. Sleep, 27(7):1255\u20131273, 2004.",
+   "title": "Meta-analysis of quantitative sleep parameters from childhood to old age in healthy individuals: developing normative sleep values across the human lifespan",
+   "authors": [
+    "Ohayon",
+    "Carskadon",
+    "Guilleminault",
+    "Vitiello"
+   ],
+   "year": 2004,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Sleep",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1093/sleep/27.7.1255",
+    "title": "Meta-Analysis of Quantitative Sleep Parameters From Childhood to Old Age in Healthy Individuals: Developing Normative Sleep Values Across the Human Lifespan",
+    "year": 2004,
+    "first_author": "Ohayon",
+    "container": "Sleep",
+    "type": "journal-article",
+    "score": 117.588646
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 85,
+   "raw": "[86] Virend K Somers, David P White, Raouf Amin, William T Abraham, Fernando Costa, Antonio Culebras, Stephen Daniels, John S Floras, Catherine E Hunt, Lyle J Olson, et al. Sleep apnea and cardiovascular disease: an american heart association/american college of cardiology foundation scientific statement. Circulation, 118(10):1080\u20131111, 2008.",
+   "title": "Sleep apnea and cardiovascular disease: an american heart association/american college of cardiology foundation scientific statement",
+   "authors": [
+    "Somers",
+    "White",
+    "Amin",
+    "Abraham",
+    "Costa",
+    "Culebras",
+    "Daniels",
+    "Floras",
+    "Hunt",
+    "Olson"
+   ],
+   "year": 2008,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Circulation",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1161/circulationaha.107.189420",
+    "title": "Sleep Apnea and Cardiovascular Disease",
+    "year": 2008,
+    "first_author": "Somers",
+    "container": "Circulation",
+    "type": "journal-article",
+    "score": 61.472824
+   },
+   "metrics": {
+    "title_sim": 44.97041420118343,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 86,
+   "raw": "[87] Walter T McNicholas and Maria R Bonsigore. Sleep apnoea as an independent risk factor for cardiovascular disease: current evidence, basic mechanisms and research priorities. European Respiratory Journal, 29(1):156\u2013178, 2007.",
+   "title": "Sleep apnoea as an independent risk factor for cardiovascular disease: current evidence, basic mechanisms and research priorities",
+   "authors": [
+    "McNicholas",
+    "Bonsigore"
+   ],
+   "year": 2007,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "European Respiratory Journal",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1183/09031936.00027406",
+    "title": "Sleep apnoea as an independent risk factor for cardiovascular disease: current evidence, basic mechanisms and research priorities: Fig. 1\u2014",
+    "year": 2007,
+    "first_author": "McNicholas",
+    "container": "European Respiratory Journal",
+    "type": "journal-article",
+    "score": 76.899124
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.929,
+    "partial_ratio": 96.2406015037594,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 87,
+   "raw": "[88] Kim Fox, Jeffrey S Borer, A John Camm, Nicolas Danchin, Roberto Ferrari, Jose Luis Lopez Sendon, Philippe Gabriel Steg, Jean-Claude Tardif, Luigi Tavazzi, and Michal Tendera. Resting heart rate in cardiovascular disease. Journal of the American College of Cardiology, 50(9):823\u2013830, 2007.",
+   "title": "Resting heart rate in cardiovascular disease",
+   "authors": [
+    "Fox",
+    "Borer",
+    "Camm",
+    "Danchin",
+    "Ferrari",
+    "Sendon",
+    "Steg",
+    "Tardif",
+    "Tavazzi",
+    "Tendera"
+   ],
+   "year": 2007,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of the American College of Cardiology",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.3410/f.1089623.544890",
+    "title": "Faculty Opinions recommendation of Resting heart rate in cardiovascular disease.",
+    "year": 2007,
+    "first_author": "Olshansky",
+    "container": "Faculty Opinions \u2013 Post-Publication Peer Review of the Biomedical Literature",
+    "type": "dataset",
+    "score": 37.90487
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.625,
+    "partial_ratio": 70.88607594936708,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 88,
+   "raw": "[89] Julian F Thayer, Shelby S Yamamoto, and Jos F Brosschot. The relationship of autonomic imbalance, heart rate variability and cardiovascular disease risk factors. International Journal of Cardiology, 141(2): 122\u2013131, 2010.",
+   "title": "The relationship of autonomic imbalance, heart rate variability and cardiovascular disease risk factors",
+   "authors": [
+    "Thayer",
+    "Yamamoto",
+    "Brosschot"
+   ],
+   "year": 2010,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Journal of Cardiology",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.ijcard.2009.09.543",
+    "title": "The relationship of autonomic imbalance, heart rate variability and cardiovascular disease risk factors",
+    "year": 2010,
+    "first_author": "Thayer",
+    "container": "International Journal of Cardiology",
+    "type": "journal-article",
+    "score": 70.06238
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 89,
+   "raw": "[90] Sanne Hillebrand, Karin B Gast, Ren\u00e9e de Mutsert, Cees A Swenne, J Wouter Jukema, Saskia Middeldorp, Frits R Rosendaal, and Olaf M Dekkers. Heart rate variability and first cardiovascular event in populations without known cardiovascular disease: meta-analysis and dose\u2013response meta-regression. Europace, 15 (5):742\u2013749, 2013.",
+   "title": "Heart rate variability and first cardiovascular event in populations without known cardiovascular disease: meta-analysis and dose\u2013response meta-regression",
+   "authors": [
+    "Hillebrand",
+    "Gast",
+    "Mutsert",
+    "Swenne",
+    "Jukema",
+    "Middeldorp",
+    "Rosendaal",
+    "Dekkers"
+   ],
+   "year": 2013,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Europace",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1093/europace/eus341",
+    "title": "Heart rate variability and first cardiovascular event in populations without known cardiovascular disease: meta-analysis and dose\u2013response meta-regression",
+    "year": 2013,
+    "first_author": "Hillebrand",
+    "container": "EP Europace",
+    "type": "journal-article",
+    "score": 99.90444
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 90,
+   "raw": "[91] Brian D Kent, Paul D Mitchell, and Walter T McNicholas. Hypoxemia in patients with copd: cause, effects, and disease progression. International Journal of COPD, 6:199, 2011.",
+   "title": "Hypoxemia in patients with copd: cause, effects, and disease progression",
+   "authors": [
+    "Kent",
+    "Mitchell",
+    "McNicholas"
+   ],
+   "year": 2011,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Journal of COPD",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.2147/copd.s10611",
+    "title": "Hypoxemia in patients with COPD: cause, effects, and disease progression",
+    "year": 2011,
+    "first_author": "McNicholas",
+    "container": "International Journal of Chronic Obstructive Pulmonary Disease",
+    "type": "journal-article",
+    "score": 66.474236
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 91,
+   "raw": "[92] Richard P Troiano, David Berrigan, Kevin W Dodd, Louise C M\u00e2sse, Timothy Tilert, and Margaret McDowell. Physical activity in the united states measured by accelerometer. Medicine & Science in Sports & Exercise, 40(1):181\u2013188, 2008.",
+   "title": "Physical activity in the united states measured by accelerometer",
+   "authors": [
+    "Troiano",
+    "Berrigan",
+    "Dodd",
+    "M\u00e2sse",
+    "Tilert",
+    "McDowell"
+   ],
+   "year": 2008,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Medicine & Science in Sports & Exercise",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1249/mss.0b013e31815a51b3",
+    "title": "Physical Activity in the United States Measured by Accelerometer",
+    "year": 2008,
+    "first_author": "TROIANO",
+    "container": "Medicine &amp; Science in Sports &amp; Exercise",
+    "type": "journal-article",
+    "score": 49.54972
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 92,
+   "raw": "[93] J. Wang. The impact of intelligent device utilization on household medical expenditure: Evidence from the 2020 china longitudinal aging social survey (class). Scientific Reports, 15, 2025.",
+   "title": "The impact of intelligent device utilization on household medical expenditure: Evidence from the 2020 china longitudinal aging social survey (class",
+   "authors": [
+    "Wang"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Scientific Reports",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1186/s12889-025-23718-9",
+      "title": "Impact of multimorbidity on household expenditure in China: evidence from the China health and retirement longitudinal study",
+      "year": 2025,
+      "first_author": "Ouyang",
+      "container": "BMC Public Health",
+      "type": "journal-article",
+      "score": 42.619392
+     },
+     "metrics": {
+      "title_sim": 75.53191489361703,
+      "containment": 0.636,
+      "partial_ratio": 65.04065040650406,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 93,
+   "raw": "[94] Sonia Ancoli-Israel and Liat Ayalon. Diagnosis and treatment of sleep disorders in older adults. The American Journal of Geriatric Psychiatry, 14(2):95\u2013103, 2006.",
+   "title": "Diagnosis and treatment of sleep disorders in older adults",
+   "authors": [
+    "Ancoli-Israel",
+    "Ayalon"
+   ],
+   "year": 2006,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "The American Journal of Geriatric Psychiatry",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1097/01.jgp.0000196627.12010.d1",
+    "title": "Diagnosis and Treatment of Sleep Disorders in Older Adults",
+    "year": 2006,
+    "first_author": "Ancoli-Israel",
+    "container": "The American Journal of Geriatric Psychiatry",
+    "type": "journal-article",
+    "score": 58.604103
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 94,
+   "raw": "[95] Christine M Albert, Murray A Mittleman, Christine U Chae, I-Min Lee, Charles H Hennekens, and JoAnn E Manson. Triggering of sudden death from cardiac causes by vigorous exertion. New England Journal of Medicine, 343(19):1355\u20131361, 2000.",
+   "title": "Triggering of sudden death from cardiac causes by vigorous exertion",
+   "authors": [
+    "Albert",
+    "Mittleman",
+    "Chae",
+    "Lee",
+    "Hennekens",
+    "Manson"
+   ],
+   "year": 2000,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "New England Journal of Medicine",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1056/nejm200011093431902",
+    "title": "Triggering of Sudden Death from Cardiac Causes by Vigorous Exertion",
+    "year": 2000,
+    "first_author": "Albert",
+    "container": "New England Journal of Medicine",
+    "type": "journal-article",
+    "score": 64.49653
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 95,
+   "raw": "[96] Michael Hastings, John S O\u2019Neill, and Elizabeth S Maywood. Circadian clocks: regulators of endocrine and metabolic rhythms. Journal of Endocrinology, 195(2):187\u2013198, 2007.",
+   "title": "Circadian clocks: regulators of endocrine and metabolic rhythms",
+   "authors": [
+    "Hastings",
+    "O\u2019Neill",
+    "Maywood"
+   ],
+   "year": 2007,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Endocrinology",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1677/joe-07-0378",
+    "title": "Circadian clocks: regulators of endocrine and metabolic rhythms",
+    "year": 2007,
+    "first_author": "Hastings",
+    "container": "Journal of Endocrinology",
+    "type": "journal-article",
+    "score": 65.279976
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 96,
+   "raw": "[97] Centers for Disease Control and Prevention. National diabetes statistics report, 2020. Atlanta, GA: Centers for Disease Control and Prevention, US Department of Health and Human Services, 2020.",
+   "title": "Centers for Disease Control and Prevention",
+   "authors": [],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "report",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1093/ofid/ofv131.85",
+      "title": "Self-Monitoring of Hospital Room Cleaning by Environmental Services May Not Accurately Measure Cleanliness",
+      "year": 2015,
+      "first_author": "Knelson",
+      "container": "Open Forum Infectious Diseases",
+      "type": "journal-article",
+      "score": 35.238625
+     },
+     "metrics": {
+      "title_sim": 36.48648648648649,
+      "containment": 0.083,
+      "partial_ratio": 43.60189573459715,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "crossref_title",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/978-3-030-39903-0_100268",
+    "title": "Centers for Disease Control and Prevention",
+    "year": 2020,
+    "first_author": null,
+    "container": "Encyclopedia of Behavioral Medicine",
+    "type": "book-chapter",
+    "score": 28.141956
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": null
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 97,
+   "raw": "[98] Dariush Mozaffarian, Emelia J Benjamin, Alan S Go, Donna K Arnett, Michael J Blaha, Mary Cushman, Sandeep R Das, Sarah De Ferranti, Jean-Pierre Despr\u00e9s, Heather J Fullerton, et al. Heart disease and stroke statistics\u20142016 update: a report from the american heart association. Circulation, 133(4):e38\u2013e360, 2016.",
+   "title": "Heart disease and stroke statistics\u20142016 update: a report from the american heart association",
+   "authors": [
+    "Mozaffarian",
+    "Benjamin",
+    "Go",
+    "Arnett",
+    "Blaha",
+    "Cushman",
+    "Das",
+    "Ferranti",
+    "Despr\u00e9s",
+    "Fullerton"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Circulation",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.3410/f.726023516.793533696",
+    "title": "Faculty Opinions recommendation of Heart Disease and Stroke Statistics-2016 Update: A Report From the American Heart Association.",
+    "year": 2017,
+    "first_author": "Tippett",
+    "container": "Faculty Opinions \u2013 Post-Publication Peer Review of the Biomedical Literature",
+    "type": "dataset",
+    "score": 62.512245
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.769,
+    "partial_ratio": 81.10236220472441,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 98,
+   "raw": "[99] Earl S Ford, Li M Maynard, and Chaoyang Li. Trends in mean waist circumference and abdominal obesity among us adults, 1999\u20132012. JAMA, 312(11):1151\u20131153, 2014.",
+   "title": "Trends in mean waist circumference and abdominal obesity among us adults, 1999\u20132012",
+   "authors": [
+    "Ford",
+    "Maynard",
+    "Li"
+   ],
+   "year": 2014,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "JAMA",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1001/jama.2014.8362",
+    "title": "Trends in Mean Waist Circumference and Abdominal Obesity Among US Adults, 1999-2012",
+    "year": 2014,
+    "first_author": "Ford",
+    "container": "JAMA",
+    "type": "journal-article",
+    "score": 86.440346
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 99,
+   "raw": "[100] Timothy S Church, Diana M Thomas, Catrine Tudor-Locke, Peter T Katzmarzyk, Conrad P Earnest, Ruben Q Rodarte, Corby K Martin, Steven N Blair, and Claude Bouchard. Trends over 5 decades in us occupation-related physical activity and their associations with obesity. PLoS One, 6(5):e19657, 2011.",
+   "title": "Trends over 5 decades in us occupation-related physical activity and their associations with obesity",
+   "authors": [
+    "Church",
+    "Thomas",
+    "Tudor-Locke",
+    "Katzmarzyk",
+    "Earnest",
+    "Rodarte",
+    "Martin",
+    "Blair",
+    "Bouchard"
+   ],
+   "year": 2011,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "PLoS One",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1371/journal.pone.0019657",
+    "title": "Trends over 5 Decades in U.S. Occupation-Related Physical Activity and Their Associations with Obesity",
+    "year": 2011,
+    "first_author": "Church",
+    "container": "PLoS ONE",
+    "type": "journal-article",
+    "score": 53.79019
+   },
+   "metrics": {
+    "title_sim": 99.50248756218906,
+    "containment": 1.0,
+    "partial_ratio": 99.00990099009901,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 100,
+   "raw": "[101] David R Bassett Jr, Holly R Wyatt, Helen Thompson, John C Peters, and James O Hill. Pedometermeasured physical activity and health behaviors in united states adults. Medicine & Science in Sports & Exercise, 42(10):1819\u20131825, 2010.",
+   "title": "Pedometermeasured physical activity and health behaviors in united states adults",
+   "authors": [
+    "Bassett",
+    "Wyatt",
+    "Thompson",
+    "Peters",
+    "Hill"
+   ],
+   "year": 2010,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Medicine & Science in Sports & Exercise",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1249/mss.0b013e3181dc2e54",
+    "title": "Pedometer-Measured Physical Activity and Health Behaviors in U.S. Adults",
+    "year": 2010,
+    "first_author": "BASSETT",
+    "container": "Medicine &amp; Science in Sports &amp; Exercise",
+    "type": "journal-article",
+    "score": 37.51402
+   },
+   "metrics": {
+    "title_sim": 92.71523178807946,
+    "containment": 0.714,
+    "partial_ratio": 91.54929577464789,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 101,
+   "raw": "[102] Global Initiative for Chronic Obstructive Lung Disease. Global strategy for the diagnosis, management, and prevention of chronic obstructive pulmonary disease: Gold executive summary. American Journal of Respiratory and Critical Care Medicine, 187(4):347\u2013365, 2013.",
+   "title": "Global Initiative for Chronic Obstructive Lung Disease. Global strategy for the diagnosis, management, and prevention of chronic obstructive pulmonary disease: Gold executive summary",
+   "authors": [],
+   "year": 2013,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "American Journal of Respiratory and Critical Care Medicine",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1111/j.1440-1843.2005.00692.x",
+      "title": "Global Initiative for Chronic Obstructive Lung Disease strategy for the diagnosis, management and prevention of chronic obstructive pulmonary disease: An Asia\u2013Pacific perspective",
+      "year": 2005,
+      "first_author": null,
+      "container": "Respirology",
+      "type": "journal-article",
+      "score": 89.96909
+     },
+     "metrics": {
+      "title_sim": 90.98039215686275,
+      "containment": 0.824,
+      "partial_ratio": 89.71428571428571,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 102,
+   "raw": "[103] Ronald C Kessler, Wai Tat Chiu, Olga Demler, Kathleen Roe Merikangas, and Ellen E Walters. Prevalence, severity, and comorbidity of 12-month dsm-iv disorders in the national comorbidity survey replication. Archives of General Psychiatry, 62(6):617\u2013627, 2005.",
+   "title": "Prevalence, severity, and comorbidity of 12-month dsm-iv disorders in the national comorbidity survey replication",
+   "authors": [
+    "Kessler",
+    "Chiu",
+    "Demler",
+    "Merikangas",
+    "Walters"
+   ],
+   "year": 2005,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Archives of General Psychiatry",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1001/archpsyc.62.6.617",
+    "title": "Prevalence, Severity, and Comorbidity of 12-Month DSM-IV Disorders in the National Comorbidity Survey Replication",
+    "year": 2005,
+    "first_author": "Kessler",
+    "container": "Archives of General Psychiatry",
+    "type": "journal-article",
+    "score": 94.08256
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 103,
+   "raw": "[104] Reva C Lawrence, David T Felson, Charles G Helmick, Lesley M Arnold, Hyon Choi, Richard A Deyo, Sherine Gabriel, Ren Hirsch, Marc C Hochberg, Gene G Hunder, et al. Estimates of the prevalence of arthritis and other rheumatic conditions in the united states: Part ii. Arthritis & Rheumatism, 58(1):26\u201335, 2008.",
+   "title": "Estimates of the prevalence of arthritis and other rheumatic conditions in the united states: Part ii",
+   "authors": [
+    "Lawrence",
+    "Felson",
+    "Helmick",
+    "Arnold",
+    "Choi",
+    "Deyo",
+    "Gabriel",
+    "Hirsch",
+    "Hochberg",
+    "Hunder"
+   ],
+   "year": 2008,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Arthritis & Rheumatism",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1002/art.23176",
+    "title": "Estimates of the prevalence of arthritis and other rheumatic conditions in the United States: Part II",
+    "year": 2008,
+    "first_author": "Lawrence",
+    "container": "Arthritis &amp; Rheumatism",
+    "type": "journal-article",
+    "score": 52.681423
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 104,
+   "raw": "[105] Sherry L Murphy, Jiaquan Xu, Kenneth D Kochanek, and Elizabeth Arias. Deaths: final data for 2015. National Vital Statistics Reports, 66(6):1\u201375, 2017.",
+   "title": "Deaths: final data for 2015",
+   "authors": [
+    "Murphy",
+    "Xu",
+    "Kochanek",
+    "Arias"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "National Vital Statistics Reports",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.15620/cdc:106058",
+    "title": "Deaths: Final Data for 2019",
+    "year": 2021,
+    "first_author": "Xu",
+    "container": "",
+    "type": "report",
+    "score": 34.744534
+   },
+   "metrics": {
+    "title_sim": 96.15384615384616,
+    "containment": 0.75,
+    "partial_ratio": 96.15384615384616,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  }
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
+}

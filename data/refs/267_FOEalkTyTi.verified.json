@@ -1,0 +1,977 @@
+{
+ "pdf": "267_FOEalkTyTi.pdf",
+ "n_entries": 23,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": false,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "[1] Eirini Arvaniti, Kim S Fricker, Manfredo Moret, Nikolas Rupp, Thomas Hermanns, Christian Fankhauser, Norbert Wey, Peter J Wild, Jan H R\u00fcschoff, and Manfred Claassen. Automated molecular subtyping of breast cancer using h&e images. arXiv preprint arXiv:1811.07945, 2018.",
+   "title": "Automated molecular subtyping of breast cancer using h&e images",
+   "authors": [
+    "Arvaniti",
+    "Fricker",
+    "Moret",
+    "Rupp",
+    "Hermanns",
+    "Fankhauser",
+    "Wey",
+    "Wild",
+    "R\u00fcschoff",
+    "Claassen"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": "1811.07945",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "1811.07945"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.26226/morressier.5b4709826f4cb30010951a0e",
+      "title": "Microfluidic-based immunohistochemistry for molecular subtyping of breast cancer",
+      "year": 2018,
+      "first_author": "Procopio",
+      "container": "",
+      "type": "posted-content",
+      "score": 35.56303
+     },
+     "metrics": {
+      "title_sim": 72.72727272727272,
+      "containment": 0.571,
+      "partial_ratio": 63.74999999999999,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2] \u017diga Avsec, Vikram Agarwal, Daniel Visentin, Joseph R Ledsam, Agnieszka Grabska-Barwinska, Kyle R Taylor, Yannis Assael, John Jumper, Pushmeet Kohli, and David R Kelley. Effective gene expression prediction from sequence by integrating long-range interactions. Nature Methods, 18(10):1196\u20131203, 2021.",
+   "title": "Effective gene expression prediction from sequence by integrating long-range interactions",
+   "authors": [
+    "Avsec",
+    "Agarwal",
+    "Visentin",
+    "Ledsam",
+    "Grabska-Barwinska",
+    "Taylor",
+    "Assael",
+    "Jumper",
+    "Kohli",
+    "Kelley"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature Methods",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1101/2021.04.07.438649",
+    "title": "Effective gene expression prediction from sequence by integrating long-range interactions",
+    "year": 2021,
+    "first_author": "Avsec",
+    "container": "",
+    "type": "posted-content",
+    "score": 67.39446
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3] Richard J Chen, Ming Y Lu, Jingwen Wang, Drew FK Williamson, Scott J Rodig, Neal I Lindeman, and Faisal Mahmood. Pathomic fusion: an integrated framework for fusing histopathology and genomic features for cancer diagnosis and prognosis. arXiv preprint arXiv:1912.08937, 2019.",
+   "title": "Pathomic fusion: an integrated framework for fusing histopathology and genomic features for cancer diagnosis and prognosis",
+   "authors": [
+    "Chen",
+    "Lu",
+    "Wang",
+    "Williamson",
+    "Rodig",
+    "Lindeman",
+    "Mahmood"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": "1912.08937",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/tmi.2020.3021387",
+    "title": "Pathomic Fusion: An Integrated Framework for Fusing Histopathology and Genomic Features for Cancer Diagnosis and Prognosis",
+    "year": 2022,
+    "first_author": "Chen",
+    "container": "IEEE Transactions on Medical Imaging",
+    "type": "journal-article",
+    "score": 65.49795
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "1912.08937"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4] Travers Ching, Xun Zhu, and Lana X Garmire. Cox-nnet: an arti\ufb01cial neural network method for prognosis prediction of high-throughput omics data. PLoS Computational Biology, 14(4):e1006076, 2018.",
+   "title": "Cox-nnet: an artificial neural network method for prognosis prediction of high-throughput omics data",
+   "authors": [
+    "Ching",
+    "Zhu",
+    "Garmire"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "PLoS Computational Biology",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1101/093021",
+    "title": "Cox-nnet: an artificial neural network method for prognosis prediction on high-throughput omics data",
+    "year": 2016,
+    "first_author": "Ching",
+    "container": "",
+    "type": "posted-content",
+    "score": 98.17279
+   },
+   "metrics": {
+    "title_sim": 98.98989898989899,
+    "containment": 1.0,
+    "partial_ratio": 98.98989898989899,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5] Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. Bert: Pre-training of deep bidirectional transformers for language understanding. arXiv preprint arXiv:1810.04805, 2018.",
+   "title": "Bert: Pre-training of deep bidirectional transformers for language understanding",
+   "authors": [
+    "Devlin",
+    "Chang",
+    "Lee",
+    "Toutanova"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": "1810.04805",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "1810.04805",
+    "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+    "year": 2018,
+    "first_author": "Jacob Devlin"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[6] A Berkan Dincer, Safak Celik, Naoto Hiranuma, and Su-In Lee. Deeppro\ufb01le: Deep learning of cancer molecular pro\ufb01les for precision medicine. bioRxiv, page 278739, 2018.",
+   "title": "Deepprofile: Deep learning of cancer molecular profiles for precision medicine",
+   "authors": [
+    "Dincer",
+    "Celik",
+    "Hiranuma",
+    "Lee"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "bioRxiv",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1101/278739",
+    "title": "DeepProfile: Deep learning of cancer molecular profiles for precision medicine",
+    "year": 2018,
+    "first_author": "Dincer",
+    "container": "",
+    "type": "posted-content",
+    "score": 73.52816
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[7] Vijay Prakash Dwivedi and Xavier Bresson. A generalization of transformer networks to graphs. In Proceedings of the AAAI Workshop on Deep Learning on Graphs, 2022.",
+   "title": "A generalization of transformer networks to graphs",
+   "authors": [
+    "Dwivedi",
+    "Bresson"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the AAAI Workshop on Deep Learning on Graphs",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.5220/0011682100003417",
+      "title": "Self-Modularized Transformer: Learn to Modularize Networks for Systematic Generalization",
+      "year": 2023,
+      "first_author": "Kamata",
+      "container": "Proceedings of the 18th International Joint Conference on Computer Vision, Imaging and Computer Graphics Theory and Applications",
+      "type": "proceedings-article",
+      "score": 25.73585
+     },
+     "metrics": {
+      "title_sim": 86.36363636363636,
+      "containment": 0.375,
+      "partial_ratio": 47.945205479452056,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[8] Haoyang Feng, Jiaqi Lu, Jiawen Yao, Shaoting Zhang, Wei Liu, Ruijiang Wang, Ronald Chen, Yucheng Tang, Wei Shao, Joel Saltz, et al. Salmon: Survival analysis learning with multi-omics neural networks on breast cancer. Frontiers in Genetics, 12:642386, 2021.",
+   "title": "Salmon: Survival analysis learning with multi-omics neural networks on breast cancer",
+   "authors": [
+    "Feng",
+    "Lu",
+    "Yao",
+    "Zhang",
+    "Liu",
+    "Wang",
+    "Chen",
+    "Tang",
+    "Shao",
+    "Saltz"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Frontiers in Genetics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.3389/fgene.2019.00166",
+      "title": "SALMON: Survival Analysis Learning With Multi-Omics Neural Networks on Breast Cancer",
+      "year": 2019,
+      "first_author": "Huang",
+      "container": "Frontiers in Genetics",
+      "type": "journal-article",
+      "score": 48.09977
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 1.0,
+      "partial_ratio": 100.0,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[9] Carolyn Hutter and Jean Claude Zenklusen. The cancer genome atlas: Creating lasting value beyond its data. Cell, 173(2):283\u2013285, 2018.",
+   "title": "The cancer genome atlas: Creating lasting value beyond its data",
+   "authors": [
+    "Hutter",
+    "Zenklusen"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Cell",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.cell.2018.03.042",
+    "title": "The Cancer Genome Atlas: Creating Lasting Value beyond Its Data",
+    "year": 2018,
+    "first_author": "Hutter",
+    "container": "Cell",
+    "type": "journal-article",
+    "score": 75.74931
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[10] Yanrong Ji, Zhihan Zhou, Han Liu, and Ramana V Davuluri. Dnabert: pre-trained bidirectional encoder representations from transformers for dna-language in genome. Bioinformatics, 37(15):2112\u20132120, 2021.",
+   "title": "Dnabert: pre-trained bidirectional encoder representations from transformers for dna-language in genome",
+   "authors": [
+    "Ji",
+    "Zhou",
+    "Liu",
+    "Davuluri"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Bioinformatics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1101/2020.09.17.301879",
+    "title": "DNABERT: pre-trained Bidirectional Encoder Representations from Transformers model for DNA-language in genome",
+    "year": 2020,
+    "first_author": "Ji",
+    "container": "",
+    "type": "posted-content",
+    "score": 98.47812
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.909,
+    "partial_ratio": 94.44444444444444,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "[11] Jared L Katzman, Uri Shaham, Alexander Cloninger, Jonathan Bates, Tingting Jiang, and Yuval Kluger. Deepsurv: personalized treatment recommender system using a cox proportional hazards deep neural network. BMC Medical Research Methodology, 18(1):24, 2018.",
+   "title": "Deepsurv: personalized treatment recommender system using a cox proportional hazards deep neural network",
+   "authors": [
+    "Katzman",
+    "Shaham",
+    "Cloninger",
+    "Bates",
+    "Jiang",
+    "Kluger"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "BMC Medical Research Methodology",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1186/s12874-018-0482-1",
+    "title": "DeepSurv: personalized treatment recommender system using a Cox proportional hazards deep neural network",
+    "year": 2018,
+    "first_author": "Katzman",
+    "container": "BMC Medical Research Methodology",
+    "type": "journal-article",
+    "score": 89.708015
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "[12] Changhee Lee, William R Zame, Jinsung Yoon, and Mihaela van der Schaar. Deephit: A deep learning approach to survival analysis with competing risks. Proceedings of the AAAI Conference on Arti\ufb01cial Intelligence, 32(1):2314\u20132321, 2018.",
+   "title": "Deephit: A deep learning approach to survival analysis with competing risks",
+   "authors": [
+    "Lee",
+    "Zame",
+    "Yoon",
+    "Schaar"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the AAAI Conference on Artificial Intelligence",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1609/aaai.v32i1.11842",
+    "title": "DeepHit: A Deep Learning Approach to Survival Analysis With Competing Risks",
+    "year": 2018,
+    "first_author": "Lee",
+    "container": "Proceedings of the AAAI Conference on Artificial Intelligence",
+    "type": "journal-article",
+    "score": 57.98829
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "[13] Arthur Liberzon, Chet Birger, Helga Thorvaldsd\u00f3ttir, Mahmoud Ghandi, Jill P Mesirov, and Pablo Tamayo. The molecular signatures database hallmark gene set collection. Cell Systems, 1(6):417\u2013425, 2015.",
+   "title": "The molecular signatures database hallmark gene set collection",
+   "authors": [
+    "Liberzon",
+    "Birger",
+    "Thorvaldsd\u00f3ttir",
+    "Ghandi",
+    "Mesirov",
+    "Tamayo"
+   ],
+   "year": 2015,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Cell Systems",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.cels.2015.12.004",
+    "title": "The Molecular Signatures Database Hallmark Gene Set Collection",
+    "year": 2015,
+    "first_author": "Liberzon",
+    "container": "Cell Systems",
+    "type": "journal-article",
+    "score": 65.21836
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "[14] Chen Peng, Yu Zheng, and De-Shuang Huang. Capsule network based modeling of multi-omics data for discovery of cancer subtypes. IEEE/ACM Transactions on Computational Biology and Bioinformatics, 17(5):1605\u20131612, 2020.",
+   "title": "Capsule network based modeling of multi-omics data for discovery of cancer subtypes",
+   "authors": [
+    "Peng",
+    "Zheng",
+    "Huang"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE/ACM Transactions on Computational Biology and Bioinformatics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/tcbb.2019.2909905",
+    "title": "Capsule Network Based Modeling of Multi-omics Data for Discovery of Breast Cancer-Related Genes",
+    "year": 2020,
+    "first_author": "Peng",
+    "container": "IEEE/ACM Transactions on Computational Biology and Bioinformatics",
+    "type": "journal-article",
+    "score": 49.353077
+   },
+   "metrics": {
+    "title_sim": 94.03973509933775,
+    "containment": 0.75,
+    "partial_ratio": 84.21052631578947,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "[15] Bhanwar Shareef, Limeng Xue, Safyan Asher, Sarah Saleem, Max Welling, Marieke Welten, Jeroen Kuiper, Arnoud van der Laarse, Hailiang Mei, Jeffrey H Chuang, et al. Moli: multi-omics late integration with deep neural networks for drug response prediction. Bioinformatics, 37(Supplement_1):i501\u2013i509, 2021.",
+   "title": "Moli: multi-omics late integration with deep neural networks for drug response prediction",
+   "authors": [
+    "Shareef",
+    "Xue",
+    "Asher",
+    "Saleem",
+    "Welling",
+    "Welten",
+    "Kuiper",
+    "Laarse",
+    "Mei",
+    "Chuang"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Bioinformatics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1101/531327",
+      "title": "MOLI: Multi-Omics Late Integration with deep neural networks for drug response prediction",
+      "year": 2019,
+      "first_author": "Sharifi-Noghabi",
+      "container": "",
+      "type": "posted-content",
+      "score": 76.40098
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 1.0,
+      "partial_ratio": 100.0,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 16,
+   "raw": "[16] Rebecca L Siegel, Kimberly D Miller, Nikita S Wagle, and Ahmedin Jemal. Cancer statistics, 2023. CA: A Cancer Journal for Clinicians, 73(1):233\u2013254, 2023.",
+   "title": "Cancer statistics",
+   "authors": [
+    "Siegel",
+    "Miller",
+    "Wagle",
+    "Jemal"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Cancer Journal for Clinicians",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.3322/caac.21763",
+    "title": "Cancer statistics, 2023",
+    "year": 2023,
+    "first_author": "Siegel",
+    "container": "CA: A Cancer Journal for Clinicians",
+    "type": "journal-article",
+    "score": 24.58283
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 17,
+   "raw": "[17] Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N Gomez, \u0141ukasz Kaiser, and Illia Polosukhin. Attention is all you need. In Advances in Neural Information Processing Systems, pages 5998\u20136008, 2017.",
+   "title": "Attention is all you need",
+   "authors": [
+    "Vaswani",
+    "Shazeer",
+    "Parmar",
+    "Uszkoreit",
+    "Jones",
+    "Gomez",
+    "Kaiser",
+    "Polosukhin"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.65215/r5bs2d54",
+    "title": "Attention Is All You Need",
+    "year": 2025,
+    "first_author": "Vaswani",
+    "container": "",
+    "type": "posted-content",
+    "score": 43.621178
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 18,
+   "raw": "[18] Petar Velickovic, Guillem Cucurull, Arantxa Casanova, Adriana Romero, Pietro Li\u00f2, and Yoshua Bengio. Graph attention networks. arXiv preprint arXiv:1710.10903, 2017.",
+   "title": "Graph attention networks",
+   "authors": [
+    "Velickovic",
+    "Cucurull",
+    "Casanova",
+    "Romero",
+    "Li\u00f2",
+    "Bengio"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": "1710.10903",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "1710.10903",
+    "title": "Graph Attention Networks",
+    "year": 2017,
+    "first_author": "Petar Veli\u010dkovi\u0107"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 19,
+   "raw": "[19] Tongxin Wang, Wei Shao, Zixiao Huang, Haixu Tang, Jie Zhang, Zhengming Ding, and Kun Huang. Mogonet integrates multi-omics data using graph convolutional networks allowing patient classi\ufb01cation and biomarker identi\ufb01cation. Nature Communications, 12(1):3445, 2021.",
+   "title": "Mogonet integrates multi-omics data using graph convolutional networks allowing patient classification and biomarker identification",
+   "authors": [
+    "Wang",
+    "Shao",
+    "Huang",
+    "Tang",
+    "Zhang",
+    "Ding",
+    "Huang"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature Communications",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/s41467-021-23774-w",
+    "title": "MOGONET integrates multi-omics data using graph convolutional networks allowing patient classification and biomarker identification",
+    "year": 2021,
+    "first_author": "Wang",
+    "container": "Nature Communications",
+    "type": "journal-article",
+    "score": 98.94595
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 20,
+   "raw": "[20] Zhaoping Xiong, Dingyan Wang, Xiaohong Liu, Feisheng Zhong, Xiaozhe Wan, Xutong Li, Zhaojun Li, Xiaomin Luo, Kaixian Chen, Hualiang Jiang, et al. Pushing the boundaries of molecular representation for drug discovery with the graph attention mechanism. Journal of Medicinal Chemistry, 63(16):8749\u20138760, 2019.",
+   "title": "Pushing the boundaries of molecular representation for drug discovery with the graph attention mechanism",
+   "authors": [
+    "Xiong",
+    "Wang",
+    "Liu",
+    "Zhong",
+    "Wan",
+    "Li",
+    "Li",
+    "Luo",
+    "Chen",
+    "Jiang"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Medicinal Chemistry",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1021/acs.jmedchem.9b00959.s001",
+    "title": "Pushing the Boundaries of Molecular Representation for Drug Discovery with the Graph Attention Mechanism",
+    "year": 2020,
+    "first_author": null,
+    "container": "",
+    "type": "component",
+    "score": 76.33949
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": null
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 21,
+   "raw": "[21] Dongdong Yao, Xiaohui Zhan, Chee Keong Kwoh, Xiaoli Li, Min Xu, and Zhengdong Wang. Survpath: A novel approach for survival analysis with pathway-based deep learning. Bioinformatics, 36(19):4892\u20134899, 2020.",
+   "title": "Survpath: A novel approach for survival analysis with pathway-based deep learning",
+   "authors": [
+    "Yao",
+    "Zhan",
+    "Kwoh",
+    "Li",
+    "Xu",
+    "Wang"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Bioinformatics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.52783/jas.v11i1.1436",
+      "title": "A Deep Learning-based Approach for Medical Image Analysis and Diagnosis",
+      "year": 2020,
+      "first_author": null,
+      "container": "JOURNAL OF ALGEBRAIC STATISTICS",
+      "type": "journal-article",
+      "score": 30.015707
+     },
+     "metrics": {
+      "title_sim": 75.43859649122807,
+      "containment": 0.625,
+      "partial_ratio": 54.92957746478873,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 22,
+   "raw": "[22] Safoora Youse\ufb01, Fatemeh Amrollahi, Mohamed Amgad, Chengliang Dong, Joshua E Lewis, Congzheng Song, David A Gutman, Sameer H Halani, Jose Enrique Velazquez Vega, Daniel J Brat, et al. Predicting clinical outcomes from large scale cancer genomic pro\ufb01les with deep survival models. Scienti\ufb01c Reports, 7(1):11707, 2017.",
+   "title": "Predicting clinical outcomes from large scale cancer genomic profiles with deep survival models",
+   "authors": [
+    "Yousefi",
+    "Amrollahi",
+    "Amgad",
+    "Dong",
+    "Lewis",
+    "Song",
+    "Gutman",
+    "Halani",
+    "Vega",
+    "Brat"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Scientific Reports",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1101/131367",
+    "title": "Predicting clinical outcomes from large scale cancer genomic profiles with deep survival models",
+    "year": 2017,
+    "first_author": "Yousefi",
+    "container": "",
+    "type": "posted-content",
+    "score": 67.38062
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 23,
+   "raw": "[23] Xinliang Zhu, Jiawen Yao, and Junzhou Huang. Wsisa: Making survival prediction from whole slide histopathological images. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 7234\u20137242, 2016.",
+   "title": "Wsisa: Making survival prediction from whole slide histopathological images",
+   "authors": [
+    "Zhu",
+    "Yao",
+    "Huang"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/cvpr.2017.725",
+    "title": "WSISA: Making Survival Prediction from Whole Slide Histopathological Images",
+    "year": 2017,
+    "first_author": "Zhu",
+    "container": "2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "type": "proceedings-article",
+    "score": 74.61568
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  }
+ ]
+}

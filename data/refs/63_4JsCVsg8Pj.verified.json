@@ -1,0 +1,1187 @@
+{
+ "pdf": "63_4JsCVsg8Pj.pdf",
+ "n_entries": 28,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "[1] Josh Abramson, Jonas Adler, Jack Dunger, Richard Evans, Tim Green, Alexander Pritzel, Olaf Ronneberger, Lindsay Willmore, Andrew J Ballard, Joshua Bambrick, et al. Accurate structure prediction of biomolecular interactions with alphafold 3. Nature, 630(8016):493\u2013500, 2024.",
+   "title": "Accurate structure prediction of biomolecular interactions with alphafold 3",
+   "authors": [
+    "Abramson",
+    "Adler",
+    "Dunger",
+    "Evans",
+    "Green",
+    "Pritzel",
+    "Ronneberger",
+    "Willmore",
+    "Ballard",
+    "Bambrick"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.55277/researchhub.zto7x62j",
+      "title": "Accurate structure prediction of biomolecular interactions with AlphaFold 3",
+      "year": 2026,
+      "first_author": "Zhang",
+      "container": "",
+      "type": "report",
+      "score": 57.03324
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 1.0,
+      "partial_ratio": 100.0,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2] Riccardo Aguti, Erika Gardini, Martina Bertazzo, Sergio Decherchi, and Andrea Cavalli. Probabilistic pocket druggability prediction via one-class learning. Frontiers in Pharmacology, 13:870479, 2022.",
+   "title": "Probabilistic pocket druggability prediction via one-class learning",
+   "authors": [
+    "Aguti",
+    "Gardini",
+    "Bertazzo",
+    "Decherchi",
+    "Cavalli"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Frontiers in Pharmacology",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.3389/fphar.2022.870479",
+    "title": "Probabilistic Pocket Druggability Prediction via One-Class Learning",
+    "year": 2022,
+    "first_author": "Aguti",
+    "container": "Frontiers in Pharmacology",
+    "type": "journal-article",
+    "score": 77.68885
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3] Karen Akinsanya, Mohammed AlQuraishi, Ann Boija, John Chodera, Anna Cichonska, Marzyeh Ghassemi, Martha Head, Wengong Jin, Warren A Kibbe, Nevan Krogan, et al. Redefining druggable targets with artificial intelligence. Nature Biotechnology, pages 1\u20133, 2025.",
+   "title": "Redefining druggable targets with artificial intelligence",
+   "authors": [
+    "Akinsanya",
+    "AlQuraishi",
+    "Boija",
+    "Chodera",
+    "Cichonska",
+    "Ghassemi",
+    "Head",
+    "Jin",
+    "Kibbe",
+    "Krogan"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature Biotechnology",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/s41587-025-02770-1",
+    "title": "Redefining druggable targets with artificial intelligence",
+    "year": 2025,
+    "first_author": "Akinsanya",
+    "container": "Nature Biotechnology",
+    "type": "journal-article",
+    "score": 42.614483
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4] Maria Batool, Bilal Ahmad, and Sangdun Choi. A structure-based drug discovery paradigm. International journal of molecular sciences, 20(11):2783, 2019.",
+   "title": "A structure-based drug discovery paradigm",
+   "authors": [
+    "Batool",
+    "Ahmad",
+    "Choi"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International journal of molecular sciences",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.3390/ijms20112783",
+    "title": "A Structure-Based Drug Discovery Paradigm",
+    "year": 2019,
+    "first_author": "Batool",
+    "container": "International Journal of Molecular Sciences",
+    "type": "journal-article",
+    "score": 44.57847
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5] G Beis, AP Serafeim, and I Papasotiriou. Data-driven analysis and druggability assessment methods to accelerate the identification of novel cancer targets. Computational and Structural Biotechnology Journal, 21:46\u201357, 2023.",
+   "title": "Data-driven analysis and druggability assessment methods to accelerate the identification of novel cancer targets",
+   "authors": [
+    "Beis",
+    "Serafeim",
+    "Papasotiriou"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Computational and Structural Biotechnology Journal",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.csbj.2022.11.042",
+    "title": "Data-driven analysis and druggability assessment methods to accelerate the identification of novel cancer targets",
+    "year": 2023,
+    "first_author": "Beis",
+    "container": "Computational and Structural Biotechnology Journal",
+    "type": "journal-article",
+    "score": 76.71561
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[6] Mostapha Benhenda. Chemgan challenge for drug discovery: can ai reproduce natural chemical diversity? arXiv preprint arXiv:1708.08227, 2017.",
+   "title": "Chemgan challenge for drug discovery: can ai reproduce natural chemical diversity?",
+   "authors": [
+    "Benhenda"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": "1708.08227",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1101/292177",
+    "title": "Can AI reproduce observed chemical diversity?",
+    "year": 2018,
+    "first_author": "Benhenda",
+    "container": "",
+    "type": "posted-content",
+    "score": 64.156105
+   },
+   "metrics": {
+    "title_sim": 88.60759493670886,
+    "containment": 0.8,
+    "partial_ratio": 84.0909090909091,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "1708.08227"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[7] Alexandre Borrel, Leslie Regad, Henri Xhaard, Michel Petitjean, and Anne-Claude Camproux. Pockdrug: A model for predicting pocket druggability that overcomes pocket estimation uncertainties. Journal of chemical information and modeling, 55(4):882\u2013895, 2015.",
+   "title": "Pockdrug: A model for predicting pocket druggability that overcomes pocket estimation uncertainties",
+   "authors": [
+    "Borrel",
+    "Regad",
+    "Xhaard",
+    "Petitjean",
+    "Camproux"
+   ],
+   "year": 2015,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of chemical information and modeling",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1021/ci5006004",
+    "title": "PockDrug: A Model for Predicting Pocket Druggability That Overcomes Pocket Estimation Uncertainties",
+    "year": 2015,
+    "first_author": "Borrel",
+    "container": "Journal of Chemical Information and Modeling",
+    "type": "journal-article",
+    "score": 94.4363
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[8] Tobiasz Cieplinski, Tomasz Danel, Sabina Podlewska, and Stanis\u0142aw Jastrzebski. Generative models should at least be able to design molecules that dock well: A new benchmark. Journal of Chemical Information and Modeling, 63(11):3238\u20133247, 2023.",
+   "title": "Generative models should at least be able to design molecules that dock well: A new benchmark",
+   "authors": [
+    "Cieplinski",
+    "Danel",
+    "Podlewska",
+    "Jastrzebski"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Chemical Information and Modeling",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1021/acs.jcim.2c01355.s001",
+    "title": "Generative Models Should at Least Be Able to Design Molecules That Dock Well: A New Benchmark",
+    "year": 2023,
+    "first_author": null,
+    "container": "",
+    "type": "component",
+    "score": 96.99518
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": null
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[9] Paul G Francoeur, Tomohide Masuda, Jocelyn Sunseri, Andrew Jia, Richard B Iovanisci, Ian Snyder, and David R Koes. Three-dimensional convolutional neural networks and a crossdocked data set for structure-based drug design. Journal of chemical information and modeling, 60(9):4200\u20134215, 2020.",
+   "title": "Three-dimensional convolutional neural networks and a crossdocked data set for structure-based drug design",
+   "authors": [
+    "Francoeur",
+    "Masuda",
+    "Sunseri",
+    "Jia",
+    "Iovanisci",
+    "Snyder",
+    "Koes"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of chemical information and modeling",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.26434/chemrxiv.11833323.v1",
+    "title": "3D Convolutional Neural Networks and a CrossDocked Dataset for Structure-Based Drug Design",
+    "year": 2020,
+    "first_author": "Francoeur",
+    "container": "",
+    "type": "posted-content",
+    "score": 76.17126
+   },
+   "metrics": {
+    "title_sim": 93.49112426035504,
+    "containment": 0.889,
+    "partial_ratio": 97.77777777777777,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[10] Jiaqi Guan, Wesley Wei Qian, Xingang Peng, Yufeng Su, Jian Peng, and Jianzhu Ma. 3d equivariant diffusion for target-aware molecule generation and affinity prediction. In International Conference on Learning Representations (ICLR), 2023.",
+   "title": "3d equivariant diffusion for target-aware molecule generation and affinity prediction",
+   "authors": [
+    "Guan",
+    "Qian",
+    "Peng",
+    "Su",
+    "Peng",
+    "Ma"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Conference on Learning Representations (ICLR",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/bibm62325.2024.10822749",
+      "title": "Target-aware Guided equivariant Diffusion model for 3D molecule Generation",
+      "year": 2024,
+      "first_author": "Wang",
+      "container": "2024 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)",
+      "type": "proceedings-article",
+      "score": 47.83262
+     },
+     "metrics": {
+      "title_sim": 90.37037037037037,
+      "containment": 0.75,
+      "partial_ratio": 70.27027027027026,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "[11] Jiaqi Guan, Xiangxin Zhou, Yuwei Yang, Yu Bao, Jian Peng, Jianzhu Ma, Qiang Liu, Liang Wang, and Quanquan Gu. Decompdiff: diffusion models with decomposed priors for structurebased drug design. In International Conference on Machine Learning (ICML), 2023.",
+   "title": "Decompdiff: diffusion models with decomposed priors for structurebased drug design",
+   "authors": [
+    "Guan",
+    "Zhou",
+    "Yang",
+    "Bao",
+    "Peng",
+    "Ma",
+    "Liu",
+    "Wang",
+    "Gu"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Conference on Machine Learning (ICML",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.52202/079017-2769",
+      "title": "Reprogramming Pretrained Target-Specific Diffusion Models for Dual-Target Drug Design",
+      "year": 2024,
+      "first_author": "Zhou",
+      "container": "Advances in Neural Information Processing Systems 37",
+      "type": "proceedings-article",
+      "score": 27.64795
+     },
+     "metrics": {
+      "title_sim": 62.893081761006286,
+      "containment": 0.4,
+      "partial_ratio": 52.94117647058824,
+      "year_ok": true,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "[12] Ankit Halder, Sabyasachi Samantaray, Sahil Barbade, Aditya Gupta, and Sanjeeva Srivastava. Drugprotai: A machine learning\u2013driven approach for predicting protein druggability through feature engineering and robust partition-based ensemble methods. Briefings in Bioinformatics, 26(4):bbaf330, 2025.",
+   "title": "Drugprotai: A machine learning\u2013driven approach for predicting protein druggability through feature engineering and robust partition-based ensemble methods",
+   "authors": [
+    "Halder",
+    "Samantaray",
+    "Barbade",
+    "Gupta",
+    "Srivastava"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Briefings in Bioinformatics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1093/bib/bbaf330",
+    "title": "DrugProtAI: A machine learning\u2013driven approach for predicting protein druggability through feature engineering and robust partition-based ensemble methods",
+    "year": 2025,
+    "first_author": "Halder",
+    "container": "Briefings in Bioinformatics",
+    "type": "journal-article",
+    "score": 107.935104
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "[13] Xiuyuan Hu, Guoqing Liu, Can Chen, Yang Zhao, Hao Zhang, and Xue Liu. 3dmolformer: A dual-channel framework for structure-based drug discovery. In International Conference on Learning Representations (ICLR), 2025.",
+   "title": "3dmolformer: A dual-channel framework for structure-based drug discovery",
+   "authors": [
+    "Hu",
+    "Liu",
+    "Chen",
+    "Zhao",
+    "Zhang",
+    "Liu"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Conference on Learning Representations (ICLR",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1039/9781847552549-00097",
+      "title": "Applications of NMR in Structure-Based Drug Discovery",
+      "year": 2006,
+      "first_author": null,
+      "container": "Structure-Based Drug Discovery",
+      "type": "book-chapter",
+      "score": 29.448643
+     },
+     "metrics": {
+      "title_sim": 72.28915662650603,
+      "containment": 0.667,
+      "partial_ratio": 73.58490566037736,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "[14] Xiuyuan Hu, Guoqing Liu, Quanming Yao, Yang Zhao, and Hao Zhang. Hamiltonian diversity: effectively measuring molecular diversity by shortest hamiltonian circuits. Journal of Cheminformatics, 16(1):94, 2024.",
+   "title": "Hamiltonian diversity: effectively measuring molecular diversity by shortest hamiltonian circuits",
+   "authors": [
+    "Hu",
+    "Liu",
+    "Yao",
+    "Zhao",
+    "Zhang"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Cheminformatics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1186/s13321-024-00883-4",
+    "title": "Hamiltonian diversity: effectively measuring molecular diversity by shortest Hamiltonian circuits",
+    "year": 2024,
+    "first_author": "Hu",
+    "container": "Journal of Cheminformatics",
+    "type": "journal-article",
+    "score": 86.64995
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "[15] Xiuyuan Hu, Guoqing Liu, Yang Zhao, and Hao Zhang. De novo drug design using reinforcement learning with multiple gpt agents. Advances in Neural Information Processing Systems, 36, 2024.",
+   "title": "De novo drug design using reinforcement learning with multiple gpt agents",
+   "authors": [
+    "Hu",
+    "Liu",
+    "Zhao",
+    "Zhang"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/075280-0325",
+    "title": "De novo Drug Design using Reinforcement Learning with Multiple GPT Agents",
+    "year": 2023,
+    "first_author": "Hu",
+    "container": "Advances in Neural Information Processing Systems 36",
+    "type": "proceedings-article",
+    "score": 64.81793
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 16,
+   "raw": "[16] Agata Krasowski, Daniel Muthas, Aurijit Sarkar, Stefan Schmitt, and Ruth Brenk. Drugpred: a structure-based approach to predict protein druggability developed using an extensive nonredundant data set. Journal of chemical information and modeling, 51(11):2829\u20132842, 2011.",
+   "title": "Drugpred: a structure-based approach to predict protein druggability developed using an extensive nonredundant data set",
+   "authors": [
+    "Krasowski",
+    "Muthas",
+    "Sarkar",
+    "Schmitt",
+    "Brenk"
+   ],
+   "year": 2011,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of chemical information and modeling",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1021/ci200266d",
+    "title": "DrugPred: A Structure-Based Approach To Predict Protein Druggability Developed Using an Extensive Nonredundant Data Set",
+    "year": 2011,
+    "first_author": "Krasowski",
+    "container": "Journal of Chemical Information and Modeling",
+    "type": "journal-article",
+    "score": 95.79918
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 17,
+   "raw": "[17] Radoslav Kriv\u00e1k and David Hoksza. P2rank: machine learning based tool for rapid and accurate prediction of ligand binding sites from protein structure. Journal of cheminformatics, 10(1):39, 2018.",
+   "title": "P2rank: machine learning based tool for rapid and accurate prediction of ligand binding sites from protein structure",
+   "authors": [
+    "Kriv\u00e1k",
+    "Hoksza"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of cheminformatics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1186/s13321-018-0285-8",
+    "title": "P2Rank: machine learning based tool for rapid and accurate prediction of ligand binding sites from protein structure",
+    "year": 2018,
+    "first_author": "Kriv\u00e1k",
+    "container": "Journal of Cheminformatics",
+    "type": "journal-article",
+    "score": 103.05271
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 18,
+   "raw": "[18] Haitao Lin, Guojiang Zhao, Odin Zhang, Yufei Huang, Lirong Wu, Zicheng Liu, Siyuan Li, Cheng Tan, Zhifeng Gao, and Stan Z Li. Cbgbench: fill in the blank of protein-molecule complex binding graph. arXiv preprint arXiv:2406.10840, 2024.",
+   "title": "Cbgbench: fill in the blank of protein-molecule complex binding graph",
+   "authors": [
+    "Lin",
+    "Zhao",
+    "Zhang",
+    "Huang",
+    "Wu",
+    "Liu",
+    "Li",
+    "Tan",
+    "Gao",
+    "Li"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2406.10840",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2406.10840"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1101/2025.09.03.674017",
+      "title": "Unified Protein-Small Molecule Graph Neural Networks for Binding Site Prediction",
+      "year": 2025,
+      "first_author": "Wang",
+      "container": "",
+      "type": "posted-content",
+      "score": 30.165386
+     },
+     "metrics": {
+      "title_sim": 62.16216216216216,
+      "containment": 0.4,
+      "partial_ratio": 51.24999999999999,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 19,
+   "raw": "[19] Dou Nie, Huifeng Zhao, Odin Zhang, Gaoqi Weng, Hui Zhang, Jieyu Jin, Haitao Lin, Yufei Huang, Liwei Liu, Dan Li, et al. Durian: A comprehensive benchmark for structure-based 3d molecular generation. Journal of Chemical Information and Modeling, 65(1):173\u2013186, 2024.",
+   "title": "Durian: A comprehensive benchmark for structure-based 3d molecular generation",
+   "authors": [
+    "Nie",
+    "Zhao",
+    "Zhang",
+    "Weng",
+    "Zhang",
+    "Jin",
+    "Lin",
+    "Huang",
+    "Liu",
+    "Li"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Chemical Information and Modeling",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1021/acs.jcim.4c02232.s001",
+    "title": "Durian: A Comprehensive Benchmark for Structure-Based 3D Molecular Generation",
+    "year": 2024,
+    "first_author": null,
+    "container": "",
+    "type": "component",
+    "score": 67.84843
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": null
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 20,
+   "raw": "[20] AkshatKumar Nigam, Robert Pollice, Gary Tom, Kjell Jorner, John Willes, Luca Thiede, Anshul Kundaje, and Al\u00e1n Aspuru-Guzik. Tartarus: A benchmarking platform for realistic and practical inverse molecular design. Advances in Neural Information Processing Systems, 36:3263\u20133306, 2023.",
+   "title": "Tartarus: A benchmarking platform for realistic and practical inverse molecular design",
+   "authors": [
+    "Nigam",
+    "Pollice",
+    "Tom",
+    "Jorner",
+    "Willes",
+    "Thiede",
+    "Kundaje",
+    "Aspuru-Guzik"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/075280-0145",
+    "title": "Tartarus: A Benchmarking Platform for Realistic And Practical Inverse Molecular Design",
+    "year": 2023,
+    "first_author": "Nigam",
+    "container": "Advances in Neural Information Processing Systems 36",
+    "type": "proceedings-article",
+    "score": 67.24339
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 21,
+   "raw": "[21] Xingang Peng, Shitong Luo, Jiaqi Guan, Qi Xie, Jian Peng, and Jianzhu Ma. Pocket2mol: Efficient molecular sampling based on 3d protein pockets. In International Conference on Machine Learning (ICML), 2022.",
+   "title": "Pocket2mol: Efficient molecular sampling based on 3d protein pockets",
+   "authors": [
+    "Peng",
+    "Luo",
+    "Guan",
+    "Xie",
+    "Peng",
+    "Ma"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Conference on Machine Learning (ICML",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1021/acs.jcim.2c00583.s003",
+      "title": "An Integrated Machine Learning Model To Spot Peptide Binding Pockets in 3D Protein Screening",
+      "year": 2022,
+      "first_author": null,
+      "container": "",
+      "type": "component",
+      "score": 27.858753
+     },
+     "metrics": {
+      "title_sim": 54.088050314465406,
+      "containment": 0.4,
+      "partial_ratio": 51.08695652173913,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 22,
+   "raw": "[22] Yanru Qu, Keyue Qiu, Yuxuan Song, Jingjing Gong, Jiawei Han, Mingyue Zheng, Hao Zhou, and Wei-Ying Ma. Molcraft: Structure-based drug design in continuous parameter space. In International Conference on Machine Learning (ICML), 2024.",
+   "title": "Molcraft: Structure-based drug design in continuous parameter space",
+   "authors": [
+    "Qu",
+    "Qiu",
+    "Song",
+    "Gong",
+    "Han",
+    "Zheng",
+    "Zhou",
+    "Ma"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Conference on Machine Learning (ICML",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/978-0-387-68825-1_5",
+    "title": "Structure-Based Drug Design",
+    "year": 2007,
+    "first_author": "Qu",
+    "container": "Biological and Medical Physics, Biomedical Engineering",
+    "type": "book-chapter",
+    "score": 26.738108
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 23,
+   "raw": "[23] Oleg Trott and Arthur J Olson. Autodock vina: improving the speed and accuracy of docking with a new scoring function, efficient optimization, and multithreading. Journal of computational chemistry, 31(2):455\u2013461, 2010.",
+   "title": "Autodock vina: improving the speed and accuracy of docking with a new scoring function, efficient optimization, and multithreading",
+   "authors": [
+    "Trott",
+    "Olson"
+   ],
+   "year": 2010,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of computational chemistry",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1002/jcc.21334",
+    "title": "AutoDock Vina: Improving the speed and accuracy of docking with a new scoring function, efficient optimization, and multithreading",
+    "year": 2010,
+    "first_author": "Trott",
+    "container": "Journal of Computational Chemistry",
+    "type": "journal-article",
+    "score": 96.69235
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 24,
+   "raw": "[24] Andrea Volkamer, Daniel Kuhn, Friedrich Rippmann, and Matthias Rarey. Dogsitescorer: a web server for automatic binding site prediction, analysis and druggability assessment. Bioinformatics, 28(15):2074\u20132075, 2012.",
+   "title": "Dogsitescorer: a web server for automatic binding site prediction, analysis and druggability assessment",
+   "authors": [
+    "Volkamer",
+    "Kuhn",
+    "Rippmann",
+    "Rarey"
+   ],
+   "year": 2012,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Bioinformatics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1093/bioinformatics/bts310",
+    "title": "DoGSiteScorer: a web server for automatic binding site prediction, analysis and druggability assessment",
+    "year": 2012,
+    "first_author": "Volkamer",
+    "container": "Bioinformatics",
+    "type": "journal-article",
+    "score": 91.134285
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 25,
+   "raw": "[25] Jesse A Weller and Remo Rohs. Structure-based drug design with a deep hierarchical generative model. Journal of Chemical Information and Modeling, 64(16):6450\u20136463, 2024.",
+   "title": "Structure-based drug design with a deep hierarchical generative model",
+   "authors": [
+    "Weller",
+    "Rohs"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Chemical Information and Modeling",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1021/acs.jcim.4c01193.s001",
+    "title": "Structure-Based Drug Design with a Deep Hierarchical Generative Model",
+    "year": 2024,
+    "first_author": null,
+    "container": "",
+    "type": "component",
+    "score": 57.373146
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": null
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 26,
+   "raw": "[26] Xin Xie, Tingting Yu, Xiang Li, Nan Zhang, Leonard J Foster, Cheng Peng, Wei Huang, and Gu He. Recent advances in targeting the \u201cundruggable\u201d proteins: from drug discovery to clinical trials. Signal transduction and targeted therapy, 8(1):335, 2023.",
+   "title": "Recent advances in targeting the \u201cundruggable\u201d proteins: from drug discovery to clinical trials",
+   "authors": [
+    "Xie",
+    "Yu",
+    "Li",
+    "Zhang",
+    "Foster",
+    "Peng",
+    "Huang",
+    "He"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Signal transduction and targeted therapy",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/s41392-023-01589-z",
+    "title": "Recent advances in targeting the \u201cundruggable\u201d proteins: from drug discovery to clinical trials",
+    "year": 2023,
+    "first_author": "Xie",
+    "container": "Signal Transduction and Targeted Therapy",
+    "type": "journal-article",
+    "score": 61.139893
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 27,
+   "raw": "[27] Kangyu Zheng, Yingzhou Lu, Zaixi Zhang, Zhongwei Wan, Yao Ma, Marinka Zitnik, and Tianfan Fu. Structure-based drug design benchmark: do 3d methods really dominate? arXiv preprint arXiv:2406.03403, 2024.",
+   "title": "Structure-based drug design benchmark: do 3d methods really dominate?",
+   "authors": [
+    "Zheng",
+    "Lu",
+    "Zhang",
+    "Wan",
+    "Ma",
+    "Zitnik",
+    "Fu"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2406.03403",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/978-3-031-69162-1",
+    "title": "Structure-Based Drug Design",
+    "year": 2024,
+    "first_author": null,
+    "container": "Computer-Aided Drug Discovery and Design",
+    "type": "book",
+    "score": 31.128265
+   },
+   "metrics": {
+    "title_sim": 57.446808510638306,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": null
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2406.03403"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 28,
+   "raw": "[28] Xiliang Zheng, LinFeng Gan, Erkang Wang, and Jin Wang. Pocket-based drug design: exploring pocket space. The AAPS journal, 15(1):228\u2013241, 2013.",
+   "title": "Pocket-based drug design: exploring pocket space",
+   "authors": [
+    "Zheng",
+    "Gan",
+    "Wang",
+    "Wang"
+   ],
+   "year": 2013,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "The AAPS journal",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1208/s12248-012-9426-6",
+    "title": "Pocket-Based Drug Design: Exploring Pocket Space",
+    "year": 2013,
+    "first_author": "Zheng",
+    "container": "The AAPS Journal",
+    "type": "journal-article",
+    "score": 60.09071
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  }
+ ]
+}

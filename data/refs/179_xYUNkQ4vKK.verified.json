@@ -381,7 +381,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -404,7 +404,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "c0d50cb469d7588f80a1973e02f4a343b24ec70e",
+    "title": "Computational Agent-based Models in Opinion Dynamics: A Survey on Social Simulations and Empirical Studies",
+    "year": 2023,
+    "first_author": "Yun-Shiuan Chuang",
+    "container": "arXiv.org",
+    "ext": {
+     "ArXiv": "2306.03446",
+     "DBLP": "journals/corr/abs-2306-03446",
+     "DOI": "10.48550/arXiv.2306.03446",
+     "CorpusId": 259088733
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -468,7 +491,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -491,7 +514,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "bd15acc371153925bf86924cb2d13114ca6c95f8",
+    "title": "AI Hospital: Interactive Evaluation and Collaboration of LLMs as Intern Doctors for Clinical Diagnosis",
+    "year": 2024,
+    "first_author": "Zhihao Fan",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2402-09742",
+     "DOI": "10.48550/arXiv.2402.09742",
+     "CorpusId": 267681891
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -635,7 +680,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -658,7 +703,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "3c0eebb1d3ee4b0f75c226633d1b68031ba70be6",
+    "title": "SimuCourt: Building Judicial Decision-Making Agents with Real-world Judgement Documents",
+    "year": 2024,
+    "first_author": "Zhitao He",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2403-02959",
+     "DOI": "10.48550/arXiv.2403.02959",
+     "CorpusId": 279867300
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1040,7 +1107,7 @@
    "container": "International Conference on Learning Representations (ICLR",
    "type": "paper-conference",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -1063,7 +1130,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "608510b4a783c15aaccd0d6ced3262fe7e16963b",
+    "title": "Let Models Speak Ciphers: Multiagent Debate through Embeddings",
+    "year": 2023,
+    "first_author": "Chau Pham",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "ArXiv": "2310.06272",
+     "DBLP": "conf/iclr/0001LY0LYP0Y24",
+     "DOI": "10.48550/arXiv.2310.06272",
+     "CorpusId": 263830342
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1358,5 +1448,7 @@
    ],
    "likely_match": null
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

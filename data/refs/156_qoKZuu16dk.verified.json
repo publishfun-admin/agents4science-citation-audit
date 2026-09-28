@@ -479,7 +479,7 @@
    "container": "Advances in Neural Information Processing Systems",
    "type": "chapter",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -502,7 +502,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "497e4b08279d69513e4d2313a7fd9a55dfb73273",
+    "title": "LightGBM: A Highly Efficient Gradient Boosting Decision Tree",
+    "year": 2017,
+    "first_author": "Guolin Ke",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "DBLP": "conf/nips/KeMFWCMYL17",
+     "MAG": "2753094203",
+     "CorpusId": 3815895
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -558,7 +580,7 @@
    "container": "European Heart Journal",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -581,7 +603,26 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "crossref_title",
+   "match": {
+    "source": "crossref",
+    "doi": "10.5603/kp.2016.0172",
+    "title": "2016 ESC Guidelines for the management of atrial fibrillation developed in collaboration with EACTS",
+    "year": 2016,
+    "first_author": "Kirchhof",
+    "container": "Kardiologia Polska",
+    "type": "journal-article",
+    "score": 63.952457
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -600,7 +641,7 @@
    "container": "New England Journal of Medicine",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -623,7 +664,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "7fc6bcc72977bd126cd6768ca7c949493ad6c0f2",
+    "title": "Catheter Ablation for Atrial Fibrillation with Heart Failure",
+    "year": 2018,
+    "first_author": "N. Marrouche",
+    "container": "New England Journal of Medicine",
+    "ext": {
+     "MAG": "2786781710",
+     "DOI": "10.1056/NEJMoa1707855",
+     "CorpusId": 205102316,
+     "PubMed": "29385358"
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1009,5 +1073,7 @@
    },
    "evidence": []
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

@@ -1,0 +1,339 @@
+{
+ "pdf": "268_W9TBkcaRLJ.pdf",
+ "n_entries": 8,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 2,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "References Solon Barocas, Moritz Hardt, and Arvind Narayanan. Fairness-aware machine learning: Practical challenges and lessons learned. Communications of the ACM, 62(2):75\u201384, 2019.",
+   "title": "Fairness-aware machine learning: Practical challenges and lessons learned",
+   "authors": [
+    "Barocas",
+    "Hardt",
+    "Narayanan"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Communications of the ACM",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3308560.3320086",
+    "title": "Fairness-Aware Machine Learning: Practical Challenges and Lessons Learned",
+    "year": 2019,
+    "first_author": "Bird",
+    "container": "Companion Proceedings of The 2019 World Wide Web Conference",
+    "type": "proceedings-article",
+    "score": 56.68395
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "Sam Corbett-Davies and Sharad Goel. The measure and mismeasure of fairness: A critical review of fair machine learning. arXiv preprint arXiv:1808.00023, 2018.",
+   "title": "The measure and mismeasure of fairness: A critical review of fair machine learning",
+   "authors": [
+    "Corbett-Davies",
+    "Goel"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": "1808.00023",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "1808.00023"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1561/9781638283317",
+      "title": "Causal Fairness Analysis: A Causal Toolkit for Fair Machine Learning",
+      "year": 2024,
+      "first_author": "Ple\u010dko",
+      "container": "",
+      "type": "monograph",
+      "score": 31.932684
+     },
+     "metrics": {
+      "title_sim": 69.56521739130434,
+      "containment": 0.5,
+      "partial_ratio": 64.17910447761194,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "Cynthia Dwork, Moritz Hardt, Toniann Pitassi, Omer Reingold, and Richard Zemel. Fairness through awareness. In Proceedings of the 3rd innovations in theoretical computer science conference, pages 214\u2013226, 2012.",
+   "title": "Fairness through awareness",
+   "authors": [
+    "Dwork",
+    "Hardt",
+    "Pitassi",
+    "Reingold",
+    "Zemel"
+   ],
+   "year": 2012,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 3rd innovations in theoretical computer science conference",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/2090236.2090255",
+    "title": "Fairness through awareness",
+    "year": 2012,
+    "first_author": "Dwork",
+    "container": "Proceedings of the 3rd Innovations in Theoretical Computer Science Conference",
+    "type": "proceedings-article",
+    "score": 40.851917
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "Moritz Hardt, Eric Price, and Nati Srebro. Equality of opportunity in supervised learning. In Advances in Neural Information Processing Systems, pages 3315\u20133323, 2016.",
+   "title": "Equality of opportunity in supervised learning",
+   "authors": [
+    "Hardt",
+    "Price",
+    "Srebro"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.4159/9780674042872-009",
+      "title": "8 Equality of Opportunity for Health",
+      "year": 1998,
+      "first_author": null,
+      "container": "Equality of Opportunity",
+      "type": "book-chapter",
+      "score": 26.70964
+     },
+     "metrics": {
+      "title_sim": 77.96610169491525,
+      "containment": 0.667,
+      "partial_ratio": 75.0,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "James Jordon, Jinsung Yoon, and Mihaela Van Der Schaar. Synthetic data generation: A survey. IEEE Transactions on Pattern Analysis and Machine Intelligence, 44(11):7327\u20137347, 2022.",
+   "title": "Synthetic data generation: A survey",
+   "authors": [
+    "Jordon",
+    "Yoon",
+    "Schaar"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.3390/math10152733",
+    "title": "Survey on Synthetic Data Generation, Evaluation Methods and GANs",
+    "year": 2022,
+    "first_author": "Figueira",
+    "container": "Mathematics",
+    "type": "journal-article",
+    "score": 28.760576
+   },
+   "metrics": {
+    "title_sim": 96.96969696969697,
+    "containment": 0.571,
+    "partial_ratio": 63.49206349206349,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "Ninareh Mehrabi, Fred Morstatter, Nripsuta Saxena, Kristina Lerman, and Aram Galstyan. A survey on bias and fairness in machine learning. ACM Computing Surveys, 54(6):1\u201335, 2021.",
+   "title": "A survey on bias and fairness in machine learning",
+   "authors": [
+    "Mehrabi",
+    "Morstatter",
+    "Saxena",
+    "Lerman",
+    "Galstyan"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "ACM Computing Surveys",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3457607",
+    "title": "A Survey on Bias and Fairness in Machine Learning",
+    "year": 2022,
+    "first_author": "Mehrabi",
+    "container": "ACM Computing Surveys",
+    "type": "journal-article",
+    "score": 43.281113
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "Rich Zemel, Yu Wu, Kevin Swersky, Toni Pitassi, and Cynthia Dwork. Learning fair representations. In International conference on machine learning, pages 325\u2013333. PMLR, 2013.",
+   "title": "Learning fair representations",
+   "authors": [
+    "Zemel",
+    "Wu",
+    "Swersky",
+    "Pitassi",
+    "Dwork"
+   ],
+   "year": 2013,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International conference on machine learning",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.3233/ia-190034",
+      "title": "Learning fair models and representations",
+      "year": 2020,
+      "first_author": "Oneto",
+      "container": "Intelligenza Artificiale",
+      "type": "journal-article",
+      "score": 23.690643
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 0.75,
+      "partial_ratio": 72.5,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "Brian Hu Zhang, Blake Lemoine, and Margaret Mitchell. Adversarial debiasing. In Conference on Fairness, Accountability and Transparency, pages 335\u2013344. PMLR, 2018.",
+   "title": "Adversarial debiasing",
+   "authors": [
+    "Zhang",
+    "Lemoine",
+    "Mitchell"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Conference on Fairness, Accountability and Transparency",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1016/j.nlp.2024.100092",
+      "title": "Contrastive adversarial gender debiasing",
+      "year": 2024,
+      "first_author": "Torres",
+      "container": "Natural Language Processing Journal",
+      "type": "journal-article",
+      "score": 23.61686
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 0.5,
+      "partial_ratio": 67.5,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  }
+ ]
+}

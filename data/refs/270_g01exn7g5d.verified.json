@@ -1,0 +1,304 @@
+{
+ "pdf": "270_g01exn7g5d.pdf",
+ "n_entries": 7,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "[1] Qiskit contributors (2023). Qiskit: An Open-source Framework for Quantum Computing. https://qiskit. org.",
+   "title": "Qiskit: An Open-source Framework for Quantum Computing",
+   "authors": [
+    "contributors"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://qiskit"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.22331/q-2018-01-31-49",
+      "title": "ProjectQ: an open source software framework for quantum computing",
+      "year": 2018,
+      "first_author": "Steiger",
+      "container": "Quantum",
+      "type": "journal-article",
+      "score": 33.517193
+     },
+     "metrics": {
+      "title_sim": 92.92929292929293,
+      "containment": 0.714,
+      "partial_ratio": 76.5625,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    },
+    {
+     "step": "urls_not_live",
+     "url_status": {
+      "https://qiskit": "error"
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2] Barenco, A., Bennett, C. H., Cleve, R., DiVincenzo, D. P., Margolus, N., Shor, P., Sleator, T., Smolin, J. A., & Weinfurter, H. (1995). Elementary gates for quantum computation. Physical Review A, 52(5), 3457\u20133467.",
+   "title": "Elementary gates for quantum computation",
+   "authors": [
+    "Barenco",
+    "Bennett",
+    "Cleve",
+    "DiVincenzo",
+    "Margolus",
+    "Shor",
+    "Sleator",
+    "Smolin",
+    "Weinfurter"
+   ],
+   "year": 1995,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Physical Review A",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1103/physreva.52.3457",
+    "title": "Elementary gates for quantum computation",
+    "year": 1995,
+    "first_author": "Barenco",
+    "container": "Physical Review A",
+    "type": "journal-article",
+    "score": 41.75409
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3] Nielsen, M. A., & Chuang, I. L. (2010). Quantum Computation and Quantum Information: 10th Anniversary Edition. Cambridge University Press.",
+   "title": "Quantum Computation and Quantum Information",
+   "authors": [
+    "Nielsen",
+    "Chuang"
+   ],
+   "year": 2010,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1017/cbo9780511976667",
+    "title": "Quantum Computation and Quantum Information",
+    "year": 2012,
+    "first_author": "Nielsen",
+    "container": "",
+    "type": "monograph",
+    "score": 39.642426
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4] Wang, Z., Feng, C., Poon, C., Huang, L., Zhao, X., Ma, Y., Fu, T., & Liu, X.-Y. (2025). Reinforcement Learning for Quantum Circuit Design: Using Matrix Representations. arXiv:2501.16509v1 [quant-ph].",
+   "title": "Reinforcement Learning for Quantum Circuit Design: Using Matrix Representations",
+   "authors": [
+    "Wang",
+    "Feng",
+    "Poon",
+    "Huang",
+    "Zhao",
+    "Ma",
+    "Fu",
+    "Liu"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": "2501.16509v1",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2501.16509v1"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/qce65121.2025.10327",
+      "title": "Quantum Circuit Structure Optimization for Quantum Reinforcement Learning",
+      "year": 2025,
+      "first_author": "Son",
+      "container": "2025 IEEE International Conference on Quantum Computing and Engineering (QCE)",
+      "type": "proceedings-article",
+      "score": 32.929184
+     },
+     "metrics": {
+      "title_sim": 78.50467289719626,
+      "containment": 0.714,
+      "partial_ratio": 52.05479452054795,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5] Wang, Z., Feng, C., Huang, L., Zhao, X., Ma, Y., & Liu, X.-Y. (2024). Reinforcement Learning for Quantum Circuit Design. Proceedings of the Quantum Computing Applications and Systems Workshop (QCAS) at ICCAD 2024, Submission #7.",
+   "title": "Reinforcement Learning for Quantum Circuit Design",
+   "authors": [
+    "Wang",
+    "Feng",
+    "Huang",
+    "Zhao",
+    "Ma",
+    "Liu"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the Quantum Computing Applications and Systems Workshop (QCAS) at ICCAD 2024, Submission #7",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.5220/0012383200003636",
+    "title": "A Reinforcement Learning Environment for Directed Quantum Circuit Synthesis",
+    "year": 2024,
+    "first_author": "K\u00f6lle",
+    "container": "Proceedings of the 16th International Conference on Agents and Artificial Intelligence",
+    "type": "proceedings-article",
+    "score": 32.227016
+   },
+   "metrics": {
+    "title_sim": 92.3076923076923,
+    "containment": 0.571,
+    "partial_ratio": 65.33333333333333,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[6] Liu, X.-Y., & Zhang, Z. (2023). Classical Simulation of Quantum Circuits Using Reinforcement Learning: Parallel Environments and Benchmark. NeurIPS 2023 Datasets and Benchmarks Track.",
+   "title": "Classical Simulation of Quantum Circuits Using Reinforcement Learning: Parallel Environments and Benchmark",
+   "authors": [
+    "Liu",
+    "Zhang"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "NeurIPS 2023 Datasets and Benchmarks Track",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/075280-2931",
+    "title": "Classical Simulation of Quantum Circuits: Parallel Environments and Benchmark",
+    "year": 2023,
+    "first_author": "Liu",
+    "container": "Advances in Neural Information Processing Systems 36",
+    "type": "proceedings-article",
+    "score": 57.689426
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 72.36842105263158,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[7] Wong, T. (2022). Introduction to Classical and Quantum Computing. Omaha, NE: Rooted Grove. ISBN 979-8-9855931-0-5 (Paperback); ISBN 979-8-9855931-1-2 (Hardcover).",
+   "title": "Introduction to Classical and Quantum Computing",
+   "authors": [
+    "Wong"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/978-3-030-98339-0",
+    "title": "Introduction to Quantum Computing",
+    "year": 2022,
+    "first_author": "Wong",
+    "container": "",
+    "type": "book",
+    "score": 30.642433
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 66.66666666666667,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  }
+ ]
+}

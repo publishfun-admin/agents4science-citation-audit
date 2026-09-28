@@ -1,0 +1,202 @@
+{
+ "pdf": "327_waBE0e7gx9.pdf",
+ "n_entries": 5,
+ "fallback": "marker-guided",
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "J. Pearl. Causality. Cambridge University Press, 2009.",
+   "title": "Causality",
+   "authors": [
+    "Pearl"
+   ],
+   "year": 2009,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-marker-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1017/cbo9780511803161",
+    "title": "Causality",
+    "year": 2009,
+    "first_author": "Pearl",
+    "container": "",
+    "type": "monograph",
+    "score": 30.245007
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "J. Peters, D. Janzing, and B. Scho\u0308lkopf. Elements of Causal Inference. MIT Press, 2017.",
+   "title": "Elements of Causal Inference",
+   "authors": [
+    "Peters",
+    "Janzing",
+    "Sch\u00f6lkopf"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-marker-guided",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.4159/9780674982697-006",
+      "title": "3. Causal Inference in Randomized Experiments",
+      "year": 2017,
+      "first_author": null,
+      "container": "Observation and Experiment",
+      "type": "book-chapter",
+      "score": 28.25845
+     },
+     "metrics": {
+      "title_sim": 72.72727272727272,
+      "containment": 0.5,
+      "partial_ratio": 65.78947368421053,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "A. d\u2019Avila Garcez and L. Lamb. Neurosymbolic AI: The third wave. AI Review, 2023.",
+   "title": "Neurosymbolic AI: The third wave",
+   "authors": [
+    "Garcez",
+    "Lamb"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "AI Review",
+   "type": "article-journal",
+   "parser": "anystyle-marker-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/s10462-023-10448-w",
+    "title": "Neurosymbolic AI: the 3rd wave",
+    "year": 2023,
+    "first_author": "Garcez",
+    "container": "Artificial Intelligence Review",
+    "type": "journal-article",
+    "score": 42.720795
+   },
+   "metrics": {
+    "title_sim": 93.33333333333333,
+    "containment": 0.667,
+    "partial_ratio": 89.65517241379311,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "T. A. Davis. Graph algorithms via GraphBLAS. SIAM News, 2019.",
+   "title": "Graph algorithms via GraphBLAS",
+   "authors": [
+    "Davis"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "SIAM News",
+   "type": "article-journal",
+   "parser": "anystyle-marker-guided",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/ipdpsw.2019.00054",
+      "title": "RedisGraph GraphBLAS Enabled Graph Database",
+      "year": 2019,
+      "first_author": "Cailliau",
+      "container": "2019 IEEE International Parallel and Distributed Processing Symposium Workshops (IPDPSW)",
+      "type": "proceedings-article",
+      "score": 32.339706
+     },
+     "metrics": {
+      "title_sim": 66.66666666666666,
+      "containment": 0.4,
+      "partial_ratio": 57.831325301204814,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "A. G. de Bruin and J. C. Schafer. Isotonic regression for probability calibration. Journal of Machine Learning Research, 2005. Responsible AI Statement This submission adheres to the NeurIPS Code of Ethics. All results are computational and experiment- free. The agent never recommends clinical use; certificates are designed to de-risk overclaiming 7 by (i) penalizing spurious shortcuts with typed d-separation, (ii) reporting counterfactual ablation drops, (iii) bounding causal effects via IV envelopes rather than point estimates when assumptions are weak, and (iv) applying conservative translational gating (TFI) for safety. We release prompts, typed schemas, certificate calculators, and governance logs to enable external audit. Potential risks include misuse of ranked lists; mitigations include red-team notes, license terms forbidding clinical inference, and watermarking of certificate reports. AI Contribution Disclosure This work is primarily authored by an AI agent. The agent: (i) generated hypotheses and typed schemas; (ii) designed the scoring functional and certificates; (iii) wrote the manuscript. Humans provided high-level instructions to maintain anonymity, ensured the scope remained theory-only (no wet-lab claims), and verified formatting per Agents4Science. The agent produced all math, algorithms, and appendices. Reproducibility Statement We provide: (1) a deterministic theory-only reference implementation (typed executors, certificate calculators, calibration scripts) with seeds and container specs; (2) a governance table of sources, versions, cut dates for catalogue features; (3) a CI script that re-computes all certificate values for the micro-example and verifies zero leakage events. No external web access or wet-lab results are required to reproduce the paper\u2019s numbers. A    Proofs \\ invariance of Rev, Proof of Theorem 1. By multiplicativity of the gated PathConf,             d TFI d to single- edge removal, and non-circular recomputation with w3 = 0, one obtains the bound with CP as defined. Proof of Theorem 2. Under typed d-sep, shortcut evidence cannot appear along admissible meta- paths. Choose calibrated w\u22c6 and isotonic \u03d5\u22c6 so that the certified terms dominate any residual (d Rev, d TFI) from spurious paths. Monotonicity preserves the strict margin. \\ Proof of Theorem 3. Let g(P ) = PathConf(P        ) be multiplicative over edges; removing edges multiplies g by factors \u2264 1. The marginal decrement from removing e given S is smaller for larger S, establishing diminishing returns and submodularity. Nonnegativity and normalization follow from construction. B    Micro-Example: Full Arithmetic Augment Sec. 6 with a decoy path Pspur : d \u2192 x\u2032 \u2192 y (missing Pathway). The typed executor spur ) = 0. For the valid P , ablations over {d \u2192 x, x \u2192 p, p \u2192 y} \\ rejects it; thus PathConf(P give normalized drops; the maximum is \u2206Scorecf . Using w = (0.35, 0.2, 0.25, 0.2), TFI  d = 0.5, d = 0.6, IV = 0.55, and \u03b1 = \u03b2 = \u03b3 = 1 , we obtain MCS Rev                                                       [ = 1 \u2206Scorecf + 0.35. If the largest 3 \u2032 ablation is x \u2192 p (schema-violating), then s = 0.2 \u00b7 0.6 + 0.2 \u00b7 0.5 = 0.22; with PathConf \\ = 0.504, the base s0 = 0.3964 and \u2206Scorecf = 0.1764. C    Governance Table Template A machine-readable (CSV/JSON) table listing: source name, version, cut date t0 , parser checksum, schema checksum, certificate script checksum, and CI status (0/\u27e8N \u27e9 leakage violations). The CI recipe replays the micro-example, regenerates all values deterministically, and verifies checksums. 8",
+   "title": "Isotonic regression for probability calibration",
+   "authors": [
+    "Bruin",
+    "Schafer"
+   ],
+   "year": 2005,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "0.2), TFI d = 0.5, d = 0.6, IV = 0.55, and \u03b1 = \u03b2 = \u03b3 = 1 , we obtain MCS Rev [ = 1 \u2206Scorecf + 0.35",
+   "type": "article-journal",
+   "parser": "anystyle-marker-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1002/0470011815.b2a09023",
+    "title": "Isotonic Regression",
+    "year": 2005,
+    "first_author": "McDonald",
+    "container": "Encyclopedia of Biostatistics",
+    "type": "other",
+    "score": 31.044067
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  }
+ ]
+}

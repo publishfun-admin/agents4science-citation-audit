@@ -1,0 +1,642 @@
+{
+ "pdf": "178_TaHeCGU69A.pdf",
+ "n_entries": 16,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 2,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "References Drury B Crawley et al. Energyplus: creating a new-generation building energy simulation program. Energy and Buildings, 33(4):319\u2013331, 2001.",
+   "title": "Energyplus: creating a new-generation building energy simulation program",
+   "authors": [
+    "Crawley"
+   ],
+   "year": 2001,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Energy and Buildings",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/s0378-7788(00)00114-6",
+    "title": "EnergyPlus: creating a new-generation building energy simulation program",
+    "year": 2001,
+    "first_author": "Crawley",
+    "container": "Energy and Buildings",
+    "type": "journal-article",
+    "score": 56.19185
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "Sanford A Klein, William A Beckman, John W Mitchell, et al. TRNSYS 18: A Transient System Simulation Program. Solar Energy Laboratory, UW-Madison, 2017.",
+   "title": "TRNSYS 18: A Transient System Simulation Program",
+   "authors": [
+    "Klein",
+    "Beckman",
+    "Mitchell"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1115/1.2870836",
+      "title": "Developments to the TRNSYS Simulation Program",
+      "year": 1995,
+      "first_author": "Fiksel",
+      "container": "Journal of Solar Energy Engineering",
+      "type": "journal-article",
+      "score": 30.502249
+     },
+     "metrics": {
+      "title_sim": 71.42857142857143,
+      "containment": 0.75,
+      "partial_ratio": 66.66666666666667,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "D Wang, M Wetter, W Zuo, and T Nouidui. The modelica buildings library. In Proceedings of BS2015, 2015.",
+   "title": "The modelica buildings library",
+   "authors": [
+    "Wang",
+    "Wetter",
+    "Zuo",
+    "Nouidui"
+   ],
+   "year": 2015,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of BS2015",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.26868/25222708.2015.2405",
+    "title": "Modelica Buildings Library 2.0",
+    "year": 2015,
+    "first_author": "Wetter",
+    "container": "Building Simulation Conference Proceedings",
+    "type": "proceedings-article",
+    "score": 30.167587
+   },
+   "metrics": {
+    "title_sim": 92.85714285714286,
+    "containment": 1.0,
+    "partial_ratio": 93.33333333333333,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "J Drgona, J Arroyo, I Cupeiro Figueroa, et al. All you need to know about model predictive control for buildings. Annual Reviews in Control, 50:190\u2013232, 2020.",
+   "title": "All you need to know about model predictive control for buildings",
+   "authors": [
+    "Drgona",
+    "Arroyo",
+    "Figueroa"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Annual Reviews in Control",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.arcontrol.2020.09.001",
+    "title": "All you need to know about model predictive control for buildings",
+    "year": 2020,
+    "first_author": "Drgo\u0148a",
+    "container": "Annual Reviews in Control",
+    "type": "journal-article",
+    "score": 50.81533
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "S Heinen and et al. Flexibility in buildings: A review of demand response and control. Renewable and Sustainable Energy Reviews, 153:111763, 2022.",
+   "title": "Flexibility in buildings: A review of demand response and control",
+   "authors": [
+    "and"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Renewable and Sustainable Energy Reviews",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1016/j.enbuild.2018.08.003",
+      "title": "Measures to improve energy demand flexibility in buildings for demand response (DR): A review",
+      "year": 2018,
+      "first_author": "Chen",
+      "container": "Energy and Buildings",
+      "type": "journal-article",
+      "score": 35.021572
+     },
+     "metrics": {
+      "title_sim": 86.72566371681415,
+      "containment": 0.778,
+      "partial_ratio": 67.0391061452514,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "Tanveer Ahmad and Huan Chen. A comprehensive review on energy consumption forecasting in buildings. Renewable and Sustainable Energy Reviews, 72:1103\u20131122, 2017.",
+   "title": "A comprehensive review on energy consumption forecasting in buildings",
+   "authors": [
+    "Ahmad",
+    "Chen"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Renewable and Sustainable Energy Reviews",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.21203/rs.3.rs-5916961/v1",
+      "title": "Household Energy Consumption Forecasting Using LSTM and ARIMA Models: A Comprehensive Analysis",
+      "year": 2025,
+      "first_author": "Bandlamudi",
+      "container": "",
+      "type": "posted-content",
+      "score": 33.15971
+     },
+     "metrics": {
+      "title_sim": 80.0,
+      "containment": 0.444,
+      "partial_ratio": 60.215053763440864,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "W Li et al. Machine learning for building energy prediction and control: A review. Energy and Buildings, 224:110132, 2021.",
+   "title": "Machine learning for building energy prediction and control: A review",
+   "authors": [
+    "Li"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Energy and Buildings",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1016/j.apenergy.2021.116452",
+      "title": "A review of machine learning in building load prediction",
+      "year": 2021,
+      "first_author": "Zhang",
+      "container": "Applied Energy",
+      "type": "journal-article",
+      "score": 37.222847
+     },
+     "metrics": {
+      "title_sim": 89.10891089108911,
+      "containment": 0.833,
+      "partial_ratio": 75.0,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "F Smarra, A Jain, et al. Data-driven model predictive control using random forests for building energy management. Applied Energy, 226:1252\u20131272, 2018.",
+   "title": "Data-driven model predictive control using random forests for building energy management",
+   "authors": [
+    "Smarra",
+    "Jain"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Applied Energy",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.apenergy.2018.02.126",
+    "title": "Data-driven model predictive control using random forests for building energy optimization and climate control",
+    "year": 2018,
+    "first_author": "Smarra",
+    "container": "Applied Energy",
+    "type": "journal-article",
+    "score": 69.23126
+   },
+   "metrics": {
+    "title_sim": 93.33333333333333,
+    "containment": 0.833,
+    "partial_ratio": 81.81818181818181,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "Tianzhen Hong and et al. Transfer learning for building energy prediction: A review. Energy and Buildings, 203:109516, 2020.",
+   "title": "Transfer learning for building energy prediction: A review",
+   "authors": [
+    "and"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Energy and Buildings",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.26868/25222708.2025.1638",
+      "title": "Transfer learning of surrogate models for building energy prediction",
+      "year": 2025,
+      "first_author": "Herbinger",
+      "container": "Building Simulation Conference Proceedings",
+      "type": "proceedings-article",
+      "score": 29.435825
+     },
+     "metrics": {
+      "title_sim": 91.42857142857143,
+      "containment": 0.714,
+      "partial_ratio": 70.58823529411764,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "Robert Mahnke et al. Transfer learning for cross-building energy modeling with small data. Applied Energy, 307:118244, 2022.",
+   "title": "Transfer learning for cross-building energy modeling with small data",
+   "authors": [
+    "Mahnke"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Applied Energy",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1016/j.buildenv.2022.109060",
+      "title": "Stacking deep transfer learning for short-term cross building energy prediction with different seasonality and occupant schedule",
+      "year": 2022,
+      "first_author": "Park",
+      "container": "Building and Environment",
+      "type": "journal-article",
+      "score": 30.491669
+     },
+     "metrics": {
+      "title_sim": 61.224489795918366,
+      "containment": 0.357,
+      "partial_ratio": 60.747663551401864,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "Peng Li et al. Domain adaptation for building energy prediction under covariate shift. In IEEE PES General Meeting, 2022.",
+   "title": "Domain adaptation for building energy prediction under covariate shift",
+   "authors": [
+    "Li"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE PES General Meeting",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1016/j.enbuild.2026.117017",
+      "title": "TSDAM: A time-series domain adaptation model for building energy prediction under data scarcity",
+      "year": 2026,
+      "first_author": "Lei",
+      "container": "Energy and Buildings",
+      "type": "journal-article",
+      "score": 35.525795
+     },
+     "metrics": {
+      "title_sim": 87.09677419354838,
+      "containment": 0.455,
+      "partial_ratio": 76.0233918128655,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": true,
+   "idx": 12,
+   "raw": "ASHRAE. ASHRAE Guideline 14-2014: Measurement of Energy, Demand, and Water Savings.",
+   "title": "ASHRAE Guideline 14-2014: Measurement of Energy, Demand, and Water Savings",
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2172/1159790",
+      "title": "ANSI/ASHRAE/IES Standard 90.1-2013 Determination of Energy Savings: Qualitative Analysis",
+      "year": 2014,
+      "first_author": "Halverson",
+      "container": "",
+      "type": "report",
+      "score": 31.094517
+     },
+     "metrics": {
+      "title_sim": 63.29113924050633,
+      "containment": 0.3,
+      "partial_ratio": 59.72222222222222,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "American Society of Heating, Refrigerating and Air-Conditioning Engineers, 2014.",
+   "title": null,
+   "authors": [],
+   "year": 2014,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2172/227706",
+      "title": "Building on the shoulders of giants. Annual report, July 1, 1994--June 30, 1995",
+      "year": 1996,
+      "first_author": null,
+      "container": "",
+      "type": "report",
+      "score": 58.009663
+     },
+     "metrics": {
+      "title_sim": 0,
+      "containment": 0.0,
+      "partial_ratio": 36.73469387755102,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "EVO. International Performance Measurement and Verification Protocol: Concepts and Options. Efficiency Valuation Organization, 2012.",
+   "title": "International Performance Measurement and Verification Protocol: Concepts and Options",
+   "authors": [],
+   "year": 2012,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Efficiency Valuation Organization",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1201/9780849338960.ch108",
+      "title": "International Performance Measurement and Verification Protocol (IPMVP)",
+      "year": 2007,
+      "first_author": "Waltz",
+      "container": "Encyclopedia of Energy Engineering and Technology - 3 Volume Set (Print Version)",
+      "type": "book-chapter",
+      "score": 28.342957
+     },
+     "metrics": {
+      "title_sim": 95.45454545454545,
+      "containment": 0.833,
+      "partial_ratio": 93.43065693430657,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "E Wilson, C Metzger, S Horowitz, and R Hendron. Resstock: High-resolution modeling of the u.s. housing stock. NREL Technical Report, 2017. NREL/TP-5500-68570.",
+   "title": "Resstock: High-resolution modeling of the u.s. housing stock",
+   "authors": [
+    "Wilson",
+    "Metzger",
+    "Horowitz",
+    "Hendron"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "report",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.26868/25222708.2025.1632",
+      "title": "Sensitivity analysis of US housing stock building characteristics using ResStock",
+      "year": 2025,
+      "first_author": "Supriyatno",
+      "container": "Building Simulation Conference Proceedings",
+      "type": "proceedings-article",
+      "score": 28.44485
+     },
+     "metrics": {
+      "title_sim": 62.31884057971015,
+      "containment": 0.429,
+      "partial_ratio": 52.5,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 16,
+   "raw": "S Wolf and et al. D2.1e\u2013catalogue of energy retrofit measures for non-residential buildings. iNSPiRe FP7 Project Report, 2014. European Commission FP7.",
+   "title": "D2.1e\u2013catalogue of energy retrofit measures for non-residential buildings",
+   "authors": [
+    "and"
+   ],
+   "year": 2014,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "iNSPiRe FP7 Project Report",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1016/j.enbuild.2026.117205",
+      "title": "Evaluating strategic retrofit measures for energy-efficient residential buildings with artificial intelligence",
+      "year": 2026,
+      "first_author": "Werner",
+      "container": "Energy and Buildings",
+      "type": "journal-article",
+      "score": 42.748077
+     },
+     "metrics": {
+      "title_sim": 81.30081300813008,
+      "containment": 0.5,
+      "partial_ratio": 58.65384615384615,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  }
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
+}

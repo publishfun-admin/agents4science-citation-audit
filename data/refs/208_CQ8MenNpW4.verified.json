@@ -1,0 +1,1089 @@
+{
+ "pdf": "208_CQ8MenNpW4.pdf",
+ "n_entries": 22,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 2,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "References [1] Joshua Achiam, David Held, Aviv Tamar, and Pieter Abbeel. Constrained policy optimization. In International Conference on Machine Learning, 2017.",
+   "title": "Constrained policy optimization",
+   "authors": [
+    "References [1] Joshua Achiam, David Held, Aviv Tamar, and Pieter Abbeel."
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Conference on Machine Learning",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/icra.2017.7989379",
+      "title": "PLATO: Policy learning using adaptive trajectory optimization",
+      "year": 2017,
+      "first_author": "Kahn",
+      "container": "2017 IEEE International Conference on Robotics and Automation (ICRA)",
+      "type": "proceedings-article",
+      "score": 29.608198
+     },
+     "metrics": {
+      "title_sim": 76.0,
+      "containment": 0.5,
+      "partial_ratio": 53.333333333333336,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "7a4193d0b042643a8bb9ec262ed7f9d509bdb12e",
+    "title": "Constrained Policy Optimization",
+    "year": 2017,
+    "first_author": "Joshua Achiam",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "MAG": "2952192457",
+     "DBLP": "journals/corr/AchiamHTA17",
+     "ArXiv": "1705.10528",
+     "CorpusId": 10647707
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2] Mohammed Alshiekh, Roderick Bloem, R\"udiger Ehlers, Bettina K\"onighofer, Scott Niekum, and Ufuk Topcu. Safe reinforcement learning via shielding. In AAAI Conference on Artificial Intelligence, 2018.",
+   "title": "Safe reinforcement learning via shielding",
+   "authors": [
+    "Alshiekh",
+    "Roderick Bloem",
+    "K\"onighofer",
+    "Niekum",
+    "Topcu"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "AAAI Conference on Artificial Intelligence",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1609/aaai.v32i1.11797",
+    "title": "Safe Reinforcement Learning via Shielding",
+    "year": 2018,
+    "first_author": "Alshiekh",
+    "container": "Proceedings of the AAAI Conference on Artificial Intelligence",
+    "type": "journal-article",
+    "score": 48.46439
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3] Aaron D. Ames, Samuel Coogan, Magnus Egerstedt, Gennaro Notomista, Koushil Sreenath, and Paulo Tabuada. Control barrier functions: Theory and applications. In European Control Conference, 2019.",
+   "title": "Control barrier functions: Theory and applications",
+   "authors": [
+    "Ames",
+    "Coogan",
+    "Egerstedt",
+    "Notomista",
+    "Sreenath",
+    "Tabuada"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "European Control Conference",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.23919/ecc.2019.8796030",
+    "title": "Control Barrier Functions: Theory and Applications",
+    "year": 2019,
+    "first_author": "Ames",
+    "container": "2019 18th European Control Conference (ECC)",
+    "type": "proceedings-article",
+    "score": 43.477966
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4] Felix Berkenkamp, Matteo P. Turchetta, Angela P. Schoellig, and Andreas Krause. Safe model-based reinforcement learning with stability guarantees. In Neural Information Processing Systems, 2017.",
+   "title": "Safe model-based reinforcement learning with stability guarantees",
+   "authors": [
+    "Berkenkamp",
+    "Turchetta",
+    "Schoellig",
+    "Krause"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Neural Information Processing Systems",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1002/9781119808602.ch7",
+      "title": "Piecewise Learning and Control with Stability Guarantees",
+      "year": 2022,
+      "first_author": null,
+      "container": "Model\u2010Based Reinforcement Learning",
+      "type": "other",
+      "score": 39.323143
+     },
+     "metrics": {
+      "title_sim": 76.03305785123968,
+      "containment": 0.6,
+      "partial_ratio": 69.64285714285714,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "88880d88073a99107bbc009c9f4a4197562e1e44",
+    "title": "Safe Model-based Reinforcement Learning with Stability Guarantees",
+    "year": 2017,
+    "first_author": "Felix Berkenkamp",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "DBLP": "conf/nips/BerkenkampTS017",
+     "MAG": "2952905979",
+     "ArXiv": "1705.08551",
+     "CorpusId": 636855
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5] Yinlam Chow, Ofir Nachum, Edgar A. Du\u00e9\u00f1ez-Guzm\u00e1n, and Mohammad Ghavamzadeh. A lyapunov-based approach to safe reinforcement learning. Neural Information Processing Systems, 2018.",
+   "title": "A lyapunov-based approach to safe reinforcement learning",
+   "authors": [
+    "Chow",
+    "Nachum",
+    "Du\u00e9\u00f1ez-Guzm\u00e1n",
+    "Ghavamzadeh"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Neural Information Processing Systems",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/cdc49753.2023.10383742",
+      "title": "Stable and Safe Reinforcement Learning via a Barrier-Lyapunov Actor-Critic Approach",
+      "year": 2023,
+      "first_author": "Zhao",
+      "container": "2023 62nd IEEE Conference on Decision and Control (CDC)",
+      "type": "proceedings-article",
+      "score": 33.49039
+     },
+     "metrics": {
+      "title_sim": 91.2621359223301,
+      "containment": 0.556,
+      "partial_ratio": 56.62650602409638,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "65fb1b37c41902793ac65db3532a6e51631a9aff",
+    "title": "A Lyapunov-based Approach to Safe Reinforcement Learning",
+    "year": 2018,
+    "first_author": "Yinlam Chow",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "MAG": "2964340170",
+     "DBLP": "conf/nips/ChowNDG18",
+     "ArXiv": "1805.07708",
+     "CorpusId": 29160737
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[6] Gal Dalal, Krishnamurthy Dvijotham, Matej Ve\u010der\u00edk, Todd Hester, Cosmin Paduraru, and Yuval Tassa. Safe exploration in continuous action spaces. arXiv preprint arXiv:1801.08757, 2018.",
+   "title": "Safe exploration in continuous action spaces",
+   "authors": [
+    "Dalal",
+    "Dvijotham",
+    "Ve\u010der\u00edk",
+    "Hester",
+    "Paduraru",
+    "Tassa"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": "1801.08757",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "1801.08757"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/978-3-319-60916-4_24",
+      "title": "Inference-Enabled Information-Theoretic Exploration of Continuous Action Spaces",
+      "year": 2018,
+      "first_author": "Bai",
+      "container": "Springer Proceedings in Advanced Robotics",
+      "type": "book-chapter",
+      "score": 28.326529
+     },
+     "metrics": {
+      "title_sim": 90.0,
+      "containment": 0.5,
+      "partial_ratio": 63.29113924050633,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "7f567df97dc7e099d96e6c590ddf5aef8c5b11c4",
+    "title": "Safe Exploration in Continuous Action Spaces",
+    "year": 2018,
+    "first_author": "Gal Dalal",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-1801-08757",
+     "ArXiv": "1801.08757",
+     "MAG": "2784465508",
+     "CorpusId": 711218
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[7] Danijar Hafner, Timothy Lillicrap, Mohammad Norouzi, and Jimmy Ba. Dream to control: Learning behaviors by latent imagination. In International Conference on Learning Representations, 2020.",
+   "title": "Dream to control: Learning behaviors by latent imagination",
+   "authors": [
+    "Hafner",
+    "Lillicrap",
+    "Norouzi",
+    "Ba"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Conference on Learning Representations",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/lra.2024.3417114",
+      "title": "Dream to Adapt: Meta Reinforcement Learning by Latent Context Imagination and MDP Imagination",
+      "year": 2024,
+      "first_author": "Wen",
+      "container": "IEEE Robotics and Automation Letters",
+      "type": "journal-article",
+      "score": 28.879911
+     },
+     "metrics": {
+      "title_sim": 81.25,
+      "containment": 0.5,
+      "partial_ratio": 60.86956521739131,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "270b95262f2100c279c4c65ef2521473841ca8ad",
+    "title": "Dream to Control: Learning Behaviors by Latent Imagination",
+    "year": 2019,
+    "first_author": "Danijar Hafner",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "DBLP": "conf/iclr/HafnerLB020",
+     "ArXiv": "1912.01603",
+     "MAG": "2992977009",
+     "CorpusId": 208547755
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[8] Hannes Helgers, Andreas Schmidt, and J\"org Strube. Towards autonomous process control\u2013digital twin for cho cell-based antibody manufacturing using a dynamic metabolic model. Processes, 2022.",
+   "title": "Towards autonomous process control\u2013digital twin for cho cell-based antibody manufacturing using a dynamic metabolic model",
+   "authors": [
+    "Helgers",
+    "Schmidt",
+    "Strube"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Processes",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.3390/pr10020316",
+    "title": "Towards Autonomous Process Control\u2014Digital Twin for CHO Cell-Based Antibody Manufacturing Using a Dynamic Metabolic Model",
+    "year": 2022,
+    "first_author": "Helgers",
+    "container": "Processes",
+    "type": "journal-article",
+    "score": 99.21552
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[9] Michael Janner, Justin Fu, Marvin Zhang, and Sergey Levine. When to trust your model: Model-based policy optimization. Neural Information Processing Systems, 2019.",
+   "title": "When to trust your model: Model-based policy optimization",
+   "authors": [
+    "Janner",
+    "Fu",
+    "Zhang",
+    "Levine"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.4552867",
+      "title": "How to Use Your Model: Model-Based Reinforcement Learning with Model-Free Policy Optimization",
+      "year": 2023,
+      "first_author": "Dong",
+      "container": "",
+      "type": "posted-content",
+      "score": 32.464752
+     },
+     "metrics": {
+      "title_sim": 87.64044943820224,
+      "containment": 0.583,
+      "partial_ratio": 55.434782608695656,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "9001698e033524864d4d45f051a5ba362d4afd9e",
+    "title": "When to Trust Your Model: Model-Based Policy Optimization",
+    "year": 2019,
+    "first_author": "Michael Janner",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "DBLP": "journals/corr/abs-1906-08253",
+     "MAG": "2970277495",
+     "ArXiv": "1906.08253",
+     "CorpusId": 195068981
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[10] Donald R. Jones, Matthias Schonlau, and William J. Welch. Efficient global optimization of expensive black-box functions. Journal of Global Optimization, 13:455\u2013492, 1998.",
+   "title": "Efficient global optimization of expensive black-box functions",
+   "authors": [
+    "Jones",
+    "Schonlau",
+    "Welch"
+   ],
+   "year": 1998,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Global Optimization",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1023/a:1008306431147",
+    "title": "Efficient Global Optimization of Expensive Black-Box Functions",
+    "year": 1998,
+    "first_author": "Jones",
+    "container": "Journal of Global Optimization",
+    "type": "journal-article",
+    "score": 62.141304
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "[11] Jonas Linkerh\"agner, Niklas Freymuth, Philipp Michael Scheikl, and Osman S. Cicek. Grounding graph network simulators using physical sensor observations. In International Conference on Learning Representations, 2023.",
+   "title": "Grounding graph network simulators using physical sensor observations",
+   "authors": [
+    "Linkerh\"agner",
+    "Freymuth",
+    "Scheikl",
+    "Cicek"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Conference on Learning Representations",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/ssci52147.2023.10372004",
+      "title": "Intrusion Detection for Wireless Sensor Network Using Graph Neural Networks",
+      "year": 2023,
+      "first_author": "Gharavian",
+      "container": "2023 IEEE Symposium Series on Computational Intelligence (SSCI)",
+      "type": "proceedings-article",
+      "score": 25.188581
+     },
+     "metrics": {
+      "title_sim": 62.5,
+      "containment": 0.375,
+      "partial_ratio": 48.0,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "[12] Ilya Loshchilov and Frank Hutter. Decoupled weight decay regularization. In International Conference on Learning Representations, 2019.",
+   "title": "Decoupled weight decay regularization",
+   "authors": [
+    "Loshchilov",
+    "Hutter"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Conference on Learning Representations",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1609/aaai.v35i8.16837",
+      "title": "Understanding Decoupled and Early Weight Decay",
+      "year": 2021,
+      "first_author": "Bjorck",
+      "container": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "type": "journal-article",
+      "score": 24.172344
+     },
+     "metrics": {
+      "title_sim": 74.57627118644068,
+      "containment": 0.6,
+      "partial_ratio": 60.86956521739131,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "d07284a6811f1b2745d91bdb06b040b57f226882",
+    "title": "Decoupled Weight Decay Regularization",
+    "year": 2017,
+    "first_author": "I. Loshchilov",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "DBLP": "conf/iclr/LoshchilovH19",
+     "MAG": "2950541952",
+     "CorpusId": 53592270
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "[13] Thomas M. Moerland, Joost Broekens, and Catholijn M. Jonker. Model-based reinforcement learning: A survey. arXiv preprint arXiv:2006.16712, 2023.",
+   "title": "Model-based reinforcement learning: A survey",
+   "authors": [
+    "Moerland",
+    "Broekens",
+    "Jonker"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2006.16712",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1561/9781638280576",
+    "title": "Model-based Reinforcement Learning: A Survey",
+    "year": 2023,
+    "first_author": "Moerland",
+    "container": "",
+    "type": "monograph",
+    "score": 47.427765
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2006.16712"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "[14] Harish Narayanan, Lars Behle, and Martin F. Luna. Hybrid\u2013ekf: Hybrid model coupled with extended kalman filter for real-time monitoring and control of mammalian cell culture. Biotechnology and Bioengineering, 2020.",
+   "title": "Hybrid\u2013ekf: Hybrid model coupled with extended kalman filter for real-time monitoring and control of mammalian cell culture",
+   "authors": [
+    "Narayanan",
+    "Behle",
+    "Luna"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Biotechnology and Bioengineering",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1002/bit.27437",
+    "title": "Hybrid\u2010EKF: Hybrid model coupled with extended Kalman filter for real\u2010time monitoring and control of mammalian cell culture",
+    "year": 2020,
+    "first_author": "Narayanan",
+    "container": "Biotechnology and Bioengineering",
+    "type": "journal-article",
+    "score": 90.45412
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "[15] Seo-Young Park, Sun-Jong Kim, and Cheol-Hwan Park. Data-driven prediction models for forecasting multistep ahead profiles of mammalian cell culture toward bioprocess digital twins. Biotechnology and Bioengineering, 2023.",
+   "title": "Data-driven prediction models for forecasting multistep ahead profiles of mammalian cell culture toward bioprocess digital twins",
+   "authors": [
+    "Park",
+    "Kim",
+    "Park"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Biotechnology and Bioengineering",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1002/bit.28405",
+    "title": "Data\u2010driven prediction models for forecasting multistep ahead profiles of mammalian cell culture toward\u00a0bioprocess digital twins",
+    "year": 2023,
+    "first_author": "Park",
+    "container": "Biotechnology and Bioengineering",
+    "type": "journal-article",
+    "score": 98.2436
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 16,
+   "raw": "[16] M. Rashedi, Mina Rafiei, and Matthew Demers. Machine learning-based model predictive controller design for cell culture processes. Biotechnology and Bioengineering, 2023.",
+   "title": "Machine learning-based model predictive controller design for cell culture processes",
+   "authors": [
+    "Rashedi",
+    "Rafiei",
+    "Demers"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Biotechnology and Bioengineering",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1002/bit.28486",
+    "title": "Machine learning\u2010based model predictive controller design for cell culture processes",
+    "year": 2023,
+    "first_author": "Rashedi",
+    "container": "Biotechnology and Bioengineering",
+    "type": "journal-article",
+    "score": 59.100956
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 17,
+   "raw": "[17] Carl Edward Rasmussen and Christopher K. I. Williams. Gaussian Processes for Machine Learning. MIT Press, 2006.",
+   "title": "Gaussian Processes for Machine Learning",
+   "authors": [
+    "Rasmussen",
+    "Williams"
+   ],
+   "year": 2006,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.7551/mitpress/3206.001.0001",
+    "title": "Gaussian Processes for Machine Learning",
+    "year": 2005,
+    "first_author": "Rasmussen",
+    "container": "",
+    "type": "monograph",
+    "score": 39.506554
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 18,
+   "raw": "[18] Angel Romero, Yunlong Song, and Davide Scaramuzza. Actor-critic model predictive control. In IEEE International Conference on Robotics and Automation, 2023.",
+   "title": "Actor-critic model predictive control",
+   "authors": [
+    "Romero",
+    "Song",
+    "Scaramuzza"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE International Conference on Robotics and Automation",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/icra57147.2024.10610381",
+    "title": "Actor-Critic Model Predictive Control",
+    "year": 2024,
+    "first_author": "Romero",
+    "container": "2024 IEEE International Conference on Robotics and Automation (ICRA)",
+    "type": "proceedings-article",
+    "score": 46.065746
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 19,
+   "raw": "[19] Tom Schaul, John Quan, Ioannis Antonoglou, and David Silver. Prioritized experience replay. In International Conference on Learning Representations, 2016.",
+   "title": "Prioritized experience replay",
+   "authors": [
+    "Schaul",
+    "Quan",
+    "Antonoglou",
+    "Silver"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Conference on Learning Representations",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.21203/rs.3.rs-3440928/v1",
+      "title": "Prioritized Experience Replay Based on dynamics priority",
+      "year": 2023,
+      "first_author": "Li",
+      "container": "",
+      "type": "posted-content",
+      "score": 34.020508
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 0.5,
+      "partial_ratio": 67.85714285714286,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "c6170fa90d3b2efede5a2e1660cb23e1c824f2ca",
+    "title": "Prioritized Experience Replay",
+    "year": 2015,
+    "first_author": "T. Schaul",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "MAG": "2201581102",
+     "ArXiv": "1511.05952",
+     "DBLP": "journals/corr/SchaulQAS15",
+     "CorpusId": 13022595
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 20,
+   "raw": "[20] John Schulman, Filip Wolski, Prafulla Dhariwal, Alec Radford, and Oleg Klimov. Proximal policy optimization algorithms. In arXiv preprint arXiv:1707.06347, 2017.",
+   "title": "Proximal policy optimization algorithms",
+   "authors": [
+    "Schulman",
+    "Wolski",
+    "Dhariwal",
+    "Radford",
+    "Klimov"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": "1707.06347",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "1707.06347",
+    "title": "Proximal Policy Optimization Algorithms",
+    "year": 2017,
+    "first_author": "John Schulman"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 21,
+   "raw": "[21] Niranjan Srinivas, Andreas Krause, Sham M. Kakade, and Matthias Seeger. Gaussian process optimization in the bandit setting: No regret and experimental design. In International Conference on Machine Learning, 2010.",
+   "title": "Gaussian process optimization in the bandit setting: No regret and experimental design",
+   "authors": [
+    "Srinivas",
+    "Krause",
+    "Kakade",
+    "Seeger"
+   ],
+   "year": 2010,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Conference on Machine Learning",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/isit45174.2021.9518176",
+      "title": "Regret Bounds for Safe Gaussian Process Bandit Optimization",
+      "year": 2021,
+      "first_author": "Amani",
+      "container": "2021 IEEE International Symposium on Information Theory (ISIT)",
+      "type": "proceedings-article",
+      "score": 42.9678
+     },
+     "metrics": {
+      "title_sim": 84.31372549019608,
+      "containment": 0.714,
+      "partial_ratio": 64.40677966101696,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 22,
+   "raw": "[22] Richard S. Sutton and Andrew G. Barto. Reinforcement Learning: An Introduction. MIT Press, 2 edition, 2018.",
+   "title": "Reinforcement Learning: An Introduction",
+   "authors": [
+    "Sutton",
+    "Barto"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/978-1-4615-3618-5_1",
+    "title": "Introduction: The Challenge of Reinforcement Learning",
+    "year": 1992,
+    "first_author": "Sutton",
+    "container": "Reinforcement Learning",
+    "type": "book-chapter",
+    "score": 34.50972
+   },
+   "metrics": {
+    "title_sim": 95.89041095890411,
+    "containment": 0.75,
+    "partial_ratio": 67.3076923076923,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  }
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
+}

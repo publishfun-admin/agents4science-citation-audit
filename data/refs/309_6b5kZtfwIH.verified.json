@@ -1,0 +1,355 @@
+{
+ "pdf": "309_6b5kZtfwIH.pdf",
+ "n_entries": 8,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "References David M Blei, Andrew Y Ng, and Michael I Jordan. Latent dirichlet allocation. Journal of machine Learning research, 3(Jan):993\u20131022, 2003.",
+   "title": "Latent dirichlet allocation",
+   "authors": [
+    "Blei",
+    "Ng",
+    "Jordan"
+   ],
+   "year": 2003,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of machine Learning research",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.7551/mitpress/1120.003.0082",
+    "title": "Latent Dirichlet Allocation",
+    "year": 2002,
+    "first_author": "Blei",
+    "container": "Advances in Neural Information Processing Systems 14",
+    "type": "book-chapter",
+    "score": 37.097527
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "Haoru Chen, Xiaocheng Zhang, Yang Zhou, Mengjiao Bao, and Peng Yan. Grafting learning is all you need. In KDD 2024 Workshop OAGChallenge Cup, 2024a. URL https://openreview. net/forum?id=s2hVfSPTbU. Kunlong Chen, Junjun Wang, Zhaoqun Chen, Kunjin Chen, and Yitian Chen. Llm-powered ensemble learning for paper source tracing: A gpu-free approach. In KDD 2024 Workshop OAG-Challenge Cup, 2024b. URL https://openreview.net/forum?id=H5wbKuYjxR. Daryl E. Chubin and Eugene Garfield. Is citation analysis a legitimate evaluation tool? Scientometrics, 2(1):91\u201394, 1980. doi: 10.1007/BF02016602. URL https://doi.org/10.1007/BF02016602.",
+   "title": "Grafting learning is all you need",
+   "authors": [
+    "Chen",
+    "Zhang",
+    "Zhou",
+    "Bao",
+    "Yan",
+    "Chen",
+    "Wang",
+    "Chen",
+    "Chen",
+    "Chen",
+    "Chubin",
+    "Garfield"
+   ],
+   "year": 1980,
+   "doi": "10.1007/BF02016602",
+   "arxiv": null,
+   "urls": [
+    "https://openreview",
+    "https://openreview.net/forum?id=H5wbKuYjxR",
+    "https://doi.org/10.1007/BF02016602"
+   ],
+   "container": "KDD 2024 Workshop OAGChallenge Cup, 2024a. URL",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/bf02016602",
+    "title": "Is citation analysis a legitimate evaluation tool?",
+    "year": 1980,
+    "first_author": "Chubin",
+    "container": "Scientometrics",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 48.78048780487805,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "MM KESSLER. Bibliographic coupling between scientific papers. 14:10\u201325, 1963.",
+   "title": "Bibliographic coupling between scientific papers",
+   "authors": [
+    "KESSLER"
+   ],
+   "year": 1963,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1002/asi.5090140103",
+    "title": "Bibliographic coupling between scientific papers",
+    "year": 1963,
+    "first_author": "Kessler",
+    "container": "American Documentation",
+    "type": "journal-article",
+    "score": 54.882236
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "Thomas N Kipf and Max Welling. Semi-supervised classification with graph convolutional networks. In International Conference on Learning Representations, 2017.",
+   "title": "Semi-supervised classification with graph convolutional networks",
+   "authors": [
+    "Kipf",
+    "Welling"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Conference on Learning Representations",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3178876.3186116",
+    "title": "Dual Graph Convolutional Networks for Graph-Based Semi-Supervised Classification",
+    "year": 2018,
+    "first_author": "Zhuang",
+    "container": "Proceedings of the 2018 World Wide Web Conference on World Wide Web - WWW '18",
+    "type": "proceedings-article",
+    "score": 42.16685
+   },
+   "metrics": {
+    "title_sim": 95.9349593495935,
+    "containment": 0.778,
+    "partial_ratio": 61.42857142857143,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "Quoc V. Le and Tomas Mikolov.           Distributed representations of sentences and documents. abs/1405.4053, 2014.",
+   "title": "Distributed representations of sentences and documents",
+   "authors": [
+    "Le",
+    "Mikolov"
+   ],
+   "year": 2014,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.32614/cran.package.doc2vec",
+      "title": "doc2vec: Distributed Representations of Sentences, Documents and Topics",
+      "year": 2020,
+      "first_author": "Wijffels",
+      "container": "CRAN: Contributed Packages",
+      "type": "dataset",
+      "score": 39.193253
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 0.667,
+      "partial_ratio": 81.15942028985508,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "Henry Small. Co-citation in the scientific literature: A new measure of the relationship between two documents. J. Am. Soc. Inf. Sci., 24(4):265\u2013269, 1973. doi: 10.1002/ASI.4630240406. URL https://doi.org/10.1002/asi.4630240406. Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N Gomez, \u0141ukasz Kaiser, and Illia Polosukhin. Attention is all you need. In Advances in neural information processing systems, pp. 5998\u20136008, 2017.",
+   "title": "Co-citation in the scientific literature: A new measure of the relationship between two documents",
+   "authors": [
+    "Small",
+    "Vaswani",
+    "Shazeer",
+    "Parmar",
+    "Uszkoreit",
+    "Jones",
+    "Gomez",
+    "Kaiser",
+    "Polosukhin"
+   ],
+   "year": 1973,
+   "doi": "10.1002/ASI.4630240406",
+   "arxiv": null,
+   "urls": [
+    "https://doi.org/10.1002/asi.4630240406"
+   ],
+   "container": "Advances in neural information processing systems",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1002/asi.4630240406",
+    "title": "Co\u2010citation in the scientific literature: A new measure of the relationship between two documents",
+    "year": 1973,
+    "first_author": "Small",
+    "container": "Journal of the American Society for Information Science",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "Fanjin Zhang, Kun Cao, Yukuo Cen, Jifan Yu, Da Yin, and Jie Tang. Pst-bench: Tracing and benchmarking the source of publications. In Computing Research Repository, 2024.",
+   "title": "Pst-bench: Tracing and benchmarking the source of publications",
+   "authors": [
+    "Zhang",
+    "Cao",
+    "Cen",
+    "Yu",
+    "Yin",
+    "Tang"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Computing Research Repository",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/icra57147.2024.10610755",
+      "title": "GSL-Bench: High Fidelity Gas Source Localization Benchmarking Tool",
+      "year": 2024,
+      "first_author": "Erwich",
+      "container": "2024 IEEE International Conference on Robotics and Automation (ICRA)",
+      "type": "proceedings-article",
+      "score": 27.901617
+     },
+     "metrics": {
+      "title_sim": 63.492063492063494,
+      "containment": 0.333,
+      "partial_ratio": 53.84615384615385,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "Shupeng Zhong, Xinger Li, Shushan Jin, and Yang Yang. The solution for the pst-kdd-2024 oagchallenge. In KDD 2024 Workshop OAGChallenge Cup, 2024. URL https://openreview. net/forum?id=Ov0EZ7PuuI.",
+   "title": "The solution for the pst-kdd-2024 oagchallenge",
+   "authors": [
+    "Zhong",
+    "Li",
+    "Jin",
+    "Yang"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://openreview"
+   ],
+   "container": "KDD 2024 Workshop OAGChallenge Cup",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/pst62714.2024",
+      "title": "2024 21st Annual International Conference on Privacy, Security and Trust (PST)",
+      "year": 2024,
+      "first_author": null,
+      "container": "",
+      "type": "proceedings",
+      "score": 24.110933
+     },
+     "metrics": {
+      "title_sim": 42.73504273504273,
+      "containment": 0.222,
+      "partial_ratio": 40.32258064516129,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    },
+    {
+     "step": "urls_not_live",
+     "url_status": {
+      "https://openreview": "error"
+     }
+    }
+   ],
+   "likely_match": null
+  }
+ ]
+}

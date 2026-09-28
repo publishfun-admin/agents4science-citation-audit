@@ -214,7 +214,7 @@
    "container": "International conference on learning representations",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -237,7 +237,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "603caed9430283db6c7f43169555c8d18e97a281",
+    "title": "Matrix capsules with EM routing",
+    "year": 2018,
+    "first_author": "Geoffrey E. Hinton",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "MAG": "2785994986",
+     "DBLP": "conf/iclr/HintonSF18",
+     "CorpusId": 65203110
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -643,7 +665,7 @@
    "container": "Advances in neural information processing systems",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -666,7 +688,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "3c8a456509e6c0805354bd40a35e3f2dbf8069b1",
+    "title": "PyTorch: An Imperative Style, High-Performance Deep Learning Library",
+    "year": 2019,
+    "first_author": "Adam Paszke",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "MAG": "2970971581",
+     "ArXiv": "1912.01703",
+     "DBLP": "conf/nips/PaszkeGMLBCKLGA19",
+     "CorpusId": 202786778
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -939,5 +984,7 @@
    },
    "evidence": []
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

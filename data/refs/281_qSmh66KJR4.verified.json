@@ -1,0 +1,1048 @@
+{
+ "pdf": "281_qSmh66KJR4.pdf",
+ "n_entries": 25,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "[1]   Haitham Bou Ammar et al. \u201cAn automated measure of mdp similarity for transfer in reinforcement learning\u201d. In: 28th AAAI Conference on Artificial Intelligence, AAAI 2014. AI Access Foundation. 2014, pp. 31\u201337.",
+   "title": "An automated measure of mdp similarity for transfer in reinforcement learning\u201d",
+   "authors": [
+    "Ammar"
+   ],
+   "year": 2014,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "28th AAAI Conference on Artificial Intelligence, AAAI 2014. AI Access Foundation",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.26481/dis.20130613hb",
+    "title": "Automated transfer in reinforcement learning",
+    "year": 2021,
+    "first_author": "Bou Ammar",
+    "container": "",
+    "type": "dissertation",
+    "score": 46.870445
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 86.36363636363636,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2]   Selim Amrouni et al. \u201cABIDES-Gym: Gym Environments for Multi-Agent Discrete Event Simulation and Application to Financial Markets\u201d. In: CoRR abs/2110.14771 (2021). arXiv: 2110.14771. URL: https://arxiv.org/abs/2110.14771.",
+   "title": "ABIDES-Gym: Gym Environments for Multi-Agent Discrete Event Simulation and Application to Financial Markets\u201d",
+   "authors": [
+    "Amrouni"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": "2110.14771",
+   "urls": [
+    "https://arxiv.org/abs/2110.14771"
+   ],
+   "container": "CoRR",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2110.14771"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1016/j.ifacol.2021.08.093",
+      "title": "Modeling Production Scheduling Problems as Reinforcement Learning Environments based on Discrete-Event Simulation and OpenAI Gym",
+      "year": 2021,
+      "first_author": "Lang",
+      "container": "IFAC-PapersOnLine",
+      "type": "journal-article",
+      "score": 49.161896
+     },
+     "metrics": {
+      "title_sim": 66.95652173913044,
+      "containment": 0.385,
+      "partial_ratio": 60.44444444444444,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3]   W. Brian Arthur. \u201cComplexity and the economy\u201d. In: Science 284.5411 (1999), pp. 107\u2013109.",
+   "title": "Complexity and the economy\u201d",
+   "authors": [
+    "Arthur"
+   ],
+   "year": 1999,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Science",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1126/science.284.5411.107",
+    "title": "Complexity and the Economy",
+    "year": 1999,
+    "first_author": "Arthur",
+    "container": "Science",
+    "type": "journal-article",
+    "score": 32.12738
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4]   Hans B\u00fchler et al. Deep Hedging. 2018. arXiv: 1802.03042 [q-fin.CP]. URL: https: //arxiv.org/abs/1802.03042.",
+   "title": null,
+   "authors": [
+    "B\u00fchler"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": "1802.03042",
+   "urls": [
+    "https:"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "1802.03042"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.15662/ijeetr.2026.0802388",
+      "title": "1. S. Mustofa et al., \u201cA Comprehensive Review on Plant Leaf Disease Detection using Deep Learning,\u201d arXiv preprint, 2023. 2. H. Rehana et al., \u201cPlant Disease Detection using Region-Based Convolutional Neural Network,\u201d arXiv preprint, 2023. 3. Y. Zhang et",
+      "year": 2026,
+      "first_author": "Lakshmisri",
+      "container": "International Journal of Engineering &amp; Extended Technologies Research",
+      "type": "journal-article",
+      "score": 43.16195
+     },
+     "metrics": {
+      "title_sim": 0,
+      "containment": 0.12,
+      "partial_ratio": 43.87755102040817,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    },
+    {
+     "step": "urls_not_live",
+     "url_status": {
+      "https:": "error"
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5]   David Byrd, Maria Hybinette, and Tucker Hybinette Balch. \u201cABIDES: Towards High-Fidelity Market Simulation for AI Research\u201d. In: CoRR abs/1904.12066 (2019). arXiv: 1904.12066. URL: http://arxiv.org/abs/1904.12066.",
+   "title": "ABIDES: Towards High-Fidelity Market Simulation for AI Research\u201d",
+   "authors": [
+    "Byrd",
+    "Hybinette",
+    "Balch"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": "1904.12066",
+   "urls": [
+    "http://arxiv.org/abs/1904.12066"
+   ],
+   "container": "CoRR abs/1904.12066",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "1904.12066"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1136/postgradmedj-2019-fpm.9",
+      "title": "9\u2005Low fidelity simulation in a high fidelity world",
+      "year": 2019,
+      "first_author": "Scott",
+      "container": "Postgraduate Medical Journal",
+      "type": "journal-article",
+      "score": 27.258223
+     },
+     "metrics": {
+      "title_sim": 73.84615384615384,
+      "containment": 0.667,
+      "partial_ratio": 60.0,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[6]   Kshama Dwarakanath, Tucker Balch, and Svitlana Vyetrenko. ABIDES-Economist: Agent-Based Simulator of Economic Systems with Learning Agents. 2025. arXiv: 2402 . 09563 [cs.MA]. URL: https://arxiv.org/abs/2402.09563.",
+   "title": "ABIDES-Economist: Agent-Based Simulator of Economic Systems with Learning Agents",
+   "authors": [
+    "Dwarakanath",
+    "Balch",
+    "Vyetrenko"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": "2402.09563",
+   "urls": [
+    "https://arxiv.org/abs/2402.09563"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2402.09563"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/s10458-026-09732-0",
+      "title": "Learning the value systems of agents with preference-based and inverse reinforcement learning",
+      "year": 2026,
+      "first_author": "Holgado-S\u00e1nchez",
+      "container": "Autonomous Agents and Multi-Agent Systems",
+      "type": "journal-article",
+      "score": 31.061394
+     },
+     "metrics": {
+      "title_sim": 67.48466257668711,
+      "containment": 0.556,
+      "partial_ratio": 48.38709677419355,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[7]   Annalisa Fabretti. \u201cOn the problem of calibrating an agent based model for financial markets\u201d. In: Journal of Economic Interaction and Coordination 8.2 (2013), pp. 277\u2013293.",
+   "title": "On the problem of calibrating an agent based model for financial markets\u201d",
+   "authors": [
+    "Fabretti"
+   ],
+   "year": 2013,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Economic Interaction and Coordination",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/s11403-012-0096-3",
+    "title": "On the problem of calibrating an agent based model for financial markets",
+    "year": 2013,
+    "first_author": "Fabretti",
+    "container": "Journal of Economic Interaction and Coordination",
+    "type": "journal-article",
+    "score": 57.352467
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[8]   Fernando Fern\u00e1ndez and Manuela Veloso. \u201cLearning domain structure through probabilistic policy reuse in reinforcement learning\u201d. In: Progress in Artificial Intelligence 2.1 (2013), pp. 13\u201327.",
+   "title": "Learning domain structure through probabilistic policy reuse in reinforcement learning\u201d",
+   "authors": [
+    "Fern\u00e1ndez",
+    "Veloso"
+   ],
+   "year": 2013,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Progress in Artificial Intelligence",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/s13748-012-0026-6",
+    "title": "Learning domain structure through probabilistic policy reuse in reinforcement learning",
+    "year": 2013,
+    "first_author": "Fern\u00e1ndez",
+    "container": "Progress in Artificial Intelligence",
+    "type": "journal-article",
+    "score": 66.286575
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[9]   Dhananjay K Gode and Shyam Sunder. \u201cAllocative efficiency of markets with zero-intelligence traders: Market as a partial substitute for individual rationality\u201d. In: Journal of political economy 101.1 (1993), pp. 119\u2013137.",
+   "title": "Allocative efficiency of markets with zero-intelligence traders: Market as a partial substitute for individual rationality\u201d",
+   "authors": [
+    "Gode",
+    "Sunder"
+   ],
+   "year": 1993,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of political economy",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1086/261868",
+    "title": "Allocative Efficiency of Markets with Zero-Intelligence Traders: Market as a Partial Substitute for Individual Rationality",
+    "year": 1993,
+    "first_author": "Gode",
+    "container": "Journal of Political Economy",
+    "type": "journal-article",
+    "score": 95.354256
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[10]   Mandeep Goyal and Qusay H. Mahmoud. \u201cA Systematic Review of Synthetic Data Generation Techniques Using Generative AI\u201d. In: Electronics 13.17 (2024). ISSN: 2079-9292. DOI: 10.",
+   "title": "A Systematic Review of Synthetic Data Generation Techniques Using Generative AI\u201d",
+   "authors": [
+    "Goyal",
+    "Mahmoud"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Electronics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.3390/electronics13173509",
+    "title": "A Systematic Review of Synthetic Data Generation Techniques Using Generative AI",
+    "year": 2024,
+    "first_author": "Goyal",
+    "container": "Electronics",
+    "type": "journal-article",
+    "score": 64.75156
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": true,
+   "idx": 11,
+   "raw": "3390/electronics13173509. URL: https://www.mdpi.com/2079-9292/13/17/3509.",
+   "title": null,
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://www.mdpi.com/2079-9292/13/17/3509"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.3390/electronics13173509",
+      "title": "A Systematic Review of Synthetic Data Generation Techniques Using Generative AI",
+      "year": 2024,
+      "first_author": "Goyal",
+      "container": "Electronics",
+      "type": "journal-article",
+      "score": 36.04321
+     },
+     "metrics": {
+      "title_sim": 0,
+      "containment": 0.0,
+      "partial_ratio": 26.415094339622648,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    },
+    {
+     "step": "urls_not_live",
+     "url_status": {
+      "https://www.mdpi.com/2079-9292/13/17/3509": 403
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "[11]   John H Holland. \u201cStudying complex adaptive systems\u201d. In: Journal of systems science and complexity 19.1 (2006), pp. 1\u20138.",
+   "title": "Studying complex adaptive systems\u201d",
+   "authors": [
+    "Holland"
+   ],
+   "year": 2006,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of systems science and complexity",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/s11424-006-0001-z",
+    "title": "Studying Complex Adaptive Systems",
+    "year": 2006,
+    "first_author": "Holland",
+    "container": "Journal of Systems Science and Complexity",
+    "type": "journal-article",
+    "score": 41.299606
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "[12]   Narasimhan Jegadeesh and Sheridan Titman. \u201cReturns to buying winners and selling losers: Implications for stock market efficiency\u201d. In: The Journal of finance 48.1 (1993), pp. 65\u201391.",
+   "title": "Returns to buying winners and selling losers: Implications for stock market efficiency\u201d",
+   "authors": [
+    "Jegadeesh",
+    "Titman"
+   ],
+   "year": 1993,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "The Journal of finance",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1111/j.1540-6261.1993.tb04702.x",
+    "title": "Returns to Buying Winners and Selling Losers: Implications for Stock Market Efficiency",
+    "year": 1993,
+    "first_author": "JEGADEESH",
+    "container": "The Journal of Finance",
+    "type": "journal-article",
+    "score": 89.812614
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "[13]   Micha\u00ebl Karpe et al. \u201cMulti-agent reinforcement learning in a realistic limit order book market simulation\u201d. In: Proceedings of the First ACM International Conference on AI in Finance. ICAIF \u201920. ACM, Oct. 2020, pp. 1\u20137. DOI: 10.1145/3383455.3422570. URL: http://dx.doi.org/10.1145/3383455.3422570.",
+   "title": "Multi-agent reinforcement learning in a realistic limit order book market simulation\u201d",
+   "authors": [
+    "Karpe"
+   ],
+   "year": 2020,
+   "doi": "10.1145/3383455.3422570",
+   "arxiv": null,
+   "urls": [
+    "http://dx.doi.org/10.1145/3383455.3422570"
+   ],
+   "container": "Proceedings of the First ACM International Conference on AI in Finance. ICAIF \u201920",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3383455.3422570",
+    "title": "Multi-agent reinforcement learning in a realistic limit order book market simulation",
+    "year": 2020,
+    "first_author": "Karpe",
+    "container": "Proceedings of the First ACM International Conference on AI in Finance",
+    "type": "proceedings-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "[14]   David W. Lu. Agent Inspired Trading Using Recurrent Reinforcement Learning and LSTM Neural Networks. 2017. arXiv: 1707.07338 [q-fin.CP]. URL: https://arxiv.org/abs/ 1707.07338.",
+   "title": "Agent Inspired Trading Using Recurrent Reinforcement Learning and LSTM Neural Networks",
+   "authors": [
+    "Lu"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": "1707.07338",
+   "urls": [
+    "https://arxiv.org/abs/"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "1707.07338"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.70675/76b8aad8z7ab4z4db5z8d5bz256af37bba7d",
+      "title": "Recurrent neural networks and reinforcement learning : dynamical approaches",
+      "year": 2026,
+      "first_author": "Tallec",
+      "container": "",
+      "type": "dissertation",
+      "score": 39.465923
+     },
+     "metrics": {
+      "title_sim": 83.2,
+      "containment": 0.714,
+      "partial_ratio": 56.16438356164384,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 16,
+   "raw": "[15]   Mohammad Mani, Steve Phelps, and Simon Parsons. \u201cApplications of reinforcement learning in automated market-making\u201d. In: Proceedings of the GAIW: Games, Agents and Incentives Workshops, Montreal, Canada. IFAAMS Np. 2019, pp. 13\u201314.",
+   "title": "Applications of reinforcement learning in automated market-making\u201d",
+   "authors": [
+    "Mani",
+    "Phelps",
+    "Parsons"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the GAIW: Games, Agents and Incentives Workshops",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/978-1-4842-5127-0_4",
+    "title": "Market Making via Reinforcement Learning",
+    "year": 2019,
+    "first_author": "Beysolow II",
+    "container": "Applied Reinforcement Learning with Python",
+    "type": "book-chapter",
+    "score": 34.32902
+   },
+   "metrics": {
+    "title_sim": 94.73684210526315,
+    "containment": 1.0,
+    "partial_ratio": 70.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 17,
+   "raw": "[16]   Volodymyr Mnih et al. \u201cPlaying Atari with Deep Reinforcement Learning\u201d. In: CoRR abs/1312.5602 (2013). arXiv: 1312.5602. URL: http://arxiv.org/abs/1312.5602.",
+   "title": "Playing Atari with Deep Reinforcement Learning\u201d",
+   "authors": [
+    "Mnih"
+   ],
+   "year": 2013,
+   "doi": null,
+   "arxiv": "1312.5602",
+   "urls": [
+    "http://arxiv.org/abs/1312.5602"
+   ],
+   "container": "CoRR abs/1312.5602",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "1312.5602"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/cig.2019.8847950",
+      "title": "Visualization of Deep Reinforcement Learning using Grad-CAM: How AI Plays Atari Games?",
+      "year": 2019,
+      "first_author": "Joo",
+      "container": "2019 IEEE Conference on Games (CoG)",
+      "type": "proceedings-article",
+      "score": 30.758615
+     },
+     "metrics": {
+      "title_sim": 83.54430379746836,
+      "containment": 0.4,
+      "partial_ratio": 59.523809523809526,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 18,
+   "raw": "[17]   Yuriy Nevmyvaka, Yi Feng, and Michael Kearns. \u201cReinforcement learning for optimized trade execution\u201d. In: Proceedings of the 23rd International Conference on Machine Learning. ICML \u201906. Pittsburgh, Pennsylvania, USA: Association for Computing Machinery, 2006, pp. 673\u2013680. ISBN: 1595933832. DOI: 10.1145/1143844.1143929. URL: https://doi. org/10.1145/1143844.1143929.",
+   "title": "Reinforcement learning for optimized trade execution\u201d",
+   "authors": [
+    "Nevmyvaka",
+    "Feng",
+    "Kearns"
+   ],
+   "year": 2006,
+   "doi": "10.1145/1143844.1143929",
+   "arxiv": null,
+   "urls": [
+    "https://doi"
+   ],
+   "container": "Proceedings of the 23rd International Conference on Machine Learning",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/1143844.1143929",
+    "title": "Reinforcement learning for optimized trade execution",
+    "year": 2006,
+    "first_author": "Nevmyvaka",
+    "container": "Proceedings of the 23rd international conference on Machine learning  - ICML '06",
+    "type": "proceedings-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 19,
+   "raw": "[18]   Diego Pino et al. Similarity metrics for Different Market Scenarios in Abides. 2021. arXiv: 2107.09352 [cs.CE]. URL: https://arxiv.org/abs/2107.09352.",
+   "title": "Similarity metrics for Different Market Scenarios in Abides",
+   "authors": [
+    "Pino"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": "2107.09352",
+   "urls": [
+    "https://arxiv.org/abs/2107.09352"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2107.09352"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1017/cbo9781139599993.007",
+      "title": "One President, Different Scenarios: Crisis, Boom, and Market Discipline in Venezuela",
+      "year": 2015,
+      "first_author": null,
+      "container": "The Politics of Market Discipline in Latin America",
+      "type": "book-chapter",
+      "score": 23.164328
+     },
+     "metrics": {
+      "title_sim": 65.9090909090909,
+      "containment": 0.333,
+      "partial_ratio": 48.05194805194806,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 20,
+   "raw": "[19]   Vamsi K. Potluru et al. Synthetic Data Applications in Finance. 2024. arXiv: 2401.00081 [cs.LG]. URL: https://arxiv.org/abs/2401.00081.",
+   "title": "Synthetic Data Applications in Finance",
+   "authors": [
+    "Potluru"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2401.00081",
+   "urls": [
+    "https://arxiv.org/abs/2401.00081"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2401.00081"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.17762/ijisae.v12i23s.7956",
+      "title": "Test Data Management Using Synthetic Data Generation Techniques",
+      "year": 2024,
+      "first_author": null,
+      "container": "International Journal of Intelligent Systems and Applications in Engineering",
+      "type": "journal-article",
+      "score": 23.08305
+     },
+     "metrics": {
+      "title_sim": 60.416666666666664,
+      "containment": 0.429,
+      "partial_ratio": 51.28205128205128,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 21,
+   "raw": "[20]   Thomas Spooner et al. \u201cMarket Making via Reinforcement Learning\u201d. In: CoRR abs/1804.04216 (2018). arXiv: 1804.04216. URL: http://arxiv.org/abs/1804.04216.",
+   "title": "Market Making via Reinforcement Learning\u201d",
+   "authors": [
+    "Spooner"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": "1804.04216",
+   "urls": [
+    "http://arxiv.org/abs/1804.04216"
+   ],
+   "container": "CoRR abs/1804.04216",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.24963/ijcai.2020/633",
+    "title": "Robust Market Making via Adversarial Reinforcement Learning",
+    "year": 2020,
+    "first_author": "Spooner",
+    "container": "Proceedings of the Twenty-Ninth International Joint Conference on Artificial Intelligence",
+    "type": "proceedings-article",
+    "score": 42.344982
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.667,
+    "partial_ratio": 74.57627118644068,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "1804.04216"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 22,
+   "raw": "[21] R.S. Sutton and A.G. Barto. \u201cReinforcement Learning: An Introduction\u201d. In: IEEE Transactions on Neural Networks 9.5 (1998), pp. 1054\u20131054. DOI: 10.1109/TNN.1998.712192.",
+   "title": "Reinforcement Learning: An Introduction\u201d",
+   "authors": [
+    "Sutton",
+    "Barto"
+   ],
+   "year": 1998,
+   "doi": "10.1109/TNN.1998.712192",
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE Transactions on Neural Networks",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/tnn.1998.712192",
+    "title": "Reinforcement Learning: An Introduction",
+    "year": 1998,
+    "first_author": "Sutton",
+    "container": "IEEE Transactions on Neural Networks",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 23,
+   "raw": "[22] Jie Tan et al. Sim-to-Real: Learning Agile Locomotion For Quadruped Robots. 2018. arXiv: 1804.10332 [cs.RO]. URL: https://arxiv.org/abs/1804.10332.",
+   "title": "Sim-to-Real: Learning Agile Locomotion For Quadruped Robots",
+   "authors": [
+    "Tan"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": "1804.10332",
+   "urls": [
+    "https://arxiv.org/abs/1804.10332"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.15607/rss.2018.xiv.010",
+    "title": "Sim-to-Real: Learning Agile Locomotion For Quadruped Robots",
+    "year": 2018,
+    "first_author": "Tan",
+    "container": "Robotics: Science and Systems XIV",
+    "type": "proceedings-article",
+    "score": 64.265884
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "1804.10332"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 24,
+   "raw": "[23] Lisa Torrey and Jude Shavlik. \u201cTransfer learning\u201d. In: Handbook of research on machine learning applications and trends: algorithms, methods, and techniques. IGI Global Scientific Publishing, 2010, pp. 242\u2013264.",
+   "title": "Transfer learning\u201d. In: Handbook of research on machine learning applications and trends: algorithms, methods, and techniques",
+   "authors": [
+    "Torrey",
+    "Shavlik"
+   ],
+   "year": 2010,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.4018/978-1-60566-766-9.ch011",
+    "title": "Transfer Learning",
+    "year": 2010,
+    "first_author": "Torrey",
+    "container": "Handbook of Research on Machine Learning Applications and Trends",
+    "type": "book-chapter",
+    "score": 78.58879
+   },
+   "metrics": {
+    "title_sim": 25.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 25,
+   "raw": "[24] Svitlana Vyetrenko et al. Get Real: Realism Metrics for Robust Limit Order Book Market Simulations. 2019. arXiv: 1912.04941 [q-fin.TR]. URL: https://arxiv.org/abs/ 1912.04941.",
+   "title": "Get Real: Realism Metrics for Robust Limit Order Book Market Simulations",
+   "authors": [
+    "Vyetrenko"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": "1912.04941",
+   "urls": [
+    "https://arxiv.org/abs/"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "1912.04941"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.2648457",
+      "title": "Effects of Limit Order Book Information Level on Market Stability Metrics",
+      "year": 2015,
+      "first_author": "Paddrik",
+      "container": "",
+      "type": "posted-content",
+      "score": 37.0788
+     },
+     "metrics": {
+      "title_sim": 66.66666666666666,
+      "containment": 0.556,
+      "partial_ratio": 52.05479452054795,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  }
+ ]
+}

@@ -1,0 +1,365 @@
+{
+ "pdf": "256_yXYEbPQp8x.pdf",
+ "n_entries": 9,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": false,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "[1] R Blake Hill, Daniel P Raleigh, Angela Lombardi, and William F DeGrado. De novo design of helical bundles as models for understanding protein folding and function. Accounts of Chemical Research, 33(11):745\u2013754, 2000.",
+   "title": "De novo design of helical bundles as models for understanding protein folding and function",
+   "authors": [
+    "Hill",
+    "Raleigh",
+    "Lombardi",
+    "DeGrado"
+   ],
+   "year": 2000,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Accounts of Chemical Research",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1021/ar970004h",
+    "title": "<i>De Novo</i>Design of Helical Bundles as Models for Understanding Protein Folding and Function",
+    "year": 2000,
+    "first_author": "Hill",
+    "container": "Accounts of Chemical Research",
+    "type": "journal-article",
+    "score": 65.771225
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 96.80851063829788,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2] Lynne Regan and William F DeGrado. Characterization of a helical protein designed from first principles. Science, 241(4868):976\u2013978, 1988.",
+   "title": "Characterization of a helical protein designed from first principles",
+   "authors": [
+    "Regan",
+    "DeGrado"
+   ],
+   "year": 1988,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Science",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1126/science.3043666",
+    "title": "Characterization of a Helical Protein Designed from First Principles",
+    "year": 1988,
+    "first_author": "Regan",
+    "container": "Science",
+    "type": "journal-article",
+    "score": 61.56524
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3] OpenAI. Gpt-4o system card. arXiv preprint arXiv:2410.21276, 2024.",
+   "title": "Gpt-4o system card",
+   "authors": [],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2410.21276",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2410.21276"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.59350/n19n1-2q0",
+      "title": "Llama 3.1 405B vs GPT-4o: Which model is better?",
+      "year": 2024,
+      "first_author": "Yang",
+      "container": "",
+      "type": "posted-content",
+      "score": 32.045383
+     },
+     "metrics": {
+      "title_sim": 50.0,
+      "containment": 0.167,
+      "partial_ratio": 40.0,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4] OpenAI. Introducing openai o3 and o4-mini, December 2024. o3 announced December 2024, o4-mini released April 2025.",
+   "title": "Introducing openai o3 and o4-mini",
+   "authors": [],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.5040/bci-0khf.ch-009",
+      "title": "OpenAI and ChatGPT for Enterprises \u2013 Introducing Azure OpenAI",
+      "year": 2023,
+      "first_author": null,
+      "container": "Modern Generative AI with ChatGPT and OpenAI Models",
+      "type": "other",
+      "score": 26.430338
+     },
+     "metrics": {
+      "title_sim": 80.0,
+      "containment": 0.5,
+      "partial_ratio": 58.13953488372092,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": true,
+   "idx": 5,
+   "raw": "[5] OpenAI. Introducing gpt-4.5, 2024. Research preview model.",
+   "title": "Introducing gpt-4.5, 2024",
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.5040/bci-0kga.ch-001",
+      "title": "Introducing Auto-GPT",
+      "year": 2024,
+      "first_author": null,
+      "container": "Unlocking the Power of Auto-GPT and Its Plugins",
+      "type": "other",
+      "score": 27.65517
+     },
+     "metrics": {
+      "title_sim": 85.71428571428571,
+      "containment": 0.667,
+      "partial_ratio": 75.0,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[6] John Jumper, Richard Evans, Alexander Pritzel, Tim Green, Michael Figurnov, Olaf Ronneberger, Kathryn Tunyasuvunakool, Russ Bates, Augustin \u017d\u00eddek, Anna Potapenko, et al. Highly accurate protein structure prediction with alphafold. Nature, 596(7873):583\u2013589, 2021.",
+   "title": "Highly accurate protein structure prediction with alphafold",
+   "authors": [
+    "Jumper",
+    "Evans",
+    "Pritzel",
+    "Green",
+    "Figurnov",
+    "Ronneberger",
+    "Tunyasuvunakool",
+    "Bates",
+    "\u017d\u00eddek",
+    "Potapenko"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.3410/f.740477161.793588722",
+    "title": "Faculty Opinions recommendation of Highly accurate protein structure prediction with AlphaFold.",
+    "year": 2021,
+    "first_author": "Herault",
+    "container": "Faculty Opinions \u2013 Post-Publication Peer Review of the Biomedical Literature",
+    "type": "dataset",
+    "score": 48.639996
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.667,
+    "partial_ratio": 76.59574468085107,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[7] Valerio Mariani, Marco Biasini, Alessandro Barbato, and Torsten Schwede. lddt: a local superposition-free score for comparing protein structures and models using distance difference tests. Bioinformatics, 29(21):2722\u20132728, 2013.",
+   "title": "lddt: a local superposition-free score for comparing protein structures and models using distance difference tests",
+   "authors": [
+    "Mariani",
+    "Biasini",
+    "Barbato",
+    "Schwede"
+   ],
+   "year": 2013,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Bioinformatics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1093/bioinformatics/btt473",
+    "title": "lDDT: a local superposition-free score for comparing protein structures and models using distance difference tests",
+    "year": 2013,
+    "first_author": "Mariani",
+    "container": "Bioinformatics",
+    "type": "journal-article",
+    "score": 99.32207
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[8] Norma J Greenfield. Using circular dichroism spectra to estimate protein secondary structure. Nature Protocols, 1(6):2876\u20132890, 2006.",
+   "title": "Using circular dichroism spectra to estimate protein secondary structure",
+   "authors": [
+    "Greenfield"
+   ],
+   "year": 2006,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature Protocols",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/nprot.2006.202",
+    "title": "Using circular dichroism spectra to estimate protein secondary structure",
+    "year": 2006,
+    "first_author": "Greenfield",
+    "container": "Nature Protocols",
+    "type": "journal-article",
+    "score": 70.86333
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[9] Milot Mirdita, Konstantin Sch\u00fctze, Yoshitaka Moriwaki, Lim Heo, Sergey Ovchinnikov, and Martin Steinegger. Colabfold: making protein folding accessible to all. Nature Methods, 19(6):679\u2013682, 2022.",
+   "title": "Colabfold: making protein folding accessible to all",
+   "authors": [
+    "Mirdita",
+    "Sch\u00fctze",
+    "Moriwaki",
+    "Heo",
+    "Ovchinnikov",
+    "Steinegger"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature Methods",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1101/2021.08.15.456425",
+    "title": "ColabFold - Making protein folding accessible to all",
+    "year": 2021,
+    "first_author": "Mirdita",
+    "container": "",
+    "type": "posted-content",
+    "score": 72.137825
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  }
+ ]
+}

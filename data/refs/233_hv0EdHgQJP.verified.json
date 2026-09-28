@@ -1,0 +1,188 @@
+{
+ "pdf": "233_hv0EdHgQJP.pdf",
+ "n_entries": 4,
+ "fallback": "marker-guided",
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 2,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "Feng, Y., You, H., Zhang, Z., Ji, R., & Shen, Y. (2019). Hypergraph neural networks. In Proceedings of the AAAI Conference on Artificial Intelligence (Vol. 33, pp. 4431-4438). 3",
+   "title": "Hypergraph neural networks",
+   "authors": [
+    "Feng",
+    "You",
+    "Zhang",
+    "Ji",
+    "Shen"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the AAAI Conference on Artificial Intelligence",
+   "type": "paper-conference",
+   "parser": "anystyle-marker-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.24963/ijcai.2019/366",
+    "title": "Dynamic Hypergraph Neural Networks",
+    "year": 2019,
+    "first_author": "Jiang",
+    "container": "Proceedings of the Twenty-Eighth International Joint Conference on Artificial Intelligence",
+    "type": "proceedings-article",
+    "score": 31.470486
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.75,
+    "partial_ratio": 82.35294117647058,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "Wang, X., He, X., Cao, Y., Liu, Y., & Chua, T. S. (2020). H2GCN: Hierarchical hypergraph neural networks for semi-supervised node classification. arXiv preprint arXiv:2006.15380.",
+   "title": "H2GCN: Hierarchical hypergraph neural networks for semi-supervised node classification",
+   "authors": [
+    "Wang",
+    "He",
+    "Cao",
+    "Liu",
+    "Chua"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": "2006.15380",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-marker-guided",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2006.15380"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1016/j.neunet.2024.106929",
+      "title": "I2HGNN: Iterative Interpretable HyperGraph Neural Network for semi-supervised classification",
+      "year": 2025,
+      "first_author": "Zhang",
+      "container": "Neural Networks",
+      "type": "journal-article",
+      "score": 49.511673
+     },
+     "metrics": {
+      "title_sim": 81.81818181818181,
+      "containment": 0.556,
+      "partial_ratio": 80.21978021978022,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "Liu, Z., Wang, Y., Zhao, J., Zhou, J., Li, Y., & Wang, W. Y. (2021). HyperSAGE: A general framework for hypergraph neural networks. arXiv preprint arXiv:2106.05345.",
+   "title": "HyperSAGE: A general framework for hypergraph neural networks",
+   "authors": [
+    "Liu",
+    "Wang",
+    "Zhao",
+    "Zhou",
+    "Li",
+    "Wang"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": "2106.05345",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-marker-guided",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2106.05345"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/iccv48922.2021.00130",
+      "title": "Hypergraph Neural Networks for Hypergraph Matching",
+      "year": 2021,
+      "first_author": "Liao",
+      "container": "2021 IEEE/CVF International Conference on Computer Vision (ICCV)",
+      "type": "proceedings-article",
+      "score": 31.513138
+     },
+     "metrics": {
+      "title_sim": 86.95652173913044,
+      "containment": 0.8,
+      "partial_ratio": 72.0,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "Kipf, T. N., & Welling, M. (2016). Semi-supervised classification with graph convolutional networks. In International Conference on Learning Representations. 4",
+   "title": "Semi-supervised classification with graph convolutional networks",
+   "authors": [
+    "Kipf",
+    "Welling"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Conference on Learning Representations. 4",
+   "type": "paper-conference",
+   "parser": "anystyle-marker-guided",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.18178/wcse.2019.06.016",
+      "title": "Hybrid Graph Convolutional Networks for Semi-Supervised Classification",
+      "year": 2019,
+      "first_author": null,
+      "container": "Proceedings of 2019 the 9th International Workshop on Computer Science and Engineering",
+      "type": "proceedings-article",
+      "score": 45.316204
+     },
+     "metrics": {
+      "title_sim": 95.9349593495935,
+      "containment": 0.857,
+      "partial_ratio": 64.51612903225806,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  }
+ ]
+}

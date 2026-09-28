@@ -1,0 +1,1834 @@
+{
+ "pdf": "317_wLhQMbyF3y.pdf",
+ "n_entries": 44,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "Removed for anonymity. [1] C. J. C. H. Watkins and P. Dayan. Q-learning. Machine Learning, 8(3\u20134):279\u2013292, 1992.",
+   "title": "Q-learning",
+   "authors": [
+    "Watkins",
+    "Dayan"
+   ],
+   "year": 1992,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Machine Learning",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1023/a:1022676722315",
+    "title": "Technical Note: Q-Learning",
+    "year": 1992,
+    "first_author": "Watkins",
+    "container": "Machine Learning",
+    "type": "journal-article",
+    "score": 23.685997
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.333,
+    "partial_ratio": 60.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2] R. S. Sutton and A. G. Barto. Reinforcement Learning: An Introduction. MIT Press, 2nd edition, 2018.",
+   "title": "Reinforcement Learning: An Introduction",
+   "authors": [
+    "Sutton",
+    "Barto"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/978-1-4615-3618-5_1",
+    "title": "Introduction: The Challenge of Reinforcement Learning",
+    "year": 1992,
+    "first_author": "Sutton",
+    "container": "Reinforcement Learning",
+    "type": "book-chapter",
+    "score": 34.510395
+   },
+   "metrics": {
+    "title_sim": 95.89041095890411,
+    "containment": 0.75,
+    "partial_ratio": 67.32673267326732,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3] J. N. Tsitsiklis. Asynchronous stochastic approximation and Q-learning. Machine Learning, 16(3):185\u2013202, 1994.",
+   "title": "Asynchronous stochastic approximation and Q-learning",
+   "authors": [
+    "Tsitsiklis"
+   ],
+   "year": 1994,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Machine Learning",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1023/a:1022689125041",
+    "title": "Asynchronous Stochastic Approximation and Q-Learning",
+    "year": 1994,
+    "first_author": "Tsitsiklis",
+    "container": "Machine Learning",
+    "type": "journal-article",
+    "score": 54.627052
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4] C. Szepesv\u00e1ri. The asymptotic convergence-rate of Q-learning. In Advances in Neural Information Processing Systems, 1998.",
+   "title": "The asymptotic convergence-rate of Q-learning",
+   "authors": [
+    "Szepesv\u00e1ri"
+   ],
+   "year": 1998,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.36227/techrxiv.20103404.v2",
+      "title": "On Asymptotic Convergence Rate of Evolutionary Algorithms",
+      "year": 2023,
+      "first_author": "Tar\u0142owski",
+      "container": "",
+      "type": "posted-content",
+      "score": 28.906355
+     },
+     "metrics": {
+      "title_sim": 80.0,
+      "containment": 0.6,
+      "partial_ratio": 66.66666666666667,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5] V. S. Borkar and S. P. Meyn. The O.D.E. method for convergence of stochastic approximation and reinforcement learning. SIAM J. Control Optim., 38(2):447\u2013469, 2000.",
+   "title": "The O.D.E. method for convergence of stochastic approximation and reinforcement learning",
+   "authors": [
+    "Borkar",
+    "Meyn"
+   ],
+   "year": 2000,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "SIAM J. Control Optim",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1137/s0363012997331639",
+    "title": "The O.D.E. Method for Convergence of Stochastic Approximation and Reinforcement Learning",
+    "year": 2000,
+    "first_author": "Borkar",
+    "container": "SIAM Journal on Control and Optimization",
+    "type": "journal-article",
+    "score": 50.94316
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[6] M. J. Wainwright. Stochastic approximation with cone-contractive operators: Sharp \u2113\u221e -bounds for Q-learning. arXiv:1905.06265, 2019.",
+   "title": "Stochastic approximation with cone-contractive operators: Sharp l\u221e -bounds for Q-learning",
+   "authors": [
+    "Wainwright"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": "1905.06265",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "1905.06265"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1287/stsy.2022.0097",
+      "title": "Concentration of Contractive Stochastic Approximation and Reinforcement Learning",
+      "year": 2022,
+      "first_author": "Chandak",
+      "container": "Stochastic Systems",
+      "type": "journal-article",
+      "score": 34.421787
+     },
+     "metrics": {
+      "title_sim": 74.6987951807229,
+      "containment": 0.667,
+      "partial_ratio": 56.25,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[7] X. Chen, C. Jin, and M. I. Jordan. On theoretical guarantees of policy gradient methods. Journal of Machine Learning Research, 21(151):1\u201347, 2020.",
+   "title": "On theoretical guarantees of policy gradient methods",
+   "authors": [
+    "Chen",
+    "Jin",
+    "Jordan"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Machine Learning Research",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/springerreference_179352",
+      "title": "Policy Gradient Methods",
+      "year": 2012,
+      "first_author": null,
+      "container": "SpringerReference",
+      "type": "reference-entry",
+      "score": 25.788385
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 1.0,
+      "partial_ratio": 100.0,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[8] G. Qu and A. Wierman. Finite-time analysis of asynchronous stochastic approximation and Q-learning. In Conference on Learning Theory, 2020.",
+   "title": "Finite-time analysis of asynchronous stochastic approximation and Q-learning",
+   "authors": [
+    "Qu",
+    "Wierman"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Conference on Learning Theory",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1023/a:1022689125041",
+      "title": "Asynchronous Stochastic Approximation and Q-Learning",
+      "year": 1994,
+      "first_author": "Tsitsiklis",
+      "container": "Machine Learning",
+      "type": "journal-article",
+      "score": 32.604435
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 1.0,
+      "partial_ratio": 100.0,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[9] G. Li, Y. Wei, Y. Chen, and Y. Chi. Q-learning with UCB exploration is sample efficient for infinite-horizon MDP. In NeurIPS, 2021.",
+   "title": "Q-learning with UCB exploration is sample efficient for infinite-horizon MDP",
+   "authors": [
+    "Li",
+    "Wei",
+    "Chen",
+    "Chi"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "NeurIPS",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.5220/0010825500003116",
+      "title": "GAN-based Intrinsic Exploration for Sample Efficient Reinforcement Learning",
+      "year": 2022,
+      "first_author": "Kamar",
+      "container": "Proceedings of the 14th International Conference on Agents and Artificial Intelligence",
+      "type": "proceedings-article",
+      "score": 30.195244
+     },
+     "metrics": {
+      "title_sim": 70.6896551724138,
+      "containment": 0.5,
+      "partial_ratio": 65.33333333333333,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[10] K. Yang, L. Yang, and S. S. Du. Q-learning with logarithmic regret. In ICML, 2021.",
+   "title": "Q-learning with logarithmic regret",
+   "authors": [
+    "Yang",
+    "Yang",
+    "Du"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "ICML",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/068431-2612",
+    "title": "Reinforcement Learning with Logarithmic Regret and Policy Switches",
+    "year": 2022,
+    "first_author": "Velegkas",
+    "container": "Advances in Neural Information Processing Systems 35",
+    "type": "proceedings-article",
+    "score": 31.420673
+   },
+   "metrics": {
+    "title_sim": 96.96969696969697,
+    "containment": 0.5,
+    "partial_ratio": 69.64285714285714,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "[11] G. Li, Y. Wei, Y. Chen, and Y. Chi. Breaking the sample complexity barrier to Q-learning: Mixing time matters. In NeurIPS, 2021.",
+   "title": "Breaking the sample complexity barrier to Q-learning: Mixing time matters",
+   "authors": [
+    "Li",
+    "Wei",
+    "Chen",
+    "Chi"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "NeurIPS",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1093/imaiai/iaac034",
+      "title": "Breaking the sample complexity barrier to regret-optimal model-free reinforcement learning",
+      "year": 2023,
+      "first_author": "Li",
+      "container": "Information and Inference: A Journal of the IMA",
+      "type": "journal-article",
+      "score": 34.662426
+     },
+     "metrics": {
+      "title_sim": 81.9672131147541,
+      "containment": 0.5,
+      "partial_ratio": 66.29213483146069,
+      "year_ok": false,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "[12] G. Li, C. Cai, Y. Chen, Y. Wei, and Y. Chi. Is Q-learning minimax optimal? a tight sample complexity analysis. Operations Research, 2023.",
+   "title": "Is Q-learning minimax optimal? a tight sample complexity analysis",
+   "authors": [
+    "Li",
+    "Cai",
+    "Chen",
+    "Wei",
+    "Chi"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Operations Research",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1287/opre.2023.2450",
+    "title": "Is Q-Learning Minimax Optimal? A Tight Sample Complexity Analysis",
+    "year": 2024,
+    "first_author": "Li",
+    "container": "Operations Research",
+    "type": "journal-article",
+    "score": 48.700268
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "[13] C. Jin, Z. Allen-Zhu, S. Bubeck, and M. I. Jordan. Is Q-learning provably efficient? In NeurIPS, 2018.",
+   "title": "Is Q-learning provably efficient?",
+   "authors": [
+    "Jin",
+    "Allen-Zhu",
+    "Bubeck",
+    "Jordan"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "NeurIPS",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1287/moor.2022.0216",
+    "title": "Is Pessimism Provably Efficient for Offline Reinforcement Learning?",
+    "year": 2025,
+    "first_author": "Jin",
+    "container": "Mathematics of Operations Research",
+    "type": "journal-article",
+    "score": 27.362616
+   },
+   "metrics": {
+    "title_sim": 96.7741935483871,
+    "containment": 0.5,
+    "partial_ratio": 56.14035087719298,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "[14] Y. Bai and J. T. Lee. Provable self-play algorithms for competitive reinforcement learning. In NeurIPS, 2019.",
+   "title": "Provable self-play algorithms for competitive reinforcement learning",
+   "authors": [
+    "Bai",
+    "Lee"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "NeurIPS",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.5220/0010835600003116",
+      "title": "Reinforcement Learning Guided by Provable Normative Compliance",
+      "year": 2022,
+      "first_author": "Neufeld",
+      "container": "Proceedings of the 14th International Conference on Agents and Artificial Intelligence",
+      "type": "proceedings-article",
+      "score": 31.79234
+     },
+     "metrics": {
+      "title_sim": 69.23076923076923,
+      "containment": 0.5,
+      "partial_ratio": 58.00000000000001,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "[15] Z. Zhang, Y. Zhou, and Q. Gu. Sample efficient reinforcement learning with generative models. In ICML, 2020.",
+   "title": "Sample efficient reinforcement learning with generative models",
+   "authors": [
+    "Zhang",
+    "Zhou",
+    "Gu"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "ICML",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1021/jacsau.4c00066.s002",
+      "title": "Augmented Memory: Sample-Efficient Generative Molecular Design with Reinforcement Learning",
+      "year": 2024,
+      "first_author": null,
+      "container": "",
+      "type": "component",
+      "score": 42.967968
+     },
+     "metrics": {
+      "title_sim": 94.01709401709402,
+      "containment": 0.556,
+      "partial_ratio": 58.06451612903225,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 16,
+   "raw": "[16] L. Shi, G. Li, Y. Wei, Y. Chen, and Y. Chi. Pessimistic Q-learning for offline reinforcement learning: Towards optimal sample complexity. In ICML, 2022.",
+   "title": "Pessimistic Q-learning for offline reinforcement learning: Towards optimal sample complexity",
+   "authors": [
+    "Shi",
+    "Li",
+    "Wei",
+    "Chen",
+    "Chi"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "ICML",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.5290956",
+      "title": "Pessimistic Auxiliary Policy for Offline Reinforcement Learning",
+      "year": 2025,
+      "first_author": "Zhang",
+      "container": "",
+      "type": "posted-content",
+      "score": 44.585358
+     },
+     "metrics": {
+      "title_sim": 84.40366972477064,
+      "containment": 0.667,
+      "partial_ratio": 80.95238095238095,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 17,
+   "raw": "[17] Y. Yan, G. Li, Y. Chen, and J. Fan. The efficacy of pessimism in asynchronous Q-learning. arXiv:2203.07368, 2022.",
+   "title": "The efficacy of pessimism in asynchronous Q-learning",
+   "authors": [
+    "Yan",
+    "Li",
+    "Chen",
+    "Fan"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": "2203.07368",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/tit.2023.3299840",
+    "title": "The Efficacy of Pessimism in Asynchronous Q-Learning",
+    "year": 2023,
+    "first_author": "Yan",
+    "container": "IEEE Transactions on Information Theory",
+    "type": "journal-article",
+    "score": 34.580032
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2203.07368"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 18,
+   "raw": "[18] V. Mnih, A. P. Badia, M. Mirza, A. Graves, T. P. Lillicrap, T. Harley, D. Silver, and K. Kavukcuoglu. Asynchronous methods for deep reinforcement learning. In ICML, 2016.",
+   "title": "Asynchronous methods for deep reinforcement learning",
+   "authors": [
+    "Mnih",
+    "Badia",
+    "Mirza",
+    "Graves",
+    "Lillicrap",
+    "Harley",
+    "Silver",
+    "Kavukcuoglu"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "ICML",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.12681/eadd/54399",
+      "title": "Deep reinforcement learning methods",
+      "year": 2024,
+      "first_author": "\u039b\u03b1\u03b6\u03b1\u03c1\u03af\u03b4\u03b7\u03c2",
+      "container": "",
+      "type": "dissertation",
+      "score": 31.812462
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 1.0,
+      "partial_ratio": 82.85714285714285,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 19,
+   "raw": "[19] L. Espeholt et al. IMPALA: Scalable distributed deep-RL with importance weighted actorlearner architectures. In ICML, 2018.",
+   "title": "IMPALA: Scalable distributed deep-RL with importance weighted actorlearner architectures",
+   "authors": [
+    "Espeholt"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "ICML",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.14293/pr2199.003543.v1",
+      "title": "Scalable Distributed Architectures for High-Throughput Automatic Evaluation Pipelines",
+      "year": 2026,
+      "first_author": "Harris",
+      "container": "",
+      "type": "posted-content",
+      "score": 27.830524
+     },
+     "metrics": {
+      "title_sim": 66.27906976744185,
+      "containment": 0.375,
+      "partial_ratio": 52.94117647058824,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 20,
+   "raw": "[20] M. Assran, N. Loizou, N. Ballas, and M. Rabbat. Stochastic gradient push for distributed deep learning. In ICML, 2019.",
+   "title": "Stochastic gradient push for distributed deep learning",
+   "authors": [
+    "Assran",
+    "Loizou",
+    "Ballas",
+    "Rabbat"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "ICML",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/icpp.2017.10",
+      "title": "An Efficient, Distributed Stochastic Gradient Descent Algorithm for Deep-Learning Applications",
+      "year": 2017,
+      "first_author": "Cong",
+      "container": "2017 46th International Conference on Parallel Processing (ICPP)",
+      "type": "proceedings-article",
+      "score": 31.309982
+     },
+     "metrics": {
+      "title_sim": 95.14563106796116,
+      "containment": 0.556,
+      "partial_ratio": 60.11560693641618,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 21,
+   "raw": "[21] T. T. Doan, S. T. Maguluri, and J.-S. Shamma. Convergence of distributed TD(0) with linear function approximation in multi-agent reinforcement learning. In AISTATS, 2019.",
+   "title": "Convergence of distributed TD(0) with linear function approximation in multi-agent reinforcement learning",
+   "authors": [
+    "Doan",
+    "Maguluri",
+    "Shamma"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "AISTATS",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/978-3-540-77949-0_5",
+      "title": "Parallel Reinforcement Learning with Linear Function Approximation",
+      "year": 2008,
+      "first_author": "Grounds",
+      "container": "Lecture Notes in Computer Science",
+      "type": "book-chapter",
+      "score": 47.136288
+     },
+     "metrics": {
+      "title_sim": 92.6829268292683,
+      "containment": 0.833,
+      "partial_ratio": 66.66666666666667,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 22,
+   "raw": "[22] J. Sun, G. Wang, G. B. Giannakis, Q. Yang, and Z. Yang. Finite-time analysis of decentralized temporal-difference learning with linear function approximation. In AISTATS, 2020.",
+   "title": "Finite-time analysis of decentralized temporal-difference learning with linear function approximation",
+   "authors": [
+    "Sun",
+    "Wang",
+    "Giannakis",
+    "Yang",
+    "Yang"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "AISTATS",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1287/opre.2020.2024",
+    "title": "A Finite Time Analysis of Temporal Difference Learning with Linear Function Approximation",
+    "year": 2021,
+    "first_author": "Bhandari",
+    "container": "Operations Research",
+    "type": "journal-article",
+    "score": 50.332626
+   },
+   "metrics": {
+    "title_sim": 98.86363636363636,
+    "containment": 1.0,
+    "partial_ratio": 84.26966292134833,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 23,
+   "raw": "[23] G. Wang, S. Lu, G. Giannakis, G. Tesauro, and J. Sun. Decentralized TD tracking with linear function approximation and its finite-time analysis. In NeurIPS, 2020.",
+   "title": "Decentralized TD tracking with linear function approximation and its finite-time analysis",
+   "authors": [
+    "Wang",
+    "Lu",
+    "Giannakis",
+    "Tesauro",
+    "Sun"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "NeurIPS",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/tac.2024.3469328",
+      "title": "A Simple Finite-Time Analysis of TD Learning With Linear Function Approximation",
+      "year": 2025,
+      "first_author": "Mitra",
+      "container": "IEEE Transactions on Automatic Control",
+      "type": "journal-article",
+      "score": 41.370647
+     },
+     "metrics": {
+      "title_sim": 84.67153284671532,
+      "containment": 0.75,
+      "partial_ratio": 67.08860759493672,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 24,
+   "raw": "[24] H.-T. Wai. On the convergence of consensus algorithms with Markovian noise and gradient bias. In CDC, 2020.",
+   "title": "On the convergence of consensus algorithms with Markovian noise and gradient bias",
+   "authors": [
+    "Wai"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "CDC",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/cdc42340.2020.9304466",
+    "title": "On the Convergence of Consensus Algorithms with Markovian noise and Gradient Bias",
+    "year": 2020,
+    "first_author": "Wai",
+    "container": "2020 59th IEEE Conference on Decision and Control (CDC)",
+    "type": "proceedings-article",
+    "score": 69.67531
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 25,
+   "raw": "[25] X. Chen, B. Shen, T. Chen, and M. Hong. Decentralized actor-critic: Convergence and sample complexity. In ICML, 2022.",
+   "title": "Decentralized actor-critic: Convergence and sample complexity",
+   "authors": [
+    "Chen",
+    "Shen",
+    "Chen",
+    "Hong"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "ICML",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/lcsys.2024.3510193",
+      "title": "Convergence of Decentralized Actor-Critic Algorithm in General\u2013Sum Markov Games",
+      "year": 2024,
+      "first_author": "Maheshwari",
+      "container": "IEEE Control Systems Letters",
+      "type": "journal-article",
+      "score": 34.676693
+     },
+     "metrics": {
+      "title_sim": 77.55102040816327,
+      "containment": 0.444,
+      "partial_ratio": 60.75949367088608,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 26,
+   "raw": "[26] H. Shen, K. Zhang, M. Hong, and T. Chen. Towards understanding asynchronous advantage actor-critic: Convergence and linear speedup. arXiv:2012.15511, 2022.",
+   "title": "Towards understanding asynchronous advantage actor-critic: Convergence and linear speedup",
+   "authors": [
+    "Shen",
+    "Zhang",
+    "Hong",
+    "Chen"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": "2012.15511",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/tsp.2023.3268475",
+    "title": "Towards Understanding Asynchronous Advantage Actor-Critic: Convergence and Linear Speedup",
+    "year": 2023,
+    "first_author": "Shen",
+    "container": "IEEE Transactions on Signal Processing",
+    "type": "journal-article",
+    "score": 75.49368
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2012.15511"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 27,
+   "raw": "[27] S. Khodadadian, P. Sharma, G. Joshi, and S. T. Maguluri. Federated reinforcement learning: Linear speedup under Markovian sampling. In ICML, 2022.",
+   "title": "Federated reinforcement learning: Linear speedup under Markovian sampling",
+   "authors": [
+    "Khodadadian",
+    "Sharma",
+    "Joshi",
+    "Maguluri"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "ICML",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/lcsys.2023.3287499",
+      "title": "Federated TD Learning Over Finite-Rate Erasure Channels: Linear Speedup Under Markovian Sampling",
+      "year": 2023,
+      "first_author": "Dal Fabbro",
+      "container": "IEEE Control Systems Letters",
+      "type": "journal-article",
+      "score": 50.127975
+     },
+     "metrics": {
+      "title_sim": 89.23076923076923,
+      "containment": 0.6,
+      "partial_ratio": 70.0,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 28,
+   "raw": "[28] J. Woo, G. Joshi, and Y. Chi. The blessing of heterogeneity in federated Q-learning: Linear speedup and beyond. Journal of Machine Learning Research, 26:1\u201385, 2025.",
+   "title": "The blessing of heterogeneity in federated Q-learning: Linear speedup and beyond",
+   "authors": [
+    "Woo",
+    "Joshi",
+    "Chi"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Machine Learning Research",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1016/b978-0-44-323641-9.00011-x",
+      "title": "Data heterogeneity: a curse and a blessing for federated learning",
+      "year": 2025,
+      "first_author": "Xu",
+      "container": "Federated Learning for Medical Imaging",
+      "type": "book-chapter",
+      "score": 39.931656
+     },
+     "metrics": {
+      "title_sim": 84.11214953271028,
+      "containment": 0.667,
+      "partial_ratio": 59.375,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 29,
+   "raw": "[29] S. Salgia and Y. Chi. The sample\u2013communication complexity trade-off in federated Q-learning. In NeurIPS, 2024.",
+   "title": "The sample\u2013communication complexity trade-off in federated Q-learning",
+   "authors": [
+    "Salgia",
+    "Chi"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "NeurIPS",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/079017-1254",
+    "title": "The Sample-Communication Complexity Trade-off in Federated Q-Learning",
+    "year": 2024,
+    "first_author": "Salgia",
+    "container": "Advances in Neural Information Processing Systems 37",
+    "type": "proceedings-article",
+    "score": 65.325905
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 30,
+   "raw": "[30] Z. Xie and S. H. Song. FedKL: Tackling data heterogeneity in federated reinforcement learning by penalizing KL divergence. arXiv:2204.08125, 2022.",
+   "title": "FedKL: Tackling data heterogeneity in federated reinforcement learning by penalizing KL divergence",
+   "authors": [
+    "Xie",
+    "Song"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": "2204.08125",
+   "urls": [
+    "arXiv:2204.08125"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/jsac.2023.3242734",
+    "title": "FedKL: Tackling Data Heterogeneity in Federated Reinforcement Learning by Penalizing KL Divergence",
+    "year": 2023,
+    "first_author": "Xie",
+    "container": "IEEE Journal on Selected Areas in Communications",
+    "type": "journal-article",
+    "score": 88.01121
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2204.08125"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 31,
+   "raw": "[31] Z. Zheng, F. Gao, L. Xue, and J. Yang. Federated Q-learning: Linear regret speedup with low communication cost. arXiv:2312.15023, 2024.",
+   "title": "Federated Q-learning: Linear regret speedup with low communication cost",
+   "authors": [
+    "Zheng",
+    "Gao",
+    "Xue",
+    "Yang"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2312.15023",
+   "urls": [
+    "arXiv:2312.15023"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2312.15023"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.52202/085713-4288",
+      "title": "Regret-Optimal Q-Learning with Low Cost for Single-Agent and Federated Reinforcement Learning",
+      "year": 2025,
+      "first_author": "Zhang",
+      "container": "Advances in Neural Information Processing Systems 38",
+      "type": "proceedings-article",
+      "score": 41.71386
+     },
+     "metrics": {
+      "title_sim": 73.87387387387388,
+      "containment": 0.6,
+      "partial_ratio": 50.34013605442177,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    },
+    {
+     "step": "urls_not_live",
+     "url_status": {
+      "arXiv:2312.15023": "error"
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 32,
+   "raw": "[32] Z. Zheng, H. Zhang, and L. Xue. Federated Q-learning with reference\u2013advantage decomposition: Almost optimal regret and logarithmic communication cost. In ICLR, 2025.",
+   "title": "Federated Q-learning with reference\u2013advantage decomposition: Almost optimal regret and logarithmic communication cost",
+   "authors": [
+    "Zheng",
+    "Zhang",
+    "Xue"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "ICLR",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.52202/085713-4288",
+      "title": "Regret-Optimal Q-Learning with Low Cost for Single-Agent and Federated Reinforcement Learning",
+      "year": 2025,
+      "first_author": "Zhang",
+      "container": "Advances in Neural Information Processing Systems 38",
+      "type": "proceedings-article",
+      "score": 45.94768
+     },
+     "metrics": {
+      "title_sim": 73.6842105263158,
+      "containment": 0.6,
+      "partial_ratio": 48.38709677419355,
+      "year_ok": true,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": {
+    "source": "crossref",
+    "doi": "10.52202/085713-4288",
+    "title": "Regret-Optimal Q-Learning with Low Cost for Single-Agent and Federated Reinforcement Learning",
+    "year": 2025,
+    "first_author": "Zhang",
+    "container": "Advances in Neural Information Processing Systems 38",
+    "type": "proceedings-article",
+    "score": 45.94768
+   }
+  },
+  {
+   "junk": false,
+   "idx": 33,
+   "raw": "[33] G. Lan, D.-J. Han, A. Hashemi, V. Aggarwal, and C. G. Brinton. Asynchronous federated reinforcement learning with policy gradient updates: Algorithm design and convergence analysis. In ICLR, 2025.",
+   "title": "Asynchronous federated reinforcement learning with policy gradient updates: Algorithm design and convergence analysis",
+   "authors": [
+    "Lan",
+    "Han",
+    "Hashemi",
+    "Aggarwal",
+    "Brinton"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "ICLR",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.31274/td-20240329-43",
+      "title": "Addressing stale gradients in asynchronous federated deep reinforcement learning",
+      "year": 2024,
+      "first_author": "Stanley",
+      "container": "",
+      "type": "dissertation",
+      "score": 38.17729
+     },
+     "metrics": {
+      "title_sim": 72.0,
+      "containment": 0.5,
+      "partial_ratio": 73.75,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 34,
+   "raw": "[34] Y. Zhu and X. Gong. Single-loop federated actor\u2013critic across heterogeneous environments. arXiv:2412.14555, 2024.",
+   "title": "Single-loop federated actor\u2013critic across heterogeneous environments",
+   "authors": [
+    "Zhu",
+    "Gong"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2412.14555",
+   "urls": [
+    "arXiv:2412.14555"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2412.14555",
+    "title": "Single-Loop Federated Actor-Critic across Heterogeneous Environments",
+    "year": 2024,
+    "first_author": "Ye Zhu"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 35,
+   "raw": "[35] X. Fan, Y. Ma, Z. Dai, W. Jing, C. Tan, and B. K. H. Low. Fault-tolerant federated reinforcement learning with theoretical guarantee. In NeurIPS, 2021.",
+   "title": "Fault-tolerant federated reinforcement learning with theoretical guarantee",
+   "authors": [
+    "Fan",
+    "Ma",
+    "Dai",
+    "Jing",
+    "Tan",
+    "Low"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "NeurIPS",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/icc51166.2024.10622515",
+      "title": "Client Selection in Fault-Tolerant Federated Reinforcement Learning for IoT Networks",
+      "year": 2024,
+      "first_author": "Cal",
+      "container": "ICC 2024 - IEEE International Conference on Communications",
+      "type": "proceedings-article",
+      "score": 36.52556
+     },
+     "metrics": {
+      "title_sim": 77.68595041322314,
+      "containment": 0.556,
+      "partial_ratio": 75.0,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 36,
+   "raw": "[36] M. Fang, X. Wang, and N. Z. Gong. Provably robust federated reinforcement learning. To appear in WWW, 2025.",
+   "title": "Provably robust federated reinforcement learning",
+   "authors": [
+    "Fang",
+    "Wang",
+    "Gong"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "To appear in WWW",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3696410.3714728",
+    "title": "Provably Robust Federated Reinforcement Learning",
+    "year": 2025,
+    "first_author": "Fang",
+    "container": "Proceedings of the ACM on Web Conference 2025",
+    "type": "proceedings-article",
+    "score": 53.299427
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 37,
+   "raw": "[37] P. Kairouz et al. Advances and open problems in federated learning. Foundations and Trends in Machine Learning, 14(1\u20132):1\u2013210, 2021.",
+   "title": "Advances and open problems in federated learning",
+   "authors": [
+    "Kairouz"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Foundations and Trends in Machine Learning",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1561/2200000083",
+    "title": "Advances and Open Problems in Federated Learning",
+    "year": 2021,
+    "first_author": "Kairouz",
+    "container": "Foundations and Trends\u00ae in Machine Learning",
+    "type": "journal-article",
+    "score": 48.095787
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 38,
+   "raw": "[38] J. Qi, Q. Zhou, L. Lei, and K. Zheng. Federated reinforcement learning: Techniques, applications, and open challenges. arXiv:2108.11887, 2021.",
+   "title": "Federated reinforcement learning: Techniques, applications, and open challenges",
+   "authors": [
+    "Qi",
+    "Zhou",
+    "Lei",
+    "Zheng"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": "2108.11887",
+   "urls": [
+    "arXiv:2108.11887"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.20517/ir.2021.02",
+    "title": "Federated reinforcement learning: techniques, applications, and open challenges",
+    "year": 2021,
+    "first_author": "Qi",
+    "container": "Intelligence &amp; Robotics",
+    "type": "journal-article",
+    "score": 57.627724
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2108.11887"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 39,
+   "raw": "[39] D. Paulin. Concentration inequalities for Markov chains by Marton couplings and spectral methods. Electronic Journal of Probability, 20(79):1\u201332, 2015.",
+   "title": "Concentration inequalities for Markov chains by Marton couplings and spectral methods",
+   "authors": [
+    "Paulin"
+   ],
+   "year": 2015,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Electronic Journal of Probability",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1214/ejp.v20-4039",
+    "title": "Concentration inequalities for Markov chains by Marton couplings and spectral methods",
+    "year": 2015,
+    "first_author": "Paulin",
+    "container": "Electronic Journal of Probability",
+    "type": "journal-article",
+    "score": 82.32416
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 40,
+   "raw": "[40] D. A. Freedman. On tail probabilities for martingales. Annals of Probability, 3(1):100\u2013118, 1975.",
+   "title": "On tail probabilities for martingales",
+   "authors": [
+    "Freedman"
+   ],
+   "year": 1975,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Annals of Probability",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1214/aop/1176996452",
+    "title": "On Tail Probabilities for Martingales",
+    "year": 1975,
+    "first_author": "Freedman",
+    "container": "The Annals of Probability",
+    "type": "journal-article",
+    "score": 51.650337
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 41,
+   "raw": "[41] Z. Wu, H. Shen, T. Chen, and Q. Ling. Byzantine-resilient decentralized policy evaluation with linear function approximation. IEEE Transactions on Signal Processing, 69:3839\u20133853, 2021.",
+   "title": "Byzantine-resilient decentralized policy evaluation with linear function approximation",
+   "authors": [
+    "Wu",
+    "Shen",
+    "Chen",
+    "Ling"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE Transactions on Signal Processing",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/tsp.2021.3090952",
+    "title": "Byzantine-Resilient Decentralized Policy Evaluation With Linear Function Approximation",
+    "year": 2021,
+    "first_author": "Wu",
+    "container": "IEEE Transactions on Signal Processing",
+    "type": "journal-article",
+    "score": 59.66601
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 42,
+   "raw": "[42] S. Zhang, H. Li, M. Wang, M. Liu, P.-Y. Chen, S. Lu, S. Liu, K. Murugesan, and S. Chaudhury. On the convergence and sample complexity analysis of deep Q-networks with \u03b5-greedy exploration. In NeurIPS, 2023:contentReference[oaicite:0]index=0.",
+   "title": "On the convergence and sample complexity analysis of deep Q-networks with \u03b5-greedy exploration",
+   "authors": [
+    "Zhang",
+    "Li",
+    "Wang",
+    "Liu",
+    "Chen",
+    "Lu",
+    "Liu",
+    "Murugesan",
+    "Chaudhury"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "NeurIPS",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/075280-0572",
+    "title": "On the Convergence and Sample Complexity Analysis of Deep Q-Networks with $\\epsilon$-Greedy Exploration",
+    "year": 2023,
+    "first_author": "Zhang",
+    "container": "Advances in Neural Information Processing Systems 36",
+    "type": "proceedings-article",
+    "score": 50.40628
+   },
+   "metrics": {
+    "title_sim": 98.9247311827957,
+    "containment": 0.889,
+    "partial_ratio": 94.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 43,
+   "raw": "[43] S. Wang, N. Si, J. Blanchet, and Z. Zhou. Sample complexity of variance-reduced distributionally robust Q-learning. Journal of Machine Learning Research, 25:1\u201377, 2024:contentReference[oaicite:1]index=1.",
+   "title": "Sample complexity of variance-reduced distributionally robust Q-learning",
+   "authors": [
+    "Wang",
+    "Si",
+    "Blanchet",
+    "Zhou"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Machine Learning Research",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.52202/085713-2862",
+      "title": "Sample Complexity of Distributionally Robust Average-Reward Reinforcement Learning",
+      "year": 2025,
+      "first_author": "Chen",
+      "container": "Advances in Neural Information Processing Systems 38",
+      "type": "proceedings-article",
+      "score": 42.81531
+     },
+     "metrics": {
+      "title_sim": 84.8,
+      "containment": 0.625,
+      "partial_ratio": 67.07317073170731,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 44,
+   "raw": "[44] H. Na and D. Lee. Finite-time analysis of simultaneous double Q-learning. arXiv preprint arXiv:2406.09946, 2024:contentReference[oaicite:2]index=2.",
+   "title": "Finite-time analysis of simultaneous double Q-learning",
+   "authors": [
+    "Na",
+    "Lee"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": "2406.09946",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.neucom.2025.132581",
+    "title": "Finite-time analysis of simultaneous double Q-learning",
+    "year": 2026,
+    "first_author": "Na",
+    "container": "Neurocomputing",
+    "type": "journal-article",
+    "score": 43.051323
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2406.09946"
+    }
+   ]
+  }
+ ]
+}

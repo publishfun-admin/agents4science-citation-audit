@@ -411,7 +411,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -438,7 +438,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "1ab91d6ac7afc1a0121487a9089fa70edc1634d4",
+    "title": "Certifying LLM Safety against Adversarial Prompting",
+    "year": 2023,
+    "first_author": "Aounon Kumar",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2309-02705",
+     "ArXiv": "2309.02705",
+     "DOI": "10.48550/arXiv.2309.02705",
+     "CorpusId": 261557007
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -459,7 +482,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -486,7 +509,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "b574245f3db22b5eb7fe64bd8b0a147dab467b60",
+    "title": "RAIN: Your Language Models Can Align Themselves without Finetuning",
+    "year": 2023,
+    "first_author": "Yuhui Li",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "DBLP": "conf/iclr/LiWZ0024",
+     "ArXiv": "2309.07124",
+     "DOI": "10.48550/arXiv.2309.07124",
+     "CorpusId": 261705563
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -557,7 +603,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -584,7 +630,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "b82ccc66c14f531a444c74d2a9a9d86a86a8be99",
+    "title": "HarmBench: A Standardized Evaluation Framework for Automated Red Teaming and Robust Refusal",
+    "year": 2024,
+    "first_author": "Mantas Mazeika",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "ArXiv": "2402.04249",
+     "DBLP": "conf/icml/MazeikaPYZ0MSLB24",
+     "DOI": "10.48550/arXiv.2402.04249",
+     "CorpusId": 267499790
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -620,7 +689,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -647,7 +716,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "bbf8d44623354a1e560d45e9950d905dd6f02bec",
+    "title": "Llama Guard 3-1B-INT4: Compact and Efficient Safeguard for Human-AI Conversations",
+    "year": 2024,
+    "first_author": "Igor Fedorov",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2411-17713",
+     "ArXiv": "2411.17713",
+     "DOI": "10.48550/arXiv.2411.17713",
+     "CorpusId": 274305883
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -717,7 +809,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -744,7 +836,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "cc9858f27dbc4e766e467fba706fa252154490cd",
+    "title": "SelfDefend: LLMs Can Defend Themselves against Jailbreaking in a Practical Manner",
+    "year": 2024,
+    "first_author": "Xun-Guang Wang",
+    "container": "USENIX Security Symposium",
+    "ext": {
+     "ArXiv": "2406.05498",
+     "DBLP": "conf/uss/WangWJL00L0LR25",
+     "DOI": "10.48550/arXiv.2406.05498",
+     "CorpusId": 270371749
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -899,7 +1014,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -926,7 +1041,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "8ba57771dd6345821a0cbe83c4c7eb50f66b7b65",
+    "title": "AutoDefense: Multi-Agent LLM Defense against Jailbreak Attacks",
+    "year": 2024,
+    "first_author": "Yifan Zeng",
+    "container": "arXiv.org",
+    "ext": {
+     "ArXiv": "2403.04783",
+     "DBLP": "journals/corr/abs-2403-04783",
+     "DOI": "10.48550/arXiv.2403.04783",
+     "CorpusId": 268297202
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -955,10 +1093,6 @@
    "verdict": "UNVERIFIED",
    "evidence": [
     {
-     "step": "arxiv_id_not_found",
-     "arxiv": "2502.07557"
-    },
-    {
      "step": "crossref_best_reject",
      "rec": {
       "source": "crossref",
@@ -974,6 +1108,23 @@
       "title_sim": 70.32967032967034,
       "containment": 0.5,
       "partial_ratio": 59.32203389830508,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    },
+    {
+     "step": "arxiv_id_resolves_title_mismatch",
+     "rec": {
+      "source": "arxiv_abs",
+      "arxiv": "2502.07557",
+      "title": "JBShield: Defending Large Language Models from Jailbreak Attacks through Activated Concept Analysis and Manipulation",
+      "year": 2025,
+      "first_author": "Zhang, Shenyi"
+     },
+     "metrics": {
+      "title_sim": 90.36144578313252,
+      "containment": 0.583,
+      "partial_ratio": 79.13043478260869,
       "year_ok": true,
       "first_author_ok": false
      }
@@ -998,7 +1149,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -1025,7 +1176,32 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "f7ff29cf1a4e954ce43a060df61a995ec58c2442",
+    "title": "PARDEN, Can You Repeat That? Defending against Jailbreaks via Repetition",
+    "year": 2024,
+    "first_author": "Ziyang Zhang",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "DBLP": "conf/icml/ZhangZF24",
+     "ArXiv": "2405.07932",
+     "DOI": "10.48550/arXiv.2405.07932",
+     "CorpusId": 269757120
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

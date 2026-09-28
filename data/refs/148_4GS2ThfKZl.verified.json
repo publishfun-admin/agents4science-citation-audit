@@ -1,0 +1,1784 @@
+{
+ "pdf": "148_4GS2ThfKZl.pdf",
+ "n_entries": 39,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 2,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "Karen Ayoub et al. Chatgpt in medical education: a friend or foe? Medical Education Online, 2023.",
+   "title": "Chatgpt in medical education: a friend or foe?",
+   "authors": [
+    "Ayoub"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Medical Education Online",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.21125/edulearn.2024.1691",
+    "title": "CHATGPT IN MEDICAL ANATOMY EDUCATION\u2013 FRIEND OR FOE?",
+    "year": 2024,
+    "first_author": "Premkumar",
+    "container": "EDULEARN Proceedings",
+    "type": "proceedings-article",
+    "score": 40.61381
+   },
+   "metrics": {
+    "title_sim": 97.67441860465117,
+    "containment": 0.833,
+    "partial_ratio": 84.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "Ramin Bahador, Pedro Silva, and Helena Costa. Automated peer review: A systematic mapping study. Scientometrics, 2023.",
+   "title": "Automated peer review: A systematic mapping study",
+   "authors": [
+    "Bahador",
+    "Silva",
+    "Costa"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Scientometrics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.7287/peerj-cs.489v0.2/reviews/1",
+      "title": "Peer Review #1 of \"Log-based software monitoring: a systematic mapping study (v0.2)\"",
+      "year": 2021,
+      "first_author": null,
+      "container": "",
+      "type": "peer-review",
+      "score": 31.341406
+     },
+     "metrics": {
+      "title_sim": 88.37209302325581,
+      "containment": 0.556,
+      "partial_ratio": 60.29411764705883,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "Reuben Binns. Fairness in machine learning: Lessons from political philosophy. In Proceedings of the Conference on Fairness, Accountability, and Transparency (FAT), pages 149\u2013159. ACM, 2018.",
+   "title": "Fairness in machine learning: Lessons from political philosophy",
+   "authors": [
+    "Binns"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the Conference on Fairness, Accountability, and Transparency (FAT",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.4044812",
+      "title": "Fairness of Ratemaking for Catastrophe Insurance: Lessons from Machine Learning",
+      "year": 2022,
+      "first_author": "Zhang",
+      "container": "SSRN Electronic Journal",
+      "type": "journal-article",
+      "score": 32.16823
+     },
+     "metrics": {
+      "title_sim": 76.0,
+      "containment": 0.571,
+      "partial_ratio": 53.84615384615385,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "2a944564c2466883ec14a6f6ef461f0e34d21b38",
+    "title": "Fairness in Machine Learning: Lessons from Political Philosophy",
+    "year": 2017,
+    "first_author": "Reuben Binns",
+    "container": "FAT",
+    "ext": {
+     "DBLP": "conf/fat/Binns18",
+     "MAG": "2773523653",
+     "ArXiv": "1712.03586",
+     "CorpusId": 3315224
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "Isabela Cachola et al. Citation-aware language modeling for scientific text generation. In Proceedings of ACL, 2023.",
+   "title": "Citation-aware language modeling for scientific text generation",
+   "authors": [
+    "Cachola"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of ACL",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.18653/v1/2024.sdp-1.9",
+      "title": "Cited Text Spans for Scientific Citation Text Generation",
+      "year": 2024,
+      "first_author": "Li",
+      "container": "Proceedings of the Fourth Workshop on Scholarly Document Processing (SDP 2024)",
+      "type": "proceedings-article",
+      "score": 29.866978
+     },
+     "metrics": {
+      "title_sim": 86.66666666666667,
+      "containment": 0.714,
+      "partial_ratio": 64.28571428571428,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "Liwei Chen, Ming Huang, and Qian Zhou. Ai-assisted authoring and peer review: A survey of emerging practices. Journal of Information Science, 2024. doi: 10.1177/01655515241234567.",
+   "title": "Ai-assisted authoring and peer review: A survey of emerging practices",
+   "authors": [
+    "Chen",
+    "Huang",
+    "Zhou"
+   ],
+   "year": 2024,
+   "doi": "10.1177/01655515241234567",
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Information Science",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "doi_not_resolvable",
+     "doi": "10.1177/01655515241234567"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.21956/wellcomeopenres.17513.r38835",
+      "title": "Peer Review Report For: The Emerging Adults Gambling Survey: study protocol [version 1; peer review: 2 approved]",
+      "year": 2020,
+      "first_author": null,
+      "container": "",
+      "type": "peer-review",
+      "score": 27.833132
+     },
+     "metrics": {
+      "title_sim": 61.72839506172839,
+      "containment": 0.462,
+      "partial_ratio": 50.26737967914438,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "Adam Cheng, Aaron Calhoun, and Gabriel Reedy. Artificial intelligence-assisted academic writing: recommendations for ethical use. Advances in Simulation, 10(1):22, 2025. doi: 10.1186/s41077-025-00350-6.",
+   "title": "Artificial intelligence-assisted academic writing: recommendations for ethical use",
+   "authors": [
+    "Cheng",
+    "Calhoun",
+    "Reedy"
+   ],
+   "year": 2025,
+   "doi": "10.1186/s41077-025-00350-6",
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Simulation",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1186/s41077-025-00350-6",
+    "title": "Artificial intelligence-assisted academic writing: recommendations for ethical use",
+    "year": 2025,
+    "first_author": "Cheng",
+    "container": "Advances in Simulation",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "Nouha Dziri, Hannah Rashkin, Chandra Bhagavatula, et al. Faithfulness in natural language generation: Survey and taxonomy. Transactions of the Association for Computational Linguistics, 2024.",
+   "title": "Faithfulness in natural language generation: Survey and taxonomy",
+   "authors": [
+    "Dziri",
+    "Rashkin",
+    "Bhagavatula"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Transactions of the Association for Computational Linguistics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2024.yrrsds-1.8",
+    "title": "Faithfulness of Natural Language Generation",
+    "year": 2024,
+    "first_author": "Schmidtova",
+    "container": "Proceedings of the 20th Workshop of Young Researchers' Roundtable on Spoken Dialogue Systems",
+    "type": "proceedings-article",
+    "score": 34.690063
+   },
+   "metrics": {
+    "title_sim": 96.3855421686747,
+    "containment": 1.0,
+    "partial_ratio": 95.34883720930233,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "Antske Fokkens and et al. The impact of prompt wording on automated peer review. In Proceedings of the ACL Workshop on Peer Review in NLP, 2023.",
+   "title": "The impact of prompt wording on automated peer review",
+   "authors": [
+    "and"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the ACL Workshop on Peer Review in NLP",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1049/ic:19970800",
+      "title": "User response to prompt wording styles in an automated banking service with a Wizard of Oz simulation of word-spotting",
+      "year": 1997,
+      "first_author": "McInnes",
+      "container": "IEE Colloquium on Advances in Interactive Voice Technologies for Telecommunication Services",
+      "type": "proceedings-article",
+      "score": 26.30051
+     },
+     "metrics": {
+      "title_sim": 45.614035087719294,
+      "containment": 0.25,
+      "partial_ratio": 52.991452991452995,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "Tianyu Gao et al. Retrieval-based factuality for large language models. In Proceedings of ACL, 2023.",
+   "title": "Retrieval-based factuality for large language models",
+   "authors": [
+    "Gao"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of ACL",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.4636121",
+      "title": "Large Language Models and Information Retrieval",
+      "year": 2023,
+      "first_author": "Pakhale",
+      "container": "",
+      "type": "posted-content",
+      "score": 35.278233
+     },
+     "metrics": {
+      "title_sim": 80.8080808080808,
+      "containment": 0.8,
+      "partial_ratio": 63.829787234042556,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "Jon Gauthier et al. Can large language models write useful peer reviews?              arXiv preprint arXiv:2306.05448, 2023.",
+   "title": "Can large language models write useful peer reviews?",
+   "authors": [
+    "Gauthier"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2306.05448",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.31234/osf.io/r78fc",
+      "title": "How to write effective prompts for large language models",
+      "year": 2023,
+      "first_author": "Lin",
+      "container": "",
+      "type": "posted-content",
+      "score": 35.879047
+     },
+     "metrics": {
+      "title_sim": 69.23076923076923,
+      "containment": 0.571,
+      "partial_ratio": 64.0,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    },
+    {
+     "step": "arxiv_id_resolves_title_mismatch",
+     "rec": {
+      "source": "arxiv_abs",
+      "arxiv": "2306.05448",
+      "title": "Little Red Dots: an abundant population of faint AGN at z~5 revealed by the EIGER and FRESCO JWST surveys",
+      "year": 2023,
+      "first_author": "Matthee, Jorryt"
+     },
+     "metrics": {
+      "title_sim": 34.83870967741935,
+      "containment": 0.0,
+      "partial_ratio": 40.21739130434783,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "Sebastian Gehrmann, Max Sun, and Li Chen. Evaluation bias in llm reviewers: A comparative study. In Proceedings of NAACL, 2024.",
+   "title": "Evaluation bias in llm reviewers: A comparative study",
+   "authors": [
+    "Gehrmann",
+    "Sun",
+    "Chen"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of NAACL",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.18653/v1/2026.eacl-demo.19",
+      "title": "LLM BiasScope: A Real-Time Bias Analysis Platform for Comparative LLM Evaluation",
+      "year": 2026,
+      "first_author": "Ghosh",
+      "container": "Proceedings of the 19th Conference of the European Chapter of the Association for Computational Linguistics (Volume 3: System Demonstrations)",
+      "type": "proceedings-article",
+      "score": 27.022017
+     },
+     "metrics": {
+      "title_sim": 77.64705882352942,
+      "containment": 0.5,
+      "partial_ratio": 49.36708860759494,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "Ben Green. Disparate interactions: An algorithm-in-the-loop analysis of fairness in risk assessments. In Proceedings of the Conference on Fairness, Accountability, and Transparency (FAT), pages 90\u201399. ACM, 2019.",
+   "title": "Disparate interactions: An algorithm-in-the-loop analysis of fairness in risk assessments",
+   "authors": [
+    "Green"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the Conference on Fairness, Accountability, and Transparency (FAT",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3287560.3287563",
+    "title": "Disparate Interactions",
+    "year": 2019,
+    "first_author": "Green",
+    "container": "Proceedings of the Conference on Fairness, Accountability, and Transparency",
+    "type": "proceedings-article",
+    "score": 68.504745
+   },
+   "metrics": {
+    "title_sim": 40.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "Kai Guan, Ling Zhou, and Hao Wang. Reviewbench: Large-scale benchmarking of ai reviewers. arXiv preprint arXiv:2502.01234, 2025.",
+   "title": "Reviewbench: Large-scale benchmarking of ai reviewers",
+   "authors": [
+    "Guan",
+    "Zhou",
+    "Wang"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": "2502.01234",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.64898/2026.04.17.719279",
+      "title": "ReviewBench: An Extensible Framework for Benchmarking Human and AI Manuscript Review",
+      "year": 2026,
+      "first_author": "Khalil",
+      "container": "",
+      "type": "posted-content",
+      "score": 33.181026
+     },
+     "metrics": {
+      "title_sim": 68.35443037974683,
+      "containment": 0.286,
+      "partial_ratio": 53.012048192771076,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    },
+    {
+     "step": "arxiv_id_resolves_title_mismatch",
+     "rec": {
+      "source": "arxiv_abs",
+      "arxiv": "2502.01234",
+      "title": "Homeomorphism of the Revuz correspondence for finite energy integrals",
+      "year": 2025,
+      "first_author": "Ooi, Takumu"
+     },
+     "metrics": {
+      "title_sim": 36.36363636363637,
+      "containment": 0.0,
+      "partial_ratio": 39.13043478260869,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "Jie Huang, Runpeng Tang, and Yuan Li. Metareview: A benchmark for automated peer review systems. arXiv preprint arXiv:2405.06789, 2024.",
+   "title": "Metareview: A benchmark for automated peer review systems",
+   "authors": [
+    "Huang",
+    "Tang",
+    "Li"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2405.06789",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.7287/peerj.1994v0.1/reviews/2",
+      "title": "Peer Review #2 of \"Towards a barrier height benchmark set for biologically relevant systems (v0.1)\"",
+      "year": 2016,
+      "first_author": null,
+      "container": "",
+      "type": "peer-review",
+      "score": 27.166824
+     },
+     "metrics": {
+      "title_sim": 76.92307692307692,
+      "containment": 0.444,
+      "partial_ratio": 50.0,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    },
+    {
+     "step": "arxiv_id_resolves_title_mismatch",
+     "rec": {
+      "source": "arxiv_abs",
+      "arxiv": "2405.06789",
+      "title": "Self-Consistent Recursive Diffusion Bridge for Medical Image Translation",
+      "year": 2024,
+      "first_author": "Arslan, Fuat"
+     },
+     "metrics": {
+      "title_sim": 40.625,
+      "containment": 0.0,
+      "partial_ratio": 40.27777777777778,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "Ziwei Ji, Nayeon Lee, Rita Frieske, Tiezheng Yu, Dan Su, Yanrui Xu, Etsuko Ishii, Yejin Bang, Andrea Madotto, and Pascale Fung. Survey of hallucination in natural language generation. ACM Computing Surveys, 55(12):1\u201338, 2023.",
+   "title": "Survey of hallucination in natural language generation",
+   "authors": [
+    "Ji",
+    "Lee",
+    "Frieske",
+    "Yu",
+    "Su",
+    "Xu",
+    "Ishii",
+    "Bang",
+    "Madotto",
+    "Fung"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "ACM Computing Surveys",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3571730",
+    "title": "Survey of Hallucination in Natural Language Generation",
+    "year": 2023,
+    "first_author": "Ji",
+    "container": "ACM Computing Surveys",
+    "type": "journal-article",
+    "score": 37.11762
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 16,
+   "raw": "Saurav Kadavath et al. Language models struggle to learn factuality. arXiv preprint arXiv:2207.05221, 2022.",
+   "title": "Language models struggle to learn factuality",
+   "authors": [
+    "Kadavath"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": "2207.05221",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_resolves_title_mismatch",
+     "rec": {
+      "source": "arxiv",
+      "arxiv": "2207.05221",
+      "title": "Language Models (Mostly) Know What They Know",
+      "year": 2022,
+      "first_author": "Saurav Kadavath"
+     },
+     "metrics": {
+      "title_sim": 60.46511627906976,
+      "containment": 0.286,
+      "partial_ratio": 59.523809523809526,
+      "year_ok": true,
+      "first_author_ok": true
+     }
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.4981987",
+      "title": "Evaluating Sentiment and Factuality of UK Offshore Wind\u00a0 Using Large Language Models",
+      "year": 2024,
+      "first_author": "Freed",
+      "container": "",
+      "type": "posted-content",
+      "score": 26.920147
+     },
+     "metrics": {
+      "title_sim": 74.28571428571428,
+      "containment": 0.375,
+      "partial_ratio": 48.33333333333333,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 17,
+   "raw": "Daniel Kang, Rui Zhang, and Ananya Patel. Large language models in scientific writing: Opportunities and challenges. Patterns, 4(9):100789, 2023. doi: 10.1016/j.patter.2023.100789.",
+   "title": "Large language models in scientific writing: Opportunities and challenges",
+   "authors": [
+    "Kang",
+    "Zhang",
+    "Patel"
+   ],
+   "year": 2023,
+   "doi": "10.1016/j.patter.2023.100789",
+   "arxiv": null,
+   "urls": [],
+   "container": "Patterns",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "doi_resolves_title_mismatch",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1016/j.patter.2023.100789",
+      "title": "BrainCog: A spiking neural network based, brain-inspired cognitive intelligence engine for brain-inspired AI and brain simulation",
+      "year": 2023,
+      "first_author": "Zeng",
+      "container": "Patterns",
+      "type": "journal-article",
+      "score": 1
+     },
+     "metrics": {
+      "title_sim": 42.21105527638191,
+      "containment": 0.0,
+      "partial_ratio": 42.307692307692314,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1093/eurheartj/ehaf669",
+      "title": "Large language models in scientific publications: challenges and opportunities",
+      "year": 2026,
+      "first_author": "Vardas",
+      "container": "European Heart Journal",
+      "type": "journal-article",
+      "score": 35.73029
+     },
+     "metrics": {
+      "title_sim": 94.11764705882354,
+      "containment": 0.857,
+      "partial_ratio": 74.02597402597402,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 18,
+   "raw": "Enkelejda Kasneci et al. Chatgpt for good? on opportunities and challenges of large language models for education. Learning and Individual Differences, 2023.",
+   "title": "Chatgpt for good? on opportunities and challenges of large language models for education",
+   "authors": [
+    "Kasneci"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Learning and Individual Differences",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.35542/osf.io/5er8f",
+    "title": "ChatGPT for Good? On Opportunities and Challenges of Large Language Models for Education",
+    "year": 2023,
+    "first_author": "Kasneci",
+    "container": "",
+    "type": "posted-content",
+    "score": 51.720528
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 19,
+   "raw": "Mohamed Khalifa and Mona Albadawy. Using artificial intelligence in academic writing and research: An essential productivity tool. Computer Methods and Programs in Biomedicine Update, 5:100145, 2024. doi: 10.1016/j.cmpbup.2024.100145.",
+   "title": "Using artificial intelligence in academic writing and research: An essential productivity tool",
+   "authors": [
+    "Khalifa",
+    "Albadawy"
+   ],
+   "year": 2024,
+   "doi": "10.1016/j.cmpbup.2024.100145",
+   "arxiv": null,
+   "urls": [],
+   "container": "Computer Methods and Programs in Biomedicine Update",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.cmpbup.2024.100145",
+    "title": "Using artificial intelligence in academic writing and research: An essential productivity tool",
+    "year": 2024,
+    "first_author": "Khalifa",
+    "container": "Computer Methods and Programs in Biomedicine Update",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 20,
+   "raw": "Dmitry Kobak et al. Delving into llm-assisted writing in biomedical publications through excess vocabulary. Science Advances, 11(2):eadt3813, 2025. doi: 10.1126/sciadv.adt3813.",
+   "title": "Delving into llm-assisted writing in biomedical publications through excess vocabulary",
+   "authors": [
+    "Kobak"
+   ],
+   "year": 2025,
+   "doi": "10.1126/sciadv.adt3813",
+   "arxiv": null,
+   "urls": [],
+   "container": "Science Advances",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1126/sciadv.adt3813",
+    "title": "Delving into LLM-assisted writing in biomedical publications through excess vocabulary",
+    "year": 2025,
+    "first_author": "Kobak",
+    "container": "Science Advances",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 21,
+   "raw": "Abhinav Kumar, Rajesh Singh, and Meng Li. Hallucinations in large language models: Taxonomy, evaluation, and mitigation. Artificial Intelligence Review, 2024.",
+   "title": "Hallucinations in large language models: Taxonomy, evaluation, and mitigation",
+   "authors": [
+    "Kumar",
+    "Singh",
+    "Li"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Artificial Intelligence Review",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/estream61684.2024.10542617",
+    "title": "Hallucinations in Large Language Models (LLMs)",
+    "year": 2024,
+    "first_author": "Reddy",
+    "container": "2024 IEEE Open Conference of Electrical, Electronic and Information Sciences (eStream)",
+    "type": "proceedings-article",
+    "score": 35.862743
+   },
+   "metrics": {
+    "title_sim": 93.97590361445783,
+    "containment": 0.8,
+    "partial_ratio": 90.9090909090909,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 22,
+   "raw": "Patrick Lewis et al. Retrieval-augmented generation for knowledge-intensive nlp. In Proceedings of NeurIPS, 2020.",
+   "title": "Retrieval-augmented generation for knowledge-intensive nlp",
+   "authors": [
+    "Lewis"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of NeurIPS",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1002/9781394374717.ch03",
+      "title": "Retrieval\u2010Augmented Generation",
+      "year": 2026,
+      "first_author": null,
+      "container": "Advanced Retrieval\u2010Augmented Generation",
+      "type": "other",
+      "score": 37.195045
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 1.0,
+      "partial_ratio": 100.0,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "659bf9ce7175e1ec266ff54359e2bd76e0b7ff31",
+    "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+    "year": 2020,
+    "first_author": "Patrick Lewis",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "DBLP": "conf/nips/LewisPPPKGKLYR020",
+     "MAG": "3027879771",
+     "ArXiv": "2005.11401",
+     "CorpusId": 218869575
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.857,
+    "partial_ratio": 92.1875,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 23,
+   "raw": "Yang Liu, Ming Zhao, and Hui Xu. Style over substance? evaluating llms as peer reviewers. arXiv preprint arXiv:2407.05678, 2024.",
+   "title": "Style over substance? evaluating llms as peer reviewers",
+   "authors": [
+    "Liu",
+    "Zhao",
+    "Xu"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2407.05678",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1145/3772318.3791300",
+      "title": "All Accept, No Reject: Evaluating LLMs as \u201cPeer\u201d Reviewers",
+      "year": 2026,
+      "first_author": "Verma",
+      "container": "Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems",
+      "type": "proceedings-article",
+      "score": 31.172352
+     },
+     "metrics": {
+      "title_sim": 75.86206896551724,
+      "containment": 0.571,
+      "partial_ratio": 74.07407407407408,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    },
+    {
+     "step": "arxiv_id_resolves_title_mismatch",
+     "rec": {
+      "source": "arxiv_abs",
+      "arxiv": "2407.05678",
+      "title": "Computational Power of Mobile Robots in Synchronous Environment: Discrete Version",
+      "year": 2024,
+      "first_author": "Sharma, Avisek"
+     },
+     "metrics": {
+      "title_sim": 38.80597014925373,
+      "containment": 0.0,
+      "partial_ratio": 40.0,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 24,
+   "raw": "Ziming Luo, Zonglin Yang, Zexin Xu, Wei Yang, and Xinya Du. Llm4sr: A survey on large language models for scientific research. arXiv preprint arXiv:2501.04306, 2025.",
+   "title": "Llm4sr: A survey on large language models for scientific research",
+   "authors": [
+    "Luo",
+    "Yang",
+    "Xu",
+    "Yang",
+    "Du"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": "2501.04306",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2501.04306"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.36227/techrxiv.176300630.01740917/v1",
+      "title": "Large Language Models for Reranking: A Survey",
+      "year": 2025,
+      "first_author": "Zhou",
+      "container": "",
+      "type": "posted-content",
+      "score": 37.102173
+     },
+     "metrics": {
+      "title_sim": 87.17948717948718,
+      "containment": 0.8,
+      "partial_ratio": 72.72727272727273,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "9678af027022328f143ee2b627ee93ba313a4e7c",
+    "title": "LLM4SR: A Survey on Large Language Models for Scientific Research",
+    "year": 2025,
+    "first_author": "Ziming Luo",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2501-04306",
+     "ArXiv": "2501.04306",
+     "DOI": "10.48550/arXiv.2501.04306",
+     "CorpusId": 275358054
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 25,
+   "raw": "Potsawee Manakul, Adian Liusie, and Mark Gales. Selfcheckgpt: Zero-resource black-box hallucination detection for generative large language models. In Proceedings of ACL, 2023.",
+   "title": "Selfcheckgpt: Zero-resource black-box hallucination detection for generative large language models",
+   "authors": [
+    "Manakul",
+    "Liusie",
+    "Gales"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of ACL",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2023.emnlp-main.557",
+    "title": "SelfCheckGPT: Zero-Resource Black-Box Hallucination Detection for Generative Large Language Models",
+    "year": 2023,
+    "first_author": "Manakul",
+    "container": "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+    "type": "proceedings-article",
+    "score": 99.42672
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 26,
+   "raw": "Joshua Maynez, Shashi Narayan, Bernd Bohnet, and Ryan McDonald. On faithfulness and factuality in abstractive summarization. In Proceedings of ACL, 2020.",
+   "title": "On faithfulness and factuality in abstractive summarization",
+   "authors": [
+    "Maynez",
+    "Narayan",
+    "Bohnet",
+    "McDonald"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of ACL",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2020.acl-main.173",
+    "title": "On Faithfulness and Factuality in Abstractive Summarization",
+    "year": 2020,
+    "first_author": "Maynez",
+    "container": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+    "type": "proceedings-article",
+    "score": 64.9265
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 27,
+   "raw": "Tanay Mishra, E. Sutanto, R. Rossanti, et al. Use of large language models as artificial intelligence tools in academic research and publishing among global clinical researchers. Scientific Reports, 14:31672, 2024. doi: 10.1038/s41598-024-81370-6.",
+   "title": "Use of large language models as artificial intelligence tools in academic research and publishing among global clinical researchers",
+   "authors": [
+    "Tanay Mishra",
+    "Rossanti"
+   ],
+   "year": 2024,
+   "doi": "10.1038/s41598-024-81370-6",
+   "arxiv": null,
+   "urls": [],
+   "container": "Scientific Reports",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/s41598-024-81370-6",
+    "title": "Use of large language models as artificial intelligence tools in academic research and publishing among global clinical researchers",
+    "year": 2024,
+    "first_author": "Mishra",
+    "container": "Scientific Reports",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 28,
+   "raw": "Brent Mittelstadt. Automation bias and human\u2013ai decision-making: A socio-technical perspective. AI & Society, 38:963\u2013978, 2023.",
+   "title": "Automation bias and human\u2013ai decision-making: A socio-technical perspective",
+   "authors": [
+    "Mittelstadt"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "AI & Society",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.48009/2_iis_2024_126",
+      "title": "PRACTICAL WISDOM AND INTELLIGENT MACHINES: TOWARD AI-HUMAN SOCIO-TECHNICAL DECISION MAKING AND RESOURCE ALLOCATION",
+      "year": 2024,
+      "first_author": null,
+      "container": "Issues In Information Systems",
+      "type": "journal-article",
+      "score": 37.662167
+     },
+     "metrics": {
+      "title_sim": 74.57627118644068,
+      "containment": 0.455,
+      "partial_ratio": 54.64480874316939,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 29,
+   "raw": "Xiaoyang Pan, Cheng Liu, and Shreya Raman. When citations hallucinate: Assessing reference quality in llm-generated text. Information Processing & Management, 61(3):103547, 2024.",
+   "title": "When citations hallucinate: Assessing reference quality in llm-generated text",
+   "authors": [
+    "Pan",
+    "Liu",
+    "Raman"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Information Processing & Management",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.32614/cran.package.sacrebleu",
+      "title": "sacRebleu: Metrics for Assessing the Quality of Generated Text",
+      "year": 2024,
+      "first_author": "Koch",
+      "container": "CRAN: Contributed Packages",
+      "type": "dataset",
+      "score": 35.53414
+     },
+     "metrics": {
+      "title_sim": 68.81720430107526,
+      "containment": 0.667,
+      "partial_ratio": 65.57377049180329,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 30,
+   "raw": "Vipul Rawte et al. A survey of hallucination in natural language generation. In Proceedings of EMNLP, 2023.",
+   "title": "A survey of hallucination in natural language generation",
+   "authors": [
+    "Rawte"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of EMNLP",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3571730",
+    "title": "Survey of Hallucination in Natural Language Generation",
+    "year": 2023,
+    "first_author": "Ji",
+    "container": "ACM Computing Surveys",
+    "type": "journal-article",
+    "score": 31.492647
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 31,
+   "raw": "Syed Zohaib Raza, Rachel Bawden, and Alexandra Birch. Evaluating hallucinations in neural machine translation. Transactions of the ACL, 2022.",
+   "title": "Evaluating hallucinations in neural machine translation",
+   "authors": [
+    "Raza",
+    "Bawden",
+    "Birch"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Transactions of the ACL",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1515/9783110802474.251",
+      "title": "Evaluating translation",
+      "year": 2011,
+      "first_author": "King",
+      "container": "Machine Translation and Translation Theory",
+      "type": "book-chapter",
+      "score": 28.682663
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 1.0,
+      "partial_ratio": 77.27272727272727,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 32,
+   "raw": "Carla Rodriguez, Arjun Banerjee, and Samuel Lee. Peeragents: Multi-agent simulations of ai-based peer review. arXiv preprint arXiv:2501.09876, 2025.",
+   "title": "Peeragents: Multi-agent simulations of ai-based peer review",
+   "authors": [
+    "Rodriguez",
+    "Banerjee",
+    "Lee"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": "2501.09876",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1039/d5dd00435g/v2/review2",
+      "title": "Review for \"Multi-Agentic AI Framework for End-to-End Atomistic Simulations\"",
+      "year": 2025,
+      "first_author": null,
+      "container": "",
+      "type": "peer-review",
+      "score": 31.066101
+     },
+     "metrics": {
+      "title_sim": 74.19354838709677,
+      "containment": 0.375,
+      "partial_ratio": 50.0,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    },
+    {
+     "step": "arxiv_id_resolves_title_mismatch",
+     "rec": {
+      "source": "arxiv_abs",
+      "arxiv": "2501.09876",
+      "title": "Geometry-Preserving Encoder/Decoder in Latent Generative Models",
+      "year": 2025,
+      "first_author": "Lee, Wonjun"
+     },
+     "metrics": {
+      "title_sim": 38.01652892561984,
+      "containment": 0.0,
+      "partial_ratio": 42.85714285714286,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 33,
+   "raw": "Xu Shen, Jing Li, and Hao Zhou. Hallucination and trust in ai-generated medical advice. NPJ Digital Medicine, 2024.",
+   "title": "Hallucination and trust in ai-generated medical advice",
+   "authors": [
+    "Shen",
+    "Li",
+    "Zhou"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "NPJ Digital Medicine",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1038/s41598-026-44258-1",
+      "title": "Advice quality and source disclosure shape trust in AI-generated ethical advice",
+      "year": 2026,
+      "first_author": "Meincke",
+      "container": "Scientific Reports",
+      "type": "journal-article",
+      "score": 33.91583
+     },
+     "metrics": {
+      "title_sim": 74.4186046511628,
+      "containment": 0.444,
+      "partial_ratio": 64.55696202531645,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 34,
+   "raw": "Kurt Shuster et al. Retrieval-augmented generation for knowledge-grounded dialogue. In Proceedings of EMNLP, 2021.",
+   "title": "Retrieval-augmented generation for knowledge-grounded dialogue",
+   "authors": [
+    "Shuster"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of EMNLP",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.7357178",
+      "title": "Retrieval-Augmented Generation and Knowledge-Grounded Large Language Models",
+      "year": 2026,
+      "first_author": "Bolledla",
+      "container": "",
+      "type": "posted-content",
+      "score": 45.789806
+     },
+     "metrics": {
+      "title_sim": 88.28828828828829,
+      "containment": 0.625,
+      "partial_ratio": 78.66666666666666,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 35,
+   "raw": "Alice Stewart, John Kim, and Ravi Patel. Ai in peer review: Promise and peril. Learned Publishing, 2024.",
+   "title": "Ai in peer review: Promise and peril",
+   "authors": [
+    "Stewart",
+    "Kim",
+    "Patel"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Learned Publishing",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1097/jpn.0000000000000953",
+    "title": "Using AI in the Peer Review Process\u2014Promise or Peril?",
+    "year": 2025,
+    "first_author": "Koehn",
+    "container": "Journal of Perinatal &amp; Neonatal Nursing",
+    "type": "journal-article",
+    "score": 35.407425
+   },
+   "metrics": {
+    "title_sim": 93.93939393939394,
+    "containment": 0.8,
+    "partial_ratio": 65.38461538461539,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 36,
+   "raw": "Hao Tang, Meera Singh, and Juan Alvarez. Peeragents: Exploring multi-agent collaboration for automated peer review. Frontiers in Artificial Intelligence, 2024.",
+   "title": "Peeragents: Exploring multi-agent collaboration for automated peer review",
+   "authors": [
+    "Tang",
+    "Singh",
+    "Alvarez"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Frontiers in Artificial Intelligence",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.54254/2755-2721/2026.tj30961",
+      "title": "Exploring GPT-Based Multi-agent Collaboration for Automated Market Analysis",
+      "year": 2025,
+      "first_author": "Hou",
+      "container": "Applied and Computational Engineering",
+      "type": "journal-article",
+      "score": 33.663593
+     },
+     "metrics": {
+      "title_sim": 80.99173553719008,
+      "containment": 0.556,
+      "partial_ratio": 74.66666666666666,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 37,
+   "raw": "Tianyu Wang, Xiao Li, and Rui Zhao. Autoeval: Benchmarking ai-powered scientific peer review. arXiv preprint arXiv:2403.04567, 2024.",
+   "title": "Autoeval: Benchmarking ai-powered scientific peer review",
+   "authors": [
+    "Wang",
+    "Li",
+    "Zhao"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2403.04567",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.55277/researchhub.23t3yp02",
+      "title": "AI-Powered Research Tools for Literature Review and Scientific Discovery",
+      "year": 2025,
+      "first_author": "Onwuakor",
+      "container": "",
+      "type": "report",
+      "score": 28.285328
+     },
+     "metrics": {
+      "title_sim": 67.46987951807229,
+      "containment": 0.429,
+      "partial_ratio": 47.887323943661976,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    },
+    {
+     "step": "arxiv_id_resolves_title_mismatch",
+     "rec": {
+      "source": "arxiv_abs",
+      "arxiv": "2403.04567",
+      "title": "Energy barriers for boundary nucleation in a two-well model without gauge invariance",
+      "year": 2024,
+      "first_author": "Tribuzio, Antonio"
+     },
+     "metrics": {
+      "title_sim": 38.84892086330935,
+      "containment": 0.0,
+      "partial_ratio": 40.87591240875912,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 38,
+   "raw": "Yuxin Wang, Rohit Gupta, and Laura Fernandez. Llm reviewers prefer style over substance: Evidence from controlled experiments. In Proceedings of the AAAI Conference on Artificial Intelligence, 2023.",
+   "title": "Llm reviewers prefer style over substance: Evidence from controlled experiments",
+   "authors": [
+    "Wang",
+    "Gupta",
+    "Fernandez"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the AAAI Conference on Artificial Intelligence",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.4418002",
+      "title": "Do Voters Prefer Relief Over Preparedness? Evidence from Disaster Policies in Malawi",
+      "year": 2023,
+      "first_author": "Hartmann",
+      "container": "",
+      "type": "posted-content",
+      "score": 33.996037
+     },
+     "metrics": {
+      "title_sim": 59.62732919254658,
+      "containment": 0.25,
+      "partial_ratio": 60.24096385542168,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 39,
+   "raw": "Xinyu Zhang et al. Red-teaming llms for hallucination detection. In Proceedings of EMNLP, 2023.",
+   "title": "Red-teaming llms for hallucination detection",
+   "authors": [
+    "Zhang"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of EMNLP",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/978-3-031-54827-7_24",
+    "title": "LLMs Red Teaming",
+    "year": 2024,
+    "first_author": "Ruiu",
+    "container": "Large Language Models in Cybersecurity",
+    "type": "book-chapter",
+    "score": 31.004059
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 81.25,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  }
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
+}

@@ -1,0 +1,1275 @@
+{
+ "pdf": "286_udPANfLJBW.pdf",
+ "n_entries": 32,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "References [1]   World Health Organization. Global Atlas on Cardiovascular Disease Prevention and Control. World Health Organization, 2011. URL: https://apps.who.int/iris/handle/10665/ 44754.",
+   "title": "References [1] World Health Organization. Global Atlas on Cardiovascular Disease Prevention and Control",
+   "authors": [],
+   "year": 2011,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://apps.who.int/iris/handle/10665/"
+   ],
+   "container": "World Health Organization",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED_URL",
+   "via": "url",
+   "url_status": {
+    "https://apps.who.int/iris/handle/10665/": 200
+   },
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1093/oso/9780198268512.005.0001",
+      "title": "Proposal For a World Health Organization Framework Convention on Global Infectious Disease Prevention and Control",
+      "year": 1999,
+      "first_author": "Fidler",
+      "container": "International Law and Infectious Diseases",
+      "type": "book-section",
+      "score": 36.161186
+     },
+     "metrics": {
+      "title_sim": 79.51807228915663,
+      "containment": 0.636,
+      "partial_ratio": 69.48356807511738,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2]   GBD 2020 CVD Collaborators. \u201cGlobal, regional, and national burden of cardiovascular diseases, 1990\u20132020: a systematic analysis for the Global Burden of Disease Study 2020\u201d. In: The Lancet 397.10269 (2021), pp. 126\u2013155. DOI: 10.1016/S0140-6736(20)32556-5.",
+   "title": "Global, regional, and national burden of cardiovascular diseases, 1990\u20132020: a systematic analysis for the Global Burden of Disease Study 2020\u201d",
+   "authors": [
+    "Collaborators"
+   ],
+   "year": 2020,
+   "doi": "10.1016/S0140-6736(20)32556-5",
+   "arxiv": null,
+   "urls": [],
+   "container": "The Lancet",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "doi_not_resolvable",
+     "doi": "10.1016/S0140-6736(20)32556-5"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.5381800",
+      "title": "Global, Regional, and National Burden of Chagas Disease, 1990-2023: A Systematic Analysis for the Global Burden of Disease Study 2023",
+      "year": 2025,
+      "first_author": "Cousin",
+      "container": "",
+      "type": "posted-content",
+      "score": 72.55835
+     },
+     "metrics": {
+      "title_sim": 93.63295880149812,
+      "containment": 0.8,
+      "partial_ratio": 90.69767441860466,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3]   Gerhard Hindricks et al. \u201c2020 ESC Guidelines for the diagnosis and management of atrial fibrillation developed in collaboration with the European Association for Cardio-Thoracic Surgery (EACTS)\u201d. In: European Heart Journal 42.5 (2021), pp. 373\u2013498. DOI: 10.1093/ eurheartj/ehaa612.",
+   "title": "2020 ESC Guidelines for the diagnosis and management of atrial fibrillation developed in collaboration with the European Association for Cardio-Thoracic Surgery (EACTS)\u201d",
+   "authors": [
+    "Hindricks"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "European Heart Journal",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1093/eurheartj/ehaa798",
+    "title": "Corrigendum to: 2020 ESC Guidelines for the diagnosis and management of atrial fibrillation developed in collaboration with the European Association of Cardio-Thoracic Surgery (EACTS)",
+    "year": 2021,
+    "first_author": null,
+    "container": "European Heart Journal",
+    "type": "journal-article",
+    "score": 98.50682
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.938,
+    "partial_ratio": 93.88888888888889,
+    "year_ok": true,
+    "first_author_ok": null
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4]   J. Liu et al. \u201cA review of arrhythmia detection based on electrocardiogram with artificial intelligence\u201d. In: Expert Review of Medical Devices 19.7 (2022), pp. 549\u2013560. DOI: 10.1080/ 17434440.2022.2083184.",
+   "title": "A review of arrhythmia detection based on electrocardiogram with artificial intelligence\u201d",
+   "authors": [
+    "Liu"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Expert Review of Medical Devices",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1080/17434440.2022.2115887",
+    "title": "A review of arrhythmia detection based on electrocardiogram with artificial intelligence",
+    "year": 2022,
+    "first_author": "Liu",
+    "container": "Expert Review of Medical Devices",
+    "type": "journal-article",
+    "score": 46.204563
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5]   Shenda Hong et al. Opportunities and challenges of deep learning methods for electrocardiogram data: a systematic review. 2020. arXiv: 2001.01550 [cs.LG]. URL: https://arxiv. org/abs/2001.01550.",
+   "title": "Opportunities and challenges of deep learning methods for electrocardiogram data: a systematic review",
+   "authors": [
+    "Hong"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": "2001.01550",
+   "urls": [
+    "https://arxiv"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.compbiomed.2020.103801",
+    "title": "Opportunities and challenges of deep learning methods for electrocardiogram data: A systematic review",
+    "year": 2020,
+    "first_author": "Hong",
+    "container": "Computers in Biology and Medicine",
+    "type": "journal-article",
+    "score": 54.638123
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2001.01550"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[6]   Kok Han Boon, Mohamad Khalil-Hani, and Tin Kee Swee. \u201cParoxysmal atrial fibrillation prediction based on HRV analysis and non-dominated sorting genetic algorithm III\u201d. In: Computers in Biology and Medicine 72 (2016), pp. 149\u2013158. DOI: 10.1016/j.compbiomed. 2016.03.001.",
+   "title": "Paroxysmal atrial fibrillation prediction based on HRV analysis and non-dominated sorting genetic algorithm III\u201d",
+   "authors": [
+    "Boon",
+    "Khalil-Hani",
+    "Swee"
+   ],
+   "year": 2016,
+   "doi": "10.1016/j.compbiomed",
+   "arxiv": null,
+   "urls": [],
+   "container": "Computers in Biology and Medicine",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.cmpb.2017.10.012",
+    "title": "Paroxysmal atrial fibrillation prediction based on HRV analysis and non-dominated sorting genetic algorithm III",
+    "year": 2018,
+    "first_author": "Boon",
+    "container": "Computer Methods and Programs in Biomedicine",
+    "type": "journal-article",
+    "score": 86.80042
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "doi_not_resolvable",
+     "doi": "10.1016/j.compbiomed"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[7]   Hsin-An Tzou, C. Chen, and H. Lin. \u201cParoxysmal atrial fibrillation prediction based on morphological variant P-wave analysis with wideband ECG and deep learning\u201d. In: Computers in Biology and Medicine 132 (2021), p. 104313. DOI: 10 . 1016 / j . compbiomed . 2021 . 104313.",
+   "title": "Paroxysmal atrial fibrillation prediction based on morphological variant P-wave analysis with wideband ECG and deep learning\u201d",
+   "authors": [
+    "Hsin-An Tzou",
+    "Lin"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Computers in Biology and Medicine",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.cmpb.2021.106396",
+    "title": "Paroxysmal atrial fibrillation prediction based on morphological variant P-wave analysis with wideband ECG and deep learning",
+    "year": 2021,
+    "first_author": "Tzou",
+    "container": "Computer Methods and Programs in Biomedicine",
+    "type": "journal-article",
+    "score": 86.04208
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[8]   Hsin-An Tzou, H. Lin, and C. Chen. \u201cA deep learning approach for early detection of atrial fibrillation from short-term ECG signals\u201d. In: IEEE Journal of Biomedical and Health Informatics 25.4 (2021), pp. 1330\u20131339. DOI: 10.1109/JBHI.2020.3026321.",
+   "title": "A deep learning approach for early detection of atrial fibrillation from short-term ECG signals\u201d",
+   "authors": [
+    "Hsin-An Tzou",
+    "Chen"
+   ],
+   "year": 2021,
+   "doi": "10.1109/JBHI.2020.3026321",
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE Journal of Biomedical and Health Informatics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "doi_not_resolvable",
+     "doi": "10.1109/JBHI.2020.3026321"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.22541/au.172114947.71881882/v1",
+      "title": "Deep Learning Approach For Atrial Fibrillation Detection using ECG Signals",
+      "year": 2024,
+      "first_author": "N",
+      "container": "",
+      "type": "posted-content",
+      "score": 58.475708
+     },
+     "metrics": {
+      "title_sim": 95.77464788732394,
+      "containment": 1.0,
+      "partial_ratio": 67.56756756756756,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[9]   Zhiyuan Li et al. \u201cAn early warning method for arrhythmias in long-term ECGs based on self-supervised learning and LSTM\u201d. In: Knowledge-Based Systems (2025), p. 114137.",
+   "title": "An early warning method for arrhythmias in long-term ECGs based on self-supervised learning and LSTM\u201d",
+   "authors": [
+    "Li"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Knowledge-Based Systems",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.knosys.2025.114137",
+    "title": "An early warning method for arrhythmias in long-term ECGs based on self-supervised learning and LSTM",
+    "year": 2025,
+    "first_author": "Li",
+    "container": "Knowledge-Based Systems",
+    "type": "journal-article",
+    "score": 76.66692
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[10]   Zhiyuan Li et al. \u201cAn early warning method for arrhythmias in long-term ECGs based on self-supervised learning and LSTM\u201d. In: Knowledge-Based Systems 327 (2025), p. 114137. DOI : 10.1016/j.knosys.2025.114137.",
+   "title": "An early warning method for arrhythmias in long-term ECGs based on self-supervised learning and LSTM\u201d",
+   "authors": [
+    "Li"
+   ],
+   "year": 2025,
+   "doi": "10.1016/j.knosys.2025.114137",
+   "arxiv": null,
+   "urls": [],
+   "container": "Knowledge-Based Systems",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.knosys.2025.114137",
+    "title": "An early warning method for arrhythmias in long-term ECGs based on self-supervised learning and LSTM",
+    "year": 2025,
+    "first_author": "Li",
+    "container": "Knowledge-Based Systems",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "[11]   Rabah Mokhtari et al. \u201cECG heartbeat classification using progressive moving average transform\u201d. In: Scientific Reports 15.1 (2025), p. 4285.",
+   "title": "ECG heartbeat classification using progressive moving average transform\u201d",
+   "authors": [
+    "Mokhtari"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Scientific Reports",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.21203/rs.3.rs-4207615/v1",
+    "title": "ECG Heartbeat classification using Progressive Moving Average Transform",
+    "year": 2024,
+    "first_author": "Mokhtari",
+    "container": "",
+    "type": "posted-content",
+    "score": 80.778076
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "[12]   Jelmer J. M. Verwijs and et al. \u201cLimitations of current heart rate variability analysis for clinical prediction: a review\u201d. In: Journal of the American Heart Association 6.7 (2017), e005953.",
+   "title": "Limitations of current heart rate variability analysis for clinical prediction: a review\u201d",
+   "authors": [
+    "and"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of the American Heart Association",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1201/b12756-4",
+      "title": "Methodological Aspects of Heart Rate Variability Analysis",
+      "year": 2012,
+      "first_author": "Kuusela",
+      "container": "Heart Rate Variability (HRV) Signal Analysis",
+      "type": "book-chapter",
+      "score": 35.68937
+     },
+     "metrics": {
+      "title_sim": 74.72527472527473,
+      "containment": 0.667,
+      "partial_ratio": 71.9298245614035,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "[13]   Awni Hannun and et al. \u201cCardiologist-level arrhythmia detection and classification in ambulatory ECG records using deep neural networks\u201d. In: Nature Medicine 25 (2019), pp. 65\u201369.",
+   "title": "Cardiologist-level arrhythmia detection and classification in ambulatory ECG records using deep neural networks\u201d",
+   "authors": [
+    "and"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature Medicine",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/s41591-018-0268-3",
+    "title": "Cardiologist-level arrhythmia detection and classification in ambulatory electrocardiograms using a deep neural network",
+    "year": 2019,
+    "first_author": "Hannun",
+    "container": "Nature Medicine",
+    "type": "journal-article",
+    "score": 54.732925
+   },
+   "metrics": {
+    "title_sim": 92.17391304347827,
+    "containment": 0.8,
+    "partial_ratio": 89.07563025210084,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "[14]   J. Huang and et al. \u201cAn LSTM-based model for atrial fibrillation prediction\u201d. In: Computers in Biology and Medicine 99 (2018), pp. 253\u2013261.",
+   "title": "An LSTM-based model for atrial fibrillation prediction\u201d",
+   "authors": [
+    "and"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Computers in Biology and Medicine",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.54287/gujsa.1128006",
+      "title": "A Hybrid Attention-based LSTM-XGBoost Model for Detection of ECG-based Atrial Fibrillation",
+      "year": 2022,
+      "first_author": "BALCI",
+      "container": "Gazi University Journal of Science Part A: Engineering and Innovation",
+      "type": "journal-article",
+      "score": 31.33054
+     },
+     "metrics": {
+      "title_sim": 85.1063829787234,
+      "containment": 0.545,
+      "partial_ratio": 59.74025974025974,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "[15]   Zhiyuan Li et al. \u201cAn early warning method for arrhythmias in long-term ECGs based on self-supervised learning and LSTM\u201d. In: Knowledge-Based Systems 327 (2025), p. 114137.",
+   "title": "An early warning method for arrhythmias in long-term ECGs based on self-supervised learning and LSTM\u201d",
+   "authors": [
+    "Li"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Knowledge-Based Systems",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.knosys.2025.114137",
+    "title": "An early warning method for arrhythmias in long-term ECGs based on self-supervised learning and LSTM",
+    "year": 2025,
+    "first_author": "Li",
+    "container": "Knowledge-Based Systems",
+    "type": "journal-article",
+    "score": 76.66692
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 16,
+   "raw": "[16] Q. Chang and et al. \u201cA novel deep learning model for atrial fibrillation prediction based on pathway modeling\u201d. In: IEEE Transactions on Biomedical Engineering 67.12 (2020), pp. 3421\u20133430.",
+   "title": "A novel deep learning model for atrial fibrillation prediction based on pathway modeling\u201d",
+   "authors": [
+    "and"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE Transactions on Biomedical Engineering",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.26226/m.62ab21559deaf4fdb6b40cf9",
+      "title": "Atrial Fibrillation Risk Prediction using Deep Learning",
+      "year": 2022,
+      "first_author": "Young Park",
+      "container": "",
+      "type": "posted-content",
+      "score": 34.11838
+     },
+     "metrics": {
+      "title_sim": 88.88888888888889,
+      "containment": 0.833,
+      "partial_ratio": 70.9090909090909,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 17,
+   "raw": "[17] Rishi Bommasani and et al. \u201cOn the opportunities and risks of foundation models\u201d. In: arXiv preprint arXiv:2108.07258 (2021).",
+   "title": "On the opportunities and risks of foundation models\u201d",
+   "authors": [
+    "and"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": "2108.07258",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2108.07258"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.23919/icact63878.2025.10936649",
+      "title": "Foundation Models: From Current Developments, Challenges, and Risks to Future Opportunities",
+      "year": 2025,
+      "first_author": "Hussain",
+      "container": "2025 27th International Conference on Advanced Communications Technology (ICACT)",
+      "type": "proceedings-article",
+      "score": 24.487267
+     },
+     "metrics": {
+      "title_sim": 89.13043478260869,
+      "containment": 0.5,
+      "partial_ratio": 48.17518248175182,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 18,
+   "raw": "[18] Jian Zeng and et al. \u201cSelf-supervised learning in electrocardiogram analysis: a systematic review\u201d. In: IEEE Journal of Biomedical and Health Informatics 25.12 (2021), pp. 4453\u20134467.",
+   "title": "Self-supervised learning in electrocardiogram analysis: a systematic review\u201d",
+   "authors": [
+    "and"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE Journal of Biomedical and Health Informatics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.25236/ajcis.2026.090201",
+      "title": "Classification of Electrocardiogram (ECG) Signals Based on Self-Supervised Learning",
+      "year": 2026,
+      "first_author": null,
+      "container": "Academic Journal of Computing &amp; Information Science",
+      "type": "journal-article",
+      "score": 29.456057
+     },
+     "metrics": {
+      "title_sim": 72.41379310344828,
+      "containment": 0.5,
+      "partial_ratio": 57.8125,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 19,
+   "raw": "[19] R. Cao and et al. \u201cMAECG: Masked Autoencoders for ECG Signal Processing\u201d. In: arXiv preprint arXiv:2208.06822 (2022).",
+   "title": "MAECG: Masked Autoencoders for ECG Signal Processing\u201d",
+   "authors": [
+    "and"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": "2208.06822",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2208.06822"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.52202/068431-2582",
+      "title": "MCMAE: Masked Convolution Meets Masked Autoencoders",
+      "year": 2022,
+      "first_author": "Gao",
+      "container": "Advances in Neural Information Processing Systems 35",
+      "type": "proceedings-article",
+      "score": 32.800655
+     },
+     "metrics": {
+      "title_sim": 61.702127659574465,
+      "containment": 0.5,
+      "partial_ratio": 63.829787234042556,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 20,
+   "raw": "[20] Ting Chen and et al. \u201cA simple framework for contrastive learning of visual representations\u201d. In: International Conference on Machine Learning (2020), pp. 159\u2013170.",
+   "title": "A simple framework for contrastive learning of visual representations\u201d",
+   "authors": [
+    "and"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Conference on Machine Learning",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1167/jov.24.10.771",
+      "title": "A biologically inspired framework for contrastive learning of visual representations: BioCLR",
+      "year": 2024,
+      "first_author": "Han",
+      "container": "Journal of Vision",
+      "type": "journal-article",
+      "score": 32.756298
+     },
+     "metrics": {
+      "title_sim": 94.65648854961832,
+      "containment": 0.625,
+      "partial_ratio": 79.12087912087912,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 21,
+   "raw": "[21] Aaron van den Oord, Yazhe Li, and Igor Babakhin. \u201cRepresentation learning with contrastive predictive coding\u201d. In: arXiv preprint arXiv:1807.03748 (2018).",
+   "title": "Representation learning with contrastive predictive coding\u201d",
+   "authors": [
+    "Oord",
+    "Li",
+    "Babakhin"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": "1807.03748",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "1807.03748"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1016/j.neucom.2021.11.031",
+      "title": "Contrastive predictive coding with transformer for video representation learning",
+      "year": 2022,
+      "first_author": "Liu",
+      "container": "Neurocomputing",
+      "type": "journal-article",
+      "score": 33.77397
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 0.714,
+      "partial_ratio": 61.74496644295302,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 22,
+   "raw": "[22] Jean-Bastien Grill and et al. \u201cBootstrap your own latent: A new approach to self-supervised learning\u201d. In: Advances in Neural Information Processing Systems 33 (2020), pp. 21271\u201321284.",
+   "title": "Bootstrap your own latent: A new approach to self-supervised learning\u201d",
+   "authors": [
+    "and"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/icassp48485.2024.10447173",
+      "title": "Bootstrap Predictive Coding: Investigating a Non-Contrastive Self-Supervised Learning Approach",
+      "year": 2024,
+      "first_author": "Mohamied",
+      "container": "ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+      "type": "proceedings-article",
+      "score": 31.804811
+     },
+     "metrics": {
+      "title_sim": 79.64601769911505,
+      "containment": 0.5,
+      "partial_ratio": 59.13978494623655,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 23,
+   "raw": "[23] Aditya Sharma and et al. \u201cContrastive learning for ECG signal analysis\u201d. In: IEEE Transactions on Biomedical Engineering 68.8 (2021), pp. 2519\u20132528.",
+   "title": "Contrastive learning for ECG signal analysis\u201d",
+   "authors": [
+    "and"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE Transactions on Biomedical Engineering",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/icsp54964.2022.9778634",
+      "title": "A Contrastive Learning Framework for ECG Anomaly Detection",
+      "year": 2022,
+      "first_author": "Li",
+      "container": "2022 7th International Conference on Intelligent Computing and Signal Processing (ICSP)",
+      "type": "proceedings-article",
+      "score": 27.996204
+     },
+     "metrics": {
+      "title_sim": 77.77777777777777,
+      "containment": 0.5,
+      "partial_ratio": 68.96551724137932,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 24,
+   "raw": "[24] Mathilde Caron and et al. \u201cEmerging properties in self-supervised vision transformers\u201d. In: Proceedings of the IEEE/CVF International Conference on Computer Vision (2021), pp. 965\u2013975.",
+   "title": "Emerging properties in self-supervised vision transformers\u201d",
+   "authors": [
+    "and"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/iccv48922.2021.00951",
+    "title": "Emerging Properties in Self-Supervised Vision Transformers",
+    "year": 2021,
+    "first_author": "Caron",
+    "container": "2021 IEEE/CVF International Conference on Computer Vision (ICCV)",
+    "type": "proceedings-article",
+    "score": 43.889805
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 25,
+   "raw": "[25] Maxime Oquab and et al. \u201cDINOv2: Learning Robust Visual Features without Supervision\u201d. In: arXiv preprint arXiv:2304.07193 (2023).",
+   "title": "DINOv2: Learning Robust Visual Features without Supervision\u201d",
+   "authors": [
+    "and"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2304.07193",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2304.07193"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.21437/interspeech.2022-10834",
+      "title": "Learning neural audio features without supervision",
+      "year": 2022,
+      "first_author": "Yadav",
+      "container": "Interspeech 2022",
+      "type": "proceedings-article",
+      "score": 31.234545
+     },
+     "metrics": {
+      "title_sim": 85.05747126436782,
+      "containment": 0.667,
+      "partial_ratio": 80.0,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 26,
+   "raw": "[26] Oriane Sim\u00e9oni et al. \u201cDinov3\u201d. In: arXiv preprint arXiv:2508.10104 (2025).",
+   "title": "Dinov3\u201d",
+   "authors": [
+    "Sim\u00e9oni"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": "2508.10104",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2508.10104"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1117/12.3095278",
+      "title": "Edge-embedded point cloud sampling with DINOv3 constraints",
+      "year": 2026,
+      "first_author": "Zhao",
+      "container": "Seventeenth International Conference on Graphics and Image Processing (ICGIP 2025)",
+      "type": "proceedings-article",
+      "score": 18.170273
+     },
+     "metrics": {
+      "title_sim": 18.75,
+      "containment": 0.143,
+      "partial_ratio": 43.956043956043956,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 27,
+   "raw": "[27] Ary L Goldberger et al. \u201cPhysioBank, PhysioToolkit, and PhysioNet: components of a new research resource for complex physiologic signals\u201d. In: circulation 101.23 (2000), e215\u2013e220.",
+   "title": "PhysioBank, PhysioToolkit, and PhysioNet: components of a new research resource for complex physiologic signals\u201d",
+   "authors": [
+    "Goldberger"
+   ],
+   "year": 2000,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "In: circulation",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1161/01.cir.101.23.e215",
+    "title": "PhysioBank, PhysioToolkit, and PhysioNet",
+    "year": 2000,
+    "first_author": "Goldberger",
+    "container": "Circulation",
+    "type": "journal-article",
+    "score": 79.820244
+   },
+   "metrics": {
+    "title_sim": 52.05479452054795,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 28,
+   "raw": "[28] George Moody et al. \u201cPredicting the onset of paroxysmal atrial fibrillation: The Computers in Cardiology Challenge 2001\u201d. In: Computers in Cardiology 2001. Vol. 28 (Cat. No. 01CH37287). IEEE. 2001, pp. 113\u2013116.",
+   "title": "Predicting the onset of paroxysmal atrial fibrillation: The Computers in Cardiology Challenge 2001\u201d",
+   "authors": [
+    "Moody"
+   ],
+   "year": 2001,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Computers in Cardiology 2001",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/cic.2001.977604",
+    "title": "Predicting the onset of paroxysmal atrial fibrillation: the Computers in Cardiology Challenge 2001",
+    "year": 2002,
+    "first_author": "Moody",
+    "container": "Computers in Cardiology 2001. Vol.28 (Cat. No.01CH37287)",
+    "type": "proceedings-article",
+    "score": 83.34264
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 29,
+   "raw": "[29] C\u00e9dric Gilon et al. \u201cIRIDIA-AF, a large paroxysmal atrial fibrillation long-term electrocardiogram monitoring database\u201d. In: Scientific data 10.1 (2023), p. 714.",
+   "title": "IRIDIA-AF, a large paroxysmal atrial fibrillation long-term electrocardiogram monitoring database\u201d",
+   "authors": [
+    "Gilon"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Scientific data",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/s41597-023-02621-1",
+    "title": "IRIDIA-AF, a large paroxysmal atrial fibrillation long-term electrocardiogram monitoring database",
+    "year": 2023,
+    "first_author": "Gilon",
+    "container": "Scientific Data",
+    "type": "journal-article",
+    "score": 100.68489
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 30,
+   "raw": "[30] Zhiguang Wang, Weizhong Yan, and Tim Oates. \u201cTime series classification from scratch with deep neural networks: A strong baseline\u201d. In: 2017 International joint conference on neural networks (IJCNN). IEEE. 2017, pp. 1578\u20131585.",
+   "title": "Time series classification from scratch with deep neural networks: A strong baseline\u201d",
+   "authors": [
+    "Wang",
+    "Yan",
+    "Oates"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "2017 International joint conference on neural networks (IJCNN",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/ijcnn.2017.7966039",
+    "title": "Time series classification from scratch with deep neural networks: A strong baseline",
+    "year": 2017,
+    "first_author": "Wang",
+    "container": "2017 International Joint Conference on Neural Networks (IJCNN)",
+    "type": "proceedings-article",
+    "score": 73.35853
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 31,
+   "raw": "[31] Zhuang Liu et al. \u201cA convnet for the 2020s\u201d. In: Proceedings of the IEEE/CVF conference on computer vision and pattern recognition. 2022, pp. 11976\u201311986.",
+   "title": "A convnet for the 2020s\u201d",
+   "authors": [
+    "Liu"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/cvpr52688.2022.01167",
+    "title": "A ConvNet for the 2020s",
+    "year": 2022,
+    "first_author": "Liu",
+    "container": "2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "type": "proceedings-article",
+    "score": 32.278767
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 32,
+   "raw": "[32] Shunxiang Yang, Cheng Lian, and Zhigang Zeng. \u201cMasked autoencoder for ECG representation learning\u201d. In: 2022 12th International Conference on Information Science and Technology (ICIST). IEEE. 2022, pp. 95\u201398.",
+   "title": "Masked autoencoder for ECG representation learning\u201d",
+   "authors": [
+    "Yang",
+    "Lian",
+    "Zeng"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "2022 12th International Conference on Information Science and Technology (ICIST",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/icist55546.2022.9926900",
+    "title": "Masked Autoencoder for ECG Representation Learning",
+    "year": 2022,
+    "first_author": "Yang",
+    "container": "2022 12th International Conference on Information Science and Technology (ICIST)",
+    "type": "proceedings-article",
+    "score": 51.255463
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  }
+ ]
+}

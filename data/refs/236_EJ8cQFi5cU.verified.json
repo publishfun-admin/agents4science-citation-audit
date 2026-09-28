@@ -1,0 +1,1025 @@
+{
+ "pdf": "236_EJ8cQFi5cU.pdf",
+ "n_entries": 22,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "[1] Evan Frick, Connor Chen, Joseph Tennyson, Tianle Li, Wei-Lin Chiang, Anastasios N Angelopoulos, and Ion Stoica. Prompt-to-Leaderboard. arXiv preprint arXiv:2502.14855, 2025.",
+   "title": "Prompt-to-Leaderboard",
+   "authors": [
+    "Frick",
+    "Chen",
+    "Tennyson",
+    "Li",
+    "Chiang",
+    "Angelopoulos",
+    "Stoica"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": "2502.14855",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2502.14855"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.21437/interspeech.2025-184",
+      "title": "Open Universal Arabic ASR Leaderboard",
+      "year": 2025,
+      "first_author": "Wang",
+      "container": "Interspeech 2025",
+      "type": "proceedings-article",
+      "score": 21.841925
+     },
+     "metrics": {
+      "title_sim": 68.75,
+      "containment": 0.2,
+      "partial_ratio": 54.054054054054056,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2] Asankhaya Sharma. OptiLLM. https://github.com/codelion/optillm, 2024.",
+   "title": "OptiLLM",
+   "authors": [
+    "Sharma"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://github.com/codelion/optillm"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED_URL",
+   "via": "url",
+   "url_status": {
+    "https://github.com/codelion/optillm": 200
+   },
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1287/c2c20a34-acfa-44cd-a797-43458ba04af2",
+      "title": "Sushil Sharma",
+      "year": 2024,
+      "first_author": "Sharma",
+      "container": "Authors group",
+      "type": "dataset",
+      "score": 14.643561
+     },
+     "metrics": {
+      "title_sim": 30.000000000000004,
+      "containment": 0.5,
+      "partial_ratio": 61.53846153846154,
+      "year_ok": true,
+      "first_author_ok": true
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3] Long Phan, Alice Gatti, Ziwen Han, Nathaniel Li, Josephina Hu, Hugh Zhang, Sean Shi, Michael Choi, Anish Agrawal, Arnav Chopra, Adam Khoja, Ryan Kim, Richard Ren, Jason Hausenloy, Oliver Zhang, Mantas Mazeika, Summer Yue, Alexandr Wang, and Dan Hendrycks. Humanity\u2019s Last Exam. arXiv preprint arXiv:2501.14249, 2025.",
+   "title": null,
+   "authors": [
+    "Phan",
+    "Gatti",
+    "Han",
+    "Li",
+    "Hu",
+    "Zhang",
+    "Shi",
+    "Choi",
+    "Agrawal",
+    "Chopra",
+    "Khoja",
+    "Kim",
+    "Ren",
+    "Hausenloy",
+    "Zhang"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": "2501.14249",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2501.14249"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.3389/fpubh.2025.1702599",
+      "title": "Long-term symptom burden in a young, ambulatory cohort after the omicron outbreak in China",
+      "year": 2025,
+      "first_author": "Ren",
+      "container": "Frontiers in Public Health",
+      "type": "journal-article",
+      "score": 34.917053
+     },
+     "metrics": {
+      "title_sim": 0,
+      "containment": 0.091,
+      "partial_ratio": 42.69662921348315,
+      "year_ok": true,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4] Benedikt Stroebl, Sayash Kapoor, and Arvind Narayanan. Inference Scaling F Laws: The Limits of LLM Resampling with Imperfect Verifiers. arXiv preprint arXiv:2411.17501, 2024.",
+   "title": "Inference Scaling F Laws: The Limits of LLM Resampling with Imperfect Verifiers",
+   "authors": [
+    "Stroebl",
+    "Kapoor",
+    "Narayanan"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2411.17501",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2411.17501"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.18653/v1/2024.scalellm-1.1",
+      "title": "A Proposal for Scaling the Scaling Laws",
+      "year": 2024,
+      "first_author": "Schellaert",
+      "container": "Proceedings of the First edition of the Workshop on the Scaling Behavior of Large Language Models (SCALE-LLM 2024)",
+      "type": "proceedings-article",
+      "score": 30.04598
+     },
+     "metrics": {
+      "title_sim": 68.08510638297872,
+      "containment": 0.75,
+      "partial_ratio": 53.84615384615385,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5] DeepMind. Alphacode 2 technical report. https://api.semanticscholar.org/CorpusID: 266058988, 2023.",
+   "title": "Alphacode 2 technical report",
+   "authors": [],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://api.semanticscholar.org/CorpusID:"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2172/2234238",
+      "title": "Final Technical Report",
+      "year": 2023,
+      "first_author": "Soll",
+      "container": "",
+      "type": "report",
+      "score": 20.145422
+     },
+     "metrics": {
+      "title_sim": 84.21052631578948,
+      "containment": 0.667,
+      "partial_ratio": 77.27272727272727,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    },
+    {
+     "step": "urls_not_live",
+     "url_status": {
+      "https://api.semanticscholar.org/CorpusID:": 404
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[6] Xuezhi Wang, Jason Wei, Dale Schuurmans, Quoc Le, Ed Chi, Sharan Narang, Aakanksha Chowdhery, and Denny Zhou. Self-consistency improves chain of thought reasoning in language models. arXiv preprint arXiv:2203.11171, 2022.",
+   "title": "Self-consistency improves chain of thought reasoning in language models",
+   "authors": [
+    "Wang",
+    "Wei",
+    "Schuurmans",
+    "Le",
+    "Chi",
+    "Narang",
+    "Chowdhery",
+    "Zhou"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": "2203.11171",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2203.11171"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.59350/90sh1-hbs94",
+      "title": "Multimodal Chain-of-Thought Reasoning in Language Models",
+      "year": 2025,
+      "first_author": "Thoram",
+      "container": "",
+      "type": "posted-content",
+      "score": 40.428593
+     },
+     "metrics": {
+      "title_sim": 89.10891089108911,
+      "containment": 0.833,
+      "partial_ratio": 87.5,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[7] Dongfu Jiang, Xiang Ren, and Bill Yuchen Lin. LLM-Blender: Ensembling large language models with pairwise ranking and generative fusion. arXiv preprint arXiv:2306.02561, 2023.",
+   "title": "LLM-Blender: Ensembling large language models with pairwise ranking and generative fusion",
+   "authors": [
+    "Jiang",
+    "Ren",
+    "Lin"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2306.02561",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2023.acl-long.792",
+    "title": "LLM-Blender: Ensembling Large Language Models with Pairwise Ranking and Generative Fusion",
+    "year": 2023,
+    "first_author": "Jiang",
+    "container": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "type": "proceedings-article",
+    "score": 82.387184
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2306.02561"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[8] Junlin Wang, Jue Wang, Ben Athiwaratkun, Ce Zhang, and James Zou. Mixture-of-agents enhances large language model capabilities. arXiv preprint arXiv:2406.04692, 2024.",
+   "title": "Mixture-of-agents enhances large language model capabilities",
+   "authors": [
+    "Wang",
+    "Wang",
+    "Athiwaratkun",
+    "Zhang",
+    "Zou"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2406.04692",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2406.04692"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.31219/osf.io/68fsw",
+      "title": "A Multimodal Approach to Estimate Large Language Model Improvisational Capabilities",
+      "year": 2024,
+      "first_author": "\ubc15\uc9c4\uc6b0",
+      "container": "",
+      "type": "posted-content",
+      "score": 31.939127
+     },
+     "metrics": {
+      "title_sim": 70.96774193548387,
+      "containment": 0.5,
+      "partial_ratio": 57.831325301204814,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[9] Bradley Brown, Jordan Juravsky, Ryan Ehrlich, Ronald Clark, Quoc V Le, Christopher R\u00e9, and Azalia Mirhoseini. Large language monkeys: Scaling inference compute with repeated sampling. arXiv preprint arXiv:2407.21787, 2024.",
+   "title": "Large language monkeys: Scaling inference compute with repeated sampling",
+   "authors": [
+    "Brown",
+    "Juravsky",
+    "Ehrlich",
+    "Clark",
+    "Le",
+    "R\u00e9",
+    "Mirhoseini"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2407.21787",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2407.21787"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.36227/techrxiv.172297933.37342224/v1",
+      "title": "Enhancing Compute-Optimal Inference for Problem-Solving with Optimized Large Language Model",
+      "year": 2024,
+      "first_author": "Hayashi",
+      "container": "",
+      "type": "posted-content",
+      "score": 36.78336
+     },
+     "metrics": {
+      "title_sim": 69.1358024691358,
+      "containment": 0.4,
+      "partial_ratio": 50.54945054945055,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[10] Lingjiao Chen, Jared Quincy Davis, Boris Hanin, Peter Bailis, Ion Stoica, Matei Zaharia, and James Zou. Are more LLM calls all you need? Towards scaling laws of compound inference systems. arXiv preprint arXiv:2403.02419, 2024.",
+   "title": "Are more LLM calls all you need? Towards scaling laws of compound inference systems",
+   "authors": [
+    "Chen",
+    "Davis",
+    "Hanin",
+    "Bailis",
+    "Stoica",
+    "Zaharia",
+    "Zou"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2403.02419",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/079017-1455",
+    "title": "Are More LLM Calls All You Need? Towards the Scaling Properties of Compound AI Systems",
+    "year": 2024,
+    "first_author": "Chen",
+    "container": "Advances in Neural Information Processing Systems 37",
+    "type": "proceedings-article",
+    "score": 70.15371
+   },
+   "metrics": {
+    "title_sim": 89.93288590604027,
+    "containment": 0.9,
+    "partial_ratio": 83.52941176470588,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2403.02419"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "[11] OpenAI.     Learning to reason with LLMs.                    https://openai.com/index/ learning-to-reason-with-llms, 2024.",
+   "title": "Learning to reason with LLMs",
+   "authors": [],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://openai.com/index/"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED_URL",
+   "via": "url",
+   "url_status": {
+    "https://openai.com/index/": 200
+   },
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/ccwc67433.2026.11393811",
+      "title": "Teaching Small LLMS to Reason Using Reinforcement Learning",
+      "year": 2026,
+      "first_author": "Yadav",
+      "container": "2026 IEEE 16th Annual Computing and Communication Workshop and Conference (CCWC)",
+      "type": "proceedings-article",
+      "score": 23.624134
+     },
+     "metrics": {
+      "title_sim": 90.19607843137254,
+      "containment": 0.5,
+      "partial_ratio": 53.448275862068975,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "[12] Yilun Du, Shuang Li, Antonio Torralba, Joshua B. Tenenbaum, and Igor Mordatch. Improving factuality and reasoning in language models through multiagent debate. arXiv arXiv:2305.14325, 2023.",
+   "title": "Improving factuality and reasoning in language models through multiagent debate",
+   "authors": [
+    "Du",
+    "Li",
+    "Torralba",
+    "Tenenbaum",
+    "Mordatch"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2305.14325",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2305.14325",
+    "title": "Improving Factuality and Reasoning in Language Models through Multiagent Debate",
+    "year": 2023,
+    "first_author": "Yilun Du"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "[13] Vighnesh Subramaniam, Yilun Du, Joshua B Tenenbaum, Antonio Torralba, Shuang Li, and Igor Mordatch. Multiagent finetuning: Self improvement with diverse reasoning chains. arXiv preprint arXiv:2501.05707, 2025.",
+   "title": "Multiagent finetuning: Self improvement with diverse reasoning chains",
+   "authors": [
+    "Subramaniam",
+    "Du",
+    "Tenenbaum",
+    "Torralba",
+    "Li",
+    "Mordatch"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": "2501.05707",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2501.05707"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.65109/yqdg1565",
+      "title": "Learning Diverse Multiagent Behaviors",
+      "year": 2025,
+      "first_author": "Aydeniz",
+      "container": "International Joint Conference on Autonomous Agents and Multiagent Systems",
+      "type": "proceedings-article",
+      "score": 23.51082
+     },
+     "metrics": {
+      "title_sim": 65.45454545454545,
+      "containment": 0.5,
+      "partial_ratio": 54.054054054054056,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "[14] Yu Sun, Xiaolong Wang, Zhuang Liu, John Miller, Alexei Efros, and Moritz Hardt. Test-time training with self-supervision for generalization under distribution shifts. In International conference on machine learning, pages 9229\u20139248. PMLR, 2020.",
+   "title": "Test-time training with self-supervision for generalization under distribution shifts",
+   "authors": [
+    "Sun",
+    "Wang",
+    "Liu",
+    "Miller",
+    "Efros",
+    "Hardt"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International conference on machine learning",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/wacv56688.2023.00278",
+      "title": "TeST: Test-time Self-Training under Distribution Shift",
+      "year": 2023,
+      "first_author": "Sinha",
+      "container": "2023 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)",
+      "type": "proceedings-article",
+      "score": 33.98889
+     },
+     "metrics": {
+      "title_sim": 93.33333333333333,
+      "containment": 0.857,
+      "partial_ratio": 67.9245283018868,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "[15] Yuxi Xie, Anirudh Goyal, Wenyue Zheng, Min-Yen Kan, Timothy P Lillicrap, Kenji Kawaguchi, and Michael Shieh. Monte carlo tree search boosts reasoning via iterative preference learning. arXiv preprint arXiv:2405.00451, 2024.",
+   "title": "Monte carlo tree search boosts reasoning via iterative preference learning",
+   "authors": [
+    "Xie",
+    "Goyal",
+    "Zheng",
+    "Kan",
+    "Lillicrap",
+    "Kawaguchi",
+    "Shieh"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2405.00451",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2405.00451"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.4677186",
+      "title": "An Iterative Model-Based Reinforcement Learning Utilizing Multi-Perspective Learning with Monte-Carlo Tree Search",
+      "year": 2023,
+      "first_author": "Wang",
+      "container": "",
+      "type": "posted-content",
+      "score": 44.447304
+     },
+     "metrics": {
+      "title_sim": 72.41379310344828,
+      "containment": 0.538,
+      "partial_ratio": 51.32743362831859,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 16,
+   "raw": "[16] Miltiadis Allamanis, Sheena Panthaplackel, and Pengcheng Yin. Unsupervised evaluation of code llms with round-trip correctness. arXiv preprint arXiv:2402.08699, 2024.",
+   "title": "Unsupervised evaluation of code llms with round-trip correctness",
+   "authors": [
+    "Allamanis",
+    "Panthaplackel",
+    "Yin"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2402.08699",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2402.08699"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1145/3744916.3787846",
+      "title": "On LLMs\u2019 Internal Representation of Code Correctness",
+      "year": 2026,
+      "first_author": "Ribeiro",
+      "container": "Proceedings of the 2026 IEEE/ACM 48th International Conference on Software Engineering",
+      "type": "proceedings-article",
+      "score": 27.272976
+     },
+     "metrics": {
+      "title_sim": 66.08695652173913,
+      "containment": 0.6,
+      "partial_ratio": 54.90196078431373,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 17,
+   "raw": "[17] Leonardo De Moura and Nikolaj Bj\u00f8rner. Z3: An efficient SMT solver. In International conference on Tools and Algorithms for the Construction and Analysis of Systems, pages 337\u2013340. Springer, 2008.",
+   "title": "Z3: An efficient SMT solver",
+   "authors": [
+    "Moura",
+    "Bj\u00f8rner"
+   ],
+   "year": 2008,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International conference on Tools and Algorithms for the Construction and Analysis of Systems",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/978-3-540-78800-3_24",
+    "title": "Z3: An Efficient SMT Solver",
+    "year": 2008,
+    "first_author": "de Moura",
+    "container": "Lecture Notes in Computer Science",
+    "type": "book-chapter",
+    "score": 49.01522
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 18,
+   "raw": "[18] Jan Hendrik Kirchner, Yining Chen, Harri Edwards, Jan Leike, Nat McAleese, and Yuri Burda. Prover-verifier games improve legibility of llm outputs. arXiv preprint arXiv:2407.13692, 2024.",
+   "title": "Prover-verifier games improve legibility of llm outputs",
+   "authors": [
+    "Kirchner",
+    "Chen",
+    "Edwards",
+    "Leike",
+    "McAleese",
+    "Burda"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2407.13692",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2407.13692"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1215/2834703x-11205210",
+      "title": "LLM Outputs Are Fictions",
+      "year": 2024,
+      "first_author": "Hanlon",
+      "container": "Critical AI",
+      "type": "journal-article",
+      "score": 28.59796
+     },
+     "metrics": {
+      "title_sim": 62.857142857142854,
+      "containment": 0.667,
+      "partial_ratio": 66.66666666666667,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 19,
+   "raw": "[19] Tianjun Zhang, Aman Madaan, Luyu Gao, Steven Zheng, Swaroop Mishra, Yiming Yang, Niket Tandon, and Uri Alon. In-context principle learning from mistakes. arXiv preprint arXiv:2402.05403, 2024.",
+   "title": "In-context principle learning from mistakes",
+   "authors": [
+    "Zhang",
+    "Madaan",
+    "Gao",
+    "Zheng",
+    "Mishra",
+    "Yang",
+    "Tandon",
+    "Alon"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2402.05403",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.2139/ssrn.4815697",
+    "title": "Learning from Mistakes",
+    "year": 2024,
+    "first_author": "Jovanovic",
+    "container": "",
+    "type": "posted-content",
+    "score": 28.320526
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2402.05403"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 20,
+   "raw": "[20] Max Ku, Thomas Chong, Jonathan Leung, Krish Shah, Alvin Yu, and Wenhu Chen. TheoremExplainAgent: Towards multimodal explanations for LLM Theorem understanding. arXiv preprint arXiv:2502.19400, 2025.",
+   "title": "TheoremExplainAgent: Towards multimodal explanations for LLM Theorem understanding",
+   "authors": [
+    "Ku",
+    "Chong",
+    "Leung",
+    "Shah",
+    "Yu",
+    "Chen"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": "2502.19400",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2025.acl-long.332",
+    "title": "TheoremExplainAgent: Towards Video-based Multimodal Explanations for LLM Theorem Understanding",
+    "year": 2025,
+    "first_author": "Ku",
+    "container": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "type": "proceedings-article",
+    "score": 62.87099
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.75,
+    "partial_ratio": 87.09677419354838,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2502.19400"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 21,
+   "raw": "[21] The Manim Community Developers. Manim \u2013 Mathematical Animation Framework, January 2025. URL https://www.manim.community/.",
+   "title": "The Manim Community Developers",
+   "authors": [],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://www.manim.community/"
+   ],
+   "container": "Manim \u2013 Mathematical Animation Framework",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/979-8-8688-1847-9_5",
+    "title": "Developers, Developers, Developers",
+    "year": 2025,
+    "first_author": "Ward",
+    "container": "SQL Server 2025 Unveiled",
+    "type": "book-chapter",
+    "score": 21.596727
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 43.75,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 22,
+   "raw": "[22] Grant Sanderson.    3blue1brown.    https://www.youtube.com/@3blue1brown, 2025. YouTube channel.",
+   "title": "3blue1brown",
+   "authors": [
+    "Sanderson"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://www.youtube.com/@3blue1brown"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED_URL",
+   "via": "url",
+   "url_status": {
+    "https://www.youtube.com/@3blue1brown": 200
+   },
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1119/1.4974136",
+      "title": "<i>\u201c3blue1brown\u201d videos use spring constants to develop Snell\u2019s law</i>",
+      "year": 2017,
+      "first_author": null,
+      "container": "The Physics Teacher",
+      "type": "journal-article",
+      "score": 16.70593
+     },
+     "metrics": {
+      "title_sim": 28.57142857142857,
+      "containment": 0.125,
+      "partial_ratio": 46.464646464646464,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ]
+  }
+ ]
+}

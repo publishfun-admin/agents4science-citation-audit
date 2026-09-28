@@ -1,0 +1,371 @@
+{
+ "pdf": "238_kreJgMPdtf.pdf",
+ "n_entries": 9,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 2,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "[1] Merchant, A., et al. (2023). Scaling deep learning for materials discovery. Nature, 624, 80\u201385.",
+   "title": "Scaling deep learning for materials discovery",
+   "authors": [
+    "Merchant"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/s41586-023-06735-9",
+    "title": "Scaling deep learning for materials discovery",
+    "year": 2023,
+    "first_author": "Merchant",
+    "container": "Nature",
+    "type": "journal-article",
+    "score": 40.42166
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2] Ju, S., et al. (2021). Designing nanostructured materials with Bayesian optimization. npj Computational Materials, 7, 55.",
+   "title": "Designing nanostructured materials with Bayesian optimization",
+   "authors": [
+    "Ju"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "npj Computational Materials",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.26434/chemrxiv-2021-4624n",
+      "title": "Bayesian optimization of nanoporous materials",
+      "year": 2021,
+      "first_author": "Deshwal",
+      "container": "",
+      "type": "posted-content",
+      "score": 25.486282
+     },
+     "metrics": {
+      "title_sim": 81.57894736842105,
+      "containment": 0.75,
+      "partial_ratio": 71.11111111111111,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3] Sun, M., Lam, S. K., & Xie, T. (2022). SciAgents: Automating scientific discovery via large language model agents. arXiv preprint arXiv:2211.07292.",
+   "title": "SciAgents: Automating scientific discovery via large language model agents",
+   "authors": [
+    "Sun",
+    "Lam",
+    "Xie"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": "2211.07292",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2211.07292"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1002/aidi.202500186",
+      "title": "Automating AI Discovery for Biomedicine Through Knowledge Graphs and Large Language Models Agents",
+      "year": 2026,
+      "first_author": "Aamer",
+      "container": "Advanced Intelligent Discovery",
+      "type": "journal-article",
+      "score": 34.92895
+     },
+     "metrics": {
+      "title_sim": 73.04347826086956,
+      "containment": 0.5,
+      "partial_ratio": 55.20833333333333,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4] Krenn, M., et al. (2022). On scientific understanding with artificial intelligence. Nature Reviews Physics, 4(12), 761\u2013775.",
+   "title": "On scientific understanding with artificial intelligence",
+   "authors": [
+    "Krenn"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature Reviews Physics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/s42254-022-00518-3",
+    "title": "On scientific understanding with artificial intelligence",
+    "year": 2022,
+    "first_author": "Krenn",
+    "container": "Nature Reviews Physics",
+    "type": "journal-article",
+    "score": 29.250574
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5] Wang, L., et al. (2023). Scientific discovery in the age of artificial intelligence. Nature Reviews Methods Primers, 3, 49.",
+   "title": "Scientific discovery in the age of artificial intelligence",
+   "authors": [
+    "Wang"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature Reviews Methods Primers",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.62891/54fe0b5d",
+      "title": "The Fifth Paradigm: Scientific Discovery in the Age of Autonomous Artificial Intelligence",
+      "year": 2025,
+      "first_author": "Henrique do Nascimento Oliveira",
+      "container": "",
+      "type": "posted-content",
+      "score": 37.770016
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 0.625,
+      "partial_ratio": 75.90361445783132,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[6] Zhang, Y., et al. (2023). Large language models for science: opportunities and challenges. arXiv preprint arXiv:2309.05603.",
+   "title": "Large language models for science: opportunities and challenges",
+   "authors": [
+    "Zhang"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2309.05603",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.7759/cureus.39305",
+    "title": "Embracing Large Language Models for Medical Applications: Opportunities and Challenges",
+    "year": 2023,
+    "first_author": "Karabacak",
+    "container": "Cureus",
+    "type": "journal-article",
+    "score": 37.198013
+   },
+   "metrics": {
+    "title_sim": 93.10344827586206,
+    "containment": 0.625,
+    "partial_ratio": 73.80952380952381,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2309.05603"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[7] O\u2019Neil, J., et al. (2022). DrugComb: an integrative cancer drug synergy data portal. Nucleic Acids Research, 50(D1), D912\u2013D921.",
+   "title": "DrugComb: an integrative cancer drug synergy data portal",
+   "authors": [
+    "O\u2019Neil"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nucleic Acids Research",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1101/560227",
+      "title": "DrugComb - an integrative cancer drug combination data portal",
+      "year": 2019,
+      "first_author": "Zagidullin",
+      "container": "",
+      "type": "posted-content",
+      "score": 45.1746
+     },
+     "metrics": {
+      "title_sim": 92.15686274509804,
+      "containment": 0.857,
+      "partial_ratio": 83.05084745762711,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[8] Preuer, K., et al. (2018). DeepSynergy: predicting anti-cancer drug synergy with deep learning. Bioinformatics, 34(9), 1538\u20131546.",
+   "title": "DeepSynergy: predicting anti-cancer drug synergy with deep learning",
+   "authors": [
+    "Preuer"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Bioinformatics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1093/bioinformatics/btx806",
+    "title": "DeepSynergy: predicting anti-cancer drug synergy with Deep Learning",
+    "year": 2018,
+    "first_author": "Preuer",
+    "container": "Bioinformatics",
+    "type": "journal-article",
+    "score": 67.44371
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[9] Irving, G., Christiano, P., & Amodei, D. (2018). AI safety via debate. arXiv preprint arXiv:1805.00899.",
+   "title": "AI safety via debate",
+   "authors": [
+    "Irving",
+    "Christiano",
+    "Amodei"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": "1805.00899",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "1805.00899"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.23915/distill.00014",
+      "title": "AI Safety Needs Social Scientists",
+      "year": 2019,
+      "first_author": "Irving",
+      "container": "Distill",
+      "type": "journal-article",
+      "score": 25.675987
+     },
+     "metrics": {
+      "title_sim": 62.06896551724138,
+      "containment": 0.25,
+      "partial_ratio": 51.515151515151516,
+      "year_ok": true,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": null
+  }
+ ]
+}

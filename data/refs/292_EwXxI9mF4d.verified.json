@@ -1,0 +1,764 @@
+{
+ "pdf": "292_EwXxI9mF4d.pdf",
+ "n_entries": 19,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "Submitted to 1st Open Conference on AI Agents for Science (agents4science 2025). Do not distribute.",
+   "title": "Submitted to 1st Open Conference on AI Agents for Science",
+   "authors": [],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/icaft66710.2025.11452992",
+      "title": "AI-Based Rockfall Prediction and Alert System for Open\u2013Pit Mines",
+      "year": 2025,
+      "first_author": "G",
+      "container": "2025 1st International Conference on Advancement in Futuristic Technologies (ICAFT)",
+      "type": "proceedings-article",
+      "score": 26.423063
+     },
+     "metrics": {
+      "title_sim": 51.239669421487605,
+      "containment": 0.125,
+      "partial_ratio": 46.875,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": true,
+   "idx": 2,
+   "raw": "Our contributions include: (1) SHARP, achieving state-of-the-art 0.957 F1-score through intelligent combination of regex patterns and LLM analysis; (2) rigorous comparison against leading methods under identical conditions; (3) demonstration that hybrid architectures achieve 7-14\u00d7 speedup over deep learning with superior accuracy; (4) evidence-based deployment recommendations with opensource implementations.",
+   "title": "Our contributions include: (1) SHARP, achieving state-of-the-art 0.957 F1-score through intelligent combination of regex patterns and LLM analysis; (2) rigorous comparison against leading methods under identical conditions; (3) demonstration that hybrid architectures achieve 7-14\u00d7 speedup over deep learning with superior accuracy; (4) evidence-based deployment recommendations with opensource implementations",
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.46289/8xu8fe24",
+      "title": "A Hybrid Approach to Intelligent Prediction of Medical Conditions A Framework for Advancing Medical Diagnostics through Novel Hybrid Deep Learning Models DenCeption and HyBoost for Enhanced Feature Extraction and Predictive Accuracy in Medical Image Analysis",
+      "year": 2025,
+      "first_author": null,
+      "container": "",
+      "type": "dissertation",
+      "score": 40.80493
+     },
+     "metrics": {
+      "title_sim": 43.05343511450381,
+      "containment": 0.346,
+      "partial_ratio": 46.899224806201545,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[1] Anti-Phishing Working Group. Phishing Activity Trends Report, Q2 2023. Technical report, APWG, 2023.",
+   "title": "Phishing Activity Trends Report, Q2 2023",
+   "authors": [
+    "Group"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "report",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1016/s1361-3723(19)30025-9",
+      "title": "APWG: Phishing Activity Trends Report Q4 2018",
+      "year": 2019,
+      "first_author": null,
+      "container": "Computer Fraud &amp; Security",
+      "type": "journal-article",
+      "score": 27.78772
+     },
+     "metrics": {
+      "title_sim": 88.57142857142857,
+      "containment": 0.833,
+      "partial_ratio": 86.36363636363636,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[2] Federal Bureau of Investigation. Internet Crime Report 2023. Technical report, FBI IC3, 2023.",
+   "title": "Federal Bureau of Investigation",
+   "authors": [],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "report",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.5040/9798400650246",
+    "title": "The Federal Bureau of Investigation",
+    "year": 2022,
+    "first_author": null,
+    "container": "",
+    "type": "book",
+    "score": 29.584621
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 94.11764705882352,
+    "year_ok": true,
+    "first_author_ok": null
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[3] Ruofan Liu, Yun Lin, Xianglin Yang, Siang Hwee Ng, Dinil Mon Divakaran, and Jin Song Dong. Inferring Phishing Intention via Webpage Appearance and Dynamics: A Deep Vision Based Approach. In Proceedings of the 31st USENIX Security Symposium, pages 1633\u20131650, Boston, MA, August 2022.",
+   "title": "Inferring Phishing Intention via Webpage Appearance and Dynamics: A Deep Vision Based Approach",
+   "authors": [
+    "Liu",
+    "Lin",
+    "Yang",
+    "Ng",
+    "Divakaran",
+    "Dong"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 31st USENIX Security Symposium",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.21203/rs.3.rs-9734320/v1",
+      "title": "PhishViT: A Vision Transformer-Based Framework for Phishing Detection from Webpage Screenshots",
+      "year": 2026,
+      "first_author": "Ndayisabye",
+      "container": "",
+      "type": "posted-content",
+      "score": 38.682396
+     },
+     "metrics": {
+      "title_sim": 54.83870967741935,
+      "containment": 0.444,
+      "partial_ratio": 50.53763440860215,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[4] Smith, J., Johnson, M., and Williams, K. Advancing Phishing Email Detection: A Comparative Study of Deep Learning Models. Sensors, 24(7):2077, 2024.",
+   "title": "Advancing Phishing Email Detection: A Comparative Study of Deep Learning Models",
+   "authors": [
+    "Smith",
+    "Johnson",
+    "Williams"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Sensors",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.3390/s24072077",
+    "title": "Advancing Phishing Email Detection: A Comparative Study of Deep Learning Models",
+    "year": 2024,
+    "first_author": "Altwaijry",
+    "container": "Sensors",
+    "type": "journal-article",
+    "score": 61.911797
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[5] Research Team. Phishing Attack Detection using Machine Learning. Technical report, University of Ottawa, 2023.",
+   "title": "Phishing Attack Detection using Machine Learning",
+   "authors": [
+    "Team"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "report",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/s12046-024-02582-0",
+    "title": "Detection of adversarial phishing attack using machine learning techniques",
+    "year": 2024,
+    "first_author": "Sudar",
+    "container": "S\u0101dhan\u0101",
+    "type": "journal-article",
+    "score": 40.285095
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.714,
+    "partial_ratio": 71.72413793103448,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[6] Pawan Prakash, Manish Kumar, Ramana Rao Kompella, and Minaxi Gupta. PhishNet: Predictive Blacklisting to Detect Phishing Attacks. In Proceedings of IEEE INFOCOM, pages 1\u20135, 2010.",
+   "title": "PhishNet: Predictive Blacklisting to Detect Phishing Attacks",
+   "authors": [
+    "Prakash",
+    "Kumar",
+    "Kompella",
+    "Gupta"
+   ],
+   "year": 2010,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of IEEE INFOCOM",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/infcom.2010.5462216",
+    "title": "PhishNet: Predictive Blacklisting to Detect Phishing Attacks",
+    "year": 2010,
+    "first_author": "Prakash",
+    "container": "2010 Proceedings IEEE INFOCOM",
+    "type": "proceedings-article",
+    "score": 83.63372
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[7] Ram Basnet, Srinivas Mukkamala, and Andrew H. Sung. Detection of Phishing Attacks: A Machine Learning Approach. In Soft Computing Applications in Industry, pages 373\u2013383. Springer, 2008.",
+   "title": "Detection of Phishing Attacks: A Machine Learning Approach",
+   "authors": [
+    "Basnet",
+    "Mukkamala",
+    "Sung"
+   ],
+   "year": 2008,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Soft Computing Applications in Industry",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/978-3-540-77465-5_19",
+    "title": "Detection of Phishing Attacks: A Machine Learning Approach",
+    "year": 2008,
+    "first_author": "Basnet",
+    "container": "Studies in Fuzziness and Soft Computing",
+    "type": "book-chapter",
+    "score": 48.88507
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[8] Ian Fette, Norman Sadeh, and Anthony Tomasic. Learning to Detect Phishing Emails. In Proceedings of the 16th International Conference on World Wide Web, pages 649\u2013656, 2007.",
+   "title": "Learning to Detect Phishing Emails",
+   "authors": [
+    "Fette",
+    "Sadeh",
+    "Tomasic"
+   ],
+   "year": 2007,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 16th International Conference on World Wide Web",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.21236/ada456046",
+    "title": "Learning to Detect Phishing Emails",
+    "year": 2006,
+    "first_author": "Fette",
+    "container": "",
+    "type": "report",
+    "score": 58.130405
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "[9] Saeed Abu-Nimeh, Dario Nappa, Xinlei Wang, and Suku Nair. A Comparison of Machine Learning Techniques for Phishing Detection. In Proceedings of the Anti-phishing Working Groups 2nd Annual eCrime Researchers Summit, pages 60\u201369, 2007.",
+   "title": "A Comparison of Machine Learning Techniques for Phishing Detection",
+   "authors": [
+    "Abu-Nimeh",
+    "Nappa",
+    "Wang",
+    "Nair"
+   ],
+   "year": 2007,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the Anti-phishing Working Groups 2nd Annual eCrime Researchers Summit",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/1299015.1299021",
+    "title": "A comparison of machine learning techniques for phishing detection",
+    "year": 2007,
+    "first_author": "Abu-Nimeh",
+    "container": "Proceedings of the anti-phishing working groups 2nd annual eCrime researchers summit",
+    "type": "proceedings-article",
+    "score": 65.30295
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "[10] Rami M. Mohammad, Fadi Thabtah, and Lee McCluskey. Intelligent Rule-based Phishing Websites Classification. IET Information Security, 8(3):153\u2013160, 2014.",
+   "title": "Intelligent Rule-based Phishing Websites Classification",
+   "authors": [
+    "Mohammad",
+    "Thabtah",
+    "McCluskey"
+   ],
+   "year": 2014,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IET Information Security",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1049/iet-ifs.2013.0202",
+    "title": "Intelligent rule\u2010based phishing websites classification",
+    "year": 2014,
+    "first_author": "Mohammad",
+    "container": "IET Information Security",
+    "type": "journal-article",
+    "score": 58.297775
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "[11] Neda Abdelhamid, Aladdin Ayesh, and Fadi Thabtah. Phishing Detection Based Associative Classification Data Mining. Expert Systems with Applications, 41(13):5948\u20135959, 2014.",
+   "title": "Phishing Detection Based Associative Classification Data Mining",
+   "authors": [
+    "Abdelhamid",
+    "Ayesh",
+    "Thabtah"
+   ],
+   "year": 2014,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Expert Systems with Applications",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.eswa.2014.03.019",
+    "title": "Phishing detection based Associative Classification data mining",
+    "year": 2014,
+    "first_author": "Abdelhamid",
+    "container": "Expert Systems with Applications",
+    "type": "journal-article",
+    "score": 61.172585
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "[12] Hang Yuan, Zheng Xu, and Weidong Qiu. An CNN-based Approach to Detecting Phishing Websites. In Proceedings of International Conference on Networking and Network Applications, pages 702\u2013706, 2018.",
+   "title": "An CNN-based Approach to Detecting Phishing Websites",
+   "authors": [
+    "Yuan",
+    "Xu",
+    "Qiu"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of International Conference on Networking and Network Applications",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/icpr.2018.8546262",
+      "title": "Detecting Phishing Websites and Targets Based on URLs and Webpage Links",
+      "year": 2018,
+      "first_author": "Yuan",
+      "container": "2018 24th International Conference on Pattern Recognition (ICPR)",
+      "type": "proceedings-article",
+      "score": 40.930504
+     },
+     "metrics": {
+      "title_sim": 77.64705882352942,
+      "containment": 0.5,
+      "partial_ratio": 61.9718309859155,
+      "year_ok": true,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": {
+    "source": "crossref",
+    "doi": "10.1109/icpr.2018.8546262",
+    "title": "Detecting Phishing Websites and Targets Based on URLs and Webpage Links",
+    "year": 2018,
+    "first_author": "Yuan",
+    "container": "2018 24th International Conference on Pattern Recognition (ICPR)",
+    "type": "proceedings-article",
+    "score": 40.930504
+   }
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "[13] Samer Smadi, Nauman Aslam, and Li Zhang. Detection of Online Phishing Email using Dynamic Evolving Neural Network Based on Reinforcement Learning. Decision Support Systems, 107:88\u2013102, 2018.",
+   "title": "Detection of Online Phishing Email using Dynamic Evolving Neural Network Based on Reinforcement Learning",
+   "authors": [
+    "Smadi",
+    "Aslam",
+    "Zhang"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Decision Support Systems",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.dss.2018.01.001",
+    "title": "Detection of online phishing email using dynamic evolving neural network based on reinforcement learning",
+    "year": 2018,
+    "first_author": "Smadi",
+    "container": "Decision Support Systems",
+    "type": "journal-article",
+    "score": 86.399315
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 16,
+   "raw": "[14] Anonymous Authors. BERT-Phish: Pre-training BERT for Phishing Detection. In Proceedings of the International Conference on Security and Privacy, 2023.",
+   "title": "BERT-Phish: Pre-training BERT for Phishing Detection",
+   "authors": [
+    "Authors"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the International Conference on Security and Privacy",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.4438099",
+      "title": "Pos-Bert: Point Cloud One-Stage Bert Pre-Training",
+      "year": 2023,
+      "first_author": "Fu",
+      "container": "",
+      "type": "posted-content",
+      "score": 46.59612
+     },
+     "metrics": {
+      "title_sim": 65.16853932584269,
+      "containment": 0.444,
+      "partial_ratio": 58.33333333333333,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 17,
+   "raw": "[15] Chen, L., Zhang, W., and Liu, H. PhishAgent: A Robust Multimodal Agent for Phishing Webpage Detection. In Proceedings of AAAI Conference on Artificial Intelligence, 2024.",
+   "title": "PhishAgent: A Robust Multimodal Agent for Phishing Webpage Detection",
+   "authors": [
+    "Chen",
+    "Zhang",
+    "Liu"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of AAAI Conference on Artificial Intelligence",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1609/aaai.v39i27.35003",
+    "title": "PhishAgent: A Robust Multimodal Agent for Phishing Webpage Detection",
+    "year": 2025,
+    "first_author": "Cao",
+    "container": "Proceedings of the AAAI Conference on Artificial Intelligence",
+    "type": "journal-article",
+    "score": 56.121956
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 18,
+   "raw": "[16] Yuexin Li, Chengyu Huang, Shumin Deng, Mei Lin Lock, Tri Cao, Nay Oo, Hoon Wei Lim, and Bryan Hooi. KnowPhish: Large Language Models Meet Multimodal Knowledge Graphs for Enhancing Reference-Based Phishing Detection. In Proceedings of the 33rd USENIX Security Symposium, 2024.",
+   "title": "KnowPhish: Large Language Models Meet Multimodal Knowledge Graphs for Enhancing Reference-Based Phishing Detection",
+   "authors": [
+    "Li",
+    "Huang",
+    "Deng",
+    "Lock",
+    "Cao",
+    "Oo",
+    "Lim",
+    "Hooi"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 33rd USENIX Security Symposium",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/ecrime66200.2024.00007",
+      "title": "Multimodal Large Language Models for Phishing Webpage Detection and Identification",
+      "year": 2024,
+      "first_author": "Lee",
+      "container": "2024 APWG Symposium on Electronic Crime Research (eCrime)",
+      "type": "proceedings-article",
+      "score": 42.777122
+     },
+     "metrics": {
+      "title_sim": 80.2919708029197,
+      "containment": 0.75,
+      "partial_ratio": 54.87804878048781,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 19,
+   "raw": "[17] Victor Zeng, Shahryar Baki, Ayman El Aassal, Rakesh Verma, Luis Felipe Teixeira De Moraes, and Avisha Das. PhishBench 2.0: A Versatile and Extendable Benchmarking Framework for Phishing. In Proceedings of the 2020 ACM SIGSAC Conference on Computer and Communications Security, pages 2077\u20132079, 2020.",
+   "title": "PhishBench 2.0: A Versatile and Extendable Benchmarking Framework for Phishing",
+   "authors": [
+    "Zeng",
+    "Baki",
+    "Aassal",
+    "Verma",
+    "Moraes",
+    "Das"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 2020 ACM SIGSAC Conference on Computer and Communications Security",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3372297.3420017",
+    "title": "PhishBench 2.0: A Versatile and Extendable Benchmarking Framework for Phishing",
+    "year": 2020,
+    "first_author": "Zeng",
+    "container": "Proceedings of the 2020 ACM SIGSAC Conference on Computer and Communications Security",
+    "type": "proceedings-article",
+    "score": 68.49014
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  }
+ ]
+}

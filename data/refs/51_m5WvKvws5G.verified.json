@@ -1,0 +1,698 @@
+{
+ "pdf": "51_m5WvKvws5G.pdf",
+ "n_entries": 15,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "[1] Lingjiao Chen, Matei Zaharia, and James Zou. Frugalgpt: How to use large language models while reducing cost and improving performance. arXiv preprint arXiv:2305.05176, 2023.",
+   "title": "Frugalgpt: How to use large language models while reducing cost and improving performance",
+   "authors": [
+    "Chen",
+    "Zaharia",
+    "Zou"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2305.05176",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2305.05176"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.55415/deep-2024-0007.v1",
+      "title": "How to Precisely Update Large\u00a0Language\u00a0Models Knowledge While Avoiding Catastrophic Forgetting",
+      "year": 2024,
+      "first_author": "ding",
+      "container": "",
+      "type": "posted-content",
+      "score": 36.43601
+     },
+     "metrics": {
+      "title_sim": 65.93406593406593,
+      "containment": 0.455,
+      "partial_ratio": 59.57446808510638,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2] Wenhu Chen, Xueguang Ma, Xinyi Wang, and William W Cohen. Program of thoughts prompting: Disentangling computation from reasoning for numerical reasoning tasks. Transactions on Machine Learning Research, 2022.",
+   "title": "Program of thoughts prompting: Disentangling computation from reasoning for numerical reasoning tasks",
+   "authors": [
+    "Chen",
+    "Ma",
+    "Wang",
+    "Cohen"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Transactions on Machine Learning Research",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.31219/osf.io/325tn",
+      "title": "Effects of Misinformation on Election Beliefs:  Disentangling Motivated Reasoning from Selective Exposure",
+      "year": 2022,
+      "first_author": "Dahlke",
+      "container": "",
+      "type": "posted-content",
+      "score": 36.150806
+     },
+     "metrics": {
+      "title_sim": 58.031088082901555,
+      "containment": 0.222,
+      "partial_ratio": 49.51456310679612,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3] Karl Cobbe, Vineet Kosaraju, Mohammad Bavarian, Mark Chen, Heewoo Jun, Lukasz Kaiser, Matthias Plappert, Jerry Tworek, Jacob Hilton, Reiichiro Nakano, et al. Training verifiers to solve math word problems. arXiv preprint arXiv:2110.14168, 2021.",
+   "title": "Training verifiers to solve math word problems",
+   "authors": [
+    "Cobbe",
+    "Kosaraju",
+    "Bavarian",
+    "Chen",
+    "Jun",
+    "Kaiser",
+    "Plappert",
+    "Tworek",
+    "Hilton",
+    "Nakano"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": "2110.14168",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2110.14168",
+    "title": "Training Verifiers to Solve Math Word Problems",
+    "year": 2021,
+    "first_author": "Karl Cobbe"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4] Shibo Hao, Sainbayar Sukhbaatar, DiJia Su, Xian Li, Zhiting Hu, Jason Weston, and Yuandong Tian. Training large language models to reason in a continuous latent space. arXiv preprint arXiv:2412.06769, 2024.",
+   "title": "Training large language models to reason in a continuous latent space",
+   "authors": [
+    "Hao",
+    "Sukhbaatar",
+    "Su",
+    "Li",
+    "Hu",
+    "Weston",
+    "Tian"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2412.06769",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2412.06769"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.6639219",
+      "title": "The Latent Space of Spirituality: Ontological Dissonance and Semantic Resilience in Large Language Models",
+      "year": 2026,
+      "first_author": "Fassbender",
+      "container": "",
+      "type": "posted-content",
+      "score": 34.752346
+     },
+     "metrics": {
+      "title_sim": 69.81132075471697,
+      "containment": 0.5,
+      "partial_ratio": 53.84615384615385,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5] Jordan Hoffmann, Sebastian Borgeaud, Arthur Mensch, Elena Buchatskaya, Trevor Cai, Eliza Rutherford, Diego de Las Casas, Lisa Anne Hendricks, Johannes Welbl, Aidan Clark, et al. Training compute-optimal large language models. arXiv preprint arXiv:2203.15556, 2022.",
+   "title": "Training compute-optimal large language models",
+   "authors": [
+    "Hoffmann",
+    "Borgeaud",
+    "Mensch",
+    "Buchatskaya",
+    "Cai",
+    "Rutherford",
+    "Las Casas",
+    "Hendricks",
+    "Welbl",
+    "Clark"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": "2203.15556",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/068431-2176",
+    "title": "Training Compute-Optimal Large Language Models",
+    "year": 2022,
+    "first_author": "Hoffmann",
+    "container": "Advances in Neural Information Processing Systems 35",
+    "type": "proceedings-article",
+    "score": 34.036087
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2203.15556"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[6] Jared Kaplan, Sam McCandlish, Tom Henighan, Tom B Brown, Benjamin Chess, Rewon Child, Scott Gray, Alec Radford, Jeffrey Wu, and Dario Amodei. Scaling laws for neural language models. arXiv preprint arXiv:2001.08361, 2020.",
+   "title": "Scaling laws for neural language models",
+   "authors": [
+    "Kaplan",
+    "McCandlish",
+    "Henighan",
+    "Brown",
+    "Chess",
+    "Child",
+    "Gray",
+    "Radford",
+    "Wu",
+    "Amodei"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": "2001.08361",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2001.08361"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.52202/075280-0958",
+      "title": "Scaling laws for language encoding models in fMRI",
+      "year": 2023,
+      "first_author": "Antonello",
+      "container": "Advances in Neural Information Processing Systems 36",
+      "type": "proceedings-article",
+      "score": 34.04424
+     },
+     "metrics": {
+      "title_sim": 90.14084507042253,
+      "containment": 0.667,
+      "partial_ratio": 73.46938775510203,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[7] Takeshi Kojima, Shixiang Shane Gu, Machel Reid, Yutaka Matsuo, and Yusuke Iwasawa. Large language models are zero-shot reasoners. In Advances in neural information processing systems, volume 35, pages 22199\u201322213, 2022.",
+   "title": "Large language models are zero-shot reasoners",
+   "authors": [
+    "Kojima",
+    "Gu",
+    "Reid",
+    "Matsuo",
+    "Iwasawa"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in neural information processing systems",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/068431-1613",
+    "title": "Large Language Models Are Zero-Shot Reasoners",
+    "year": 2022,
+    "first_author": "Kojima",
+    "container": "Advances in Neural Information Processing Systems 35",
+    "type": "proceedings-article",
+    "score": 59.1824
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[8] Patrick Lewis, Ethan Perez, Aleksandra Piktus, Fabio Petroni, Vladimir Karpukhin, Naman Goyal, Heinrich K\u00fcttler, Mike Lewis, Wen-tau Yih, Tim Rockt\u00e4schel, et al. Retrieval-augmented generation for knowledge-intensive nlp tasks. Advances in neural information processing systems, 33:9459\u20139474, 2020.",
+   "title": "Retrieval-augmented generation for knowledge-intensive nlp tasks",
+   "authors": [
+    "Lewis",
+    "Perez",
+    "Piktus",
+    "Petroni",
+    "Karpukhin",
+    "Goyal",
+    "K\u00fcttler",
+    "Lewis",
+    "Yih",
+    "Rockt\u00e4schel"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in neural information processing systems",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1002/9781394374717.ch03",
+      "title": "Retrieval\u2010Augmented Generation",
+      "year": 2026,
+      "first_author": null,
+      "container": "Advanced Retrieval\u2010Augmented Generation",
+      "type": "other",
+      "score": 37.195854
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 1.0,
+      "partial_ratio": 100.0,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[9] Alex Mallen, Akari Asai, Victor Zhong, Rajarshi Das, Daniel Khashabi, and Hannaneh Hajishirzi. When not to trust language models: Investigating effectiveness of parametric and non-parametric memories. arXiv preprint arXiv:2212.10511, 2022.",
+   "title": "When not to trust language models: Investigating effectiveness of parametric and non-parametric memories",
+   "authors": [
+    "Mallen",
+    "Asai",
+    "Zhong",
+    "Das",
+    "Khashabi",
+    "Hajishirzi"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": "2212.10511",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2023.acl-long.546",
+    "title": "When Not to Trust Language Models: Investigating Effectiveness of Parametric and Non-Parametric Memories",
+    "year": 2023,
+    "first_author": "Mallen",
+    "container": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "type": "proceedings-article",
+    "score": 71.74913
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2212.10511"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[10] Yujia Qin, Shihao Liang, Yining Ye, Kunlun Zhu, Lan Yan, Yaxi Lu, Yankai Lin, Xin Cong, Xiangru Tang, Bill Qian, et al. Toolllm: Facilitating large language models to master 16000+ real-world apis. arXiv preprint arXiv:2307.16789, 2023.",
+   "title": "Toolllm: Facilitating large language models to master 16000+ real-world apis",
+   "authors": [
+    "Qin",
+    "Liang",
+    "Ye",
+    "Zhu",
+    "Yan",
+    "Lu",
+    "Lin",
+    "Cong",
+    "Tang",
+    "Qian"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2307.16789",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2307.16789"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/979-8-8688-2733-4_1",
+      "title": "Introduction to Large Language Models",
+      "year": 2026,
+      "first_author": "Rawat",
+      "container": "Mastering Large Language Models",
+      "type": "book-chapter",
+      "score": 35.388733
+     },
+     "metrics": {
+      "title_sim": 78.68852459016394,
+      "containment": 0.75,
+      "partial_ratio": 72.97297297297297,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "[11] Hugo Touvron, Louis Martin, Kevin Stone, Peter Albert, Amjad Almahairi, Yasmine Babaei, Nikolay Bashlykov, Soumya Batra, Prajjwal Bhargava, Shruti Bhosale, et al. Llama 2: Open foundation and fine-tuned chat models. arXiv preprint arXiv:2307.09288, 2023.",
+   "title": "Llama 2: Open foundation and fine-tuned chat models",
+   "authors": [
+    "Touvron",
+    "Martin",
+    "Stone",
+    "Albert",
+    "Almahairi",
+    "Babaei",
+    "Bashlykov",
+    "Batra",
+    "Bhargava",
+    "Bhosale"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2307.09288",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2307.09288",
+    "title": "Llama 2: Open Foundation and Fine-Tuned Chat Models",
+    "year": 2023,
+    "first_author": "Hugo Touvron"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "[12] Xuezhi Wang, Jason Wei, Dale Schuurmans, Quoc Le, Ed Chi, Sharan Narang, Aakanksha Chowdhery, and Denny Zhou. Self-consistency improves chain of thought reasoning in language models. arXiv preprint arXiv:2203.11171, 2022.",
+   "title": "Self-consistency improves chain of thought reasoning in language models",
+   "authors": [
+    "Wang",
+    "Wei",
+    "Schuurmans",
+    "Le",
+    "Chi",
+    "Narang",
+    "Chowdhery",
+    "Zhou"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": "2203.11171",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2203.11171",
+    "title": "Self-Consistency Improves Chain of Thought Reasoning in Language Models",
+    "year": 2022,
+    "first_author": "Xuezhi Wang"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "[13] Jason Wei, Xuezhi Wang, Dale Schuurmans, Maarten Bosma, Fei Xia, Ed Chi, Quoc V Le, Denny Zhou, et al. Chain-of-thought prompting elicits reasoning in large language models. In Advances in neural information processing systems, volume 35, pages 24824\u201324837, 2022.",
+   "title": "Chain-of-thought prompting elicits reasoning in large language models",
+   "authors": [
+    "Wei",
+    "Wang",
+    "Schuurmans",
+    "Bosma",
+    "Xia",
+    "Chi",
+    "Le",
+    "Zhou"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in neural information processing systems",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/068431-1800",
+    "title": "Chain-Of-Thought Prompting Elicits Reasoning in Large Language Models",
+    "year": 2022,
+    "first_author": "Wei",
+    "container": "Advances in Neural Information Processing Systems 35",
+    "type": "proceedings-article",
+    "score": 60.126316
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "[14] Shunyu Yao, Dian Yu, Jeffrey Zhao, Izhak Shafran, Tom Griffiths, Yuan Cao, and Karthik Narasimhan. Tree of thoughts: Deliberate problem solving with large language models. Advances in neural information processing systems, 36:11809\u201311822, 2023.",
+   "title": "Tree of thoughts: Deliberate problem solving with large language models",
+   "authors": [
+    "Yao",
+    "Yu",
+    "Zhao",
+    "Shafran",
+    "Griffiths",
+    "Cao",
+    "Narasimhan"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in neural information processing systems",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/075280-0517",
+    "title": "Tree of Thoughts: Deliberate Problem Solving with Large Language Models",
+    "year": 2023,
+    "first_author": "Yao",
+    "container": "Advances in Neural Information Processing Systems 36",
+    "type": "proceedings-article",
+    "score": 61.22408
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "[15] Eric Zelikman, Georges Harik, Yijia Shao, Varuna Jayasiri, Nick Haber, and Noah D Goodman. Quiet-star: Language models can teach themselves to think before speaking. arXiv preprint arXiv:2403.09629, 2024.",
+   "title": "Quiet-star: Language models can teach themselves to think before speaking",
+   "authors": [
+    "Zelikman",
+    "Harik",
+    "Shao",
+    "Jayasiri",
+    "Haber",
+    "Goodman"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2403.09629",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2403.09629"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.52202/075280-2997",
+      "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+      "year": 2023,
+      "first_author": "Schick",
+      "container": "Advances in Neural Information Processing Systems 36",
+      "type": "proceedings-article",
+      "score": 31.273714
+     },
+     "metrics": {
+      "title_sim": 78.78787878787878,
+      "containment": 0.625,
+      "partial_ratio": 78.33333333333333,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  }
+ ]
+}

@@ -1,0 +1,1622 @@
+{
+ "pdf": "28_3qFtGLGyO3.pdf",
+ "n_entries": 39,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": false,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "[1] A. L. Buczak and E. Guven, \u201cA survey of data mining and machine learning methods for cyber security,\u201d IEEE Communications Surveys & Tutorials, vol. 18, no. 2, pp. 1153\u20131176, 2016.",
+   "title": "A survey of data mining and machine learning methods for cyber security",
+   "authors": [
+    "Buczak",
+    "Guven"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE Communications Surveys & Tutorials",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/comst.2015.2494502",
+    "title": "A Survey of Data Mining and Machine Learning Methods for Cyber Security Intrusion Detection",
+    "year": 2016,
+    "first_author": "Buczak",
+    "container": "IEEE Communications Surveys &amp; Tutorials",
+    "type": "journal-article",
+    "score": 56.027214
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.8,
+    "partial_ratio": 87.91208791208791,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2] P. Mell and K. Scarfone, \u201cThe NIST definition of cloud computing,\u201d NIST Special Publication 800-145, 2013.",
+   "title": "The NIST definition of cloud computing",
+   "authors": [
+    "Mell",
+    "Scarfone"
+   ],
+   "year": 2013,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.6028/nist.sp.800-145",
+    "title": "The NIST definition of cloud computing",
+    "year": 2011,
+    "first_author": "Mell",
+    "container": "",
+    "type": "report",
+    "score": 54.67975
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3] S. Das, S. G. D. L. C. de Mello, W. Z. e. o. e. Silva, P. B. e. A. G. Gendreau, and M. A. d. S. e. Silva, \u201cA systematic review of alert correlation and prioritization in security operations centers (SOCs),\u201d Journal of Network and Computer Applications, vol. 165, p. 102693, 2020.",
+   "title": "A systematic review of alert correlation and prioritization in security operations centers (SOCs",
+   "authors": [
+    "Das",
+    "Mello",
+    "Silva",
+    "A. G. Gendreau",
+    "Silva"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Network and Computer Applications",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.4324/9781003615026-10",
+      "title": "AI and ML in Cybersecurity Operations and Security Operations Centers (SOCs)",
+      "year": 2025,
+      "first_author": "Gwashy Young",
+      "container": "Artificial Intelligence and Machine Learning in Cybersecurity",
+      "type": "book-chapter",
+      "score": 33.00264
+     },
+     "metrics": {
+      "title_sim": 79.59183673469389,
+      "containment": 0.833,
+      "partial_ratio": 68.91891891891892,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4] A. Okutan and E. Kilic, \u201cA novel approach for alert correlation using graph-based techniques,\u201d in 2018 6th International Symposium on Digital Forensic and Security (ISDFS), 2018, pp. 1\u20135.",
+   "title": "A novel approach for alert correlation using graph-based techniques",
+   "authors": [
+    "Okutan",
+    "Kilic"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "2018 6th International Symposium on Digital Forensic and Security (ISDFS",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/csnt.2012.212",
+      "title": "Alert Correlation Using a Novel Clustering Approach",
+      "year": 2012,
+      "first_author": "Mohamed",
+      "container": "2012 International Conference on Communication Systems and Network Technologies",
+      "type": "proceedings-article",
+      "score": 30.064718
+     },
+     "metrics": {
+      "title_sim": 87.91208791208791,
+      "containment": 0.8,
+      "partial_ratio": 66.66666666666667,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5] M. U. Tariq, H. S. Kim, and S. M. Kim, \u201cAlert fatigue in cybersecurity: A systematic literature review and future research directions,\u201d Computers & Security, vol. 138, p. 103632, 2024.",
+   "title": "Alert fatigue in cybersecurity: A systematic literature review and future research directions",
+   "authors": [
+    "Tariq",
+    "Kim",
+    "Kim"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Computers & Security",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.5220/0014598400004052",
+      "title": "Generative AI and LLMs in Cybersecurity:~Literature Review and Future Research Directions",
+      "year": 2026,
+      "first_author": "Lasisi",
+      "container": "Proceedings of the 18th International Conference on Agents and Artificial Intelligence",
+      "type": "proceedings-article",
+      "score": 39.539024
+     },
+     "metrics": {
+      "title_sim": 87.24832214765101,
+      "containment": 0.75,
+      "partial_ratio": 79.54545454545455,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[6] L. Al-Hadhrami, A. S. Gendreau de Assis, and M. A. da Silva e Silva, \u201cA survey of alert correlation techniques for advanced persistent threat detection,\u201d ACM Computing Surveys (CSUR), vol. 54, no. 9, pp. 1\u201337, 2021.",
+   "title": "A survey of alert correlation techniques for advanced persistent threat detection",
+   "authors": [
+    "Al-Hadhrami",
+    "Assis",
+    "Silva"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "ACM Computing Surveys (CSUR",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/crc50527.2021.9392626",
+    "title": "Advanced Persistent Threat Detection: A Survey",
+    "year": 2021,
+    "first_author": "Khalid",
+    "container": "2021 3rd International Cyber Resilience Conference (CRC)",
+    "type": "proceedings-article",
+    "score": 37.360847
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 86.66666666666667,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[7] A. B. Arrieta, N. D\u0131az-Rodr\u0131guez, J. Del Ser, et al., \u201cExplainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities and challenges toward responsible AI,\u201d Information Fusion, vol. 58, pp. 82\u2013115, 2020.",
+   "title": "Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities and challenges toward responsible AI",
+   "authors": [
+    "Arrieta",
+    "D\u0131az-Rodr\u0131guez",
+    "Ser"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Information Fusion",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.inffus.2019.12.012",
+    "title": "Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities and challenges toward responsible AI",
+    "year": 2020,
+    "first_author": "Barredo Arrieta",
+    "container": "Information Fusion",
+    "type": "journal-article",
+    "score": 77.06774
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[8] D. Moher, A. Liberati, J. Tetzlaff, D. G. Altman, and The PRISMA Group, \u201cPreferred reporting items for systematic reviews and metaanalyses: The PRISMA statement,\u201d PLoS Medicine, vol. 6, no. 7, p. e1000097, 2009.",
+   "title": "Preferred reporting items for systematic reviews and metaanalyses: The PRISMA statement",
+   "authors": [
+    "Moher",
+    "Liberati",
+    "Tetzlaff",
+    "Altman",
+    "Group"
+   ],
+   "year": 2009,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "PLoS Medicine",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1371/journal.pmed.1000097",
+    "title": "Preferred Reporting Items for Systematic Reviews and Meta-Analyses: The PRISMA Statement",
+    "year": 2009,
+    "first_author": "Moher",
+    "container": "PLoS Medicine",
+    "type": "journal-article",
+    "score": 70.741035
+   },
+   "metrics": {
+    "title_sim": 99.42196531791907,
+    "containment": 0.778,
+    "partial_ratio": 98.85057471264368,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[9] H. K. Huang, C. S. Lee, M. Y. Kao, and S. Y. Hsieh, \u201cA fuzzy-logic based approach to anomaly alert correlation,\u201d in 2012 IEEE International Conference on Fuzzy Systems, 2012, pp. 1\u20136.",
+   "title": "A fuzzy-logic based approach to anomaly alert correlation",
+   "authors": [
+    "Huang",
+    "Lee",
+    "Kao",
+    "Hsieh"
+   ],
+   "year": 2012,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "2012 IEEE International Conference on Fuzzy Systems",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.5772/37060",
+      "title": "Fuzzy Logic Approach for",
+      "year": 2012,
+      "first_author": "Shehu",
+      "container": "Fuzzy Logic - Algorithms, Techniques and Implementations",
+      "type": "book-chapter",
+      "score": 31.168037
+     },
+     "metrics": {
+      "title_sim": 90.9090909090909,
+      "containment": 1.0,
+      "partial_ratio": 75.0,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[10] Z. Zhang and X. Chu, \u201cRisk prioritization in failure mode and effects analysis under uncertainty,\u201d Expert Systems with Applications, vol. 38, no. 1, pp. 206\u2013214, 2011.",
+   "title": "Risk prioritization in failure mode and effects analysis under uncertainty",
+   "authors": [
+    "Zhang",
+    "Chu"
+   ],
+   "year": 2011,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Expert Systems with Applications",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.eswa.2010.06.046",
+    "title": "Risk prioritization in failure mode and effects analysis under uncertainty",
+    "year": 2011,
+    "first_author": "Zhang",
+    "container": "Expert Systems with Applications",
+    "type": "journal-article",
+    "score": 55.53957
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "[11] J. E. Bassey, X. Li, and Y. Qi, \u201cA dynamic rule-based alert prioritization technique using contextual information,\u201d Journal of Information Security and Applications, vol. 82, p. 103755, 2024.",
+   "title": "A dynamic rule-based alert prioritization technique using contextual information",
+   "authors": [
+    "Bassey",
+    "Li",
+    "Qi"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Information Security and Applications",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.34218/ijaird_03_01_009",
+      "title": "CONTEXTUAL THREAT INTELLIGENCE AND ALERT PRIORITIZATION WITH FOUNDATION-SEC-8B",
+      "year": 2025,
+      "first_author": "Singh",
+      "container": "INTERNATIONAL JOURNAL OF ARTIFICIAL INTELLIGENCE RESEARCH AND DEVELOPMENT",
+      "type": "journal-article",
+      "score": 28.887285
+     },
+     "metrics": {
+      "title_sim": 67.08860759493672,
+      "containment": 0.429,
+      "partial_ratio": 56.41025641025641,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "[12] A. Laszka, A. Dubey, M. Walker, and D. C. Schmidt, \u201cPrioritizing network security alerts using a game-theoretic approach,\u201d in Proceedings of the 2nd ACM International Workshop on Moving Target Defense, 2017, pp. 55\u201366.",
+   "title": "Prioritizing network security alerts using a game-theoretic approach",
+   "authors": [
+    "Laszka",
+    "Dubey",
+    "Walker",
+    "Schmidt"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 2nd ACM International Workshop on Moving Target Defense",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/s10207-017-0364-2",
+      "title": "A game-theoretic approach for integrity assurance in resource-bounded systems",
+      "year": 2018,
+      "first_author": "Laszka",
+      "container": "International Journal of Information Security",
+      "type": "journal-article",
+      "score": 41.804592
+     },
+     "metrics": {
+      "title_sim": 62.06896551724138,
+      "containment": 0.375,
+      "partial_ratio": 57.14285714285714,
+      "year_ok": true,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "[13] S. Mirheidari, B. Farhood, H. Kadkhodaei, and M. Karimi, \u201cA novel alert correlation approach using random forest,\u201d in 2018 4th International Conference on Web Research (ICWR), 2018, pp. 126\u2013131.",
+   "title": "A novel alert correlation approach using random forest",
+   "authors": [
+    "Mirheidari",
+    "Farhood",
+    "Kadkhodaei",
+    "Karimi"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "2018 4th International Conference on Web Research (ICWR",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/csnt.2012.212",
+      "title": "Alert Correlation Using a Novel Clustering Approach",
+      "year": 2012,
+      "first_author": "Mohamed",
+      "container": "2012 International Conference on Communication Systems and Network Technologies",
+      "type": "proceedings-article",
+      "score": 30.064718
+     },
+     "metrics": {
+      "title_sim": 87.91208791208791,
+      "containment": 0.8,
+      "partial_ratio": 64.70588235294117,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "[14] J. A. Mauro and S. R. Sarno, \u201cAlert correlation of Skype traffic based on machine learning,\u201d in 2017 IEEE 1st International Conference on Computer Applications (ICCA), 2017, pp. 1\u20135.",
+   "title": "Alert correlation of Skype traffic based on machine learning",
+   "authors": [
+    "Mauro",
+    "Sarno"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "2017 IEEE 1st International Conference on Computer Applications (ICCA",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/978-1-4899-7687-1_100089",
+    "title": "Correlation-Based Learning",
+    "year": 2017,
+    "first_author": null,
+    "container": "Encyclopedia of Machine Learning and Data Mining",
+    "type": "book-chapter",
+    "score": 30.804247
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 61.53846153846154,
+    "year_ok": true,
+    "first_author_ok": null
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "[15] M. Turcotte, A. Kent, and F. Gagnon, \u201cAutomated alert-to-case triage using machine learning,\u201d in Proceedings of the 2022 ACM Workshop on Autonomous Cyber Deception and Reconfiguration, 2022, pp. 1\u20139.",
+   "title": "Automated alert-to-case triage using machine learning",
+   "authors": [
+    "Turcotte",
+    "Kent",
+    "Gagnon"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 2022 ACM Workshop on Autonomous Cyber Deception and Reconfiguration",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.59298/inosrsr/2026/122011",
+      "title": "A Cloud-Based Incident Response Platform using Machine Learning Alert Triage and Automation",
+      "year": 2026,
+      "first_author": "Nwachukwu",
+      "container": "INOSR SCIENTIFIC RESEARCH",
+      "type": "journal-article",
+      "score": 33.71854
+     },
+     "metrics": {
+      "title_sim": 79.54545454545455,
+      "containment": 0.4,
+      "partial_ratio": 53.84615384615385,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 16,
+   "raw": "[16] A. Pecchia, M. Cinque, and D. Cotroneo, \u201cA-SIT: An anomaly-based security information and event management tool,\u201d in 2014 IEEE 25th International Symposium on Software Reliability Engineering, 2014, pp. 191\u2013200.",
+   "title": "A-SIT: An anomaly-based security information and event management tool",
+   "authors": [
+    "Pecchia",
+    "Cinque",
+    "Cotroneo"
+   ],
+   "year": 2014,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "2014 IEEE 25th International Symposium on Software Reliability Engineering",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1201/9781420090956-15",
+      "title": "Security Information and Event Management (SIEM) Technology",
+      "year": 2009,
+      "first_author": null,
+      "container": "Information Security Management Handbook, Volume 3",
+      "type": "book-chapter",
+      "score": 29.800774
+     },
+     "metrics": {
+      "title_sim": 83.6734693877551,
+      "containment": 0.667,
+      "partial_ratio": 78.94736842105263,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 17,
+   "raw": "[17] M. M. Hassan, F. Afroz, and SM Noman, \u201cAn approach to reduce security alert volume using k-means clustering algorithm,\u201d in 2019 International Conference on Electrical, Computer and Communication Engineering (ECCE), 2019, pp. 1\u20136.",
+   "title": "An approach to reduce security alert volume using k-means clustering algorithm",
+   "authors": [
+    "Hassan",
+    "Afroz",
+    "Noman"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "2019 International Conference on Electrical, Computer and Communication Engineering (ECCE",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.5220/0006437402330240",
+      "title": "Index Clustering: A Map-reduce Clustering Approach using Numba",
+      "year": 2017,
+      "first_author": "Chen",
+      "container": "Proceedings of the 6th International Conference on Data Science, Technology and Applications",
+      "type": "proceedings-article",
+      "score": 31.551723
+     },
+     "metrics": {
+      "title_sim": 78.04878048780488,
+      "containment": 0.571,
+      "partial_ratio": 54.0983606557377,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 18,
+   "raw": "[18] M. Al-Tobi, Y. Al-Nabhani, and D. Al-Abri, \u201cAlert prioritization using outlier detection algorithms,\u201d International Journal of Advanced Computer Science and Applications, vol. 12, no. 1, 2021.",
+   "title": "Alert prioritization using outlier detection algorithms",
+   "authors": [
+    "Al-Tobi",
+    "Al-Nabhani",
+    "Al-Abri"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Journal of Advanced Computer Science and Applications",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.32614/cran.package.odetector",
+      "title": "odetector: Outlier Detection Using Partitioning Clustering Algorithms",
+      "year": 2022,
+      "first_author": "Cebeci",
+      "container": "CRAN: Contributed Packages",
+      "type": "dataset",
+      "score": 32.05101
+     },
+     "metrics": {
+      "title_sim": 78.04878048780488,
+      "containment": 0.5,
+      "partial_ratio": 55.88235294117647,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 19,
+   "raw": "[19] Q. Liao and V. PDR, \u201cSecurity alert correlation using topic modeling,\u201d in Proceedings of the 6th Workshop on Security and Artificial Intelligence, 2016, pp. 1\u20137.",
+   "title": "Security alert correlation using topic modeling",
+   "authors": [
+    "Liao",
+    "PDR"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 6th Workshop on Security and Artificial Intelligence",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/0-387-23399-7_3",
+      "title": "Alert Correlation",
+      "year": 2005,
+      "first_author": null,
+      "container": "Advances in Information Security",
+      "type": "book-chapter",
+      "score": 29.399456
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 1.0,
+      "partial_ratio": 100.0,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 20,
+   "raw": "[20] M. Du, F. Li, G. Zheng, and V. Srikumar, \u201cDeepLog: Anomaly detection and diagnosis from system logs through deep learning,\u201d in Proceedings of the 2017 ACM SIGSAC Conference on Computer and Communications Security, 2017, pp. 1285\u20131298.",
+   "title": "DeepLog: Anomaly detection and diagnosis from system logs through deep learning",
+   "authors": [
+    "Du",
+    "Li",
+    "Zheng",
+    "Srikumar"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 2017 ACM SIGSAC Conference on Computer and Communications Security",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/access.2024.3506332",
+      "title": "Anomaly Detection in Logs Using Deep Learning",
+      "year": 2024,
+      "first_author": "Aziz",
+      "container": "IEEE Access",
+      "type": "journal-article",
+      "score": 37.179993
+     },
+     "metrics": {
+      "title_sim": 88.88888888888889,
+      "containment": 1.0,
+      "partial_ratio": 62.22222222222222,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 21,
+   "raw": "[21] Y. Shen, M. Maric, A. Ponomarev, and V. Hilt, \u201cTIRESIAS: A sequenceto-sequence model for predicting the future of an attack,\u201d in 2018 ACM SIGSAC Conference on Computer and Communications Security, 2018, pp. 2029\u20132040.",
+   "title": "TIRESIAS: A sequenceto-sequence model for predicting the future of an attack",
+   "authors": [
+    "Shen",
+    "Maric",
+    "Ponomarev",
+    "Hilt"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "2018 ACM SIGSAC Conference on Computer and Communications Security",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/978-981-10-8267-2_2",
+      "title": "Random Sequence Model for Linear Systems",
+      "year": 2018,
+      "first_author": "Shen",
+      "container": "Iterative Learning Control with Passive Incomplete Information",
+      "type": "book-chapter",
+      "score": 24.092648
+     },
+     "metrics": {
+      "title_sim": 62.06896551724138,
+      "containment": 0.4,
+      "partial_ratio": 67.5,
+      "year_ok": true,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 22,
+   "raw": "[22] V. H. Le, J. C. F, and M. L, \u201cA GRU-based deep learning approach for anomaly detection in cloud server logs,\u201d IEEE Transactions on Network and Service Management, vol. 18, no. 4, pp. 4219\u20134231, 2021.",
+   "title": "A GRU-based deep learning approach for anomaly detection in cloud server logs",
+   "authors": [
+    "Le",
+    "F",
+    "L"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE Transactions on Network and Service Management",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.32604/csse.2025.060387",
+      "title": "Cloud-Based Deep Learning for Real-Time URL Anomaly Detection: LSTM/GRU and CNN/LSTM Models",
+      "year": 2025,
+      "first_author": "Noor",
+      "container": "Computer Systems Science and Engineering",
+      "type": "journal-article",
+      "score": 42.4716
+     },
+     "metrics": {
+      "title_sim": 79.6875,
+      "containment": 0.5,
+      "partial_ratio": 62.22222222222222,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 23,
+   "raw": "[23] S. Liu, M. Wang, and X. Zhang, \u201cTRACE2VEC: A novel representation learning model for attack scenario reconstruction,\u201d in 2021 IEEE Symposium on Security and Privacy (SP), 2021, pp. 1718\u20131735.",
+   "title": "TRACE2VEC: A novel representation learning model for attack scenario reconstruction",
+   "authors": [
+    "Liu",
+    "Wang",
+    "Zhang"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "2021 IEEE Symposium on Security and Privacy (SP",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.4347113",
+      "title": "A Uniform Representation Model for Oct-Based Fingerprint Presentation Attack Detection and Reconstruction",
+      "year": 2023,
+      "first_author": "Zhang",
+      "container": "",
+      "type": "posted-content",
+      "score": 33.51844
+     },
+     "metrics": {
+      "title_sim": 73.84615384615384,
+      "containment": 0.4,
+      "partial_ratio": 55.23809523809524,
+      "year_ok": false,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 24,
+   "raw": "[24] J. Kim, J. S. Park, and S. B. Cho, \u201cA graph-based autoencoder for APT detection,\u201d in 2020 International Joint Conference on Neural Networks (IJCNN), 2020, pp. 1\u20138.",
+   "title": "A graph-based autoencoder for APT detection",
+   "authors": [
+    "Kim",
+    "Park",
+    "Cho"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "2020 International Joint Conference on Neural Networks (IJCNN",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.6409031",
+      "title": "Adversarial Autoencoder-Based Hybrid Graph Neural Network for Banking Fraud Detection",
+      "year": 2026,
+      "first_author": "Shahzadi",
+      "container": "",
+      "type": "posted-content",
+      "score": 29.468052
+     },
+     "metrics": {
+      "title_sim": 50.0,
+      "containment": 0.5,
+      "partial_ratio": 49.36708860759494,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 25,
+   "raw": "[25] A. Jamal, S. Al-Ahmadi, and A. Al-Ghamdi, \u201cA Hybrid Deep LearningBased Model for Multi-Stage Cyber Attack Detection,\u201d Electronics, vol. 12, no. 5, p. 1225, 2023.",
+   "title": "A Hybrid Deep LearningBased Model for Multi-Stage Cyber Attack Detection",
+   "authors": [
+    "Jamal",
+    "Al-Ahmadi",
+    "Al-Ghamdi"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Electronics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/iciccs56967.2023.10142571",
+      "title": "Hybrid Deep Learning Model for Cyber-Attack Detection",
+      "year": 2023,
+      "first_author": "Premkumar",
+      "container": "2023 7th International Conference on Intelligent Computing and Control Systems (ICICCS)",
+      "type": "proceedings-article",
+      "score": 36.70614
+     },
+     "metrics": {
+      "title_sim": 90.72164948453609,
+      "containment": 0.857,
+      "partial_ratio": 67.9245283018868,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 26,
+   "raw": "[26] Y. Zhou, S. Yan, Y. Tang, and Y. Li, \u201cA BERT-based approach for semantic correlation of security alerts,\u201d in 2021 IEEE International Conference on Communications, Control, and Computing Technologies for Smart Grids (SmartGridComm), 2021, pp. 1\u20136.",
+   "title": "A BERT-based approach for semantic correlation of security alerts",
+   "authors": [
+    "Zhou",
+    "Yan",
+    "Tang",
+    "Li"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "2021 IEEE International Conference on Communications, Control, and Computing Technologies for Smart Grids (SmartGridComm",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/978-0-387-77265-3_4",
+      "title": "Correlation Analysis of Intrusion Alerts",
+      "year": 2008,
+      "first_author": null,
+      "container": "Advances in Information Security",
+      "type": "book-chapter",
+      "score": 27.194456
+     },
+     "metrics": {
+      "title_sim": 68.85245901639344,
+      "containment": 0.5,
+      "partial_ratio": 60.0,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 27,
+   "raw": "[27] L. Gualberto, F. Vega, and J. C, \u201cPhishing detection using a combination of TF-IDF and XGBoost,\u201d in 2020 15th Iberian Conference on Information Systems and Technologies (CISTI), 2020, pp. 1\u20136.",
+   "title": "Phishing detection using a combination of TF-IDF and XGBoost",
+   "authors": [
+    "Gualberto",
+    "Vega",
+    "C"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "2020 15th Iberian Conference on Information Systems and Technologies (CISTI",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.36948/ijfmr.2024.v06i03.21435",
+      "title": "Detection Of phishing URLs using a Term Frequency Inverse Document Frequency (TF-IDF).",
+      "year": 2024,
+      "first_author": "-",
+      "container": "International Journal For Multidisciplinary Research",
+      "type": "journal-article",
+      "score": 41.29897
+     },
+     "metrics": {
+      "title_sim": 75.0,
+      "containment": 0.333,
+      "partial_ratio": 47.20496894409938,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 28,
+   "raw": "[28] L. Chen, Z. Li, and G. Zhang, \u201cImproving Large Language Models for Cybersecurity Incident Report Analysis with Logical Constraints,\u201d in Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing, 2024, pp. 100\u2013112.",
+   "title": "Improving Large Language Models for Cybersecurity Incident Report Analysis with Logical Constraints",
+   "authors": [
+    "Chen",
+    "Li",
+    "Zhang"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.36227/techrxiv.172417964.40874339/v2",
+      "title": "Large Language Models in Cybersecurity: Digital Defense and Ethical Challenges",
+      "year": 2024,
+      "first_author": "Cimmino",
+      "container": "",
+      "type": "posted-content",
+      "score": 35.17683
+     },
+     "metrics": {
+      "title_sim": 65.90909090909092,
+      "containment": 0.5,
+      "partial_ratio": 68.83116883116884,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 29,
+   "raw": "[29] T. Klein and G. Romano, \u201cARL-CIR: Adaptive Reinforcement Learning for Cyber Incident Response,\u201d in 2022 IEEE Conference on Communications and Network Security (CNS), 2022, pp. 1\u20139.",
+   "title": "ARL-CIR: Adaptive Reinforcement Learning for Cyber Incident Response",
+   "authors": [
+    "Klein",
+    "Romano"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "2022 IEEE Conference on Communications and Network Security (CNS",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.62177/jaet.v2i1.212",
+      "title": "Optimizing Cybersecurity Incident Response via Adaptive Reinforcement Learning",
+      "year": 2025,
+      "first_author": "Tobias Klein",
+      "container": "Journal of Advances in Engineering and Technology",
+      "type": "journal-article",
+      "score": 38.395973
+     },
+     "metrics": {
+      "title_sim": 84.48275862068965,
+      "containment": 0.714,
+      "partial_ratio": 63.829787234042556,
+      "year_ok": false,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 30,
+   "raw": "[30] P. Chavali, D. Ganesan, and P. Shenoy, \u201cSAC-AP: Soft Actor-Critic based Alert Prioritization in Cybersecurity,\u201d in Proceedings of the 2022 ACM on Asia Conference on Computer and Communications Security, 2022, pp. 798\u2013811.",
+   "title": "SAC-AP: Soft Actor-Critic based Alert Prioritization in Cybersecurity",
+   "authors": [
+    "Chavali",
+    "Ganesan",
+    "Shenoy"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 2022 ACM on Asia Conference on Computer and Communications Security",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/cec55065.2022.9870423",
+    "title": "SAC-AP: Soft Actor Critic based Deep Reinforcement Learning for Alert Prioritization",
+    "year": 2022,
+    "first_author": "Chavali",
+    "container": "2022 IEEE Congress on Evolutionary Computation (CEC)",
+    "type": "proceedings-article",
+    "score": 84.74161
+   },
+   "metrics": {
+    "title_sim": 85.71428571428571,
+    "containment": 0.7,
+    "partial_ratio": 63.85542168674698,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 31,
+   "raw": "[31] Z. Shah, E. J, and W. S, \u201cA reinforcement learning approach for intelligent alert prioritization,\u201d in 2019 IEEE 5th International Conference on Collaboration and Internet Computing (CIC), 2019, pp. 318\u2013325.",
+   "title": "A reinforcement learning approach for intelligent alert prioritization",
+   "authors": [
+    "Shah",
+    "J",
+    "S"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "2019 IEEE 5th International Conference on Collaboration and Internet Computing (CIC",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/cec55065.2022.9870423",
+      "title": "SAC-AP: Soft Actor Critic based Deep Reinforcement Learning for Alert Prioritization",
+      "year": 2022,
+      "first_author": "Chavali",
+      "container": "2022 IEEE Congress on Evolutionary Computation (CEC)",
+      "type": "proceedings-article",
+      "score": 31.410948
+     },
+     "metrics": {
+      "title_sim": 80.34188034188034,
+      "containment": 0.4,
+      "partial_ratio": 67.46987951807229,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 32,
+   "raw": "[32] P. Holgado, V. A. Villagra, and L. Vazquez, \u201cA multi-agent reinforcement learning approach for autonomous cyber-defense,\u201d in 2020 IEEE Globecom Workshops (GC Wkshps), 2020, pp. 1\u20136.",
+   "title": "A multi-agent reinforcement learning approach for autonomous cyber-defense",
+   "authors": [
+    "Holgado",
+    "Villagra",
+    "Vazquez"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "2020 IEEE Globecom Workshops (GC Wkshps",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/cars67163.2025.11337724",
+      "title": "Autonomous Multi-agent Cyber Defense: A Novel Approach Using Reinforcement Learning with Hierarchical LLM Critics",
+      "year": 2025,
+      "first_author": "Ahmed",
+      "container": "2025 Cyber Awareness and Research Symposium (CARS)",
+      "type": "proceedings-article",
+      "score": 47.917038
+     },
+     "metrics": {
+      "title_sim": 97.22222222222223,
+      "containment": 0.667,
+      "partial_ratio": 48.78048780487805,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 33,
+   "raw": "[33] P. Katipally, M. Moh, and T. S. Moh, \u201cA hybrid approach to intrusion detection,\u201d in Proceedings of the 2011 International Conference on Security and Management, 2011, pp. 1\u20137.",
+   "title": "A hybrid approach to intrusion detection",
+   "authors": [
+    "Katipally",
+    "Moh",
+    "Moh"
+   ],
+   "year": 2011,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 2011 International Conference on Security and Management",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.21275/art20175385",
+      "title": "A Hybrid Approach for Intrusion Detection System",
+      "year": 2017,
+      "first_author": null,
+      "container": "International Journal of Science and Research (IJSR)",
+      "type": "journal-article",
+      "score": 32.207615
+     },
+     "metrics": {
+      "title_sim": 96.1038961038961,
+      "containment": 0.8,
+      "partial_ratio": 83.33333333333334,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 34,
+   "raw": "[34] N. Mehdiyeva and P. Klan, \u201cAn approach to automatic generation of rules for Complex Event Processing systems,\u201d in 2015 7th International Congress on Ultra Modern Telecommunications and Control Systems and Workshops (ICUMT), 2015, pp. 317\u2013322.",
+   "title": "An approach to automatic generation of rules for Complex Event Processing systems",
+   "authors": [
+    "Mehdiyeva",
+    "Klan"
+   ],
+   "year": 2015,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "2015 7th International Congress on Ultra Modern Telecommunications and Control Systems and Workshops (ICUMT",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/s11276-022-03219-y",
+      "title": "An automatic unsupervised complex event processing rules generation architecture for real-time IoT attacks detection",
+      "year": 2024,
+      "first_author": "Rold\u00e1n-G\u00f3mez",
+      "container": "Wireless Networks",
+      "type": "journal-article",
+      "score": 32.463196
+     },
+     "metrics": {
+      "title_sim": 83.45323741007195,
+      "containment": 0.462,
+      "partial_ratio": 57.758620689655174,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 35,
+   "raw": "[35] I. A. Khan, F. Al-Obeidat, and A. Khodamoradi, \u201cA hybrid approach for alert prioritization in security information and event management,\u201d Future Generation Computer Systems, vol. 153, pp. 117\u2013128, 2024.",
+   "title": "A hybrid approach for alert prioritization in security information and event management",
+   "authors": [
+    "Khan",
+    "Al-Obeidat",
+    "Khodamoradi"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Future Generation Computer Systems",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1108/tqm-07-2024-0245",
+      "title": "Service quality management under risk prioritization and imprecise information: a hybrid fuzzy approach",
+      "year": 2026,
+      "first_author": "Mukherjee",
+      "container": "The TQM Journal",
+      "type": "journal-article",
+      "score": 30.67872
+     },
+     "metrics": {
+      "title_sim": 80.82191780821918,
+      "containment": 0.5,
+      "partial_ratio": 50.98039215686274,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 36,
+   "raw": "[36] S. Lange, R. Geis, and D. Hein, \u201cBusiness process-oriented alert correlation,\u201d in 2015 IFIP/IEEE International Symposium on Integrated Network Management (IM), 2015, pp. 424\u2013430.",
+   "title": "Business process-oriented alert correlation",
+   "authors": [
+    "Lange",
+    "Geis",
+    "Hein"
+   ],
+   "year": 2015,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "2015 IFIP/IEEE International Symposium on Integrated Network Management (IM",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1145/2723839.2723841",
+      "title": "Articulation of subject-oriented business process models",
+      "year": 2015,
+      "first_author": "Oppl",
+      "container": "Proceedings of the 7th International Conference on Subject-Oriented Business Process Management",
+      "type": "proceedings-article",
+      "score": 30.00449
+     },
+     "metrics": {
+      "title_sim": 73.52941176470588,
+      "containment": 0.5,
+      "partial_ratio": 56.60377358490566,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 37,
+   "raw": "[37] R. Shittu, A. Al-Nemrat, and M. Al-Tobi, \u201cACSAnIA: Alert correlation system using anomaly-based and instance-based learning,\u201d in 2015 10th International Conference for Internet Technology and Secured Transactions (ICITST), 2015, pp. 132\u2013137.",
+   "title": "ACSAnIA: Alert correlation system using anomaly-based and instance-based learning",
+   "authors": [
+    "Shittu",
+    "Al-Nemrat",
+    "Al-Tobi"
+   ],
+   "year": 2015,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "2015 10th International Conference for Internet Technology and Secured Transactions (ICITST",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1002/sec.1190",
+      "title": "A realistic graph\u2010based alert correlation system",
+      "year": 2015,
+      "first_author": "Fredj",
+      "container": "Security and Communication Networks",
+      "type": "journal-article",
+      "score": 32.7593
+     },
+     "metrics": {
+      "title_sim": 76.92307692307692,
+      "containment": 0.667,
+      "partial_ratio": 70.83333333333333,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 38,
+   "raw": "[38] R. Ohana, M. Bar-Sinai, Z. Bar-Yanai, C. Baskin, B. Shapira, and E. Shmueli, \u201cADEPTUS: Anomaly-Driven and Event-Prioritized Triage for Unified Security,\u201d in Proceedings of the 2022 ACM SIGSAC Conference on Computer and Communications Security, 2022, pp. 2291\u20132304.",
+   "title": "ADEPTUS: Anomaly-Driven and Event-Prioritized Triage for Unified Security",
+   "authors": [
+    "Ohana",
+    "Bar-Sinai",
+    "Bar-Yanai",
+    "Baskin",
+    "Shapira",
+    "Shmueli"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 2022 ACM SIGSAC Conference on Computer and Communications Security",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/wodes.2006.1678402",
+      "title": "Prioritized Synchronization under Mask for Interaction/Control of Event-Driven Systems",
+      "year": 2006,
+      "first_author": "Changyan Zhou",
+      "container": "2006 8th International Workshop on Discrete Event Systems",
+      "type": "proceedings-article",
+      "score": 28.392761
+     },
+     "metrics": {
+      "title_sim": 62.0253164556962,
+      "containment": 0.375,
+      "partial_ratio": 47.67441860465116,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 39,
+   "raw": "[39] Y. Hu, Y. Zhang, W. Li, and J. N, \u201cA Hybrid GNN-Transformer Model for Security Alert Correlation and Prioritization,\u201d in 2021 International Conference on Communications, Information System and Computer Engineering (CISCE), 2021, pp. 567\u2013572.",
+   "title": "A Hybrid GNN-Transformer Model for Security Alert Correlation and Prioritization",
+   "authors": [
+    "Hu",
+    "Zhang",
+    "Li",
+    "N"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "2021 International Conference on Communications, Information System and Computer Engineering (CISCE",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.5220/0014945300005024",
+      "title": "A Transformer-GNN Hybrid Framework for Predicting Gene\u2013Environment Interactions",
+      "year": 2025,
+      "first_author": "Ansari",
+      "container": "Proceedings of the 1st International Conference on Computational and Cognitive Systems Science",
+      "type": "proceedings-article",
+      "score": 30.918274
+     },
+     "metrics": {
+      "title_sim": 64.15094339622641,
+      "containment": 0.375,
+      "partial_ratio": 50.63291139240506,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  }
+ ]
+}

@@ -1,0 +1,395 @@
+{
+ "pdf": "279_aSlhaqLbL1.pdf",
+ "n_entries": 10,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "References [1] Han, S. (2015). Deep compression: Compressing deep neural networks with pruning, trained quantization and huffman coding. arXiv preprint arXiv:1510.00149.",
+   "title": "Deep compression: Compressing deep neural networks with pruning, trained quantization and huffman coding",
+   "authors": [
+    "References [1] Han, S."
+   ],
+   "year": 2015,
+   "doi": null,
+   "arxiv": "1510.00149",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "1510.00149"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1609/aaai.v35i9.16950",
+      "title": "OPQ: Compressing Deep Neural Networks with One-shot Pruning-Quantization",
+      "year": 2021,
+      "first_author": "Hu",
+      "container": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "type": "journal-article",
+      "score": 46.198776
+     },
+     "metrics": {
+      "title_sim": 89.92248062015504,
+      "containment": 0.667,
+      "partial_ratio": 84.50704225352112,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2] Jacob, B. (2018). Quantization and training of neural networks for efficient integer-arithmeticonly inference. Proceedings of the IEEE conference on computer vision and pattern recognition.",
+   "title": "Quantization and training of neural networks for efficient integer-arithmeticonly inference",
+   "authors": [
+    "Jacob"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the IEEE conference on computer vision and pattern recognition",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/cvpr.2018.00286",
+    "title": "Quantization and Training of Neural Networks for Efficient Integer-Arithmetic-Only Inference",
+    "year": 2018,
+    "first_author": "Jacob",
+    "container": "2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "type": "proceedings-article",
+    "score": 53.831783
+   },
+   "metrics": {
+    "title_sim": 99.4535519125683,
+    "containment": 0.778,
+    "partial_ratio": 98.91304347826086,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3] Howard, A. G. (2017). Mobilenets: Efficient convolutional neural networks for mobile vision applications. arXiv preprint arXiv:1704.04861.",
+   "title": "Mobilenets: Efficient convolutional neural networks for mobile vision applications",
+   "authors": [
+    "Howard"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": "1704.04861",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "1704.04861",
+    "title": "MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications",
+    "year": 2017,
+    "first_author": "Andrew G. Howard"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4] Shen, M. (2020). Fractional skipping: Towards finer-grained dynamic inference. Proceedings of the AAAI Conference on Artificial Intelligence.",
+   "title": "Fractional skipping: Towards finer-grained dynamic inference",
+   "authors": [
+    "Shen"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the AAAI Conference on Artificial Intelligence",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1609/aaai.v34i04.6025",
+    "title": "Fractional Skipping: Towards Finer-Grained Dynamic CNN Inference",
+    "year": 2020,
+    "first_author": "Shen",
+    "container": "Proceedings of the AAAI Conference on Artificial Intelligence",
+    "type": "journal-article",
+    "score": 60.345848
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.857,
+    "partial_ratio": 93.65079365079364,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5] Chen, T. (2015). Net2net: Accelerating learning via knowledge transfer. arXiv preprint arXiv:1511.05641.",
+   "title": "Net2net: Accelerating learning via knowledge transfer",
+   "authors": [
+    "Chen"
+   ],
+   "year": 2015,
+   "doi": null,
+   "arxiv": "1511.05641",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "1511.05641"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.52202/068431-0381",
+      "title": "Accelerating Certified Robustness Training Via Knowledge Transfer",
+      "year": 2022,
+      "first_author": "Vaishnavi",
+      "container": "Advances in Neural Information Processing Systems 35",
+      "type": "proceedings-article",
+      "score": 27.516907
+     },
+     "metrics": {
+      "title_sim": 80.45977011494253,
+      "containment": 0.5,
+      "partial_ratio": 64.61538461538461,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[6] Han, S. (2016). EIE: Efficient inference engine on compressed deep neural network. ACM SIGARCH Computer Architecture News.",
+   "title": "EIE: Efficient inference engine on compressed deep neural network",
+   "authors": [
+    "Han"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/hotchips.2016.7936226",
+    "title": "Deep compression and EIE: Efficient inference engine on compressed deep neural network",
+    "year": 2016,
+    "first_author": "Song Han",
+    "container": "2016 IEEE Hot Chips 28 Symposium (HCS)",
+    "type": "proceedings-article",
+    "score": 68.09671
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.9,
+    "partial_ratio": 83.9506172839506,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[7] Lin, D. (2017). PredictiveNet: An energy-efficient convolutional neural network via predictive coding. arXiv preprint.",
+   "title": "PredictiveNet: An energy-efficient convolutional neural network via predictive coding",
+   "authors": [
+    "Lin"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/iscas.2017.8050797",
+    "title": "PredictiveNet: An energy-efficient convolutional neural network via zero prediction",
+    "year": 2017,
+    "first_author": "Lin",
+    "container": "2017 IEEE International Symposium on Circuits and Systems (ISCAS)",
+    "type": "proceedings-article",
+    "score": 58.663948
+   },
+   "metrics": {
+    "title_sim": 92.7710843373494,
+    "containment": 0.75,
+    "partial_ratio": 92.6829268292683,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[8] Guo, Y. (2016). Dynamic network surgery for efficient dnns. Advances in neural information processing systems.",
+   "title": "Dynamic network surgery for efficient dnns",
+   "authors": [
+    "Guo"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in neural information processing systems",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.5244/c.30.116",
+      "title": "Impatient DNNs - Deep Neural Networks with Dynamic Time Budgets",
+      "year": 2016,
+      "first_author": "Amthor",
+      "container": "Procedings of the British Machine Vision Conference 2016",
+      "type": "proceedings-article",
+      "score": 24.724463
+     },
+     "metrics": {
+      "title_sim": 60.19417475728155,
+      "containment": 0.375,
+      "partial_ratio": 52.459016393442624,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[9] Ren, P. (2021). A comprehensive survey of neural architecture search: Challenges and solutions. ACM Computing Surveys (CSUR).",
+   "title": "A comprehensive survey of neural architecture search: Challenges and solutions",
+   "authors": [
+    "Ren"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3447582",
+    "title": "A Comprehensive Survey of Neural Architecture Search",
+    "year": 2022,
+    "first_author": "Ren",
+    "container": "ACM Computing Surveys",
+    "type": "journal-article",
+    "score": 45.717644
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[10] Cai, H. (2019). Once-for-all: Train one network and specialize it for efficient deployment. arXiv preprint arXiv:1908.09791.",
+   "title": "Once-for-all: Train one network and specialize it for efficient deployment",
+   "authors": [
+    "Cai"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": "1908.09791",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "1908.09791"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/infocom53939.2023.10228928",
+      "title": "OPA: One-Predict-All For Efficient Deployment",
+      "year": 2023,
+      "first_author": "Guo",
+      "container": "IEEE INFOCOM 2023 - IEEE Conference on Computer Communications",
+      "type": "proceedings-article",
+      "score": 27.664188
+     },
+     "metrics": {
+      "title_sim": 84.21052631578948,
+      "containment": 0.667,
+      "partial_ratio": 75.0,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  }
+ ]
+}

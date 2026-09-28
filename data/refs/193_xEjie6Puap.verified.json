@@ -1,0 +1,804 @@
+{
+ "pdf": "193_xEjie6Puap.pdf",
+ "n_entries": 20,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 2,
+ "entries": [
+  {
+   "junk": true,
+   "idx": 1,
+   "raw": "To address reviewer concerns and establish practical relevance: 1. Synthetic Noise Experiments: Add Gaussian noise (10-20pA), drift (5pA/min linear), speed variations (Poisson-distributed) to synthetic data. Test feature robustness at different SNR levels.",
+   "title": "To address reviewer concerns and establish practical relevance: 1. Synthetic Noise Experiments: Add Gaussian noise (10-20pA",
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/978-3-319-22315-5_17",
+      "title": "Likelihoods for Signal Plus Gaussian Noise Versus Gaussian Noise",
+      "year": 2015,
+      "first_author": "Gualtierotti",
+      "container": "Detection of Random Signals in Dependent Gaussian Noise",
+      "type": "book-chapter",
+      "score": 33.386127
+     },
+     "metrics": {
+      "title_sim": 45.90163934426229,
+      "containment": 0.5,
+      "partial_ratio": 53.125,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": true,
+   "idx": 2,
+   "raw": "2. Hybrid Approach: Use interpretable features as preprocessing for deep models. May combine benefits: interpretability for debugging, deep learning for handling complexity.",
+   "title": "Hybrid Approach: Use interpretable features as preprocessing for deep models. May combine benefits: interpretability for debugging, deep learning for handling complexity",
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.7764/tesisuc/ing/31491",
+      "title": "A knowledge base approach to improve interpretability and performance of visual question answering task using deep learning models",
+      "year": 2023,
+      "first_author": "Riquelme Callejas",
+      "container": "",
+      "type": "dissertation",
+      "score": 40.041462
+     },
+     "metrics": {
+      "title_sim": 59.57446808510638,
+      "containment": 0.385,
+      "partial_ratio": 53.14009661835748,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": true,
+   "idx": 3,
+   "raw": "3. Incremental Validation: Start with simplified real data (e.g., homopolymer ladders with known lengths) before full sequencing runs.",
+   "title": "Incremental Validation: Start with simplified real data (e.g., homopolymer ladders with known lengths) before full sequencing runs",
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.7717/peerj.1504/fig-4",
+      "title": "Figure 4: Validation of the sequencing data using real-time PCR for nine representative DE miRNAs.",
+      "year": 2016,
+      "first_author": null,
+      "container": "",
+      "type": "component",
+      "score": 28.826591
+     },
+     "metrics": {
+      "title_sim": 58.333333333333336,
+      "containment": 0.4,
+      "partial_ratio": 45.45454545454546,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": true,
+   "idx": 4,
+   "raw": "4. Computational Analysis: Measure actual inference time on edge devices (e.g., MinION Mk1C) where efficiency matters.",
+   "title": "Computational Analysis: Measure actual inference time on edge devices",
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.7439080",
+      "title": "Environment-Aware Dynamic Partitioning for Real-Time Vision Inference on Resource-Constrained Edge Devices",
+      "year": 2026,
+      "first_author": "Patil",
+      "container": "",
+      "type": "posted-content",
+      "score": 26.769897
+     },
+     "metrics": {
+      "title_sim": 64.36781609195403,
+      "containment": 0.333,
+      "partial_ratio": 48.86363636363637,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": true,
+   "idx": 5,
+   "raw": "5. Feature Extension: Design noise-robust features (median filtering, outlier detection) and temporal features (signal derivatives, duration) for real signals.",
+   "title": "Feature Extension: Design noise-robust features (median filtering, outlier detection) and temporal features (signal derivatives, duration) for real signals",
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.21437/interspeech.2011-89",
+      "title": "Combining feature space discriminative training with long-term spectro-temporal features for noise-robust speech recognition",
+      "year": 2011,
+      "first_author": "Fukuda",
+      "container": "Interspeech 2011",
+      "type": "proceedings-article",
+      "score": 40.63152
+     },
+     "metrics": {
+      "title_sim": 62.3574144486692,
+      "containment": 0.357,
+      "partial_ratio": 51.66666666666666,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[1] Gunjan Baid, Daniel E Cook, Kishwar Shafin, Taedong Yun, Felipe Llinares-L\u00f3pez, Quentin Berthet, Anastasiya Belyaeva, Armin T\u00f6pfer, Aaron M Wenger, William J Rowell, et al. Deepconsensus improves the accuracy of sequences with a gap-aware sequence transformer. Nature biotechnology, 41(2):232\u2013238, 2023.",
+   "title": "Deepconsensus improves the accuracy of sequences with a gap-aware sequence transformer",
+   "authors": [
+    "Baid",
+    "Cook",
+    "Shafin",
+    "Yun",
+    "Llinares-L\u00f3pez",
+    "Berthet",
+    "Belyaeva",
+    "T\u00f6pfer",
+    "Wenger",
+    "Rowell"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature biotechnology",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/s41587-022-01435-7",
+    "title": "DeepConsensus improves the accuracy of sequences with a gap-aware sequence transformer",
+    "year": 2022,
+    "first_author": "Baid",
+    "container": "Nature Biotechnology",
+    "type": "journal-article",
+    "score": 54.393257
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[2] Clara Delahaye and Jacques Nicolas. Sequencing dna with nanopores: Troubles and biases. PloS one, 16(10):e0257521, 2021.",
+   "title": "Sequencing dna with nanopores: Troubles and biases",
+   "authors": [
+    "Delahaye",
+    "Nicolas"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "PloS one",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1371/journal.pone.0257521",
+    "title": "Sequencing DNA with nanopores: Troubles and biases",
+    "year": 2021,
+    "first_author": "Delahaye",
+    "container": "PLOS ONE",
+    "type": "journal-article",
+    "score": 61.33295
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[3] \u00c1ngel D\u00edaz Carral, Magnus Ostertag, and Maria Fyta. Deep learning for nanopore ionic current blockades. The Journal of Chemical Physics, 154(4), 2021.",
+   "title": "Deep learning for nanopore ionic current blockades",
+   "authors": [
+    "Carral",
+    "Ostertag",
+    "Fyta"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "The Journal of Chemical Physics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1063/5.0037938",
+    "title": "Deep learning for nanopore ionic current blockades",
+    "year": 2021,
+    "first_author": "D\u00edaz Carral",
+    "container": "The Journal of Chemical Physics",
+    "type": "journal-article",
+    "score": 64.2015
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[4] Abderrahmane Eleiwa, Jesus Nadal, Ester Vilaprinyo, Alberto Marin-Sanguino, Albert Sorribas, Oriol Basallo, Abel Lucido, Cristobal Richart, Ramona N Pena, Roger Ros-Freixedes, et al. Hybrid assembly and comparative genomics unveil insights into the evolution and biology of the red-legged partridge. Scientific Reports, 14(1):19531, 2024.",
+   "title": "Hybrid assembly and comparative genomics unveil insights into the evolution and biology of the red-legged partridge",
+   "authors": [
+    "Eleiwa",
+    "Nadal",
+    "Vilaprinyo",
+    "Marin-Sanguino",
+    "Sorribas",
+    "Basallo",
+    "Lucido",
+    "Richart",
+    "Pena",
+    "Ros-Freixedes"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Scientific Reports",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/s41598-024-70018-0",
+    "title": "Hybrid assembly and comparative genomics unveil insights into the evolution and biology of the red-legged partridge",
+    "year": 2024,
+    "first_author": "Eleiwa",
+    "container": "Scientific Reports",
+    "type": "journal-article",
+    "score": 74.42833
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[5] Jerome H Friedman, Trevor Hastie, and Rob Tibshirani. Regularization paths for generalized linear models via coordinate descent. Journal of statistical software, 33:1\u201322, 2010.",
+   "title": "Regularization paths for generalized linear models via coordinate descent",
+   "authors": [
+    "Friedman",
+    "Hastie",
+    "Tibshirani"
+   ],
+   "year": 2010,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of statistical software",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18637/jss.v033.i01",
+    "title": "Regularization Paths for Generalized Linear Models via Coordinate Descent",
+    "year": 2010,
+    "first_author": "Friedman",
+    "container": "Journal of Statistical Software",
+    "type": "journal-article",
+    "score": 73.89888
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "[6] Miten Jain, Sergey Koren, Karen H Miga, Josh Quick, Arthur C Rand, Thomas A Sasani, John R Tyson, Andrew D Beggs, Alexander T Dilthey, Ian T Fiddes, et al. Nanopore sequencing and assembly of a human genome with ultra-long reads. Nature biotechnology, 36(4):338\u2013345, 2018.",
+   "title": "Nanopore sequencing and assembly of a human genome with ultra-long reads",
+   "authors": [
+    "Jain",
+    "Koren",
+    "Miga",
+    "Quick",
+    "Rand",
+    "Sasani",
+    "Tyson",
+    "Beggs",
+    "Dilthey",
+    "Fiddes"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature biotechnology",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.3410/f.732576831.793542122",
+    "title": "Faculty Opinions recommendation of Nanopore sequencing and assembly of a human genome with ultra-long reads.",
+    "year": 2018,
+    "first_author": "Coker",
+    "container": "Faculty Opinions \u2013 Post-Publication Peer Review of the Biomedical Literature",
+    "type": "dataset",
+    "score": 61.469315
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.727,
+    "partial_ratio": 80.37383177570094,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "[7] Cynthia Khanji, Lyne Lalonde, C\u00e9line Bareil, Marie-Th\u00e9r\u00e8se Lussier, Sylvie Perreault, and Mireille E Schnitzer. Lasso regression for the prediction of intermediate outcomes related to cardiovascular disease prevention using the transit quality indicators. Medical Care, 57(1):63\u201372, 2019.",
+   "title": "Lasso regression for the prediction of intermediate outcomes related to cardiovascular disease prevention using the transit quality indicators",
+   "authors": [
+    "Khanji",
+    "Lalonde",
+    "Bareil",
+    "Lussier",
+    "Perreault",
+    "Schnitzer"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Medical Care",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1097/mlr.0000000000001014",
+    "title": "Lasso Regression for the Prediction of Intermediate Outcomes Related to Cardiovascular Disease Prevention Using the TRANSIT Quality Indicators",
+    "year": 2019,
+    "first_author": "Khanji",
+    "container": "Medical Care",
+    "type": "journal-article",
+    "score": 85.81329
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "[8] Joseph O Ogutu, Torben Schulz-Streeck, and Hans-Peter Piepho. Genomic selection using regularized linear regression models: ridge regression, lasso, elastic net and their extensions. In BMC proceedings, volume 6, page S10. Springer, 2012.",
+   "title": "Genomic selection using regularized linear regression models: ridge regression, lasso, elastic net and their extensions",
+   "authors": [
+    "Ogutu",
+    "Schulz-Streeck",
+    "Piepho"
+   ],
+   "year": 2012,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "BMC proceedings",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1186/1753-6561-6-s2-s10",
+    "title": "Genomic selection using regularized linear regression models: ridge regression, lasso, elastic net and their extensions",
+    "year": 2012,
+    "first_author": "Ogutu",
+    "container": "BMC Proceedings",
+    "type": "journal-article",
+    "score": 111.6915
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "[9] Franka J Rang, Wigard P Kloosterman, and Jeroen de Ridder. From squiggle to basepair: computational approaches for improving nanopore sequencing read accuracy. Genome biology, 19(1):90, 2018.",
+   "title": "From squiggle to basepair: computational approaches for improving nanopore sequencing read accuracy",
+   "authors": [
+    "Rang",
+    "Kloosterman",
+    "Ridder"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Genome biology",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1186/s13059-018-1462-9",
+    "title": "From squiggle to basepair: computational approaches for improving nanopore sequencing read accuracy",
+    "year": 2018,
+    "first_author": "Rang",
+    "container": "Genome Biology",
+    "type": "journal-article",
+    "score": 95.12099
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "[10] Xiuli Wang and Mingqiu Wang. Variable selection for high-dimensional generalized linear models with the weighted elastic-net procedure. Journal of Applied Statistics, 43(5):796\u2013809, 2016.",
+   "title": "Variable selection for high-dimensional generalized linear models with the weighted elastic-net procedure",
+   "authors": [
+    "Wang",
+    "Wang"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Applied Statistics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1080/02664763.2015.1078300",
+    "title": "Variable selection for high-dimensional generalized linear models with the weighted elastic-net procedure",
+    "year": 2016,
+    "first_author": "Wang",
+    "container": "Journal of Applied Statistics",
+    "type": "journal-article",
+    "score": 73.67651
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 16,
+   "raw": "[11] Yunhao Wang, Yue Zhao, Audrey Bollas, Yuru Wang, and Kin Fai Au. Nanopore sequencing technology, bioinformatics and applications. Nature biotechnology, 39(11):1348\u20131365, 2021.",
+   "title": "Nanopore sequencing technology, bioinformatics and applications",
+   "authors": [
+    "Wang",
+    "Zhao",
+    "Bollas",
+    "Wang",
+    "Au"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature biotechnology",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/s41587-021-01108-x",
+    "title": "Nanopore sequencing technology, bioinformatics and applications",
+    "year": 2021,
+    "first_author": "Wang",
+    "container": "Nature Biotechnology",
+    "type": "journal-article",
+    "score": 41.135105
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 17,
+   "raw": "[12] Meni Wanunu. Nanopores: A journey towards dna sequencing. Physics of life reviews, 9(2):125\u2013158, 2012.",
+   "title": "Nanopores: A journey towards dna sequencing",
+   "authors": [
+    "Wanunu"
+   ],
+   "year": 2012,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Physics of life reviews",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.plrev.2012.05.010",
+    "title": "Nanopores: A journey towards DNA sequencing",
+    "year": 2012,
+    "first_author": "Wanunu",
+    "container": "Physics of Life Reviews",
+    "type": "journal-article",
+    "score": 60.18851
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 18,
+   "raw": "[13] Ryan R Wick, Louise M Judd, and Kathryn E Holt. Performance of neural network basecalling tools for oxford nanopore sequencing. Genome biology, 20(1):129, 2019.",
+   "title": "Performance of neural network basecalling tools for oxford nanopore sequencing",
+   "authors": [
+    "Wick",
+    "Judd",
+    "Holt"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Genome biology",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1101/543439",
+    "title": "Performance of neural network basecalling tools for Oxford Nanopore sequencing",
+    "year": 2019,
+    "first_author": "Wick",
+    "container": "",
+    "type": "posted-content",
+    "score": 82.1532
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 19,
+   "raw": "[14] Zhimeng Xu, Yuting Mai, Denghui Liu, Wenjun He, Xinyuan Lin, Chi Xu, Lei Zhang, Xin Meng, Joseph Mafofo, Walid Abbas Zaher, et al. Fast-bonito: A faster deep learning based basecaller for nanopore sequencing. Artificial Intelligence in the Life Sciences, 1:100011, 2021.",
+   "title": "Fast-bonito: A faster deep learning based basecaller for nanopore sequencing",
+   "authors": [
+    "Xu",
+    "Mai",
+    "Liu",
+    "He",
+    "Lin",
+    "Xu",
+    "Zhang",
+    "Meng",
+    "Mafofo",
+    "Zaher"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Artificial Intelligence in the Life Sciences",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.ailsci.2021.100011",
+    "title": "Fast-bonito: A faster deep learning based basecaller for nanopore sequencing",
+    "year": 2021,
+    "first_author": "Xu",
+    "container": "Artificial Intelligence in the Life Sciences",
+    "type": "journal-article",
+    "score": 63.366787
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 20,
+   "raw": "[15] Jingwen Zeng, Hongmin Cai, Hong Peng, Haiyan Wang, Yue Zhang, and Tatsuya Akutsu. Causalcall: Nanopore basecalling using a temporal convolutional network. Frontiers in Genetics, 10:1332, 2020.",
+   "title": "Causalcall: Nanopore basecalling using a temporal convolutional network",
+   "authors": [
+    "Zeng",
+    "Cai",
+    "Peng",
+    "Wang",
+    "Zhang",
+    "Akutsu"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Frontiers in Genetics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.3389/fgene.2019.01332",
+    "title": "Causalcall: Nanopore Basecalling Using a Temporal Convolutional Network",
+    "year": 2020,
+    "first_author": "Zeng",
+    "container": "Frontiers in Genetics",
+    "type": "journal-article",
+    "score": 72.375984
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  }
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
+}

@@ -194,7 +194,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -217,7 +217,26 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "crossref_title",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/978-1-4020-6754-9_2256",
+    "title": "Cancer Genome Atlas",
+    "year": 2008,
+    "first_author": null,
+    "container": "Encyclopedia of Genetics, Genomics, Proteomics and Informatics",
+    "type": "book-chapter",
+    "score": 53.325607
+   },
+   "metrics": {
+    "title_sim": 35.51401869158879,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": null
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -288,7 +307,7 @@
    "container": "The Lancet Oncology",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -311,7 +330,31 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "37840f6b3bb18d4d857a0f65440697c844bd65f8",
+    "title": "Entrectinib in patients with advanced or metastatic NTRK fusion-positive solid tumours: integrated analysis of three phase 1\u20132 trials",
+    "year": 2019,
+    "first_author": "R. Doebele",
+    "container": "The Lancet Oncology",
+    "ext": {
+     "MAG": "2996574710",
+     "PubMedCentral": "7461630",
+     "DOI": "10.1016/S1470-2045(19)30691-6",
+     "CorpusId": 209384389,
+     "PubMed": "31838007"
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1538,5 +1581,7 @@
    ],
    "likely_match": null
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

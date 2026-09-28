@@ -274,7 +274,7 @@
    "container": "International Journal of High Performance Computing Applications",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -297,7 +297,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "a10b7a2c80e2bae49d46b980ed03c074fe36bb2a",
+    "title": "The International Exascale Software Project roadmap",
+    "year": 2011,
+    "first_author": "J. Dongarra",
+    "container": "The international journal of high performance computing applications",
+    "ext": {
+     "DBLP": "journals/ijhpca/DongarraBM11",
+     "MAG": "2105524676",
+     "DOI": "10.1177/1094342010391989",
+     "CorpusId": 13509963
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -626,7 +649,7 @@
    "container": "PLDI 2007: Proceedings of the ACM SIGPLAN Conference on Programming Language Design and Implementation",
    "type": "paper-conference",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -649,7 +672,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "112c4fa8a35d16b04831c43cdd19538249d0ecc1",
+    "title": "Valgrind: a framework for heavyweight dynamic binary instrumentation",
+    "year": 2007,
+    "first_author": "N. Nethercote",
+    "container": "ACM-SIGPLAN Symposium on Programming Language Design and Implementation",
+    "ext": {
+     "MAG": "2156858199",
+     "DBLP": "conf/pldi/NethercoteS07",
+     "DOI": "10.1145/1250734.1250746",
+     "CorpusId": 5812369
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -669,7 +715,7 @@
    "container": "USENIX ATC 2012",
    "type": "chapter",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -692,7 +738,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "29146d2b80bc8c56f7e18efe8d2c92354254e947",
+    "title": "AddressSanitizer: A Fast Address Sanity Checker",
+    "year": 2012,
+    "first_author": "Kostya Serebryany",
+    "container": "USENIX Annual Technical Conference",
+    "ext": {
+     "DBLP": "conf/usenix/SerebryanyBPV12",
+     "MAG": "1878544538",
+     "CorpusId": 11024896
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -848,5 +916,7 @@
    ],
    "likely_match": null
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

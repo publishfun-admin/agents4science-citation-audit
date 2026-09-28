@@ -1,0 +1,1791 @@
+{
+ "pdf": "303_maMnVCHl8J.pdf",
+ "n_entries": 40,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "Jacob Austin, Augustus Odena, Maxwell Nye, Maarten Bosma, Henryk Michalewski, David Dohan, Ellen Jiang, Carrie Cai, Michael Terry, Quoc Le, et al. Program synthesis with large language models. arXiv preprint arXiv:2108.07732, 2021.",
+   "title": "Program synthesis with large language models",
+   "authors": [
+    "Austin",
+    "Odena",
+    "Nye",
+    "Bosma",
+    "Michalewski",
+    "Dohan",
+    "Jiang",
+    "Cai",
+    "Terry",
+    "Le"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": "2108.07732",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2108.07732"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1145/3680410",
+      "title": "On Program Synthesis and Large Language Models",
+      "year": 2025,
+      "first_author": "H\u00fcttel",
+      "container": "Communications of the ACM",
+      "type": "journal-article",
+      "score": 28.27803
+     },
+     "metrics": {
+      "title_sim": 93.97590361445783,
+      "containment": 1.0,
+      "partial_ratio": 89.13043478260869,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "Suhana Bedi, Yixing Jiang, Philip Chung, Sanmi Koyejo, and Nigam Shah. Fidelity of medical reasoning in large language models. JAMA Network Open, 8(8):e2526021\u2013e2526021, 2025.",
+   "title": "Fidelity of medical reasoning in large language models",
+   "authors": [
+    "Bedi",
+    "Jiang",
+    "Chung",
+    "Koyejo",
+    "Shah"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "JAMA Network Open",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1001/jamanetworkopen.2025.26021",
+    "title": "Fidelity of Medical Reasoning in Large Language Models",
+    "year": 2025,
+    "first_author": "Bedi",
+    "container": "JAMA Network Open",
+    "type": "journal-article",
+    "score": 50.0317
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "Christopher M Bishop. Pattern recognition and machine learning. Springer, 2006.",
+   "title": "Pattern recognition and machine learning",
+   "authors": [
+    "Bishop"
+   ],
+   "year": 2006,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/978-0-387-45528-0_10",
+      "title": "",
+      "year": 2006,
+      "first_author": null,
+      "container": "Pattern Recognition and Machine Learning",
+      "type": "book-chapter",
+      "score": 37.985043
+     },
+     "metrics": {
+      "title_sim": 0,
+      "containment": 0.0,
+      "partial_ratio": 0,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "Avrim Blum and Moritz Hardt. The ladder: A reliable leaderboard for machine learning competitions. International conference on machine learning, pages 1006\u20131014, 2015.",
+   "title": "The ladder: A reliable leaderboard for machine learning competitions",
+   "authors": [
+    "Blum",
+    "Hardt"
+   ],
+   "year": 2015,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International conference on machine learning",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1016/b978-0-12-398537-8.00014-6",
+      "title": "Conformal Prediction for Reliable Machine Learning",
+      "year": 2014,
+      "first_author": null,
+      "container": "Conformal Prediction for Reliable Machine Learning",
+      "type": "book-chapter",
+      "score": 27.617622
+     },
+     "metrics": {
+      "title_sim": 73.41772151898735,
+      "containment": 0.6,
+      "partial_ratio": 60.0,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "S\u00e9bastien Bubeck, Varun Chandrasekaran, Ronen Eldan, Johannes Gehrke, Eric Horvitz, Ece Kamar, Peter Lee, Yin Tat Lee, Yuanzhi Li, Scott Lundberg, et al. Sparks of artificial general intelligence: Early experiments with gpt-4. arXiv preprint arXiv:2303.12712, 2023.",
+   "title": "Sparks of artificial general intelligence: Early experiments with gpt-4",
+   "authors": [
+    "Bubeck",
+    "Chandrasekaran",
+    "Eldan",
+    "Gehrke",
+    "Horvitz",
+    "Kamar",
+    "Lee",
+    "Lee",
+    "Li",
+    "Lundberg"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2303.12712",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2303.12712",
+    "title": "Sparks of Artificial General Intelligence: Early experiments with GPT-4",
+    "year": 2023,
+    "first_author": "S\u00e9bastien Bubeck"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "Mark Chen, Jerry Tworek, Heewoo Jun, Qiming Yuan, Henrique Ponde de Oliveira Pinto, Jared Kaplan, Harri Edwards, Yura Burda, Nicholas Joseph, Greg Brockman, et al. Evaluating large language models trained on code. arXiv preprint arXiv:2107.03374, 2021.",
+   "title": "Evaluating large language models trained on code",
+   "authors": [
+    "Chen",
+    "Tworek",
+    "Jun",
+    "Yuan",
+    "Oliveira Pinto",
+    "Kaplan",
+    "Edwards",
+    "Burda",
+    "Joseph",
+    "Brockman"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": "2107.03374",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2107.03374"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.31274/td-20250502-3",
+      "title": "Analyzing redundancy in code-trained language models",
+      "year": 2025,
+      "first_author": "Sharma",
+      "container": "",
+      "type": "dissertation",
+      "score": 36.19625
+     },
+     "metrics": {
+      "title_sim": 76.0,
+      "containment": 0.667,
+      "partial_ratio": 55.769230769230774,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "Nurit Cohen-Inger, Yehonatan Elisha, Bracha Shapira, Lior Rokach, and Seffi Cohen. Forget what you know about llms evaluations\u2013llms are like a chameleon. arXiv preprint arXiv:2502.07445, 2025.",
+   "title": "Forget what you know about llms evaluations\u2013llms are like a chameleon",
+   "authors": [
+    "Cohen-Inger",
+    "Elisha",
+    "Shapira",
+    "Rokach",
+    "Cohen"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": "2502.07445",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2025.emnlp-main.1098",
+    "title": "Forget What You Know about LLMs Evaluations - LLMs are Like a Chameleon",
+    "year": 2025,
+    "first_author": "Inger",
+    "container": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+    "type": "proceedings-article",
+    "score": 101.65267
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2502.07445"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "Hao Cui, Zahra Shamsi, Gowoon Cheon, Xuejian Ma, Shutong Li, Maria Tikhanovskaya, Peter Norgaard, Nayantara Mudur, Martyna Plomecka, Paul Raccuglia, et al. Curie: Evaluating llms on multitask scientific long context understanding and reasoning. arXiv preprint arXiv:2503.13517, 2025.",
+   "title": "Curie: Evaluating llms on multitask scientific long context understanding and reasoning",
+   "authors": [
+    "Cui",
+    "Shamsi",
+    "Cheon",
+    "Ma",
+    "Li",
+    "Tikhanovskaya",
+    "Norgaard",
+    "Mudur",
+    "Plomecka",
+    "Raccuglia"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": "2503.13517",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2503.13517"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.18653/v1/2025.findings-emnlp.462",
+      "title": "Joint Enhancement of Relational Reasoning for Long-Context LLMs",
+      "year": 2025,
+      "first_author": "Chen",
+      "container": "Findings of the Association for Computational Linguistics: EMNLP 2025",
+      "type": "proceedings-article",
+      "score": 33.172344
+     },
+     "metrics": {
+      "title_sim": 63.08724832214765,
+      "containment": 0.571,
+      "partial_ratio": 52.38095238095239,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "Jesse Dodge, Maarten Sap, Ana Marasovic, William Agnew, Gabriel Ilharco, Dirk Groeneveld, Margaret Mitchell, and Matt Gardner. Documenting large webtext corpora: A case study on the colossal clean crawled corpus. In Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing, pages 1286\u20131305, 2021.",
+   "title": "Documenting large webtext corpora: A case study on the colossal clean crawled corpus",
+   "authors": [
+    "Dodge",
+    "Sap",
+    "Marasovic",
+    "Agnew",
+    "Ilharco",
+    "Groeneveld",
+    "Mitchell",
+    "Gardner"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2021.emnlp-main.98",
+    "title": "Documenting Large Webtext Corpora: A Case Study on the Colossal Clean Crawled Corpus",
+    "year": 2021,
+    "first_author": "Dodge",
+    "container": "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing",
+    "type": "proceedings-article",
+    "score": 88.878265
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "Cynthia Dwork, Vitaly Feldman, Moritz Hardt, Toniann Pitassi, Omer Reingold, and Aaron Roth. The reusable holdout: Preserving validity in adaptive data analysis. Science, 349(6248):636\u2013638, 2015.",
+   "title": "The reusable holdout: Preserving validity in adaptive data analysis",
+   "authors": [
+    "Dwork",
+    "Feldman",
+    "Hardt",
+    "Pitassi",
+    "Reingold",
+    "Roth"
+   ],
+   "year": 2015,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Science",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1126/science.aaa9375",
+    "title": "The reusable holdout: Preserving validity in adaptive data analysis",
+    "year": 2015,
+    "first_author": "Dwork",
+    "container": "Science",
+    "type": "journal-article",
+    "score": 69.045944
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "Divyansh Garg, Shaun VanWeelden, Diego Caples, Andis Draguns, Nikil Ravi, Pranav Putta, Naman Garg, Tomas Abraham, Michael Lara, Federico Lopez, et al. Real: Benchmarking autonomous agents on deterministic simulations of real websites. arXiv preprint arXiv:2504.11543, 2025.",
+   "title": "Real: Benchmarking autonomous agents on deterministic simulations of real websites",
+   "authors": [
+    "Garg",
+    "VanWeelden",
+    "Caples",
+    "Draguns",
+    "Ravi",
+    "Putta",
+    "Garg",
+    "Abraham",
+    "Lara",
+    "Lopez"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": "2504.11543",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/085713-4536",
+    "title": "REAL: Benchmarking Autonomous Agents on Deterministic Simulations of Real Websites",
+    "year": 2025,
+    "first_author": "Garg",
+    "container": "Advances in Neural Information Processing Systems 38",
+    "type": "proceedings-article",
+    "score": 65.40364
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2504.11543"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "Shahriar Golchin and Mihai Surdeanu. Time travel in llms: Tracing data contamination in large language models. arXiv preprint arXiv:2308.08493, 2023.",
+   "title": "Time travel in llms: Tracing data contamination in large language models",
+   "authors": [
+    "Golchin",
+    "Surdeanu"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2308.08493",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2308.08493"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1162/tacl.a.20",
+      "title": "Data Contamination Quiz: A Tool to Detect and Estimate Contamination in Large Language Models",
+      "year": 2025,
+      "first_author": "Golchin",
+      "container": "Transactions of the Association for Computational Linguistics",
+      "type": "journal-article",
+      "score": 42.86183
+     },
+     "metrics": {
+      "title_sim": 77.47747747747748,
+      "containment": 0.6,
+      "partial_ratio": 66.30434782608697,
+      "year_ok": false,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "Trevor Hastie, Robert Tibshirani, and Jerome H Friedman. The elements of statistical learning: data mining, inference, and prediction, volume 2. Springer, 2009.",
+   "title": "The elements of statistical learning: data mining, inference, and prediction",
+   "authors": [
+    "Hastie",
+    "Tibshirani",
+    "Friedman"
+   ],
+   "year": 2009,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/bf02985802",
+      "title": "The elements of statistical learning: data mining, inference and prediction",
+      "year": 2005,
+      "first_author": "Franklin",
+      "container": "The Mathematical Intelligencer",
+      "type": "journal-article",
+      "score": 43.37227
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 1.0,
+      "partial_ratio": 100.0,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "Peter Henderson, Riashat Islam, Philip Bachman, Joelle Pineau, Doina Precup, and David Meger. Deep reinforcement learning that matters. Proceedings of the AAAI conference on artificial intelligence, 32(1), 2018.",
+   "title": "Deep reinforcement learning that matters",
+   "authors": [
+    "Henderson",
+    "Islam",
+    "Bachman",
+    "Pineau",
+    "Precup",
+    "Meger"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the AAAI conference on artificial intelligence",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1609/aaai.v32i1.11694",
+    "title": "Deep Reinforcement Learning That Matters",
+    "year": 2018,
+    "first_author": "Henderson",
+    "container": "Proceedings of the AAAI Conference on Artificial Intelligence",
+    "type": "journal-article",
+    "score": 35.06799
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "John PA Ioannidis. Why most published research findings are false. PLoS medicine, 2(8):e124, 2005.",
+   "title": "Why most published research findings are false",
+   "authors": [
+    "Ioannidis"
+   ],
+   "year": 2005,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "PLoS medicine",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1371/journal.pmed.0020124",
+    "title": "Why Most Published Research Findings Are False",
+    "year": 2005,
+    "first_author": "Ioannidis",
+    "container": "PLoS Medicine",
+    "type": "journal-article",
+    "score": 62.6744
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 16,
+   "raw": "Ron Kohavi. A study of cross-validation and bootstrap for accuracy estimation and model selection. In Ijcai, volume 14, pages 1137\u20131145, 1995.",
+   "title": "A study of cross-validation and bootstrap for accuracy estimation and model selection",
+   "authors": [
+    "Kohavi"
+   ],
+   "year": 1995,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Ijcai",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.7717/peerjcs.2221/table-2",
+      "title": "Table 2: Model selection cross-validation\u00a0accuracy metrics.",
+      "year": 2024,
+      "first_author": null,
+      "container": "",
+      "type": "component",
+      "score": 40.555943
+     },
+     "metrics": {
+      "title_sim": 83.6734693877551,
+      "containment": 0.714,
+      "partial_ratio": 59.64912280701755,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 17,
+   "raw": "Zachary C Lipton and Jacob Steinhardt. Troubling trends in machine learning scholarship: Some ml papers suffer from flaws that could mislead the public and stymie future research. Communications of the ACM, 62(6):45\u201353, 2019.",
+   "title": "Troubling trends in machine learning scholarship: Some ml papers suffer from flaws that could mislead the public and stymie future research",
+   "authors": [
+    "Lipton",
+    "Steinhardt"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Communications of the ACM",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3317287.3328534",
+    "title": "Troubling Trends in Machine Learning Scholarship",
+    "year": 2019,
+    "first_author": "Lipton",
+    "container": "Queue",
+    "type": "journal-article",
+    "score": 130.35669
+   },
+   "metrics": {
+    "title_sim": 51.61290322580645,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 18,
+   "raw": "Nikita Mehandru, Niloufar Golchini, David Bamman, Travis Zack, Melanie F Molina, and Ahmed Alaa. Er-reason: A benchmark dataset for llm-based clinical reasoning in the emergency room. arXiv preprint arXiv:2505.22919, 2025.",
+   "title": "Er-reason: A benchmark dataset for llm-based clinical reasoning in the emergency room",
+   "authors": [
+    "Mehandru",
+    "Golchini",
+    "Bamman",
+    "Zack",
+    "Molina",
+    "Alaa"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": "2505.22919",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2505.22919"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.3390/data10090149",
+      "title": "The Tabular Accessibility Dataset: A Benchmark for LLM-Based Web Accessibility Auditing",
+      "year": 2025,
+      "first_author": "Andruccioli",
+      "container": "Data",
+      "type": "journal-article",
+      "score": 31.101067
+     },
+     "metrics": {
+      "title_sim": 67.88990825688074,
+      "containment": 0.444,
+      "partial_ratio": 55.81395348837209,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 19,
+   "raw": "Sewon Min, Xinxi Lyu, Ari Holtzman, Mikel Artetxe, Mike Lewis, Hannaneh Hajishirzi, and Luke Zettlemoyer. Rethinking the role of demonstrations: What makes in-context learning work? arXiv preprint arXiv:2202.12837, 2022.",
+   "title": "Rethinking the role of demonstrations: What makes in-context learning work?",
+   "authors": [
+    "Min",
+    "Lyu",
+    "Holtzman",
+    "Artetxe",
+    "Lewis",
+    "Hajishirzi",
+    "Zettlemoyer"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": "2202.12837",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2022.emnlp-main.759",
+    "title": "Rethinking the Role of Demonstrations: What Makes In-Context Learning Work?",
+    "year": 2022,
+    "first_author": "Min",
+    "container": "Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing",
+    "type": "proceedings-article",
+    "score": 57.289505
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2202.12837"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 20,
+   "raw": "Adrian Mirza, Nawaf Alampara, Sreekanth Kunchapu, Marti\u00f1o R\u00edos-Garc\u00eda, Benedict Emoekabu, Aswanth Krishnan, Tanya Gupta, Mara Schilling-Wilhelmi, Macjonathan Okereke, Anagha Aneesh, et al. Are large language models superhuman chemists? arXiv preprint arXiv:2404.01475, 2024.",
+   "title": "Are large language models superhuman chemists?",
+   "authors": [
+    "Mirza",
+    "Alampara",
+    "Kunchapu",
+    "R\u00edos-Garc\u00eda",
+    "Emoekabu",
+    "Krishnan",
+    "Gupta",
+    "Schilling-Wilhelmi",
+    "Okereke",
+    "Aneesh"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2404.01475",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/s41557-025-01865-1",
+    "title": "Are large language models superhuman chemists?",
+    "year": 2025,
+    "first_author": null,
+    "container": "Nature Chemistry",
+    "type": "journal-article",
+    "score": 43.974648
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": null
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2404.01475"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 21,
+   "raw": "Randal S Olson, William La Cava, Zairah Mustahsan, Akshay Varik, and Jason H Moore. Pmlb: a large benchmark suite for machine learning evaluation and comparison. BioData mining, 10(1): 1\u201313, 2017.",
+   "title": "Pmlb: a large benchmark suite for machine learning evaluation and comparison",
+   "authors": [
+    "Olson",
+    "Cava",
+    "Mustahsan",
+    "Varik",
+    "Moore"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "BioData mining",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1186/s13040-017-0154-4",
+    "title": "PMLB: a large benchmark suite for machine learning evaluation and comparison",
+    "year": 2017,
+    "first_author": "Olson",
+    "container": "BioData Mining",
+    "type": "journal-article",
+    "score": 67.352356
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 22,
+   "raw": "Ethan Perez, Douwe Kiela, and Kyunghyun Cho. True few-shot learning with language models. Advances in neural information processing systems, 34:11054\u201311070, 2021.",
+   "title": "True few-shot learning with language models",
+   "authors": [
+    "Perez",
+    "Kiela",
+    "Cho"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in neural information processing systems",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.20944/preprints202401.0372.v1",
+      "title": "Few-Shot Learning of TTPs Classification Using Large Language Models",
+      "year": 2024,
+      "first_author": "Fengrui",
+      "container": "",
+      "type": "posted-content",
+      "score": 36.447014
+     },
+     "metrics": {
+      "title_sim": 86.84210526315789,
+      "containment": 0.625,
+      "partial_ratio": 52.94117647058824,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 23,
+   "raw": "Yujia Qin, Shihao Liang, Yining Ye, Kunlun Zhu, Lan Yan, Yaxi Lu, Yankai Lin, Xin Cong, Xiangru Tang, Bill Qian, et al. Tool learning with foundation models. arXiv preprint arXiv:2304.08354, 2023.",
+   "title": "Tool learning with foundation models",
+   "authors": [
+    "Qin",
+    "Liang",
+    "Ye",
+    "Zhu",
+    "Yan",
+    "Lu",
+    "Lin",
+    "Cong",
+    "Tang",
+    "Qian"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2304.08354",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2304.08354"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.9707/1944-5660.1664",
+      "title": "Learning Circles as a Tool for Participant- Owned Evaluation",
+      "year": 2023,
+      "first_author": "Roncaglione",
+      "container": "The Foundation Review",
+      "type": "journal-article",
+      "score": 24.21527
+     },
+     "metrics": {
+      "title_sim": 54.73684210526316,
+      "containment": 0.333,
+      "partial_ratio": 52.542372881355924,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 24,
+   "raw": "Sebastian Raschka. Model evaluation, model selection, and algorithm selection in machine learning. arXiv preprint arXiv:1811.12808, 2018.",
+   "title": "Model evaluation, model selection, and algorithm selection in machine learning",
+   "authors": [
+    "Raschka"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": "1811.12808",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "1811.12808",
+    "title": "Model Evaluation, Model Selection, and Algorithm Selection in Machine Learning",
+    "year": 2018,
+    "first_author": "Sebastian Raschka"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 25,
+   "raw": "Benjamin Recht, Rebecca Roelofs, Ludwig Schmidt, and Vaishaal Shankar. Do imagenet classifiers generalize to imagenet? International conference on machine learning, pages 5389\u20135400, 2019.",
+   "title": "Do imagenet classifiers generalize to imagenet?",
+   "authors": [
+    "Recht",
+    "Roelofs",
+    "Schmidt",
+    "Shankar"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International conference on machine learning",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.21203/rs.3.rs-428416/v1",
+      "title": "Image Classification using ImageNet Classifiers in Environments with Limited Data",
+      "year": 2021,
+      "first_author": "Sharma",
+      "container": "",
+      "type": "posted-content",
+      "score": 43.14201
+     },
+     "metrics": {
+      "title_sim": 70.17543859649123,
+      "containment": 0.286,
+      "partial_ratio": 55.55555555555556,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 26,
+   "raw": "Anna Rogers, Timothy Baldwin, and Kobi Leins. Changing the world by changing the data. In Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers), pages 2182\u20132194, 2021.",
+   "title": "Changing the world by changing the data",
+   "authors": [
+    "Rogers",
+    "Baldwin",
+    "Leins"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2021.acl-long.170",
+    "title": "Changing the World by Changing the Data",
+    "year": 2021,
+    "first_author": "Rogers",
+    "container": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+    "type": "proceedings-article",
+    "score": 35.45055
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 27,
+   "raw": "Timo Schick and Hinrich Sch\u00fctze. Exploiting cloze questions for few-shot text classification and natural language inference. arXiv preprint arXiv:2001.07676, 2020.",
+   "title": "Exploiting cloze questions for few-shot text classification and natural language inference",
+   "authors": [
+    "Schick",
+    "Sch\u00fctze"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": "2001.07676",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2021.eacl-main.20",
+    "title": "Exploiting Cloze-Questions for Few-Shot Text Classification and Natural Language Inference",
+    "year": 2021,
+    "first_author": "Schick",
+    "container": "Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics: Main Volume",
+    "type": "proceedings-article",
+    "score": 80.49847
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2001.07676"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 28,
+   "raw": "Shuo Shi, Xiangyu Ku, Xiang Yue, Tianle Li, Yunhua Li, and William Yang Wang. Rethinking benchmark and contamination for language models with rephrased samples. arXiv preprint arXiv:2311.04850, 2024.",
+   "title": "Rethinking benchmark and contamination for language models with rephrased samples",
+   "authors": [
+    "Shi",
+    "Ku",
+    "Yue",
+    "Li",
+    "Li",
+    "Wang"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2311.04850",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2311.04850"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.18653/v1/2024.findings-emnlp.97",
+      "title": "PaCoST: Paired Confidence Significance Testing for Benchmark Contamination Detection in Large Language Models",
+      "year": 2024,
+      "first_author": "Zhang",
+      "container": "Findings of the Association for Computational Linguistics: EMNLP 2024",
+      "type": "proceedings-article",
+      "score": 30.567242
+     },
+     "metrics": {
+      "title_sim": 69.35483870967742,
+      "containment": 0.364,
+      "partial_ratio": 58.33333333333333,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 29,
+   "raw": "Mervyn Stone. Cross-validatory choice and assessment of statistical predictions. Journal of the Royal Statistical Society: Series B (Methodological), 36(2):111\u2013133, 1974.",
+   "title": "Cross-validatory choice and assessment of statistical predictions",
+   "authors": [
+    "Stone"
+   ],
+   "year": 1974,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of the Royal Statistical Society: Series B (Methodological",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1111/j.2517-6161.1974.tb00994.x",
+    "title": "Cross-Validatory Choice and Assessment of Statistical Predictions",
+    "year": 1974,
+    "first_author": "Stone",
+    "container": "Journal of the Royal Statistical Society Series B: Statistical Methodology",
+    "type": "journal-article",
+    "score": 64.09548
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 30,
+   "raw": "Xiangru Tang, Daniel Shao, Jiwoong Sohn, Jiapeng Chen, Jiayi Zhang, Jinyu Xiang, Fang Wu, Yilun Zhao, Chenglin Wu, Wenqi Shi, et al. Medagentsbench: Benchmarking thinking models and agent frameworks for complex medical reasoning. arXiv preprint arXiv:2503.07459, 2025.",
+   "title": "Medagentsbench: Benchmarking thinking models and agent frameworks for complex medical reasoning",
+   "authors": [
+    "Tang",
+    "Shao",
+    "Sohn",
+    "Chen",
+    "Zhang",
+    "Xiang",
+    "Wu",
+    "Zhao",
+    "Wu",
+    "Shi"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": "2503.07459",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2503.07459"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1016/j.patter.2026.101610",
+      "title": "MedicalAgentsBench for complex medical reasoning: Comparing internalized reasoning models versus externalized agent-based frameworks",
+      "year": 2026,
+      "first_author": "Shao",
+      "container": "Patterns",
+      "type": "journal-article",
+      "score": 38.390022
+     },
+     "metrics": {
+      "title_sim": 74.4186046511628,
+      "containment": 0.538,
+      "partial_ratio": 50.0,
+      "year_ok": true,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": {
+    "source": "crossref",
+    "doi": "10.1016/j.patter.2026.101610",
+    "title": "MedicalAgentsBench for complex medical reasoning: Comparing internalized reasoning models versus externalized agent-based frameworks",
+    "year": 2026,
+    "first_author": "Shao",
+    "container": "Patterns",
+    "type": "journal-article",
+    "score": 38.390022
+   }
+  },
+  {
+   "junk": false,
+   "idx": 31,
+   "raw": "Sudhir Varma and Richard Simon. Bias in error estimation when using cross-validation for model selection. BMC bioinformatics, 7(1):1\u20138, 2006.",
+   "title": "Bias in error estimation when using cross-validation for model selection",
+   "authors": [
+    "Varma",
+    "Simon"
+   ],
+   "year": 2006,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "BMC bioinformatics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1186/1471-2105-7-91",
+    "title": "Bias in error estimation when using cross-validation for model selection",
+    "year": 2006,
+    "first_author": "Varma",
+    "container": "BMC Bioinformatics",
+    "type": "journal-article",
+    "score": 72.26385
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 32,
+   "raw": "Lei Wang, Chen Ma, Xueyang Feng, Zeyu Zhang, Hao Yang, Jingsen Zhang, Zhiyuan Chen, Jiakai Tang, Xu Chen, Yankai Lin, et al. A survey on large language model based autonomous agents. arXiv preprint arXiv:2308.11432, 2023.",
+   "title": "A survey on large language model based autonomous agents",
+   "authors": [
+    "Wang",
+    "Ma",
+    "Feng",
+    "Zhang",
+    "Yang",
+    "Zhang",
+    "Chen",
+    "Tang",
+    "Chen",
+    "Lin"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2308.11432",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.14445/22312803/ijctt-v72i5p118",
+    "title": "Large Language Model-Based Autonomous Agents",
+    "year": 2024,
+    "first_author": "Garg",
+    "container": "International Journal of Computer Trends and Technology",
+    "type": "journal-article",
+    "score": 33.5736
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2308.11432"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 33,
+   "raw": "Jason Wei, Xuezhi Wang, Dale Schuurmans, Maarten Bosma, Fei Xia, Ed Chi, Quoc V Le, and Denny Zhou. Chain-of-thought prompting elicits reasoning in large language models. Advances in Neural Information Processing Systems, 35:24824\u201324837, 2022.",
+   "title": "Dale Schuurmans",
+   "authors": [
+    "Wei",
+    "Wang"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/068431-1800",
+    "title": "Chain-Of-Thought Prompting Elicits Reasoning in Large Language Models",
+    "year": 2022,
+    "first_author": "Wei",
+    "container": "Advances in Neural Information Processing Systems 35",
+    "type": "proceedings-article",
+    "score": 18.649736
+   },
+   "metrics": {
+    "title_sim": 21.42857142857143,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 34,
+   "raw": "Shunyu Yao, Jeffrey Zhao, Dian Yu, Nan Du, Izhak Shafran, Karthik Narasimhan, and Yuan Cao. React: Synergizing reasoning and acting in language models. arXiv preprint arXiv:2210.03629, 2022.",
+   "title": "React: Synergizing reasoning and acting in language models",
+   "authors": [
+    "Yao",
+    "Zhao",
+    "Yu",
+    "Du",
+    "Shafran",
+    "Narasimhan",
+    "Cao"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": "2210.03629",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2210.03629",
+    "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+    "year": 2022,
+    "first_author": "Shunyu Yao"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 35,
+   "raw": "Shunyu Yao, Dian Yu, Jeffrey Zhao, Izhak Shafran, Thomas L Griffiths, Yuan Cao, and Karthik Narasimhan. Tree of thoughts: Deliberate problem solving with large language models. Advances in Neural Information Processing Systems, 36, 2023.",
+   "title": "Tree of thoughts: Deliberate problem solving with large language models",
+   "authors": [
+    "Yao",
+    "Yu",
+    "Zhao",
+    "Shafran",
+    "Griffiths",
+    "Cao",
+    "Narasimhan"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/075280-0517",
+    "title": "Tree of Thoughts: Deliberate Problem Solving with Large Language Models",
+    "year": 2023,
+    "first_author": "Yao",
+    "container": "Advances in Neural Information Processing Systems 36",
+    "type": "proceedings-article",
+    "score": 61.225063
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 36,
+   "raw": "Xinyu Zhang, Yuxuan Dong, Yanrui Wu, Jiaxing Huang, Chengyou Jia, Basura Fernando, Mike Zheng Shou, Lingling Zhang, and Jun Liu. Physreason: A comprehensive benchmark towards physicsbased reasoning. arXiv preprint arXiv:2502.12054, 2025a.",
+   "title": "Physreason: A comprehensive benchmark towards physicsbased reasoning",
+   "authors": [
+    "Zhang",
+    "Dong",
+    "Wu",
+    "Huang",
+    "Jia",
+    "Fernando",
+    "Shou",
+    "Zhang",
+    "Liu"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": "2502.12054",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2025.acl-long.811",
+    "title": "PhysReason: A Comprehensive Benchmark towards Physics-Based Reasoning",
+    "year": 2025,
+    "first_author": "Zhang",
+    "container": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "type": "proceedings-article",
+    "score": 40.70033
+   },
+   "metrics": {
+    "title_sim": 99.25925925925925,
+    "containment": 0.667,
+    "partial_ratio": 98.52941176470588,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2502.12054"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 37,
+   "raw": "Yiming Zhang, Yingfan Ma, Yanmei Gu, Zhengkai Yang, Yihong Zhuang, Feng Wang, Zenan Huang, Yuanyuan Wang, Chao Huang, Bowen Song, et al. Abench-physics: Benchmarking physical reasoning in llms via high-difficulty and dynamic physics problems. arXiv preprint arXiv:2507.04766, 2025b.",
+   "title": "Abench-physics: Benchmarking physical reasoning in llms via high-difficulty and dynamic physics problems",
+   "authors": [
+    "Zhang",
+    "Ma",
+    "Gu",
+    "Yang",
+    "Zhuang",
+    "Wang",
+    "Huang",
+    "Wang",
+    "Huang",
+    "Song"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": "2507.04766",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2507.04766"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.18653/v1/2025.findings-acl.457",
+      "title": "XFinBench: Benchmarking LLMs in Complex Financial Problem Solving and Reasoning",
+      "year": 2025,
+      "first_author": "Zhang",
+      "container": "Findings of the Association for Computational Linguistics: ACL 2025",
+      "type": "proceedings-article",
+      "score": 34.742737
+     },
+     "metrics": {
+      "title_sim": 64.73988439306359,
+      "containment": 0.375,
+      "partial_ratio": 50.0,
+      "year_ok": true,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 38,
+   "raw": "Xinyue Zheng, Haowei Lin, Kaichen He, Zihao Wang, Zilong Zheng, QIANG FU, Haobo Fu, and Yitao Liang. Towards evaluating generalist agents: An automated benchmark in open world. 2023.",
+   "title": "Towards evaluating generalist agents: An automated benchmark in open world",
+   "authors": [
+    "Zheng",
+    "Lin",
+    "He",
+    "Wang",
+    "Zilong Zheng",
+    "Fu",
+    "Liang"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.36227/techrxiv.176948355.54623875/v1",
+      "title": "Towards Generalist Embodied AI: A Survey on World Models for VLA Agents",
+      "year": 2026,
+      "first_author": "Tan",
+      "container": "",
+      "type": "posted-content",
+      "score": 27.185831
+     },
+     "metrics": {
+      "title_sim": 65.73426573426573,
+      "containment": 0.429,
+      "partial_ratio": 48.57142857142858,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 39,
+   "raw": "Xin Zhou, Kisub Li, Yunbo Lyu, Ming Wen, Beijun Wang, Zhou Yang, Zhiqiang Wang, Xiaodong Luo, Li Li, and Yang Li. Lessleak-bench: A first investigation of data leakage in llms across 83 software engineering benchmarks. arXiv preprint arXiv:2502.06215, 2025.",
+   "title": "Lessleak-bench: A first investigation of data leakage in llms across 83 software engineering benchmarks",
+   "authors": [
+    "Zhou",
+    "Li",
+    "Lyu",
+    "Wen",
+    "Wang",
+    "Yang",
+    "Wang",
+    "Luo",
+    "Li",
+    "Li"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": "2502.06215",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2502.06215"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1016/j.datak.2025.102452",
+      "title": "Conceptual design of multidimensional cubes with LLMs: An investigation",
+      "year": 2025,
+      "first_author": "Rizzi",
+      "container": "Data &amp; Knowledge Engineering",
+      "type": "journal-article",
+      "score": 29.513315
+     },
+     "metrics": {
+      "title_sim": 53.48837209302326,
+      "containment": 0.333,
+      "partial_ratio": 48.57142857142858,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 40,
+   "raw": "Yakun Zhu, Zhongzhen Huang, Linjie Mu, Yutong Huang, Wei Nie, Jiaji Liu, Shaoting Zhang, Pengfei Liu, and Xiaofan Zhang. Diagnosisarena: Benchmarking diagnostic reasoning for large language models. arXiv preprint arXiv:2505.14107, 2025.",
+   "title": "Diagnosisarena: Benchmarking diagnostic reasoning for large language models",
+   "authors": [
+    "Zhu",
+    "Huang",
+    "Mu",
+    "Huang",
+    "Nie",
+    "Liu",
+    "Zhang",
+    "Liu",
+    "Zhang"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": "2505.14107",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2026.findings-acl.151",
+    "title": "DiagnosisArena: Benchmarking Diagnostic Reasoning for Large Language Models",
+    "year": 2026,
+    "first_author": "Zhu",
+    "container": "Findings of the Association for Computational Linguistics: ACL 2026",
+    "type": "proceedings-article",
+    "score": 54.244984
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2505.14107"
+    }
+   ]
+  }
+ ]
+}

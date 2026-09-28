@@ -1,0 +1,388 @@
+{
+ "pdf": "280_gC3D2ESSyK.pdf",
+ "n_entries": 9,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "[1]   Meta Fundamental AI Research Diplomacy Team (FAIR)\u2020 et al. \u201cHuman-level play in the game of <i>Diplomacy</i> by combining language models with strategic reasoning\u201d. In: Science 378.6624 (2022), pp. 1067\u20131074. DOI: 10.1126/science.ade9097. eprint: https: / / www . science . org / doi / pdf / 10 . 1126 / science . ade9097. URL: https : / / www . science.org/doi/abs/10.1126/science.ade9097.",
+   "title": "Human-level play in the game of <i>Diplomacy</i> by combining language models with strategic reasoning\u201d",
+   "authors": [
+    "Meta Fundamental AI Research Diplomacy Team (FAIR)\u2020 et al."
+   ],
+   "year": 2022,
+   "doi": "10.1126/science.ade9097",
+   "arxiv": null,
+   "urls": [
+    "https:"
+   ],
+   "container": "Science",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1126/science.ade9097",
+    "title": "Human-level play in the game of\n                    <i>Diplomacy</i>\n                    by combining language models with strategic reasoning",
+    "year": 2022,
+    "first_author": null,
+    "container": "Science",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": null
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2]   Janice Ahn et al. Large Language Models for Mathematical Reasoning: Progresses and Challenges. 2024. arXiv: 2402.00157 [cs.CL]. URL: https://arxiv.org/abs/2402.00157.",
+   "title": "Large Language Models for Mathematical Reasoning: Progresses and Challenges",
+   "authors": [
+    "Ahn"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2402.00157",
+   "urls": [
+    "https://arxiv.org/abs/2402.00157"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2024.eacl-srw.17",
+    "title": "Large Language Models for Mathematical Reasoning: Progresses and Challenges",
+    "year": 2024,
+    "first_author": "Ahn",
+    "container": "Proceedings of the 18th Conference of the European Chapter of the Association for Computational Linguistics: Student Research Workshop",
+    "type": "proceedings-article",
+    "score": 48.746033
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2402.00157"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3]   Lanxiang Hu et al. lmgame-Bench: How Good are LLMs at Playing Games? 2025. arXiv: 2505.15146 [cs.AI]. URL: https://arxiv.org/abs/2505.15146.",
+   "title": "Lanxiang Hu et al. lmgame-Bench: How Good are LLMs at Playing Games?",
+   "authors": [],
+   "year": 2025,
+   "doi": null,
+   "arxiv": "2505.15146",
+   "urls": [
+    "https://arxiv.org/abs/2505.15146"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2505.15146"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.64628/ab.qrfu63nad",
+      "title": "Playing video games is good for your brain \u2013 here\u2019s how",
+      "year": 2014,
+      "first_author": "Griffiths",
+      "container": "",
+      "type": "posted-content",
+      "score": 34.573025
+     },
+     "metrics": {
+      "title_sim": 59.32203389830509,
+      "containment": 0.5,
+      "partial_ratio": 49.056603773584904,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4]   Sihao Hu et al. A Survey on Large Language Model-Based Game Agents. 2025. arXiv: 2404. 02039 [cs.AI]. URL: https://arxiv.org/abs/2404.02039.",
+   "title": "A Survey on Large Language Model-Based Game Agents",
+   "authors": [
+    "Hu"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": "2404.02039",
+   "urls": [
+    "https://arxiv.org/abs/2404.02039"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/978-3-031-92285-5_8",
+    "title": "Large Language Model Agents",
+    "year": 2025,
+    "first_author": "Mathew",
+    "container": "Engineering Information Systems with Large Language Models",
+    "type": "book-chapter",
+    "score": 31.77121
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 85.18518518518519,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2404.02039"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5]   Long Phan et al. TextQuests: How Good are LLMs at Text-Based Video Games? 2025. arXiv: 2507.23701 [cs.AI]. URL: https://arxiv.org/abs/2507.23701.",
+   "title": "TextQuests: How Good are LLMs at Text-Based Video Games?",
+   "authors": [
+    "Phan"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": "2507.23701",
+   "urls": [
+    "https://arxiv.org/abs/2507.23701"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2507.23701"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.59350/2we6k-7sm38",
+      "title": "How good are LLMs at tricking you? (Weekly Roundup)",
+      "year": 2025,
+      "first_author": "Moure",
+      "container": "",
+      "type": "posted-content",
+      "score": 31.308401
+     },
+     "metrics": {
+      "title_sim": 58.8235294117647,
+      "containment": 0.429,
+      "partial_ratio": 56.25,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[6]   Ke Wang et al. \u201cMathCoder-VL: Bridging Vision and Code for Enhanced Multimodal Mathematical Reasoning\u201d. In: The 63rd Annual Meeting of the Association for Computational Linguistics. 2025. URL: https://openreview.net/forum?id=nuvtX1imAb.",
+   "title": "MathCoder-VL: Bridging Vision and Code for Enhanced Multimodal Mathematical Reasoning\u201d",
+   "authors": [
+    "Wang"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://openreview.net/forum?id=nuvtX1imAb"
+   ],
+   "container": "The 63rd Annual Meeting of the Association for Computational Linguistics",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2025.findings-acl.128",
+    "title": "MathCoder-VL: Bridging Vision and Code for Enhanced Multimodal Mathematical Reasoning",
+    "year": 2025,
+    "first_author": "Wang",
+    "container": "Findings of the Association for Computational Linguistics: ACL 2025",
+    "type": "proceedings-article",
+    "score": 69.21233
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[7]   Zhongwen Xu et al. Agents Play Thousands of 3D Video Games. 2025. arXiv: 2503.13356 [cs.LG]. URL: https://arxiv.org/abs/2503.13356.",
+   "title": "Agents Play Thousands of 3D Video Games",
+   "authors": [
+    "Xu"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": "2503.13356",
+   "urls": [
+    "https://arxiv.org/abs/2503.13356"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2503.13356"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1057/9781137307675.0007",
+      "title": "Play",
+      "year": 2013,
+      "first_author": null,
+      "container": "Rhetoric/Composition/Play through Video Games",
+      "type": "book-chapter",
+      "score": 32.019215
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 1.0,
+      "partial_ratio": 0,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[8]   Shunyu Yao et al. ReAct: Synergizing Reasoning and Acting in Language Models. 2023. arXiv: 2210.03629 [cs.CL]. URL: https://arxiv.org/abs/2210.03629.",
+   "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+   "authors": [
+    "Yao"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2210.03629",
+   "urls": [
+    "https://arxiv.org/abs/2210.03629"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2210.03629",
+    "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+    "year": 2022,
+    "first_author": "Shunyu Yao"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[9]   Aojun Zhou et al. \u201cSolving Challenging Math Word Problems Using GPT-4 Code Interpreter with Code-based Self-Verification\u201d. In: The Twelfth International Conference on Learning Representations. 2024. URL: https://openreview.net/forum?id=c8McWs4Av0.",
+   "title": "Solving Challenging Math Word Problems Using GPT-4 Code Interpreter with Code-based Self-Verification\u201d",
+   "authors": [
+    "Zhou"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://openreview.net/forum?id=c8McWs4Av0"
+   ],
+   "container": "The Twelfth International Conference on Learning Representations",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED_URL",
+   "via": "url",
+   "url_status": {
+    "https://openreview.net/forum?id=c8McWs4Av0": 200
+   },
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.5166090",
+      "title": "Solving Math Word Problems Using Estimation Verification and Equation Generation",
+      "year": 2025,
+      "first_author": "Piehl",
+      "container": "",
+      "type": "posted-content",
+      "score": 42.244354
+     },
+     "metrics": {
+      "title_sim": 72.0,
+      "containment": 0.625,
+      "partial_ratio": 57.49999999999999,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ]
+  }
+ ]
+}

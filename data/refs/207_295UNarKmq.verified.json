@@ -1,0 +1,1839 @@
+{
+ "pdf": "207_295UNarKmq.pdf",
+ "n_entries": 30,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": false,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "[1] Francois Chollet. On the measure of intelligence. arXiv preprint arXiv:1911.01547, 2019.",
+   "title": "On the measure of intelligence",
+   "authors": [
+    "Chollet"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": "1911.01547",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "1911.01547"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.4324/9781315135250-5",
+      "title": "Does IQ Measure Intelligence?",
+      "year": 2019,
+      "first_author": "Eysenck",
+      "container": "The Structure &amp; Measurement of Intelligence",
+      "type": "book-chapter",
+      "score": 19.038704
+     },
+     "metrics": {
+      "title_sim": 83.33333333333333,
+      "containment": 0.667,
+      "partial_ratio": 78.57142857142857,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "arxiv_id_repass",
+   "match": {
+    "source": "arxiv_abs",
+    "arxiv": "1911.01547",
+    "title": "On the Measure of Intelligence",
+    "year": 2019,
+    "first_author": "Chollet, Fran\u00e7ois"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   }
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2] Karl Cobbe, Vineet Kosaraju, Mohammad Bavarian, Mark Chen, Heewoo Jun, Lukasz Kaiser, Matthias Plappert, Jerry Tworek, Jacob Hilton, Reiichiro Nakano, et al. Training verifiers to solve math word problems. arXiv preprint arXiv:2110.14168, 2021.",
+   "title": "Training verifiers to solve math word problems",
+   "authors": [
+    "Cobbe",
+    "Kosaraju",
+    "Bavarian",
+    "Chen",
+    "Jun",
+    "Kaiser",
+    "Plappert",
+    "Tworek",
+    "Hilton",
+    "Nakano"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": "2110.14168",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2110.14168",
+    "title": "Training Verifiers to Solve Math Word Problems",
+    "year": 2021,
+    "first_author": "Karl Cobbe"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3] Solim LeGris, Wai Keen Vong, Brenden M Lake, and Todd M Gureckis. H-ARC: A robust estimate of human performance on the Abstraction and Reasoning Corpus benchmark. arXiv preprint arXiv:2409.01374, 2024.",
+   "title": "H-ARC: A robust estimate of human performance on the Abstraction and Reasoning Corpus benchmark",
+   "authors": [
+    "LeGris",
+    "Vong",
+    "Lake",
+    "Gureckis"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2409.01374",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2409.01374"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.36227/techrxiv.177162443.32578599/v1",
+      "title": "State of the ARC: An Investigation of Learning Mechanisms for the Abstraction and Reasoning Corpus",
+      "year": 2026,
+      "first_author": "Coombe",
+      "container": "",
+      "type": "posted-content",
+      "score": 36.96857
+     },
+     "metrics": {
+      "title_sim": 70.65217391304347,
+      "containment": 0.5,
+      "partial_ratio": 67.01030927835052,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "792b554afd351cd4b65aa4f2839f55545519a314",
+    "title": "H-ARC: A Robust Estimate of Human Performance on the Abstraction and Reasoning Corpus Benchmark",
+    "year": 2024,
+    "first_author": "Solim LeGris",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2409-01374",
+     "ArXiv": "2409.01374",
+     "DOI": "10.48550/arXiv.2409.01374",
+     "CorpusId": 272367064
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4] Albert Q Jiang, Alexandre Sablayrolles, Antoine Roux, Arthur Mensch, Blanche Savary, Chris Bamford, Devendra Singh Chaplot, Diego de las Casas, Emma Bou Hanna, Florian Bressand, et al. Mixtral of experts. arXiv preprint arXiv:2401.04088, 2024.",
+   "title": "Mixtral of experts",
+   "authors": [
+    "Jiang",
+    "Sablayrolles",
+    "Roux",
+    "Mensch",
+    "Savary",
+    "Bamford",
+    "Chaplot",
+    "Casas",
+    "Hanna",
+    "Bressand"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2401.04088",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2401.04088"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.36227/techrxiv.172055626.64129172/v1",
+      "title": "A Survey on Mixture of Experts",
+      "year": 2024,
+      "first_author": "Cai",
+      "container": "",
+      "type": "posted-content",
+      "score": 19.98458
+     },
+     "metrics": {
+      "title_sim": 71.42857142857143,
+      "containment": 0.333,
+      "partial_ratio": 70.0,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "411114f989a3d1083d90afd265103132fee94ebe",
+    "title": "Mixtral of Experts",
+    "year": 2024,
+    "first_author": "Albert Q. Jiang",
+    "container": "arXiv.org",
+    "ext": {
+     "ArXiv": "2401.04088",
+     "DBLP": "journals/corr/abs-2401-04088",
+     "DOI": "10.48550/arXiv.2401.04088",
+     "CorpusId": 266844877
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5] Dmitry Lepikhin, HyoukJoong Lee, Yuanzhong Xu, Dehao Chen, Orhan Firat, Yanping Huang, Maxim Krikun, Noam Shazeer, and Zhifeng Chen. GShard: Scaling giant models with conditional computation and automatic sharding. arXiv preprint arXiv:2006.16668, 2020.",
+   "title": "GShard: Scaling giant models with conditional computation and automatic sharding",
+   "authors": [
+    "Lepikhin",
+    "Lee",
+    "Xu",
+    "Chen",
+    "Firat",
+    "Huang",
+    "Krikun",
+    "Shazeer",
+    "Chen"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": "2006.16668",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2006.16668"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1002/cpe.5161",
+      "title": "Automatic cloud service testing and bottleneck detection system with scaling recommendation",
+      "year": 2020,
+      "first_author": "Liu",
+      "container": "Concurrency and Computation: Practice and Experience",
+      "type": "journal-article",
+      "score": 25.066189
+     },
+     "metrics": {
+      "title_sim": 63.529411764705884,
+      "containment": 0.222,
+      "partial_ratio": 45.05494505494505,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "1882f194cb43828852cc052887671e55a80f945a",
+    "title": "GShard: Scaling Giant Models with Conditional Computation and Automatic Sharding",
+    "year": 2020,
+    "first_author": "Dmitry Lepikhin",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "MAG": "3040573126",
+     "DBLP": "conf/iclr/LepikhinLXCFHKS21",
+     "ArXiv": "2006.16668",
+     "CorpusId": 220265858
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[6] William Fedus, Barret Zoph, and Noam Shazeer. Switch Transformers: Scaling to Trillion parameter models with simple and efficient sparsity. Journal of Machine Learning Research, 23(120):1\u201339, 2022.",
+   "title": "Switch Transformers: Scaling to Trillion parameter models with simple and efficient sparsity",
+   "authors": [
+    "Fedus",
+    "Zoph",
+    "Shazeer"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Machine Learning Research",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.63090/ejair/3139.7336.0004",
+      "title": "Mixture-of-Experts: Efficient Scaling to Trillion-Parameter Models",
+      "year": 2026,
+      "first_author": "P B",
+      "container": "Eduschool Journal of Artificial Intelligence Research (EJAIR)",
+      "type": "journal-article",
+      "score": 40.616684
+     },
+     "metrics": {
+      "title_sim": 82.88288288288288,
+      "containment": 0.714,
+      "partial_ratio": 69.23076923076923,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "fdacf2a732f55befdc410ea927091cad3b791f13",
+    "title": "Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity",
+    "year": 2021,
+    "first_author": "W. Fedus",
+    "container": "Journal of machine learning research",
+    "ext": {
+     "DBLP": "journals/jmlr/FedusZS22",
+     "ArXiv": "2101.03961",
+     "CorpusId": 231573431
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[7] Benedikt Stroebl, Sayash Kapoor, and Arvind Narayanan. Inference scaling flaws: The limits of LLM resampling with imperfect verifiers. arXiv preprint arXiv:2411.17501, 2024.",
+   "title": "Inference scaling flaws: The limits of LLM resampling with imperfect verifiers",
+   "authors": [
+    "Stroebl",
+    "Kapoor",
+    "Narayanan"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2411.17501",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2411.17501"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.14293/pr2199.001074.v1",
+      "title": "Towards a Universal Scaling Law of LLM Training and Inference",
+      "year": 2024,
+      "first_author": "Wu",
+      "container": "",
+      "type": "posted-content",
+      "score": 34.064545
+     },
+     "metrics": {
+      "title_sim": 60.869565217391305,
+      "containment": 0.5,
+      "partial_ratio": 55.73770491803278,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "5bb98b72874e2dc80a8937558968c87e88269e79",
+    "title": "Inference Scaling fLaws: The Limits of LLM Resampling with Imperfect Verifiers",
+    "year": 2024,
+    "first_author": "Benedikt Stroebl",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2411-17501",
+     "DOI": "10.48550/arXiv.2411.17501",
+     "CorpusId": 288111937
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[8] Tom Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared D Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, et al. Language models are few-shot learners. In Conference on Neural Information Processing Systems, volume 33, pages 1877\u20131901, 2020.",
+   "title": "Language models are few-shot learners",
+   "authors": [
+    "Brown",
+    "Mann",
+    "Ryder",
+    "Subbiah",
+    "Kaplan",
+    "Dhariwal",
+    "Neelakantan",
+    "Shyam",
+    "Sastry",
+    "Askell"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Conference on Neural Information Processing Systems",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2021.mrl-1.1",
+    "title": "Language Models are Few-shot Multilingual Learners",
+    "year": 2021,
+    "first_author": "Winata",
+    "container": "Proceedings of the 1st Workshop on Multilingual Representation Learning",
+    "type": "proceedings-article",
+    "score": 33.996895
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.833,
+    "partial_ratio": 74.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[9] Jared Kaplan, Sam McCandlish, Tom Henighan, Tom B Brown, Benjamin Chess, Rewon Child, Scott Gray, Alec Radford, Jeffrey Wu, and Dario Amodei. Scaling laws for neural language models. arXiv preprint arXiv:2001.08361, 2020.",
+   "title": "Scaling laws for neural language models",
+   "authors": [
+    "Kaplan",
+    "McCandlish",
+    "Henighan",
+    "Brown",
+    "Chess",
+    "Child",
+    "Gray",
+    "Radford",
+    "Wu",
+    "Amodei"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": "2001.08361",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2001.08361",
+    "title": "Scaling Laws for Neural Language Models",
+    "year": 2020,
+    "first_author": "Jared Kaplan"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[10] Jordan Hoffmann, Sebastian Borgeaud, Arthur Mensch, Elena Buchatskaya, Trevor Cai, Eliza Rutherford, Diego de Las Casas, Lisa Anne Hendricks, Johannes Welbl, Aidan Clark, et al. Training compute-optimal large language models. arXiv preprint arXiv:2203.15556, 2022.",
+   "title": "Training compute-optimal large language models",
+   "authors": [
+    "Hoffmann",
+    "Borgeaud",
+    "Mensch",
+    "Buchatskaya",
+    "Cai",
+    "Rutherford",
+    "Las Casas",
+    "Hendricks",
+    "Welbl",
+    "Clark"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": "2203.15556",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2203.15556",
+    "title": "Training Compute-Optimal Large Language Models",
+    "year": 2022,
+    "first_author": "Jordan Hoffmann"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "[11] Biao Zhang, Zhongtao Liu, Colin Cherry, and Orhan Firat. When scaling meets LLM finetuning: The effect of data, model and finetuning method. arXiv preprint arXiv:2402.17193, 2024.",
+   "title": "When scaling meets LLM finetuning: The effect of data, model and finetuning method",
+   "authors": [
+    "Zhang",
+    "Liu",
+    "Cherry",
+    "Firat"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2402.17193",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2402.17193"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.31237/osf.io/k8gwa",
+      "title": "Finetuning and Improving Prediction  Results of LLMs Using Synthetic Data",
+      "year": 2024,
+      "first_author": "Mac\u00edas",
+      "container": "",
+      "type": "posted-content",
+      "score": 40.957664
+     },
+     "metrics": {
+      "title_sim": 60.99290780141844,
+      "containment": 0.286,
+      "partial_ratio": 50.0,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "5e71d0e85f65a1c0fb2af7bff281209122c58932",
+    "title": "When Scaling Meets LLM Finetuning: The Effect of Data, Model and Finetuning Method",
+    "year": 2024,
+    "first_author": "Biao Zhang",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "ArXiv": "2402.17193",
+     "DBLP": "journals/corr/abs-2402-17193",
+     "DOI": "10.48550/arXiv.2402.17193",
+     "CorpusId": 268032247
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "[12] Ethan Caballero, Kshitij Gupta, Irina Rish, and David Krueger. Broken neural scaling laws. arXiv preprint arXiv:2210.14891, 2022.",
+   "title": "Broken neural scaling laws",
+   "authors": [
+    "Caballero",
+    "Gupta",
+    "Rish",
+    "Krueger"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": "2210.14891",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2210.14891"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.21248/gups.82099",
+      "title": "Neural scaling laws for multi-agent reinforcement learning",
+      "year": 2024,
+      "first_author": null,
+      "container": "",
+      "type": "dissertation",
+      "score": 28.336563
+     },
+     "metrics": {
+      "title_sim": 84.44444444444444,
+      "containment": 0.429,
+      "partial_ratio": 56.14035087719298,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "61f329722cd94291898c2c8131606a55f7a07219",
+    "title": "Broken Neural Scaling Laws",
+    "year": 2022,
+    "first_author": "Ethan Caballero",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "DBLP": "conf/iclr/CaballeroGRK23",
+     "ArXiv": "2210.14891",
+     "DOI": "10.48550/arXiv.2210.14891",
+     "CorpusId": 253117181
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "[13] Andy L Jones. Scaling scaling laws with board games. arXiv preprint arXiv:2104.03113, 2021.",
+   "title": "Scaling scaling laws with board games",
+   "authors": [
+    "Jones"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": "2104.03113",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2104.03113"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.52202/085713-1957",
+      "title": "AlphaZero Neural Scaling and Zipf's Law: a Tale of Board Games and Power Laws",
+      "year": 2025,
+      "first_author": "Neumann",
+      "container": "Advances in Neural Information Processing Systems 38",
+      "type": "proceedings-article",
+      "score": 37.60517
+     },
+     "metrics": {
+      "title_sim": 90.56603773584905,
+      "containment": 0.4,
+      "partial_ratio": 57.53424657534247,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "afbb0a31cc96c779fc363b65998a50f7b159e383",
+    "title": "Scaling Scaling Laws with Board Games",
+    "year": 2021,
+    "first_author": "Andy Jones",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2104-03113",
+     "ArXiv": "2104.03113",
+     "CorpusId": 233169011
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "[14] Nikhil Sardana, Jacob Portes, Sasha Doubov, and Jonathan Frankle. Beyond Chinchillaoptimal: Accounting for inference in language model scaling laws.     arXiv preprint arXiv:2401.00448, 2023.",
+   "title": "Beyond Chinchillaoptimal: Accounting for inference in language model scaling laws",
+   "authors": [
+    "Sardana",
+    "Portes",
+    "Doubov",
+    "Frankle"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2401.00448",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2401.00448"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.4413565",
+      "title": "Beyond P&amp;lt;0.05: Scientific Inference in Accounting Research",
+      "year": 2023,
+      "first_author": "Kallapur",
+      "container": "",
+      "type": "posted-content",
+      "score": 29.600431
+     },
+     "metrics": {
+      "title_sim": 63.829787234042556,
+      "containment": 0.5,
+      "partial_ratio": 53.125,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "82f75d838e92196864131bad25b1abc3b5d40a6f",
+    "title": "Beyond Chinchilla-Optimal: Accounting for Inference in Language Model Scaling Laws",
+    "year": 2023,
+    "first_author": "Nikhil Sardana",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "DBLP": "conf/icml/SardanaPDF24",
+     "ArXiv": "2401.00448",
+     "DOI": "10.48550/arXiv.2401.00448",
+     "CorpusId": 266693796
+    }
+   },
+   "metrics": {
+    "title_sim": 99.37888198757764,
+    "containment": 0.778,
+    "partial_ratio": 98.76543209876543,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "[15] DeepMind, AlphaCode Team. AlphaCode 2 Technical report. https://storage. googleapis.com/deepmind-media/AlphaCode2/AlphaCode2_Tech_Report.pdf, 2023.",
+   "title": "AlphaCode 2 Technical report",
+   "authors": [
+    "DeepMind"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://storage"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1016/s0262-4079(23)02120-6",
+      "title": "DeepMind AI predicts the weather",
+      "year": 2023,
+      "first_author": "Sparkes",
+      "container": "New Scientist",
+      "type": "journal-article",
+      "score": 21.845413
+     },
+     "metrics": {
+      "title_sim": 36.666666666666664,
+      "containment": 0.333,
+      "partial_ratio": 57.14285714285714,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    },
+    {
+     "step": "urls_not_live",
+     "url_status": {
+      "https://storage": "error"
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "67be4a0c75c2b2da3e834eb12b8305050a64a525",
+    "title": "AlphaCode 2 Technical Report",
+    "year": null,
+    "first_author": null,
+    "container": "",
+    "ext": {
+     "CorpusId": 266058988
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": null
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 16,
+   "raw": "[16] OpenAI.     Learning to reason with LLMs.                   https://openai.com/index/ learning-to-reason-with-llms, 2024.",
+   "title": "Learning to reason with LLMs",
+   "authors": [],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://openai.com/index/"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED_URL",
+   "via": "url",
+   "url_status": {
+    "https://openai.com/index/": 200
+   },
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/ccwc67433.2026.11393811",
+      "title": "Teaching Small LLMS to Reason Using Reinforcement Learning",
+      "year": 2026,
+      "first_author": "Yadav",
+      "container": "2026 IEEE 16th Annual Computing and Communication Workshop and Conference (CCWC)",
+      "type": "proceedings-article",
+      "score": 23.61534
+     },
+     "metrics": {
+      "title_sim": 90.19607843137254,
+      "containment": 0.5,
+      "partial_ratio": 53.448275862068975,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 17,
+   "raw": "[17] OpenAI.      OpenAI o3-mini system               card.         https://cdn.openai.com/ o3-mini-system-card-feb10.pdf, 2025.",
+   "title": "OpenAI o3-mini system card",
+   "authors": [],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://cdn.openai.com/"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1101/2025.05.19.654988",
+      "title": "RL-Finetuning of OpenAI o1-mini to Enhance Biomedical Reasoning",
+      "year": 2025,
+      "first_author": "Swanson",
+      "container": "",
+      "type": "posted-content",
+      "score": 26.784678
+     },
+     "metrics": {
+      "title_sim": 59.45945945945946,
+      "containment": 0.333,
+      "partial_ratio": 51.02040816326531,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    },
+    {
+     "step": "urls_not_live",
+     "url_status": {
+      "https://cdn.openai.com/": 404
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "405e9cbb90d8f1b945ba065001e7770d90f103ef",
+    "title": "OpenAI o3-mini System Card",
+    "year": null,
+    "first_author": "B. Zhang",
+    "container": "",
+    "ext": {
+     "CorpusId": 276119184
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 18,
+   "raw": "[18] Erik Schluntz and Barry Zhang. Building effective agents, 2024. URL https://www. anthropic.com/engineering/building-effective-agents.",
+   "title": "Building effective agents",
+   "authors": [
+    "Schluntz",
+    "Zhang"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://www"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.5040/bci-0kh1.ch-006",
+      "title": "Building Conversational Applications",
+      "year": 2024,
+      "first_author": null,
+      "container": "Building LLM Powered Applications",
+      "type": "other",
+      "score": 19.407734
+     },
+     "metrics": {
+      "title_sim": 52.459016393442624,
+      "containment": 0.333,
+      "partial_ratio": 52.459016393442624,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    },
+    {
+     "step": "urls_not_live",
+     "url_status": {
+      "https://www": "error"
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "1e3eaed30437df3360f2f8e4ef127e8c6bba35e5",
+    "title": "Efficient Agents: Building Effective Agents While Reducing Cost",
+    "year": 2025,
+    "first_author": "Ningning Wang",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2508-02694",
+     "ArXiv": "2508.02694",
+     "DOI": "10.48550/arXiv.2508.02694",
+     "CorpusId": 280526822
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.5,
+    "partial_ratio": 64.51612903225806,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 19,
+   "raw": "[19] OpenAI.     A practical guide to building agents. Technical report, OpenAI, April 2025.  URL https://cdn.openai.com/business-guides-and-resources/ a-practical-guide-to-building-agents.pdf.",
+   "title": "A practical guide to building agents",
+   "authors": [],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://cdn.openai.com/business-guides-and-resources/"
+   ],
+   "container": null,
+   "type": "report",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1142/9789819815678_0009",
+    "title": "A PRACTICAL GUIDE FOR BUILDING SUCCESSFUL AI AGENTS",
+    "year": 2025,
+    "first_author": null,
+    "container": "Agentic Artificial Intelligence",
+    "type": "book-chapter",
+    "score": 32.36075
+   },
+   "metrics": {
+    "title_sim": 95.65217391304348,
+    "containment": 0.8,
+    "partial_ratio": 76.92307692307692,
+    "year_ok": true,
+    "first_author_ok": null
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 20,
+   "raw": "[20] OpenAI. Introducing AgentKit. https://openai.com/index/introducing-agentkit/, 2025.",
+   "title": "Introducing AgentKit",
+   "authors": [],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://openai.com/index/introducing-agentkit/"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED_URL",
+   "via": "url",
+   "url_status": {
+    "https://openai.com/index/introducing-agentkit/": 200
+   },
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.59350/3a9nx-84w43",
+      "title": "Introducing tread",
+      "year": 2025,
+      "first_author": "Ebert",
+      "container": "",
+      "type": "posted-content",
+      "score": 15.919308
+     },
+     "metrics": {
+      "title_sim": 78.57142857142857,
+      "containment": 0.5,
+      "partial_ratio": 76.47058823529412,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 21,
+   "raw": "[21] Anthropic. Introducing Agent Skills. https://www.anthropic.com/news/skills, 2025.",
+   "title": "Introducing Agent Skills",
+   "authors": [],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://www.anthropic.com/news/skills"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED_URL",
+   "via": "url",
+   "url_status": {
+    "https://www.anthropic.com/news/skills": 200
+   },
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.4135/9781473940031",
+      "title": "Introducing Listening and Counselling Skills",
+      "year": 2008,
+      "first_author": null,
+      "container": "",
+      "type": null,
+      "score": 21.479435
+     },
+     "metrics": {
+      "title_sim": 85.71428571428571,
+      "containment": 0.5,
+      "partial_ratio": 54.32098765432099,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 22,
+   "raw": "[22] Eric Zelikman, Georges Harik, Yijia Shao, Varuna Jayasiri, Nick Haber, and Noah D Goodman. Quiet-Star: Language models can teach themselves to think before speaking. arXiv preprint arXiv:2403.09629, 2024.",
+   "title": "Quiet-Star: Language models can teach themselves to think before speaking",
+   "authors": [
+    "Zelikman",
+    "Harik",
+    "Shao",
+    "Jayasiri",
+    "Haber",
+    "Goodman"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2403.09629",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2403.09629"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.52202/075280-2997",
+      "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+      "year": 2023,
+      "first_author": "Schick",
+      "container": "Advances in Neural Information Processing Systems 36",
+      "type": "proceedings-article",
+      "score": 31.272713
+     },
+     "metrics": {
+      "title_sim": 78.78787878787878,
+      "containment": 0.625,
+      "partial_ratio": 78.33333333333333,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "b5bffe41155052a43010ec7197f832e81c546268",
+    "title": "Quiet-STaR: Language Models Can Teach Themselves to Think Before Speaking",
+    "year": 2024,
+    "first_author": "E. Zelikman",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2403-09629",
+     "ArXiv": "2403.09629",
+     "DOI": "10.48550/arXiv.2403.09629",
+     "CorpusId": 268385093
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 23,
+   "raw": "[23] Asankhaya Sharma. OptiLLM: Optimizing inference proxy for LLMs. https://github. com/codelion/optillm, 2024.",
+   "title": "OptiLLM: Optimizing inference proxy for LLMs",
+   "authors": [
+    "Sharma"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://github"
+   ],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.5253327",
+      "title": "AutoThink: efficient inference for reasoning LLMs",
+      "year": 2025,
+      "first_author": "Sharma",
+      "container": "",
+      "type": "posted-content",
+      "score": 31.286583
+     },
+     "metrics": {
+      "title_sim": 63.73626373626374,
+      "containment": 0.4,
+      "partial_ratio": 56.25,
+      "year_ok": true,
+      "first_author_ok": true
+     }
+    },
+    {
+     "step": "urls_not_live",
+     "url_status": {
+      "https://github": "error"
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 24,
+   "raw": "[24] Wen-Ding Li, Keya Hu, Carter Larsen, Yuqing Wu, Simon Alford, Caleb Woo, Spencer M Dunn, Hao Tang, Michelangelo Naim, Dat Nguyen, et al. Combining induction and transduction for abstract reasoning. arXiv preprint arXiv:2411.02272, 2024.",
+   "title": "Combining induction and transduction for abstract reasoning",
+   "authors": [
+    "Li",
+    "Hu",
+    "Larsen",
+    "Wu",
+    "Alford",
+    "Woo",
+    "Dunn",
+    "Tang",
+    "Naim",
+    "Nguyen"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2411.02272",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2411.02272"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/s10817-019-09519-x",
+      "title": "Combining Induction and Saturation-Based Theorem Proving",
+      "year": 2020,
+      "first_author": "Echenim",
+      "container": "Journal of Automated Reasoning",
+      "type": "journal-article",
+      "score": 25.44535
+     },
+     "metrics": {
+      "title_sim": 73.04347826086956,
+      "containment": 0.333,
+      "partial_ratio": 71.42857142857143,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "bddfdb914fbf45d1c60f59ee27f0ae5592de5da3",
+    "title": "Combining Induction and Transduction for Abstract Reasoning",
+    "year": 2024,
+    "first_author": "Wen-Ding Li",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "ArXiv": "2411.02272",
+     "DBLP": "journals/corr/abs-2411-02272",
+     "DOI": "10.48550/arXiv.2411.02272",
+     "CorpusId": 273821201
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 25,
+   "raw": "[25] Ekin Akyurek, Mehul Damani, Linlu Qiu, Han Guo, Yoon Kim, and Jacob Andreas. The surprising effectiveness of test-time training for abstract reasoning. arXiv preprint arXiv:2411.07279, 2024.",
+   "title": "The surprising effectiveness of test-time training for abstract reasoning",
+   "authors": [
+    "Akyurek",
+    "Damani",
+    "Qiu",
+    "Guo",
+    "Kim",
+    "Andreas"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2411.07279",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2411.07279"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1037/t12115-000",
+      "title": "Compound Series Test (Abstract Reasoning)",
+      "year": 2012,
+      "first_author": null,
+      "container": "PsycTESTS Dataset",
+      "type": "dataset",
+      "score": 26.23061
+     },
+     "metrics": {
+      "title_sim": 74.19354838709677,
+      "containment": 0.6,
+      "partial_ratio": 61.53846153846154,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "d3a2f01e393cef87a5a9ca7cb3d48ea80a53360b",
+    "title": "The Surprising Effectiveness of Test-Time Training for Abstract Reasoning",
+    "year": 2024,
+    "first_author": "Ekin Aky\u00fcrek",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2411-07279",
+     "DOI": "10.48550/arXiv.2411.07279",
+     "CorpusId": 273970146
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 26,
+   "raw": "[26] Yuxi Xie, Anirudh Goyal, Wenyue Zheng, Min-Yen Kan, Timothy P Lillicrap, Kenji Kawaguchi, and Michael Shieh. Monte Carlo tree search boosts reasoning via iterative preference learning. arXiv preprint arXiv:2405.00451, 2024.",
+   "title": "Monte Carlo tree search boosts reasoning via iterative preference learning",
+   "authors": [
+    "Xie",
+    "Goyal",
+    "Zheng",
+    "Kan",
+    "Lillicrap",
+    "Kawaguchi",
+    "Shieh"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2405.00451",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2405.00451"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.4677186",
+      "title": "An Iterative Model-Based Reinforcement Learning Utilizing Multi-Perspective Learning with Monte-Carlo Tree Search",
+      "year": 2023,
+      "first_author": "Wang",
+      "container": "",
+      "type": "posted-content",
+      "score": 44.447212
+     },
+     "metrics": {
+      "title_sim": 72.41379310344828,
+      "containment": 0.538,
+      "partial_ratio": 51.32743362831859,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "38333f6e8f0388968edc4b2ea7a683ce69677e69",
+    "title": "Monte Carlo Tree Search Boosts Reasoning via Iterative Preference Learning",
+    "year": 2024,
+    "first_author": "Yuxi Xie",
+    "container": "arXiv.org",
+    "ext": {
+     "ArXiv": "2405.00451",
+     "DBLP": "journals/corr/abs-2405-00451",
+     "DOI": "10.48550/arXiv.2405.00451",
+     "CorpusId": 269484186
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 27,
+   "raw": "[27] Xuezhi Wang, Jason Wei, Dale Schuurmans, Quoc Le, Ed Chi, Sharan Narang, Aakanksha Chowdhery, and Denny Zhou. Self-consistency improves chain of thought reasoning in language models. arXiv preprint arXiv:2203.11171, 2022.",
+   "title": "Self-consistency improves chain of thought reasoning in language models",
+   "authors": [
+    "Wang",
+    "Wei",
+    "Schuurmans",
+    "Le",
+    "Chi",
+    "Narang",
+    "Chowdhery",
+    "Zhou"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": "2203.11171",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2203.11171"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.59350/90sh1-hbs94",
+      "title": "Multimodal Chain-of-Thought Reasoning in Language Models",
+      "year": 2025,
+      "first_author": "Thoram",
+      "container": "",
+      "type": "posted-content",
+      "score": 40.433582
+     },
+     "metrics": {
+      "title_sim": 89.10891089108911,
+      "containment": 0.833,
+      "partial_ratio": 87.5,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "5f19ae1135a9500940978104ec15a5b8751bc7d2",
+    "title": "Self-Consistency Improves Chain of Thought Reasoning in Language Models",
+    "year": 2022,
+    "first_author": "Xuezhi Wang",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "DBLP": "conf/iclr/0002WSLCNCZ23",
+     "ArXiv": "2203.11171",
+     "CorpusId": 247595263
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 28,
+   "raw": "[28] Junlin Wang, Jue Wang, Ben Athiwaratkun, Ce Zhang, and James Zou. Mixture-of-agents enhances large language model capabilities. arXiv preprint arXiv:2406.04692, 2024.",
+   "title": "Mixture-of-agents enhances large language model capabilities",
+   "authors": [
+    "Wang",
+    "Wang",
+    "Athiwaratkun",
+    "Zhang",
+    "Zou"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2406.04692",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2406.04692"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.31219/osf.io/68fsw",
+      "title": "A Multimodal Approach to Estimate Large Language Model Improvisational Capabilities",
+      "year": 2024,
+      "first_author": "\ubc15\uc9c4\uc6b0",
+      "container": "",
+      "type": "posted-content",
+      "score": 31.933342
+     },
+     "metrics": {
+      "title_sim": 70.96774193548387,
+      "containment": 0.5,
+      "partial_ratio": 57.831325301204814,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "2b3ad2fdd9d2013119232ee49e6d21eb08474b74",
+    "title": "Mixture-of-Agents Enhances Large Language Model Capabilities",
+    "year": 2024,
+    "first_author": "Junlin Wang",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "DBLP": "conf/iclr/WangWAZZ25",
+     "ArXiv": "2406.04692",
+     "DOI": "10.48550/arXiv.2406.04692",
+     "CorpusId": 270357878
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 29,
+   "raw": "[29] Evan Wang, Federico Cassano, Catherine Wu, Yunfeng Bai, Will Song, Vaskar Nath, Ziwen Han, Sean Hendryx, Summer Yue, and Hugh Zhang. Planning in natural language improves LLM search for code generation. arXiv preprint arXiv:2409.03733, 2024.",
+   "title": "Planning in natural language improves LLM search for code generation",
+   "authors": [
+    "Wang",
+    "Cassano",
+    "Wu",
+    "Bai",
+    "Song",
+    "Nath",
+    "Han",
+    "Hendryx",
+    "Yue",
+    "Zhang"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2409.03733",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2409.03733"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.21203/rs.3.rs-4613568/v1",
+      "title": "LLM-A*: Large Language Model Enhanced Incremental Heuristic Search on Path Planning",
+      "year": 2024,
+      "first_author": "Meng",
+      "container": "",
+      "type": "posted-content",
+      "score": 34.591724
+     },
+     "metrics": {
+      "title_sim": 63.08724832214765,
+      "containment": 0.4,
+      "partial_ratio": 49.382716049382715,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "arxiv_id_repass",
+   "match": {
+    "source": "arxiv_abs",
+    "arxiv": "2409.03733",
+    "title": "Planning In Natural Language Improves LLM Search For Code Generation",
+    "year": 2024,
+    "first_author": "Wang, Evan"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   }
+  },
+  {
+   "junk": false,
+   "idx": 30,
+   "raw": "[30] Asankhaya Sharma. OpenEvolve. https://github.com/codelion/openevolve, 2025.",
+   "title": "OpenEvolve",
+   "authors": [
+    "Sharma"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://github.com/codelion/openevolve"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED_URL",
+   "via": "url",
+   "url_status": {
+    "https://github.com/codelion/openevolve": 200
+   },
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.63686/978-81-987694-1-1",
+      "title": "Python programming",
+      "year": 2025,
+      "first_author": "Bhatt",
+      "container": "",
+      "type": "monograph",
+      "score": 14.549658
+     },
+     "metrics": {
+      "title_sim": 21.42857142857143,
+      "containment": 0.0,
+      "partial_ratio": 38.888888888888886,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ]
+  }
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
+}

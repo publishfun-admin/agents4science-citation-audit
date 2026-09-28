@@ -1,0 +1,1111 @@
+{
+ "pdf": "196_lWHSiQpRIr.pdf",
+ "n_entries": 25,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 2,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "- Optional: emit PGFPlots coordinates for analytic run length: python3 artifact rho-sweep 0.00,0.30,0.60,0.85,0.95 emit-pgf-runlen",
+   "title": "Optional: emit PGFPlots coordinates for analytic run length: python3 artifact rho-sweep 0.00,0.30,0.60,0.85,0.95 emit-pgf-runlen",
+   "authors": [
+    "-"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1093/clinchem/30.6.887",
+      "title": "Evaluation of the EMIT reagent system for measurement of caffeine with the EMIT Lab 5000 System and a centrifugal analyzer.",
+      "year": 1984,
+      "first_author": "Ou",
+      "container": "Clinical Chemistry",
+      "type": "journal-article",
+      "score": 34.5995
+     },
+     "metrics": {
+      "title_sim": 46.2962962962963,
+      "containment": 0.167,
+      "partial_ratio": 41.20603015075377,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "- Depolarizing baseline: python3 artifact model depolarizing n 255 t 10 p-depol 0.02 trials-bdd 1000000 seed 42 References [1] F. Benabid, \u201cHollow-Core Photonic Crystal Fiber: A New Light Guide,\u201d Journal of Lightwave Technology, vol. 24, no. 12, pp. 4624\u20134633, 2006. doi: 10.1109/JLT.2006.885257.",
+   "title": "Depolarizing baseline: python3 artifact model depolarizing n 255 t 10 p-depol 0.02 trials-bdd 1000000 seed 42 References",
+   "authors": [
+    "-",
+    "Benabid"
+   ],
+   "year": 2006,
+   "doi": "10.1109/JLT.2006.885257",
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Lightwave Technology",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "doi_not_resolvable",
+     "doi": "10.1109/JLT.2006.885257"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/usnc-ursi.2013.6715469",
+      "title": "Uniaxial depolarizing dyad artifact removal via spectral domain analysis",
+      "year": 2013,
+      "first_author": "Havrilla",
+      "container": "2013 USNC-URSI Radio Science Meeting (Joint with AP-S Symposium)",
+      "type": "proceedings-article",
+      "score": 35.831696
+     },
+     "metrics": {
+      "title_sim": 42.93193717277487,
+      "containment": 0.25,
+      "partial_ratio": 54.961832061068705,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[2] F. Poletti, \u201cNested antiresonant nodeless hollow core fiber,\u201d Optics Express, vol. 22, no. 20, pp. 23807\u201323828, 2014. doi: 10.1364/OE.22.023807.",
+   "title": "Nested antiresonant nodeless hollow core fiber",
+   "authors": [
+    "Poletti"
+   ],
+   "year": 2014,
+   "doi": "10.1364/OE.22.023807",
+   "arxiv": null,
+   "urls": [],
+   "container": "Optics Express",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1364/oe.22.023807",
+    "title": "Nested antiresonant nodeless hollow core fiber",
+    "year": 2014,
+    "first_author": "Poletti",
+    "container": "Optics Express",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[3] P. Eraerds, N. Walenta, M. Legr\u00e9, N. Gisin, and H. Zbinden, \u201cQuantum key distribution and 1 Gbps data encryption over a single fibre,\u201d New Journal of Physics, vol. 12, p. 063027, 2010. doi: 10.1088/1367-2630/12/6/063027.",
+   "title": "Quantum key distribution and 1 Gbps data encryption over a single fibre",
+   "authors": [
+    "Eraerds",
+    "Walenta",
+    "Legr\u00e9",
+    "Gisin",
+    "Zbinden"
+   ],
+   "year": 2010,
+   "doi": "10.1088/1367-2630/12/6/063027",
+   "arxiv": null,
+   "urls": [],
+   "container": "New Journal of Physics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1088/1367-2630/12/6/063027",
+    "title": "Quantum key distribution and 1\u2009Gbps data encryption over a single fibre",
+    "year": 2010,
+    "first_author": "Eraerds",
+    "container": "New Journal of Physics",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[4] K. A. Patel, J. F. Dynes, I. Choi, A. W. Sharpe, A. R. Dixon, Z. L. Yuan, R. V. Penty, and A. J. Shields, \u201cCoexistence of High-Bit-Rate Quantum Key Distribution and Data on Optical Fiber,\u201d Physical Review X, vol. 2, no. 4, p. 041010, 2012. doi: 10.1103/PhysRevX.2.041010.",
+   "title": "Coexistence of High-Bit-Rate Quantum Key Distribution and Data on Optical Fiber",
+   "authors": [
+    "Patel",
+    "Dynes",
+    "Choi",
+    "Sharpe",
+    "Dixon",
+    "Yuan",
+    "Penty",
+    "Shields"
+   ],
+   "year": 2012,
+   "doi": "10.1103/PhysRevX.2.041010",
+   "arxiv": null,
+   "urls": [],
+   "container": "Physical Review X",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1103/physrevx.2.041010",
+    "title": "Coexistence of High-Bit-Rate Quantum Key Distribution and Data on Optical Fiber",
+    "year": 2012,
+    "first_author": "Patel",
+    "container": "Physical Review X",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[5] R. Kumar, H.-K. Qin, and R. All\u00e9aume, \u201cCoexistence of continuous variable QKD with intense DWDM classical channels,\u201d New Journal of Physics, vol. 17, p. 043027, 2015. doi: 10.1088/1367-2630/17/4/043027.",
+   "title": "Coexistence of continuous variable QKD with intense DWDM classical channels",
+   "authors": [
+    "Kumar",
+    "Qin",
+    "All\u00e9aume"
+   ],
+   "year": 2015,
+   "doi": "10.1088/1367-2630/17/4/043027",
+   "arxiv": null,
+   "urls": [],
+   "container": "New Journal of Physics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1088/1367-2630/17/4/043027",
+    "title": "Coexistence of continuous variable QKD with intense DWDM classical channels",
+    "year": 2015,
+    "first_author": "Kumar",
+    "container": "New Journal of Physics",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[6] A. G. Fowler, M. Mariantoni, J. M. Martinis, and A. N. Cleland, \u201cSurface codes: Towards practical large-scale quantum computation,\u201d Physical Review A, vol. 86, no. 3, p. 032324, 2012. doi: 10.1103/PhysRevA.86.032324.",
+   "title": "Surface codes: Towards practical large-scale quantum computation",
+   "authors": [
+    "Fowler",
+    "Mariantoni",
+    "Martinis",
+    "Cleland"
+   ],
+   "year": 2012,
+   "doi": "10.1103/PhysRevA.86.032324",
+   "arxiv": null,
+   "urls": [],
+   "container": "Physical Review A",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1103/physreva.86.032324",
+    "title": "Surface codes: Towards practical large-scale quantum computation",
+    "year": 2012,
+    "first_author": "Fowler",
+    "container": "Physical Review A",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[7] A. A. Kovalev and L. P. Pryadko, \u201cFault tolerance of quantum LDPC codes with sublinear distance scaling,\u201d Physical Review A, vol. 87, no. 2, p. 020304(R), 2013. doi: 10.1103/Phys-RevA.87.020304.",
+   "title": "Fault tolerance of quantum LDPC codes with sublinear distance scaling",
+   "authors": [
+    "Kovalev",
+    "Pryadko"
+   ],
+   "year": 2013,
+   "doi": "10.1103/Phys-RevA.87.020304",
+   "arxiv": null,
+   "urls": [],
+   "container": "Physical Review A",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1103/physreva.87.020304",
+    "title": "Fault tolerance of quantum low-density parity check codes with sublinear distance scaling",
+    "year": 2013,
+    "first_author": "Kovalev",
+    "container": "Physical Review A",
+    "type": "journal-article",
+    "score": 66.42363
+   },
+   "metrics": {
+    "title_sim": 96.2406015037594,
+    "containment": 0.636,
+    "partial_ratio": 77.52808988764045,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "doi_not_resolvable",
+     "doi": "10.1103/Phys-RevA.87.020304"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[8] J.-P. Tillich and\u221aG. Z\u00e9mor, \u201cQuantum LDPC codes with positive rate and minimum distance proportional to n,\u201d IEEE Transactions on Information Theory, vol. 60, no. 2, pp. 1193\u20131202, 2014. doi: 10.1109/TIT.2013.2288615.",
+   "title": "Quantum LDPC codes with positive rate and minimum distance proportional to n",
+   "authors": [
+    "Z\u00e9mor"
+   ],
+   "year": 2014,
+   "doi": "10.1109/TIT.2013.2288615",
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE Transactions on Information Theory",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/tit.2013.2292061",
+    "title": "Quantum LDPC Codes With Positive Rate and Minimum Distance Proportional to the Square Root of the Blocklength",
+    "year": 2014,
+    "first_author": "Tillich",
+    "container": "IEEE Transactions on Information Theory",
+    "type": "journal-article",
+    "score": 57.163963
+   },
+   "metrics": {
+    "title_sim": 98.66666666666667,
+    "containment": 0.727,
+    "partial_ratio": 78.89908256880733,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": [
+    {
+     "step": "doi_not_resolvable",
+     "doi": "10.1109/TIT.2013.2288615"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[9] N. P. Breuckmann and J. N. Eberhardt, \u201cBalanced Product Quantum Codes,\u201d PRX Quantum, vol. 2, no. 4, p. 040319, 2021. doi: 10.1103/PRXQuantum.2.040319.",
+   "title": "Balanced Product Quantum Codes",
+   "authors": [
+    "Breuckmann",
+    "Eberhardt"
+   ],
+   "year": 2021,
+   "doi": "10.1103/PRXQuantum.2.040319",
+   "arxiv": null,
+   "urls": [],
+   "container": "PRX Quantum",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/tit.2021.3097347",
+    "title": "Balanced Product Quantum Codes",
+    "year": 2021,
+    "first_author": "Breuckmann",
+    "container": "IEEE Transactions on Information Theory",
+    "type": "journal-article",
+    "score": 46.56037
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "doi_resolves_title_mismatch",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1103/prxquantum.2.040319",
+      "title": "Spacetime duality between localization transitions and measurement-induced transitions",
+      "year": 2021,
+      "first_author": "Lu",
+      "container": "PRX Quantum",
+      "type": "journal-article",
+      "score": 1
+     },
+     "metrics": {
+      "title_sim": 31.034482758620683,
+      "containment": 0.0,
+      "partial_ratio": 38.41059602649006,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "[10] P. Panteleev and G. Kalachev, \u201cAsymptotically good quantum and locally testable classical LDPC codes,\u201d in Proceedings of the 54th Annual ACM SIGACT Symposium on Theory of Computing (STOC), pp. 375\u2013388, 2022. doi: 10.1145/3519935.3520013.",
+   "title": "Asymptotically good quantum and locally testable classical LDPC codes",
+   "authors": [
+    "Panteleev",
+    "Kalachev"
+   ],
+   "year": 2022,
+   "doi": "10.1145/3519935.3520013",
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 54th Annual ACM SIGACT Symposium on Theory of Computing (STOC",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3519935.3520017",
+    "title": "Asymptotically good Quantum and locally testable classical LDPC codes",
+    "year": 2022,
+    "first_author": "Panteleev",
+    "container": "Proceedings of the 54th Annual ACM SIGACT Symposium on Theory of Computing",
+    "type": "proceedings-article",
+    "score": 84.84244
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "doi_resolves_title_mismatch",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1145/3519935.3520013",
+      "title": "On the hardness of dominant strategy mechanism design",
+      "year": 2022,
+      "first_author": "Dobzinski",
+      "container": "Proceedings of the 54th Annual ACM SIGACT Symposium on Theory of Computing",
+      "type": "proceedings-article",
+      "score": 1
+     },
+     "metrics": {
+      "title_sim": 36.0655737704918,
+      "containment": 0.0,
+      "partial_ratio": 43.39622641509434,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "[11] A. Ashikhmin, S. Litsyn, and M. A. Tsfasman, \u201cAsymptotically good quantum codes,\u201d Physical Review A, vol. 63, no. 3, p. 032311, 2001. doi: 10.1103/PhysRevA.63.032311.",
+   "title": "Asymptotically good quantum codes",
+   "authors": [
+    "Ashikhmin",
+    "Litsyn",
+    "Tsfasman"
+   ],
+   "year": 2001,
+   "doi": "10.1103/PhysRevA.63.032311",
+   "arxiv": null,
+   "urls": [],
+   "container": "Physical Review A",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1103/physreva.63.032311",
+    "title": "Asymptotically good quantum codes",
+    "year": 2001,
+    "first_author": "Ashikhmin",
+    "container": "Physical Review A",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "[12] H.-Y. Chen and S. Ling, \u201cA Construction of Good Quantum Error-Correcting Codes Using Good Algebraic Geometry Codes,\u201d IEEE Transactions on Information Theory, vol. 54, no. 1, pp. 443\u2013446, 2008. doi: 10.1109/TIT.2007.911240.",
+   "title": "A Construction of Good Quantum Error-Correcting Codes Using Good Algebraic Geometry Codes",
+   "authors": [
+    "Chen",
+    "Ling"
+   ],
+   "year": 2008,
+   "doi": "10.1109/TIT.2007.911240",
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE Transactions on Information Theory",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "doi_not_resolvable",
+     "doi": "10.1109/TIT.2007.911240"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1142/9789812794017_0012",
+      "title": "Quantum Error-Correcting Codes from Algebraic Curves",
+      "year": 2008,
+      "first_author": "Kim",
+      "container": "Series on Coding Theory and Cryptology",
+      "type": "book-chapter",
+      "score": 65.95152
+     },
+     "metrics": {
+      "title_sim": 86.95652173913044,
+      "containment": 0.833,
+      "partial_ratio": 82.6923076923077,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "[13] O. Higgott, \u201cPyMatching: A fast matching decoder for quantum error-correcting codes,\u201d Quantum, vol. 5, p. 501, 2021. doi: 10.22331/q-2021-07-06-501.",
+   "title": "PyMatching: A fast matching decoder for quantum error-correcting codes",
+   "authors": [
+    "Higgott"
+   ],
+   "year": 2021,
+   "doi": "10.22331/q-2021-07-06-501",
+   "arxiv": null,
+   "urls": [],
+   "container": "Quantum",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "doi_not_resolvable",
+     "doi": "10.22331/q-2021-07-06-501"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1145/3505637",
+      "title": "PyMatching: A Python Package for Decoding Quantum Codes with Minimum-Weight Perfect Matching",
+      "year": 2022,
+      "first_author": "Higgott",
+      "container": "ACM Transactions on Quantum Computing",
+      "type": "journal-article",
+      "score": 49.93424
+     },
+     "metrics": {
+      "title_sim": 72.22222222222223,
+      "containment": 0.4,
+      "partial_ratio": 50.56179775280899,
+      "year_ok": true,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": {
+    "source": "crossref",
+    "doi": "10.1145/3505637",
+    "title": "PyMatching: A Python Package for Decoding Quantum Codes with Minimum-Weight Perfect Matching",
+    "year": 2022,
+    "first_author": "Higgott",
+    "container": "ACM Transactions on Quantum Computing",
+    "type": "journal-article",
+    "score": 49.93424
+   }
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "[14] J. Valls, F. Garcia-Herrero, N. Raveendran, and B. Vasic, \u201cSyndrome-based min-sum vs. OSD-0 decoders: FPGA implementation and analysis for quantum LDPC codes,\u201d IEEE Access, vol. 9, pp. 138734\u2013138747, 2021. doi: 10.1109/ACCESS.2021.3119303.",
+   "title": "Syndrome-based min-sum vs. OSD-0 decoders: FPGA implementation and analysis for quantum LDPC codes",
+   "authors": [
+    "Valls",
+    "Garcia-Herrero",
+    "Raveendran",
+    "Vasic"
+   ],
+   "year": 2021,
+   "doi": "10.1109/ACCESS.2021.3119303",
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE Access",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/access.2021.3118544",
+    "title": "Syndrome-Based Min-Sum vs OSD-0 Decoders: FPGA Implementation and Analysis for Quantum LDPC Codes",
+    "year": 2021,
+    "first_author": "Valls",
+    "container": "IEEE Access",
+    "type": "journal-article",
+    "score": 105.302734
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "doi_not_resolvable",
+     "doi": "10.1109/ACCESS.2021.3119303"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 16,
+   "raw": "[15] A. W. Cross, D. P. DiVincenzo, and B. M. Terhal, \u201cA comparative code study for quantum fault-tolerance,\u201d arXiv:0711.1556, 2007. https://arxiv.org/abs/0711.1556.",
+   "title": "A comparative code study for quantum fault-tolerance",
+   "authors": [
+    "Cross",
+    "DiVincenzo",
+    "Terhal"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": "0711.1556",
+   "urls": [
+    "https://arxiv.org/abs/0711.1556"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.26421/qic9.7-8-1",
+    "title": "A comparative code study for quantum fault tolerance",
+    "year": 2009,
+    "first_author": "Cross",
+    "container": "Quantum Information and Computation",
+    "type": "journal-article",
+    "score": 43.045876
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "0711.1556"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 17,
+   "raw": "[16] I. Devetak and A. Winter, \u201cDistillation of secret key and entanglement from quantum states,\u201d Proceedings of the Royal Society A, vol. 461, no. 2053, pp. 207\u2013235, 2005. doi: 10.1098/rspa.2004.1372.",
+   "title": "Distillation of secret key and entanglement from quantum states",
+   "authors": [
+    "Devetak",
+    "Winter"
+   ],
+   "year": 2053,
+   "doi": "10.1098/rspa.2004.1372",
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the Royal Society A",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1098/rspa.2004.1372",
+    "title": "Distillation of secret key and entanglement from quantum states",
+    "year": 2005,
+    "first_author": "Devetak",
+    "container": "Proceedings of the Royal Society A: Mathematical, Physical and Engineering Sciences",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 18,
+   "raw": "[17] S. Pirandola et al., \u201cAdvances in quantum key distribution,\u201d Advances in Optics and Photonics, vol. 12, no. 4, pp. 1012\u20131236, 2020. doi: 10.1364/AOP.361502.",
+   "title": "Advances in quantum key distribution",
+   "authors": [
+    "Pirandola"
+   ],
+   "year": 2020,
+   "doi": "10.1364/AOP.361502",
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Optics and Photonics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "doi_resolves_title_mismatch",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1364/aop.361502",
+      "title": "Advances in quantum cryptography",
+      "year": 2020,
+      "first_author": "Pirandola",
+      "container": "Advances in Optics and Photonics",
+      "type": "journal-article",
+      "score": 1
+     },
+     "metrics": {
+      "title_sim": 74.50980392156863,
+      "containment": 0.667,
+      "partial_ratio": 71.875,
+      "year_ok": true,
+      "first_author_ok": true
+     }
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1117/12.2641717",
+      "title": "Continuous-variable quantum key distribution in a multi-way setting",
+      "year": 2022,
+      "first_author": "Papanastasiou",
+      "container": "Photonics for Quantum 2022",
+      "type": "proceedings-article",
+      "score": 36.11344
+     },
+     "metrics": {
+      "title_sim": 85.71428571428571,
+      "containment": 0.375,
+      "partial_ratio": 59.70149253731343,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": {
+    "source": "crossref",
+    "doi": "10.1364/aop.361502",
+    "title": "Advances in quantum cryptography",
+    "year": 2020,
+    "first_author": "Pirandola",
+    "container": "Advances in Optics and Photonics",
+    "type": "journal-article",
+    "score": 1
+   }
+  },
+  {
+   "junk": false,
+   "idx": 19,
+   "raw": "[18] E. N. Gilbert, \u201cCapacity of a Burst-Noise Channel,\u201d Bell System Technical Journal, vol. 39, no. 5, pp. 1253\u20131265, 1960.",
+   "title": "Capacity of a Burst-Noise Channel",
+   "authors": [
+    "Gilbert"
+   ],
+   "year": 1960,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Bell System Technical Journal",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1002/j.1538-7305.1960.tb03959.x",
+    "title": "Capacity of a Burst-Noise Channel",
+    "year": 1960,
+    "first_author": "Gilbert",
+    "container": "Bell System Technical Journal",
+    "type": "journal-article",
+    "score": 50.475285
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 20,
+   "raw": "[19] E. O. Elliott, \u201cEstimates of Error Rates for Codes on Burst-Noise Channels,\u201d Bell System Technical Journal, vol. 42, no. 5, pp. 1977\u20131997, 1963.",
+   "title": "Estimates of Error Rates for Codes on Burst-Noise Channels",
+   "authors": [
+    "Elliott"
+   ],
+   "year": 1963,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Bell System Technical Journal",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1002/j.1538-7305.1963.tb00955.x",
+    "title": "Estimates of Error Rates for Codes on Burst-Noise Channels",
+    "year": 1963,
+    "first_author": "Elliott",
+    "container": "Bell System Technical Journal",
+    "type": "journal-article",
+    "score": 73.42462
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 21,
+   "raw": "[20] E. B. Wilson, \u201cProbable Inference, the Law of Succession, and Statistical Inference,\u201d Journal of the American Statistical Association, vol. 22, no. 158, pp. 209\u2013212, 1927. doi: 10.1080/01621459.1927.10502953.",
+   "title": "Probable Inference, the Law of Succession, and Statistical Inference",
+   "authors": [
+    "Wilson"
+   ],
+   "year": 1927,
+   "doi": "10.1080/01621459.1927.10502953",
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of the American Statistical Association",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1080/01621459.1927.10502953",
+    "title": "Probable Inference, the Law of Succession, and Statistical Inference",
+    "year": 1927,
+    "first_author": "Wilson",
+    "container": "Journal of the American Statistical Association",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 22,
+   "raw": "[21] C. J. Clopper and E. S. Pearson, \u201cThe Use of Confidence or Fiducial Limits Illustrated in the Case of the Binomial,\u201d Biometrika, vol. 26, no. 4, pp. 404\u2013413, 1934. doi: 10.1093/biomet/26.4.404.",
+   "title": "The Use of Confidence or Fiducial Limits Illustrated in the Case of the Binomial",
+   "authors": [
+    "Clopper",
+    "Pearson"
+   ],
+   "year": 1934,
+   "doi": "10.1093/biomet/26.4.404",
+   "arxiv": null,
+   "urls": [],
+   "container": "Biometrika",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1093/biomet/26.4.404",
+    "title": "THE USE OF CONFIDENCE OR FIDUCIAL LIMITS ILLUSTRATED IN THE CASE OF THE BINOMIAL",
+    "year": 1934,
+    "first_author": "CLOPPER",
+    "container": "Biometrika",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 23,
+   "raw": "[22] L. Lydersen et al., \u201cHacking commercial quantum cryptography systems by tailored bright illumination,\u201d Nature Photonics, vol. 4, pp. 686\u2013689, 2010. doi: 10.1038/nphoton.2010.214.",
+   "title": "Hacking commercial quantum cryptography systems by tailored bright illumination",
+   "authors": [
+    "Lydersen"
+   ],
+   "year": 2010,
+   "doi": "10.1038/nphoton.2010.214",
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature Photonics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/nphoton.2010.214",
+    "title": "Hacking commercial quantum cryptography systems by tailored bright illumination",
+    "year": 2010,
+    "first_author": "Lydersen",
+    "container": "Nature Photonics",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 24,
+   "raw": "[23] I. Gerhardt et al., \u201cFull-field implementation of a perfect eavesdropper on a quantum cryptography system,\u201d Nature Communications, vol. 2, p. 349, 2011. doi: 10.1038/ncomms1348.",
+   "title": "Full-field implementation of a perfect eavesdropper on a quantum cryptography system",
+   "authors": [
+    "Gerhardt"
+   ],
+   "year": 2011,
+   "doi": "10.1038/ncomms1348",
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature Communications",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/ncomms1348",
+    "title": "Full-field implementation of a perfect eavesdropper on a quantum cryptography system",
+    "year": 2011,
+    "first_author": "Gerhardt",
+    "container": "Nature Communications",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 25,
+   "raw": "[24] G. P. Agrawal, Nonlinear Fiber Optics, 5th ed. Academic Press, 2013. ISBN: 978-0123970237.",
+   "title": "Nonlinear Fiber Optics",
+   "authors": [
+    "Agrawal"
+   ],
+   "year": 2013,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1016/b978-0-12-397023-7.00011-5",
+      "title": "Highly Nonlinear Fibers",
+      "year": 2013,
+      "first_author": "Agrawal",
+      "container": "Nonlinear Fiber Optics",
+      "type": "book-chapter",
+      "score": 41.16555
+     },
+     "metrics": {
+      "title_sim": 75.55555555555556,
+      "containment": 0.333,
+      "partial_ratio": 78.26086956521739,
+      "year_ok": true,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": {
+    "source": "crossref",
+    "doi": "10.1016/b978-0-12-397023-7.00011-5",
+    "title": "Highly Nonlinear Fibers",
+    "year": 2013,
+    "first_author": "Agrawal",
+    "container": "Nonlinear Fiber Optics",
+    "type": "book-chapter",
+    "score": 41.16555
+   },
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "6a751bcff6a5fde01d63709229f1e41d37ce8e8c",
+    "title": "Nonlinear Fiber Optics",
+    "year": 1989,
+    "first_author": "G. Agrawal",
+    "container": "",
+    "ext": {
+     "MAG": "1585641754",
+     "DOI": "10.1007/3-540-46629-0_9",
+     "CorpusId": 108867000
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  }
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
+}

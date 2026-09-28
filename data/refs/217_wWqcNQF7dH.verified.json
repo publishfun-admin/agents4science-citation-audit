@@ -1,0 +1,280 @@
+{
+ "pdf": "217_wWqcNQF7dH.pdf",
+ "n_entries": 5,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "[1] Lin, T. Y., Goyal, P., Girshick, R., He, K., & Doll\u00e1r, P. (2017). Focal loss for dense object detection. Proceedings of ICCV, 2980-2988.",
+   "title": "Focal loss for dense object detection",
+   "authors": [
+    "Lin",
+    "Goyal",
+    "Girshick",
+    "He",
+    "Doll\u00e1r"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/iccv.2017.324",
+    "title": "Focal Loss for Dense Object Detection",
+    "year": 2017,
+    "first_author": "Lin",
+    "container": "2017 IEEE International Conference on Computer Vision (ICCV)",
+    "type": "proceedings-article",
+    "score": 45.55175
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2] M\u00fcller, R., Kornblith, S., & Hinton, G. E. (2019). When does label smoothing help? Advances in NeurIPS, 32.",
+   "title": "When does label smoothing help?",
+   "authors": [
+    "M\u00fcller",
+    "Kornblith",
+    "Hinton"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in NeurIPS",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/ms.2019.2958263",
+      "title": "When Does Design Help Thinking, and When Does Design Thinking Help?",
+      "year": 2020,
+      "first_author": "Penzenstadler",
+      "container": "IEEE Software",
+      "type": "journal-article",
+      "score": 28.490425
+     },
+     "metrics": {
+      "title_sim": 71.875,
+      "containment": 0.6,
+      "partial_ratio": 54.23728813559322,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "f8de25118af2abc4c48afb947d6ec298e05ef1e5",
+    "title": "When Does Label Smoothing Help?",
+    "year": 2019,
+    "first_author": "Rafael M\u00fcller",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "MAG": "2970206392",
+     "ArXiv": "1906.02629",
+     "DBLP": "journals/corr/abs-1906-02629",
+     "CorpusId": 174802983
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3] Guo, C., Pleiss, G., Sun, Y., & Weinberger, K. Q. (2017). On calibration of modern neural networks. Proceedings of ICML, 1321-1330.",
+   "title": "On calibration of modern neural networks",
+   "authors": [
+    "Guo",
+    "Pleiss",
+    "Sun",
+    "Weinberger"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of ICML",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/978-3-319-59072-1_37",
+      "title": "Matrix Neural Networks",
+      "year": 2017,
+      "first_author": "Gao",
+      "container": "Lecture Notes in Computer Science",
+      "type": "book-chapter",
+      "score": 25.144281
+     },
+     "metrics": {
+      "title_sim": 81.08108108108108,
+      "containment": 0.667,
+      "partial_ratio": 81.81818181818181,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "d65ce2b8300541414bfe51d03906fca72e93523c",
+    "title": "On Calibration of Modern Neural Networks",
+    "year": 2017,
+    "first_author": "Chuan Guo",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "MAG": "2950953798",
+     "ArXiv": "1706.04599",
+     "DBLP": "conf/icml/GuoPSW17",
+     "CorpusId": 28671436
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4] Kingma, D. P., & Ba, J. (2014). Adam: A method for stochastic optimization. arXiv preprint arXiv:1412.6980.",
+   "title": "Adam: A method for stochastic optimization",
+   "authors": [
+    "Kingma",
+    "Ba"
+   ],
+   "year": 2014,
+   "doi": null,
+   "arxiv": "1412.6980",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "1412.6980",
+    "title": "Adam: A Method for Stochastic Optimization",
+    "year": 2014,
+    "first_author": "Diederik P. Kingma"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5] Andrychowicz, M., et al. (2016). Learning to learn by gradient descent by gradient descent. Advances in NeurIPS, 29.",
+   "title": "Learning to learn by gradient descent by gradient descent",
+   "authors": [
+    "Andrychowicz"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in NeurIPS",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.4135/9781526469069",
+      "title": "Gradient Descent: Theory",
+      "year": 2018,
+      "first_author": null,
+      "container": "",
+      "type": null,
+      "score": 49.923695
+     },
+     "metrics": {
+      "title_sim": 82.05128205128204,
+      "containment": 0.667,
+      "partial_ratio": 78.26086956521739,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "71683e224ab91617950956b5005ed0439a733a71",
+    "title": "Learning to learn by gradient descent by gradient descent",
+    "year": 2016,
+    "first_author": "Marcin Andrychowicz",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "MAG": "2427497464",
+     "DBLP": "journals/corr/AndrychowiczDGH16",
+     "ArXiv": "1606.04474",
+     "CorpusId": 2928017
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  }
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
+}

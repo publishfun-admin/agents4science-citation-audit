@@ -1,0 +1,223 @@
+{
+ "pdf": "275_5qYADa1lbX.pdf",
+ "n_entries": 5,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "References [1] Blanchard, P., El Mhamdi, E. M., Guerraoui, R., & Stainer, J. (2017). Machine learning with adversaries: Byzantine tolerant gradient descent. Advances in Neural Information Processing Systems, 30.",
+   "title": "Machine learning with adversaries: Byzantine tolerant gradient descent",
+   "authors": [
+    "References [1] Blanchard, P., El Mhamdi, E. M., Guerraoui, R., & Stainer, J."
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1145/3382734.3405695",
+      "title": "Genuinely Distributed Byzantine Machine Learning",
+      "year": 2020,
+      "first_author": "El-Mhamdi",
+      "container": "Proceedings of the 39th Symposium on Principles of Distributed Computing",
+      "type": "proceedings-article",
+      "score": 48.275925
+     },
+     "metrics": {
+      "title_sim": 70.27027027027027,
+      "containment": 0.6,
+      "partial_ratio": 58.33333333333333,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2] Yin, D., Chen, Y., Kannan, R., & Bartlett, P. (2018). Byzantine-robust distributed learning: Towards optimal statistical rates. International Conference on Machine Learning, 5650-5659.",
+   "title": "Byzantine-robust distributed learning: Towards optimal statistical rates",
+   "authors": [
+    "Yin",
+    "Chen",
+    "Kannan",
+    "Bartlett"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Conference on Machine Learning",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/cdc40024.2019.9029491",
+      "title": "Distributed robust statistical learning: Byzantine mirror descent",
+      "year": 2019,
+      "first_author": "Ding",
+      "container": "2019 IEEE 58th Conference on Decision and Control (CDC)",
+      "type": "proceedings-article",
+      "score": 34.585835
+     },
+     "metrics": {
+      "title_sim": 86.72566371681415,
+      "containment": 0.714,
+      "partial_ratio": 59.375,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3] Chen, Y., Su, L., & Xu, J. (2018). Distributed statistical machine learning in adversarial settings: Byzantine gradient descent. Proceedings of the ACM on Measurement and Analysis of Computing Systems, 2(2), 1-25.",
+   "title": "Distributed statistical machine learning in adversarial settings: Byzantine gradient descent",
+   "authors": [
+    "Chen",
+    "Su",
+    "Xu"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the ACM on Measurement and Analysis of Computing Systems",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3219617.3219655",
+    "title": "Distributed Statistical Machine Learning in Adversarial Settings",
+    "year": 2018,
+    "first_author": "Chen",
+    "container": "Abstracts of the 2018 ACM International Conference on Measurement and Modeling of Computer Systems",
+    "type": "proceedings-article",
+    "score": 70.479515
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4] Li, S., Cheng, Y., Wang, W., Liu, Y., & Chen, T. (2019). Learning to detect malicious clients for robust federated learning. arXiv preprint arXiv:1901.10430.",
+   "title": "Learning to detect malicious clients for robust federated learning",
+   "authors": [
+    "Li",
+    "Cheng",
+    "Wang",
+    "Liu",
+    "Chen"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": "1901.10430",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "1901.10430"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/tdsc.2024.3372634/mm1",
+      "title": "FedDMC: Efficient and Robust Federated Learning via Detecting Malicious Clients_supp1-3372634.pdf",
+      "year": 2024,
+      "first_author": "Mu",
+      "container": "",
+      "type": "component",
+      "score": 42.587036
+     },
+     "metrics": {
+      "title_sim": 86.0,
+      "containment": 0.455,
+      "partial_ratio": 57.47126436781609,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5] McMahan, B., Moore, E., Ramage, D., Hampson, S., & y Arcas, B. A. (2017). Communicationefficient learning of deep networks from decentralized data. Artificial Intelligence and Statistics, 1273-1282.",
+   "title": "Communicationefficient learning of deep networks from decentralized data",
+   "authors": [
+    "McMahan",
+    "Moore",
+    "Ramage",
+    "Hampson",
+    "Arcas"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Artificial Intelligence and Statistics",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/tnnls.2022.3214573",
+      "title": "Deep Class-Incremental Learning From Decentralized Data",
+      "year": 2024,
+      "first_author": "Zhang",
+      "container": "IEEE Transactions on Neural Networks and Learning Systems",
+      "type": "journal-article",
+      "score": 29.308918
+     },
+     "metrics": {
+      "title_sim": 80.43478260869566,
+      "containment": 0.667,
+      "partial_ratio": 69.0909090909091,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  }
+ ]
+}

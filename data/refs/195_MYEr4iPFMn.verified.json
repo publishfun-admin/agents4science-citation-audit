@@ -1,0 +1,1474 @@
+{
+ "pdf": "195_MYEr4iPFMn.pdf",
+ "n_entries": 24,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 2,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "Aida Amini, Saadia Gabriel, Shanchuan Lin, Rik Koncel-Kedziorski, Yejin Choi, and Hannaneh Hajishirzi. Mathqa: Towards interpretable math word problem solving with operation-based formalisms. Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics, 2019.",
+   "title": "Mathqa: Towards interpretable math word problem solving with operation-based formalisms",
+   "authors": [
+    "Amini",
+    "Gabriel",
+    "Lin",
+    "Koncel-Kedziorski",
+    "Choi",
+    "Hajishirzi"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/n19-1245",
+    "title": "MathQA: Towards Interpretable Math Word Problem Solving with Operation-Based Formalisms",
+    "year": 2019,
+    "first_author": "Amini",
+    "container": "Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)",
+    "type": "proceedings-article",
+    "score": 73.2283
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "Jacob Austin, Augustus Odena, Maxwell Nye, Maarten Bosma, Henryk Michalewski, David Dohan, Ellen Jiang, Carrie Cai, Michael Terry, Quoc Le, and Charles Sutton. Program synthesis with large language models. 2021.",
+   "title": "Program synthesis with large language models",
+   "authors": [
+    "Austin",
+    "Odena",
+    "Nye",
+    "Bosma",
+    "Michalewski",
+    "Dohan",
+    "Jiang",
+    "Cai",
+    "Terry",
+    "Le",
+    "Sutton"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1145/3680410",
+      "title": "On Program Synthesis and Large Language Models",
+      "year": 2025,
+      "first_author": "H\u00fcttel",
+      "container": "Communications of the ACM",
+      "type": "journal-article",
+      "score": 28.269615
+     },
+     "metrics": {
+      "title_sim": 93.97590361445783,
+      "containment": 1.0,
+      "partial_ratio": 91.30434782608697,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "a38e0f993e4805ba8a9beae4c275c91ffcec01df",
+    "title": "Program Synthesis with Large Language Models",
+    "year": 2021,
+    "first_author": "Jacob Austin",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2108-07732",
+     "ArXiv": "2108.07732",
+     "CorpusId": 237142385
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "Tom Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared D. Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, et al. Language models are few-shot learners. In Advances in Neural Information Processing Systems, volume 33, pages 1877\u20131901, 2020.",
+   "title": "Language models are few-shot learners",
+   "authors": [
+    "Brown",
+    "Mann",
+    "Ryder",
+    "Subbiah",
+    "Kaplan",
+    "Dhariwal",
+    "Neelakantan",
+    "Shyam",
+    "Sastry",
+    "Askell"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2021.mrl-1.1",
+    "title": "Language Models are Few-shot Multilingual Learners",
+    "year": 2021,
+    "first_author": "Winata",
+    "container": "Proceedings of the 1st Workshop on Multilingual Representation Learning",
+    "type": "proceedings-article",
+    "score": 33.98743
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.833,
+    "partial_ratio": 74.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "Wenhu Chen, Xueguang Ma, Xinyi Wang, and William W. Cohen. Program of thoughts prompting: Disentangling computation from reasoning for numerical reasoning tasks. Transactions on Machine Learning Research, 2023.",
+   "title": "Program of thoughts prompting: Disentangling computation from reasoning for numerical reasoning tasks",
+   "authors": [
+    "Chen",
+    "Ma",
+    "Wang",
+    "Cohen"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Transactions on Machine Learning Research",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.18653/v1/2023.findings-acl.668",
+      "title": "Leveraging Training Data in Few-Shot Prompting for Numerical Reasoning",
+      "year": 2023,
+      "first_author": "Jie",
+      "container": "Findings of the Association for Computational Linguistics: ACL 2023",
+      "type": "proceedings-article",
+      "score": 38.080753
+     },
+     "metrics": {
+      "title_sim": 64.07766990291262,
+      "containment": 0.375,
+      "partial_ratio": 68.57142857142857,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "6c943670dca38bfc7c8b477ae7c2d1fba1ad3691",
+    "title": "Program of Thoughts Prompting: Disentangling Computation from Reasoning for Numerical Reasoning Tasks",
+    "year": 2022,
+    "first_author": "Wenhu Chen",
+    "container": "Trans. Mach. Learn. Res.",
+    "ext": {
+     "ArXiv": "2211.12588",
+     "DBLP": "journals/corr/abs-2211-12588",
+     "CorpusId": 253801709
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "Karl Cobbe, Vineet Kosaraju, Mohammad Bavarian, Mark Chen, Heewoo Jun, Lukasz Kaiser, Matthias Plappert, Jerry Tworek, Jacob Hilton, Reiichiro Nakano, Christopher Hesse, and John Schulman. Training verifiers to solve math word problems. In arXiv preprint arXiv:2110.14168, 2021.",
+   "title": "Training verifiers to solve math word problems",
+   "authors": [
+    "Cobbe",
+    "Kosaraju",
+    "Bavarian",
+    "Chen",
+    "Jun",
+    "Kaiser",
+    "Plappert",
+    "Tworek",
+    "Hilton",
+    "Nakano",
+    "Hesse",
+    "Schulman"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": "2110.14168",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2110.14168",
+    "title": "Training Verifiers to Solve Math Word Problems",
+    "year": 2021,
+    "first_author": "Karl Cobbe"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "Debrup Das, Debopriyo Banerjee, Somak Aditya, and Ashish Kulkarni. Mathsensei: A toolaugmented large language model for mathematical reasoning. In Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics, 2024.",
+   "title": "Mathsensei: A toolaugmented large language model for mathematical reasoning",
+   "authors": [
+    "Das",
+    "Banerjee",
+    "Aditya",
+    "Kulkarni"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2024.naacl-long.54",
+    "title": "MATHSENSEI: A Tool-Augmented Large Language Model for Mathematical Reasoning",
+    "year": 2024,
+    "first_author": "Das",
+    "container": "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+    "type": "proceedings-article",
+    "score": 47.06526
+   },
+   "metrics": {
+    "title_sim": 99.32885906040269,
+    "containment": 0.75,
+    "partial_ratio": 98.66666666666667,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "William Fedus, Barret Zoph, and Noam Shazeer. Switch transformer: Scaling to trillion parameter models with simple and efficient sparsity. Journal of Machine Learning Research, 23(120):1\u201339, 2022.",
+   "title": "Switch transformer: Scaling to trillion parameter models with simple and efficient sparsity",
+   "authors": [
+    "Fedus",
+    "Zoph",
+    "Shazeer"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Machine Learning Research",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.63090/ejair/3139.7336.0004",
+      "title": "Mixture-of-Experts: Efficient Scaling to Trillion-Parameter Models",
+      "year": 2026,
+      "first_author": "P B",
+      "container": "Eduschool Journal of Artificial Intelligence Research (EJAIR)",
+      "type": "journal-article",
+      "score": 40.616238
+     },
+     "metrics": {
+      "title_sim": 82.88288288288288,
+      "containment": 0.714,
+      "partial_ratio": 70.76923076923076,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "fdacf2a732f55befdc410ea927091cad3b791f13",
+    "title": "Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity",
+    "year": 2021,
+    "first_author": "W. Fedus",
+    "container": "Journal of machine learning research",
+    "ext": {
+     "DBLP": "journals/jmlr/FedusZS22",
+     "ArXiv": "2101.03961",
+     "CorpusId": 231573431
+    }
+   },
+   "metrics": {
+    "title_sim": 99.4475138121547,
+    "containment": 0.889,
+    "partial_ratio": 98.9010989010989,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "Zhibin Gou, Zhihong Shao, Yeyun Gong, Yelong Shen, Yujiu Yang, Minlie Huang, Nan Duan, and Weizhu Chen. Tora: A tool-integrated reasoning agent for mathematical problem solving. In International Conference on Learning Representations, 2024.",
+   "title": "Tora: A tool-integrated reasoning agent for mathematical problem solving",
+   "authors": [
+    "Gou",
+    "Shao",
+    "Gong",
+    "Shen",
+    "Yang",
+    "Huang",
+    "Duan",
+    "Chen"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Conference on Learning Representations",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.36227/techrxiv.176704492.22222926/v1",
+      "title": "Tool-Augmented Hybrid Ensemble Reasoning with Distillation for Bilingual Mathematical Problem Solving",
+      "year": 2025,
+      "first_author": "Lu",
+      "container": "",
+      "type": "posted-content",
+      "score": 34.79045
+     },
+     "metrics": {
+      "title_sim": 79.66101694915254,
+      "containment": 0.5,
+      "partial_ratio": 57.425742574257434,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "b272513916b45c8517d289d7abee4a53e6832187",
+    "title": "ToRA: A Tool-Integrated Reasoning Agent for Mathematical Problem Solving",
+    "year": 2023,
+    "first_author": "Zhibin Gou",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "ArXiv": "2309.17452",
+     "DBLP": "journals/corr/abs-2309-17452",
+     "DOI": "10.48550/arXiv.2309.17452",
+     "CorpusId": 263310365
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "Dan Hendrycks, Collin Burns, Saurav Kadavath, Akul Arora, Steven Basart, Eric Tang, Dawn Song, and Jacob Steinhardt. Measuring mathematical problem solving with the math dataset. In Advances in Neural Information Processing Systems, volume 34, pages 2539\u20132551, 2021.",
+   "title": "Measuring mathematical problem solving with the math dataset",
+   "authors": [
+    "Hendrycks",
+    "Burns",
+    "Kadavath",
+    "Arora",
+    "Basart",
+    "Tang",
+    "Song",
+    "Steinhardt"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1037/e627722013-472",
+      "title": "Traditional music and problem solving: The effect of Bugis music on mathematical problem solving",
+      "year": 2013,
+      "first_author": "Saputra",
+      "container": "PsycEXTRA Dataset",
+      "type": "dataset",
+      "score": 31.521763
+     },
+     "metrics": {
+      "title_sim": 69.56521739130434,
+      "containment": 0.5,
+      "partial_ratio": 58.94736842105264,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "57d1e7ac339e783898f2c3b1af55737cbeee9fc5",
+    "title": "Measuring Mathematical Problem Solving With the MATH Dataset",
+    "year": 2021,
+    "first_author": "Dan Hendrycks",
+    "container": "NeurIPS Datasets and Benchmarks",
+    "ext": {
+     "DBLP": "conf/nips/HendrycksBKABTS21",
+     "ArXiv": "2103.03874",
+     "CorpusId": 232134851
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "Naman Jain, King Han, Alex Gu, Wen-Ding Li, Fanjia Yan, Tianjun Zhang, Sida I. Wang, Armando Solar-Lezama, Koushik Sen, and Ion Stoica. Livecodebench: Holistic and contamination free evaluation of large language models for code. arXiv preprint arXiv:2403.07974, 2024.",
+   "title": "Livecodebench: Holistic and contamination free evaluation of large language models for code",
+   "authors": [
+    "Jain",
+    "Han",
+    "Gu",
+    "Li",
+    "Yan",
+    "Zhang",
+    "Wang",
+    "Solar-Lezama",
+    "Sen",
+    "Stoica"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2403.07974",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2403.07974"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.18653/v1/2024.scalellm-1.4",
+      "title": "InstructEval: Towards Holistic Evaluation of Instruction-Tuned Large Language Models",
+      "year": 2024,
+      "first_author": "Chia",
+      "container": "Proceedings of the First edition of the Workshop on the Scaling Behavior of Large Language Models (SCALE-LLM 2024)",
+      "type": "proceedings-article",
+      "score": 35.431
+     },
+     "metrics": {
+      "title_sim": 70.52023121387283,
+      "containment": 0.625,
+      "partial_ratio": 61.44578313253012,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "afe0998d191f3ea8490c7df100a3ffc5dcc62c5e",
+    "title": "LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code",
+    "year": 2024,
+    "first_author": "Naman Jain",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "ArXiv": "2403.07974",
+     "DBLP": "journals/corr/abs-2403-07974",
+     "DOI": "10.48550/arXiv.2403.07974",
+     "CorpusId": 268379413
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "Jared Kaplan, Sam McCandlish, Tom Henighan, Tom B. Brown, Benjamin Chess, Rewon Child, Scott Gray, Alec Radford, Jeffrey Wu, and Dario Amodei. Scaling laws for neural language models. arXiv preprint arXiv:2001.08361, 2020.",
+   "title": "Scaling laws for neural language models",
+   "authors": [
+    "Kaplan",
+    "McCandlish",
+    "Henighan",
+    "Brown",
+    "Chess",
+    "Child",
+    "Gray",
+    "Radford",
+    "Wu",
+    "Amodei"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": "2001.08361",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2001.08361",
+    "title": "Scaling Laws for Neural Language Models",
+    "year": 2020,
+    "first_author": "Jared Kaplan"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "Takeshi Kojima, Shixiang Shane Gu, Machel Reid, Yutaka Matsuo, and Yusuke Iwasawa. Large language models are zero-shot reasoners. In Advances in Neural Information Processing Systems, 2022.",
+   "title": "Large language models are zero-shot reasoners",
+   "authors": [
+    "Kojima",
+    "Gu",
+    "Reid",
+    "Matsuo",
+    "Iwasawa"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/068431-1613",
+    "title": "Large Language Models Are Zero-Shot Reasoners",
+    "year": 2022,
+    "first_author": "Kojima",
+    "container": "Advances in Neural Information Processing Systems 35",
+    "type": "proceedings-article",
+    "score": 59.182007
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "Jiawei Liu, Chunqiu Steven Xia, Yuyao Wang, and Lingming Zhang. Code generation with small language models: A deep evaluation on codeforces. arXiv preprint arXiv:2504.07343, 2024.",
+   "title": "Code generation with small language models: A deep evaluation on codeforces",
+   "authors": [
+    "Liu",
+    "Xia",
+    "Wang",
+    "Zhang"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2504.07343",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2504.07343"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/icmla66185.2025.00085",
+      "title": "Code Generation with Small Language Models: A Codeforces-Based Study",
+      "year": 2025,
+      "first_author": "Souza",
+      "container": "2025 International Conference on Machine Learning and Applications (ICMLA)",
+      "type": "proceedings-article",
+      "score": 42.557373
+     },
+     "metrics": {
+      "title_sim": 90.1639344262295,
+      "containment": 0.75,
+      "partial_ratio": 77.61194029850746,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "712562636034b00b8a07fcee5b54d546455cd1d5",
+    "title": "Code Generation with Small Language Models: A Deep Evaluation on Codeforces",
+    "year": 2025,
+    "first_author": "D\u00e9bora Souza",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2504-07343",
+     "DOI": "10.48550/arXiv.2504.07343",
+     "CorpusId": 277667083
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "Iman Mirzadeh, Keivan Alizadeh, Hooman Shahrokhi, Oncel Tuzel, Samy Bengio, and Mehrdad Farajtabar. Gsm-symbolic: Understanding the limitations of mathematical reasoning in large language models, 2025. URL https://arxiv.org/abs/2410.05229.",
+   "title": "Gsm-symbolic: Understanding the limitations of mathematical reasoning in large language models",
+   "authors": [
+    "Mirzadeh",
+    "Alizadeh",
+    "Shahrokhi",
+    "Tuzel",
+    "Bengio",
+    "Farajtabar"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": "2410.05229",
+   "urls": [
+    "https://arxiv.org/abs/2410.05229"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2410.05229"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.36227/techrxiv.174352068.81462574/v1",
+      "title": "Neural-Symbolic Reasoning: Towards the Integration of Logical Reasoning with Large Language Models",
+      "year": 2025,
+      "first_author": "Hou",
+      "container": "",
+      "type": "posted-content",
+      "score": 44.844036
+     },
+     "metrics": {
+      "title_sim": 76.66666666666667,
+      "containment": 0.667,
+      "partial_ratio": 73.1958762886598,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "05506581cade1a8ef6372616cec20b81a3d5c366",
+    "title": "GSM-Symbolic: Understanding the Limitations of Mathematical Reasoning in Large Language Models",
+    "year": 2024,
+    "first_author": "Iman Mirzadeh",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "DBLP": "conf/iclr/MirzadehASTBF25",
+     "ArXiv": "2410.05229",
+     "CorpusId": 273186279
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "OpenAI.   Learning to reason with llms, 2024.    URL https://openai.com/index/ learning-to-reason-with-llms/. Accessed: 2024-09-15.",
+   "title": "Learning to reason with llms",
+   "authors": [],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://openai.com/index/"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED_URL",
+   "via": "url",
+   "url_status": {
+    "https://openai.com/index/": 200
+   },
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/ccwc67433.2026.11393811",
+      "title": "Teaching Small LLMS to Reason Using Reinforcement Learning",
+      "year": 2026,
+      "first_author": "Yadav",
+      "container": "2026 IEEE 16th Annual Computing and Communication Workshop and Conference (CCWC)",
+      "type": "proceedings-article",
+      "score": 23.623672
+     },
+     "metrics": {
+      "title_sim": 90.19607843137254,
+      "containment": 0.5,
+      "partial_ratio": 50.0,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 16,
+   "raw": "Yasaman Razeghi, IV Robert L. Logan, Matt Gardner, and Sameer Singh. Impact of pretraining term frequencies on few-shot reasoning. arXiv preprint arXiv:2202.07206, 2022.",
+   "title": "Impact of pretraining term frequencies on few-shot reasoning",
+   "authors": [
+    "Yasaman Razeghi, IV Robert L. Logan, Matt Gardner, and Sameer Singh."
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": "2202.07206",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2022.findings-emnlp.59",
+    "title": "Impact of Pretraining Term Frequencies on Few-Shot Numerical Reasoning",
+    "year": 2022,
+    "first_author": "Razeghi",
+    "container": "Findings of the Association for Computational Linguistics: EMNLP 2022",
+    "type": "proceedings-article",
+    "score": 96.092735
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.875,
+    "partial_ratio": 85.71428571428572,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2202.07206"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 17,
+   "raw": "Zhihong Shao, Peiyi Wang, Qihao Zhu, Runxin Xu, Junxiao Song, Mingchuan Zhang, Y.K. Li, Y. Wu, and Daya Guo. Deepseekmath: Pushing the limits of mathematical reasoning in open language models. arXiv preprint arXiv:2402.03300, 2024.",
+   "title": "Deepseekmath: Pushing the limits of mathematical reasoning in open language models",
+   "authors": [
+    "Shao",
+    "Wang",
+    "Zhu",
+    "Xu",
+    "Song",
+    "Mingchuan Zhang",
+    "Wu",
+    "Guo"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2402.03300",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2402.03300"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.18653/v1/2024.emnlp-main.938",
+      "title": "Working Memory Identifies Reasoning Limits in Language Models",
+      "year": 2024,
+      "first_author": "Zhang",
+      "container": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+      "type": "proceedings-article",
+      "score": 31.196344
+     },
+     "metrics": {
+      "title_sim": 72.91666666666667,
+      "containment": 0.571,
+      "partial_ratio": 62.295081967213115,
+      "year_ok": true,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2024.emnlp-main.938",
+    "title": "Working Memory Identifies Reasoning Limits in Language Models",
+    "year": 2024,
+    "first_author": "Zhang",
+    "container": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+    "type": "proceedings-article",
+    "score": 31.196344
+   },
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "35b142ea69598e6241f0011312128031df55895c",
+    "title": "DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models",
+    "year": 2024,
+    "first_author": "Zhihong Shao",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2402-03300",
+     "ArXiv": "2402.03300",
+     "DOI": "10.48550/arXiv.2402.03300",
+     "CorpusId": 267412607
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 18,
+   "raw": "Andrew Trask, Felix Hill, Scott E. Reed, Jack Rae, Chris Dyer, and Phil Blunsom. Neural arithmetic logic units. Advances in Neural Information Processing Systems, 31, 2018.",
+   "title": "Neural arithmetic logic units",
+   "authors": [
+    "Trask",
+    "Hill",
+    "Reed",
+    "Rae",
+    "Dyer",
+    "Blunsom"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1016/b978-012691295-1/50009-x",
+      "title": "Arithmetic Devices and Arithmetic Logic Units (ALUs)",
+      "year": 2000,
+      "first_author": "Tinder",
+      "container": "Engineering Digital Design",
+      "type": "book-chapter",
+      "score": 30.262232
+     },
+     "metrics": {
+      "title_sim": 86.27450980392157,
+      "containment": 0.667,
+      "partial_ratio": 64.0,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "5fc548f3f3112de7eddad3744717dc2f9d22ca38",
+    "title": "Neural Arithmetic Logic Units",
+    "year": 2018,
+    "first_author": "Andrew Trask",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "DBLP": "conf/nips/TraskHRRDB18",
+     "ArXiv": "1808.00508",
+     "MAG": "2887020936",
+     "CorpusId": 51907763
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 19,
+   "raw": "Xiaoxuan Wang, Ziniu Hu, Pan Lu, Yanqiao Zhu, Jieyu Zhang, Satyen Subramaniam, Arjun R. Loomba, Shichang Zhang, Yizhou Sun, and Wei Wang. Scibench: Evaluating college-level scientific problem-solving abilities of large language models. In International Conference on Machine Learning, 2024.",
+   "title": "Scibench: Evaluating college-level scientific problem-solving abilities of large language models",
+   "authors": [
+    "Wang",
+    "Hu",
+    "Lu",
+    "Zhu",
+    "Zhang",
+    "Subramaniam",
+    "Loomba",
+    "Zhang",
+    "Sun",
+    "Wang"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Conference on Machine Learning",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.3390/appliedmath6090143",
+      "title": "Bench of Euler: A Benchmark for Evaluating the Problem-Solving Abilities of Large Language Models",
+      "year": 2026,
+      "first_author": "Dutta",
+      "container": "AppliedMath",
+      "type": "journal-article",
+      "score": 42.834442
+     },
+     "metrics": {
+      "title_sim": 79.22077922077922,
+      "containment": 0.7,
+      "partial_ratio": 72.91666666666667,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "4993258852711c4e3d0011325ac3db680eae84f4",
+    "title": "SciBench: Evaluating College-Level Scientific Problem-Solving Abilities of Large Language Models",
+    "year": 2023,
+    "first_author": "Xiao-Xuan Wang",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "ArXiv": "2307.10635",
+     "DBLP": "conf/icml/WangHL0ZSLZS024",
+     "DOI": "10.48550/arXiv.2307.10635",
+     "CorpusId": 259991511
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 20,
+   "raw": "Xuezhi Wang, Jason Wei, Dale Schuurmans, Quoc V. Le, Ed Chi, Sharan Narang, Aakanksha Chowdhery, and Denny Zhou. Self-consistency improves chain of thought reasoning in language models. In International Conference on Learning Representations, 2023.",
+   "title": "Self-consistency improves chain of thought reasoning in language models",
+   "authors": [
+    "Wang",
+    "Wei",
+    "Schuurmans",
+    "Le",
+    "Chi",
+    "Narang",
+    "Chowdhery",
+    "Zhou"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Conference on Learning Representations",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.59350/90sh1-hbs94",
+      "title": "Multimodal Chain-of-Thought Reasoning in Language Models",
+      "year": 2025,
+      "first_author": "Thoram",
+      "container": "",
+      "type": "posted-content",
+      "score": 40.433586
+     },
+     "metrics": {
+      "title_sim": 89.10891089108911,
+      "containment": 0.833,
+      "partial_ratio": 87.5,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "5f19ae1135a9500940978104ec15a5b8751bc7d2",
+    "title": "Self-Consistency Improves Chain of Thought Reasoning in Language Models",
+    "year": 2022,
+    "first_author": "Xuezhi Wang",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "DBLP": "conf/iclr/0002WSLCNCZ23",
+     "ArXiv": "2203.11171",
+     "CorpusId": 247595263
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 21,
+   "raw": "Jason Wei, Xuezhi Wang, Dale Schuurmans, Maarten Bosma, Brian Ichter, Fei Xia, Ed Chi, Quoc V. Le, and Denny Zhou. Chain-of-thought prompting elicits reasoning in large language models. In Advances in Neural Information Processing Systems, volume 35, pages 24824\u201324837, 2022.",
+   "title": "Chain-of-thought prompting elicits reasoning in large language models",
+   "authors": [
+    "Wei",
+    "Wang",
+    "Schuurmans",
+    "Bosma",
+    "Ichter",
+    "Xia",
+    "Chi",
+    "Le",
+    "Zhou"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/068431-1800",
+    "title": "Chain-Of-Thought Prompting Elicits Reasoning in Large Language Models",
+    "year": 2022,
+    "first_author": "Wei",
+    "container": "Advances in Neural Information Processing Systems 35",
+    "type": "proceedings-article",
+    "score": 60.12538
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 22,
+   "raw": "Huaiyuan Ying, Shuo Zhang, Linyang Li, Zhejian Zhou, Yunfan Shao, Zhaoye Fei, Yichuan Ma, Jiawei Hong, Kuikun Liu, Ziyi Wang, Yudong Wang, Zijian Wu, Shuaibin Li, Fengzhe Zhou, Hongwei Liu, Songyang Zhang, Wenwei Zhang, Hang Yan, Xipeng Qiu, Jiayu Wang, Kai Chen, and Dahua Lin. Internlm-math: Open math large language models toward verifiable reasoning. arXiv preprint arXiv:2402.06332, 2024.",
+   "title": "Internlm-math: Open math large language models toward verifiable reasoning",
+   "authors": [
+    "Ying",
+    "Zhang",
+    "Li",
+    "Zhou",
+    "Shao",
+    "Fei",
+    "Ma",
+    "Hong",
+    "Liu",
+    "Wang",
+    "Wang",
+    "Wu",
+    "Li",
+    "Zhou",
+    "Liu",
+    "Zhang",
+    "Zhang",
+    "Yan",
+    "Qiu",
+    "Wang",
+    "Chen",
+    "Lin"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2402.06332",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2402.06332"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.18653/v1/2023.findings-acl.364",
+      "title": "Reasoning in Large Language Models Through Symbolic Math Word Problems",
+      "year": 2023,
+      "first_author": "Gaur",
+      "container": "Findings of the Association for Computational Linguistics: ACL 2023",
+      "type": "proceedings-article",
+      "score": 36.212624
+     },
+     "metrics": {
+      "title_sim": 72.46376811594203,
+      "containment": 0.556,
+      "partial_ratio": 55.714285714285715,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "af1d4a4141eaf52384ca85f1d468443f8f3d5c06",
+    "title": "InternLM-Math: Open Math Large Language Models Toward Verifiable Reasoning",
+    "year": 2024,
+    "first_author": "Huaiyuan Ying",
+    "container": "arXiv.org",
+    "ext": {
+     "ArXiv": "2402.06332",
+     "DBLP": "journals/corr/abs-2402-06332",
+     "DOI": "10.48550/arXiv.2402.06332",
+     "CorpusId": 267617098
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 23,
+   "raw": "Zheng Yuan, Hongyi Yuan, Chuanqi Tan, Wei Wang, and Songfang Huang. How well do large language models perform in arithmetic tasks? arXiv preprint arXiv:2304.02015, 2023.",
+   "title": "How well do large language models perform in arithmetic tasks?",
+   "authors": [
+    "Yuan",
+    "Yuan",
+    "Tan",
+    "Wang",
+    "Huang"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2304.02015",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2304.02015"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1016/j.prosdent.2025.02.008",
+      "title": "Large Language Models in peri-implant disease: How well do they perform?",
+      "year": 2025,
+      "first_author": "Koidou",
+      "container": "The Journal of Prosthetic Dentistry",
+      "type": "journal-article",
+      "score": 36.64423
+     },
+     "metrics": {
+      "title_sim": 83.80952380952381,
+      "containment": 0.6,
+      "partial_ratio": 55.714285714285715,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "99bd07e888476904c6dd77ca154fd48629ac6dce",
+    "title": "How well do Large Language Models perform in Arithmetic tasks?",
+    "year": 2023,
+    "first_author": "Zheng Yuan",
+    "container": "arXiv.org",
+    "ext": {
+     "ArXiv": "2304.02015",
+     "DBLP": "journals/corr/abs-2304-02015",
+     "DOI": "10.48550/arXiv.2304.02015",
+     "CorpusId": 257952500
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 24,
+   "raw": "Xiang Yue, Xingwei Qu, Ge Zhang, Yao Fu, Wenhao Huang, Huan Sun, Yu Su, and Wenhu Chen. Mammoth: Building math generalist models through hybrid instruction tuning. arXiv preprint arXiv:2309.05653, 2023.",
+   "title": "Mammoth: Building math generalist models through hybrid instruction tuning",
+   "authors": [
+    "Yue",
+    "Qu",
+    "Zhang",
+    "Fu",
+    "Huang",
+    "Sun",
+    "Su",
+    "Chen"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2309.05653",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2309.05653"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.14711/thesis-hdl172451",
+      "title": "Building Generalist World Models for Embodied Intelligence",
+      "year": 2026,
+      "first_author": "Gao",
+      "container": "",
+      "type": "dissertation",
+      "score": 29.777985
+     },
+     "metrics": {
+      "title_sim": 61.904761904761905,
+      "containment": 0.5,
+      "partial_ratio": 65.51724137931035,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "a3dd7d33dfaa9e02e43d92e900cba01f52d8c4b9",
+    "title": "MAmmoTH: Building Math Generalist Models through Hybrid Instruction Tuning",
+    "year": 2023,
+    "first_author": "Xiang Yue",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "DBLP": "conf/iclr/YueQZFH00C24",
+     "ArXiv": "2309.05653",
+     "DOI": "10.48550/arXiv.2309.05653",
+     "CorpusId": 261696697
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  }
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
+}

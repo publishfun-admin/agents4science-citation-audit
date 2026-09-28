@@ -98,7 +98,7 @@
    "container": null,
    "type": "book",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -121,7 +121,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "c95d33507d7e97623ebde4697ae52101d2aa5efe",
+    "title": "Gender Trouble: Feminism and the Subversion of Identity",
+    "year": 1990,
+    "first_author": "J. Butler",
+    "container": "",
+    "ext": {
+     "MAG": "2038600245",
+     "DOI": "10.2307/1395391",
+     "CorpusId": 144858458
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -211,7 +233,7 @@
    "container": "Feminist Encounters with Legal Philosophy",
    "type": "chapter",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -234,7 +256,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "793f6efd0b97928c5512f562ce67dd97e43a2d02",
+    "title": "The sex of right reason: Aquinas and the misogynist foundations of natural law",
+    "year": 2013,
+    "first_author": "Margaret Denike",
+    "container": "",
+    "ext": {
+     "MAG": "2951857009",
+     "DOI": "10.4324/9780203797112-8",
+     "CorpusId": 197815368
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -560,7 +604,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -583,7 +627,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "b41e07349b87a178d904e6b5d05a2f90b16f8e1e",
+    "title": "Bias Out-of-the-Box: An Empirical Analysis of Intersectional Occupational Biases in Popular Generative Language Models",
+    "year": 2021,
+    "first_author": "Hannah Rose Kirk",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "ArXiv": "2102.04130",
+     "DBLP": "conf/nips/KirkJVIBDSA21",
+     "CorpusId": 236950797
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -894,7 +960,7 @@
    "container": null,
    "type": "book",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -917,7 +983,28 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "9945b3a1de89eeaff019375f049d21f653a0dce3",
+    "title": "The Body's Deconstruction and Reconstruction: On Judith Butler's Bodies That Matter",
+    "year": 2012,
+    "first_author": "Ting-Ting Sun",
+    "container": "",
+    "ext": {
+     "MAG": "2353948279",
+     "CorpusId": 147757542
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "second_pass_hit": true
   },
   {
    "junk": true,
@@ -995,5 +1082,7 @@
    ],
    "likely_match": null
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

@@ -1,0 +1,231 @@
+{
+ "pdf": "98_Wyt9peeYrm.pdf",
+ "n_entries": 6,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "[1] J. von Neumann, \"Theory of Self-Reproducing Automata,\" University of Illinois Press, 1966.",
+   "title": "Theory of Self-Reproducing Automata",
+   "authors": [
+    "Neumann"
+   ],
+   "year": 1966,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.2307/2005041",
+    "title": "Theory of Self-Reproducing Automata",
+    "year": 1967,
+    "first_author": "Schwartz",
+    "container": "Mathematics of Computation",
+    "type": "journal-article",
+    "score": 38.77751
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2] M. Gardner, \"Mathematical Games - The fantastic combinations of John Conway\u2019s new solitaire game \u2019life\u2019,\" Scientific American, vol. 223, pp. 120-123, 1970.",
+   "title": "Mathematical Games - The fantastic combinations of John Conway\u2019s new solitaire game \u2019life\u2019",
+   "authors": [
+    "Gardner"
+   ],
+   "year": 1970,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Scientific American",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/scientificamerican0570-124",
+    "title": "Mathematical Games",
+    "year": 1970,
+    "first_author": "Gardner",
+    "container": "Scientific American",
+    "type": "journal-article",
+    "score": 34.55638
+   },
+   "metrics": {
+    "title_sim": 34.61538461538461,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3] T. S. Ray, \"An approach to the synthesis of life,\" in Artificial Life II, Addison-Wesley, 1991, pp. 371-408.",
+   "title": "An approach to the synthesis of life",
+   "authors": [
+    "Ray"
+   ],
+   "year": 1991,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Artificial Life II",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1055/s-1991-26436",
+      "title": "A Mild, Efficient Approach to 3-Acylfurans: A Short Synthesis of Perilla Ketone",
+      "year": 1991,
+      "first_author": "Bailey",
+      "container": "Synthesis",
+      "type": "journal-article",
+      "score": 20.157215
+     },
+     "metrics": {
+      "title_sim": 56.63716814159292,
+      "containment": 0.25,
+      "partial_ratio": 53.968253968253975,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4] C. Adami and C. T. Brown, \"Evolutionary learning in the 2D artificial life system \u2019Avida\u2019,\" in Artificial Life IV, MIT Press, 1994, pp. 377-381.",
+   "title": "Evolutionary learning in the 2D artificial life system \u2019Avida\u2019",
+   "authors": [
+    "Adami",
+    "Brown"
+   ],
+   "year": 1994,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Artificial Life IV",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.7551/mitpress/1428.003.0049",
+    "title": "Evolutionary Learning in the 2D Artificial Life System \"Avida\"",
+    "year": 1994,
+    "first_author": "Adami",
+    "container": "Artificial Life IV",
+    "type": "book-chapter",
+    "score": 62.438015
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5] S. A. Kauffman, \"The Origins of Order: Self-Organization and Selection in Evolution,\" Oxford University Press, 1993.",
+   "title": "The Origins of Order: Self-Organization and Selection in Evolution",
+   "authors": [
+    "Kauffman"
+   ],
+   "year": 1993,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1093/oso/9780195079517.001.0001",
+    "title": "The Origins of Order",
+    "year": 1993,
+    "first_author": "Kauffman",
+    "container": "",
+    "type": "edited-book",
+    "score": 63.872665
+   },
+   "metrics": {
+    "title_sim": 47.05882352941176,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[6] C. G. Langton, \"Computation at the edge of chaos: phase transitions and emergent computation,\" Physica D: Nonlinear Phenomena, vol. 42, no. 1-3, pp. 12-37, 1990.",
+   "title": "Computation at the edge of chaos: phase transitions and emergent computation",
+   "authors": [
+    "Langton"
+   ],
+   "year": 1990,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Physica D: Nonlinear Phenomena",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/0167-2789(90)90064-v",
+    "title": "Computation at the edge of chaos: Phase transitions and emergent computation",
+    "year": 1990,
+    "first_author": "Langton",
+    "container": "Physica D: Nonlinear Phenomena",
+    "type": "journal-article",
+    "score": 70.95586
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  }
+ ]
+}

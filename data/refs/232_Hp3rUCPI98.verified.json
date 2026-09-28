@@ -1,0 +1,210 @@
+{
+ "pdf": "232_Hp3rUCPI98.pdf",
+ "n_entries": 5,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "[1] Shende, V. V., Bullock, A. D., & Markov, I. L. (2006). Synthesis of quantum-logic circuits. IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems, 25(6), 1000-1010.",
+   "title": "Synthesis of quantum-logic circuits",
+   "authors": [
+    "Shende",
+    "Bullock",
+    "Markov"
+   ],
+   "year": 2006,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/tcad.2005.855930",
+    "title": "Synthesis of quantum-logic circuits",
+    "year": 2006,
+    "first_author": "Shende",
+    "container": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+    "type": "journal-article",
+    "score": 38.931465
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2] Childs, A. M., Wiebe, D. S., & Wootters, W. K. (2005). Efficient calculation of amplitudes for sparse Hamiltonians. Physical Review Letters, 95(23), 230501.",
+   "title": "Efficient calculation of amplitudes for sparse Hamiltonians",
+   "authors": [
+    "Childs",
+    "Wiebe",
+    "Wootters"
+   ],
+   "year": 2005,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Physical Review Letters",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1063/1.40513",
+      "title": "Efficient calculation of one-loop polarized QCD amplitudes",
+      "year": 1991,
+      "first_author": "Bern",
+      "container": "AIP Conference Proceedings",
+      "type": "proceedings-article",
+      "score": 25.717115
+     },
+     "metrics": {
+      "title_sim": 76.92307692307692,
+      "containment": 0.429,
+      "partial_ratio": 65.51724137931035,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3] Wille, R., Drechsler, R., & Becker, B. (2012). RevLib: A collection of reversible functions. In International Workshop on Reversible Computation (pp. 169-185). Springer.",
+   "title": "RevLib: A collection of reversible functions",
+   "authors": [
+    "Wille",
+    "Drechsler",
+    "Becker"
+   ],
+   "year": 2012,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Workshop on Reversible Computation",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/ismvl.2008.43",
+      "title": "RevLib: An Online Resource for Reversible Functions and Reversible Circuits",
+      "year": 2008,
+      "first_author": "Wille",
+      "container": "38th International Symposium on Multiple Valued Logic (ismvl 2008)",
+      "type": "proceedings-article",
+      "score": 39.724007
+     },
+     "metrics": {
+      "title_sim": 77.14285714285714,
+      "containment": 0.571,
+      "partial_ratio": 63.51351351351351,
+      "year_ok": false,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4] Carleo, G., et al. (2019). Machine learning and the physical sciences. Reviews of Modern Physics, 91(4), 045002.",
+   "title": "Machine learning and the physical sciences",
+   "authors": [
+    "Carleo"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Reviews of Modern Physics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1103/revmodphys.91.045002",
+    "title": "Machine learning and the physical sciences",
+    "year": 2019,
+    "first_author": "Carleo",
+    "container": "Reviews of Modern Physics",
+    "type": "journal-article",
+    "score": 31.366428
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5] Kandala, A., Mezzacapo, A., Temme, K., Takita, M., Brink, M., Chow, J. M., & Gambetta, J. M. (2017). Hardware-efficient variational quantum eigensolver for small molecules and quantum magnets. Nature, 549(7671), 242-246.",
+   "title": "Hardware-efficient variational quantum eigensolver for small molecules and quantum magnets",
+   "authors": [
+    "Kandala",
+    "Mezzacapo",
+    "Temme",
+    "Takita",
+    "Brink",
+    "Chow",
+    "Gambetta"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/nature23879",
+    "title": "Hardware-efficient variational quantum eigensolver for small molecules and quantum magnets",
+    "year": 2017,
+    "first_author": "Kandala",
+    "container": "Nature",
+    "type": "journal-article",
+    "score": 80.13562
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  }
+ ]
+}

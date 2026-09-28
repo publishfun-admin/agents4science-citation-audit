@@ -1,0 +1,258 @@
+{
+ "pdf": "296_w7c1rotw9I.pdf",
+ "n_entries": 6,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": true,
+   "idx": 1,
+   "raw": "References",
+   "title": null,
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/9780470547038.ch3",
+      "title": "Voltage References",
+      "year": 2009,
+      "first_author": null,
+      "container": "Voltage References",
+      "type": "book-chapter",
+      "score": 13.501859
+     },
+     "metrics": {
+      "title_sim": 0,
+      "containment": 0.5,
+      "partial_ratio": 100.0,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[1] Alice Brown, Michael Davis, and Sarah Wilson. Digital credential verification systems: Security and privacy considerations. Journal of Educational Technology, 15(3):123\u2013138, 2020.",
+   "title": "Digital credential verification systems: Security and privacy considerations",
+   "authors": [
+    "Brown",
+    "Davis",
+    "Wilson"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Educational Technology",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1201/9781003403791-11",
+      "title": "Security and Privacy Considerations in Blockchain-based IoT Systems",
+      "year": 2024,
+      "first_author": "Anjali",
+      "container": "Blockchain and Digital Twin Enabled IoT Networks",
+      "type": "book-chapter",
+      "score": 35.04932
+     },
+     "metrics": {
+      "title_sim": 78.18181818181819,
+      "containment": 0.571,
+      "partial_ratio": 70.1492537313433,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[2] Li Chen, Carlos Rodriguez, and Ravi Patel. Human-ai collaboration in high-stakes decision making: Challenges and opportunities. AI & Society, 36(4):1145\u20131162, 2021.",
+   "title": "Human-ai collaboration in high-stakes decision making: Challenges and opportunities",
+   "authors": [
+    "Chen",
+    "Rodriguez",
+    "Patel"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "AI & Society",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.14236/ewic/bcshci2025.52",
+      "title": "Human-AI Collaboration in High-Stakes Decision-Making: Work in Progress",
+      "year": 2025,
+      "first_author": "Zhou",
+      "container": "",
+      "type": "posted-content",
+      "score": 50.117954
+     },
+     "metrics": {
+      "title_sim": 88.33333333333333,
+      "containment": 0.75,
+      "partial_ratio": 82.85714285714285,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[3] Yonatan Geifman and Ran El-Yaniv. Selective classification for deep neural networks. In Advances in Neural Information Processing Systems, pages 4878\u20134887, 2017.",
+   "title": "Selective classification for deep neural networks",
+   "authors": [
+    "Geifman",
+    "El-Yaniv"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/ijcnn.2017.7966078",
+      "title": "Classification of Android apps and malware using deep neural networks",
+      "year": 2017,
+      "first_author": "Nix",
+      "container": "2017 International Joint Conference on Neural Networks (IJCNN)",
+      "type": "proceedings-article",
+      "score": 32.38855
+     },
+     "metrics": {
+      "title_sim": 83.33333333333333,
+      "containment": 0.571,
+      "partial_ratio": 60.86956521739131,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[4] Chuan Guo, Geoff Pleiss, Yu Sun, and Kilian Q. Weinberger. On calibration of modern neural networks. In International Conference on Machine Learning, pages 1321\u20131330. PMLR, 2017.",
+   "title": "On calibration of modern neural networks",
+   "authors": [
+    "Guo",
+    "Pleiss",
+    "Sun",
+    "Weinberger"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Conference on Machine Learning",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/978-3-319-59072-1_37",
+      "title": "Matrix Neural Networks",
+      "year": 2017,
+      "first_author": "Gao",
+      "container": "Lecture Notes in Computer Science",
+      "type": "book-chapter",
+      "score": 25.16385
+     },
+     "metrics": {
+      "title_sim": 81.08108108108108,
+      "containment": 0.667,
+      "partial_ratio": 81.81818181818181,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[5] Shangbang Long, Xin He, and Cong Yao. A comprehensive survey of deep learning for optical character recognition. AI Open, 2:14\u201332, 2021.",
+   "title": "A comprehensive survey of deep learning for optical character recognition",
+   "authors": [
+    "Long",
+    "He",
+    "Yao"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "AI Open",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.4031738",
+      "title": "A Survey on Optical Character Recognition for Handwritten Devanagari Script Using Deep Learning",
+      "year": 2022,
+      "first_author": "Hirugade",
+      "container": "",
+      "type": "posted-content",
+      "score": 36.912003
+     },
+     "metrics": {
+      "title_sim": 86.82170542635659,
+      "containment": 0.667,
+      "partial_ratio": 57.47126436781609,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  }
+ ]
+}

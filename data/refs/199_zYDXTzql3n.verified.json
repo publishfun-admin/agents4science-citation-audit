@@ -1,0 +1,628 @@
+{
+ "pdf": "199_zYDXTzql3n.pdf",
+ "n_entries": 14,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": false,
+ "parser_version": 2,
+ "entries": [
+  {
+   "junk": true,
+   "idx": 1,
+   "raw": "References",
+   "title": null,
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/9780470547038.ch3",
+      "title": "Voltage References",
+      "year": 2009,
+      "first_author": null,
+      "container": "Voltage References",
+      "type": "book-chapter",
+      "score": 13.509074
+     },
+     "metrics": {
+      "title_sim": 0,
+      "containment": 0.5,
+      "partial_ratio": 100.0,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[1] Eysenbach, G. (2020). How to fight an infodemic: the four pillars of infodemic management. Journal of Medical Internet Research, 22(6), e21820.",
+   "title": "How to fight an infodemic: the four pillars of infodemic management",
+   "authors": [
+    "Eysenbach"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Medical Internet Research",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.2196/preprints.21820",
+    "title": "How to Fight an Infodemic: The Four Pillars of Infodemic Management (Preprint)",
+    "year": 2020,
+    "first_author": "Eysenbach",
+    "container": "",
+    "type": "posted-content",
+    "score": 96.53162
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.875,
+    "partial_ratio": 92.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[2] Cinelli, M., Quattrociocchi, W., Galeazzi, A., Valensise, C. M., Brambilla, M., Zola, A., ... & Scala, A. (2020). The COVID-19 social media infodemic. Scientific Reports, 10, 16598.",
+   "title": "The COVID-19 social media infodemic",
+   "authors": [
+    "Cinelli",
+    "Quattrociocchi",
+    "Galeazzi",
+    "Valensise",
+    "Brambilla",
+    "Zola",
+    "Scala"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Scientific Reports",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/s41598-020-73510-5",
+    "title": "The COVID-19 social media infodemic",
+    "year": 2020,
+    "first_author": "Cinelli",
+    "container": "Scientific Reports",
+    "type": "journal-article",
+    "score": 43.44317
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[3] Wardle, C., & Derakhshan, H. (2017). Information disorder: Toward an interdisciplinary framework for research and policy making. Council of Europe report, DGI(2017), 09.",
+   "title": "Information disorder: Toward an interdisciplinary framework for research and policy making",
+   "authors": [
+    "Wardle",
+    "Derakhshan"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Council of Europe report",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.54014/m697-y1rj",
+      "title": "Toward a policy framework for the design of economic information packages",
+      "year": 2025,
+      "first_author": null,
+      "container": "",
+      "type": "dissertation",
+      "score": 27.37759
+     },
+     "metrics": {
+      "title_sim": 69.64285714285714,
+      "containment": 0.5,
+      "partial_ratio": 58.9041095890411,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[4] Ji, Z., Lee, N., Frieske, R., Yu, T., Su, D., Xu, Y., Ishii, E., Bang, Y., Dai, W., & Fung, P. (2023). Survey of hallucination in natural language generation. ACM Computing Surveys, 55(12), 248.",
+   "title": "Survey of hallucination in natural language generation",
+   "authors": [
+    "Ji",
+    "Lee",
+    "Frieske",
+    "Yu",
+    "Su",
+    "Xu",
+    "Ishii",
+    "Bang",
+    "Dai",
+    "Fung"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "ACM Computing Surveys",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3571730",
+    "title": "Survey of Hallucination in Natural Language Generation",
+    "year": 2023,
+    "first_author": "Ji",
+    "container": "ACM Computing Surveys",
+    "type": "journal-article",
+    "score": 37.11774
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[5] Madraki, G., Grasso, I., Otala, J. M., Liu, Y., & Matthews, J. (2021). Characterizing and comparing COVID-19 misinformation across languages, countries and platforms. Companion Proceedings of the Web Conference 2021 (WWW \u201921 Companion), 213\u2013223.",
+   "title": "Characterizing and comparing COVID-19 misinformation across languages, countries and platforms",
+   "authors": [
+    "Madraki",
+    "Grasso",
+    "Otala",
+    "Liu",
+    "Matthews"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Companion Proceedings of the Web Conference 2021 (WWW \u201921 Companion",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3442442.3452304",
+    "title": "Characterizing and Comparing COVID-19 Misinformation Across Languages, Countries and Platforms",
+    "year": 2021,
+    "first_author": "Madraki",
+    "container": "Companion Proceedings of the Web Conference 2021",
+    "type": "proceedings-article",
+    "score": 81.04522
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[6] Zuo, T., He, L., Zheng, Y., Lin, Z., Xu, Z., & Li, N. (2025). Communication analysis of the COVID-19 infodemic by medical practitioners in China: A mixed methods study. Social Science & Medicine, 374, 118051.",
+   "title": "Communication analysis of the COVID-19 infodemic by medical practitioners in China: A mixed methods study",
+   "authors": [
+    "Zuo",
+    "He",
+    "Zheng",
+    "Lin",
+    "Xu",
+    "Li"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Social Science & Medicine",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.socscimed.2025.118051",
+    "title": "Communication analysis of the COVID-19 infodemic by medical practitioners in China: A mixed methods study",
+    "year": 2025,
+    "first_author": "Zuo",
+    "container": "Social Science &amp; Medicine",
+    "type": "journal-article",
+    "score": 64.354675
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[7] Liu, P., Yuan, W., Fu, J., Jiang, Z., Hayashi, H., & Neubig, G. (2023). Pre-train, prompt, and predict: A systematic survey of prompting methods in natural language processing. ACM Computing Surveys, 55(9), 195.",
+   "title": "Pre-train, prompt, and predict: A systematic survey of prompting methods in natural language processing",
+   "authors": [
+    "Liu",
+    "Yuan",
+    "Fu",
+    "Jiang",
+    "Hayashi",
+    "Neubig"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "ACM Computing Surveys",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3560815",
+    "title": "Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing",
+    "year": 2023,
+    "first_author": "Liu",
+    "container": "ACM Computing Surveys",
+    "type": "journal-article",
+    "score": 70.95716
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[8] Zheng, L., Chiang, W. L., Sheng, Y., Zhuang, S., Wu, Z., Zhuang, Y., ... & Stoica, I. (2023). Judging LLM-as-a-judge with MT-bench and chatbot arena. arXiv preprint arXiv:2306.05685.",
+   "title": "Judging LLM-as-a-judge with MT-bench and chatbot arena",
+   "authors": [
+    "Zheng",
+    "Chiang",
+    "Sheng",
+    "Zhuang",
+    "Wu",
+    "Zhuang",
+    "Stoica"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2306.05685",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2306.05685",
+    "title": "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena",
+    "year": 2023,
+    "first_author": "Lianmin Zheng"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[9] Fabbri, A. R., Kryscinski, W., McCann, B., Xiong, C., Socher, R., & Radev, D. (2021). SummEval: Re-evaluating summarization evaluation. Transactions of the Association for Computational Linguistics, 9, 391\u2013409.",
+   "title": "SummEval: Re-evaluating summarization evaluation",
+   "authors": [
+    "Fabbri",
+    "Kryscinski",
+    "McCann",
+    "Xiong",
+    "Socher",
+    "Radev"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Transactions of the Association for Computational Linguistics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1162/tacl_a_00373",
+    "title": "SummEval: Re-evaluating Summarization Evaluation",
+    "year": 2021,
+    "first_author": "Fabbri",
+    "container": "Transactions of the Association for Computational Linguistics",
+    "type": "journal-article",
+    "score": 55.0787
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "[10] Vosoughi, S., Roy, D., & Aral, S. (2018). The spread of true and false news online. Science, 359(6380), 1146\u20131151.",
+   "title": "The spread of true and false news online",
+   "authors": [
+    "Vosoughi",
+    "Roy",
+    "Aral"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Science",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1126/science.aap9559",
+    "title": "The spread of true and false news online",
+    "year": 2018,
+    "first_author": "Vosoughi",
+    "container": "Science",
+    "type": "journal-article",
+    "score": 54.36482
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "[11] Sunstein, C. R. (2018). #Republic: Divided democracy in the age of social media. Princeton University Press.",
+   "title": "#Republic: Divided democracy in the age of social media",
+   "authors": [
+    "Sunstein"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2307/j.ctv8xnhtd.15",
+      "title": "AFTERWORD TO THE PAPERBACK EDITION",
+      "year": 2018,
+      "first_author": "Sunstein",
+      "container": "#Republic",
+      "type": "book-chapter",
+      "score": 59.321842
+     },
+     "metrics": {
+      "title_sim": 45.97701149425287,
+      "containment": 0.0,
+      "partial_ratio": 47.05882352941176,
+      "year_ok": true,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "fa6221e563fbb67355ed51d62eee1b7d431721a7",
+    "title": "#Republic: Divided Democracy in the Age of Social Media",
+    "year": 2017,
+    "first_author": "Alvin Zhou",
+    "container": "",
+    "ext": {
+     "MAG": "2772505590",
+     "DOI": "10.1111/JCOM.12344",
+     "CorpusId": 148995126
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "[12] Singhal, K., Tu, T., Gottweis, J., Sayres, R., Wulczyn, E., Hou, L., ... & Amin, M. (2023). Towards expert-level medical question answering with large language models. arXiv preprint arXiv:2305.09617.",
+   "title": "Towards expert-level medical question answering with large language models",
+   "authors": [
+    "Singhal",
+    "Tu",
+    "Gottweis",
+    "Sayres",
+    "Wulczyn",
+    "Hou",
+    "Amin"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2305.09617",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2305.09617"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1016/j.eswa.2026.132008",
+      "title": "Task-specific models vs. large vision-language models in medical visual question answering: A survey",
+      "year": 2026,
+      "first_author": "Xu",
+      "container": "Expert Systems with Applications",
+      "type": "journal-article",
+      "score": 43.799706
+     },
+     "metrics": {
+      "title_sim": 78.68852459016394,
+      "containment": 0.583,
+      "partial_ratio": 52.04081632653062,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "ea72fb2a0d340f9d14fbcf300cd5f5fbbe1050bb",
+    "title": "Towards Expert-Level Medical Question Answering with Large Language Models",
+    "year": 2023,
+    "first_author": "K. Singhal",
+    "container": "arXiv.org",
+    "ext": {
+     "ArXiv": "2305.09617",
+     "DBLP": "journals/corr/abs-2305-09617",
+     "DOI": "10.48550/arXiv.2305.09617",
+     "CorpusId": 258715226
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "[13] Haupt, M. R., Yang, L., Purnat, T., & Mackey, T. (2024). Evaluating the Influence of Role-Playing Prompts on ChatGPT\u2019s Misinformation Detection Accuracy: Quantitative Study. JMIR Infodemiology, 4(1), e60678. doi:10.2196/60678.",
+   "title": "Evaluating the Influence of Role-Playing Prompts on ChatGPT\u2019s Misinformation Detection Accuracy: Quantitative Study",
+   "authors": [
+    "Haupt",
+    "Yang",
+    "Purnat",
+    "Mackey"
+   ],
+   "year": 2024,
+   "doi": "10.2196/60678",
+   "arxiv": null,
+   "urls": [],
+   "container": "JMIR Infodemiology",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.2196/60678",
+    "title": "Evaluating the Influence of Role-Playing Prompts on ChatGPT\u2019s Misinformation Detection Accuracy: Quantitative Study",
+    "year": 2024,
+    "first_author": "Haupt",
+    "container": "JMIR Infodemiology",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  }
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
+}

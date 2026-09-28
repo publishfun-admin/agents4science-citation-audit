@@ -1,0 +1,370 @@
+{
+ "pdf": "264_u4i2vyJVqe.pdf",
+ "n_entries": 9,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": true,
+   "idx": 1,
+   "raw": "References",
+   "title": null,
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/9780470547038.ch3",
+      "title": "Voltage References",
+      "year": 2009,
+      "first_author": null,
+      "container": "Voltage References",
+      "type": "book-chapter",
+      "score": 13.509074
+     },
+     "metrics": {
+      "title_sim": 0,
+      "containment": 0.5,
+      "partial_ratio": 100.0,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[1] Rebecca Killick, Paul Fearnhead, and Idris A Eckley. Optimal detection of changepoints with a linear computational cost. Journal of the American Statistical Association, 107(500):1590\u20131598, 2012.",
+   "title": "Optimal detection of changepoints with a linear computational cost",
+   "authors": [
+    "Killick",
+    "Fearnhead",
+    "Eckley"
+   ],
+   "year": 2012,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of the American Statistical Association",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1080/01621459.2012.737745",
+    "title": "Optimal Detection of Changepoints With a Linear Computational Cost",
+    "year": 2012,
+    "first_author": "Killick",
+    "container": "Journal of the American Statistical Association",
+    "type": "journal-article",
+    "score": 54.114685
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[2] Colin Lea, Michael D Flynn, Rene Vidal, Austin Reiter, and Gregory D Hager. Temporal convolutional networks for action segmentation and detection. In IEEE Conference on Computer Vision and Pattern Recognition, pages 156\u2013165, 2017.",
+   "title": "Temporal convolutional networks for action segmentation and detection",
+   "authors": [
+    "Lea",
+    "Flynn",
+    "Vidal",
+    "Reiter",
+    "Hager"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE Conference on Computer Vision and Pattern Recognition",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/cvpr.2017.113",
+    "title": "Temporal Convolutional Networks for Action Segmentation and Detection",
+    "year": 2017,
+    "first_author": "Lea",
+    "container": "2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "type": "proceedings-article",
+    "score": 49.693653
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[3] Fei Tony Liu, Kai Ming Ting, and Zhi-Hua Zhou. Isolation forest. In IEEE International Conference on Data Mining, pages 413\u2013422. IEEE, 2008.",
+   "title": "Isolation forest",
+   "authors": [
+    "Liu",
+    "Ting",
+    "Zhou"
+   ],
+   "year": 2008,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE International Conference on Data Mining",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/icdm.2008.17",
+    "title": "Isolation Forest",
+    "year": 2008,
+    "first_author": "Liu",
+    "container": "2008 Eighth IEEE International Conference on Data Mining",
+    "type": "proceedings-article",
+    "score": 25.162697
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[4] Pankaj Malhotra, Lovekesh Vig, Gautam Shroff, and Puneet Agarwal. Long short term memory networks for anomaly detection in time series. In European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning, pages 89\u201394, 2015.",
+   "title": "Long short term memory networks for anomaly detection in time series",
+   "authors": [
+    "Malhotra",
+    "Vig",
+    "Shroff",
+    "Agarwal"
+   ],
+   "year": 2015,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/dsaa.2015.7344872",
+      "title": "Anomaly detection in ECG time signals via deep long short-term memory networks",
+      "year": 2015,
+      "first_author": "Chauhan",
+      "container": "2015 IEEE International Conference on Data Science and Advanced Analytics (DSAA)",
+      "type": "proceedings-article",
+      "score": 49.976074
+     },
+     "metrics": {
+      "title_sim": 91.2,
+      "containment": 0.727,
+      "partial_ratio": 61.53846153846154,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[5] Douglas C Montgomery. Introduction to Statistical Quality Control. John Wiley & Sons, 2009.",
+   "title": "Introduction to Statistical Quality Control",
+   "authors": [
+    "Montgomery"
+   ],
+   "year": 2009,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2307/1270099",
+      "title": "Introduction to Statistical Quality Control",
+      "year": 1988,
+      "first_author": "Quesenberry",
+      "container": "Technometrics",
+      "type": "journal-article",
+      "score": 34.12188
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 1.0,
+      "partial_ratio": 100.0,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[6] Guansong Pang, Chunhua Shen, Longbing Cao, and Anton Van Den Hengel. Deep learning for anomaly detection: A review. ACM Computing Surveys, 54(2):1\u201338, 2021.",
+   "title": "Deep learning for anomaly detection: A review",
+   "authors": [
+    "Pang",
+    "Shen",
+    "Cao",
+    "Den Hengel"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "ACM Computing Surveys",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/tnnls.2025.3647892/mm1",
+    "title": "Deep Learning for Video Anomaly Detection: A Review_supp1-3647892.pdf",
+    "year": 2026,
+    "first_author": "Pang",
+    "container": "",
+    "type": "component",
+    "score": 39.442047
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.556,
+    "partial_ratio": 70.58823529411764,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[7] Glenn Shafer and Vladimir Vovk. A tutorial on conformal prediction. Journal of Machine Learning Research, 9:371\u2013421, 2008.",
+   "title": "A tutorial on conformal prediction",
+   "authors": [
+    "Shafer",
+    "Vovk"
+   ],
+   "year": 2008,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Machine Learning Research",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.31234/osf.io/xzqgt_v1",
+      "title": "A tutorial on distribution-free uncertainty quantification using conformal prediction",
+      "year": 2025,
+      "first_author": "Kaiser",
+      "container": "",
+      "type": "posted-content",
+      "score": 29.086678
+     },
+     "metrics": {
+      "title_sim": 57.14285714285714,
+      "containment": 0.429,
+      "partial_ratio": 52.63157894736843,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[8] Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N Gomez, \u0141ukasz Kaiser, and Illia Polosukhin. Attention is all you need. Advances in Neural Information Processing Systems, 30:5998\u20136008, 2017.",
+   "title": "Attention is all you need",
+   "authors": [
+    "Vaswani",
+    "Shazeer",
+    "Parmar",
+    "Uszkoreit",
+    "Jones",
+    "Gomez",
+    "Kaiser",
+    "Polosukhin"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.65215/r5bs2d54",
+    "title": "Attention Is All You Need",
+    "year": 2025,
+    "first_author": "Vaswani",
+    "container": "",
+    "type": "posted-content",
+    "score": 43.621082
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  }
+ ]
+}

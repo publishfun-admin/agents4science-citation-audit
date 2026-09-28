@@ -1,0 +1,310 @@
+{
+ "pdf": "262_Y3Mn3UkPcz.pdf",
+ "n_entries": 8,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "[1] Jean-Philippe Aumasson, Samuel Neves, Zooko Wilcox-O\u2019Hearn, and Christian Winnerlein. Blake2: simpler, smaller, fast as md5. In International Conference on Applied Cryptography and Network Security, pages 119\u2013135, 2013.",
+   "title": "Blake2: simpler, smaller, fast as md5",
+   "authors": [
+    "Aumasson",
+    "Neves",
+    "Wilcox-O\u2019Hearn",
+    "Winnerlein"
+   ],
+   "year": 2013,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Conference on Applied Cryptography and Network Security",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/978-3-642-38980-1_8",
+    "title": "BLAKE2: Simpler, Smaller, Fast as MD5",
+    "year": 2013,
+    "first_author": "Aumasson",
+    "container": "Lecture Notes in Computer Science",
+    "type": "book-chapter",
+    "score": 61.986496
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2] Guido Bertoni, Joan Daemen, Micha\u00ebl Peeters, and Gilles Van Assche. Keccak. In Annual International Conference on the Theory and Applications of Cryptographic Techniques, pages 313\u2013314, 2013.",
+   "title": "Keccak",
+   "authors": [
+    "Bertoni",
+    "Daemen",
+    "Peeters",
+    "Assche"
+   ],
+   "year": 2013,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Annual International Conference on the Theory and Applications of Cryptographic Techniques",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/978-3-642-38348-9_19",
+    "title": "Keccak",
+    "year": 2013,
+    "first_author": "Bertoni",
+    "container": "Lecture Notes in Computer Science",
+    "type": "book-chapter",
+    "score": 29.347162
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3] Horst Feistel. Cryptography and computer privacy. Scientific American, 228(5):15\u201323, 1973.",
+   "title": "Cryptography and computer privacy",
+   "authors": [
+    "Feistel"
+   ],
+   "year": 1973,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Scientific American",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/scientificamerican0573-15",
+    "title": "Cryptography and Computer Privacy",
+    "year": 1973,
+    "first_author": "Feistel",
+    "container": "Scientific American",
+    "type": "journal-article",
+    "score": 48.14449
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4] National Institute of Standards and Technology. Secure hash standard. FIPS Publication 180-4, 2002.",
+   "title": "National Institute of Standards and Technology. Secure hash standard",
+   "authors": [],
+   "year": 2002,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.6028/nist.fips.205.ipd",
+      "title": "Stateless Hash-Based Digital Signature Standard",
+      "year": 2023,
+      "first_author": null,
+      "container": "",
+      "type": "report",
+      "score": 48.581543
+     },
+     "metrics": {
+      "title_sim": 59.64912280701754,
+      "containment": 0.333,
+      "partial_ratio": 53.191489361702125,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5] National Institute of Standards and Technology. Sha-3 standard: Permutation-based hash and extendable-output functions. FIPS Publication 202, 2015.",
+   "title": "National Institute of Standards and Technology. Sha-3 standard: Permutation-based hash and extendable-output functions",
+   "authors": [],
+   "year": 2015,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "FIPS Publication",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.6028/nist.fips.202",
+    "title": "SHA-3 standard :",
+    "year": 2015,
+    "first_author": null,
+    "container": "",
+    "type": "report",
+    "score": 105.845184
+   },
+   "metrics": {
+    "title_sim": 21.53846153846154,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": null
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[6] Ronald Rivest. The md5 message-digest algorithm. RFC 1321, 1992.",
+   "title": "The md5 message-digest algorithm",
+   "authors": [
+    "Rivest"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "RFC",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.17487/rfc1321",
+    "title": "The MD5 Message-Digest Algorithm",
+    "year": 1992,
+    "first_author": "Rivest",
+    "container": "",
+    "type": "report",
+    "score": 63.924038
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[7] Bruce Schneier. Applied cryptography: protocols, algorithms, and source code in C. John Wiley & Sons, 1996.",
+   "title": "Applied cryptography: protocols, algorithms, and source code in C",
+   "authors": [
+    "Schneier"
+   ],
+   "year": 1996,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1002/9781119183471.ch23",
+      "title": "Special Algorithms for Protocols",
+      "year": 2015,
+      "first_author": "Schneier",
+      "container": "Applied Cryptography, Second Edition",
+      "type": "other",
+      "score": 59.592587
+     },
+     "metrics": {
+      "title_sim": 76.92307692307692,
+      "containment": 0.667,
+      "partial_ratio": 59.375,
+      "year_ok": false,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[8] Xiaoyun Wang, Hongbo Yu, and Yiqun Lisa Yin. Efficient collision search attacks on sha-0. In Annual International Cryptology Conference, pages 1\u201316, 2005.",
+   "title": "Efficient collision search attacks on sha-0",
+   "authors": [
+    "Wang",
+    "Yu",
+    "Yin"
+   ],
+   "year": 2005,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Annual International Cryptology Conference",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/11535218_1",
+    "title": "Efficient Collision Search Attacks on SHA-0",
+    "year": 2005,
+    "first_author": "Wang",
+    "container": "Lecture Notes in Computer Science",
+    "type": "book-chapter",
+    "score": 45.556988
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  }
+ ]
+}

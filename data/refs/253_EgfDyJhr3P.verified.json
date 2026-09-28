@@ -1,0 +1,198 @@
+{
+ "pdf": "253_EgfDyJhr3P.pdf",
+ "n_entries": 5,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": false,
+ "parser_version": 2,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "[1] R. I. Perez Martell, A. Ziesel, H. Jabbari, and U. Stege. Supervised promoter recognition: a benchmark framework. BMC Bioinformatics, 23(1):118, 2022. doi:10.1186/s12859-022-04647-5.",
+   "title": "Supervised promoter recognition: a benchmark framework",
+   "authors": [
+    "Martell",
+    "Ziesel",
+    "Jabbari",
+    "Stege"
+   ],
+   "year": 2022,
+   "doi": "10.1186/s12859-022-04647-5",
+   "arxiv": null,
+   "urls": [],
+   "container": "BMC Bioinformatics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1186/s12859-022-04647-5",
+    "title": "Supervised promoter recognition: a benchmark framework",
+    "year": 2022,
+    "first_author": "Perez Martell",
+    "container": "BMC Bioinformatics",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2] H. Dalla-Torre et al. Nucleotide Transformer: building and evaluating robust foundation models for human genomics. Nature Methods, 22(3):287\u2013297, 2025. doi:10.1038/s41592-024-02523-z.",
+   "title": "Nucleotide Transformer: building and evaluating robust foundation models for human genomics",
+   "authors": [
+    "Dalla-Torre"
+   ],
+   "year": 2025,
+   "doi": "10.1038/s41592-024-02523-z",
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature Methods",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/s41592-024-02523-z",
+    "title": "Nucleotide Transformer: building and evaluating robust foundation models for human genomics",
+    "year": 2025,
+    "first_author": "Dalla-Torre",
+    "container": "Nature Methods",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3] K. Reese. Application of a time-delay neural network to promoter annotation in the human genome. Computers & Chemistry, 26(1):51\u201356, 2001.",
+   "title": "Application of a time-delay neural network to promoter annotation in the human genome",
+   "authors": [
+    "Reese"
+   ],
+   "year": 2001,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Computers & Chemistry",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/s0097-8485(01)00099-7",
+    "title": "Application of a time-delay neural network to promoter annotation in the Drosophila melanogaster genome",
+    "year": 2001,
+    "first_author": "Reese",
+    "container": "Computers &amp; Chemistry",
+    "type": "journal-article",
+    "score": 65.4922
+   },
+   "metrics": {
+    "title_sim": 96.34146341463415,
+    "containment": 0.8,
+    "partial_ratio": 84.84848484848484,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4] A. Dey, et al. A review of promoter recognition approaches: from consensus sequences to machine learning. Briefings in Bioinformatics, 24(2):bbac004, 2023.",
+   "title": "A review of promoter recognition approaches: from consensus sequences to machine learning",
+   "authors": [
+    "Dey"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Briefings in Bioinformatics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/icmeae51770.2020.00016",
+      "title": "Machine learning Algorithms applied to Genetic Promoter Sequences Recognition",
+      "year": 2020,
+      "first_author": "Guzman-Ruiz",
+      "container": "2020 International Conference on Mechatronics, Electronics and Automotive Engineering (ICMEAE)",
+      "type": "proceedings-article",
+      "score": 30.556448
+     },
+     "metrics": {
+      "title_sim": 78.74015748031496,
+      "containment": 0.625,
+      "partial_ratio": 55.28455284552846,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5] J. Zhou and O. Troyanskaya. Predicting effects of noncoding variants with deep learning\u2013based sequence models. Nature Methods, 12(10):931\u2013934, 2015.",
+   "title": "Predicting effects of noncoding variants with deep learning\u2013based sequence models",
+   "authors": [
+    "Zhou",
+    "Troyanskaya"
+   ],
+   "year": 2015,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature Methods",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/nmeth.3547",
+    "title": "Predicting effects of noncoding variants with deep learning\u2013based sequence model",
+    "year": 2015,
+    "first_author": "Zhou",
+    "container": "Nature Methods",
+    "type": "journal-article",
+    "score": 58.06252
+   },
+   "metrics": {
+    "title_sim": 99.37888198757764,
+    "containment": 0.889,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  }
+ ]
+}

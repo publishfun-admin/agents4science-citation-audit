@@ -1,0 +1,1943 @@
+{
+ "pdf": "58_im8tT8Hpfu.pdf",
+ "n_entries": 44,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "References [1] Michael C Ashton and Kibeom Lee. Empirical, theoretical, and practical advantages of the hexaco model of personality structure. Personality and social psychology review, 11(2):150\u2013166, 2007.",
+   "title": "Empirical, theoretical, and practical advantages of the hexaco model of personality structure",
+   "authors": [
+    "References [1] Michael C Ashton and Kibeom Lee."
+   ],
+   "year": 2007,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Personality and social psychology review",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1177/1088868306294907",
+    "title": "Empirical, Theoretical, and Practical Advantages of the HEXACO Model of Personality Structure",
+    "year": 2007,
+    "first_author": "Ashton",
+    "container": "Personality and Social Psychology Review",
+    "type": "journal-article",
+    "score": 73.05518
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2] Yuntao Bai, Saurav Kadavath, Sandipan Kundu, Amanda Askell, Jackson Kernion, Andy Jones, Anna Chen, Anna Goldie, Azalia Mirhoseini, Cameron McKinnon, Carol Chen, Catherine",
+   "title": null,
+   "authors": [
+    "Bai",
+    "Kadavath",
+    "Kundu",
+    "Askell",
+    "Kernion",
+    "Jones",
+    "Chen",
+    "Goldie"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Azalia Mirhoseini",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.18653/v1/2023.findings-acl.847",
+      "title": "Discovering Language Model Behaviors with Model-Written Evaluations",
+      "year": 2023,
+      "first_author": "Perez",
+      "container": "Findings of the Association for Computational Linguistics: ACL 2023",
+      "type": "proceedings-article",
+      "score": 36.18595
+     },
+     "metrics": {
+      "title_sim": 0,
+      "containment": 0.0,
+      "partial_ratio": 42.10526315789473,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "Olsson, Christopher Olah, Danny Hernandez, Dawn Drain, Deep Ganguli, Dustin Li, Eli Tran-Johnson, Ethan Perez, Jamie Kerr, Jared Mueller, Jeffrey Ladish, Joshua Landau, Kamal Ndousse, Kamile Lukosuite, Liane Lovitt, Michael Sellitto, Nelson Elhage, Nicholas Schiefer, Noemi Mercado, Nova DasSarma, Robert Lasenby, Robin Larson, Sam Ringer, Scott Johnston, Shauna Kravec, Sheer El Showk, Stanislav Fort, Tamera Lanham, Timothy Telleen-Lawton, Tom Conerly, Tom Henighan, Tristan Hume, Samuel R. Bowman, Zac Hatfield-Dodds, Ben Mann, Dario Amodei, Nicholas Joseph, Sam McCandlish, Tom Brown, and Jared Kaplan. Constitutional ai: Harmlessness from ai feedback, 2022. URL https://arxiv.org/abs/ 2212.08073.",
+   "title": null,
+   "authors": [
+    "Olsson",
+    "Hernandez",
+    "Drain",
+    "Ganguli",
+    "Li",
+    "Tran-Johnson",
+    "Perez",
+    "Kerr",
+    "Mueller",
+    "Ladish",
+    "Landau",
+    "Ndousse",
+    "Lukosuite",
+    "Lovitt",
+    "Sellitto",
+    "Elhage",
+    "Schiefer",
+    "Mercado",
+    "DasSarma",
+    "Lasenby",
+    "Larson",
+    "Ringer",
+    "Johnston",
+    "Kravec",
+    "Showk",
+    "Fort",
+    "Lanham",
+    "Telleen-Lawton"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://arxiv.org/abs/"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.18653/v1/2023.findings-acl.847",
+      "title": "Discovering Language Model Behaviors with Model-Written Evaluations",
+      "year": 2023,
+      "first_author": "Perez",
+      "container": "Findings of the Association for Computational Linguistics: ACL 2023",
+      "type": "proceedings-article",
+      "score": 127.58841
+     },
+     "metrics": {
+      "title_sim": 0,
+      "containment": 0.0,
+      "partial_ratio": 44.776119402985074,
+      "year_ok": true,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[3] Emily M. Bender, Timnit Gebru, Angelina McMillan-Major, and Shmargaret Shmitchell. On the dangers of stochastic parrots: Can language models be too big? In Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency, FAccT \u201921, page 610\u2013623, New York, NY, USA, 2021. Association for Computing Machinery. ISBN 9781450383097. doi: 10.1145/3442188.3445922. URL https://doi.org/10.1145/3442188.3445922.",
+   "title": "On the dangers of stochastic parrots: Can language models be too big?",
+   "authors": [
+    "Bender",
+    "Gebru",
+    "McMillan-Major",
+    "Shmitchell"
+   ],
+   "year": 2021,
+   "doi": "10.1145/3442188.3445922",
+   "arxiv": null,
+   "urls": [
+    "https://doi.org/10.1145/3442188.3445922"
+   ],
+   "container": "Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency, FAccT \u201921",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3442188.3445922",
+    "title": "On the Dangers of Stochastic Parrots",
+    "year": 2021,
+    "first_author": "Bender",
+    "container": "Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency",
+    "type": "proceedings-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[4] Sabrina A. Blasberg, Katherine H. Rogers, and Delroy L. Paulhus. The bidimensional impression management index (bimi): Measuring agentic and communal forms of impression management. Journal of Personality Assessment, 96(5):523\u2013531, 2014. doi: 10.1080/00223891.2013.862252. URL https://doi.org/10.1080/00223891.2013.862252. PMID: 24328818.",
+   "title": "The bidimensional impression management index (bimi): Measuring agentic and communal forms of impression management",
+   "authors": [
+    "Blasberg",
+    "Rogers",
+    "Paulhus"
+   ],
+   "year": 2014,
+   "doi": "10.1080/00223891.2013.862252",
+   "arxiv": null,
+   "urls": [
+    "https://doi.org/10.1080/00223891.2013.862252"
+   ],
+   "container": "Journal of Personality Assessment",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1080/00223891.2013.862252",
+    "title": "The Bidimensional Impression Management Index (BIMI): Measuring Agentic and Communal Forms of Impression Management",
+    "year": 2014,
+    "first_author": "Blasberg",
+    "container": "Journal of Personality Assessment",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[5] Bojana Bodro\u017ea, Bojana M. Dinic, and Ljubi\u0161a Bojic. Personality testing of large language models: limited temporal stability, but highlighted prosociality. Royal Society Open Science, 11 (10):240180, 2024. doi: 10.1098/rsos.240180. URL https://royalsocietypublishing. org/doi/abs/10.1098/rsos.240180.",
+   "title": "Personality testing of large language models: limited temporal stability, but highlighted prosociality",
+   "authors": [
+    "Bodro\u017ea",
+    "Dinic",
+    "Bojic"
+   ],
+   "year": 2024,
+   "doi": "10.1098/rsos.240180",
+   "arxiv": null,
+   "urls": [
+    "https://royalsocietypublishing"
+   ],
+   "container": "Royal Society Open Science",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1098/rsos.240180",
+    "title": "Personality testing of large language models: limited temporal stability, but highlighted prosociality",
+    "year": 2024,
+    "first_author": "Bodro\u017ea",
+    "container": "Royal Society Open Science",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[6] Tom Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared D Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, Sandhini Agarwal, Ariel Herbert-Voss, Gretchen Krueger, Tom Henighan, Rewon Child, Aditya Ramesh, Daniel Ziegler, Jeffrey Wu, Clemens Winter, Chris Hesse, Mark Chen, Eric Sigler, Mateusz Litwin, Scott Gray, Benjamin Chess, Jack Clark, Christopher Berner, Sam McCandlish, Alec Radford, Ilya Sutskever, and Dario Amodei. Language models are few-shot learners. In H. Larochelle, M. Ranzato, R. Hadsell, M.F. Balcan, and H. Lin, editors, Advances in Neural Information Processing Systems, volume 33, pages 1877\u20131901. Curran Associates, Inc., 2020. URL https://proceedings.neurips.cc/paper_files/paper/2020/file/ 1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf.",
+   "title": "Language models are few-shot learners",
+   "authors": [
+    "Brown",
+    "Mann",
+    "Ryder",
+    "Subbiah",
+    "Kaplan",
+    "Dhariwal",
+    "Neelakantan",
+    "Shyam",
+    "Sastry",
+    "Askell",
+    "Agarwal",
+    "Herbert-Voss",
+    "Krueger",
+    "Henighan",
+    "Child",
+    "Ramesh",
+    "Ziegler",
+    "Wu",
+    "Winter",
+    "Hesse",
+    "Chen",
+    "Sigler",
+    "Litwin",
+    "Gray",
+    "Chess",
+    "Clark",
+    "Berner",
+    "McCandlish",
+    "Radford",
+    "Sutskever",
+    "Amodei"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://proceedings.neurips.cc/paper_files/paper/2020/file/"
+   ],
+   "container": "Advances in Neural Information Processing Systems",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2021.mrl-1.1",
+    "title": "Language Models are Few-shot Multilingual Learners",
+    "year": 2021,
+    "first_author": "Winata",
+    "container": "Proceedings of the 1st Workshop on Multilingual Representation Learning",
+    "type": "proceedings-article",
+    "score": 33.998425
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.833,
+    "partial_ratio": 74.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[7] Paul Christiano.    Thoughts on the impact of rlhf research, Jan 2023. URL              https://www.alignmentforum.org/posts/vwu4kegAEZTBtpT6p/ thoughts-on-the-impact-of-rlhf-research.",
+   "title": "Thoughts on the impact of rlhf research",
+   "authors": [
+    "Christiano"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://www.alignmentforum.org/posts/vwu4kegAEZTBtpT6p/"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED_URL",
+   "via": "url",
+   "url_status": {
+    "https://www.alignmentforum.org/posts/vwu4kegAEZTBtpT6p/": 200
+   },
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.36676/girt.2023-v11i1-03",
+      "title": "The Impact of Assistive Technology on Students with Disabilities",
+      "year": 2023,
+      "first_author": "Manisha",
+      "container": "Global International Research Thoughts",
+      "type": "journal-article",
+      "score": 21.402832
+     },
+     "metrics": {
+      "title_sim": 58.18181818181818,
+      "containment": 0.2,
+      "partial_ratio": 48.4375,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[8] Paul F Christiano, Jan Leike, Tom Brown, Miljan Martic, Shane Legg, and Dario Amodei. Deep reinforcement learning from human preferences. In I. Guyon, U. Von Luxburg, S. Bengio, H. Wallach, R. Fergus, S. Vishwanathan, and R. Garnett, editors, Advances in Neural Information Processing Systems, volume 30. Curran Associates, Inc., 2017. URL https://proceedings.neurips.cc/paper_files/paper/2017/file/ d5e2c0adad503c91f91df240d0cd4e49-Paper.pdf.",
+   "title": "Deep reinforcement learning from human preferences",
+   "authors": [
+    "Christiano",
+    "Leike",
+    "Brown",
+    "Martic",
+    "Legg",
+    "Amodei"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://proceedings.neurips.cc/paper_files/paper/2017/file/"
+   ],
+   "container": "Advances in Neural Information Processing Systems",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1016/j.oceaneng.2024.120036",
+      "title": "Deep reinforcement learning from human preferences for ROV path tracking",
+      "year": 2025,
+      "first_author": "Niu",
+      "container": "Ocean Engineering",
+      "type": "journal-article",
+      "score": 33.217747
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 0.625,
+      "partial_ratio": 77.77777777777779,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    },
+    {
+     "step": "urls_not_live",
+     "url_status": {
+      "https://proceedings.neurips.cc/paper_files/paper/2017/file/": 404
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[9] Jacob Cohen. Statistical power analysis for the behavioral sciences. routledge, 2013.",
+   "title": "Statistical power analysis for the behavioral sciences",
+   "authors": [
+    "Cohen"
+   ],
+   "year": 2013,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.4324/9780203771587",
+    "title": "Statistical Power Analysis for the Behavioral Sciences",
+    "year": 2013,
+    "first_author": "Cohen",
+    "container": "",
+    "type": "book",
+    "score": 46.464474
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "[10] Bojana Dinic, Kimberley Breevaart, Wendy Andrews, and Reinout de Vries. Effects of political orientation and dark triad traits on presidential leadership style preferences. In XXVIII Scientific Conference Empirical Studies in Psychology, 04 2022.",
+   "title": "Effects of political orientation and dark triad traits on presidential leadership style preferences",
+   "authors": [
+    "Dinic",
+    "Breevaart",
+    "Andrews",
+    "Vries"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "XXVIII Scientific Conference Empirical Studies in Psychology",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1037/e578192014-772",
+      "title": "Gender differences in predicting sociosexual orientation from the dark triad of traits",
+      "year": 2014,
+      "first_author": "Coons",
+      "container": "PsycEXTRA Dataset",
+      "type": "dataset",
+      "score": 36.31091
+     },
+     "metrics": {
+      "title_sim": 65.94594594594594,
+      "containment": 0.5,
+      "partial_ratio": 60.46511627906976,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "[11] Alex Duffy.       We gave gpt-4.5 a myers-briggs test. it\u2019s an extrovert., Mar    2025.          URL    https://every.to/context-window/ we-gave-gpt-4-5-a-myers-briggs-test-it-s-an-extrovert.",
+   "title": "We gave gpt-4.5 a myers-briggs test",
+   "authors": [
+    "Duffy"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://every.to/context-window/"
+   ],
+   "container": "it\u2019s an extrovert",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED_URL",
+   "via": "url",
+   "url_status": {
+    "https://every.to/context-window/": 200
+   },
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/springerreference_184645",
+      "title": "Myers-Briggs Inventories",
+      "year": 2012,
+      "first_author": null,
+      "container": "SpringerReference",
+      "type": "reference-entry",
+      "score": 25.224453
+     },
+     "metrics": {
+      "title_sim": 66.66666666666666,
+      "containment": 0.667,
+      "partial_ratio": 70.83333333333333,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "[12] Bradley Efron and Robert J Tibshirani. An introduction to the bootstrap. Chapman and Hall/CRC, 1994.",
+   "title": "An introduction to the bootstrap",
+   "authors": [
+    "Efron",
+    "Tibshirani"
+   ],
+   "year": 1994,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1201/9780429246593",
+    "title": "An Introduction to the Bootstrap",
+    "year": 1994,
+    "first_author": "Efron",
+    "container": "",
+    "type": "book",
+    "score": 41.285095
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "[13] Amelia Glaese, Nat McAleese, Maja Tr\u02dbebacz, John Aslanides, Vlad Firoiu, Timo Ewalds, Maribeth Rauh, Laura Weidinger, Martin Chadwick, Phoebe Thacker, Lucy Campbell-Gillingham, Jonathan Uesato, Po-Sen Huang, Ramona Comanescu, Fan Yang, Abigail See, Sumanth Dathathri, Rory Greig, Charlie Chen, Doug Fritz, Jaume Sanchez Elias, Richard Green, Sona Mokr\u00e1, Nicholas Fernando, Boxi Wu, Rachel Foley, Susannah Young, Iason Gabriel, William Isaac, John Mellor, Demis Hassabis, Koray Kavukcuoglu, Lisa Anne Hendricks, and Geoffrey Irving. Improving alignment of dialogue agents via targeted human judgements, 2022. URL https://arxiv.org/abs/2209.14375.",
+   "title": null,
+   "authors": [
+    "Amelia Glaese, Nat McAleese, Maja Tr \u0328ebacz, John Aslanides, Vlad Firoiu, Timo Ewalds, Maribeth Rauh, Laura Weidinger, Martin Chadwick, Phoebe Thacker, Lucy Campbell-Gillingham, Jonathan Uesato, Po-Sen Huang, Ramona Comanescu, Fan Yang, Abigail See, Sumanth Dathathri, Rory Greig, Charlie Chen, Doug Fritz, Jaume Sanchez Elias, Richard Green, Sona Mokr\u00e1, Nicholas Fernando, Boxi Wu, Rachel Foley"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": "2209.14375",
+   "urls": [
+    "https://arxiv.org/abs/2209.14375"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2209.14375"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1016/j.softx.2021.100658",
+      "title": "Open data from the first and second observing runs of Advanced LIGO and Advanced Virgo",
+      "year": 2021,
+      "first_author": "Rich\u00a0Abbott",
+      "container": "SoftwareX",
+      "type": "journal-article",
+      "score": 11.372872
+     },
+     "metrics": {
+      "title_sim": 0,
+      "containment": 0.0,
+      "partial_ratio": 46.51162790697675,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "[14] Ian Goodfellow, Yoshua Bengio, and Aaron Courville. Deep Learning. MIT Press, 2016. http://www.deeplearningbook.org.",
+   "title": "Deep Learning",
+   "authors": [
+    "Goodfellow",
+    "Bengio",
+    "Courville"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "http://www.deeplearningbook.org"
+   ],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/2976749.2978318",
+    "title": "Deep Learning with Differential Privacy",
+    "year": 2016,
+    "first_author": "Abadi",
+    "container": "Proceedings of the 2016 ACM SIGSAC Conference on Computer and Communications Security",
+    "type": "proceedings-article",
+    "score": 24.87365
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.5,
+    "partial_ratio": 53.84615384615385,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 16,
+   "raw": "[15] Joseph Henrich, Steven J Heine, and Ara Norenzayan. The weirdest people in the world? Behavioral and brain sciences, 33(2-3):61\u201383, 2010.",
+   "title": "The weirdest people in the world?",
+   "authors": [
+    "Henrich",
+    "Heine",
+    "Norenzayan"
+   ],
+   "year": 2010,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Behavioral and brain sciences",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.2139/ssrn.1601785",
+    "title": "The Weirdest People in the World?",
+    "year": 2010,
+    "first_author": "Henrich",
+    "container": "",
+    "type": "posted-content",
+    "score": 48.71347
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 17,
+   "raw": "[16] Thomas F Heston and Justin Gillette. Do large language models have a personality? a psychometric evaluation with implications for clinical medicine and mental health ai. medRxiv, 2025. doi: 10.1101/2025.03.14.25323987. URL https://www.medrxiv.org/content/ early/2025/03/15/2025.03.14.25323987.",
+   "title": "Do large language models have a personality? a psychometric evaluation with implications for clinical medicine and mental health ai",
+   "authors": [
+    "Heston",
+    "Gillette"
+   ],
+   "year": 2025,
+   "doi": "10.1101/2025.03.14.25323987",
+   "arxiv": null,
+   "urls": [
+    "https://www.medrxiv.org/content/"
+   ],
+   "container": "medRxiv",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1101/2025.03.14.25323987",
+    "title": "Do Large Language Models Have a Personality? A Psychometric Evaluation with Implications for Clinical Medicine and Mental Health AI",
+    "year": 2025,
+    "first_author": "Heston",
+    "container": "",
+    "type": "posted-content",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 18,
+   "raw": "[17] Ari Holtzman, Jan Buys, Li Du, Maxwell Forbes, and Yejin Choi. The curious case of neural text degeneration. In International Conference on Learning Representations, 2020. URL https://openreview.net/forum?id=rygGQyrFvH.",
+   "title": "The curious case of neural text degeneration",
+   "authors": [
+    "Holtzman",
+    "Buys",
+    "Du",
+    "Forbes",
+    "Choi"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://openreview.net/forum?id=rygGQyrFvH"
+   ],
+   "container": "International Conference on Learning Representations",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED_URL",
+   "via": "url",
+   "url_status": {
+    "https://openreview.net/forum?id=rygGQyrFvH": 200
+   },
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1609/aaai.v38i2.27863",
+      "title": "Real3D: The Curious Case of Neural Scene Degeneration",
+      "year": 2024,
+      "first_author": "Chen",
+      "container": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "type": "journal-article",
+      "score": 26.591927
+     },
+     "metrics": {
+      "title_sim": 93.97590361445783,
+      "containment": 0.667,
+      "partial_ratio": 80.76923076923077,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 19,
+   "raw": "[18] Oliver P John and Sanjay Srivastava. The Big Five trait taxonomy: History, measurement, and theoretical perspectives., page 102\u2013138. Guilford Press, 1999. URL https://psycnet.apa. org/record/1999-04371-004.",
+   "title": "The Big Five trait taxonomy: History, measurement, and theoretical perspectives",
+   "authors": [
+    "John",
+    "Srivastava"
+   ],
+   "year": 1999,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://psycnet.apa"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.22339/jbh.v7i3.7309",
+      "title": "Two Theoretical Perspectives to Explain Big History",
+      "year": 2025,
+      "first_author": "Contreras-Pulache",
+      "container": "Journal of Big History",
+      "type": "journal-article",
+      "score": 27.710892
+     },
+     "metrics": {
+      "title_sim": 82.75862068965517,
+      "containment": 0.667,
+      "partial_ratio": 66.66666666666667,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    },
+    {
+     "step": "urls_not_live",
+     "url_status": {
+      "https://psycnet.apa": "error"
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 20,
+   "raw": "[19] Daniel N. Jones and Delroy L. Paulhus. Introducing the short dark triad (sd3): A brief measure of dark personality traits. Assessment, 21(1):28\u201341, 2014. doi: 10.1177/1073191113514105. URL https://doi.org/10.1177/1073191113514105. PMID: 24322012.",
+   "title": "Introducing the short dark triad (sd3): A brief measure of dark personality traits",
+   "authors": [
+    "Jones",
+    "Paulhus"
+   ],
+   "year": 2014,
+   "doi": "10.1177/1073191113514105",
+   "arxiv": null,
+   "urls": [
+    "https://doi.org/10.1177/1073191113514105"
+   ],
+   "container": "Assessment",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1177/1073191113514105",
+    "title": "Introducing the Short Dark Triad (SD3)",
+    "year": 2014,
+    "first_author": "Jones",
+    "container": "Assessment",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 62.60869565217391,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 21,
+   "raw": "[20] Joe H. Ward Jr. Hierarchical grouping to optimize an objective function. Journal of the American Statistical Association, 58(301):236\u2013244, 1963. doi: 10.1080/01621459.1963.10500845. URL https://www.tandfonline.com/doi/abs/10.1080/01621459.1963.10500845.",
+   "title": "Hierarchical grouping to optimize an objective function",
+   "authors": [
+    "Ward"
+   ],
+   "year": 1963,
+   "doi": "10.1080/01621459.1963.10500845",
+   "arxiv": null,
+   "urls": [
+    "https://www.tandfonline.com/doi/abs/10.1080/01621459.1963.10500845"
+   ],
+   "container": "Journal of the American Statistical Association",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1080/01621459.1963.10500845",
+    "title": "Hierarchical Grouping to Optimize an Objective Function",
+    "year": 1963,
+    "first_author": "Ward",
+    "container": "Journal of the American Statistical Association",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 22,
+   "raw": "[21] Jared Kaplan, Sam McCandlish, Tom Henighan, Tom B. Brown, Benjamin Chess, Rewon Child, Scott Gray, Alec Radford, Jeffrey Wu, and Dario Amodei. Scaling laws for neural language models, 2020. URL https://arxiv.org/abs/2001.08361.",
+   "title": "Scaling laws for neural language models",
+   "authors": [
+    "Kaplan",
+    "McCandlish",
+    "Henighan",
+    "Brown",
+    "Chess",
+    "Child",
+    "Gray",
+    "Radford",
+    "Wu",
+    "Amodei"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": "2001.08361",
+   "urls": [
+    "https://arxiv.org/abs/2001.08361"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2001.08361",
+    "title": "Scaling Laws for Neural Language Models",
+    "year": 2020,
+    "first_author": "Jared Kaplan"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 23,
+   "raw": "[22] Diederik P. Kingma and Jimmy Ba. Adam: A method for stochastic optimization, 2017. URL https://arxiv.org/abs/1412.6980.",
+   "title": "Adam: A method for stochastic optimization",
+   "authors": [
+    "Kingma",
+    "Ba"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": "1412.6980",
+   "urls": [
+    "https://arxiv.org/abs/1412.6980"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "1412.6980",
+    "title": "Adam: A Method for Stochastic Optimization",
+    "year": 2014,
+    "first_author": "Diederik P. Kingma"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 24,
+   "raw": "[23] Robert Kirk, Ishita Mediratta, Christoforos Nalmpantis, Jelena Luketina, Eric Hambro, Edward Grefenstette, and Roberta Raileanu. Understanding the effects of RLHF on LLM generalisation and diversity. In The Twelfth International Conference on Learning Representations, 2024. URL https://openreview.net/forum?id=PXD3FAVHJT.",
+   "title": "Understanding the effects of RLHF on LLM generalisation and diversity",
+   "authors": [
+    "Kirk",
+    "Mediratta",
+    "Nalmpantis",
+    "Luketina",
+    "Hambro",
+    "Grefenstette",
+    "Raileanu"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://openreview.net/forum?id=PXD3FAVHJT"
+   ],
+   "container": "The Twelfth International Conference on Learning Representations",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED_URL",
+   "via": "url",
+   "url_status": {
+    "https://openreview.net/forum?id=PXD3FAVHJT": 200
+   },
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.21437/interspeech.2024-940",
+      "title": "Out-of-distribution generalisation in spoken language understanding",
+      "year": 2024,
+      "first_author": "Porjazovski",
+      "container": "Interspeech 2024",
+      "type": "proceedings-article",
+      "score": 24.93668
+     },
+     "metrics": {
+      "title_sim": 64.70588235294117,
+      "containment": 0.333,
+      "partial_ratio": 52.23880597014925,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 25,
+   "raw": "[24] Kibeom Lee and Michael C. Ashton. Psychometric properties of the hexaco-100. Assessment, 25(5):543\u2013556, 2018. doi: 10.1177/1073191116659134. URL https://doi.org/10.1177/ 1073191116659134. PMID: 27411678.",
+   "title": "Psychometric properties of the hexaco-100",
+   "authors": [
+    "Lee",
+    "Ashton"
+   ],
+   "year": 2018,
+   "doi": "10.1177/1073191116659134",
+   "arxiv": null,
+   "urls": [
+    "https://doi.org/10.1177/"
+   ],
+   "container": "Assessment",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1177/1073191116659134",
+    "title": "Psychometric Properties of the HEXACO-100",
+    "year": 2018,
+    "first_author": "Lee",
+    "container": "Assessment",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 26,
+   "raw": "[25] Scott M Lundberg and Su-In Lee. A unified approach to interpreting model predictions. In I. Guyon, U. Von Luxburg, S. Bengio, H. Wallach, R. Fergus, S. Vishwanathan, and R. Garnett, editors, Advances in Neural Information Processing Systems, volume 30. Curran Associates, Inc., 2017. URL https://proceedings.neurips.cc/paper_files/paper/2017/file/ 8a20a8621978632d76c43dfd28b67767-Paper.pdf.",
+   "title": "A unified approach to interpreting model predictions",
+   "authors": [
+    "Lundberg",
+    "Lee"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://proceedings.neurips.cc/paper_files/paper/2017/file/"
+   ],
+   "container": "Advances in Neural Information Processing Systems",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.32920/22734407",
+      "title": "Interpreting Uncertainty in Model Predictions for Covid-19 Diagnosis",
+      "year": 2023,
+      "first_author": "Murugamoorthy",
+      "container": "",
+      "type": "posted-content",
+      "score": 26.448353
+     },
+     "metrics": {
+      "title_sim": 73.17073170731707,
+      "containment": 0.5,
+      "partial_ratio": 57.35294117647059,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    },
+    {
+     "step": "urls_not_live",
+     "url_status": {
+      "https://proceedings.neurips.cc/paper_files/paper/2017/file/": 404
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 27,
+   "raw": "[26] Julina Maharjan, Ruoming Jin, Jianfeng Zhu, and Deric Kenne. Psychometric evaluation of large language model embeddings for personality trait prediction. J Med Internet Res, 27: e75347, Jul 2025. ISSN 1438-8871. doi: 10.2196/75347. URL https://www.jmir.org/ 2025/1/e75347.",
+   "title": "Psychometric evaluation of large language model embeddings for personality trait prediction",
+   "authors": [
+    "Maharjan",
+    "Jin",
+    "Zhu",
+    "Kenne"
+   ],
+   "year": 2025,
+   "doi": "10.2196/75347",
+   "arxiv": null,
+   "urls": [
+    "https://www.jmir.org/"
+   ],
+   "container": "J Med Internet Res",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.2196/75347",
+    "title": "Psychometric Evaluation of Large Language Model Embeddings for Personality Trait Prediction",
+    "year": 2025,
+    "first_author": "Maharjan",
+    "container": "Journal of Medical Internet Research",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 28,
+   "raw": "[27] Robert R McCrae and Paul T Costa Jr. Personality trait structure as a human universal. American psychologist, 52(5):509, 1997.",
+   "title": "Personality trait structure as a human universal",
+   "authors": [
+    "McCrae",
+    "Costa"
+   ],
+   "year": 1997,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "American psychologist",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1037/0003-066x.52.5.509",
+    "title": "Personality trait structure as a human universal.",
+    "year": 1997,
+    "first_author": "McCrae",
+    "container": "American Psychologist",
+    "type": "journal-article",
+    "score": 50.628784
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 29,
+   "raw": "[28] Leland McInnes, John Healy, and James Melville. Umap: Uniform manifold approximation and projection for dimension reduction, 2020. URL https://arxiv.org/abs/1802.03426.",
+   "title": "Umap: Uniform manifold approximation and projection for dimension reduction",
+   "authors": [
+    "McInnes",
+    "Healy",
+    "Melville"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": "1802.03426",
+   "urls": [
+    "https://arxiv.org/abs/1802.03426"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.32614/cran.package.uwot",
+    "title": "uwot: The Uniform Manifold Approximation and Projection (UMAP) Method for Dimensionality Reduction",
+    "year": 2019,
+    "first_author": "Melville",
+    "container": "CRAN: Contributed Packages",
+    "type": "dataset",
+    "score": 61.379776
+   },
+   "metrics": {
+    "title_sim": 92.7536231884058,
+    "containment": 0.667,
+    "partial_ratio": 75.78947368421053,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "1802.03426"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 30,
+   "raw": "[29] Long Ouyang, Jeffrey Wu, Xu Jiang, Diogo Almeida, Carroll Wainwright, Pamela Mishkin, Chong Zhang, Sandhini Agarwal, Katarina Slama, Alex Ray, John Schulman, Jacob Hilton, Fraser Kelton, Luke Miller, Maddie Simens, Amanda Askell, Peter Welinder, Paul F Christiano, Jan Leike, and Ryan Lowe. Training language models to follow instructions with human feedback. In S. Koyejo, S. Mohamed, A. Agarwal, D. Belgrave, K. Cho, and A. Oh, editors, Advances in Neural Information Processing Systems, volume 35, pages 27730\u201327744. Curran Associates, Inc., 2022. URL https://proceedings.neurips.cc/paper_files/paper/ 2022/file/b1efde53be364a73914f58805a001731-Paper-Conference.pdf.",
+   "title": "Training language models to follow instructions with human feedback",
+   "authors": [
+    "Ouyang",
+    "Wu",
+    "Jiang",
+    "Almeida",
+    "Wainwright",
+    "Mishkin",
+    "Zhang",
+    "Agarwal",
+    "Slama",
+    "Ray",
+    "Schulman",
+    "Hilton",
+    "Kelton",
+    "Miller",
+    "Simens",
+    "Askell",
+    "Welinder",
+    "Christiano",
+    "Leike",
+    "Lowe"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://proceedings.neurips.cc/paper_files/paper/"
+   ],
+   "container": "Advances in Neural Information Processing Systems",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/068431-2011",
+    "title": "Training Language Models to Follow Instructions with Human Feedback",
+    "year": 2022,
+    "first_author": "Ouyang",
+    "container": "Advances in Neural Information Processing Systems 35",
+    "type": "proceedings-article",
+    "score": 41.00149
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 31,
+   "raw": "[30] Joon Sung Park, Joseph O\u2019Brien, Carrie Jun Cai, Meredith Ringel Morris, Percy Liang, and Michael S. Bernstein. Generative agents: Interactive simulacra of human behavior. In Proceedings of the 36th Annual ACM Symposium on User Interface Software and Technology, UIST \u201923, New York, NY, USA, 2023. Association for Computing Machinery. ISBN 9798400701320. doi: 10.1145/3586183.3606763. URL https://doi.org/10.1145/3586183.3606763.",
+   "title": "Generative agents: Interactive simulacra of human behavior",
+   "authors": [
+    "Park",
+    "O\u2019Brien",
+    "Cai",
+    "Morris",
+    "Liang",
+    "Bernstein"
+   ],
+   "year": 2023,
+   "doi": "10.1145/3586183.3606763",
+   "arxiv": null,
+   "urls": [
+    "https://doi.org/10.1145/3586183.3606763"
+   ],
+   "container": "Proceedings of the 36th Annual ACM Symposium on User Interface Software and Technology, UIST \u201923",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3586183.3606763",
+    "title": "Generative Agents: Interactive Simulacra of Human Behavior",
+    "year": 2023,
+    "first_author": "Park",
+    "container": "Proceedings of the 36th Annual ACM Symposium on User Interface Software and Technology",
+    "type": "proceedings-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 32,
+   "raw": "[31] Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena, Yanqi Zhou, Wei Li, and Peter J. Liu. Exploring the limits of transfer learning with a unified text-to-text transformer. Journal of Machine Learning Research, 21(140):1\u201367, 2020. URL http://jmlr.org/papers/v21/20-074.html.",
+   "title": "Exploring the limits of transfer learning with a unified text-to-text transformer",
+   "authors": [
+    "Raffel",
+    "Shazeer",
+    "Roberts",
+    "Lee",
+    "Narang",
+    "Matena",
+    "Zhou",
+    "Li",
+    "Liu"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "http://jmlr.org/papers/v21/20-074.html"
+   ],
+   "container": "Journal of Machine Learning Research",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED_URL",
+   "via": "url",
+   "url_status": {
+    "http://jmlr.org/papers/v21/20-074.html": 200
+   },
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.21437/interspeech.2024-949",
+      "title": "Homograph Disambiguation with Text-to-Text Transfer Transformer",
+      "year": 2024,
+      "first_author": "\u0158ez\u00e1\u010dkov\u00e1",
+      "container": "Interspeech 2024",
+      "type": "proceedings-article",
+      "score": 35.59448
+     },
+     "metrics": {
+      "title_sim": 72.52747252747253,
+      "containment": 0.667,
+      "partial_ratio": 58.730158730158735,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 33,
+   "raw": "[32] Nils Reimers and Iryna Gurevych. Sentence-BERT: Sentence embeddings using Siamese BERT-networks. In Kentaro Inui, Jing Jiang, Vincent Ng, and Xiaojun Wan, editors, Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP), pages 3982\u20133992, Hong Kong, China, November 2019. Association for Computational Linguistics. doi: 10.18653/v1/D19-1410. URL https://aclanthology.org/D19-1410/.",
+   "title": "Sentence-BERT: Sentence embeddings using Siamese BERT-networks",
+   "authors": [
+    "Reimers",
+    "Gurevych"
+   ],
+   "year": 2019,
+   "doi": "10.18653/v1/D19-1410",
+   "arxiv": null,
+   "urls": [
+    "https://aclanthology.org/D19-1410/"
+   ],
+   "container": "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/d19-1410",
+    "title": "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks",
+    "year": 2019,
+    "first_author": "Reimers",
+    "container": "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)",
+    "type": "proceedings-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 34,
+   "raw": "[33] Alene K Rhea, Kelsey Markey, Lauren D\u2019Arinzo, Hilke Schellmann, Mona Sloane, Paul Squires, Falaah Arif Khan, and Julia Stoyanovich. An external stability audit framework to test the validity of personality prediction in ai hiring. Data Mining and Knowledge Discovery, 36(6): 2153\u20132193, 2022.",
+   "title": "An external stability audit framework to test the validity of personality prediction in ai hiring",
+   "authors": [
+    "Rhea",
+    "Markey",
+    "D\u2019Arinzo",
+    "Schellmann",
+    "Sloane",
+    "Squires",
+    "Khan",
+    "Stoyanovich"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Data Mining and Knowledge Discovery",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/s10618-022-00861-0",
+    "title": "An external stability audit framework to test the validity of personality prediction in AI hiring",
+    "year": 2022,
+    "first_author": "Rhea",
+    "container": "Data Mining and Knowledge Discovery",
+    "type": "journal-article",
+    "score": 66.17356
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 35,
+   "raw": "[34] Michael F Scheier and Charles S Carver. The self-consciousness scale: A revised version for use with general populations 1. Journal of Applied Social Psychology, 15(8):687\u2013699, 1985.",
+   "title": "The self-consciousness scale: A revised version for use with general populations 1",
+   "authors": [
+    "Scheier",
+    "Carver"
+   ],
+   "year": 1985,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Applied Social Psychology",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1111/j.1559-1816.1985.tb02268.x",
+    "title": "The Self\u2010Consciousness Scale: A Revised Version for Use with General Populations<sup>1</sup>",
+    "year": 1985,
+    "first_author": "Scheier",
+    "container": "Journal of Applied Social Psychology",
+    "type": "journal-article",
+    "score": 62.653194
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.8,
+    "partial_ratio": 93.25842696629213,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 36,
+   "raw": "[35] Greg Serapio-Garc\u00eda, Mustafa Safdari, Cl\u00e9ment Crepy, Luning Sun, Stephen Fitz, Peter Romero, Marwa Abdulhai, Aleksandra Faust, and Maja Mataric. Personality traits in large language models, 2025. URL https://arxiv.org/abs/2307.00184.",
+   "title": "Personality traits in large language models",
+   "authors": [
+    "Serapio-Garc\u00eda",
+    "Safdari",
+    "Crepy",
+    "Sun",
+    "Fitz",
+    "Romero",
+    "Abdulhai",
+    "Faust",
+    "Mataric"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": "2307.00184",
+   "urls": [
+    "https://arxiv.org/abs/2307.00184"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.21203/rs.3.rs-3296728/v1",
+    "title": "Personality Traits in Large Language Models",
+    "year": 2023,
+    "first_author": "Serapio-Garc\u00eda",
+    "container": "",
+    "type": "posted-content",
+    "score": 53.573326
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2307.00184"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 37,
+   "raw": "[36] Patrick E Shrout and Joseph L Fleiss. Intraclass correlations: uses in assessing rater reliability. Psychological bulletin, 86(2):420, 1979.",
+   "title": "Intraclass correlations: uses in assessing rater reliability",
+   "authors": [
+    "Shrout",
+    "Fleiss"
+   ],
+   "year": 1979,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Psychological bulletin",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1037/0033-2909.86.2.420",
+    "title": "Intraclass correlations: Uses in assessing rater reliability.",
+    "year": 1979,
+    "first_author": "Shrout",
+    "container": "Psychological Bulletin",
+    "type": "journal-article",
+    "score": 74.416245
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 38,
+   "raw": "[37] Psico smart Editorial Team.  The impact of ai on the validity and reliability of psychometric assessments, Jun 2025.    URL https://blogs.psico-smart.com/ blog-the-impact-of-ai-on-the-validity-and-reliability-of-psychometric-assessments-178715.",
+   "title": "The impact of ai on the validity and reliability of psychometric assessments",
+   "authors": [
+    "Editorial Team"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://blogs.psico-smart.com/"
+   ],
+   "container": "Jun",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED_URL",
+   "via": "url",
+   "url_status": {
+    "https://blogs.psico-smart.com/": 200
+   },
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.7717/peerj.16834/table-3",
+      "title": "Table 3: Reliability and validity psychometric analyses of the teledentistry survey.",
+      "year": 2024,
+      "first_author": null,
+      "container": "",
+      "type": "component",
+      "score": 30.124672
+     },
+     "metrics": {
+      "title_sim": 77.87610619469027,
+      "containment": 0.429,
+      "partial_ratio": 56.55172413793104,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 39,
+   "raw": "[38] Nathalie A Smuha. Regulation 2024/1689 of the eur. parl. & council of june 13, 2024 (eu artificial intelligence act). International Legal Materials, pages 1\u2013148, 2025.",
+   "title": "Regulation 2024/1689 of the eur. parl. & council of june 13, 2024 (eu artificial intelligence act",
+   "authors": [
+    "Smuha"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Legal Materials",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1017/ilm.2024.46",
+    "title": "Regulation 2024/1689 of the Eur. Parl. &amp; Council of June 13, 2024 (EU Artificial Intelligence Act)",
+    "year": 2025,
+    "first_author": "Smuha",
+    "container": "International Legal Materials",
+    "type": "journal-article",
+    "score": 96.93685
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.917,
+    "partial_ratio": 95.78947368421052,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 40,
+   "raw": "[39] Christopher J Soto and Oliver P John. The next big five inventory (bfi-2): Developing and assessing a hierarchical model with 15 facets to enhance bandwidth, fidelity, and predictive power. Journal of personality and social psychology, 113(1):117, 2017.",
+   "title": "The next big five inventory (bfi-2): Developing and assessing a hierarchical model with 15 facets to enhance bandwidth, fidelity, and predictive power",
+   "authors": [
+    "Soto",
+    "John"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of personality and social psychology",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1037/pspp0000155",
+    "title": "\u201cThe next Big Five Inventory (BFI-2): Developing and assessing a hierarchical model with 15 facets to enhance bandwidth, fidelity, and predictive power\u201d: Correction to Soto and John (2016).",
+    "year": 2017,
+    "first_author": null,
+    "container": "Journal of Personality and Social Psychology",
+    "type": "journal-article",
+    "score": 100.96607
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.895,
+    "partial_ratio": 90.4494382022472,
+    "year_ok": true,
+    "first_author_ok": null
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 41,
+   "raw": "[40] Tom S\u00fchr, Florian E. Dorner, Samira Samadi, and Augustin Kelava. Challenging the validity of personality tests for large language models, 2024. URL https://arxiv.org/abs/2311. 05297.",
+   "title": "Challenging the validity of personality tests for large language models",
+   "authors": [
+    "S\u00fchr",
+    "Dorner",
+    "Samadi",
+    "Kelava"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://arxiv.org/abs/2311"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3757887.3763016",
+    "title": "Challenging the Validity of Personality Tests for Large Language Models",
+    "year": 2025,
+    "first_author": "S\u00fchr",
+    "container": "Proceedings of the 5th ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization",
+    "type": "proceedings-article",
+    "score": 55.77278
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 42,
+   "raw": "[41] Ga\u00ebl Varoquaux. Cross-validation failure: Small sample sizes lead to large error bars. NeuroImage, 180:68\u201377, 2018. ISSN 1053-8119. doi: https://doi.org/10.1016/j.neuroimage.2017.06.061. URL https://www.sciencedirect.com/science/article/pii/S1053811917305311. New advances in encoding and decoding of brain signals.",
+   "title": "Cross-validation failure: Small sample sizes lead to large error bars",
+   "authors": [
+    "Varoquaux"
+   ],
+   "year": 2018,
+   "doi": "10.1016/j.neuroimage.2017.06.061",
+   "arxiv": null,
+   "urls": [
+    "https://doi.org/10.1016/j.neuroimage.2017.06.061",
+    "https://www.sciencedirect.com/science/article/pii/S1053811917305311"
+   ],
+   "container": "NeuroImage",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.neuroimage.2017.06.061",
+    "title": "Cross-validation failure: Small sample sizes lead to large error bars",
+    "year": 2018,
+    "first_author": "Varoquaux",
+    "container": "NeuroImage",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 43,
+   "raw": "[42] Jason Wei, Yi Tay, Rishi Bommasani, Colin Raffel, Barret Zoph, Sebastian Borgeaud, Dani Yogatama, Maarten Bosma, Denny Zhou, Donald Metzler, Ed H. Chi, Tatsunori Hashimoto, Oriol Vinyals, Percy Liang, Jeff Dean, and William Fedus. Emergent abilities of large language models, 2022. URL https://arxiv.org/abs/2206.07682. [43] Frank Wilcoxon. Individual Comparisons by Ranking Methods, pages 196\u2013202. Springer New York, New York, NY, 1992. ISBN 978-1-4612-4380-9. doi: 10.1007/978-1-4612-4380-9_16. URL https://doi.org/10.1007/978-1-4612-4380-9_16.",
+   "title": "Emergent abilities of large language models",
+   "authors": [
+    "Wei",
+    "Tay",
+    "Bommasani",
+    "Raffel",
+    "Zoph",
+    "Borgeaud",
+    "Yogatama",
+    "Bosma",
+    "Zhou",
+    "Metzler",
+    "Chi",
+    "Hashimoto",
+    "Vinyals",
+    "Liang",
+    "Dean",
+    "Fedus"
+   ],
+   "year": 2022,
+   "doi": "10.1007/978-1-4612-4380-9_16",
+   "arxiv": "2206.07682",
+   "urls": [
+    "https://arxiv.org/abs/2206.07682",
+    "https://doi.org/10.1007/978-1-4612-4380-9_16"
+   ],
+   "container": "43] Frank Wilcoxon. Individual Comparisons by Ranking Methods",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/978-1-4612-4380-9_16",
+    "title": "Individual Comparisons by Ranking Methods",
+    "year": 1992,
+    "first_author": "Wilcoxon",
+    "container": "Springer Series in Statistics",
+    "type": "book-chapter",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 38.095238095238095,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": false,
+    "rule": "id+raw_containment"
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 44,
+   "raw": "[44] Jiewen Xiao, Yaar Vituri, and Erez Berg. Probing the order parameter symmetry of twodimensional superconductors by twisted josephson interferometry. Physical Review B, 108 (9), September 2023. ISSN 2469-9969. doi: 10.1103/physrevb.108.094520. URL http: //dx.doi.org/10.1103/PhysRevB.108.094520.",
+   "title": "Probing the order parameter symmetry of twodimensional superconductors by twisted josephson interferometry",
+   "authors": [
+    "Xiao",
+    "Vituri",
+    "Berg"
+   ],
+   "year": 2023,
+   "doi": "10.1103/physrevb.108.094520",
+   "arxiv": null,
+   "urls": [
+    "http:"
+   ],
+   "container": "Physical Review B",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1103/physrevb.108.094520",
+    "title": "Probing the order parameter symmetry of two-dimensional superconductors by twisted Josephson interferometry",
+    "year": 2023,
+    "first_author": "Xiao",
+    "container": "Physical Review B",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 99.53051643192488,
+    "containment": 0.8,
+    "partial_ratio": 99.06542056074767,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  }
+ ]
+}

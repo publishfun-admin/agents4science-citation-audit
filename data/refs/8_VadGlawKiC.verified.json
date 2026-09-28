@@ -1,0 +1,584 @@
+{
+ "pdf": "8_VadGlawKiC.pdf",
+ "n_entries": 15,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": true,
+   "idx": 1,
+   "raw": "This comprehensive study provides the \ufb01rst systematic comparison of multiple algorithmic approaches to the Snake game. Our key \ufb01ndings include: 1. Reinforcement learning methods achieve highest performance but with high variance 2. Minimax algorithms provide superior consistency and strategic depth 3. Heuristic methods offer practical solutions with real-time constraints 4. Hybrid approaches show promise for combining advantages of different paradigms",
+   "title": "This comprehensive study provides the first systematic comparison of multiple algorithmic approaches to the Snake game. Our key findings include: 1. Reinforcement learning methods achieve highest performance but with high variance 2. Minimax algorithms provide superior consistency and strategic depth 3. Heuristic methods offer practical solutions with real-time constraints 4",
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.48033/jss.10.3.11",
+      "title": "A Study on High-flex Education Methods Through Comparison of Flipped Learning Between Face-To-Face Learning and Real-Time Zoom Classes: A Case Study of a Chosun University",
+      "year": 2025,
+      "first_author": null,
+      "container": "The K Association of Education Research",
+      "type": "journal-article",
+      "score": 38.11681
+     },
+     "metrics": {
+      "title_sim": 39.48339483394834,
+      "containment": 0.429,
+      "partial_ratio": 48.82352941176471,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": true,
+   "idx": 2,
+   "raw": "We thank the anonymous reviewers for their valuable feedback and suggestions. This work was supported by the AI Agents for Science Research Initiative.",
+   "title": "We thank the anonymous reviewers for their valuable feedback and suggestions. This work was supported by the AI Agents for Science Research Initiative",
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.5771/0042-059x-2021-3-397",
+      "title": "Robo Advisory Customer Groups: Who Requires Advice?The authors wish to thank Anselm H\u00fcwe, Andreas Pfingsten (the editor), and an anonymous reviewer for their comments, suggestions, and valuable feedback.",
+      "year": 2021,
+      "first_author": "Blaschke",
+      "container": "Die Unternehmung",
+      "type": "journal-article",
+      "score": 37.957527
+     },
+     "metrics": {
+      "title_sim": 40.69767441860465,
+      "containment": 0.273,
+      "partial_ratio": 53.57142857142857,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[1] Silver, D., et al. (2016). Mastering the game of Go with deep neural networks and tree search. Nature, 529(7587):484\u2013489.",
+   "title": "Mastering the game of Go with deep neural networks and tree search",
+   "authors": [
+    "Silver"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.3410/f.726105619.793525345",
+    "title": "Faculty Opinions recommendation of Mastering the game of Go with deep neural networks and tree search.",
+    "year": 2016,
+    "first_author": "Chittka",
+    "container": "Faculty Opinions \u2013 Post-Publication Peer Review of the Biomedical Literature",
+    "type": "dataset",
+    "score": 57.062057
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.7,
+    "partial_ratio": 77.24867724867725,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[2] Levine, S., et al. (2016). End-to-end training of deep visuomotor policies. Journal of Machine Learning Research, 17(1):1334\u20131373.",
+   "title": "End-to-end training of deep visuomotor policies",
+   "authors": [
+    "Levine"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Machine Learning Research",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/iros55552.2023.10342194",
+      "title": "End-to-End Learning of Deep Visuomotor Policy for Needle Picking",
+      "year": 2023,
+      "first_author": "Lin",
+      "container": "2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+      "type": "proceedings-article",
+      "score": 31.48494
+     },
+     "metrics": {
+      "title_sim": 75.67567567567568,
+      "containment": 0.625,
+      "partial_ratio": 76.5625,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[3] Campbell, M., Hoane Jr, A. J., and Hsu, F. (2002). Deep blue. Arti\ufb01cial Intelligence, 134(1-2):57\u201383.",
+   "title": "Deep blue",
+   "authors": [
+    "Campbell, M., Hoane Jr, A. J., and Hsu, F."
+   ],
+   "year": 2002,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Artificial Intelligence",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/s0004-3702(01)00129-1",
+    "title": "Deep Blue",
+    "year": 2002,
+    "first_author": "Campbell",
+    "container": "Artificial Intelligence",
+    "type": "journal-article",
+    "score": 51.708427
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[4] Knuth, D. E. and Moore, R. W. (1975). An analysis of alpha-beta pruning. Arti\ufb01cial Intelligence, 6(4):293\u2013326.",
+   "title": "An analysis of alpha-beta pruning",
+   "authors": [
+    "Knuth",
+    "Moore"
+   ],
+   "year": 1975,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Artificial Intelligence",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/0004-3702(75)90019-3",
+    "title": "An analysis of alpha-beta pruning",
+    "year": 1975,
+    "first_author": "Knuth",
+    "container": "Artificial Intelligence",
+    "type": "journal-article",
+    "score": 50.47949
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[5] Mnih, V., et al. (2015). Human-level control through deep reinforcement learning. Nature, 518(7540):529\u2013533.",
+   "title": "Human-level control through deep reinforcement learning",
+   "authors": [
+    "Mnih"
+   ],
+   "year": 2015,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.3410/f.725368782.793506817",
+    "title": "Faculty Opinions recommendation of Human-level control through deep reinforcement learning.",
+    "year": 2015,
+    "first_author": "Goodhill",
+    "container": "Faculty Opinions \u2013 Post-Publication Peer Review of the Biomedical Literature",
+    "type": "dataset",
+    "score": 43.23367
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.7,
+    "partial_ratio": 76.36363636363637,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[6] Van Hasselt, H., Guez, A., and Silver, D. (2016). Deep reinforcement learning with double q-learning. Proceedings of the AAAI Conference on Arti\ufb01cial Intelligence, 30(1).",
+   "title": "Deep reinforcement learning with double q-learning",
+   "authors": [
+    "Hasselt",
+    "Guez",
+    "Silver"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the AAAI Conference on Artificial Intelligence",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1609/aaai.v30i1.10295",
+    "title": "Deep Reinforcement Learning with Double Q-Learning",
+    "year": 2016,
+    "first_author": "Van Hasselt",
+    "container": "Proceedings of the AAAI Conference on Artificial Intelligence",
+    "type": "journal-article",
+    "score": 46.29747
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[7] Wang, Z., et al. (2016). Dueling network architectures for deep reinforcement learning. International Conference on Machine Learning, pages 1995\u20132003.",
+   "title": "Dueling network architectures for deep reinforcement learning",
+   "authors": [
+    "Wang"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Conference on Machine Learning",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/ictai50040.2020.00107",
+      "title": "A State Representation Dueling Network for Deep Reinforcement Learning",
+      "year": 2020,
+      "first_author": "Qiu",
+      "container": "2020 IEEE 32nd International Conference on Tools with Artificial Intelligence (ICTAI)",
+      "type": "proceedings-article",
+      "score": 36.003044
+     },
+     "metrics": {
+      "title_sim": 87.03703703703704,
+      "containment": 0.714,
+      "partial_ratio": 72.85714285714286,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[8] Mnih, V., et al. (2016). Asynchronous methods for deep reinforcement learning. International Conference on Machine Learning, pages 1928\u20131937.",
+   "title": "Asynchronous methods for deep reinforcement learning",
+   "authors": [
+    "Mnih"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Conference on Machine Learning",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.12681/eadd/54399",
+      "title": "Deep reinforcement learning methods",
+      "year": 2024,
+      "first_author": "\u039b\u03b1\u03b6\u03b1\u03c1\u03af\u03b4\u03b7\u03c2",
+      "container": "",
+      "type": "dissertation",
+      "score": 31.77148
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 1.0,
+      "partial_ratio": 82.85714285714285,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "[9] Schulman, J., et al. (2017).    Proximal policy optimization algorithms.       arXiv preprint arXiv:1707.06347.",
+   "title": "Proximal policy optimization algorithms",
+   "authors": [
+    "Schulman"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": "1707.06347",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "1707.06347",
+    "title": "Proximal Policy Optimization Algorithms",
+    "year": 2017,
+    "first_author": "John Schulman"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "[10] Smith, J. A. and Johnson, B. C. (2018). Q-learning approaches to snake game AI. Journal of Game AI, 12(3):45\u201358.",
+   "title": "Q-learning approaches to snake game AI",
+   "authors": [
+    "Smith",
+    "Johnson"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Game AI",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.4018/979-8-3373-7472-7.ch002",
+      "title": "Case Studies of AI and Game-Based Approaches to Literacy Learning",
+      "year": 2026,
+      "first_author": "George",
+      "container": "Advances in Computational Intelligence and Robotics",
+      "type": "book-chapter",
+      "score": 25.339483
+     },
+     "metrics": {
+      "title_sim": 88.23529411764706,
+      "containment": 0.429,
+      "partial_ratio": 49.23076923076923,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "[11] Jones, M. P., et al. (2019). Neural network strategies for snake game automation. Conference on Game Intelligence, pages 123\u2013135.",
+   "title": "Neural network strategies for snake game automation",
+   "authors": [
+    "Jones"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Conference on Game Intelligence",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.65136/jati.v6i1.158",
+      "title": "Snake Game: A genetic neural network approach",
+      "year": 2022,
+      "first_author": "Hor",
+      "container": "Journal of Applied Technology and Innovation",
+      "type": "journal-article",
+      "score": 24.884327
+     },
+     "metrics": {
+      "title_sim": 72.46376811594203,
+      "containment": 0.667,
+      "partial_ratio": 59.77011494252873,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "[12] Brown, R. T. and Davis, K. L. (2020). Heuristic methods for snake game path planning. International Journal of Gaming AI, 8(2):78\u201392.",
+   "title": "Heuristic methods for snake game path planning",
+   "authors": [
+    "Brown",
+    "Davis"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Journal of Gaming AI",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.32614/cran.package.snake",
+      "title": "Snake: Game of Snake",
+      "year": 2020,
+      "first_author": "Croonenbroeck",
+      "container": "CRAN: Contributed Packages",
+      "type": "dataset",
+      "score": 28.941963
+     },
+     "metrics": {
+      "title_sim": 86.95652173913044,
+      "containment": 1.0,
+      "partial_ratio": 68.42105263157895,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "[13] Wilson, S. A., et al. (2021). Standardized evaluation frameworks for game-playing algorithms. AI Games Research, 15(4):234\u2013251.",
+   "title": "Standardized evaluation frameworks for game-playing algorithms",
+   "authors": [
+    "Wilson"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "AI Games Research",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1017/9781009351218.007",
+      "title": "Playing the Evaluation Game",
+      "year": 2023,
+      "first_author": null,
+      "container": "The Evaluation Game",
+      "type": "book-chapter",
+      "score": 27.77715
+     },
+     "metrics": {
+      "title_sim": 92.0,
+      "containment": 1.0,
+      "partial_ratio": 66.66666666666667,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  }
+ ]
+}

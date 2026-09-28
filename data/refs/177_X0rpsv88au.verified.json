@@ -1,0 +1,657 @@
+{
+ "pdf": "177_X0rpsv88au.pdf",
+ "n_entries": 15,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 2,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "[1] Tom B. Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared Kaplan, Prafulla Dhariwal, Arvind Neelakantan, et al. Language models are few-shot learners. In Advances in Neural Information Processing Systems (NeurIPS), 2020.",
+   "title": "Language models are few-shot learners",
+   "authors": [
+    "Brown",
+    "Mann",
+    "Ryder",
+    "Subbiah",
+    "Kaplan",
+    "Dhariwal",
+    "Neelakantan"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems (NeurIPS",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2021.mrl-1.1",
+    "title": "Language Models are Few-shot Multilingual Learners",
+    "year": 2021,
+    "first_author": "Winata",
+    "container": "Proceedings of the 1st Workshop on Multilingual Representation Learning",
+    "type": "proceedings-article",
+    "score": 33.996895
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.833,
+    "partial_ratio": 74.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2] Gregory J. Chaitin. On the length of programs for computing finite binary sequences. Journal of the ACM, 13(4):547\u2013569, 1966.",
+   "title": "On the length of programs for computing finite binary sequences",
+   "authors": [
+    "Chaitin"
+   ],
+   "year": 1966,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of the ACM",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/321356.321363",
+    "title": "On the Length of Programs for Computing Finite Binary Sequences",
+    "year": 1966,
+    "first_author": "Chaitin",
+    "container": "Journal of the ACM",
+    "type": "journal-article",
+    "score": 62.906506
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3] Jordan Hoffmann, Sebastian Borgeaud, Arthur Mensch, Elena Buchatskaya, Trevor Cai, Eliza Rutherford, Diego de Las Casas, Lisa Anne Hendricks, Johannes Welbl, Aidan Clark, Tom Hennigan, Jacob Menick, et al. Training compute-optimal large language models. arXiv preprint arXiv:2203.15556, 2022.",
+   "title": "Training compute-optimal large language models",
+   "authors": [
+    "Hoffmann",
+    "Borgeaud",
+    "Mensch",
+    "Buchatskaya",
+    "Cai",
+    "Rutherford",
+    "Las Casas",
+    "Hendricks",
+    "Welbl",
+    "Clark",
+    "Hennigan",
+    "Menick"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": "2203.15556",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2203.15556",
+    "title": "Training Compute-Optimal Large Language Models",
+    "year": 2022,
+    "first_author": "Jordan Hoffmann"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4] Jeff Johnson, Matthijs Douze, and Herv\u00e9 J\u00e9gou. Billion-scale similarity search with FAISS. In IEEE Transactions on Big Data, 2017.",
+   "title": "Billion-scale similarity search with FAISS",
+   "authors": [
+    "Johnson",
+    "Douze",
+    "J\u00e9gou"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE Transactions on Big Data",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/tbdata.2019.2921572",
+    "title": "Billion-Scale Similarity Search with GPUs",
+    "year": 2021,
+    "first_author": "Johnson",
+    "container": "IEEE Transactions on Big Data",
+    "type": "journal-article",
+    "score": 36.645657
+   },
+   "metrics": {
+    "title_sim": 93.50649350649351,
+    "containment": 0.8,
+    "partial_ratio": 92.6829268292683,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5] Jared Kaplan, Sam McCandlish, Tom Henighan, Tom B. Brown, Benjamin Chess, Rewon Child, Scott Gray, Alec Radford, Jeffrey Wu, and Dario Amodei. Scaling laws for neural language models. arXiv preprint arXiv:2001.08361, 2020.",
+   "title": "Scaling laws for neural language models",
+   "authors": [
+    "Kaplan",
+    "McCandlish",
+    "Henighan",
+    "Brown",
+    "Chess",
+    "Child",
+    "Gray",
+    "Radford",
+    "Wu",
+    "Amodei"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": "2001.08361",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2001.08361",
+    "title": "Scaling Laws for Neural Language Models",
+    "year": 2020,
+    "first_author": "Jared Kaplan"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[6] Brian Lester, Rami Al-Rfou, and Noah Constant. The power of scale: Parameter-efficient adaptation for pretrained language models. In Conference on Empirical Methods in Natural Language Processing (EMNLP), 2021.",
+   "title": "The power of scale: Parameter-efficient adaptation for pretrained language models",
+   "authors": [
+    "Lester",
+    "Al-Rfou",
+    "Constant"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Conference on Empirical Methods in Natural Language Processing (EMNLP",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2021.emnlp-main.243",
+    "title": "The Power of Scale for Parameter-Efficient Prompt Tuning",
+    "year": 2021,
+    "first_author": "Lester",
+    "container": "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing",
+    "type": "proceedings-article",
+    "score": 41.40662
+   },
+   "metrics": {
+    "title_sim": 85.71428571428571,
+    "containment": 0.667,
+    "partial_ratio": 78.57142857142857,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[7] Patrick Lewis, Ethan Perez, Aleksandra Piktus, Fabio Petroni, Vladimir Karpukhin, Naman Goyal, Heinrich K\u00fcttler, et al. Retrieval-augmented generation for knowledge-intensive nlp tasks. In Advances in Neural Information Processing Systems (NeurIPS), 2020.",
+   "title": "Retrieval-augmented generation for knowledge-intensive nlp tasks",
+   "authors": [
+    "Lewis",
+    "Perez",
+    "Piktus",
+    "Petroni",
+    "Karpukhin",
+    "Goyal",
+    "K\u00fcttler"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems (NeurIPS",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1002/9781394374717.ch03",
+      "title": "Retrieval\u2010Augmented Generation",
+      "year": 2026,
+      "first_author": null,
+      "container": "Advanced Retrieval\u2010Augmented Generation",
+      "type": "other",
+      "score": 37.19467
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 1.0,
+      "partial_ratio": 100.0,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "659bf9ce7175e1ec266ff54359e2bd76e0b7ff31",
+    "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+    "year": 2020,
+    "first_author": "Patrick Lewis",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "DBLP": "conf/nips/LewisPPPKGKLYR020",
+     "MAG": "3027879771",
+     "ArXiv": "2005.11401",
+     "CorpusId": 218869575
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[8] Xiang Lisa Li and Percy Liang. Prefix-tuning: Optimizing continuous prompts for generation. In Annual Meeting of the Association for Computational Linguistics (ACL), 2021.",
+   "title": "Prefix-tuning: Optimizing continuous prompts for generation",
+   "authors": [
+    "Li",
+    "Liang"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Annual Meeting of the Association for Computational Linguistics (ACL",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2021.acl-long.353",
+    "title": "Prefix-Tuning: Optimizing Continuous Prompts for Generation",
+    "year": 2021,
+    "first_author": "Li",
+    "container": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+    "type": "proceedings-article",
+    "score": 49.51491
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[9] Stephanie Lin, Jacob Hilton, and Owain Evans. Truthfulqa: Measuring how models mimic human falsehoods. In Annual Meeting of the Association for Computational Linguistics (ACL), 2022.",
+   "title": "Truthfulqa: Measuring how models mimic human falsehoods",
+   "authors": [
+    "Lin",
+    "Hilton",
+    "Evans"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Annual Meeting of the Association for Computational Linguistics (ACL",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2022.acl-long.229",
+    "title": "TruthfulQA: Measuring How Models Mimic Human Falsehoods",
+    "year": 2022,
+    "first_author": "Lin",
+    "container": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "type": "proceedings-article",
+    "score": 65.833046
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[10] Long Ouyang, Jeff Wu, Xu Jiang, Diogo Almeida, Carroll L. Wainwright, Pamela Mishkin, Chong Zhang, Sandhini Agarwal, Katarina Slama, Alex Ray, et al. Training language models to follow instructions with human feedback. In Advances in Neural Information Processing Systems (NeurIPS), 2022.",
+   "title": "Training language models to follow instructions with human feedback",
+   "authors": [
+    "Ouyang",
+    "Wu",
+    "Jiang",
+    "Almeida",
+    "Wainwright",
+    "Mishkin",
+    "Zhang",
+    "Agarwal",
+    "Slama",
+    "Ray"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems (NeurIPS",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/068431-2011",
+    "title": "Training Language Models to Follow Instructions with Human Feedback",
+    "year": 2022,
+    "first_author": "Ouyang",
+    "container": "Advances in Neural Information Processing Systems 35",
+    "type": "proceedings-article",
+    "score": 41.000435
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "[11] Jorma Rissanen. Modeling by shortest data description. Automatica, 14(5):465\u2013471, 1978.",
+   "title": "Modeling by shortest data description",
+   "authors": [
+    "Rissanen"
+   ],
+   "year": 1978,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Automatica",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/0005-1098(78)90005-5",
+    "title": "Modeling by shortest data description",
+    "year": 1978,
+    "first_author": "Rissanen",
+    "container": "Automatica",
+    "type": "journal-article",
+    "score": 54.34714
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "[12] Glenn Shafer and Vladimir Vovk. A Tutorial on Conformal Prediction. Journal of Machine Learning Research, 2008.",
+   "title": "A Tutorial on Conformal Prediction",
+   "authors": [
+    "Shafer",
+    "Vovk"
+   ],
+   "year": 2008,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Machine Learning Research",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.31234/osf.io/xzqgt_v1",
+      "title": "A tutorial on distribution-free uncertainty quantification using conformal prediction",
+      "year": 2025,
+      "first_author": "Kaiser",
+      "container": "",
+      "type": "posted-content",
+      "score": 29.087416
+     },
+     "metrics": {
+      "title_sim": 57.14285714285714,
+      "containment": 0.429,
+      "partial_ratio": 52.2875816993464,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "fec18520144b8707a5e4cbbad00e5b63caabfbf3",
+    "title": "A tutorial on conformal prediction",
+    "year": 2007,
+    "first_author": "G. Shafer",
+    "container": "Journal of machine learning research",
+    "ext": {
+     "MAG": "2952259152",
+     "DBLP": "journals/corr/abs-0706-3188",
+     "ArXiv": "0706.3188",
+     "DOI": "10.5555/1390681.1390693",
+     "CorpusId": 795794
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "[13] Claude E. Shannon. A mathematical theory of communication. Bell System Technical Journal, 27(3):379\u2013423, 1948.",
+   "title": "A mathematical theory of communication",
+   "authors": [
+    "Shannon"
+   ],
+   "year": 1948,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Bell System Technical Journal",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1002/j.1538-7305.1948.tb01338.x",
+    "title": "A Mathematical Theory of Communication",
+    "year": 1948,
+    "first_author": "Shannon",
+    "container": "Bell System Technical Journal",
+    "type": "journal-article",
+    "score": 37.98263
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "[14] Ray Solomonoff. A formal theory of inductive inference. part i. Information and Control, 7(1):1\u201322, 1964.",
+   "title": "A formal theory of inductive inference. part i",
+   "authors": [
+    "Solomonoff"
+   ],
+   "year": 1964,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Information and Control",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/s0019-9958(64)90131-7",
+    "title": "A formal theory of inductive inference. Part II",
+    "year": 1964,
+    "first_author": "Solomonoff",
+    "container": "Information and Control",
+    "type": "journal-article",
+    "score": 62.01506
+   },
+   "metrics": {
+    "title_sim": 98.9010989010989,
+    "containment": 1.0,
+    "partial_ratio": 97.82608695652173,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "[15] Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, and Illia Polosukhin. Attention is all you need. In Advances in Neural Information Processing Systems (NeurIPS), 2017.",
+   "title": "Attention is all you need",
+   "authors": [
+    "Vaswani",
+    "Shazeer",
+    "Parmar",
+    "Uszkoreit",
+    "Jones",
+    "Gomez",
+    "Kaiser",
+    "Polosukhin"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems (NeurIPS",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.65215/r5bs2d54",
+    "title": "Attention Is All You Need",
+    "year": 2025,
+    "first_author": "Vaswani",
+    "container": "",
+    "type": "posted-content",
+    "score": 43.621178
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  }
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
+}

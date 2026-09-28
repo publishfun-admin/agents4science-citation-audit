@@ -1,0 +1,825 @@
+{
+ "pdf": "321_zTiOPZnpWv.pdf",
+ "n_entries": 21,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "[1] Luck, K. et al. A reference map of the human binary protein interactome. Nature 580, 402\u2013408 (2020).",
+   "title": "A reference map of the human binary protein interactome",
+   "authors": [
+    "Luck"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2144/000112979",
+      "title": "<i>C. Elegans</i>\n            Interactome; Human Binary Interactome; Rat Genome",
+      "year": 2008,
+      "first_author": "Nybo",
+      "container": "BioTechniques",
+      "type": "journal-article",
+      "score": 27.25204
+     },
+     "metrics": {
+      "title_sim": 67.6056338028169,
+      "containment": 0.571,
+      "partial_ratio": 60.65573770491803,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2] Huttlin, E. et al. Dual proteome-scale networks reveal cell-specific remodeling of the human interactome. Cell 184, 3022\u20133040 (2021).",
+   "title": "Dual proteome-scale networks reveal cell-specific remodeling of the human interactome",
+   "authors": [
+    "Huttlin"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Cell",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1101/2020.01.19.905109",
+    "title": "Dual Proteome-scale Networks Reveal Cell-specific Remodeling of the Human Interactome",
+    "year": 2020,
+    "first_author": "Huttlin",
+    "container": "",
+    "type": "posted-content",
+    "score": 52.030552
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3] Bray, M.-A. et al. Cell painting, a high-content image-based assay for morphological profiling. Nat. Protoc. 11, 1757\u20131774 (2016).",
+   "title": "Cell painting, a high-content image-based assay for morphological profiling",
+   "authors": [
+    "Bray"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nat. Protoc",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/nprot.2016.105",
+    "title": "Cell Painting, a high-content image-based assay for morphological profiling using multiplexed fluorescent dyes",
+    "year": 2016,
+    "first_author": "Bray",
+    "container": "Nature Protocols",
+    "type": "journal-article",
+    "score": 52.589478
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.75,
+    "partial_ratio": 76.55502392344498,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4] Caicedo, J. et al. Data-analysis strategies for image-based cell profiling. Nat. Methods 14, 849\u2013863 (2017).",
+   "title": "Data-analysis strategies for image-based cell profiling",
+   "authors": [
+    "Caicedo"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nat. Methods",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/nmeth.4397",
+    "title": "Data-analysis strategies for image-based cell profiling",
+    "year": 2017,
+    "first_author": "Caicedo",
+    "container": "Nature Methods",
+    "type": "journal-article",
+    "score": 31.139088
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5] Chandrasekaran, S. et al. Three million images and morphological profiles of cells. Nat. Methods 21, 50\u201359 (2024).",
+   "title": "Three million images and morphological profiles of cells",
+   "authors": [
+    "Chandrasekaran"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nat. Methods",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1101/2022.01.05.475090",
+      "title": "Three million images and morphological profiles of cells treated with matched chemical and genetic perturbations",
+      "year": 2022,
+      "first_author": "Chandrasekaran",
+      "container": "",
+      "type": "posted-content",
+      "score": 33.53249
+     },
+     "metrics": {
+      "title_sim": 66.66666666666667,
+      "containment": 0.545,
+      "partial_ratio": 72.09302325581395,
+      "year_ok": false,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[6] Szklarczyk, D. et al. The string database in 2023: protein\u2013protein association networks and functional enrichment analyses for any sequenced genome of interest. Nucleic Acids Res. 51, D638\u2013D652 (2023).",
+   "title": "The string database in 2023: protein\u2013protein association networks and functional enrichment analyses for any sequenced genome of interest",
+   "authors": [
+    "Szklarczyk"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nucleic Acids Res",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1093/nar/gkac1000",
+    "title": "The STRING database in 2023: protein\u2013protein association networks and functional enrichment analyses for any sequenced genome of interest",
+    "year": 2023,
+    "first_author": "Szklarczyk",
+    "container": "Nucleic Acids Research",
+    "type": "journal-article",
+    "score": 84.62007
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[7] Qin, Y. et al. A multi-scale map of cell structure fusing protein images and interactions. Nature 600, 536\u2013542 (2021).",
+   "title": "A multi-scale map of cell structure fusing protein images and interactions",
+   "authors": [
+    "Qin"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/s41586-021-04115-9",
+    "title": "A multi-scale map of cell structure fusing protein images and interactions",
+    "year": 2021,
+    "first_author": "Qin",
+    "container": "Nature",
+    "type": "journal-article",
+    "score": 37.8835
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[8] Cho, N. et al. Opencell: proteome-scale endogenous tagging enables the cartography of human cellular organization. Nat. Methods 19, 845\u2013856 (2022).",
+   "title": "Opencell: proteome-scale endogenous tagging enables the cartography of human cellular organization",
+   "authors": [
+    "Cho"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nat. Methods",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.3410/f.739835831.793584659",
+    "title": "Faculty Opinions recommendation of OpenCell: proteome-scale endogenous tagging enables the cartography of human cellular organization.",
+    "year": 2021,
+    "first_author": "Molinari",
+    "container": "Faculty Opinions \u2013 Post-Publication Peer Review of the Biomedical Literature",
+    "type": "dataset",
+    "score": 81.43263
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.769,
+    "partial_ratio": 86.41975308641976,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[9] Chen, S. et al. Maxfuse enables data integration across weakly linked single-cell modalities. Nat. Biotechnol. 42, 1843\u20131853 (2024).",
+   "title": "Maxfuse enables data integration across weakly linked single-cell modalities",
+   "authors": [
+    "Chen"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nat. Biotechnol",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/s41587-023-01943-0",
+    "title": "MaxFuse enables data integration across weakly linked spatial and single-cell modalities",
+    "year": 2024,
+    "first_author": null,
+    "container": "Nature Biotechnology",
+    "type": "journal-article",
+    "score": 82.622
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.909,
+    "partial_ratio": 86.36363636363636,
+    "year_ok": true,
+    "first_author_ok": null
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[10] Nguyen, C. et al. Molecule\u2013morphology contrastive pretraining (mocop) for drug discovery. bioRxiv doi:10.1101/2023.05.07.539639 (2023).",
+   "title": "Molecule\u2013morphology contrastive pretraining (mocop) for drug discovery",
+   "authors": [
+    "Nguyen"
+   ],
+   "year": 2023,
+   "doi": "10.1101/2023.05.07.539639",
+   "arxiv": null,
+   "urls": [],
+   "container": "bioRxiv",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "doi_not_resolvable",
+     "doi": "10.1101/2023.05.07.539639"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1101/2023.05.01.538999",
+      "title": "Molecule-Morphology Contrastive Pretraining for Transferable Molecular Representation",
+      "year": 2023,
+      "first_author": "Nguyen",
+      "container": "",
+      "type": "posted-content",
+      "score": 52.028896
+     },
+     "metrics": {
+      "title_sim": 81.73913043478261,
+      "containment": 0.571,
+      "partial_ratio": 67.05882352941177,
+      "year_ok": true,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": {
+    "source": "crossref",
+    "doi": "10.1101/2023.05.01.538999",
+    "title": "Molecule-Morphology Contrastive Pretraining for Transferable Molecular Representation",
+    "year": 2023,
+    "first_author": "Nguyen",
+    "container": "",
+    "type": "posted-content",
+    "score": 52.028896
+   }
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "[11] Dosovitskiy, A. et al. An image is worth 16x16 words: Transformers for image recognition at scale. In ICLR (2021).",
+   "title": "An image is worth 16x16 words: Transformers for image recognition at scale",
+   "authors": [
+    "Dosovitskiy"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "ICLR",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.5180447",
+      "title": "An Image Equals 16x16 Words: Scaling Image Recogni:on with Transformers",
+      "year": 2025,
+      "first_author": "Beyer",
+      "container": "",
+      "type": "posted-content",
+      "score": 55.2095
+     },
+     "metrics": {
+      "title_sim": 82.44274809160305,
+      "containment": 0.625,
+      "partial_ratio": 64.28571428571428,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "[12] Grover, A. et al. node2vec: Scalable feature learning for networks. In KDD (2016).",
+   "title": "Scalable feature learning for networks",
+   "authors": [
+    "Grover"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.17077/etd.2uumrg0a",
+      "title": "Latent feature networks for statistical relational learning",
+      "year": 2018,
+      "first_author": "Khoshneshin",
+      "container": "",
+      "type": "dissertation",
+      "score": 22.342588
+     },
+     "metrics": {
+      "title_sim": 86.56716417910448,
+      "containment": 0.5,
+      "partial_ratio": 47.16981132075472,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "[13] Hamilton, et al. Inductive representation learning on large graphs. In NeurIPS (2017).",
+   "title": "Inductive representation learning on large graphs",
+   "authors": [],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "NeurIPS",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.21203/rs.3.rs-3972512/v1",
+      "title": "Unsupervised Inductive node representation learning for dynamic graphs",
+      "year": 2024,
+      "first_author": "Zhou",
+      "container": "",
+      "type": "posted-content",
+      "score": 34.13983
+     },
+     "metrics": {
+      "title_sim": 89.88764044943821,
+      "containment": 0.571,
+      "partial_ratio": 68.61313868613139,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "[14] Chen, T. et al. A simple framework for contrastive learning of visual representations. In ICML (2020).",
+   "title": "A simple framework for contrastive learning of visual representations",
+   "authors": [
+    "Chen"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "ICML",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1167/jov.24.10.771",
+      "title": "A biologically inspired framework for contrastive learning of visual representations: BioCLR",
+      "year": 2024,
+      "first_author": "Han",
+      "container": "Journal of Vision",
+      "type": "journal-article",
+      "score": 32.75607
+     },
+     "metrics": {
+      "title_sim": 94.65648854961832,
+      "containment": 0.625,
+      "partial_ratio": 81.81818181818181,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "[15] He, K. et al. Momentum contrast for unsupervised visual representation learning. In CVPR (2020).",
+   "title": "Momentum contrast for unsupervised visual representation learning",
+   "authors": [
+    "He"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "CVPR",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/cvpr42600.2020.00975",
+    "title": "Momentum Contrast for Unsupervised Visual Representation Learning",
+    "year": 2020,
+    "first_author": "He",
+    "container": "2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "type": "proceedings-article",
+    "score": 50.80887
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 16,
+   "raw": "[16] Sun, F.-Y. et al. Infograph: Unsupervised and semi-supervised graph-level representation learning via mutual information maximization. In ICLR (2019).",
+   "title": "Infograph: Unsupervised and semi-supervised graph-level representation learning via mutual information maximization",
+   "authors": [
+    "Sun"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "ICLR",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1016/j.neucom.2023.126392",
+      "title": "Learning graph representation by aggregating subgraphs via mutual information maximization",
+      "year": 2023,
+      "first_author": "Liu",
+      "container": "Neurocomputing",
+      "type": "journal-article",
+      "score": 48.00238
+     },
+     "metrics": {
+      "title_sim": 83.87096774193549,
+      "containment": 0.75,
+      "partial_ratio": 73.33333333333334,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 17,
+   "raw": "[17] Radford, A. et al. Learning transferable visual models from natural language supervision. In ICML (2021).",
+   "title": "Learning transferable visual models from natural language supervision",
+   "authors": [
+    "Radford"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "ICML",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.24963/ijcai.2024/235",
+      "title": "Contrastive Learning Drug Response Models from Natural Language Supervision",
+      "year": 2024,
+      "first_author": "Li",
+      "container": "Proceedings of the Thirty-ThirdInternational Joint Conference on Artificial Intelligence",
+      "type": "proceedings-article",
+      "score": 31.591772
+     },
+     "metrics": {
+      "title_sim": 83.05084745762711,
+      "containment": 0.625,
+      "partial_ratio": 76.0,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 18,
+   "raw": "[18] Chandrasekaran, S. N. et al. Jump cell painting dataset: morphological impact of thousands of chemical and genetic perturbations. bioRxiv (2023).",
+   "title": "Jump cell painting dataset: morphological impact of thousands of chemical and genetic perturbations. bioRxiv",
+   "authors": [
+    "Chandrasekaran"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1117/12.2655441",
+      "title": "Large-scale quantitative phase imaging-based single-cell morphological profiling of chemical and genetic perturbations (Conference Presentation)",
+      "year": 2023,
+      "first_author": "Siu",
+      "container": "Quantitative Phase Imaging IX",
+      "type": "proceedings-article",
+      "score": 28.443363
+     },
+     "metrics": {
+      "title_sim": 70.44025157232704,
+      "containment": 0.333,
+      "partial_ratio": 61.53846153846154,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 19,
+   "raw": "[19] Gao, Y. et al. Maxfuse: Cross-modal integration via iterative co-embedding. Nat. Methods (2023).",
+   "title": "Maxfuse: Cross-modal integration via iterative co-embedding",
+   "authors": [
+    "Gao"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nat. Methods",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.4538535",
+      "title": "Deep Cross-Modal Subspace Clustering with Contrastive Neighbour Embedding",
+      "year": 2023,
+      "first_author": "Zhang",
+      "container": "",
+      "type": "posted-content",
+      "score": 36.07468
+     },
+     "metrics": {
+      "title_sim": 64.12213740458014,
+      "containment": 0.375,
+      "partial_ratio": 57.74647887323944,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 20,
+   "raw": "[20] Sailem, H. et al. Mocop: Contrastive pretraining for morphology and molecular graphs. bioRxiv (2022).",
+   "title": "Mocop: Contrastive pretraining for morphology and molecular graphs. bioRxiv",
+   "authors": [
+    "Sailem"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1101/2023.05.01.538999",
+      "title": "Molecule-Morphology Contrastive Pretraining for Transferable Molecular Representation",
+      "year": 2023,
+      "first_author": "Nguyen",
+      "container": "",
+      "type": "posted-content",
+      "score": 37.484394
+     },
+     "metrics": {
+      "title_sim": 79.3388429752066,
+      "containment": 0.571,
+      "partial_ratio": 65.03067484662577,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 21,
+   "raw": "[21] Lenkiewicz, J. et al. Cell mapping toolkit: an end-to-end pipeline for mapping subcellular organization. Bioinformatics 41, (2025).",
+   "title": "Cell mapping toolkit: an end-to-end pipeline for mapping subcellular organization",
+   "authors": [
+    "Lenkiewicz"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Bioinformatics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1093/bioinformatics/btaf205",
+    "title": "Cell Mapping Toolkit: an end-to-end pipeline for mapping subcellular organization",
+    "year": 2025,
+    "first_author": "Lenkiewicz",
+    "container": "Bioinformatics",
+    "type": "journal-article",
+    "score": 67.65396
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  }
+ ]
+}

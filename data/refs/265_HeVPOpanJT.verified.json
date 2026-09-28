@@ -1,0 +1,610 @@
+{
+ "pdf": "265_HeVPOpanJT.pdf",
+ "n_entries": 14,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "[2] Rishi Bommasani, Drew A. Hudson, Ehsan Adeli, et al. On the opportunities and risks of foundation models. arXiv preprint arXiv:2108.07258, 2021. URL https://arxiv.org/abs/2108.07258.",
+   "title": "On the opportunities and risks of foundation models",
+   "authors": [
+    "Bommasani",
+    "Hudson",
+    "Adeli"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": "2108.07258",
+   "urls": [
+    "https://arxiv.org/abs/2108.07258"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2108.07258"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1145/3544549.3583177",
+      "title": "Foundation Models in Healthcare: Opportunities, Risks &amp; Strategies Forward",
+      "year": 2023,
+      "first_author": "Thieme",
+      "container": "Extended Abstracts of the 2023 CHI Conference on Human Factors in Computing Systems",
+      "type": "proceedings-article",
+      "score": 37.708447
+     },
+     "metrics": {
+      "title_sim": 84.0909090909091,
+      "containment": 0.5,
+      "partial_ratio": 60.810810810810814,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[3] Craig Brod. Technostress: The Human Cost of the Computer Revolution. Addison-Wesley, Reading, MA, 1984.",
+   "title": "Technostress: The Human Cost of the Computer Revolution",
+   "authors": [
+    "Brod"
+   ],
+   "year": 1984,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2172/5243919",
+      "title": "Computer based training cost-benefit model",
+      "year": 1984,
+      "first_author": "Gardner",
+      "container": "",
+      "type": "report",
+      "score": 22.128513
+     },
+     "metrics": {
+      "title_sim": 52.17391304347826,
+      "containment": 0.333,
+      "partial_ratio": 47.61904761904761,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[4] Erik Brynjolfsson, Tom Mitchell, and Daniel Rock. What can machines learn, and what does this mean for occupations and the economy? AEA Papers and Proceedings, 108:43\u201347, 2018. doi: 10.1257/pandp. 20181019.",
+   "title": "What can machines learn, and what does this mean for occupations and the economy?",
+   "authors": [
+    "Brynjolfsson",
+    "Mitchell",
+    "Rock"
+   ],
+   "year": 2018,
+   "doi": "10.1257/pandp",
+   "arxiv": null,
+   "urls": [],
+   "container": "AEA Papers and Proceedings",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1257/pandp",
+    "title": "AEA Papers and Proceedings",
+    "year": 2018,
+    "first_author": null,
+    "container": "",
+    "type": "journal",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 32.38095238095238,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": null
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[5] Arne Mikalsen Fuglseth and \u00d8ystein S\u00f8reb\u00f8. The effects of technostress within the context of employee use of ict. Computers in Human Behavior, 40:161\u2013170, 2014. doi: 10.1016/j.chb.2014.07.040.",
+   "title": "The effects of technostress within the context of employee use of ict",
+   "authors": [
+    "Fuglseth",
+    "S\u00f8reb\u00f8"
+   ],
+   "year": 2014,
+   "doi": "10.1016/j.chb.2014.07.040",
+   "arxiv": null,
+   "urls": [],
+   "container": "Computers in Human Behavior",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.chb.2014.07.040",
+    "title": "The effects of technostress within the context of employee use of ICT",
+    "year": 2014,
+    "first_author": "Fuglseth",
+    "container": "Computers in Human Behavior",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[6] Leilani H. Gilpin, David Bau, Ben Z. Yuan, Ayesha Bajwa, Michael Specter, and Lalana Kagal. Explaining explanations: An overview of interpretability of machine learning. IEEE International Conference on Data Science and Advanced Analytics, pages 80\u201389, 2018. doi: 10.1109/DSAA.2018.00018.",
+   "title": "Explaining explanations: An overview of interpretability of machine learning",
+   "authors": [
+    "Gilpin",
+    "Bau",
+    "Yuan",
+    "Bajwa",
+    "Specter",
+    "Kagal"
+   ],
+   "year": 2018,
+   "doi": "10.1109/DSAA.2018.00018",
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE International Conference on Data Science and Advanced Analytics",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/dsaa.2018.00018",
+    "title": "Explaining Explanations: An Overview of Interpretability of Machine Learning",
+    "year": 2018,
+    "first_author": "Gilpin",
+    "container": "2018 IEEE 5th International Conference on Data Science and Advanced Analytics (DSAA)",
+    "type": "proceedings-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[7] Jessica Lu, Caleb Ziems, Omer Levy, et al. Human-ai collaboration in scientific discovery: Challenges and opportunities. Nature Machine Intelligence, 6(1):1\u201312, 2024. doi: 10.1038/s42256-023-00787-x.",
+   "title": "Human-ai collaboration in scientific discovery: Challenges and opportunities",
+   "authors": [
+    "Lu",
+    "Ziems",
+    "Levy"
+   ],
+   "year": 2024,
+   "doi": "10.1038/s42256-023-00787-x",
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature Machine Intelligence",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1017/9781009587877.011",
+    "title": "Human\u2013AI Collaboration for Scientific Discovery",
+    "year": 2025,
+    "first_author": "Zhao",
+    "container": "Human-AI Interaction and Collaboration",
+    "type": "book-chapter",
+    "score": 36.173756
+   },
+   "metrics": {
+    "title_sim": 95.55555555555556,
+    "containment": 1.0,
+    "partial_ratio": 93.61702127659575,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": [
+    {
+     "step": "doi_not_resolvable",
+     "doi": "10.1038/s42256-023-00787-x"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[8] Christian Maier, Sven Laumer, Andreas Eckhardt, and Tim Weitzel. Giving too much social support: Social overload on social networking sites. European Journal of Information Systems, 24(5):447\u2013464, 2015. doi: 10.1057/ejis.2014.3.",
+   "title": "Giving too much social support: Social overload on social networking sites",
+   "authors": [
+    "Maier",
+    "Laumer",
+    "Eckhardt",
+    "Weitzel"
+   ],
+   "year": 2015,
+   "doi": "10.1057/ejis.2014.3",
+   "arxiv": null,
+   "urls": [],
+   "container": "European Journal of Information Systems",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1057/ejis.2014.3",
+    "title": "Giving too much social support: social overload on social networking sites",
+    "year": 2015,
+    "first_author": "Maier",
+    "container": "European Journal of Information Systems",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[9] Melanie Mitchell. Artificial Intelligence: A Guide for Thinking Humans. Farrar, Straus and Giroux, New York, NY, 2019.",
+   "title": "Artificial Intelligence: A Guide for Thinking Humans",
+   "authors": [
+    "Mitchell"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1515/ordo-2021-0028",
+    "title": "Artificial Intelligence: A Guide for Thinking Humans",
+    "year": 2020,
+    "first_author": "Genovese",
+    "container": "ORDO",
+    "type": "journal-article",
+    "score": 40.0661
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[10] Monica Molino, Eva Ingusci, Fulvio Signore, Amelia Manuti, Maria Luisa Giancaspro, Vincenzo Russo, et al. Wellbeing costs of technology use during covid-19 remote working: An investigation using the italian translation of the technostress creators scale. Sustainability, 12(15):5911, 2020. doi: 10.3390/su12155911.",
+   "title": "Wellbeing costs of technology use during covid-19 remote working: An investigation using the italian translation of the technostress creators scale",
+   "authors": [
+    "Molino",
+    "Ingusci",
+    "Signore",
+    "Manuti",
+    "Giancaspro",
+    "Russo"
+   ],
+   "year": 2020,
+   "doi": "10.3390/su12155911",
+   "arxiv": null,
+   "urls": [],
+   "container": "Sustainability",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.3390/su12155911",
+    "title": "Wellbeing Costs of Technology Use during Covid-19 Remote Working: An Investigation Using the Italian Translation of the Technostress Creators Scale",
+    "year": 2020,
+    "first_author": "Molino",
+    "container": "Sustainability",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[11] T. S. Ragu-Nathan, Monideepa Tarafdar, Bhanu S. Ragu-Nathan, and Qiang Tu. The consequences of technostress for end users in organizations: Conceptual development and empirical validation. Information Systems Research, 18(4):417\u2013433, 2007. doi: 10.1287/isre.1070.0165.",
+   "title": "The consequences of technostress for end users in organizations: Conceptual development and empirical validation",
+   "authors": [
+    "Ragu-Nathan",
+    "Tarafdar",
+    "Ragu-Nathan",
+    "Tu"
+   ],
+   "year": 2007,
+   "doi": "10.1287/isre.1070.0165",
+   "arxiv": null,
+   "urls": [],
+   "container": "Information Systems Research",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1287/isre.1070.0165",
+    "title": "The Consequences of Technostress for End Users in Organizations: Conceptual Development and Empirical Validation",
+    "year": 2008,
+    "first_author": "Ragu-Nathan",
+    "container": "Information Systems Research",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "[12] Tait D. Shanafelt, Christine Sinsky, and Mickey Trockel. An organizational blueprint for addressing the ai workplace tsunami. Mayo Clinic Proceedings, 99(2):196\u2013204, 2024. doi: 10.1016/j.mayocp.2023.11.009.",
+   "title": "An organizational blueprint for addressing the ai workplace tsunami",
+   "authors": [
+    "Shanafelt",
+    "Sinsky",
+    "Trockel"
+   ],
+   "year": 2024,
+   "doi": "10.1016/j.mayocp.2023.11.009",
+   "arxiv": null,
+   "urls": [],
+   "container": "Mayo Clinic Proceedings",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "doi_resolves_title_mismatch",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1016/j.mayocp.2023.11.009",
+      "title": "Industry Payments to Physicians in the United States From 2017 to 2021 and the Impact of the COVID-19 Pandemic",
+      "year": 2024,
+      "first_author": "Khunte",
+      "container": "Mayo Clinic Proceedings",
+      "type": "journal-article",
+      "score": 1
+     },
+     "metrics": {
+      "title_sim": 36.15819209039548,
+      "containment": 0.0,
+      "partial_ratio": 40.90909090909091,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.6579598",
+      "title": "The Blueprint for AI Careers Mapping Roles, Requirements, and Organizational Structure",
+      "year": 2026,
+      "first_author": "Prajapat",
+      "container": "",
+      "type": "posted-content",
+      "score": 28.063631
+     },
+     "metrics": {
+      "title_sim": 70.19867549668874,
+      "containment": 0.286,
+      "partial_ratio": 49.382716049382715,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "[13] Monideepa Tarafdar, Qiang Tu, Bhanu S. Ragu-Nathan, and T. S. Ragu-Nathan. The impact of technostress on role stress and productivity. Journal of Management Information Systems, 24(1):301\u2013328, 2007. doi: 10.2753/MIS0742-1222240109.",
+   "title": "The impact of technostress on role stress and productivity",
+   "authors": [
+    "Tarafdar",
+    "Tu",
+    "Ragu-Nathan",
+    "Ragu-Nathan"
+   ],
+   "year": 2007,
+   "doi": "10.2753/MIS0742-1222240109",
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Management Information Systems",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.2753/mis0742-1222240109",
+    "title": "The Impact of Technostress on Role Stress and Productivity",
+    "year": 2007,
+    "first_author": "Tarafdar",
+    "container": "Journal of Management Information Systems",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "[14] Monideepa Tarafdar, Cynthia M. Beath, and Jeffrey V. Ross. Using ai to enhance business-process automation: The way forward. MIT Sloan Management Review, 60(4):37\u201344, 2019.",
+   "title": "Using ai to enhance business-process automation: The way forward",
+   "authors": [
+    "Tarafdar",
+    "Beath",
+    "Ross"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "MIT Sloan Management Review",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.7551/mitpress/12588.003.0015",
+      "title": "Using AI to Enhance Business Operations",
+      "year": 2020,
+      "first_author": "Tarafdar",
+      "container": "How AI Is Transforming the Organization",
+      "type": "book-chapter",
+      "score": 38.659866
+     },
+     "metrics": {
+      "title_sim": 83.58208955223881,
+      "containment": 0.667,
+      "partial_ratio": 84.61538461538461,
+      "year_ok": true,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": {
+    "source": "crossref",
+    "doi": "10.7551/mitpress/12588.003.0015",
+    "title": "Using AI to Enhance Business Operations",
+    "year": 2020,
+    "first_author": "Tarafdar",
+    "container": "How AI Is Transforming the Organization",
+    "type": "book-chapter",
+    "score": 38.659866
+   }
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "[15] Xiaolin Zhang, Heng Zhang, and Qian Chen. Ai anxiety and employee creativity: Examining the role of social cognitive theory. Computers in Human Behavior, 150:107994, 2024. doi: 10.1016/j.chb.2023. 107994.",
+   "title": "Ai anxiety and employee creativity: Examining the role of social cognitive theory",
+   "authors": [
+    "Zhang",
+    "Zhang",
+    "Chen"
+   ],
+   "year": 2024,
+   "doi": "10.1016/j.chb.2023",
+   "arxiv": null,
+   "urls": [],
+   "container": "Computers in Human Behavior",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "doi_not_resolvable",
+     "doi": "10.1016/j.chb.2023"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/ccsb63463.2024.10735621",
+      "title": "Impact of AI on Employee Creativity: The Mediating Role of Creativity Catalytic Contribution",
+      "year": 2024,
+      "first_author": "Wu",
+      "container": "2024 4th International Conference on Computer Science and Blockchain (CCSB)",
+      "type": "proceedings-article",
+      "score": 33.245438
+     },
+     "metrics": {
+      "title_sim": 68.78980891719745,
+      "containment": 0.5,
+      "partial_ratio": 62.637362637362635,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  }
+ ]
+}

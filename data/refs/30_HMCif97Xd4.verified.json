@@ -1,0 +1,887 @@
+{
+ "pdf": "30_HMCif97Xd4.pdf",
+ "n_entries": 23,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "References [1] Gutenberg, B. & Richter, C. F. Seismicity of the Earth and Associated Phenomena (Princeton Univ. Press, 1954).",
+   "title": "Seismicity of the Earth and Associated Phenomena",
+   "authors": [
+    "References [1] Gutenberg, B. & Richter, C. F."
+   ],
+   "year": 1954,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.54302/mausam.v1i2.4568",
+      "title": "Seismicity of the Earth and associated phenomena",
+      "year": 1950,
+      "first_author": "Gutenberg",
+      "container": "MAUSAM",
+      "type": "journal-article",
+      "score": 53.78794
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 1.0,
+      "partial_ratio": 100.0,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2] Aki, K. Maximum likelihood estimate of b in the formula log N = a \u2212 bM and its confidence limits. Bull. Earthq. Res. Inst. 43, 237\u2013239 (1965).",
+   "title": "Maximum likelihood estimate of b in the formula log N = a \u2212 bM and its confidence limits",
+   "authors": [
+    "Aki"
+   ],
+   "year": 1965,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Bull. Earthq. Res. Inst",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2307/2409071",
+      "title": "Confidence Limits of the Maximum-Likelihood Estimate of the Hominoid three from Mitochondrial-DNA Sequences",
+      "year": 1989,
+      "first_author": "Hasegawa",
+      "container": "Evolution",
+      "type": "journal-article",
+      "score": 41.343365
+     },
+     "metrics": {
+      "title_sim": 76.47058823529412,
+      "containment": 0.5,
+      "partial_ratio": 61.45833333333333,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3] Utsu, T. A method for determining the value of b and its confidence limits. Geophys. Bull. Hokkaido Univ. 13, 99\u2013103 (1965).",
+   "title": "A method for determining the value of b and its confidence limits",
+   "authors": [
+    "Utsu"
+   ],
+   "year": 1965,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Geophys. Bull. Hokkaido Univ",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.21236/ad0617716",
+      "title": "A METHOD OF DETERMINING A CONFIDENCE INTERVAL FOR AVAILABILITY",
+      "year": 1965,
+      "first_author": "Keesee",
+      "container": "",
+      "type": "report",
+      "score": 34.087696
+     },
+     "metrics": {
+      "title_sim": 81.6,
+      "containment": 0.6,
+      "partial_ratio": 61.29032258064516,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4] Wiemer, S. & Wyss, M. Minimum magnitude of completeness in earthquake catalogs: examples from Alaska, the western United States, and Japan. Bull. Seismol. Soc. Am. 90, 859\u2013869 (2000).",
+   "title": "Minimum magnitude of completeness in earthquake catalogs: examples from Alaska, the western United States, and Japan",
+   "authors": [
+    "Wiemer",
+    "Wyss"
+   ],
+   "year": 2000,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Bull. Seismol. Soc. Am",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1785/0119990114",
+    "title": "Minimum Magnitude of Completeness in Earthquake Catalogs: Examples from Alaska, the Western United States, and Japan",
+    "year": 2000,
+    "first_author": "Wiemer",
+    "container": "Bulletin of the Seismological Society of America",
+    "type": "journal-article",
+    "score": 93.94163
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5] Woessner, J. & Wiemer, S. Assessing the quality of earthquake catalogues: estimating the magnitude of completeness and its uncertainty. Geophys. J. Int. 161, 531\u2013546 (2005).",
+   "title": "Assessing the quality of earthquake catalogues: estimating the magnitude of completeness and its uncertainty",
+   "authors": [
+    "Woessner",
+    "Wiemer"
+   ],
+   "year": 2005,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Geophys. J. Int",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1785/0120040007",
+    "title": "Assessing the Quality of Earthquake Catalogues: Estimating the Magnitude of Completeness and Its Uncertainty",
+    "year": 2005,
+    "first_author": "Woessner",
+    "container": "Bulletin of the Seismological Society of America",
+    "type": "journal-article",
+    "score": 75.603836
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[6] Kagan, Y. Y. Modern statistical methods for earthquake catalogs. Bull. Seismol. Soc. Am. 92, 557\u2013575 (2002).",
+   "title": "Modern statistical methods for earthquake catalogs",
+   "authors": [
+    "Kagan"
+   ],
+   "year": 2002,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Bull. Seismol. Soc. Am",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/978-3-642-83252-9_20",
+      "title": "Statistical Analysis of Earthquake Catalogs for Seismic Hazard",
+      "year": 1987,
+      "first_author": "Veneziano",
+      "container": "Lecture Notes in Engineering",
+      "type": "book-chapter",
+      "score": 27.370436
+     },
+     "metrics": {
+      "title_sim": 82.35294117647058,
+      "containment": 0.5,
+      "partial_ratio": 72.58064516129032,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[7] Storchak, D. A., Di Giacomo, D., Bond\u00e1r, I. et al. Public release of the ISC-GEM Global Instrumental Earthquake Catalogue (1900\u20132009). Seismol. Res. Lett. 84, 810\u2013815 (2013).",
+   "title": "Public release of the ISC-GEM Global Instrumental Earthquake Catalogue (1900\u20132009",
+   "authors": [
+    "Storchak",
+    "Giacomo",
+    "Bond\u00e1r"
+   ],
+   "year": 2013,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Seismol. Res. Lett",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1785/0220130034",
+    "title": "Public Release of the ISC-GEM Global Instrumental Earthquake Catalogue (1900-2009)",
+    "year": 2013,
+    "first_author": "Storchak",
+    "container": "Seismological Research Letters",
+    "type": "journal-article",
+    "score": 75.072365
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[8] Storchak, D. A., Di Giacomo, D., Engdahl, E. R. et al. The ISC-GEM Global Instrumental Earthquake Catalogue (1900\u20132009): introduction. Phys. Earth Planet. Inter. 239, 48\u201363 (2015).",
+   "title": "The ISC-GEM Global Instrumental Earthquake Catalogue (1900\u20132009): introduction",
+   "authors": [
+    "Storchak",
+    "Giacomo",
+    "Engdahl"
+   ],
+   "year": 2015,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Phys. Earth Planet. Inter",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.pepi.2014.06.009",
+    "title": "The ISC-GEM Global Instrumental Earthquake Catalogue (1900\u20132009): Introduction",
+    "year": 2015,
+    "first_author": "Storchak",
+    "container": "Physics of the Earth and Planetary Interiors",
+    "type": "journal-article",
+    "score": 69.43076
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[9] Di Giacomo, D., Engdahl, E. R. & Storchak, D. A. The ISC-GEM earthquake catalogue (1904\u20132014): status after the Extension Project. Earth Syst. Sci. Data 10, 1877\u20131899 (2018).",
+   "title": "The ISC-GEM earthquake catalogue (1904\u20132014): status after the Extension Project",
+   "authors": [
+    "Giacomo",
+    "Engdahl",
+    "Storchak"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Earth Syst. Sci. Data",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.5194/essd-2018-59-rc2",
+    "title": "Review for The ISC-GEM Earthquake Catalogue (1904-2014): status after the Extension Project",
+    "year": 2018,
+    "first_author": null,
+    "container": "",
+    "type": "peer-review",
+    "score": 93.67183
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.909,
+    "partial_ratio": 90.9090909090909,
+    "year_ok": true,
+    "first_author_ok": null
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[10] Bond\u00e1r, I., Engdahl, E. R., Villase\u00f1or, A., Harris, J. & Storchak, D. A. ISC-GEM: Global Instrumental Earthquake Catalogue (1900\u20132009): II. Location and seismicity patterns. Phys. Earth Planet. Inter. 239, 2\u201313 (2015).",
+   "title": "ISC-GEM: Global Instrumental Earthquake Catalogue (1900\u20132009): II",
+   "authors": [
+    "Bond\u00e1r",
+    "Engdahl",
+    "Villase\u00f1or",
+    "Harris",
+    "Storchak"
+   ],
+   "year": 2015,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Location and seismicity patterns. Phys. Earth Planet. Inter",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.pepi.2014.06.002",
+    "title": "ISC-GEM: Global Instrumental Earthquake Catalogue (1900\u20132009), II. Location and seismicity patterns",
+    "year": 2015,
+    "first_author": "Bond\u00e1r",
+    "container": "Physics of the Earth and Planetary Interiors",
+    "type": "journal-article",
+    "score": 72.99601
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "[11] Ekstr\u00f6m, G., Nettles, M. & Dziewonski, A. M. The global CMT project 2004\u20132010: Centroidmoment tensors for 13,017 earthquakes. Phys. Earth Planet. Inter. 200\u2013201, 1\u20139 (2012).",
+   "title": "The global CMT project 2004\u20132010: Centroidmoment tensors for 13,017 earthquakes",
+   "authors": [
+    "Ekstr\u00f6m",
+    "Nettles",
+    "Dziewonski"
+   ],
+   "year": 2012,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Phys. Earth Planet. Inter",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.pepi.2012.04.002",
+    "title": "The global CMT project 2004\u20132010: Centroid-moment tensors for 13,017 earthquakes",
+    "year": 2012,
+    "first_author": "Ekstr\u00f6m",
+    "container": "Physics of the Earth and Planetary Interiors",
+    "type": "journal-article",
+    "score": 59.084568
+   },
+   "metrics": {
+    "title_sim": 99.36305732484077,
+    "containment": 0.8,
+    "partial_ratio": 98.73417721518987,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "[12] Engdahl, E. R., van der Hilst, R. & Buland, R. Global teleseismic earthquake relocation with improved travel times and procedures for depth determination. Bull. Seismol. Soc. Am. 88, 722\u2013743 (1998).",
+   "title": "Global teleseismic earthquake relocation with improved travel times and procedures for depth determination",
+   "authors": [
+    "Engdahl",
+    "Hilst",
+    "Buland"
+   ],
+   "year": 1998,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Bull. Seismol. Soc. Am",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1785/bssa0880030722",
+    "title": "Global teleseismic earthquake relocation with improved travel times and procedures for depth determination",
+    "year": 1998,
+    "first_author": "Engdahl",
+    "container": "Bulletin of the Seismological Society of America",
+    "type": "journal-article",
+    "score": 84.82343
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "[13] Hanks, T. C. & Kanamori, H. A moment magnitude scale. J. Geophys. Res. 84, 2348\u20132350 (1979).",
+   "title": "A moment magnitude scale",
+   "authors": [
+    "Hanks",
+    "Kanamori"
+   ],
+   "year": 1979,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "J. Geophys. Res",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1029/jb084ib05p02348",
+    "title": "A moment magnitude scale",
+    "year": 1979,
+    "first_author": "Hanks",
+    "container": "Journal of Geophysical Research: Solid Earth",
+    "type": "journal-article",
+    "score": 43.245853
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "[14] Scordilis, E. M. Empirical global relations converting MS and mb to moment magnitude MW . J. Seismol. 10, 225\u2013236 (2006).",
+   "title": "Empirical global relations converting MS and mb to moment magnitude MW",
+   "authors": [
+    "Scordilis"
+   ],
+   "year": 2006,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "J. Seismol",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/s10950-006-9012-4",
+    "title": "Empirical Global Relations Converting M S and m b to Moment Magnitude",
+    "year": 2006,
+    "first_author": "Scordilis",
+    "container": "Journal of Seismology",
+    "type": "journal-article",
+    "score": 63.353195
+   },
+   "metrics": {
+    "title_sim": 96.40287769784173,
+    "containment": 1.0,
+    "partial_ratio": 97.10144927536231,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "[15] Shearer, P. M. & Stark, P. B. Global risk of big earthquakes has not recently increased. Proc. Natl Acad. Sci. USA 109, 717\u2013721 (2012).",
+   "title": "Global risk of big earthquakes has not recently increased",
+   "authors": [
+    "Shearer",
+    "Stark"
+   ],
+   "year": 2012,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proc. Natl Acad. Sci. USA",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1073/pnas.1118525109",
+    "title": "Global risk of big earthquakes has not recently increased",
+    "year": 2012,
+    "first_author": "Shearer",
+    "container": "Proceedings of the National Academy of Sciences",
+    "type": "journal-article",
+    "score": 57.845078
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 16,
+   "raw": "[16] Michael, A. J. Random variability explains apparent global clustering of large earthquakes. Geophys. Res. Lett. 38, L21301 (2011).",
+   "title": "Random variability explains apparent global clustering of large earthquakes",
+   "authors": [
+    "Michael"
+   ],
+   "year": 2011,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Geophys. Res. Lett",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1029/2011gl049443",
+    "title": "Random variability explains apparent global clustering of large earthquakes",
+    "year": 2011,
+    "first_author": "Michael",
+    "container": "Geophysical Research Letters",
+    "type": "journal-article",
+    "score": 73.59588
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 17,
+   "raw": "[17] Ben-Naim, E., Daub, E. G. & Johnson, P. A. Recurrence statistics of great earthquakes. Geophys. Res. Lett. 40, 3021\u20133025 (2013).",
+   "title": "Recurrence statistics of great earthquakes",
+   "authors": [
+    "Ben-Naim",
+    "Daub",
+    "Johnson"
+   ],
+   "year": 2013,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Geophys. Res. Lett",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1002/grl.50605",
+    "title": "Recurrence statistics of great earthquakes",
+    "year": 2013,
+    "first_author": "Ben\u2010Naim",
+    "container": "Geophysical Research Letters",
+    "type": "journal-article",
+    "score": 52.641747
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 18,
+   "raw": "[18] Bird, P., Jackson, D. D., Kagan, Y. Y., Kreemer, C. & Stein, R. S. GEAR1: A Global Earthquake Activity Rate model constructed from geodetic strain rates and smoothed seismicity. Bull. Seismol. Soc. Am. 105, 2538\u20132554 (2015).",
+   "title": "GEAR1: A Global Earthquake Activity Rate model constructed from geodetic strain rates and smoothed seismicity",
+   "authors": [
+    "Bird",
+    "Jackson",
+    "Kagan",
+    "Kreemer",
+    "Stein"
+   ],
+   "year": 2015,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Bull. Seismol. Soc. Am",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1785/0120150058",
+    "title": "GEAR1: A Global Earthquake Activity Rate Model Constructed from Geodetic Strain Rates and Smoothed Seismicity",
+    "year": 2015,
+    "first_author": "Bird",
+    "container": "Bulletin of the Seismological Society of America",
+    "type": "journal-article",
+    "score": 87.198616
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 19,
+   "raw": "[19] Pagani, M. et al. The 2018 version of the Global Earthquake Model: Hazard component. Earthquake Spectra 36 (S1), 226\u2013251 (2020).",
+   "title": "The 2018 version of the Global Earthquake Model: Hazard component",
+   "authors": [
+    "Pagani"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Earthquake Spectra",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1177/8755293020931866",
+    "title": "The 2018 version of the Global Earthquake Model: Hazard component",
+    "year": 2020,
+    "first_author": "Pagani",
+    "container": "Earthquake Spectra",
+    "type": "journal-article",
+    "score": 50.56213
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 20,
+   "raw": "[20] Silva, V. et al. Development of a global seismic risk model. Earthquake Spectra 36 (S1), 372\u2013394 (2020).",
+   "title": "Development of a global seismic risk model",
+   "authors": [
+    "Silva"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Earthquake Spectra",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1177/8755293019899953",
+    "title": "Development of a global seismic risk model",
+    "year": 2020,
+    "first_author": "Silva",
+    "container": "Earthquake Spectra",
+    "type": "journal-article",
+    "score": 26.570671
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 21,
+   "raw": "[21] Mignan, A. & Woessner, J. Estimating the magnitude of completeness for earthquake catalogs. Community Online Resource for Statistical Seismicity Analysis (CORSSA), doi:10.5078/corssa-00180805 (2012).",
+   "title": "Estimating the magnitude of completeness for earthquake catalogs",
+   "authors": [
+    "Mignan",
+    "Woessner"
+   ],
+   "year": 2012,
+   "doi": "10.5078/corssa-00180805",
+   "arxiv": null,
+   "urls": [],
+   "container": "Community Online Resource for Statistical Seismicity Analysis (CORSSA",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1785/0120100223",
+    "title": "Bayesian Estimation of the Spatially Varying Completeness Magnitude of Earthquake Catalogs",
+    "year": 2011,
+    "first_author": "Mignan",
+    "container": "Bulletin of the Seismological Society of America",
+    "type": "journal-article",
+    "score": 43.685608
+   },
+   "metrics": {
+    "title_sim": 86.72566371681415,
+    "containment": 0.5,
+    "partial_ratio": 64.40677966101696,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "doi_not_resolvable",
+     "doi": "10.5078/corssa-00180805"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 22,
+   "raw": "[22] Zhou, Y. J., Zhou, S. Y. & Zhuang, J. C. A test on methods for MC estimation based on earthquake catalog. Earth and Planetary Physics 2, 150\u2013162 (2018).",
+   "title": "A test on methods for MC estimation based on earthquake catalog",
+   "authors": [
+    "Zhou",
+    "Zhou",
+    "Zhuang"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Earth and Planetary Physics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.26464/epp2018015",
+    "title": "A test on methods for &lt;i&gt;M&lt;/i&gt;&lt;sub&gt;C&lt;/sub&gt; estimation based on earthquake catalog",
+    "year": 2018,
+    "first_author": "Zhou",
+    "container": "Earth and Planetary Physics",
+    "type": "journal-article",
+    "score": 34.8577
+   },
+   "metrics": {
+    "title_sim": 97.43589743589743,
+    "containment": 0.75,
+    "partial_ratio": 64.61538461538461,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 23,
+   "raw": "[23] Efron, B. & Tibshirani, R. J. An Introduction to the Bootstrap (Chapman & Hall/CRC, 1993).",
+   "title": "An Introduction to the Bootstrap",
+   "authors": [
+    "Efron",
+    "Tibshirani"
+   ],
+   "year": 1993,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/978-1-4899-4541-9_1",
+    "title": "Introduction",
+    "year": 1993,
+    "first_author": "Efron",
+    "container": "An Introduction to the Bootstrap",
+    "type": "book-chapter",
+    "score": 41.104355
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  }
+ ]
+}

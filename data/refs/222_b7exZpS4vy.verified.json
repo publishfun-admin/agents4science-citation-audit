@@ -1,0 +1,259 @@
+{
+ "pdf": "222_b7exZpS4vy.pdf",
+ "n_entries": 6,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": true,
+   "idx": 1,
+   "raw": "References",
+   "title": null,
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/9780470547038.ch3",
+      "title": "Voltage References",
+      "year": 2009,
+      "first_author": null,
+      "container": "Voltage References",
+      "type": "book-chapter",
+      "score": 13.502304
+     },
+     "metrics": {
+      "title_sim": 0,
+      "containment": 0.5,
+      "partial_ratio": 100.0,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[1] Alexander, J.A. & Mozer, M.C. (1995) Template-based algorithms for connectionist rule extraction. In G. Tesauro, D.S. Touretzky and T.K. Leen (eds.), Advances in Neural Information Processing Systems 7, pp. 609\u2013616. Cambridge, MA: MIT Press.",
+   "title": "Template-based algorithms for connectionist rule extraction",
+   "authors": [
+    "Alexander",
+    "Mozer"
+   ],
+   "year": 1995,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems 7",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1016/b978-0-444-88771-9.50030-1",
+      "title": "HYBRID CONNECTIONIST RULE-BASED SYSTEMS",
+      "year": 1990,
+      "first_author": "KASABOV",
+      "container": "Artificial Intelligence IV",
+      "type": "book-chapter",
+      "score": 27.182512
+     },
+     "metrics": {
+      "title_sim": 76.19047619047619,
+      "containment": 0.8,
+      "partial_ratio": 64.1025641025641,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "69fd477afc51f5fb384e3d037d90d699977fa22e",
+    "title": "Template-Based Algorithms for Connectionist Rule Extraction",
+    "year": 1994,
+    "first_author": "J. Alexander",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "MAG": "2115027220",
+     "DBLP": "conf/nips/AlexanderM94",
+     "CorpusId": 2615356
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[2] Bower, J.M. & Beeman, D. (1995) The Book of GENESIS: Exploring Realistic Neural Models with the GEneral NEural SImulation System. New York: TELOS/Springer\u2013Verlag.",
+   "title": "The Book of GENESIS: Exploring Realistic Neural Models with the GEneral NEural SImulation System",
+   "authors": [
+    "Bower",
+    "Beeman"
+   ],
+   "year": 1995,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/s0006-3495(95)80092-5",
+    "title": "Review of Bower and Beeman: The Book of GENESIS: Exploring Realistic Neural Models with the GEneral NEural SImulation System",
+    "year": 1995,
+    "first_author": "Hasselmo",
+    "container": "Biophysical Journal",
+    "type": "journal-article",
+    "score": 74.6484
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.923,
+    "partial_ratio": 90.53497942386831,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[3] Hasselmo, M.E., Schnell, E. & Barkai, E. (1995) Dynamics of learning and recall at excitatory recurrent synapses and cholinergic modulation in rat hippocampal region CA3. Journal of Neuroscience 15(7):5249-5262.",
+   "title": "Dynamics of learning and recall at excitatory recurrent synapses and cholinergic modulation in rat hippocampal region CA3",
+   "authors": [
+    "Hasselmo",
+    "Schnell",
+    "Barkai"
+   ],
+   "year": 1995,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Neuroscience",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1523/jneurosci.15-07-05249.1995",
+    "title": "Dynamics of learning and recall at excitatory recurrent synapses and cholinergic modulation in rat hippocampal region CA3",
+    "year": 1995,
+    "first_author": "Hasselmo",
+    "container": "The Journal of Neuroscience",
+    "type": "journal-article",
+    "score": 100.39646
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[4] Mnih, V. et al. (2015) Human-level control through deep reinforcement learning. Nature 518:529\u2013533.",
+   "title": "Human-level control through deep reinforcement learning",
+   "authors": [
+    "Mnih"
+   ],
+   "year": 2015,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.3410/f.725368782.793506817",
+    "title": "Faculty Opinions recommendation of Human-level control through deep reinforcement learning.",
+    "year": 2015,
+    "first_author": "Goodhill",
+    "container": "Faculty Opinions \u2013 Post-Publication Peer Review of the Biomedical Literature",
+    "type": "dataset",
+    "score": 43.23354
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.7,
+    "partial_ratio": 76.36363636363637,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[5] Silver, D. et al. (2016) Mastering the game of Go with deep neural networks and tree search. Nature 529:484\u2013489.",
+   "title": "Mastering the game of Go with deep neural networks and tree search",
+   "authors": [
+    "Silver"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.3410/f.726105619.793525345",
+    "title": "Faculty Opinions recommendation of Mastering the game of Go with deep neural networks and tree search.",
+    "year": 2016,
+    "first_author": "Chittka",
+    "container": "Faculty Opinions \u2013 Post-Publication Peer Review of the Biomedical Literature",
+    "type": "dataset",
+    "score": 57.021435
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.7,
+    "partial_ratio": 77.24867724867725,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  }
+ ],
+ "second_pass": true
+}

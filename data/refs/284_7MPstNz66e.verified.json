@@ -1,0 +1,1237 @@
+{
+ "pdf": "284_7MPstNz66e.pdf",
+ "n_entries": 28,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": false,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "[1] Nikita Andreev, Alexander Shirnin, Vladislav Mikhailov, and Ekaterina Artemova. Papilusion at dagpap24: Paper or illusion? detecting ai-generated scientific papers. arXiv preprint arXiv:2407.17629, 2024.",
+   "title": "Papilusion at dagpap24: Paper or illusion? detecting ai-generated scientific papers",
+   "authors": [
+    "Andreev",
+    "Shirnin",
+    "Mikhailov",
+    "Artemova"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2407.17629",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2024.sdp-1.20",
+    "title": "Papilusion at DAGPap24: Paper or Illusion? Detecting AI-generated Scientific Papers",
+    "year": 2024,
+    "first_author": "Andreev",
+    "container": "Proceedings of the Fourth Workshop on Scholarly Document Processing (SDP 2024)",
+    "type": "proceedings-article",
+    "score": 90.01108
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2407.17629"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2] Khalid H Arar, Hamit \u00d6zen, G\u00fclsah Polat, and Selahattin Turan. Artificial intelligence, generative artificial intelligence and research integrity: a hybrid systemic review. Smart Learning Environments, 12(1):44, 2025.",
+   "title": "Artificial intelligence, generative artificial intelligence and research integrity: a hybrid systemic review",
+   "authors": [
+    "Arar",
+    "\u00d6zen",
+    "Polat",
+    "Turan"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Smart Learning Environments",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1186/s40561-025-00403-3",
+    "title": "Artificial intelligence, generative artificial intelligence and research integrity: a hybrid systemic review",
+    "year": 2025,
+    "first_author": "Arar",
+    "container": "Smart Learning Environments",
+    "type": "journal-article",
+    "score": 76.653854
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3] Jun Shern Chan, Neil Chowdhury, Oliver Jaffe, James Aung, Dane Sherburn, Evan Mays, Giulio Starace, Kevin Liu, Leon Maksin, Tejal Patwardhan, et al. Mle-bench: Evaluating machine learning agents on machine learning engineering. arXiv preprint arXiv:2410.07095, 2024.",
+   "title": "Mle-bench: Evaluating machine learning agents on machine learning engineering",
+   "authors": [
+    "Chan",
+    "Chowdhury",
+    "Jaffe",
+    "Aung",
+    "Sherburn",
+    "Mays",
+    "Starace",
+    "Liu",
+    "Maksin",
+    "Patwardhan"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2410.07095",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2410.07095"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1017/9781108872225.012",
+      "title": "Humans Teaching Machine Learning Agents",
+      "year": 2026,
+      "first_author": "Krening",
+      "container": "Human-Centered Machine Learning",
+      "type": "book-chapter",
+      "score": 38.22025
+     },
+     "metrics": {
+      "title_sim": 74.19354838709677,
+      "containment": 0.6,
+      "partial_ratio": 79.48717948717949,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4] Alessandro Checco, Lorenzo Bracciale, Pierpaolo Loreti, Stephen Pinfield, and Giuseppe Bianchi. Ai-assisted peer review. Humanities and social sciences communications, 8(1):1\u201311, 2021.",
+   "title": "Ai-assisted peer review",
+   "authors": [
+    "Checco",
+    "Bracciale",
+    "Loreti",
+    "Pinfield",
+    "Bianchi"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Humanities and social sciences communications",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1057/s41599-020-00703-8",
+    "title": "AI-assisted peer review",
+    "year": 2021,
+    "first_author": "Checco",
+    "container": "Humanities and Social Sciences Communications",
+    "type": "journal-article",
+    "score": 39.514313
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5] Evan N Crothers, Nathalie Japkowicz, and Herna L Viktor. Machine-generated text: A comprehensive survey of threat models and detection methods. IEEE Access, 11:70977\u201371002, 2023.",
+   "title": "Machine-generated text: A comprehensive survey of threat models and detection methods",
+   "authors": [
+    "Crothers",
+    "Japkowicz",
+    "Viktor"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE Access",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/access.2023.3294090",
+    "title": "Machine-Generated Text: A Comprehensive Survey of Threat Models and Detection Methods",
+    "year": 2023,
+    "first_author": "Crothers",
+    "container": "IEEE Access",
+    "type": "journal-article",
+    "score": 69.360466
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[6] Madelyn A Flitcroft, Salma A Sheriff, Nathan Wolfrath, Ragasnehith Maddula, Laura Mc-Connell, Yun Xing, Krista L Haines, Sandra L Wong, and Anai N Kothari. Performance of artificial intelligence content detectors using human and artificial intelligence-generated scientific writing. Annals of Surgical Oncology, 31(10):6387\u20136393, 2024.",
+   "title": "Performance of artificial intelligence content detectors using human and artificial intelligence-generated scientific writing",
+   "authors": [
+    "Flitcroft",
+    "Sheriff",
+    "Wolfrath",
+    "Maddula",
+    "Mc-Connell",
+    "Xing",
+    "Haines",
+    "Wong",
+    "Kothari"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Annals of Surgical Oncology",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1245/s10434-024-15549-6",
+    "title": "Performance of Artificial Intelligence Content Detectors Using Human and Artificial Intelligence-Generated Scientific Writing",
+    "year": 2024,
+    "first_author": "Flitcroft",
+    "container": "Annals of Surgical Oncology",
+    "type": "journal-article",
+    "score": 72.67167
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[7] Catherine A Gao, Frederick M Howard, Nikolay S Markov, Emma C Dyer, Siddhi Ramesh, Yuan Luo, and Alexander T Pearson. Comparing scientific abstracts generated by chatgpt to real abstracts with detectors and blinded human reviewers. NPJ digital medicine, 6(1):75, 2023.",
+   "title": "Comparing scientific abstracts generated by chatgpt to real abstracts with detectors and blinded human reviewers",
+   "authors": [
+    "Gao",
+    "Howard",
+    "Markov",
+    "Dyer",
+    "Ramesh",
+    "Luo",
+    "Pearson"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "NPJ digital medicine",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/s41746-023-00819-6",
+    "title": "Comparing scientific abstracts generated by ChatGPT to real abstracts with detectors and blinded human reviewers",
+    "year": 2023,
+    "first_author": "Gao",
+    "container": "npj Digital Medicine",
+    "type": "journal-article",
+    "score": 76.161285
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[8] Romain-Daniel Gosselin. Ai detectors are poor western blot classifiers: a study of accuracy and predictive values. PeerJ, 13:e18988, 2025.",
+   "title": "Ai detectors are poor western blot classifiers: a study of accuracy and predictive values",
+   "authors": [
+    "Gosselin"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "PeerJ",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.7717/peerj.18988",
+    "title": "AI detectors are poor western blot classifiers: a study of accuracy and predictive values",
+    "year": 2025,
+    "first_author": "Gosselin",
+    "container": "PeerJ",
+    "type": "journal-article",
+    "score": 92.5356
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[9] German Gritsai, Ildar Khabutdinov, and Andrey Grabovoy. Multi-head span-based detector for ai-generated fragments in scientific papers. arXiv preprint arXiv:2411.07343, 2024.",
+   "title": "Multi-head span-based detector for ai-generated fragments in scientific papers",
+   "authors": [
+    "Gritsai",
+    "Khabutdinov",
+    "Grabovoy"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2411.07343",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2024.sdp-1.21",
+    "title": "Multi-head Span-based Detector for AI-generated Fragments in Scientific Papers",
+    "year": 2024,
+    "first_author": "Gritsai",
+    "container": "Proceedings of the Fourth Workshop on Scholarly Document Processing (SDP 2024)",
+    "type": "proceedings-article",
+    "score": 80.75466
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2411.07343"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[10] Mohammad Hosseini and Serge P. Horbach. Fighting Reviewer Fatigue or Amplifying Bias? Considerations and Recommendations for Use of ChatGPT and Other LLMs in Scholarly Peer Review. Research Integrity and Peer Review, 8(1):4, 2023.",
+   "title": "Fighting Reviewer Fatigue or Amplifying Bias? Considerations and Recommendations for Use of ChatGPT and Other LLMs in Scholarly Peer Review",
+   "authors": [
+    "Hosseini",
+    "Horbach"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Research Integrity and Peer Review",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.21203/rs.3.rs-2587766/v1",
+    "title": "Fighting reviewer fatigue or amplifying bias? Considerations and recommendations for use of ChatGPT and other Large Language Models in scholarly peer review",
+    "year": 2023,
+    "first_author": "Hosseini",
+    "container": "",
+    "type": "posted-content",
+    "score": 107.02394
+   },
+   "metrics": {
+    "title_sim": 98.09885931558935,
+    "containment": 0.812,
+    "partial_ratio": 89.03225806451613,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "[11] Yiqiao Jin, Qinlin Zhao, Yiyang Wang, Hao Chen, Kaijie Zhu, Yijia Xiao, and Jindong Wang. AgentReview: Exploring Peer Review Dynamics with LLM Agents. In Proc. of EMNLP, pages 1208\u20131226, 2024.",
+   "title": "AgentReview: Exploring Peer Review Dynamics with LLM Agents",
+   "authors": [
+    "Jin",
+    "Zhao",
+    "Wang",
+    "Chen",
+    "Zhu",
+    "Xiao",
+    "Wang"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proc. of EMNLP",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2024.emnlp-main.70",
+    "title": "AgentReview: Exploring Peer Review Dynamics with LLM Agents",
+    "year": 2024,
+    "first_author": "Jin",
+    "container": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+    "type": "proceedings-article",
+    "score": 56.5389
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "[12] Patrick Tser Jern Kon, Jiachen Liu, Xinyi Zhu, Qiuyi Ding, Jingjia Peng, Jiarong Xing, Yibo Huang, Yiming Qiu, Jayanth Srinivasa, Myungjin Lee, et al. Exp-bench: Can ai conduct ai research experiments? arXiv preprint arXiv:2505.24785, 2025.",
+   "title": "Exp-bench",
+   "authors": [
+    "Kon",
+    "Liu",
+    "Zhu",
+    "Ding",
+    "Peng",
+    "Xing",
+    "Huang",
+    "Qiu",
+    "Srinivasa",
+    "Lee"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": "2505.24785",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2505.24785"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1136/thorax-2025-btsabstracts.521",
+      "title": "M37\u2005The burden and determinants of tuberculosis among small-scale miners and community members in Northern Tanzania",
+      "year": 2025,
+      "first_author": "Howlett",
+      "container": "TB: from bench to bedside",
+      "type": "proceedings-article",
+      "score": 20.788658
+     },
+     "metrics": {
+      "title_sim": 11.290322580645162,
+      "containment": 0.0,
+      "partial_ratio": 40.869565217391305,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "[13] Percy Liang, Rishi Bommasani, Tony Lee, Dimitris Tsipras, Dilara Soylu, Michihiro Yasunaga, Yian Zhang, Deepak Narayanan, Yuhuai Wu, Ananya Kumar, et al. Holistic evaluation of language models. arXiv preprint arXiv:2211.09110, 2022.",
+   "title": "Holistic evaluation of language models",
+   "authors": [
+    "Liang",
+    "Bommasani",
+    "Lee",
+    "Tsipras",
+    "Soylu",
+    "Yasunaga",
+    "Zhang",
+    "Narayanan",
+    "Wu",
+    "Kumar"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": "2211.09110",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1111/nyas.15007",
+    "title": "Holistic Evaluation of Language Models",
+    "year": 2023,
+    "first_author": "Bommasani",
+    "container": "Annals of the New York Academy of Sciences",
+    "type": "journal-article",
+    "score": 27.159939
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2211.09110"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "[14] Weixin Liang, Zachary Izzo, Yaohui Zhang, Haley Lepp, Hancheng Cao, Xuandong Zhao, Lingjiao Chen, Haotian Ye, Sheng Liu, and Zhi et al. Huang. Monitoring AI-Modified Content at Scale: A Case Study on the Impact of ChatGPT on AI Conference Peer Reviews. In Proc. of ICML, 2024.",
+   "title": "Huang",
+   "authors": [
+    "Liang",
+    "Izzo",
+    "Zhang",
+    "Lepp",
+    "Cao",
+    "Zhao",
+    "Chen",
+    "Ye",
+    "Liu"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Monitoring AI-Modified Content at Scale: A Case Study on the Impact of ChatGPT on AI Conference Peer Reviews. In Proc. of ICML",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1101/2024.02.17.580852",
+      "title": "Hist2Cell: Deciphering Fine-grained Cellular Architectures from Histology Images",
+      "year": 2024,
+      "first_author": "Zhao",
+      "container": "",
+      "type": "posted-content",
+      "score": 17.163574
+     },
+     "metrics": {
+      "title_sim": 9.523809523809524,
+      "containment": 0.0,
+      "partial_ratio": 43.0379746835443,
+      "year_ok": true,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "[15] Weixin Liang, Yuhui Zhang, Hancheng Cao, Binglu Wang, Daisy Yi Ding, Xinyu Yang, Kailas Vodrahalli, Siyu He, Daniel S. Smith, and Yian et al. Yin. Can Large Language Models Provide Useful Feedback on Research Papers? A Large-Scale Empirical Analysis. NEJM AI, 1(8):AIoa2400196, 2024.",
+   "title": "Can Large Language Models Provide Useful Feedback on Research Papers? A Large-Scale Empirical Analysis",
+   "authors": [
+    "Liang",
+    "Zhang",
+    "Cao",
+    "Wang",
+    "Ding",
+    "Yang",
+    "Vodrahalli",
+    "He",
+    "Smith"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "NEJM AI",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1056/aioa2400196",
+    "title": "Can Large Language Models Provide Useful Feedback on Research Papers? A Large-Scale Empirical Analysis",
+    "year": 2024,
+    "first_author": "Liang",
+    "container": "NEJM AI",
+    "type": "journal-article",
+    "score": 71.03693
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 16,
+   "raw": "[16] Chengwei Liu, Chong Wang, Jiayue Cao, Jingquan Ge, Kun Wang, Lyuye Zhang, Ming-Ming Cheng, Penghai Zhao, Tianlin Li, and Xiaojun et al. Jia. A Vision for Auto Research with LLM Agents. arXiv preprint arXiv:2504.18765, 2025.",
+   "title": "A Vision for Auto Research with LLM Agents",
+   "authors": [
+    "Liu",
+    "Wang",
+    "Cao",
+    "Ge",
+    "Wang",
+    "Zhang",
+    "Cheng",
+    "Zhao",
+    "Li"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": "2504.18765",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2504.18765"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.14711/thesis-hdl172470",
+      "title": "Empowering LLM Agents with Knowledge, Tools, and Vision",
+      "year": 2026,
+      "first_author": "Li",
+      "container": "",
+      "type": "dissertation",
+      "score": 29.102612
+     },
+     "metrics": {
+      "title_sim": 68.75,
+      "containment": 0.5,
+      "partial_ratio": 47.16981132075472,
+      "year_ok": true,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 17,
+   "raw": "[17] Jae QJ Liu, Kelvin TK Hui, Fadi Al Zoubi, Zing ZX Zhou, Dino Samartzis, Curtis CH Yu, Jeremy R Chang, and Arnold YL Wong. The great detectives: humans versus ai detectors in catching large language model-generated medical writing. International Journal for Educational Integrity, 20(1):8, 2024.",
+   "title": "The great detectives: humans versus ai detectors in catching large language model-generated medical writing",
+   "authors": [
+    "Liu",
+    "Hui",
+    "Zoubi",
+    "Zhou",
+    "Samartzis",
+    "Yu",
+    "Chang",
+    "Wong"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Journal for Educational Integrity",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/s40979-024-00155-6",
+    "title": "The great detectives: humans versus AI detectors in catching large language model-generated medical writing",
+    "year": 2024,
+    "first_author": "Liu",
+    "container": "International Journal for Educational Integrity",
+    "type": "journal-article",
+    "score": 72.761826
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 18,
+   "raw": "[18] Ryan Liu and Nihar B. Shah. ReviewerGPT? An Exploratory Study on Using Large Language Models for Paper Reviewing. arXiv preprint arXiv:2306.00622, 2023.",
+   "title": "An Exploratory Study on Using Large Language Models for Paper Reviewing",
+   "authors": [
+    "Liu",
+    "ReviewerGPT?"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2306.00622",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2306.00622"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.5098914",
+      "title": "Large Language Models in Job Position Prediction: An Exploratory Study",
+      "year": 2025,
+      "first_author": "Chen",
+      "container": "",
+      "type": "posted-content",
+      "score": 31.134802
+     },
+     "metrics": {
+      "title_sim": 77.14285714285714,
+      "containment": 0.625,
+      "partial_ratio": 58.46153846153845,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 19,
+   "raw": "[19] Chris Lu, Cong Lu, Robert Tjarko Lange, Jakob Foerster, Jeff Clune, and David Ha. The AI Scientist: Towards fully automated open-ended scientific discovery. arXiv preprint arXiv:2408.06292, 2024.",
+   "title": "The AI Scientist: Towards fully automated open-ended scientific discovery",
+   "authors": [
+    "Lu",
+    "Lu",
+    "Lange",
+    "Foerster",
+    "Clune",
+    "Ha"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2408.06292",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2408.06292",
+    "title": "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery",
+    "year": 2024,
+    "first_author": "Chris Lu"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 20,
+   "raw": "[20] Chris Lu, Cong Lu, Robert Tjarko Lange, Jakob Foerster, Jeff Clune, and David Ha. The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery. arXiv preprint arXiv:2408.06292, 2024.",
+   "title": "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery",
+   "authors": [
+    "Lu",
+    "Lu",
+    "Lange",
+    "Foerster",
+    "Clune",
+    "Ha"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2408.06292",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2408.06292",
+    "title": "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery",
+    "year": 2024,
+    "first_author": "Chris Lu"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 21,
+   "raw": "[21] Eric Mitchell, Yoonho Lee, Alexander Khazatsky, Christopher D Manning, and Chelsea Finn. Detectgpt: Zero-shot machine-generated text detection using probability curvature. In International conference on machine learning, pages 24950\u201324962. PMLR, 2023.",
+   "title": "Detectgpt: Zero-shot machine-generated text detection using probability curvature",
+   "authors": [
+    "Mitchell",
+    "Lee",
+    "Khazatsky",
+    "Manning",
+    "Finn"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International conference on machine learning",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1016/j.neucom.2025.129829",
+      "title": "Zero-shot detection of LLM-generated text via text reorder",
+      "year": 2025,
+      "first_author": "Sun",
+      "container": "Neurocomputing",
+      "type": "journal-article",
+      "score": 41.314777
+     },
+     "metrics": {
+      "title_sim": 78.16091954022988,
+      "containment": 0.75,
+      "partial_ratio": 60.3448275862069,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 22,
+   "raw": "[22] Ethan Perez, Saffron Huang, Francis Song, Trevor Cai, Roman Ring, John Aslanides, Amelia Glaese, Nat McAleese, and Geoffrey Irving. Red teaming language models with language models. arXiv preprint arXiv:2202.03286, 2022.",
+   "title": "Red teaming language models with language models",
+   "authors": [
+    "Perez",
+    "Huang",
+    "Song",
+    "Cai",
+    "Ring",
+    "Aslanides",
+    "Glaese",
+    "McAleese",
+    "Irving"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": "2202.03286",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2022.emnlp-main.225",
+    "title": "Red Teaming Language Models with Language Models",
+    "year": 2022,
+    "first_author": "Perez",
+    "container": "Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing",
+    "type": "proceedings-article",
+    "score": 53.507355
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2202.03286"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 23,
+   "raw": "[23] Josh Taylor. Scientists reportedly hiding AI text prompts in academic papers to receive positive peer reviews, 2025. The Guardian (Tech News), July 14, 2025.",
+   "title": "Scientists reportedly hiding AI text prompts in academic papers to receive positive peer reviews, 2025",
+   "authors": [
+    "Taylor"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "The Guardian (Tech News",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.53053/fcui5388",
+      "title": "Scientists decry conference\u2019s use of hidden prompts to snare AI peer reviews",
+      "year": 2026,
+      "first_author": "Chawla",
+      "container": "The Transmitter",
+      "type": "journal-article",
+      "score": 40.38807
+     },
+     "metrics": {
+      "title_sim": 65.48672566371681,
+      "containment": 0.444,
+      "partial_ratio": 55.263157894736835,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 24,
+   "raw": "[24] Keith Tyser, Ben Segev, Gaston Longhitano, Xin-Yu Zhang, Zachary Meeks, Jason Lee, Uday Garg, Nicholas Belsten, Avi Shporer, and Madeleine et al. Udell. AI-Driven Review Systems: Evaluating LLMs in Scalable and Bias-Aware Academic Reviews. arXiv preprint arXiv:2408.10365, 2024.",
+   "title": "Udell",
+   "authors": [
+    "Tyser",
+    "Segev",
+    "Longhitano",
+    "Zhang",
+    "Meeks",
+    "Lee",
+    "Garg",
+    "Belsten",
+    "Shporer"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2408.10365",
+   "urls": [],
+   "container": "AI-Driven Review Systems: Evaluating LLMs in Scalable and Bias-Aware Academic Reviews",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2408.10365"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1016/s0140-6736(56)92417-5",
+      "title": "UNDESCENDED TESTIS",
+      "year": 1956,
+      "first_author": "Tyser",
+      "container": "The Lancet",
+      "type": "journal-article",
+      "score": 18.905764
+     },
+     "metrics": {
+      "title_sim": 26.086956521739136,
+      "containment": 0.0,
+      "partial_ratio": 50.0,
+      "year_ok": false,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 25,
+   "raw": "[25] Sonia Vasconcelos and Ana Maru\u0161ic. Gen ai and research integrity: Where to now? the integration of generative ai in the research process challenges well-established definitions of research integrity. EMBO reports, 26(8):1923\u20131928, 2025.",
+   "title": "Gen ai and research integrity: Where to now? the integration of generative ai in the research process challenges well-established definitions of research integrity",
+   "authors": [
+    "Vasconcelos",
+    "Maru\u0161ic"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "EMBO reports",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/s44319-025-00424-6",
+    "title": "Gen AI and research integrity: Where to now?",
+    "year": 2025,
+    "first_author": "Vasconcelos",
+    "container": "EMBO Reports",
+    "type": "journal-article",
+    "score": 121.26564
+   },
+   "metrics": {
+    "title_sim": 41.379310344827594,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 26,
+   "raw": "[26] Rui Ye, Xianghe Pang, Jingyi Chai, Jiaao Chen, Zhenfei Yin, Zhen Xiang, Xiaowen Dong, Jing Shao, and Siheng Chen. Are We There Yet? Revealing the Risks of Utilizing Large Language Models in Scholarly Peer Review. arXiv preprint arXiv:2412.01708, 2024.",
+   "title": "Are We There Yet? Revealing the Risks of Utilizing Large Language Models in Scholarly Peer Review",
+   "authors": [
+    "Ye",
+    "Pang",
+    "Chai",
+    "Chen",
+    "Yin",
+    "Xiang",
+    "Dong",
+    "Shao",
+    "Chen"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2412.01708",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2412.01708"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.21275/ms241026170018",
+      "title": "Knowledge Discovery in Databases Utilizing Large Language Models",
+      "year": 2024,
+      "first_author": "Chauhan",
+      "container": "International Journal of Science and Research (IJSR)",
+      "type": "journal-article",
+      "score": 34.877113
+     },
+     "metrics": {
+      "title_sim": 69.38775510204081,
+      "containment": 0.571,
+      "partial_ratio": 67.1875,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 27,
+   "raw": "[27] Jianxiang Yu, Zichen Ding, Jiaqi Tan, Kangyang Luo, Zhenmin Weng, Chenghua Gong, Long Zeng, Renjing Cui, Chengcheng Han, and Qiushi et al. Sun. Automated Peer Reviewing in Paper Sea: Standardization, Evaluation, and Analysis. In Findings of EMNLP, pages 10164\u201310184, 2024.",
+   "title": "Sun",
+   "authors": [
+    "Yu",
+    "Ding",
+    "Tan",
+    "Luo",
+    "Weng",
+    "Gong",
+    "Zeng",
+    "Cui",
+    "Han"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Automated Peer Reviewing in Paper Sea: Standardization, Evaluation, and Analysis. In Findings of EMNLP",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.56475/ygsrc.2024.29.2.107",
+      "title": "Revival of Yu Gwan-sun after Korea's Liberation",
+      "year": 2024,
+      "first_author": null,
+      "container": "Yu Gwan sun Research Senter",
+      "type": "journal-article",
+      "score": 18.595661
+     },
+     "metrics": {
+      "title_sim": 12.0,
+      "containment": 0.167,
+      "partial_ratio": 48.93617021276596,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 28,
+   "raw": "[28] Ondrej Zika. Defenses against LLM prompt injections in academic peer review, 2025. Preprint (PsyArXiv), posted July 2025.",
+   "title": "Defenses against LLM prompt injections in academic peer review",
+   "authors": [
+    "Zika"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.31234/osf.io/zxuwf_v2",
+    "title": "Defenses against LLM prompt injections in academic peer review",
+    "year": 2025,
+    "first_author": "Zika",
+    "container": "",
+    "type": "posted-content",
+    "score": 91.36566
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  }
+ ]
+}

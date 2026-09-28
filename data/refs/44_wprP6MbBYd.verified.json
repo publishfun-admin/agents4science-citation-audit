@@ -1,0 +1,829 @@
+{
+ "pdf": "44_wprP6MbBYd.pdf",
+ "n_entries": 19,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "References [1] Tom Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared D Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Saxena, Shaleen Mandal, et al. Language models are few-shot learners. Advances in neural information processing systems, 33:1877\u20131901, 2020.",
+   "title": "Language models are few-shot learners",
+   "authors": [
+    "References [1] Tom Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared D Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Saxena, Shaleen Mandal, et al."
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in neural information processing systems",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2021.mrl-1.1",
+    "title": "Language Models are Few-shot Multilingual Learners",
+    "year": 2021,
+    "first_author": "Winata",
+    "container": "Proceedings of the 1st Workshop on Multilingual Representation Learning",
+    "type": "proceedings-article",
+    "score": 33.98892
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.833,
+    "partial_ratio": 74.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2] Shana K Carpenter, Nicholas J Cepeda, Doug Rohrer, Sean HK Kang, and Harold Pashler. Using spacing to enhance diverse forms of learning: Review of recent research and implications for instruction. Educational psychology review, 24(3):369\u2013378, 2012.",
+   "title": "Using spacing to enhance diverse forms of learning: Review of recent research and implications for instruction",
+   "authors": [
+    "Carpenter",
+    "Cepeda",
+    "Rohrer",
+    "Kang",
+    "Pashler"
+   ],
+   "year": 2012,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Educational psychology review",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/s10648-012-9205-z",
+    "title": "Using Spacing to Enhance Diverse Forms of Learning: Review of Recent Research and Implications for Instruction",
+    "year": 2012,
+    "first_author": "Carpenter",
+    "container": "Educational Psychology Review",
+    "type": "journal-article",
+    "score": 66.8796
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3] Albert T Corbett and John R Anderson. Knowledge tracing: Modeling the acquisition of procedural knowledge. User modeling and user-adapted interaction, 4(4):253\u2013278, 1994.",
+   "title": "Knowledge tracing: Modeling the acquisition of procedural knowledge",
+   "authors": [
+    "Corbett",
+    "Anderson"
+   ],
+   "year": 1994,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "User modeling and user-adapted interaction",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/bf01099821",
+    "title": "Knowledge tracing: Modeling the acquisition of procedural knowledge",
+    "year": 1995,
+    "first_author": "Corbett",
+    "container": "User Modelling and User-Adapted Interaction",
+    "type": "journal-article",
+    "score": 51.280777
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4] DeepSeek-AI, Aixin Liu, Bei Feng, Bing Xue, Bingxuan Wang, Bochao Wu, Chengda Lu, Chenggang Zhao, Chengqi Deng, Chenyu Zhang, et al. Deepseek-v3 technical report, dec 2024. arXiv preprint arXiv:2412.19437.",
+   "title": null,
+   "authors": [
+    "DeepSeek-AI",
+    "Feng",
+    "Xue",
+    "Wang",
+    "Wu",
+    "Lu",
+    "Zhao",
+    "Deng",
+    "Zhang"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2412.19437",
+   "urls": [],
+   "container": null,
+   "type": "report",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2412.19437"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2196/preprints.90673",
+      "title": "Performance of DeepSeek V3, DeepSeek R1, ChatGPT 4o, and ChatGPT o1 on the National Health Professional and Technical Qualification Examination (Intermediate Level) in China: Comparative Analysis (Preprint)",
+      "year": 2026,
+      "first_author": "Xue",
+      "container": "",
+      "type": "posted-content",
+      "score": 61.54988
+     },
+     "metrics": {
+      "title_sim": 0,
+      "containment": 0.235,
+      "partial_ratio": 42.73972602739726,
+      "year_ok": false,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5] Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. Bert: Pre-training of deep bidirectional transformers for language understanding. In Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, volume 1, pages 4171\u20134186, 2019.",
+   "title": "Bert: Pre-training of deep bidirectional transformers for language understanding",
+   "authors": [
+    "Devlin",
+    "Chang",
+    "Lee",
+    "Toutanova"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/n19-1423",
+    "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+    "year": 2019,
+    "first_author": "Devlin",
+    "container": "Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)",
+    "type": "proceedings-article",
+    "score": 60.708714
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[6] Qingxiu Dong, Lei Li, Damai Dai, Ce Zheng, Jingyuan Ma, Rui Li, Heming Xia, Jingjing Xu, Zhiyong Wu, Tianyu Liu, et al. A survey on in-context learning. arXiv preprint arXiv:2301.00234, 2023.",
+   "title": "A survey on in-context learning",
+   "authors": [
+    "Dong",
+    "Li",
+    "Dai",
+    "Zheng",
+    "Ma",
+    "Li",
+    "Xia",
+    "Xu",
+    "Wu",
+    "Liu"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2301.00234",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2301.00234"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.5220/0006255302340241",
+      "title": "A Survey of Context-awareness in Learning Environments in 2010-2016",
+      "year": 2017,
+      "first_author": "Hasanov",
+      "container": "Proceedings of the 9th International Conference on Computer Supported Education",
+      "type": "proceedings-article",
+      "score": 20.281322
+     },
+     "metrics": {
+      "title_sim": 94.91525423728814,
+      "containment": 0.429,
+      "partial_ratio": 64.17910447761194,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[7] Hermann Ebbinghaus. Memory: A contribution to experimental psychology. 1885.",
+   "title": "Memory: A contribution to experimental psychology",
+   "authors": [
+    "Ebbinghaus"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1037/10011-000",
+    "title": "Memory: A contribution to experimental psychology.",
+    "year": 1913,
+    "first_author": "Ebbinghaus",
+    "container": "",
+    "type": "book",
+    "score": 43.09584
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[8] Jordan Hoffmann, Sebastian Borgeaud, Arthur Mensch, Elena Buchatskaya, Trevor Cai, Eliza Rutherford, Diego de Las Casas, Lisa Anne Hendricks, Johannes Welbl, Aidan Clark, Tom Hennigan, Eric Noland, Katie Millican, George van den Driessche, Bogdan Damoc, Aurelia Guy, Simon Osindero, Karen Simonyan, Erich Elsen, Jack W. Rae, Oriol Vinyals, and Laurent Sifre. Training compute-optimal large language models, 2022.",
+   "title": "Training compute-optimal large language models",
+   "authors": [
+    "Hoffmann",
+    "Borgeaud",
+    "Mensch",
+    "Buchatskaya",
+    "Cai",
+    "Rutherford",
+    "Las Casas",
+    "Hendricks",
+    "Welbl",
+    "Clark",
+    "Hennigan",
+    "Noland",
+    "Millican",
+    "Driessche",
+    "Damoc",
+    "Guy",
+    "Osindero",
+    "Simonyan",
+    "Elsen",
+    "Rae",
+    "Vinyals",
+    "Sifre"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/068431-2176",
+    "title": "Training Compute-Optimal Large Language Models",
+    "year": 2022,
+    "first_author": "Hoffmann",
+    "container": "Advances in Neural Information Processing Systems 35",
+    "type": "proceedings-article",
+    "score": 34.03605
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[10] Jared Kaplan, Sam McCandlish, Tom Henighan, Tom B. Brown, Benjamin Chess, Rewon Child, Scott Gray, Alec Radford, Jeffrey Wu, and Dario Amodei. Scaling laws for neural language models, 2020.",
+   "title": "Scaling laws for neural language models",
+   "authors": [
+    "Kaplan",
+    "McCandlish",
+    "Henighan",
+    "Brown",
+    "Chess",
+    "Child",
+    "Gray",
+    "Radford",
+    "Wu",
+    "Amodei"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.52202/075280-0958",
+      "title": "Scaling laws for language encoding models in fMRI",
+      "year": 2023,
+      "first_author": "Antonello",
+      "container": "Advances in Neural Information Processing Systems 36",
+      "type": "proceedings-article",
+      "score": 34.04446
+     },
+     "metrics": {
+      "title_sim": 90.14084507042253,
+      "containment": 0.667,
+      "partial_ratio": 70.96774193548387,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[11] Enkelejda Kasneci, Kathrin Sessler, Stefan K\u00fcchemann, Maria Bannert, Daryna Dementieva, Frank Fischer, Urs Gasser, Georg Groh, Stephan G\u00fcnnemann, Eyke H\u00fcllermeier, et al. Chatgpt for good? on opportunities and challenges of large language models for education. Learning and individual differences, 103:102274, 2023.",
+   "title": "Chatgpt for good? on opportunities and challenges of large language models for education",
+   "authors": [
+    "Kasneci",
+    "Sessler",
+    "K\u00fcchemann",
+    "Bannert",
+    "Dementieva",
+    "Fischer",
+    "Gasser",
+    "Groh",
+    "G\u00fcnnemann",
+    "H\u00fcllermeier"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Learning and individual differences",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.35542/osf.io/5er8f",
+    "title": "ChatGPT for Good? On Opportunities and Challenges of Large Language Models for Education",
+    "year": 2023,
+    "first_author": "Kasneci",
+    "container": "",
+    "type": "posted-content",
+    "score": 51.874336
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "[12] Jarrett Ye Liu et al. Free spaced repetition scheduler.  https://github.com/ open-spaced-repetition/fsrs4anki, 2023. Accessed: 2024-08-03.",
+   "title": "Free spaced repetition scheduler",
+   "authors": [
+    "Liu"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://github.com/"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED_URL",
+   "via": "url",
+   "url_status": {
+    "https://github.com/": 200
+   },
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1037/e665412011-288",
+      "title": "Age, Intentionality, and Spaced-Repetition Effects in Free Recall",
+      "year": 1992,
+      "first_author": "Toppino",
+      "container": "PsycEXTRA Dataset",
+      "type": "dataset",
+      "score": 30.526768
+     },
+     "metrics": {
+      "title_sim": 81.48148148148148,
+      "containment": 0.429,
+      "partial_ratio": 55.55555555555556,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "[13] Tomas Mikolov, Ilya Sutskever, Kai Chen, Greg S Corrado, and Jeff Dean. Distributed representations of words and phrases and their compositionality. Advances in neural information processing systems, 26, 2013.",
+   "title": "Distributed representations of words and phrases and their compositionality",
+   "authors": [
+    "Mikolov",
+    "Sutskever",
+    "Chen",
+    "Corrado",
+    "Dean"
+   ],
+   "year": 2013,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in neural information processing systems",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.4324/9780203776506-14",
+    "title": "Words and phrases",
+    "year": 2013,
+    "first_author": null,
+    "container": "Understanding Morphology",
+    "type": "book-chapter",
+    "score": 30.018314
+   },
+   "metrics": {
+    "title_sim": 36.95652173913043,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": null
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "[14] Sewon Min, Xinxi Lyu, Ari Holtzman, Mikel Artetxe, Mike Lewis, Hannaneh Hajishirzi, and Luke Zettlemoyer. Rethinking the role of demonstrations: What makes in-context learning work? arXiv preprint arXiv:2202.12837, 2022.",
+   "title": "Rethinking the role of demonstrations: What makes in-context learning work?",
+   "authors": [
+    "Min",
+    "Lyu",
+    "Holtzman",
+    "Artetxe",
+    "Lewis",
+    "Hajishirzi",
+    "Zettlemoyer"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": "2202.12837",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2022.emnlp-main.759",
+    "title": "Rethinking the Role of Demonstrations: What Makes In-Context Learning Work?",
+    "year": 2022,
+    "first_author": "Min",
+    "container": "Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing",
+    "type": "proceedings-article",
+    "score": 57.29147
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2202.12837"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "[15] Chris Piech, Jonathan Bassen, Jonathan Huang, Surya Ganguli, Mehran Sahami, Leonidas J Guibas, and Jascha Sohl-Dickstein. Deep knowledge tracing. In Advances in neural information processing systems, pages 505\u2013513, 2015.",
+   "title": "Deep knowledge tracing",
+   "authors": [
+    "Piech",
+    "Bassen",
+    "Huang",
+    "Ganguli",
+    "Sahami",
+    "Guibas",
+    "Sohl-Dickstein"
+   ],
+   "year": 2015,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in neural information processing systems",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1145/3051457.3053985",
+      "title": "Deep Knowledge Tracing On Programming Exercises",
+      "year": 2017,
+      "first_author": "Wang",
+      "container": "Proceedings of the Fourth (2017) ACM Conference on Learning @ Scale",
+      "type": "proceedings-article",
+      "score": 32.835533
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 0.6,
+      "partial_ratio": 68.08510638297872,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "[16] Henry L Roediger and Jeffrey D Karpicke. The power of testing memory: Basic research and implications for educational practice. Perspectives on psychological science, 1(3):181\u2013210, 2006.",
+   "title": "The power of testing memory: Basic research and implications for educational practice",
+   "authors": [
+    "Roediger",
+    "Karpicke"
+   ],
+   "year": 2006,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Perspectives on psychological science",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1111/j.1745-6916.2006.00012.x",
+    "title": "The Power of Testing Memory: Basic Research and Implications for Educational Practice",
+    "year": 2006,
+    "first_author": "Roediger",
+    "container": "Perspectives on Psychological Science",
+    "type": "journal-article",
+    "score": 57.01719
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 16,
+   "raw": "[17] Burr Settles and Brendan Meeder. A trainable spaced repetition model for language learning. Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics, 2016.",
+   "title": "A trainable spaced repetition model for language learning",
+   "authors": [
+    "Settles",
+    "Meeder"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/p16-1174",
+    "title": "A Trainable Spaced Repetition Model for Language Learning",
+    "year": 2016,
+    "first_author": "Settles",
+    "container": "Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "type": "proceedings-article",
+    "score": 60.394417
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 17,
+   "raw": "[18] Jingyong Su, Junyao Ye, Liqiang Nie, Yilong Cao, and Yongyong Chen. Optimizing spaced repetition schedule by capturing the dynamics of memory. IEEE Transactions on Knowledge and Data Engineering, 35(10):10085\u201310097, 2023.",
+   "title": "Optimizing spaced repetition schedule by capturing the dynamics of memory",
+   "authors": [
+    "Su",
+    "Ye",
+    "Nie",
+    "Cao",
+    "Chen"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE Transactions on Knowledge and Data Engineering",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/tkde.2023.3251721",
+    "title": "Optimizing Spaced Repetition Schedule by Capturing the Dynamics of Memory",
+    "year": 2023,
+    "first_author": "Su",
+    "container": "IEEE Transactions on Knowledge and Data Engineering",
+    "type": "journal-article",
+    "score": 56.95514
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 18,
+   "raw": "[19] Jason Wei, Yi Tay, Rishi Bommasani, Colin Raffel, Barret Zoph, Sebastian Borgeaud, Dani Yogatama, Maarten Bosma, Denny Zhou, Donald Metzler, et al. Emergent abilities of large language models. Transactions on Machine Learning Research, 2022.",
+   "title": "Emergent abilities of large language models",
+   "authors": [
+    "Wei",
+    "Tay",
+    "Bommasani",
+    "Raffel",
+    "Zoph",
+    "Borgeaud",
+    "Yogatama",
+    "Bosma",
+    "Zhou",
+    "Metzler"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Transactions on Machine Learning Research",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/075280-2425",
+    "title": "Are Emergent Abilities of Large Language Models a Mirage?",
+    "year": 2023,
+    "first_author": "Schaeffer",
+    "container": "Advances in Neural Information Processing Systems 36",
+    "type": "proceedings-article",
+    "score": 35.81379
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.833,
+    "partial_ratio": 87.5,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 19,
+   "raw": "[20] Piotr A Wozniak, Edward J Gorzelanczyk, and Janusz A Murakowski. Optimization of repetition spacing in the practice of learning. Acta neurobiologiae experimentalis, 50(1):59\u201362, 1990.",
+   "title": "Optimization of repetition spacing in the practice of learning",
+   "authors": [
+    "Wozniak",
+    "Gorzelanczyk",
+    "Murakowski"
+   ],
+   "year": 1990,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Acta neurobiologiae experimentalis",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.55782/ane-1994-1003",
+    "title": "Optimization of repetition spacing in the practice of learning",
+    "year": 1994,
+    "first_author": "Wo\u017aniak",
+    "container": "Acta Neurobiologiae Experimentalis",
+    "type": "journal-article",
+    "score": 34.142094
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  }
+ ]
+}

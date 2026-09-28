@@ -1,0 +1,553 @@
+{
+ "pdf": "226_Jfx32wFUXq.pdf",
+ "n_entries": 13,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "[1] Wei, J., Wang, X., Schuurmans, D., Bosma, M., Chi, E., Le, Q., & Zhou, D. (2022). Chain of thought prompting elicits reasoning in large language models. arXiv preprint arXiv:2201.11903.",
+   "title": "Chain of thought prompting elicits reasoning in large language models",
+   "authors": [
+    "Wei",
+    "Wang",
+    "Schuurmans",
+    "Bosma",
+    "Chi",
+    "Le",
+    "Zhou"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": "2201.11903",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2201.11903",
+    "title": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+    "year": 2022,
+    "first_author": "Jason Wei"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2] Jacovi, A., & Goldberg, Y. (2020). Towards faithfully interpretable NLP systems: How should we define and evaluate faithfulness? Proceedings of ACL.",
+   "title": "Towards faithfully interpretable NLP systems: How should we define and evaluate faithfulness?",
+   "authors": [
+    "Jacovi",
+    "Goldberg"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of ACL",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2020.acl-main.386",
+    "title": "Towards Faithfully Interpretable NLP Systems: How Should We Define and Evaluate Faithfulness?",
+    "year": 2020,
+    "first_author": "Jacovi",
+    "container": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+    "type": "proceedings-article",
+    "score": 106.87171
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3] Elhage, N., Nanda, N., Olsson, C., Henighan, T., Joseph, N., Mann, B., ... & Amodei, D. (2021). A mathematical framework for transformer circuits. Anthropic.",
+   "title": "A mathematical framework for transformer circuits",
+   "authors": [
+    "Elhage",
+    "Nanda",
+    "Olsson",
+    "Henighan",
+    "Joseph",
+    "Mann",
+    "Amodei"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Anthropic",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.36227/techrxiv.172710248.83116727/v1",
+      "title": "Reconfigurable Electric Circuits Within the Quantum Circuits Mathematical Framework",
+      "year": 2024,
+      "first_author": "Delgado",
+      "container": "",
+      "type": "posted-content",
+      "score": 24.606792
+     },
+     "metrics": {
+      "title_sim": 77.5,
+      "containment": 0.5,
+      "partial_ratio": 49.397590361445786,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4] Barocas, S., Hardt, M., & Narayanan, A. (2019). Fairness and machine learning. fairmlbook.org.",
+   "title": "Fairness and machine learning. fairmlbook.org",
+   "authors": [
+    "Barocas",
+    "Hardt",
+    "Narayanan"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1145/3287560.3287567",
+      "title": "Problem Formulation and Fairness",
+      "year": 2019,
+      "first_author": "Passi",
+      "container": "Proceedings of the Conference on Fairness, Accountability, and Transparency",
+      "type": "proceedings-article",
+      "score": 32.06116
+     },
+     "metrics": {
+      "title_sim": 57.89473684210526,
+      "containment": 0.333,
+      "partial_ratio": 53.125,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5] Bender, E. M., Gebru, T., McMillan-Major, A., & Shmitchell, S. (2021). On the dangers of stochastic parrots: Can language models be too big? Proceedings of FAccT.",
+   "title": "On the dangers of stochastic parrots: Can language models be too big?",
+   "authors": [
+    "Bender",
+    "Gebru",
+    "McMillan-Major",
+    "Shmitchell"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of FAccT",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3442188.3445922",
+    "title": "On the Dangers of Stochastic Parrots",
+    "year": 2021,
+    "first_author": "Bender",
+    "container": "Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency",
+    "type": "proceedings-article",
+    "score": 67.07625
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[6] Shah, H., Tamuly, K., Raghunathan, A., Jain, P., & Netrapalli, P. (2020). The pitfalls of simplicity bias in neural networks. Advances in Neural Information Processing Systems.",
+   "title": "The pitfalls of simplicity bias in neural networks",
+   "authors": [
+    "Shah",
+    "Tamuly",
+    "Raghunathan",
+    "Jain",
+    "Netrapalli"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.52202/075280-0353",
+      "title": "Simplicity Bias in 1-Hidden Layer Neural Networks",
+      "year": 2023,
+      "first_author": "Morwani",
+      "container": "Advances in Neural Information Processing Systems 36",
+      "type": "proceedings-article",
+      "score": 32.14704
+     },
+     "metrics": {
+      "title_sim": 81.92771084337349,
+      "containment": 0.667,
+      "partial_ratio": 69.38775510204081,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[7] Wang, X., Wei, J., Schuurmans, D., Le, Q., Chi, E., Narang, S., ... & Zhou, D. (2022). Self-consistency improves chain of thought reasoning in language models. arXiv preprint arXiv:2203.11171.",
+   "title": "Self-consistency improves chain of thought reasoning in language models",
+   "authors": [
+    "Wang",
+    "Wei",
+    "Schuurmans",
+    "Le",
+    "Chi",
+    "Narang",
+    "Zhou"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": "2203.11171",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2203.11171"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.59350/90sh1-hbs94",
+      "title": "Multimodal Chain-of-Thought Reasoning in Language Models",
+      "year": 2025,
+      "first_author": "Thoram",
+      "container": "",
+      "type": "posted-content",
+      "score": 40.428593
+     },
+     "metrics": {
+      "title_sim": 89.10891089108911,
+      "containment": 0.833,
+      "partial_ratio": 87.5,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[8] Yao, S., Yu, D., Zhao, J., Shafran, I., Griffiths, T. L., Cao, Y., & Narasimhan, K. (2023). Tree of thoughts: Deliberate problem solving with large language models. arXiv preprint arXiv:2305.10601.",
+   "title": "Tree of thoughts: Deliberate problem solving with large language models",
+   "authors": [
+    "Yao",
+    "Yu",
+    "Zhao",
+    "Shafran",
+    "Griffiths",
+    "Cao",
+    "Narasimhan"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2305.10601",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/075280-0517",
+    "title": "Tree of Thoughts: Deliberate Problem Solving with Large Language Models",
+    "year": 2023,
+    "first_author": "Yao",
+    "container": "Advances in Neural Information Processing Systems 36",
+    "type": "proceedings-article",
+    "score": 61.22408
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2305.10601"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[9] Chan, L., Garriga-Alonso, A., Goldowsky-Dill, N., Greenblatt, R., Nitishinskaya, J., Radhakrishnan, A., ... & Shlegeris, B. (2022). Causal scrubbing: a method for rigorously testing interpretability hypotheses. Alignment Forum.",
+   "title": "Causal scrubbing: a method for rigorously testing interpretability hypotheses",
+   "authors": [
+    "Chan",
+    "Garriga-Alonso",
+    "Goldowsky-Dill",
+    "Greenblatt",
+    "Nitishinskaya",
+    "Radhakrishnan",
+    "Shlegeris"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1093/acprof:oso/9780199574131.003.0031",
+      "title": "Multiple testing of causal hypotheses",
+      "year": 2011,
+      "first_author": "Kleinberg",
+      "container": "Causality in the Sciences",
+      "type": "book-chapter",
+      "score": 27.964294
+     },
+     "metrics": {
+      "title_sim": 80.64516129032258,
+      "containment": 0.75,
+      "partial_ratio": 59.45945945945945,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[10] Olah, C., Cammarata, N., Schubert, L., Goh, G., Petrov, M., & Carter, S. (2020). Zoom in: An introduction to circuits. Distill.",
+   "title": "Zoom in: An introduction to circuits",
+   "authors": [
+    "Olah",
+    "Cammarata",
+    "Schubert",
+    "Goh",
+    "Petrov",
+    "Carter"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Distill",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.23915/distill.00024.001",
+    "title": "Zoom In: An Introduction to Circuits",
+    "year": 2020,
+    "first_author": "Olah",
+    "container": "Distill",
+    "type": "journal-article",
+    "score": 39.082703
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "[11] Blodgett, S. L., Barocas, S., Daum\u00e9 III, H., & Wallach, H. (2020). Language (technology) is power: A critical survey of \"bias\" in NLP. Proceedings of ACL.",
+   "title": "Language (technology) is power: A critical survey of \"bias",
+   "authors": [
+    "Blodgett, S. L., Barocas, S., Daum\u00e9 III, H., & Wallach, H."
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "NLP. Proceedings of ACL",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2020.acl-main.485",
+    "title": "Language (Technology) is Power: A Critical Survey of \u201cBias\u201d in NLP",
+    "year": 2020,
+    "first_author": "Blodgett",
+    "container": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+    "type": "proceedings-article",
+    "score": 81.81169
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "[12] Meade, N., Poole-Dayan, E., & Reddy, S. (2022). An empirical survey of the effectiveness of debiasing techniques for pre-trained language models. Proceedings of ACL.",
+   "title": "An empirical survey of the effectiveness of debiasing techniques for pre-trained language models",
+   "authors": [
+    "Meade",
+    "Poole-Dayan",
+    "Reddy"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of ACL",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2022.acl-long.132",
+    "title": "An Empirical Survey of the Effectiveness of Debiasing Techniques for Pre-trained Language Models",
+    "year": 2022,
+    "first_author": "Meade",
+    "container": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "type": "proceedings-article",
+    "score": 66.42456
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "[13] Fong, Brendan, David Spivak, and R\u00e9my Tuy\u00e9ras. \"Backprop as functor: A compositional perspective on supervised learning.\" In 2019 34th Annual ACM/IEEE Symposium on Logic in Computer Science (LICS), pp. 1-13. IEEE, 2019.",
+   "title": "Backprop as functor: A compositional perspective on supervised learning",
+   "authors": [
+    "Fong",
+    "Spivak",
+    "Tuy\u00e9ras"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "2019 34th Annual ACM/IEEE Symposium on Logic in Computer Science (LICS",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/lics.2019.8785665",
+    "title": "Backprop as Functor: A compositional perspective on supervised learning",
+    "year": 2019,
+    "first_author": "Fong",
+    "container": "2019 34th Annual ACM/IEEE Symposium on Logic in Computer Science (LICS)",
+    "type": "proceedings-article",
+    "score": 67.94574
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  }
+ ]
+}

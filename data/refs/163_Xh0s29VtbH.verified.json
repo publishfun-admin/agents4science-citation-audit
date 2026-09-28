@@ -1,0 +1,1124 @@
+{
+ "pdf": "163_Xh0s29VtbH.pdf",
+ "n_entries": 22,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 2,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "[1] Matej Moravc\u00edk, Martin Schmid, Neil Burch, Viliam Lis\u00fd, Dustin Morrill, Nolan Bard, Trevor Davis, Kevin Waugh, Michael Johanson, and Michael Bowling. Deepstack: Expert-level artificial intelligence in no-limit poker. Science, 356(6337):508\u2013513, 2017.",
+   "title": "Deepstack: Expert-level artificial intelligence in no-limit poker",
+   "authors": [
+    "Moravc\u00edk",
+    "Schmid",
+    "Burch",
+    "Lis\u00fd",
+    "Morrill",
+    "Bard",
+    "Davis",
+    "Waugh",
+    "Johanson",
+    "Bowling"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Science",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1126/science.aam6960",
+    "title": "DeepStack: Expert-level artificial intelligence in heads-up no-limit poker",
+    "year": 2017,
+    "first_author": "Morav\u010d\u00edk",
+    "container": "Science",
+    "type": "journal-article",
+    "score": 54.65927
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.875,
+    "partial_ratio": 87.67123287671232,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2] Noam Brown and Tuomas Sandholm. Superhuman ai for heads-up no-limit poker: Libratus beats top professionals. Science, 359(6374):418\u2013424, 2018.",
+   "title": "Superhuman ai for heads-up no-limit poker: Libratus beats top professionals",
+   "authors": [
+    "Brown",
+    "Sandholm"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Science",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1126/science.aao1733",
+    "title": "Superhuman AI for heads-up no-limit poker: Libratus beats top professionals",
+    "year": 2018,
+    "first_author": "Brown",
+    "container": "Science",
+    "type": "journal-article",
+    "score": 109.125854
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3] Noam Brown and Tuomas Sandholm.            Superhuman ai for multiplayer poker.      Science, 365(6456):885\u2013890, 2019.",
+   "title": "Superhuman ai for multiplayer poker",
+   "authors": [
+    "Brown",
+    "Sandholm"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Science",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1126/science.aay2400",
+    "title": "Superhuman AI for multiplayer poker",
+    "year": 2019,
+    "first_author": "Brown",
+    "container": "Science",
+    "type": "journal-article",
+    "score": 59.748802
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4] Martin Zinkevich, Michael Johanson, Michael Bowling, and Carmelo Piccione. Regret minimization in games with incomplete information. In Advances in Neural Information Processing Systems (NeurIPS), volume 20, pages 1729\u20131736, 2007.",
+   "title": "Regret minimization in games with incomplete information",
+   "authors": [
+    "Zinkevich",
+    "Johanson",
+    "Bowling",
+    "Piccione"
+   ],
+   "year": 2007,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems (NeurIPS",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.52202/079017-0412",
+      "title": "Regret Minimization in Stackelberg Games with Side Information",
+      "year": 2024,
+      "first_author": "Harris",
+      "container": "Advances in Neural Information Processing Systems 37",
+      "type": "proceedings-article",
+      "score": 34.83448
+     },
+     "metrics": {
+      "title_sim": 89.10891089108911,
+      "containment": 0.667,
+      "partial_ratio": 77.41935483870968,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "db20a76a702be3ad4e7cebf7eeb7f1898827cebd",
+    "title": "Regret Minimization in Games with Incomplete Information",
+    "year": 2007,
+    "first_author": "Martin A. Zinkevich",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "MAG": "2103315867",
+     "DBLP": "conf/nips/ZinkevichJBP07",
+     "DOI": "10.7939/R3Q23R282",
+     "CorpusId": 7739250
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5] Oskari Tammelin. Solving large imperfect information games using CFR+ . In ACM CIKM Workshop on Computer Poker, 2014. arXiv:1407.5042.",
+   "title": "Solving large imperfect information games using CFR+",
+   "authors": [
+    "Tammelin"
+   ],
+   "year": 2014,
+   "doi": null,
+   "arxiv": "1407.5042",
+   "urls": [],
+   "container": "ACM CIKM Workshop on Computer Poker",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "1407.5042"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.3416010",
+      "title": "Solving Imperfect-Information Games",
+      "year": 2019,
+      "first_author": "Vasal",
+      "container": "",
+      "type": "posted-content",
+      "score": 39.3897
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 1.0,
+      "partial_ratio": 85.71428571428572,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "1344f319df7264a0dd22b264cebe22d6e05862a1",
+    "title": "Solving Large Imperfect Information Games Using CFR+",
+    "year": 2014,
+    "first_author": "Oskari Tammelin",
+    "container": "arXiv.org",
+    "ext": {
+     "MAG": "1525285119",
+     "ArXiv": "1407.5042",
+     "DBLP": "journals/corr/Tammelin14",
+     "CorpusId": 9245873
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[6] Noam Brown and Tuomas Sandholm. Solving imperfect-information games via discounted regret minimization. In Proceedings of the AAAI Conference on Artificial Intelligence, pages 1829\u20131836, 2019.",
+   "title": "Solving imperfect-information games via discounted regret minimization",
+   "authors": [
+    "Brown",
+    "Sandholm"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the AAAI Conference on Artificial Intelligence",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1609/aaai.v33i01.33011829",
+    "title": "Solving Imperfect-Information Games via Discounted Regret Minimization",
+    "year": 2019,
+    "first_author": "Brown",
+    "container": "Proceedings of the AAAI Conference on Artificial Intelligence",
+    "type": "journal-article",
+    "score": 73.6008
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[7] Marc Lanctot, Kevin Waugh, Martin Zinkevich, and Michael Bowling. Monte carlo sampling for regret minimization in extensive games. In Advances in Neural Information Processing Systems (NeurIPS), volume 22, pages 1078\u20131086, 2009.",
+   "title": "Monte carlo sampling for regret minimization in extensive games",
+   "authors": [
+    "Lanctot",
+    "Waugh",
+    "Zinkevich",
+    "Bowling"
+   ],
+   "year": 2009,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems (NeurIPS",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.65109/qfxi4541",
+      "title": "Online Monte Carlo Counterfactual Regret Minimization for Search in Imperfect Information Games",
+      "year": 2015,
+      "first_author": "Lis\u00fd",
+      "container": "International Joint Conference on Autonomous Agents and Multiagent Systems",
+      "type": "proceedings-article",
+      "score": 45.09047
+     },
+     "metrics": {
+      "title_sim": 82.24299065420561,
+      "containment": 0.6,
+      "partial_ratio": 58.94736842105264,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "7b506eebe271b76bbf830508ab4daca4fbed6ef0",
+    "title": "Monte Carlo Sampling for Regret Minimization in Extensive Games",
+    "year": 2009,
+    "first_author": "Marc Lanctot",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "DBLP": "conf/nips/LanctotWZB09",
+     "MAG": "2106975967",
+     "DOI": "10.7939/R3319S48Q",
+     "CorpusId": 2332208
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[8] Trevor Davis, Nolan Bard, Noam Brown, and Tuomas Sandholm. Low-variance and zerovariance baselines for extensive-form games. arXiv preprint arXiv:1907.09633, 2019.",
+   "title": "Low-variance and zerovariance baselines for extensive-form games",
+   "authors": [
+    "Davis",
+    "Bard",
+    "Brown",
+    "Sandholm"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": "1907.09633",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "1907.09633"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/cog52621.2021.9619045",
+      "title": "Variance Decompositions for Extensive-Form Games",
+      "year": 2021,
+      "first_author": "Cloud",
+      "container": "2021 IEEE Conference on Games (CoG)",
+      "type": "proceedings-article",
+      "score": 38.218094
+     },
+     "metrics": {
+      "title_sim": 81.48148148148148,
+      "containment": 0.8,
+      "partial_ratio": 79.16666666666666,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[9] Martin Schmid, Neil Burch, Marc Lanctot, Matej Moravc\u00edk, Rudolf Kadlec, and Michael Bowling. Variance reduction in monte carlo counterfactual regret minimization using baselines. In Proceedings of the AAAI Conference on Artificial Intelligence, pages 2157\u20132164, 2019.",
+   "title": "Variance reduction in monte carlo counterfactual regret minimization using baselines",
+   "authors": [
+    "Schmid",
+    "Burch",
+    "Lanctot",
+    "Moravc\u00edk",
+    "Kadlec",
+    "Bowling"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the AAAI Conference on Artificial Intelligence",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1609/aaai.v33i01.33012157",
+    "title": "Variance Reduction in Monte Carlo Counterfactual Regret Minimization (VR-MCCFR) for Extensive Form Games Using Baselines",
+    "year": 2019,
+    "first_author": "Schmid",
+    "container": "Proceedings of the AAAI Conference on Artificial Intelligence",
+    "type": "journal-article",
+    "score": 71.697655
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.667,
+    "partial_ratio": 72.03389830508475,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[10] Noam Brown, Adam Lerer, Sam Gross, and Tuomas Sandholm. Deep counterfactual regret minimization. In Proceedings of the 36th International Conference on Machine Learning (ICML), volume 97, pages 793\u2013802, 2019.",
+   "title": "Deep counterfactual regret minimization",
+   "authors": [
+    "Brown",
+    "Lerer",
+    "Gross",
+    "Sandholm"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 36th International Conference on Machine Learning (ICML",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/iscait69154.2026.11477448",
+      "title": "RainbowCFR: Deep Counterfactual Regret Minimization with Rainbow DQN",
+      "year": 2026,
+      "first_author": "Liu",
+      "container": "2026 5th International Symposium on Computer Applications and Information Technology (ISCAIT)",
+      "type": "proceedings-article",
+      "score": 36.43667
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 0.571,
+      "partial_ratio": 76.11940298507463,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "42c01c027db1e1d9846f13b73e0846bcd3852e65",
+    "title": "Deep Counterfactual Regret Minimization",
+    "year": 2018,
+    "first_author": "Noam Brown",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "ArXiv": "1811.00164",
+     "DBLP": "conf/icml/BrownLGS19",
+     "MAG": "2962713264",
+     "CorpusId": 53183381
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "[11] Johannes Heinrich and David Silver. Deep reinforcement learning from self-play in imperfectinformation games. arXiv preprint arXiv:1603.01121, 2016.",
+   "title": "Deep reinforcement learning from self-play in imperfectinformation games",
+   "authors": [
+    "Heinrich",
+    "Silver"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": "1603.01121",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "1603.01121",
+    "title": "Deep Reinforcement Learning from Self-Play in Imperfect-Information Games",
+    "year": 2016,
+    "first_author": "Johannes Heinrich"
+   },
+   "metrics": {
+    "title_sim": 99.3103448275862,
+    "containment": 0.75,
+    "partial_ratio": 98.63013698630137,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "[12] Marc Lanctot, Vin\u00edcius Flores Zambaldi, Audrunas Gruslys, Remi Munos, Finbarr Timbers, Karl Tuyls, Julien P\u00e9rolat, David Silver, and Thore Graepel. A unified game-theoretic approach to multiagent reinforcement learning. In Advances in Neural Information Processing Systems (NeurIPS), 2017.",
+   "title": "A unified game-theoretic approach to multiagent reinforcement learning",
+   "authors": [
+    "Lanctot",
+    "Zambaldi",
+    "Gruslys",
+    "Munos",
+    "Timbers",
+    "Tuyls",
+    "P\u00e9rolat",
+    "Silver",
+    "Graepel"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems (NeurIPS",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.65109/xeyy6214",
+      "title": "Conservative Equilibrium Discovery in Offline Game-Theoretic Multiagent Reinforcement Learning",
+      "year": 2026,
+      "first_author": "Nguyen",
+      "container": "Proceedings of the 25th International Conference on Autonomous Agents and Multiagent Systems",
+      "type": "proceedings-article",
+      "score": 41.314495
+     },
+     "metrics": {
+      "title_sim": 81.35593220338983,
+      "containment": 0.556,
+      "partial_ratio": 67.02127659574468,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "b0d8165eecf2aa04a85e701d0c6bb4edd4b3811b",
+    "title": "A Unified Game-Theoretic Approach to Multiagent Reinforcement Learning",
+    "year": 2017,
+    "first_author": "Marc Lanctot",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "MAG": "2963937357",
+     "DBLP": "conf/nips/LanctotZGLTPSG17",
+     "ArXiv": "1711.00832",
+     "CorpusId": 9072400
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "[13] Finnegan Southey, Michael Bowling, Bryce Larson, Carmelo Piccione, Neil Burch, Darse Billings, and Chris Rayner. Bayes\u2019 bluff: Opponent modelling in poker. In Proceedings of the 21st Conference on Uncertainty in Artificial Intelligence (UAI), 2005.",
+   "title": "Bayes\u2019 bluff: Opponent modelling in poker",
+   "authors": [
+    "Southey",
+    "Bowling",
+    "Larson",
+    "Piccione",
+    "Burch",
+    "Billings",
+    "Rayner"
+   ],
+   "year": 2005,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 21st Conference on Uncertainty in Artificial Intelligence (UAI",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.3233/978-1-58603-891-5-893",
+      "title": "Opponent Modelling in Texas Hold'em Poker as the Key for Success",
+      "year": 2008,
+      "first_author": "F&eacute;lix Dinis",
+      "container": "Frontiers in Artificial Intelligence and Applications",
+      "type": "book-chapter",
+      "score": 29.409752
+     },
+     "metrics": {
+      "title_sim": 81.81818181818181,
+      "containment": 0.429,
+      "partial_ratio": 59.375,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "24bac83f244cbbff359a271b2fce7cab9ef3d34b",
+    "title": "Bayes' Bluff: Opponent Modelling in Poker",
+    "year": 2005,
+    "first_author": "F. Southey",
+    "container": "Conference on Uncertainty in Artificial Intelligence",
+    "ext": {
+     "MAG": "2168356773",
+     "ArXiv": "1207.1411",
+     "DBLP": "journals/corr/abs-1207-1411",
+     "CorpusId": 16132697
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "[14] Reid Gibson, Neil Burch, Matej Schmid, Marc Lanctot, Dustin Morrill, and Michael Bowling. Regret-based pruning in extensive-form games. In Advances in Neural Information Processing Systems (NeurIPS), 2015.",
+   "title": "Regret-based pruning in extensive-form games",
+   "authors": [
+    "Gibson",
+    "Burch",
+    "Schmid",
+    "Lanctot",
+    "Morrill",
+    "Bowling"
+   ],
+   "year": 2015,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems (NeurIPS",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.7551/mitpress/2884.003.0008",
+      "title": "Extensive Form Games",
+      "year": 2003,
+      "first_author": null,
+      "container": "Evolutionary Dynamics and Extensive Form Games",
+      "type": "book-chapter",
+      "score": 35.946846
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 1.0,
+      "partial_ratio": 100.0,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "5134de86a246e6cd7af70600de764e2f6576bbf8",
+    "title": "Regret-Based Pruning in Extensive-Form Games",
+    "year": 2015,
+    "first_author": "Noam Brown",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "MAG": "2187361797",
+     "DBLP": "conf/nips/BrownS15",
+     "CorpusId": 7806810
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "[15] Noam Brown, Anton Bakhtin, Adam Lerer, and Qucheng Gong. Combining deep reinforcement learning and search for imperfect-information games. In Advances in Neural Information Processing Systems (NeurIPS), 2020.",
+   "title": "Combining deep reinforcement learning and search for imperfect-information games",
+   "authors": [
+    "Brown",
+    "Bakhtin",
+    "Lerer",
+    "Gong"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems (NeurIPS",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.24193/subbi.2020.2.03",
+      "title": "A View on Deep Reinforcement Learning in Imperfect Information Games",
+      "year": 2020,
+      "first_author": "Pricope",
+      "container": "Studia Universitatis Babe\u0219-Bolyai Informatica",
+      "type": "journal-article",
+      "score": 42.689156
+     },
+     "metrics": {
+      "title_sim": 89.4308943089431,
+      "containment": 0.857,
+      "partial_ratio": 80.88235294117648,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "df2b23787a58b10962951d4f663809eb20a828ea",
+    "title": "Combining Deep Reinforcement Learning and Search for Imperfect-Information Games",
+    "year": 2020,
+    "first_author": "Noam Brown",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "DBLP": "journals/corr/abs-2007-13544",
+     "MAG": "3097986043",
+     "ArXiv": "2007.13544",
+     "CorpusId": 220794072
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 16,
+   "raw": "[16] Daniel Hennes, Julien P\u00e9rolat, Karl Tuyls, R\u00e9mi Munos, Peter A. Ortega, Edgar A. Du\u00e9\u00f1ez-Guzm\u00e1n, and Thomas Anthony. Neural replicator dynamics: Multiagent learning via hedging policy gradients. In Proceedings of the AAAI Conference on Artificial Intelligence, 2020.",
+   "title": "Neural replicator dynamics: Multiagent learning via hedging policy gradients",
+   "authors": [
+    "Hennes",
+    "P\u00e9rolat",
+    "Tuyls",
+    "Munos",
+    "Ortega",
+    "Du\u00e9\u00f1ez-Guzm\u00e1n",
+    "Anthony"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the AAAI Conference on Artificial Intelligence",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.65109/gjmw6851",
+    "title": "Neural Replicator Dynamics: Multiagent Learning via Hedging Policy Gradients",
+    "year": 2020,
+    "first_author": "Hennes",
+    "container": "International Joint Conference on Autonomous Agents and Multiagent Systems",
+    "type": "proceedings-article",
+    "score": 64.01575
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 17,
+   "raw": "[17] Marc Lanctot, Edward Lockhart, Jean-Baptiste Lespiau, et al. Openspiel: A framework for reinforcement learning in games. arXiv preprint arXiv:1908.09453, 2019.",
+   "title": "Openspiel: A framework for reinforcement learning in games",
+   "authors": [
+    "Lanctot",
+    "Lockhart",
+    "Lespiau"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": "1908.09453",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "1908.09453",
+    "title": "OpenSpiel: A Framework for Reinforcement Learning in Games",
+    "year": 2019,
+    "first_author": "Marc Lanctot"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 18,
+   "raw": "[18] J. Zhang. Using kullback\u2013leibler divergence to model opponents in poker. In AAAI Workshop on Poker Research and Strategy, 2014.",
+   "title": "Using kullback\u2013leibler divergence to model opponents in poker",
+   "authors": [
+    "Zhang"
+   ],
+   "year": 2014,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "AAAI Workshop on Poker Research and Strategy",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/springerreference_205410",
+      "title": "Kullback-Leibler Divergence",
+      "year": 2012,
+      "first_author": null,
+      "container": "SpringerReference",
+      "type": "reference-entry",
+      "score": 47.990677
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 1.0,
+      "partial_ratio": 100.0,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "9b7d4042888e05301fc0a3c367d2c00371a40021",
+    "title": "Using Kullback-Leibler Divergence to Model Opponents in Poker",
+    "year": 2014,
+    "first_author": "Jiajia Zhang",
+    "container": "AAAI Conference on Artificial Intelligence",
+    "ext": {
+     "MAG": "2203860602",
+     "CorpusId": 18434025
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 19,
+   "raw": "[19] B. Keshavarzi et al. Comparative analysis of extensive form zero-sum game algorithms including nfsp using cross-entropy loss. Scientific Reports, 2025.",
+   "title": "Comparative analysis of extensive form zero-sum game algorithms including nfsp using cross-entropy loss",
+   "authors": [
+    "Keshavarzi"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/s41598-025-86899-8",
+    "title": "Comparative analysis of extensive form zero sum game algorithms for Poker like games",
+    "year": 2025,
+    "first_author": "Keshavarzi",
+    "container": "Scientific Reports",
+    "type": "journal-article",
+    "score": 71.87728
+   },
+   "metrics": {
+    "title_sim": 85.71428571428571,
+    "containment": 0.727,
+    "partial_ratio": 82.14285714285714,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 20,
+   "raw": "[20] F. Timbers et al. Approximate exploitability: Learning a best response in imperfect-information games. In Proceedings of the 31st International Joint Conference on Artificial Intelligence (IJCAI), pages 3487\u20133493, 2022.",
+   "title": "Approximate exploitability: Learning a best response in imperfect-information games",
+   "authors": [
+    "Timbers"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 31st International Joint Conference on Artificial Intelligence (IJCAI",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.24963/ijcai.2022/484",
+    "title": "Approximate Exploitability: Learning a Best Response",
+    "year": 2022,
+    "first_author": "Timbers",
+    "container": "Proceedings of the Thirty-First International Joint Conference on Artificial Intelligence",
+    "type": "proceedings-article",
+    "score": 49.165684
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 21,
+   "raw": "[21] Edward Lockhart, Marc Lanctot, Julien P\u00e9rolat, Jean-Baptiste Lespiau, Dustin Morrill, Finbarr Timbers, and Karl Tuyls. Computing approximate equilibria in sequential adversarial games by exploitability descent. arXiv preprint arXiv:1903.05614, 2020.",
+   "title": "Computing approximate equilibria in sequential adversarial games by exploitability descent",
+   "authors": [
+    "Lockhart",
+    "Lanctot",
+    "P\u00e9rolat",
+    "Lespiau",
+    "Morrill",
+    "Timbers",
+    "Tuyls"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": "1903.05614",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.24963/ijcai.2019/66",
+    "title": "Computing Approximate Equilibria in Sequential Adversarial Games by Exploitability Descent",
+    "year": 2019,
+    "first_author": "Lockhart",
+    "container": "Proceedings of the Twenty-Eighth International Joint Conference on Artificial Intelligence",
+    "type": "proceedings-article",
+    "score": 70.73842
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "1903.05614"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 22,
+   "raw": "[22] Kevin Waugh, Michael Johanson, Michael Bowling, and Duane Szafron. Abstraction pathologies in extensive games. In International Conference on Autonomous Agents and Multiagent Systems (AAMAS) Workshop, 2009.",
+   "title": "Abstraction pathologies in extensive games",
+   "authors": [
+    "Waugh",
+    "Johanson",
+    "Bowling",
+    "Szafron"
+   ],
+   "year": 2009,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Conference on Autonomous Agents and Multiagent Systems (AAMAS) Workshop",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.65109/umek3334",
+    "title": "Abstraction pathologies in extensive games",
+    "year": 2009,
+    "first_author": "Waugh",
+    "container": "International Joint Conference on Autonomous Agents and Multiagent Systems",
+    "type": "proceedings-article",
+    "score": 42.656357
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  }
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
+}

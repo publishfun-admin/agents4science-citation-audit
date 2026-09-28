@@ -1,0 +1,643 @@
+{
+ "pdf": "240_NCoM0crFgB.pdf",
+ "n_entries": 15,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "Abbas Abdolmaleki, Jost Tobias Springenberg, Yuval Tassa, Remi Munos, Nicolas Heess, and Martin Riedmiller. Maximum a posteriori policy optimisation. In International Conference on Learning Representations, 2018.",
+   "title": "Maximum a posteriori policy optimisation",
+   "authors": [
+    "Abdolmaleki",
+    "Springenberg",
+    "Tassa",
+    "Munos",
+    "Heess",
+    "Riedmiller"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Conference on Learning Representations",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1016/j.patrec.2017.09.001",
+      "title": "Anomaly detection based on maximum a posteriori",
+      "year": 2018,
+      "first_author": "Li",
+      "container": "Pattern Recognition Letters",
+      "type": "journal-article",
+      "score": 24.248741
+     },
+     "metrics": {
+      "title_sim": 68.9655172413793,
+      "containment": 0.4,
+      "partial_ratio": 65.95744680851064,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "Mohammed Amin Abdullah, Hang Ren, Haitham Bou Ammar, Vladimir Milenkovic, Rui Luo, Mingtian Zhang, and Jun Wang. Wasserstein robust reinforcement learning, 2019.",
+   "title": "Wasserstein robust reinforcement learning",
+   "authors": [
+    "Abdullah",
+    "Ren",
+    "Ammar",
+    "Milenkovic",
+    "Luo",
+    "Zhang",
+    "Wang"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.70675/af0a525fz93d8z4852z8adbze01e69d88586",
+      "title": "Robust Preference Learning-based Reinforcement Learning",
+      "year": 2026,
+      "first_author": "Akrour",
+      "container": "",
+      "type": "dissertation",
+      "score": 26.72082
+     },
+     "metrics": {
+      "title_sim": 82.85714285714286,
+      "containment": 0.667,
+      "partial_ratio": 66.66666666666667,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "P.-A. Absil, R. Mahony, and R. Sepulchre. Optimization Algorithms on Matrix Manifolds. Princeton University Press, 2008.",
+   "title": "Optimization Algorithms on Matrix Manifolds",
+   "authors": [
+    "Absil",
+    "Mahony",
+    "Sepulchre"
+   ],
+   "year": 2008,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1515/9781400830244",
+    "title": "Optimization Algorithms on Matrix Manifolds",
+    "year": 2008,
+    "first_author": "Absil",
+    "container": "",
+    "type": "edited-book",
+    "score": 54.755276
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "Luigi Ambrosio, Nicola Gigli, and Giuseppe Savar\u00e9. Gradient flows: in metric spaces and in the space of probability measures. Springer, 2008.",
+   "title": "Gradient flows: in metric spaces and in the space of probability measures",
+   "authors": [
+    "Ambrosio",
+    "Gigli",
+    "Savar\u00e9"
+   ],
+   "year": 2008,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1090/chel/352/02",
+      "title": "Probability measures in a metric space",
+      "year": 2005,
+      "first_author": null,
+      "container": "Probability Measures on Metric Spaces",
+      "type": "book-chapter",
+      "score": 48.957962
+     },
+     "metrics": {
+      "title_sim": 97.29729729729729,
+      "containment": 1.0,
+      "partial_ratio": 72.22222222222221,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "Jean-David Benamou and Yann Brenier. A computational fluid mechanics solution to the monge-kantorovich mass transfer problem. Numerische Mathematik, 84(3):375\u2013393, 2000.",
+   "title": "A computational fluid mechanics solution to the monge-kantorovich mass transfer problem",
+   "authors": [
+    "Benamou",
+    "Brenier"
+   ],
+   "year": 2000,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Numerische Mathematik",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/s002110050002",
+    "title": "A computational fluid mechanics solution to the Monge-Kantorovich mass transfer problem",
+    "year": 2000,
+    "first_author": "Benamou",
+    "container": "Numerische Mathematik",
+    "type": "journal-article",
+    "score": 79.65433
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "Ricky T. Q. Chen, Yulia Rubanova, Jesse Bettencourt, and David Duvenaud. Neural ordinary differential equations. Advances in Neural Information Processing Systems, 31, 2018.",
+   "title": "Neural ordinary differential equations",
+   "authors": [
+    "Chen",
+    "Rubanova",
+    "Bettencourt",
+    "Duvenaud"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1201/9781315155265-2",
+      "title": "Preliminaries of Ordinary Differential Equations",
+      "year": 2017,
+      "first_author": "Chakraverty",
+      "container": "Artificial Neural Networks for Engineers and Scientists",
+      "type": "book-chapter",
+      "score": 36.233948
+     },
+     "metrics": {
+      "title_sim": 89.85507246376811,
+      "containment": 0.75,
+      "partial_ratio": 75.0,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "Sham M Kakade. A natural policy gradient. In Advances in Neural Information Processing Systems, 2001.",
+   "title": "A natural policy gradient",
+   "authors": [
+    "Kakade"
+   ],
+   "year": 2001,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.21203/rs.3.rs-3932698/v1",
+      "title": "Reinforced Variable Selection via Natural Policy Gradient",
+      "year": 2024,
+      "first_author": "Le",
+      "container": "",
+      "type": "posted-content",
+      "score": 21.691135
+     },
+     "metrics": {
+      "title_sim": 95.83333333333333,
+      "containment": 0.5,
+      "partial_ratio": 62.5,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "Timothy Lillicrap et al.      Continuous control with deep reinforcement learning.           arXiv preprint arXiv:1509.02971, 2015.",
+   "title": "Continuous control with deep reinforcement learning",
+   "authors": [
+    "Lillicrap"
+   ],
+   "year": 2015,
+   "doi": null,
+   "arxiv": "1509.02971",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "1509.02971"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.32657/10356/90191",
+      "title": "Continuous control for robot based on deep reinforcement learning",
+      "year": 2020,
+      "first_author": "Zhang",
+      "container": "",
+      "type": "dissertation",
+      "score": 36.984936
+     },
+     "metrics": {
+      "title_sim": 94.84536082474227,
+      "containment": 0.714,
+      "partial_ratio": 73.84615384615385,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "Qiang Liu and Dilin Wang. Stein variational gradient descent: A general purpose bayesian inference algorithm. In Advances in Neural Information Processing Systems, 2016.",
+   "title": "Stein variational gradient descent: A general purpose bayesian inference algorithm",
+   "authors": [
+    "Liu",
+    "Wang"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.3390/sym14061188",
+      "title": "A Modified Stein Variational Inference Algorithm with Bayesian and Gradient Descent Techniques",
+      "year": 2022,
+      "first_author": "Zhang",
+      "container": "Symmetry",
+      "type": "journal-article",
+      "score": 54.804466
+     },
+     "metrics": {
+      "title_sim": 89.04109589041096,
+      "containment": 0.778,
+      "partial_ratio": 56.38297872340425,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "James Martens and Roger Grosse. Optimizing neural networks with kronecker-factored approximate curvature. In International Conference on Machine Learning. PMLR, 2015.",
+   "title": "Optimizing neural networks with kronecker-factored approximate curvature",
+   "authors": [
+    "Martens",
+    "Grosse"
+   ],
+   "year": 2015,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Conference on Machine Learning",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/cvpr46437.2021.01327",
+      "title": "SKFAC: Training Neural Networks with Faster Kronecker-Factored Approximate Curvature",
+      "year": 2021,
+      "first_author": "Tang",
+      "container": "2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "type": "proceedings-article",
+      "score": 46.4446
+     },
+     "metrics": {
+      "title_sim": 91.72932330827068,
+      "containment": 0.667,
+      "partial_ratio": 83.13253012048193,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "Ted Moskovitz, Michael Arbel, Ferenc Huszar, and Arthur Gretton. Efficient wasserstein natural gradients for reinforcement learning. arXiv preprint arXiv:2010.05380, 2020.",
+   "title": "Efficient wasserstein natural gradients for reinforcement learning",
+   "authors": [
+    "Moskovitz",
+    "Arbel",
+    "Huszar",
+    "Gretton"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": "2010.05380",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2010.05380"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/qce57702.2023.10181",
+      "title": "Quantum Natural Policy Gradients: Towards Sample-Efficient Reinforcement Learning",
+      "year": 2023,
+      "first_author": "Meyer",
+      "container": "2023 IEEE International Conference on Quantum Computing and Engineering (QCE)",
+      "type": "proceedings-article",
+      "score": 29.859066
+     },
+     "metrics": {
+      "title_sim": 86.20689655172414,
+      "containment": 0.625,
+      "partial_ratio": 58.75,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "Razvan Pascanu and Yoshua Bengio.         Revisiting natural gradient for deep networks.      arXiv preprint arXiv:1301.3584, 2013.",
+   "title": "Revisiting natural gradient for deep networks",
+   "authors": [
+    "Pascanu",
+    "Bengio"
+   ],
+   "year": 2013,
+   "doi": null,
+   "arxiv": "1301.3584",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "1301.3584"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.70675/93a9b059z6c28z4dc6z8673zd8046913dfff",
+      "title": "Natural gradient-based optimization methods for deep neural networks",
+      "year": 2026,
+      "first_author": "Koroko",
+      "container": "",
+      "type": "dissertation",
+      "score": 30.722992
+     },
+     "metrics": {
+      "title_sim": 86.07594936708861,
+      "containment": 0.5,
+      "partial_ratio": 51.470588235294116,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "David Silver, Guy Lever, Nicolas Heess, Thomas Degris, Daan Wierstra, and Martin Riedmiller. Deterministic policy gradient algorithms. In International Conference on Machine Learning, pages 387\u2013395. PMLR, 2014.",
+   "title": "Deterministic policy gradient algorithms",
+   "authors": [
+    "Silver",
+    "Lever",
+    "Heess",
+    "Degris",
+    "Wierstra",
+    "Riedmiller"
+   ],
+   "year": 2014,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Conference on Machine Learning",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/caibda53561.2021.00025",
+      "title": "Reinforcement Learning with Deep Deterministic Policy Gradient",
+      "year": 2021,
+      "first_author": "Tan",
+      "container": "2021 International Conference on Artificial Intelligence, Big Data and Algorithms (CAIBDA)",
+      "type": "proceedings-article",
+      "score": 30.679043
+     },
+     "metrics": {
+      "title_sim": 84.05797101449275,
+      "containment": 0.667,
+      "partial_ratio": 67.74193548387098,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "Ronald J Williams. Simple statistical gradient-following algorithms for connectionist reinforcement learning. Machine learning, 8:229\u2013256, 1992.",
+   "title": "Simple statistical gradient-following algorithms for connectionist reinforcement learning",
+   "authors": [
+    "Williams"
+   ],
+   "year": 1992,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Machine learning",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/978-1-4615-3618-5_2",
+    "title": "Simple Statistical Gradient-Following Algorithms for Connectionist Reinforcement Learning",
+    "year": 1992,
+    "first_author": "Williams",
+    "container": "Reinforcement Learning",
+    "type": "book-chapter",
+    "score": 82.56023
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "Ruiyi Zhang, Changyou Chen, Chunyuan Li, and Lawrence Carin. Policy optimization as wasserstein gradient flows. In International Conference on Machine Learning, pages 5737\u20135746. PMLR, 2018.",
+   "title": "Policy optimization as wasserstein gradient flows",
+   "authors": [
+    "Zhang",
+    "Chen",
+    "Li",
+    "Carin"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Conference on Machine Learning",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1117/12.2641331",
+      "title": "Wasserstein gradient flows policy optimization via input convex neural networks",
+      "year": 2022,
+      "first_author": "Wang",
+      "container": "2nd International Conference on Artificial Intelligence, Automation, and High-Performance Computing (AIAHPC 2022)",
+      "type": "proceedings-article",
+      "score": 36.39009
+     },
+     "metrics": {
+      "title_sim": 96.84210526315789,
+      "containment": 0.556,
+      "partial_ratio": 59.493670886075954,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  }
+ ]
+}

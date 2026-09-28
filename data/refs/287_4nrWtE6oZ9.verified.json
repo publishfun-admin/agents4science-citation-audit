@@ -1,0 +1,943 @@
+{
+ "pdf": "287_4nrWtE6oZ9.pdf",
+ "n_entries": 21,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": false,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "June S. Almenoff, Howard T. DuMouchel, David L. Kindman, et al. Disproportionality analysis using empirical bayes data mining: A tool for the evaluation of drug interactions in the post-marketing setting. Pharmacoepidemiology and Drug Safety, 12(6):517\u2013521, 2003. doi: 10.1002/pds.885. URL https://pubmed.ncbi.nlm.nih.gov/14513665/.",
+   "title": "Disproportionality analysis using empirical bayes data mining: A tool for the evaluation of drug interactions in the post-marketing setting",
+   "authors": [
+    "Almenoff",
+    "DuMouchel",
+    "Kindman"
+   ],
+   "year": 2003,
+   "doi": "10.1002/pds.885",
+   "arxiv": null,
+   "urls": [
+    "https://pubmed.ncbi.nlm.nih.gov/14513665/"
+   ],
+   "container": "Pharmacoepidemiology and Drug Safety",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1002/pds.885",
+    "title": "Disproportionality analysis using empirical Bayes data mining: a tool for the evaluation of drug interactions in the post\u2010marketing setting",
+    "year": 2003,
+    "first_author": "Almenoff",
+    "container": "Pharmacoepidemiology and Drug Safety",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "J. Arrowsmith. Trial watch: Phase ii failures: 2008\u20132010. Nature Reviews Drug Discovery, 10(5): 328\u2013329, 2011. doi: 10.1038/nrd3439.",
+   "title": "Trial watch: Phase ii failures: 2008\u20132010",
+   "authors": [
+    "Arrowsmith"
+   ],
+   "year": 2011,
+   "doi": "10.1038/nrd3439",
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature Reviews Drug Discovery",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/nrd3439",
+    "title": "Phase II failures: 2008\u20132010",
+    "year": 2011,
+    "first_author": "Arrowsmith",
+    "container": "Nature Reviews Drug Discovery",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "David A. Broniatowski, Michael J. Paul, and Mark Dredze. Using social media to perform local influenza surveillance in an inner-city hospital: A retrospective observational study. JMIR Public Health and Surveillance, 1(1):e5, 2015. doi: 10.2196/publichealth.3950. URL https://pubmed. ncbi.nlm.nih.gov/27014744/. U.S. Food and Drug Administration. Highlights of prescribing information: Opdivo (nivolumab) injection, for intravenous use \u2014 initial u.s. approval: 2014. FDA Label, November 2015. URL https:",
+   "title": "Using social media to perform local influenza surveillance in an inner-city hospital: A retrospective observational study",
+   "authors": [
+    "Broniatowski",
+    "Paul",
+    "Dredze",
+    "Food",
+    "Administration"
+   ],
+   "year": 2015,
+   "doi": "10.2196/publichealth.3950",
+   "arxiv": null,
+   "urls": [
+    "https://pubmed",
+    "https:"
+   ],
+   "container": "JMIR Public Health and Surveillance",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.2196/publichealth.4472",
+    "title": "Using Social Media to Perform Local Influenza Surveillance in an Inner-City Hospital: A Retrospective Observational Study",
+    "year": 2015,
+    "first_author": "Broniatowski",
+    "container": "JMIR Public Health and Surveillance",
+    "type": "journal-article",
+    "score": 86.48174
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "doi_not_resolvable",
+     "doi": "10.2196/publichealth.3950"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "//www.accessdata.fda.gov/drugsatfda_docs/label/2015/125554s012lbl.pdf. Revision date: November 2015.",
+   "title": null,
+   "authors": [],
+   "year": 2015,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1211/pj.2015.20200243",
+      "title": "FDA adds ketoacidosis risk to label of diabetes drugs",
+      "year": 2015,
+      "first_author": null,
+      "container": "The Pharmaceutical Journal",
+      "type": "journal-article",
+      "score": 29.964312
+     },
+     "metrics": {
+      "title_sim": 0,
+      "containment": 0.286,
+      "partial_ratio": 41.9753086419753,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "Isaac Chun-Hai Fung et al. The use of social media in public health surveillance. Western Pacific Surveillance and Response Journal, 6(2):3\u201326, 2015. doi: 10.5365/WPSAR.2015.6.1.019. URL https://pmc.ncbi.nlm.nih.gov/articles/PMC4542478/. C. J. Hayes and colleagues. Comparative analysis of adverse event reporting on reddit and the FDA adverse event reporting system (FAERS). medRxiv preprint, 2024. URL https://www.medrxiv. org/content/10.1101/2024.08.13.24311929v1.",
+   "title": "The use of social media in public health surveillance",
+   "authors": [
+    "Fung",
+    "J"
+   ],
+   "year": 2015,
+   "doi": "10.5365/WPSAR.2015.6.1.019",
+   "arxiv": null,
+   "urls": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC4542478/",
+    "https://www.medrxiv"
+   ],
+   "container": "Comparative analysis of adverse event reporting on reddit and the FDA adverse event reporting system (FAERS",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.5365/wpsar.2015.6.1.019",
+    "title": "The use of social media in public health surveillance",
+    "year": 2015,
+    "first_author": "Fung",
+    "container": "Western Pacific Surveillance and Response Journal",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "L. Hazell and S. A. W. Shakir. Under-reporting of adverse drug reactions: A systematic review. Drug Safety, 29(5):385\u2013396, 2006. doi: 10.2165/00002018-200629050-00003.",
+   "title": "Under-reporting of adverse drug reactions: A systematic review",
+   "authors": [
+    "Hazell",
+    "Shakir"
+   ],
+   "year": 2006,
+   "doi": "10.2165/00002018-200629050-00003",
+   "arxiv": null,
+   "urls": [],
+   "container": "Drug Safety",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.2165/00002018-200629050-00003",
+    "title": "Under-Reporting of Adverse Drug Reactions",
+    "year": 2006,
+    "first_author": "Hazell",
+    "container": "Drug Safety",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "Luca Imeri and Mark R Opp. How (and why) the immune system makes us sleep. Nature Reviews Neuroscience, 10(3):199\u2013210, 2009.",
+   "title": "How (and why) the immune system makes us sleep",
+   "authors": [
+    "Imeri",
+    "Opp"
+   ],
+   "year": 2009,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature Reviews Neuroscience",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/nrn2576",
+    "title": "How (and why) the immune system makes us sleep",
+    "year": 2009,
+    "first_author": "Imeri",
+    "container": "Nature Reviews Neuroscience",
+    "type": "journal-article",
+    "score": 62.557373
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "A. Johansen, S. J. Christensen, D. Scheie, J. H\u00f8jgaard, and D. Kondziella. Neuromuscular adverse events associated with anti\u2013pd-1 monoclonal antibodies: Systematic review. Neurology: Neuroimmunology & Neuroinflammation, 6(1):e575, 2019. doi: 10.1212/NXI.0000000000000575.",
+   "title": "Neuromuscular adverse events associated with anti\u2013pd-1 monoclonal antibodies: Systematic review",
+   "authors": [
+    "Johansen",
+    "Christensen",
+    "Scheie",
+    "H\u00f8jgaard",
+    "Kondziella"
+   ],
+   "year": 2019,
+   "doi": "10.1212/NXI.0000000000000575",
+   "arxiv": null,
+   "urls": [],
+   "container": "Neurology: Neuroimmunology & Neuroinflammation",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1212/wnl.0000000000007235",
+    "title": "Neuromuscular adverse events associated with anti-PD-1 monoclonal antibodies",
+    "year": 2019,
+    "first_author": "Johansen",
+    "container": "Neurology",
+    "type": "journal-article",
+    "score": 72.69548
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "doi_resolves_title_mismatch",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1212/nxi.0000000000000575",
+      "title": "Guillain-Barr\u00e9 syndrome and related diseases after influenza virus infection",
+      "year": 2019,
+      "first_author": "Yamana",
+      "container": "Neurology Neuroimmunology &amp; Neuroinflammation",
+      "type": "journal-article",
+      "score": 1
+     },
+     "metrics": {
+      "title_sim": 42.35294117647059,
+      "containment": 0.0,
+      "partial_ratio": 42.10526315789473,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "Andy Ke, Fan Yin, Anirudh Sundar, Eric Wu, Dakshinamurthy Madeka, Jifan Sun, Wenxuan Chen, Rich Caruana, Chieh-Hsin Wu, Tong Zhang, and Eric Horvitz. Natural: End-to-end causal effect estimation from unstructured natural language data. In Advances in Neural Information Processing Systems, 2024.",
+   "title": "Natural: End-to-end causal effect estimation from unstructured natural language data",
+   "authors": [
+    "Ke",
+    "Yin",
+    "Sundar",
+    "Wu",
+    "Madeka",
+    "Sun",
+    "Chen",
+    "Caruana",
+    "Wu",
+    "Zhang",
+    "Horvitz"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/079017-2455",
+    "title": "End-To-End Causal Effect Estimation from Unstructured Natural Language Data",
+    "year": 2024,
+    "first_author": "Dhawan",
+    "container": "Advances in Neural Information Processing Systems 37",
+    "type": "proceedings-article",
+    "score": 70.83946
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "James M Krueger, Marcos G Frank, Jonathan P Wisor, and Sandip Roy. Sleep function: Toward elucidating an enigma. Sleep medicine reviews, 28:46\u201354, 2016.",
+   "title": "Sleep function: Toward elucidating an enigma",
+   "authors": [
+    "Krueger",
+    "Frank",
+    "Wisor",
+    "Roy"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Sleep medicine reviews",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.smrv.2015.08.005",
+    "title": "Sleep function: Toward elucidating an enigma",
+    "year": 2016,
+    "first_author": "Krueger",
+    "container": "Sleep Medicine Reviews",
+    "type": "journal-article",
+    "score": 55.682777
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "Martin Kulldorff, Richard Heffernan, Jessica Hartman, Richard Assun\u00e7\u00e3o, and Farzad Mostashari. A space\u2013time permutation scan statistic for disease outbreak detection. PLoS Medicine, 2(3): e59, 2005. doi: 10.1371/journal.pmed.0020059. URL https://pmc.ncbi.nlm.nih.gov/ articles/PMC548793/.",
+   "title": "A space\u2013time permutation scan statistic for disease outbreak detection",
+   "authors": [
+    "Kulldorff",
+    "Heffernan",
+    "Hartman",
+    "Assun\u00e7\u00e3o",
+    "Mostashari"
+   ],
+   "year": 2005,
+   "doi": "10.1371/journal.pmed.0020059",
+   "arxiv": null,
+   "urls": [
+    "https://pmc.ncbi.nlm.nih.gov/"
+   ],
+   "container": "PLoS Medicine",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1371/journal.pmed.0020059",
+    "title": "A Space\u2013Time Permutation Scan Statistic for Disease Outbreak Detection",
+    "year": 2005,
+    "first_author": "Kulldorff",
+    "container": "PLoS Medicine",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "Alexandre Lavertu, Raghavendran Srinivasan, Jihad S. Obeid, et al. Quantifying the severity of adverse drug reactions using social media. NPJ Digital Medicine, 4:38, 2021. doi: 10.1038/ s41746-021-00413-5. URL https://pmc.ncbi.nlm.nih.gov/articles/PMC8569532/.",
+   "title": "Quantifying the severity of adverse drug reactions using social media",
+   "authors": [
+    "Lavertu",
+    "Srinivasan",
+    "Obeid"
+   ],
+   "year": 2021,
+   "doi": "doi:",
+   "arxiv": null,
+   "urls": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC8569532/"
+   ],
+   "container": "NPJ Digital Medicine",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1101/2021.02.02.429445",
+    "title": "Quantifying the severity of adverse drug reactions using social media",
+    "year": 2021,
+    "first_author": "Lavertu",
+    "container": "",
+    "type": "posted-content",
+    "score": 74.094086
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "doi_not_resolvable",
+     "doi": "doi:"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "David Lazer, Ryan Kennedy, Gary King, and Alessandro Vespignani. The parable of google flu: Traps in big data analysis. Science, 343(6176):1203\u20131205, 2014. doi: 10.1126/science.1248506. URL https://gking.harvard.edu/files/gking/files/0314policyforumff.pdf. V. Leroy et al. Pembrolizumab-induced pneumonitis. European Respiratory Journal, 49(2):1600081, 2017. doi: 10.1183/13993003.00081-2016. Azadeh Nikfarjam. Health Information Extraction from Social Media. PhD thesis, Arizona State University, 2016. URL http://hdl.handle.net/2286/R.I.38674. Azadeh Nikfarjam, Abeed Sarker, Karen O\u2019Connor, Rachel Ginn, and Graciela Gonzalez. Pharmacovigilance from social media: mining adverse drug reaction mentions using sequence labeling with word embedding cluster features. Journal of the American Medical Informatics Association, 22(3):671\u2013681, 2015. doi: 10.1093/jamia/ocu041. URL https://academic.oup.com/jamia/ article/22/3/671/776531. Albert Park, Youngbin Im, Subhadeep Kundu, Matthew Johnson, Robert P. Sorrentino, and Michael J. Paul. Tracking health related discussions on reddit for public health applications. In Proceedings of the International Conference on Digital Health, pages 70\u201374, 2018. doi: 10.1145/3194658. 3194677. URL https://pmc.ncbi.nlm.nih.gov/articles/PMC5977623/. Michael J. Paul and Mark Dredze. Discovering health topics in social media using topic models. PLOS ONE, 9(8):e103408, 2014. doi: 10.1371/journal.pone.0103408. URL https://journals. plos.org/plosone/article?id=10.1371/journal.pone.0103408. Julia D. Ransohoff, Azadeh Nikfarjam, Erik Jones, Brian Loew, Bernice Y. Kwong, Kavita Y. Sarin, and Nigam H. Shah. Detecting chemotherapeutic skin adverse reactions in social health networks using deep learning. JAMA Oncology, 4(4):581\u2013583, 2018. doi: 10.1001/jamaoncol.2017.5688. URL https://jamanetwork.com/journals/jamaoncology/fullarticle/2673831. Reddit Inc. Reddit\u2019s api pricing changes and third-party app restrictions. Reddit Official Announcements, 2023. URL https://www.reddit.com/r/reddit/comments/12qwagm/an_update_ regarding_reddits_api/. Accessed September 2024. Abeed Sarker and Graciela Gonzalez. Utilizing social media data for pharmacovigilance: A review. Journal of Biomedical Informatics, 54:202\u2013212, 2015. doi: 10.1016/j.jbi.2015.02.004. URL https://www.sciencedirect.com/science/article/pii/S1532046415000362. P. Spagnolo et al. Pulmonary adverse events following immune checkpoint inhibitors. Current Opinion in Pulmonary Medicine, 28(5):306\u2013314, 2022.",
+   "title": "The parable of google flu: Traps in big data analysis",
+   "authors": [
+    "Lazer",
+    "Kennedy",
+    "King",
+    "Vespignani",
+    "Leroy",
+    "Nikfarjam",
+    "Sarker",
+    "O\u2019Connor",
+    "Ginn",
+    "Gonzalez",
+    "Park",
+    "Im",
+    "Kundu",
+    "Johnson",
+    "Sorrentino",
+    "Paul",
+    "Paul",
+    "Dredze",
+    "Julia D. Ransohoff",
+    "Nikfarjam",
+    "Jones",
+    "Loew",
+    "Kwong",
+    "Sarin",
+    "Shah"
+   ],
+   "year": 2014,
+   "doi": "10.1126/science.1248506",
+   "arxiv": null,
+   "urls": [
+    "https://gking.harvard.edu/files/gking/files/0314policyforumff.pdf",
+    "http://hdl.handle.net/2286/R.I.38674",
+    "https://academic.oup.com/jamia/",
+    "https://journals",
+    "https://jamanetwork.com/journals/jamaoncology/fullarticle/2673831",
+    "https://www.reddit.com/r/reddit/comments/12qwagm/an_update_",
+    "https://www.sciencedirect.com/science/article/pii/S1532046415000362",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC5977623/"
+   ],
+   "container": "Proceedings of the International Conference on Digital Health",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1126/science.1248506",
+    "title": "The Parable of Google Flu: Traps in Big Data Analysis",
+    "year": 2014,
+    "first_author": "Lazer",
+    "container": "Science",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "S. Suzuki, N. Ishikawa, F. Konoeda, et al. Nivolumab-related myasthenia gravis with myositis and myocarditis in japan. Neurology, 89(11):1127\u20131134, 2017. doi: 10.1212/WNL.0000000000004359.",
+   "title": "Nivolumab-related myasthenia gravis with myositis and myocarditis in japan",
+   "authors": [
+    "Suzuki",
+    "Ishikawa",
+    "Konoeda"
+   ],
+   "year": 2017,
+   "doi": "10.1212/WNL.0000000000004359",
+   "arxiv": null,
+   "urls": [],
+   "container": "Neurology",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1212/wnl.0000000000004359",
+    "title": "Nivolumab-related myasthenia gravis with myositis and myocarditis in Japan",
+    "year": 2017,
+    "first_author": "Suzuki",
+    "container": "Neurology",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "Rebecca Y. Tay and Raffaele Califano. Checkpoint inhibitor pneumonitis \u2014 real-world incidence and risk. Journal of Thoracic Oncology, 13(12):1812\u20131814, 2018. doi: 10.1016/j.jtho.2018.10.007.",
+   "title": "Checkpoint inhibitor pneumonitis \u2014 real-world incidence and risk",
+   "authors": [
+    "Tay",
+    "Califano"
+   ],
+   "year": 2018,
+   "doi": "10.1016/j.jtho.2018.10.007",
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Thoracic Oncology",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.jtho.2018.10.007",
+    "title": "Checkpoint Inhibitor Pneumonitis \u2014 Real-World Incidence and Risk",
+    "year": 2018,
+    "first_author": "Tay",
+    "container": "Journal of Thoracic Oncology",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 16,
+   "raw": "Joel Thomas, Arpan V. Prabhu, Dwight E. Heron, and Sushil Beriwal. Reddit and radiation therapy: A descriptive analysis of posts and comments over seven years by patients and health care professionals. Advances in Radiation Oncology, 4(2):345\u2013353, 2019. doi: 10.1016/j.adro.2019.01.007. URL https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6460228/. Hiroyuki Uetake, Kenichi Sugihara, Kei Muro, Toshiyuki Sunaya, Yuka Horiuchi-Yamamoto, and Hajime Takikawa. Clinical features of regorafenib-induced liver injury in japanese patients from postmarketing experience. Clinical Colorectal Cancer, 17(1):e49\u2013e58, 2018. doi: 10.1016/j.clcc. 2017.09.004. URL https://pubmed.ncbi.nlm.nih.gov/29074353/. U.S. Food and Drug Administration. Stivarga (regorafenib) tablet prescribing information, initial approval. https://www.accessdata.fda.gov/drugsatfda_docs/label/2012/203085lbl. pdf, 2012. Accessed September 2025.",
+   "title": "Reddit and radiation therapy: A descriptive analysis of posts and comments over seven years by patients and health care professionals",
+   "authors": [
+    "Thomas",
+    "Prabhu",
+    "Heron",
+    "Beriwal",
+    "Uetake",
+    "Sugihara",
+    "Muro",
+    "Sunaya",
+    "Horiuchi-Yamamoto",
+    "Takikawa"
+   ],
+   "year": 2019,
+   "doi": "10.1016/j.adro.2019.01.007",
+   "arxiv": null,
+   "urls": [
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6460228/",
+    "https://www.accessdata.fda.gov/drugsatfda_docs/label/2012/203085lbl",
+    "https://pubmed.ncbi.nlm.nih.gov/29074353/"
+   ],
+   "container": "2017.09.004. URL https://pubmed.ncbi.nlm.nih.gov/29074353/. U.S. Food and Drug Administration",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.adro.2019.01.007",
+    "title": "Reddit and Radiation Therapy: A Descriptive Analysis of Posts and Comments Over 7\u00a0Years by Patients and Health Care Professionals",
+    "year": 2019,
+    "first_author": "Thomas",
+    "container": "Advances in Radiation Oncology",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 99.15966386554622,
+    "containment": 1.0,
+    "partial_ratio": 96.09375,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 17,
+   "raw": "U.S. Food and Drug Administration. Data mining at FDA \u2013 white paper, 2018. URL https: //www.fda.gov/science-research/data-mining/data-mining-fda-white-paper.",
+   "title": "Data mining at FDA \u2013 white paper",
+   "authors": [
+    "Food",
+    "Administration"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https:"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.17226/25217_5",
+      "title": "White Paper in Support of NASA's Proposed Open Code Data Policy",
+      "year": 2018,
+      "first_author": "Mason",
+      "container": "",
+      "type": "report",
+      "score": 24.794003
+     },
+     "metrics": {
+      "title_sim": 69.56521739130434,
+      "containment": 0.333,
+      "partial_ratio": 52.38095238095239,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    },
+    {
+     "step": "urls_not_live",
+     "url_status": {
+      "https:": "error"
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 18,
+   "raw": "U.S. Food and Drug Administration. Sentinel system five-year strategy: 2019\u20132023, 2019. URL https://www.fda.gov/media/120333/download.",
+   "title": "Sentinel system five-year strategy",
+   "authors": [
+    "Food",
+    "Administration"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://www.fda.gov/media/120333/download"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED_URL",
+   "via": "url",
+   "url_status": {
+    "https://www.fda.gov/media/120333/download": 200
+   },
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.7748/mhp.22.3.6.s3",
+      "title": "NMC invites registrants to help shape its five-year strategy",
+      "year": 2019,
+      "first_author": null,
+      "container": "Mental Health Practice",
+      "type": "journal-article",
+      "score": 25.426476
+     },
+     "metrics": {
+      "title_sim": 69.23076923076923,
+      "containment": 0.375,
+      "partial_ratio": 61.66666666666667,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 19,
+   "raw": "U.S. Food and Drug Administration. FDA\u2019s sentinel initiative, 2024. URL https://www.fda.gov/ safety/fdas-sentinel-initiative.",
+   "title": "FDA\u2019s sentinel initiative",
+   "authors": [
+    "Food",
+    "Administration"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://www.fda.gov/"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED_URL",
+   "via": "url",
+   "url_status": {
+    "https://www.fda.gov/": 200
+   },
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1377/forefront.20150608.048285",
+      "title": "New Health Policy Brief: The FDA\u2019s Sentinel Initiative",
+      "year": 2015,
+      "first_author": null,
+      "container": "Forefront Group",
+      "type": "dataset",
+      "score": 38.998802
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 0.429,
+      "partial_ratio": 70.2127659574468,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 20,
+   "raw": "U.S. Food and Drug Administration. Drug safety priorities fiscal year 2024 (published 2025), 2025a. URL https://www.fda.gov/media/185592/download. U.S. Food and Drug Administration. Opdivo (nivolumab) injection, for intravenous use. prescribing information. https://www.accessdata.fda.gov/drugsatfda_docs/label/ 2025/125554s124lbl.pdf, 2025b. Accessed September 2025. U.S. Food and Drug Administration. Stivarga (regorafenib) tablets, full prescribing information, revision 2/2025. https://www.accessdata.fda.gov/drugsatfda_docs/label/ 2025/203085s016lbl.pdf, 2025c. Accessed September 2025. H. Wang, Y. Jin, P. Liu, et al. Immune checkpoint inhibitor-related pneumonitis following discontinuation of pembrolizumab in a patient with advanced lung adenocarcinoma: a case report and literature review. BMC Pulmonary Medicine, 24:597, 2024. doi: 10.1186/s12890-024-03424-9. Robert B Weiss, Ross C Donehower, Peter H Wiernik, et al. Hypersensitivity reactions from taxol. Journal of Clinical Oncology, 8(7):1263\u20131268, 1990.",
+   "title": "Drug safety priorities fiscal year 2024",
+   "authors": [
+    "Food",
+    "Administration",
+    "Food",
+    "Administration",
+    "Food",
+    "Administration",
+    "Wang",
+    "Jin",
+    "Liu"
+   ],
+   "year": 2025,
+   "doi": "10.1186/s12890-024-03424-9",
+   "arxiv": null,
+   "urls": [
+    "https://www.fda.gov/media/185592/download",
+    "https://www.accessdata.fda.gov/drugsatfda_docs/label/"
+   ],
+   "container": "BMC Pulmonary Medicine",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1186/s12890-024-03424-9",
+    "title": "Immune checkpoint inhibitor-related pneumonitis following discontinuation of pembrolizumab in a patient with advanced lung adenocarcinoma: a case report and literature review",
+    "year": 2024,
+    "first_author": "Wang",
+    "container": "BMC Pulmonary Medicine",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 22.64150943396226,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 21,
+   "raw": "Bin Zhao and Hong Zhao. Incidence and risk of regorafenib-induced hepatotoxicity. Oncotarget, 8 (48):84102\u201384111, 2017. doi: 10.18632/oncotarget.21106. URL https://pubmed.ncbi.nlm. nih.gov/29137408/. J. Zhu, Z. Zhou, Z. Shen, et al. Pneumonitis induced by immune checkpoint inhibitors. Frontiers in Oncology, 10:1785, 2020. doi: 10.3389/fonc.2020.01785. Ivan Zorych, David Madigan, Patrick Ryan, and Andrew Bate. Disproportionality methods for pharmacovigilance in longitudinal observational databases. Statistical Methods in Medical Research, 22(1):39\u201356, 2013. doi: 10.1177/0962280211403602. URL https://doi.org/10. 1177/0962280211403602.",
+   "title": "Incidence and risk of regorafenib-induced hepatotoxicity",
+   "authors": [
+    "Zhao",
+    "Zhao",
+    "Zhu",
+    "Zhou",
+    "Shen"
+   ],
+   "year": 2017,
+   "doi": "10.18632/oncotarget.21106",
+   "arxiv": null,
+   "urls": [
+    "https://pubmed.ncbi.nlm",
+    "https://doi.org/10"
+   ],
+   "container": "Oncotarget",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18632/oncotarget.21106",
+    "title": "Incidence and risk of regorafenib-induced hepatotoxicity",
+    "year": 2017,
+    "first_author": "Zhao",
+    "container": "Oncotarget",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  }
+ ]
+}

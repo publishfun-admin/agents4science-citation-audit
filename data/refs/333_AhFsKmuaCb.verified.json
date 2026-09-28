@@ -1,0 +1,1106 @@
+{
+ "pdf": "333_AhFsKmuaCb.pdf",
+ "n_entries": 24,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": false,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "\u2022 Literature Mining: The Abstract Mining Agent used the NCBI E-utilities API to execute complex boolean queries against the PubMed database. \u2022 Cheminformatics and Data: Agents accessed the ChEMBL database for inhibitor data and the Therapeutic Data Commons for ADME/Tox datasets. Molecular feature extraction was performed using the open-source RDKit library. \u2022 Predictive Modeling: The framework trained and utilized custom-trained XGBoost models for bioactivity and ADME/Tox predictions. \u2022 Generative Chemistry: The de novo design of molecules was performed using the NVIDIA MolMIM API, which functioned as the core Molecule Generation Engine.",
+   "title": "The Abstract Mining Agent used the NCBI E-utilities API to execute complex boolean queries against the PubMed database. \u2022 Cheminformatics and Data: Agents accessed the ChEMBL database for inhibitor data and the Therapeutic Data Commons for ADME/Tox datasets. Molecular feature extraction was performed using the open-source RDKit library. \u2022 Predictive Modeling: The framework trained and utilized custom-trained XGBoost models for bioactivity and ADME/Tox predictions",
+   "authors": [
+    "Mining"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.11591/ijeecs.v37.i1.pp241-249",
+      "title": "A comparative study of pre-trained models for image feature extraction in weather image classification using orange data mining",
+      "year": 2025,
+      "first_author": "Doungpaisan",
+      "container": "Indonesian Journal of Electrical Engineering and Computer Science",
+      "type": "journal-article",
+      "score": 58.14056
+     },
+     "metrics": {
+      "title_sim": 33.162393162393165,
+      "containment": 0.429,
+      "partial_ratio": 51.181102362204726,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[1] E. Sayers. The E-utilities In-Depth: Parameters, Syntax and More. National Center for Biotechnology Information (US), Bethesda (MD), 2009. Available at https://www.ncbi.nlm.nih. gov/books/NBK25499/ (accessed October 18, 2025).",
+   "title": "The E-utilities In-Depth: Parameters, Syntax and More. National Center for Biotechnology Information (US",
+   "authors": [
+    "Sayers"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://www.ncbi.nlm.nih"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.32388/uq8dyz",
+    "title": "National Center for Biotechnology Information",
+    "year": 2020,
+    "first_author": null,
+    "container": "Definitions",
+    "type": "reference-entry",
+    "score": 30.13432
+   },
+   "metrics": {
+    "title_sim": 62.06896551724138,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": null
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[2] D. Mendez, A. Gaulton, A. P. Bento, J. Chambers, M. De Veij, E. F\u00e9lix, et al. ChEMBL: towards direct deposition of bioassay data. Nucleic Acids Research, Nucleic Acids Research, Volume 47, Issue D1, 08 January 2019, Pages D930\u2013D940. Available at https://doi.org/10.1093/ nar/gky1075 (accessed October 18, 2025).",
+   "title": "ChEMBL: towards direct deposition of bioassay data",
+   "authors": [
+    "Mendez",
+    "Gaulton",
+    "Bento",
+    "Chambers",
+    "Veij",
+    "F\u00e9lix"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://doi.org/10.1093/"
+   ],
+   "container": "Nucleic Acids Research, Nucleic Acids Research",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1093/nar/gky1075",
+    "title": "ChEMBL: towards direct deposition of bioassay data",
+    "year": 2019,
+    "first_author": "Mendez",
+    "container": "Nucleic Acids Research",
+    "type": "journal-article",
+    "score": 41.602196
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[3] RDKit Development Team. RDKit: Open-source cheminformatics software. Tech. report, RDKit project, 2025. Available at https://www.rdkit.org/ (accessed October 18, 2025).",
+   "title": "RDKit: Open-source cheminformatics software",
+   "authors": [
+    "Team"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://www.rdkit.org/"
+   ],
+   "container": null,
+   "type": "report",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED_URL",
+   "via": "url",
+   "url_status": {
+    "https://www.rdkit.org/": 200
+   },
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.59350/b499m-9qw03",
+      "title": "PerlMol: A Case Study in Open Source Cheminformatics Software",
+      "year": 2007,
+      "first_author": "Apodaca",
+      "container": "",
+      "type": "posted-content",
+      "score": 36.028496
+     },
+     "metrics": {
+      "title_sim": 92.3076923076923,
+      "containment": 0.571,
+      "partial_ratio": 75.0,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[4] T. Chen and C. Guestrin. XGBoost: A Scalable Tree Boosting System. In Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, pages 785\u2013794, 2016. Available at https://doi.org/10.1145/2939672.293978 (accessed October 18, 2025).",
+   "title": "XGBoost: A Scalable Tree Boosting System",
+   "authors": [
+    "Chen",
+    "Guestrin"
+   ],
+   "year": 2016,
+   "doi": "10.1145/2939672.293978",
+   "arxiv": null,
+   "urls": [
+    "https://doi.org/10.1145/2939672.293978"
+   ],
+   "container": "Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/2939672.2939785",
+    "title": "XGBoost",
+    "year": 2016,
+    "first_author": "Chen",
+    "container": "Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining",
+    "type": "proceedings-article",
+    "score": 47.44435
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "doi_not_resolvable",
+     "doi": "10.1145/2939672.293978"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[5] NVIDIA. MolMIM API Reference: Controlled molecule generation model (MolMIM). NVIDIA, 2024. Available at https://docs.api.nvidia.com/nim/reference/nvidia-molmim (accessed October 18, 2025).",
+   "title": "MolMIM API Reference: Controlled molecule generation model (MolMIM",
+   "authors": [],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://docs.api.nvidia.com/nim/reference/nvidia-molmim"
+   ],
+   "container": "NVIDIA",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED_URL",
+   "via": "url",
+   "url_status": {
+    "https://docs.api.nvidia.com/nim/reference/nvidia-molmim": 200
+   },
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1021/acs.orglett.6b00186.s001",
+      "title": "A Small Molecule for Controlled Generation of Peroxynitrite",
+      "year": 2020,
+      "first_author": null,
+      "container": "",
+      "type": "component",
+      "score": 26.196846
+     },
+     "metrics": {
+      "title_sim": 70.6896551724138,
+      "containment": 0.6,
+      "partial_ratio": 55.93220338983051,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[6] K. Huang, T. Fu, W. Gao, Y. Zhao, Y. Roohani, J. Leskovec, C. W. Coley, C. Xiao, J. Sun, and M. Zitnik. Therapeutics Data Commons: Machine Learning Datasets and Tasks for Drug Discovery and Development. In Proceedings of the 35th Conference on Neural Information Processing Systems (NeurIPS 2021). Track on Datasets and Benchmarks. Available at https: //tdcommons.ai (accessed October 18, 2025).",
+   "title": "Therapeutics Data Commons: Machine Learning Datasets and Tasks for Drug Discovery and Development",
+   "authors": [
+    "Huang",
+    "Fu",
+    "Gao",
+    "Zhao",
+    "Roohani",
+    "Leskovec",
+    "Coley",
+    "Xiao",
+    "Sun",
+    "Zitnik"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 35th Conference on Neural Information Processing Systems (NeurIPS 2021). Track on Datasets and Benchmarks",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.23880/oajpr-16000290",
+      "title": "Machine Learning Applications in Drug Discovery and Development",
+      "year": 2023,
+      "first_author": "D",
+      "container": "Open Access Journal of Pharmaceutical Research",
+      "type": "journal-article",
+      "score": 35.01284
+     },
+     "metrics": {
+      "title_sim": 85.45454545454545,
+      "containment": 0.833,
+      "partial_ratio": 74.60317460317461,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[7] O. J. Wouters, M. McKee, and J. Luyten. Estimated Research and Development Investment Needed to Bring a New Medicine to Market, 2009-2018. JAMA, 323(9):844\u2013853, 2020. Available at https://doi.org/10.1001/jama.2020.1166 (accessed October 18, 2025).",
+   "title": "Estimated Research and Development Investment Needed to Bring a New Medicine to Market, 2009-2018",
+   "authors": [
+    "Wouters",
+    "McKee",
+    "Luyten"
+   ],
+   "year": 2020,
+   "doi": "10.1001/jama.2020.1166",
+   "arxiv": null,
+   "urls": [
+    "https://doi.org/10.1001/jama.2020.1166"
+   ],
+   "container": "JAMA",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1001/jama.2020.1166",
+    "title": "Estimated Research and Development Investment Needed to Bring a New Medicine to Market, 2009-2018",
+    "year": 2020,
+    "first_author": "Wouters",
+    "container": "JAMA",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[8] N. Fleming. How artificial intelligence is changing drug discovery. Nature, 557(7707):55\u201357, 2018. Available at https://doi.org/10.1038/d41586-018-05267-x (accessed October 18, 2025).",
+   "title": "How artificial intelligence is changing drug discovery",
+   "authors": [
+    "Fleming"
+   ],
+   "year": 2018,
+   "doi": "10.1038/d41586-018-05267-x",
+   "arxiv": null,
+   "urls": [
+    "https://doi.org/10.1038/d41586-018-05267-x"
+   ],
+   "container": "Nature",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/d41586-018-05267-x",
+    "title": "How artificial intelligence is changing drug discovery",
+    "year": 2018,
+    "first_author": "Fleming",
+    "container": "Nature",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[9] B. S\u00e1nchez-Lengeling and A. Aspuru-Guzik. Inverse Molecular Design using Machine Learning: Generative Models for Matter Engineering. Science, vol. 361(6400):360-365, 2018. Available at https://doi.org/10.1126/science.aat2663. Accessed: October 18, 2025.",
+   "title": "Inverse Molecular Design using Machine Learning: Generative Models for Matter Engineering",
+   "authors": [
+    "S\u00e1nchez-Lengeling",
+    "Aspuru-Guzik"
+   ],
+   "year": 2018,
+   "doi": "10.1126/science.aat2663",
+   "arxiv": null,
+   "urls": [
+    "https://doi.org/10.1126/science.aat2663"
+   ],
+   "container": "Science",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1126/science.aat2663",
+    "title": "Inverse molecular design using machine learning: Generative models for matter engineering",
+    "year": 2018,
+    "first_author": "Sanchez-Lengeling",
+    "container": "Science",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "[10] Z. Xu, F. Ren, P. Wang, J. Cao, C. Tan, D. Ma, L. Zhao, J. Dai, Y. Ding, H. Fang, H. Li, H. Liu, F. Luo, Y. Meng, P. Pan, P. Xiang, Z. Xiao, S. Rao, C. Satler, S. Liu, Y. Lv, H. Zhao, S. Chen, H. Cui, M. Korzinkin, D. Gennert, A. Zhavoronkov, et al. A generative AI-discovered TNIK inhibitor for idiopathic pulmonary fibrosis: a randomized phase 2a trial. Nature Medicine, 31(8):2602\u20132610, 2025. Available at https://doi.org/10.1038/s41591-025-03743-2. Accessed: October 18, 2025.",
+   "title": "A generative AI-discovered TNIK inhibitor for idiopathic pulmonary fibrosis: a randomized phase 2a trial",
+   "authors": [
+    "Xu",
+    "Ren",
+    "Wang",
+    "Cao",
+    "Tan",
+    "Ma",
+    "Zhao",
+    "Dai",
+    "Ding",
+    "Fang",
+    "Li",
+    "Liu",
+    "Luo",
+    "Meng",
+    "Pan",
+    "Xiang",
+    "Xiao",
+    "Rao",
+    "Satler",
+    "Liu",
+    "Lv",
+    "Zhao",
+    "Chen",
+    "Cui",
+    "Korzinkin",
+    "Gennert",
+    "Zhavoronkov"
+   ],
+   "year": 2025,
+   "doi": "10.1038/s41591-025-03743-2",
+   "arxiv": null,
+   "urls": [
+    "https://doi.org/10.1038/s41591-025-03743-2"
+   ],
+   "container": "Nature Medicine",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/s41591-025-03743-2",
+    "title": "A generative AI-discovered TNIK inhibitor for idiopathic pulmonary fibrosis: a randomized phase 2a trial",
+    "year": 2025,
+    "first_author": "Xu",
+    "container": "Nature Medicine",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "[11] A. Santos, A. R. Cola\u00e7o, A. B. Nielsen, L. Niu, M. Strauss, P. E. Geyer, F. Coscia, N. J. Wewer Albrechtsen, F. Mundt, L. J. Jensen, and M. Mann. A knowledge graph to interpret clinical proteomics data. Nature Biotechnology, 40(5):692\u2013702, 2022. Available at https: //www.nature.com/articles/s41587-021-01145-6. Accessed: October 18, 2025.",
+   "title": "A knowledge graph to interpret clinical proteomics data",
+   "authors": [
+    "Santos",
+    "Cola\u00e7o",
+    "Nielsen",
+    "Niu",
+    "Strauss",
+    "Geyer",
+    "Coscia",
+    "Albrechtsen",
+    "Mundt",
+    "Jensen",
+    "Mann"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https:"
+   ],
+   "container": "Nature Biotechnology",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/s41587-021-01145-6",
+    "title": "A knowledge graph to interpret clinical proteomics data",
+    "year": 2022,
+    "first_author": "Santos",
+    "container": "Nature Biotechnology",
+    "type": "journal-article",
+    "score": 39.128586
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "[12] L. Wang, Y. Wu, Y. Deng, B. Kim, L. Pierce, G. Krilov, D. Lupyan, S. Robinson, M. K. Dahlgren, J. Greenwood, D. L. Romero, C. Masse, J. L. Knight, T. Steinbrecher, T. Beuming, W. Damm, E. Harder, R. Abel, and M. Murcko. Accurate and Reliable Prediction of Relative Ligand Binding Potency in Prospective Drug Discovery by Way of a Modern Free-Energy Calculation Protocol and Force Field. Journal of the American Chemical Society, 137(7):2695\u20132703, 2015. Available at https://doi.org/10.1021/ja512751q. Accessed: October 18, 2025.",
+   "title": "Accurate and Reliable Prediction of Relative Ligand Binding Potency in Prospective Drug Discovery by Way of a Modern Free-Energy Calculation Protocol and Force Field",
+   "authors": [
+    "Wang",
+    "Wu",
+    "Deng",
+    "Kim",
+    "Pierce",
+    "Krilov",
+    "Lupyan",
+    "Robinson",
+    "Dahlgren",
+    "Greenwood",
+    "Romero",
+    "Masse",
+    "Knight",
+    "Steinbrecher",
+    "Beuming",
+    "Damm",
+    "Harder",
+    "Abel",
+    "Murcko"
+   ],
+   "year": 2015,
+   "doi": "10.1021/ja512751q",
+   "arxiv": null,
+   "urls": [
+    "https://doi.org/10.1021/ja512751q"
+   ],
+   "container": "Journal of the American Chemical Society",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1021/ja512751q",
+    "title": "Accurate and Reliable Prediction of Relative Ligand Binding Potency in Prospective Drug Discovery by Way of a Modern Free-Energy Calculation Protocol and Force Field",
+    "year": 2015,
+    "first_author": "Wang",
+    "container": "Journal of the American Chemical Society",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "[13] D.C. Elton, Z. Boukouvalas, M.D. Fuge, and P.W. Chung. Deep Learning for Molecular Design\u2014A Review of the State of the Art. Molecular Systems Design & Engineering, 4(4):828\u2013849, 2019. Available at https://doi.org/10.1039/C9ME00039A. Accessed: October 18, 2025.",
+   "title": "Deep Learning for Molecular Design\u2014A Review of the State of the Art",
+   "authors": [
+    "Elton",
+    "Boukouvalas",
+    "Fuge",
+    "Chung"
+   ],
+   "year": 2019,
+   "doi": "10.1039/C9ME00039A",
+   "arxiv": null,
+   "urls": [
+    "https://doi.org/10.1039/C9ME00039A"
+   ],
+   "container": "Molecular Systems Design & Engineering",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1039/c9me00039a",
+    "title": "Deep learning for molecular design\u2014a review of the state of the art",
+    "year": 2019,
+    "first_author": "Elton",
+    "container": "Molecular Systems Design &amp; Engineering",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "[14] X. Liu, J. Zhang, X. Wang, M. Teng, G. Wang, and X. Zhou. Application of artificial intelligence large language models in drug target discovery. Frontiers in Pharmacology, 16:1597351, 2025. Available at https://www.frontiersin.org/articles/10.3389/ fphar.2025.1597351/full. Accessed: October 18, 2025.",
+   "title": "Application of artificial intelligence large language models in drug target discovery",
+   "authors": [
+    "Liu",
+    "Zhang",
+    "Wang",
+    "Teng",
+    "Wang",
+    "Zhou"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://www.frontiersin.org/articles/10.3389/"
+   ],
+   "container": "Frontiers in Pharmacology",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.3389/fphar.2025.1597351",
+    "title": "Application of artificial intelligence large language models in drug target discovery",
+    "year": 2025,
+    "first_author": "Liu",
+    "container": "Frontiers in Pharmacology",
+    "type": "journal-article",
+    "score": 55.522137
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 16,
+   "raw": "[15] C. Pang, J. Qiao, X. Zeng, Q. Zou, and L. Wei. Deep Generative Models in De Novo Drug Molecule Generation. Journal of Chemical Information and Modeling, 64(1):1\u201314, 2024.",
+   "title": "Deep Generative Models in De Novo Drug Molecule Generation",
+   "authors": [
+    "Pang",
+    "Qiao",
+    "Zeng",
+    "Zou",
+    "Wei"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Chemical Information and Modeling",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1021/acs.jcim.3c01496",
+    "title": "Deep Generative Models in\n                    <i>De Novo</i>\n                    Drug Molecule Generation",
+    "year": 2024,
+    "first_author": "Pang",
+    "container": "Journal of Chemical Information and Modeling",
+    "type": "journal-article",
+    "score": 52.091125
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 93.5483870967742,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": true,
+   "idx": 17,
+   "raw": "Available at https://doi.org/10.1021/acs.jcim.3c01496. Accessed: October 18, 2025.",
+   "title": null,
+   "authors": [],
+   "year": null,
+   "doi": "10.1021/acs.jcim.3c01496",
+   "arxiv": null,
+   "urls": [
+    "https://doi.org/10.1021/acs.jcim.3c01496"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "doi_resolves_title_mismatch",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1021/acs.jcim.3c01496",
+      "title": "Deep Generative Models in\n                    <i>De Novo</i>\n                    Drug Molecule Generation",
+      "year": 2024,
+      "first_author": "Pang",
+      "container": "Journal of Chemical Information and Modeling",
+      "type": "journal-article",
+      "score": 1
+     },
+     "metrics": {
+      "title_sim": 0,
+      "containment": 0.0,
+      "partial_ratio": 33.87096774193549,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1017/s0009840x25100516",
+      "title": "THE\n                    <i>GRAMMATEUS</i>\n                    PROJECT - (G.) Bonagura, (R.-L.) Chang, (L.) Ferretti, (S.) Fogarty, (E.) Nury, (P.) Schubert Grammateus, 2019\u20132026. URL https://grammateus.unige.ch, DOI: https://doi.org/10/gsc68x (last accessed 18/04/2025).",
+      "year": 2025,
+      "first_author": "Berti",
+      "container": "The Classical Review",
+      "type": "journal-article",
+      "score": 34.4817
+     },
+     "metrics": {
+      "title_sim": 0,
+      "containment": 0.304,
+      "partial_ratio": 61.904761904761905,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 18,
+   "raw": "[16] K. C. Kodela. Autonomous Agentic AI Systems for Pharmaceutical Drug Discovery: A Multi-Agent Framework for Molecular Design and Optimization. SSRN, 2025. Available at https: //ssrn.com/abstract=5382801 (accessed October 18, 2025).",
+   "title": "Autonomous Agentic AI Systems for Pharmaceutical Drug Discovery: A Multi-Agent Framework for Molecular Design and Optimization",
+   "authors": [
+    "Kodela"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https:"
+   ],
+   "container": "SSRN",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.2139/ssrn.5382801",
+    "title": "Autonomous Agentic AI Systems for Pharmaceutical Drug Discovery: A Multi-Agent Framework for Molecular Design and Optimization",
+    "year": 2025,
+    "first_author": "Kodela",
+    "container": "",
+    "type": "posted-content",
+    "score": 103.97138
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 19,
+   "raw": "[17] D. A. Boiko, R. MacKnight, and G. Gomes. Emergent autonomous scientific research capabilities of large language models. arXiv preprint arXiv:2304.05332, April 11 2023. Available at https://arxiv.org/abs/2304.05332. Accessed: October 18, 2025.",
+   "title": "Emergent autonomous scientific research capabilities of large language models",
+   "authors": [
+    "Boiko",
+    "MacKnight",
+    "Gomes"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2304.05332",
+   "urls": [
+    "https://arxiv.org/abs/2304.05332"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/s41586-023-06792-0",
+    "title": "Autonomous chemical research with large language models",
+    "year": 2023,
+    "first_author": "Boiko",
+    "container": "Nature",
+    "type": "journal-article",
+    "score": 41.86271
+   },
+   "metrics": {
+    "title_sim": 85.41666666666667,
+    "containment": 0.833,
+    "partial_ratio": 67.27272727272727,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2304.05332"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 20,
+   "raw": "[18] Insilico Medicine. From Start to Phase 1 in 30 Months: AI-discovered and AI-designed Antifibrotic Drug Enters Phase I Clinical Trial. Insilico Medicine (US/HK), February 24, 2022.",
+   "title": "From Start to Phase 1 in 30 Months: AI-discovered and AI-designed Antifibrotic Drug Enters Phase I Clinical Trial",
+   "authors": [
+    "Medicine"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.7159442",
+      "title": "Analyzing An Early-Phase Randomized Controlled Clinical Trial Using Generative AI",
+      "year": 2026,
+      "first_author": "Sattar",
+      "container": "",
+      "type": "posted-content",
+      "score": 37.306282
+     },
+     "metrics": {
+      "title_sim": 56.52173913043478,
+      "containment": 0.375,
+      "partial_ratio": 50.617283950617285,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": true,
+   "idx": 21,
+   "raw": "Available at https://insilico.com/phase1 (accessed October 18, 2025).",
+   "title": null,
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://insilico.com/phase1"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED_URL",
+   "via": "url",
+   "url_status": {
+    "https://insilico.com/phase1": 200
+   },
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1080/17547075.2025.2605022",
+      "title": "Bajub\u00e1 Collection",
+      "year": 2026,
+      "first_author": "Altmayer",
+      "container": "Design and Culture",
+      "type": "journal-article",
+      "score": 33.241253
+     },
+     "metrics": {
+      "title_sim": 0,
+      "containment": 0.0,
+      "partial_ratio": 41.379310344827594,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 22,
+   "raw": "[19] A. Bess, F. Berglind, S. Mukhopadhyay, M. Brylinski, N. Griggs, T. Cho, C. Galliano, K. M. Wasan. Artificial intelligence for the discovery of novel antimicrobial agents for emerging infectious diseases. Drug Discovery Today, 27(4):1099-1107, 2021. Available at https://doi.org/10.1016/j.drudis.2021.10.022. Accessed: October 18, 2025.",
+   "title": "Artificial intelligence for the discovery of novel antimicrobial agents for emerging infectious diseases",
+   "authors": [
+    "Bess",
+    "Berglind",
+    "Mukhopadhyay",
+    "Brylinski",
+    "Griggs",
+    "Cho",
+    "Galliano",
+    "Wasan"
+   ],
+   "year": 2021,
+   "doi": "10.1016/j.drudis.2021.10.022",
+   "arxiv": null,
+   "urls": [
+    "https://doi.org/10.1016/j.drudis.2021.10.022"
+   ],
+   "container": "Drug Discovery Today",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.drudis.2021.10.022",
+    "title": "Artificial intelligence for the discovery of novel antimicrobial agents for emerging infectious diseases",
+    "year": 2022,
+    "first_author": "Bess",
+    "container": "Drug Discovery Today",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 23,
+   "raw": "[20] G. A. Ross, C. Lu, G. Scarabelli, S. K. Albanese, E. Houang, R. Abel, E. D. Harder, and L. Wang. The maximal and current accuracy of rigorous protein-ligand binding free energy calculations. Communications Chemistry, 2023. Available at https://doi.org/10.1038/ s42004-023-01019-9. Accessed: October 18, 2025.",
+   "title": "The maximal and current accuracy of rigorous protein-ligand binding free energy calculations",
+   "authors": [
+    "Ross",
+    "Lu",
+    "Scarabelli",
+    "Albanese",
+    "Houang",
+    "Abel",
+    "Harder",
+    "Wang"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://doi.org/10.1038/"
+   ],
+   "container": "Communications Chemistry",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.26434/chemrxiv-2022-p2vpg-v2",
+    "title": "The maximal and current accuracy of rigorous protein-ligand binding free energy calculations",
+    "year": 2023,
+    "first_author": "Ross",
+    "container": "",
+    "type": "posted-content",
+    "score": 73.80758
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 24,
+   "raw": "[21] M. F. Cuccarese, B. A. Earnshaw, K. Heiser, B. Fogelson, C. T. Davis, P. F. McLean, H. B. Gordon, K.-R. Skelly, F. L. Weathersby, V. Rodic, I. K. Quigley, E. D. Pastuzyn, B. M. Mendivil, N. H. Lazar, C. A. Brooks, J. Carpenter, B. L. Probst, P. Jacobson, S. W. Glazier, J. Ford, J. D. Jensen, N. D. Campbell, M. A. Statnick, A. S. Low, K. R. Thomas, A. E. Carpenter, S. S. Hegde, R. W. Alfa, M. L. Victors, I. S. Haque, Y. T. Chong, C. C. Gibson. Functional immune mapping with deep-learning enabled phenomics applied to immunomodulatory and COVID-19 drug discovery. bioRxiv, August 2020. Available at https://doi.org/10.1101/2020.08.02.233064. Accessed: October 18, 2025.",
+   "title": "Functional immune mapping with deep-learning enabled phenomics applied to immunomodulatory and COVID-19 drug discovery",
+   "authors": [
+    "Cuccarese",
+    "Earnshaw",
+    "Heiser",
+    "Fogelson",
+    "Davis",
+    "McLean",
+    "Gordon",
+    "Skelly",
+    "Weathersby",
+    "Rodic",
+    "Quigley",
+    "Pastuzyn",
+    "Mendivil",
+    "Lazar",
+    "Brooks",
+    "Carpenter",
+    "Probst",
+    "Jacobson",
+    "Glazier",
+    "Ford",
+    "Jensen",
+    "Campbell",
+    "Statnick",
+    "Low",
+    "Thomas",
+    "Carpenter",
+    "Hegde",
+    "Alfa",
+    "Victors",
+    "Haque",
+    "Chong",
+    "Gibson"
+   ],
+   "year": 2020,
+   "doi": "10.1101/2020.08.02.233064",
+   "arxiv": null,
+   "urls": [
+    "https://doi.org/10.1101/2020.08.02.233064"
+   ],
+   "container": "bioRxiv",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1101/2020.08.02.233064",
+    "title": "Functional immune mapping with deep-learning enabled phenomics applied to immunomodulatory and COVID-19 drug discovery",
+    "year": 2020,
+    "first_author": "Cuccarese",
+    "container": "",
+    "type": "posted-content",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  }
+ ]
+}

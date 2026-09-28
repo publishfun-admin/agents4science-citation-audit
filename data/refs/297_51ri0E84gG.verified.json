@@ -1,0 +1,586 @@
+{
+ "pdf": "297_51ri0E84gG.pdf",
+ "n_entries": 14,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": true,
+   "idx": 1,
+   "raw": "Removing code generation components causes the largest performance drops across all methods, confirming their central role in the generation pipeline.",
+   "title": "Removing code generation components causes the largest performance drops across all methods, confirming their central role in the generation pipeline",
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.5220/0014402200004861",
+      "title": "Retrieval-Augmented Generation in Law: System Paradigms and Optimization across the RAG Pipeline",
+      "year": 2025,
+      "first_author": "Li",
+      "container": "Proceedings of the 3rd International Conference on Data Science, Advanced Algorithms, and Intelligent Computing",
+      "type": "proceedings-article",
+      "score": 31.133575
+     },
+     "metrics": {
+      "title_sim": 50.20576131687242,
+      "containment": 0.3,
+      "partial_ratio": 50.847457627118644,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "References [1] Jock Mackinlay. Automating the design of graphical presentations of relational information. ACM Transactions on Graphics, 5(2):110\u2013141, 1986.",
+   "title": "Automating the design of graphical presentations of relational information",
+   "authors": [
+    "References [1] Jock Mackinlay."
+   ],
+   "year": 1986,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "ACM Transactions on Graphics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/22949.22950",
+    "title": "Automating the design of graphical presentations of relational information",
+    "year": 1986,
+    "first_author": "Mackinlay",
+    "container": "ACM Transactions on Graphics",
+    "type": "journal-article",
+    "score": 66.1297
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[2] William S. Cleveland and Robert McGill. Graphical perception: Theory, experimentation, and application to the development of graphical methods. Journal of the American Statistical Association, 79(387):531\u2013554, 1984.",
+   "title": "Graphical perception: Theory, experimentation, and application to the development of graphical methods",
+   "authors": [
+    "Cleveland",
+    "McGill"
+   ],
+   "year": 1984,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of the American Statistical Association",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1080/01621459.1984.10478080",
+    "title": "Graphical Perception: Theory, Experimentation, and Application to the Development of Graphical Methods",
+    "year": 1984,
+    "first_author": "Cleveland",
+    "container": "Journal of the American Statistical Association",
+    "type": "journal-article",
+    "score": 67.42332
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[3] Chenyang Chen, Yizhe Zhang, and Bill Dolan. Plot2Code: A comprehensive benchmark for evaluating multi-modal large language models in code generation from scientific plots. Advances in Neural Information Processing Systems, 34:15701\u201315714, 2021.",
+   "title": "Plot2Code: A comprehensive benchmark for evaluating multi-modal large language models in code generation from scientific plots",
+   "authors": [
+    "Chen",
+    "Zhang",
+    "Dolan"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.18653/v1/2025.findings-naacl.164",
+      "title": "Plot2Code: A Comprehensive Benchmark for Evaluating Multi-modal Large Language Models in Code Generation from Scientific Plots",
+      "year": 2025,
+      "first_author": "Wu",
+      "container": "Findings of the Association for Computational Linguistics: NAACL 2025",
+      "type": "proceedings-article",
+      "score": 81.62266
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 1.0,
+      "partial_ratio": 100.0,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[4] Ahmed Masry, Do Long, Jia Qing Tan, Shafiq Joty, and Enamul Hoque. ChartQA: A benchmark for question answering about charts with visual and logical reasoning. In Findings of ACL, pages 2263\u20132279, 2022.",
+   "title": "ChartQA: A benchmark for question answering about charts with visual and logical reasoning",
+   "authors": [
+    "Masry",
+    "Long",
+    "Tan",
+    "Joty",
+    "Hoque"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Findings of ACL",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2022.findings-acl.177",
+    "title": "ChartQA: A Benchmark for Question Answering about Charts with Visual and Logical Reasoning",
+    "year": 2022,
+    "first_author": "Masry",
+    "container": "Findings of the Association for Computational Linguistics: ACL 2022",
+    "type": "proceedings-article",
+    "score": 88.8384
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[5] Shankar Kantharaj, Rixie Tiffany Ko Leong, Xiang Lin, Ahmed Masry, Megh Thakkar, Enamul Hoque, and Shafiq Joty. Chart-to-text: A large-scale benchmark for chart summarization. In Proceedings of ACL, pages 4005\u20134023, 2022.",
+   "title": "Chart-to-text: A large-scale benchmark for chart summarization",
+   "authors": [
+    "Kantharaj",
+    "Leong",
+    "Lin",
+    "Masry",
+    "Thakkar",
+    "Hoque",
+    "Joty"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of ACL",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2022.acl-long.277",
+    "title": "Chart-to-Text: A Large-Scale Benchmark for Chart Summarization",
+    "year": 2022,
+    "first_author": "Kantharaj",
+    "container": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "type": "proceedings-article",
+    "score": 67.44066
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[6] Ting-Yao Hsu, C Lee Giles, and Ting-Hao Kenneth Huang. SciCap: Generating captions for scientific figures. In Findings of EMNLP, pages 3258\u20133264, 2021.",
+   "title": "SciCap: Generating captions for scientific figures",
+   "authors": [
+    "Ting-Yao Hsu",
+    "Huang"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Findings of EMNLP",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2021.findings-emnlp.277",
+    "title": "SciCap: Generating Captions for Scientific Figures",
+    "year": 2021,
+    "first_author": "Hsu",
+    "container": "Findings of the Association for Computational Linguistics: EMNLP 2021",
+    "type": "proceedings-article",
+    "score": 61.87422
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[7] Alec Radford, Jong Wook Kim, Chris Hallacy, Aditya Ramesh, Gabriel Goh, Sandhini Agarwal, Girish Sastry, et al. Learning transferable visual representations from natural language supervision. In ICML, pages 8748\u20138763, 2021.",
+   "title": "Learning transferable visual representations from natural language supervision",
+   "authors": [
+    "Radford",
+    "Kim",
+    "Hallacy",
+    "Ramesh",
+    "Goh",
+    "Agarwal",
+    "Sastry"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "ICML",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1145/3650212.3652145",
+      "title": "CLAP: Learning Transferable Binary Code Representations with Natural Language Supervision",
+      "year": 2024,
+      "first_author": "Wang",
+      "container": "Proceedings of the 33rd ACM SIGSOFT International Symposium on Software Testing and Analysis",
+      "type": "proceedings-article",
+      "score": 34.427956
+     },
+     "metrics": {
+      "title_sim": 91.66666666666667,
+      "containment": 0.667,
+      "partial_ratio": 81.81818181818181,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[8] Aditya Ramesh, Mikhail Pavlov, Gabriel Goh, Scott Gray, Chelsea Voss, Alec Radford, Mark Chen, and Ilya Sutskever. Zero-shot text-to-image generation. In ICML, pages 8821\u20138831, 2021.",
+   "title": "Zero-shot text-to-image generation",
+   "authors": [
+    "Ramesh",
+    "Pavlov",
+    "Goh",
+    "Gray",
+    "Voss",
+    "Radford",
+    "Chen",
+    "Sutskever"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "ICML",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/cvpr52688.2022.01739",
+    "title": "ZeroCap: Zero-Shot Image-to-Text Generation for Visual-Semantic Arithmetic",
+    "year": 2022,
+    "first_author": "Tewel",
+    "container": "2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "type": "proceedings-article",
+    "score": 32.44566
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.556,
+    "partial_ratio": 54.67625899280575,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[9] OpenAI. GPT-4V(ision) system card. Technical report, OpenAI, 2023.",
+   "title": "GPT-4V(ision) system card",
+   "authors": [],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "report",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.3390/ijgi13040127",
+      "title": "Map Reading and Analysis with GPT-4V(ision)",
+      "year": 2024,
+      "first_author": "Xu",
+      "container": "ISPRS International Journal of Geo-Information",
+      "type": "journal-article",
+      "score": 37.48087
+     },
+     "metrics": {
+      "title_sim": 66.66666666666666,
+      "containment": 0.4,
+      "partial_ratio": 57.14285714285714,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "[10] Jean-Baptiste Alayrac, Jeff Donahue, Pauline Luc, Antoine Miech, Iain Barr, Yana Hasson, Karel Lenc, et al. Flamingo: A visual language model for few-shot learning. In NeurIPS, pages 23716\u201323736, 2022.",
+   "title": "Flamingo: A visual language model for few-shot learning",
+   "authors": [
+    "Alayrac",
+    "Donahue",
+    "Luc",
+    "Miech",
+    "Barr",
+    "Hasson",
+    "Lenc"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "NeurIPS",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/068431-1723",
+    "title": "Flamingo: A Visual Language Model for Few-Shot Learning",
+    "year": 2022,
+    "first_author": "Alayrac",
+    "container": "Advances in Neural Information Processing Systems 35",
+    "type": "proceedings-article",
+    "score": 42.059246
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "[11] Weihao Chen, Zhenghao Lin, Yihong Chen, et al. AgentVerse: Facilitating multi-agent collaboration and exploring emergent behaviors in agents. arXiv preprint arXiv:2308.10848, 2023.",
+   "title": "AgentVerse: Facilitating multi-agent collaboration and exploring emergent behaviors in agents",
+   "authors": [
+    "Chen",
+    "Lin",
+    "Chen"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2308.10848",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2308.10848"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.5957495",
+      "title": "Multi-Agent Systems and Social Intelligence: A Comprehensive Survey on Collaboration, Communication, and Emergent Behaviors",
+      "year": 2026,
+      "first_author": "Deng",
+      "container": "",
+      "type": "posted-content",
+      "score": 32.358242
+     },
+     "metrics": {
+      "title_sim": 68.57142857142857,
+      "containment": 0.455,
+      "partial_ratio": 53.333333333333336,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "[12] Mark Chen, Jerry Tworek, Heewoo Jun, Qiming Yuan, Henrique Ponde de Oliveira Pinto, Jared Kaplan, Harri Edwards, et al. Evaluating large language models trained on code. arXiv preprint arXiv:2107.03374, 2021.",
+   "title": "Evaluating large language models trained on code",
+   "authors": [
+    "Chen",
+    "Tworek",
+    "Jun",
+    "Yuan",
+    "Oliveira Pinto",
+    "Kaplan",
+    "Edwards"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": "2107.03374",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2107.03374"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.31274/td-20250502-3",
+      "title": "Analyzing redundancy in code-trained language models",
+      "year": 2025,
+      "first_author": "Sharma",
+      "container": "",
+      "type": "dissertation",
+      "score": 36.195316
+     },
+     "metrics": {
+      "title_sim": 76.0,
+      "containment": 0.667,
+      "partial_ratio": 55.769230769230774,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "[13] Yue Wang, Weishi Wang, Shafiq Joty, and Steven C.H. Hoi. CodeT5: Identifier-aware unified pre-trained encoder-decoder models for code understanding and generation. In EMNLP, pages 8696\u20138708, 2021.",
+   "title": "CodeT5: Identifier-aware unified pre-trained encoder-decoder models for code understanding and generation",
+   "authors": [
+    "Wang",
+    "Wang",
+    "Joty",
+    "Hoi"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "EMNLP",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2021.emnlp-main.685",
+    "title": "CodeT5: Identifier-aware Unified Pre-trained Encoder-Decoder Models for Code Understanding and Generation",
+    "year": 2021,
+    "first_author": "Wang",
+    "container": "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing",
+    "type": "proceedings-article",
+    "score": 99.41174
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  }
+ ]
+}

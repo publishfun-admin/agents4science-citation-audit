@@ -1,0 +1,585 @@
+{
+ "pdf": "201_ZpW3U6NkS7.pdf",
+ "n_entries": 11,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 2,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "Stanislaw Antol, Aishwarya Agrawal, Jiasen Lu, Margaret Mitchell, Dhruv Batra, C Lawrence Zitnick, and Devi Parikh. Vqa: Visual question answering. In Proceedings of the IEEE international conference on computer vision, pp. 2425\u20132433, 2015.",
+   "title": "Vqa: Visual question answering",
+   "authors": [
+    "Antol",
+    "Agrawal",
+    "Lu",
+    "Mitchell",
+    "Dhruv Batra",
+    "Parikh"
+   ],
+   "year": 2015,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the IEEE international conference on computer vision",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/iccv.2015.279",
+    "title": "VQA: Visual Question Answering",
+    "year": 2015,
+    "first_author": "Antol",
+    "container": "2015 IEEE International Conference on Computer Vision (ICCV)",
+    "type": "proceedings-article",
+    "score": 54.08065
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. Bert: Pre-training of deep bidirectional transformers for language understanding. In Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, pp. 4171\u20134186, 2019.",
+   "title": "Bert: Pre-training of deep bidirectional transformers for language understanding",
+   "authors": [
+    "Devlin",
+    "Chang",
+    "Lee",
+    "Toutanova"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/n19-1423",
+    "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+    "year": 2019,
+    "first_author": "Devlin",
+    "container": "Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)",
+    "type": "proceedings-article",
+    "score": 60.74659
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "Ian Goodfellow, Yoshua Bengio, and Aaron Courville. Deep learning, volume 1. MIT Press, 2016.",
+   "title": "Yoshua Bengio, and Aaron Courville",
+   "authors": [
+    "Goodfellow"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Deep learning",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/s10710-017-9314-z",
+      "title": "Ian Goodfellow, Yoshua Bengio, and Aaron Courville: Deep learning",
+      "year": 2018,
+      "first_author": "Heaton",
+      "container": "Genetic Programming and Evolvable Machines",
+      "type": "journal-article",
+      "score": 55.36754
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 1.0,
+      "partial_ratio": 100.0,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "6d05a2a8e5b179407de8e4c2507bced8bc99eaed",
+    "title": "Ian Goodfellow, Yoshua Bengio, and Aaron Courville: Deep learning",
+    "year": 2017,
+    "first_author": "J. Heaton",
+    "container": "Genetic Programming and Evolvable Machines",
+    "ext": {
+     "MAG": "2765982206",
+     "DOI": "10.1007/s10710-017-9314-z",
+     "CorpusId": 4300434
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "Diederik P Kingma and Jimmy Ba. Adam: A method for stochastic optimization. arXiv preprint arXiv:1412.6980, 2014.",
+   "title": "Adam: A method for stochastic optimization",
+   "authors": [
+    "Kingma",
+    "Ba"
+   ],
+   "year": 2014,
+   "doi": null,
+   "arxiv": "1412.6980",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "1412.6980",
+    "title": "Adam: A Method for Stochastic Optimization",
+    "year": 2014,
+    "first_author": "Diederik P. Kingma"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "Yann LeCun, L \u2019eon Bottou, Yoshua Bengio, and Patrick Haffner. Gradient-based learning applied to document recognition. Proceedings of the IEEE, 86(11):2278\u20132324, 1998a.",
+   "title": "Gradient-based learning applied to document recognition",
+   "authors": [
+    "Yann LeCun, L \u2019eon Bottou, Yoshua Bengio, and Patrick Haffner."
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the IEEE",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/5.726791",
+    "title": "Gradient-based learning applied to document recognition",
+    "year": 1998,
+    "first_author": "Lecun",
+    "container": "Proceedings of the IEEE",
+    "type": "journal-article",
+    "score": 84.9957
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "Yann LeCun, Corinna Cortes, and CJ Burges. The mnist database of handwritten digits. http: //yann.lecun.com/exdb/mnist, 1998b.",
+   "title": "The mnist database of handwritten digits",
+   "authors": [
+    "LeCun",
+    "Cortes",
+    "Burges"
+   ],
+   "year": 1998,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "http:"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.29121/ijesrt.v10.i2.2021.5",
+      "title": "IMPLEMENTATION OF AUTOENCODER ON MNIST HANDWRITTEN DIGITS",
+      "year": 2021,
+      "first_author": null,
+      "container": "International Journal of Engineering Sciences &amp; Research Technology",
+      "type": "journal-article",
+      "score": 36.061012
+     },
+     "metrics": {
+      "title_sim": 80.59701492537313,
+      "containment": 0.6,
+      "partial_ratio": 57.89473684210527,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    },
+    {
+     "step": "urls_not_live",
+     "url_status": {
+      "http:": "error"
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "dc52d1ede1b90bf9d296bc5b34c9310b7eaa99a2",
+    "title": "The mnist database of handwritten digits",
+    "year": 2005,
+    "first_author": "Yann LeCun",
+    "container": "",
+    "ext": {
+     "MAG": "200806003",
+     "CorpusId": 60282629
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "Hao Liu, Ali Soroush, Jordan G. Nestor, Elizabeth Park, B. Idnay, Yilu Fang, Jane Pan, Stan Liao, Marguerite Bernard, Yifan Peng, and Chunhua Weng. Retrieval augmented scientific claim verification. JAMIA Open, 7, 2024.",
+   "title": "Retrieval augmented scientific claim verification",
+   "authors": [
+    "Liu",
+    "Soroush",
+    "Nestor",
+    "Elizabeth Park",
+    "Fang",
+    "Pan",
+    "Liao",
+    "Bernard",
+    "Peng",
+    "Weng"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "JAMIA Open",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1093/jamiaopen/ooae021",
+    "title": "Retrieval augmented scientific claim verification",
+    "year": 2024,
+    "first_author": "Liu",
+    "container": "JAMIA Open",
+    "type": "journal-article",
+    "score": 42.30273
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "Yuval Netzer, Tao Wang, Adam Coates, Alessandro Bissacco, Bo Wu, and Andrew Y Ng. Reading digits in natural images with unsupervised feature learning. In NIPS workshop on deep learning and unsupervised feature learning, 2011.",
+   "title": "Reading digits in natural images with unsupervised feature learning",
+   "authors": [
+    "Netzer",
+    "Wang",
+    "Coates",
+    "Bissacco",
+    "Wu",
+    "Ng"
+   ],
+   "year": 2011,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "NIPS workshop on deep learning and unsupervised feature learning",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/springerreference_302701",
+      "title": "Feature Selection (Unsupervised Learning)",
+      "year": 2012,
+      "first_author": null,
+      "container": "SpringerReference",
+      "type": "reference-entry",
+      "score": 28.994705
+     },
+     "metrics": {
+      "title_sim": 85.29411764705883,
+      "containment": 0.75,
+      "partial_ratio": 66.66666666666667,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "02227c94dd41fe0b439e050d377b0beb5d427cda",
+    "title": "Reading Digits in Natural Images with Unsupervised Feature Learning",
+    "year": 2011,
+    "first_author": "Yuval Netzer",
+    "container": "",
+    "ext": {
+     "MAG": "2335728318",
+     "CorpusId": 16852518
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "T. M. Thai, A. T. Vo, Hao K. Tieu, Linh Bui, and T. Nguyen. Uit-saviors at medvqa-gi 2023: Improving multimodal learning with image enhancement for gastrointestinal visual question answering. In Working Notes of CLEF 2023 - Conference and Labs of the Evaluation Forum, pp. 1571\u20131587, 2023.",
+   "title": "Uit-saviors at medvqa-gi 2023: Improving multimodal learning with image enhancement for gastrointestinal visual question answering",
+   "authors": [
+    "Thai",
+    "Vo",
+    "Tieu",
+    "Bui",
+    "Nguyen"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Working Notes of CLEF 2023 - Conference and Labs of the Evaluation Forum",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/s10994-023-06426-6",
+      "title": "Knowledge-aware image understanding with multi-level visual representation enhancement for visual question answering",
+      "year": 2024,
+      "first_author": "Yan",
+      "container": "Machine Learning",
+      "type": "journal-article",
+      "score": 44.297
+     },
+     "metrics": {
+      "title_sim": 66.38655462184875,
+      "containment": 0.5,
+      "partial_ratio": 58.62068965517242,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "e0e9ba0c01d441e1fdcb8628d3f743d387b0b017",
+    "title": "UIT-Saviors at MEDVQA-GI 2023: Improving Multimodal Learning with Image Enhancement for Gastrointestinal Visual Question Answering",
+    "year": 2023,
+    "first_author": "T. M. Thai",
+    "container": "Conference and Labs of the Evaluation Forum",
+    "ext": {
+     "DBLP": "journals/corr/abs-2307-02783",
+     "ArXiv": "2307.02783",
+     "DOI": "10.48550/arXiv.2307.02783",
+     "CorpusId": 259360792
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N Gomez, \u0141ukasz Kaiser, and Illia Polosukhin. Attention is all you need. In Advances in neural information processing systems, pp. 5998\u20136008, 2017.",
+   "title": "Attention is all you need",
+   "authors": [
+    "Vaswani",
+    "Shazeer",
+    "Parmar",
+    "Uszkoreit",
+    "Jones",
+    "Gomez",
+    "Kaiser",
+    "Polosukhin"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in neural information processing systems",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.65215/r5bs2d54",
+    "title": "Attention Is All You Need",
+    "year": 2025,
+    "first_author": "Vaswani",
+    "container": "",
+    "type": "posted-content",
+    "score": 43.59591
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "Han Xiao, Kashif Rasul, and Roland Vollgraf. Fashion-mnist: a novel image dataset for benchmarking machine learning algorithms. arXiv preprint arXiv:1708.07747, 2017.",
+   "title": "Fashion-mnist: a novel image dataset for benchmarking machine learning algorithms",
+   "authors": [
+    "Xiao",
+    "Rasul",
+    "Vollgraf"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": "1708.07747",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "1708.07747"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.7717/peerj-cs.3589/fig-5",
+      "title": "Figure 5: Federated learning with fashion-MNIST dataset.",
+      "year": 2026,
+      "first_author": null,
+      "container": "",
+      "type": "component",
+      "score": 43.910408
+     },
+     "metrics": {
+      "title_sim": 71.42857142857143,
+      "containment": 0.667,
+      "partial_ratio": 53.703703703703695,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "f9c602cc436a9ea2f9e7db48c77d924e09ce3c32",
+    "title": "Fashion-MNIST: a Novel Image Dataset for Benchmarking Machine Learning Algorithms",
+    "year": 2017,
+    "first_author": "Han Xiao",
+    "container": "arXiv.org",
+    "ext": {
+     "MAG": "2750384547",
+     "DBLP": "journals/corr/abs-1708-07747",
+     "ArXiv": "1708.07747",
+     "CorpusId": 702279
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  }
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
+}

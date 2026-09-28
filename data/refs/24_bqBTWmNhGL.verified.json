@@ -1,0 +1,1060 @@
+{
+ "pdf": "24_bqBTWmNhGL.pdf",
+ "n_entries": 25,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": false,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "[1] Russell, B. (1905). On denoting. Mind, 14(56), 479-493.",
+   "title": "On denoting",
+   "authors": [
+    "Russell"
+   ],
+   "year": 1905,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Mind",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.2307/j.ctv2nrzgz1.4",
+    "title": "On Denoting",
+    "year": 2005,
+    "first_author": "Russell",
+    "container": "On Denoting: 1905-2005",
+    "type": "book-chapter",
+    "score": 41.29876
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2] G\u00f6del, K. (1992). On formally undecidable propositions of Principia Mathematica and related systems. Courier Corporation.",
+   "title": "On formally undecidable propositions of Principia Mathematica and related systems",
+   "authors": [
+    "G\u00f6del"
+   ],
+   "year": 1992,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1063/1.3051400",
+    "title": "<i>On Formally Undecidable Propositions of Principia Mathematica and Related Systems</i>",
+    "year": 1964,
+    "first_author": "G\u00f6del",
+    "container": "Physics Today",
+    "type": "journal-article",
+    "score": 75.35959
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 97.6470588235294,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3] Hastie, T., Tibshirani, R., Friedman, J. H., & Friedman, J. H. (2009). The elements of statistical learning: Data mining, inference, and prediction (Vol. 2, pp. 1-758). New York: Springer.",
+   "title": "The elements of statistical learning: Data mining, inference, and prediction",
+   "authors": [
+    "Hastie",
+    "Tibshirani",
+    "Friedman",
+    "Friedman"
+   ],
+   "year": 2009,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/bf02985802",
+      "title": "The elements of statistical learning: data mining, inference and prediction",
+      "year": 2005,
+      "first_author": "Franklin",
+      "container": "The Mathematical Intelligencer",
+      "type": "journal-article",
+      "score": 43.37286
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 1.0,
+      "partial_ratio": 100.0,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4] Li, X., Zheng, Z., & Han, X. (2024). Rising with \"numbers\": How government data governance empowers corporate digital innovation. Journal of Quantitative Economics and Technological Economics Research, 1-21. https://doi.org/10.13653/j.cnki.jqte.20240925.001",
+   "title": "Rising with \"numbers\": How government data governance empowers corporate digital innovation",
+   "authors": [
+    "Li",
+    "Zheng",
+    "Han"
+   ],
+   "year": 2024,
+   "doi": "10.13653/j.cnki.jqte.20240925.001",
+   "arxiv": null,
+   "urls": [
+    "https://doi.org/10.13653/j.cnki.jqte.20240925.001"
+   ],
+   "container": "Journal of Quantitative Economics and Technological Economics Research",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "doi_not_resolvable",
+     "doi": "10.13653/j.cnki.jqte.20240925.001"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1080/13662716.2026.2630354",
+      "title": "How digital government development drives corporate digital innovation: the new role of data network effects theory",
+      "year": 2026,
+      "first_author": "Zhang",
+      "container": "Industry and Innovation",
+      "type": "journal-article",
+      "score": 36.0912
+     },
+     "metrics": {
+      "title_sim": 70.58823529411765,
+      "containment": 0.5,
+      "partial_ratio": 61.40350877192983,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5] You, Z., Yang, Q., Fu, Z., & Others. (2024). Application of pre-trained language models based on Transformer in the biomedical field. Journal of Xiamen University (Natural Science Edition), 63(05), 883-893.",
+   "title": "Application of pre-trained language models based on Transformer in the biomedical field",
+   "authors": [
+    "You",
+    "Yang",
+    "Fu"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Xiamen University (Natural Science Edition",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.21203/rs.3.rs-907893/v1",
+      "title": "Pre-Trained Transformer-Based Language Models for Sundanese",
+      "year": 2021,
+      "first_author": "Wongso",
+      "container": "",
+      "type": "posted-content",
+      "score": 44.14462
+     },
+     "metrics": {
+      "title_sim": 86.53846153846153,
+      "containment": 0.857,
+      "partial_ratio": 57.6271186440678,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[6] Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., ... & Polosukhin, I. (2017). Attention is all you need. Advances in Neural Information Processing Systems, 30(2017).",
+   "title": "Attention is all you need",
+   "authors": [
+    "Vaswani",
+    "Shazeer",
+    "Parmar",
+    "Uszkoreit",
+    "Jones",
+    "Gomez",
+    "Polosukhin"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.65215/r5bs2d54",
+    "title": "Attention Is All You Need",
+    "year": 2025,
+    "first_author": "Vaswani",
+    "container": "",
+    "type": "posted-content",
+    "score": 43.621082
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[7] Radford, A., Wu, J., Child, R., Luan, D., Amodei, D., & Sutskever, I. (2019). Language models are unsupervised multitask learners. OpenAI Blog, 1(8), 9.",
+   "title": "Language models are unsupervised multitask learners",
+   "authors": [
+    "Radford",
+    "Wu",
+    "Child",
+    "Luan",
+    "Amodei",
+    "Sutskever"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "OpenAI Blog",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1101/2020.12.15.422761",
+      "title": "Transformer protein language models are unsupervised structure learners",
+      "year": 2020,
+      "first_author": "Rao",
+      "container": "",
+      "type": "posted-content",
+      "score": 30.397985
+     },
+     "metrics": {
+      "title_sim": 89.13043478260869,
+      "containment": 0.571,
+      "partial_ratio": 71.83098591549295,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[8] Roberts, A., Raffel, C., Lee, K., Matena, M., Shazeer, N., Liu, P. J., ... & Zhou, Y. (2019). Exploring the limits of transfer learning with a unified text-to-text transformer. Google Tech. Rep.",
+   "title": "Exploring the limits of transfer learning with a unified text-to-text transformer",
+   "authors": [
+    "Roberts",
+    "Raffel",
+    "Lee",
+    "Matena",
+    "Shazeer",
+    "Liu",
+    "Zhou"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "report",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.21437/interspeech.2024-949",
+      "title": "Homograph Disambiguation with Text-to-Text Transfer Transformer",
+      "year": 2024,
+      "first_author": "\u0158ez\u00e1\u010dkov\u00e1",
+      "container": "Interspeech 2024",
+      "type": "proceedings-article",
+      "score": 35.59589
+     },
+     "metrics": {
+      "title_sim": 72.52747252747253,
+      "containment": 0.667,
+      "partial_ratio": 58.730158730158735,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[9] Goh, O. S., Ardil, C., Wong, W., & Fung, C. C. (2007). A black-box approach for response quality evaluation of conversational agent systems. International Journal of Computational Intelligence, 3(3), 195-203.",
+   "title": "A black-box approach for response quality evaluation of conversational agent systems",
+   "authors": [
+    "Goh",
+    "Ardil",
+    "Wong",
+    "Fung"
+   ],
+   "year": 2007,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Journal of Computational Intelligence",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1145/3334480.3382805",
+      "title": "A Conversational Agent to Improve Response Quality in Course Evaluations",
+      "year": 2020,
+      "first_author": "Wambsganss",
+      "container": "Extended Abstracts of the 2020 CHI Conference on Human Factors in Computing Systems",
+      "type": "proceedings-article",
+      "score": 27.961506
+     },
+     "metrics": {
+      "title_sim": 74.35897435897436,
+      "containment": 0.571,
+      "partial_ratio": 61.111111111111114,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[10] Hu, H., Li, Z., & Wu, Z. (2023). Batch-attention: A new method for balancing overfitting and underfitting in deep learning. Science and Technology Review, 41(13), 100-108.",
+   "title": "Batch-attention: A new method for balancing overfitting and underfitting in deep learning",
+   "authors": [
+    "Hu",
+    "Li",
+    "Wu"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Science and Technology Review",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.32515/2664-262x.2025.11(42).1.14-26",
+      "title": "A Data-Driven Approach for Balancing Overfitting and Underfitting in Decision Tree Models",
+      "year": 2025,
+      "first_author": null,
+      "container": "Central Ukrainian Scientific Bulletin. Technical Sciences",
+      "type": "journal-article",
+      "score": 37.133564
+     },
+     "metrics": {
+      "title_sim": 74.57627118644068,
+      "containment": 0.333,
+      "partial_ratio": 70.78651685393258,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "[11] Xiong, M. (2014). The self-referentiality and circularity of paradoxes. Research in Logic, 7(02), 1-19.",
+   "title": "The self-referentiality and circularity of paradoxes",
+   "authors": [
+    "Xiong"
+   ],
+   "year": 2014,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Research in Logic",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1002/9781444350302.wbhe1321",
+      "title": "Self\u2010Referentiality",
+      "year": 2011,
+      "first_author": "Martin",
+      "container": "The Homer Encyclopedia",
+      "type": "other",
+      "score": 24.694954
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 1.0,
+      "partial_ratio": 100.0,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "[12] Zhang, Z., & Ma, W. (1992). Closed convergence topology in subset spaces and its application in mathematical economics. Journal of Chongqing Technology and Business University (Social Science Edition), 04, 43-49.",
+   "title": "Closed convergence topology in subset spaces and its application in mathematical economics",
+   "authors": [
+    "Zhang",
+    "Ma"
+   ],
+   "year": 1992,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Chongqing Technology and Business University (Social Science Edition",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1016/s0166-8641(99)00189-3",
+      "title": "Ultracomplete convergence vector spaces and the closed graph theorem",
+      "year": 2001,
+      "first_author": "Beattie",
+      "container": "Topology and its Applications",
+      "type": "journal-article",
+      "score": 38.277725
+     },
+     "metrics": {
+      "title_sim": 60.645161290322584,
+      "containment": 0.429,
+      "partial_ratio": 55.88235294117647,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "[13] Xiao, Z., Zhou, M. X., Liao, Q. V., Mark, G., Chi, C., Chen, W., & Yang, H. (2020). Tell me about yourself: Using an AI-powered chatbot to conduct conversational surveys with open-ended questions. ACM Transactions on Computer-Human Interaction (TOCHI), 27(3), 1-37.",
+   "title": "Tell me about yourself: Using an AI-powered chatbot to conduct conversational surveys with open-ended questions",
+   "authors": [
+    "Xiao",
+    "Zhou",
+    "Liao",
+    "Mark",
+    "Chi",
+    "Chen",
+    "Yang"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "ACM Transactions on Computer-Human Interaction (TOCHI",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3381804",
+    "title": "Tell Me About Yourself",
+    "year": 2020,
+    "first_author": "Xiao",
+    "container": "ACM Transactions on Computer-Human Interaction",
+    "type": "journal-article",
+    "score": 91.51573
+   },
+   "metrics": {
+    "title_sim": 33.333333333333336,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "[14] Li, J., Galley, M., Brockett, C., Spithourakis, G. P., Gao, J., & Dolan, B. (2016). A personabased neural conversation model. arXiv preprint arXiv:1603.06155.",
+   "title": "A personabased neural conversation model",
+   "authors": [
+    "Li",
+    "Galley",
+    "Brockett",
+    "Spithourakis",
+    "Gao",
+    "Dolan"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": "1603.06155",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/p16-1094",
+    "title": "A Persona-Based Neural Conversation Model",
+    "year": 2016,
+    "first_author": "Li",
+    "container": "Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "type": "proceedings-article",
+    "score": 23.386654
+   },
+   "metrics": {
+    "title_sim": 98.76543209876543,
+    "containment": 0.6,
+    "partial_ratio": 97.5609756097561,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "1603.06155"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "[15] Wang, H., Guo, B., Wu, W., Liu, S., & Yu, Z. (2021). Towards information-rich, logical dialogue systems with knowledge-enhanced neural models. Neurocomputing, 465, 248-264.",
+   "title": "Towards information-rich, logical dialogue systems with knowledge-enhanced neural models",
+   "authors": [
+    "Wang",
+    "Guo",
+    "Wu",
+    "Liu",
+    "Yu"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Neurocomputing",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.neucom.2021.08.131",
+    "title": "Towards information-rich, logical dialogue systems with knowledge-enhanced neural models",
+    "year": 2021,
+    "first_author": "Wang",
+    "container": "Neurocomputing",
+    "type": "journal-article",
+    "score": 67.55725
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 16,
+   "raw": "[16] Fu, T., Gao, S., Zhao, X., Wen, J. R., & Yan, R. (2022). Learning towards conversational AI: A survey. AI Open, 3, 14-28.",
+   "title": "Learning towards conversational AI: A survey",
+   "authors": [
+    "Fu",
+    "Gao",
+    "Zhao",
+    "Wen",
+    "Yan"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "AI Open",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.aiopen.2022.02.001",
+    "title": "Learning towards conversational AI: A survey",
+    "year": 2022,
+    "first_author": "Fu",
+    "container": "AI Open",
+    "type": "journal-article",
+    "score": 46.12415
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 17,
+   "raw": "[17] Chang, B., Che, C., & Liang, Y. (2024). Research on recommendation models based on large language models and multi-round dialogues. Computer Science and Exploration, 1-15.",
+   "title": "Research on recommendation models based on large language models and multi-round dialogues",
+   "authors": [
+    "Chang",
+    "Che",
+    "Liang"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Computer Science and Exploration",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/s10489-026-07165-6",
+      "title": "Multi-round self-optimization with large language models for conversational recommendation",
+      "year": 2026,
+      "first_author": "He",
+      "container": "Applied Intelligence",
+      "type": "journal-article",
+      "score": 39.74664
+     },
+     "metrics": {
+      "title_sim": 75.0,
+      "containment": 0.667,
+      "partial_ratio": 54.44444444444445,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": true,
+   "idx": 18,
+   "raw": "http://kns.cnki.net/kcms/detail/11.5602.tp.20241016.1506.007.html",
+   "title": null,
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "http://kns.cnki.net/kcms/detail/11.5602.tp.20241016.1506.007.html"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.17265/1537-1506/2006.02.016",
+      "title": "http://www.davidpublisher.com/index.php/Home/Article/index?id=9500.html",
+      "year": 2006,
+      "first_author": null,
+      "container": "Chinese Business Review",
+      "type": "journal-article",
+      "score": 33.435905
+     },
+     "metrics": {
+      "title_sim": 0,
+      "containment": 0.182,
+      "partial_ratio": 41.07142857142857,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    },
+    {
+     "step": "urls_not_live",
+     "url_status": {
+      "http://kns.cnki.net/kcms/detail/11.5602.tp.20241016.1506.007.html": 418
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 19,
+   "raw": "[18] Pervez, A., Lee, J. J., Ullah, W., Han, C., Hussain, M., & Lee, C. (2024). Risky riding behaviors among motorcyclists and self-reported safety events in Pakistan. Transportation Research Part F: Traffic Psychology and Behaviour, 105, 350-367.",
+   "title": "Risky riding behaviors among motorcyclists and self-reported safety events in Pakistan",
+   "authors": [
+    "Pervez",
+    "Lee",
+    "Ullah",
+    "Han",
+    "Hussain",
+    "Lee"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Transportation Research Part F: Traffic Psychology and Behaviour",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.trf.2024.07.016",
+    "title": "Risky riding behaviors among motorcyclists and self-reported safety events in Pakistan",
+    "year": 2024,
+    "first_author": "Pervez",
+    "container": "Transportation Research Part F: Traffic Psychology and Behaviour",
+    "type": "journal-article",
+    "score": 74.54559
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 20,
+   "raw": "[19] Lin, X., Yu, X., Aich, A., Giorgi, S., & Ungar, L. (2024). DiverseDialogue: A methodology for designing chatbots with human-like diversity. arXiv preprint arXiv:2409.00262.",
+   "title": "DiverseDialogue: A methodology for designing chatbots with human-like diversity",
+   "authors": [
+    "Lin",
+    "Yu",
+    "Aich",
+    "Giorgi",
+    "Ungar"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2409.00262",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2409.00262"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.7249/rra1745-3",
+      "title": "The Personnel Records Scoring System: Volume 3, A Methodology for Designing Tools to Support Air Force Human Resources Decisionmaking",
+      "year": 2024,
+      "first_author": null,
+      "container": "",
+      "type": "edited-book",
+      "score": 24.343353
+     },
+     "metrics": {
+      "title_sim": 54.54545454545454,
+      "containment": 0.214,
+      "partial_ratio": 51.36186770428015,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 21,
+   "raw": "[20] Edlund, J., Gustafson, J., Heldner, M., & Hjalmarsson, A. (2008). Towards human-like spoken dialogue systems. Speech Communication, 50(8-9), 630-645.",
+   "title": "Towards human-like spoken dialogue systems",
+   "authors": [
+    "Edlund",
+    "Gustafson",
+    "Heldner",
+    "Hjalmarsson"
+   ],
+   "year": 2008,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Speech Communication",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.specom.2008.04.002",
+    "title": "Towards human-like spoken dialogue systems",
+    "year": 2008,
+    "first_author": "Edlund",
+    "container": "Speech Communication",
+    "type": "journal-article",
+    "score": 55.729225
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 22,
+   "raw": "[21] Chen, D., Shen, Y., Xie, B., & Others. (2014). The optimal coach selection algorithm based on cosine similarity model. Journal of Northeastern University (Natural Science Edition), 35(12), 1697-1700.",
+   "title": "The optimal coach selection algorithm based on cosine similarity model",
+   "authors": [
+    "Chen",
+    "Shen",
+    "Xie"
+   ],
+   "year": 2014,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Northeastern University (Natural Science Edition",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2991/meici-15.2015.142",
+      "title": "The Best Coach Selection Based on Cosine Similarity and Improved PageRank Algorithm",
+      "year": 2015,
+      "first_author": "Wang",
+      "container": "Advances in Intelligent Systems Research",
+      "type": "proceedings-article",
+      "score": 41.572895
+     },
+     "metrics": {
+      "title_sim": 88.88888888888889,
+      "containment": 0.667,
+      "partial_ratio": 69.87951807228916,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 23,
+   "raw": "[22] Wu, Y., Zhao, S., & Li, C. (2017). A text classification method based on TF-IDF and cosine similarity. Journal of Chinese Information Processing, 31(05), 138-145.",
+   "title": "A text classification method based on TF-IDF and cosine similarity",
+   "authors": [
+    "Wu",
+    "Zhao",
+    "Li"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Chinese Information Processing",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/iciibms46890.2019.8991542",
+      "title": "Research on Text Classification Method Based on PTF-IDF and Cosine Similarity",
+      "year": 2019,
+      "first_author": "Liu",
+      "container": "2019 International Conference on Intelligent Informatics and Biomedical Sciences (ICIIBMS)",
+      "type": "proceedings-article",
+      "score": 50.00671
+     },
+     "metrics": {
+      "title_sim": 96.06299212598425,
+      "containment": 0.778,
+      "partial_ratio": 87.01298701298701,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 24,
+   "raw": "[23] Wu, Y., Wei, G., & Li, H. (2001). A Chinese word segmentation algorithm based on N-gram model and machine learning. Journal of Electronics and Information Technology, 11, 1148-1153.",
+   "title": "A Chinese word segmentation algorithm based on N-gram model and machine learning",
+   "authors": [
+    "Wu",
+    "Wei",
+    "Li"
+   ],
+   "year": 2001,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Electronics and Information Technology",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/icmlc.2010.5580902",
+      "title": "A Chinese word segmentation algorithm based on maximum entropy",
+      "year": 2010,
+      "first_author": "Zhang",
+      "container": "2010 International Conference on Machine Learning and Cybernetics",
+      "type": "proceedings-article",
+      "score": 38.53825
+     },
+     "metrics": {
+      "title_sim": 85.18518518518519,
+      "containment": 0.714,
+      "partial_ratio": 83.87096774193549,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 25,
+   "raw": "[24] Kleinberg, J. M. (1999). Authoritative sources in a hyperlinked environment. Journal of the ACM (JACM), 46(5), 604-632.",
+   "title": "Authoritative sources in a hyperlinked environment",
+   "authors": [
+    "Kleinberg"
+   ],
+   "year": 1999,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of the ACM (JACM",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/324133.324140",
+    "title": "Authoritative sources in a hyperlinked environment",
+    "year": 1999,
+    "first_author": "Kleinberg",
+    "container": "Journal of the ACM",
+    "type": "journal-article",
+    "score": 58.681114
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  }
+ ]
+}

@@ -40,12 +40,14 @@ def main():
         refs.loc[mism.index, 'category'] = None
     refs['corrupt_tags'] = refs.note.fillna('').str.findall(r'\[(title|authors|identifier|venue|year)\]').apply(lambda l: ','.join(sorted(set(l))) if isinstance(l, list) else '')
     ok = refs[~refs.junk].copy()
-    ok['status'] = np.where(ok.verdict.isin(['VERIFIED', 'VERIFIED_URL']), 'VERIFIED',
-                   np.where(ok.category.isin(['EXISTS', 'WEB_RESOURCE_EXISTS']), 'EXISTS',
+    # a manual decision (made with the full entry text and a web search) takes precedence over an automated verdict;
+    # automated VERIFIED applies only to entries without a decision
+    ok['status'] = np.where(ok.category.isin(['EXISTS', 'WEB_RESOURCE_EXISTS']), 'EXISTS',
                    np.where(ok.category.isin(['EXISTS_CORRUPTED']), 'EXISTS_CORRUPTED',
                    np.where(ok.category.isin(['NOT_FOUND', 'WEB_RESOURCE_NOT_FOUND']), 'NOT_FOUND',
                    np.where(ok.category.isin(['UNADJUDICABLE']), 'UNADJUDICABLE',
-                   np.where(ok.category.isin(['PLACEHOLDER']), 'PLACEHOLDER', 'PENDING'))))))
+                   np.where(ok.category.isin(['PLACEHOLDER']), 'PLACEHOLDER',
+                   np.where(ok.verdict.isin(['VERIFIED', 'VERIFIED_URL']), 'VERIFIED', 'PENDING'))))))
     ok['fabricated'] = ok.status.isin(['NOT_FOUND', 'EXISTS_CORRUPTED'])
     ok['defective'] = ok.status.isin(['NOT_FOUND', 'EXISTS_CORRUPTED', 'PLACEHOLDER'])
     ok['adjudicated'] = ~ok.status.isin(['PENDING'])
@@ -93,9 +95,13 @@ def main():
         if w.writing.nunique() > 1:
             kw = stats.kruskal(*[x.share_fab.values for _, x in w.groupby('writing')])
             L.append(f"\nKruskal-Wallis across writing tiers: H={kw.statistic:.2f}, p={kw.pvalue:.3f}\n")
-        w2 = w.copy(); w2['auton'] = w2[['hypothesis_development', 'experimental_design', 'data_analysis', 'writing']].apply(lambda r: sum('ABCD'.index(v)+1 for v in r if v in 'ABCD'), axis=1)
-        rho = stats.spearmanr(w2.auton, w2.share_fab)
-        L.append(f"Spearman(overall autonomy score, fabricated share) = {rho.statistic:.3f} (p={rho.pvalue:.3f}, n={len(w2)})\n")
+        stages = ['hypothesis_development', 'experimental_design', 'data_analysis', 'writing']
+        w2 = w.copy()
+        w2['auton'] = w2[stages].apply(lambda r: sum('ABCD'.index(v)+1 for v in r) if all(isinstance(v, str) and v in 'ABCD' for v in r) else np.nan, axis=1)
+        w2 = w2.dropna(subset=['auton'])
+        if len(w2) > 5:
+            rho = stats.spearmanr(w2.auton, w2.share_fab)
+            L.append(f"Spearman(overall autonomy score 4-16, fabricated share) = {rho.statistic:.3f} (p={rho.pvalue:.3f}, n={len(w2)})\n")
     # Q4 review outcomes
     L.append('## Q4 Fabrication vs review scores and acceptance (reviewed papers)\n')
     for col, name in [('airev1', 'GPT-5 (AIRev1)'), ('airev2', 'Gemini 2.5 Pro (AIRev2)'), ('airev3', 'Claude Sonnet 4 (AIRev3)'), ('human_score', 'Human expert')]:
@@ -105,6 +111,12 @@ def main():
             L.append(f"- {name}: Spearman rho={rho.statistic:.3f} (p={rho.pvalue:.3f}, n={len(s)}); mean score, papers with vs without fabricated refs: {s[s.any_fab][col].mean():.2f} vs {s[~s.any_fab][col].mean():.2f}")
     acc_with = rev[rev.any_fab].group.eq('Conference'); acc_without = rev[~rev.any_fab].group.eq('Conference')
     L.append(f"- Acceptance rate: papers with >=1 fabricated ref {fmt_pct(int(acc_with.sum()), len(acc_with))} vs without {fmt_pct(int(acc_without.sum()), len(acc_without))}")
+    tbl = [[int(acc_with.sum()), int((~acc_with).sum())], [int(acc_without.sum()), int((~acc_without).sum())]]
+    fe = stats.fisher_exact(tbl)
+    L.append(f"- Fisher exact test (accepted x any fabricated): odds ratio={fe[0]:.2f}, p={fe[1]:.4f}; table [[acc&fab, rej&fab],[acc&clean, rej&clean]]={tbl}")
+    mean_llm_all = rev[['airev1', 'airev2', 'airev3']].mean(axis=1)
+    rho_m = stats.spearmanr(mean_llm_all, rev.share_fab)
+    L.append(f"- Mean LLM score vs fabricated share: Spearman rho={rho_m.statistic:.3f} (p={rho_m.pvalue:.3f}, n={len(rev)})")
     try:
         import statsmodels.api as sm
     except ImportError:
@@ -113,8 +125,11 @@ def main():
         X = rev[['share_fab']].copy(); X['mean_llm'] = rev[['airev1', 'airev2', 'airev3']].mean(axis=1); X = sm.add_constant(X.fillna(X.mean()))
         y = (rev.group == 'Conference').astype(int)
         try:
-            res = sm.Logit(y, X).fit(disp=0)
-            L.append(f"- Logistic regression accepted ~ share_fab + mean LLM score: coef(share_fab)={res.params['share_fab']:.2f} (p={res.pvalues['share_fab']:.3f}), coef(mean_llm)={res.params['mean_llm']:.2f} (p={res.pvalues['mean_llm']:.3g}), n={len(y)}")
+            if int(acc_with.sum()) == 0 or int(acc_without.sum()) == 0:
+                L.append("- Logistic regression not fitted: complete separation (no accepted paper in one of the groups); see Fisher exact test above")
+            else:
+                res = sm.Logit(y, X).fit(disp=0)
+                L.append(f"- Logistic regression accepted ~ share_fab + mean LLM score: coef(share_fab)={res.params['share_fab']:.2f} (p={res.pvalues['share_fab']:.3f}), coef(mean_llm)={res.params['mean_llm']:.2f} (p={res.pvalues['mean_llm']:.3g}), n={len(y)}")
         except Exception as e:
             L.append(f"- Logistic regression failed: {e}")
     L.append('')

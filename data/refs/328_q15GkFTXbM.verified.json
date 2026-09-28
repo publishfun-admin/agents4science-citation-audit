@@ -1,0 +1,649 @@
+{
+ "pdf": "328_q15GkFTXbM.pdf",
+ "n_entries": 15,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "[1] Sebastian Feger et al. Risk or chance? llms and reproducibility in hci research. arXiv preprint arXiv:2404.15782, 2024.",
+   "title": "Risk or chance? llms and reproducibility in hci research",
+   "authors": [
+    "Feger"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2404.15782",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3695765",
+    "title": "Risk or Chance? Large Language Models and Reproducibility in HCI Research",
+    "year": 2024,
+    "first_author": "Kosch",
+    "container": "Interactions",
+    "type": "journal-article",
+    "score": 52.40421
+   },
+   "metrics": {
+    "title_sim": 95.23809523809524,
+    "containment": 0.625,
+    "partial_ratio": 76.38888888888889,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2404.15782"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2] Luciano Floridi, Josh Cowls, Monica Beltrametti, Raja Chatila, Patrice Chazerand, Virginia Dignum, Christoph Luetge, Robert Madelin, Ugo Pagallo, Francesca Rossi, Burkhard Schafer, Peggy Valcke, and Effy Vayena. Ai4people\u2014an ethical framework for a good ai society. Minds and Machines, 28(4):689\u2013707, 2018.",
+   "title": "Ai4people\u2014an ethical framework for a good ai society",
+   "authors": [
+    "Floridi",
+    "Cowls",
+    "Beltrametti",
+    "Chatila",
+    "Chazerand",
+    "Dignum",
+    "Luetge",
+    "Madelin",
+    "Pagallo",
+    "Rossi",
+    "Schafer",
+    "Valcke",
+    "Vayena"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Minds and Machines",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.2139/ssrn.3198732",
+    "title": "Prolegomena to a White Paper on an Ethical Framework for a Good AI Society",
+    "year": 2018,
+    "first_author": "Cowls",
+    "container": "SSRN Electronic Journal",
+    "type": "journal-article",
+    "score": 50.59928
+   },
+   "metrics": {
+    "title_sim": 89.36170212765957,
+    "containment": 0.571,
+    "partial_ratio": 74.32432432432432,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3] Timnit Gebru, Jamie Morgenstern, Briana Vecchione, Jennifer Wortman Vaughan, Hanna Wallach, Hal Daum\u00e9 III, and Kate Crawford. Datasheets for datasets. In Proceedings of the NeurIPS 2018 Workshop on Data Sheets for Data Sets, 2018.",
+   "title": "Datasheets for datasets",
+   "authors": [
+    "Gebru",
+    "Morgenstern",
+    "Vecchione",
+    "Vaughan",
+    "Wallach",
+    "Daum\u00e9",
+    "Crawford"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the NeurIPS 2018 Workshop on Data Sheets for Data Sets",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1201/9781003278290-23",
+    "title": "Excerpt from Datasheets for Datasets\n*",
+    "year": 2022,
+    "first_author": "Gebru",
+    "container": "Ethics of Data and Analytics",
+    "type": "book-chapter",
+    "score": 31.69859
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.667,
+    "partial_ratio": 80.55555555555556,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4] Ian J. Goodfellow, Jonathon Shlens, and Christian Szegedy. Explaining and harnessing adversarial examples. In ICLR, 2015.",
+   "title": "Explaining and harnessing adversarial examples",
+   "authors": [
+    "Goodfellow",
+    "Shlens",
+    "Szegedy"
+   ],
+   "year": 2015,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "ICLR",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.5220/0006123702260234",
+      "title": "Explaining Adversarial Examples by Local Properties of Convolutional Neural Networks",
+      "year": 2017,
+      "first_author": "Aghdam",
+      "container": "Proceedings of the 12th International Joint Conference on Computer Vision, Imaging and Computer Graphics Theory and Applications",
+      "type": "proceedings-article",
+      "score": 29.78115
+     },
+     "metrics": {
+      "title_sim": 80.51948051948052,
+      "containment": 0.375,
+      "partial_ratio": 53.14685314685315,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5] Kai Greshake, Sahar Abdelnabi, Shailesh Mishra, Christoph Endres, Thorsten Holz, and Mario Fritz. Not what you\u2019ve signed up for: Compromising real-world llm-integrated applications with indirect prompt injection. In CCS, 2023.",
+   "title": "Not what you\u2019ve signed up for: Compromising real-world llm-integrated applications with indirect prompt injection",
+   "authors": [
+    "Greshake",
+    "Abdelnabi",
+    "Mishra",
+    "Endres",
+    "Holz",
+    "Fritz"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "CCS",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3605764.3623985",
+    "title": "Not What You've Signed Up For: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection",
+    "year": 2023,
+    "first_author": "Greshake",
+    "container": "Proceedings of the 16th ACM Workshop on Artificial Intelligence and Security",
+    "type": "proceedings-article",
+    "score": 90.16673
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[6] Tzu-Ling Lin, Wei-Chih Chen, Teng-Fang Hsiao, Hou-I Liu, Ya-Hsin Yeh, Yu Kai Chan, Wen-Sheng Lien, Po-Yen Kuo, Philip S. Yu, and Hong-Han Shuai. Breaking the reviewer: Vulnerability of llms in automated peer review. arXiv preprint arXiv:2506.11113, 2025.",
+   "title": "Breaking the reviewer: Vulnerability of llms in automated peer review",
+   "authors": [
+    "Lin",
+    "Chen",
+    "Hsiao",
+    "Liu",
+    "Yeh",
+    "Chan",
+    "Lien",
+    "Kuo",
+    "Yu",
+    "Shuai"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": "2506.11113",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2506.11113"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.18653/v1/2025.findings-emnlp.259",
+      "title": "Breaking the Reviewer: Assessing the Vulnerability of Large Language Models in Automated Peer Review Under Textual Adversarial Attacks",
+      "year": 2025,
+      "first_author": "Lin",
+      "container": "Findings of the Association for Computational Linguistics: EMNLP 2025",
+      "type": "proceedings-article",
+      "score": 36.46466
+     },
+     "metrics": {
+      "title_sim": 67.66169154228857,
+      "containment": 0.462,
+      "partial_ratio": 65.54621848739495,
+      "year_ok": true,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[7] Margaret Mitchell, Simone Wu, Andrew Zaldivar, Parker Barnes, Ben Vasserman, Ben Hutchinson, Elena Spitzer, Inioluwa Deborah Raji, and Timnit Gebru. Model cards for model reporting. In Proceedings of the Conference on Fairness, Accountability, and Transparency (FAT*), pages 220\u2013229, 2019.",
+   "title": "Model cards for model reporting",
+   "authors": [
+    "Mitchell",
+    "Wu",
+    "Zaldivar",
+    "Barnes",
+    "Vasserman",
+    "Hutchinson",
+    "Spitzer",
+    "Raji",
+    "Gebru"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the Conference on Fairness, Accountability, and Transparency (FAT*",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3287560.3287596",
+    "title": "Model Cards for Model Reporting",
+    "year": 2019,
+    "first_author": "Mitchell",
+    "container": "Proceedings of the Conference on Fairness, Accountability, and Transparency",
+    "type": "proceedings-article",
+    "score": 37.679512
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[8] Joelle Pineau, Philippe Vincent-Lamarre, et al. Improving reproducibility in machine learning research: A report from the neurips 2019 reproducibility program. Journal of Machine Learning Research, 22(164):1\u201320, 2021.",
+   "title": "Improving reproducibility in machine learning research: A report from the neurips 2019 reproducibility program",
+   "authors": [
+    "Pineau",
+    "Vincent-Lamarre"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Machine Learning Research",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.36227/techrxiv.177155769.94899097/v1",
+      "title": "Improving Reproducibility in Machine Learning: Overview, Barriers, and Drivers",
+      "year": 2026,
+      "first_author": "Mzyece",
+      "container": "",
+      "type": "posted-content",
+      "score": 43.931263
+     },
+     "metrics": {
+      "title_sim": 75.0,
+      "containment": 0.571,
+      "partial_ratio": 74.66666666666666,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[9] Dragomir Radev et al. Building an open peer review system: Lessons from iclr. In Proceedings of the International Conference on Learning Representations (ICLR), 2020.",
+   "title": "Building an open peer review system: Lessons from iclr",
+   "authors": [
+    "Radev"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the International Conference on Learning Representations (ICLR",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1016/j.joi.2026.101878",
+      "title": "Score increases, author\u2013reviewer communication, and subsequent citations in open peer review: Evidence from ICLR",
+      "year": 2026,
+      "first_author": "Cai",
+      "container": "Journal of Informetrics",
+      "type": "journal-article",
+      "score": 31.739101
+     },
+     "metrics": {
+      "title_sim": 46.913580246913575,
+      "containment": 0.333,
+      "partial_ratio": 56.21621621621622,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[10] ACL Rolling Review. Acl rolling review: A new approach to peer review in nlp. Transactions of the Association for Computational Linguistics, 2021.",
+   "title": "Acl rolling review: A new approach to peer review in nlp",
+   "authors": [
+    "Review"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Transactions of the Association for Computational Linguistics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.5715/jnlp.29.230",
+      "title": "ACL Rolling Review: A New Format For Centralized Peer Review",
+      "year": 2022,
+      "first_author": "Dabre",
+      "container": "Journal of Natural Language Processing",
+      "type": "journal-article",
+      "score": 40.265778
+     },
+     "metrics": {
+      "title_sim": 75.32467532467533,
+      "containment": 0.75,
+      "partial_ratio": 69.4915254237288,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "[11] Robert Schulz, Adrian Barnett, Ren\u00e9 Bernard, and et al. Is the future of peer review automated? BMC Research Notes, 15(1):203, 2022.",
+   "title": "Is the future of peer review automated?",
+   "authors": [
+    "Schulz",
+    "Barnett",
+    "Bernard"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "BMC Research Notes",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.7287/peerj.14513v0.2/reviews/2",
+      "title": "Peer Review #2 of \"Future stem cell analysis: progress and challenges towards state-of-the art approaches in automated cells analysis (v0.2)\"",
+      "year": 2022,
+      "first_author": null,
+      "container": "",
+      "type": "peer-review",
+      "score": 27.393332
+     },
+     "metrics": {
+      "title_sim": 33.52601156069365,
+      "containment": 0.286,
+      "partial_ratio": 48.401826484018265,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "[12] Christian Szegedy, Wojciech Zaremba, Ilya Sutskever, Joan Bruna, Dumitru Erhan, Ian Goodfellow, and Rob Fergus. Intriguing properties of neural networks. In ICLR, 2014.",
+   "title": "Intriguing properties of neural networks",
+   "authors": [
+    "Szegedy",
+    "Zaremba",
+    "Sutskever",
+    "Bruna",
+    "Erhan",
+    "Goodfellow",
+    "Fergus"
+   ],
+   "year": 2014,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "ICLR",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/s0893-6080(13)00287-6",
+    "title": "Neural Networks",
+    "year": 2014,
+    "first_author": null,
+    "container": "Neural Networks",
+    "type": "journal-article",
+    "score": 24.272726
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": null
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "[13] Eric Wallace, Shi Feng, Nikhil Kandpal, Matt Gardner, and Sameer Singh. Universal adversarial triggers for nlp. In Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing (EMNLP), 2019.",
+   "title": "Universal adversarial triggers for nlp",
+   "authors": [
+    "Wallace",
+    "Feng",
+    "Kandpal",
+    "Gardner",
+    "Singh"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing (EMNLP",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/d19-1221",
+    "title": "Universal Adversarial Triggers for Attacking and Analyzing NLP",
+    "year": 2019,
+    "first_author": "Wallace",
+    "container": "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)",
+    "type": "proceedings-article",
+    "score": 40.122105
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.667,
+    "partial_ratio": 69.35483870967742,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "[14] Yifan Yao, Jinhao Duan, Kaidi Xu, Yuanfang Cai, Zhibo Sun, and Yue Zhang. A survey on large language model (llm) security and privacy. High-Confidence Computing, 4(2):100211, 2024.",
+   "title": "A survey on large language model (llm) security and privacy",
+   "authors": [
+    "Yao",
+    "Duan",
+    "Xu",
+    "Cai",
+    "Sun",
+    "Zhang"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "High-Confidence Computing",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.hcc.2024.100211",
+    "title": "A survey on large language model (LLM) security and privacy: The Good, The Bad, and The Ugly",
+    "year": 2024,
+    "first_author": "Yao",
+    "container": "High-Confidence Computing",
+    "type": "journal-article",
+    "score": 46.258373
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.7,
+    "partial_ratio": 78.16091954022988,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "[15] Ruiyang Zhou, Lu Chen, and Kai Yu. Is llm a reliable reviewer? In LREC-COLING, 2024.",
+   "title": "Is llm a reliable reviewer?",
+   "authors": [
+    "Zhou",
+    "Chen",
+    "Yu"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "LREC-COLING",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.63317/48d359hjdvog",
+      "title": "Is LLM a Reliable Reviewer? A Comprehensive Evaluation of LLM on Automatic Paper Reviewing Tasks",
+      "year": 2024,
+      "first_author": "Zhou",
+      "container": "Proceedings of the Language Resources and Evaluation Conference",
+      "type": "proceedings-article",
+      "score": 31.742348
+     },
+     "metrics": {
+      "title_sim": 42.97520661157025,
+      "containment": 0.4,
+      "partial_ratio": 53.57142857142857,
+      "year_ok": true,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": null
+  }
+ ]
+}

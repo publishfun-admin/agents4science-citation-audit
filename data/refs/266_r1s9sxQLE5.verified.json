@@ -1,0 +1,332 @@
+{
+ "pdf": "266_r1s9sxQLE5.pdf",
+ "n_entries": 8,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": false,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "[1] N. D. Lawrence, \u201cMachine learning from innovation to deployment: A strategic research agenda for autoai,\u201d 2020. Available:https://mlatcl.github.io/papers/autoai-sra.pdf.",
+   "title": "Machine learning from innovation to deployment: A strategic research agenda for autoai",
+   "authors": [
+    "Lawrence"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://mlatcl.github.io/papers/autoai-sra.pdf"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED_URL",
+   "via": "url",
+   "url_status": {
+    "https://mlatcl.github.io/papers/autoai-sra.pdf": 200
+   },
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1201/9781003338628-3",
+      "title": "Internet of Things Strategic Research and Innovation Agenda",
+      "year": 2022,
+      "first_author": "Vermesan",
+      "container": "Internet of Things Applications - From Research and Innovation to Market Deployment",
+      "type": "book-chapter",
+      "score": 30.572687
+     },
+     "metrics": {
+      "title_sim": 75.78947368421052,
+      "containment": 0.667,
+      "partial_ratio": 61.01694915254237,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2] T. Nagarajah and G. Poravi, \u201cA review on automated machine learning (automl) systems,\u201d in Proc. IEEE 5th Int. Conf. for Convergence in Technology (I2CT), Bombay, India, 2019, pp. 1\u20136.",
+   "title": "A review on automated machine learning (automl) systems",
+   "authors": [
+    "Nagarajah",
+    "Poravi"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proc. IEEE 5th Int. Conf. for Convergence in Technology (I2CT",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/i2ct45611.2019.9033810",
+    "title": "A Review on Automated Machine Learning (AutoML) Systems",
+    "year": 2019,
+    "first_author": "Nagarajah",
+    "container": "2019 IEEE 5th International Conference for Convergence in Technology (I2CT)",
+    "type": "proceedings-article",
+    "score": 56.855152
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3] S. Jayanthi and S. P. Devi, \u201cAutomated machine learning on high dimensional big data for prediction tasks,\u201d in Proc. 7th Int. Conf. on Communication and Electronics Systems (ICCES), Coimbatore, India, 2022, pp. 995\u20131001.",
+   "title": "Automated machine learning on high dimensional big data for prediction tasks",
+   "authors": [
+    "Jayanthi",
+    "Devi"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proc. 7th Int. Conf. on Communication and Electronics Systems (ICCES), Coimbatore",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/icces54183.2022.9835748",
+    "title": "Automated Machine Learning on High Dimensional Big Data for Prediction Tasks",
+    "year": 2022,
+    "first_author": "Jayanthi",
+    "container": "2022 7th International Conference on Communication and Electronics Systems (ICCES)",
+    "type": "proceedings-article",
+    "score": 67.47493
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4] S. Chen, W. Zhai, C. Chai, and X. Shi, \u201cLlm2automl: Zero-code automl framework leveraging large language models,\u201d in Proc. Int. Conf. on Intelligent Robotics and Automatic Control (IRAC), Guangzhou, China, 2024, pp. 285\u2013290.",
+   "title": "Llm2automl: Zero-code automl framework leveraging large language models",
+   "authors": [
+    "Chen",
+    "Zhai",
+    "Chai",
+    "Shi"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proc. Int. Conf. on Intelligent Robotics and Automatic Control (IRAC",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/irac63143.2024.10871761",
+    "title": "LLM2AutoML: Zero-Code AutoML Framework Leveraging Large Language Models",
+    "year": 2024,
+    "first_author": "Chen",
+    "container": "2024 International Conference on Intelligent Robotics and Automatic Control (IRAC)",
+    "type": "proceedings-article",
+    "score": 80.232895
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5] N. Nascimento, P. Alencar, and D. Cowan, \u201cSelf-adaptive large language model (llm)-based multiagent systems,\u201d David R. Cheriton School of Computer Science, University of Waterloo, Canada, 2023. Available:https://cs.uwaterloo.ca.",
+   "title": "Self-adaptive large language model (llm)-based multiagent systems",
+   "authors": [
+    "Nascimento",
+    "Alencar",
+    "Cowan"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://cs.uwaterloo.ca"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/acsos-c58168.2023.00048",
+    "title": "Self-Adaptive Large Language Model (LLM)-Based Multiagent Systems",
+    "year": 2023,
+    "first_author": "Nascimento",
+    "container": "2023 IEEE International Conference on Autonomic Computing and Self-Organizing Systems Companion (ACSOS-C)",
+    "type": "proceedings-article",
+    "score": 65.11421
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[6] C. R. J. Romero, J. Chang, and J. M. Montoya, \u201cMulti-agent systems powered by large language models: Applications in swarm intelligence,\u201d 2025, arXiv preprint arXiv:2503.03800v1. Available:https://arxiv.org/abs/2503.03800.",
+   "title": "Multi-agent systems powered by large language models: Applications in swarm intelligence",
+   "authors": [
+    "Romero",
+    "Chang",
+    "Montoya"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": "2503.03800v1",
+   "urls": [
+    "https://arxiv.org/abs/2503.03800"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.3389/frai.2025.1593017",
+    "title": "Multi-agent systems powered by large language models: applications in swarm intelligence",
+    "year": 2025,
+    "first_author": "Jimenez-Romero",
+    "container": "Frontiers in Artificial Intelligence",
+    "type": "journal-article",
+    "score": 69.54181
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2503.03800v1"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[7] A. Salhi, A. C. Henslee, J. Ross, J. Jabour, and I. Dettwiller, \u201cData preprocessing using automl: A survey,\u201d in Proc. Congress in Computer Science, Computer Engineering, & Applied Computing (CSCE), Las Vegas, NV, USA, 2023, pp. 1619\u20131623.",
+   "title": "Data preprocessing using automl: A survey",
+   "authors": [
+    "Salhi",
+    "Henslee",
+    "Ross",
+    "Jabour",
+    "Dettwiller"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proc. Congress in Computer Science, Computer Engineering, & Applied Computing (CSCE), Las Vegas",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/csce60160.2023.00265",
+    "title": "Data Preprocessing Using AutoML: A Survey",
+    "year": 2023,
+    "first_author": "Salhi",
+    "container": "2023 Congress in Computer Science, Computer Engineering, &amp;amp; Applied Computing (CSCE)",
+    "type": "proceedings-article",
+    "score": 49.383167
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[8] A. Jin, Y. Ye, B. Lee, and Y. Qiao, \u201cDecoagent: Large language model empowered decentralized autonomous collaboration agents based on smart contracts,\u201d IEEE Access, vol. 12, pp. 119438\u2013119453, 2024.",
+   "title": "Decoagent: Large language model empowered decentralized autonomous collaboration agents based on smart contracts",
+   "authors": [
+    "Jin",
+    "Ye",
+    "Lee",
+    "Qiao"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE Access",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/access.2024.3481641",
+    "title": "DeCoAgent: Large Language Model Empowered Decentralized Autonomous Collaboration Agents Based on Smart Contracts",
+    "year": 2024,
+    "first_author": "Jin",
+    "container": "IEEE Access",
+    "type": "journal-article",
+    "score": 95.671875
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  }
+ ]
+}

@@ -1,0 +1,1099 @@
+{
+ "pdf": "258_BxscqmB9Rs.pdf",
+ "n_entries": 26,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": false,
+ "parser_version": 2,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "J.M. Arag\u00f3n-Jurado would like to acknowledge the Spanish Ministerio de Ciencia, Innovaci\u00f3n y Universidades for the support through FPU21/02026 grant. References [1] J. Koomey et al., \u201cGrowth in data center electricity use 2005 to 2010,\u201d A report by Analytical Press, completed at the request of The New York Times, vol. 9, no. 2011, p. 161, 2011.",
+   "title": "Arag\u00f3n-Jurado would like to acknowledge the Spanish Ministerio de Ciencia, Innovaci\u00f3n y Universidades for the support through FPU21/02026 grant",
+   "authors": [
+    "Koomey"
+   ],
+   "year": 2011,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "References",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.21930/agrosavia.informe.2016.6",
+      "title": "PECTIA :Plan Estrat\u00e9gico de Ciencia, Tecnolog\u00eda e Innovaci\u00f3n del sector Agropecuario colombiano (2017-2027)",
+      "year": 2016,
+      "first_author": null,
+      "container": "",
+      "type": "report",
+      "score": 38.330223
+     },
+     "metrics": {
+      "title_sim": 51.45228215767635,
+      "containment": 0.167,
+      "partial_ratio": 51.45631067961165,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2] L. A. Barroso and U. H\u00f6lzle, \u201cThe case for energy-proportional computing,\u201d Computer, vol. 40, no. 12, pp. 33\u201337, 2007.",
+   "title": "The case for energy-proportional computing",
+   "authors": [
+    "Barroso",
+    "H\u00f6lzle"
+   ],
+   "year": 2007,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Computer",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/mc.2007.443",
+    "title": "The Case for Energy-Proportional Computing",
+    "year": 2007,
+    "first_author": "Barroso",
+    "container": "Computer",
+    "type": "journal-article",
+    "score": 41.84088
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3] K. Georgiou, S. Kerrison, Z. Chamski, and K. Eder, \u201cEnergy transparency for deeply embedded programs,\u201d vol. 14, pp. 1\u201326, ACM New York, NY, USA, 2017.",
+   "title": "Energy transparency for deeply embedded programs",
+   "authors": [
+    "Georgiou",
+    "Kerrison",
+    "Chamski",
+    "Eder"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3046679",
+    "title": "Energy Transparency for Deeply Embedded Programs",
+    "year": 2017,
+    "first_author": "Georgiou",
+    "container": "ACM Transactions on Architecture and Code Optimization",
+    "type": "journal-article",
+    "score": 48.369114
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4] N. Grech, K. Georgiou, J. Pallister, S. Kerrison, J. Morse, and K. Eder, \u201cStatic analysis of energy consumption for LLVM IR programs,\u201d pp. 12\u201321, 2015.",
+   "title": "Static analysis of energy consumption for LLVM IR programs",
+   "authors": [
+    "Grech",
+    "Georgiou",
+    "Pallister",
+    "Kerrison",
+    "Morse",
+    "Eder"
+   ],
+   "year": 2015,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/2764967.2764974",
+    "title": "Static analysis of energy consumption for LLVM IR programs",
+    "year": 2015,
+    "first_author": "Grech",
+    "container": "Proceedings of the 18th International Workshop on Software and Compilers for Embedded Systems",
+    "type": "proceedings-article",
+    "score": 60.309147
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5] V. Tiwari, S. Malik, and A. Wolfe, \u201cPower analysis of embedded software: A first step towards software power minimization,\u201d IEEE Transactions on Very Large Scale Integration (VLSI) Systems, vol. 2, no. 4, pp. 437\u2013445, 2002.",
+   "title": "Power analysis of embedded software: A first step towards software power minimization",
+   "authors": [
+    "Tiwari",
+    "Malik",
+    "Wolfe"
+   ],
+   "year": 2002,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE Transactions on Very Large Scale Integration (VLSI) Systems",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/978-1-4615-0292-0_11",
+    "title": "Power Analysis of Embedded Software: First Step Towards Software Power Minimization",
+    "year": 2003,
+    "first_author": "Tiwari",
+    "container": "The Best of ICCAD",
+    "type": "book-chapter",
+    "score": 77.75002
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 97.5609756097561,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[6] D. Hackenberg, T. Ilsche, R. Sch\u00f6ne, D. Molka, M. Schmidt, and W. E. Nagel, \u201cPower measurement techniques on standard compute nodes: A quantitative comparison,\u201d in 2013 IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS), pp. 194\u2013204, IEEE, 2013.",
+   "title": "Power measurement techniques on standard compute nodes: A quantitative comparison",
+   "authors": [
+    "Hackenberg",
+    "Ilsche",
+    "Sch\u00f6ne",
+    "Molka",
+    "Schmidt",
+    "Nagel"
+   ],
+   "year": 2013,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "2013 IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/ispass.2013.6557170",
+    "title": "Power measurement techniques on standard compute nodes: A quantitative comparison",
+    "year": 2013,
+    "first_author": "Hackenberg",
+    "container": "2013 IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS)",
+    "type": "proceedings-article",
+    "score": 63.235264
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[7] T. H\u00f6nig, H. Janker, C. Eibel, W. Schr\u00f6der-Preikschat, O. Mihelic, and R. Kapitza, \u201cProactive Energy-Aware programming with PEEK,\u201d in 2014 Conference on Timely Results in Operating Systems (TRIOS 14), (Broomfield, CO), USENIX Association, Oct. 2014.",
+   "title": "Proactive Energy-Aware programming with PEEK",
+   "authors": [
+    "H\u00f6nig",
+    "Janker",
+    "Eibel",
+    "Schr\u00f6der-Preikschat",
+    "Mihelic",
+    "Kapitza"
+   ],
+   "year": 2014,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "2014 Conference on Timely Results in Operating Systems (TRIOS 14",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1145/3062341.3062356",
+      "title": "Proactive and adaptive energy-aware programming with mixed typechecking",
+      "year": 2017,
+      "first_author": "Canino",
+      "container": "Proceedings of the 38th ACM SIGPLAN Conference on Programming Language Design and Implementation",
+      "type": "proceedings-article",
+      "score": 29.8714
+     },
+     "metrics": {
+      "title_sim": 93.97590361445783,
+      "containment": 0.571,
+      "partial_ratio": 73.23943661971832,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[8] M. Chen, J. Tworek, H. Jun, Q. Yuan, H. P. D. O. Pinto, J. Kaplan, H. Edwards, Y. Burda, N. Joseph, G. Brockman, et al., \u201cEvaluating large language models trained on code,\u201d arXiv preprint arXiv:2107.03374, 2021.",
+   "title": "Evaluating large language models trained on code",
+   "authors": [
+    "Chen",
+    "Tworek",
+    "Jun",
+    "Yuan",
+    "Pinto",
+    "Kaplan",
+    "Edwards",
+    "Burda",
+    "Joseph",
+    "Brockman"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": "2107.03374",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2107.03374"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.31274/td-20250502-3",
+      "title": "Analyzing redundancy in code-trained language models",
+      "year": 2025,
+      "first_author": "Sharma",
+      "container": "",
+      "type": "dissertation",
+      "score": 36.19625
+     },
+     "metrics": {
+      "title_sim": 76.0,
+      "containment": 0.667,
+      "partial_ratio": 55.769230769230774,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[9] Y. Li, D. Choi, J. Chung, N. Kushman, J. Schrittwieser, R. Leblond, T. Eccles, J. Keeling, F. Gimeno, A. Dal Lago, et al., \u201cCompetition-level code generation with alphacode,\u201d Science, vol. 378, no. 6624, pp. 1092\u20131097, 2022.",
+   "title": "Competition-level code generation with alphacode",
+   "authors": [
+    "Li",
+    "Choi",
+    "Chung",
+    "Kushman",
+    "Schrittwieser",
+    "Leblond",
+    "Eccles",
+    "Keeling",
+    "Gimeno",
+    "Lago"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Science",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1126/science.abq1158",
+    "title": "Competition-level code generation with AlphaCode",
+    "year": 2022,
+    "first_author": "Li",
+    "container": "Science",
+    "type": "journal-article",
+    "score": 30.565397
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[10] B. Roziere, J. Gehring, F. Gloeckle, S. Sootla, I. Gat, X. E. Tan, Y. Adi, J. Liu, R. Sauvestre, T. Remez, et al., \u201cCode llama: Open foundation models for code,\u201d arXiv preprint arXiv:2308.12950, 2023.",
+   "title": "Code llama: Open foundation models for code",
+   "authors": [
+    "Roziere",
+    "Gehring",
+    "Gloeckle",
+    "Sootla",
+    "Gat",
+    "Tan",
+    "Adi",
+    "Liu",
+    "Sauvestre",
+    "Remez"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2308.12950",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2308.12950"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.59350/hkbyq-c5h78",
+      "title": "Creating an OBF-wide Code of Conduct",
+      "year": 2019,
+      "first_author": null,
+      "container": "",
+      "type": "posted-content",
+      "score": 37.1809
+     },
+     "metrics": {
+      "title_sim": 49.31506849315068,
+      "containment": 0.2,
+      "partial_ratio": 50.0,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "[11] G. Pinto and F. Castor, \u201cEnergy efficiency: a new concern for application software developers,\u201d Communications of the ACM, vol. 60, no. 12, pp. 68\u201375, 2017.",
+   "title": "Energy efficiency: a new concern for application software developers",
+   "authors": [
+    "Pinto",
+    "Castor"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Communications of the ACM",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3154384",
+    "title": "Energy efficiency",
+    "year": 2017,
+    "first_author": "Pinto",
+    "container": "Communications of the ACM",
+    "type": "journal-article",
+    "score": 57.087677
+   },
+   "metrics": {
+    "title_sim": 40.476190476190474,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "[12] B. C. Mour\u00e3o, L. Karita, and I. do Carmo Machado, \u201cGreen and sustainable software engineering-a systematic mapping study,\u201d in Proceedings of the XVII Brazilian Symposium on Software Quality, pp. 121\u2013130, 2018.",
+   "title": "Green and sustainable software engineering-a systematic mapping study",
+   "authors": [
+    "Mour\u00e3o",
+    "Karita",
+    "Carmo Machado"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the XVII Brazilian Symposium on Software Quality",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3275245.3275258",
+    "title": "Green and Sustainable Software Engineering - a Systematic Mapping Study",
+    "year": 2018,
+    "first_author": "Mour\u00e3o",
+    "container": "Proceedings of the XVII Brazilian Symposium on Software Quality",
+    "type": "proceedings-article",
+    "score": 52.776
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "[13] A. Radovanovic, R. Koningstein, I. Schneider, B. Chen, A. Duarte, B. Roy, D. Xiao, M. Haridasan, P. Hung, N. Care, et al., \u201cCarbon-aware computing for datacenters,\u201d IEEE Transactions on Power Systems, vol. 38, no. 2, pp. 1270\u20131280, 2022.",
+   "title": "Carbon-aware computing for datacenters",
+   "authors": [
+    "Radovanovic",
+    "Koningstein",
+    "Schneider",
+    "Chen",
+    "Duarte",
+    "Roy",
+    "Xiao",
+    "Haridasan",
+    "Hung",
+    "Care"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE Transactions on Power Systems",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/cloud67622.2025.00034",
+      "title": "Carbon-Aware Temporal Data Transfer Scheduling Across Cloud Datacenters",
+      "year": 2025,
+      "first_author": "Rodrigues",
+      "container": "2025 IEEE 18th International Conference on Cloud Computing (CLOUD)",
+      "type": "proceedings-article",
+      "score": 31.175062
+     },
+     "metrics": {
+      "title_sim": 77.41935483870968,
+      "containment": 0.333,
+      "partial_ratio": 53.52112676056338,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "[14] H. Sultan, G. Ananthanarayanan, and S. R. Sarangi, \u201cProcessor power estimation techniques: A survey,\u201d International Journal of High Performance Systems Architecture, vol. 5, no. 2, pp. 93\u2013114, 2014.",
+   "title": "Processor power estimation techniques: A survey",
+   "authors": [
+    "Sultan",
+    "Ananthanarayanan",
+    "Sarangi"
+   ],
+   "year": 2014,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Journal of High Performance Systems Architecture",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1504/ijhpsa.2014.061448",
+    "title": "Processor power estimation techniques: a survey",
+    "year": 2014,
+    "first_author": "Sultan",
+    "container": "International Journal of High Performance Systems Architecture",
+    "type": "journal-article",
+    "score": 44.823444
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "[15] S. Hao, D. Li, W. G. Halfond, and R. Govindan, \u201cEstimating mobile application energy consumption using program analysis,\u201d in 2013 35th international conference on software engineering (ICSE), pp. 92\u2013101, IEEE, 2013.",
+   "title": "Estimating mobile application energy consumption using program analysis",
+   "authors": [
+    "Hao",
+    "Li",
+    "Halfond",
+    "Govindan"
+   ],
+   "year": 2013,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "2013 35th international conference on software engineering (ICSE",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/icse.2013.6606555",
+    "title": "Estimating mobile application energy consumption using program analysis",
+    "year": 2013,
+    "first_author": "Hao",
+    "container": "2013 35th International Conference on Software Engineering (ICSE)",
+    "type": "proceedings-article",
+    "score": 55.07823
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 16,
+   "raw": "[16] R. J. Behrouz, A. Sadeghi, J. Garcia, S. Malek, and P. Ammann, \u201cEcodroid: An approach for energy-based ranking of android apps,\u201d in 2015 IEEE/ACM 4th International Workshop on Green and Sustainable Software, pp. 8\u201314, 2015.",
+   "title": "Ecodroid: An approach for energy-based ranking of android apps",
+   "authors": [
+    "Behrouz",
+    "Sadeghi",
+    "Garcia",
+    "Malek",
+    "Ammann"
+   ],
+   "year": 2015,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "2015 IEEE/ACM 4th International Workshop on Green and Sustainable Software",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/greens.2015.9",
+    "title": "EcoDroid: An Approach for Energy-Based Ranking of Android Apps",
+    "year": 2015,
+    "first_author": "Behrouz",
+    "container": "2015 IEEE/ACM 4th International Workshop on Green and Sustainable Software",
+    "type": "proceedings-article",
+    "score": 67.938835
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 17,
+   "raw": "[17] R. Pereira, M. Couto, J. Saraiva, J. Cunha, and J. P. Fernandes, \u201cThe influence of the java collection framework on overall energy consumption,\u201d in Proceedings of the 5th International Workshop on Green and Sustainable Software, pp. 15\u201321, 2016.",
+   "title": "The influence of the java collection framework on overall energy consumption",
+   "authors": [
+    "Pereira",
+    "Couto",
+    "Saraiva",
+    "Cunha",
+    "Fernandes"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 5th International Workshop on Green and Sustainable Software",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/2896967.2896968",
+    "title": "The influence of the Java collection framework on overall energy consumption",
+    "year": 2016,
+    "first_author": "Pereira",
+    "container": "Proceedings of the 5th International Workshop on Green and Sustainable Software",
+    "type": "proceedings-article",
+    "score": 51.95972
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 18,
+   "raw": "[18] A. A. Bangash, K. Eng, Q. Jamal, K. Ali, and A. Hindle, \u201cEnergy consumption estimation of api-usage in smartphone apps via static analysis,\u201d in 2023 IEEE/ACM 20th International Conference on Mining Software Repositories (MSR), pp. 272\u2013283, IEEE, 2023.",
+   "title": "Energy consumption estimation of api-usage in smartphone apps via static analysis",
+   "authors": [
+    "Bangash",
+    "Eng",
+    "Jamal",
+    "Ali",
+    "Hindle"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "2023 IEEE/ACM 20th International Conference on Mining Software Repositories (MSR",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/msr59073.2023.00047",
+    "title": "Energy Consumption Estimation of API-usage in Smartphone Apps via Static Analysis",
+    "year": 2023,
+    "first_author": "Bangash",
+    "container": "2023 IEEE/ACM 20th International Conference on Mining Software Repositories (MSR)",
+    "type": "proceedings-article",
+    "score": 76.93064
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 19,
+   "raw": "[19] C. Xian, Y.-H. Lu, and Z. Li, \u201cEnergy-aware scheduling for real-time multiprocessor systems with uncertain task execution time,\u201d in Proceedings of the 44th annual Design Automation Conference, pp. 664\u2013669, 2007.",
+   "title": "Energy-aware scheduling for real-time multiprocessor systems with uncertain task execution time",
+   "authors": [
+    "Xian",
+    "Lu",
+    "Li"
+   ],
+   "year": 2007,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 44th annual Design Automation Conference",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/dac.2007.375248",
+    "title": "Energy-Aware Scheduling for Real-Time Multiprocessor Systems with Uncertain Task Execution Time",
+    "year": 2007,
+    "first_author": "Xian",
+    "container": "2007 44th ACM/IEEE Design Automation Conference",
+    "type": "proceedings-article",
+    "score": 88.77998
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 20,
+   "raw": "[20] Q. Wu, M. Martonosi, D. W. Clark, V. J. Reddi, D. Connors, Y. Wu, J. Lee, and D. Brooks, \u201cDynamic-compiler-driven control for microprocessor energy and performance,\u201d IEEE Micro, vol. 26, no. 1, pp. 119\u2013129, 2006.",
+   "title": "Dynamic-compiler-driven control for microprocessor energy and performance",
+   "authors": [
+    "Wu",
+    "Martonosi",
+    "Clark",
+    "Reddi",
+    "Connors",
+    "Wu",
+    "Lee",
+    "Brooks"
+   ],
+   "year": 2006,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE Micro",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/mm.2006.9",
+    "title": "Dynamic-Compiler-Driven Control for Microprocessor Energy and Performance",
+    "year": 2006,
+    "first_author": "Qiang Wu",
+    "container": "IEEE Micro",
+    "type": "journal-article",
+    "score": 51.813686
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 21,
+   "raw": "[21] Y. Zhang, X. Hu, and D. Z. Chen, \u201cEfficient global register allocation for minimizing energy consumption,\u201d ACM SIGPLAN Notices, vol. 37, no. 4, pp. 42\u201353, 2002.",
+   "title": "Efficient global register allocation for minimizing energy consumption",
+   "authors": [
+    "Zhang",
+    "Hu",
+    "Chen"
+   ],
+   "year": 2002,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "ACM SIGPLAN Notices",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/510857.510867",
+    "title": "Efficient global register allocation for minimizing energy consumption",
+    "year": 2002,
+    "first_author": "Zhang",
+    "container": "ACM SIGPLAN Notices",
+    "type": "journal-article",
+    "score": 56.368053
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 22,
+   "raw": "[22] A. Saifullah, S. Fahmida, V. P. Modekurthy, N. Fisher, and Z. Guo, \u201cCpu energy-aware parallel real-time scheduling,\u201d Leibniz international proceedings in informatics, vol. 165, 2020.",
+   "title": "Cpu energy-aware parallel real-time scheduling",
+   "authors": [
+    "Saifullah",
+    "Fahmida",
+    "Modekurthy",
+    "Fisher",
+    "Guo"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Leibniz international proceedings in informatics",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/tpds.2020.2985701",
+      "title": "Energy-Efficient Parallel Real-Time Scheduling on Clustered Multi-Core",
+      "year": 2020,
+      "first_author": "Bhuiyan",
+      "container": "IEEE Transactions on Parallel and Distributed Systems",
+      "type": "journal-article",
+      "score": 40.736267
+     },
+     "metrics": {
+      "title_sim": 87.8048780487805,
+      "containment": 0.556,
+      "partial_ratio": 70.0,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 23,
+   "raw": "[23] L. Ouyang, J. Wu, X. Jiang, D. Almeida, C. Wainwright, P. Mishkin, C. Zhang, S. Agarwal, K. Slama, A. Ray, et al., \u201cTraining language models to follow instructions with human feedback,\u201d vol. 35, pp. 27730\u201327744, 2022.",
+   "title": "Training language models to follow instructions with human feedback",
+   "authors": [
+    "Ouyang",
+    "Wu",
+    "Jiang",
+    "Almeida",
+    "Wainwright",
+    "Mishkin",
+    "Zhang",
+    "Agarwal",
+    "Slama",
+    "Ray"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/068431-2011",
+    "title": "Training Language Models to Follow Instructions with Human Feedback",
+    "year": 2022,
+    "first_author": "Ouyang",
+    "container": "Advances in Neural Information Processing Systems 35",
+    "type": "proceedings-article",
+    "score": 41.00149
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 24,
+   "raw": "[24] A. Mastropaolo, L. Pascarella, E. Guglielmi, M. Ciniselli, S. Scalabrino, R. Oliveto, and G. Bavota, \u201cOn the robustness of code generation techniques: An empirical study on github copilot,\u201d in 2023 IEEE/ACM 45th International Conference on Software Engineering (ICSE), pp. 2149\u20132160, IEEE, 2023.",
+   "title": "On the robustness of code generation techniques: An empirical study on github copilot",
+   "authors": [
+    "Mastropaolo",
+    "Pascarella",
+    "Guglielmi",
+    "Ciniselli",
+    "Scalabrino",
+    "Oliveto",
+    "Bavota"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "2023 IEEE/ACM 45th International Conference on Software Engineering (ICSE",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/icse48619.2023.00181",
+    "title": "On the Robustness of Code Generation Techniques: An Empirical Study on GitHub Copilot",
+    "year": 2023,
+    "first_author": "Mastropaolo",
+    "container": "2023 IEEE/ACM 45th International Conference on Software Engineering (ICSE)",
+    "type": "proceedings-article",
+    "score": 69.55449
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 25,
+   "raw": "[25] J. Jiang, F. Wang, J. Shen, S. Kim, and S. Kim, \u201cA survey on large language models for code generation,\u201d arXiv preprint arXiv:2406.00515, 2024.",
+   "title": "A survey on large language models for code generation",
+   "authors": [
+    "Jiang",
+    "Wang",
+    "Shen",
+    "Kim",
+    "Kim"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2406.00515",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2406.00515"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.4895062",
+      "title": "Graph Retrieval-Augmented Generation for Large Language Models: A Survey",
+      "year": 2024,
+      "first_author": "Procko",
+      "container": "",
+      "type": "posted-content",
+      "score": 36.942818
+     },
+     "metrics": {
+      "title_sim": 91.83673469387755,
+      "containment": 0.625,
+      "partial_ratio": 52.112676056338024,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 26,
+   "raw": "[26] Y. Zhang, Y. Wang, and X. Wang, \u201cGreenware: Greening cloud-scale data centers to maximize the use of renewable energy,\u201d in ACM/IFIP/USENIX international conference on distributed systems platforms and open distributed processing, pp. 143\u2013164, Springer, 2011.",
+   "title": "Greenware: Greening cloud-scale data centers to maximize the use of renewable energy",
+   "authors": [
+    "Zhang",
+    "Wang",
+    "Wang"
+   ],
+   "year": 2011,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "ACM/IFIP/USENIX international conference on distributed systems platforms and open distributed processing",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/978-3-642-25821-3_8",
+    "title": "GreenWare: Greening Cloud-Scale Data Centers to Maximize the Use of Renewable Energy",
+    "year": 2011,
+    "first_author": "Zhang",
+    "container": "Lecture Notes in Computer Science",
+    "type": "book-chapter",
+    "score": 78.86913
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  }
+ ]
+}
