@@ -21,7 +21,7 @@
    "container": null,
    "type": "book",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -44,7 +44,28 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "163b4d6a79a5b19af88b8585456363340d9efd04",
+    "title": "GPT-4 Technical Report",
+    "year": 2023,
+    "first_author": "OpenAI",
+    "container": "",
+    "ext": {
+     "ArXiv": "2303.08774",
+     "CorpusId": 257532815
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -137,7 +158,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -160,7 +181,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "6c943670dca38bfc7c8b477ae7c2d1fba1ad3691",
+    "title": "Program of Thoughts Prompting: Disentangling Computation from Reasoning for Numerical Reasoning Tasks",
+    "year": 2022,
+    "first_author": "Wenhu Chen",
+    "container": "Trans. Mach. Learn. Res.",
+    "ext": {
+     "ArXiv": "2211.12588",
+     "DBLP": "journals/corr/abs-2211-12588",
+     "CorpusId": 253801709
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -397,7 +440,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -420,7 +463,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "5c39e37022661f81f79e481240ed9b175dec6513",
+    "title": "Towards A Rigorous Science of Interpretable Machine Learning",
+    "year": 2017,
+    "first_author": "Finale Doshi-Velez",
+    "container": "",
+    "ext": {
+     "MAG": "2594475271",
+     "ArXiv": "1702.08608",
+     "CorpusId": 11319376
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": true,
@@ -953,7 +1018,7 @@
    "container": "CoRR abs/1511.04834",
    "type": "chapter",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -976,7 +1041,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "bf85a0cd645ad68919c0706741ab568a60a58af2",
+    "title": "Neural Programmer: Inducing Latent Programs with Gradient Descent",
+    "year": 2015,
+    "first_author": "Arvind Neelakantan",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "ArXiv": "1511.04834",
+     "MAG": "2963929497",
+     "DBLP": "journals/corr/NeelakantanLS15",
+     "CorpusId": 6715185
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1687,5 +1775,6 @@
    },
    "evidence": []
   }
- ]
+ ],
+ "second_pass": true
 }

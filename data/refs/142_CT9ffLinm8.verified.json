@@ -1,0 +1,675 @@
+{
+ "pdf": "142_CT9ffLinm8.pdf",
+ "n_entries": 16,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 2,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "References [1] Mart\u00edn Abadi, Ashish Agarwal, P. Barham, E. Brevdo, Z. Chen, C. Citro, G. Corrado, Andy Davis, J. Dean, M. Devin, S. Ghemawat, I. Goodfellow, A. Harp, G. Irving, M. Isard, Yangqing Jia, R. J\u00f3zefowicz, Lukasz Kaiser, M. Kudlur, J. Levenberg, Dandelion Man\u00e9, R. Monga, Sherry Moore, D. Murray, C. Olah, M. Schuster, Jonathon Shlens, Benoit Steiner, I. Sutskever, Kunal Talwar, P. Tucker, Vincent Vanhoucke, Vijay Vasudevan, F. Vi\u00e9gas, O. Vinyals, Pete Warden, M. Wattenberg, M. Wicke, Yuan Yu, and Xiaoqiang Zheng. Tensorflow: Large-scale machine learning on heterogeneous distributed systems. ArXiv, abs/1603.04467, 2016.",
+   "title": null,
+   "authors": [
+    "References [1] Mart\u00edn Abadi, Ashish Agarwal, P. Barham, E. Brevdo, Z. Chen, C. Citro, G. Corrado, Andy Davis, J. Dean, M. Devin, S. Ghemawat, I. Goodfellow, A. Harp, G. Irving, M. Isard, Yangqing Jia, R. J\u00f3zefowicz, Lukasz Kaiser, M. Kudlur, J. Levenberg, Dandelion Man\u00e9, R. Monga, Sherry Moore, D. Murray, C. Olah, M. Schuster, Jonathon Shlens, Benoit Steiner, I. Sutskever, Kunal Talwar, P. Tucker, Vincent Vanhoucke, Vijay Vasudevan, F. Vi\u00e9gas, O. Vinyals, Pete Warden, M. Wattenberg, M. Wicke"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": "1603.04467",
+   "urls": [],
+   "container": "Yuan Yu",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "1603.04467",
+    "title": "TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems",
+    "year": 2016,
+    "first_author": "Mart\u00edn Abadi"
+   },
+   "metrics": {
+    "title_sim": 0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false,
+    "rule": "id+raw_containment"
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2] Takuya Akiba, Shotaro Sano, Toshihiko Yanase, Takeru Ohta, and Masanori Koyama. Optuna: A Next-generation Hyperparameter Optimization Framework. 2019.",
+   "title": "Optuna: A Next-generation Hyperparameter Optimization Framework",
+   "authors": [
+    "Akiba",
+    "Sano",
+    "Yanase",
+    "Ohta",
+    "Koyama"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.7717/peerj.20606/fig-6",
+      "title": "Figure 6: XGBoost hyperparameter values optimized with Optuna.",
+      "year": 2026,
+      "first_author": null,
+      "container": "",
+      "type": "component",
+      "score": 34.303093
+     },
+     "metrics": {
+      "title_sim": 62.295081967213115,
+      "containment": 0.333,
+      "partial_ratio": 55.00000000000001,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3] Jimmy Lei Ba, Jamie Ryan Kiros, and Geoffrey E Hinton. Layer normalization. arXiv preprint arXiv:1607.06450, 2016.",
+   "title": "Layer normalization",
+   "authors": [
+    "Ba",
+    "Kiros",
+    "Hinton"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": "1607.06450",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "1607.06450"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.7717/peerj-cs.3198/table-101",
+      "title": "Algorithm 1 : Global response normalization layer.",
+      "year": 2025,
+      "first_author": null,
+      "container": "",
+      "type": "component",
+      "score": 22.392658
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 0.4,
+      "partial_ratio": 57.446808510638306,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4] Yoshua Bengio, Patrice Y. Simard, and P. Frasconi. Learning long-term dependencies with gradient descent is difficult. IEEE transactions on neural networks, 5 2:157\u201366, 1994.",
+   "title": "Learning long-term dependencies with gradient descent is difficult",
+   "authors": [
+    "Bengio",
+    "Simard",
+    "Frasconi"
+   ],
+   "year": 1994,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE transactions on neural networks",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/72.279181",
+    "title": "Learning long-term dependencies with gradient descent is difficult",
+    "year": 1994,
+    "first_author": "Bengio",
+    "container": "IEEE Transactions on Neural Networks",
+    "type": "journal-article",
+    "score": 65.34187
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5] Xavier Glorot and Yoshua Bengio. Understanding the difficulty of training deep feedforward neural networks. pages 249\u2013256, 2010.",
+   "title": "Understanding the difficulty of training deep feedforward neural networks",
+   "authors": [
+    "Glorot",
+    "Bengio"
+   ],
+   "year": 2010,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/cvpr.2018.00091",
+      "title": "Towards a Mathematical Understanding of the Difficulty in Learning with Feedforward Neural Networks",
+      "year": 2018,
+      "first_author": "Shen",
+      "container": "2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "type": "proceedings-article",
+      "score": 36.91613
+     },
+     "metrics": {
+      "title_sim": 89.39393939393939,
+      "containment": 0.714,
+      "partial_ratio": 73.73737373737373,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[6] Ian Goodfellow, Yoshua Bengio, Aaron Courville, and Yoshua Bengio. Deep learning, volume 1. MIT Press, 2016.",
+   "title": "Yoshua Bengio, Aaron Courville, and Yoshua Bengio",
+   "authors": [
+    "Goodfellow"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Deep learning",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/s10710-017-9314-z",
+      "title": "Ian Goodfellow, Yoshua Bengio, and Aaron Courville: Deep learning",
+      "year": 2018,
+      "first_author": "Heaton",
+      "container": "Genetic Programming and Evolvable Machines",
+      "type": "journal-article",
+      "score": 78.41002
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 1.0,
+      "partial_ratio": 84.68468468468468,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[7] Kaiming He, X. Zhang, Shaoqing Ren, and Jian Sun. Delving deep into rectifiers: Surpassing human-level performance on imagenet classification. 2015 IEEE International Conference on Computer Vision (ICCV), pages 1026\u20131034, 2015.",
+   "title": "Delving deep into rectifiers: Surpassing human-level performance on imagenet classification",
+   "authors": [
+    "Kaiming He",
+    "Ren",
+    "Sun"
+   ],
+   "year": 2015,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "2015 IEEE International Conference on Computer Vision (ICCV",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/iccv.2015.123",
+    "title": "Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification",
+    "year": 2015,
+    "first_author": "He",
+    "container": "2015 IEEE International Conference on Computer Vision (ICCV)",
+    "type": "proceedings-article",
+    "score": 85.27189
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[8] Andrej Karpathy. nanogpt. URL https://github.com/karpathy/nanoGPT/tree/master, 2023. GitHub repository.",
+   "title": "GitHub repository",
+   "authors": [
+    "nanogpt"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://github.com/karpathy/nanoGPT/tree/master"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.7717/peerj.15573/fig-1",
+    "title": "Figure 1: The layout of our GitHub repository.",
+    "year": 2023,
+    "first_author": null,
+    "container": "",
+    "type": "component",
+    "score": 29.669277
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.4,
+    "partial_ratio": 64.93506493506493,
+    "year_ok": true,
+    "first_author_ok": null
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[9] Diederik P. Kingma and Jimmy Ba. Adam: A method for stochastic optimization. CoRR, abs/1412.6980, 2014.",
+   "title": "Adam: A method for stochastic optimization",
+   "authors": [
+    "Kingma",
+    "Ba"
+   ],
+   "year": 2014,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "CoRR",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1080/10556788.2014.891592",
+    "title": "A smoothing stochastic gradient method for composite optimization",
+    "year": 2014,
+    "first_author": "Lin",
+    "container": "Optimization Methods and Software",
+    "type": "journal-article",
+    "score": 24.27538
+   },
+   "metrics": {
+    "title_sim": 93.50649350649351,
+    "containment": 0.5,
+    "partial_ratio": 58.46153846153845,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[10] Hao Li, Zheng Xu, Gavin Taylor, and T. Goldstein. Visualizing the loss landscape of neural nets. ArXiv, abs/1712.09913, 2017.",
+   "title": "Visualizing the loss landscape of neural nets",
+   "authors": [
+    "Li",
+    "Xu",
+    "Taylor",
+    "Goldstein"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": "1712.09913",
+   "urls": [],
+   "container": "ArXiv",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "1712.09913"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/978-3-319-57550-6_7",
+      "title": "Visualizing Neural Networks",
+      "year": 2017,
+      "first_author": "Habibi Aghdam",
+      "container": "Guide to Convolutional Neural Networks",
+      "type": "book-chapter",
+      "score": 23.957178
+     },
+     "metrics": {
+      "title_sim": 80.0,
+      "containment": 0.667,
+      "partial_ratio": 62.96296296296296,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "[11] Richard Liaw, Eric Liang, Robert Nishihara, Philipp Moritz, Joseph E. Gonzalez, and Ion Stoica. Tune: A research platform for distributed model selection and training. ArXiv, abs/1807.05118, 2018.",
+   "title": "Tune: A research platform for distributed model selection and training",
+   "authors": [
+    "Liaw",
+    "Liang",
+    "Nishihara",
+    "Moritz",
+    "Gonzalez",
+    "Stoica"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": "1807.05118",
+   "urls": [],
+   "container": "ArXiv",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "1807.05118"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.26599/bdma.2018.9020006",
+      "title": "ZenLDA: Large-scale topic model training on distributed data-parallel platform",
+      "year": 2018,
+      "first_author": "Zhao",
+      "container": "Big Data Mining and Analytics",
+      "type": "journal-article",
+      "score": 24.477242
+     },
+     "metrics": {
+      "title_sim": 71.23287671232876,
+      "containment": 0.4,
+      "partial_ratio": 49.350649350649356,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "[12] Ilya Loshchilov and Frank Hutter. Decoupled weight decay regularization. arXiv preprint arXiv:1711.05101, 2017.",
+   "title": "Decoupled weight decay regularization",
+   "authors": [
+    "Loshchilov",
+    "Hutter"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": "1711.05101",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "1711.05101",
+    "title": "Decoupled Weight Decay Regularization",
+    "year": 2017,
+    "first_author": "Ilya Loshchilov"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "[13] Razvan Pascanu, Tomas Mikolov, and Yoshua Bengio. On the difficulty of training recurrent neural networks. pages 1310\u20131318, 2012.",
+   "title": "On the difficulty of training recurrent neural networks",
+   "authors": [
+    "Pascanu",
+    "Mikolov",
+    "Bengio"
+   ],
+   "year": 2012,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/ijcnn.2012.6252506",
+      "title": "Taming the reservoir: Feedforward training for recurrent neural networks",
+      "year": 2012,
+      "first_author": "Obst",
+      "container": "The 2012 International Joint Conference on Neural Networks (IJCNN)",
+      "type": "proceedings-article",
+      "score": 34.38255
+     },
+     "metrics": {
+      "title_sim": 81.72043010752688,
+      "containment": 0.571,
+      "partial_ratio": 66.19718309859155,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "[14] Adam Paszke, Sam Gross, Francisco Massa, Adam Lerer, James Bradbury, Gregory Chanan, Trevor Killeen, Zeming Lin, Natalia Gimelshein, Luca Antiga, et al. Pytorch: An imperative style, high-performance deep learning library. Advances in neural information processing systems, 32, 2019.",
+   "title": "Pytorch: An imperative style, high-performance deep learning library",
+   "authors": [
+    "Paszke",
+    "Gross",
+    "Massa",
+    "Lerer",
+    "Bradbury",
+    "Chanan",
+    "Killeen",
+    "Lin",
+    "Gimelshein",
+    "Antiga"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in neural information processing systems",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/dls49591.2019.00015",
+      "title": "Scaling TensorFlow, PyTorch, and MXNet using MVAPICH2 for High-Performance Deep Learning on Frontera",
+      "year": 2019,
+      "first_author": "Jain",
+      "container": "2019 IEEE/ACM Third Workshop on Deep Learning on Supercomputers (DLS)",
+      "type": "proceedings-article",
+      "score": 36.57449
+     },
+     "metrics": {
+      "title_sim": 73.07692307692308,
+      "containment": 0.5,
+      "partial_ratio": 63.26530612244898,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "[15] Alec Radford, Jeff Wu, Rewon Child, David Luan, Dario Amodei, and Ilya Sutskever. Language models are unsupervised multitask learners. 2019.",
+   "title": "Language models are unsupervised multitask learners",
+   "authors": [
+    "Radford",
+    "Wu",
+    "Child",
+    "Luan",
+    "Amodei",
+    "Sutskever"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1101/2020.12.15.422761",
+      "title": "Transformer protein language models are unsupervised structure learners",
+      "year": 2020,
+      "first_author": "Rao",
+      "container": "",
+      "type": "posted-content",
+      "score": 30.396992
+     },
+     "metrics": {
+      "title_sim": 89.13043478260869,
+      "containment": 0.571,
+      "partial_ratio": 72.59259259259258,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 16,
+   "raw": "[16] Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N Gomez, \u0141ukasz Kaiser, and Illia Polosukhin. Attention is all you need. Advances in neural information processing systems, 30, 2017.",
+   "title": "Attention is all you need",
+   "authors": [
+    "Vaswani",
+    "Shazeer",
+    "Parmar",
+    "Uszkoreit",
+    "Jones",
+    "Gomez",
+    "Kaiser",
+    "Polosukhin"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in neural information processing systems",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.65215/r5bs2d54",
+    "title": "Attention Is All You Need",
+    "year": 2025,
+    "first_author": "Vaswani",
+    "container": "",
+    "type": "posted-content",
+    "score": 43.621178
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  }
+ ]
+}

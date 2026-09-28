@@ -1,0 +1,1542 @@
+{
+ "pdf": "160_wpYnS2qBBX.pdf",
+ "n_entries": 36,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 2,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "TCGA data are publicly available through the Genomic Data Commons. Analysis code and results are available upon request. References [1] Roger Stupp, Warren P Mason, Martin J van den Bent, Michael Weller, Barbara Fisher, Martin JB Taphoorn, Kylie Belanger, Alba A Brandes, Christine Marosi, Ulrich Bogdahn, et al. Radiotherapy plus concomitant and adjuvant temozolomide for glioblastoma. New England Journal of Medicine, 352(10):987\u2013996, 2005.",
+   "title": "TCGA data are publicly available through the Genomic Data Commons. Analysis code and results are available upon request",
+   "authors": [
+    "Stupp",
+    "Mason",
+    "Bent",
+    "Weller",
+    "Fisher",
+    "Taphoorn",
+    "Belanger",
+    "Brandes",
+    "Marosi",
+    "Bogdahn"
+   ],
+   "year": 2005,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "New England Journal of Medicine",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.58647/rexpo26000213.v1",
+      "title": "What Happens After \"Data Available Upon Request\"?",
+      "year": 2026,
+      "first_author": "Seltmann",
+      "container": "What Happens After \"Data Available Upon Request\"?",
+      "type": "proceedings-article",
+      "score": 63.414024
+     },
+     "metrics": {
+      "title_sim": 46.34146341463414,
+      "containment": 0.571,
+      "partial_ratio": 65.21739130434783,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2] Roel GW Verhaak, Katherine A Hoadley, Elizabeth Purdom, Victoria Wang, Yuan Qi, Matthew D Wilkerson, C Ryan Miller, Li Ding, Todd Golub, Jill P Mesirov, et al. Integrated genomic analysis identifies clinically relevant subtypes of glioblastoma characterized by abnormalities in pdgfra, idh1, egfr, and nf1. Cancer cell, 17(1):98\u2013110, 2010.",
+   "title": "Integrated genomic analysis identifies clinically relevant subtypes of glioblastoma characterized by abnormalities in pdgfra, idh1, egfr, and nf1",
+   "authors": [
+    "Verhaak",
+    "Hoadley",
+    "Purdom",
+    "Wang",
+    "Qi",
+    "Wilkerson",
+    "Miller",
+    "Ding",
+    "Golub",
+    "Mesirov"
+   ],
+   "year": 2010,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Cancer cell",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.ccr.2009.12.020",
+    "title": "Integrated Genomic Analysis Identifies Clinically Relevant Subtypes of Glioblastoma Characterized by Abnormalities in PDGFRA, IDH1, EGFR, and NF1",
+    "year": 2010,
+    "first_author": "Verhaak",
+    "container": "Cancer Cell",
+    "type": "journal-article",
+    "score": 66.88866
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3] Pierre J Magistretti. Energy on demand. Science, 325(5944):1249\u20131250, 2009.",
+   "title": "Energy on demand",
+   "authors": [
+    "Magistretti"
+   ],
+   "year": 2009,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Science",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1126/science.283.5401.496",
+    "title": "Energy on Demand",
+    "year": 1999,
+    "first_author": "Magistretti",
+    "container": "Science",
+    "type": "journal-article",
+    "score": 25.218508
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4] Spyros Darmanis, Steven A Sloan, Derek Croote, Marco Mignardi, Sophia Chernikova, Peyman Samghababi, Ye Zhang, Norma Neff, Mark Kowarsky, Christine Caneda, et al. A survey of human brain transcriptome diversity at the single cell level. Proceedings of the National Academy of Sciences, 114(13):E2618\u2013E2627, 2017.",
+   "title": "A survey of human brain transcriptome diversity at the single cell level",
+   "authors": [
+    "Darmanis",
+    "Sloan",
+    "Croote",
+    "Mignardi",
+    "Chernikova",
+    "Samghababi",
+    "Zhang",
+    "Neff",
+    "Kowarsky",
+    "Caneda"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the National Academy of Sciences",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1073/pnas.1507125112",
+    "title": "A survey of human brain transcriptome diversity at the single cell level",
+    "year": 2015,
+    "first_author": "Darmanis",
+    "container": "Proceedings of the National Academy of Sciences",
+    "type": "journal-article",
+    "score": 44.21819
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5] The Cancer Genome Atlas Research Network. The cancer genome atlas - glioblastoma multiforme, 2008. Accessed via Genomic Data Commons API: 2025-09-14.",
+   "title": "The Cancer Genome Atlas Research Network. The cancer genome atlas - glioblastoma multiforme",
+   "authors": [],
+   "year": 2008,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1177/1176935117734844",
+      "title": "Evaluating the Prognostic Accuracy of Biomarkers for Glioblastoma Multiforme Using The Cancer Genome Atlas Data",
+      "year": 2017,
+      "first_author": "Hu",
+      "container": "Cancer Informatics",
+      "type": "journal-article",
+      "score": 55.960697
+     },
+     "metrics": {
+      "title_sim": 84.68468468468468,
+      "containment": 0.6,
+      "partial_ratio": 54.054054054054056,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[6] Terence I Yuen, Andrew P Morokoff, Andrew Bjorksten, Giovanna D\u2019Abaco, Lisa Paradiso, Sara Finch, Diana Wong, Christopher A Reid, Kate L Powell, Katharine J Drummond, et al. Glutamate is associated with a higher risk of seizures in patients with gliomas. Neurology, 79(9):883\u2013889, 2012.",
+   "title": "Glutamate is associated with a higher risk of seizures in patients with gliomas",
+   "authors": [
+    "Yuen",
+    "Morokoff",
+    "Bjorksten",
+    "D\u2019Abaco",
+    "Paradiso",
+    "Finch",
+    "Wong",
+    "Reid",
+    "Powell",
+    "Drummond"
+   ],
+   "year": 2012,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Neurology",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1212/wnl.0b013e318266fa89",
+    "title": "Glutamate is associated with a higher risk of seizures in patients with gliomas",
+    "year": 2012,
+    "first_author": "Yuen",
+    "container": "Neurology",
+    "type": "journal-article",
+    "score": 45.98417
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[7] Robert C Doebele, Alexander Drilon, Luis Paz-Ares, Salvatore Siena, Alice T Shaw, Anna F Farago, Carolyn M Blakely, Takashi Seto, Byoung Chul Cho, Daniele Tosi, et al. Entrectinib in patients with advanced or metastatic ntrk fusion-positive solid tumours: integrated analysis of three phase 1\u20132 trials. The Lancet Oncology, 21(2):271\u2013282, 2020.",
+   "title": "Entrectinib in patients with advanced or metastatic ntrk fusion-positive solid tumours: integrated analysis of three phase 1\u20132 trials",
+   "authors": [
+    "Doebele",
+    "Drilon",
+    "Paz-Ares",
+    "Siena",
+    "Shaw",
+    "Farago",
+    "Blakely",
+    "Seto",
+    "Cho",
+    "Tosi"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "The Lancet Oncology",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1093/annonc/mdz420.004",
+      "title": "Updated efficacy and safety of entrectinib in patients with NTRK fusion-positive tumours: Integrated analysis of STARTRK-2, STARTRK-1 and ALKA-372-001",
+      "year": 2019,
+      "first_author": "Rolfo",
+      "container": "Annals of Oncology",
+      "type": "journal-article",
+      "score": 59.63751
+     },
+     "metrics": {
+      "title_sim": 77.77777777777777,
+      "containment": 0.5,
+      "partial_ratio": 67.56756756756756,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[8] Eric Eunshik Kim, Chul-Kee Park, and Seung-Ki Kim. Ntrk-fused central nervous system tumours: clinicopathological and genetic insights and response to trk inhibitors. Acta neuropathologica communications, 2024.",
+   "title": "Ntrk-fused central nervous system tumours: clinicopathological and genetic insights and response to trk inhibitors",
+   "authors": [
+    "Kim",
+    "Park",
+    "Kim"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Acta neuropathologica communications",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1186/s40478-024-01798-9",
+    "title": "NTRK-fused central nervous system tumours: clinicopathological and genetic insights and response to TRK inhibitors",
+    "year": 2024,
+    "first_author": "Kim",
+    "container": "Acta Neuropathologica Communications",
+    "type": "journal-article",
+    "score": 75.753235
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[9] Humsa S Venkatesh, Wataru Morishita, Anna C Geraghty, Dana Silverbush, Shawn M Gillespie, Michael Arzt, Laurel T Tam, Caroline Espenel, Anitha Ponnuswami, Lin Ni, et al. Electrical and synaptic integration of glioma into neural circuits. Nature, 573(7775):539\u2013545, 2019.",
+   "title": "Electrical and synaptic integration of glioma into neural circuits",
+   "authors": [
+    "Venkatesh",
+    "Morishita",
+    "Geraghty",
+    "Silverbush",
+    "Gillespie",
+    "Arzt",
+    "Tam",
+    "Espenel",
+    "Ponnuswami",
+    "Ni"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.3410/f.736621017.793571572",
+    "title": "Faculty Opinions recommendation of Electrical and synaptic integration of glioma into neural circuits.",
+    "year": 2020,
+    "first_author": "Sobolevsky",
+    "container": "Faculty Opinions \u2013 Post-Publication Peer Review of the Biomedical Literature",
+    "type": "dataset",
+    "score": 42.46629
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.667,
+    "partial_ratio": 77.22772277227723,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[10] Varun Venkataramani, Dimitar I Tanev, Carmen Strahle, Alexander Studier-Fischer, Luc Fankhauser, Tobias Kessler, Christoph K\u00f6rber, Miriam Kardorff, Miriam Ratliff, Ruifan Xie, et al. Glutamatergic synaptic input to glioma cells drives brain tumour progression. Nature, 573(7775):532\u2013538, 2019.",
+   "title": "Glutamatergic synaptic input to glioma cells drives brain tumour progression",
+   "authors": [
+    "Venkataramani",
+    "Tanev",
+    "Strahle",
+    "Studier-Fischer",
+    "Fankhauser",
+    "Kessler",
+    "K\u00f6rber",
+    "Kardorff",
+    "Ratliff",
+    "Xie"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.3410/f.736621012.793565715",
+    "title": "Faculty Opinions recommendation of Glutamatergic synaptic input to glioma cells drives brain tumour progression.",
+    "year": 2019,
+    "first_author": "Huse",
+    "container": "Faculty Opinions \u2013 Post-Publication Peer Review of the Biomedical Literature",
+    "type": "dataset",
+    "score": 73.27633
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.75,
+    "partial_ratio": 79.27927927927928,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "[11] Michelle Monje. Synaptic communication in brain cancer. Cancer Research, 80(12):2979\u20132982, 2020.",
+   "title": "Synaptic communication in brain cancer",
+   "authors": [
+    "Monje"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Cancer Research",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1158/0008-5472.can-20-0646",
+    "title": "Synaptic Communication in Brain Cancer",
+    "year": 2020,
+    "first_author": "Monje",
+    "container": "Cancer Research",
+    "type": "journal-article",
+    "score": 45.94171
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "[12] Adam Lauko, Andrea Lo, Manmeet S Ahluwalia, and Justin D Lathia. Glioblastoma and neuronal activity: opportunities for novel therapeutic strategies. Neuro-Oncology, 2019.",
+   "title": "Glioblastoma and neuronal activity: opportunities for novel therapeutic strategies",
+   "authors": [
+    "Lauko",
+    "Lo",
+    "Ahluwalia",
+    "Lathia"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.5772/20132",
+      "title": "Novel Therapeutic Venues for Glioblastoma: Novel Rising Preclinical Treatment Opportunities",
+      "year": 2011,
+      "first_author": "Markus",
+      "container": "Brain Tumors - Current and Emerging Therapeutic Strategies",
+      "type": "book-chapter",
+      "score": 39.05675
+     },
+     "metrics": {
+      "title_sim": 77.57575757575758,
+      "containment": 0.556,
+      "partial_ratio": 55.55555555555556,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "[13] Qianghu Zeng, Ian Philip Michael, Peng Zhang, Sina Saghafinia, Graham Knott, Wei Jiao, Brian D McCabe, Jose A Galvan, Hugh PC Robinson, Inti Zlobec, et al. Synaptic proximity enables nmdar signalling to promote brain metastasis. Nature, 2019.",
+   "title": "Synaptic proximity enables nmdar signalling to promote brain metastasis",
+   "authors": [
+    "Zeng",
+    "Michael",
+    "Zhang",
+    "Saghafinia",
+    "Knott",
+    "Jiao",
+    "McCabe",
+    "Galvan",
+    "Robinson",
+    "Zlobec"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/s41586-019-1576-6",
+    "title": "Synaptic proximity enables NMDAR signalling to promote brain metastasis",
+    "year": 2019,
+    "first_author": "Zeng",
+    "container": "Nature",
+    "type": "journal-article",
+    "score": 61.084587
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "[14] Matthias Osswald, Elias Jung, Felix Sahm, Gergely Solecki, Varun Venkataramani, Julian Blaes, Stefanie Weil, Henning Horstmann, Benedikt Wiestler, Mobeen Syed, et al. Brain tumour cells interconnect to a functional and resistant network. Nature, 528(7580):93\u201398, 2015.",
+   "title": "Brain tumour cells interconnect to a functional and resistant network",
+   "authors": [
+    "Osswald",
+    "Jung",
+    "Sahm",
+    "Solecki",
+    "Venkataramani",
+    "Blaes",
+    "Weil",
+    "Horstmann",
+    "Wiestler",
+    "Syed"
+   ],
+   "year": 2015,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.3410/f.725910582.793517741",
+    "title": "Faculty Opinions recommendation of Brain tumour cells interconnect to a functional and resistant network.",
+    "year": 2016,
+    "first_author": "Timpson",
+    "container": "Faculty Opinions \u2013 Post-Publication Peer Review of the Biomedical Literature",
+    "type": "dataset",
+    "score": 45.5515
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.7,
+    "partial_ratio": 77.88461538461539,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "[15] Elias Jung, Javier Alfonso, Hannah Monyer, Wolfgang Wick, and Frank Winkler. Tweetyhomolog 1 drives brain colonization of gliomas. Journal of Neuroscience, 2017.",
+   "title": "Tweetyhomolog 1 drives brain colonization of gliomas",
+   "authors": [
+    "Jung",
+    "Alfonso",
+    "Monyer",
+    "Wick",
+    "Winkler"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Neuroscience",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1523/jneurosci.3532-16.2017",
+    "title": "Tweety-Homolog 1 Drives Brain Colonization of Gliomas",
+    "year": 2017,
+    "first_author": "Jung",
+    "container": "The Journal of Neuroscience",
+    "type": "journal-article",
+    "score": 28.898548
+   },
+   "metrics": {
+    "title_sim": 99.04761904761905,
+    "containment": 0.667,
+    "partial_ratio": 98.11320754716981,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 16,
+   "raw": "[16] Stephanie B Gibson, Jennifer A Oyer, Amanda C Spalding, Steven M Anderson, and Gloria L Johnson. Glial cell-derived neurotrophic factor promotes tumor cell migration and invasion of glioblastoma. Molecular Cancer Research, 2019.",
+   "title": "Glial cell-derived neurotrophic factor promotes tumor cell migration and invasion of glioblastoma",
+   "authors": [
+    "Gibson",
+    "Oyer",
+    "Spalding",
+    "Anderson",
+    "Johnson"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Molecular Cancer Research",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.3390/ijms251810229",
+      "title": "Glial-Cell-Line-Derived Neurotrophic Factor Promotes Glioblastoma Cell Migration and Invasion via the SMAD2/3-SERPINE1-Signaling Axis",
+      "year": 2024,
+      "first_author": "Guo",
+      "container": "International Journal of Molecular Sciences",
+      "type": "journal-article",
+      "score": 62.38138
+     },
+     "metrics": {
+      "title_sim": 94.85714285714286,
+      "containment": 0.667,
+      "partial_ratio": 71.26436781609196,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 17,
+   "raw": "[17] Takeshi Hara, Ravid Chanoch-Myers, Nathan D Mathewson, Christina Myskiw, Lestat Atta, Liza Bussema, Stephen W Eichhorn, Aaron C Greenwald, Gabriela S Kinker, Charlotte Rodman, et al. Interactions between cancer cells and immune cells drive transitions to mesenchymal-like states in glioblastoma. Cancer Cell, 2021.",
+   "title": "Interactions between cancer cells and immune cells drive transitions to mesenchymal-like states in glioblastoma",
+   "authors": [
+    "Hara",
+    "Chanoch-Myers",
+    "Mathewson",
+    "Myskiw",
+    "Atta",
+    "Bussema",
+    "Eichhorn",
+    "Greenwald",
+    "Kinker",
+    "Rodman"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Cancer Cell",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.3410/f.740222617.793588328",
+    "title": "Faculty Opinions recommendation of Interactions between cancer cells and immune cells drive transitions to mesenchymal-like states in glioblastoma.",
+    "year": 2021,
+    "first_author": "Hulleman",
+    "container": "Faculty Opinions \u2013 Post-Publication Peer Review of the Biomedical Literature",
+    "type": "dataset",
+    "score": 76.893394
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.8,
+    "partial_ratio": 84.93150684931507,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 18,
+   "raw": "[18] Sara Alcantara-Llaguno and Luis F Parada. Neuronal signaling and cancer stem cells. Current Opinion in Oncology, 2018.",
+   "title": "Neuronal signaling and cancer stem cells",
+   "authors": [
+    "Alcantara-Llaguno",
+    "Parada"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Current Opinion in Oncology",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1097/wco.0000000000000994",
+      "title": "Cancer stem cells in gliomas: evolving concepts and therapeutic implications",
+      "year": 2021,
+      "first_author": "Alcantara Llaguno",
+      "container": "Current Opinion in Neurology",
+      "type": "journal-article",
+      "score": 38.250946
+     },
+     "metrics": {
+      "title_sim": 68.85245901639344,
+      "containment": 0.375,
+      "partial_ratio": 49.6,
+      "year_ok": false,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 19,
+   "raw": "[19] Colleen M Niswender and P Jeffrey Conn. Metabotropic glutamate receptors: physiology, pharmacology, and disease. Annual Review of Pharmacology and Toxicology, 50:295\u2013322, 2010.",
+   "title": "Metabotropic glutamate receptors: physiology, pharmacology, and disease",
+   "authors": [
+    "Niswender",
+    "Conn"
+   ],
+   "year": 2010,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Annual Review of Pharmacology and Toxicology",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1146/annurev.pharmtox.011008.145533",
+    "title": "Metabotropic Glutamate Receptors: Physiology, Pharmacology, and Disease",
+    "year": 2010,
+    "first_author": "Niswender",
+    "container": "Annual Review of Pharmacology and Toxicology",
+    "type": "journal-article",
+    "score": 59.507736
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 20,
+   "raw": "[20] James Maksymetz, Max E Joffe, and P Jeffrey Conn. Metabotropic glutamate receptor subtype 5 in cns disorders: pathophysiology and therapeutic opportunities. British Journal of Pharmacology, 174(17):2927\u20132946, 2017.",
+   "title": "Metabotropic glutamate receptor subtype 5 in cns disorders: pathophysiology and therapeutic opportunities",
+   "authors": [
+    "Maksymetz",
+    "Joffe",
+    "Conn"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "British Journal of Pharmacology",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1111/j.1527-3458.2006.00149.x",
+      "title": "Metabotropic Glutamate Receptor Subtype 5 Antagonists MPEP and MTEP",
+      "year": 2006,
+      "first_author": "Lea",
+      "container": "CNS Drug Reviews",
+      "type": "journal-article",
+      "score": 44.357796
+     },
+     "metrics": {
+      "title_sim": 80.35714285714286,
+      "containment": 0.571,
+      "partial_ratio": 77.61194029850746,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 21,
+   "raw": "[21] Liang Wang, Zhigang Zhang, Ming Li, Feng Wang, Yonglong Jia, Fengyuan Zhang, Jun Shao, Aijun Chen, and Sheng Zheng. Bdnf/trkb signaling promotes glioma growth through nf-\u03bab activation. Neuro-Oncology, 21(4):387\u2013399, 2019.",
+   "title": "Bdnf/trkb signaling promotes glioma growth through nf-\u03bab activation",
+   "authors": [
+    "Wang",
+    "Zhang",
+    "Li",
+    "Wang",
+    "Jia",
+    "Zhang",
+    "Shao",
+    "Chen",
+    "Zheng"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Neuro-Oncology",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/s11010-019-03525-8",
+      "title": "SIRT6 abrogation promotes adrenocortical carcinoma through activation of NF-\u03baB signaling",
+      "year": 2019,
+      "first_author": "Wu",
+      "container": "Molecular and Cellular Biochemistry",
+      "type": "journal-article",
+      "score": 44.490414
+     },
+     "metrics": {
+      "title_sim": 78.18181818181819,
+      "containment": 0.5,
+      "partial_ratio": 53.40909090909092,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 22,
+   "raw": "[22] Kelly V Pinheiro, Amanda Thomaz, and Barbara Kunzler Souza. Expression and pharmacological inhibition of trkb and egfr in glioblastoma. Molecular biology reports, 2020.",
+   "title": "Expression and pharmacological inhibition of trkb and egfr in glioblastoma",
+   "authors": [
+    "Pinheiro",
+    "Thomaz",
+    "Souza"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Molecular biology reports",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1101/2020.02.03.932608",
+    "title": "Expression and pharmacological inhibition of TrkB and EGFR in glioblastoma",
+    "year": 2020,
+    "first_author": "de Vargas Pinheiro",
+    "container": "",
+    "type": "posted-content",
+    "score": 48.771233
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 23,
+   "raw": "[23] Elizabeth Berry-Kravis, Vincent Des Portes, Randi Hagerman, St\u00e9phane Jacquemont, Patrice Charles, Jeannie Visootsak, Marinus Brinkman, Karine Rerat, Bill Koumaras, Lei Zhu, et al. Mavoglurant in fragile x syndrome: Results of two randomized, double-blind, placebocontrolled trials. Science Translational Medicine, 8(321):321ra5\u2013321ra5, 2016.",
+   "title": "Mavoglurant in fragile x syndrome: Results of two randomized, double-blind, placebocontrolled trials",
+   "authors": [
+    "Berry-Kravis",
+    "Portes",
+    "Hagerman",
+    "Jacquemont",
+    "Charles",
+    "Visootsak",
+    "Brinkman",
+    "Rerat",
+    "Koumaras",
+    "Zhu"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Science Translational Medicine",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1126/scitranslmed.aab4109",
+    "title": "Mavoglurant in fragile X syndrome: Results of two randomized, double-blind, placebo-controlled trials",
+    "year": 2016,
+    "first_author": "Berry-Kravis",
+    "container": "Science Translational Medicine",
+    "type": "journal-article",
+    "score": 66.57291
+   },
+   "metrics": {
+    "title_sim": 99.48717948717949,
+    "containment": 0.818,
+    "partial_ratio": 98.9795918367347,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 24,
+   "raw": "[24] Carlos Noronha, Ana Sofia Ribeiro, Ricardo Taipa, Diana S Castro, Joana Reis, C\u00e1tia C Faria, Maria Resende, Ant\u00f3nio Pereira, Alexandre Andr\u00e9 Pinto, Nuno Sousa, et al. Gaba signaling promotes glioma growth through activation of gaba-b receptors. Acta Neuropathologica, 140(3):415\u2013428, 2020.",
+   "title": "Gaba signaling promotes glioma growth through activation of gaba-b receptors",
+   "authors": [
+    "Noronha",
+    "Ribeiro",
+    "Taipa",
+    "Castro",
+    "Reis",
+    "Faria",
+    "Resende",
+    "Pereira",
+    "Pinto",
+    "Sousa"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Acta Neuropathologica",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/978-1-59745-465-0_5",
+      "title": "Differential Activation of GABAA-Receptor Subtypes",
+      "year": 2007,
+      "first_author": "Farrant",
+      "container": "The Receptors",
+      "type": "book-chapter",
+      "score": 39.989067
+     },
+     "metrics": {
+      "title_sim": 53.968253968253975,
+      "containment": 0.2,
+      "partial_ratio": 64.0,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 25,
+   "raw": "[25] Mery Stefani Leivas Pereira, Fabio Klamt, and Chairini Cassia Thome. Metabotropic glutamate receptors as a new therapeutic target for malignant gliomas. Oncotarget, 2017.",
+   "title": "Metabotropic glutamate receptors as a new therapeutic target for malignant gliomas",
+   "authors": [
+    "Pereira",
+    "Klamt",
+    "Thome"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Oncotarget",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18632/oncotarget.15299",
+    "title": "Metabotropic glutamate receptors as a new therapeutic target for malignant gliomas",
+    "year": 2017,
+    "first_author": "Pereira",
+    "container": "Oncotarget",
+    "type": "journal-article",
+    "score": 64.92364
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 26,
+   "raw": "[26] Silvia Penuela, Ritesh Bhalla, Xiao-Qiang Gong, Kathryn N Cowan, Steven J Celetti, Brant J Cowan, Donglin Bai, Qing Shao, and Dale W Laird. Pannexin 1 and pannexin 3 are glycoproteins that exhibit many distinct characteristics from the connexin family of gap junction proteins. Journal of Cell Science, 120(21):3772\u20133783, 2007.",
+   "title": "Pannexin 1 and pannexin 3 are glycoproteins that exhibit many distinct characteristics from the connexin family of gap junction proteins",
+   "authors": [
+    "Penuela",
+    "Bhalla",
+    "Gong",
+    "Cowan",
+    "Celetti",
+    "Cowan",
+    "Bai",
+    "Shao",
+    "Laird"
+   ],
+   "year": 2007,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Cell Science",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1242/jcs.009514",
+    "title": "Pannexin 1 and pannexin 3 are glycoproteins that exhibit many distinct characteristics from the connexin family of gap junction proteins",
+    "year": 2007,
+    "first_author": "Penuela",
+    "container": "Journal of Cell Science",
+    "type": "journal-article",
+    "score": 100.64106
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 27,
+   "raw": "[27] Gina E Sosinsky, Daniela Boassa, Rolf Dermietzel, H Steve Duffy, Dale W Laird, Brian MacVicar, Christian C Naus, Silvia Penuela, Eliana Scemes, David C Spray, et al. Pannexin channels are not gap junction hemichannels. Channels, 5(3):193\u2013197, 2011.",
+   "title": "Pannexin channels are not gap junction hemichannels",
+   "authors": [
+    "Sosinsky",
+    "Boassa",
+    "Rolf Dermietzel",
+    "Laird",
+    "MacVicar",
+    "Naus",
+    "Penuela",
+    "Scemes",
+    "Spray"
+   ],
+   "year": 2011,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Channels",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.4161/chan.5.3.15765",
+    "title": "Pannexin channels are not gap junction hemichannels",
+    "year": 2011,
+    "first_author": "Sosinsky",
+    "container": "Channels",
+    "type": "journal-article",
+    "score": 55.097984
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 28,
+   "raw": "[28] Abhishek Goenka, Denise M Tiek, Xiaohu Song, Tingting Huang, Bo Hu, and Shi-Yuan Cheng. Tumor microenvironment signaling and therapeutics in cancer progression. Annual Review of Pharmacology and Toxicology, 2021.",
+   "title": "Tumor microenvironment signaling and therapeutics in cancer progression",
+   "authors": [
+    "Goenka",
+    "Tiek",
+    "Song",
+    "Huang",
+    "Hu",
+    "Cheng"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Annual Review of Pharmacology and Toxicology",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1002/cac2.12416",
+    "title": "Tumor microenvironment signaling and therapeutics in cancer progression",
+    "year": 2023,
+    "first_author": "Goenka",
+    "container": "Cancer Communications",
+    "type": "journal-article",
+    "score": 47.80426
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 29,
+   "raw": "[29] Cyril Neftel, Julie Laffy, Mariella G Filbin, Takeshi Hara, Melanie E Shore, Ghaeth J Rahme, Andrey R Richman, Dana Silverbush, McKenzie L Shaw, Christopher M Hebert, et al. An integrative model of cellular states, plasticity, and genetics for glioblastoma. Cell, 178(4):835\u2013849, 2019.",
+   "title": "An integrative model of cellular states, plasticity, and genetics for glioblastoma",
+   "authors": [
+    "Neftel",
+    "Laffy",
+    "Filbin",
+    "Hara",
+    "Shore",
+    "Rahme",
+    "Richman",
+    "Silverbush",
+    "Shaw",
+    "Hebert"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Cell",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.3410/f.736211298.793565064",
+    "title": "Faculty Opinions recommendation of An integrative model of cellular states, plasticity, and genetics for glioblastoma.",
+    "year": 2019,
+    "first_author": "Yanai",
+    "container": "Faculty Opinions \u2013 Post-Publication Peer Review of the Biomedical Literature",
+    "type": "dataset",
+    "score": 47.99302
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.7,
+    "partial_ratio": 79.13043478260869,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 30,
+   "raw": "[30] Xiaofei Chen, Aijun Hao, Xi Li, Zheng Du, Heng Li, Heng Wang, and Hua Yang. Glutamate signaling in the tumor microenvironment. International Journal of Molecular Sciences, 21(9):3170, 2020.",
+   "title": "Glutamate signaling in the tumor microenvironment",
+   "authors": [
+    "Chen",
+    "Hao",
+    "Li",
+    "Du",
+    "Li",
+    "Wang",
+    "Yang"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Journal of Molecular Sciences",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/978-3-030-36667-4_6",
+    "title": "CCL20 Signaling in the Tumor Microenvironment",
+    "year": 2020,
+    "first_author": "Chen",
+    "container": "Advances in Experimental Medicine and Biology",
+    "type": "book-chapter",
+    "score": 31.771873
+   },
+   "metrics": {
+    "title_sim": 92.85714285714286,
+    "containment": 0.75,
+    "partial_ratio": 88.88888888888889,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 31,
+   "raw": "[31] Lisa M Johnson, David R Brown, and Jennifer K White. Gap junction communication in brain tumors. Nature Communications, 11:1234, 2020.",
+   "title": "Gap junction communication in brain tumors",
+   "authors": [
+    "Johnson",
+    "Brown",
+    "White"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature Communications",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.32388/as4e3y",
+    "title": "Gap Junction",
+    "year": 2020,
+    "first_author": null,
+    "container": "Definitions",
+    "type": "reference-entry",
+    "score": 25.885078
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": null
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 32,
+   "raw": "[32] John A Smith, Mark B Wilson, and Sarah C Taylor. Synaptic mechanisms in glioblastoma progression. Cell, 179:123\u2013135, 2019.",
+   "title": "Synaptic mechanisms in glioblastoma progression",
+   "authors": [
+    "Smith",
+    "Wilson",
+    "Taylor"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Cell",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.53347/rid-67950",
+    "title": "Glioblastoma",
+    "year": 2019,
+    "first_author": "Smith",
+    "container": "Radiopaedia.org",
+    "type": "reference-entry",
+    "score": 24.826008
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 33,
+   "raw": "[33] Soo-Jin Lee, Joseph M Levine, and Kerry R Delaney. Neuronal-glial interactions in glioma progression. Brain Research, 1701:1\u20138, 2018.",
+   "title": "Neuronal-glial interactions in glioma progression",
+   "authors": [
+    "Lee",
+    "Levine",
+    "Delaney"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Brain Research",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1002/9780470517796.ch6",
+      "title": "Neuronal\u2013Glial Interactions",
+      "year": 2007,
+      "first_author": null,
+      "container": "Glial Neurobiology",
+      "type": "other",
+      "score": 31.981495
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 1.0,
+      "partial_ratio": 100.0,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 34,
+   "raw": "[34] Lei Wang, Hui Zhang, Qing Liu, and Wei Chen. Biomarkers for neuronal activity in glioblastoma. Neuro-Oncology, 23:789\u2013801, 2021.",
+   "title": "Biomarkers for neuronal activity in glioblastoma",
+   "authors": [
+    "Wang",
+    "Zhang",
+    "Liu",
+    "Chen"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Neuro-Oncology",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/isscc.2008.4523107/mm1",
+      "title": "Neuronal Biomarkers",
+      "year": 2009,
+      "first_author": null,
+      "container": "",
+      "type": "component",
+      "score": 22.730625
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 1.0,
+      "partial_ratio": 68.42105263157895,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 35,
+   "raw": "[35] Amanda K Taylor, Jennifer L Wilson, and Michael S Brown. Precision medicine approaches for neuronal signaling in brain tumors. Nature Medicine, 26:1456\u20131467, 2020.",
+   "title": "Precision medicine approaches for neuronal signaling in brain tumors",
+   "authors": [
+    "Taylor",
+    "Wilson",
+    "Brown"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature Medicine",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/16833_2024_274",
+      "title": "Precision Medicine in Brain Tumors: New Approaches",
+      "year": 2024,
+      "first_author": "Akhlaghdoust",
+      "container": "Interdisciplinary Cancer Research",
+      "type": "book-chapter",
+      "score": 30.527746
+     },
+     "metrics": {
+      "title_sim": 95.74468085106383,
+      "containment": 0.833,
+      "partial_ratio": 63.26530612244898,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 36,
+   "raw": "[36] Rebecca A Miller, Carlos M Garcia, and Priya S Kumar. Clinical applications of neuronal signaling inhibitors in brain cancer. Clinical Cancer Research, 26:4567\u20134578, 2020.",
+   "title": "Clinical applications of neuronal signaling inhibitors in brain cancer",
+   "authors": [
+    "Miller",
+    "Garcia",
+    "Kumar"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Clinical Cancer Research",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.31988/scitrends.3892",
+      "title": "Clinical Cancer Drugs Identified As Inhibitors Of Inflammatory Signaling",
+      "year": 2017,
+      "first_author": "Canning",
+      "container": "Science Trends",
+      "type": "journal-article",
+      "score": 25.487099
+     },
+     "metrics": {
+      "title_sim": 71.55963302752293,
+      "containment": 0.571,
+      "partial_ratio": 52.77777777777778,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  }
+ ]
+}

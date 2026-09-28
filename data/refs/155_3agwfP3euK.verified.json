@@ -1,0 +1,770 @@
+{
+ "pdf": "155_3agwfP3euK.pdf",
+ "n_entries": 17,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 2,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "References Anthropic. Constitutional ai: Harmlessness from ai feedback. arXiv preprint arXiv:2212.08073, 2023.",
+   "title": "Constitutional ai: Harmlessness from ai feedback",
+   "authors": [
+    "Anthropic"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2212.08073",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2212.08073",
+    "title": "Constitutional AI: Harmlessness from AI Feedback",
+    "year": 2022,
+    "first_author": "Yuntao Bai"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "Amos Azaria and Tom Mitchell. The internal state of an llm knows when it\u2019s lying. arXiv preprint arXiv:2304.13734, 2023.",
+   "title": "The internal state of an llm knows when it\u2019s lying",
+   "authors": [
+    "Azaria",
+    "Mitchell"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2304.13734",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2023.findings-emnlp.68",
+    "title": "The Internal State of an LLM Knows When It\u2019s Lying",
+    "year": 2023,
+    "first_author": "Azaria",
+    "container": "Findings of the Association for Computational Linguistics: EMNLP 2023",
+    "type": "proceedings-article",
+    "score": 76.4975
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2304.13734"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "Collin Burns, Haotian Ye, Dan Klein, and Jacob Steinhardt. Discovering latent knowledge in language models without supervision. arXiv preprint arXiv:2212.03827, 2022.",
+   "title": "Discovering latent knowledge in language models without supervision",
+   "authors": [
+    "Burns",
+    "Ye",
+    "Klein",
+    "Steinhardt"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": "2212.03827",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2212.03827"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1201/9780203010525-13",
+      "title": "Statistical Language Models With Embedded Latent Semantic Knowledge",
+      "year": 2003,
+      "first_author": null,
+      "container": "Pattern Recognition in Speech and Language Processing",
+      "type": "book-chapter",
+      "score": 29.541695
+     },
+     "metrics": {
+      "title_sim": 71.64179104477611,
+      "containment": 0.571,
+      "partial_ratio": 49.25373134328358,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "Lin Chen, Jisong Li, Xiaoyi Dong, Pan Zhang, Conghui He, Jiaqi Wang, and Furu Zhao. Sharegpt4v: Improving large multi-modal models with better captions. arXiv preprint arXiv:2311.12793, 2023.",
+   "title": "Sharegpt4v: Improving large multi-modal models with better captions",
+   "authors": [
+    "Chen",
+    "Li",
+    "Dong",
+    "Zhang",
+    "He",
+    "Wang",
+    "Zhao"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2311.12793",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/978-3-031-72643-9_22",
+    "title": "ShareGPT4V: Improving Large Multi-modal Models with\u00a0Better Captions",
+    "year": 2025,
+    "first_author": "Chen",
+    "container": "Lecture Notes in Computer Science",
+    "type": "book-chapter",
+    "score": 51.561558
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2311.12793"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "Arthur Conmy, Augustine N Mavor-Parker, Aengus Lynch, Sebastian Heimersheim, and Adri\u00e0 Garriga-Alonso. Towards automated circuit discovery for mechanistic interpretability. arXiv preprint arXiv:2304.14997, 2023.",
+   "title": "Towards automated circuit discovery for mechanistic interpretability",
+   "authors": [
+    "Conmy",
+    "Mavor-Parker",
+    "Lynch",
+    "Heimersheim",
+    "Garriga-Alonso"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2304.14997",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/075280-0719",
+    "title": "Towards Automated Circuit Discovery for Mechanistic Interpretability",
+    "year": 2023,
+    "first_author": "Conmy",
+    "container": "Advances in Neural Information Processing Systems 36",
+    "type": "proceedings-article",
+    "score": 63.08323
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2304.14997"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "Nelson Elhage, Neel Nanda, Catherine Olsson, Tom Henighan, Nicholas Joseph, Ben Mann, Amanda Askell, Yuntao Bai, Anna Chen, Tom Conerly, et al. A mathematical framework for transformer circuits, 2021.",
+   "title": "A mathematical framework for transformer circuits",
+   "authors": [
+    "Elhage",
+    "Nanda",
+    "Olsson",
+    "Henighan",
+    "Joseph",
+    "Mann",
+    "Askell",
+    "Bai",
+    "Chen",
+    "Conerly"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.36227/techrxiv.172710248.83116727/v1",
+      "title": "Reconfigurable Electric Circuits Within the Quantum Circuits Mathematical Framework",
+      "year": 2024,
+      "first_author": "Delgado",
+      "container": "",
+      "type": "posted-content",
+      "score": 24.606451
+     },
+     "metrics": {
+      "title_sim": 77.5,
+      "containment": 0.5,
+      "partial_ratio": 53.012048192771076,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "Atticus Geiger, Hanson Lu, Thomas Icard, and Christopher Potts. Causal abstractions of neural networks. In Advances in Neural Information Processing Systems, volume 33, pages 3434\u20133466, 2020.",
+   "title": "Causal abstractions of neural networks",
+   "authors": [
+    "Geiger",
+    "Lu",
+    "Icard",
+    "Potts"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1016/j.neunet.2023.06.002",
+      "title": "Towards global neural network abstractions with locally-exact reconstruction",
+      "year": 2023,
+      "first_author": "Manino",
+      "container": "Neural Networks",
+      "type": "journal-article",
+      "score": 27.510582
+     },
+     "metrics": {
+      "title_sim": 66.66666666666666,
+      "containment": 0.286,
+      "partial_ratio": 51.315789473684205,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "Gabriel Goh, Nick Cammarata, Chelsea Voss, Shan Carter, Michael Petrov, Ludwig Schubert, Alec Radford, and Chris Olah. Multimodal neurons in artificial neural networks. Distill, 6(2):e30, 2021.",
+   "title": "Multimodal neurons in artificial neural networks",
+   "authors": [
+    "Goh",
+    "Cammarata",
+    "Voss",
+    "Carter",
+    "Petrov",
+    "Schubert",
+    "Radford",
+    "Olah"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Distill",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.23915/distill.00030",
+    "title": "Multimodal Neurons in Artificial Neural Networks",
+    "year": 2021,
+    "first_author": "Goh",
+    "container": "Distill",
+    "type": "journal-article",
+    "score": 43.195942
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "Dan Hendrycks, Collin Burns, Saurav Kadavath, Akul Arora, Steven Basart, Eric Tang, Dawn Song, and Jacob Steinhardt. Measuring mathematical problem solving with the math dataset. arXiv preprint arXiv:2103.03874, 2021.",
+   "title": "Measuring mathematical problem solving with the math dataset",
+   "authors": [
+    "Hendrycks",
+    "Burns",
+    "Kadavath",
+    "Arora",
+    "Basart",
+    "Tang",
+    "Song",
+    "Steinhardt"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": "2103.03874",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2103.03874"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1037/e627722013-472",
+      "title": "Traditional music and problem solving: The effect of Bugis music on mathematical problem solving",
+      "year": 2013,
+      "first_author": "Saputra",
+      "container": "PsycEXTRA Dataset",
+      "type": "dataset",
+      "score": 31.521763
+     },
+     "metrics": {
+      "title_sim": 69.56521739130434,
+      "containment": 0.5,
+      "partial_ratio": 58.94736842105264,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "Junnan Li, Dongxu Li, Silvio Savarese, and Steven Hoi. Blip-2: Bootstrapping language-image pretraining with frozen image encoders and large language models. arXiv preprint arXiv:2301.12597, 2023.",
+   "title": "Blip-2: Bootstrapping language-image pretraining with frozen image encoders and large language models",
+   "authors": [
+    "Li",
+    "Li",
+    "Savarese",
+    "Hoi"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2301.12597",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2301.12597"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/cvpr52734.2025.00386",
+      "title": "FLAME: Frozen Large Language Models Enable Data-Efficient Language-Image Pre-training",
+      "year": 2025,
+      "first_author": "Cao",
+      "container": "2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "type": "proceedings-article",
+      "score": 43.25386
+     },
+     "metrics": {
+      "title_sim": 70.0,
+      "containment": 0.5,
+      "partial_ratio": 57.14285714285714,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "Kevin Meng, David Bau, Alex Andonian, and Yonatan Belinkov. Locating and editing factual associations in gpt. In Advances in Neural Information Processing Systems, volume 35, pages 17359\u201317372, 2022.",
+   "title": "Locating and editing factual associations in gpt",
+   "authors": [
+    "Meng",
+    "Bau",
+    "Andonian",
+    "Belinkov"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/068431-1262",
+    "title": "Locating and Editing Factual Associations in GPT",
+    "year": 2022,
+    "first_author": "Meng",
+    "container": "Advances in Neural Information Processing Systems 35",
+    "type": "proceedings-article",
+    "score": 60.43432
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "Neel Nanda, Lawrence Chan, Tom Lieberum, Jesse Smith, and Jacob Steinhardt. Progress measures for grokking via mechanistic interpretability. arXiv preprint arXiv:2301.05217, 2023.",
+   "title": "Progress measures for grokking via mechanistic interpretability",
+   "authors": [
+    "Nanda",
+    "Chan",
+    "Lieberum",
+    "Smith",
+    "Steinhardt"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2301.05217",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2301.05217"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.55277/researchhub.srgqdejk",
+      "title": "PROPOSAL: Neural Mycelium: Decoding Vascular Signaling Plasticity via Mechanistic Interpretability",
+      "year": 2026,
+      "first_author": "Ducar",
+      "container": "",
+      "type": "report",
+      "score": 29.984238
+     },
+     "metrics": {
+      "title_sim": 67.36842105263159,
+      "containment": 0.222,
+      "partial_ratio": 57.29166666666667,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "Long Ouyang, Jeff Wu, Xu Jiang, Diogo Almeida, Carroll Wainwright, Pamela Mishkin, Chong Zhang, Sandhini Agarwal, Katarina Slama, Alex Ray, et al. Training language models to follow instructions with human feedback. In Advances in Neural Information Processing Systems, volume 35, pages 27730\u201327744, 2022.",
+   "title": "Training language models to follow instructions with human feedback",
+   "authors": [
+    "Ouyang",
+    "Wu",
+    "Jiang",
+    "Almeida",
+    "Wainwright",
+    "Mishkin",
+    "Zhang",
+    "Agarwal",
+    "Slama",
+    "Ray"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/068431-2011",
+    "title": "Training Language Models to Follow Instructions with Human Feedback",
+    "year": 2022,
+    "first_author": "Ouyang",
+    "container": "Advances in Neural Information Processing Systems 35",
+    "type": "proceedings-article",
+    "score": 41.000145
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "Alec Radford, Jong Wook Kim, Chris Hallacy, Aditya Ramesh, Gabriel Goh, Sandhini Agarwal, Girish Sastry, Amanda Askell, Pamela Mishkin, Jack Clark, et al. Learning transferable visual models from natural language supervision. In International Conference on Machine Learning, pages 8748\u20138763, 2021.",
+   "title": "Learning transferable visual models from natural language supervision",
+   "authors": [
+    "Radford",
+    "Kim",
+    "Hallacy",
+    "Ramesh",
+    "Goh",
+    "Agarwal",
+    "Sastry",
+    "Askell",
+    "Mishkin",
+    "Clark"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Conference on Machine Learning",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.24963/ijcai.2024/235",
+      "title": "Contrastive Learning Drug Response Models from Natural Language Supervision",
+      "year": 2024,
+      "first_author": "Li",
+      "container": "Proceedings of the Thirty-ThirdInternational Joint Conference on Artificial Intelligence",
+      "type": "proceedings-article",
+      "score": 31.590694
+     },
+     "metrics": {
+      "title_sim": 83.05084745762711,
+      "containment": 0.625,
+      "partial_ratio": 76.0,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "Alex Tamkin, Miles Brundage, Jack Clark, and Deep Ganguli. Understanding the capabilities, limitations, and societal impact of large language models. AI Magazine, 42(4):25\u201342, 2021.",
+   "title": "Understanding the capabilities, limitations, and societal impact of large language models",
+   "authors": [
+    "Tamkin",
+    "Brundage",
+    "Clark",
+    "Ganguli"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "AI Magazine",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.31234/osf.io/hbwrg",
+      "title": "The limitations of large language models for understanding human language and cognition",
+      "year": 2024,
+      "first_author": "Cuskley",
+      "container": "",
+      "type": "posted-content",
+      "score": 36.08951
+     },
+     "metrics": {
+      "title_sim": 85.29411764705883,
+      "containment": 0.75,
+      "partial_ratio": 57.47126436781609,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 16,
+   "raw": "Jason Wei, Xuezhi Wang, Dale Schuurmans, Maarten Bosma, Fei Xia, Ed Chi, Quoc Le, and Denny Zhou. Chain-of-thought prompting elicits reasoning in large language models. In Advances in Neural Information Processing Systems, volume 35, pages 24824\u201324837, 2022.",
+   "title": "Chain-of-thought prompting elicits reasoning in large language models",
+   "authors": [
+    "Wei",
+    "Wang",
+    "Schuurmans",
+    "Bosma",
+    "Xia",
+    "Chi",
+    "Le",
+    "Zhou"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/068431-1800",
+    "title": "Chain-Of-Thought Prompting Elicits Reasoning in Large Language Models",
+    "year": 2022,
+    "first_author": "Wei",
+    "container": "Advances in Neural Information Processing Systems 35",
+    "type": "proceedings-article",
+    "score": 60.12538
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 17,
+   "raw": "Andy Zou, Zifan Wang, J Zico Kolter, and Matt Fredrikson. Universal and transferable adversarial attacks on aligned language models. arXiv preprint arXiv:2307.15043, 2023.",
+   "title": "Universal and transferable adversarial attacks on aligned language models",
+   "authors": [
+    "Zou",
+    "Zifan Wang",
+    "Fredrikson"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2307.15043",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2307.15043"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.5445960",
+      "title": "Universal and Transferable Adversarial Attack on Large Language Models Using Exponentiated Gradient Descent",
+      "year": 2025,
+      "first_author": "Biswas",
+      "container": "",
+      "type": "posted-content",
+      "score": 39.898346
+     },
+     "metrics": {
+      "title_sim": 87.6923076923077,
+      "containment": 0.5,
+      "partial_ratio": 73.83177570093457,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  }
+ ]
+}

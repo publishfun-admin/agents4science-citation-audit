@@ -726,7 +726,7 @@
    "container": "Proceedings of the 40th International Conference on Machine Learning",
    "type": "paper-conference",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -749,7 +749,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "9a7ac45eafe11ca003db3a300505f3b5c3f9009a",
+    "title": "DetectGPT: Zero-Shot Machine-Generated Text Detection using Probability Curvature",
+    "year": 2023,
+    "first_author": "E. Mitchell",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "DBLP": "journals/corr/abs-2301-11305",
+     "ArXiv": "2301.11305",
+     "DOI": "10.48550/arXiv.2301.11305",
+     "CorpusId": 256274849
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1051,5 +1074,6 @@
    },
    "evidence": []
   }
- ]
+ ],
+ "second_pass": true
 }

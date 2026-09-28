@@ -1,0 +1,1386 @@
+{
+ "pdf": "152_neQWbqbgSs.pdf",
+ "n_entries": 34,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": false,
+ "parser_version": 2,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "References [1] Sylvain Arlot and Alain Celisse. A survey of cross-validation procedures for model selection. Statistics Surveys, 4:40\u201379, 2010.",
+   "title": "A survey of cross-validation procedures for model selection",
+   "authors": [
+    "References [1] Sylvain Arlot and Alain Celisse."
+   ],
+   "year": 2010,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Statistics Surveys",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1214/09-ss054",
+    "title": "A survey of cross-validation procedures for model selection",
+    "year": 2010,
+    "first_author": "Arlot",
+    "container": "Statistics Surveys",
+    "type": "journal-article",
+    "score": 74.591125
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2] Susan Athey and Guido W. Imbens. Machine learning methods that economists should know about. Annual Review of Economics, 11:685\u2013725, 2019.",
+   "title": "Machine learning methods that economists should know about",
+   "authors": [
+    "Athey",
+    "Imbens"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Annual Review of Economics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1146/annurev-economics-080217-053433",
+    "title": "Machine Learning Methods That Economists Should Know About",
+    "year": 2019,
+    "first_author": "Athey",
+    "container": "Annual Review of Economics",
+    "type": "journal-article",
+    "score": 62.21162
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3] Richard Bailey, Russell Warner, Justyn Branton, Sam Carr, Jonathan Wright, and Ed Cope. Engaging young people in golf: A delphi expert consensus study. International Journal of Golf Science, 7(2), 2019.",
+   "title": "Engaging young people in golf: A delphi expert consensus study",
+   "authors": [
+    "Bailey",
+    "Warner",
+    "Branton",
+    "Carr",
+    "Wright",
+    "Cope"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Journal of Golf Science",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.4135/9781036234553.n9",
+      "title": "Engaging Young People and their Families",
+      "year": 2018,
+      "first_author": null,
+      "container": "Counselling Young People",
+      "type": "book-chapter",
+      "score": 30.446846
+     },
+     "metrics": {
+      "title_sim": 68.85245901639344,
+      "containment": 0.6,
+      "partial_ratio": 72.5,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4] BetMGM. States with most pga tour events in 2025. https://sports.betmgm.com/en/ blog/pga/states-most-pga-tour-events-this-year-bm10/, 2024.",
+   "title": "States with most pga tour events in 2025",
+   "authors": [],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://sports.betmgm.com/en/"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED_URL",
+   "via": "url",
+   "url_status": {
+    "https://sports.betmgm.com/en/": 200
+   },
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.3917/ecofi.154.0191",
+      "title": "PGA Tour et LIV Golf\u00a0: historique, financement, valorisation et perspectives",
+      "year": 2024,
+      "first_author": "Bouvet",
+      "container": "Revue d'\u00e9conomie financi\u00e8re",
+      "type": "journal-article",
+      "score": 27.171814
+     },
+     "metrics": {
+      "title_sim": 47.706422018348626,
+      "containment": 0.25,
+      "partial_ratio": 48.611111111111114,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5] S. Cobley, J. Baker, N. Wattie, and J. McKenna. Annual age-grouping and athlete development: A meta-analytical review of relative age effects in sport. Sports Medicine, 39(3):235\u2013256, 2009.",
+   "title": "Annual age-grouping and athlete development: A meta-analytical review of relative age effects in sport",
+   "authors": [
+    "Cobley",
+    "Baker",
+    "Wattie",
+    "McKenna"
+   ],
+   "year": 2009,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Sports Medicine",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.2165/00007256-200939030-00005",
+    "title": "Annual Age-Grouping and Athlete Development",
+    "year": 2009,
+    "first_author": "Cobley",
+    "container": "Sports Medicine",
+    "type": "journal-article",
+    "score": 88.88407
+   },
+   "metrics": {
+    "title_sim": 59.72222222222222,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[6] Odele Coddington, Judith L. Lean, Chris Lindholm, and Peter Pilewskie. Noaa climate data record (cdr) of nasa noaa lasp total solar irradiance (nnltsi), version 3. NOAA National Centers for Environmental Information https://doi.org/10.25921/k2ff-p712, 2024.",
+   "title": "Noaa climate data record (cdr) of nasa noaa lasp total solar irradiance (nnltsi), version 3",
+   "authors": [
+    "Coddington",
+    "Lean",
+    "Lindholm",
+    "Pilewskie"
+   ],
+   "year": 2024,
+   "doi": "10.25921/k2ff-p712",
+   "arxiv": null,
+   "urls": [
+    "https://doi.org/10.25921/k2ff-p712"
+   ],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "doi_not_resolvable",
+     "doi": "10.25921/k2ff-p712"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.5194/essd-2024-168",
+      "title": "Version 1 NOAA-20/OMPS Nadir Mapper Total Column SO\n                  <sub>2</sub>\n                  Product: Continuation of NASA Long-term Global Data Record",
+      "year": 2024,
+      "first_author": "Li",
+      "container": "",
+      "type": "posted-content",
+      "score": 46.0263
+     },
+     "metrics": {
+      "title_sim": 63.865546218487395,
+      "containment": 0.353,
+      "partial_ratio": 45.378151260504204,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[7] G. Comber.       Movable obstruction? examining the impact of academic timing on the rae among ncaa golfers.         https://www.linkedin.com/pulse/ research-blog-movable-obstruction-examining-impact-academic-comber-dk8bc, 2024. LinkedIn Research Blog.",
+   "title": "Movable obstruction? examining the impact of academic timing on the rae among ncaa golfers",
+   "authors": [
+    "Comber"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://www.linkedin.com/pulse/"
+   ],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.3102/ip.24.2094490",
+      "title": "Variation in Teachers\u2019 Academic Optimism: Examining the Impact of Classroom Composition and School Academic Optimism.",
+      "year": 2024,
+      "first_author": "Lelieur",
+      "container": "AERA 2024",
+      "type": "proceedings-article",
+      "score": 27.713013
+     },
+     "metrics": {
+      "title_sim": 61.87845303867403,
+      "containment": 0.364,
+      "partial_ratio": 54.94505494505495,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    },
+    {
+     "step": "urls_not_live",
+     "url_status": {
+      "https://www.linkedin.com/pulse/": 404
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[8] Jean C\u00f4t\u00e9, Dany J. Macdonald, Joseph Baker, and Bruce Abernethy. When \u201cwhere\u201d is more important than \u201cwhen\u201d: Birthplace and birthdate effects on the achievement of sporting expertise. Journal of Sports Sciences, 24(10):1065\u20131073, 2006.",
+   "title": "When \u201cwhere\u201d is more important than \u201cwhen\u201d: Birthplace and birthdate effects on the achievement of sporting expertise",
+   "authors": [
+    "C\u00f4t\u00e9",
+    "Macdonald",
+    "Baker",
+    "Abernethy"
+   ],
+   "year": 2006,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Sports Sciences",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1080/02640410500432490",
+    "title": "When \u201cwhere\u201d is more important than \u201cwhen\u201d: Birthplace and birthdate effects on the achievement of sporting expertise",
+    "year": 2006,
+    "first_author": "C\u00f4t\u00e9",
+    "container": "Journal of Sports Sciences",
+    "type": "journal-article",
+    "score": 102.23211
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[9] Elite Golf Schools of Colorado. How arizona\u2019s climate influences golf training. https: //elitegolfofco.com/how-arizonas-climate-influences-golf-training/, 2024.",
+   "title": "Elite Golf Schools of Colorado. How arizona\u2019s climate influences golf training",
+   "authors": [],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https:"
+   ],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.4324/9781315641782-7",
+      "title": "How the shaft of a golf club influences performance",
+      "year": 2017,
+      "first_author": "MacKenzie",
+      "container": "Routledge International Handbook of Golf Science",
+      "type": "book-chapter",
+      "score": 44.204147
+     },
+     "metrics": {
+      "title_sim": 60.273972602739725,
+      "containment": 0.5,
+      "partial_ratio": 52.94117647058824,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    },
+    {
+     "step": "urls_not_live",
+     "url_status": {
+      "https:": "error"
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[10] Eric Figueroa, Dakota Peterson, and Daniel Thang. Price adjustment using regional price parities: New rpps for 2022 and revisions back to 2008. Survey of Current Business, May 2024.",
+   "title": "Price adjustment using regional price parities: New rpps for 2022 and revisions back to 2008",
+   "authors": [
+    "Figueroa",
+    "Peterson",
+    "Thang"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Survey of Current Business",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.2928422",
+      "title": "Adjusting Inequalities for Regional Price Parities: Importance and Implications",
+      "year": 2017,
+      "first_author": "Geloso",
+      "container": "SSRN Electronic Journal",
+      "type": "journal-article",
+      "score": 36.025955
+     },
+     "metrics": {
+      "title_sim": 62.576687116564415,
+      "containment": 0.429,
+      "partial_ratio": 61.53846153846154,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "[11] Paul R. Ford and A. Mark Williams. No relative age effect in the birth dates of award-winning athletes in male professional team sports. Research Quarterly for Exercise and Sport, 82(3):570\u2013573, 2011.",
+   "title": "No relative age effect in the birth dates of award-winning athletes in male professional team sports",
+   "authors": [
+    "Ford",
+    "Williams"
+   ],
+   "year": 2011,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Research Quarterly for Exercise and Sport",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.5641/027013611x13275191444305",
+    "title": "No Relative Age Effect in the Birth Dates of Award-Winning Athletes in Male Professional Team Sports",
+    "year": 2011,
+    "first_author": "Ford",
+    "container": "Research Quarterly for Exercise and Sport",
+    "type": "journal-article",
+    "score": 97.33454
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "[12] Rodney Fort and Joel Maxcy. Competitive balance in sports leagues: An introduction. Journal of Sports Economics, 4(2):154\u2013160, 2003.",
+   "title": "Competitive balance in sports leagues: An introduction",
+   "authors": [
+    "Fort",
+    "Maxcy"
+   ],
+   "year": 2003,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Sports Economics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1177/1527002503004002005",
+    "title": "\u201cCompetitive Balance in Sports Leagues: An Introduction\u201d",
+    "year": 2003,
+    "first_author": "Fort",
+    "container": "Journal of Sports Economics",
+    "type": "journal-article",
+    "score": 57.236237
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "[13] Benjamin Gibbs, Jonathan Jarvis, and Mikaela Dufur. The rise of the underdog? the relative age effect reversal among canadian-born nhl hockey players: A reply to nolan and howell. International Review for the Sociology of Sport, 47:644\u2013649, 10 2012.",
+   "title": "The rise of the underdog? the relative age effect reversal among canadian-born nhl hockey players: A reply to nolan and howell",
+   "authors": [
+    "Gibbs",
+    "Jarvis",
+    "Dufur"
+   ],
+   "year": 2012,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Review for the Sociology of Sport",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1177/1012690211414343",
+    "title": "The rise of the underdog? The relative age effect reversal among Canadian-born NHL hockey players: A reply to Nolan and Howell",
+    "year": 2012,
+    "first_author": "Gibbs",
+    "container": "International Review for the Sociology of Sport",
+    "type": "journal-article",
+    "score": 100.39607
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "[14] Malcolm Gladwell. Outliers: The Story of Success. Little, Brown and Company, 2008.",
+   "title": "Outliers: The Story of Success",
+   "authors": [
+    "Gladwell"
+   ],
+   "year": 2008,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1111/j.1468-0270.2009.01964_5.x",
+    "title": "Outliers: The Story of Success \u2013 By Malcolm Gladwell",
+    "year": 2009,
+    "first_author": "Blundell",
+    "container": "Economic Affairs",
+    "type": "journal-article",
+    "score": 40.660427
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 71.42857142857143,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "[15] I.R. Gordon and P. McCann. Industrial clusters: Complexes, agglomeration and/or social networks? Urban Studies, 37(3):513\u2013532, 2000.",
+   "title": "Industrial clusters: Complexes, agglomeration and/or social networks?",
+   "authors": [
+    "Gordon",
+    "McCann"
+   ],
+   "year": 2000,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Urban Studies",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1080/0042098002096",
+    "title": "Industrial Clusters: Complexes, Agglomeration and/or Social Networks?",
+    "year": 2000,
+    "first_author": "Gordon",
+    "container": "Urban Studies",
+    "type": "journal-article",
+    "score": 53.70793
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 16,
+   "raw": "[16] L. F. M. Groot. Economics, Uncertainty and European Football: Trends in Competitive Balance. Edward Elgar Publishing, Cheltenham, UK, 2008.",
+   "title": "Economics, Uncertainty and European Football: Trends in Competitive Balance",
+   "authors": [
+    "Groot"
+   ],
+   "year": 2008,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1017/cbo9780511493225.004",
+      "title": "Competitive balance and uncertainty of outcome",
+      "year": 2009,
+      "first_author": "Dobson",
+      "container": "The Economics of Football",
+      "type": "book-chapter",
+      "score": 43.269577
+     },
+     "metrics": {
+      "title_sim": 86.41975308641975,
+      "containment": 0.75,
+      "partial_ratio": 63.04347826086957,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 17,
+   "raw": "[17] Trevor Hastie, Robert Tibshirani, and Jerome Friedman. The Elements of Statistical Learning: Data Mining, Inference, and Prediction. Springer, 2nd edition, 2009.",
+   "title": "The Elements of Statistical Learning: Data Mining, Inference, and Prediction",
+   "authors": [
+    "Hastie",
+    "Tibshirani",
+    "Friedman"
+   ],
+   "year": 2009,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/bf02985802",
+      "title": "The elements of statistical learning: data mining, inference and prediction",
+      "year": 2005,
+      "first_author": "Franklin",
+      "container": "The Mathematical Intelligencer",
+      "type": "journal-article",
+      "score": 43.373722
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 1.0,
+      "partial_ratio": 100.0,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 18,
+   "raw": "[18] Brad R. Humphreys and Jane E. Ruseski. Economic determinants of participation in physical activity and sport. IASE Working Paper, (0613), 2006. International Association of Sports Economists.",
+   "title": "Economic determinants of participation in physical activity and sport",
+   "authors": [
+    "Humphreys",
+    "Ruseski"
+   ],
+   "year": 2006,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IASE Working Paper",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1177/155862351501000203",
+      "title": "The Economic Choice of Participation and Time Spent in Physical Activity and Sport in Canada",
+      "year": 2015,
+      "first_author": "Humphreys",
+      "container": "International Journal of Sport Finance",
+      "type": "journal-article",
+      "score": 37.29003
+     },
+     "metrics": {
+      "title_sim": 89.6,
+      "containment": 0.556,
+      "partial_ratio": 70.65217391304348,
+      "year_ok": false,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 19,
+   "raw": "[19] Brad R. Humphreys and Jane E. Ruseski. An economic analysis of participation and time spent in physical activity. The B. E. Journal of Economic Analysis & Policy, 11(1):1\u201338, 2011.",
+   "title": "An economic analysis of participation and time spent in physical activity",
+   "authors": [
+    "Humphreys",
+    "Ruseski"
+   ],
+   "year": 2011,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "The B. E. Journal of Economic Analysis & Policy",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.2202/1935-1682.2522",
+    "title": "An Economic Analysis of Participation and Time Spent in Physical Activity",
+    "year": 2011,
+    "first_author": "Humphreys",
+    "container": "The B.E. Journal of Economic Analysis &amp; Policy",
+    "type": "journal-article",
+    "score": 55.24411
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 20,
+   "raw": "[20] Jon Kleinberg, Jens Ludwig, Sendhil Mullainathan, and Ziad Obermeyer. Prediction policy problems. American Economic Review: Papers & Proceedings, 105(5):491\u2013495, 2015.",
+   "title": "Prediction policy problems",
+   "authors": [
+    "Kleinberg",
+    "Ludwig",
+    "Mullainathan",
+    "Obermeyer"
+   ],
+   "year": 2015,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "American Economic Review: Papers & Proceedings",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1257/aer.p20151023",
+    "title": "Prediction Policy Problems",
+    "year": 2015,
+    "first_author": "Kleinberg",
+    "container": "American Economic Review",
+    "type": "journal-article",
+    "score": 34.907066
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 21,
+   "raw": "[21] C. J. Knight, T. E. Dorsch, K. V. Osai, K. L. Haderlie, and P. A. Sellars. Influences on parental involvement in youth sport. Sport, Exercise, and Performance Psychology, 5(2):161\u2013178, 2016.",
+   "title": "Influences on parental involvement in youth sport",
+   "authors": [
+    "Knight",
+    "Dorsch",
+    "Osai",
+    "Haderlie",
+    "Sellars"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Sport, Exercise, and Performance Psychology",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1037/spy0000053",
+    "title": "Influences on parental involvement in youth sport.",
+    "year": 2016,
+    "first_author": "Knight",
+    "container": "Sport, Exercise, and Performance Psychology",
+    "type": "journal-article",
+    "score": 46.15165
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 22,
+   "raw": "[22] Sendhil Mullainathan and Jann Spiess. Machine learning: An applied econometric approach. Journal of Economic Perspectives, 31(2):87\u2013106, 2017.",
+   "title": "Machine learning: An applied econometric approach",
+   "authors": [
+    "Mullainathan",
+    "Spiess"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Economic Perspectives",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1257/jep.31.2.87",
+    "title": "Machine Learning: An Applied Econometric Approach",
+    "year": 2017,
+    "first_author": "Mullainathan",
+    "container": "Journal of Economic Perspectives",
+    "type": "journal-article",
+    "score": 49.212013
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 23,
+   "raw": "[23] J. Musch and S. Grondin. Unequal competition as an impediment to personal development: A review of the relative age effect in sport. Developmental Review, 21(2):147\u2013167, 2001.",
+   "title": "Unequal competition as an impediment to personal development: A review of the relative age effect in sport",
+   "authors": [
+    "Musch",
+    "Grondin"
+   ],
+   "year": 2001,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Developmental Review",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1006/drev.2000.0516",
+    "title": "Unequal Competition as an Impediment to Personal Development: A Review of the Relative Age Effect in Sport",
+    "year": 2001,
+    "first_author": "Musch",
+    "container": "Developmental Review",
+    "type": "journal-article",
+    "score": 84.0487
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 24,
+   "raw": "[24] August Noble. Where are the best golfers from? https://www.kksa-am.com/2023/07/25/ where-are-the-best-golfers-from/, 2023.",
+   "title": "Where are the best golfers from?",
+   "authors": [
+    "Noble"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://www.kksa-am.com/2023/07/25/"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED_URL",
+   "via": "url",
+   "url_status": {
+    "https://www.kksa-am.com/2023/07/25/": 200
+   },
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/978-1-349-17078-4_3",
+      "title": "Where the Cash Comes From",
+      "year": 1983,
+      "first_author": "Tidball",
+      "container": "The Quiet Evolution",
+      "type": "book-chapter",
+      "score": 21.887848
+     },
+     "metrics": {
+      "title_sim": 75.0,
+      "containment": 0.333,
+      "partial_ratio": 68.0,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 25,
+   "raw": "[25] Joe    Passov.       The  united     states of golf:     All  50   states ranked      by   their    golfiness.              https://golf.com/news/ the-united-states-of-golf-all-50-states-ranked-by-their-golfiness/, 2015.",
+   "title": "The united states of golf: All 50 states ranked by their golfiness",
+   "authors": [
+    "Passov"
+   ],
+   "year": 2015,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://golf.com/news/"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED_URL",
+   "via": "url",
+   "url_status": {
+    "https://golf.com/news/": 200
+   },
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.5040/9798216407133.ch-5",
+      "title": "Golf Takes Root in the United States",
+      "year": 2018,
+      "first_author": null,
+      "container": "Born on the Links",
+      "type": "other",
+      "score": 33.33672
+     },
+     "metrics": {
+      "title_sim": 75.86206896551724,
+      "containment": 0.6,
+      "partial_ratio": 72.22222222222221,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 26,
+   "raw": "[26] Judea Pearl. Causality: Models, Reasoning, and Inference. Cambridge University Press, 2009.",
+   "title": "Causality: Models, Reasoning, and Inference",
+   "authors": [
+    "Pearl"
+   ],
+   "year": 2009,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1017/cbo9780511803161",
+    "title": "Causality",
+    "year": 2009,
+    "first_author": "Pearl",
+    "container": "",
+    "type": "monograph",
+    "score": 57.082123
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 27,
+   "raw": "[27] M.E. Porter. Clusters and the new economics of competition. Harvard Business Review, 76(6):77\u201390, 1998.",
+   "title": "Clusters and the new economics of competition",
+   "authors": [
+    "Porter"
+   ],
+   "year": 1998,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Harvard Business Review",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1093/oso/9780198297994.003.0010",
+      "title": "Regions and the New Economics of Competition",
+      "year": 2001,
+      "first_author": "Porter",
+      "container": "Global City-Regions Trends, Theory, Policy",
+      "type": "book-chapter",
+      "score": 27.675037
+     },
+     "metrics": {
+      "title_sim": 90.0,
+      "containment": 0.75,
+      "partial_ratio": 88.63636363636364,
+      "year_ok": false,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 28,
+   "raw": "[28] B.M. Ryan.     Data study:   Does climate matter for young golfers looking to reach top levels of golf?         https://www.golfwrx.com/530092/ does-climate-matter-for-young-golfers-looking-to-reach-top-levels-of-golf/, 2018.",
+   "title": "Data study: Does climate matter for young golfers looking to reach top levels of golf?",
+   "authors": [
+    "Ryan"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://www.golfwrx.com/530092/"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED_URL",
+   "via": "url",
+   "url_status": {
+    "https://www.golfwrx.com/530092/": 200
+   },
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1002/hsr2.72333",
+      "title": "Golf\u2010Related Injuries in Young Elite Golfers: A Cross\u2010Sectional Survey Study",
+      "year": 2026,
+      "first_author": "Lee",
+      "container": "Health Science Reports",
+      "type": "journal-article",
+      "score": 29.904152
+     },
+     "metrics": {
+      "title_sim": 59.119496855345915,
+      "containment": 0.4,
+      "partial_ratio": 49.33333333333333,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 29,
+   "raw": "[29] B.M. Ryan.         An analysis of junior golf events and how to build  your   summer   schedule.        https://www.golfwrx.com/521224/ an-analysis-of-junior-golf-events-and-how-to-build-your-summer-schedule/, 2024.",
+   "title": "An analysis of junior golf events and how to build your summer schedule",
+   "authors": [
+    "Ryan"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://www.golfwrx.com/521224/"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED_URL",
+   "via": "url",
+   "url_status": {
+    "https://www.golfwrx.com/521224/": 200
+   },
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.5040/9781501309465.0016",
+      "title": "How the Golf Ball Vanishes Before Your Eyes",
+      "year": 2015,
+      "first_author": null,
+      "container": "Golf Ball",
+      "type": "book-chapter",
+      "score": 31.09827
+     },
+     "metrics": {
+      "title_sim": 50.87719298245614,
+      "containment": 0.429,
+      "partial_ratio": 46.51162790697675,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 30,
+   "raw": "[30] E Stadder, L Chittle, S Horton, and J Dixon. Movable obstruction? examining the impact of academic timing on the rae among ncaa golfers. International Journal of Golf Science, 7(1), 2019.",
+   "title": "Movable obstruction? examining the impact of academic timing on the rae among ncaa golfers",
+   "authors": [
+    "Stadder",
+    "Chittle",
+    "Horton",
+    "Dixon"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Journal of Golf Science",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.15760/honors.1784",
+      "title": "Examining the Impact of Legalized Sports Gambling on NCAA Athletes' Welfare and Game Integrity",
+      "year": 2026,
+      "first_author": "Al Jaradi",
+      "container": "",
+      "type": "dissertation",
+      "score": 28.425652
+     },
+     "metrics": {
+      "title_sim": 61.79775280898876,
+      "containment": 0.3,
+      "partial_ratio": 59.13978494623655,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 31,
+   "raw": "[31] Mervyn Stone. Cross-validatory choice and assessment of statistical predictions. Journal of the Royal Statistical Society: Series B (Methodological), 36(2):111\u2013133, 1974.",
+   "title": "Cross-validatory choice and assessment of statistical predictions",
+   "authors": [
+    "Stone"
+   ],
+   "year": 1974,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of the Royal Statistical Society: Series B (Methodological",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1111/j.2517-6161.1974.tb00994.x",
+    "title": "Cross-Validatory Choice and Assessment of Statistical Predictions",
+    "year": 1974,
+    "first_author": "Stone",
+    "container": "Journal of the Royal Statistical Society Series B: Statistical Methodology",
+    "type": "journal-article",
+    "score": 64.27254
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 32,
+   "raw": "[32] Stefan Szymanski. The economic design of sporting contests. Journal of Economic Literature, 41(4):1137\u20131187, 2003.",
+   "title": "The economic design of sporting contests",
+   "authors": [
+    "Szymanski"
+   ],
+   "year": 2003,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Economic Literature",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1257/jel.41.4.1137",
+    "title": "The Economic Design of Sporting Contests",
+    "year": 2003,
+    "first_author": "Szymanski",
+    "container": "Journal of Economic Literature",
+    "type": "journal-article",
+    "score": 54.102036
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 33,
+   "raw": "[33] Tim Wigmore.       Why athletes\u2019 birthdays affect who goes pro \u2014 and who    becomes   a   star.         https://fivethirtyeight.com/features/ why-athletes-birthdays-affect-who-goes-pro-and-who-becomes-a-star/, 2021.",
+   "title": "Why athletes\u2019 birthdays affect who goes pro \u2014 and who becomes a star",
+   "authors": [
+    "Wigmore"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://fivethirtyeight.com/features/"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED_URL",
+   "via": "url",
+   "url_status": {
+    "https://fivethirtyeight.com/features/": 200
+   },
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.3386/w33063",
+      "title": "Inequality in Science: Who Becomes a Star?",
+      "year": 2024,
+      "first_author": "Airoldi",
+      "container": "",
+      "type": "report",
+      "score": 38.930214
+     },
+     "metrics": {
+      "title_sim": 62.06896551724138,
+      "containment": 0.6,
+      "partial_ratio": 62.68656716417911,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 34,
+   "raw": "[34] World Population Review. Golf courses by state 2025. https://worldpopulationreview. com/state-rankings/golf-courses-by-state, 2025.",
+   "title": "Golf courses by state 2025",
+   "authors": [
+    "Review"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://worldpopulationreview"
+   ],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.5040/9798765108802.0008",
+    "title": "Golf Courses",
+    "year": 2025,
+    "first_author": null,
+    "container": "Lawn",
+    "type": "other",
+    "score": 33.1886
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": null
+   },
+   "evidence": []
+  }
+ ]
+}

@@ -58,7 +58,7 @@
    "container": null,
    "type": "book",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -81,7 +81,23 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "openlibrary",
+   "match": {
+    "source": "openlibrary",
+    "id": "/works/OL17576603W",
+    "title": "The Number Sense How The Mind Creates Mathematics",
+    "year": 1998,
+    "first_author": "Stanislas Dehaene"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -219,7 +235,7 @@
    "container": "ICLR",
    "type": "chapter",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -242,7 +258,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "bee044c8e8903fb67523c1f8c105ab4718600cdb",
+    "title": "Explaining and Harnessing Adversarial Examples",
+    "year": 2014,
+    "first_author": "I. Goodfellow",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "MAG": "2963207607",
+     "DBLP": "journals/corr/GoodfellowSS14",
+     "ArXiv": "1412.6572",
+     "CorpusId": 6706414
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -334,7 +373,7 @@
    "container": null,
    "type": "book",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -357,7 +396,28 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "1752b71637321db1e70a6d26e4190cfb5ddf0c06",
+    "title": "Vision: A Computational Investigation into the Human Representation and Processing of Visual Information",
+    "year": 1983,
+    "first_author": "D. Marr",
+    "container": "",
+    "ext": {
+     "MAG": "3021814354",
+     "CorpusId": 267799236
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -671,5 +731,6 @@
    },
    "evidence": []
   }
- ]
+ ],
+ "second_pass": true
 }

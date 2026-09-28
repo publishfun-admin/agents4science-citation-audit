@@ -279,7 +279,7 @@
    "container": "Monthly Notices of the Royal Astronomical Society",
    "type": "chapter",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -302,7 +302,28 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "b4d3169d4db545778f1a0a7415300d5e077e589e",
+    "title": "The Orbit of WASP-4 b is in Decay",
+    "year": 2025,
+    "first_author": "O. Bacsturk",
+    "container": "",
+    "ext": {
+     "ArXiv": "2506.15022",
+     "CorpusId": 279447683
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -555,5 +576,6 @@
    },
    "evidence": []
   }
- ]
+ ],
+ "second_pass": true
 }

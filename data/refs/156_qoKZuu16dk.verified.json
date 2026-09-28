@@ -1,0 +1,1013 @@
+{
+ "pdf": "156_qoKZuu16dk.pdf",
+ "n_entries": 26,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 2,
+ "entries": [
+  {
+   "junk": true,
+   "idx": 1,
+   "raw": "Feature Extraction 82 features                 Analysis Strategy: P-QRS-T +                   \u2022 5 binary comparisons Demographics                 \u2022 Each AF group vs. Control \u2022 70-10-20 train-val-test split Machine Learning LGBM Algorithm Binary Classification",
+   "title": "Feature Extraction 82 features Analysis Strategy: P-QRS-T + \u2022 5 binary comparisons Demographics \u2022 Each AF group vs",
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Control \u2022 70-10-20 train-val-test split Machine Learning LGBM Algorithm Binary Classification",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.7717/peerj.5742/fig-1",
+      "title": "Figure 1: Mean importance of five best scoring features in each feature group.",
+      "year": 2018,
+      "first_author": null,
+      "container": "",
+      "type": "component",
+      "score": 34.35517
+     },
+     "metrics": {
+      "title_sim": 54.6448087431694,
+      "containment": 0.4,
+      "partial_ratio": 47.61904761904761,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "References [1] G Hindricks, T Potpara, N Dagres, et al. 2020 esc guidelines for the diagnosis and management of atrial fibrillation developed in collaboration with the european association for cardio-thoracic surgery (eacts). European Heart Journal, 42(5):373\u2013498, 2021.",
+   "title": "esc guidelines for the diagnosis and management of atrial fibrillation developed in collaboration with the european association for cardio-thoracic surgery (eacts",
+   "authors": [
+    "References [1] G Hindricks, T Potpara, N Dagres, et al."
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "European Heart Journal",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1093/eurheartj/ehaa798",
+    "title": "Corrigendum to: 2020 ESC Guidelines for the diagnosis and management of atrial fibrillation developed in collaboration with the European Association of Cardio-Thoracic Surgery (EACTS)",
+    "year": 2021,
+    "first_author": null,
+    "container": "European Heart Journal",
+    "type": "journal-article",
+    "score": 95.60656
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.938,
+    "partial_ratio": 93.88888888888889,
+    "year_ok": true,
+    "first_author_ok": null
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[2] AS Go, EM Hylek, KA Phillips, et al. Prevalence of diagnosed atrial fibrillation in adults: national implications for rhythm management and stroke prevention: the anticoagulation and risk factors in atrial fibrillation (atria) study. JAMA, 285(18):2370\u20132375, 2001.",
+   "title": "Prevalence of diagnosed atrial fibrillation in adults: national implications for rhythm management and stroke prevention: the anticoagulation and risk factors in atrial fibrillation (atria) study",
+   "authors": [
+    "Go",
+    "Hylek",
+    "Phillips"
+   ],
+   "year": 2001,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "JAMA",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1001/jama.285.18.2370",
+    "title": "Prevalence of Diagnosed Atrial Fibrillation in Adults",
+    "year": 2001,
+    "first_author": "Go",
+    "container": "JAMA",
+    "type": "journal-article",
+    "score": 113.72278
+   },
+   "metrics": {
+    "title_sim": 43.442622950819676,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[3] CT January, LS Wann, H Calkins, et al. 2019 aha/acc/hrs focused update of the 2014 aha/acc/hrs guideline for the management of patients with atrial fibrillation. Journal of the American College of Cardiology, 74(1):104\u2013132, 2019.",
+   "title": "aha/acc/hrs focused update of the 2014 aha/acc/hrs guideline for the management of patients with atrial fibrillation",
+   "authors": [
+    "January",
+    "Wann",
+    "Calkins"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of the American College of Cardiology",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.hrthm.2019.01.024",
+    "title": "2019 AHA/ACC/HRS focused update of the 2014 AHA/ACC/HRS guideline for the management of patients with atrial fibrillation",
+    "year": 2019,
+    "first_author": "January",
+    "container": "Heart Rhythm",
+    "type": "journal-article",
+    "score": 100.28333
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[4] S Nattel, B Burstein, and D Dobrev. Atrial remodeling and atrial fibrillation: mechanisms and implications. Circulation: Arrhythmia and Electrophysiology, 1(1):62\u201373, 2008.",
+   "title": "Atrial remodeling and atrial fibrillation: mechanisms and implications",
+   "authors": [
+    "Nattel",
+    "Burstein",
+    "Dobrev"
+   ],
+   "year": 2008,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Circulation: Arrhythmia and Electrophysiology",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1161/circep.107.754564",
+    "title": "Atrial Remodeling and Atrial Fibrillation",
+    "year": 2008,
+    "first_author": "Nattel",
+    "container": "Circulation: Arrhythmia and Electrophysiology",
+    "type": "journal-article",
+    "score": 64.096886
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[5] MC Wijffels, CJ Kirchhof, R Dorland, and MA Allessie. Atrial fibrillation begets atrial fibrillation: a study in awake chronically instrumented goats. Circulation, 92(7):1954\u20131968, 1995.",
+   "title": "Atrial fibrillation begets atrial fibrillation: a study in awake chronically instrumented goats",
+   "authors": [
+    "Wijffels",
+    "Kirchhof",
+    "Dorland",
+    "Allessie"
+   ],
+   "year": 1995,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Circulation",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.26481/dis.19961220mw",
+    "title": "Atrial fibrillation begets atrial fibrillation : an experimental study in chronically instrumented goats",
+    "year": 2021,
+    "first_author": "Wijffels",
+    "container": "",
+    "type": "dissertation",
+    "score": 118.91016
+   },
+   "metrics": {
+    "title_sim": 94.28571428571429,
+    "containment": 0.9,
+    "partial_ratio": 86.27450980392157,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[6] U Schotten, S Verheule, P Kirchhof, and A Goette. Pathophysiological mechanisms of atrial fibrillation: a translational appraisal. Physiological Reviews, 91(1):265\u2013325, 2011.",
+   "title": "Pathophysiological mechanisms of atrial fibrillation: a translational appraisal",
+   "authors": [
+    "Schotten",
+    "Verheule",
+    "Kirchhof",
+    "Goette"
+   ],
+   "year": 2011,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Physiological Reviews",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1152/physrev.00031.2009",
+    "title": "Pathophysiological Mechanisms of Atrial Fibrillation: A Translational Appraisal",
+    "year": 2011,
+    "first_author": "Schotten",
+    "container": "Physiological Reviews",
+    "type": "journal-article",
+    "score": 63.174744
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[7] PD Ziegler, JL Koehler, and R Mehra. Comparison of continuous versus intermittent monitoring of atrial arrhythmias. Heart Rhythm, 3(12):1445\u20131452, 2006.",
+   "title": "Comparison of continuous versus intermittent monitoring of atrial arrhythmias",
+   "authors": [
+    "Ziegler",
+    "Koehler",
+    "Mehra"
+   ],
+   "year": 2006,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Heart Rhythm",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.hrthm.2006.07.030",
+    "title": "Comparison of continuous versus intermittent monitoring of atrial arrhythmias",
+    "year": 2006,
+    "first_author": "Ziegler",
+    "container": "Heart Rhythm",
+    "type": "journal-article",
+    "score": 63.471542
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[8] TV Glotzer, EG Daoud, DG Wyse, et al. The relationship between daily atrial tachyarrhythmia burden from implantable device diagnostics and stroke risk: the trends study. Circulation: Arrhythmia and Electrophysiology, 2(5):474\u2013480, 2009.",
+   "title": "The relationship between daily atrial tachyarrhythmia burden from implantable device diagnostics and stroke risk: the trends study",
+   "authors": [
+    "Glotzer",
+    "Daoud",
+    "Wyse"
+   ],
+   "year": 2009,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Circulation: Arrhythmia and Electrophysiology",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1161/circep.109.849638",
+    "title": "The Relationship Between Daily Atrial Tachyarrhythmia Burden From Implantable Device Diagnostics and Stroke Risk",
+    "year": 2009,
+    "first_author": "Glotzer",
+    "container": "Circulation: Arrhythmia and Electrophysiology",
+    "type": "journal-article",
+    "score": 82.439445
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[9] JS Steinberg, N Varma, I Cygankiewicz, et al. 2017 ishne-hrs expert consensus statement on ambulatory ecg and external cardiac monitoring/telemetry. Heart Rhythm, 14(7):e55\u2013e96, 2017.",
+   "title": "ishne-hrs expert consensus statement on ambulatory ecg and external cardiac monitoring/telemetry",
+   "authors": [
+    "Steinberg",
+    "Varma",
+    "Cygankiewicz"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Heart Rhythm",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1111/anec.12447",
+    "title": "2017 ISHNE-HRS expert consensus statement on ambulatory ECG and external cardiac monitoring/telemetry",
+    "year": 2017,
+    "first_author": "Steinberg",
+    "container": "Annals of Noninvasive Electrocardiology",
+    "type": "journal-article",
+    "score": 64.423355
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "[10] MP Turakhia, DD Hoang, P Zimetbaum, et al. Diagnostic utility of a novel leadless arrhythmia monitoring device. The American Journal of Cardiology, 112(4):520\u2013524, 2013.",
+   "title": "Diagnostic utility of a novel leadless arrhythmia monitoring device",
+   "authors": [
+    "Turakhia",
+    "Hoang",
+    "Zimetbaum"
+   ],
+   "year": 2013,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "The American Journal of Cardiology",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.amjcard.2013.04.017",
+    "title": "Diagnostic Utility of a Novel Leadless Arrhythmia Monitoring Device",
+    "year": 2013,
+    "first_author": "Turakhia",
+    "container": "The American Journal of Cardiology",
+    "type": "journal-article",
+    "score": 55.87703
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "[11] AH Ribeiro, MH Ribeiro, GM Paix\u00e3o, et al. Automatic diagnosis of the 12-lead ecg using a deep neural network. Nature Communications, 11(1):1760, 2020.",
+   "title": "Automatic diagnosis of the 12-lead ecg using a deep neural network",
+   "authors": [
+    "Ribeiro",
+    "Ribeiro",
+    "Paix\u00e3o"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature Communications",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/s41467-020-15432-4",
+    "title": "Automatic diagnosis of the 12-lead ECG using a deep neural network",
+    "year": 2020,
+    "first_author": "Ribeiro",
+    "container": "Nature Communications",
+    "type": "journal-article",
+    "score": 50.55308
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "[12] G Ke, Q Meng, T Finley, et al. Lightgbm: A highly efficient gradient boosting decision tree. In Advances in Neural Information Processing Systems, volume 30, pages 3146\u20133154, 2017.",
+   "title": "Lightgbm: A highly efficient gradient boosting decision tree",
+   "authors": [
+    "Ke",
+    "Meng",
+    "Finley"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/spw63631.2024.00015",
+      "title": "NodeGuard: A Highly Efficient Two-Party Computation Framework for Training Large-Scale Gradient Boosting Decision Tree",
+      "year": 2024,
+      "first_author": "Dai",
+      "container": "2024 IEEE Security and Privacy Workshops (SPW)",
+      "type": "proceedings-article",
+      "score": 38.399014
+     },
+     "metrics": {
+      "title_sim": 59.09090909090908,
+      "containment": 0.429,
+      "partial_ratio": 53.398058252427184,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "[13] B Burstein and S Nattel. Atrial fibrosis: mechanisms and clinical relevance in atrial fibrillation. Journal of the American College of Cardiology, 51(8):802\u2013809, 2008.",
+   "title": "Atrial fibrosis: mechanisms and clinical relevance in atrial fibrillation",
+   "authors": [
+    "Burstein",
+    "Nattel"
+   ],
+   "year": 2008,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of the American College of Cardiology",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.jacc.2007.09.064",
+    "title": "Atrial Fibrosis: Mechanisms and Clinical Relevance in Atrial Fibrillation",
+    "year": 2008,
+    "first_author": "Burstein",
+    "container": "Journal of the American College of Cardiology",
+    "type": "journal-article",
+    "score": 64.63186
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "[14] P Kirchhof, S Benussi, D Kotecha, et al. 2016 esc guidelines for the management of atrial fibrillation developed in collaboration with eacts. European Heart Journal, 37(38):2893\u20132962, 2016.",
+   "title": "esc guidelines for the management of atrial fibrillation developed in collaboration with eacts",
+   "authors": [
+    "Kirchhof",
+    "Benussi",
+    "Kotecha"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "European Heart Journal",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1093/eurheartj/ehx039",
+      "title": "Corrigendum to: 2016 ESC Guidelines for the management of atrial fibrillation developed in collaboration with EACTS",
+      "year": 2018,
+      "first_author": null,
+      "container": "European Heart Journal",
+      "type": "journal-article",
+      "score": 68.90162
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 0.9,
+      "partial_ratio": 91.22807017543859,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 16,
+   "raw": "[15] NF Marrouche, D Wilber, G Hindricks, et al. Catheter ablation for atrial fibrillation with heart failure. New England Journal of Medicine, 378(5):417\u2013427, 2018.",
+   "title": "Catheter ablation for atrial fibrillation with heart failure",
+   "authors": [
+    "Marrouche",
+    "Wilber",
+    "Hindricks"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "New England Journal of Medicine",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1002/9781444300185.ch14",
+      "title": "Catheter Ablation of Atrial Fibrillation in Patients with Heart Failure",
+      "year": 2008,
+      "first_author": "Romeh",
+      "container": "Catheter Ablation of Atrial Fibrillation",
+      "type": "other",
+      "score": 53.630875
+     },
+     "metrics": {
+      "title_sim": 96.55172413793103,
+      "containment": 0.857,
+      "partial_ratio": 81.69014084507043,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 17,
+   "raw": "[16] P Kirchhof, AJ Camm, A Goette, et al. Early rhythm-control therapy in patients with atrial fibrillation. New England Journal of Medicine, 383(14):1305\u20131316, 2020.",
+   "title": "Early rhythm-control therapy in patients with atrial fibrillation",
+   "authors": [
+    "Kirchhof",
+    "Camm",
+    "Goette"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "New England Journal of Medicine",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.3410/f.738570639.793579410",
+    "title": "Faculty Opinions recommendation of Early Rhythm-Control Therapy in Patients with Atrial Fibrillation.",
+    "year": 2020,
+    "first_author": "Cassimatis",
+    "container": "Faculty Opinions \u2013 Post-Publication Peer Review of the Biomedical Literature",
+    "type": "dataset",
+    "score": 47.25079
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.7,
+    "partial_ratio": 77.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 18,
+   "raw": "[17] JS Healey, SJ Connolly, MR Gold, et al. Subclinical atrial fibrillation and the risk of stroke. New England Journal of Medicine, 366(2):120\u2013129, 2012.",
+   "title": "Subclinical atrial fibrillation and the risk of stroke",
+   "authors": [
+    "Healey",
+    "Connolly",
+    "Gold"
+   ],
+   "year": 2012,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "New England Journal of Medicine",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.carage.2012.03.034",
+    "title": "Subclinical Atrial Fibrillation Boosts Stroke Risk",
+    "year": 2012,
+    "first_author": "Jancin",
+    "container": "Caring for the Ages",
+    "type": "journal-article",
+    "score": 44.53992
+   },
+   "metrics": {
+    "title_sim": 92.47311827956989,
+    "containment": 0.833,
+    "partial_ratio": 80.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 19,
+   "raw": "[18] M Bettoni and M Zimmermann. Autonomic tone variations before the onset of paroxysmal atrial fibrillation. Circulation, 105(23):2753\u20132759, 2002.",
+   "title": "Autonomic tone variations before the onset of paroxysmal atrial fibrillation",
+   "authors": [
+    "Bettoni",
+    "Zimmermann"
+   ],
+   "year": 2002,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Circulation",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1161/01.cir.0000018443.44005.d8",
+    "title": "Autonomic Tone Variations Before the Onset of Paroxysmal Atrial Fibrillation",
+    "year": 2002,
+    "first_author": "Bettoni",
+    "container": "Circulation",
+    "type": "journal-article",
+    "score": 85.402565
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 20,
+   "raw": "[19] A Bay\u00e9s de Luna, P Platonov, FG Cosio, et al. Interatrial blocks. a separate entity from left atrial enlargement: a consensus report. Journal of Electrocardiology, 45(5):445\u2013451, 2012.",
+   "title": "Interatrial blocks. a separate entity from left atrial enlargement: a consensus report",
+   "authors": [
+    "Luna",
+    "Platonov",
+    "Cosio"
+   ],
+   "year": 2012,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Electrocardiology",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.jelectrocard.2012.06.029",
+    "title": "Interatrial blocks. A separate entity from left atrial enlargement: a consensus report",
+    "year": 2012,
+    "first_author": "Bay\u00e9s de Luna",
+    "container": "Journal of Electrocardiology",
+    "type": "journal-article",
+    "score": 68.71943
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 21,
+   "raw": "[20] PS Chen, LS Chen, GA Fishbein, SF Lin, and S Nattel. Role of the autonomic nervous system in atrial fibrillation: pathophysiology and therapy. Circulation Research, 114(9):1500\u20131515, 2014.",
+   "title": "Role of the autonomic nervous system in atrial fibrillation: pathophysiology and therapy",
+   "authors": [
+    "Chen",
+    "Chen",
+    "Fishbein",
+    "Lin",
+    "Nattel"
+   ],
+   "year": 2014,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Circulation Research",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1161/circresaha.114.303772",
+    "title": "Role of the Autonomic Nervous System in Atrial Fibrillation",
+    "year": 2014,
+    "first_author": "Chen",
+    "container": "Circulation Research",
+    "type": "journal-article",
+    "score": 56.22603
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 22,
+   "raw": "[21] EJ Benjamin, P Muntner, A Alonso, et al. Heart disease and stroke statistics-2019 update: a report from the american heart association. Circulation, 139(10):e56\u2013e528, 2019.",
+   "title": "Heart disease and stroke statistics-2019 update: a report from the american heart association",
+   "authors": [
+    "Benjamin",
+    "Muntner",
+    "Alonso"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Circulation",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1161/cir.0000000000000746",
+    "title": "Correction to: Heart Disease and Stroke Statistics\u20142019 Update: A Report From the American Heart Association",
+    "year": 2020,
+    "first_author": null,
+    "container": "Circulation",
+    "type": "journal-article",
+    "score": 65.825035
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.909,
+    "partial_ratio": 91.50943396226415,
+    "year_ok": true,
+    "first_author_ok": null
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 23,
+   "raw": "[22] SS Chugh, R Havmoeller, K Narayanan, et al. Worldwide epidemiology of atrial fibrillation: a global burden of disease 2010 study. Circulation, 129(8):837\u2013847, 2014.",
+   "title": "Worldwide epidemiology of atrial fibrillation: a global burden of disease 2010 study",
+   "authors": [
+    "Chugh",
+    "Havmoeller",
+    "Narayanan"
+   ],
+   "year": 2014,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Circulation",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1161/circulationaha.113.005119",
+    "title": "Worldwide Epidemiology of Atrial Fibrillation",
+    "year": 2014,
+    "first_author": "Chugh",
+    "container": "Circulation",
+    "type": "journal-article",
+    "score": 49.776016
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 24,
+   "raw": "[23] EI Charitos, H P\u00fcrerfellner, TV Glotzer, and PD Ziegler. Clinical classifications of atrial fibrillation poorly reflect its temporal persistence: insights from 1,195 patients continuously monitored with implantable devices. Journal of the American College of Cardiology, 63(25):2840\u20132848, 2014.",
+   "title": "Clinical classifications of atrial fibrillation poorly reflect its temporal persistence: insights from 1,195 patients continuously monitored with implantable devices",
+   "authors": [
+    "Charitos",
+    "P\u00fcrerfellner",
+    "Glotzer",
+    "Ziegler"
+   ],
+   "year": 2014,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of the American College of Cardiology",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1055/s-0034-1367176",
+    "title": "How accurate does the clinical classification of atrial fibrillation severity reflect its temporal persistence: Insights from 1195 patients continuously monitored with implantable devices?",
+    "year": 2014,
+    "first_author": "Charitos",
+    "container": "The Thoracic and Cardiovascular Surgeon",
+    "type": "journal-article",
+    "score": 93.27849
+   },
+   "metrics": {
+    "title_sim": 91.42857142857143,
+    "containment": 0.667,
+    "partial_ratio": 89.24731182795699,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 25,
+   "raw": "[24] GY Lip, R Nieuwlaat, R Pisters, DA Lane, and HJ Crijns. Refining clinical risk stratification for predicting stroke and thromboembolism in atrial fibrillation using a novel risk factor-based approach: the euro heart survey on atrial fibrillation. Chest, 137(2):263\u2013272, 2010.",
+   "title": "Refining clinical risk stratification for predicting stroke and thromboembolism in atrial fibrillation using a novel risk factor-based approach: the euro heart survey on atrial fibrillation",
+   "authors": [
+    "Lip",
+    "Nieuwlaat",
+    "Pisters",
+    "Lane",
+    "Crijns"
+   ],
+   "year": 2010,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Chest",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1378/chest.09-1584",
+    "title": "Refining Clinical Risk Stratification for Predicting Stroke and Thromboembolism in Atrial Fibrillation Using a Novel Risk Factor-Based Approach",
+    "year": 2010,
+    "first_author": "Lip",
+    "container": "Chest",
+    "type": "journal-article",
+    "score": 107.795685
+   },
+   "metrics": {
+    "title_sim": 86.404833836858,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 26,
+   "raw": "[25] NF Marrouche, D Wilber, G Hindricks, et al. Association of atrial tissue fibrosis identified by delayed enhancement mri and atrial fibrillation catheter ablation: the decaaf study. JAMA, 311(5):498\u2013506, 2014.",
+   "title": "Association of atrial tissue fibrosis identified by delayed enhancement mri and atrial fibrillation catheter ablation: the decaaf study",
+   "authors": [
+    "Marrouche",
+    "Wilber",
+    "Hindricks"
+   ],
+   "year": 2014,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "JAMA",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1001/jama.2014.3",
+    "title": "Association of Atrial Tissue Fibrosis Identified by Delayed Enhancement MRI and Atrial Fibrillation Catheter Ablation",
+    "year": 2014,
+    "first_author": "Marrouche",
+    "container": "JAMA",
+    "type": "journal-article",
+    "score": 86.63697
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  }
+ ]
+}
