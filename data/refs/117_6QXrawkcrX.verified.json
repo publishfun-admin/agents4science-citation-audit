@@ -1,0 +1,576 @@
+{
+ "pdf": "117_6QXrawkcrX.pdf",
+ "n_entries": 14,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 2,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "References Albert Bifet and Rafael Gavald\u00e0. Learning from time-changing data with adaptive windowing. In Proceedings of the 2007 SIAM international conference on data mining, pp. 443\u2013448. SIAM, 2007.",
+   "title": "Learning from time-changing data with adaptive windowing",
+   "authors": [
+    "Bifet",
+    "Gavald\u00e0"
+   ],
+   "year": 2007,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 2007 SIAM international conference on data mining",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1137/1.9781611972771.42",
+    "title": "Learning from Time-Changing Data with Adaptive Windowing",
+    "year": 2007,
+    "first_author": "Bifet",
+    "container": "Proceedings of the 2007 SIAM International Conference on Data Mining",
+    "type": "proceedings-article",
+    "score": 65.82118
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "Fawzi Bouguelia et al. Anomaly detection in network traffic using statistical methods. In Proceedings of the IEEE International Conference on Communications, 2018.",
+   "title": "Anomaly detection in network traffic using statistical methods",
+   "authors": [
+    "Bouguelia"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the IEEE International Conference on Communications",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/iitaw.2009.22",
+      "title": "The Methods of Network Traffic Statistical Anomaly Detection Based on Network Processor",
+      "year": 2009,
+      "first_author": "Yun",
+      "container": "2009 Third International Symposium on Intelligent Information Technology Application Workshops",
+      "type": "proceedings-article",
+      "score": 37.43298
+     },
+     "metrics": {
+      "title_sim": 92.17391304347827,
+      "containment": 0.778,
+      "partial_ratio": 58.62068965517242,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "Simon Faber et al. Active lifelong learning using experience replay. In Proceedings of the International Conference on Adaptive Systems, 2022.",
+   "title": "Active lifelong learning using experience replay",
+   "authors": [
+    "Faber"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the International Conference on Adaptive Systems",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1609/aaai.v32i1.11595",
+      "title": "Selective Experience Replay for Lifelong Learning",
+      "year": 2018,
+      "first_author": "Isele",
+      "container": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "type": "journal-article",
+      "score": 31.901339
+     },
+     "metrics": {
+      "title_sim": 84.5360824742268,
+      "containment": 0.8,
+      "partial_ratio": 59.34065934065934,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "Marc Gaudreault et al. A statistical learning approach for novelty detection in dynamic systems. In Proceedings of the AAAI Conference on Artificial Intelligence, 2024.",
+   "title": "A statistical learning approach for novelty detection in dynamic systems",
+   "authors": [
+    "Gaudreault"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the AAAI Conference on Artificial Intelligence",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1016/j.ymssp.2025.112863",
+      "title": "Dynamic anomaly detection in industrial robot clusters: A statistical-deep learning hybrid approach",
+      "year": 2025,
+      "first_author": "Long",
+      "container": "Mechanical Systems and Signal Processing",
+      "type": "journal-article",
+      "score": 27.566994
+     },
+     "metrics": {
+      "title_sim": 83.87096774193549,
+      "containment": 0.455,
+      "partial_ratio": 58.27814569536424,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "Alexander Isele, Akansel Cosgun, Nicolas G\u00f6rnitz, Cynthia Thornton, and Raia Hadsell. Selective experience replay for lifelong learning. In European Conference on Machine Learning and Knowledge Discovery in Databases, pp. 308\u2013324. Springer, 2018.",
+   "title": "Selective experience replay for lifelong learning",
+   "authors": [
+    "Isele",
+    "Cosgun",
+    "G\u00f6rnitz",
+    "Thornton",
+    "Hadsell"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "European Conference on Machine Learning and Knowledge Discovery in Databases",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1609/aaai.v32i1.11595",
+    "title": "Selective Experience Replay for Lifelong Learning",
+    "year": 2018,
+    "first_author": "Isele",
+    "container": "Proceedings of the AAAI Conference on Artificial Intelligence",
+    "type": "journal-article",
+    "score": 56.011086
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "James Kirkpatrick, Razvan Pascanu, Neil Rabinowitz, Joel Veness, Guillaume Desjardins, Andrei A Rusu, Kieran Milan, John Quan, Tiago Ramalho, Agnieszka Grabska-Barwinska, et al. Overcoming catastrophic forgetting in neural networks. In Proceedings of the national academy of sciences, volume 113, pp. E5221\u2013E5229. National Acad Sciences, 2016.",
+   "title": "Overcoming catastrophic forgetting in neural networks",
+   "authors": [
+    "Kirkpatrick",
+    "Pascanu",
+    "Rabinowitz",
+    "Veness",
+    "Desjardins",
+    "Rusu",
+    "Milan",
+    "Quan",
+    "Ramalho",
+    "Grabska-Barwinska"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the national academy of sciences",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.3410/f.727407683.793559420",
+      "title": "Faculty Opinions recommendation of Overcoming catastrophic forgetting in neural networks.",
+      "year": 2019,
+      "first_author": "Triesch",
+      "container": "Faculty Opinions \u2013 Post-Publication Peer Review of the Biomedical Literature",
+      "type": "dataset",
+      "score": 42.871826
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 0.625,
+      "partial_ratio": 72.72727272727273,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "J. Li et al. Mdfulog: A multi-dimensional framework for log anomaly detection. In Proceedings of the ACM SIGKDD Conference on Knowledge Discovery and Data Mining, 2023.",
+   "title": "Mdfulog: A multi-dimensional framework for log anomaly detection",
+   "authors": [
+    "Li"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.5986206",
+      "title": "Multi-ViewLog: A Multi-view Framework for Discrete Log Anomaly Detection",
+      "year": 2025,
+      "first_author": "Tian",
+      "container": "",
+      "type": "posted-content",
+      "score": 43.22833
+     },
+     "metrics": {
+      "title_sim": 81.25,
+      "containment": 0.667,
+      "partial_ratio": 74.64788732394366,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "Z. Qin et al. Lifelong learning in sequential user behavior modeling via structural growth. In International Conference on Machine Learning, 2023.",
+   "title": "Lifelong learning in sequential user behavior modeling via structural growth",
+   "authors": [
+    "Qin"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Conference on Machine Learning",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1145/3459637.3481905",
+      "title": "Contrastive Curriculum Learning for Sequential User Behavior Modeling via Data Augmentation",
+      "year": 2021,
+      "first_author": "Bian",
+      "container": "Proceedings of the 30th ACM International Conference on Information &amp; Knowledge Management",
+      "type": "proceedings-article",
+      "score": 29.837828
+     },
+     "metrics": {
+      "title_sim": 75.40983606557377,
+      "containment": 0.556,
+      "partial_ratio": 69.23076923076923,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "John Schmidgall et al. Self-constructing neural networks for lifelong learning. In Workshop on Continuous Learning at ICLR, 2021.",
+   "title": "Self-constructing neural networks for lifelong learning",
+   "authors": [
+    "Schmidgall"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Workshop on Continuous Learning at ICLR",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1145/3377929.3389901",
+      "title": "Adaptive reinforcement learning through evolving self-modifying neural networks",
+      "year": 2020,
+      "first_author": "Schmidgall",
+      "container": "Proceedings of the 2020 Genetic and Evolutionary Computation Conference Companion",
+      "type": "proceedings-article",
+      "score": 35.65903
+     },
+     "metrics": {
+      "title_sim": 69.04761904761905,
+      "containment": 0.444,
+      "partial_ratio": 52.23880597014925,
+      "year_ok": true,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "Wei Shi et al. Anomaly detection in log streams: A time-series approach. In Proceedings of the International Conference on Data Mining, 2024.",
+   "title": "Anomaly detection in log streams: A time-series approach",
+   "authors": [
+    "Shi"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the International Conference on Data Mining",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.22215/etd/2018-13228",
+      "title": "Real-Time Outlier (Anomaly) Detection Over Data Streams",
+      "year": 2018,
+      "first_author": "Yu",
+      "container": "",
+      "type": "dissertation",
+      "score": 35.317917
+     },
+     "metrics": {
+      "title_sim": 74.07407407407408,
+      "containment": 0.714,
+      "partial_ratio": 68.68686868686868,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "H. Ye et al. Training adaptive deep neural networks via dynamic module expansion. In International Conference on Learning Representations, 2025.",
+   "title": "Training adaptive deep neural networks via dynamic module expansion",
+   "authors": [
+    "Ye"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Conference on Learning Representations",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.24108/preprints-3114052",
+      "title": "Adaptive Training Optimization for Deep Neural Networks Using Dynamic Perturbation Scheduling",
+      "year": 2025,
+      "first_author": "Satybaldiev",
+      "container": "",
+      "type": "posted-content",
+      "score": 43.78134
+     },
+     "metrics": {
+      "title_sim": 81.41592920353982,
+      "containment": 0.667,
+      "partial_ratio": 62.5,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "Lei Yuan et al. Accelerated training via transferable variational strategies. In International Conference on Learning Representations, 2023.",
+   "title": "Accelerated training via transferable variational strategies",
+   "authors": [
+    "Yuan"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Conference on Learning Representations",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.58530/2024/4663",
+      "title": "Transferable Variational Feedback Network for Accelerated MRI Reconstruction",
+      "year": 2024,
+      "first_author": "Paul",
+      "container": "ISMRM Annual Meeting",
+      "type": "proceedings-article",
+      "score": 24.663548
+     },
+     "metrics": {
+      "title_sim": 75.0,
+      "containment": 0.429,
+      "partial_ratio": 57.89473684210527,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "Ming Zhang et al. Metaloggc: A graph-based approach for log anomaly detection. In Proceedings of the IEEE International Conference on Big Data, 2024.",
+   "title": "Metaloggc: A graph-based approach for log anomaly detection",
+   "authors": [
+    "Zhang"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the IEEE International Conference on Big Data",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/icdmw60847.2023.00156",
+      "title": "LogGC: Novel Approach for Graph-based Log Anomaly Detection",
+      "year": 2023,
+      "first_author": "Andonov",
+      "container": "2023 IEEE International Conference on Data Mining Workshops (ICDMW)",
+      "type": "proceedings-article",
+      "score": 38.923847
+     },
+     "metrics": {
+      "title_sim": 89.65517241379311,
+      "containment": 0.75,
+      "partial_ratio": 72.41379310344827,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "Lei Zhou et al. Process monitoring and change detection in industrial systems. In Proceedings of the IEEE Symposium on Industrial Electronics, 2024.",
+   "title": "Process monitoring and change detection in industrial systems",
+   "authors": [
+    "Zhou"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the IEEE Symposium on Industrial Electronics",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/iecon.2016.7794137",
+      "title": "Fault Detection and process monitoring of industrial process based on spherical kernel T-PLS",
+      "year": 2016,
+      "first_author": "Zelin Ren",
+      "container": "IECON 2016 - 42nd Annual Conference of the IEEE Industrial Electronics Society",
+      "type": "proceedings-article",
+      "score": 28.51239
+     },
+     "metrics": {
+      "title_sim": 82.6923076923077,
+      "containment": 0.5,
+      "partial_ratio": 57.608695652173914,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  }
+ ]
+}

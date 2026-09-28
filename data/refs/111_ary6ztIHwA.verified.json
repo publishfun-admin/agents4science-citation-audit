@@ -1,0 +1,555 @@
+{
+ "pdf": "111_ary6ztIHwA.pdf",
+ "n_entries": 13,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 2,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "A. Bendou et al. Inferring robust class-conditional statistics for meta-learning. In NeurIPS, 2023.",
+   "title": "Inferring robust class-conditional statistics for meta-learning",
+   "authors": [
+    "Bendou"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "NeurIPS",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1017/9781108943161.007",
+      "title": "Robust Supervised Learning",
+      "year": 2023,
+      "first_author": null,
+      "container": "Algorithmic High-Dimensional Robust Statistics",
+      "type": "book-chapter",
+      "score": 27.858492
+     },
+     "metrics": {
+      "title_sim": 73.17073170731707,
+      "containment": 0.667,
+      "partial_ratio": 53.84615384615385,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "R. Chauhan et al. Abr: Adaptive bridging of hyper-network conditioning. In ICLR Workshop Proceedings, 2023.",
+   "title": "Abr: Adaptive bridging of hyper-network conditioning",
+   "authors": [
+    "Chauhan"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "ICLR Workshop Proceedings",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/inocon50539.2020.9298264",
+      "title": "An Adaptive Signal Conditioning System for Launch Vehicle Telemetry Applications",
+      "year": 2020,
+      "first_author": "S.",
+      "container": "2020 IEEE International Conference for Innovation in Technology (INOCON)",
+      "type": "proceedings-article",
+      "score": 21.979588
+     },
+     "metrics": {
+      "title_sim": 58.333333333333336,
+      "containment": 0.25,
+      "partial_ratio": 51.24999999999999,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "Brendan Cusack et al. The efficacy of monte carlo dropout for uncertainty estimation. IEEE Trans. Neural Networks, 2023.",
+   "title": "The efficacy of monte carlo dropout for uncertainty estimation",
+   "authors": [
+    "Cusack"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE Trans. Neural Networks",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.5186051",
+      "title": "Improving Monte Carlo Dropout Uncertainty Estimation with Stable Output Layers",
+      "year": 2025,
+      "first_author": "Son",
+      "container": "",
+      "type": "posted-content",
+      "score": 46.414654
+     },
+     "metrics": {
+      "title_sim": 80.76923076923077,
+      "containment": 0.556,
+      "partial_ratio": 70.51282051282051,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "A. Dawood et al. Addressing overconfidence in deep learning with evidential approaches. In International Conference on Uncertainty in Artificial Intelligence, 2023.",
+   "title": "Addressing overconfidence in deep learning with evidential approaches",
+   "authors": [
+    "Dawood"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Conference on Uncertainty in Artificial Intelligence",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/isbi53787.2023.10230515",
+      "title": "Addressing Deep Learning Model Calibration Using Evidential Neural Networks and Uncertainty-Aware Training",
+      "year": 2023,
+      "first_author": "Dawood",
+      "container": "2023 IEEE 20th International Symposium on Biomedical Imaging (ISBI)",
+      "type": "proceedings-article",
+      "score": 39.82116
+     },
+     "metrics": {
+      "title_sim": 67.3076923076923,
+      "containment": 0.455,
+      "partial_ratio": 59.43396226415094,
+      "year_ok": true,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "Chelsea Finn, Pieter Abbeel, and Sergey Levine. Model-agnostic meta-learning for fast adaptation of deep networks. In Proceedings of the 34th International Conference on Machine Learning, 2017.",
+   "title": "Model-agnostic meta-learning for fast adaptation of deep networks",
+   "authors": [
+    "Finn",
+    "Abbeel",
+    "Levine"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 34th International Conference on Machine Learning",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/isc260477.2024.11004295",
+      "title": "Study on Adaptation of Model-Agnostic Meta-Learning Integrated Deep Q-Learning for HVAC Control",
+      "year": 2024,
+      "first_author": "Kumkam",
+      "container": "2024 IEEE International Smart Cities Conference (ISC2)",
+      "type": "proceedings-article",
+      "score": 36.74841
+     },
+     "metrics": {
+      "title_sim": 87.93103448275862,
+      "containment": 0.636,
+      "partial_ratio": 56.84210526315789,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "c889d6f98e6d79b89c3a6adf8a921f88fa6ba518",
+    "title": "Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks",
+    "year": 2017,
+    "first_author": "Chelsea Finn",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "DBLP": "journals/corr/FinnAL17",
+     "MAG": "2951775809",
+     "ArXiv": "1703.03400",
+     "CorpusId": 6719686
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "Edward J. Hu et al. Lora: Low-rank adaptation of large language models. In arXiv preprint arXiv:2106.09685, 2021.",
+   "title": "Lora: Low-rank adaptation of large language models",
+   "authors": [
+    "Hu"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": "2106.09685",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2106.09685",
+    "title": "LoRA: Low-Rank Adaptation of Large Language Models",
+    "year": 2021,
+    "first_author": "Edward J. Hu"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "George B. Moody and Roger G. Mark. The mit-bih arrhythmia database. IEEE Trans. Biomedical Engineering, 2001.",
+   "title": "The mit-bih arrhythmia database",
+   "authors": [
+    "Moody",
+    "Mark"
+   ],
+   "year": 2001,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE Trans. Biomedical Engineering",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/51.932724",
+    "title": "The impact of the MIT-BIH Arrhythmia Database",
+    "year": 2001,
+    "first_author": "Moody",
+    "container": "IEEE Engineering in Medicine and Biology Magazine",
+    "type": "journal-article",
+    "score": 49.185623
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.8,
+    "partial_ratio": 80.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "J. Nixon et al. Measuring calibration in deep neural networks. In CVPR Workshops, 2019.",
+   "title": "Measuring calibration in deep neural networks",
+   "authors": [
+    "Nixon"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "CVPR Workshops",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.7091044",
+      "title": "Offloading-driven Calibration Optimization for Early-Exit Deep Neural Networks",
+      "year": 2026,
+      "first_author": "Pacheco",
+      "container": "",
+      "type": "posted-content",
+      "score": 28.953283
+     },
+     "metrics": {
+      "title_sim": 83.11688311688312,
+      "containment": 0.444,
+      "partial_ratio": 61.31386861313868,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "F. Petrocelli et al. Robust meta-learning for few-shot tasks. In ICML, 2022.",
+   "title": "Robust meta-learning for few-shot tasks",
+   "authors": [
+    "Petrocelli"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "ICML",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.14711/thesis-991013340459503412",
+      "title": "Enhanced meta learning for few-shot learning, and recommendation system",
+      "year": 2024,
+      "first_author": "Yu",
+      "container": "",
+      "type": "dissertation",
+      "score": 36.263565
+     },
+     "metrics": {
+      "title_sim": 80.0,
+      "containment": 0.625,
+      "partial_ratio": 60.3448275862069,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "L. Que et al. Dual-level curriculum meta-learning for domain shifts. In ICLR Workshop Proceedings, 2024.",
+   "title": "Dual-level curriculum meta-learning for domain shifts",
+   "authors": [
+    "Que"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "ICLR Workshop Proceedings",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1609/aaai.v38i13.29392",
+      "title": "Dual-Level Curriculum Meta-Learning for Noisy Few-Shot Learning Tasks",
+      "year": 2024,
+      "first_author": "Que",
+      "container": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "type": "journal-article",
+      "score": 39.88944
+     },
+     "metrics": {
+      "title_sim": 84.78260869565217,
+      "containment": 0.6,
+      "partial_ratio": 75.36231884057972,
+      "year_ok": true,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": {
+    "source": "crossref",
+    "doi": "10.1609/aaai.v38i13.29392",
+    "title": "Dual-Level Curriculum Meta-Learning for Noisy Few-Shot Learning Tasks",
+    "year": 2024,
+    "first_author": "Que",
+    "container": "Proceedings of the AAAI Conference on Artificial Intelligence",
+    "type": "journal-article",
+    "score": 39.88944
+   }
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "X. Wan et al. Deep learning methods for ecg analysis: Challenges and pitfalls. In International Conference on Deep Learning in Medicine, 2025.",
+   "title": "Deep learning methods for ecg analysis: Challenges and pitfalls",
+   "authors": [
+    "Wan"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Conference on Deep Learning in Medicine",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.20944/preprints202411.0714.v1",
+      "title": "Deep Learning Approaches for Electrocardiogram (ECG) Analysis: Challenges and Applications",
+      "year": 2024,
+      "first_author": "Santos",
+      "container": "",
+      "type": "posted-content",
+      "score": 33.266922
+     },
+     "metrics": {
+      "title_sim": 84.11214953271028,
+      "containment": 0.625,
+      "partial_ratio": 66.66666666666667,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "Z. Xiong et al. Drp-canet: Meta-learning with dynamically conditioned priors. In ICLR Workshop Proceedings, 2025.",
+   "title": "Drp-canet: Meta-learning with dynamically conditioned priors",
+   "authors": [
+    "Xiong"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "ICLR Workshop Proceedings",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.5503113",
+      "title": "Meta\u2011Learning Neural Process for Implied Volatility Surfaces with SABR-induced Priors",
+      "year": 2025,
+      "first_author": "Zhuang",
+      "container": "",
+      "type": "posted-content",
+      "score": 27.869797
+     },
+     "metrics": {
+      "title_sim": 59.523809523809526,
+      "containment": 0.3,
+      "partial_ratio": 48.10126582278481,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "Y. Zheng et al. Learning dynamically-structured priors via hypernetworks. In Advances in Neural Information Processing Systems, 2023.",
+   "title": "Learning dynamically-structured priors via hypernetworks",
+   "authors": [
+    "Zheng"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.23919/eusipco55093.2022.9909847",
+      "title": "Time-Varying Graph Learning Under Structured Temporal Priors",
+      "year": 2022,
+      "first_author": "Zhang",
+      "container": "2022 30th European Signal Processing Conference (EUSIPCO)",
+      "type": "proceedings-article",
+      "score": 24.77557
+     },
+     "metrics": {
+      "title_sim": 67.24137931034483,
+      "containment": 0.429,
+      "partial_ratio": 60.71428571428572,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  }
+ ],
+ "second_pass": true
+}

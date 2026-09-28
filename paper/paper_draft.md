@@ -129,7 +129,33 @@ six pre-specified questions; p-values are reported as descriptive evidence rathe
 
 ## 5. Results
 
-[RESULTS]
+### 5.1 Corpus and parsing yield
+
+[RESULTS: papers with parsed references, references per paper, parser artefacts excluded, automated verification rate by source]
+
+### 5.2 Prevalence of fabricated references (Q1)
+
+[RESULTS: Table 2 reference-level and paper-level shares by outcome group with Wilson CIs; distribution of per-paper shares]
+
+### 5.3 How precise was the organisers' automated flag? (Q2)
+
+[RESULTS: precision of flagged examples; paper-level sensitivity/specificity/kappa; false-positive examples]
+
+### 5.4 Fabrication and self-reported AI autonomy (Q3)
+
+[RESULTS: by writing tier; Spearman with overall autonomy]
+
+### 5.5 Fabrication, review scores and acceptance (Q4)
+
+[RESULTS: Spearman per reviewer; human score; acceptance rates; logistic regression]
+
+### 5.6 Did anyone notice? (Q5)
+
+[RESULTS: explicit statements by LLM reviewers, human experts, Correctness Check; Gemini vs others; false alarms]
+
+### 5.7 What the fabrications look like (Q6)
+
+[RESULTS: category distribution; corrupted-attribute tags; identifier hijacking; future-dated references; examples]
 
 ## 6. Discussion
 

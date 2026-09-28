@@ -16,10 +16,13 @@ GAPS = {'api.crossref.org': 0.6, 'api.openalex.org': 0.6, 'export.arxiv.org': 9.
 def _save_cache():
     json.dump(_cache, open(CACHE_PATH, 'w'))
 
+_blocked_until = {}   # host -> epoch seconds until which we skip the host (429 with Retry-After / exhausted budget)
+
 def http(url, headers=None, kind='json', max_tries=3, timeout=25):
     key = url
     if key in _cache: return _cache[key]
     host = urllib.parse.urlparse(url).netloc
+    if _blocked_until.get(host, 0) > time.time(): return None      # do not cache: retry after the block expires
     wait = 3
     for attempt in range(max_tries):
         gap = GAPS.get(host, 0.5) - (time.time() - _last.get(host, 0))
@@ -39,7 +42,14 @@ def http(url, headers=None, kind='json', max_tries=3, timeout=25):
         except urllib.error.HTTPError as e:
             _last[host] = time.time()
             if e.code == 404: _cache[key] = None; return None
-            if e.code in (429, 500, 502, 503, 504): time.sleep(wait); wait = min(wait * 2, 20); continue
+            if e.code == 429:
+                ra = e.headers.get('Retry-After') if e.headers else None
+                try: ra = int(ra) if ra else None
+                except ValueError: ra = None
+                if ra and ra > 30:
+                    _blocked_until[host] = time.time() + min(ra, 6 * 3600); return None   # budget exhausted: skip host, uncached
+                time.sleep(wait); wait = min(wait * 2, 20); continue
+            if e.code in (500, 502, 503, 504): time.sleep(wait); wait = min(wait * 2, 20); continue
             _cache[key] = None; return None
         except Exception:
             _last[host] = time.time(); time.sleep(wait); wait *= 2

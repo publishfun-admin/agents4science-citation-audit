@@ -1,0 +1,852 @@
+{
+ "pdf": "139_88zyE3fJzQ.pdf",
+ "n_entries": 21,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 2,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "References [1] Gene M. Amdahl. Validity of the single processor approach to achieving large scale computing capabilities. In AFIPS Spring Joint Computer Conference, pages 483\u2013485. ACM, 1967.",
+   "title": "Validity of the single processor approach to achieving large scale computing capabilities",
+   "authors": [
+    "References [1] Gene M. Amdahl."
+   ],
+   "year": 1967,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "AFIPS Spring Joint Computer Conference",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/1465482.1465560",
+    "title": "Validity of the single processor approach to achieving large scale computing capabilities",
+    "year": 1967,
+    "first_author": "Amdahl",
+    "container": "Proceedings of the April 18-20, 1967, spring joint computer conference on - AFIPS '67 (Spring)",
+    "type": "proceedings-article",
+    "score": 79.73588
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2] Apple Inc. Apple silicon: Technical overview. Apple Developer Documentation, 2020.",
+   "title": "Apple silicon: Technical overview",
+   "authors": [
+    "Inc"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.5040/9798400613692.ch-008",
+      "title": "Apple Leadership",
+      "year": 2008,
+      "first_author": null,
+      "container": "Apple Inc.",
+      "type": "other",
+      "score": 24.261765
+     },
+     "metrics": {
+      "title_sim": 50.0,
+      "containment": 0.5,
+      "partial_ratio": 56.25,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3] Amir H. Ashouri, William Killian, John Cavazos, Gianluca Palermo, and Cristina Silvano. A survey on compiler autotuning using machine learning. ACM Computing Surveys, 51(5):1\u201342, 2018.",
+   "title": "A survey on compiler autotuning using machine learning",
+   "authors": [
+    "Ashouri",
+    "Killian",
+    "Cavazos",
+    "Palermo",
+    "Silvano"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "ACM Computing Surveys",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3197978",
+    "title": "A Survey on Compiler Autotuning using Machine Learning",
+    "year": 2019,
+    "first_author": "Ashouri",
+    "container": "ACM Computing Surveys",
+    "type": "journal-article",
+    "score": 53.954514
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4] Fabian Beck, Michael Burch, Stephan Diehl, and Daniel Weiskopf. A taxonomy and survey of dynamic graph visualization. Computer Graphics Forum, 36(1):133\u2013159, 2017.",
+   "title": "A taxonomy and survey of dynamic graph visualization",
+   "authors": [
+    "Beck",
+    "Burch",
+    "Diehl",
+    "Weiskopf"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Computer Graphics Forum",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1111/cgf.12791",
+    "title": "A Taxonomy and Survey of Dynamic Graph Visualization",
+    "year": 2017,
+    "first_author": "Beck",
+    "container": "Computer Graphics Forum",
+    "type": "journal-article",
+    "score": 44.043335
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5] Ayd\u0131n Bulu\u00e7, Henning Meyerhenke, Ilya Safro, Peter Sanders, and Christian Schulz. Recent advances in graph partitioning. In Algorithm Engineering, volume 9220, pages 117\u2013158. Springer, 2016.",
+   "title": "Recent advances in graph partitioning",
+   "authors": [
+    "Bulu\u00e7",
+    "Meyerhenke",
+    "Safro",
+    "Sanders",
+    "Schulz"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Algorithm Engineering",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/978-3-319-49487-6_4",
+    "title": "Recent Advances in Graph Partitioning",
+    "year": 2016,
+    "first_author": "Bulu\u00e7",
+    "container": "Lecture Notes in Computer Science",
+    "type": "book-chapter",
+    "score": 43.785686
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[6] Chris Cummins, Pavlos Petoumenos, Zheng Wang, and Hugh Leather. End-to-end deep learning of optimization heuristics. In PMLR: Proceedings of the 26th International Joint Conference on Artificial Intelligence (IJCAI\u201917), 2017. arXiv:1707.01207.",
+   "title": "End-to-end deep learning of optimization heuristics",
+   "authors": [
+    "Cummins",
+    "Petoumenos",
+    "Wang",
+    "Leather"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": "1707.01207",
+   "urls": [],
+   "container": "PMLR: Proceedings of the 26th International Joint Conference on Artificial Intelligence (IJCAI\u201917",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/pact.2017.24",
+    "title": "End-to-End Deep Learning of Optimization Heuristics",
+    "year": 2017,
+    "first_author": "Cummins",
+    "container": "2017 26th International Conference on Parallel Architectures and Compilation Techniques (PACT)",
+    "type": "proceedings-article",
+    "score": 57.41541
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_resolves_title_mismatch",
+     "rec": {
+      "source": "arxiv",
+      "arxiv": "1707.01207",
+      "title": "The Sup-norm Perturbation of HOSVD and Low Rank Tensor Denoising",
+      "year": 2017,
+      "first_author": "Dong Xia"
+     },
+     "metrics": {
+      "title_sim": 45.04504504504504,
+      "containment": 0.0,
+      "partial_ratio": 43.75,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[7] Jack Dongarra, Pete Beckman, et al. The international exascale software project roadmap. International Journal of High Performance Computing Applications, 25(1):3\u201360, 2011.",
+   "title": "The international exascale software project roadmap",
+   "authors": [
+    "Dongarra",
+    "Beckman"
+   ],
+   "year": 2011,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Journal of High Performance Computing Applications",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/fose.2007.23",
+      "title": "Software project economics: a roadmap",
+      "year": 2007,
+      "first_author": "Shepperd",
+      "container": "Future of Software Engineering (FOSE '07)",
+      "type": "proceedings-article",
+      "score": 27.957148
+     },
+     "metrics": {
+      "title_sim": 80.0,
+      "containment": 0.75,
+      "partial_ratio": 66.66666666666667,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[8] Bradley Efron. Bootstrap methods: Another look at the jackknife. Annals of Statistics, 7(1):1\u201326, 1979.",
+   "title": "Bootstrap methods: Another look at the jackknife",
+   "authors": [
+    "Efron"
+   ],
+   "year": 1979,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Annals of Statistics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1214/aos/1176344552",
+    "title": "Bootstrap Methods: Another Look at the Jackknife",
+    "year": 1979,
+    "first_author": "Efron",
+    "container": "The Annals of Statistics",
+    "type": "journal-article",
+    "score": 68.21111
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[9] Markus Eiglsperger, Martin Siebenhaller, and Michael Kaufmann. An efficient implementation of sugiyama\u2019s algorithm for layered graph drawing. Journal of Graph Algorithms and Applications, 9(3):305\u2013325, 2005.",
+   "title": "An efficient implementation of sugiyama\u2019s algorithm for layered graph drawing",
+   "authors": [
+    "Eiglsperger",
+    "Siebenhaller",
+    "Kaufmann"
+   ],
+   "year": 2005,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Graph Algorithms and Applications",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/978-3-540-31843-9_17",
+    "title": "An Efficient Implementation of Sugiyama\u2019s Algorithm for Layered Graph Drawing",
+    "year": 2005,
+    "first_author": "Eiglsperger",
+    "container": "Lecture Notes in Computer Science",
+    "type": "book-chapter",
+    "score": 80.26789
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[10] John Ellson, Emden Gansner, Lefteris Koutsofios, Stephen C. North, and Gordon Woodhull. Graphviz\u2014open source graph drawing tools. In Graph Drawing (GD 2001), LNCS 2265, pages 483\u2013484. Springer, 2001.",
+   "title": "Graphviz\u2014open source graph drawing tools",
+   "authors": [
+    "Ellson",
+    "Gansner",
+    "Koutsofios",
+    "North",
+    "Woodhull"
+   ],
+   "year": 2001,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Graph Drawing (GD 2001), LNCS 2265",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/3-540-45848-4_57",
+    "title": "Graphviz\u2014 Open Source Graph Drawing Tools",
+    "year": 2002,
+    "first_author": "Ellson",
+    "container": "Lecture Notes in Computer Science",
+    "type": "book-chapter",
+    "score": 65.686295
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "[11] Emden R. Gansner, Eleftherios Koutsofios, Stephen C. North, and Kiem-Phong Vo. A technique for drawing directed graphs. IEEE Transactions on Software Engineering, 19(3):214\u2013230, 1993.",
+   "title": "A technique for drawing directed graphs",
+   "authors": [
+    "Gansner",
+    "Koutsofios",
+    "North",
+    "Vo"
+   ],
+   "year": 1993,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE Transactions on Software Engineering",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/32.221135",
+    "title": "A technique for drawing directed graphs",
+    "year": 1993,
+    "first_author": "Gansner",
+    "container": "IEEE Transactions on Software Engineering",
+    "type": "journal-article",
+    "score": 49.29091
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "[12] John L. Gustafson. Reevaluating amdahl\u2019s law. Communications of the ACM, 31(5):532\u2013533, 1988.",
+   "title": "Reevaluating amdahl\u2019s law",
+   "authors": [
+    "Gustafson"
+   ],
+   "year": 1988,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Communications of the ACM",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/42411.42415",
+    "title": "Reevaluating Amdahl's law",
+    "year": 1988,
+    "first_author": "Gustafson",
+    "container": "Communications of the ACM",
+    "type": "journal-article",
+    "score": 36.967087
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "[13] Haoqiang Jin, Dennis Jespersen, Piyush Mehrotra, Rupak Biswas, Lei Huang, and Barbara Chapman. High performance computing using mpi and openmp on multi-core parallel systems. Parallel Computing, 37(9):562\u2013575, 2011.",
+   "title": "High performance computing using mpi and openmp on multi-core parallel systems",
+   "authors": [
+    "Jin",
+    "Jespersen",
+    "Mehrotra",
+    "Biswas",
+    "Huang",
+    "Chapman"
+   ],
+   "year": 2011,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Parallel Computing",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.parco.2011.02.002",
+    "title": "High performance computing using MPI and OpenMP on multi-core parallel systems",
+    "year": 2011,
+    "first_author": "Jin",
+    "container": "Parallel Computing",
+    "type": "journal-article",
+    "score": 74.46246
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "[14] LLVM Project. Clang/llvm openmp runtime library. OpenMP Implementation Documentation, 2020.",
+   "title": "Clang/llvm openmp runtime library",
+   "authors": [
+    "Project"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/llvmhpchipar51896.2020.00009",
+      "title": "Extending the LLVM/Clang Framework for OpenMP Metadirective Support",
+      "year": 2020,
+      "first_author": "Mishra",
+      "container": "2020 IEEE/ACM 6th Workshop on the LLVM Compiler Infrastructure in HPC (LLVM-HPC) and Workshop on Hierarchical Parallelism for Exascale Computing (HiPar)",
+      "type": "proceedings-article",
+      "score": 45.031826
+     },
+     "metrics": {
+      "title_sim": 68.0,
+      "containment": 0.429,
+      "partial_ratio": 49.25373134328358,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "[15] Michail Maris and Yinan He. Arm architecture optimizations for high performance computing. In Proceedings of the International Conference on High Performance Computing (ISC 2020). Springer, 2020.",
+   "title": "Arm architecture optimizations for high performance computing",
+   "authors": [
+    "Maris",
+    "He"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the International Conference on High Performance Computing (ISC 2020",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/978-3-319-46079-6_26",
+      "title": "High Performance Optimizations for Nuclear Physics Code MFDn on KNL",
+      "year": 2016,
+      "first_author": "Cook",
+      "container": "Lecture Notes in Computer Science",
+      "type": "book-chapter",
+      "score": 32.863
+     },
+     "metrics": {
+      "title_sim": 71.57894736842105,
+      "containment": 0.375,
+      "partial_ratio": 56.71641791044777,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 16,
+   "raw": "[16] Nicholas Nethercote and Julian Seward. Valgrind: A framework for heavyweight dynamic binary instrumentation. In PLDI 2007: Proceedings of the ACM SIGPLAN Conference on Programming Language Design and Implementation, pages 89\u2013100. ACM, 2007.",
+   "title": "Valgrind: A framework for heavyweight dynamic binary instrumentation",
+   "authors": [
+    "Nethercote",
+    "Seward"
+   ],
+   "year": 2007,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "PLDI 2007: Proceedings of the ACM SIGPLAN Conference on Programming Language Design and Implementation",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/ispa.2008.94",
+      "title": "Parallelisation of the Valgrind Dynamic Binary Instrumentation Framework",
+      "year": 2008,
+      "first_author": "Robson",
+      "container": "2008 IEEE International Symposium on Parallel and Distributed Processing with Applications",
+      "type": "proceedings-article",
+      "score": 43.384415
+     },
+     "metrics": {
+      "title_sim": 84.48275862068965,
+      "containment": 0.833,
+      "partial_ratio": 63.888888888888886,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 17,
+   "raw": "[17] Konstantin Serebryany, Derek Bruening, Alexander Potapenko, and Dmitry Vyukov. Addresssanitizer: A fast address sanity checker. In USENIX ATC 2012, pages 309\u2013318. USENIX Association, 2012.",
+   "title": "Addresssanitizer: A fast address sanity checker",
+   "authors": [
+    "Serebryany",
+    "Bruening",
+    "Potapenko",
+    "Vyukov"
+   ],
+   "year": 2012,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "USENIX ATC 2012",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/978-1-4302-4267-3_9",
+      "title": "A Logic Checker",
+      "year": 2012,
+      "first_author": "Wilcher",
+      "container": "Learn Electronics with Arduino",
+      "type": "book-chapter",
+      "score": 20.475042
+     },
+     "metrics": {
+      "title_sim": 75.0,
+      "containment": 0.5,
+      "partial_ratio": 66.66666666666667,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 18,
+   "raw": "[18] Konstantin Serebryany and Timur Iskhodzhanov. Threadsanitizer: Data race detection in practice. In Proceedings of the Workshop on Binary Instrumentation and Applications (WBIA\u201909), pages 62\u201371. ACM, 2009.",
+   "title": "Threadsanitizer: Data race detection in practice",
+   "authors": [
+    "Serebryany",
+    "Iskhodzhanov"
+   ],
+   "year": 2009,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the Workshop on Binary Instrumentation and Applications (WBIA\u201909",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/1791194.1791203",
+    "title": "ThreadSanitizer",
+    "year": 2009,
+    "first_author": "Serebryany",
+    "container": "Proceedings of the Workshop on Binary Instrumentation and Applications",
+    "type": "proceedings-article",
+    "score": 61.12422
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 19,
+   "raw": "[19] Mark Stephenson, Saman Amarasinghe, Martin Martin, and Una-May O\u2019Reilly. Meta optimization: Improving compiler heuristics with machine learning. In PLDI 2003, pages 77\u201390. ACM, 2003.",
+   "title": "Meta optimization: Improving compiler heuristics with machine learning",
+   "authors": [
+    "Stephenson",
+    "Amarasinghe",
+    "Martin",
+    "O\u2019Reilly"
+   ],
+   "year": 2003,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "PLDI 2003",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/780822.781141",
+    "title": "Meta optimization",
+    "year": 2003,
+    "first_author": "Stephenson",
+    "container": "ACM SIGPLAN Notices",
+    "type": "journal-article",
+    "score": 61.218662
+   },
+   "metrics": {
+    "title_sim": 39.53488372093024,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 20,
+   "raw": "[20] Kozo Sugiyama, Shojiro Tagawa, and Mitsuhiko Toda. Methods for visual understanding of hierarchical system structures. IEEE Transactions on Systems, Man, and Cybernetics, 11(2):109\u2013125, 1981.",
+   "title": "Methods for visual understanding of hierarchical system structures",
+   "authors": [
+    "Sugiyama",
+    "Tagawa",
+    "Toda"
+   ],
+   "year": 1981,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE Transactions on Systems, Man, and Cybernetics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/tsmc.1981.4308636",
+    "title": "Methods for Visual Understanding of Hierarchical System Structures",
+    "year": 1981,
+    "first_author": "Sugiyama",
+    "container": "IEEE Transactions on Systems, Man, and Cybernetics",
+    "type": "journal-article",
+    "score": 46.031
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 21,
+   "raw": "Detailed Performance Distribution: The experimental results demonstrate consistent performance scaling across diverse graph configurations. Small graphs (100 nodes) achieved minimal speedup (1.00\u00d7 to 1.07\u00d7) due to insufficient computational density to overcome parallelization overhead. Medium graphs (500-1000 nodes) showed substantial improvements (1.29\u00d7 to 2.89\u00d7) with optimal thread utilization emerging at 6-8 threads. Large graphs (2000-5000 nodes) achieved peak performance with maximum speedup of 3.78\u00d7 at 8 threads for 2000-node configurations, while 5000-node",
+   "title": "The experimental results demonstrate consistent performance scaling across diverse graph configurations. Small graphs (100 nodes) achieved minimal speedup (1.00\u00d7 to 1.07\u00d7) due to insufficient computational density to overcome parallelization overhead. Medium graphs (500-1000 nodes) showed substantial improvements (1.29\u00d7 to 2.89\u00d7) with optimal thread utilization emerging at 6-8 threads",
+   "authors": [
+    "Distribution"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.7554/elife.27756.013",
+      "title": "Figure 4. Temporally sequenced cholinergic and dopaminergic modulation of STDP yields effective navigation toward changing reward locations.",
+      "year": 2017,
+      "first_author": null,
+      "container": "",
+      "type": "component",
+      "score": 16.4901
+     },
+     "metrics": {
+      "title_sim": 34.95145631067961,
+      "containment": 0.0,
+      "partial_ratio": 42.18181818181819,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  }
+ ]
+}

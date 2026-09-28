@@ -1,0 +1,765 @@
+{
+ "pdf": "133_7bPKcF3dTG.pdf",
+ "n_entries": 19,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 2,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "References [1] AI Multiple Research Team. Ai hallucination: Comparison of the popular llms. AI Multiple, 2024.",
+   "title": "References [1] AI Multiple Research Team. Ai hallucination: Comparison of the popular llms",
+   "authors": [],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "AI Multiple",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.18421/tem134-02",
+      "title": "Research Result Differences Between Manual Research and Using AI LLMs for Analyzing Popular 3D File Formats",
+      "year": 2024,
+      "first_author": "Kozov",
+      "container": "TEM Journal",
+      "type": "journal-article",
+      "score": 36.54577
+     },
+     "metrics": {
+      "title_sim": 58.56353591160221,
+      "containment": 0.364,
+      "partial_ratio": 52.35602094240838,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2] Anthropic AI Safety Team. Core views on ai safety: When, why, what, and how. Anthropic Publications, 2024.",
+   "title": "Core views on ai safety: When, why, what, and how",
+   "authors": [
+    "Team"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.4135/9781452220697.n12",
+      "title": "How to Evaluate the Team",
+      "year": 2000,
+      "first_author": null,
+      "container": "Team Teaching: What, Why, and How?",
+      "type": "book-chapter",
+      "score": 35.74414
+     },
+     "metrics": {
+      "title_sim": 43.47826086956522,
+      "containment": 0.667,
+      "partial_ratio": 50.0,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3] Anthropic AI Safety Team. Recommendations for technical ai safety research directions. Anthropic Publications, 2025.",
+   "title": "Recommendations for technical ai safety research directions",
+   "authors": [
+    "Team"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.59350/xyd3t-p5a95",
+      "title": "Ensuring drug safety using AI models for adverse drug reaction prediction",
+      "year": 2025,
+      "first_author": null,
+      "container": "",
+      "type": "posted-content",
+      "score": 26.260433
+     },
+     "metrics": {
+      "title_sim": 56.69291338582677,
+      "containment": 0.125,
+      "partial_ratio": 47.945205479452056,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4] Yoshua Bengio et al. International scientific report on the safety of advanced ai: Interim report. Government Office for Science, 2025.",
+   "title": "International scientific report on the safety of advanced ai: Interim report",
+   "authors": [
+    "Bengio"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.70777/si.v2i2.14755",
+    "title": "The First International AI Safety Report",
+    "year": 2025,
+    "first_author": "Bengio",
+    "container": "SuperIntelligence - Robotics - Safety &amp; Alignment",
+    "type": "journal-article",
+    "score": 59.276363
+   },
+   "metrics": {
+    "title_sim": 91.89189189189189,
+    "containment": 0.75,
+    "partial_ratio": 67.5,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5] Li Chen, David Wang, and Sofia Martinez. Ai and research integrity: Current challenges and future directions. Stanford Human-Centered AI Institute, 2024.",
+   "title": "Ai and research integrity: Current challenges and future directions",
+   "authors": [
+    "Chen",
+    "Wang",
+    "Martinez"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1145/3718391.3718408",
+      "title": "Explainable AI: Applications, Challenges, Current Solutions and Future Research Directions",
+      "year": 2024,
+      "first_author": "Butt",
+      "container": "Proceedings of the 2024 the 12th International Conference on Information Technology (ICIT)",
+      "type": "proceedings-article",
+      "score": 36.965115
+     },
+     "metrics": {
+      "title_sim": 91.2280701754386,
+      "containment": 0.625,
+      "partial_ratio": 57.47126436781609,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[6] Enago Academy. Scientific misconduct and data manipulation with ai. Enago Academy Publications, 2024.",
+   "title": "Scientific misconduct and data manipulation with ai",
+   "authors": [
+    "Academy"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1016/j.econlet.2024.111668",
+      "title": "ESG performance and firm misconduct: Evidence from R&amp;D manipulation",
+      "year": 2024,
+      "first_author": "Chen",
+      "container": "Economics Letters",
+      "type": "journal-article",
+      "score": 24.745943
+     },
+     "metrics": {
+      "title_sim": 69.23076923076923,
+      "containment": 0.286,
+      "partial_ratio": 58.914728682170534,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[7] Future of Life Institute. Ai safety index 2024: Evaluating leading ai companies. FLI AI Safety Index, 2024.",
+   "title": "Ai safety index 2024: Evaluating leading ai companies",
+   "authors": [
+    "Life Institute"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.51593/20240010",
+      "title": "Acquiring AI Companies: Tracking U.S. AI Mergers and Acquisitions",
+      "year": 2024,
+      "first_author": "Corrigan",
+      "container": "",
+      "type": "report",
+      "score": 35.279713
+     },
+     "metrics": {
+      "title_sim": 53.211009174311926,
+      "containment": 0.2,
+      "partial_ratio": 52.83018867924528,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[8] Mark Henderson and Jessica Liu. Ai can be a powerful tool for scientists. but it can also fuel research misconduct. CSIRO Publishing, 2025.",
+   "title": "Ai can be a powerful tool for scientists. but it can also fuel research misconduct",
+   "authors": [
+    "Henderson",
+    "Liu"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.64628/aa.34xvtgc7w",
+    "title": "AI can be a powerful tool for scientists. But it can also fuel research misconduct",
+    "year": 2025,
+    "first_author": "Whittle",
+    "container": "",
+    "type": "posted-content",
+    "score": 83.10015
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[9] IBM Research Team. The scientific sprint: How ai is rewriting discovery timelines. IBM Think, 2024.",
+   "title": "The scientific sprint: How ai is rewriting discovery timelines",
+   "authors": [
+    "Team"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IBM Think",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.64971/cph.books.pub.14",
+      "title": "The Synthetic Mind: How AI Is Rewriting Intelligence",
+      "year": 2026,
+      "first_author": null,
+      "container": "",
+      "type": "journal",
+      "score": 28.909344
+     },
+     "metrics": {
+      "title_sim": 71.42857142857143,
+      "containment": 0.4,
+      "partial_ratio": 70.58823529411764,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[10] Nimrita Koul et al. An evaluation of sakana\u2019s ai scientist for autonomous research: Wishful thinking or an emerging reality towards \u2019artificial general research intelligence\u2019 (agri)? arXiv preprint arXiv:2502.14297, 2025.",
+   "title": "An evaluation of sakana\u2019s ai scientist for autonomous research: Wishful thinking or an emerging reality towards \u2019artificial general research intelligence",
+   "authors": [
+    "Koul"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": "2502.14297",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id_v1",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2502.14297v1",
+    "title": "An Evaluation of Sakana's AI Scientist for Autonomous Research: Wishful Thinking or an Emerging Reality Towards 'Artificial General Research Intelligence' (AGRI)?",
+    "year": 2025,
+    "first_author": "Joeran Beel"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false,
+    "note": "title matches an earlier arXiv version"
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "[11] Chris Lu, Cong Lu, Robert Tjarko Lange, Jakob Foerster, Jeff Clune, and David Ha. The ai scientist: Towards fully automated open-ended scientific discovery. arXiv preprint arXiv:2408.06292, 2024.",
+   "title": "The ai scientist: Towards fully automated open-ended scientific discovery",
+   "authors": [
+    "Lu",
+    "Lu",
+    "Lange",
+    "Foerster",
+    "Clune",
+    "Ha"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2408.06292",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2408.06292",
+    "title": "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery",
+    "year": 2024,
+    "first_author": "Chris Lu"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "[12] John Miller and Amanda Davis. Ai safety and automation bias. Center for Security and Emerging Technology, 2024.",
+   "title": "Ai safety and automation bias",
+   "authors": [
+    "Miller",
+    "Davis"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.51593/20230057",
+    "title": "AI Safety and Automation Bias",
+    "year": 2024,
+    "first_author": "Kahn",
+    "container": "",
+    "type": "report",
+    "score": 37.212803
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "[13] OpenAI Developer Community. Gpt hallucinating entire research studies, 2024.",
+   "title": "OpenAI Developer Community. Gpt hallucinating entire research studies",
+   "authors": [],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.4884418",
+      "title": "Building a Research Integrity Advisor with OpenAI GPT Builder",
+      "year": 2024,
+      "first_author": "Chan",
+      "container": "",
+      "type": "posted-content",
+      "score": 36.587105
+     },
+     "metrics": {
+      "title_sim": 57.36434108527132,
+      "containment": 0.429,
+      "partial_ratio": 42.42424242424242,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "[14] Mary K. Pratt. 11 famous ai disasters. CIO Magazine, 2024.",
+   "title": "11 famous ai disasters",
+   "authors": [
+    "Pratt"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "CIO Magazine",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1017/cbo9780511617973.005",
+      "title": "Famous disasters",
+      "year": 2006,
+      "first_author": null,
+      "container": "Writing Scientific Software",
+      "type": "book-chapter",
+      "score": 23.32103
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 1.0,
+      "partial_ratio": 81.25,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "[15] Jennifer Smith and Mark Johnson. Detecting research misconduct in the age of artificial intelligence. The Scientist, 2024.",
+   "title": "Detecting research misconduct in the age of artificial intelligence",
+   "authors": [
+    "Smith",
+    "Johnson"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "The Scientist",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.23977/jaip.2024.070208",
+      "title": "Research on Criminal Risks in the Age of Artificial Intelligence",
+      "year": 2024,
+      "first_author": null,
+      "container": "Journal of Artificial Intelligence Practice",
+      "type": "journal-article",
+      "score": 29.773335
+     },
+     "metrics": {
+      "title_sim": 83.63636363636364,
+      "containment": 0.667,
+      "partial_ratio": 78.125,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 16,
+   "raw": "[16] Xiangru Tang, Qiao Jin, Kunlun Zhu, Tongxin Yuan, Yichi Zhang, Wangchunshu Zhou, Meng Qu, Yilun Zhao, Jian Tang, Zhuosheng Zhang, Arman Cohan, Zhiyong Lu, and Mark Gerstein. Risks of ai scientists: Prioritizing safeguarding over autonomy, 2025.",
+   "title": "Risks of ai scientists: Prioritizing safeguarding over autonomy",
+   "authors": [
+    "Tang",
+    "Jin",
+    "Zhu",
+    "Yuan",
+    "Zhang",
+    "Zhou",
+    "Qu",
+    "Zhao",
+    "Tang",
+    "Zhang",
+    "Cohan",
+    "Lu",
+    "Gerstein"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/s41467-025-63913-1",
+    "title": "Risks of AI scientists: prioritizing safeguarding over autonomy",
+    "year": 2025,
+    "first_author": "Tang",
+    "container": "Nature Communications",
+    "type": "journal-article",
+    "score": 56.595375
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 17,
+   "raw": "[17] Sarah Thompson. Ai hallucinations in gpt-4, gemini undermine journalism accuracy. WebProNews, 2024.",
+   "title": "Ai hallucinations in gpt-4, gemini undermine journalism accuracy",
+   "authors": [
+    "Thompson"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1093/europace/euaf085.032",
+      "title": "Evaluation of AI-based ECG analysis accuracy using Chat GPT-4 and Gemini AI models",
+      "year": 2025,
+      "first_author": "Bocz",
+      "container": "Europace",
+      "type": "journal-article",
+      "score": 32.74282
+     },
+     "metrics": {
+      "title_sim": 59.15492957746479,
+      "containment": 0.333,
+      "partial_ratio": 49.27536231884058,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 18,
+   "raw": "[18] Robert Wilson, Katherine Lee, and Michael Brown. Responsible ai in biotechnology: Balancing discovery, innovation and biosecurity risks. PMC Biotechnology Reports, 2025.",
+   "title": "Responsible ai in biotechnology: Balancing discovery, innovation and biosecurity risks",
+   "authors": [
+    "Wilson",
+    "Lee",
+    "Brown"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "PMC Biotechnology Reports",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.3389/fbioe.2025.1537471",
+    "title": "Responsible AI in biotechnology: balancing discovery, innovation and biosecurity risks",
+    "year": 2025,
+    "first_author": "Wheeler",
+    "container": "Frontiers in Bioengineering and Biotechnology",
+    "type": "journal-article",
+    "score": 68.034966
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 19,
+   "raw": "[19] Kunlun Zhu, Jiaxun Zhang, Ziheng Qi, Nuoxing Shang, Zijia Liu, Peixuan Han, Yue Su, Haofei Yu, and Jiaxuan You. Safescientist: Toward risk-aware scientific discoveries by llm agents, 2025.",
+   "title": "Safescientist: Toward risk-aware scientific discoveries by llm agents",
+   "authors": [
+    "Zhu",
+    "Zhang",
+    "Qi",
+    "Shang",
+    "Liu",
+    "Han",
+    "Su",
+    "Yu",
+    "You"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.18653/v1/2025.emnlp-main.116",
+      "title": "SafeScientist: Enhancing AI Scientist Safety for Risk-Aware Scientific Discovery",
+      "year": 2025,
+      "first_author": "Zhu",
+      "container": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+      "type": "proceedings-article",
+      "score": 36.63818
+     },
+     "metrics": {
+      "title_sim": 68.02721088435374,
+      "containment": 0.5,
+      "partial_ratio": 69.62025316455696,
+      "year_ok": true,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": null
+  }
+ ]
+}

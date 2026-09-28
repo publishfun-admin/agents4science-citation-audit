@@ -1,0 +1,528 @@
+{
+ "pdf": "129_8Oydp7dGon.pdf",
+ "n_entries": 14,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 2,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "References [1] Montague, R. (1970). Universal Grammar. Theoria, 36(3), 373\u2013398.",
+   "title": "Universal Grammar",
+   "authors": [
+    "References [1] Montague, R."
+   ],
+   "year": 1970,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Theoria",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1111/j.1755-2567.1970.tb00434.x",
+    "title": "Universal grammar",
+    "year": 1970,
+    "first_author": "MONTAGUE",
+    "container": "Theoria",
+    "type": "journal-article",
+    "score": 41.24543
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2] Grice, H. P. (1975). Logic and conversation. In P. Cole & J. L. Morgan (Eds.), Syntax and Semantics, Vol. 3: Speech Acts (pp. 41\u201358). Academic Press.",
+   "title": "Logic and conversation",
+   "authors": [
+    "Grice"
+   ],
+   "year": 1975,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Syntax and Semantics",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1163/9789004368811_003",
+    "title": "Logic and Conversation",
+    "year": 1975,
+    "first_author": "Grice",
+    "container": "Speech Acts",
+    "type": "book-chapter",
+    "score": 40.935345
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3] Lewis, D. (1969). Convention: A Philosophical Study. Harvard University Press.",
+   "title": "Convention: A Philosophical Study",
+   "authors": [
+    "Lewis"
+   ],
+   "year": 1969,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1002/9780470693711",
+    "title": "Convention",
+    "year": 2002,
+    "first_author": "Lewis",
+    "container": "",
+    "type": "monograph",
+    "score": 33.277542
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4] Parikh, R. (2001). The use of language. In Proceedings of the 38th Annual Meeting of the Association for Computational Linguistics (pp. 11\u201318).",
+   "title": "The use of language",
+   "authors": [
+    "Parikh"
+   ],
+   "year": 2001,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 38th Annual Meeting of the Association for Computational Linguistics",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1017/cbo9780511612886.001",
+      "title": "Language Use as Part of Linguistic Theory",
+      "year": 2001,
+      "first_author": null,
+      "container": "Phonology and Language Use",
+      "type": "book-chapter",
+      "score": 20.82943
+     },
+     "metrics": {
+      "title_sim": 88.23529411764706,
+      "containment": 0.4,
+      "partial_ratio": 51.21951219512195,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5] Abramsky, S., & Coecke, B. (2004). A categorical semantics of quantum protocols. In Proceedings of the 19th Annual IEEE Symposium on Logic in Computer Science (pp. 415\u2013425).",
+   "title": "A categorical semantics of quantum protocols",
+   "authors": [
+    "Abramsky",
+    "Coecke"
+   ],
+   "year": 2004,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 19th Annual IEEE Symposium on Logic in Computer Science",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/lics.2004.1319636",
+    "title": "A categorical semantics of quantum protocols",
+    "year": 2004,
+    "first_author": "Abramsky",
+    "container": "Proceedings of the 19th Annual IEEE Symposium on Logic in Computer Science, 2004.",
+    "type": "proceedings-article",
+    "score": 52.42561
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[6] Lambek, J. (1958). The mathematics of sentence structure. American Mathematical Monthly, 65(3), 154\u2013170.",
+   "title": "The mathematics of sentence structure",
+   "authors": [
+    "Lambek"
+   ],
+   "year": 1958,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "American Mathematical Monthly",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1080/00029890.1958.11989160",
+    "title": "The Mathematics of Sentence Structure",
+    "year": 1958,
+    "first_author": "Lambek",
+    "container": "The American Mathematical Monthly",
+    "type": "journal-article",
+    "score": 43.505756
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[7] van Benthem, J. (2010). Logic in Language. Cambridge University Press.",
+   "title": "Logic in Language",
+   "authors": [
+    "Benthem"
+   ],
+   "year": 2010,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.4324/9780203206966.ch5_7",
+    "title": "Dynamic Logic in Natural Language",
+    "year": 2015,
+    "first_author": "van Benthem",
+    "container": "Routledge Companion to Philosophy of Language",
+    "type": "book-chapter",
+    "score": 30.304771
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.5,
+    "partial_ratio": 60.60606060606061,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[8] Shannon, C. E. (1948). A mathematical theory of communication. Bell System Technical Journal, 27, 379\u2013423, 623\u2013656.",
+   "title": "A mathematical theory of communication",
+   "authors": [
+    "Shannon"
+   ],
+   "year": 1948,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Bell System Technical Journal",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1002/j.1538-7305.1948.tb01338.x",
+    "title": "A Mathematical Theory of Communication",
+    "year": 1948,
+    "first_author": "Shannon",
+    "container": "Bell System Technical Journal",
+    "type": "journal-article",
+    "score": 37.96535
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[9] Zipf, G. K. (1949). Human Behavior and the Principle of Least Effort. Addison-Wesley.",
+   "title": "Human Behavior and the Principle of Least Effort",
+   "authors": [
+    "Zipf"
+   ],
+   "year": 1949,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.2307/2086695",
+    "title": "Human Behavior and the Principle of Least Effort: An Introduction to Human Ecology.",
+    "year": 1949,
+    "first_author": "Hollingshead",
+    "container": "American Sociological Review",
+    "type": "journal-article",
+    "score": 54.633667
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.75,
+    "partial_ratio": 79.38931297709924,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[10] Levy, R., & Jaeger, T. F. (2007). Speakers optimize information density through syntactic reduction. In Advances in Neural Information Processing Systems, 19, 849\u2013856.",
+   "title": "Speakers optimize information density through syntactic reduction",
+   "authors": [
+    "Levy",
+    "Jaeger"
+   ],
+   "year": 2007,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.7551/mitpress/7503.003.0111",
+    "title": "Speakers optimize information density through syntactic reduction",
+    "year": 2007,
+    "first_author": "Levy",
+    "container": "Advances in Neural Information Processing Systems 19",
+    "type": "book-chapter",
+    "score": 64.23306
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "[11] Piantadosi, S. T., Tily, H., & Gibson, E. (2011). Word lengths are optimized for efficient communication. Proceedings of the National Academy of Sciences, 108(9), 3526\u20133529.",
+   "title": "Word lengths are optimized for efficient communication",
+   "authors": [
+    "Piantadosi",
+    "Tily",
+    "Gibson"
+   ],
+   "year": 2011,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the National Academy of Sciences",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1073/pnas.1012551108",
+    "title": "Word lengths are optimized for efficient communication",
+    "year": 2011,
+    "first_author": "Piantadosi",
+    "container": "Proceedings of the National Academy of Sciences",
+    "type": "journal-article",
+    "score": 48.83035
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "[12] Bar-Hillel, Y., & Carnap, R. (1953). Semantic information. The British Journal for the Philosophy of Science, 4(14), 147\u2013157.",
+   "title": "Semantic information",
+   "authors": [
+    "Bar-Hillel",
+    "Carnap"
+   ],
+   "year": 1953,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "The British Journal for the Philosophy of Science",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1093/bjps/iv.14.147",
+    "title": "SEMANTIC INFORMATION",
+    "year": 1953,
+    "first_author": "BAR-HILLEL",
+    "container": "The British Journal for the Philosophy of Science",
+    "type": "journal-article",
+    "score": 38.937954
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "[13] Feldman, N. H. (2020). Minimal description length and the information-theoretic foundations of cognitive science. Current Directions in Psychological Science, 29(2), 108\u2013114.",
+   "title": "Minimal description length and the information-theoretic foundations of cognitive science",
+   "authors": [
+    "Feldman"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Current Directions in Psychological Science",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.18653/v1/2020.emnlp-main.14",
+      "title": "Information-Theoretic Probing with Minimum Description Length",
+      "year": 2020,
+      "first_author": "Voita",
+      "container": "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+      "type": "proceedings-article",
+      "score": 33.31555
+     },
+     "metrics": {
+      "title_sim": 79.20792079207921,
+      "containment": 0.667,
+      "partial_ratio": 61.68224299065421,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "[14] Goodman, N. D., & Frank, M. C. (2016). Pragmatic language interpretation as probabilistic inference. Trends in Cognitive Sciences, 20(11), 818\u2013829.",
+   "title": "Pragmatic language interpretation as probabilistic inference",
+   "authors": [
+    "Goodman",
+    "Frank"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Trends in Cognitive Sciences",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.tics.2016.08.005",
+    "title": "Pragmatic Language Interpretation as Probabilistic Inference",
+    "year": 2016,
+    "first_author": "Goodman",
+    "container": "Trends in Cognitive Sciences",
+    "type": "journal-article",
+    "score": 50.687405
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  }
+ ]
+}

@@ -47,6 +47,28 @@ def parse_pdf(pdf):
         try: recs = json.loads(j.stdout)
         except Exception: recs = []
         raws = [l for l in r.stdout.split('\n') if l.strip()] if r.returncode == 0 else []
+    # marker-guided path: bracket-numbered lists where the finder dropped entries
+    try:
+        lines = text.split('\n')
+        ridx = [i for i, l in enumerate(lines) if REFHEAD_RX.match(l)]
+        if ridx:
+            sec = lines[ridx[-1] + 1:]
+            starts = [i for i, l in enumerate(sec) if re.match(r'^\s*\[\d{1,3}\]', l)]
+            if len(starts) >= 3 and len(recs) < 0.9 * len(starts):
+                entries_raw = []
+                for a, b in zip(starts, starts[1:] + [len(sec)]):
+                    chunk = ' '.join(x.strip() for x in sec[a:b] if x.strip())
+                    chunk = re.sub(r'^\[\d{1,3}\]\s*', '', chunk)
+                    if len(chunk) > 15: entries_raw.append(chunk)
+                import tempfile as _tf
+                with _tf.NamedTemporaryFile('w', suffix='.txt', delete=False) as tf2:
+                    tf2.write('\n'.join(entries_raw)); tmp2 = tf2.name
+                pj = _run(['-f', 'json', 'parse', tmp2])
+                recs2 = json.loads(pj.stdout) if pj.returncode == 0 and pj.stdout.strip() else []
+                if len(recs2) == len(entries_raw) and len(recs2) > len(recs):
+                    recs, raws, fallback = recs2, entries_raw, 'marker-guided'
+    except Exception:
+        pass
     if not recs:
         # fallback: heuristic segmentation, then anystyle `parse` on the raw strings
         from refs_extract import extract as _hx
@@ -87,7 +109,7 @@ def parse_pdf(pdf):
             'idx': i + 1, 'raw': raw or blob, 'title': _first(rec.get('title')),
             'authors': authors, 'year': int(ym.group(0)) if ym else None, 'doi': doi, 'arxiv': arx,
             'urls': urls, 'container': _first(rec.get('container-title')) or _first(rec.get('journal')),
-            'type': _first(rec.get('type')), 'parser': 'anystyle-parse' if fallback else 'anystyle-find',
+            'type': _first(rec.get('type')), 'parser': ('anystyle-marker-guided' if fallback == 'marker-guided' else ('anystyle-parse' if fallback else 'anystyle-find')),
         })
     return {'pdf': pdf, 'n_entries': len(entries), 'entries': entries, 'fallback': fallback, 'linenumbers_stripped': stripped, 'parser_version': 2}
 
