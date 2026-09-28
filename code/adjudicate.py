@@ -111,6 +111,16 @@ if __name__ == '__main__':
         with open(DEC, 'w', newline='') as f:
             w = csv.DictWriter(f, fieldnames=FIELDS); w.writeheader(); w.writerows(rows)
         print(f"updated {n} decisions")
+    elif cmd == 'second_queue':
+        # NOT_FOUND decisions still marked "[2nd search pending]": print an alternative (author + distinctive words) query
+        import unidecode
+        N = int(sys.argv[2]) if len(sys.argv) > 2 else 20
+        rows = [r for r in csv.DictReader(open(DEC)) if r['category'] == 'NOT_FOUND' and '[2nd search pending]' in (r['note'] or '')]
+        print(f"second-search pending: {len(rows)}")
+        STOP = set('the a an of and in on for to with by from at as is are be via its into over under toward towards using based approach study analysis learning model models system systems method methods data deep neural network networks'.split())
+        for r in rows[:N]:
+            words = [w for w in re.findall(r'[A-Za-z][A-Za-z-]{3,}', unidecode.unidecode(r['title'] or '')) if w.lower() not in STOP][:5]
+            print(f"[{r['number']}:{r['idx']}] {r['first_author']} {r['year']} | {r['title']!r:80.80} | Q2: {r['first_author'] or ''} {' '.join(words)}")
     elif cmd == 'status':
         its = pending(); done = load_decisions()
         print(f"pending: {len(its)} | decided: {len(done)}")

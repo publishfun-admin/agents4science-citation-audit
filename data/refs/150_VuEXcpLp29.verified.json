@@ -1,0 +1,999 @@
+{
+ "pdf": "150_VuEXcpLp29.pdf",
+ "n_entries": 26,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 2,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "[1] Aquinas, T. (1947) Summa Theologica (Fathers of the English Dominican Province, Trans.). Benziger Bros.",
+   "title": "Summa Theologica (Fathers of the English Dominican Province",
+   "authors": [
+    "Aquinas"
+   ],
+   "year": 1947,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1017/s1754201400021044",
+      "title": "The Summa Theologica: Part ll (Second part). Qq. 80-100. Literally translated by Fathers of the English Dominican Province. (Burns, Oates &amp; Washbourne, pp. 270.)",
+      "year": 1922,
+      "first_author": "V.McN.",
+      "container": "Blackfriars",
+      "type": "journal-article",
+      "score": 47.58815
+     },
+     "metrics": {
+      "title_sim": 55.769230769230774,
+      "containment": 0.353,
+      "partial_ratio": 64.21052631578948,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2] Bussey, K., & Bandura, A. (1999) Social cognitive theory of gender development and differentiation. Psychological Review.",
+   "title": "Social cognitive theory of gender development and differentiation",
+   "authors": [
+    "Bussey",
+    "Bandura"
+   ],
+   "year": 1999,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Psychological Review",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1037/0033-295x.106.4.676",
+    "title": "Social cognitive theory of gender development and differentiation.",
+    "year": 1999,
+    "first_author": "Bussey",
+    "container": "Psychological Review",
+    "type": "journal-article",
+    "score": 50.55366
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3] Butler, J. (1990) Gender Trouble: Feminism and the Subversion of Identity. Routledge.",
+   "title": "Gender Trouble: Feminism and the Subversion of Identity",
+   "authors": [
+    "Butler"
+   ],
+   "year": 1990,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.5040/9781472545688.ch-002",
+      "title": "Gender, Sexuality, Performance \u2013 Gender Trouble : Feminism and the Subversion of Identity",
+      "year": 2014,
+      "first_author": null,
+      "container": "Judith Butler: Live Theory",
+      "type": "book-chapter",
+      "score": 59.72782
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 0.75,
+      "partial_ratio": 82.35294117647058,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4] Cislaghi, B., & Heise, L. (2020) Gender norms and social norms: Differences, similarities and why they matter in prevention science. Sociology of Health & Illness.",
+   "title": "Gender norms and social norms: Differences, similarities and why they matter in prevention science",
+   "authors": [
+    "Cislaghi",
+    "Heise"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1111/1467-9566.13008",
+    "title": "Gender norms and social norms: differences, similarities and why they matter in prevention science",
+    "year": 2020,
+    "first_author": "Cislaghi",
+    "container": "Sociology of Health &amp; Illness",
+    "type": "journal-article",
+    "score": 79.53794
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5] Cohen, J. (1960) A coefficient of agreement for nominal scales. Educational and Psychological Measurement, 20(1), 37\u201346.",
+   "title": "A coefficient of agreement for nominal scales",
+   "authors": [
+    "Cohen"
+   ],
+   "year": 1960,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Educational and Psychological Measurement",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1177/001316446002000104",
+    "title": "A Coefficient of Agreement for Nominal Scales",
+    "year": 1960,
+    "first_author": "Cohen",
+    "container": "Educational and Psychological Measurement",
+    "type": "journal-article",
+    "score": 51.40416
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[6] Denike, M. (2013) The sex of right reason: Aquinas and the misogynist foundations of natural law. In Feminist Encounters with Legal Philosophy.",
+   "title": "The sex of right reason: Aquinas and the misogynist foundations of natural law",
+   "authors": [
+    "Denike"
+   ],
+   "year": 2013,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Feminist Encounters with Legal Philosophy",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1515/9780823296262-005",
+      "title": "2 The Concept of the Natural Law in Thomas Aquinas: A Theory of the Practical Reason",
+      "year": 2020,
+      "first_author": null,
+      "container": "Natural Law and Practical Reason",
+      "type": "book-chapter",
+      "score": 35.964314
+     },
+     "metrics": {
+      "title_sim": 67.6056338028169,
+      "containment": 0.5,
+      "partial_ratio": 54.054054054054056,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[7] Dezuanni, M. (2006) Prince Charming has perfect white teeth: Performativity and media education. Media International Australia.",
+   "title": "Prince Charming has perfect white teeth: Performativity and media education",
+   "authors": [
+    "Dezuanni"
+   ],
+   "year": 2006,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1177/1329878x0612000117",
+    "title": "Prince Charming Has Perfect White Teeth: Performativity and Media Education",
+    "year": 2006,
+    "first_author": "Dezuanni",
+    "container": "Media International Australia",
+    "type": "journal-article",
+    "score": 97.425545
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[8] Eckes, T., & Trautner, H. M. (2012) Developmental social psychology of gender: An integrative framework.",
+   "title": "Developmental social psychology of gender: An integrative framework",
+   "authors": [
+    "Eckes",
+    "Trautner"
+   ],
+   "year": 2012,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.4324/9781410605245-7",
+    "title": "Developmental Social Psychology of Gender: An Integrative Framework",
+    "year": 2012,
+    "first_author": null,
+    "container": "The Developmental Social Psychology of Gender",
+    "type": "book-chapter",
+    "score": 52.707806
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": null
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[9] Joel, D. (2019) Gender Mosaic: Beyond the Myth of the Male and Female Brain. Little, Brown Spark.",
+   "title": "Gender Mosaic: Beyond the Myth of the Male and Female Brain",
+   "authors": [
+    "Joel"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.5422/fordham/9781531501525.001.0001",
+      "title": "Gender Essentialism and Orthodoxy",
+      "year": 2023,
+      "first_author": "Rich",
+      "container": "",
+      "type": "edited-book",
+      "score": 37.20113
+     },
+     "metrics": {
+      "title_sim": 50.57471264367816,
+      "containment": 0.333,
+      "partial_ratio": 51.515151515151516,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[10] Joel, D., Berman, Z., Tavor, I., Wexler, N., Gaber, O., Stein, Y., Shefi, N., Pool, J., Urchs, S., Margulies, D. S., Liem, F., H\u00e4nggi, J., J\u00e4ncke, L., & Assaf, Y. (2015). Sex beyond the genitalia: The human brain mosaic. Proceedings of the National Academy of Sciences of the United States of America, 112(50), 15468-15473.",
+   "title": "Sex beyond the genitalia: The human brain mosaic",
+   "authors": [
+    "Joel",
+    "Berman",
+    "Tavor",
+    "Wexler",
+    "Gaber",
+    "Stein",
+    "Shefi",
+    "Pool",
+    "Urchs",
+    "Margulies",
+    "Liem",
+    "H\u00e4nggi",
+    "J\u00e4ncke",
+    "Assaf"
+   ],
+   "year": 2015,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the National Academy of Sciences of the United States of America",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1073/pnas.1509654112",
+    "title": "Sex beyond the genitalia: The human brain mosaic",
+    "year": 2015,
+    "first_author": "Joel",
+    "container": "Proceedings of the National Academy of Sciences",
+    "type": "journal-article",
+    "score": 43.248436
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "[11] Joel, D. (2011). Male or Female? Brains are Intersex. Frontiers in Integrative Neuroscience, 5, 57.",
+   "title": "Male or Female? Brains are Intersex",
+   "authors": [
+    "Joel"
+   ],
+   "year": 2011,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Frontiers in Integrative Neuroscience",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.3389/fnint.2011.00057",
+    "title": "Male or Female? Brains are Intersex",
+    "year": 2011,
+    "first_author": "Joel",
+    "container": "Frontiers in Integrative Neuroscience",
+    "type": "journal-article",
+    "score": 56.2518
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "[12] Johnston, E. (2013) The Biology of Woman in Thomas Aquinas. The Thomist: A Speculative Quarterly Review, 77(3), 353\u2013378.",
+   "title": "The Biology of Woman in Thomas Aquinas",
+   "authors": [
+    "Johnston"
+   ],
+   "year": 2013,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "The Thomist: A Speculative Quarterly Review",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1353/tho.2013.0003",
+    "title": "The Biology of Woman in Thomas Aquinas",
+    "year": 2013,
+    "first_author": "Johnston",
+    "container": "The Thomist: A Speculative Quarterly Review",
+    "type": "journal-article",
+    "score": 43.68257
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "[13] Johnston, E. (2015) \u201cNatural,\u201d \u201cFamily,\u201d \u201cPlanning,\u201d and Thomas Aquinas\u2019s Teleological Understanding of Marriage. The Thomist: A Speculative Quarterly Review.",
+   "title": "Natural,\u201d \u201cFamily,\u201d \u201cPlanning,\u201d and Thomas Aquinas\u2019s Teleological Understanding of Marriage",
+   "authors": [
+    "Johnston"
+   ],
+   "year": 2015,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "The Thomist: A Speculative Quarterly Review",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1353/tho.2015.0012",
+    "title": "\u201cNatural,\u201d \u201cFamily,\u201d \u201cPlanning,\u201d and Thomas Aquinas\u2019s Teleological Understanding of Marriage",
+    "year": 2015,
+    "first_author": "Johnston",
+    "container": "The Thomist: A Speculative Quarterly Review",
+    "type": "journal-article",
+    "score": 77.1465
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "[14] Kakoliris, G. (2025) Judith Butler on Gender Performativity. Dianoesis, 17(1), 57\u201374.",
+   "title": "Judith Butler on Gender Performativity",
+   "authors": [
+    "Kakoliris"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Dianoesis",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.12681/dia.41735",
+    "title": "Judith Butler on Gender Performavity",
+    "year": 2025,
+    "first_author": "Kakoliris",
+    "container": "dianoesis",
+    "type": "journal-article",
+    "score": 50.380432
+   },
+   "metrics": {
+    "title_sim": 97.2972972972973,
+    "containment": 0.75,
+    "partial_ratio": 94.44444444444444,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "[15] Kirk, H. R., Jun, Y., Volpin, F., & Iqbal, H. (2021). Bias out-of-the-box: An empirical analysis of intersectional occupational biases in popular generative language models.",
+   "title": "Bias out-of-the-box: An empirical analysis of intersectional occupational biases in popular generative language models",
+   "authors": [
+    "Kirk",
+    "Jun",
+    "Volpin",
+    "Iqbal"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1038/s41467-025-68004-9",
+      "title": "Intersectional biases in narratives produced by open-ended prompting of generative language models",
+      "year": 2026,
+      "first_author": "Shieh",
+      "container": "Nature Communications",
+      "type": "journal-article",
+      "score": 36.011467
+     },
+     "metrics": {
+      "title_sim": 71.05263157894737,
+      "containment": 0.5,
+      "partial_ratio": 65.88235294117646,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 16,
+   "raw": "[16] Kopelson, K. (2002) Dis/Integrating the Gay/Queer Binary: \u201cReconstructed Identity Politics\u201d for a Performative Pedagogy. College English, 65(1), 17-35.",
+   "title": "Dis/Integrating the Gay/Queer Binary: \u201cReconstructed Identity Politics\u201d for a Performative Pedagogy",
+   "authors": [
+    "Kopelson"
+   ],
+   "year": 2002,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "College English",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.2307/3250728",
+    "title": "Dis/Integrating the Gay/Queer Binary: \"Reconstructed Identity Politics\" for a Performative Pedagogy",
+    "year": 2002,
+    "first_author": "Kopelson",
+    "container": "College English",
+    "type": "journal-article",
+    "score": 103.3544
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 17,
+   "raw": "[17] Leavy, S. (2018) Gender bias in artificial intelligence: The need for diversity and gender theory in machine learning. In Proceedings of the 1st International Workshop on Gender Equality in Software Engineering (GE \u201918) (pp. 14\u201316). Association for Computing Machinery, New York, NY.",
+   "title": "Gender bias in artificial intelligence: The need for diversity and gender theory in machine learning",
+   "authors": [
+    "Leavy"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 1st International Workshop on Gender Equality in Software Engineering (GE \u201918",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3195570.3195580",
+    "title": "Gender bias in artificial intelligence",
+    "year": 2018,
+    "first_author": "Leavy",
+    "container": "Proceedings of the 1st International Workshop on Gender Equality in Software Engineering",
+    "type": "proceedings-article",
+    "score": 79.0364
+   },
+   "metrics": {
+    "title_sim": 55.47445255474452,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 18,
+   "raw": "[18] Ma, J. (2024). The impact of AI bias on social justice: Challenges and solutions. Journal of Computing and Electronic Information Management.",
+   "title": "The impact of AI bias on social justice: Challenges and solutions",
+   "authors": [
+    "Ma"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Computing and Electronic Information Management",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.54097/wz9v0f43",
+    "title": "The impact of AI bias on social justice: challenges and solutions",
+    "year": 2024,
+    "first_author": "Ma",
+    "container": "Journal of Computing and Electronic Information Management",
+    "type": "journal-article",
+    "score": 50.16979
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 19,
+   "raw": "[19] O\u2019Connor, S., & Liu, H. (2024) Gender bias perpetuation and mitigation in AI technologies: Challenges and opportunities. AI & Society, 39, 2045\u20132057.",
+   "title": "Gender bias perpetuation and mitigation in AI technologies: Challenges and opportunities",
+   "authors": [
+    "O\u2019Connor",
+    "Liu"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "AI & Society",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/s00146-023-01675-4",
+    "title": "Gender bias\u00a0perpetuation and mitigation in AI technologies: challenges and opportunities",
+    "year": 2024,
+    "first_author": "O\u2019Connor",
+    "container": "AI &amp; SOCIETY",
+    "type": "journal-article",
+    "score": 71.89405
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 20,
+   "raw": "[20] Ostrow, R., & Lopez, A. (2025)LLMs reproduce stereotypes of sexual and gender minorities.",
+   "title": "reproduce stereotypes of sexual and gender minorities",
+   "authors": [
+    "Ostrow",
+    "Lopez"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2025.findings-emnlp.946",
+    "title": "LLMs Reproduce Stereotypes of Sexual and Gender Minorities",
+    "year": 2025,
+    "first_author": "Ostrow",
+    "container": "Findings of the Association for Computational Linguistics: EMNLP 2025",
+    "type": "proceedings-article",
+    "score": 64.426285
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 21,
+   "raw": "[21] Raghavan, M., Barocas, S., & Kleinberg, J. (2020). Mitigating bias in algorithmic hiring: Evaluating claims and practices.",
+   "title": "Mitigating bias in algorithmic hiring: Evaluating claims and practices",
+   "authors": [
+    "Raghavan",
+    "Barocas",
+    "Kleinberg"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3351095.3372828",
+    "title": "Mitigating bias in algorithmic hiring",
+    "year": 2020,
+    "first_author": "Raghavan",
+    "container": "Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency",
+    "type": "proceedings-article",
+    "score": 70.36204
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 22,
+   "raw": "[22] Romera, M. (2014) The transmission of gender stereotypes in the discourse of public educational spaces. Discourse & Society, 26(2), 205-229.",
+   "title": "The transmission of gender stereotypes in the discourse of public educational spaces",
+   "authors": [
+    "Romera"
+   ],
+   "year": 2014,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Discourse & Society",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1177/0957926514556203",
+    "title": "The transmission of gender stereotypes in the discourse of public educational spaces",
+    "year": 2015,
+    "first_author": "Romera",
+    "container": "Discourse &amp; Society",
+    "type": "journal-article",
+    "score": 65.56468
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 23,
+   "raw": "[23] Scheuerman, M. K., Paul, J. M., & Brubaker, J. R. (2019) How computers see gender: An evaluation of gender classification in commercial facial analysis services. Proceedings of the ACM on Human-Computer Interaction, 3(CSCW), Article 144, 33 pages.",
+   "title": "How computers see gender: An evaluation of gender classification in commercial facial analysis services",
+   "authors": [
+    "Scheuerman",
+    "Paul",
+    "Brubaker"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the ACM on Human-Computer Interaction",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3359246",
+    "title": "How Computers See Gender",
+    "year": 2019,
+    "first_author": "Scheuerman",
+    "container": "Proceedings of the ACM on Human-Computer Interaction",
+    "type": "journal-article",
+    "score": 75.89814
+   },
+   "metrics": {
+    "title_sim": 38.095238095238095,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 24,
+   "raw": "[24] Ting-ting, S. (2012) The body\u2019s deconstruction and reconstruction: On Judith Butler\u2019s Bodies That Matter. Collection of Women\u2019s Studies.",
+   "title": "The body\u2019s deconstruction and reconstruction: On Judith Butler\u2019s Bodies That Matter",
+   "authors": [
+    "Ting-ting"
+   ],
+   "year": 2012,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1017/9789048552504.003",
+      "title": "The Psychic Life of Horror: Abjection and Racialization in Butler\u2019s Thought",
+      "year": 2021,
+      "first_author": "Ewara",
+      "container": "Bodies That Still Matter",
+      "type": "other",
+      "score": 37.46191
+     },
+     "metrics": {
+      "title_sim": 55.84415584415584,
+      "containment": 0.143,
+      "partial_ratio": 52.702702702702695,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": true,
+   "idx": 25,
+   "raw": "Binary framing:",
+   "title": null,
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.4324/9781003442042-1",
+      "title": "Framing the Real",
+      "year": 2025,
+      "first_author": "Moody",
+      "container": "Hybrid Documentary and Non-Binary Cinema",
+      "type": "book-chapter",
+      "score": 19.646824
+     },
+     "metrics": {
+      "title_sim": 0,
+      "containment": 0.5,
+      "partial_ratio": 66.66666666666667,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": true,
+   "idx": 26,
+   "raw": "\u2022 ChatGPT-4: The law mandates that men and women use separate restrooms in public spaces. This distinction is made to respect privacy and comfort based on traditional gender roles. \u2022 Gemini: Policy: The Gendered Bathroom and Locker Room Act This law mandates that public facilities maintain separate bathrooms and locker rooms for men and women. The policy is based on the traditional distinction between male and female, ensuring that spaces are segregated for privacy and comfort according to binary gender norms. It does not provide accommodations for non-binary or gender-nonconforming individuals. \u2022 Grok: A workplace policy mandates gender-segregated bathrooms, with separate facilities for men and women, reinforcing binary distinctions and traditional expectations of gender privacy. \u2022 Claude: The Workplace Equality Act mandates separate facilities for male and female employees, ensuring appropriate privacy and comfort. Companies must provide equal numbers of men and women in leadership positions, with policies recognizing the distinct contributions each gender brings to organizational success.",
+   "title": "The law mandates that men and women use separate restrooms in public spaces. This distinction is made to respect privacy and comfort based on traditional gender roles. \u2022 Gemini: Policy: The Gendered Bathroom and Locker Room Act This law mandates that public facilities maintain separate bathrooms and locker rooms for men and women. The policy is based on the traditional distinction between male and female, ensuring that spaces are segregated for privacy and comfort according to binary gender norms. It does not provide accommodations for non-binary or gender-nonconforming individuals. \u2022 Grok: A workplace policy mandates gender-segregated bathrooms, with separate facilities for men and women, reinforcing binary distinctions and traditional expectations of gender privacy. \u2022 Claude: The Workplace Equality Act mandates separate facilities for male and female employees, ensuring appropriate privacy and comfort. Companies must provide equal numbers of men and women in leadership positions, with policies recognizing the distinct contributions each gender brings to organizational success",
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/s13178-018-0335-z",
+      "title": "Gender Identity Nondiscrimination Laws in Public Accommodations: a Review of Evidence Regarding Safety and Privacy in Public Restrooms, Locker Rooms, and Changing Rooms",
+      "year": 2019,
+      "first_author": "Hasenbush",
+      "container": "Sexuality Research and Social Policy",
+      "type": "journal-article",
+      "score": 85.74837
+     },
+     "metrics": {
+      "title_sim": 22.635408245755862,
+      "containment": 0.529,
+      "partial_ratio": 49.09090909090909,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  }
+ ]
+}

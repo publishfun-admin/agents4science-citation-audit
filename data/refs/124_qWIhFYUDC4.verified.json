@@ -187,7 +187,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -210,7 +210,26 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "crossref_title",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1001/jama.2013.7181",
+    "title": "Practice",
+    "year": 2013,
+    "first_author": "McMahon",
+    "container": "JAMA",
+    "type": "journal-article",
+    "score": 21.029835
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -227,7 +246,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -250,7 +269,26 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "crossref_title",
+   "match": {
+    "source": "crossref",
+    "doi": "10.4324/9781003394082-16",
+    "title": "Transformative Learning through Global Community Engagement",
+    "year": 2024,
+    "first_author": "Hall",
+    "container": "Community-based Transformational Learning in Early Childhood Settings",
+    "type": "book-chapter",
+    "score": 21.649132
+   },
+   "metrics": {
+    "title_sim": 92.6829268292683,
+    "containment": 0.333,
+    "partial_ratio": 46.15384615384615,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -465,7 +503,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -488,7 +526,26 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "crossref_title",
+   "match": {
+    "source": "crossref",
+    "doi": "10.4324/9781351067577-4",
+    "title": "Equity in Education",
+    "year": 2018,
+    "first_author": "Graham",
+    "container": "Social Identity and the Law",
+    "type": "book-chapter",
+    "score": 26.510658
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -571,5 +628,6 @@
    ],
    "likely_match": null
   }
- ]
+ ],
+ "second_pass": true
 }

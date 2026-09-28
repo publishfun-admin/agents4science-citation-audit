@@ -1,0 +1,480 @@
+{
+ "pdf": "132_BVisnzd9q9.pdf",
+ "n_entries": 12,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 2,
+ "entries": [
+  {
+   "junk": true,
+   "idx": 1,
+   "raw": "The LLM examined the following data patterns: 1. Mood, Stress, Productivity: Mood and productivity are higher, and stress lower, on days with more sleep, higher steps, and more social contacts (Days 4 and 7). Conversely, mood and productivity drop when sleep is short, steps are low, and stress rises (Days 2\u20133, 6).",
+   "title": "The LLM examined the following data patterns: 1. Mood, Stress, Productivity: Mood and productivity are higher, and stress lower, on days with more sleep, higher steps, and more social contacts",
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1787/888933732422",
+      "title": "Figure 2-10. Productivity varies widely with participation higher in more productive cities",
+      "year": 2018,
+      "first_author": null,
+      "container": "",
+      "type": "component",
+      "score": 49.97273
+     },
+     "metrics": {
+      "title_sim": 43.956043956043956,
+      "containment": 0.333,
+      "partial_ratio": 52.222222222222214,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": true,
+   "idx": 2,
+   "raw": "2. Activity & Sedentary Time: Days with fewer than 5,000 steps and long sedentary hours (10\u201311 h) correspond to lower mood and productivity.",
+   "title": "Sedentary Time: Days with fewer than 5,000 steps and long sedentary hours (10\u201311 h) correspond to lower mood and productivity",
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1186/s44167-023-00028-2",
+      "title": "How does relative time in moderate-to-vigorous physical activity correspond to the 2020 guidelines on physical activity and sedentary behaviour?",
+      "year": 2023,
+      "first_author": "von Rosen",
+      "container": "Journal of Activity, Sedentary and Sleep Behaviors",
+      "type": "journal-article",
+      "score": 38.946117
+     },
+     "metrics": {
+      "title_sim": 58.26086956521739,
+      "containment": 0.333,
+      "partial_ratio": 45.238095238095234,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": true,
+   "idx": 3,
+   "raw": "3. Sleep: Better days (4 and 7) align with 7.8\u20137.9 hours of sleep. Short sleep (5.9\u20136.2 h) is linked with worse stress and productivity.",
+   "title": "Sleep: Better days (4 and 7) align with 7.8\u20137.9 hours of sleep. Short sleep (5.9\u20136.2 h) is linked with worse stress and productivity",
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1016/j.sleep.2021.10.028",
+      "title": "Poor sleep quality is associated with worse self-rated health in long sleep duration but not short sleep duration",
+      "year": 2021,
+      "first_author": "Andreasson",
+      "container": "Sleep Medicine",
+      "type": "journal-article",
+      "score": 47.007362
+     },
+     "metrics": {
+      "title_sim": 57.59162303664922,
+      "containment": 0.312,
+      "partial_ratio": 47.51381215469613,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": true,
+   "idx": 4,
+   "raw": "4. HRV: HRV is higher (45\u201346 ms) on good days, and lower (34\u201336 ms) on stressful, less active days.",
+   "title": "HRV is higher (45\u201346 ms) on good days, and lower (34\u201336 ms) on stressful, less active days",
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.31234/osf.io/xh3ju_v1",
+      "title": "1000 Days of HRV: A Case Study of Daily Post-Wake-Up Heart Rate Variability for Tracking Stressful Life Events",
+      "year": 2026,
+      "first_author": "Sinichi",
+      "container": "",
+      "type": "posted-content",
+      "score": 38.94636
+     },
+     "metrics": {
+      "title_sim": 48.04469273743017,
+      "containment": 0.2,
+      "partial_ratio": 45.55555555555556,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": true,
+   "idx": 5,
+   "raw": "5. Social Contacts: More interactions (3\u20134 contacts) coincide with better mood and productivity.",
+   "title": "Social Contacts: More interactions (3\u20134 contacts) coincide with better mood and productivity",
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.4135/9781483346397.n206",
+      "title": "Measuring Contacts and Interactions in Social Networks",
+      "year": 2015,
+      "first_author": null,
+      "container": "The SAGE Encyclopedia of Educational Technology",
+      "type": "reference-entry",
+      "score": 33.26764
+     },
+     "metrics": {
+      "title_sim": 74.4186046511628,
+      "containment": 0.6,
+      "partial_ratio": 61.224489795918366,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[1] T. J. Trull and U. W. Ebner-Priemer. Using experience sampling methods/ecological momentary assessment (ESM/EMA) in clinical assessment and clinical research: introduction to the special section. Psychological Assessment, 21:457\u2013462, 12 2009. doi: 10.1037/a0017653.",
+   "title": "Using experience sampling methods/ecological momentary assessment (ESM/EMA) in clinical assessment and clinical research: introduction to the special section",
+   "authors": [
+    "Trull",
+    "Ebner-Priemer"
+   ],
+   "year": 2009,
+   "doi": "10.1037/a0017653",
+   "arxiv": null,
+   "urls": [],
+   "container": "Psychological Assessment",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1037/a0017653",
+    "title": "Using experience sampling methods/ecological momentary assessment (ESM/EMA) in clinical assessment and clinical research: Introduction to the special section.",
+    "year": 2009,
+    "first_author": "Trull",
+    "container": "Psychological Assessment",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[2] S. J. Verhagen, L. Hasmi, M. Drukker, J. van Os, and P. A. Delespaul. Use of the experience sampling method in the context of clinical trials. Evidence-Based Mental Health, 19:86\u201389, 08 2016. doi: 10.1136/ebmental-2016-102418.",
+   "title": "Use of the experience sampling method in the context of clinical trials",
+   "authors": [
+    "Verhagen",
+    "Hasmi",
+    "Drukker",
+    "Os",
+    "Delespaul"
+   ],
+   "year": 2016,
+   "doi": "10.1136/ebmental-2016-102418",
+   "arxiv": null,
+   "urls": [],
+   "container": "Evidence-Based Mental Health",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1136/ebmental-2016-102418",
+    "title": "Use of the experience sampling method in the context of clinical trials",
+    "year": 2016,
+    "first_author": "Verhagen",
+    "container": "Evidence Based Mental Health",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[3] Jessica Fritz, Marilyn Piccirillo, Zachary Cohen, Madelyn Frumkin, Olivia Kirtley, Julia Moeller, Andreas Neubauer, Lesley Norris, No\u00e9mi Schuurman, Evelien Snippe, and Laura Bringmann. So you want to do esm? 10 essential topics for implementing the experiencesampling method. Advances in Methods and Practices in Psychological Science, 7, 09 2024. doi: 10.1177/25152459241267912.",
+   "title": "So you want to do esm? 10 essential topics for implementing the experiencesampling method",
+   "authors": [
+    "Fritz",
+    "Piccirillo",
+    "Cohen",
+    "Frumkin",
+    "Kirtley",
+    "Moeller",
+    "Neubauer",
+    "Norris",
+    "Schuurman",
+    "Snippe",
+    "Bringmann"
+   ],
+   "year": 2024,
+   "doi": "10.1177/25152459241267912",
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Methods and Practices in Psychological Science",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1177/25152459241267912",
+    "title": "So You Want to Do ESM? 10 Essential Topics for Implementing the Experience-Sampling Method",
+    "year": 2024,
+    "first_author": "Fritz",
+    "container": "Advances in Methods and Practices in Psychological Science",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 99.43502824858757,
+    "containment": 0.778,
+    "partial_ratio": 98.87640449438202,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[4] David C. Mohr, Mi Zhang, and Stephen M. Schueller. Personal sensing: understanding mental health using ubiquitous sensors and machine learning. Annual Review of Clinical Psychology, 13: 23\u201347, 05 2017. doi: 10.1146/annurev-clinpsy-032816-044949.",
+   "title": "Personal sensing: understanding mental health using ubiquitous sensors and machine learning",
+   "authors": [
+    "Mohr",
+    "Zhang",
+    "Schueller"
+   ],
+   "year": 2017,
+   "doi": "10.1146/annurev-clinpsy-032816-044949",
+   "arxiv": null,
+   "urls": [],
+   "container": "Annual Review of Clinical Psychology",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1146/annurev-clinpsy-032816-044949",
+    "title": "Personal Sensing: Understanding Mental Health Using Ubiquitous Sensors and Machine Learning",
+    "year": 2017,
+    "first_author": "Mohr",
+    "container": "Annual Review of Clinical Psychology",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[5] S. F. M. Pizzoli, D. Monzani, L. Conti, G. Ferraris, R. Grasso, and G. Pravettoni. Issues and opportunities of digital phenotyping: ecological momentary assessment and behavioral sensing in protecting the young from suicide. Frontiers in Psychology, 14:1103703, 2023. doi: 10.3389/fpsyg.2023.1103703.",
+   "title": "Issues and opportunities of digital phenotyping: ecological momentary assessment and behavioral sensing in protecting the young from suicide",
+   "authors": [
+    "Pizzoli",
+    "Monzani",
+    "Conti",
+    "Ferraris",
+    "Grasso",
+    "Pravettoni"
+   ],
+   "year": 2023,
+   "doi": "10.3389/fpsyg.2023.1103703",
+   "arxiv": null,
+   "urls": [],
+   "container": "Frontiers in Psychology",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.3389/fpsyg.2023.1103703",
+    "title": "Issues and opportunities of digital phenotyping: ecological momentary assessment and behavioral sensing in protecting the young from suicide",
+    "year": 2023,
+    "first_author": "Pizzoli",
+    "container": "Frontiers in Psychology",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "[6] J. C. Torrado, B. S. Husebo, H. G. Allore, A. Erdal, S. E. F\u00e6\u00f8, H. Reithe, et al. Digital phenotyping by wearable-driven artificial intelligence in older adults and people with parkinson\u2019s disease: Protocol of the mixed method, cyclic activeageing study. PLOS ONE, 17:e0275747, 10 2022. doi: 10.1371/journal.pone.0275747.",
+   "title": "Digital phenotyping by wearable-driven artificial intelligence in older adults and people with parkinson\u2019s disease: Protocol of the mixed method, cyclic activeageing study",
+   "authors": [
+    "Torrado",
+    "Husebo",
+    "Allore",
+    "Erdal",
+    "F\u00e6\u00f8",
+    "Reithe"
+   ],
+   "year": 2022,
+   "doi": "10.1371/journal.pone.0275747",
+   "arxiv": null,
+   "urls": [],
+   "container": "PLOS ONE",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1371/journal.pone.0275747",
+    "title": "Digital phenotyping by wearable-driven artificial intelligence in older adults and people with Parkinson\u2019s disease: Protocol of the mixed method, cyclic ActiveAgeing study",
+    "year": 2022,
+    "first_author": "Torrado",
+    "container": "PLOS ONE",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "[7] Kristin E. Heron and Joshua M. Smyth. Ecological momentary interventions: incorporating mobile technology into psychosocial and health behaviour treatments. British Journal of Health Psychology, 15:1\u201339, 02 2010. doi: 10.1348/135910709X466063.",
+   "title": "Ecological momentary interventions: incorporating mobile technology into psychosocial and health behaviour treatments",
+   "authors": [
+    "Heron",
+    "Smyth"
+   ],
+   "year": 2010,
+   "doi": "10.1348/135910709X466063",
+   "arxiv": null,
+   "urls": [],
+   "container": "British Journal of Health Psychology",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1348/135910709x466063",
+    "title": "Ecological momentary interventions: Incorporating mobile technology into psychosocial and health behaviour treatments",
+    "year": 2010,
+    "first_author": "Heron",
+    "container": "British Journal of Health Psychology",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  }
+ ]
+}

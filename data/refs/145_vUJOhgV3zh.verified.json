@@ -1,0 +1,992 @@
+{
+ "pdf": "145_vUJOhgV3zh.pdf",
+ "n_entries": 24,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": false,
+ "parser_version": 2,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "References [1] David H Ackley. The model. In A Connectionist Machine for Genetic Hillclimbing, pages 29\u201370. Springer, 1987.",
+   "title": "The model",
+   "authors": [
+    "References [1] David H Ackley."
+   ],
+   "year": 1987,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "A Connectionist Machine for Genetic Hillclimbing",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/978-1-4613-1997-9_2",
+    "title": "The model",
+    "year": 1987,
+    "first_author": "Ackley",
+    "container": "The Kluwer International Series in Engineering and Computer Science",
+    "type": "book-chapter",
+    "score": 24.262657
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2] Marcin Andrychowicz, Misha Denil, Sergio Gomez, Matthew Hoffman, David Pfau, Tom Schaul, Brendan Shillingford, and Nando de Freitas. Learning to learn by gradient descent by gradient descent. In Advances in Neural Information Processing Systems (NeurIPS), 2016. arXiv:1606.04474.",
+   "title": "Learning to learn by gradient descent by gradient descent",
+   "authors": [
+    "Andrychowicz",
+    "Denil",
+    "Gomez",
+    "Hoffman",
+    "Pfau",
+    "Schaul",
+    "Shillingford",
+    "Freitas"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": "1606.04474",
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems (NeurIPS",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "1606.04474",
+    "title": "Learning to learn by gradient descent by gradient descent",
+    "year": 2016,
+    "first_author": "Marcin Andrychowicz"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3] Irwan Bello, Barret Zoph, Vijay Vasudevan, and Quoc V. Le. Neural optimizer search with reinforcement learning. In Proceedings of the 34th International Conference on Machine Learning - Volume 70, ICML\u201917, page 459\u2013468. JMLR.org, 2017.",
+   "title": "Neural optimizer search with reinforcement learning",
+   "authors": [
+    "Bello",
+    "Zoph",
+    "Vasudevan",
+    "Le"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 34th International Conference on Machine Learning",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.4861524",
+      "title": "Contrastive Meta-Reinforcement Learning for Heterogeneous Graph Neural Architecture Search",
+      "year": 2024,
+      "first_author": "Xu",
+      "container": "",
+      "type": "posted-content",
+      "score": 29.059706
+     },
+     "metrics": {
+      "title_sim": 82.75862068965517,
+      "containment": 0.444,
+      "partial_ratio": 55.55555555555556,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4] John Duchi, Elad Hazan, and Yoram Singer. Adaptive subgradient methods for online learning and stochastic optimization. Journal of Machine Learning Research, 12(61):2121\u20132159, 2011.",
+   "title": "Adaptive subgradient methods for online learning and stochastic optimization",
+   "authors": [
+    "Duchi",
+    "Hazan",
+    "Singer"
+   ],
+   "year": 2011,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Machine Learning Research",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.21236/ada141216",
+      "title": "Subgradient Methods in Deterministic and Stochastic Optimization.",
+      "year": 1984,
+      "first_author": "Rockafellar",
+      "container": "",
+      "type": "report",
+      "score": 38.241283
+     },
+     "metrics": {
+      "title_sim": 84.68468468468468,
+      "containment": 0.8,
+      "partial_ratio": 81.25,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5] A. E. Eiben and J. E. Smith. Introduction to Evolutionary Computing. Springer, 2nd edition, 2015.",
+   "title": "Introduction to Evolutionary Computing",
+   "authors": [
+    "Eiben",
+    "Smith"
+   ],
+   "year": 2015,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/978-3-662-44874-8",
+    "title": "Introduction to Evolutionary Computing",
+    "year": 2015,
+    "first_author": "Eiben",
+    "container": "Natural Computing Series",
+    "type": "book",
+    "score": 42.614834
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[6] Charles R. Harris, K. Jarrod Millman, St\u00e9fan J. van der Walt, Ralf Gommers, Pauli Virtanen, David Cournapeau, Eric Wieser, Julian Taylor, Sebastian Berg, Nathaniel J. Smith, Robert Kern, Matti Picus, Stephan Hoyer, Marten H. van Kerkwijk, Matthew Brett, Allan Haldane, Jaime Fern\u00e1ndez del R\u00edo, Mark Wiebe, Pearu Peterson, Pierre G\u00e9rard-Marchant, Kevin Sheppard, Tyler Reddy, Warren Weckesser, Hameer Abbasi, Christoph Gohlke, and Travis E. Oliphant. Array programming with NumPy. Nature, 585(7825):357\u2013362, September 2020.",
+   "title": "Array programming with NumPy",
+   "authors": [
+    "Harris",
+    "Millman",
+    "Walt",
+    "Gommers",
+    "Virtanen",
+    "Cournapeau",
+    "Wieser",
+    "Taylor",
+    "Berg",
+    "Smith",
+    "Kern",
+    "Picus",
+    "Hoyer",
+    "Kerkwijk",
+    "Brett",
+    "Haldane",
+    "R\u00edo",
+    "Wiebe",
+    "Peterson",
+    "G\u00e9rard-Marchant",
+    "Sheppard",
+    "Reddy",
+    "Weckesser",
+    "Abbasi",
+    "Gohlke",
+    "Oliphant"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.14293/s2199-1006.1.sor-uncat.a7759461.v1.raugfi",
+    "title": "Review of \"Array programming with NumPy\"",
+    "year": 2021,
+    "first_author": "Singh",
+    "container": "",
+    "type": "peer-review",
+    "score": 38.053104
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.75,
+    "partial_ratio": 81.57894736842105,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[7] Ross D. King, Jem Rowland, Stephen G. Oliver, Michael Young, Wayne Aubrey, E. Byrne, Maria Liakata, Myfanwy Markham, Pinar Pir, Larisa N. Soldatova, Andrew Sparkes, Kenneth E. Whelan, and Amanda Clare. The automation of science. Science, 324(5923):85\u201389, 2009.",
+   "title": "The automation of science",
+   "authors": [
+    "King",
+    "Rowland",
+    "Oliver",
+    "Young",
+    "Wayne Aubrey",
+    "Liakata",
+    "Markham",
+    "Pir",
+    "Soldatova",
+    "Sparkes",
+    "Whelan",
+    "Clare"
+   ],
+   "year": 2009,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Science",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1126/science.1165620",
+    "title": "The Automation of Science",
+    "year": 2009,
+    "first_author": "King",
+    "container": "Science",
+    "type": "journal-article",
+    "score": 19.950165
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[8] Diederik P. Kingma and Jimmy Ba. Adam: A method for stochastic optimization. In Yoshua Bengio and Yann LeCun, editors, ICLR (Poster), 2015.",
+   "title": "Adam: A method for stochastic optimization",
+   "authors": [
+    "Kingma",
+    "Ba"
+   ],
+   "year": 2015,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/978-3-662-46214-0_1",
+      "title": "Stochastic Optimization Methods",
+      "year": 2015,
+      "first_author": "Marti",
+      "container": "Stochastic Optimization Methods",
+      "type": "book-chapter",
+      "score": 23.520447
+     },
+     "metrics": {
+      "title_sim": 85.18518518518519,
+      "containment": 0.667,
+      "partial_ratio": 83.87096774193549,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[9] John R. Koza. Genetic programming as a means for programming computers by natural selection. Statistics and Computing, 4:87\u2013112, 1994.",
+   "title": "Genetic programming as a means for programming computers by natural selection",
+   "authors": [
+    "Koza"
+   ],
+   "year": 1994,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Statistics and Computing",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/bf00175355",
+    "title": "Genetic programming as a means for programming computers by natural selection",
+    "year": 1994,
+    "first_author": "Koza",
+    "container": "Statistics and Computing",
+    "type": "journal-article",
+    "score": 71.35802
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[10] John R. Koza, David Andre, Forrest H Bennett III, and Martin A. Keane. Automated synthesis of analog electrical circuits by means of genetic programming. IEEE Transactions on Evolutionary Computation, 1(2):109\u2013128, 1997.",
+   "title": "Automated synthesis of analog electrical circuits by means of genetic programming",
+   "authors": [
+    "Koza",
+    "Andre",
+    "Bennett",
+    "Keane"
+   ],
+   "year": 1997,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE Transactions on Evolutionary Computation",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/4235.687879",
+    "title": "Automated synthesis of analog electrical circuits by means of genetic programming",
+    "year": 1997,
+    "first_author": "Koza",
+    "container": "IEEE Transactions on Evolutionary Computation",
+    "type": "journal-article",
+    "score": 63.361763
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "[11] Alex Krizhevsky. Learning multiple layers of features from tiny images. Technical report, University of Toronto, 2009.",
+   "title": "Learning multiple layers of features from tiny images",
+   "authors": [
+    "Krizhevsky"
+   ],
+   "year": 2009,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "report",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/icbnmt.2009.5348522",
+      "title": "Integrating multi-features by multiple kernel learning to better classify images",
+      "year": 2009,
+      "first_author": "Lei",
+      "container": "2009 2nd IEEE International Conference on Broadband Network &amp; Multimedia Technology",
+      "type": "proceedings-article",
+      "score": 28.301537
+     },
+     "metrics": {
+      "title_sim": 76.74418604651163,
+      "containment": 0.444,
+      "partial_ratio": 50.0,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "[12] Yann LeCun, L\u00e9on Bottou, Yoshua Bengio, and Patrick Haffner. Gradient-based learning applied to document recognition. Proceedings of the IEEE, 86(11):2278\u20132324, 1998.",
+   "title": "Gradient-based learning applied to document recognition",
+   "authors": [
+    "LeCun",
+    "Bottou",
+    "Bengio",
+    "Haffner"
+   ],
+   "year": 1998,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the IEEE",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/5.726791",
+    "title": "Gradient-based learning applied to document recognition",
+    "year": 1998,
+    "first_author": "Lecun",
+    "container": "Proceedings of the IEEE",
+    "type": "journal-article",
+    "score": 53.894386
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "[13] Heinz M\u00fchlenbein, M. Schomisch, and J. Born. The parallel genetic algorithm as function optimizer. Parallel Computing, 17(6-7):619\u2013632, 1991.",
+   "title": "The parallel genetic algorithm as function optimizer",
+   "authors": [
+    "Heinz M\u00fchlenbein",
+    "Born"
+   ],
+   "year": 1991,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Parallel Computing",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/s0167-8191(05)80052-3",
+    "title": "The parallel genetic algorithm as function optimizer",
+    "year": 1991,
+    "first_author": "M\u00fchlenbein",
+    "container": "Parallel Computing",
+    "type": "journal-article",
+    "score": 60.57711
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "[14] OpenAI. ChatGPT-5, 2025. Model version Sep 13. Conversation on September 13, 2025.",
+   "title": "Model version Sep 13",
+   "authors": [
+    "ChatGPT-5"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Conversation on September",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.63485/9nphk-8c018",
+      "title": "Version 61 of the Bailey SEP bibliography",
+      "year": 2006,
+      "first_author": "Suber",
+      "container": "",
+      "type": "posted-content",
+      "score": 22.065071
+     },
+     "metrics": {
+      "title_sim": 70.96774193548387,
+      "containment": 0.5,
+      "partial_ratio": 48.78048780487805,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "[15] Boris T. Polyak. Some methods of speeding up the convergence of iteration methods. USSR Computational Mathematics and Mathematical Physics, 4(5):1\u201317, 1964.",
+   "title": "Some methods of speeding up the convergence of iteration methods",
+   "authors": [
+    "Polyak"
+   ],
+   "year": 1964,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "USSR Computational Mathematics and Mathematical Physics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/0041-5553(64)90137-5",
+    "title": "Some methods of speeding up the convergence of iteration methods",
+    "year": 1964,
+    "first_author": "Polyak",
+    "container": "USSR Computational Mathematics and Mathematical Physics",
+    "type": "journal-article",
+    "score": 70.92354
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 16,
+   "raw": "[16] Esteban Real, Chen Liang, David So, and Quoc V Le. Automl-zero: Evolving machine learning algorithms from scratch. International Conference on Machine Learning (ICML), 2020.",
+   "title": "Automl-zero: Evolving machine learning algorithms from scratch",
+   "authors": [
+    "Real",
+    "Liang",
+    "So",
+    "Le"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Conference on Machine Learning (ICML",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.71443/9788197933608-05",
+      "title": "Adaptive Machine Learning Algorithms for Real-Time Detection of Zero-Day Vulnerabilities",
+      "year": 2025,
+      "first_author": "J",
+      "container": "Hybrid Machine Learning Techniques for Data Encryption, Anomaly Detection, and Zero-Day Attack Prevention",
+      "type": "book-chapter",
+      "score": 32.866558
+     },
+     "metrics": {
+      "title_sim": 68.81720430107526,
+      "containment": 0.5,
+      "partial_ratio": 63.63636363636363,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 17,
+   "raw": "[17] Herbert Robbins and Sutton Monro. A stochastic approximation method. The Annals of Mathematical Statistics, 22(3):400\u2013407, 1951.",
+   "title": "A stochastic approximation method",
+   "authors": [
+    "Robbins",
+    "Monro"
+   ],
+   "year": 1951,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "The Annals of Mathematical Statistics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1214/aoms/1177729586",
+    "title": "A Stochastic Approximation Method",
+    "year": 1951,
+    "first_author": "Robbins",
+    "container": "The Annals of Mathematical Statistics",
+    "type": "journal-article",
+    "score": 39.781883
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 18,
+   "raw": "[18] H. H. Rosenbrock. An automatic method for finding the greatest or least value of a function. The Computer Journal, 3(3):175\u2013184, 01 1960.",
+   "title": "An automatic method for finding the greatest or least value of a function",
+   "authors": [
+    "Rosenbrock"
+   ],
+   "year": 1960,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "The Computer Journal",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1093/comjnl/3.3.175",
+    "title": "An Automatic Method for Finding the Greatest or Least Value of a Function",
+    "year": 1960,
+    "first_author": "Rosenbrock",
+    "container": "The Computer Journal",
+    "type": "journal-article",
+    "score": 68.41265
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 19,
+   "raw": "[19] Michael Schmidt and Hod Lipson. Distilling free-form natural laws from experimental data. Science, 324(5923):81\u201385, 2009.",
+   "title": "Distilling free-form natural laws from experimental data",
+   "authors": [
+    "Schmidt",
+    "Lipson"
+   ],
+   "year": 2009,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Science",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1126/science.1165893",
+    "title": "Distilling Free-Form Natural Laws from Experimental Data",
+    "year": 2009,
+    "first_author": "Schmidt",
+    "container": "Science",
+    "type": "journal-article",
+    "score": 66.293144
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 20,
+   "raw": "[20] Tijmen Tieleman and Geoffrey Hinton. Lecture 6.5\u2014rmsprop: Divide the gradient by a running average of its recent magnitude. Coursera lecture, 2012.",
+   "title": "Lecture 6.5\u2014rmsprop: Divide the gradient by a running average of its recent magnitude",
+   "authors": [
+    "Tieleman",
+    "Hinton"
+   ],
+   "year": 2012,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Coursera lecture",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/978-3-540-76390-1_66",
+      "title": "Face Recognition by Using Elongated Local Binary Patterns with Average Maximum Distance Gradient Magnitude",
+      "year": 2007,
+      "first_author": "Liao",
+      "container": "Lecture Notes in Computer Science",
+      "type": "book-chapter",
+      "score": 28.943268
+     },
+     "metrics": {
+      "title_sim": 60.0,
+      "containment": 0.273,
+      "partial_ratio": 49.056603773584904,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 21,
+   "raw": "[21] Silviu-Marian Udrescu, Andrew Tan, Jiahai Feng, Orisvaldo Neto, Tailin Wu, and Max Tegmark. Ai feynman 2.0: Pareto-optimal symbolic regression exploiting graph modularity. In H. Larochelle, M. Ranzato, R. Hadsell, M.F. Balcan, and H. Lin, editors, Advances in Neural Information Processing Systems, volume 33, pages 4860\u20134871. Curran Associates, Inc., 2020.",
+   "title": "Ai feynman 2.0: Pareto-optimal symbolic regression exploiting graph modularity",
+   "authors": [
+    "Udrescu",
+    "Tan",
+    "Feng",
+    "Neto",
+    "Wu",
+    "Tegmark"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/0-387-23254-0_17",
+      "title": "Pareto-Front Exploitation in Symbolic Regression",
+      "year": 2006,
+      "first_author": "Smits",
+      "container": "Genetic Programming",
+      "type": "book-chapter",
+      "score": 28.023975
+     },
+     "metrics": {
+      "title_sim": 70.27027027027027,
+      "containment": 0.6,
+      "partial_ratio": 64.58333333333333,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 22,
+   "raw": "[22] Silviu-Marian Udrescu and Max Tegmark. Ai feynman: A physics-inspired method for symbolic regression. Science Advances, 6(16):eaay2631, 2020.",
+   "title": "Ai feynman: A physics-inspired method for symbolic regression",
+   "authors": [
+    "Udrescu",
+    "Tegmark"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Science Advances",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1126/sciadv.aay2631",
+    "title": "AI Feynman: A physics-inspired method for symbolic regression",
+    "year": 2020,
+    "first_author": "Udrescu",
+    "container": "Science Advances",
+    "type": "journal-article",
+    "score": 71.00561
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 23,
+   "raw": "[23] Olga Wichrowska, Niru Maheswaranathan, Matthew W. Hoffman, Sergio Gomez Colmenarejo, Misha Denil, Nando de Freitas, and Jascha Sohl-Dickstein. Learned optimizers that scale and generalize. In International Conference on Machine Learning (ICML), 2017.",
+   "title": "Learned optimizers that scale and generalize",
+   "authors": [
+    "Wichrowska",
+    "Maheswaranathan",
+    "Hoffman",
+    "Colmenarejo",
+    "Denil",
+    "Freitas",
+    "Sohl-Dickstein"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Conference on Machine Learning (ICML",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1103/physrevb.105.075112",
+      "title": "Learned optimizers for analytic continuation",
+      "year": 2022,
+      "first_author": "Huang",
+      "container": "Physical Review B",
+      "type": "journal-article",
+      "score": 22.082367
+     },
+     "metrics": {
+      "title_sim": 65.9090909090909,
+      "containment": 0.5,
+      "partial_ratio": 61.36363636363637,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 24,
+   "raw": "[24] Shunyu Yao, Jeffrey Zhao, Dian Yu, Nan Du, Izhak Shafran, Karthik Narasimhan, and Yuan Cao. React: Synergizing reasoning and acting in language models. International Conference on Learning Representations (ICLR).",
+   "title": "React: Synergizing reasoning and acting in language models",
+   "authors": [
+    "Yao",
+    "Zhao",
+    "Yu",
+    "Du",
+    "Shafran",
+    "Narasimhan",
+    "Cao"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Conference on Learning Representations (ICLR",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.36227/techrxiv.175756693.33854887/v1",
+      "title": "Meta-of-Thought: Reasoning About Reasoning in Large Language Models",
+      "year": 2025,
+      "first_author": "Haque",
+      "container": "",
+      "type": "posted-content",
+      "score": 25.654774
+     },
+     "metrics": {
+      "title_sim": 67.2566371681416,
+      "containment": 0.5,
+      "partial_ratio": 65.15151515151516,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  }
+ ]
+}

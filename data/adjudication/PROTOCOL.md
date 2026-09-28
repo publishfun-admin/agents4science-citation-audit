@@ -31,3 +31,11 @@ Rules:
   and a one-line note.
 - Sampling: all unverified entries in accepted papers are adjudicated; for the remaining groups a simple random sample is
   drawn if the queue exceeds the budget (the sampling frame and seed are recorded in adjudication/SAMPLE.md).
+
+## Amendment 1 (2026-09-28, after 85 adjudications): PLACEHOLDER category
+Some reference lists contain entries that are deliberately incomplete pointers rather than citations, e.g.
+"Browder, D. M., et al. (2008). Literacy outcomes..." with a trailing ellipsis and no title, venue or identifier
+(the "placeholder hallucination" type of the Compound Deception taxonomy). Such entries cannot be adjudicated as a
+specific work. They are recorded as PLACEHOLDER, reported separately, excluded from the primary fabricated share
+(NOT_FOUND + EXISTS_CORRUPTED), and included in a sensitivity analysis of "defective references"
+(fabricated + placeholder). They remain in the denominator of references.

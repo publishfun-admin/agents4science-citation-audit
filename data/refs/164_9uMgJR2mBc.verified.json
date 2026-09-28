@@ -1,0 +1,773 @@
+{
+ "pdf": "164_9uMgJR2mBc.pdf",
+ "n_entries": 19,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 2,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "References Stephan Bongers, Patrick Forr\u00e9, Jonas Peters, and Joris M Mooij. Foundations of structural causal models with cycles and latent variables. The Annals of Statistics, 49(5):2885\u20132915, 2021.",
+   "title": "Foundations of structural causal models with cycles and latent variables",
+   "authors": [
+    "Bongers",
+    "Forr\u00e9",
+    "Peters",
+    "Mooij"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "The Annals of Statistics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1214/21-aos2064",
+    "title": "Foundations of structural causal models with cycles and latent variables",
+    "year": 2021,
+    "first_author": "Bongers",
+    "container": "The Annals of Statistics",
+    "type": "journal-article",
+    "score": 62.928806
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "Daniel C Castro, Ian Walker, and Ben Glocker. Improving the accuracy of medical diagnosis with causal machine learning. Nature Communications, 11(1):3923, 2020.",
+   "title": "Improving the accuracy of medical diagnosis with causal machine learning",
+   "authors": [
+    "Castro",
+    "Walker",
+    "Glocker"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature Communications",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/s41467-020-17419-7",
+    "title": "Improving the accuracy of medical diagnosis with causal machine learning",
+    "year": 2020,
+    "first_author": "Richens",
+    "container": "Nature Communications",
+    "type": "journal-article",
+    "score": 46.040615
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "Clark Glymour, Kun Zhang, and Peter Spirtes. Review of causal discovery methods based on graphical models. Frontiers in Genetics, 10:524, 2019.",
+   "title": "Review of causal discovery methods based on graphical models",
+   "authors": [
+    "Glymour",
+    "Zhang",
+    "Spirtes"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Frontiers in Genetics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.3389/fgene.2019.00524",
+    "title": "Review of Causal Discovery Methods Based on Graphical Models",
+    "year": 2019,
+    "first_author": "Glymour",
+    "container": "Frontiers in Genetics",
+    "type": "journal-article",
+    "score": 59.47614
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "Chuan Guo, Geoff Pleiss, Yu Sun, and Kilian Q Weinberger. On calibration of modern neural networks. In International Conference on Machine Learning, pages 1321\u20131330. PMLR, 2017.",
+   "title": "On calibration of modern neural networks",
+   "authors": [
+    "Guo",
+    "Pleiss",
+    "Sun",
+    "Weinberger"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Conference on Machine Learning",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/978-3-319-59072-1_37",
+      "title": "Matrix Neural Networks",
+      "year": 2017,
+      "first_author": "Gao",
+      "container": "Lecture Notes in Computer Science",
+      "type": "book-chapter",
+      "score": 25.164602
+     },
+     "metrics": {
+      "title_sim": 81.08108108108108,
+      "containment": 0.667,
+      "partial_ratio": 81.81818181818181,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "Patrik O Hoyer, Dominik Janzing, Joris M Mooij, Jonas Peters, and Bernhard Sch\u00f6lkopf. Nonlinear causal discovery with additive noise models. In Advances in Neural Information Processing Systems, volume 21. Curran Associates, Inc., 2009.",
+   "title": "Nonlinear causal discovery with additive noise models",
+   "authors": [
+    "Hoyer",
+    "Janzing",
+    "Mooij",
+    "Peters",
+    "Sch\u00f6lkopf"
+   ],
+   "year": 2009,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1145/3482879",
+      "title": "Causal Discovery with Confounding Cascade Nonlinear Additive Noise Models",
+      "year": 2021,
+      "first_author": "Qiao",
+      "container": "ACM Transactions on Intelligent Systems and Technology",
+      "type": "journal-article",
+      "score": 35.167213
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 0.75,
+      "partial_ratio": 58.9041095890411,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "Volodymyr Kuleshov, Nathan Fenner, and Stefano Ermon. Accurate uncertainties for deep learning using calibrated regression. In International Conference on Machine Learning, pages 2796\u20132804. PMLR, 2018.",
+   "title": "Accurate uncertainties for deep learning using calibrated regression",
+   "authors": [
+    "Kuleshov",
+    "Fenner",
+    "Ermon"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Conference on Machine Learning",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.3390/s18051598",
+      "title": "AMID: Accurate Magnetic Indoor Localization Using Deep Learning",
+      "year": 2018,
+      "first_author": "Lee",
+      "container": "Sensors",
+      "type": "journal-article",
+      "score": 27.322739
+     },
+     "metrics": {
+      "title_sim": 67.6923076923077,
+      "containment": 0.429,
+      "partial_ratio": 54.83870967741935,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "Christina Lagemann, Klaus Lagemann, Samuel Oden, and Stefan M\u00fcller. Deep learning of causal structures in high dimensions under data limitations. Nature Machine Intelligence, 5(12):1065\u20131077, 2023.",
+   "title": "Deep learning of causal structures in high dimensions under data limitations",
+   "authors": [
+    "Lagemann",
+    "Lagemann",
+    "Oden",
+    "M\u00fcller"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature Machine Intelligence",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/s42256-023-00744-z",
+    "title": "Deep learning of causal structures in high dimensions under data limitations",
+    "year": 2023,
+    "first_author": "Lagemann",
+    "container": "Nature Machine Intelligence",
+    "type": "journal-article",
+    "score": 71.70458
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "Balaji Lakshminarayanan, Alexander Pritzel, and Charles Blundell. Simple and scalable predictive uncertainty estimation using deep ensembles. Advances in Neural Information Processing Systems, 30, 2017.",
+   "title": "Simple and scalable predictive uncertainty estimation using deep ensembles",
+   "authors": [
+    "Lakshminarayanan",
+    "Pritzel",
+    "Blundell"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.3390/w8040125",
+      "title": "Predictive Uncertainty Estimation of Hydrological Multi-Model Ensembles Using Pair-Copula Construction",
+      "year": 2016,
+      "first_author": "Klein",
+      "container": "Water",
+      "type": "journal-article",
+      "score": 33.34626
+     },
+     "metrics": {
+      "title_sim": 79.67479674796748,
+      "containment": 0.4,
+      "partial_ratio": 62.745098039215684,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "Joris M Mooij, Jonas Peters, Dominik Janzing, Jakob Zscheischler, and Bernhard Sch\u00f6lkopf. Distinguishing cause from effect using observational data: methods and benchmarks. Journal of Machine Learning Research, 17(1):1\u2013102, 2016.",
+   "title": "Distinguishing cause from effect using observational data: methods and benchmarks",
+   "authors": [
+    "Mooij",
+    "Peters",
+    "Janzing",
+    "Zscheischler",
+    "Sch\u00f6lkopf"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Machine Learning Research",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1093/9780197801819.003.0005",
+      "title": "Causal Inference Using Observational Data",
+      "year": 2025,
+      "first_author": "Hadavand",
+      "container": "Cause, Effect, and Everything in Between",
+      "type": "book-chapter",
+      "score": 29.269796
+     },
+     "metrics": {
+      "title_sim": 73.84615384615384,
+      "containment": 0.5,
+      "partial_ratio": 80.48780487804879,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "Ana Rita Nogueira, Jo\u00e3o Gama, and Carlos Abreu Ferreira. Methods and tools for causal discovery and causal inference. Wiley Interdisciplinary Reviews: Data Mining and Knowledge Discovery, 12(2):e1449, 2022.",
+   "title": "Methods and tools for causal discovery and causal inference",
+   "authors": [
+    "Nogueira",
+    "Gama",
+    "Ferreira"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Wiley Interdisciplinary Reviews: Data Mining and Knowledge Discovery",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1002/widm.1449",
+    "title": "Methods and tools for causal discovery and causal inference",
+    "year": 2022,
+    "first_author": "Nogueira",
+    "container": "WIREs Data Mining and Knowledge Discovery",
+    "type": "journal-article",
+    "score": 56.91236
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "Judea Pearl. Causality: Models, Reasoning and Inference. Cambridge University Press, 2nd edition, 2009.",
+   "title": "Causality: Models, Reasoning and Inference",
+   "authors": [
+    "Pearl"
+   ],
+   "year": 2009,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1017/cbo9780511803161",
+    "title": "Causality",
+    "year": 2009,
+    "first_author": "Pearl",
+    "container": "",
+    "type": "monograph",
+    "score": 57.082302
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "Jonas Peters, Dominik Janzing, and Bernhard Sch\u00f6lkopf. Elements of Causal Inference: Foundations and Learning Algorithms. MIT Press, 2017.",
+   "title": "Elements of Causal Inference: Foundations and Learning Algorithms",
+   "authors": [
+    "Peters",
+    "Janzing",
+    "Sch\u00f6lkopf"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1080/00949655.2018.1505197",
+    "title": "Elements of causal inference: foundations and learning algorithms",
+    "year": 2018,
+    "first_author": "Shanmugam",
+    "container": "Journal of Statistical Computation and Simulation",
+    "type": "journal-article",
+    "score": 39.093277
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "Shohei Shimizu, Patrik O Hoyer, Aapo Hyv\u00e4rinen, Antti Kerminen, and Michael Jordan. A linear non-gaussian acyclic model for causal discovery. Journal of Machine Learning Research, 7: 2003\u20132030, 2006.",
+   "title": "A linear non-gaussian acyclic model for causal discovery",
+   "authors": [
+    "Shimizu",
+    "Hoyer",
+    "Hyv\u00e4rinen",
+    "Kerminen",
+    "Jordan"
+   ],
+   "year": 2006,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Machine Learning Research",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1016/j.neucom.2021.06.083",
+      "title": "Sparse estimation of Linear Non-Gaussian Acyclic Model for Causal Discovery",
+      "year": 2021,
+      "first_author": "Harada",
+      "container": "Neurocomputing",
+      "type": "journal-article",
+      "score": 51.50202
+     },
+     "metrics": {
+      "title_sim": 98.18181818181819,
+      "containment": 0.778,
+      "partial_ratio": 82.66666666666667,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "Peter Spirtes and Kun Zhang. Causal discovery and inference: concepts and recent methodological advances. Applied Informatics, 3(1):1\u201328, 2016.",
+   "title": "Causal discovery and inference: concepts and recent methodological advances",
+   "authors": [
+    "Spirtes",
+    "Zhang"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Applied Informatics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1186/s40535-016-0018-x",
+    "title": "Causal discovery and inference: concepts and recent methodological advances",
+    "year": 2016,
+    "first_author": "Spirtes",
+    "container": "Applied Informatics",
+    "type": "journal-article",
+    "score": 73.12735
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "Peter Spirtes, Clark Glymour, and Richard Scheines. Causation, Prediction, and Search. MIT Press, 2nd edition, 2000.",
+   "title": "Causation, Prediction, and Search",
+   "authors": [
+    "Spirtes",
+    "Glymour",
+    "Scheines"
+   ],
+   "year": 2000,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.7551/mitpress/1754.001.0001",
+    "title": "Causation, Prediction, and Search",
+    "year": 2001,
+    "first_author": "Spirtes",
+    "container": "",
+    "type": "monograph",
+    "score": 45.247013
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 16,
+   "raw": "Daniel J Stekhoven, Ines Moraes, Gardar Sveinbjornsson, Lars Hennig, Marloes H Maathuis, and Peter B\u00fchlmann. Causal stability ranking. Bioinformatics, 28(21):2819\u20132823, 2012.",
+   "title": "Causal stability ranking",
+   "authors": [
+    "Stekhoven",
+    "Moraes",
+    "Sveinbjornsson",
+    "Hennig",
+    "Maathuis",
+    "B\u00fchlmann"
+   ],
+   "year": 2012,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Bioinformatics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1093/bioinformatics/bts523",
+    "title": "Causal stability ranking",
+    "year": 2012,
+    "first_author": "Stekhoven",
+    "container": "Bioinformatics",
+    "type": "journal-article",
+    "score": 43.450546
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 17,
+   "raw": "Matthew J Vowels, Necati Cihan Camgoz, and Howard Bowman. D\u2019ya like dags? a survey on structure learning and causal discovery. ACM Computing Surveys, 55(4):1\u201336, 2022.",
+   "title": "D\u2019ya like dags? a survey on structure learning and causal discovery",
+   "authors": [
+    "Vowels",
+    "Camgoz",
+    "Bowman"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "ACM Computing Surveys",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3527154",
+    "title": "D\u2019ya Like DAGs? A Survey on Structure Learning and Causal Discovery",
+    "year": 2023,
+    "first_author": "Vowels",
+    "container": "ACM Computing Surveys",
+    "type": "journal-article",
+    "score": 72.408424
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 18,
+   "raw": "Liuyi Yao, Zhixuan Chu, Sheng Li, Yaliang Li, Jing Gao, and Aidong Zhang. A survey on causal inference. ACM Transactions on Knowledge Discovery from Data, 15(5):1\u201346, 2021.",
+   "title": "A survey on causal inference",
+   "authors": [
+    "Yao",
+    "Chu",
+    "Li",
+    "Li",
+    "Gao",
+    "Zhang"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "ACM Transactions on Knowledge Discovery from Data",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3444944",
+    "title": "A Survey on Causal Inference",
+    "year": 2021,
+    "first_author": "Yao",
+    "container": "ACM Transactions on Knowledge Discovery from Data",
+    "type": "journal-article",
+    "score": 28.920778
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 19,
+   "raw": "Xun Zheng, Bryon Aragam, Pradeep K Ravikumar, and Eric P Xing. Dags with no tears: Continuous optimization for structure learning. Advances in Neural Information Processing Systems, 31, 2018.",
+   "title": "Dags with no tears: Continuous optimization for structure learning",
+   "authors": [
+    "Zheng",
+    "Aragam",
+    "Ravikumar",
+    "Xing"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1515/9783110462272-006",
+      "title": "5. Topological Optimization for Continuous Structure with Static Constraint",
+      "year": 2018,
+      "first_author": null,
+      "container": "Topological Optimization of Buckling",
+      "type": "book-chapter",
+      "score": 25.677984
+     },
+     "metrics": {
+      "title_sim": 78.50467289719626,
+      "containment": 0.5,
+      "partial_ratio": 55.4054054054054,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  }
+ ]
+}

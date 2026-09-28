@@ -1,0 +1,1362 @@
+{
+ "pdf": "179_xYUNkQ4vKK.pdf",
+ "n_entries": 33,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 2,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "References [1] L. P. Argyle et al. Out of one, many: Using language models to simulate human samples. arXiv preprint, 2023.",
+   "title": "Out of one, many: Using language models to simulate human samples",
+   "authors": [
+    "References [1] L. P. Argyle et al."
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1017/pan.2023.2",
+    "title": "Out of One, Many: Using Language Models to Simulate Human Samples",
+    "year": 2023,
+    "first_author": "Argyle",
+    "container": "Political Analysis",
+    "type": "journal-article",
+    "score": 59.445793
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2] Solomon E. Asch. Effects of group pressure upon the modification and distortion of judgments. In Groups, Leadership and Men: Research in Human Relations, page 177. 1951.",
+   "title": "Effects of group pressure upon the modification and distortion of judgments",
+   "authors": [
+    "Asch"
+   ],
+   "year": 1951,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Groups, Leadership and Men: Research in Human Relations",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1525/9780520313514-017",
+    "title": "EFFECTS OF GROUP PRESSURE UPON THE MODIFICATION AND DISTORTION OF JUDGMENTS",
+    "year": 1961,
+    "first_author": "Asch",
+    "container": "Documents of Gestalt Psychology",
+    "type": "book-chapter",
+    "score": 65.03726
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3] Authors. Rolellm: Role-based language model simulation. 2023.",
+   "title": "Rolellm: Role-based language model simulation",
+   "authors": [],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.6415040",
+      "title": "Auto Sim Ai: A Large Language Model-Based System For Survey Research Simulation",
+      "year": 2026,
+      "first_author": "Li",
+      "container": "",
+      "type": "posted-content",
+      "score": 21.843702
+     },
+     "metrics": {
+      "title_sim": 82.66666666666667,
+      "containment": 0.4,
+      "partial_ratio": 56.25,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4] Authors. Simucourt: Simulating legal cases with large language model agents. In Proceedings of [Conference], 2023. Available at https://github.com/Zhitao-He/SimuCourt.",
+   "title": "Simucourt: Simulating legal cases with large language model agents",
+   "authors": [],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://github.com/Zhitao-He/SimuCourt"
+   ],
+   "container": "Proceedings of [Conference",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED_URL",
+   "via": "url",
+   "url_status": {
+    "https://github.com/Zhitao-He/SimuCourt": 200
+   },
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.4606937",
+      "title": "Large Language Model-Empowered Agents for Simulating Macroeconomic Activities",
+      "year": 2023,
+      "first_author": "Li",
+      "container": "",
+      "type": "posted-content",
+      "score": 38.204468
+     },
+     "metrics": {
+      "title_sim": 73.7864077669903,
+      "containment": 0.625,
+      "partial_ratio": 55.84415584415585,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5] Shuaichen Chang et al. A survey on agent architectures for large language models. arXiv preprint, 2024.",
+   "title": "A survey on agent architectures for large language models",
+   "authors": [
+    "Chang"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.21275/sr251215184109",
+      "title": "Extending Context Windows in Large Language Models: A Survey of Techniques, Architectures, and Evaluation Methods",
+      "year": 2025,
+      "first_author": "Sule",
+      "container": "International Journal of Science and Research (IJSR)",
+      "type": "journal-article",
+      "score": 35.675694
+     },
+     "metrics": {
+      "title_sim": 45.50898203592815,
+      "containment": 0.455,
+      "partial_ratio": 53.551912568306,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[6] V. Chaudhary and A. Chaudhary. Algorithmic fidelity in llm agents. arXiv preprint, 2023.",
+   "title": "Algorithmic fidelity in llm agents",
+   "authors": [
+    "Chaudhary",
+    "Chaudhary"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.22399/ijcesen.5498",
+      "title": "Two Planes of Truth: Execution Fidelity and Behavioral Correctness in Tool-Using LLM Agents",
+      "year": 2024,
+      "first_author": "Harish Gaggar",
+      "container": "International Journal of Computational and Experimental Science and Engineering",
+      "type": "journal-article",
+      "score": 23.985977
+     },
+     "metrics": {
+      "title_sim": 46.7741935483871,
+      "containment": 0.3,
+      "partial_ratio": 45.51724137931035,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[7] Nuo Chen, Yan Wang, Haiyun Jiang, Deng Cai, Yuhan Li, Ziyang Chen, Longyue Wang, and Jia Li. Large language models meet harry potter: A bilingual dataset for aligning dialogue agents with characters. 2023.",
+   "title": "Large language models meet harry potter: A bilingual dataset for aligning dialogue agents with characters",
+   "authors": [
+    "Chen",
+    "Wang",
+    "Jiang",
+    "Cai",
+    "Li",
+    "Chen",
+    "Wang",
+    "Li"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2023.findings-emnlp.570",
+    "title": "Large Language Models Meet Harry Potter: A Dataset for Aligning Dialogue Agents with Characters",
+    "year": 2023,
+    "first_author": "Chen",
+    "container": "Findings of the Association for Computational Linguistics: EMNLP 2023",
+    "type": "proceedings-article",
+    "score": 77.84545
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 89.36170212765957,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[8] Chuang et al. Society simulation for testing social science theories. In Proceedings of [Conference], 2023.",
+   "title": "Society simulation for testing social science theories",
+   "authors": [],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of [Conference",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1177/1046878105286184",
+      "title": "Testing social theories in computer-mediated communication through gaming and simulation",
+      "year": 2006,
+      "first_author": "Noy",
+      "container": "Simulation &amp; Gaming",
+      "type": "journal-article",
+      "score": 24.84839
+     },
+     "metrics": {
+      "title_sim": 77.27272727272728,
+      "containment": 0.444,
+      "partial_ratio": 52.2875816993464,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[9] Yun-Shiuan Chuang, Agam Goyal, Nikunj Harlalka, Siddharth Suresh, Robert Hawkins, Sijia Yang, Dhavan Shah, Junjie Hu, and Timothy T. Rogers. Simulating opinion dynamics with networks of llm-based agents. arXiv preprint, 2023.",
+   "title": "Simulating opinion dynamics with networks of llm-based agents",
+   "authors": [
+    "Chuang",
+    "Goyal",
+    "Harlalka",
+    "Suresh",
+    "Hawkins",
+    "Yang",
+    "Shah",
+    "Hu",
+    "Rogers"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2024.findings-naacl.211",
+    "title": "Simulating Opinion Dynamics with Networks of LLM-based Agents",
+    "year": 2024,
+    "first_author": "Chuang",
+    "container": "Findings of the Association for Computational Linguistics: NAACL 2024",
+    "type": "proceedings-article",
+    "score": 46.850136
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[10] Yun-Shiuan Chuang and Timothy T. Rogers. Computational agent-based models in opinion dynamics: A survey on social simulations and empirical studies. arXiv preprint, 2023.",
+   "title": "Computational agent-based models in opinion dynamics: A survey on social simulations and empirical studies",
+   "authors": [
+    "Chuang",
+    "Rogers"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1515/9781400842872.4",
+      "title": "Chapter 1. AGENT-BASED COMPUTATIONAL MODELS AND GENERATIVE SOCIAL SCIENCE",
+      "year": 2012,
+      "first_author": "Epstein",
+      "container": "Generative Social Science: Studies in Agent-Based Computational Modeling",
+      "type": "book-chapter",
+      "score": 37.59589
+     },
+     "metrics": {
+      "title_sim": 74.78260869565217,
+      "containment": 0.625,
+      "partial_ratio": 54.16666666666667,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "[11] MetaGPT contributors. Chatdev: Multi-agent collaborative software development with large language models. In Proceedings of [Conference], 2023.",
+   "title": "Chatdev: Multi-agent collaborative software development with large language models",
+   "authors": [
+    "contributors"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of [Conference",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.30574/wjarr.2025.27.2.1806",
+      "title": "Synergistic minds: A collaborative multi-agent framework for integrated AI tool development using diverse large language models",
+      "year": 2025,
+      "first_author": "Arpan Shaileshbhai Korat",
+      "container": "World Journal of Advanced Research and Reviews",
+      "type": "journal-article",
+      "score": 34.89039
+     },
+     "metrics": {
+      "title_sim": 59.90338164251207,
+      "containment": 0.538,
+      "partial_ratio": 59.74025974025974,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "[12] Zhihao Fan, Jialong Tang, Wei Chen, Siyuan Wang, Zhongyu Wei, Jun Xi, Fei Huang, and Jingren Zhou. Ai hospital: Interactive evaluation and collaboration of llms as intern doctors for clinical diagnosis. arXiv preprint, 2024.",
+   "title": "Ai hospital: Interactive evaluation and collaboration of llms as intern doctors for clinical diagnosis",
+   "authors": [
+    "Fan",
+    "Tang",
+    "Chen",
+    "Wang",
+    "Wei",
+    "Xi",
+    "Huang",
+    "Zhou"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.14711/thesis-991013222938403412",
+      "title": "Pervasive human-AI collaboration in interactive tourism",
+      "year": 2023,
+      "first_author": "Sorokin",
+      "container": "",
+      "type": "dissertation",
+      "score": 27.695606
+     },
+     "metrics": {
+      "title_sim": 52.56410256410257,
+      "containment": 0.4,
+      "partial_ratio": 61.81818181818181,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "[13] Yihan Gao et al. Large language model based multi-agent systems: A survey. arXiv preprint, 2024.",
+   "title": "Large language model based multi-agent systems: A survey",
+   "authors": [
+    "Gao"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.4018/979-8-3373-1419-8.ch001",
+      "title": "Advancements in Multi-Agent Large Language Model Systems for Next-Generation AI",
+      "year": 2025,
+      "first_author": "Sissodia",
+      "container": "Advances in Computational Intelligence and Robotics",
+      "type": "book-chapter",
+      "score": 37.06151
+     },
+     "metrics": {
+      "title_sim": 84.21052631578948,
+      "containment": 0.667,
+      "partial_ratio": 56.934306569343065,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "[14] Zhaolin Gao, Kiant\u00e9 Brantley, and Thorsten Joachims. Reviewer2: Optimizing review generation through prompt generation. arXiv preprint, 2024.",
+   "title": "Reviewer2: Optimizing review generation through prompt generation",
+   "authors": [
+    "Gao",
+    "Brantley",
+    "Joachims"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.5209431",
+      "title": "Promptnavi: Text-to-Image Generation Through Interactive Prompt Visual Exploration",
+      "year": 2025,
+      "first_author": "Huang",
+      "container": "",
+      "type": "posted-content",
+      "score": 31.055971
+     },
+     "metrics": {
+      "title_sim": 64.1025641025641,
+      "containment": 0.333,
+      "partial_ratio": 58.0246913580247,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "[15] Mark S. Granovetter. The strength of weak ties. American Journal of Sociology, 78(6):1360\u20131380, 1973.",
+   "title": "The strength of weak ties",
+   "authors": [
+    "Granovetter"
+   ],
+   "year": 1973,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "American Journal of Sociology",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1093/oso/9780195159509.003.0010",
+    "title": "The Strength of Weak Ties",
+    "year": 2003,
+    "first_author": "Granovetter",
+    "container": "Networks in the Knowledge Economy",
+    "type": "book-chapter",
+    "score": 47.89203
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 16,
+   "raw": "[16] Zhitao He, Pengfei Cao, Chenhao Wang, Zhuoran Jin, Yubo Chen, Jiexin Xu, Huaijun Li, Xiaojian Jiang, Kang Liu, and Jun Zhao. Simucourt: Building judicial decision-making agents with real-world judgement documents. arXiv preprint, 2024.",
+   "title": "Simucourt: Building judicial decision-making agents with real-world judgement documents",
+   "authors": [
+    "He",
+    "Cao",
+    "Wang",
+    "Jin",
+    "Chen",
+    "Xu",
+    "Li",
+    "Jiang",
+    "Liu",
+    "Zhao"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.52783/jisem.v10i1s.105",
+      "title": "Applying Citation Analysis and Machine Learning with Real-World Documents to Improve Judicial Decision-Making",
+      "year": 2024,
+      "first_author": "Aastha Budhiraja",
+      "container": "Journal of Information Systems Engineering and Management",
+      "type": "journal-article",
+      "score": 36.934742
+     },
+     "metrics": {
+      "title_sim": 73.52941176470588,
+      "containment": 0.5,
+      "partial_ratio": 54.12844036697248,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 17,
+   "raw": "[17] Rainer Hegselmann and Ulrich Krause. Opinion dynamics driven by various ways of averaging. Computational Economics, 25:381\u2013405, 2005.",
+   "title": "Opinion dynamics driven by various ways of averaging",
+   "authors": [
+    "Hegselmann",
+    "Krause"
+   ],
+   "year": 2005,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Computational Economics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/s10614-005-6296-3",
+    "title": "Opinion Dynamics Driven by Various Ways of Averaging",
+    "year": 2005,
+    "first_author": "Hegselmann",
+    "container": "Computational Economics",
+    "type": "journal-article",
+    "score": 65.46236
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 18,
+   "raw": "[18] Daniel Katz and Robert Kahn. The social psychology of organizations. Routledge, 2015.",
+   "title": "The social psychology of organizations",
+   "authors": [
+    "Katz",
+    "Kahn"
+   ],
+   "year": 2015,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.4324/9781315702001-20",
+    "title": "The Social Psychology of Organizations: Daniel Katz, Robert Kahn",
+    "year": 2015,
+    "first_author": null,
+    "container": "Organizational Behavior 2",
+    "type": "book-chapter",
+    "score": 31.685865
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 74.78260869565217,
+    "year_ok": true,
+    "first_author_ok": null
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 19,
+   "raw": "[19] Takeshi Kojima, Shixiang Shane Gu, Machel Reid, Yutaka Matsuo, and Yusuke Iwasawa. Large language models are zero-shot reasoners. In Advances in Neural Information Processing Systems, volume 35, pages 22199\u201322213, 2022.",
+   "title": "Large language models are zero-shot reasoners",
+   "authors": [
+    "Kojima",
+    "Gu",
+    "Reid",
+    "Matsuo",
+    "Iwasawa"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/068431-1613",
+    "title": "Large Language Models Are Zero-Shot Reasoners",
+    "year": 2022,
+    "first_author": "Kojima",
+    "container": "Advances in Neural Information Processing Systems 35",
+    "type": "proceedings-article",
+    "score": 59.179585
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": true,
+   "idx": 20,
+   "raw": "[20] Li et al. Econagent: Simulated economic agents for macroeconomic phenomena. arXiv preprint, 2023.",
+   "title": "Econagent: Simulated economic agents for macroeconomic phenomena",
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.18653/v1/2024.acl-long.829",
+      "title": "EconAgent: Large Language Model-Empowered Agents for Simulating Macroeconomic Activities",
+      "year": 2024,
+      "first_author": "Li",
+      "container": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+      "type": "proceedings-article",
+      "score": 27.481865
+     },
+     "metrics": {
+      "title_sim": 70.10309278350516,
+      "containment": 0.333,
+      "partial_ratio": 56.470588235294116,
+      "year_ok": true,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2024.acl-long.829",
+    "title": "EconAgent: Large Language Model-Empowered Agents for Simulating Macroeconomic Activities",
+    "year": 2024,
+    "first_author": "Li",
+    "container": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "type": "proceedings-article",
+    "score": 27.481865
+   }
+  },
+  {
+   "junk": false,
+   "idx": 21,
+   "raw": "[21] Yuhan Liu, Xiuying Chen, Xiaoqing Zhang, Xing Gao, Ji Zhang, and Rui Yan. From skepticism to acceptance: Simulating the attitude dynamics toward fake news. arXiv preprint, 2024.",
+   "title": "From skepticism to acceptance: Simulating the attitude dynamics toward fake news",
+   "authors": [
+    "Liu",
+    "Chen",
+    "Zhang",
+    "Gao",
+    "Zhang",
+    "Yan"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.24963/ijcai.2024/873",
+    "title": "From Skepticism to Acceptance: Simulating the Attitude Dynamics Toward Fake News",
+    "year": 2024,
+    "first_author": "Liu",
+    "container": "Proceedings of the Thirty-ThirdInternational Joint Conference on Artificial Intelligence",
+    "type": "proceedings-article",
+    "score": 63.24298
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 22,
+   "raw": "[22] Stanley Milgram. Behavioral study of obedience. Journal of Abnormal and Social Psychology, 67(4):371, 1963.",
+   "title": "Behavioral study of obedience",
+   "authors": [
+    "Milgram"
+   ],
+   "year": 1963,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Abnormal and Social Psychology",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1037/h0040525",
+    "title": "Behavioral Study of obedience.",
+    "year": 1963,
+    "first_author": "Milgram",
+    "container": "The Journal of Abnormal and Social Psychology",
+    "type": "journal-article",
+    "score": 40.738266
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 23,
+   "raw": "[23] Xinyi Mou, Zhongyu Wei, and Xuanjing Huang. Unveiling the truth and facilitating change: Towards agent-based large-scale social movement simulation. arXiv preprint, 2024.",
+   "title": "Unveiling the truth and facilitating change: Towards agent-based large-scale social movement simulation",
+   "authors": [
+    "Mou",
+    "Wei",
+    "Huang"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2024.findings-acl.285",
+    "title": "Unveiling the Truth and Facilitating Change: Towards Agent-based Large-scale Social Movement Simulation",
+    "year": 2024,
+    "first_author": "Mou",
+    "container": "Findings of the Association for Computational Linguistics ACL 2024",
+    "type": "proceedings-article",
+    "score": 81.518074
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 24,
+   "raw": "[24] Authors of OASIS paper. Oasis: Large-scale online agent society simulation. arXiv preprint, 2023.",
+   "title": "Oasis: Large-scale online agent society simulation",
+   "authors": [
+    "Authors of OASIS paper."
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1093/gao/9781884446054.article.t079067",
+      "title": "Siwa Oasis",
+      "year": 2003,
+      "first_author": "Mills",
+      "container": "Oxford Art Online",
+      "type": "reference-entry",
+      "score": 39.523167
+     },
+     "metrics": {
+      "title_sim": 66.66666666666666,
+      "containment": 0.5,
+      "partial_ratio": 0,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 25,
+   "raw": "[25] Joon Sung Park, Carrie Cai, Joseph C. O\u2019Brien, Meredith Ringel Morris, Percy Liang, and Michael S. Bernstein. Generative agents: Interactive simulacra of human behavior. In Proceedings of the ACM Symposium on User Interface Software and Technology, pages 1\u201318, 2023.",
+   "title": "Generative agents: Interactive simulacra of human behavior",
+   "authors": [
+    "Park",
+    "Cai",
+    "O\u2019Brien",
+    "Morris",
+    "Liang",
+    "Bernstein"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the ACM Symposium on User Interface Software and Technology",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3586183.3606763",
+    "title": "Generative Agents: Interactive Simulacra of Human Behavior",
+    "year": 2023,
+    "first_author": "Park",
+    "container": "Proceedings of the 36th Annual ACM Symposium on User Interface Software and Technology",
+    "type": "proceedings-article",
+    "score": 46.74453
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 26,
+   "raw": "[26] Chau Pham, Boyi Liu, Yingxiang Yang, Zhengyu Chen, Tianyi Liu, Jianbo Yuan, Bryan A. Plummer, Zhaoran Wang, and Hongxia Yang. Let models speak ciphers: Multiagent debate through embeddings. In International Conference on Learning Representations (ICLR), 2024.",
+   "title": "Let models speak ciphers: Multiagent debate through embeddings",
+   "authors": [
+    "Pham",
+    "Liu",
+    "Yang",
+    "Chen",
+    "Liu",
+    "Yuan",
+    "Plummer",
+    "Wang",
+    "Yang"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Conference on Learning Representations (ICLR",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1353/book14823",
+      "title": "Let Spirit Speak!: Cultural Journeys through the African Diaspora",
+      "year": 2012,
+      "first_author": null,
+      "container": "",
+      "type": "monograph",
+      "score": 29.461521
+     },
+     "metrics": {
+      "title_sim": 51.61290322580645,
+      "containment": 0.375,
+      "partial_ratio": 52.38095238095239,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 27,
+   "raw": "[27] Thomas C. Schelling. Dynamic models of segregation. Journal of Mathematical Sociology, 1(2):143\u2013186, 1971.",
+   "title": "Dynamic models of segregation",
+   "authors": [
+    "Schelling"
+   ],
+   "year": 1971,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Mathematical Sociology",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1080/0022250x.1971.9989794",
+    "title": "Dynamic models of segregation\u2020",
+    "year": 1971,
+    "first_author": "Schelling",
+    "container": "The Journal of Mathematical Sociology",
+    "type": "journal-article",
+    "score": 39.65853
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 28,
+   "raw": "[28] Timo Schick, Jane Dwivedi-Yu, Roberto Dess\u00ec, Roberta Raileanu, Maria Lomeli, Eric Hambro, Luke Zettlemoyer, Nicola Cancedda, and Thomas Scialom. Toolformer: Language models can teach themselves to use tools. In Advances in Neural Information Processing Systems, volume 36, 2024.",
+   "title": "Toolformer: Language models can teach themselves to use tools",
+   "authors": [
+    "Schick",
+    "Dwivedi-Yu",
+    "Dess\u00ec",
+    "Raileanu",
+    "Lomeli",
+    "Hambro",
+    "Zettlemoyer",
+    "Cancedda",
+    "Scialom"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/075280-2997",
+    "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+    "year": 2023,
+    "first_author": "Schick",
+    "container": "Advances in Neural Information Processing Systems 36",
+    "type": "proceedings-article",
+    "score": 64.14208
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 29,
+   "raw": "[29] Noah Shinn, Federico Cassano, Ashwin Gopinath, Karthik Narasimhan, and Shunyu Yao. Reflexion: Language agents with verbal reinforcement learning. In Advances in Neural Information Processing Systems, volume 36, 2024.",
+   "title": "Reflexion: Language agents with verbal reinforcement learning",
+   "authors": [
+    "Shinn",
+    "Cassano",
+    "Gopinath",
+    "Narasimhan",
+    "Yao"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/075280-0377",
+    "title": "Reflexion: language agents with verbal reinforcement learning",
+    "year": 2023,
+    "first_author": "Shinn",
+    "container": "Advances in Neural Information Processing Systems 36",
+    "type": "proceedings-article",
+    "score": 55.44085
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 30,
+   "raw": "[30] Xiangru Tang, Anni Zou, Zhuosheng Zhang, Yilun Zhao, Xingyao Zhang, Arman Cohan, and Mark Gerstein. Medagents: Large language models as collaborators for zero-shot medical reasoning. arXiv preprint, 2023.",
+   "title": "Medagents: Large language models as collaborators for zero-shot medical reasoning",
+   "authors": [
+    "Tang",
+    "Zou",
+    "Zhang",
+    "Zhao",
+    "Zhang",
+    "Cohan",
+    "Gerstein"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2024.findings-acl.33",
+    "title": "MedAgents: Large Language Models as Collaborators for Zero-shot Medical Reasoning",
+    "year": 2024,
+    "first_author": "Tang",
+    "container": "Findings of the Association for Computational Linguistics ACL 2024",
+    "type": "proceedings-article",
+    "score": 67.56829
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 31,
+   "raw": "[31] Xintao Wang, Yunze Xiao, Jen tse Huang, Siyu Yuan, Rui Xu, Haoran Guo, Quan Tu, Yaying Fei, Ziang Leng, Wei Wang, Jiangjie Chen, Cheng Li, and Yanghua Xiao. Incharacter: Evaluating personality fidelity in role-playing agents through psychological interviews. 2024.",
+   "title": "Incharacter: Evaluating personality fidelity in role-playing agents through psychological interviews",
+   "authors": [
+    "Wang",
+    "Xiao",
+    "Huang",
+    "Yuan",
+    "Xu",
+    "Guo",
+    "Tu",
+    "Fei",
+    "Leng",
+    "Wang",
+    "Chen",
+    "Li",
+    "Xiao"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2024.acl-long.102",
+    "title": "InCharacter: Evaluating Personality Fidelity in Role-Playing Agents through Psychological Interviews",
+    "year": 2024,
+    "first_author": "Wang",
+    "container": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "type": "proceedings-article",
+    "score": 64.09388
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 32,
+   "raw": "[32] Jason Wei, Xuezhi Wang, Dale Schuurmans, Maarten Bosma, Fei Xia, Ed Chi, Quoc V. Le, and Denny Zhou. Chain-of-thought prompting elicits reasoning in large language models. In Advances in Neural Information Processing Systems, volume 35, pages 24824\u201324837, 2022.",
+   "title": "Chain-of-thought prompting elicits reasoning in large language models",
+   "authors": [
+    "Wei",
+    "Wang",
+    "Schuurmans",
+    "Bosma",
+    "Xia",
+    "Chi",
+    "Le",
+    "Zhou"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/068431-1800",
+    "title": "Chain-Of-Thought Prompting Elicits Reasoning in Large Language Models",
+    "year": 2022,
+    "first_author": "Wei",
+    "container": "Advances in Neural Information Processing Systems 35",
+    "type": "proceedings-article",
+    "score": 60.12531
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 33,
+   "raw": "[33] Jiaxin Xu et al. Towards autonomous agents with llms: A survey of single-agent and multi-agent systems. arXiv preprint, 2023.",
+   "title": "Towards autonomous agents with llms: A survey of single-agent and multi-agent systems",
+   "authors": [
+    "Xu"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1023/a:1011443827037",
+      "title": "Towards a Reference Model for Surveying Mobile Agent Systems",
+      "year": 2001,
+      "first_author": "Silva",
+      "container": "Autonomous Agents and Multi-Agent Systems",
+      "type": "journal-article",
+      "score": 52.743137
+     },
+     "metrics": {
+      "title_sim": 62.31884057971015,
+      "containment": 0.333,
+      "partial_ratio": 55.00000000000001,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  }
+ ]
+}

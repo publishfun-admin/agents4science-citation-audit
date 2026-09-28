@@ -1,0 +1,1691 @@
+{
+ "pdf": "122_OG8sFxeNHv.pdf",
+ "n_entries": 42,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": false,
+ "parser_version": 2,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "[1]    OpenAI Josh Achiam et al. \u201cGPT-4 Technical Report\u201d. In: 2023.",
+   "title": "GPT-4 Technical Report\u201d",
+   "authors": [
+    "Achiam"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.36227/techrxiv.22312330.v2",
+      "title": "GPT-4 vs. GPT-3",
+      "year": 2023,
+      "first_author": "Koubaa",
+      "container": "",
+      "type": "posted-content",
+      "score": 21.426008
+     },
+     "metrics": {
+      "title_sim": 66.66666666666666,
+      "containment": 1.0,
+      "partial_ratio": 50.0,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2]    Jes\u00fas M. Almendros-Jim\u00e9nez. \u201cXQOWL: An Extension of XQuery for OWL Querying and Reasoning\u201d. In: (2015). DOI: 10.48550/ARXIV.1501.02033. URL: https://arxiv.org/ abs/1501.02033.",
+   "title": "XQOWL: An Extension of XQuery for OWL Querying and Reasoning\u201d",
+   "authors": [
+    "Almendros-Jim\u00e9nez"
+   ],
+   "year": 2015,
+   "doi": "10.48550/ARXIV.1501.02033",
+   "arxiv": null,
+   "urls": [
+    "https://arxiv.org/"
+   ],
+   "container": "In",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.4204/eptcs.173.4",
+    "title": "XQOWL: An Extension of XQuery for OWL Querying and Reasoning",
+    "year": 2015,
+    "first_author": "Almendros-Jim\u00e9nez",
+    "container": "Electronic Proceedings in Theoretical Computer Science",
+    "type": "journal-article",
+    "score": 86.04979
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "doi_not_resolvable",
+     "doi": "10.48550/ARXIV.1501.02033"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3]    Rami Aly et al. \u201cFEVEROUS: Fact Extraction and VERification Over Unstructured and Structured information\u201d. In: ArXiv abs/2106.05707 (2021).",
+   "title": "FEVEROUS: Fact Extraction and VERification Over Unstructured and Structured information\u201d",
+   "authors": [
+    "Aly"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": "2106.05707",
+   "urls": [],
+   "container": "ArXiv",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2106.05707",
+    "title": "FEVEROUS: Fact Extraction and VERification Over Unstructured and Structured information",
+    "year": 2021,
+    "first_author": "Rami Aly"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4]    Wenhu Chen et al. \u201cProgram of Thoughts Prompting: Disentangling Computation from Reasoning for Numerical Reasoning Tasks\u201d. In: Trans. Mach. Learn. Res. 2023 (2022).",
+   "title": "Program of Thoughts Prompting: Disentangling Computation from Reasoning for Numerical Reasoning Tasks\u201d",
+   "authors": [
+    "Chen"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.18653/v1/2023.findings-acl.668",
+      "title": "Leveraging Training Data in Few-Shot Prompting for Numerical Reasoning",
+      "year": 2023,
+      "first_author": "Jie",
+      "container": "Findings of the Association for Computational Linguistics: ACL 2023",
+      "type": "proceedings-article",
+      "score": 38.08011
+     },
+     "metrics": {
+      "title_sim": 64.07766990291262,
+      "containment": 0.375,
+      "partial_ratio": 68.57142857142857,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5]    Wenhu Chen et al. \u201cTabFact: A Large-scale Dataset for Table-based Fact Verification\u201d. In: ArXiv abs/1909.02164 (2019).",
+   "title": "TabFact: A Large-scale Dataset for Table-based Fact Verification\u201d",
+   "authors": [
+    "Chen"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": "1909.02164",
+   "urls": [],
+   "container": "ArXiv",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "1909.02164",
+    "title": "TabFact: A Large-scale Dataset for Table-based Fact Verification",
+    "year": 2019,
+    "first_author": "Wenhu Chen"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[6]    Zhiyu Chen et al. \u201cFinQA: A Dataset of Numerical Reasoning over Financial Data\u201d. In: Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing.",
+   "title": "FinQA: A Dataset of Numerical Reasoning over Financial Data\u201d",
+   "authors": [
+    "Chen"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2021.emnlp-main.300",
+    "title": "FinQA: A Dataset of Numerical Reasoning over Financial Data",
+    "year": 2021,
+    "first_author": "Chen",
+    "container": "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing",
+    "type": "proceedings-article",
+    "score": 45.90667
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "Association for Computational Linguistics, 2021. DOI: 10.18653/v1/2021.emnlp-main.",
+   "title": "Association for Computational Linguistics",
+   "authors": [],
+   "year": 2021,
+   "doi": "10.18653/v1/2021.emnlp-main",
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2021.findings-emnlp",
+    "title": "Findings of the Association for Computational Linguistics: EMNLP 2021",
+    "year": 2021,
+    "first_author": null,
+    "container": "",
+    "type": "proceedings",
+    "score": 28.241821
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.833,
+    "partial_ratio": 80.70175438596492,
+    "year_ok": true,
+    "first_author_ok": null
+   },
+   "evidence": [
+    {
+     "step": "doi_resolves_title_mismatch",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.18653/v1/2021.emnlp-main",
+      "title": "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing",
+      "year": 2021,
+      "first_author": null,
+      "container": "",
+      "type": "proceedings",
+      "score": 1
+     },
+     "metrics": {
+      "title_sim": 39.370078740157474,
+      "containment": 0.125,
+      "partial_ratio": 35.71428571428571,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ]
+  },
+  {
+   "junk": true,
+   "idx": 8,
+   "raw": "300. URL: http://dx.doi.org/10.18653/v1/2021.emnlp-main.300.",
+   "title": null,
+   "authors": [],
+   "year": null,
+   "doi": "10.18653/v1/2021.emnlp-main.300",
+   "arxiv": null,
+   "urls": [
+    "http://dx.doi.org/10.18653/v1/2021.emnlp-main.300"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "doi_resolves_title_mismatch",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.18653/v1/2021.emnlp-main.300",
+      "title": "FinQA: A Dataset of Numerical Reasoning over Financial Data",
+      "year": 2021,
+      "first_author": "Chen",
+      "container": "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing",
+      "type": "proceedings-article",
+      "score": 1
+     },
+     "metrics": {
+      "title_sim": 0,
+      "containment": 0.0,
+      "partial_ratio": 31.57894736842105,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2458/azu_acku_ds354_58_ain62_1348",
+      "title": "Temporary Empty DOI 300",
+      "year": 2003,
+      "first_author": null,
+      "container": "",
+      "type": "monograph",
+      "score": 31.886894
+     },
+     "metrics": {
+      "title_sim": 0,
+      "containment": 0.5,
+      "partial_ratio": 54.054054054054056,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[7]    Hyung Won Chung et al. Scaling Instruction-Finetuned Language Models. 2022. DOI: 10. 48550/ARXIV.2210.11416. URL: https://arxiv.org/abs/2210.11416.",
+   "title": "Scaling Instruction-Finetuned Language Models",
+   "authors": [
+    "Chung"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": "2210.11416",
+   "urls": [
+    "https://arxiv.org/abs/2210.11416"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2210.11416",
+    "title": "Scaling Instruction-Finetuned Language Models",
+    "year": 2022,
+    "first_author": "Hyung Won Chung"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[8]    F. Doshi-Velez and Been Kim. \u201cTowards A Rigorous Science of Interpretable Machine Learning\u201d. In: arXiv: Machine Learning (2017).",
+   "title": "Towards A Rigorous Science of Interpretable Machine Learning\u201d",
+   "authors": [
+    "Doshi-Velez",
+    "Kim"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/978-3-319-98131-4_1",
+      "title": "Considerations for Evaluation and Generalization in Interpretable Machine Learning",
+      "year": 2018,
+      "first_author": "Doshi-Velez",
+      "container": "The Springer Series on Challenges in Machine Learning",
+      "type": "book-chapter",
+      "score": 42.30101
+     },
+     "metrics": {
+      "title_sim": 66.66666666666666,
+      "containment": 0.5,
+      "partial_ratio": 59.756097560975604,
+      "year_ok": true,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": true,
+   "idx": 11,
+   "raw": "[9]    Dheeru Dua et al. In: Proceedings of the 2019 Conference of the North. Association for Computational Linguistics, 2019. DOI: 10.18653/v1/n19-1246. URL: http://dx.doi. org/10.18653/v1/N19-1246.",
+   "title": "Dheeru Dua et al",
+   "authors": [],
+   "year": null,
+   "doi": "10.18653/v1/n19-1246",
+   "arxiv": null,
+   "urls": [
+    "http://dx.doi"
+   ],
+   "container": "Proceedings of the 2019 Conference of the North. Association for Computational Linguistics, 2019",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "doi_resolves_title_mismatch",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.18653/v1/n19-1246",
+      "title": "DROP: A Reading Comprehension Benchmark Requiring Discrete Reasoning Over Paragraphs",
+      "year": 2019,
+      "first_author": "Dua",
+      "container": "Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)",
+      "type": "proceedings-article",
+      "score": 1
+     },
+     "metrics": {
+      "title_sim": 26.262626262626267,
+      "containment": 0.0,
+      "partial_ratio": 44.57831325301205,
+      "year_ok": true,
+      "first_author_ok": true
+     }
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/s00296-011-2052-2",
+      "title": "Reply to Dua SG et al.",
+      "year": 2012,
+      "first_author": "Ulusoy",
+      "container": "Rheumatology International",
+      "type": "journal-article",
+      "score": 21.378006
+     },
+     "metrics": {
+      "title_sim": 72.0,
+      "containment": 0.5,
+      "partial_ratio": 56.41025641025641,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    },
+    {
+     "step": "urls_not_live",
+     "url_status": {
+      "http://dx.doi": "error"
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "[10]    Luyu Gao et al. PAL: Program-aided Language Models. 2022. DOI: 10.48550/ARXIV.2211. 10435. URL: https://arxiv.org/abs/2211.10435.",
+   "title": "PAL: Program-aided Language Models",
+   "authors": [
+    "Gao"
+   ],
+   "year": 2022,
+   "doi": "10.48550/ARXIV.2211",
+   "arxiv": "2211.10435",
+   "urls": [
+    "https://arxiv.org/abs/2211.10435"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2211.10435",
+    "title": "PAL: Program-aided Language Models",
+    "year": 2022,
+    "first_author": "Luyu Gao"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "doi_not_resolvable",
+     "doi": "10.48550/ARXIV.2211"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "[11]    Rajesh Gopakumar et al. \u201cOM Theory in Diverse Dimensions\u201d. In: (2000). DOI: 10.48550/ ARXIV.HEP-TH/0006062. URL: https://arxiv.org/abs/hep-th/0006062.",
+   "title": "OM Theory in Diverse Dimensions\u201d",
+   "authors": [
+    "Gopakumar"
+   ],
+   "year": 2000,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://arxiv.org/abs/hep-th/0006062"
+   ],
+   "container": "In",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1088/1126-6708/2000/08/008",
+    "title": "OM theory in diverse dimensions",
+    "year": 2000,
+    "first_author": "Gopakumar",
+    "container": "Journal of High Energy Physics",
+    "type": "journal-article",
+    "score": 47.083847
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "[12]    Jonathan Herzig et al. \u201cTaPas: Weakly Supervised Table Parsing via Pre-training\u201d. In: Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics. Association for Computational Linguistics, 2020. DOI: 10 . 18653 / v1 / 2020 . acl - main . 398. URL: http://dx.doi.org/10.18653/v1/2020.acl-main.398.",
+   "title": "TaPas: Weakly Supervised Table Parsing via Pre-training\u201d",
+   "authors": [
+    "Herzig"
+   ],
+   "year": null,
+   "doi": "10.18653/v1/2020.acl-main.398",
+   "arxiv": null,
+   "urls": [
+    "http://dx.doi.org/10.18653/v1/2020.acl-main.398"
+   ],
+   "container": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics. Association for Computational Linguistics, 2020. DOI",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2020.acl-main.398",
+    "title": "TaPas: Weakly Supervised Table Parsing via Pre-training",
+    "year": 2020,
+    "first_author": "Herzig",
+    "container": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+    "type": "proceedings-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "[13]    Bin Ji. VicunaNER: Zero/Few-shot Named Entity Recognition using Vicuna. 2023. DOI: 10. 48550/ARXIV.2305.03253. URL: https://arxiv.org/abs/2305.03253.",
+   "title": "VicunaNER: Zero/Few-shot Named Entity Recognition using Vicuna",
+   "authors": [
+    "Ji"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2305.03253",
+   "urls": [
+    "https://arxiv.org/abs/2305.03253"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2305.03253",
+    "title": "VicunaNER: Zero/Few-shot Named Entity Recognition using Vicuna",
+    "year": 2023,
+    "first_author": "Bin Ji"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 16,
+   "raw": "[14]    J. Kaplan et al. \u201cScaling Laws for Neural Language Models\u201d. In: ArXiv abs/2001.08361 (2020).",
+   "title": "Scaling Laws for Neural Language Models\u201d",
+   "authors": [
+    "Kaplan"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": "2001.08361",
+   "urls": [],
+   "container": "ArXiv abs/2001.08361",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2001.08361",
+    "title": "Scaling Laws for Neural Language Models",
+    "year": 2020,
+    "first_author": "Jared Kaplan"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 17,
+   "raw": "[15]    Maxime Lefran\u00e7ois and Antoine Zimmermann. \u201cThe Unified Code for Units of Measure in RDF: cdt:ucum and other UCUM Datatypes\u201d. In: The Semantic Web: ESWC 2018 Satellite Events. Springer International Publishing, 2018, pp. 196\u2013201. ISBN: 9783319981925. DOI: 10.1007/978-3-319-98192-5_37. URL: http://dx.doi.org/10.1007/978-3-319-98192-5_37.",
+   "title": "The Unified Code for Units of Measure in RDF: cdt:ucum and other UCUM Datatypes\u201d",
+   "authors": [
+    "Lefran\u00e7ois",
+    "Zimmermann"
+   ],
+   "year": 2018,
+   "doi": "10.1007/978-3-319-98192-5_37",
+   "arxiv": null,
+   "urls": [
+    "http://dx.doi.org/10.1007/978-3-319-98192-5_37"
+   ],
+   "container": "The Semantic Web: ESWC 2018 Satellite Events",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/978-3-319-98192-5_37",
+    "title": "The Unified Code for Units of Measure in RDF: cdt:ucum and other UCUM Datatypes",
+    "year": 2018,
+    "first_author": "Lefran\u00e7ois",
+    "container": "Lecture Notes in Computer Science",
+    "type": "book-chapter",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 18,
+   "raw": "[16] Chen Liang et al. \u201cNeural Symbolic Machines: Learning Semantic Parsers on Freebase with Weak Supervision\u201d. In: Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). Association for Computational Linguistics, 2017. DOI: 10.18653/v1/p17-1003. URL: http://dx.doi.org/10.18653/ v1/P17-1003.",
+   "title": "Neural Symbolic Machines: Learning Semantic Parsers on Freebase with Weak Supervision\u201d",
+   "authors": [
+    "Liang"
+   ],
+   "year": 2017,
+   "doi": "10.18653/v1/p17-1003",
+   "arxiv": null,
+   "urls": [
+    "http://dx.doi.org/10.18653/"
+   ],
+   "container": "Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/p17-1003",
+    "title": "Neural Symbolic Machines: Learning Semantic Parsers on Freebase\n            with Weak Supervision",
+    "year": 2017,
+    "first_author": "Liang",
+    "container": "Proceedings of the 55th Annual Meeting of the Association for\n          Computational Linguistics (Volume 1: Long Papers)",
+    "type": "proceedings-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 19,
+   "raw": "[17] Bill Yuchen Lin et al. \u201cBirds have four legs?! NumerSense: Probing Numerical Commonsense Knowledge of Pre-Trained Language Models\u201d. In: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP). Association for Computational Linguistics, 2020. DOI: 10.18653/v1/2020.emnlp- main.557. URL: http://dx.doi. org/10.18653/v1/2020.emnlp-main.557.",
+   "title": "Birds have four legs?! NumerSense: Probing Numerical Commonsense Knowledge of Pre-Trained Language Models\u201d",
+   "authors": [
+    "Lin"
+   ],
+   "year": 2020,
+   "doi": "10.18653/v1/2020.emnlp-",
+   "arxiv": null,
+   "urls": [
+    "http://dx.doi"
+   ],
+   "container": "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP). Association for Computational Linguistics",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2020.emnlp-main.557",
+    "title": "Birds have four legs?! NumerSense: Probing Numerical Commonsense Knowledge of Pre-Trained Language Models",
+    "year": 2020,
+    "first_author": "Lin",
+    "container": "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+    "type": "proceedings-article",
+    "score": 103.55655
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "doi_not_resolvable",
+     "doi": "10.18653/v1/2020.emnlp-"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 20,
+   "raw": "[18] Hao Liu et al. \u201cRetrieval augmented scientific claim verification\u201d. In: JAMIA Open 7.1 (Jan. 2024). ISSN: 2574-2531. DOI: 10.1093/jamiaopen/ooae021. URL: http://dx.doi.org/ 10.1093/jamiaopen/ooae021.",
+   "title": "Retrieval augmented scientific claim verification\u201d",
+   "authors": [
+    "Liu"
+   ],
+   "year": 2024,
+   "doi": "10.1093/jamiaopen/ooae021",
+   "arxiv": null,
+   "urls": [
+    "http://dx.doi.org/"
+   ],
+   "container": "JAMIA Open",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1093/jamiaopen/ooae021",
+    "title": "Retrieval augmented scientific claim verification",
+    "year": 2024,
+    "first_author": "Liu",
+    "container": "JAMIA Open",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 21,
+   "raw": "[19] Qian Liu et al. \u201cTAPEX: Table Pre-training via Learning a Neural SQL Executor\u201d. In: ArXiv abs/2107.07653 (2021).",
+   "title": "TAPEX: Table Pre-training via Learning a Neural SQL Executor\u201d",
+   "authors": [
+    "Liu"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": "2107.07653",
+   "urls": [],
+   "container": "ArXiv",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2107.07653",
+    "title": "TAPEX: Table Pre-training via Learning a Neural SQL Executor",
+    "year": 2021,
+    "first_author": "Qian Liu"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 22,
+   "raw": "[20] Xinyuan Lu et al. SCITAB: A Challenging Benchmark for Compositional Reasoning and Claim Verification on Scientific Tables. 2023. DOI: 10.48550/ARXIV.2305.13186. URL: https://arxiv.org/abs/2305.13186.",
+   "title": "SCITAB: A Challenging Benchmark for Compositional Reasoning and Claim Verification on Scientific Tables",
+   "authors": [
+    "Lu"
+   ],
+   "year": 2023,
+   "doi": "10.48550/ARXIV.2305.13186",
+   "arxiv": "2305.13186",
+   "urls": [
+    "https://arxiv.org/abs/2305.13186"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2305.13186",
+    "title": "SCITAB: A Challenging Benchmark for Compositional Reasoning and Claim Verification on Scientific Tables",
+    "year": 2023,
+    "first_author": "Xinyuan Lu"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "doi_not_resolvable",
+     "doi": "10.48550/ARXIV.2305.13186"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 23,
+   "raw": "[21] Aakanksha Naik et al. \u201cStress Test Evaluation for Natural Language Inference\u201d. In: ArXiv abs/1806.00692 (2018).",
+   "title": "Stress Test Evaluation for Natural Language Inference\u201d",
+   "authors": [
+    "Naik"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": "1806.00692",
+   "urls": [],
+   "container": "ArXiv",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "1806.00692",
+    "title": "Stress Test Evaluation for Natural Language Inference",
+    "year": 2018,
+    "first_author": "Aakanksha Naik"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 24,
+   "raw": "[22] Arvind Neelakantan, Quoc V. Le, and I. Sutskever. \u201cNeural Programmer: Inducing Latent Programs with Gradient Descent\u201d. In: CoRR abs/1511.04834 (2015).",
+   "title": "Neural Programmer: Inducing Latent Programs with Gradient Descent\u201d",
+   "authors": [
+    "Neelakantan",
+    "Le",
+    "Sutskever"
+   ],
+   "year": 2015,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "CoRR abs/1511.04834",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.7551/mitpress/3905.003.0011",
+      "title": "Gradient Descent Algorithms",
+      "year": 1995,
+      "first_author": null,
+      "container": "An Introduction to Neural Networks",
+      "type": "book-chapter",
+      "score": 28.882048
+     },
+     "metrics": {
+      "title_sim": 74.4186046511628,
+      "containment": 0.667,
+      "partial_ratio": 70.37037037037037,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 25,
+   "raw": "[23] Long Ouyang et al. \u201cTraining language models to follow instructions with human feedback\u201d. In: ArXiv abs/2203.02155 (2022).",
+   "title": "Training language models to follow instructions with human feedback\u201d",
+   "authors": [
+    "Ouyang"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": "2203.02155",
+   "urls": [],
+   "container": "ArXiv",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2203.02155",
+    "title": "Training language models to follow instructions with human feedback",
+    "year": 2022,
+    "first_author": "Long Ouyang"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 26,
+   "raw": "[24] Raul Palma et al. GloSIS: The Global Soil Information System Web Ontology. 2024. DOI: 10.48550/ARXIV.2403.16778. URL: https://arxiv.org/abs/2403.16778.",
+   "title": "GloSIS: The Global Soil Information System Web Ontology",
+   "authors": [
+    "Palma"
+   ],
+   "year": 2024,
+   "doi": "10.48550/ARXIV.2403.16778",
+   "arxiv": "2403.16778",
+   "urls": [
+    "https://arxiv.org/abs/2403.16778"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2403.16778",
+    "title": "GloSIS: The Global Soil Information System Web Ontology",
+    "year": 2024,
+    "first_author": "Raul Palma"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "doi_not_resolvable",
+     "doi": "10.48550/ARXIV.2403.16778"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 27,
+   "raw": "[25] Panupong Pasupat and Percy Liang. \u201cCompositional Semantic Parsing on Semi-Structured Tables\u201d. In: Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics and the 7th International Joint Conference on Natural Language Processing (Volume 1: Long Papers). Association for Computational Linguistics, 2015. DOI: 10.3115/ v1/p15-1142. URL: http://dx.doi.org/10.3115/v1/P15-1142.",
+   "title": "Compositional Semantic Parsing on Semi-Structured Tables\u201d",
+   "authors": [
+    "Pasupat",
+    "Liang"
+   ],
+   "year": 2015,
+   "doi": "10.3115/v1/P15-1142",
+   "arxiv": null,
+   "urls": [
+    "http://dx.doi.org/10.3115/v1/P15-1142"
+   ],
+   "container": "Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics and the 7th International Joint Conference on Natural Language Processing (Volume 1: Long Papers",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.3115/v1/p15-1142",
+    "title": "Compositional Semantic Parsing on Semi-Structured Tables",
+    "year": 2015,
+    "first_author": "Pasupat",
+    "container": "Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics and the 7th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+    "type": "proceedings-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 28,
+   "raw": "[26] Qiu Ran et al. NumNet: Machine Reading Comprehension with Numerical Reasoning. 2019. DOI : 10.48550/ARXIV.1910.06701. URL : https://arxiv.org/abs/1910.06701.",
+   "title": "NumNet: Machine Reading Comprehension with Numerical Reasoning",
+   "authors": [
+    "Ran"
+   ],
+   "year": 2019,
+   "doi": "10.48550/ARXIV.1910.06701",
+   "arxiv": "1910.06701",
+   "urls": [
+    "https://arxiv.org/abs/1910.06701"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "1910.06701",
+    "title": "NumNet: Machine Reading Comprehension with Numerical Reasoning",
+    "year": 2019,
+    "first_author": "Qiu Ran"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "doi_not_resolvable",
+     "doi": "10.48550/ARXIV.1910.06701"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 29,
+   "raw": "[27] Qiu Ran et al. \u201cNumNet: Machine Reading Comprehension with Numerical Reasoning\u201d. In: Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP). Association for Computational Linguistics, 2019. DOI: 10.18653/v1/d19-1251. URL: http://dx.doi.org/10.18653/v1/D19-1251.",
+   "title": "NumNet: Machine Reading Comprehension with Numerical Reasoning\u201d",
+   "authors": [
+    "Ran"
+   ],
+   "year": 2019,
+   "doi": "10.18653/v1/d19-1251",
+   "arxiv": null,
+   "urls": [
+    "http://dx.doi.org/10.18653/v1/D19-1251"
+   ],
+   "container": "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP). Association for Computational Linguistics",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/d19-1251",
+    "title": "NumNet: Machine Reading Comprehension with Numerical Reasoning",
+    "year": 2019,
+    "first_author": "Ran",
+    "container": "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)",
+    "type": "proceedings-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 30,
+   "raw": "[28] Abhilasha Ravichander et al. \u201cEQUATE: A Benchmark Evaluation Framework for Quantitative Reasoning in Natural Language Inference\u201d. In: Proceedings of the 23rd Conference on Computational Natural Language Learning (CoNLL). Association for Computational Linguistics, 2019, pp. 349\u2013361. DOI: 10.18653/v1/k19-1033. URL: http://dx.doi.org/10.18653/ v1/K19-1033.",
+   "title": "EQUATE: A Benchmark Evaluation Framework for Quantitative Reasoning in Natural Language Inference\u201d",
+   "authors": [
+    "Ravichander"
+   ],
+   "year": 2019,
+   "doi": "10.18653/v1/k19-1033",
+   "arxiv": null,
+   "urls": [
+    "http://dx.doi.org/10.18653/"
+   ],
+   "container": "Proceedings of the 23rd Conference on Computational Natural Language Learning (CoNLL",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/k19-1033",
+    "title": "EQUATE: A Benchmark Evaluation Framework for Quantitative Reasoning in Natural Language Inference",
+    "year": 2019,
+    "first_author": "Ravichander",
+    "container": "Proceedings of the 23rd Conference on Computational Natural Language Learning (CoNLL)",
+    "type": "proceedings-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 31,
+   "raw": "[29] Hajo Rijgersberg, Mark van Assem, and Jan Top. \u201cOntology of units of measure and related concepts\u201d. In: Semantic Web 4.1 (2013), pp. 3\u201313. ISSN: 1570-0844. DOI: 10.3233/sw-2012-0069. URL: http://dx.doi.org/10.3233/SW-2012-0069.",
+   "title": "Ontology of units of measure and related concepts\u201d",
+   "authors": [
+    "Rijgersberg",
+    "Assem",
+    "Top"
+   ],
+   "year": 2013,
+   "doi": "10.3233/SW-2012-0069",
+   "arxiv": null,
+   "urls": [
+    "http://dx.doi.org/10.3233/SW-2012-0069"
+   ],
+   "container": "Semantic Web",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.3233/sw-2012-0069",
+    "title": "Ontology of units of measure and related concepts",
+    "year": 2013,
+    "first_author": "Rijgersberg",
+    "container": "Semantic Web",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 32,
+   "raw": "[30] Cynthia Rudin. \u201cStop explaining black box machine learning models for high stakes decisions and use interpretable models instead\u201d. In: Nature Machine Intelligence 1.5 (May 2019), pp. 206\u2013215. ISSN: 2522-5839. DOI: 10.1038/s42256-019-0048-x. URL: http://dx. doi.org/10.1038/s42256-019-0048-x.",
+   "title": "Stop explaining black box machine learning models for high stakes decisions and use interpretable models instead\u201d",
+   "authors": [
+    "Rudin"
+   ],
+   "year": 2019,
+   "doi": "10.1038/s42256-019-0048-x",
+   "arxiv": null,
+   "urls": [
+    "http://dx"
+   ],
+   "container": "Nature Machine Intelligence",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/s42256-019-0048-x",
+    "title": "Stop explaining black box machine learning models for high stakes decisions and use interpretable models instead",
+    "year": 2019,
+    "first_author": "Rudin",
+    "container": "Nature Machine Intelligence",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 33,
+   "raw": "[31] Timo Schick et al. Toolformer: Language Models Can Teach Themselves to Use Tools. 2023. DOI : 10.48550/ARXIV.2302.04761. URL : https://arxiv.org/abs/2302.04761.",
+   "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+   "authors": [
+    "Schick"
+   ],
+   "year": 2023,
+   "doi": "10.48550/ARXIV.2302.04761",
+   "arxiv": "2302.04761",
+   "urls": [
+    "https://arxiv.org/abs/2302.04761"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2302.04761",
+    "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+    "year": 2023,
+    "first_author": "Timo Schick"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "doi_not_resolvable",
+     "doi": "10.48550/ARXIV.2302.04761"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 34,
+   "raw": "[32] Ananya Singha et al. Tabular Representation, Noisy Operators, and Impacts on Table Structure Understanding Tasks in LLMs. 2023. DOI: 10.48550/ARXIV.2310.10358. URL: https: //arxiv.org/abs/2310.10358.",
+   "title": "Tabular Representation, Noisy Operators, and Impacts on Table Structure Understanding Tasks in LLMs",
+   "authors": [
+    "Singha"
+   ],
+   "year": 2023,
+   "doi": "10.48550/ARXIV.2310.10358",
+   "arxiv": "2310.10358",
+   "urls": [
+    "https:"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2310.10358",
+    "title": "Tabular Representation, Noisy Operators, and Impacts on Table Structure Understanding Tasks in LLMs",
+    "year": 2023,
+    "first_author": "Ananya Singha"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "doi_not_resolvable",
+     "doi": "10.48550/ARXIV.2310.10358"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 35,
+   "raw": "[33] Hugo Touvron et al. \u201cLLaMA: Open and Efficient Foundation Language Models\u201d. In: ArXiv abs/2302.13971 (2023).",
+   "title": "LLaMA: Open and Efficient Foundation Language Models\u201d",
+   "authors": [
+    "Touvron"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2302.13971",
+   "urls": [],
+   "container": "ArXiv",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2302.13971",
+    "title": "LLaMA: Open and Efficient Foundation Language Models",
+    "year": 2023,
+    "first_author": "Hugo Touvron"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 36,
+   "raw": "[34] Yizhong Wang et al. Self-Instruct: Aligning Language Models with Self-Generated Instructions. 2022. DOI: 10 . 48550 / ARXIV . 2212 . 10560. URL: https : / / arxiv . org / abs / 2212 . 10560.",
+   "title": "Self-Instruct: Aligning Language Models with Self-Generated Instructions",
+   "authors": [
+    "Wang"
+   ],
+   "year": 2022,
+   "doi": "DOI:",
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2023.acl-long.754",
+    "title": "Self-Instruct: Aligning Language Models with Self-Generated Instructions",
+    "year": 2023,
+    "first_author": "Wang",
+    "container": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "type": "proceedings-article",
+    "score": 58.74125
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "doi_not_resolvable",
+     "doi": "DOI:"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 37,
+   "raw": "[35] Jason Wei et al. \u201cChain of Thought Prompting Elicits Reasoning in Large Language Models\u201d. In: ArXiv abs/2201.11903 (2022).",
+   "title": "Chain of Thought Prompting Elicits Reasoning in Large Language Models\u201d",
+   "authors": [
+    "Wei"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": "2201.11903",
+   "urls": [],
+   "container": "ArXiv",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2201.11903",
+    "title": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+    "year": 2022,
+    "first_author": "Jason Wei"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 38,
+   "raw": "[36] Jinyeong Yim Wonseok Hwang. \u201cSyntactic Question Abstraction and Retrieval for Data-Scarce Semantic Parsing\u201d. In: (2020). DOI: 10.24432/C54S36. URL: https://www.akbc.ws/ 2020/papers/5c_ZmAdVfI.",
+   "title": "Syntactic Question Abstraction and Retrieval for Data-Scarce Semantic Parsing\u201d",
+   "authors": [
+    "Hwang"
+   ],
+   "year": 2020,
+   "doi": "10.24432/C54S36",
+   "arxiv": null,
+   "urls": [
+    "https://www.akbc.ws/"
+   ],
+   "container": "In",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED_URL",
+   "via": "url",
+   "url_status": {
+    "https://www.akbc.ws/": 200
+   },
+   "evidence": [
+    {
+     "step": "doi_not_resolvable",
+     "doi": "10.24432/C54S36"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.6028/nist.sp.500-250.york",
+      "title": "A ProtoType Question Answering System Using Syntactic and Semantic  Information for Answer Retrieval",
+      "year": 2001,
+      "first_author": "Alfonseca",
+      "container": "",
+      "type": "component",
+      "score": 33.69134
+     },
+     "metrics": {
+      "title_sim": 73.77049180327869,
+      "containment": 0.444,
+      "partial_ratio": 54.33526011560694,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 39,
+   "raw": "[37] Pengcheng Yin et al. \u201cTaBERT: Pretraining for Joint Understanding of Textual and Tabular Data\u201d. In: Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics. Association for Computational Linguistics, 2020. DOI: 10.18653/v1/2020.aclmain.745. URL: http://dx.doi.org/10.18653/v1/2020.acl-main.745.",
+   "title": "TaBERT: Pretraining for Joint Understanding of Textual and Tabular Data\u201d",
+   "authors": [
+    "Yin"
+   ],
+   "year": 2020,
+   "doi": "10.18653/v1/2020.aclmain.745",
+   "arxiv": null,
+   "urls": [
+    "http://dx.doi.org/10.18653/v1/2020.acl-main.745"
+   ],
+   "container": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2020.acl-main.745",
+    "title": "TaBERT: Pretraining for Joint Understanding of Textual and Tabular Data",
+    "year": 2020,
+    "first_author": "Yin",
+    "container": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+    "type": "proceedings-article",
+    "score": 67.70089
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "doi_not_resolvable",
+     "doi": "10.18653/v1/2020.aclmain.745"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 40,
+   "raw": "[38] Raoyuan Zhao et al. SYNTHEVAL: Hybrid Behavioral Testing of NLP Models with Synthetic CheckLists. 2024. DOI: 10.48550/ARXIV.2408.17437. URL: https://arxiv.org/abs/ 2408.17437.",
+   "title": "SYNTHEVAL: Hybrid Behavioral Testing of NLP Models with Synthetic CheckLists",
+   "authors": [
+    "Zhao"
+   ],
+   "year": 2024,
+   "doi": "10.48550/ARXIV.2408.17437",
+   "arxiv": null,
+   "urls": [
+    "https://arxiv.org/abs/"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2024.findings-emnlp.412",
+    "title": "SynthEval: Hybrid Behavioral Testing of NLP Models with Synthetic Evaluation",
+    "year": 2024,
+    "first_author": "Zhao",
+    "container": "Findings of the Association for Computational Linguistics: EMNLP 2024",
+    "type": "proceedings-article",
+    "score": 61.13327
+   },
+   "metrics": {
+    "title_sim": 92.0863309352518,
+    "containment": 0.875,
+    "partial_ratio": 90.66666666666666,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "doi_not_resolvable",
+     "doi": "10.48550/ARXIV.2408.17437"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 41,
+   "raw": "[39] Raoyuan Zhao et al. SYNTHEVAL: Hybrid Behavioral Testing of NLP Models with Synthetic CheckLists. 2024. DOI: 10.48550/ARXIV.2408.17437. URL: https://arxiv.org/abs/ 2408.17437.",
+   "title": "SYNTHEVAL: Hybrid Behavioral Testing of NLP Models with Synthetic CheckLists",
+   "authors": [
+    "Zhao"
+   ],
+   "year": 2024,
+   "doi": "10.48550/ARXIV.2408.17437",
+   "arxiv": null,
+   "urls": [
+    "https://arxiv.org/abs/"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2024.findings-emnlp.412",
+    "title": "SynthEval: Hybrid Behavioral Testing of NLP Models with Synthetic Evaluation",
+    "year": 2024,
+    "first_author": "Zhao",
+    "container": "Findings of the Association for Computational Linguistics: EMNLP 2024",
+    "type": "proceedings-article",
+    "score": 61.13327
+   },
+   "metrics": {
+    "title_sim": 92.0863309352518,
+    "containment": 0.875,
+    "partial_ratio": 90.66666666666666,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "doi_not_resolvable",
+     "doi": "10.48550/ARXIV.2408.17437"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 42,
+   "raw": "[40] Fengbin Zhu et al. \u201cTAT-QA: A Question Answering Benchmark on a Hybrid of Tabular and Textual Content in Finance\u201d. In: Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers). Association for Computational Linguistics, 2021. DOI: 10.18653/v1/2021.acl-long.254. URL: http://dx.doi.org/10.18653/v1/2021. acl-long.254.",
+   "title": "TAT-QA: A Question Answering Benchmark on a Hybrid of Tabular and Textual Content in Finance\u201d",
+   "authors": [
+    "Zhu"
+   ],
+   "year": 2021,
+   "doi": "10.18653/v1/2021.acl-long.254",
+   "arxiv": null,
+   "urls": [
+    "http://dx.doi.org/10.18653/v1/2021"
+   ],
+   "container": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2021.acl-long.254",
+    "title": "TAT-QA: A Question Answering Benchmark on a Hybrid of Tabular and Textual Content in Finance",
+    "year": 2021,
+    "first_author": "Zhu",
+    "container": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+    "type": "proceedings-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  }
+ ]
+}

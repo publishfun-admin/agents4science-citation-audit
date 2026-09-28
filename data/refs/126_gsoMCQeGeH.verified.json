@@ -322,7 +322,7 @@
    "container": "Journal of the American Veterinary Medical Association",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -345,7 +345,26 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "crossref_title",
+   "match": {
+    "source": "crossref",
+    "doi": "10.5749/minnesota/9780816693467.003.0012",
+    "title": "A Call to Action",
+    "year": 2015,
+    "first_author": "Green",
+    "container": "Degrees of Freedom",
+    "type": "book-chapter",
+    "score": 27.72109
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -862,7 +881,7 @@
    "container": "IEEE transactions on pattern analysis and machine intelligence",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -885,7 +904,33 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "441555b5cd09703e55c03e70bd2c9f82c0ffcf9b",
+    "title": "Deep High-Resolution Representation Learning for Visual Recognition",
+    "year": 2019,
+    "first_author": "Jingdong Wang",
+    "container": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+    "ext": {
+     "MAG": "3014641072",
+     "DBLP": "journals/pami/00010CJDZ0MTW0X21",
+     "ArXiv": "1908.07919",
+     "DOI": "10.1109/TPAMI.2020.2983686",
+     "CorpusId": 201124533,
+     "PubMed": "32248092"
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   }
- ]
+ ],
+ "second_pass": true
 }
