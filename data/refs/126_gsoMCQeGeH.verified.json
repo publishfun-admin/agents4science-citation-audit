@@ -1,0 +1,427 @@
+{
+ "pdf": "126_gsoMCQeGeH.pdf",
+ "n_entries": 9,
+ "fallback": true,
+ "error": null,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "257 259 261 265 267 269 271 273 275 277 279 281 283 285 287 289 291 M Ahmad, S Khan, S A Zamir, M F Khan, A Mian, F Khan, M Nisar, and J Ahmad. Comparison of deep learning models for the detection of cardiomegaly in chest radiographs. Diagnostics, 13 (15):2531, 2023. K Borgeat, G Wess, R Drees, C Schlueter, S Tappin, and C R Lamb. A clinically applicable deep learning-based system for automatic key point detection to calculate the vertebral heart score in dogs. Veterinary Radiology & Ultrasound, 64(5):786\u2013794, 2023. James W Buchanan and J B\u201ducheler. Vertebral scale system to measure canine heart size in radiographs. Journal of the American Veterinary Medical Association, 206(2):194\u2013199, 1995.",
+   "title": "Comparison of deep learning models for the detection of cardiomegaly in chest radiographs",
+   "authors": [
+    "Ahmad",
+    "Khan",
+    "Zamir",
+    "Khan",
+    "Mian",
+    "Khan",
+    "Nisar",
+    "Ahmad",
+    "Borgeat",
+    "Wess",
+    "Drees",
+    "Schlueter",
+    "Tappin",
+    "Lamb"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Diagnostics",
+   "type": "article-journal",
+   "parser": "anystyle-parse",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1145/3378936.3378968",
+      "title": "Performance Comparison of Deep Learning Models for Black Lung Detection on Chest X-ray Radiographs",
+      "year": 2020,
+      "first_author": "Devnath",
+      "container": "Proceedings of the 3rd International Conference on Software Engineering and Information Management",
+      "type": "proceedings-article",
+      "score": 37.93839
+     },
+     "metrics": {
+      "title_sim": 86.84210526315789,
+      "containment": 0.636,
+      "partial_ratio": 74.48979591836735,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "Yutong Chen, Mian Liu, Xiaomeng Li, Le Zhang, and Yizhou Wang. Cross-task attention network for medical image segmentation. In International Conference on Medical Image Computing and Computer-Assisted Intervention, pages 35\u201345. Springer, Cham, 2022.",
+   "title": "Cross-task attention network for medical image segmentation",
+   "authors": [
+    "Chen",
+    "Liu",
+    "Li",
+    "Zhang",
+    "Wang"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Conference on Medical Image Computing and Computer-Assisted Intervention",
+   "type": "paper-conference",
+   "parser": "anystyle-parse",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.4226726",
+      "title": "Danet: Dilated Attention Network for Medical Image Segmentation",
+      "year": 2022,
+      "first_author": "Wangkheirakpam",
+      "container": "",
+      "type": "posted-content",
+      "score": 37.669388
+     },
+     "metrics": {
+      "title_sim": 89.7196261682243,
+      "containment": 0.714,
+      "partial_ratio": 83.87096774193549,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "Alexey Dosovitskiy, Lucas Beyer, Alexander Kolesnikov, Dirk Weissenborn, Xiaohua Zhai, Thomas Unterthiner, Mostafa Dehghani, Matthias Minderer, Georg Heigold, Sylvain Gelly, et al. An image is worth 16x16 words: Transformers for image recognition at scale. arXiv preprint arXiv:2010.11929, 2020. A Esteva, K Chou, S Yeung, M Seneviratne, and E J Topol. Deep learning-enabled medical computer vision. NPJ digital medicine, 4(1):1\u20139, 2021. J Gabrieli, T Banzato, R Drees, C Schlueter, S Tappin, and C R Lamb. A deep learning approach for the automated measurement of the vertebral heart score in dogs. Scientific reports, 10(1):1\u20139, 2020. S Green and A Gturner. Responsible ai in veterinary medicine: a call to action. Journal of the American Veterinary Medical Association, pages 1\u20133, 2024. Carlo Guglielmini and Andrea Diana. Vertebral heart score (vhs) in dogs. Veterinary Clinics: Small",
+   "title": "An image is worth 16x16 words: Transformers for image recognition at scale",
+   "authors": [
+    "Dosovitskiy",
+    "Beyer",
+    "Kolesnikov",
+    "Weissenborn",
+    "Zhai",
+    "Unterthiner",
+    "Dehghani",
+    "Minderer",
+    "Heigold",
+    "Gelly",
+    "Esteva",
+    "Chou",
+    "Yeung",
+    "Seneviratne",
+    "Topol",
+    "Gabrieli",
+    "Banzato",
+    "Drees",
+    "Schlueter",
+    "Tappin",
+    "Lamb"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": "2010.11929",
+   "urls": [],
+   "container": "NPJ digital medicine",
+   "type": "article-journal",
+   "parser": "anystyle-parse",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2010.11929",
+    "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+    "year": 2020,
+    "first_author": "Alexey Dosovitskiy"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "Animal Practice, 53(3):589\u2013607, 2023.",
+   "title": null,
+   "authors": [],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Animal Practice",
+   "type": "article-journal",
+   "parser": "anystyle-parse",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1016/j.cvsm.2023.01.002",
+      "title": "Anesthetic Considerations in Dogs and Cats with Diabetes Mellitus",
+      "year": 2023,
+      "first_author": "Costa",
+      "container": "Veterinary Clinics of North America: Small Animal Practice",
+      "type": "journal-article",
+      "score": 29.150047
+     },
+     "metrics": {
+      "title_sim": 0,
+      "containment": 0.0,
+      "partial_ratio": 33.333333333333336,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. Deep residual learning for image recognition. In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 770\u2013778, 2016. H Kim, S Lee, J Park, Y Kim, J Lee, M Kim, and K Lee. Deep learning-based vertebral heart score for assessing heart size in dogs. Frontiers in Veterinary Science, 9:836929, 2022. 293 295 297 299 301 303 305 307 309 311 313 315 C R Lamb, G Wess, K Borgeat, C Schlueter, and S Tappin. Breed-specific vertebral heart score in dogs. Journal of veterinary internal medicine, 33(5):1955\u20131961, 2019. Jialu Li and Youshan Zhang. Regressive vision transformer for dog cardiomegaly assessment. Scientific Reports, 14(1):1539, 2024. L Li, Y Li, X Li, Z Li, J Li, S Li, W Li, and H Li. Deep learning for automatic calculation of the vertebral heart score in dogs. IEEE Access, 10:55644\u201355652, 2022. G Litjens, T Kooi, B E Bejnordi, A A A Setio, F Ciompi, M Ghafoorian, J A M van der Laak, B van Ginneken, and C I S\u2019anchez. A survey on deep learning in medical image analysis. Medical image analysis, 42:60\u201388, 2017.",
+   "title": "Deep residual learning for image recognition",
+   "authors": [
+    "He",
+    "Zhang",
+    "Ren",
+    "Sun",
+    "Kim",
+    "Lee",
+    "Park",
+    "Kim",
+    "Lee",
+    "Kim",
+    "Lee",
+    "Lamb",
+    "Wess",
+    "Borgeat",
+    "Schlueter",
+    "Tappin",
+    "Li",
+    "Li",
+    "Li",
+    "Li",
+    "Li",
+    "Li",
+    "Li",
+    "Li",
+    "S\u2019anchez"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the IEEE conference on computer vision and pattern recognition",
+   "type": "article-journal",
+   "parser": "anystyle-parse",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/cvpr.2016.90",
+    "title": "Deep Residual Learning for Image Recognition",
+    "year": 2016,
+    "first_author": "He",
+    "container": "2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "type": "proceedings-article",
+    "score": 42.467022
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "Jian Lyu, Xiaomeng Li, Le Zhang, and Yizhou Wang. Automated detection of canine cardiomegaly from thoracic radiographs using deep learning. The Veterinary Journal, 274:105699, 2021.",
+   "title": "Automated detection of canine cardiomegaly from thoracic radiographs using deep learning",
+   "authors": [
+    "Lyu",
+    "Li",
+    "Zhang",
+    "Wang"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "The Veterinary Journal",
+   "type": "article-journal",
+   "parser": "anystyle-parse",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/s10791-026-10434-0",
+      "title": "CardioGraphFormer based automated cardiomegaly detection from chest radiographs using graph-enhanced deep learning",
+      "year": 2026,
+      "first_author": "Guo",
+      "container": "Discover Computing",
+      "type": "journal-article",
+      "score": 55.254353
+     },
+     "metrics": {
+      "title_sim": 87.89808917197452,
+      "containment": 0.545,
+      "partial_ratio": 60.526315789473685,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "Alejandro Newell, Kaiyu Yang, and Jia Deng. Stacked hourglass networks for human pose estimation. In European conference on computer vision, pages 483\u2013499. Springer, Cham, 2016. Sebastian Ruder. An overview of multi-task learning in deep neural networks. arXiv preprint arXiv:1706.05098, 2017.",
+   "title": "Stacked hourglass networks for human pose estimation",
+   "authors": [
+    "Newell",
+    "Yang",
+    "Deng"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": "1706.05098",
+   "urls": [],
+   "container": "European conference on computer vision",
+   "type": "paper-conference",
+   "parser": "anystyle-parse",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "1706.05098",
+    "title": "An Overview of Multi-Task Learning in Deep Neural Networks",
+    "year": 2017,
+    "first_author": "Sebastian Ruder"
+   },
+   "metrics": {
+    "title_sim": 49.09090909090909,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false,
+    "rule": "id+raw_containment"
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "Faran Shamshad, Sarfaraz Khan, Syed Ahmed Zamir, Muhammad Faisal Khan, Ajmal Mian, Faraz Khan, Muhammad Nisar, and Jawad Ahmad. Transformers in medical imaging: A survey. Medical Image Analysis, 88:102802, 2023. Eric J Topol. High-performance medicine: the convergence of human and artificial intelligence. Nature medicine, 25(1):44\u201356, 2019.",
+   "title": "Transformers in medical imaging: A survey",
+   "authors": [
+    "Shamshad",
+    "Khan",
+    "Zamir",
+    "Khan",
+    "Mian",
+    "Khan",
+    "Nisar",
+    "Ahmad"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Medical Image Analysis",
+   "type": "article-journal",
+   "parser": "anystyle-parse",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.media.2023.102802",
+    "title": "Transformers in medical imaging: A survey",
+    "year": 2023,
+    "first_author": "Shamshad",
+    "container": "Medical Image Analysis",
+    "type": "journal-article",
+    "score": 40.942036
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "Jingdong Wang, Ke Sun, Tianheng Cheng, Borui Jiang, Dong Deng, Yang Zhao, Bin Liu, Yadong Mu, Mingkui Tan, Xinggang Wang, et al. Deep high-resolution representation learning for visual recognition. IEEE transactions on pattern analysis and machine intelligence, 43(10):3349\u20133364, 2020. 317 319 321 323 325 327 329 331 333 335 337 339 341 343 345 347 349 351 353",
+   "title": "Deep high-resolution representation learning for visual recognition",
+   "authors": [
+    "Wang",
+    "Sun",
+    "Cheng",
+    "Jiang",
+    "Deng",
+    "Zhao",
+    "Liu",
+    "Mu",
+    "Tan",
+    "Wang"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE transactions on pattern analysis and machine intelligence",
+   "type": "article-journal",
+   "parser": "anystyle-parse",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.3390/s20174807",
+      "title": "HROM: Learning High-Resolution Representation and Object-Aware Masks for Visual Object Tracking",
+      "year": 2020,
+      "first_author": "Zhang",
+      "container": "Sensors",
+      "type": "journal-article",
+      "score": 34.941887
+     },
+     "metrics": {
+      "title_sim": 85.47008547008546,
+      "containment": 0.455,
+      "partial_ratio": 63.829787234042556,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  }
+ ]
+}

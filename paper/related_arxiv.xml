@@ -1,0 +1,592 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/jT7n1zBJtF1hHofXlCVMBVmF2QA</id>
+  <title>arXiv Query: search_query=&amp;id_list=2511.15534,2602.06718,2602.05930,2607.18360,2604.03159,2605.07723,2511.21843,2606.19749,2605.28897,2604.13940,2510.18003,2508.15126,2509.09912,2608.28626,2603.03299,2512.01560,2608.23271,2604.06236,2605.03202,2509.25292&amp;start=0&amp;max_results=25</title>
+  <updated>2026-09-28T21:14:37Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=25&amp;id_list=2511.15534,2602.06718,2602.05930,2607.18360,2604.03159,2605.07723,2511.21843,2606.19749,2605.28897,2604.13940,2510.18003,2508.15126,2509.09912,2608.28626,2603.03299,2512.01560,2608.23271,2604.06236,2605.03202,2509.25292" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>20</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2509.09912v1</id>
+    <title>When Your Reviewer is an LLM: Biases, Divergence, and Prompt Injection Risks in Peer Review</title>
+    <updated>2025-09-12T00:57:50Z</updated>
+    <link href="https://arxiv.org/abs/2509.09912v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.09912v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Peer review is the cornerstone of academic publishing, yet the process is increasingly strained by rising submission volumes, reviewer overload, and expertise mismatches. Large language models (LLMs) are now being used as "reviewer aids," raising concerns about their fairness, consistency, and robustness against indirect prompt injection attacks. This paper presents a systematic evaluation of LLMs as academic reviewers. Using a curated dataset of 1,441 papers from ICLR 2023 and NeurIPS 2022, we evaluate GPT-5-mini against human reviewers across ratings, strengths, and weaknesses. The evaluation employs structured prompting with reference paper calibration, topic modeling, and similarity analysis to compare review content. We further embed covert instructions into PDF submissions to assess LLMs' susceptibility to prompt injection. Our findings show that LLMs consistently inflate ratings for weaker papers while aligning more closely with human judgments on stronger contributions. Moreover, while overarching malicious prompts induce only minor shifts in topical focus, explicitly field-specific instructions successfully manipulate specific aspects of LLM-generated reviews. This study underscores both the promises and perils of integrating LLMs into peer review and points to the importance of designing safeguards that ensure integrity and trust in future review processes.</summary>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-12T00:57:50Z</published>
+    <arxiv:primary_category term="cs.CY"/>
+    <author>
+      <name>Changjia Zhu</name>
+    </author>
+    <author>
+      <name>Junjie Xiong</name>
+    </author>
+    <author>
+      <name>Renkai Ma</name>
+    </author>
+    <author>
+      <name>Zhicong Lu</name>
+    </author>
+    <author>
+      <name>Yao Liu</name>
+    </author>
+    <author>
+      <name>Lingyao Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.13940v1</id>
+    <title>AI-Assisted Peer Review at Scale: The AAAI-26 AI Review Pilot</title>
+    <updated>2026-04-15T14:51:07Z</updated>
+    <link href="https://arxiv.org/abs/2604.13940v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.13940v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Scientific peer review faces mounting strain as submission volumes surge, making it increasingly difficult to sustain review quality, consistency, and timeliness. Recent advances in AI have led the community to consider its use in peer review, yet a key unresolved question is whether AI can generate technically sound reviews at real-world conference scale. Here we report the first large-scale field deployment of AI-assisted peer review: every main-track submission at AAAI-26 received one clearly identified AI review from a state-of-the-art system. The system combined frontier models, tool use, and safeguards in a multi-stage process to generate reviews for all 22,977 full-review papers in less than a day. A large-scale survey of AAAI-26 authors and program committee members showed that participants not only found AI reviews useful, but actually preferred them to human reviews on key dimensions such as technical accuracy and research suggestions. We also introduce a novel benchmark and find that our system substantially outperforms a simple LLM-generated review baseline at detecting a variety of scientific weaknesses. Together, these results show that state-of-the-art AI methods can already make meaningful contributions to scientific peer review at conference scale, opening a path toward the next generation of synergistic human-AI teaming for evaluating research.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-15T14:51:07Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Joydeep Biswas</name>
+    </author>
+    <author>
+      <name>Sheila Schoepp</name>
+    </author>
+    <author>
+      <name>Gautham Vasan</name>
+    </author>
+    <author>
+      <name>Anthony Opipari</name>
+    </author>
+    <author>
+      <name>Arthur Zhang</name>
+    </author>
+    <author>
+      <name>Zichao Hu</name>
+    </author>
+    <author>
+      <name>Sebastian Joseph</name>
+    </author>
+    <author>
+      <name>Matthew Lease</name>
+    </author>
+    <author>
+      <name>Junyi Jessy Li</name>
+    </author>
+    <author>
+      <name>Peter Stone</name>
+    </author>
+    <author>
+      <name>Kiri L. Wagstaff</name>
+    </author>
+    <author>
+      <name>Matthew E. Taylor</name>
+    </author>
+    <author>
+      <name>Odest Chadwicke Jenkins</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.06236v1</id>
+    <title>LLMs Have Made Failure Worth Publishing</title>
+    <updated>2026-04-04T13:57:49Z</updated>
+    <link href="https://arxiv.org/abs/2604.06236v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.06236v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Scientific publishing systematically filters out negative results. We argue that this long-standing asymmetry has become an urgent problem in the era of large language models, which inherit the positive bias of the literature they are trained on, face an impending shortage of high-quality training data, and are increasingly deployed as both research tools and peer reviewers. We analyze three ways in which LLMs have changed the value of failure data and show that the systematic absence of such data degrades their utility as research tools, training data consumers, and peer reviewers alike. We outline experimental protocols to validate these claims and discuss the structural conditions under which a failure-inclusive publishing culture could emerge.</summary>
+    <category term="cs.DL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-04T13:57:49Z</published>
+    <arxiv:primary_category term="cs.DL"/>
+    <author>
+      <name>Sungmin Lee</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.07723v1</id>
+    <title>LLM hallucinations in the wild: Large-scale evidence from non-existent citations</title>
+    <updated>2026-05-08T13:26:41Z</updated>
+    <link href="https://arxiv.org/abs/2605.07723v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.07723v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) are known to generate plausible but false information across a wide range of contexts, yet the real-world magnitude and consequences of this hallucination problem remain poorly understood. Here we leverage a uniquely verifiable object - scientific citations - to audit 111 million references across 2.5 million papers in arXiv, bioRxiv, SSRN, and PubMed Central. We find a sharp rise in non-existent references following widespread LLM adoption, with a conservative estimate of 146,932 hallucinated citations in 2025 alone. These errors are diffusely embedded across many papers but especially pronounced in fields with rapid AI uptake, in manuscripts with linguistic signatures of AI-assisted writing, and among small and early-career author teams. At the same time, hallucinated references disproportionately assign credit to already prominent and male scholars, suggesting that LLM-generated errors may reinforce existing inequities in scientific recognition. Preprint moderation and journal publication processes capture only a fraction of these errors, suggesting that the spread of hallucinated content has outpaced existing safeguards. Together, these findings demonstrate that LLM hallucinations are infiltrating knowledge production at scale, threatening both the reliability and equity of future scientific discovery as human and AI systems draw on the existing literature.</summary>
+    <category term="cs.DL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-08T13:26:41Z</published>
+    <arxiv:primary_category term="cs.DL"/>
+    <author>
+      <name>Zhenyue Zhao</name>
+    </author>
+    <author>
+      <name>Yihe Wang</name>
+    </author>
+    <author>
+      <name>Toby Stuart</name>
+    </author>
+    <author>
+      <name>Mathijs De Vaan</name>
+    </author>
+    <author>
+      <name>Paul Ginsparg</name>
+    </author>
+    <author>
+      <name>Yian Yin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.05930v1</id>
+    <title>Compound Deception in Elite Peer Review: A Failure Mode Taxonomy of 100 Fabricated Citations at NeurIPS 2025</title>
+    <updated>2026-02-05T17:43:35Z</updated>
+    <link href="https://arxiv.org/abs/2602.05930v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.05930v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) are increasingly used in academic writing workflows, yet they frequently hallucinate by generating citations to sources that do not exist. This study analyzes 100 AI-generated hallucinated citations that appeared in papers accepted by the 2025 Conference on Neural Information Processing Systems (NeurIPS), one of the world's most prestigious AI conferences. Despite review by 3-5 expert researchers per paper, these fabricated citations evaded detection, appearing in 53 published papers (approx. 1% of all accepted papers). We develop a five-category taxonomy that classifies hallucinations by their failure mode: Total Fabrication (66%), Partial Attribute Corruption (27%), Identifier Hijacking (4%), Placeholder Hallucination (2%), and Semantic Hallucination (1%). Our analysis reveals a critical finding: every hallucination (100%) exhibited compound failure modes. The distribution of secondary characteristics was dominated by Semantic Hallucination (63%) and Identifier Hijacking (29%), which often appeared alongside Total Fabrication to create a veneer of plausibility and false verifiability. These compound structures exploit multiple verification heuristics simultaneously, explaining why peer review fails to detect them. The distribution exhibits a bimodal pattern: 92% of contaminated papers contain 1-2 hallucinations (minimal AI use) while 8% contain 4-13 hallucinations (heavy reliance). These findings demonstrate that current peer review processes do not include effective citation verification and that the problem extends beyond NeurIPS to other major conferences, government reports, and professional consulting. We propose mandatory automated citation verification at submission as an implementable solution to prevent fabricated citations from becoming normalized in scientific literature.</summary>
+    <category term="cs.DL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-05T17:43:35Z</published>
+    <arxiv:primary_category term="cs.DL"/>
+    <author>
+      <name>Samar Ansari</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.03202v2</id>
+    <title>Stop Automating Peer Review Without Rigorous Evaluation</title>
+    <updated>2026-07-05T14:12:31Z</updated>
+    <link href="https://arxiv.org/abs/2605.03202v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.03202v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models offer a tempting solution to address the peer review crisis. This position paper argues that today's AI systems should not be used to produce paper reviews. We ground this position in an empirical comparison of human- versus AI-generated ICLR 2026 reviews and an evaluation of the effect of automated paper rewriting on different AI reviewers. We identify two critical issues: 1) AI reviewers exhibit a hivemind effect of excessive agreement within and across papers that reduces perspective diversity. 2) AI review scores are trivially gameable through paper laundering: prompting an LLM to rewrite a paper could significantly increase the scores from AI reviewers, demonstrating that LLM reviewers are easy to game through stylistic changes rather than scientific results. However, non-gameability and review diversity are necessary but not sufficient conditions for automation. We argue that addressing the peer review crisis requires a science of peer review automation -- not general-purpose LLMs deployed without rigorous evaluation.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-04T22:41:04Z</published>
+    <arxiv:comment>Accepted at ICML 2026 (Oral). Forty-third International Conference on Machine Learning Position Paper Track (2026)</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Joachim Baumann</name>
+    </author>
+    <author>
+      <name>Jiaxin Pei</name>
+    </author>
+    <author>
+      <name>Sanmi Koyejo</name>
+    </author>
+    <author>
+      <name>Dirk Hovy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2508.15126v2</id>
+    <title>aiXiv: A Next-Generation Open Access Ecosystem for Scientific Discovery Generated by AI Scientists</title>
+    <updated>2025-12-17T06:49:43Z</updated>
+    <link href="https://arxiv.org/abs/2508.15126v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.15126v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent advances in large language models (LLMs) have enabled AI agents to autonomously generate scientific proposals, conduct experiments, author papers, and perform peer reviews. Yet this flood of AI-generated research content collides with a fragmented and largely closed publication ecosystem. Traditional journals and conferences rely on human peer review, making them difficult to scale and often reluctant to accept AI-generated research content; existing preprint servers (e.g. arXiv) lack rigorous quality-control mechanisms. Consequently, a significant amount of high-quality AI-generated research lacks appropriate venues for dissemination, hindering its potential to advance scientific progress. To address these challenges, we introduce aiXiv, a next-generation open-access platform for human and AI scientists. Its multi-agent architecture allows research proposals and papers to be submitted, reviewed, and iteratively refined by both human and AI scientists. It also provides API and MCP interfaces that enable seamless integration of heterogeneous human and AI scientists, creating a scalable and extensible ecosystem for autonomous scientific discovery. Through extensive experiments, we demonstrate that aiXiv is a reliable and robust platform that significantly enhances the quality of AI-generated research proposals and papers after iterative revising and reviewing on aiXiv. Our work lays the groundwork for a next-generation open-access ecosystem for AI scientists, accelerating the publication and dissemination of high-quality AI-generated research content.
+  Code: https://github.com/aixiv-org
+  aiXiv: https://aixiv.science</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-20T23:16:41Z</published>
+    <arxiv:comment>Preprint under review. Code is available at https://github.com/aixiv-org. Website is available at https://aixiv.science</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Pengsong Zhang</name>
+    </author>
+    <author>
+      <name>Xiang Hu</name>
+    </author>
+    <author>
+      <name>Guowei Huang</name>
+    </author>
+    <author>
+      <name>Yang Qi</name>
+    </author>
+    <author>
+      <name>Heng Zhang</name>
+    </author>
+    <author>
+      <name>Xiuxu Li</name>
+    </author>
+    <author>
+      <name>Jiaxing Song</name>
+    </author>
+    <author>
+      <name>Jiabin Luo</name>
+    </author>
+    <author>
+      <name>Yijiang Li</name>
+    </author>
+    <author>
+      <name>Shuo Yin</name>
+    </author>
+    <author>
+      <name>Chengxiao Dai</name>
+    </author>
+    <author>
+      <name>Eric Hanchen Jiang</name>
+    </author>
+    <author>
+      <name>Xiaoyan Zhou</name>
+    </author>
+    <author>
+      <name>Zhenfei Yin</name>
+    </author>
+    <author>
+      <name>Boqin Yuan</name>
+    </author>
+    <author>
+      <name>Jing Dong</name>
+    </author>
+    <author>
+      <name>Guinan Su</name>
+    </author>
+    <author>
+      <name>Guanren Qiao</name>
+    </author>
+    <author>
+      <name>Haiming Tang</name>
+    </author>
+    <author>
+      <name>Anghong Du</name>
+    </author>
+    <author>
+      <name>Lili Pan</name>
+    </author>
+    <author>
+      <name>Zhenzhong Lan</name>
+    </author>
+    <author>
+      <name>Xinyu Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.18003v2</id>
+    <title>BadScientist: Can a Research Agent Write Convincing but Unsound Papers that Fool LLM Reviewers?</title>
+    <updated>2026-06-16T04:10:41Z</updated>
+    <link href="https://arxiv.org/abs/2510.18003v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.18003v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The convergence of LLM-powered research assistants and AI-based peer review systems creates a critical vulnerability: fully automated publication loops where AI-generated research is evaluated by AI reviewers without human oversight. We investigate this through \textbf{BadScientist}, a framework that evaluates whether fabrication-oriented paper generation agents can deceive multi-model LLM review systems. Our generator employs presentation-manipulation strategies requiring no real experiments. We develop a rigorous evaluation framework with formal error guarantees (concentration bounds and calibration analysis), calibrated on real data. Our results reveal systematic vulnerabilities: fabricated papers achieve acceptance rates up to . Critically, we identify \textit{concern-acceptance conflict} -- reviewers frequently flag integrity issues yet assign acceptance-level scores. Our mitigation strategies show only marginal improvements, with detection accuracy barely exceeding random chance. Despite provably sound aggregation mathematics, integrity checking systematically fails, exposing fundamental limitations in current AI-driven review systems and underscoring the urgent need for defense-in-depth safeguards in scientific publishing.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-20T18:37:11Z</published>
+    <arxiv:comment>ACL 2026; Project Page at https://bad-scientist.github.io/</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Fengqing Jiang</name>
+    </author>
+    <author>
+      <name>Yichen Feng</name>
+    </author>
+    <author>
+      <name>Yuetai Li</name>
+    </author>
+    <author>
+      <name>Luyao Niu</name>
+    </author>
+    <author>
+      <name>Basel Alomair</name>
+    </author>
+    <author>
+      <name>Radha Poovendran</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.25292v3</id>
+    <title>A Measurement Study of Model Context Protocol Ecosystem</title>
+    <updated>2025-11-15T14:28:21Z</updated>
+    <link href="https://arxiv.org/abs/2509.25292v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.25292v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Model Context Protocol (MCP) has been proposed as a unifying standard for connecting large language models (LLMs) with external tools and resources, promising the same role for AI integration that HTTP and USB played for the Web and peripherals. Yet, despite rapid adoption and hype, its trajectory remains uncertain. Are MCP marketplaces truly growing, or merely inflated by placeholders and abandoned prototypes? Are servers secure and privacy-preserving, or do they expose users to systemic risks? And do clients converge on standardized protocols, or remain fragmented across competing designs? In this paper, we present the first large-scale empirical study of the MCP ecosystem. We design and implement MCPCrawler, a systematic measurement framework that collects and normalizes data from six major markets. Over a 14-day campaign, MCPCrawler aggregated 17,630 raw entries, of which 8,401 valid projects (8,060 servers and 341 clients) were analyzed. Our results reveal that more than half of listed projects are invalid or low-value, that servers face structural risks including dependency monocultures and uneven maintenance, and that clients exhibit a transitional phase in protocol and connection patterns. Together, these findings provide the first evidence-based view of the MCP ecosystem, its risks, and its future trajectory.</summary>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-29T14:29:20Z</published>
+    <arxiv:primary_category term="cs.CY"/>
+    <author>
+      <name>Hechuan Guo</name>
+    </author>
+    <author>
+      <name>Yongle Hao</name>
+    </author>
+    <author>
+      <name>Yue Zhang</name>
+    </author>
+    <author>
+      <name>Minghui Xu</name>
+    </author>
+    <author>
+      <name>Peizhuo Lv</name>
+    </author>
+    <author>
+      <name>Jiezhi Chen</name>
+    </author>
+    <author>
+      <name>Xiuzhen Cheng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.18360v1</id>
+    <title>HALLMARK: Diagnosing Three Failure Modes in LLM Citation Verifiers</title>
+    <updated>2026-07-20T13:21:27Z</updated>
+    <link href="https://arxiv.org/abs/2607.18360v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.18360v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) now routinely draft literature reviews and assist with academic writing, which means a higher risk of fabricated references: GPTZero found 53 papers with hallucinated citations among NeurIPS 2025's accepted set. Rule- and LLM-based verifiers are emerging, but no shared benchmark compares them and gives detailed failure diagnostics. We close that gap with HALLMARK (Hallucination benchmark): 2,526 BibTeX entries spanning 14 hallucination types, three difficulty tiers, six diagnostic sub-tests per entry, and a contamination-resistant held-out split. On it we evaluate a DOI-lookup baseline, frontier LLMs zero-shot, tool-augmented agents, and our own rule-based, co-designed verifier bibtex-updater. Across the benchmark one result is consistent: the false-positive rate, not recall, decides whether a verifier is deployable. HALLMARK makes it concrete through three failure modes: agentic lookups buy recall but inflate false positives; at a venue-realistic base rate, the order-of-magnitude spread in false-positive rates (FPRs) -- not recall -- governs whether a verifier's flags are mostly true catches or mostly noise; and most LLMs over-flag papers published past their training cutoff, where only the two latest-cutoff models hold their false-positive rate near in-distribution levels (a signal we report as descriptive, since it is confounded with possible recall of those entries). Thus FPR is the deployment bottleneck, but an undetected fabrication remains the costlier error for the scientific record.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-20T13:21:27Z</published>
+    <arxiv:comment>59 pages, 7 figures, 40 tables. Benchmark and code: https://github.com/rpatrik96/hallmark (v1.2.0); verification tool: https://github.com/rpatrik96/bibtexupdater (v1.5.0)</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Patrik Reizinger</name>
+    </author>
+    <author>
+      <name>Wieland Brendel</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.28626v1</id>
+    <title>Do large language models scrutinise what they review? A multimodal audit of scoring calibration, error detection, and author-identity effects</title>
+    <updated>2026-07-31T12:12:33Z</updated>
+    <link href="https://arxiv.org/abs/2608.28626v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.28626v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) are increasingly used to generate peer reviews, prompting examination of their capacity for critical evaluation. This study evaluates two multimodal LLMs, Qwen2.5-VL-72B and Pixtral-Large-124B, as reviewers across 165 submissions to the 2026 International Conference on Learning Representations, a venue that postdates both models' training cutoffs. Manuscripts were presented to both models with author identities blinded, replaced with high-prestige affiliations, or replaced with low-prestige affiliations, and in either text-only or text-with-figure format. Additionally, 145 verifiably detectable errors were inserted into 55 manuscripts to assess error identification under natural and verification-oriented prompts. Across all manuscript groups, including rejected submissions, LLM scores ranged from 7.0 to 8.1, whereas human mean scores ranged from 3.4 to 6.8. The models detected 12.1\% of the verified errors under natural prompting, and a one-sentence verification instruction increased detection to 22.2\%; however, 78\% of the errors remained undetected. Providing figures reduced error detection while increasing review scores. No visual error was reliably verified against its corresponding figure, and half of the text-only reviews described figures that were not provided. Author identity did not influence either review scores or error detection. LLM editorial decisions exactly matched those produced by simple score averaging.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-31T12:12:33Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Emad Alharbi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.01560v1</id>
+    <title>Estimating the prevalence of LLM-assisted text in scholarly writing</title>
+    <updated>2025-12-01T11:34:15Z</updated>
+    <link href="https://arxiv.org/abs/2512.01560v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.01560v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The use of large language models (LLMs) in scholarly publications has grown dramatically since the launch of ChatGPT in late 2022. This usage is often undisclosed, and it can be challenging for readers and reviewers to identify human written but LLM-revised or translated text, or predominantly LLM-generated text. Given the known quality and reliability issues connected with LLM-generated text, their potential growth poses an increasing problem for research integrity, and for public trust in research.
+  This study presents a simple and easily reproducible methodology to show the growth in the full text of published papers, across the full range of research, as indexed in the Dimensions database. It uses this to demonstrate that LLM tools are likely to have been involved in the production of more than 10% of all published papers in 2024, based on disproportionate use of specific indicative words, and draws together earlier studies to confirm that this is a plausible overall estimate.
+  It then discusses the implications of this for the integrity of scholarly publishing, highlighting evidence that use of LLMs for text generation is still being concealed or downplayed by authors, and presents an argument that more comprehensive disclosure requirements are urgently required to address this.</summary>
+    <category term="cs.DL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-01T11:34:15Z</published>
+    <arxiv:comment>19 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.DL"/>
+    <author>
+      <name>Andrew Gray</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2511.15534v1</id>
+    <title>Exploring the use of AI authors and reviewers at Agents4Science</title>
+    <updated>2025-11-19T15:32:07Z</updated>
+    <link href="https://arxiv.org/abs/2511.15534v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.15534v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>There is growing interest in using AI agents for scientific research, yet fundamental questions remain about their capabilities as scientists and reviewers. To explore these questions, we organized Agents4Science, the first conference in which AI agents serve as both primary authors and reviewers, with humans as co-authors and co-reviewers. Here, we discuss the key learnings from the conference and their implications for human-AI collaboration in science.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-19T15:32:07Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Federico Bianchi</name>
+    </author>
+    <author>
+      <name>Owen Queen</name>
+    </author>
+    <author>
+      <name>Nitya Thakkar</name>
+    </author>
+    <author>
+      <name>Eric Sun</name>
+    </author>
+    <author>
+      <name>James Zou</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2511.21843v1</id>
+    <title>FLAWS: A Benchmark for Error Identification and Localization in Scientific Papers</title>
+    <updated>2025-11-26T19:19:44Z</updated>
+    <link href="https://arxiv.org/abs/2511.21843v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.21843v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The identification and localization of errors is a core task in peer review, yet the exponential growth of scientific output has made it increasingly difficult for human reviewers to reliably detect errors given the limited pool of experts. Recent advances in Large Language Models (LLMs) have sparked interest in their potential to support such evaluation tasks, from academic peer review to automated scientific assessment. However, despite the growing use of LLMs in review systems, their capabilities to pinpoint errors remain underexplored. In this work, we introduce Fault Localization Across Writing in Science (FLAWS), an automated benchmark consisting of 713 paper-error pairs designed to evaluate how effectively LLMs detect errors that undermine key claims in research papers. We construct the benchmark by systematically inserting claim-invalidating errors into peer-reviewed papers using LLMs, paired with an automated evaluation metric that measures whether models can identify and localize these errors. Developing such a benchmark presents unique challenges that we overcome: ensuring that the inserted errors are well-defined, challenging, and relevant to the content of the paper, avoiding artifacts that would make identification trivial, and designing a scalable, automated evaluation metric. On the resulting benchmark, we evaluate five frontier LLMs: Claude Sonnet 4.5, DeepSeek Reasoner v3.1, Gemini 2.5 Pro, GPT 5, and Grok 4. Among these, GPT 5 is the top-performing model, achieving 39.1% identification accuracy when k=10, where k is the number of top-ranked error text candidates generated by the LLM.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-26T19:19:44Z</published>
+    <arxiv:comment>30 pages, 12 tables, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Sarina Xi</name>
+    </author>
+    <author>
+      <name>Vishisht Rao</name>
+    </author>
+    <author>
+      <name>Justin Payan</name>
+    </author>
+    <author>
+      <name>Nihar B. Shah</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.23271v2</id>
+    <title>Expectations and Practices around AI Disclosure in CS Research</title>
+    <updated>2026-08-25T04:40:25Z</updated>
+    <link href="https://arxiv.org/abs/2608.23271v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.23271v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As generative AI tools find increasing use in research workflows, ongoing debates on their impact, appropriateness and responsible use have led policymakers to enact policies to disclose AI use at multiple publishing venues. However, are current AI disclosure policies and practices reflective of their purpose? In this work, we first investigate disclosure policies of top computer science venues and find that despite their prevalence, they remain highly under-specified. Secondly, through a survey of computer science researchers (N=$109$), we characterize the necessity of disclosures across different research tasks and levels of human involvement. We learn that researchers find disclosures most necessary for tasks involving research design, and for tasks when the human involvement is low. We also compile expectations that researchers have about the information to be conveyed in AI disclosure statements. Lastly, through an analysis of $13867$ disclosure statements from EMNLP $2025$ and ICLR $2026$, we reveal a large disconnect between these expectations and AI disclosures in practice---a prime example being writing assistance which is deemed less necessary but is frequently disclosed. We conclude with recommendations to align AI disclosure policies and practices with expectations, suggesting a categorization of research tasks by perceived necessity and a boilerplate template capturing expected details.</summary>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-24T13:58:16Z</published>
+    <arxiv:comment>Accepted to EMNLP 2026 (Findings)</arxiv:comment>
+    <arxiv:primary_category term="cs.CY"/>
+    <author>
+      <name>Arati Mohapatra</name>
+    </author>
+    <author>
+      <name>Danish Pruthi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.19749v1</id>
+    <title>Benchmarking Agentic Review Systems</title>
+    <updated>2026-06-18T03:30:06Z</updated>
+    <link href="https://arxiv.org/abs/2606.19749v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.19749v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A new class of agentic review systems are emerging as a remedy to the pressure placed on peer review systems by AI-assisted research, but it is unclear how they should be evaluated. We evaluate two open-source systems (OpenAIReview and coarse), one proprietary system (Reviewer3), and a zero-shot baseline, across six LLMs spanning frontier and efficient models. First, we study whether AI reviews on ICLR/NeurIPS papers track with papers' quality as approximated by external signals such as citations and acceptance decisions. Every system performs above chance in pairwise accuracy, and the best is OpenAIReview + GPT-5.5 at 83.0%. Second, to test whether systems can catch errors with known ground truth, we construct a perturbation benchmark that injects four categories of errors into papers across eight arXiv subject classes and measure detection recall. The strongest configuration (OpenAIReview + GPT-5.5) catches 71.6% of injected errors, leaving substantial room for improvement. The union of detections across six models reaches 83.3% recall, suggesting different models detect different errors and better harness design can potentially increase performance. Beyond these benchmarks, we study a public deployment of OpenAIReview with real users. Votes on its comments skew positive at 1.44 to 1, and the most common complaints are about false positives and minor nitpicks. Together, by evaluating full review systems backed by state-of-the-art models on real research papers, we show that while AI reviews still have room for improvement, they can already track human quality judgments well, catch important errors, and earn positive feedback from real users.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-18T03:30:06Z</published>
+    <arxiv:comment>11 pages, 7 tables, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Dang Nguyen</name>
+    </author>
+    <author>
+      <name>Wanqing Hao</name>
+    </author>
+    <author>
+      <name>Yanai Elazar</name>
+    </author>
+    <author>
+      <name>Chenhao Tan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.28897v1</id>
+    <title>Review Arcade: On the Human Alignment and Gameability of LLM Reviews</title>
+    <updated>2026-05-27T12:40:35Z</updated>
+    <link href="https://arxiv.org/abs/2605.28897v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.28897v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>LLM-generated reviews for scientific papers are gaining considerable traction and are even being officially piloted by major conferences. We have to assume that not only reviewers are using LLM-assistance, but also that authors use LLMs to revise their papers before submitting. In this work, we perform empirical experiments on papers from the 2025 ACL Rolling Review (ARR) to evaluate LLM reviews from both the author and the reviewer perspective. First, we identify a limited alignment of LLM reviews with human ones. In the best-case scenario, the alignment is reasonable. However, we also find that LLM-human alignment varies substantially across prompts and models. Finally, we investigate the scenario in which the author uses an iterative draft-revise workflow to improve the submission according to the LLM review. We find that this "gaming" of LLM reviews can be effective in specific scenarios, leading to a statistically significant increase of overall scores for up to 35\% of papers. We publish our code: https://github.com/uhh-hcds/reviewarcade.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-27T12:40:35Z</published>
+    <arxiv:comment>Under Review EMNLP 26</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Hans Ole Hatzel</name>
+    </author>
+    <author>
+      <name>Sebastian Steindl</name>
+    </author>
+    <author>
+      <name>Jan Strich</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.03299v1</id>
+    <title>How LLMs Cite and Why It Matters: A Cross-Model Audit of Reference Fabrication in AI-Assisted Academic Writing and Methods to Detect Phantom Citations</title>
+    <updated>2026-02-07T00:14:00Z</updated>
+    <link href="https://arxiv.org/abs/2603.03299v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.03299v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) have been noted to fabricate scholarly citations, yet the scope of this behavior across providers, domains, and prompting conditions remains poorly quantified. We present one of the largest citation hallucination audits to date, in which 10 commercially deployed LLMs were prompted across four academic domains, generating 69,557 citation instances verified against three scholarly databases (namely, CrossRef, OpenAlex, and Semantic Scholar). Our results show that the observed hallucination rates span a fivefold range (between 11.4% and 56.8%) and are strongly shaped by model, domain, and prompt framing. Our results also show that no model spontaneously generates citations when unprompted, which seems to establish hallucination as prompt-induced rather than intrinsic. We identify two practical filters: 1) multi-model consensus (with more than 3 LLMs citing the same work yields 95.6% accuracy, a 5.8-fold improvement), and 2) within-prompt repetition (with more than 2 replications yields 88.9% accuracy). In addition, we present findings on generational model tracking, which reveal that improvements are not guaranteed when deploying newer LLMs, and on capacity scaling, which appears to reduce hallucination within model families. Finally, a lightweight classifier trained solely on bibliographic string features is developed to classify hallucinated citations from verified citations, achieving AUC 0.876 in cross-validation and 0.834 in LOMO generalization (without querying any external database). This classifier offers a pre-screening tool deployable at inference time.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-07T00:14:00Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>MZ Naser</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.06718v2</id>
+    <title>GhostCite: A Large-Scale Analysis of Citation Validity in the Age of Large Language Models</title>
+    <updated>2026-05-14T09:48:40Z</updated>
+    <link href="https://arxiv.org/abs/2602.06718v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.06718v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Citations provide the basis for trusting scientific claims; when they are invalid or fabricated, this trust collapses. With the advent of Large Language Models (LLMs), this risk has intensified: LLMs are increasingly used for academic writing, but their tendency to fabricate citations (``ghost citations'') poses a systemic threat to citation validity. To quantify this threat, we develop \citeb, an open-source framework for large-scale citation verification, and conduct a comprehensive study of citation validity in the LLM era through three complementary experiments. First, we benchmark 13 LLMs on citation generation task in various research domains, finding that all models hallucinate citations at rate from 14.23\% to 94.93\%. Second, we analyze 2.2 million citations from 56,381 papers at AI/ML and Security venues (2020--2025), finding that 1.07\% of papers contain invalid citations, with an 80.9\% increase in 2025. Third, we survey 97 researchers, finding that 87.2\% use AI-powered tools in their workflows, 76.7\% of reviewers do not thoroughly check references, and 74.5\% view peer review as ineffective at catching citation errors. Based on these findings, we argue that ghost citations represent a systemic threat to academic integrity, and call for coordinated efforts from community to address this challenge.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-06T14:08:34Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Zuyao Xu</name>
+    </author>
+    <author>
+      <name>Yuqi Qiu</name>
+    </author>
+    <author>
+      <name>Lu Sun</name>
+    </author>
+    <author>
+      <name>Fasheng Miao</name>
+    </author>
+    <author>
+      <name>Fubin Wu</name>
+    </author>
+    <author>
+      <name>Xiang Li</name>
+    </author>
+    <author>
+      <name>Xinyi Wang</name>
+    </author>
+    <author>
+      <name>Haozhe Lu</name>
+    </author>
+    <author>
+      <name>Zhengze Zhang</name>
+    </author>
+    <author>
+      <name>Yuxin Hu</name>
+    </author>
+    <author>
+      <name>Jialu Li</name>
+    </author>
+    <author>
+      <name>Luo Jin</name>
+    </author>
+    <author>
+      <name>Feng Zhang</name>
+    </author>
+    <author>
+      <name>Rui Luo</name>
+    </author>
+    <author>
+      <name>Xinran Liu</name>
+    </author>
+    <author>
+      <name>Yingxian Li</name>
+    </author>
+    <author>
+      <name>Jiaji Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.03159v2</id>
+    <title>BibTeX Citation Errors in Scientific Publishing Agents: Evaluation and Mitigation</title>
+    <updated>2026-08-08T18:39:45Z</updated>
+    <link href="https://arxiv.org/abs/2604.03159v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.03159v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models with web search are increasingly used in scientific publishing agents, yet they produce BibTeX entries with pervasive field-level errors stemming from omission, partial corruption, substitution, and hallucination. We construct a benchmark of 931 papers across four domains and three citation tiers---popular, low-citation, and recent post-cutoff---with version-aware ground truth. Three search-enabled frontier models (GPT-5, Claude Sonnet-4.6, Gemini-3 Flash) generate approximately 23,000 field-level observations. Overall accuracy is 83.6%, but only 50.9% of entries are fully correct; accuracy drops 27.7 pp from popular to recent papers, revealing heavy reliance on parametric memory even when search is available. Co-occurrence analysis identifies two failure modes: wholesale entry substitution and isolated field error. We present clibib, an open-source tool for deterministic BibTeX retrieval, as a mitigation mechanism. Two-stage integration raises accuracy to 91.5% (+8.0 pp) and fully correct entries to 78.3%, with a 0.8% regression rate. Separating search from revision yields larger gains and lower regression than single-stage tool loops (0.8% vs. 4.8%), demonstrating that integration architecture matters independently of model/tool capability. We release clibib and an accompanying agent skill under the MIT License to improve citation accuracy in increasingly automated scientific workflows.</summary>
+    <category term="cs.DL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-03T16:30:58Z</published>
+    <arxiv:comment>35 pages; COLM 2026 camera ready version</arxiv:comment>
+    <arxiv:primary_category term="cs.DL"/>
+    <author>
+      <name>Delip Rao</name>
+    </author>
+    <author>
+      <name>Chris Callison-Burch</name>
+    </author>
+  </entry>
+</feed>
