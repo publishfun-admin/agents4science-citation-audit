@@ -280,11 +280,11 @@ and 18 of the 19 were confirmed as defective (14 corrupted, 4 invented; the blin
 rather than invented), while one, a real paper cited with altered given names of several co-authors, was accepted by the
 human as correctly cited. With the human labels in place of the blind labels for these 29 entries, the sample gives 14
 corrupted (7.8%; 95% CI 4.7-12.6) and 4 invented (2.2%; 0.9-5.6), source-weighted 8.2% and 1.7%; these human-anchored
-rates are used for the adjusted estimates below, and the blind-agent-only versions are given in the released tables. Weighting by source, an estimated 9.7% (bootstrap 95% CI 6.7-15.7) of the 5,992 automatically verified entries,
-about 580 references, are corrupted citations that the adjudicated counts do not include, and 0.9% are invented. That
-is more corrupted references than adjudication found in the whole corpus (513 fabricated, 227 of them corrupted), so
-the adjudicated rates in Sections 5.2-5.7 are lower bounds for both outcomes, and Section 5.2 gives adjusted
-estimates.
+rates are used for the adjusted estimates below, and the blind-agent-only versions are given in the released tables. Weighting by source, an estimated
+8.2% (bootstrap 95% CI 5.4-13.9; 9.7% with the blind-agent labels alone) of the 5,992 automatically verified entries,
+about 490 references, are corrupted citations that the adjudicated counts do not include, and 1.7% are invented. That
+is about twice the corrupted references adjudication found in the whole corpus (227 of the 513 fabricated), so the
+adjudicated rates in Sections 5.2-5.7 are lower bounds for both outcomes, and Section 5.2 gives adjusted estimates.
 
 ### 5.2 Prevalence of fabricated references (Q1)
 
@@ -553,8 +553,9 @@ bibliographic databases before searching the web, compare author lists and venue
 the residue by hand before reporting a rate, validate the labels blind, and publish per-reference verdicts so that
 authors can respond and readers can re-check.
 
-**Prevalence.** By adjudication 7.2% of the references of reviewed AI-first-authored submissions are fabricated and
-3.8% invented; with the blind-check rates added, 16.5% (13.1-20.9) and 5.4% (4.4-7.7). Under the strict identity-level
+**Prevalence.** By adjudication 7.2% of the references of reviewed AI-first-authored submissions
+are fabricated and 3.8% invented; with the human-anchored blind-check rates added, 15.2% (12.1-19.5) and 6.2%
+(4.8-8.8). Under the strict identity-level
 definition of Russinovich et al. [2026] the detected figures are 5.1% of references and 29.5% of reviewed submissions
 (19.9% with two or more identity failures). The comparison with the human-authored literature is indicative rather
 than measured, because the cited audits rely on automated detection with different outcome definitions and cover
