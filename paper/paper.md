@@ -172,9 +172,10 @@ part in the study was to set the research goal, provide access and approve desig
 verified and adjudicated no reference, took no part in the blind re-adjudication, and drafted neither the analysis nor
 the text, all of which were done by the agents, so the human coding is independent of the labels it is compared with
 in the sense that matters for inter-rater validation: the two ratings were produced by different raters with no access
-to each other's judgements. The sheet carried the agent labels in separate columns that the coder was instructed to
-hide before coding, so blinding is procedural rather than verified, and the coder is not independent of the paper's
-authorship or of its outcome. Agreement is reported against both agent labels, and the adjusted estimates are recomputed with the human labels in place of
+to each other's judgements. The sheet carried the agent labels in separate columns; the coder was instructed to hide
+them before coding and states that they were hidden before coding began and were not consulted, which is an
+attestation rather than a verifiable blinding, and the coder is not independent of the paper's authorship or of its
+outcome. Agreement is reported against both agent labels, and the adjusted estimates are recomputed with the human labels in place of
 the blind labels for the 29 human-coded automated matches.
 
 **Analysis.** All analyses were pre-specified (paper/analysis_plan.md in the repository) before any manual
@@ -655,8 +656,8 @@ written protocol with logged evidence, not by human coders; the agreement statis
 for fabricated-versus-not) measure the reproducibility of the protocol between independent agent instances, not
 agreement with human judgement. The 64-item human coding (Sections 4 and 5.1) anchors these statistics to one human reading. The coder, the paper's
 author, had no part in the adjudication or the analysis and so is independent of the labels under test, but not of the
-paper's authorship, and the sheet carried the agent labels in columns the coder was asked to hide, so blinding is
-procedural rather than verified; the check's main result, that 18 of the 19 disputed automated matches are indeed
+paper's authorship, and the sheet carried the agent labels in columns that the coder states were hidden before coding and not
+consulted, an attestation rather than a verifiable blinding; the check's main result, that 18 of the 19 disputed automated matches are indeed
 defective, does not depend on fine judgement. The search channels
 changed during the first adjudication (the agent's web-search tool, then Google, Brave and Yahoo search pages, PubMed
 and Crossref) as usage limits and bot detection intervened. The NOT_FOUND rate by adjudication order was 40.9%, 31.9%
