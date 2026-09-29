@@ -59,7 +59,7 @@
    "container": "CoRR",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -86,7 +86,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "724b863739e04c4dad68ff3f4ed42a85bad72161",
+    "title": "ABIDES-gym: gym environments for multi-agent discrete event simulation and application to financial markets",
+    "year": 2021,
+    "first_author": "Selim Amrouni",
+    "container": "International Conference on AI in Finance",
+    "ext": {
+     "DBLP": "journals/corr/abs-2110-14771",
+     "ArXiv": "2110.14771",
+     "DOI": "10.1145/3490354.3494433",
+     "CorpusId": 240070747
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -141,7 +164,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -174,7 +197,22 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "arxiv_id_repass",
+   "match": {
+    "source": "arxiv_abs",
+    "arxiv": "1802.03042",
+    "title": "Deep Hedging",
+    "year": 2018,
+    "first_author": "B\u00fchler, Hans"
+   },
+   "metrics": {
+    "title_sim": 0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   }
   },
   {
    "junk": false,
@@ -195,7 +233,7 @@
    "container": "CoRR abs/1904.12066",
    "type": "chapter",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -222,7 +260,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "44a7f1b4cb157a1621d5a6cf462458ff005e2339",
+    "title": "ABIDES: Towards High-Fidelity Market Simulation for AI Research",
+    "year": 2019,
+    "first_author": "David Byrd",
+    "container": "arXiv.org",
+    "ext": {
+     "MAG": "2941903151",
+     "ArXiv": "1904.12066",
+     "DBLP": "journals/corr/abs-1904-12066",
+     "CorpusId": 139104309
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -243,7 +304,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -270,7 +331,28 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "f9b35bf1501c9709dd44834e950af51b90378b66",
+    "title": "ABIDES-Economist: Agent-Based Simulator of Economic Systems with Learning Agents",
+    "year": 2024,
+    "first_author": "Kshama Dwarakanath",
+    "container": "",
+    "ext": {
+     "ArXiv": "2402.09563",
+     "CorpusId": 280642180
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -593,7 +675,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -620,7 +702,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "09bca614fbd779b5f5c5446ee42f7e62a11a6b23",
+    "title": "Agent Inspired Trading Using Recurrent Reinforcement Learning and LSTM Neural Networks",
+    "year": 2017,
+    "first_author": "David W. Lu",
+    "container": "",
+    "ext": {
+     "ArXiv": "1707.07338",
+     "MAG": "2737320136",
+     "CorpusId": 126161432
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -677,7 +781,7 @@
    "container": "CoRR abs/1312.5602",
    "type": "chapter",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -704,7 +808,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "2319a491378867c7049b3da055c5df60e1671158",
+    "title": "Playing Atari with Deep Reinforcement Learning",
+    "year": 2013,
+    "first_author": "Volodymyr Mnih",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/MnihKSGAWR13",
+     "MAG": "1757796397",
+     "ArXiv": "1312.5602",
+     "CorpusId": 15238391
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -763,7 +890,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -790,7 +917,28 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "da1736ee87e1b3e0285a439c17a6e41304b9eaf2",
+    "title": "Similarity metrics for Different Market Scenarios in Abides",
+    "year": 2021,
+    "first_author": "Diego Pino",
+    "container": "",
+    "ext": {
+     "ArXiv": "2107.09352",
+     "CorpusId": 236147539
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -809,7 +957,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -836,7 +984,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "38908ff3becb73e8b7586a27d1b5c2cf1db38728",
+    "title": "Synthetic Data Applications in Finance",
+    "year": 2023,
+    "first_author": "Vamsi K. Potluru",
+    "container": "arXiv.org",
+    "ext": {
+     "ArXiv": "2401.00081",
+     "DBLP": "journals/corr/abs-2401-00081",
+     "DOI": "10.48550/arXiv.2401.00081",
+     "CorpusId": 266693492
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1015,7 +1186,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -1042,7 +1213,33 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "14da74b1be647030bc7b2a845a5ff9fc1bca64e9",
+    "title": "Get real: realism metrics for robust limit order book market simulations",
+    "year": 2019,
+    "first_author": "Svitlana Vyetrenko",
+    "container": "International Conference on AI in Finance",
+    "ext": {
+     "MAG": "2996603645",
+     "DBLP": "conf/icaif/VyetrenkoBPMDVB20",
+     "ArXiv": "1912.04941",
+     "DOI": "10.1145/3383455.3422561",
+     "CorpusId": 209202265
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

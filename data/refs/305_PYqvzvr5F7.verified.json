@@ -259,7 +259,7 @@
    "container": null,
    "type": "book",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -282,7 +282,28 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "0316f2bc77021bcf6499374213ffec0a95926dd9",
+    "title": "Introduction to Mediation, Moderation, and Conditional Process Analysis: A Regression-Based Approach",
+    "year": 2013,
+    "first_author": "Andrew F. Hayes",
+    "container": "",
+    "ext": {
+     "MAG": "1849190772",
+     "CorpusId": 143408509
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1009,5 +1030,7 @@
    },
    "evidence": []
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

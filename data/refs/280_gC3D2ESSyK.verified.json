@@ -102,7 +102,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -129,7 +129,22 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "arxiv_id_repass",
+   "match": {
+    "source": "arxiv_abs",
+    "arxiv": "2505.15146",
+    "title": "lmgame-Bench: How Good are LLMs at Playing Games?",
+    "year": 2025,
+    "first_author": "Hu, Lanxiang"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   }
   },
   {
    "junk": false,
@@ -191,7 +206,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -218,7 +233,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "be615356953f9444936580d30c7c98ba531d0ec3",
+    "title": "TextQuests: How Good are LLMs at Text-Based Video Games?",
+    "year": 2025,
+    "first_author": "Long Phan",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2507-23701",
+     "ArXiv": "2507.23701",
+     "DOI": "10.48550/arXiv.2507.23701",
+     "CorpusId": 280401732
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -275,7 +313,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -302,7 +340,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "cf22c2d25bc2790065f8058d3953a49550b2564a",
+    "title": "Agents Play Thousands of 3D Video Games",
+    "year": 2025,
+    "first_author": "Zhongwen Xu",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2503-13356",
+     "ArXiv": "2503.13356",
+     "DOI": "10.48550/arXiv.2503.13356",
+     "CorpusId": 277104623
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -384,5 +445,7 @@
     }
    ]
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

@@ -26,7 +26,7 @@
    "container": "Advances in Neural Information Processing Systems",
    "type": "chapter",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -49,7 +49,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "5bbb6f9a8204eb13070b6f033e61c84ef8ee68dd",
+    "title": "Deep Reinforcement Learning from Human Preferences",
+    "year": 2017,
+    "first_author": "P. Christiano",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "MAG": "2626804490",
+     "ArXiv": "1706.03741",
+     "DBLP": "journals/corr/abs-1706-03741",
+     "CorpusId": 4787508
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -71,7 +94,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -98,7 +121,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "c6f913e4baa7f2c85363c0625c87003ad3b3a14c",
+    "title": "Scalable agent alignment via reward modeling: a research direction",
+    "year": 2018,
+    "first_author": "Jan Leike",
+    "container": "arXiv.org",
+    "ext": {
+     "MAG": "2901707424",
+     "ArXiv": "1811.07871",
+     "DBLP": "journals/corr/abs-1811-07871",
+     "CorpusId": 53745764
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -160,7 +206,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -187,7 +233,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "7a15950dc71079285a4eaf195de5aadd87c41b40",
+    "title": "Fine-Tuning Language Models from Human Preferences",
+    "year": 2019,
+    "first_author": "Daniel M. Ziegler",
+    "container": "arXiv.org",
+    "ext": {
+     "MAG": "2973379954",
+     "DBLP": "journals/corr/abs-1909-08593",
+     "ArXiv": "1909.08593",
+     "CorpusId": 202660943
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -212,7 +281,7 @@
    "container": "Advances in Neural Information Processing Systems",
    "type": "chapter",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -235,7 +304,28 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "356770d13ad2e7b60961e5bc7368ffd3b9a2bcd9",
+    "title": "Learning to summarize with human feedback",
+    "year": 2020,
+    "first_author": "Nisan Stiennon",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "DBLP": "conf/nips/StiennonO0ZLVRA20",
+     "CorpusId": 263874153
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -293,7 +383,7 @@
    "container": "Advances in Neural Information Processing Systems",
    "type": "chapter",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -316,7 +406,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "1e6abd43fcb157fde4d4ddc3ac8787ae45dbf777",
+    "title": "Cooperative Inverse Reinforcement Learning",
+    "year": 2016,
+    "first_author": "Dylan Hadfield-Menell",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "MAG": "2410842990",
+     "DBLP": "journals/corr/Hadfield-Menell16",
+     "ArXiv": "1606.03137",
+     "CorpusId": 6208061
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -335,7 +448,7 @@
    "container": "Proceedings of the Annual Conference of the Cognitive Science Society",
    "type": "paper-conference",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -358,7 +471,28 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "67238f415dfb2024298082d8c9f7eb529fe191f5",
+    "title": "Where Do Rewards Come From",
+    "year": 2009,
+    "first_author": "A. Barto",
+    "container": "",
+    "ext": {
+     "MAG": "2592535843",
+     "CorpusId": 14951500
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -419,7 +553,7 @@
    "container": "27th USENIX Security Symposium",
    "type": "paper-conference",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -442,7 +576,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "2410923ed90b099e3f5565b63e789f10bf70ec4c",
+    "title": "Formal Security Analysis of Neural Networks using Symbolic Intervals",
+    "year": 2018,
+    "first_author": "Shiqi Wang",
+    "container": "USENIX Security Symposium",
+    "ext": {
+     "MAG": "2963735478",
+     "DBLP": "conf/uss/WangPWYJ18",
+     "ArXiv": "1804.10829",
+     "CorpusId": 13745458
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -519,5 +676,7 @@
    },
    "evidence": []
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

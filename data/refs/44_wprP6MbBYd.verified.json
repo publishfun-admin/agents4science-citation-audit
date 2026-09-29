@@ -142,7 +142,7 @@
    "container": null,
    "type": "report",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -169,7 +169,22 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "arxiv_id_repass",
+   "match": {
+    "source": "arxiv_abs",
+    "arxiv": "2412.19437",
+    "title": "DeepSeek-V3 Technical Report",
+    "year": 2024,
+    "first_author": "DeepSeek-AI"
+   },
+   "metrics": {
+    "title_sim": 0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   }
   },
   {
    "junk": false,
@@ -234,7 +249,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -261,7 +276,31 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "30c0cdc414f68211d5d0514df027cec22e005174",
+    "title": "A Survey on In-context Learning",
+    "year": 2022,
+    "first_author": "Qingxiu Dong",
+    "container": "Conference on Empirical Methods in Natural Language Processing",
+    "ext": {
+     "DBLP": "conf/emnlp/Dong0DZMLXX0C0S24",
+     "ArXiv": "2301.00234",
+     "ACL": "2024.emnlp-main.64",
+     "DOI": "10.18653/v1/2024.emnlp-main.64",
+     "CorpusId": 255372865
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -380,7 +419,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -403,7 +442,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "e6c561d02500b2596a230b341a8eb8b921ca5bf2",
+    "title": "Scaling Laws for Neural Language Models",
+    "year": 2020,
+    "first_author": "J. Kaplan",
+    "container": "arXiv.org",
+    "ext": {
+     "MAG": "3001279689",
+     "DBLP": "journals/corr/abs-2001-08361",
+     "ArXiv": "2001.08361",
+     "CorpusId": 210861095
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -603,7 +665,7 @@
    "container": "Advances in neural information processing systems",
    "type": "chapter",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -626,7 +688,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "fa98d609eb14ce25dd73cd8713a5e284948b4ff4",
+    "title": "Deep Knowledge Tracing",
+    "year": 2015,
+    "first_author": "C. Piech",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "MAG": "2950809786",
+     "DBLP": "journals/corr/PiechSHGSGS15",
+     "ArXiv": "1506.05908",
+     "CorpusId": 3587872
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -825,5 +910,7 @@
    },
    "evidence": []
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

@@ -24,7 +24,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -51,7 +51,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "f45f85fa1beaa795c24c4ff86f1f2deece72252f",
+    "title": "A decoder-only foundation model for time-series forecasting",
+    "year": 2023,
+    "first_author": "Abhimanyu Das",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "ArXiv": "2310.10688",
+     "DBLP": "journals/corr/abs-2310-10688",
+     "DOI": "10.48550/arXiv.2310.10688",
+     "CorpusId": 264172792
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -69,7 +92,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -96,7 +119,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "02fa77e4f355198cb4270f6d4a07517bf09c46dd",
+    "title": "Chronos: Learning the Language of Time Series",
+    "year": 2024,
+    "first_author": "Abdul Fatir Ansari",
+    "container": "Trans. Mach. Learn. Res.",
+    "ext": {
+     "DBLP": "journals/tmlr/AnsariSTZMSSRPK24",
+     "ArXiv": "2403.07815",
+     "DOI": "10.48550/arXiv.2403.07815",
+     "CorpusId": 268363551
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -201,7 +247,7 @@
    "container": "NeurIPS",
    "type": "chapter",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -224,7 +270,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "921196c32213a229245a9705ee4768bc941e7a26",
+    "title": "An Empirical Evaluation of Generic Convolutional and Recurrent Networks for Sequence Modeling",
+    "year": 2018,
+    "first_author": "Shaojie Bai",
+    "container": "arXiv.org",
+    "ext": {
+     "MAG": "2792764867",
+     "DBLP": "journals/corr/abs-1803-01271",
+     "ArXiv": "1803.01271",
+     "CorpusId": 4747877
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -317,7 +386,7 @@
    "container": "ICLR",
    "type": "chapter",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -340,7 +409,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "67d968c7450878190e45ac7886746de867bf673d",
+    "title": "Neural Architecture Search with Reinforcement Learning",
+    "year": 2016,
+    "first_author": "Barret Zoph",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "MAG": "2952431534",
+     "DBLP": "journals/corr/ZophL16",
+     "ArXiv": "1611.01578",
+     "CorpusId": 12713052
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -399,7 +491,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -426,7 +518,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "d8abb8206b913d185b4bd406880131c13759a6ff",
+    "title": "The UEA multivariate time series classification archive, 2018",
+    "year": 2018,
+    "first_author": "A. Bagnall",
+    "container": "arXiv.org",
+    "ext": {
+     "ArXiv": "1811.00075",
+     "DBLP": "journals/corr/abs-1811-00075",
+     "MAG": "2898647012",
+     "CorpusId": 53166683
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -464,5 +579,7 @@
    },
    "evidence": []
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

@@ -1,0 +1,544 @@
+{
+ "pdf": "50_isNfx9ujE9.pdf",
+ "n_entries": 12,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": false,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "References [1] A. Sharma, G. S. Yadava, and S. G. Deshmukh. A literature review and future perspectives on maintenance optimization. Journal of Quality in Maintenance Engineering, 17(1):5\u201325, 2011.",
+   "title": "A literature review and future perspectives on maintenance optimization",
+   "authors": [
+    "References [1] A. Sharma, G. S. Yadava, and S. G. Deshmukh."
+   ],
+   "year": 2011,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Quality in Maintenance Engineering",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1108/13552511111116222",
+    "title": "A literature review and future perspectives on maintenance optimization",
+    "year": 2011,
+    "first_author": "Sharma",
+    "container": "Journal of Quality in Maintenance Engineering",
+    "type": "journal-article",
+    "score": 67.18664
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2] R. K. Mobley. An introduction to predictive maintenance. Plant Engineering, 56(4):10\u201317, 2002.",
+   "title": "An introduction to predictive maintenance",
+   "authors": [
+    "Mobley"
+   ],
+   "year": 2002,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Plant Engineering",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1016/b978-075067531-4/50006-3",
+      "title": "Predictive Maintenance Techniques",
+      "year": 2002,
+      "first_author": "Mobley",
+      "container": "An Introduction to Predictive Maintenance",
+      "type": "book-chapter",
+      "score": 48.3216
+     },
+     "metrics": {
+      "title_sim": 80.0,
+      "containment": 0.667,
+      "partial_ratio": 81.81818181818181,
+      "year_ok": true,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": {
+    "source": "crossref",
+    "doi": "10.1016/b978-075067531-4/50006-3",
+    "title": "Predictive Maintenance Techniques",
+    "year": 2002,
+    "first_author": "Mobley",
+    "container": "An Introduction to Predictive Maintenance",
+    "type": "book-chapter",
+    "score": 48.3216
+   },
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "85be94bab757bd520f6e60355a0e4efd587d5425",
+    "title": "An introduction to predictive maintenance",
+    "year": 1989,
+    "first_author": "R. Mobley",
+    "container": "",
+    "ext": {
+     "MAG": "2148922589",
+     "DOI": "10.1016/b978-0-7506-7531-4.x5000-3",
+     "CorpusId": 110458122
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3] T. Zonta, C. A. da Costa, R. da Rosa Righi, M. J. de Lima, E. S. da Trindade, and G. P. Li. Predictive maintenance in the industry 4.0: A systematic literature review. Computers & Industrial Engineering, 150:106889, 2020.",
+   "title": "Predictive maintenance in the industry 4.0: A systematic literature review",
+   "authors": [
+    "Zonta",
+    "Costa",
+    "Rosa Righi",
+    "Lima",
+    "Trindade",
+    "Li"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Computers & Industrial Engineering",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.cie.2020.106889",
+    "title": "Predictive maintenance in the Industry 4.0: A systematic literature review",
+    "year": 2020,
+    "first_author": "Zonta",
+    "container": "Computers &amp; Industrial Engineering",
+    "type": "journal-article",
+    "score": 42.57093
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4] T. P. Carvalho, F. A. Soares, R. Vita, R. D. P. Francisco, J. P. Basto, and S. G. Alcal\u00e1. A systematic literature review of machine learning methods applied to predictive maintenance. Computers & Industrial Engineering, 137:106024, 2019.",
+   "title": "A systematic literature review of machine learning methods applied to predictive maintenance",
+   "authors": [
+    "Carvalho",
+    "Soares",
+    "Vita",
+    "Francisco",
+    "Basto",
+    "Alcal\u00e1"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Computers & Industrial Engineering",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.cie.2019.106024",
+    "title": "A systematic literature review of machine learning methods applied to predictive maintenance",
+    "year": 2019,
+    "first_author": "Carvalho",
+    "container": "Computers &amp; Industrial Engineering",
+    "type": "journal-article",
+    "score": 47.523182
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5] Z. Chen, K. Gryllias, and W. Li. Mechanical fault diagnosis using convolutional neural networks and extreme learning machine. Mechanical Systems and Signal Processing, 133:106272, 2019.",
+   "title": "Mechanical fault diagnosis using convolutional neural networks and extreme learning machine",
+   "authors": [
+    "Chen",
+    "Gryllias",
+    "Li"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Mechanical Systems and Signal Processing",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.ymssp.2019.106272",
+    "title": "Mechanical fault diagnosis using Convolutional Neural Networks and Extreme Learning Machine",
+    "year": 2019,
+    "first_author": "Chen",
+    "container": "Mechanical Systems and Signal Processing",
+    "type": "journal-article",
+    "score": 66.030396
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[6] V. T. Tran, F. AlThobiani, and A. Ball. An approach to fault diagnosis of reciprocating compressor valves using teager\u2013kaiser energy operator and deep belief networks. Expert Systems with Applications, 41(9):4113\u20134122, 2014.",
+   "title": "An approach to fault diagnosis of reciprocating compressor valves using teager\u2013kaiser energy operator and deep belief networks",
+   "authors": [
+    "Tran",
+    "AlThobiani",
+    "Ball"
+   ],
+   "year": 2014,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Expert Systems with Applications",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.eswa.2013.12.026",
+    "title": "An approach to fault diagnosis of reciprocating compressor valves using Teager\u2013Kaiser energy operator and deep belief networks",
+    "year": 2014,
+    "first_author": "Tran",
+    "container": "Expert Systems with Applications",
+    "type": "journal-article",
+    "score": 102.24739
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[7] Y. Ran, X. Zhou, P. Lin, Y. Wen, and R. Deng. A survey of predictive maintenance: Systems, purposes and approaches. arXiv preprint arXiv:1912.07383, 2019.",
+   "title": "A survey of predictive maintenance: Systems, purposes and approaches",
+   "authors": [
+    "Ran",
+    "Zhou",
+    "Lin",
+    "Wen",
+    "Deng"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": "1912.07383",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "1912.07383"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.21608/sjrbs.2026.396074.2050",
+      "title": "A Comprehensive Review of Predictive Maintenance: Purposes, Approaches, and Systems",
+      "year": 2026,
+      "first_author": "\u0627\u0644\u062f\u064a\u0628",
+      "container": "\u0627\u0644\u0645\u062c\u0644\u0629 \u0627\u0644\u0639\u0644\u0645\u064a\u0629 \u0644\u0644\u0628\u062d\u0648\u062b \u0648\u0627\u0644\u062f\u0631\u0627\u0633\u0627\u062a \u0627\u0644\u062a\u062c\u0627\u0631\u064a\u0629",
+      "type": "journal-article",
+      "score": 29.588177
+     },
+     "metrics": {
+      "title_sim": 94.4,
+      "containment": 0.714,
+      "partial_ratio": 71.25,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "arxiv_id_repass",
+   "match": {
+    "source": "arxiv_abs",
+    "arxiv": "1912.07383",
+    "title": "A Survey of Predictive Maintenance: Systems, Purposes and Approaches",
+    "year": 2019,
+    "first_author": "Zhu, Tianwen"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   }
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[8] Z. Li, Y. Wang, and K. S. Wang. Intelligent predictive maintenance for fault diagnosis and prognosis in machine centers: Industry 4.0 scenario. Advances in Manufacturing, 5(4):377\u2013387, 2017.",
+   "title": "Intelligent predictive maintenance for fault diagnosis and prognosis in machine centers: Industry 4.0 scenario",
+   "authors": [
+    "Li",
+    "Wang",
+    "Wang"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Manufacturing",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/s40436-017-0203-8",
+    "title": "Intelligent predictive maintenance for fault diagnosis and prognosis in machine centers: Industry 4.0 scenario",
+    "year": 2017,
+    "first_author": "Li",
+    "container": "Advances in Manufacturing",
+    "type": "journal-article",
+    "score": 70.12209
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[9] A. D. Ames, X. Xu, J. W. Grizzle, and P. Tabuada. Control barrier function based quadratic programs for safety critical systems. IEEE Transactions on Automatic Control, 62(8):3861\u20133876, 2017.",
+   "title": "Control barrier function based quadratic programs for safety critical systems",
+   "authors": [
+    "Ames",
+    "Xu",
+    "Grizzle",
+    "Tabuada"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE Transactions on Automatic Control",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/tac.2016.2638961",
+    "title": "Control Barrier Function Based Quadratic Programs for Safety Critical Systems",
+    "year": 2017,
+    "first_author": "Ames",
+    "container": "IEEE Transactions on Automatic Control",
+    "type": "journal-article",
+    "score": 59.00683
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[10] B. Thananjeyan, A. Balakrishna, S. Nair, M. Luo, K. Srinivasan, M. Hwang, J. Joseph, J. Ichnowski, V. Seita, F. T. Pokorny, and K. Goldberg. Recovery rl: Safe reinforcement learning with learned recovery zones. IEEE Robotics and Automation Letters, 6(3):4915\u20134922, 2021.",
+   "title": "Recovery rl: Safe reinforcement learning with learned recovery zones",
+   "authors": [
+    "Thananjeyan",
+    "Balakrishna",
+    "Nair",
+    "Luo",
+    "Srinivasan",
+    "Hwang",
+    "Joseph",
+    "Ichnowski",
+    "Seita",
+    "Pokorny",
+    "Goldberg"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE Robotics and Automation Letters",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/lra.2021.3070252",
+    "title": "Recovery RL: Safe Reinforcement Learning With Learned Recovery Zones",
+    "year": 2021,
+    "first_author": "Thananjeyan",
+    "container": "IEEE Robotics and Automation Letters",
+    "type": "journal-article",
+    "score": 65.61642
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "[11] Y. Sun, L. Ma, J. Mathew, W. Wang, and S. Zhang. Mechanical systems hazard estimation using condition monitoring. Mechanical Systems and Signal Processing, 20(5):1189\u20131201, 2006.",
+   "title": "Mechanical systems hazard estimation using condition monitoring",
+   "authors": [
+    "Sun",
+    "Ma",
+    "Mathew",
+    "Wang",
+    "Zhang"
+   ],
+   "year": 2006,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Mechanical Systems and Signal Processing",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.ymssp.2004.10.009",
+    "title": "Mechanical systems hazard estimation using condition monitoring",
+    "year": 2006,
+    "first_author": "Sun",
+    "container": "Mechanical Systems and Signal Processing",
+    "type": "journal-article",
+    "score": 52.540848
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "[12] M. Baptista, S. Sankararaman, I. P. de Medeiros, C. Nascimento Jr, H. Prendinger, and E. M. Henriques. Forecasting fault events for predictive maintenance using data-driven techniques and arma modeling. Computers & Industrial Engineering, 115:41\u201353, 2018.",
+   "title": "Forecasting fault events for predictive maintenance using data-driven techniques and arma modeling",
+   "authors": [
+    "Baptista",
+    "Sankararaman",
+    "Medeiros",
+    "Nascimento",
+    "Prendinger",
+    "Henriques"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Computers & Industrial Engineering",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.cie.2017.10.033",
+    "title": "Forecasting fault events for predictive maintenance using data-driven techniques and ARMA modeling",
+    "year": 2018,
+    "first_author": "Baptista",
+    "container": "Computers &amp; Industrial Engineering",
+    "type": "journal-article",
+    "score": 73.25034
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  }
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
+}

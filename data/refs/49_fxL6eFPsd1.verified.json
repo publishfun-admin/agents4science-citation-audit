@@ -1,0 +1,2312 @@
+{
+ "pdf": "49_fxL6eFPsd1.pdf",
+ "n_entries": 47,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "Generative AI has been used to prepare this manuscript. References [1] Mehrad Ansari and S. M. Moosavi. Agent-based Learning of Materials Datasets from Scientific Literature. arXiv.org, 2023.",
+   "title": "Generative AI has been used to prepare this manuscript",
+   "authors": [
+    "Ansari",
+    "Moosavi"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "References",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.5194/essd-2019-161-rc3",
+      "title": "Manuscript has been updated and reads much better",
+      "year": 2019,
+      "first_author": null,
+      "container": "",
+      "type": "peer-review",
+      "score": 34.28401
+     },
+     "metrics": {
+      "title_sim": 66.01941747572815,
+      "containment": 0.429,
+      "partial_ratio": 59.183673469387756,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2] Reza Averly, Frazier N. Baker, and Xia Ning. LIDDIA: Language-based Intelligent Drug Discovery Agent. arXiv.org, 2025.",
+   "title": "LIDDIA: Language-based Intelligent Drug Discovery Agent",
+   "authors": [
+    "Averly",
+    "Baker",
+    "Ning"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2025.emnlp-main.603",
+    "title": "LIDDIA: Language-based Intelligent Drug Discovery Agent",
+    "year": 2025,
+    "first_author": "Averly",
+    "container": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+    "type": "proceedings-article",
+    "score": 63.739136
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3] Jinheon Baek, S. Jauhar, Silviu Cucerzan, and Sung Ju Hwang. ResearchAgent: Iterative Research Idea Generation over Scientific Literature with Large Language Models. North American Chapter of the Association for Computational Linguistics, 2024.",
+   "title": "ResearchAgent: Iterative Research Idea Generation over Scientific Literature with Large Language Models",
+   "authors": [
+    "Jinheon Baek",
+    "Cucerzan",
+    "Hwang"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2025.naacl-long.342",
+    "title": "ResearchAgent: Iterative Research Idea Generation over Scientific Literature with Large Language Models",
+    "year": 2025,
+    "first_author": "Baek",
+    "container": "Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+    "type": "proceedings-article",
+    "score": 66.442406
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4] Adib Bazgir, Amir Habibdoust Lafmajani, and Yuwen Zhang. Beyond Correlation: Towards Causal Large Language Model Agents in Biomedicine. arXiv.org, 2025.",
+   "title": "Beyond Correlation: Towards Causal Large Language Model Agents in Biomedicine",
+   "authors": [
+    "Bazgir",
+    "Lafmajani",
+    "Zhang"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/acit69831.2026.11700225",
+      "title": "Semantic Causal and Correlation-Causal Graphs Based on Large Language Model Relationship Evaluation",
+      "year": 2026,
+      "first_author": "Dud\u00e1\u0161",
+      "container": "2026 16th International Conference on Advanced Computer Information Technologies (ACIT)",
+      "type": "proceedings-article",
+      "score": 32.979534
+     },
+     "metrics": {
+      "title_sim": 67.82608695652175,
+      "containment": 0.545,
+      "partial_ratio": 60.60606060606061,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "a4c15f2fdc2b507678a960e1c7b14a857b72cd04",
+    "title": "Beyond Correlation: Towards Causal Large Language Model Agents in Biomedicine",
+    "year": 2025,
+    "first_author": "A. Bazgir",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2505-16982",
+     "ArXiv": "2505.16982",
+     "DOI": "10.48550/arXiv.2505.16982",
+     "CorpusId": 278789999
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5] Andr\u00e9s M Bran, Sam Cox, Oliver Schilter, Carlo Baldassari, Andrew D. White, and P. Schwaller. Augmenting large language models with chemistry tools. Nat. Mac. Intell., 2023.",
+   "title": "Augmenting large language models with chemistry tools",
+   "authors": [
+    "Bran",
+    "Cox",
+    "Schilter",
+    "Baldassari",
+    "White",
+    "Schwaller"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nat. Mac. Intell",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/s42256-024-00832-8",
+    "title": "Augmenting large language models with chemistry tools",
+    "year": 2024,
+    "first_author": "M. Bran",
+    "container": "Nature Machine Intelligence",
+    "type": "journal-article",
+    "score": 44.34869
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[6] Tingting Chen, Srinivas Anumasa, Beibei Lin, Vedant Shah, Anirudh Goyal, and Dianbo Liu. Auto-Bench: An Automated Benchmark for Scientific Discovery in LLMs. arXiv.org, 2025.",
+   "title": "Auto-Bench: An Automated Benchmark for Scientific Discovery in LLMs",
+   "authors": [
+    "Chen",
+    "Anumasa",
+    "Lin",
+    "Shah",
+    "Goyal",
+    "Liu"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1145/3770855.3817579",
+      "title": "LiveMedBench: A Contamination-Limited Medical Benchmark for LLMs with Automated Rubric Evaluation",
+      "year": 2026,
+      "first_author": "Yan",
+      "container": "Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2",
+      "type": "proceedings-article",
+      "score": 27.038792
+     },
+     "metrics": {
+      "title_sim": 62.96296296296296,
+      "containment": 0.333,
+      "partial_ratio": 50.0,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[7] Kourosh Darvish, Marta Skreta, Yuchi Zhao, Naruki Yoshikawa, Sagnik Som, Miroslav Bogdanovic, Yang Cao, Han Hao, Haoping Xu, Al\u00e1n Aspuru-Guzik, Animesh Garg, and F. Shkurti. ORGANA: A Robotic Assistant for Automated Chemistry Experimentation and Characterization. Matter, 2024.",
+   "title": "ORGANA: A Robotic Assistant for Automated Chemistry Experimentation and Characterization",
+   "authors": [
+    "Darvish",
+    "Skreta",
+    "Zhao",
+    "Yoshikawa",
+    "Som",
+    "Bogdanovic",
+    "Cao",
+    "Hao",
+    "Xu",
+    "Aspuru-Guzik",
+    "Garg",
+    "Shkurti"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.matt.2024.10.015",
+    "title": "ORGANA: A robotic assistant for automated chemistry experimentation and characterization",
+    "year": 2025,
+    "first_author": "Darvish",
+    "container": "Matter",
+    "type": "journal-article",
+    "score": 56.884926
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[8] Shangheng Du, Jiabao Zhao, Jinxin Shi, Zhentao Xie, Xin Jiang, Yanhong Bai, and Liang He. A Survey on the Optimization of Large Language Model-based Agents. arXiv.org, 2025.",
+   "title": "A Survey on the Optimization of Large Language Model-based Agents",
+   "authors": [
+    "Du",
+    "Zhao",
+    "Shi",
+    "Xie",
+    "Jiang",
+    "Bai",
+    "He"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3789261",
+    "title": "A Survey on the Optimization of Large Language Model-based Agents",
+    "year": 2026,
+    "first_author": "Du",
+    "container": "ACM Computing Surveys",
+    "type": "journal-article",
+    "score": 36.194523
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[9] Jingru Gan, Peichen Zhong, Yuanqi Du, Yanqiao Zhu, Chenru Duan, Haorui Wang, Carla P. Gomes, Kristin A. Persson, Daniel Schwalbe-Koda, and Wei Wang. Large Language Models Are Innate Crystal Structure Generators. arXiv.org, 2025.",
+   "title": "Large Language Models Are Innate Crystal Structure Generators",
+   "authors": [
+    "Gan",
+    "Zhong",
+    "Du",
+    "Zhu",
+    "Duan",
+    "Wang",
+    "Gomes",
+    "Persson",
+    "Schwalbe-Koda",
+    "Wang"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.26434/chemrxiv-2025-pvgp0-v2",
+      "title": "Text2Struc: Programmatic Crystal Structure Generation with Fine-Tuned Large Language Models",
+      "year": 2025,
+      "first_author": "Baibakova",
+      "container": "",
+      "type": "posted-content",
+      "score": 33.24028
+     },
+     "metrics": {
+      "title_sim": 78.0,
+      "containment": 0.5,
+      "partial_ratio": 52.702702702702695,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[10] Alireza Ghafarollahi and Markus J. Buehler. ProtAgents: protein discovery via large language model multi-agent collaborations combining physics and machine learning. Digital Discovery, 2024.",
+   "title": "ProtAgents: protein discovery via large language model multi-agent collaborations combining physics and machine learning",
+   "authors": [
+    "Ghafarollahi",
+    "Buehler"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Digital Discovery",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1039/d4dd00013g",
+    "title": "ProtAgents: protein discovery\n                    <i>via</i>\n                    large language model multi-agent collaborations combining physics and machine learning",
+    "year": 2024,
+    "first_author": "Ghafarollahi",
+    "container": "Digital Discovery",
+    "type": "journal-article",
+    "score": 107.77475
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 96.7479674796748,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "[11] Alireza Ghafarollahi and Markus J. Buehler. SciAgents: Automating Scientific Discovery Through Bioinspired MultiAgent Intelligent Graph Reasoning. Advances in Materials, 2024.",
+   "title": "SciAgents: Automating Scientific Discovery Through Bioinspired MultiAgent Intelligent Graph Reasoning",
+   "authors": [
+    "Ghafarollahi",
+    "Buehler"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Materials",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1002/adma.202413523",
+    "title": "SciAgents: Automating Scientific Discovery Through Bioinspired Multi\u2010Agent Intelligent Graph Reasoning",
+    "year": 2025,
+    "first_author": "Ghafarollahi",
+    "container": "Advanced Materials",
+    "type": "journal-article",
+    "score": 91.88185
+   },
+   "metrics": {
+    "title_sim": 99.50248756218906,
+    "containment": 0.818,
+    "partial_ratio": 99.00990099009901,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "[12] Alireza Ghafarollahi and Markus J. Buehler. SciAgents: Automating scientific discovery through multi-agent intelligent graph reasoning. arXiv.org, 2024.",
+   "title": "SciAgents: Automating scientific discovery through multi-agent intelligent graph reasoning",
+   "authors": [
+    "Ghafarollahi",
+    "Buehler"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1002/adma.202413523",
+    "title": "SciAgents: Automating Scientific Discovery Through Bioinspired Multi\u2010Agent Intelligent Graph Reasoning",
+    "year": 2025,
+    "first_author": "Ghafarollahi",
+    "container": "Advanced Materials",
+    "type": "journal-article",
+    "score": 91.23306
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.909,
+    "partial_ratio": 88.11881188118812,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "[13] Alireza Ghafarollahi and Markus J. Buehler. Automating alloy design and discovery with physics-aware multimodal multiagent AI. Proceedings of the National Academy of Sciences of the United States of America, 2025.",
+   "title": "Automating alloy design and discovery with physics-aware multimodal multiagent AI",
+   "authors": [
+    "Ghafarollahi",
+    "Buehler"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the National Academy of Sciences of the United States of America",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1073/pnas.2414074122",
+    "title": "Automating alloy design and discovery with physics-aware multimodal multiagent AI",
+    "year": 2025,
+    "first_author": "Ghafarollahi",
+    "container": "Proceedings of the National Academy of Sciences",
+    "type": "journal-article",
+    "score": 75.536674
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "[14] Yuting Hu, Dancheng Liu, Qingyun Wang, Charles Yu, Heng Ji, and Jinjun Xiong. Automating Intervention Discovery from Scientific Literature: A Progressive Ontology Prompting and Dual-LLM Framework, 2024.",
+   "title": "Automating Intervention Discovery from Scientific Literature: A Progressive Ontology Prompting and Dual-LLM Framework",
+   "authors": [
+    "Hu",
+    "Liu",
+    "Wang",
+    "Yu",
+    "Ji",
+    "Xiong"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.24963/ijcai.2024/1078",
+    "title": "Automating Intervention Discovery from Scientific Literature: A Progressive Ontology Prompting and Dual-LLM Framework",
+    "year": 2024,
+    "first_author": "Hu",
+    "container": "Proceedings of the Thirty-ThirdInternational Joint Conference on Artificial Intelligence",
+    "type": "proceedings-article",
+    "score": 79.63079
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "[15] Tal Ifargan, Lukas Hafner, Maor Kern, Ori Alcalay, and Roy Kishony. Autonomous LLM-driven research from data to human-verifiable research papers. NEJM AI, 2024.",
+   "title": "Autonomous LLM-driven research from data to human-verifiable research papers",
+   "authors": [
+    "Ifargan",
+    "Hafner",
+    "Kern",
+    "Alcalay",
+    "Kishony"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1056/aioa2400555",
+    "title": "Autonomous LLM-Driven Research \u2014 from Data to Human-Verifiable Research Papers",
+    "year": 2025,
+    "first_author": "Ifargan",
+    "container": "NEJM AI",
+    "type": "journal-article",
+    "score": 73.45115
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 16,
+   "raw": "[16] Mina Lee, Percy Liang, and Qian Yang. CoAuthor: Designing a Human-AI Collaborative Writing Dataset for Exploring Language Model Capabilities. International Conference on Human Factors in Computing Systems, 2022.",
+   "title": "CoAuthor: Designing a Human-AI Collaborative Writing Dataset for Exploring Language Model Capabilities",
+   "authors": [
+    "Lee",
+    "Liang",
+    "Yang"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Conference on Human Factors in Computing Systems",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3491102.3502030",
+    "title": "CoAuthor: Designing a Human-AI Collaborative Writing Dataset for Exploring Language Model Capabilities",
+    "year": 2022,
+    "first_author": "Lee",
+    "container": "CHI Conference on Human Factors in Computing Systems",
+    "type": "proceedings-article",
+    "score": 84.6451
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 17,
+   "raw": "[17] Kun Li, Zhennan Wu, Shoupeng Wang, and Wenbin Hu. DrugPilot: LLM-based Parameterized Reasoning Agent for Drug Discovery. arXiv.org, 2025.",
+   "title": "DrugPilot: LLM-based Parameterized Reasoning Agent for Drug Discovery",
+   "authors": [
+    "Li",
+    "Wu",
+    "Wang",
+    "Hu"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.21203/rs.3.rs-7489358/v1",
+    "title": "DrugPilot: LLM-based Parameterized Reasoning Agent for Drug Discovery",
+    "year": 2025,
+    "first_author": "Hu",
+    "container": "",
+    "type": "posted-content",
+    "score": 70.414116
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 18,
+   "raw": "[18] Chengwei Liu, Chong Wang, Jiayue Cao, Jingquan Ge, Kun Wang, Lvye Zhang, Ming-Ming Cheng, Penghai Zhao, Tianlin Li, Xiaojun Jia, Xiang Li, Xinfeng Li, Yang Liu, Yebo Feng, Yihao Huang, Yijia Xu, Yuqiang Sun, Zhe-Xu Zhou, and Zhengzi Xu. A Vision for Auto Research with LLM Agents. arXiv.org, 2025.",
+   "title": "A Vision for Auto Research with LLM Agents",
+   "authors": [
+    "Liu",
+    "Wang",
+    "Cao",
+    "Ge",
+    "Wang",
+    "Zhang",
+    "Cheng",
+    "Zhao",
+    "Li",
+    "Jia",
+    "Li",
+    "Li",
+    "Liu",
+    "Feng",
+    "Huang",
+    "Xu",
+    "Sun",
+    "Zhou",
+    "Xu"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.14711/thesis-hdl172470",
+      "title": "Empowering LLM Agents with Knowledge, Tools, and Vision",
+      "year": 2026,
+      "first_author": "Li",
+      "container": "",
+      "type": "dissertation",
+      "score": 29.101807
+     },
+     "metrics": {
+      "title_sim": 68.75,
+      "containment": 0.5,
+      "partial_ratio": 46.15384615384615,
+      "year_ok": true,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 19,
+   "raw": "[19] Fan Liu, Zherui Yang, Cancheng Liu, Tianrui Song, Xiaofeng Gao, and Hao Liu. MM-Agent: LLM as Agents for Real-world Mathematical Modeling Problem. arXiv.org, 2025.",
+   "title": "MM-Agent",
+   "authors": [
+    "Liu",
+    "Yang",
+    "Liu",
+    "Song",
+    "Gao",
+    "Liu"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/085713-0704",
+    "title": "MM-Agent: LLM as Agents for Real-world Mathematical Modeling Problem",
+    "year": 2025,
+    "first_author": "LIU",
+    "container": "Advances in Neural Information Processing Systems 38",
+    "type": "proceedings-article",
+    "score": 20.372053
+   },
+   "metrics": {
+    "title_sim": 21.333333333333336,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 20,
+   "raw": "[20] Junyu Luo, Weizhi Zhang, Ye Yuan, Yusheng Zhao, Junwei Yang, Yiyang Gu, Bohan Wu, Binqi Chen, Ziyue Qiao, Qingqing Long, Rongcheng Tu, Xiaoming Luo, Wei Ju, Zhiping Xiao, Yifan Wang, Mengxue Xiao, Chenwu Liu, Jingyang Yuan, Shichang Zhang, Yiqiao Jin, Fan Zhang, Xianhong Wu, Hanqing Zhao, Dacheng Tao, Philip S. Yu, and Ming Zhang. Large Language Model Agent: A Survey on Methodology, Applications and Challenges. arXiv.org, 2025.",
+   "title": null,
+   "authors": [
+    "Luo",
+    "Zhang",
+    "Yuan",
+    "Zhao",
+    "Yang",
+    "Gu",
+    "Wu",
+    "Chen",
+    "Qiao",
+    "Long",
+    "Tu",
+    "Luo",
+    "Ju",
+    "Xiao",
+    "Wang",
+    "Xiao",
+    "Liu",
+    "Yuan",
+    "Zhang",
+    "Jin",
+    "Zhang",
+    "Wu",
+    "Zhao",
+    "Tao",
+    "Yu",
+    "Zhang"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.7346709",
+      "title": "A Comprehensive Survey of Multimodal Foundation Model Evaluation: A Hierarchical Perspective and Extensive Applications",
+      "year": 2026,
+      "first_author": "Yuan",
+      "container": "",
+      "type": "posted-content",
+      "score": 96.4606
+     },
+     "metrics": {
+      "title_sim": 0,
+      "containment": 0.3,
+      "partial_ratio": 46.0,
+      "year_ok": true,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 21,
+   "raw": "[21] Yubo Ma, Zhibin Gou, Junheng Hao, Ruochen Xu, Shuohang Wang, Liangming Pan, Yujiu Yang, Yixin Cao, and Aixin Sun. SciAgent: Tool-augmented Language Models for Scientific Reasoning. Conference on Empirical Methods in Natural Language Processing, 2024.",
+   "title": "SciAgent: Tool-augmented Language Models for Scientific Reasoning",
+   "authors": [
+    "Ma",
+    "Gou",
+    "Hao",
+    "Xu",
+    "Wang",
+    "Pan",
+    "Yang",
+    "Cao",
+    "Sun"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Conference on Empirical Methods in Natural Language Processing",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2024.emnlp-main.880",
+    "title": "SciAgent: Tool-augmented Language Models for Scientific Reasoning",
+    "year": 2024,
+    "first_author": "Ma",
+    "container": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+    "type": "proceedings-article",
+    "score": 57.32092
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 22,
+   "raw": "[22] Deepak Nathani, Lovish Madaan, Nicholas Roberts, Niko lay Bashlykov, A. Menon, Vincent Moens, Amar Budhiraja, Despoina Magka, Vladislav Vorotilov, Gaurav Chaurasia, Dieuwke Hupkes, Ricardo Silveira Cabral, Tatiana Shavrina, Jakob Foerster, Yoram Bachrach, William Yang Wang, and R. Raileanu. MLGym: A New Framework and Benchmark for Advancing AI Research Agents. arXiv.org, 2025.",
+   "title": "MLGym: A New Framework and Benchmark for Advancing AI Research Agents",
+   "authors": [
+    "Nathani",
+    "Madaan",
+    "Roberts",
+    "Bashlykov",
+    "Moens",
+    "Budhiraja",
+    "Magka",
+    "Vorotilov",
+    "Chaurasia",
+    "Hupkes",
+    "Cabral",
+    "Shavrina",
+    "Foerster",
+    "Bachrach",
+    "Wang",
+    "Raileanu"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.7349078",
+      "title": "ELARA: A Framework for Empirical Legal Research with AI Agents",
+      "year": 2026,
+      "first_author": "Choi",
+      "container": "",
+      "type": "posted-content",
+      "score": 26.047695
+     },
+     "metrics": {
+      "title_sim": 71.57894736842105,
+      "containment": 0.5,
+      "partial_ratio": 57.377049180327866,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "e87d34032cc2a77a7711a651296a8f51c9474929",
+    "title": "MLGym: A New Framework and Benchmark for Advancing AI Research Agents",
+    "year": 2025,
+    "first_author": "Deepak Nathani",
+    "container": "arXiv.org",
+    "ext": {
+     "ArXiv": "2502.14499",
+     "DBLP": "journals/corr/abs-2502-14499",
+     "DOI": "10.48550/arXiv.2502.14499",
+     "CorpusId": 276482776
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 23,
+   "raw": "[23] Yingming Pu, Tao Lin, and Hongyu Chen. PiFlow: Principle-aware Scientific Discovery with Multi-Agent Collaboration. arXiv.org, 2025.",
+   "title": "PiFlow: Principle-aware Scientific Discovery with Multi-Agent Collaboration",
+   "authors": [
+    "Pu",
+    "Lin",
+    "Chen"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1038/s41524-026-02205-8",
+      "title": "Autonomous in-silico inorganic materials discovery via multi-agent physics-aware scientific reasoning",
+      "year": 2026,
+      "first_author": "Ghafarollahi",
+      "container": "npj Computational Materials",
+      "type": "journal-article",
+      "score": 31.841972
+     },
+     "metrics": {
+      "title_sim": 67.85714285714286,
+      "containment": 0.455,
+      "partial_ratio": 51.48514851485149,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "e1dc2dfc67eecfa34f90ce2c23008ab83acba5a9",
+    "title": "PiFlow: Principle-aware Scientific Discovery with Multi-Agent Collaboration",
+    "year": 2025,
+    "first_author": "Yingming Pu",
+    "container": "arXiv.org",
+    "ext": {
+     "ArXiv": "2505.15047",
+     "DBLP": "journals/corr/abs-2505-15047",
+     "DOI": "10.48550/arXiv.2505.15047",
+     "CorpusId": 278782614
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 24,
+   "raw": "[24] Biqing Qi, Kaiyan Zhang, Haoxiang Li, Kai Tian, Sihang Zeng, Zhangren Chen, and Bowen Zhou. Large Language Models are Zero Shot Hypothesis Proposers. arXiv.org, 2023.",
+   "title": "Large Language Models are Zero Shot Hypothesis Proposers",
+   "authors": [
+    "Qi",
+    "Zhang",
+    "Li",
+    "Tian",
+    "Zeng",
+    "Chen",
+    "Zhou"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1016/b978-0-443-33592-1.00009-7",
+      "title": "Application of large language models: zero-shot learning",
+      "year": 2026,
+      "first_author": "Pillai",
+      "container": "Challenges and Applications of Generative Large Language Models",
+      "type": "book-chapter",
+      "score": 38.05364
+     },
+     "metrics": {
+      "title_sim": 72.09302325581396,
+      "containment": 0.714,
+      "partial_ratio": 70.9090909090909,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "713b604fb9cdd6631074cbd6bf36db029031992e",
+    "title": "Large Language Models are Zero Shot Hypothesis Proposers",
+    "year": 2023,
+    "first_author": "Biqing Qi",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2311-05965",
+     "ArXiv": "2311.05965",
+     "DOI": "10.48550/arXiv.2311.05965",
+     "CorpusId": 265128781
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 25,
+   "raw": "[25] Chandan K. Reddy and Parshin Shojaee. Towards Scientific Discovery with Generative AI: Progress, Opportunities, and Challenges. AAAI Conference on Artificial Intelligence, 2024.",
+   "title": "Towards Scientific Discovery with Generative AI: Progress, Opportunities, and Challenges",
+   "authors": [
+    "Reddy",
+    "Shojaee"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "AAAI Conference on Artificial Intelligence",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1609/aaai.v39i27.35084",
+    "title": "Towards Scientific Discovery with Generative AI: Progress, Opportunities, and Challenges",
+    "year": 2025,
+    "first_author": "Reddy",
+    "container": "Proceedings of the AAAI Conference on Artificial Intelligence",
+    "type": "journal-article",
+    "score": 54.702232
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 26,
+   "raw": "[26] Shuo Ren, Pu Jian, Zhenjiang Ren, Chunlin Leng, Can Xie, and Jiajun Zhang. Towards Scientific Intelligence: A Survey of LLM-based Scientific Agents. arXiv.org, 2025.",
+   "title": "Towards Scientific Intelligence: A Survey of LLM-based Scientific Agents",
+   "authors": [
+    "Ren",
+    "Jian",
+    "Ren",
+    "Leng",
+    "Xie",
+    "Zhang"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.7717/peerj-cs.3882/fig-1",
+      "title": "Figure 1: LLM-driven scientific literature survey generation framework based on multi-agents and RAG.",
+      "year": 2026,
+      "first_author": null,
+      "container": "",
+      "type": "component",
+      "score": 42.636192
+     },
+     "metrics": {
+      "title_sim": 72.34042553191489,
+      "containment": 0.417,
+      "partial_ratio": 56.353591160220994,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "95154330d74be6c79ac45e97b38ef0038e2b8e2a",
+    "title": "Towards Scientific Intelligence: A Survey of LLM-based Scientific Agents",
+    "year": 2025,
+    "first_author": "Shuo Ren",
+    "container": "arXiv.org",
+    "ext": {
+     "ArXiv": "2503.24047",
+     "DBLP": "journals/corr/abs-2503-24047",
+     "DOI": "10.48550/arXiv.2503.24047",
+     "CorpusId": 277467270
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 27,
+   "raw": "[27] Bernardino Romera-Paredes, M. Barekatain, Alexander Novikov, Matej Balog, M. P. Kumar, Emilien Dupont, Francisco J. R. Ruiz, J. Ellenberg, Pengming Wang, Omar Fawzi, Pushmeet Kohli, Alhussein Fawzi, Josh Grochow, Andrea Lodi, Jean-Baptiste Mouret, Talia Ringer, and Tao Yu. Mathematical discoveries from program search with large language models. The Naturalist, 2023.",
+   "title": "Mathematical discoveries from program search with large language models",
+   "authors": [
+    "Bernardino Romera-Paredes",
+    "Novikov",
+    "Matej Balog",
+    "Dupont",
+    "Ruiz",
+    "Ellenberg",
+    "Wang",
+    "Fawzi",
+    "Kohli",
+    "Fawzi",
+    "Grochow",
+    "Lodi",
+    "Mouret",
+    "Ringer",
+    "Yu"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "The Naturalist",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/s41586-023-06924-6",
+    "title": "Mathematical discoveries from program search with large language models",
+    "year": 2024,
+    "first_author": "Romera-Paredes",
+    "container": "Nature",
+    "type": "journal-article",
+    "score": 54.931522
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 28,
+   "raw": "[28] Samuel Schmidgall and Michael Moor. AgentRxiv: Towards Collaborative Autonomous Research. arXiv.org, 2025.",
+   "title": "AgentRxiv: Towards Collaborative Autonomous Research",
+   "authors": [
+    "Schmidgall",
+    "Moor"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.5220/0006195500780087",
+      "title": "Towards Collaborative Adaptive Autonomous Agents",
+      "year": 2017,
+      "first_author": "Frasheri",
+      "container": "Proceedings of the 9th International Conference on Agents and Artificial Intelligence",
+      "type": "proceedings-article",
+      "score": 27.235725
+     },
+     "metrics": {
+      "title_sim": 80.8080808080808,
+      "containment": 0.5,
+      "partial_ratio": 72.91666666666667,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "594773309239331e6afcd2892136c5233383d3a5",
+    "title": "AgentRxiv: Towards Collaborative Autonomous Research",
+    "year": 2025,
+    "first_author": "S. Schmidgall",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2503-18102",
+     "ArXiv": "2503.18102",
+     "DOI": "10.48550/arXiv.2503.18102",
+     "CorpusId": 277271871
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 29,
+   "raw": "[29] Samuel Schmidgall, Yusheng Su, Ze Wang, Ximeng Sun, Jialian Wu, Xiaodong Yu, Jiang Liu, Zicheng Liu, and Emad Barsoum. Agent Laboratory: Using LLM Agents as Research Assistants. arXiv.org, 2025.",
+   "title": "Agent Laboratory: Using LLM Agents as Research Assistants",
+   "authors": [
+    "Schmidgall",
+    "Su",
+    "Wang",
+    "Sun",
+    "Wu",
+    "Yu",
+    "Liu",
+    "Liu",
+    "Barsoum"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2025.findings-emnlp.320",
+    "title": "Agent Laboratory: Using LLM Agents as Research Assistants",
+    "year": 2025,
+    "first_author": "Schmidgall",
+    "container": "Findings of the Association for Computational Linguistics: EMNLP 2025",
+    "type": "proceedings-article",
+    "score": 51.70348
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 30,
+   "raw": "[30] Parshin Shojaee, Kazem Meidani, Shashank Gupta, A. Farimani, and Chandan K. Reddy. LLM-SR: Scientific Equation Discovery via Programming with Large Language Models. International Conference on Learning Representations, 2024.",
+   "title": "LLM-SR: Scientific Equation Discovery via Programming with Large Language Models",
+   "authors": [
+    "Shojaee",
+    "Meidani",
+    "Shashank Gupta",
+    "Reddy"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Conference on Learning Representations",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.18653/v1/2024.findings-emnlp.39",
+      "title": "LLM-supertagger: Categorial Grammar Supertagging via Large Language Models",
+      "year": 2024,
+      "first_author": "Zhao",
+      "container": "Findings of the Association for Computational Linguistics: EMNLP 2024",
+      "type": "proceedings-article",
+      "score": 36.54487
+     },
+     "metrics": {
+      "title_sim": 63.1578947368421,
+      "containment": 0.5,
+      "partial_ratio": 60.273972602739725,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "860ba78f9789bbfc99c299b18558ca19430d8fea",
+    "title": "LLM-SR: Scientific Equation Discovery via Programming with Large Language Models",
+    "year": 2024,
+    "first_author": "P. Shojaee",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "DBLP": "journals/corr/abs-2404-18400",
+     "ArXiv": "2404.18400",
+     "DOI": "10.48550/arXiv.2404.18400",
+     "CorpusId": 269449436
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 31,
+   "raw": "[31] Haoyang Su, Renqi Chen, Shixiang Tang, Zhenfei Yin, Xinzhe Zheng, Jinzhe Li, Biqing Qi, Qi Wu, Hui Li, Wanli Ouyang, Philip Torr, Bowen Zhou, and Nanqing Dong. Many Heads Are Better Than One: Improved Scientific Idea Generation by A LLM-Based Multi-Agent System. Annual Meeting of the Association for Computational Linguistics, 2024.",
+   "title": "Many Heads Are Better Than One: Improved Scientific Idea Generation by A LLM-Based Multi-Agent System",
+   "authors": [
+    "Su",
+    "Chen",
+    "Tang",
+    "Yin",
+    "Zheng",
+    "Li",
+    "Qi",
+    "Wu",
+    "Li",
+    "Ouyang",
+    "Torr",
+    "Zhou",
+    "Dong"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Annual Meeting of the Association for Computational Linguistics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2025.acl-long.1368",
+    "title": "Many Heads Are Better Than One: Improved Scientific Idea Generation by A LLM-Based Multi-Agent System",
+    "year": 2025,
+    "first_author": "Su",
+    "container": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "type": "proceedings-article",
+    "score": 69.44291
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 32,
+   "raw": "[32] Kyle Swanson, Wesley Wu, Nash L. Bulaong, J. Pak, and James Y. Zou. The Virtual Lab: AI Agents Design New SARS-CoV-2 Nanobodies with Experimental Validation. bioRxiv, 2024.",
+   "title": "The Virtual Lab: AI Agents Design New SARS-CoV-2 Nanobodies with Experimental Validation",
+   "authors": [
+    "Swanson",
+    "Wu",
+    "Bulaong",
+    "Pak",
+    "Zou"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1101/2024.11.11.623004",
+    "title": "The Virtual Lab: AI Agents Design New SARS-CoV-2 Nanobodies with Experimental Validation",
+    "year": 2024,
+    "first_author": "Swanson",
+    "container": "",
+    "type": "posted-content",
+    "score": 86.30506
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 33,
+   "raw": "[33] N. Szymanski, Bernardus Rendy, Yuxing Fei, Rishi E. Kumar, T. He, David Milsted, Matthew J. McDermott, Max C. Gallant, E. D. Cubuk, Amil Merchant, Haegyeom Kim, Anubhav Jain, Christopher J. Bartel, Kristin A. Persson, Yan Zeng, and G. Ceder. An autonomous laboratory for the accelerated synthesis of novel materials. Nature, 2023.",
+   "title": "An autonomous laboratory for the accelerated synthesis of novel materials",
+   "authors": [
+    "Szymanski",
+    "Rendy",
+    "Fei",
+    "Kumar",
+    "He",
+    "Milsted",
+    "McDermott",
+    "Gallant",
+    "Cubuk",
+    "Merchant",
+    "Kim",
+    "Jain",
+    "Bartel",
+    "Persson",
+    "Zeng",
+    "Ceder"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/s41586-023-06734-w",
+    "title": "An autonomous laboratory for the accelerated synthesis of inorganic materials",
+    "year": 2023,
+    "first_author": "Szymanski",
+    "container": "Nature",
+    "type": "journal-article",
+    "score": 33.674416
+   },
+   "metrics": {
+    "title_sim": 95.71428571428571,
+    "containment": 0.833,
+    "partial_ratio": 90.9090909090909,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 34,
+   "raw": "[34] Qingyun Wang, Doug Downey, Heng Ji, and Tom Hope. SciMON: Scientific Inspiration Machines Optimized for Novelty. Annual Meeting of the Association for Computational Linguistics, 2023.",
+   "title": "SciMON: Scientific Inspiration Machines Optimized for Novelty",
+   "authors": [
+    "Wang",
+    "Downey",
+    "Ji",
+    "Hope"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Annual Meeting of the Association for Computational Linguistics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2024.acl-long.18",
+    "title": "SciMON: Scientific Inspiration Machines Optimized for Novelty",
+    "year": 2024,
+    "first_author": "Wang",
+    "container": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "type": "proceedings-article",
+    "score": 55.11675
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 35,
+   "raw": "[35] Yidong Wang, Qi Guo, Wenjin Yao, Hongbo Zhang, Xin Zhang, Zhen Wu, Meishan Zhang, Xinyu Dai, Min Zhang, Qingsong Wen, Wei Ye, Shikun Zhang, and Yue Zhang. AutoSurvey: Large Language Models Can Automatically Write Surveys. Neural Information Processing Systems, 2024.",
+   "title": "AutoSurvey: Large Language Models Can Automatically Write Surveys",
+   "authors": [
+    "Wang",
+    "Guo",
+    "Yao",
+    "Zhang",
+    "Zhang",
+    "Wu",
+    "Zhang",
+    "Dai",
+    "Zhang",
+    "Wen",
+    "Ye",
+    "Zhang",
+    "Zhang"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Neural Information Processing Systems",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/079017-3655",
+    "title": "AutoSurvey: Large Language Models Can Automatically Write Surveys",
+    "year": 2024,
+    "first_author": "Wang",
+    "container": "Advances in Neural Information Processing Systems 37",
+    "type": "proceedings-article",
+    "score": 59.677757
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 36,
+   "raw": "[36] Ziqing Wang, Kexin Zhang, Zihan Zhao, Yibo Wen, Abhishek Pandey, Han Liu, and Kaize Ding. A Survey of Large Language Models for Text-Guided Molecular Discovery: from Molecule Generation to Optimization. arXiv.org, 2025.",
+   "title": "A Survey of Large Language Models for Text-Guided Molecular Discovery: from Molecule Generation to Optimization",
+   "authors": [
+    "Wang",
+    "Zhang",
+    "Zhao",
+    "Wen",
+    "Pandey",
+    "Liu",
+    "Ding"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2026.acl-long.2026",
+    "title": "A Survey of Large Language Models for Text-Guided Molecular Discovery: From Molecule Generation to Optimization",
+    "year": 2026,
+    "first_author": "Wang",
+    "container": "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "type": "proceedings-article",
+    "score": 57.970463
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 37,
+   "raw": "[37] Yihang Xiao, Jinyi Liu, Yan Zheng, Xiaohan Xie, Jianye Hao, Mingzhi Li, Ruitao Wang, Fei Ni, Yuxiao Li, Jintian Luo, Shaoqing Jiao, and Jiajie Peng. CellAgent: An LLM-driven Multi-Agent Framework for Automated Single-cell Data Analysis. arXiv.org, 2024.",
+   "title": "CellAgent: An LLM-driven Multi-Agent Framework for Automated Single-cell Data Analysis",
+   "authors": [
+    "Xiao",
+    "Liu",
+    "Zheng",
+    "Xie",
+    "Hao",
+    "Li",
+    "Wang",
+    "Ni",
+    "Li",
+    "Luo",
+    "Jiao",
+    "Peng"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1101/2024.05.13.593861",
+    "title": "CellAgent: LLM-Driven Multi-Agent Framework for Natural Language-Based Single-Cell Analysis",
+    "year": 2024,
+    "first_author": "Xiao",
+    "container": "",
+    "type": "posted-content",
+    "score": 56.557743
+   },
+   "metrics": {
+    "title_sim": 89.14285714285714,
+    "containment": 0.75,
+    "partial_ratio": 81.11111111111111,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 38,
+   "raw": "[38] Wei Xu, Gang Luo, Weiyu Meng, Xiaobing Zhai, Ke Zheng, Ji Wu, Yanrong Li, Abao Xing, Junrong Li, Zhifan Li, Ke Zheng, and Kefeng Li. MRAgent: an LLM-based automated agent for causal knowledge discovery in disease via Mendelian randomization. Briefings Bioinform., 2025.",
+   "title": "MRAgent: an LLM-based automated agent for causal knowledge discovery in disease via Mendelian randomization",
+   "authors": [
+    "Xu",
+    "Luo",
+    "Meng",
+    "Zhai",
+    "Zheng",
+    "Wu",
+    "Li",
+    "Xing",
+    "Li",
+    "Li",
+    "Zheng",
+    "Li"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Briefings Bioinform",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1093/bib/bbaf140",
+    "title": "MRAgent: an LLM-based automated agent for causal knowledge discovery in disease via Mendelian randomization",
+    "year": 2025,
+    "first_author": "Xu",
+    "container": "Briefings in Bioinformatics",
+    "type": "journal-article",
+    "score": 78.88022
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 39,
+   "raw": "[39] Shuo Yan, Ruochen Li, Ziming Luo, Zimu Wang, Daoyang Li, Liqiang Jing, Kaiyu He, Peilin Wu, George Michalopoulos, Yue Zhang, Ziyang Zhang, Mian Zhang, Zhiyu Chen, and Xinya Du. LMR-BENCH: Evaluating LLM Agent\u2019s Ability on Reproducing Language Modeling Research. arXiv.org, 2025.",
+   "title": "LMR-BENCH",
+   "authors": [
+    "Yan",
+    "Li",
+    "Luo",
+    "Wang",
+    "Li",
+    "Jing",
+    "He",
+    "Wu",
+    "Michalopoulos",
+    "Zhang",
+    "Zhang",
+    "Zhang",
+    "Chen",
+    "Du"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2025.emnlp-main.314",
+    "title": "LMR-BENCH: Evaluating LLM Agent\u2019s Ability on Reproducing Language Modeling Research",
+    "year": 2025,
+    "first_author": "Yan",
+    "container": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+    "type": "proceedings-article",
+    "score": 20.058203
+   },
+   "metrics": {
+    "title_sim": 19.780219780219777,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 40,
+   "raw": "[40] Shunyu Yao, Dian Yu, Jeffrey Zhao, Izhak Shafran, T. Griffiths, Yuan Cao, and Karthik Narasimhan. Tree of Thoughts: Deliberate Problem Solving with Large Language Models. Neural Information Processing Systems, 2023.",
+   "title": "Tree of Thoughts: Deliberate Problem Solving with Large Language Models",
+   "authors": [
+    "Yao",
+    "Yu",
+    "Zhao",
+    "Izhak Shafran",
+    "Cao",
+    "Narasimhan"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/075280-0517",
+    "title": "Tree of Thoughts: Deliberate Problem Solving with Large Language Models",
+    "year": 2023,
+    "first_author": "Yao",
+    "container": "Advances in Neural Information Processing Systems 36",
+    "type": "proceedings-article",
+    "score": 61.22527
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 41,
+   "raw": "[41] Geyan Ye, Xibao Cai, Houtim Lai, Xing Wang, Junhong Huang, Longyue Wang, Wei Liu, and Xian Zeng. DrugAssist: a large language model for molecule optimization. Briefings Bioinform., 2023.",
+   "title": "DrugAssist: a large language model for molecule optimization",
+   "authors": [
+    "Ye",
+    "Cai",
+    "Lai",
+    "Wang",
+    "Huang",
+    "Wang",
+    "Liu",
+    "Zeng"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Briefings Bioinform",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1093/bib/bbae693",
+    "title": "DrugAssist: a large language model for molecule optimization",
+    "year": 2024,
+    "first_author": "Ye",
+    "container": "Briefings in Bioinformatics",
+    "type": "journal-article",
+    "score": 46.916927
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 42,
+   "raw": "[42] Weilun Yu, Shixiang Tang, Yonggui Huang, Nanqing Dong, Li Fan, Honggang Qi, Wei Liu, Xiaoli Diao, Xi Chen, and Wanli Ouyang. Dynamic Knowledge Exchange and Dual-diversity Review: Concisely Unleashing the Potential of a Multi-Agent Research Team. arXiv.org, 2025.",
+   "title": "Dynamic Knowledge Exchange and Dual-diversity Review: Concisely Unleashing the Potential of a Multi-Agent Research Team",
+   "authors": [
+    "Yu",
+    "Tang",
+    "Huang",
+    "Dong",
+    "Fan",
+    "Qi",
+    "Liu",
+    "Diao",
+    "Chen",
+    "Ouyang"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/iis.2009.72",
+      "title": "Multi-agent Simulation of Knowledge Innovation Activities of University Research Team",
+      "year": 2009,
+      "first_author": "Yu",
+      "container": "2009 International Conference on Industrial and Information Systems",
+      "type": "proceedings-article",
+      "score": 33.682743
+     },
+     "metrics": {
+      "title_sim": 63.333333333333336,
+      "containment": 0.556,
+      "partial_ratio": 50.588235294117645,
+      "year_ok": true,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "5976110766078421c0cf16d69bca1fe26787e6f7",
+    "title": "Dynamic Knowledge Exchange and Dual-diversity Review: Concisely Unleashing the Potential of a Multi-Agent Research Team",
+    "year": 2025,
+    "first_author": "Wei Yu",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2506-18348",
+     "ArXiv": "2506.18348",
+     "DOI": "10.48550/arXiv.2506.18348",
+     "CorpusId": 279999157
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 43,
+   "raw": "[43] Haolong Zeng, Chaoyi Yin, Chunyang Chai, Yuezhu Wang, Qi Dai, and Huiyan Sun. Cancer gene identification through integrating causal prompting large language model with omics datadriven causal inference. Briefings Bioinform., 2025.",
+   "title": "Cancer gene identification through integrating causal prompting large language model with omics datadriven causal inference",
+   "authors": [
+    "Zeng",
+    "Yin",
+    "Chai",
+    "Wang",
+    "Dai",
+    "Sun"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Briefings Bioinform",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1093/bib/bbaf113",
+    "title": "Cancer gene identification through integrating causal prompting large language model with omics data\u2013driven causal inference",
+    "year": 2025,
+    "first_author": "Zeng",
+    "container": "Briefings in Bioinformatics",
+    "type": "journal-article",
+    "score": 91.65699
+   },
+   "metrics": {
+    "title_sim": 99.59514170040485,
+    "containment": 0.867,
+    "partial_ratio": 99.19354838709677,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 44,
+   "raw": "[44] Kechi Zhang, Jia Li, Ge Li, Xianjie Shi, and Zhi Jin. CodeAgent: Enhancing Code Generation with Tool-Integrated Agent Systems for Real-World Repo-level Coding Challenges. Annual Meeting of the Association for Computational Linguistics, 2024.",
+   "title": "CodeAgent: Enhancing Code Generation with Tool-Integrated Agent Systems for Real-World Repo-level Coding Challenges",
+   "authors": [
+    "Zhang",
+    "Li",
+    "Li",
+    "Shi",
+    "Jin"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Annual Meeting of the Association for Computational Linguistics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2024.acl-long.737",
+    "title": "CodeAgent: Enhancing Code Generation with Tool-Integrated Agent Systems for Real-World Repo-level Coding Challenges",
+    "year": 2024,
+    "first_author": "Zhang",
+    "container": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "type": "proceedings-article",
+    "score": 88.75492
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 45,
+   "raw": "[45] NovelSeek Team Bo Zhang, Shi Feng, Xiangchao Yan, Jiakang Yuan, Zhiyin Yu, Xiaohan He, Songtao Huang, Shaowei Hou, Zheng Nie, Zhilong Wang, Jinyao Liu, Runmin Ma, Tianshuo Peng, Peng Ye, Dongzhan Zhou, Shufei Zhang, Xiaosong Wang, Yilan Zhang, Meng Li, Zhongying Tu, Xiangyu Yue, Wangli Ouyang, Bowen Zhou, and Lei Bai. NovelSeek: When Agent Becomes the Scientist - Building Closed-Loop System from Hypothesis to Verification. arXiv.org, 2025.",
+   "title": "NovelSeek: When Agent Becomes the Scientist - Building Closed-Loop System from Hypothesis to Verification",
+   "authors": [
+    "Zhang",
+    "Feng",
+    "Yan",
+    "Yuan",
+    "Yu",
+    "He",
+    "Huang",
+    "Hou",
+    "Nie",
+    "Wang",
+    "Liu",
+    "Ma",
+    "Peng",
+    "Ye",
+    "Zhou",
+    "Zhang",
+    "Wang",
+    "Zhang",
+    "Li",
+    "Tu",
+    "Yue",
+    "Ouyang",
+    "Zhou",
+    "Bai"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.31234/osf.io/fzdyb_v1",
+      "title": "When Verification Becomes Repetition: Recursive Hypothesis Building and Redundant Publication in Educational Research",
+      "year": 2025,
+      "first_author": "Kim",
+      "container": "",
+      "type": "posted-content",
+      "score": 44.75672
+     },
+     "metrics": {
+      "title_sim": 63.30275229357798,
+      "containment": 0.455,
+      "partial_ratio": 47.53363228699552,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "fde733baf8d699411143d07ae769036861486df0",
+    "title": "NovelSeek: When Agent Becomes the Scientist - Building Closed-Loop System from Hypothesis to Verification",
+    "year": 2025,
+    "first_author": "Bo Zhang",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2505-16938",
+     "DOI": "10.48550/arXiv.2505.16938",
+     "CorpusId": 290093547
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 46,
+   "raw": "[46] Tianshi ZHENG, Zheye Deng, Hong Ting Tsang, Weiqi Wang, Jiaxin Bai, Zihao Wang, and Yangqiu Song. From Automation to Autonomy: A Survey on Large Language Models in Scientific Discovery. arXiv.org, 2025.",
+   "title": "From Automation to Autonomy: A Survey on Large Language Models in Scientific Discovery",
+   "authors": [
+    "ZHENG",
+    "Deng",
+    "Tsang",
+    "Wang",
+    "Bai",
+    "Wang",
+    "Song"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2025.emnlp-main.895",
+    "title": "From Automation to Autonomy: A Survey on Large Language Models in Scientific Discovery",
+    "year": 2025,
+    "first_author": "Zheng",
+    "container": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+    "type": "proceedings-article",
+    "score": 50.92393
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 47,
+   "raw": "[47] Yoel Zimmermann, Adib Bazgir, Alexander Al-Feghali, Mehrad Ansari, L. C. Brinson, Chiang Yuan, Defne \u00c7irci, Min-Hsueh Chiu, Nathan Daelman, Matthew L Evans, Abhijeet Gangan, Janine George, Hassan Harb, Ghazal Khalighinejad, S. Khan, Sascha Klawohn, Magdalena Lederbauer, Soroush Mahjoubi, Bernadette Mohr, S. M. Moosavi, A. Naik, Aleyna Beste Ozhan, D. Plessers, Aritra Roy, Fabian Schoppach, Philipp Schwaller, Carla Terboven, Katharina Ueltzen, Shang Zhu, Jan Janssen, Calvin Li, Ian T. Foster, and B. Blaiszik. 34 Examples of LLM Applications in Materials Science and Chemistry: Towards Automation, Assistants, Agents, and Accelerated Scientific Discovery. arXiv.org, 2025.",
+   "title": null,
+   "authors": [
+    "Zimmermann",
+    "Bazgir",
+    "Al-Feghali",
+    "Mehrad Ansari",
+    "Yuan",
+    "\u00c7irci",
+    "Chiu",
+    "Daelman",
+    "Evans",
+    "Gangan",
+    "George",
+    "Harb",
+    "Ghazal Khalighinejad",
+    "Klawohn",
+    "Lederbauer",
+    "Mahjoubi",
+    "Bernadette Mohr",
+    "Naik",
+    "Aleyna Beste Ozhan",
+    "Roy",
+    "Schoppach",
+    "Schwaller",
+    "Terboven",
+    "Ueltzen",
+    "Zhu",
+    "Janssen",
+    "Li",
+    "Foster",
+    "Blaiszik"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1088/2632-2153/ae011a",
+    "title": "32 examples of LLM applications in materials science and chemistry: towards automation, assistants, agents, and accelerated scientific discovery",
+    "year": 2025,
+    "first_author": "Zimmermann",
+    "container": "Machine Learning: Science and Technology",
+    "type": "journal-article",
+    "score": 160.90678
+   },
+   "metrics": {
+    "title_sim": 0,
+    "containment": 1.0,
+    "partial_ratio": 99.28571428571429,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  }
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
+}

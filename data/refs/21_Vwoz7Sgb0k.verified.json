@@ -342,7 +342,7 @@
    "container": "Cognitive Science Journal",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -365,7 +365,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "73b945bd1cbe6c8f353b658ebc185ad937a2eec2",
+    "title": "Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task",
+    "year": 2025,
+    "first_author": "Nataliya Kosmyna",
+    "container": "arXiv.org",
+    "ext": {
+     "ArXiv": "2506.08872",
+     "DBLP": "journals/corr/abs-2506-08872",
+     "CorpusId": 279261394
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.909,
+    "partial_ratio": 96.07843137254902,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -420,7 +442,7 @@
    "container": "Journal of Applied Linguistics",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -443,7 +465,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "8d712bce60850556245e0cabb579dafa75887f6c",
+    "title": "Defining academic literacies research: issues of epistemology, ideology and strategy",
+    "year": 2015,
+    "first_author": "Theresa Lillis",
+    "container": "",
+    "ext": {
+     "MAG": "2100255813",
+     "DOI": "10.1558/JAPL.V4I1.5",
+     "CorpusId": 145347142
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -461,7 +505,7 @@
    "container": null,
    "type": "book",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -484,7 +528,23 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "openlibrary",
+   "match": {
+    "source": "openlibrary",
+    "id": "/works/OL4311496W",
+    "title": "The Miniature Guide to Critical Thinking-Concepts and Tools",
+    "year": 2001,
+    "first_author": "Richard W. Paul"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -604,5 +664,7 @@
    ],
    "likely_match": null
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

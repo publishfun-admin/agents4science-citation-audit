@@ -301,7 +301,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -330,7 +330,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "48a35b4f29da41740c8ed503f453cd98763e5c0a",
+    "title": "Moral Persuasion in Large Language Models: Evaluating Susceptibility and Ethical Alignment",
+    "year": 2024,
+    "first_author": "A. Huang",
+    "container": "arXiv.org",
+    "ext": {
+     "ArXiv": "2411.11731",
+     "DBLP": "journals/corr/abs-2411-11731",
+     "DOI": "10.48550/arXiv.2411.11731",
+     "CorpusId": 274131645
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -452,5 +475,7 @@
    ],
    "likely_match": null
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

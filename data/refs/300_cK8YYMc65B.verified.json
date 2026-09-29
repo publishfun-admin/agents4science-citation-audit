@@ -469,7 +469,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -492,7 +492,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "4f4a409f701f7552d45c46a5b0fea69dca6f8e84",
+    "title": "Unsupervised Dense Information Retrieval with Contrastive Learning",
+    "year": 2021,
+    "first_author": "Gautier Izacard",
+    "container": "Trans. Mach. Learn. Res.",
+    "ext": {
+     "ArXiv": "2112.09118",
+     "DBLP": "journals/tmlr/IzacardCHRBJG22",
+     "CorpusId": 249097975
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -805,7 +827,7 @@
    "container": "ArXiv abs/2005.11401",
    "type": "chapter",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -832,7 +854,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "659bf9ce7175e1ec266ff54359e2bd76e0b7ff31",
+    "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+    "year": 2020,
+    "first_author": "Patrick Lewis",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "DBLP": "conf/nips/LewisPPPKGKLYR020",
+     "MAG": "3027879771",
+     "ArXiv": "2005.11401",
+     "CorpusId": 218869575
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -849,7 +894,7 @@
    "container": "Annual Meeting of the Association for Computational Linguistics",
    "type": "paper-conference",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -872,7 +917,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "60b05f32c32519a809f21642ef1eb3eaf3848008",
+    "title": "ROUGE: A Package for Automatic Evaluation of Summaries",
+    "year": 2004,
+    "first_author": "Chin-Yew Lin",
+    "container": "Annual Meeting of the Association for Computational Linguistics",
+    "ext": {
+     "MAG": "2154652894",
+     "ACL": "W04-1013",
+     "CorpusId": 964287
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -889,7 +956,7 @@
    "container": "In",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -925,7 +992,29 @@
     "container": "Proceedings of the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval",
     "type": "proceedings-article",
     "score": 61.011616
-   }
+   },
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "5ac627f229fa8d54f5ad43f7f99e9b29d93ada29",
+    "title": "Pyserini: An Easy-to-Use Python Toolkit to Support Replicable IR Research with Sparse and Dense Representations",
+    "year": 2021,
+    "first_author": "Jimmy Lin",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2102-10073",
+     "ArXiv": "2102.10073",
+     "CorpusId": 231979055
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1191,7 +1280,7 @@
    "container": "ArXiv abs/1901.04085",
    "type": "chapter",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -1218,7 +1307,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "85e07116316e686bf787114ba10ca60f4ea7c5b2",
+    "title": "Passage Re-ranking with BERT",
+    "year": 2019,
+    "first_author": "Rodrigo Nogueira",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-1901-04085",
+     "ArXiv": "1901.04085",
+     "MAG": "2909544278",
+     "CorpusId": 58004692
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1235,7 +1347,7 @@
    "container": "ArXiv abs/1904.08375",
    "type": "chapter",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -1262,7 +1374,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "b092b6b843e9421bf42bf96f57ed4658a3e0bdf7",
+    "title": "Document Expansion by Query Prediction",
+    "year": 2019,
+    "first_author": "Rodrigo Nogueira",
+    "container": "arXiv.org",
+    "ext": {
+     "MAG": "2937036051",
+     "ArXiv": "1904.08375",
+     "DBLP": "journals/corr/abs-1904-08375",
+     "CorpusId": 119314259
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1740,7 +1875,7 @@
    "container": "In",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -1767,7 +1902,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "807600ef43073cd9c59d4208ee710e90cf14efa8",
+    "title": "BEIR: A Heterogenous Benchmark for Zero-shot Evaluation of Information Retrieval Models",
+    "year": 2021,
+    "first_author": "Nandan Thakur",
+    "container": "NeurIPS Datasets and Benchmarks",
+    "ext": {
+     "DBLP": "journals/corr/abs-2104-08663",
+     "ArXiv": "2104.08663",
+     "CorpusId": 233296016
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1882,7 +2039,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "doi_not_resolvable",
@@ -1913,7 +2070,28 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "e89f91d71b5b99c25cf5ebc98262ecdfcc874c85",
+    "title": "SciQAG: A Framework for Auto-Generated Science Question Answering Dataset with Fine-grained Evaluation",
+    "year": 2024,
+    "first_author": "Yuwei Wan",
+    "container": "",
+    "ext": {
+     "ArXiv": "2405.09939",
+     "CorpusId": 269791295
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1930,7 +2108,7 @@
    "container": "ArXiv",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -1957,7 +2135,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "c6c734e16f66fbfcefac7625cc64599e83292c1e",
+    "title": "MiniLM: Deep Self-Attention Distillation for Task-Agnostic Compression of Pre-Trained Transformers",
+    "year": 2020,
+    "first_author": "Wen-Hui Wang",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "MAG": "3101045333",
+     "DBLP": "conf/nips/WangW0B0020",
+     "ArXiv": "2002.10957",
+     "CorpusId": 211296536
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1997,5 +2198,7 @@
    },
    "evidence": []
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

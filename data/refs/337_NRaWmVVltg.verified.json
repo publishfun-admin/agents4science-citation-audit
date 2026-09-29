@@ -1,0 +1,1030 @@
+{
+ "pdf": "337_NRaWmVVltg.pdf",
+ "n_entries": 21,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "[1] H. Shen and T. Chen. On penalty-based bilevel gradient descent method. arXiv:2302.05185, 2023.",
+   "title": "On penalty-based bilevel gradient descent method",
+   "authors": [
+    "Shen",
+    "Chen"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2302.05185",
+   "urls": [
+    "arXiv:2302.05185"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/s10107-025-02194-4",
+    "title": "On penalty-based bilevel gradient descent method",
+    "year": 2025,
+    "first_author": "Shen",
+    "container": "Mathematical Programming",
+    "type": "journal-article",
+    "score": 52.792915
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2302.05185"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2] G. Lan. Policy mirror descent for reinforcement learning: Linear convergence, new sampling complexity, and generalized problem classes. Mathematical Programming, 198(1), 2023.",
+   "title": "Policy mirror descent for reinforcement learning: Linear convergence, new sampling complexity, and generalized problem classes",
+   "authors": [
+    "Lan"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Mathematical Programming",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/s10107-022-01816-5",
+    "title": "Policy mirror descent for reinforcement learning: linear convergence, new sampling complexity, and generalized problem classes",
+    "year": 2023,
+    "first_author": "Lan",
+    "container": "Mathematical Programming",
+    "type": "journal-article",
+    "score": 96.14146
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3] J. Li, B. Gu, and H. Huang. A fully single loop algorithm for bilevel optimization without Hessian inverse. In Proceedings of AAAI, 2022.",
+   "title": "A fully single loop algorithm for bilevel optimization without Hessian inverse",
+   "authors": [
+    "Li",
+    "Gu",
+    "Huang"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of AAAI",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1609/aaai.v36i7.20706",
+    "title": "A Fully Single Loop Algorithm for Bilevel Optimization without Hessian Inverse",
+    "year": 2022,
+    "first_author": "Li",
+    "container": "Proceedings of the AAAI Conference on Artificial Intelligence",
+    "type": "journal-article",
+    "score": 69.71613
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4] H. Shen, Z. Yang, and T. Chen. Principled penalty-based methods for bilevel reinforcement learning and RLHF. Journal of Machine Learning Research, 26:1\u201349, 2025.",
+   "title": "Principled penalty-based methods for bilevel reinforcement learning and RLHF",
+   "authors": [
+    "Shen",
+    "Yang",
+    "Chen"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Machine Learning Research",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.23919/eusipco63237.2025.11226224",
+      "title": "Improved Analysis of Penalty-Based Methods for Bilevel Optimization with Coupled Constraints",
+      "year": 2025,
+      "first_author": "Jiang",
+      "container": "2025 33rd European Signal Processing Conference (EUSIPCO)",
+      "type": "proceedings-article",
+      "score": 33.746883
+     },
+     "metrics": {
+      "title_sim": 66.66666666666666,
+      "containment": 0.444,
+      "partial_ratio": 59.78260869565217,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "334180f5ed0c9e82d737b6e8ccce13a7640b5320",
+    "title": "Principled Penalty-based Methods for Bilevel Reinforcement Learning and RLHF",
+    "year": 2024,
+    "first_author": "Han Shen",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "DBLP": "journals/corr/abs-2402-06886",
+     "ArXiv": "2402.06886",
+     "DOI": "10.48550/arXiv.2402.06886",
+     "CorpusId": 267627792
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5] Han Shen and Tianyi Chen. \u201cFirst-order penalty methods for bilevel optimisation.\u201d Journal of Machine Learning Research, 2023.",
+   "title": "First-order penalty methods for bilevel optimisation",
+   "authors": [
+    "Shen",
+    "Chen"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Machine Learning Research",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1137/23m1566753",
+    "title": "First-Order Penalty Methods for Bilevel Optimization",
+    "year": 2024,
+    "first_author": "Lu",
+    "container": "SIAM Journal on Optimization",
+    "type": "journal-article",
+    "score": 37.8771
+   },
+   "metrics": {
+    "title_sim": 98.07692307692308,
+    "containment": 0.833,
+    "partial_ratio": 98.07692307692307,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[6] Guanghui Lan. \u201cPolicy mirror descent for reinforcement learning: linear convergence, new sampling complexity, and generalised problem classes.\u201d arXiv preprint arXiv:2102.00135, 2021.",
+   "title": "Policy mirror descent for reinforcement learning: linear convergence, new sampling complexity, and generalised problem classes",
+   "authors": [
+    "Lan"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": "2102.00135",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/s10107-022-01816-5",
+    "title": "Policy mirror descent for reinforcement learning: linear convergence, new sampling complexity, and generalized problem classes",
+    "year": 2023,
+    "first_author": "Lan",
+    "container": "Mathematical Programming",
+    "type": "journal-article",
+    "score": 86.49144
+   },
+   "metrics": {
+    "title_sim": 99.1869918699187,
+    "containment": 0.923,
+    "partial_ratio": 99.1869918699187,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2102.00135"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[7] Junyi Li, Bin Gu and Heng Huang. \u201cA fully single loop algorithm for bilevel optimisation without Hessian inverse.\u201d arXiv preprint arXiv:2112.04660, 2022.",
+   "title": "A fully single loop algorithm for bilevel optimisation without Hessian inverse",
+   "authors": [
+    "Li",
+    "Gu",
+    "Huang"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": "2112.04660",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1609/aaai.v36i7.20706",
+    "title": "A Fully Single Loop Algorithm for Bilevel Optimization without Hessian Inverse",
+    "year": 2022,
+    "first_author": "Li",
+    "container": "Proceedings of the AAAI Conference on Artificial Intelligence",
+    "type": "journal-article",
+    "score": 64.68031
+   },
+   "metrics": {
+    "title_sim": 98.71794871794873,
+    "containment": 0.889,
+    "partial_ratio": 98.71794871794873,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2112.04660"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[8] Han Shen, Zhuoran Yang and Tianyi Chen. \u201cPrincipled penalty-based methods for bilevel reinforcement learning and RLHF.\u201d Journal of Machine Learning Research 26(114):1\u201349, 2025.",
+   "title": "Principled penalty-based methods for bilevel reinforcement learning and RLHF",
+   "authors": [
+    "Shen",
+    "Yang",
+    "Chen"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Machine Learning Research",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.23919/eusipco63237.2025.11226224",
+      "title": "Improved Analysis of Penalty-Based Methods for Bilevel Optimization with Coupled Constraints",
+      "year": 2025,
+      "first_author": "Jiang",
+      "container": "2025 33rd European Signal Processing Conference (EUSIPCO)",
+      "type": "proceedings-article",
+      "score": 33.746883
+     },
+     "metrics": {
+      "title_sim": 66.66666666666666,
+      "containment": 0.444,
+      "partial_ratio": 59.78260869565217,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "334180f5ed0c9e82d737b6e8ccce13a7640b5320",
+    "title": "Principled Penalty-based Methods for Bilevel Reinforcement Learning and RLHF",
+    "year": 2024,
+    "first_author": "Han Shen",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "DBLP": "journals/corr/abs-2402-06886",
+     "ArXiv": "2402.06886",
+     "DOI": "10.48550/arXiv.2402.06886",
+     "CorpusId": 267627792
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": true,
+   "idx": 9,
+   "raw": "The authors propose value and Bellman penalties and provide theoretical and empirical results for Stackelberg games, RLHF and incentive design.",
+   "title": "The authors propose value and Bellman penalties and provide theoretical and empirical results for Stackelberg games, RLHF and incentive design",
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1137/1.9781611978926.ch13",
+      "title": "Chapter 13: Incentive design and reverse Stackelberg games",
+      "year": 2026,
+      "first_author": null,
+      "container": "Incentive-Based Control via Game Theory",
+      "type": "book-chapter",
+      "score": 39.960033
+     },
+     "metrics": {
+      "title_sim": 42.42424242424242,
+      "containment": 0.667,
+      "partial_ratio": 57.89473684210527,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[9] Yan Yang, Bin Gao and Ya-xiang Yuan. \u201cBilevel reinforcement learning via the development of hyper-gradient without lower-level convexity.\u201d In Proceedings of the 28th International Conference on Artificial Intelligence and Statistics, pages 1\u201335, 2025. They characterise a fully first-order hyper-gradient and design model-based and model-free bilevel RL algorithms with O(\u03f5\u22121 ) convergence.",
+   "title": "Bilevel reinforcement learning via the development of hyper-gradient without lower-level convexity",
+   "authors": [
+    "Yang",
+    "Gao",
+    "Yuan"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 28th International Conference on Artificial Intelligence and Statistics",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.3390/appliedmath2020011",
+      "title": "Gradient-Free Neural Network Training via Synaptic-Level Reinforcement Learning",
+      "year": 2022,
+      "first_author": "Bhargava",
+      "container": "AppliedMath",
+      "type": "journal-article",
+      "score": 31.453928
+     },
+     "metrics": {
+      "title_sim": 68.33333333333333,
+      "containment": 0.556,
+      "partial_ratio": 61.64383561643836,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "[10] Vinzenz Thoma, Barna P\u00e1sztor, Andreas Krause, Giorgia Ramponi and Yifan Hu. \u201cContextual bilevel reinforcement learning for incentive alignment.\u201d arXiv preprint arXiv:2406.01575, 2024.",
+   "title": "Contextual bilevel reinforcement learning for incentive alignment",
+   "authors": [
+    "Thoma",
+    "P\u00e1sztor",
+    "Krause",
+    "Ramponi",
+    "Hu"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2406.01575",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/079017-4046",
+    "title": "Contextual Bilevel Reinforcement Learning for Incentive Alignment",
+    "year": 2024,
+    "first_author": "Thoma",
+    "container": "Advances in Neural Information Processing Systems 37",
+    "type": "proceedings-article",
+    "score": 64.051834
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2406.01575"
+    }
+   ]
+  },
+  {
+   "junk": true,
+   "idx": 12,
+   "raw": "The authors introduce a contextual bilevel RL model where a leader and random context define a contextual MDP; a stochastic hyper-policy-gradient descent algorithm is proposed and its convergence is demonstrated.",
+   "title": "The authors introduce a contextual bilevel RL model where a leader and random context define a contextual MDP; a stochastic hyper-policy-gradient descent algorithm is proposed and its convergence is demonstrated",
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.4098386",
+      "title": "State of the Art of Machine Learning-Based Stochastic Gradient Descent in a Contextual Analysis of Spam Remark",
+      "year": 2022,
+      "first_author": "Das",
+      "container": "SSRN Electronic Journal",
+      "type": "journal-article",
+      "score": 38.376137
+     },
+     "metrics": {
+      "title_sim": 46.25,
+      "containment": 0.333,
+      "partial_ratio": 51.81818181818182,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "[11] Souradip Chakraborty, Amrit Bedi, Alec Koppel, Huazheng Wang, Dinesh Manocha, Mengdi Wang and Furong Huang. \u201cPARL: a unified framework for policy alignment in reinforcement learning from human feedback.\u201d In International Conference on Learning Representations (Poster), 2024. PARL formulates policy alignment as a stochastic bilevel problem and develops A-PARL with O(1/T ) sample complexity.",
+   "title": "PARL: a unified framework for policy alignment in reinforcement learning from human feedback",
+   "authors": [
+    "Chakraborty",
+    "Bedi",
+    "Koppel",
+    "Wang",
+    "Manocha",
+    "Wang",
+    "Huang"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Conference on Learning Representations (Poster",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.7753/ijcatr1506.1001",
+      "title": "Reinforcement Learning from Human Feedback (RLHF) and Multimodal LLM Alignment: A Comprehensive Review",
+      "year": 2026,
+      "first_author": "Shastry",
+      "container": "International Journal of Computer Applications Technology and Research",
+      "type": "journal-article",
+      "score": 35.667126
+     },
+     "metrics": {
+      "title_sim": 74.48275862068965,
+      "containment": 0.5,
+      "partial_ratio": 64.64646464646464,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "ad91dbea609bbfc499d8788a18171bf4744b0692",
+    "title": "PARL: A Unified Framework for Policy Alignment in Reinforcement Learning from Human Feedback",
+    "year": 2023,
+    "first_author": "Souradip Chakraborty",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "DBLP": "conf/iclr/ChakrabortyBKWM24",
+     "ArXiv": "2308.02585",
+     "CorpusId": 260683028
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "[12] Jacob Makar-Limanov, Arjun Prakash, Denizalp Goktas, Nora Ayanian and Amy Greenwald. \u201cSTA-RLHF: Stackelberg aligned reinforcement learning with human feedback.\u201d In Coordination and Cooperation for Multi-Agent Reinforcement Learning Workshop, 2024. The paper models RLHF as a Stackelberg game between a language model (leader) and a preference model (follower) and proposes a nested gradient descent\u2013ascent algorithm to approximate the Stackelberg equilibrium.",
+   "title": "STA-RLHF: Stackelberg aligned reinforcement learning with human feedback",
+   "authors": [
+    "Makar-Limanov",
+    "Prakash",
+    "Goktas",
+    "Ayanian",
+    "Greenwald"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Coordination and Cooperation for Multi-Agent Reinforcement Learning Workshop",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1515/9783111425078-007",
+    "title": "7 Reinforcement Learning from Human Feedback (RLHF)",
+    "year": 2024,
+    "first_author": "Sivan",
+    "container": "Generative AI and LLMs",
+    "type": "book-chapter",
+    "score": 39.172863
+   },
+   "metrics": {
+    "title_sim": 92.3076923076923,
+    "containment": 1.0,
+    "partial_ratio": 81.63265306122449,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "[13] Chenliang Li, Siliang Zeng, Zeyi Liao, Jiaxiang Li, Dongyeop Kang, Alfredo Garcia and Mingyi Hong. \u201cLearning reward and policy jointly from demonstration and preference improves alignment.\u201d arXiv preprint arXiv:2406.06874, 2024. They show that jointly learning reward and policy models from demonstration and preference data yields better alignment performance and provide a finite-time performance guarantee.",
+   "title": "Learning reward and policy jointly from demonstration and preference improves alignment",
+   "authors": [
+    "Li",
+    "Zeng",
+    "Liao",
+    "Li",
+    "Kang",
+    "Garcia",
+    "Hong"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2406.06874",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2406.06874"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.52202/079017-3948",
+      "title": "Getting More Juice Out of the SFT Data: Reward Learning from Human Demonstration Improves SFT for LLM Alignment",
+      "year": 2024,
+      "first_author": "Li",
+      "container": "Advances in Neural Information Processing Systems 37",
+      "type": "proceedings-article",
+      "score": 42.1406
+     },
+     "metrics": {
+      "title_sim": 77.94117647058823,
+      "containment": 0.429,
+      "partial_ratio": 55.45454545454545,
+      "year_ok": true,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": {
+    "source": "crossref",
+    "doi": "10.52202/079017-3948",
+    "title": "Getting More Juice Out of the SFT Data: Reward Learning from Human Demonstration Improves SFT for LLM Alignment",
+    "year": 2024,
+    "first_author": "Li",
+    "container": "Advances in Neural Information Processing Systems 37",
+    "type": "proceedings-article",
+    "score": 42.1406
+   },
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "f14f24d30e8cfd0c8745495de19fb1e253304884",
+    "title": "Learning Reward and Policy Jointly from Demonstration and Preference Improves Alignment",
+    "year": 2024,
+    "first_author": "Chenliang Li",
+    "container": "",
+    "ext": {
+     "ArXiv": "2406.06874",
+     "CorpusId": 270380416
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 16,
+   "raw": "[14] Siyuan Xu and Minghui Zhu. \u201cMeta-reinforcement learning with universal policy adaptation: provable near-optimality under all-task optimum comparator.\u201d In Advances in Neural Information Processing Systems 37, pages 1\u201320, 2024. The authors develop a bilevel optimisation framework for meta-RL and provide upper bounds on the expected optimality gap.",
+   "title": "Meta-reinforcement learning with universal policy adaptation: provable near-optimality under all-task optimum comparator",
+   "authors": [
+    "Xu",
+    "Zhu"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems 37",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/079017-0098",
+    "title": "Meta-Reinforcement Learning with Universal Policy Adaptation: Provable Near-Optimality under All-task Optimum Comparator",
+    "year": 2024,
+    "first_author": "Xu",
+    "container": "Advances in Neural Information Processing Systems 37",
+    "type": "proceedings-article",
+    "score": 111.27655
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 17,
+   "raw": "[15] Junyi Wang, Yuanyang Zhu, Zhi Wang, Yan Zheng, Jianye Hao and Chunlin Chen. \u201cBiERL: a meta evolutionary reinforcement learning framework via bilevel optimisation.\u201d In Proceedings of the European Conference on Artificial Intelligence, 2023. BiERL jointly updates hyperparameters and the evolutionary RL model via bilevel optimisation and shows improved performance on MuJoCo and Box2D tasks.",
+   "title": "BiERL: a meta evolutionary reinforcement learning framework via bilevel optimisation",
+   "authors": [
+    "Wang",
+    "Zhu",
+    "Wang",
+    "Zheng",
+    "Hao",
+    "Chen"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the European Conference on Artificial Intelligence, 2023. BiERL jointly updates hyperparameters and the evolutionary RL model via bilevel optimisation and shows improved performance on MuJoCo and Box2D tasks",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.3233/faia230551",
+    "title": "BiERL: A Meta Evolutionary Reinforcement Learning Framework via Bilevel Optimization",
+    "year": 2023,
+    "first_author": "Wang",
+    "container": "Frontiers in Artificial Intelligence and Applications",
+    "type": "book-chapter",
+    "score": 46.696026
+   },
+   "metrics": {
+    "title_sim": 98.79518072289157,
+    "containment": 0.875,
+    "partial_ratio": 98.79518072289156,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 18,
+   "raw": "[16] Youran Dong, Junfeng Yang, Wei Yao and Jin Zhang. \u201cEfficient curvature-aware hypergradient approximation for bilevel optimisation.\u201d In Proceedings of the International Conference on Machine Learning, 2025. The paper proposes a curvature-aware hypergradient approximation that improves computational complexity over existing gradient-based methods.",
+   "title": "Efficient curvature-aware hypergradient approximation for bilevel optimisation",
+   "authors": [
+    "Dong",
+    "Yang",
+    "Yao",
+    "Zhang"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the International Conference on Machine Learning",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.21203/rs.3.rs-4926729/v1",
+      "title": "Accelerating Inexact HyperGradient Descent for Bilevel Optimization",
+      "year": 2024,
+      "first_author": "Li",
+      "container": "",
+      "type": "posted-content",
+      "score": 33.758095
+     },
+     "metrics": {
+      "title_sim": 71.72413793103448,
+      "containment": 0.333,
+      "partial_ratio": 67.16417910447761,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 19,
+   "raw": "[17] Paul F. Christiano, Jan Leike, Tom B. Brown, Miljan Martic, Shane Legg and Dario Amodei. \u201cDeep reinforcement learning from human preferences.\u201d In Advances in Neural Information Processing Systems 30, pages 4299\u20134307, 2017. The authors learn a reward model from human pairwise comparisons and show that complex behaviours can be learned with minimal human feedback.",
+   "title": "Deep reinforcement learning from human preferences",
+   "authors": [
+    "Christiano",
+    "Leike",
+    "Brown",
+    "Martic",
+    "Legg",
+    "Amodei"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems 30",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1016/j.oceaneng.2024.120036",
+      "title": "Deep reinforcement learning from human preferences for ROV path tracking",
+      "year": 2025,
+      "first_author": "Niu",
+      "container": "Ocean Engineering",
+      "type": "journal-article",
+      "score": 33.21815
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 0.625,
+      "partial_ratio": 79.16666666666666,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "5bbb6f9a8204eb13070b6f033e61c84ef8ee68dd",
+    "title": "Deep Reinforcement Learning from Human Preferences",
+    "year": 2017,
+    "first_author": "P. Christiano",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "MAG": "2626804490",
+     "ArXiv": "1706.03741",
+     "DBLP": "journals/corr/abs-1706-03741",
+     "CorpusId": 4787508
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 20,
+   "raw": "[18] Chelsea Finn, Pieter Abbeel and Sergey Levine. \u201cModel-agnostic meta-learning for fast adaptation of deep networks.\u201d In Proceedings of the 34th International Conference on Machine Learning, pages 1126\u20131135, 2017. MAML trains model parameters so that a few gradient steps with limited data yield good performance across tasks.",
+   "title": "Model-agnostic meta-learning for fast adaptation of deep networks",
+   "authors": [
+    "Finn",
+    "Abbeel",
+    "Levine"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 34th International Conference on Machine Learning",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/isc260477.2024.11004295",
+      "title": "Study on Adaptation of Model-Agnostic Meta-Learning Integrated Deep Q-Learning for HVAC Control",
+      "year": 2024,
+      "first_author": "Kumkam",
+      "container": "2024 IEEE International Smart Cities Conference (ISC2)",
+      "type": "proceedings-article",
+      "score": 36.77884
+     },
+     "metrics": {
+      "title_sim": 87.93103448275862,
+      "containment": 0.636,
+      "partial_ratio": 56.84210526315789,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "c889d6f98e6d79b89c3a6adf8a921f88fa6ba518",
+    "title": "Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks",
+    "year": 2017,
+    "first_author": "Chelsea Finn",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "DBLP": "journals/corr/FinnAL17",
+     "MAG": "2951775809",
+     "ArXiv": "1703.03400",
+     "CorpusId": 6719686
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 21,
+   "raw": "[19] Luca Franceschi, Paolo Frasconi, Saverio Salzo, Riccardo Grazzi and Massimiliano Pontil. \u201cBilevel programming for hyperparameter optimisation and meta-learning.\u201d In Proceedings of the 35th International Conference on Machine Learning, pages 1563\u20131572, 2018. They unify gradient-based hyperparameter optimisation and meta-learning in a bilevel framework and show that approximate solutions converge to the exact problem.",
+   "title": "Bilevel programming for hyperparameter optimisation and meta-learning",
+   "authors": [
+    "Franceschi",
+    "Frasconi",
+    "Salzo",
+    "Grazzi",
+    "Pontil"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 35th International Conference on Machine Learning",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/icdmw.2009.74",
+      "title": "Nonsmooth Bilevel Programming for Hyperparameter Selection",
+      "year": 2009,
+      "first_author": "Moore",
+      "container": "2009 IEEE International Conference on Data Mining Workshops",
+      "type": "proceedings-article",
+      "score": 30.716953
+     },
+     "metrics": {
+      "title_sim": 79.16666666666667,
+      "containment": 0.6,
+      "partial_ratio": 82.75862068965517,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  }
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
+}

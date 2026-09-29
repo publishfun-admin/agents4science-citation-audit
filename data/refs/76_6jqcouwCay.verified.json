@@ -1,0 +1,467 @@
+{
+ "pdf": "76_6jqcouwCay.pdf",
+ "n_entries": 11,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "References [1] G Jeffrey Snyder and Eric S Toberer. Complex thermoelectric materials. Nature Materials, 7(2):105\u2013114, 2008.",
+   "title": "Complex thermoelectric materials",
+   "authors": [
+    "References [1] G Jeffrey Snyder and Eric S Toberer."
+   ],
+   "year": 2008,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature Materials",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1142/9789814287005_0006",
+    "title": "Complex thermoelectric materials",
+    "year": 2009,
+    "first_author": "JEFFREY SNYDER",
+    "container": "Nanoscience and Technology",
+    "type": "book-chapter",
+    "score": 51.53587
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2] Y Katsura et al. Starrydata: A comprehensive database for thermoelectric materials properties. Science and Technology of Advanced Materials: Methods, 2025.",
+   "title": "Starrydata: A comprehensive database for thermoelectric materials properties",
+   "authors": [
+    "Katsura"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Science and Technology of Advanced Materials: Methods",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1016/j.commatsci.2025.113855",
+      "title": "Large language model-driven database for thermoelectric materials",
+      "year": 2025,
+      "first_author": "Itani",
+      "container": "Computational Materials Science",
+      "type": "journal-article",
+      "score": 26.477783
+     },
+     "metrics": {
+      "title_sim": 72.54901960784314,
+      "containment": 0.429,
+      "partial_ratio": 73.84615384615385,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3] Nishimoto. Claude-code-communication: Multi-ai agent system. https://github.com/ nishimoto265/Claude-Code-Communication, 2025. GitHub repository.",
+   "title": "Claude-code-communication: Multi-ai agent system",
+   "authors": [],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://github.com/"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED_URL",
+   "via": "url",
+   "url_status": {
+    "https://github.com/": 200
+   },
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.22541/au.175269957.75269693/v1",
+      "title": "Multi-Disease AI Diagnosis System Using Minimal Code and LLM-Powered Explanations",
+      "year": 2025,
+      "first_author": "Thakur",
+      "container": "",
+      "type": "posted-content",
+      "score": 31.364023
+     },
+     "metrics": {
+      "title_sim": 59.701492537313435,
+      "containment": 0.333,
+      "partial_ratio": 50.617283950617285,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4] GD Mahan and JO Sofo. Thermoelectric materials: New directions and approaches. Proceedings of the National Academy of Sciences, 93(15):7436\u20137439, 1996.",
+   "title": "Thermoelectric materials: New directions and approaches",
+   "authors": [
+    "Mahan",
+    "Sofo"
+   ],
+   "year": 1996,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the National Academy of Sciences",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1063/1.881752",
+    "title": "Thermoelectric Materials: New Approaches to an Old Problem",
+    "year": 1997,
+    "first_author": "Mahan",
+    "container": "Physics Today",
+    "type": "journal-article",
+    "score": 34.784225
+   },
+   "metrics": {
+    "title_sim": 86.48648648648648,
+    "containment": 0.667,
+    "partial_ratio": 73.6842105263158,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5] Logan Ward, Ankit Agrawal, Alok Choudhary, and Christopher Wolverton. A general-purpose machine learning framework for predicting properties of inorganic materials. npj Computational Materials, 2(1):1\u20137, 2016.",
+   "title": "A general-purpose machine learning framework for predicting properties of inorganic materials",
+   "authors": [
+    "Ward",
+    "Agrawal",
+    "Choudhary",
+    "Wolverton"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "npj Computational Materials",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/npjcompumats.2016.28",
+    "title": "A general-purpose machine learning framework for predicting properties of inorganic materials",
+    "year": 2016,
+    "first_author": "Ward",
+    "container": "npj Computational Materials",
+    "type": "journal-article",
+    "score": 62.57939
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[6] Logan Ward, Alexander Dunn, Alireza Faghaninia, Nils ER Zimmermann, Saurabh Bajaj, Qi Wang, Joseph Montoya, Jiming Chen, Kyle Bystrom, Maxwell Dylla, et al. Matminer: An open source toolkit for materials data mining. Computational Materials Science, 152:60\u201369, 2018.",
+   "title": "Matminer: An open source toolkit for materials data mining",
+   "authors": [
+    "Ward",
+    "Dunn",
+    "Faghaninia",
+    "Zimmermann",
+    "Bajaj",
+    "Wang",
+    "Montoya",
+    "Chen",
+    "Bystrom",
+    "Dylla"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Computational Materials Science",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.commatsci.2018.05.018",
+    "title": "Matminer: An open source toolkit for materials data mining",
+    "year": 2018,
+    "first_author": "Ward",
+    "container": "Computational Materials Science",
+    "type": "journal-article",
+    "score": 48.93098
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[7] Tianqi Chen and Carlos Guestrin. Xgboost: A scalable tree boosting system. Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, pages 785\u2013794, 2016.",
+   "title": "Xgboost: A scalable tree boosting system",
+   "authors": [
+    "Chen",
+    "Guestrin"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/2939672.2939785",
+    "title": "XGBoost",
+    "year": 2016,
+    "first_author": "Chen",
+    "container": "Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining",
+    "type": "proceedings-article",
+    "score": 47.470993
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[8] Leo Breiman. Random forests. Machine Learning, 45(1):5\u201332, 2001.",
+   "title": "Random forests",
+   "authors": [
+    "Breiman"
+   ],
+   "year": 2001,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Machine Learning",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1023/a:1010933404324",
+    "title": "Random Forests",
+    "year": 2001,
+    "first_author": "Breiman",
+    "container": "Machine Learning",
+    "type": "journal-article",
+    "score": 38.71097
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[9] Yann LeCun, Yoshua Bengio, and Geoffrey Hinton. Deep learning. Nature, 521(7553):436\u2013444, 2015.",
+   "title": "Deep learning",
+   "authors": [
+    "LeCun",
+    "Bengio",
+    "Hinton"
+   ],
+   "year": 2015,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/hotchips.2015.7477328",
+    "title": "Deep learning &amp; convolutional networks",
+    "year": 2015,
+    "first_author": "LeCun",
+    "container": "2015 IEEE Hot Chips 27 Symposium (HCS)",
+    "type": "proceedings-article",
+    "score": 32.940384
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.4,
+    "partial_ratio": 44.99999999999999,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[10] Scott M Lundberg and Su-In Lee. A unified approach to interpreting model predictions. Advances in Neural Information Processing Systems, 30, 2017.",
+   "title": "A unified approach to interpreting model predictions",
+   "authors": [
+    "Lundberg",
+    "Lee"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.32920/22734407",
+      "title": "Interpreting Uncertainty in Model Predictions for Covid-19 Diagnosis",
+      "year": 2023,
+      "first_author": "Murugamoorthy",
+      "container": "",
+      "type": "posted-content",
+      "score": 26.443844
+     },
+     "metrics": {
+      "title_sim": 73.17073170731707,
+      "containment": 0.5,
+      "partial_ratio": 58.82352941176471,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "442e10a3c6640ded9408622005e3c2a8906ce4c2",
+    "title": "A Unified Approach to Interpreting Model Predictions",
+    "year": 2017,
+    "first_author": "Scott M. Lundberg",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "MAG": "2618851150",
+     "DBLP": "journals/corr/LundbergL17",
+     "ArXiv": "1705.07874",
+     "CorpusId": 21889700
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "[11] Bobak Shahriari, Kevin Swersky, Ziyu Wang, Ryan P Adams, and Nando De Freitas. Taking the human out of the loop: A review of bayesian optimization. Proceedings of the IEEE, 104(1):148\u2013175, 2016.",
+   "title": "Taking the human out of the loop: A review of bayesian optimization",
+   "authors": [
+    "Shahriari",
+    "Swersky",
+    "Wang",
+    "Adams",
+    "Freitas"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the IEEE",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/jproc.2015.2494218",
+    "title": "Taking the Human Out of the Loop: A Review of Bayesian Optimization",
+    "year": 2016,
+    "first_author": "Shahriari",
+    "container": "Proceedings of the IEEE",
+    "type": "journal-article",
+    "score": 51.376526
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  }
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
+}

@@ -140,7 +140,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -172,7 +172,29 @@
     "container": "Monthly Notices of the Royal Astronomical Society",
     "type": "journal-article",
     "score": 37.928356
-   }
+   },
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "0116ad933e9836b0429d150836c03b86e41cc9aa",
+    "title": "Principal Component Analysis as a tool to explore star formation histories",
+    "year": 2006,
+    "first_author": "I. Ferreras",
+    "container": "",
+    "ext": {
+     "ArXiv": "astro-ph/0611456",
+     "MAG": "1628205539",
+     "CorpusId": 15931508
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -311,7 +333,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -334,7 +356,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "a08ef289b33ac2b4f0558d054d3d732a7664a4b8",
+    "title": "Geometric Priors for Scientific Generative Models in Inertial Confinement Fusion",
+    "year": 2021,
+    "first_author": "Ankita Shukla",
+    "container": "arXiv.org",
+    "ext": {
+     "ArXiv": "2111.12798",
+     "DBLP": "journals/corr/abs-2111-12798",
+     "CorpusId": 244709681
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -377,5 +421,7 @@
    },
    "evidence": []
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

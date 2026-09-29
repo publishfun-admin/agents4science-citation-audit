@@ -23,7 +23,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -50,7 +50,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "642d0f49b7826adcf986616f4af77e736229990f",
+    "title": "Deep Compression: Compressing Deep Neural Network with Pruning, Trained Quantization and Huffman Coding",
+    "year": 2015,
+    "first_author": "Song Han",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "MAG": "2119144962",
+     "ArXiv": "1510.00149",
+     "DBLP": "journals/corr/HanMD15",
+     "CorpusId": 2134321
+    }
+   },
+   "metrics": {
+    "title_sim": 99.50738916256158,
+    "containment": 0.909,
+    "partial_ratio": 99.00990099009901,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -111,7 +134,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -138,7 +161,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "0c908739fbff75f03469d13d4a1a07de3414ee19",
+    "title": "Distilling the Knowledge in a Neural Network",
+    "year": 2015,
+    "first_author": "Geoffrey E. Hinton",
+    "container": "arXiv.org",
+    "ext": {
+     "ArXiv": "1503.02531",
+     "MAG": "1821462560",
+     "DBLP": "journals/corr/HintonVD15",
+     "CorpusId": 7200347
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -161,7 +207,7 @@
    "container": "USENIX Symposium on Operating Systems Design and Implementation (OSDI",
    "type": "paper-conference",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -184,7 +230,27 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "ec3071fb918ad69ec80df1ca9cf1fdeb386a9603",
+    "title": "TVM: An Automated End-to-End Optimizing Compiler for Deep Learning",
+    "year": 2018,
+    "first_author": "Tianqi Chen",
+    "container": "",
+    "ext": {
+     "CorpusId": 3296374
+    }
+   },
+   "metrics": {
+    "title_sim": 90.9090909090909,
+    "containment": 0.75,
+    "partial_ratio": 89.23076923076923,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -290,7 +356,7 @@
    "container": "Advances in Neural Information Processing Systems",
    "type": "chapter",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -313,7 +379,32 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "b39eed03d345f5c244eac12fd1315d26eba77d62",
+    "title": "Deep Learning for Symbolic Mathematics",
+    "year": 2019,
+    "first_author": "Guillaume Lample",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "MAG": "2994278562",
+     "DBLP": "journals/corr/abs-1912-01412",
+     "ArXiv": "1912.01412",
+     "CorpusId": 208547770
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

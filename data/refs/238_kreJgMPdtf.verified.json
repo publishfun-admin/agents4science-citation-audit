@@ -102,10 +102,6 @@
    "verdict": "UNVERIFIED",
    "evidence": [
     {
-     "step": "arxiv_id_not_found",
-     "arxiv": "2211.07292"
-    },
-    {
      "step": "crossref_best_reject",
      "rec": {
       "source": "crossref",
@@ -122,6 +118,23 @@
       "containment": 0.5,
       "partial_ratio": 55.20833333333333,
       "year_ok": false,
+      "first_author_ok": false
+     }
+    },
+    {
+     "step": "arxiv_id_resolves_title_mismatch",
+     "rec": {
+      "source": "arxiv_abs",
+      "arxiv": "2211.07292",
+      "title": "A Novel Sampling Scheme for Text- and Image-Conditional Image Synthesis in Quantized Latent Spaces",
+      "year": 2022,
+      "first_author": "Rampas, Dominic"
+     },
+     "metrics": {
+      "title_sim": 42.68292682926829,
+      "containment": 0.0,
+      "partial_ratio": 44.329896907216494,
+      "year_ok": true,
       "first_author_ok": false
      }
     }
@@ -179,7 +192,7 @@
    "container": "Nature Reviews Methods Primers",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -202,7 +215,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "f08060425aa8a212d74185ee23a08329b89abcd2",
+    "title": "Scientific discovery in the age of artificial intelligence",
+    "year": 2023,
+    "first_author": "Hanchen Wang",
+    "container": "Nature",
+    "ext": {
+     "DBLP": "journals/nature/WangFD0HLCLKDAB23",
+     "DOI": "10.1038/s41586-023-06221-2",
+     "CorpusId": 260384616,
+     "PubMed": "37532811"
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -338,7 +374,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -365,7 +401,32 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "5a5a1d666e4b7b933bc5aafbbadf179bc447ee67",
+    "title": "AI safety via debate",
+    "year": 2018,
+    "first_author": "G. Irving",
+    "container": "arXiv.org",
+    "ext": {
+     "ArXiv": "1805.00899",
+     "MAG": "2798877128",
+     "DBLP": "journals/corr/abs-1805-00899",
+     "CorpusId": 22050710
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

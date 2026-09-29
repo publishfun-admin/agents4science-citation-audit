@@ -56,7 +56,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "doi_resolves_title_mismatch",
@@ -99,7 +99,23 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "openlibrary",
+   "match": {
+    "source": "openlibrary",
+    "id": "/works/OL5126374W",
+    "title": "Membership: Association for Computing Machinery",
+    "year": null,
+    "first_author": "Association for Computing Machinery."
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.75,
+    "partial_ratio": 86.41975308641976,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -480,7 +496,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -503,7 +519,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "b622a5220969ed0cd518dd2d61efa1671e5c46a5",
+    "title": "Stress: Appraisal and Coping",
+    "year": 2020,
+    "first_author": "R. Lazarus",
+    "container": "Encyclopedia of Behavioral Medicine",
+    "ext": {
+     "MAG": "1530155851",
+     "DOI": "10.4135/9781412952576.n198",
+     "CorpusId": 142905864
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -592,7 +630,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -619,7 +657,22 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "arxiv_id_repass",
+   "match": {
+    "source": "arxiv_abs",
+    "arxiv": "2309.16609",
+    "title": "Qwen Technical Report",
+    "year": 2023,
+    "first_author": "Bai, Jinze"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   }
   },
   {
    "junk": false,
@@ -636,7 +689,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -663,7 +716,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "b842b83a7ff5dff8e3b83915d8c15423b6085728",
+    "title": "Gemma: Open Models Based on Gemini Research and Technology",
+    "year": 2024,
+    "first_author": "Gemma Team Thomas Mesnard",
+    "container": "arXiv.org",
+    "ext": {
+     "ArXiv": "2403.08295",
+     "DBLP": "journals/corr/abs-2403-08295",
+     "DOI": "10.48550/arXiv.2403.08295",
+     "CorpusId": 268379206
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -702,5 +778,7 @@
    },
    "evidence": []
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

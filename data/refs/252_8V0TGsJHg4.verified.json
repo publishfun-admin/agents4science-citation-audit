@@ -572,7 +572,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -595,7 +595,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "33a8ee991815b47abbde3c89bc5ce2f771b2ca0f",
+    "title": "A projection operator technique for solution of relativistic wave equation on non-compact group: the case of a charged vector-boson",
+    "year": 2003,
+    "first_author": "H. Grushevskaya",
+    "container": "",
+    "ext": {
+     "ArXiv": "quant-ph/0301176",
+     "MAG": "1652917611",
+     "CorpusId": 18605838
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -869,7 +891,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -892,7 +914,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "9bfe45fe32eaf53e7db716f5717f1d00444be08e",
+    "title": "Global Quantum Circuit Optimization",
+    "year": 2013,
+    "first_author": "Raphaela Dias da Silva",
+    "container": "",
+    "ext": {
+     "MAG": "2952973980",
+     "ArXiv": "1301.0351",
+     "CorpusId": 55098456
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1690,7 +1734,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -1713,7 +1757,28 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "02df055a094021fe54a8b8f035ab68c8ee4ff493",
+    "title": "Quantum Many-Body Theory for kq-Deformed Particles",
+    "year": 2024,
+    "first_author": "H. Esmaili",
+    "container": "",
+    "ext": {
+     "ArXiv": "2412.05822",
+     "CorpusId": 274596958
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.667,
+    "partial_ratio": 63.52941176470588,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -2243,7 +2308,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -2275,7 +2340,29 @@
     "container": "Springer Series in Statistics",
     "type": "book-chapter",
     "score": 80.70479
-   }
+   },
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "d4dbc764f69a950219c3cee9d3ef066aeb326aaa",
+    "title": "Monte Carlo and Quasi-Monte Carlo Sampling",
+    "year": 2009,
+    "first_author": "C. Lemieux",
+    "container": "",
+    "ext": {
+     "MAG": "87152119",
+     "DOI": "10.1007/978-0-387-78165-5",
+     "CorpusId": 117310737
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -3704,5 +3791,7 @@
    },
    "evidence": []
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

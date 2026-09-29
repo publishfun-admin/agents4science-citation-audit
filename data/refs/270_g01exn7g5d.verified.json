@@ -157,7 +157,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -184,7 +184,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "5820320813594027b9ff9d4ef7d264a58929194c",
+    "title": "Reinforcement Learning for Quantum Circuit Design: Using Matrix Representations",
+    "year": 2025,
+    "first_author": "Zhiyuan Wang",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2501-16509",
+     "ArXiv": "2501.16509",
+     "DOI": "10.48550/arXiv.2501.16509",
+     "CorpusId": 275932126
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -300,5 +323,7 @@
    },
    "evidence": []
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

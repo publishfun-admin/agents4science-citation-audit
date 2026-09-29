@@ -106,7 +106,7 @@
    "container": "Proceedings of the 34th International Conference on Machine Learning (ICML",
    "type": "paper-conference",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -133,7 +133,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "d65ce2b8300541414bfe51d03906fca72e93523c",
+    "title": "On Calibration of Modern Neural Networks",
+    "year": 2017,
+    "first_author": "Chuan Guo",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "MAG": "2950953798",
+     "ArXiv": "1706.04599",
+     "DBLP": "conf/icml/GuoPSW17",
+     "CorpusId": 28671436
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -524,5 +547,7 @@
    },
    "evidence": []
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

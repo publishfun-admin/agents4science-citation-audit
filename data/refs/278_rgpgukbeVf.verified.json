@@ -131,7 +131,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -154,7 +154,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "6ed96d6822a06ad9a735bc09e301bf41df61c534",
+    "title": "CheXagent: Towards a Foundation Model for Chest X-Ray Interpretation",
+    "year": 2024,
+    "first_author": "Zhihong Chen",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2401-12208",
+     "DOI": "10.48550/arXiv.2401.12208",
+     "CorpusId": 279241090
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -211,7 +233,7 @@
    "container": null,
    "type": "book",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -234,7 +256,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "1b6e16cc72aee038eb1879b8686b53776be3d51f",
+    "title": "Scaling Monosemanticity: Extracting Interpretable Features from Claude 3 Sonnet",
+    "year": 2026,
+    "first_author": "Adly Templeton",
+    "container": "arXiv.org",
+    "ext": {
+     "ArXiv": "2605.29358",
+     "DBLP": "journals/corr/abs-2605-29358",
+     "DOI": "10.48550/arXiv.2605.29358",
+     "CorpusId": 288741681
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -251,7 +296,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -274,7 +319,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "0d24c5680efe9769e6d7ea579db0499ec819a8c7",
+    "title": "Scaling and evaluating sparse autoencoders",
+    "year": 2024,
+    "first_author": "Leo Gao",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "DBLP": "conf/iclr/GaoTTGTRSL025",
+     "ArXiv": "2406.04093",
+     "DOI": "10.48550/arXiv.2406.04093",
+     "CorpusId": 270286001
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -291,7 +359,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -314,7 +382,32 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "f67b4718b8425aff8c4156757ec0d9c9958ab7d0",
+    "title": "Learning Multi-Level Features with Matryoshka Sparse Autoencoders",
+    "year": 2025,
+    "first_author": "Bart Bussmann",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "DBLP": "conf/icml/BussmannNKN25",
+     "ArXiv": "2503.17547",
+     "DOI": "10.48550/arXiv.2503.17547",
+     "CorpusId": 277271553
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

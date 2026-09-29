@@ -139,7 +139,7 @@
    "container": "Proceedings of COLING",
    "type": "paper-conference",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -162,7 +162,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "017bca4e95233072396520fdd1e8349c56fa3cb7",
+    "title": "Why Does ChatGPT \"Delve\" So Much? Exploring the Sources of Lexical Overrepresentation in Large Language Models",
+    "year": 2024,
+    "first_author": "Thomas Stephan Juzek",
+    "container": "International Conference on Computational Linguistics",
+    "ext": {
+     "ArXiv": "2412.11385",
+     "DBLP": "journals/corr/abs-2412-11385",
+     "DOI": "10.48550/arXiv.2412.11385",
+     "CorpusId": 274777338
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -183,7 +206,7 @@
    "container": "International Conference on Learning Representations (ICLR",
    "type": "paper-conference",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -206,7 +229,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "cf4aa38ae31b43fd07abe13b4ffdb265babb7be1",
+    "title": "The Curious Case of Neural Text Degeneration",
+    "year": 2019,
+    "first_author": "Ari Holtzman",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "DBLP": "journals/corr/abs-1904-09751",
+     "MAG": "2938704169",
+     "ArXiv": "1904.09751",
+     "CorpusId": 127986954
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -789,7 +835,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -816,7 +862,22 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "arxiv_id_repass",
+   "match": {
+    "source": "arxiv_abs",
+    "arxiv": "2310.14724",
+    "title": "A Survey on LLM-Generated Text Detection: Necessity, Methods, and Future Directions",
+    "year": 2023,
+    "first_author": "Wu, Junchao"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   }
   },
   {
    "junk": false,
@@ -945,7 +1006,7 @@
    "container": "Proceedings of LREC",
    "type": "paper-conference",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -968,7 +1029,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "ce4a159935c58eb342a381e4e874d4c29afdc7ec",
+    "title": "MAGPIE: A Large Corpus of Potentially Idiomatic Expressions",
+    "year": 2020,
+    "first_author": "H. Haagsma",
+    "container": "International Conference on Language Resources and Evaluation",
+    "ext": {
+     "MAG": "3030374439",
+     "DBLP": "conf/lrec/HaagsmaBN20",
+     "ACL": "2020.lrec-1.35",
+     "CorpusId": 218974322
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1030,7 +1114,7 @@
    "container": "LDC Documentation",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -1053,7 +1137,26 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "crossref_title",
+   "match": {
+    "source": "crossref",
+    "doi": "10.63317/55sr8v9kexr7",
+    "title": "The Penn Discourse TreeBank 2.0.",
+    "year": 2008,
+    "first_author": "Prasad",
+    "container": "Proceedings of the Language Resources and Evaluation Conference",
+    "type": "proceedings-article",
+    "score": 46.60917
+   },
+   "metrics": {
+    "title_sim": 96.66666666666667,
+    "containment": 1.0,
+    "partial_ratio": 96.7741935483871,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1145,7 +1248,7 @@
    "container": "Advances in Large Margin Classifiers",
    "type": "chapter",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -1168,7 +1271,28 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "42e5ed832d4310ce4378c44d05570439df28a393",
+    "title": "Probabilistic Outputs for Support vector Machines and Comparisons to Regularized Likelihood Methods",
+    "year": 1999,
+    "first_author": "J. Platt",
+    "container": "",
+    "ext": {
+     "MAG": "1618905105",
+     "CorpusId": 56563878
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1224,7 +1348,7 @@
    "container": "Proceedings of ICML",
    "type": "paper-conference",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -1247,7 +1371,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "d65ce2b8300541414bfe51d03906fca72e93523c",
+    "title": "On Calibration of Modern Neural Networks",
+    "year": 2017,
+    "first_author": "Chuan Guo",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "MAG": "2950953798",
+     "ArXiv": "1706.04599",
+     "DBLP": "conf/icml/GuoPSW17",
+     "CorpusId": 28671436
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1271,7 +1418,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -1298,7 +1445,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "a8ca46b171467ceb2d7652fbfb67fe701ad86092",
+    "title": "LoRA: Low-Rank Adaptation of Large Language Models",
+    "year": 2021,
+    "first_author": "J. Hu",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "DBLP": "conf/iclr/HuSWALWWC22",
+     "ArXiv": "2106.09685",
+     "CorpusId": 235458009
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1336,5 +1505,7 @@
    },
    "evidence": []
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

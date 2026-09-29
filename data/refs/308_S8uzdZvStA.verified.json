@@ -105,7 +105,7 @@
    "container": "Proceedings of the 14th ACM workshop on artificial intelligence and security",
    "type": "paper-conference",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -128,7 +128,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "1934d3009456e6baddae344995eb4634234beede",
+    "title": "INSOMNIA: Towards Concept-Drift Robustness in Network Intrusion Detection",
+    "year": 2021,
+    "first_author": "Giuseppina Andresini",
+    "container": "AISec@CCS",
+    "ext": {
+     "DBLP": "conf/ccs/AndresiniPPLAC21",
+     "DOI": "10.1145/3474369.3486864",
+     "CorpusId": 240001863
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -187,10 +209,6 @@
    "verdict": "UNVERIFIED",
    "evidence": [
     {
-     "step": "arxiv_id_not_found",
-     "arxiv": "2310.00389"
-    },
-    {
      "step": "crossref_best_reject",
      "rec": {
       "source": "crossref",
@@ -208,6 +226,23 @@
       "partial_ratio": 54.95495495495495,
       "year_ok": false,
       "first_author_ok": null
+     }
+    },
+    {
+     "step": "arxiv_id_resolves_title_mismatch",
+     "rec": {
+      "source": "arxiv_abs",
+      "arxiv": "2310.00389",
+      "title": "Magneto-optical trap reaction microscope for photoionization of cold strontium atoms",
+      "year": 2023,
+      "first_author": "Ruan, Shushu"
+     },
+     "metrics": {
+      "title_sim": 41.9753086419753,
+      "containment": 0.0,
+      "partial_ratio": 42.85714285714286,
+      "year_ok": true,
+      "first_author_ok": false
      }
     }
    ],
@@ -230,7 +265,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -257,7 +292,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "ab30672c8c5e4787f6a5985f26a8f281f0db2fb8",
+    "title": "How Attentive are Graph Attention Networks?",
+    "year": 2021,
+    "first_author": "Shaked Brody",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "DBLP": "journals/corr/abs-2105-14491",
+     "ArXiv": "2105.14491",
+     "CorpusId": 235254358
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -401,7 +458,7 @@
    "container": "Advances in neural information processing systems",
    "type": "chapter",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -424,7 +481,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "6b7d6e6416343b2a122f8416e69059ce919026ef",
+    "title": "Inductive Representation Learning on Large Graphs",
+    "year": 2017,
+    "first_author": "William L. Hamilton",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "MAG": "2624431344",
+     "DBLP": "conf/nips/HamiltonYL17",
+     "ArXiv": "1706.02216",
+     "CorpusId": 4755450
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -621,7 +701,7 @@
    "container": "Advances in neural information processing systems",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -644,7 +724,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "802168a81571dde28f5ddb94d84677bc007afa7b",
+    "title": "Simple and Scalable Predictive Uncertainty Estimation using Deep Ensembles",
+    "year": 2016,
+    "first_author": "Balaji Lakshminarayanan",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "MAG": "2560321925",
+     "DBLP": "journals/corr/Lakshminarayanan16c",
+     "ArXiv": "1612.01474",
+     "CorpusId": 6294674
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1191,7 +1294,7 @@
    "container": "International conference on learning representations",
    "type": "paper-conference",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -1214,7 +1317,31 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "33998aff64ce51df8dee45989cdca4b6b1329ec4",
+    "title": "Graph Attention Networks",
+    "year": 2017,
+    "first_author": "Petar Velickovic",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "MAG": "2766453196",
+     "DBLP": "journals/corr/abs-1710-10903",
+     "ArXiv": "1710.10903",
+     "DOI": "10.17863/CAM.48429",
+     "CorpusId": 3292002
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1234,7 +1361,7 @@
    "container": "International conference on learning representations",
    "type": "paper-conference",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -1257,7 +1384,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "62ed9bf1d83c8db1f9cbf92ea2f57ea90ef683d9",
+    "title": "How Powerful are Graph Neural Networks?",
+    "year": 2018,
+    "first_author": "Keyulu Xu",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "MAG": "2950468517",
+     "ArXiv": "1810.00826",
+     "DBLP": "journals/corr/abs-1810-00826",
+     "CorpusId": 52895589
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1280,7 +1430,7 @@
    "container": "30th USENIX Security Symposium (USENIX Security 21",
    "type": "paper-conference",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -1303,7 +1453,28 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "2cf435278f4a3d44660d13e502b69bc0f1dbc539",
+    "title": "CADE: Detecting and Explaining Concept Drift Samples for Security Applications",
+    "year": 2021,
+    "first_author": "Limin Yang",
+    "container": "USENIX Security Symposium",
+    "ext": {
+     "DBLP": "conf/uss/Yang0HCAX021",
+     "CorpusId": 227947686
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1346,5 +1517,7 @@
    ],
    "likely_match": null
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

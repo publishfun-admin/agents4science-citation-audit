@@ -310,7 +310,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -337,7 +337,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "7b10dedde6d45775e01ef3b4751ca7679a78f298",
+    "title": "Towards Graph Contrastive Learning: A Survey and Beyond",
+    "year": 2024,
+    "first_author": "Wei Ju",
+    "container": "arXiv.org",
+    "ext": {
+     "ArXiv": "2405.11868",
+     "DBLP": "journals/corr/abs-2405-11868",
+     "DOI": "10.48550/arXiv.2405.11868",
+     "CorpusId": 269921647
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -434,7 +457,7 @@
    "container": "ACM Transactions on Intelligent Systems and Technology (TIST",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -457,7 +480,33 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "10aa9ee7caaf9381b6a0468ae899a9729824a6b7",
+    "title": "SNAP: A General Purpose Network Analysis and Graph Mining Library",
+    "year": 2016,
+    "first_author": "J. Leskovec",
+    "container": "ACM Transactions on Intelligent Systems and Technology",
+    "ext": {
+     "ArXiv": "1606.07550",
+     "MAG": "2469279958",
+     "PubMedCentral": "5361061",
+     "DBLP": "journals/corr/LeskovecS16",
+     "DOI": "10.1145/2898361",
+     "CorpusId": 2601163,
+     "PubMed": "28344853"
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -757,7 +806,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -784,7 +833,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "21ab210e28cb37e9ef0241850649a2963791f124",
+    "title": "Temporal Graph Networks for Deep Learning on Dynamic Graphs",
+    "year": 2020,
+    "first_author": "Emanuele Rossi",
+    "container": "arXiv.org",
+    "ext": {
+     "ArXiv": "2006.10637",
+     "DBLP": "journals/corr/abs-2006-10637",
+     "MAG": "3036685317",
+     "CorpusId": 219792342
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -805,7 +877,7 @@
    "container": "Proceedings of the 13th International Conference on Web Search and Data Mining",
    "type": "paper-conference",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -828,7 +900,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "5b3c1f48229f779fc3c9d35ae67bf568cfdc3e2a",
+    "title": "DySAT: Deep Neural Representation Learning on Dynamic Graphs via Self-Attention Networks",
+    "year": 2020,
+    "first_author": "Aravind Sankar",
+    "container": "Web Search and Data Mining",
+    "ext": {
+     "MAG": "2998116985",
+     "DBLP": "conf/wsdm/SankarWGZY20",
+     "DOI": "10.1145/3336191.3371845",
+     "CorpusId": 210884001
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1052,7 +1147,7 @@
    "container": "International Conference on Machine Learning",
    "type": "paper-conference",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -1075,7 +1170,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "0e595fe9e18e422d0569a3faad7a32ba3c576e5a",
+    "title": "Graph Contrastive Learning Automated",
+    "year": 2021,
+    "first_author": "Yuning You",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "ArXiv": "2106.07594",
+     "DBLP": "conf/icml/YouCSW21",
+     "CorpusId": 235422690
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1097,7 +1214,7 @@
    "container": "Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining",
    "type": "paper-conference",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -1120,7 +1237,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "68f6fe021bd8efd8baf648138a8fe2182858e7cb",
+    "title": "NetWalk: A Flexible Deep Embedding Approach for Anomaly Detection in Dynamic Networks",
+    "year": 2018,
+    "first_author": "Wen-Chao Yu",
+    "container": "Knowledge Discovery and Data Mining",
+    "ext": {
+     "MAG": "2808771744",
+     "DBLP": "conf/kdd/YuCAZCW18",
+     "DOI": "10.1145/3219819.3220024",
+     "CorpusId": 207681776
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1282,5 +1422,7 @@
    },
    "evidence": []
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

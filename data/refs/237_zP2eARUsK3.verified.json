@@ -259,7 +259,7 @@
    "container": "Advances in Neural Information Processing Systems (NeurIPS",
    "type": "chapter",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -282,7 +282,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "442e10a3c6640ded9408622005e3c2a8906ce4c2",
+    "title": "A Unified Approach to Interpreting Model Predictions",
+    "year": 2017,
+    "first_author": "Scott M. Lundberg",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "MAG": "2618851150",
+     "DBLP": "journals/corr/LundbergL17",
+     "ArXiv": "1705.07874",
+     "CorpusId": 21889700
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -729,7 +752,7 @@
    "container": "Proceedings of the 34th International Conference on Machine Learning (ICML",
    "type": "paper-conference",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -752,7 +775,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "f302e136c41db5de1d624412f68c9174cf7ae8be",
+    "title": "Axiomatic Attribution for Deep Networks",
+    "year": 2017,
+    "first_author": "Mukund Sundararajan",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "ArXiv": "1703.01365",
+     "MAG": "2949197630",
+     "DBLP": "conf/icml/SundararajanTY17",
+     "CorpusId": 16747630
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -778,10 +824,6 @@
    "verdict": "UNVERIFIED",
    "evidence": [
     {
-     "step": "arxiv_id_not_found",
-     "arxiv": "2405.05204"
-    },
-    {
      "step": "crossref_best_reject",
      "rec": {
       "source": "crossref",
@@ -798,6 +840,23 @@
       "containment": 0.667,
       "partial_ratio": 64.91228070175438,
       "year_ok": false,
+      "first_author_ok": false
+     }
+    },
+    {
+     "step": "arxiv_id_resolves_title_mismatch",
+     "rec": {
+      "source": "arxiv_abs",
+      "arxiv": "2405.05204",
+      "title": "CARE-SD: Classifier-based analysis for recognizing and eliminating stigmatizing and doubt marker labels in electronic health records: model development and validation",
+      "year": 2024,
+      "first_author": "Walker, Drew"
+     },
+     "metrics": {
+      "title_sim": 45.344129554655865,
+      "containment": 0.125,
+      "partial_ratio": 46.95121951219512,
+      "year_ok": true,
       "first_author_ok": false
      }
     }
@@ -910,5 +969,7 @@
     }
    ]
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

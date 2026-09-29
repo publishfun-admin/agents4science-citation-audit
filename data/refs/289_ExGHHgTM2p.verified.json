@@ -62,7 +62,7 @@
    "container": null,
    "type": "book",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -85,7 +85,28 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "30e8ef05b5f98f24e69969c90a0c29524eee97dd",
+    "title": "Antenna Theory: Analysis and Design",
+    "year": 1982,
+    "first_author": "C. Balanis",
+    "container": "",
+    "ext": {
+     "MAG": "1647572132",
+     "CorpusId": 109557562
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -190,7 +211,7 @@
    "container": "Proc. Adv. Neural Inf. Process. Syst. (NeurIPS",
    "type": "paper-conference",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -213,7 +234,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "5c126ae3421f05768d8edd97ecd44b1364e2c99a",
+    "title": "Denoising Diffusion Probabilistic Models",
+    "year": 2020,
+    "first_author": "Jonathan Ho",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "ArXiv": "2006.11239",
+     "MAG": "3100572490",
+     "DBLP": "journals/corr/abs-2006-11239",
+     "CorpusId": 219955663
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -777,5 +821,7 @@
     }
    ]
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

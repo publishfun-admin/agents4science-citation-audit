@@ -57,7 +57,7 @@
    "container": null,
    "type": "book",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -80,7 +80,23 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "openlibrary",
+   "match": {
+    "source": "openlibrary",
+    "id": "/works/OL46241W",
+    "title": "I, Robot",
+    "year": 1950,
+    "first_author": "Isaac Asimov"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -135,7 +151,7 @@
    "container": "Advances in Neural Information Processing Systems 7",
    "type": "chapter",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -158,7 +174,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "69fd477afc51f5fb384e3d037d90d699977fa22e",
+    "title": "Template-Based Algorithms for Connectionist Rule Extraction",
+    "year": 1994,
+    "first_author": "J. Alexander",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "MAG": "2115027220",
+     "DBLP": "conf/nips/AlexanderM94",
+     "CorpusId": 2615356
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -176,7 +214,7 @@
    "container": "Journal of Machine Learning Research",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -199,7 +237,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "c0f2c4104ef6e36bb67022001179887e6600d24d",
+    "title": "A comprehensive survey on safe reinforcement learning",
+    "year": 2015,
+    "first_author": "Javier Garc\u00eda",
+    "container": "Journal of machine learning research",
+    "ext": {
+     "DBLP": "journals/jmlr/GarciaF15",
+     "MAG": "1845972764",
+     "DOI": "10.5555/2789272.2886795",
+     "CorpusId": 2497153
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -293,7 +354,7 @@
    "container": "Quantitative Analyses of Behavior",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -316,7 +377,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "c1698e6038a165093da1bd5b89b9bcb73f11c395",
+    "title": "An adjusting procedure for studying delayed reinforcement.",
+    "year": 1987,
+    "first_author": "J. E. Mazur",
+    "container": "",
+    "ext": {
+     "MAG": "1847236181",
+     "DOI": "10.4324/9781315825502-11",
+     "CorpusId": 143113485
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -565,5 +648,7 @@
    },
    "evidence": []
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

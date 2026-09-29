@@ -475,7 +475,7 @@
    "container": "A&A",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -498,7 +498,28 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "37a3c1cbf5e3944cb5f8f48729701f12b236e02b",
+    "title": "Gravitational instability: An Approximate theory for large density perturbations",
+    "year": 1969,
+    "first_author": "Y. Zeldovich",
+    "container": "",
+    "ext": {
+     "MAG": "1852788487",
+     "CorpusId": 276655531
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -591,7 +612,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -618,7 +639,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "75c00a85f820c9d012bdb1a54a210c265d7c20bc",
+    "title": "Machine Learning in Astronomy: a practical overview",
+    "year": 2019,
+    "first_author": "D. Baron",
+    "container": "",
+    "ext": {
+     "MAG": "2939621630",
+     "ArXiv": "1904.07248",
+     "CorpusId": 119302873
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -637,7 +680,7 @@
    "container": "BAAS",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -660,7 +703,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "333ddc46a211ab1eb6ceb1f4b7c4952eadce8015",
+    "title": "The Role of Machine Learning in the Next Decade of Cosmology",
+    "year": 2019,
+    "first_author": "M. Ntampaka",
+    "container": "",
+    "ext": {
+     "MAG": "2915156775",
+     "ArXiv": "1902.10159",
+     "CorpusId": 119466359
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -818,5 +883,7 @@
     }
    ]
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

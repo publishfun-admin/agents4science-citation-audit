@@ -134,7 +134,7 @@
    "container": null,
    "type": "report",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -157,7 +157,28 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "cf20e34a1402a115523910d2a4243929f6704db1",
+    "title": "AN IDEA BASED ON HONEY BEE SWARM FOR NUMERICAL OPTIMIZATION",
+    "year": 2005,
+    "first_author": "D. Karabo\u011fa",
+    "container": "",
+    "ext": {
+     "MAG": "2287814884",
+     "CorpusId": 8215393
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -238,5 +259,7 @@
    ],
    "likely_match": null
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

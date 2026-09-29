@@ -184,7 +184,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -207,7 +207,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "f3de86aeb442216a8391befcacb49e58b478f512",
+    "title": "Distributed Representations of Sentences and Documents",
+    "year": 2014,
+    "first_author": "Quoc V. Le",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "MAG": "2949547296",
+     "DBLP": "conf/icml/LeM14",
+     "ArXiv": "1405.4053",
+     "CorpusId": 2407601
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -275,7 +298,7 @@
    "container": "Computing Research Repository",
    "type": "chapter",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -298,7 +321,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "a23e45e11fe7f6f667cd411817a18af4d5f966a9",
+    "title": "PST-Bench: Tracing and Benchmarking the Source of Publications",
+    "year": 2024,
+    "first_author": "Fanjin Zhang",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2402-16009",
+     "ArXiv": "2402.16009",
+     "DOI": "10.48550/arXiv.2402.16009",
+     "CorpusId": 267938132
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -351,5 +397,7 @@
    ],
    "likely_match": null
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

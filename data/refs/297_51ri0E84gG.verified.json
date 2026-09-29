@@ -380,7 +380,7 @@
    "container": null,
    "type": "report",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -403,7 +403,27 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "7a29f47f6509011fe5b19462abf6607867b68373",
+    "title": "GPT-4V(ision) System Card",
+    "year": 2023,
+    "first_author": null,
+    "container": "",
+    "ext": {
+     "CorpusId": 291952586
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": null
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -464,7 +484,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -491,7 +511,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "ad97671a924a9b3a060fee857e561f140ec79dd7",
+    "title": "AgentVerse: Facilitating Multi-Agent Collaboration and Exploring Emergent Behaviors in Agents",
+    "year": 2023,
+    "first_author": "Weize Chen",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "DBLP": "conf/iclr/ChenSZ0YCYLHQQC24",
+     "ArXiv": "2308.10848",
+     "DOI": "10.48550/arXiv.2308.10848",
+     "CorpusId": 261048935
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -514,7 +557,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -541,7 +584,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "acbdbf49f9bc3f151b93d9ca9a06009f4f6eb269",
+    "title": "Evaluating Large Language Models Trained on Code",
+    "year": 2021,
+    "first_author": "Mark Chen",
+    "container": "arXiv.org",
+    "ext": {
+     "ArXiv": "2107.03374",
+     "DBLP": "journals/corr/abs-2107-03374",
+     "CorpusId": 235755472
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -582,5 +647,7 @@
    },
    "evidence": []
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

@@ -61,7 +61,7 @@
    "container": "Bull. Earthq. Res. Inst",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -84,7 +84,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "686f7ea2f82b82c408aff0e15af31cc81a66da63",
+    "title": "17. Maximum Likelihood Estimate of b in the Formula logN=a-bM and its Confidence Limits",
+    "year": 1965,
+    "first_author": "K. Aki",
+    "container": "Institutional Repositories DataBase (IRDB)",
+    "ext": {
+     "MAG": "27965200",
+     "DOI": "10.15083/0000033631",
+     "CorpusId": 117674598
+    }
+   },
+   "metrics": {
+    "title_sim": 97.6470588235294,
+    "containment": 0.857,
+    "partial_ratio": 97.67441860465115,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -883,5 +905,7 @@
    },
    "evidence": []
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

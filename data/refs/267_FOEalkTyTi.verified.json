@@ -280,7 +280,7 @@
    "container": "Proceedings of the AAAI Workshop on Deep Learning on Graphs",
    "type": "paper-conference",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -303,7 +303,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "849b88ddc8f8cabc6d4246479b275a1ee65d0647",
+    "title": "A Generalization of Transformer Networks to Graphs",
+    "year": 2020,
+    "first_author": "Vijay Prakash Dwivedi",
+    "container": "arXiv.org",
+    "ext": {
+     "ArXiv": "2012.09699",
+     "MAG": "3113177135",
+     "DBLP": "journals/corr/abs-2012-09699",
+     "CorpusId": 229298019
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -973,5 +996,7 @@
    },
    "evidence": []
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

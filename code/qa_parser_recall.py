@@ -7,7 +7,7 @@ for f in sorted(glob.glob('data/refs/*.verified.json')):
     if not isinstance(d, dict) or not d.get('entries'): continue
     pdf = f'data/openreview/pdfs/{stem}.pdf'
     if not os.path.exists(pdf): continue
-    txt, _ = clean_layout_text(pdf); lines = txt.split('\n')
+    txt, _, _ = clean_layout_text(pdf); lines = txt.split('\n')
     idx = [i for i, l in enumerate(lines) if REFHEAD_RX.match(l)]
     if not idx: continue
     nums = [int(x) for x in re.findall(r'^\s*\[(\d{1,3})\]', '\n'.join(lines[idx[-1] + 1:]), flags=re.M)]

@@ -132,7 +132,7 @@
    "container": "Advances in Neural Information Processing Systems",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -155,7 +155,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "442e10a3c6640ded9408622005e3c2a8906ce4c2",
+    "title": "A Unified Approach to Interpreting Model Predictions",
+    "year": 2017,
+    "first_author": "Scott M. Lundberg",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "MAG": "2618851150",
+     "DBLP": "journals/corr/LundbergL17",
+     "ArXiv": "1705.07874",
+     "CorpusId": 21889700
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -366,7 +389,7 @@
    "container": "Artificial Intelligence and Statistics",
    "type": "chapter",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -389,7 +412,32 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "08e9c9e2eca4fb1fb53c596a5024d6740b2ee667",
+    "title": "Falling Rule Lists",
+    "year": 2014,
+    "first_author": "Fulton Wang",
+    "container": "International Conference on Artificial Intelligence and Statistics",
+    "ext": {
+     "ArXiv": "1411.5899",
+     "DBLP": "journals/corr/WangR14",
+     "MAG": "2964134873",
+     "CorpusId": 9631227
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

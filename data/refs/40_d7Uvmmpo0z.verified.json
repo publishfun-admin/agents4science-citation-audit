@@ -1,0 +1,512 @@
+{
+ "pdf": "40_d7Uvmmpo0z.pdf",
+ "n_entries": 10,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "References Yassine Chemingui, Aryan Deshwal, Honghao Wei, Alan Fern and Janardhan Rao Doppa. Constraint-adaptive policy switching for offline safe reinforcement learning. In AAAI Conference on Artificial Intelligence, 2025. CAPS trains multiple policies with different reward-cost trade-offs and switches among them to satisfy varying safety constraints.",
+   "title": "Constraint-adaptive policy switching for offline safe reinforcement learning",
+   "authors": [
+    "Chemingui",
+    "Deshwal",
+    "Wei",
+    "Fern",
+    "Doppa"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "AAAI Conference on Artificial Intelligence",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1609/aaai.v39i15.33726",
+    "title": "Constraint-Adaptive Policy Switching for Offline Safe Reinforcement Learning",
+    "year": 2025,
+    "first_author": "Chemingui",
+    "container": "Proceedings of the AAAI Conference on Artificial Intelligence",
+    "type": "journal-article",
+    "score": 66.19486
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "Eric Eaton, Marcel Hussing, Michael Kearns, Aaron Roth, Sikata Sengupta and Jessica Sorrell. Intersectional fairness in reinforcement learning with large state and constraint spaces. In International Conference on Machine Learning, 2025. The authors propose oracle-efficient algorithms to optimise multi-objective RL problems with exponentially many fairness constraints across intersecting demographic groups.",
+   "title": "Intersectional fairness in reinforcement learning with large state and constraint spaces",
+   "authors": [
+    "Eaton",
+    "Hussing",
+    "Kearns",
+    "Roth",
+    "Sengupta",
+    "Sorrell"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Conference on Machine Learning",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/9780470544785.ch7",
+      "title": "Reinforcement Learning in Large, High-Dimensional State Spaces",
+      "year": 2009,
+      "first_author": null,
+      "container": "Handbook of Learning and Approximate Dynamic Programming",
+      "type": "book-chapter",
+      "score": 35.513714
+     },
+     "metrics": {
+      "title_sim": 83.80952380952381,
+      "containment": 0.714,
+      "partial_ratio": 75.40983606557377,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "8ee46050163873ef1f60efa1d7e3d1facbf4f808",
+    "title": "Intersectional Fairness in Reinforcement Learning with Large State and Constraint Spaces",
+    "year": 2025,
+    "first_author": "Eric Eaton",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "DBLP": "conf/icml/EatonHK0SS25",
+     "ArXiv": "2502.11828",
+     "DOI": "10.48550/arXiv.2502.11828",
+     "CorpusId": 276408594
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "Nan Fang, Guiliang Liu and Wei Gong. Offline inverse constrained reinforcement learning for safe-critical decision making in healthcare. arXiv preprint arXiv:2410.07525, 2024. The authors introduce the Constraint Transformer, a generative world model that infers constraints from offline data and uses data augmentation to capture unsafe states.",
+   "title": "Offline inverse constrained reinforcement learning for safe-critical decision making in healthcare",
+   "authors": [
+    "Fang",
+    "Liu",
+    "Gong"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2410.07525",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/tai.2025.3610390/mm1",
+    "title": "Offline Inverse Constrained Reinforcement Learning for Safe-Critical Decision Making in Healthcare_supp1-3610390.pdf",
+    "year": 2025,
+    "first_author": "Gong",
+    "container": "",
+    "type": "component",
+    "score": 74.076744
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.769,
+    "partial_ratio": 87.93103448275862,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2410.07525"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "Omer Gottesman, Fredrik Johansson, Matthieu Komorowski, Aldo Faisal, David Sontag, Finale Doshi-Velez and Leo Anthony Celi. Guidelines for reinforcement learning in healthcare. Nature Medicine, 25(1):16\u201318, 2019. The comment outlines methodological considerations and best practices for applying RL to clinical problems, emphasising offline evaluation and patient safety.",
+   "title": "Guidelines for reinforcement learning in healthcare",
+   "authors": [
+    "Gottesman",
+    "Johansson",
+    "Komorowski",
+    "Faisal",
+    "Sontag",
+    "Doshi-Velez",
+    "Celi"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature Medicine",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/s41591-018-0310-5",
+    "title": "Guidelines for reinforcement learning in healthcare",
+    "year": 2019,
+    "first_author": "Gottesman",
+    "container": "Nature Medicine",
+    "type": "journal-article",
+    "score": 37.796448
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "Tian Gu, Phil H. Lee and Rui Duan. COMMUTE: communication-efficient transfer learning for multi-site risk prediction. Journal of Biomedical Informatics, 137:104243, 2023. The method calibrates risk prediction models across sites, improves predictive performance and safeguards against negative transfer by learning heterogeneity-adjusted synthetic data.",
+   "title": "COMMUTE: communication-efficient transfer learning for multi-site risk prediction",
+   "authors": [
+    "Gu",
+    "Lee",
+    "Duan"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Biomedical Informatics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1101/2022.03.23.22272834",
+    "title": "COMMUTE: communication-efficient transfer learning for multi-site risk prediction",
+    "year": 2022,
+    "first_author": "Gu",
+    "container": "",
+    "type": "posted-content",
+    "score": 69.900375
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "Woosung Kim, Jinho Lee, Jongmin Lee and Byung-Jun Lee. FairDICE: fairness-driven offline multi-objective reinforcement learning. arXiv preprint arXiv:2506.08062, 2025. FairDICE maximises concave welfare objectives such as Nash social welfare and is the first offline algorithm for fair multi-objective RL. Matthieu Komorowski, Leo A. Celi, Omar Badawi, Anthony C. Gordon and A. Aldo Faisal. The Artificial Intelligence Clinician learns optimal treatment strategies for sepsis in intensive care using deep reinforcement learning and demonstrates potential to improve survival compared with clinicians. Nature Medicine, 24(11):1716\u20131720, 2018.",
+   "title": "FairDICE: fairness-driven offline multi-objective reinforcement learning",
+   "authors": [
+    "Kim",
+    "Lee",
+    "Lee",
+    "Lee",
+    "Komorowski",
+    "Celi",
+    "Badawi",
+    "Gordon",
+    "Faisal"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": "2506.08062",
+   "urls": [],
+   "container": "Nature Medicine",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/085713-0257",
+    "title": "FairDICE: Fairness-Driven Offline Multi-Objective Reinforcement Learning",
+    "year": 2025,
+    "first_author": "Kim",
+    "container": "Advances in Neural Information Processing Systems 38",
+    "type": "proceedings-article",
+    "score": 75.140305
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2506.08062"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "Ankita Raghu, Matthieu Komorowski, Leo A. Celi, Peter Szolovits, Paul Pfohl, Jonas E. Miller Dunn and Marzyeh Ghassemi. Continuous state-space models for sepsis management: a deep reinforcement learning approach. In Proceedings of the Conference on Machine Learning for Healthcare, pages 147\u2013167, 2017.",
+   "title": "Continuous state-space models for sepsis management: a deep reinforcement learning approach",
+   "authors": [
+    "Raghu",
+    "Komorowski",
+    "Celi",
+    "Szolovits",
+    "Pfohl",
+    "Dunn",
+    "Ghassemi"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the Conference on Machine Learning for Healthcare",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/prai67447.2025.11412476",
+      "title": "Optimization of Sepsis Drug Delivery Based on Continuous State Space Deep Reinforcement Learning",
+      "year": 2025,
+      "first_author": "Ren",
+      "container": "2025 IEEE 8th International Conference on Pattern Recognition and Artificial Intelligence (PRAI)",
+      "type": "proceedings-article",
+      "score": 38.83417
+     },
+     "metrics": {
+      "title_sim": 77.55102040816327,
+      "containment": 0.636,
+      "partial_ratio": 60.41666666666667,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "d54e8234c484273a43ec7d8e9b6a7ceea9aadab5",
+    "title": "Continuous State-Space Models for Optimal Sepsis Treatment: a Deep Reinforcement Learning Approach",
+    "year": 2017,
+    "first_author": "Aniruddh Raghu",
+    "container": "Machine Learning in Health Care",
+    "ext": {
+     "MAG": "2950641048",
+     "DBLP": "conf/mlhc/RaghuKCSG17",
+     "ArXiv": "1705.08422",
+     "CorpusId": 3327482
+    }
+   },
+   "metrics": {
+    "title_sim": 93.49112426035504,
+    "containment": 0.818,
+    "partial_ratio": 87.62886597938144,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "Richard S. Sutton and Andrew G. Barto. Reinforcement Learning: An Introduction. MIT Press, 2018.",
+   "title": "Reinforcement Learning: An Introduction",
+   "authors": [
+    "Sutton",
+    "Barto"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/978-1-4615-3618-5_1",
+    "title": "Introduction: The Challenge of Reinforcement Learning",
+    "year": 1992,
+    "first_author": "Sutton",
+    "container": "Reinforcement Learning",
+    "type": "book-chapter",
+    "score": 34.510212
+   },
+   "metrics": {
+    "title_sim": 95.89041095890411,
+    "containment": 0.75,
+    "partial_ratio": 67.3076923076923,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "Runze Yan, Xun Shen, Akifumi Wachi, Sebastien Gros, Anni Zhao and Xiao Hu. Offline guarded safe reinforcement learning for medical treatment optimization strategies. arXiv preprint arXiv:2505.16242, 2025. The paper introduces OGSRL, which uses an out-of-distribution guardian and a safety cost constraint to keep trajectories within clinically validated regions.",
+   "title": "Offline guarded safe reinforcement learning for medical treatment optimization strategies",
+   "authors": [
+    "Yan",
+    "Shen",
+    "Wachi",
+    "Gros",
+    "Zhao",
+    "Hu"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": "2505.16242",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/085713-3275",
+    "title": "Offline Guarded Safe Reinforcement Learning for Medical Treatment Optimization Strategies",
+    "year": 2025,
+    "first_author": "Yan",
+    "container": "Advances in Neural Information Processing Systems 38",
+    "type": "proceedings-article",
+    "score": 67.83503
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2505.16242"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "Yinan Zheng, Jianxiong Li, Dongjie Yu, Yujie Yang, Shengbo Eben Li and Xianyuan Zhan. Safe offline reinforcement learning with feasibility-guided diffusion model. In International Conference on Learning Representations, 2024. The authors propose FISOR, which translates hard safety constraints into a feasibility region and trains a diffusion model to generate safe actions.",
+   "title": "Safe offline reinforcement learning with feasibility-guided diffusion model",
+   "authors": [
+    "Zheng",
+    "Li",
+    "Yu",
+    "Yang",
+    "Li",
+    "Zhan"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Conference on Learning Representations",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.14711/thesis-hdl152685",
+      "title": "Diffusion policies for offline reinforcement learning",
+      "year": 2025,
+      "first_author": "Fang",
+      "container": "",
+      "type": "dissertation",
+      "score": 38.571194
+     },
+     "metrics": {
+      "title_sim": 86.02150537634408,
+      "containment": 0.8,
+      "partial_ratio": 71.69811320754718,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "a2246e09ab0b56ba91322747addad030eae56c50",
+    "title": "Safe Offline Reinforcement Learning with Feasibility-Guided Diffusion Model",
+    "year": 2024,
+    "first_author": "Yinan Zheng",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "ArXiv": "2401.10700",
+     "DBLP": "journals/corr/abs-2401-10700",
+     "DOI": "10.48550/arXiv.2401.10700",
+     "CorpusId": 267061384
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  }
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
+}

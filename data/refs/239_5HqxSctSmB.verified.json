@@ -291,7 +291,7 @@
    "container": "The Study of Plant Disease Epidemics",
    "type": "chapter",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -314,7 +314,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "91144c72d57ebd3984aca30d28549409960f59e7",
+    "title": "CHAPTER 8: Spatial Aspects of Epidemics\u2014II: A Theory of Spatio-Temporal Disease Dynamics",
+    "year": 2017,
+    "first_author": "L. Madden",
+    "container": "",
+    "ext": {
+     "MAG": "2740613636",
+     "DOI": "10.1094/9780890545058.008",
+     "CorpusId": 135236173
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.889,
+    "partial_ratio": 91.86046511627907,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -716,5 +738,7 @@
    },
    "evidence": []
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

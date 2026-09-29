@@ -160,7 +160,7 @@
    "container": "Methods in Enzymology",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -183,7 +183,31 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "a8ef427ecf4d45577189dd062804b31f0cc2b766",
+    "title": "Rosetta3: An Object-Oriented Software Suite for the Simulation and Design of Macromolecules",
+    "year": 2011,
+    "first_author": "Andrew Leaver-Fay",
+    "container": "Methods in Enzymology",
+    "ext": {
+     "PubMedCentral": "4083816",
+     "MAG": "2201713963",
+     "DOI": "10.1016/B978-0-12-381270-4.00019-6",
+     "CorpusId": 6798132,
+     "PubMed": "21187238"
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -463,5 +487,7 @@
    },
    "evidence": []
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

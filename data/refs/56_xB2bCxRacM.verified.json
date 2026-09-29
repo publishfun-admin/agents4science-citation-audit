@@ -136,7 +136,7 @@
    "container": "Cell",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -159,7 +159,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "0b582ea966d70f73e4f9348b5df67744912e0e83",
+    "title": "Microenvironment drives cell state, plasticity, and drug response in pancreatic cancer",
+    "year": 2021,
+    "first_author": "Srivatsan Raghavan",
+    "container": "Cell",
+    "ext": {
+     "PubMedCentral": "8822455",
+     "DOI": "10.1016/j.cell.2021.11.017",
+     "CorpusId": 244967913,
+     "PubMed": "34890551"
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -686,7 +709,7 @@
    "container": "Pancreas",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -709,7 +732,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "982ae1c1815e85bd9f5ca5c5e435e6b5e920fd5a",
+    "title": "Pancreatic Cancer\u2013Associated Depression: A Case Report and Review of the Literature",
+    "year": 2018,
+    "first_author": "A. Barnes",
+    "container": "Pancreas",
+    "ext": {
+     "MAG": "2923447254",
+     "DOI": "10.1097/MPA.0000000000001148",
+     "CorpusId": 52185554,
+     "PubMed": "30199487"
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1901,5 +1947,7 @@
    },
    "evidence": []
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

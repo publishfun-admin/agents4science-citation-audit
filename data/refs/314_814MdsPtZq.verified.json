@@ -359,7 +359,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -386,7 +386,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "46dbc868bf520b34c2208e7fb2a0eac755ad9497",
+    "title": "The Quantum Challenge in Concept Theory and Natural Language Processing",
+    "year": 2013,
+    "first_author": "Diederik Aerts",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/AertsBSV13",
+     "MAG": "1602026409",
+     "ArXiv": "1306.2838",
+     "CorpusId": 7639693
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -574,7 +597,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -601,7 +624,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "89c3a11f17ced3889c0bb9a136c0e56392df3fbe",
+    "title": "Descriptive and Foundational Aspects of Quantum Cognition",
+    "year": 2014,
+    "first_author": "Reinhard Blutner",
+    "container": "",
+    "ext": {
+     "ArXiv": "1410.3961",
+     "MAG": "2272913460",
+     "CorpusId": 9586108
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -695,7 +740,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -722,7 +767,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "228d9e4b69926594fd26080f4cfaa9ecfca44eb3",
+    "title": "Mathematical Foundations for a Compositional Distributional Model of Meaning",
+    "year": 2010,
+    "first_author": "B. Coecke",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-1003-4394",
+     "MAG": "2793391459",
+     "ArXiv": "1003.4394",
+     "CorpusId": 5917203
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -949,10 +1017,6 @@
    "verdict": "UNVERIFIED",
    "evidence": [
     {
-     "step": "arxiv_id_not_found",
-     "arxiv": "1310.4578"
-    },
-    {
      "step": "crossref_best_reject",
      "rec": {
       "source": "crossref",
@@ -970,6 +1034,23 @@
       "partial_ratio": 66.66666666666667,
       "year_ok": true,
       "first_author_ok": null
+     }
+    },
+    {
+     "step": "arxiv_id_resolves_title_mismatch",
+     "rec": {
+      "source": "arxiv_abs",
+      "arxiv": "1310.4578",
+      "title": "Systematic and correlated nuclear uncertainties in the i-process at the neutron shell closure N = 82",
+      "year": 2013,
+      "first_author": "Bertolli, M. G."
+     },
+     "metrics": {
+      "title_sim": 39.21568627450981,
+      "containment": 0.0,
+      "partial_ratio": 42.85714285714286,
+      "year_ok": true,
+      "first_author_ok": false
      }
     }
    ],
@@ -1031,7 +1112,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -1058,7 +1139,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "cc7d28bc1d9a57bea05db11f2e4793ad3db4deaf",
+    "title": "Higher-Order Quantum Reservoir Computing",
+    "year": 2020,
+    "first_author": "Q. Tran",
+    "container": "arXiv.org",
+    "ext": {
+     "MAG": "3035347578",
+     "DBLP": "journals/corr/abs-2006-08999",
+     "ArXiv": "2006.08999",
+     "CorpusId": 219708330
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1116,7 +1220,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -1143,7 +1247,22 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "arxiv_id_repass",
+   "match": {
+    "source": "arxiv_abs",
+    "arxiv": "2102.12846",
+    "title": "QNLP in Practice: Running Compositional Models of Meaning on a Quantum Computer",
+    "year": null,
+    "first_author": "Lorenz, Robin"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   }
   },
   {
    "junk": false,
@@ -1202,7 +1321,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -1229,7 +1348,22 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "arxiv_id_repass",
+   "match": {
+    "source": "arxiv_abs",
+    "arxiv": "2208.02957",
+    "title": "Meaning without reference in large language models",
+    "year": 2022,
+    "first_author": "Piantadosi, Steven T."
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   }
   },
   {
    "junk": false,
@@ -1285,7 +1419,7 @@
    "container": "Proceedings of the International Sanskrit Computational Linguistics Symposium",
    "type": "paper-conference",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -1308,7 +1442,28 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "2a2cc6f86d24beaed6a9dd5e848590f432c86143",
+    "title": "Context and WSD: Analysing Google Translate\u2019s Sanskrit to English Output of Bhagavadg\u012bt\u0101 Verses for Word Meaning",
+    "year": 2024,
+    "first_author": "Anagha Pradeep",
+    "container": "ISCLS",
+    "ext": {
+     "ACL": "2024.iscls-1.2",
+     "CorpusId": 268636402
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1364,7 +1519,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -1391,7 +1546,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "63ba89023cabd912b04aafc379a23e9bbd7ebd14",
+    "title": "Category Theory for Quantum Natural Language Processing",
+    "year": 2022,
+    "first_author": "Alexis Toumi",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2212-06615",
+     "ArXiv": "2212.06615",
+     "DOI": "10.48550/arXiv.2212.06615",
+     "CorpusId": 254591710
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1803,5 +1981,7 @@
     "score": 53.17113
    }
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

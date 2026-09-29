@@ -27,7 +27,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -54,7 +54,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "5ce122aad391b843fb55ab92de2fdf6ae955095f",
+    "title": "Prompt-to-Leaderboard",
+    "year": 2025,
+    "first_author": "Evan Frick",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2502-14855",
+     "ArXiv": "2502.14855",
+     "DOI": "10.48550/arXiv.2502.14855",
+     "CorpusId": 276482184
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -130,7 +153,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -157,7 +180,22 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "arxiv_id_repass",
+   "match": {
+    "source": "arxiv_abs",
+    "arxiv": "2501.14249",
+    "title": "Humanity's Last Exam",
+    "year": 2025,
+    "first_author": "Phan, Long"
+   },
+   "metrics": {
+    "title_sim": 0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   }
   },
   {
    "junk": false,
@@ -176,7 +214,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -203,7 +241,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "5bb98b72874e2dc80a8937558968c87e88269e79",
+    "title": "Inference Scaling fLaws: The Limits of LLM Resampling with Imperfect Verifiers",
+    "year": 2024,
+    "first_author": "Benedikt Stroebl",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2411-17501",
+     "DOI": "10.48550/arXiv.2411.17501",
+     "CorpusId": 288111937
+    }
+   },
+   "metrics": {
+    "title_sim": 99.35483870967742,
+    "containment": 0.875,
+    "partial_ratio": 98.7012987012987,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -220,7 +280,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -249,7 +309,27 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "67be4a0c75c2b2da3e834eb12b8305050a64a525",
+    "title": "AlphaCode 2 Technical Report",
+    "year": null,
+    "first_author": null,
+    "container": "",
+    "ext": {
+     "CorpusId": 266058988
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": null
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -273,7 +353,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -300,7 +380,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "5f19ae1135a9500940978104ec15a5b8751bc7d2",
+    "title": "Self-Consistency Improves Chain of Thought Reasoning in Language Models",
+    "year": 2022,
+    "first_author": "Xuezhi Wang",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "DBLP": "conf/iclr/0002WSLCNCZ23",
+     "ArXiv": "2203.11171",
+     "CorpusId": 247595263
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -364,7 +466,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -391,7 +493,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "2b3ad2fdd9d2013119232ee49e6d21eb08474b74",
+    "title": "Mixture-of-Agents Enhances Large Language Model Capabilities",
+    "year": 2024,
+    "first_author": "Junlin Wang",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "DBLP": "conf/iclr/WangWAZZ25",
+     "ArXiv": "2406.04692",
+     "DOI": "10.48550/arXiv.2406.04692",
+     "CorpusId": 270357878
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -414,7 +539,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -441,7 +566,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "f66b6049946a10080d1f2a7ee6a40e5cca3ee6a0",
+    "title": "Large Language Monkeys: Scaling Inference Compute with Repeated Sampling",
+    "year": 2024,
+    "first_author": "Bradley Brown",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2407-21787",
+     "ArXiv": "2407.21787",
+     "DOI": "10.48550/arXiv.2407.21787",
+     "CorpusId": 271571035
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -590,7 +738,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -617,7 +765,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "e1078aaf47cd70c95e05b11d29b2cfbb3b4f0168",
+    "title": "Multiagent Finetuning: Self Improvement with Diverse Reasoning Chains",
+    "year": 2025,
+    "first_author": "Vighnesh Subramaniam",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "DBLP": "conf/iclr/SubramaniamDT0025",
+     "ArXiv": "2501.05707",
+     "DOI": "10.48550/arXiv.2501.05707",
+     "CorpusId": 275458404
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -639,7 +810,7 @@
    "container": "International conference on machine learning",
    "type": "paper-conference",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -662,7 +833,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "a436e41141a9d9c5dfc44d16fade67b9a3b76778",
+    "title": "Test-Time Training with Self-Supervision for Generalization under Distribution Shifts",
+    "year": 2019,
+    "first_author": "Yu Sun",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "MAG": "3038628659",
+     "DBLP": "conf/icml/SunWLMEH20",
+     "CorpusId": 220301705
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -685,7 +878,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -712,7 +905,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "38333f6e8f0388968edc4b2ea7a683ce69677e69",
+    "title": "Monte Carlo Tree Search Boosts Reasoning via Iterative Preference Learning",
+    "year": 2024,
+    "first_author": "Yuxi Xie",
+    "container": "arXiv.org",
+    "ext": {
+     "ArXiv": "2405.00451",
+     "DBLP": "journals/corr/abs-2405-00451",
+     "DOI": "10.48550/arXiv.2405.00451",
+     "CorpusId": 269484186
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -731,7 +947,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -758,7 +974,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "9dbdc804fc37c55bfff4f595b043770262810533",
+    "title": "Unsupervised Evaluation of Code LLMs with Round-Trip Correctness",
+    "year": 2024,
+    "first_author": "Miltiadis Allamanis",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "ArXiv": "2402.08699",
+     "DBLP": "conf/icml/AllamanisPY24",
+     "DOI": "10.48550/arXiv.2402.08699",
+     "CorpusId": 267657978
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -817,7 +1056,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -844,7 +1083,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "0cbe018c7456e6708e456fc744c6a4a6a7efdb38",
+    "title": "Prover-Verifier Games improve legibility of LLM outputs",
+    "year": 2024,
+    "first_author": "J. Kirchner",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2407-13692",
+     "ArXiv": "2407.13692",
+     "DOI": "10.48550/arXiv.2407.13692",
+     "CorpusId": 271270365
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1021,5 +1283,7 @@
     }
    ]
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

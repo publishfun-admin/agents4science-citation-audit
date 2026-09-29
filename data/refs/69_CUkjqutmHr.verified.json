@@ -1,0 +1,693 @@
+{
+ "pdf": "69_CUkjqutmHr.pdf",
+ "n_entries": 16,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": true,
+   "idx": 1,
+   "raw": "References follow the acknowledgments in the camera-ready paper. Use unnumbered first-level heading for the references. Any choice of citation style is acceptable as long as you are consistent. It is permissible to reduce the font size to small (9 point) when listing the references. Note that the Reference section does not count towards the page limit.",
+   "title": "References follow the acknowledgments in the camera-ready paper. Use unnumbered first-level heading for the references. Any choice of citation style is acceptable as long as you are consistent. It is permissible to reduce the font size to small (9 point) when listing the references",
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.4135/9781036221492.n1",
+      "title": "The Most Prominent Citation Styles and Style Guides for Research Papers",
+      "year": 2024,
+      "first_author": null,
+      "container": "How to Cite References in a Research Paper (For Beginners)",
+      "type": "book-chapter",
+      "score": 52.470562
+     },
+     "metrics": {
+      "title_sim": 31.60919540229885,
+      "containment": 0.25,
+      "partial_ratio": 52.112676056338024,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[1] Vo, H.T., & Hays, J. (2017). Revisiting IM2GPS in the Deep Learning Era. In Proceedings of the IEEE International Conference on Computer Vision (ICCV), pp. 2640\u20132648. IEEE.",
+   "title": "Revisiting IM2GPS in the Deep Learning Era",
+   "authors": [
+    "Vo",
+    "Hays"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the IEEE International Conference on Computer Vision (ICCV",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/iccv.2017.286",
+    "title": "Revisiting IM2GPS in the Deep Learning Era",
+    "year": 2017,
+    "first_author": "Vo",
+    "container": "2017 IEEE International Conference on Computer Vision (ICCV)",
+    "type": "proceedings-article",
+    "score": 57.818127
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[2] Clark, A., Kerrigan, A.H., & Hays, J. (2023). Where We Are and What We\u2019re Looking At: Query-Based Worldwide Image Geo-Localization Using Hierarchies. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), pp. 1234\u20131243. IEEE.",
+   "title": "Where We Are and What We\u2019re Looking At: Query-Based Worldwide Image Geo-Localization Using Hierarchies",
+   "authors": [
+    "Clark",
+    "Kerrigan",
+    "Hays"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/cvpr52729.2023.02220",
+    "title": "Where We Are and What We're Looking At: Query Based Worldwide Image Geo-localization Using Hierarchies and Scenes",
+    "year": 2023,
+    "first_author": "Clark",
+    "container": "2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "type": "proceedings-article",
+    "score": 78.46192
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.909,
+    "partial_ratio": 95.53571428571429,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[3] Xue, J., Deng, Q., Yu, F., Wang, Y., Wang, J., & Li, Y. (2024). Enhanced Multimodal RAG-LLM for Accurate Visual Question Answering. arXiv preprint arXiv:2412.20927.",
+   "title": "Enhanced Multimodal RAG-LLM for Accurate Visual Question Answering",
+   "authors": [
+    "Xue",
+    "Deng",
+    "Yu",
+    "Wang",
+    "Wang",
+    "Li"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2412.20927",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2412.20927",
+    "title": "Enhanced Multimodal RAG-LLM for Accurate Visual Question Answering",
+    "year": 2024,
+    "first_author": "Junxiao Xue"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[4] Wu, Y., Long, Q., Li, J., Yu, J., & Wang, W. (2025). Visual-RAG: Benchmarking Text-to-Image Retrieval Augmented Generation for Visual Knowledge Intensive Queries. arXiv preprint arXiv:2502.16636.",
+   "title": "Visual-RAG: Benchmarking Text-to-Image Retrieval Augmented Generation for Visual Knowledge Intensive Queries",
+   "authors": [
+    "Wu",
+    "Long",
+    "Li",
+    "Yu",
+    "Wang"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": "2502.16636",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2502.16636",
+    "title": "Visual-RAG: Benchmarking Text-to-Image Retrieval Augmented Generation for Visual Knowledge Intensive Queries",
+    "year": 2025,
+    "first_author": "Yin Wu"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[5] Wang, Q., Ding, R., Zeng, Y., Chen, Z., Chen, L., Wang, S., Xie, P., Huang, F., & Zhao, F. (2025). VRAG-RL: Empower Vision-Perception-Based RAG for Visually Rich Information Understanding via Iterative Reasoning with Reinforcement Learning. arXiv preprint arXiv:2505.22019.",
+   "title": "VRAG-RL: Empower Vision-Perception-Based RAG for Visually Rich Information Understanding via Iterative Reasoning with Reinforcement Learning",
+   "authors": [
+    "Wang",
+    "Ding",
+    "Zeng",
+    "Chen",
+    "Chen",
+    "Wang",
+    "Xie",
+    "Huang",
+    "Zhao"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": "2505.22019",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2505.22019",
+    "title": "VRAG-RL: Empower Vision-Perception-Based RAG for Visually Rich Information Understanding via Iterative Reasoning with Reinforcement Learning",
+    "year": 2025,
+    "first_author": "Qiuchen Wang"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[6] Suri, M., Mathur, P., Dernoncourt, F., Goswami, K., Rossi, R.A., & Manocha, D. (2024). VisDoM: Multi-Document QA with Visually Rich Elements Using Multimodal Retrieval-Augmented Generation. arXiv preprint arXiv:2412.10704.",
+   "title": "VisDoM: Multi-Document QA with Visually Rich Elements Using Multimodal Retrieval-Augmented Generation",
+   "authors": [
+    "Suri",
+    "Mathur",
+    "Dernoncourt",
+    "Goswami",
+    "Rossi",
+    "Manocha"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2412.10704",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2412.10704",
+    "title": "VisDoM: Multi-Document QA with Visually Rich Elements Using Multimodal Retrieval-Augmented Generation",
+    "year": 2024,
+    "first_author": "Manan Suri"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[7] Xue, J., Deng, Q., Yu, F., Wang, Y., Wang, J., & Li, Y. (2024). Enhanced Multimodal RAG-LLM for Accurate Visual Question Answering. arXiv preprint arXiv:2412.20927.",
+   "title": "Enhanced Multimodal RAG-LLM for Accurate Visual Question Answering",
+   "authors": [
+    "Xue",
+    "Deng",
+    "Yu",
+    "Wang",
+    "Wang",
+    "Li"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2412.20927",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2412.20927",
+    "title": "Enhanced Multimodal RAG-LLM for Accurate Visual Question Answering",
+    "year": 2024,
+    "first_author": "Junxiao Xue"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[8] Wikipedia contributors. (2023). Retrieval-augmented generation. In Wikipedia, The Free Encyclopedia. Retrieved from https://en.wikipedia.org/wiki/Retrieval-augmented_generation",
+   "title": "Retrieval-augmented generation",
+   "authors": [
+    "contributors"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://en.wikipedia.org/wiki/Retrieval-augmented_generation"
+   ],
+   "container": "Wikipedia, The Free Encyclopedia",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.5040/bci-0kgd.0002",
+    "title": "Contributors",
+    "year": 2024,
+    "first_author": null,
+    "container": "RAG-Driven Generative AI",
+    "type": "other",
+    "score": 31.396492
+   },
+   "metrics": {
+    "title_sim": 28.57142857142857,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": null
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[9] Kiela, D., & Turck, M. (2025). Top AI Researcher on GPT 4.5, DeepSeek and Agentic RAG. Contextual AI. Retrieved from https://medium.com/@robertdennyson/revolutionizing-rag-with-knowledge-graphs-the-futureof-contextual-ai-b3addf5d9cc9",
+   "title": "Top AI Researcher on GPT 4.5, DeepSeek and Agentic RAG",
+   "authors": [
+    "Kiela",
+    "Turck"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://medium.com/@robertdennyson/revolutionizing-rag-with-knowledge-graphs-the-futureof-contextual-ai-b3addf5d9cc9"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.7717/peerj-cs.3642/table-4",
+      "title": "Table 4: Confusion matrix counts for agentic RAG (DeepSeek+CoT).",
+      "year": 2026,
+      "first_author": null,
+      "container": "",
+      "type": "component",
+      "score": 43.658707
+     },
+     "metrics": {
+      "title_sim": 63.716814159292035,
+      "containment": 0.375,
+      "partial_ratio": 46.666666666666664,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    },
+    {
+     "step": "urls_not_live",
+     "url_status": {
+      "https://medium.com/@robertdennyson/revolutionizing-rag-with-knowledge-graphs-the-futureof-contextual-ai-b3addf5d9cc9": 403
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "[10] Sankar, S. (2024). Retrieval Augmented Generation(RAG) - A quick and comprehensive introduction.",
+   "title": "Retrieval Augmented Generation(RAG) - A quick and comprehensive introduction",
+   "authors": [
+    "Sankar"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/979-8-8688-1808-0_1",
+    "title": "Introduction to Retrieval-Augmented Generation (RAG)",
+    "year": 2025,
+    "first_author": "Bose",
+    "container": "Mastering Retrieval-Augmented Generation",
+    "type": "book-chapter",
+    "score": 45.362556
+   },
+   "metrics": {
+    "title_sim": 96.90721649484536,
+    "containment": 1.0,
+    "partial_ratio": 76.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": true,
+   "idx": 12,
+   "raw": "Prompting Guide AI. Retrieved from https://www.promptingguide.ai/research/rag",
+   "title": "Prompting Guide AI",
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://www.promptingguide.ai/research/rag"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED_URL",
+   "via": "url",
+   "url_status": {
+    "https://www.promptingguide.ai/research/rag": 200
+   },
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.4324/9781032665276-6",
+      "title": "Prompting AI for effective communication",
+      "year": 2024,
+      "first_author": "Eager",
+      "container": "AI-Powered Scholar",
+      "type": "book-chapter",
+      "score": 26.262625
+     },
+     "metrics": {
+      "title_sim": 80.0,
+      "containment": 0.333,
+      "partial_ratio": 60.526315789473685,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "[11] Kiela, D., Ho, A. (2023). Where did Retrieval Augmented Generation come from, and where is it going?.",
+   "title": "Where did Retrieval Augmented Generation come from, and where is it going?",
+   "authors": [
+    "Kiela",
+    "Ho"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1093/oso/9780195060584.003.0008",
+      "title": "AIDS: Where Did It Come from and Where Is It Going?",
+      "year": 1994,
+      "first_author": "Ewald",
+      "container": "Evolution of Infectious Disease",
+      "type": "book-chapter",
+      "score": 53.297985
+     },
+     "metrics": {
+      "title_sim": 93.33333333333333,
+      "containment": 0.833,
+      "partial_ratio": 79.56989247311827,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": true,
+   "idx": 14,
+   "raw": "Prompting Guide AI. Retrieved from https://www.promptingguide.ai/research/rag",
+   "title": "Prompting Guide AI",
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://www.promptingguide.ai/research/rag"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED_URL",
+   "via": "url",
+   "url_status": {
+    "https://www.promptingguide.ai/research/rag": 200
+   },
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.4324/9781032665276-6",
+      "title": "Prompting AI for effective communication",
+      "year": 2024,
+      "first_author": "Eager",
+      "container": "AI-Powered Scholar",
+      "type": "book-chapter",
+      "score": 26.262625
+     },
+     "metrics": {
+      "title_sim": 80.0,
+      "containment": 0.333,
+      "partial_ratio": 60.526315789473685,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "[12] Luan, Y., Eisenstein, J., Toutanova, K., & Collins, M. (2021). Sparse, Dense, and Attentional Representations for Text Retrieval. Transactions of the Association for Computational Linguistics, 9, 1\u201315. https://doi.org/10.1162/tacl_a_00370",
+   "title": "Sparse, Dense, and Attentional Representations for Text Retrieval",
+   "authors": [
+    "Luan",
+    "Eisenstein",
+    "Toutanova",
+    "Collins"
+   ],
+   "year": 2021,
+   "doi": "10.1162/tacl_a_00370",
+   "arxiv": null,
+   "urls": [
+    "https://doi.org/10.1162/tacl_a_00370"
+   ],
+   "container": "Transactions of the Association for Computational Linguistics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1162/tacl_a_00369",
+    "title": "Sparse, Dense, and Attentional Representations for Text Retrieval",
+    "year": 2021,
+    "first_author": "Luan",
+    "container": "Transactions of the Association for Computational Linguistics",
+    "type": "journal-article",
+    "score": 60.663387
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "doi_resolves_title_mismatch",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1162/tacl_a_00370",
+      "title": "<i>Did Aristotle Use a Laptop?</i>\n                    A Question Answering Benchmark with Implicit Reasoning Strategies",
+      "year": 2021,
+      "first_author": "Geva",
+      "container": "Transactions of the Association for Computational Linguistics",
+      "type": "journal-article",
+      "score": 1
+     },
+     "metrics": {
+      "title_sim": 42.76729559748428,
+      "containment": 0.0,
+      "partial_ratio": 42.708333333333336,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 16,
+   "raw": "[13] Yi, L., Collins, M., & Toutanova, K. (2024). Sparse, Dense, and Attentional Representations for Text Retrieval. Transactions of the Association for Computational Linguistics, 9, 1\u201315. https://doi.org/10.1162/tacl_a_00370",
+   "title": "Sparse, Dense, and Attentional Representations for Text Retrieval",
+   "authors": [
+    "Yi",
+    "Collins",
+    "Toutanova"
+   ],
+   "year": 2024,
+   "doi": "10.1162/tacl_a_00370",
+   "arxiv": null,
+   "urls": [
+    "https://doi.org/10.1162/tacl_a_00370"
+   ],
+   "container": "Transactions of the Association for Computational Linguistics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "doi_resolves_title_mismatch",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1162/tacl_a_00370",
+      "title": "<i>Did Aristotle Use a Laptop?</i>\n                    A Question Answering Benchmark with Implicit Reasoning Strategies",
+      "year": 2021,
+      "first_author": "Geva",
+      "container": "Transactions of the Association for Computational Linguistics",
+      "type": "journal-article",
+      "score": 1
+     },
+     "metrics": {
+      "title_sim": 42.76729559748428,
+      "containment": 0.0,
+      "partial_ratio": 42.708333333333336,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1162/tacl_a_00369",
+      "title": "Sparse, Dense, and Attentional Representations for Text Retrieval",
+      "year": 2021,
+      "first_author": "Luan",
+      "container": "Transactions of the Association for Computational Linguistics",
+      "type": "journal-article",
+      "score": 47.471104
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 1.0,
+      "partial_ratio": 100.0,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  }
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
+}

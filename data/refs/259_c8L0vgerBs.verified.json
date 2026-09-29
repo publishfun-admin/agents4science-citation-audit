@@ -265,7 +265,7 @@
    "container": "Advances in Neural Information Processing Systems",
    "type": "chapter",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -288,7 +288,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "ccf6a69a7f33bcf052aa7def176d3b9de495beb7",
+    "title": "Man is to Computer Programmer as Woman is to Homemaker? Debiasing Word Embeddings",
+    "year": 2016,
+    "first_author": "Tolga Bolukbasi",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "DBLP": "conf/nips/BolukbasiCZSK16",
+     "MAG": "2483215953",
+     "ArXiv": "1607.06520",
+     "CorpusId": 1704893
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -531,7 +554,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -558,7 +581,22 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "arxiv_id_repass",
+   "match": {
+    "source": "arxiv_abs",
+    "arxiv": "2010.06032",
+    "title": "Measuring and Reducing Gendered Correlations in Pre-trained Models",
+    "year": 2020,
+    "first_author": "Webster, Kellie"
+   },
+   "metrics": {
+    "title_sim": 99.23664122137404,
+    "containment": 0.714,
+    "partial_ratio": 98.48484848484848,
+    "year_ok": true,
+    "first_author_ok": false
+   }
   },
   {
    "junk": false,
@@ -885,5 +923,7 @@
     }
    ]
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

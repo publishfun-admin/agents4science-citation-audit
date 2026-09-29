@@ -22,7 +22,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -49,7 +49,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "5e23a28063b395bdaf784dc548a046885cb90cf2",
+    "title": "Understanding intermediate layers using linear classifier probes",
+    "year": 2016,
+    "first_author": "Guillaume Alain",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "MAG": "2529194139",
+     "DBLP": "conf/iclr/AlainB17",
+     "ArXiv": "1610.01644",
+     "CorpusId": 9794990
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -150,10 +173,6 @@
    "verdict": "UNVERIFIED",
    "evidence": [
     {
-     "step": "arxiv_id_not_found",
-     "arxiv": "2211.00032"
-    },
-    {
      "step": "crossref_best_reject",
      "rec": {
       "source": "crossref",
@@ -170,6 +189,23 @@
       "containment": 0.75,
       "partial_ratio": 59.45945945945945,
       "year_ok": false,
+      "first_author_ok": false
+     }
+    },
+    {
+     "step": "arxiv_id_resolves_title_mismatch",
+     "rec": {
+      "source": "arxiv_abs",
+      "arxiv": "2211.00032",
+      "title": "Cosmic evolution of the incidence of Active Galactic Nuclei in massive clusters: Simulations versus observations",
+      "year": 2022,
+      "first_author": "Rodr\u00edguez, Iv\u00e1n Mu\u00f1oz"
+     },
+     "metrics": {
+      "title_sim": 36.95652173913044,
+      "containment": 0.0,
+      "partial_ratio": 37.83783783783784,
+      "year_ok": true,
       "first_author_ok": false
      }
     }
@@ -268,7 +304,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -295,7 +331,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "5c39e37022661f81f79e481240ed9b175dec6513",
+    "title": "Towards A Rigorous Science of Interpretable Machine Learning",
+    "year": 2017,
+    "first_author": "Finale Doshi-Velez",
+    "container": "",
+    "ext": {
+     "MAG": "2594475271",
+     "ArXiv": "1702.08608",
+     "CorpusId": 11319376
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -313,7 +371,7 @@
    "container": "Conference on Learning Theory",
    "type": "paper-conference",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -336,7 +394,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "a9da71715d54e33959751c88bb69a5875a23e324",
+    "title": "The Power of Depth for Feedforward Neural Networks",
+    "year": 2015,
+    "first_author": "Ronen Eldan",
+    "container": "Annual Conference Computational Learning Theory",
+    "ext": {
+     "MAG": "2962742960",
+     "DBLP": "journals/corr/EldanS15",
+     "ArXiv": "1512.03965",
+     "CorpusId": 1485226
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -509,7 +590,7 @@
    "container": "International Conference on Machine Learning",
    "type": "paper-conference",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -532,7 +613,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "3a24bfb77ed271fef948058e414850f89b0955a7",
+    "title": "Concept Bottleneck Models",
+    "year": 2020,
+    "first_author": "Pang Wei Koh",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "DBLP": "conf/icml/KohNTMPKL20",
+     "ArXiv": "2007.04612",
+     "MAG": "3041871339",
+     "CorpusId": 220424448
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -587,7 +691,7 @@
    "container": "The Journal of Machine Learning Research",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -610,7 +714,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "b11b6538b5364901c17d41ef075c4c69094e4564",
+    "title": "Topology of deep neural networks",
+    "year": 2020,
+    "first_author": "Gregory Naitzat",
+    "container": "Journal of machine learning research",
+    "ext": {
+     "MAG": "2995298229",
+     "ArXiv": "2004.06093",
+     "DBLP": "journals/jmlr/NaitzatZL20",
+     "CorpusId": 213228401
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -743,7 +870,7 @@
    "container": "International Conference on Machine Learning",
    "type": "paper-conference",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -766,7 +893,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "f302e136c41db5de1d624412f68c9174cf7ae8be",
+    "title": "Axiomatic Attribution for Deep Networks",
+    "year": 2017,
+    "first_author": "Mukund Sundararajan",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "ArXiv": "1703.01365",
+     "MAG": "2949197630",
+     "DBLP": "conf/icml/SundararajanTY17",
+     "CorpusId": 16747630
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -783,7 +933,7 @@
    "container": "Conference on Learning Theory",
    "type": "paper-conference",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -806,7 +956,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "4206c84525a7904df3613b843491c0ae6a5507eb",
+    "title": "Benefits of Depth in Neural Networks",
+    "year": 2016,
+    "first_author": "Matus Telgarsky",
+    "container": "Annual Conference Computational Learning Theory",
+    "ext": {
+     "MAG": "2281746805",
+     "ArXiv": "1602.04485",
+     "DBLP": "conf/colt/Telgarsky16",
+     "CorpusId": 8145558
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -866,7 +1039,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -893,7 +1066,32 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "868c3a07ca240ad66d953bfb5094ad962f1cdca4",
+    "title": "Causal Mediation Analysis for Interpreting Neural NLP: The Case of Gender Bias",
+    "year": 2020,
+    "first_author": "Jesse Vig",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2004-12265",
+     "MAG": "3017701505",
+     "ArXiv": "2004.12265",
+     "CorpusId": 216553696
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

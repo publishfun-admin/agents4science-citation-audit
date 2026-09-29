@@ -283,7 +283,7 @@
    "container": "Proceedings of the 35th Conference on Neural Information Processing Systems (NeurIPS 2021). Track on Datasets and Benchmarks",
    "type": "paper-conference",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -306,7 +306,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "54ca116f1e9a45768a3a2c47a4608ff34adefa0c",
+    "title": "Therapeutics Data Commons: Machine Learning Datasets and Tasks for Drug Discovery and Development",
+    "year": 2021,
+    "first_author": "Kexin Huang",
+    "container": "NeurIPS Datasets and Benchmarks",
+    "ext": {
+     "ArXiv": "2102.09548",
+     "DBLP": "conf/nips/HuangFG0RLCXSZ21",
+     "CorpusId": 237264044
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1102,5 +1124,7 @@
    },
    "evidence": []
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

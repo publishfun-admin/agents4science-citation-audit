@@ -102,7 +102,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -134,7 +134,29 @@
     "container": "Neurocomputing",
     "type": "journal-article",
     "score": 68.80791
-   }
+   },
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "cc2548cfc799e99a8272dc7ab36c160d45ee5754",
+    "title": "Low-Rank Implicit Neural Representation via Schatten-p Quasi-Norm and Jacobian Regularization",
+    "year": 2025,
+    "first_author": "Zhengyun Cheng",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2506-22134",
+     "DOI": "10.48550/arXiv.2506.22134",
+     "CorpusId": 286873005
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -429,7 +451,7 @@
    "container": "Journal of Machine Learning Research",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -452,7 +474,31 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "ee7778874a4ff13edc60ff37a7c3c0964173e0e8",
+    "title": "A Simpler Approach to Matrix Completion",
+    "year": 2009,
+    "first_author": "B. Recht",
+    "container": "Journal of machine learning research",
+    "ext": {
+     "DBLP": "journals/corr/abs-0910-0651",
+     "MAG": "2120872934",
+     "ArXiv": "0910.0651",
+     "DOI": "10.5555/1953048.2185803",
+     "CorpusId": 7125812
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -473,7 +519,7 @@
    "container": "Transactions on Machine Learning Research",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -496,7 +542,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "c03bb4036d40d3fa66247f6033c318cd9aea7f64",
+    "title": "Implicit Neural Representations for Robust Joint Sparse-View CT Reconstruction",
+    "year": 2024,
+    "first_author": "Jiayang Shi",
+    "container": "Trans. Mach. Learn. Res.",
+    "ext": {
+     "DBLP": "journals/corr/abs-2405-02509",
+     "ArXiv": "2405.02509",
+     "DOI": "10.48550/arXiv.2405.02509",
+     "CorpusId": 269605974
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -517,7 +586,7 @@
    "container": "NeurIPS",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -540,7 +609,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "43b1e34451f783fed053c1d539d7560dc4ec16a9",
+    "title": "Implicit Neural Representations with Periodic Activation Functions",
+    "year": 2020,
+    "first_author": "V. Sitzmann",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "MAG": "3103313582",
+     "DBLP": "conf/nips/SitzmannMBLW20",
+     "ArXiv": "2006.09661",
+     "CorpusId": 219720931
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -560,7 +652,7 @@
    "container": "Convex implicit neural",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -583,7 +675,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "50f31f02bffc27fbb2f1c803a0d8493d8caeefd4",
+    "title": "Geometric Algebra Planes: Convex Implicit Neural Volumes",
+    "year": 2024,
+    "first_author": "Irmak Sivgin",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "DBLP": "journals/corr/abs-2411-13525",
+     "ArXiv": "2411.13525",
+     "DOI": "10.48550/arXiv.2411.13525",
+     "CorpusId": 274150398
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -608,7 +723,7 @@
    "container": "NeurIPS",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -631,7 +746,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "a0dc3135c40e150f0271002a96b7c9680b6cac40",
+    "title": "Fourier Features Let Networks Learn High Frequency Functions in Low Dimensional Domains",
+    "year": 2020,
+    "first_author": "Matthew Tancik",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "DBLP": "conf/nips/TancikSMFRSRBN20",
+     "ArXiv": "2006.10739",
+     "MAG": "3036843665",
+     "CorpusId": 219791950
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -651,7 +789,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -674,7 +812,32 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "c29917eaf2392de37134991c5f49c16001f13f91",
+    "title": "Low-Rank Augmented Implicit Neural Representation for Unsupervised High-Dimensional Quantitative MRI Reconstruction",
+    "year": 2025,
+    "first_author": "Haonan Zhang",
+    "container": "arXiv.org",
+    "ext": {
+     "ArXiv": "2506.09100",
+     "DBLP": "journals/corr/abs-2506-09100",
+     "DOI": "10.48550/arXiv.2506.09100",
+     "CorpusId": 279305600
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

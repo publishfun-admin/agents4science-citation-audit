@@ -1692,7 +1692,7 @@
    "container": "American Journal of Pathology",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -1715,7 +1715,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "599cdad90e7498464f461c3cfa21768a5eedf086",
+    "title": "The myofibroblast: one function, multiple origins.",
+    "year": 2007,
+    "first_author": "B. Hinz",
+    "container": "American Journal of Pathology",
+    "ext": {
+     "MAG": "1505584712",
+     "DOI": "10.2353/AJPATH.2007.070112",
+     "CorpusId": 37721423,
+     "PubMed": "17525249"
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -2163,5 +2186,7 @@
    },
    "evidence": []
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

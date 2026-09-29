@@ -24,7 +24,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -51,7 +51,28 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "aa8c61c9f6bb21c57e49611ccb995cfda1b53b10",
+    "title": "Exploring Visual Prompts for Adapting Large-Scale Models",
+    "year": 2022,
+    "first_author": "Hyojin Bahng",
+    "container": "",
+    "ext": {
+     "ArXiv": "2203.17274",
+     "CorpusId": 249375187
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -193,7 +214,7 @@
    "container": "ICLR",
    "type": "chapter",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -216,7 +237,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "6ff2a434578ff2746b9283e45abf296887f48a2d",
+    "title": "A Baseline for Detecting Misclassified and Out-of-Distribution Examples in Neural Networks",
+    "year": 2016,
+    "first_author": "Dan Hendrycks",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "DBLP": "journals/corr/HendrycksG16c",
+     "MAG": "2952053192",
+     "ArXiv": "1610.02136",
+     "CorpusId": 13046179
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -235,7 +279,7 @@
    "container": "ICLR",
    "type": "chapter",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -258,7 +302,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "2d8c97db4bae00ff243d122b957091a236a697a7",
+    "title": "Deep Anomaly Detection with Outlier Exposure",
+    "year": 2018,
+    "first_author": "Dan Hendrycks",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "MAG": "2951883849",
+     "ArXiv": "1812.04606",
+     "DBLP": "conf/iclr/HendrycksMD19",
+     "CorpusId": 54558282
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -357,7 +424,7 @@
    "container": "NeurIPS",
    "type": "chapter",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -380,7 +447,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "3b316377f1d7cbcf3c907c4d8b08c05f4521b541",
+    "title": "On the Importance of Gradients for Detecting Distributional Shifts in the Wild",
+    "year": 2021,
+    "first_author": "Rui Huang",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "DBLP": "conf/nips/HuangGL21",
+     "ArXiv": "2110.00218",
+     "CorpusId": 238253184
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -398,7 +487,7 @@
    "container": "NeurIPS",
    "type": "chapter",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -421,7 +510,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "2b088b9b1abc84bb207396b440527219277e2718",
+    "title": "OOD-MAML: Meta-Learning for Few-Shot Out-of-Distribution Detection and Classification",
+    "year": 2020,
+    "first_author": "Taewon Jeong",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "MAG": "3102719996",
+     "DBLP": "conf/nips/JeongK20",
+     "CorpusId": 227275366
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -523,7 +634,7 @@
    "container": "NeurIPS",
    "type": "chapter",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -546,7 +657,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "d03ca175e2b2745126e792fdc31dfadae4c63afa",
+    "title": "A Simple Unified Framework for Detecting Out-of-Distribution Samples and Adversarial Attacks",
+    "year": 2018,
+    "first_author": "Kimin Lee",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "MAG": "2867167548",
+     "DBLP": "conf/nips/LeeLLS18",
+     "ArXiv": "1807.03888",
+     "CorpusId": 49667948
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -602,7 +736,7 @@
    "container": "ICLR",
    "type": "chapter",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -625,7 +759,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "547c854985629cfa9404a5ba8ca29367b5f8c25f",
+    "title": "Enhancing The Reliability of Out-of-distribution Image Detection in Neural Networks",
+    "year": 2017,
+    "first_author": "Shiyu Liang",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "ArXiv": "1706.02690",
+     "MAG": "2952116804",
+     "DBLP": "conf/iclr/LiangLS18",
+     "CorpusId": 3526391
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -645,7 +802,7 @@
    "container": "NeurIPS",
    "type": "chapter",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -668,7 +825,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "35b966347dae2f0d496ea713edf03a68211838a5",
+    "title": "Energy-based Out-of-distribution Detection",
+    "year": 2020,
+    "first_author": "Weitang Liu",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "ArXiv": "2010.03759",
+     "DBLP": "conf/nips/LiuWOL20",
+     "MAG": "3101367735",
+     "CorpusId": 222208700
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -813,7 +993,7 @@
    "container": "ICML",
    "type": "chapter",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -836,7 +1016,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "6f870f7f02a8c59c3e23f407f3ef00dd1dcf8fc4",
+    "title": "Learning Transferable Visual Models From Natural Language Supervision",
+    "year": 2021,
+    "first_author": "Alec Radford",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "DBLP": "conf/icml/RadfordKHRGASAM21",
+     "ArXiv": "2103.00020",
+     "CorpusId": 231591445
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -855,7 +1057,7 @@
    "container": "NeurIPS",
    "type": "chapter",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -878,7 +1080,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "7f9760a76e9cf424da0b72d42f75594cefc4a329",
+    "title": "ReAct: Out-of-distribution Detection With Rectified Activations",
+    "year": 2021,
+    "first_author": "Yiyou Sun",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "DBLP": "journals/corr/abs-2111-12797",
+     "ArXiv": "2111.12797",
+     "CorpusId": 244709089
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -898,7 +1122,7 @@
    "container": "NeurIPS",
    "type": "chapter",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -921,7 +1145,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "e1bb329621de73d08c47beae9b5439a1c244eb1a",
+    "title": "CSI: Novelty Detection via Contrastive Learning on Distributionally Shifted Instances",
+    "year": 2020,
+    "first_author": "Jihoon Tack",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "DBLP": "journals/corr/abs-2007-08176",
+     "MAG": "3043138801",
+     "ArXiv": "2007.08176",
+     "CorpusId": 220546269
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -941,7 +1188,7 @@
    "container": "ICLR",
    "type": "chapter",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -964,7 +1211,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "682ff0690c87a31c6bc148e53f56b5b494621d66",
+    "title": "Non-Parametric Outlier Synthesis",
+    "year": 2023,
+    "first_author": "Leitian Tao",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "ArXiv": "2303.02966",
+     "DBLP": "conf/iclr/TaoDZ023",
+     "DOI": "10.48550/arXiv.2303.02966",
+     "CorpusId": 257365911
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1034,7 +1304,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -1061,7 +1331,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "94192bcdf3507e3543910c03b16bd06c5338fd47",
+    "title": "Contrastive Training for Improved Out-of-Distribution Detection",
+    "year": 2020,
+    "first_author": "Jim Winkens",
+    "container": "arXiv.org",
+    "ext": {
+     "MAG": "3041609598",
+     "ArXiv": "2007.05566",
+     "DBLP": "journals/corr/abs-2007-05566",
+     "CorpusId": 220495728
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1176,7 +1469,7 @@
    "container": "ECCV",
    "type": "chapter",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -1199,7 +1492,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "e70b7eb3b22f0a49eb5e645be646d5f35d1e693a",
+    "title": "Tip-Adapter: Training-free CLIP-Adapter for Better Vision-Language Modeling",
+    "year": 2021,
+    "first_author": "Renrui Zhang",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2111-03930",
+     "ArXiv": "2111.03930",
+     "CorpusId": 243847522
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1319,5 +1634,7 @@
    },
    "evidence": []
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

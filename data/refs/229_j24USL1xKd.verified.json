@@ -177,7 +177,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -204,7 +204,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "d73d62beb12c0ab814a6c529588560a51384e5bf",
+    "title": "Distributional Adversarial Loss",
+    "year": 2024,
+    "first_author": "Saba Ahmadi",
+    "container": "International Conference on Artificial Intelligence and Statistics",
+    "ext": {
+     "ArXiv": "2406.03458",
+     "DBLP": "journals/corr/abs-2406-03458",
+     "DOI": "10.48550/arXiv.2406.03458",
+     "CorpusId": 270258265
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -268,7 +291,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -295,7 +318,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "d63330762742b3dc39b20d59217a5ee1ab793016",
+    "title": "Enhancing Vector Quantization with Distributional Matching: A Theoretical and Empirical Study",
+    "year": 2025,
+    "first_author": "Xia Fang",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2506-15078",
+     "ArXiv": "2506.15078",
+     "DOI": "10.48550/arXiv.2506.15078",
+     "CorpusId": 279447618
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -314,7 +360,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -341,7 +387,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "d63330762742b3dc39b20d59217a5ee1ab793016",
+    "title": "Enhancing Vector Quantization with Distributional Matching: A Theoretical and Empirical Study",
+    "year": 2025,
+    "first_author": "Xia Fang",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2506-15078",
+     "ArXiv": "2506.15078",
+     "DOI": "10.48550/arXiv.2506.15078",
+     "CorpusId": 279447618
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -402,7 +471,7 @@
    "container": "Advances in neural information processing systems",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -425,7 +494,26 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "crossref_title",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3422622",
+    "title": "Generative adversarial networks",
+    "year": 2020,
+    "first_author": "Goodfellow",
+    "container": "Communications of the ACM",
+    "type": "journal-article",
+    "score": 29.743986
+   },
+   "metrics": {
+    "title_sim": 93.10344827586206,
+    "containment": 0.667,
+    "partial_ratio": 87.09677419354838,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -445,7 +533,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -472,7 +560,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "bb713c01b481ca38d61d42a27744e99b75611bb1",
+    "title": "Towards Better Generalization via Distributional Input Projection Network",
+    "year": 2025,
+    "first_author": "Yi-Fan Hao",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2506-04690",
+     "ArXiv": "2506.04690",
+     "DOI": "10.48550/arXiv.2506.04690",
+     "CorpusId": 279243339
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -490,7 +601,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -517,7 +628,22 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "arxiv_id_repass",
+   "match": {
+    "source": "arxiv_abs",
+    "arxiv": "1312.6114",
+    "title": "Auto-Encoding Variational Bayes",
+    "year": 2013,
+    "first_author": "Kingma, Diederik P"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   }
   },
   {
    "junk": false,
@@ -537,7 +663,7 @@
    "container": "Advances in Neural Information Processing Systems",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -560,7 +686,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "fc937d5bf0958457f158bd915bd378a0da51216e",
+    "title": "Don't Blame the ELBO! A Linear VAE Perspective on Posterior Collapse",
+    "year": 2019,
+    "first_author": "James Lucas",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "DBLP": "conf/nips/LucasTG019",
+     "MAG": "2990155616",
+     "ArXiv": "1911.02469",
+     "CorpusId": 207880653
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -579,7 +728,7 @@
    "container": "Advances in neural information processing systems",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -602,7 +751,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "f466157848d1a7772fb6d02cdac9a7a5e7ef982e",
+    "title": "Neural Discrete Representation Learning",
+    "year": 2017,
+    "first_author": "A\u00e4ron van den Oord",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "MAG": "2963799213",
+     "DBLP": "conf/nips/OordVK17",
+     "ArXiv": "1711.00937",
+     "CorpusId": 20282961
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -622,7 +794,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -649,7 +821,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "cb14df4a6ae4c3150e520306da58d69a7ad9329a",
+    "title": "Maximum Mean Discrepancy Meets Neural Networks: The Radon-Kolmogorov-Smirnov Test",
+    "year": 2023,
+    "first_author": "Seung-Jin Paik",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2309-02422",
+     "DOI": "10.48550/arXiv.2309.02422",
+     "CorpusId": 261303559
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -797,7 +991,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -824,7 +1018,28 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "665e3dcce5585fdb31c91033d2855ca65808ee55",
+    "title": "Preventing Posterior Collapse Induced by Oversmoothing in Gaussian VAE",
+    "year": 2021,
+    "first_author": "Yuhta Takida",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2102-08663",
+     "CorpusId": 268124817
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -843,7 +1058,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -879,7 +1094,30 @@
     "container": "Advances in Neural Information Processing Systems 35",
     "type": "proceedings-article",
     "score": 38.391796
-   }
+   },
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "6cdddd82ace8c0970bca736565c9607c45a13874",
+    "title": "Posterior Collapse and Latent Variable Non-identifiability",
+    "year": 2023,
+    "first_author": "Yixin Wang",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "ArXiv": "2301.00537",
+     "DBLP": "conf/nips/WangBC21",
+     "DOI": "10.48550/arXiv.2301.00537",
+     "CorpusId": 248498415
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -896,7 +1134,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -923,7 +1161,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "160675dc1bec2f2f21ae917f2b952ad61e4a3582",
+    "title": "Advancing Deep Learning through Probability Engineering: A Pragmatic Paradigm for Modern AI",
+    "year": 2025,
+    "first_author": "Jian-Yi Zhang",
+    "container": "arXiv.org",
+    "ext": {
+     "ArXiv": "2503.18958",
+     "DBLP": "journals/corr/abs-2503-18958",
+     "DOI": "10.48550/arXiv.2503.18958",
+     "CorpusId": 277313708
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -967,5 +1228,7 @@
     }
    ]
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

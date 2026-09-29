@@ -178,7 +178,7 @@
    "container": "European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning",
    "type": "paper-conference",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -201,7 +201,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "8e54dd2b426b8d656a77c155818a87dd34c40754",
+    "title": "Long Short Term Memory Networks for Anomaly Detection in Time Series",
+    "year": 2015,
+    "first_author": "Pankaj Malhotra",
+    "container": "The European Symposium on Artificial Neural Networks",
+    "ext": {
+     "MAG": "2902455138",
+     "DBLP": "conf/esann/MalhotraVSA15",
+     "CorpusId": 43680425
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -218,7 +240,7 @@
    "container": null,
    "type": "book",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -241,7 +263,23 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "openlibrary",
+   "match": {
+    "source": "openlibrary",
+    "id": "/works/OL1942889W",
+    "title": "Introduction to Statistical Quality Control",
+    "year": 1985,
+    "first_author": "Douglas C. Montgomery"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -298,7 +336,7 @@
    "container": "Journal of Machine Learning Research",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -321,7 +359,31 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "fec18520144b8707a5e4cbbad00e5b63caabfbf3",
+    "title": "A tutorial on conformal prediction",
+    "year": 2007,
+    "first_author": "G. Shafer",
+    "container": "Journal of machine learning research",
+    "ext": {
+     "MAG": "2952259152",
+     "DBLP": "journals/corr/abs-0706-3188",
+     "ArXiv": "0706.3188",
+     "DOI": "10.5555/1390681.1390693",
+     "CorpusId": 795794
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -366,5 +428,7 @@
    },
    "evidence": []
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

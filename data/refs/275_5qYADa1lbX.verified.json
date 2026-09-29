@@ -21,7 +21,7 @@
    "container": "Advances in Neural Information Processing Systems",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -44,7 +44,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "9583ac53a19cdf0db81fef6eb0b63e66adbe2324",
+    "title": "Machine Learning with Adversaries: Byzantine Tolerant Gradient Descent",
+    "year": 2017,
+    "first_author": "Peva Blanchard",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "MAG": "2752689052",
+     "DBLP": "conf/nips/BlanchardMGS17",
+     "CorpusId": 28527385
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -64,7 +86,7 @@
    "container": "International Conference on Machine Learning",
    "type": "paper-conference",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -87,7 +109,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "5ad1cfdc40f58c5ee078496312798f784fc80801",
+    "title": "Byzantine-Robust Distributed Learning: Towards Optimal Statistical Rates",
+    "year": 2018,
+    "first_author": "Dong Yin",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "ArXiv": "1803.01498",
+     "MAG": "2964279249",
+     "DBLP": "journals/corr/abs-1803-01498",
+     "CorpusId": 3708326
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -146,7 +191,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -173,7 +218,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "3a360aa0dd9ea8f4354de1b2f584b49633489419",
+    "title": "Learning to Detect Malicious Clients for Robust Federated Learning",
+    "year": 2020,
+    "first_author": "Suyi Li",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2002-00211",
+     "MAG": "3003426262",
+     "ArXiv": "2002.00211",
+     "CorpusId": 211011146
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -219,5 +287,7 @@
    ],
    "likely_match": null
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

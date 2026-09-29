@@ -160,7 +160,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "doi_not_resolvable",
@@ -191,7 +191,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "7a15950dc71079285a4eaf195de5aadd87c41b40",
+    "title": "Fine-Tuning Language Models from Human Preferences",
+    "year": 2019,
+    "first_author": "Daniel M. Ziegler",
+    "container": "arXiv.org",
+    "ext": {
+     "MAG": "2973379954",
+     "DBLP": "journals/corr/abs-1909-08593",
+     "ArXiv": "1909.08593",
+     "CorpusId": 202660943
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -510,7 +533,7 @@
    "container": "Oct",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "doi_not_resolvable",
@@ -541,7 +564,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "f62acb5a743ea4d47a045460a9ee346c2cec5068",
+    "title": "INSIDE: LLMs' Internal States Retain the Power of Hallucination Detection",
+    "year": 2024,
+    "first_author": "Chao Chen",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "DBLP": "conf/iclr/0026L0GWTFY24",
+     "ArXiv": "2402.03744",
+     "DOI": "10.48550/arXiv.2402.03744",
+     "CorpusId": 267499843
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -771,7 +817,7 @@
    "container": "Aug",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "doi_not_resolvable",
@@ -802,7 +848,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "028d75496e51943f52c7b2177344a3c089c18058",
+    "title": "Fine-grained Hallucination Detection and Editing for Language Models",
+    "year": 2024,
+    "first_author": "Abhika Mishra",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2401-06855",
+     "ArXiv": "2401.06855",
+     "DOI": "10.48550/arXiv.2401.06855",
+     "CorpusId": 266999558
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -887,5 +956,7 @@
     }
    ]
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

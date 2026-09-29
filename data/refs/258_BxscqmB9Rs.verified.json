@@ -262,7 +262,7 @@
    "container": "2014 Conference on Timely Results in Operating Systems (TRIOS 14",
    "type": "paper-conference",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -285,7 +285,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "e6ebc075b70f62db3c94e9f7da57837724c086ed",
+    "title": "Proactive Energy-Aware Programming with PEEK",
+    "year": 2014,
+    "first_author": "Timo H\u00f6nig",
+    "container": "International Conference on Timely Results in Operating Systems",
+    "ext": {
+     "DBLP": "conf/osdi/HonigJEMK14",
+     "MAG": "1450509881",
+     "CorpusId": 5231844
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -311,7 +333,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -338,7 +360,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "acbdbf49f9bc3f151b93d9ca9a06009f4f6eb269",
+    "title": "Evaluating Large Language Models Trained on Code",
+    "year": 2021,
+    "first_author": "Mark Chen",
+    "container": "arXiv.org",
+    "ext": {
+     "ArXiv": "2107.03374",
+     "DBLP": "journals/corr/abs-2107-03374",
+     "CorpusId": 235755472
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -409,7 +453,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -436,7 +480,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "0b0debb710366cdff461938c80763eace1651af6",
+    "title": "Code Llama: Open Foundation Models for Code",
+    "year": 2023,
+    "first_author": "Baptiste Rozi\u00e8re",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2308-12950",
+     "ArXiv": "2308.12950",
+     "DOI": "10.48550/arXiv.2308.12950",
+     "CorpusId": 261100919
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -537,7 +604,7 @@
    "container": "IEEE Transactions on Power Systems",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -560,7 +627,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "c4d79953446463aa94890cf5c72c104b6c01086d",
+    "title": "Carbon-Aware Computing for Datacenters",
+    "year": 2021,
+    "first_author": "A. Radovanovic",
+    "container": "IEEE Transactions on Power Systems",
+    "ext": {
+     "DBLP": "journals/corr/abs-2106-11750",
+     "ArXiv": "2106.11750",
+     "DOI": "10.1109/TPWRS.2022.3173250",
+     "CorpusId": 235593042
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -897,7 +987,7 @@
    "container": "Leibniz international proceedings in informatics",
    "type": "paper-conference",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -920,7 +1010,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "c1465a1a84a8dd38e158742c51e122aee31025be",
+    "title": "CPU Energy-Aware Parallel Real-Time Scheduling",
+    "year": 2020,
+    "first_author": "Abusayeed Saifullah",
+    "container": "Euromicro Conference on Real-Time Systems",
+    "ext": {
+     "MAG": "3037427200",
+     "DBLP": "conf/ecrts/SaifullahFMFG20",
+     "DOI": "10.4230/LIPIcs.ECRTS.2020.2",
+     "CorpusId": 220273500
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1028,7 +1141,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -1055,7 +1168,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "c8b18682965ff9dccc0130dab3d679f78cefa617",
+    "title": "A Survey on Large Language Models for Code Generation",
+    "year": 2024,
+    "first_author": "Juyong Jiang",
+    "container": "ACM Transactions on Software Engineering and Methodology",
+    "ext": {
+     "DBLP": "journals/corr/abs-2406-00515",
+     "ArXiv": "2406.00515",
+     "DOI": "10.1145/3747588",
+     "CorpusId": 270214176
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1095,5 +1231,7 @@
    },
    "evidence": []
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

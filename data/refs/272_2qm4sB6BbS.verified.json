@@ -25,7 +25,7 @@
    "container": "Advances in Neural Information Processing Systems",
    "type": "chapter",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -48,7 +48,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "2582ab7c70c9e7fcb84545944eba8f3a7f253248",
+    "title": "Translating Embeddings for Modeling Multi-relational Data",
+    "year": 2013,
+    "first_author": "Antoine Bordes",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "DBLP": "conf/nips/BordesUGWY13",
+     "MAG": "2127795553",
+     "CorpusId": 14941970
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -66,7 +88,7 @@
    "container": "International Conference on Machine Learning",
    "type": "paper-conference",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -89,7 +111,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "f35de4f9b1a7c4d3fa96a0d2ab1bf8937671f6b6",
+    "title": "Dropout as a Bayesian Approximation: Representing Model Uncertainty in Deep Learning",
+    "year": 2015,
+    "first_author": "Y. Gal",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "MAG": "2964059111",
+     "DBLP": "journals/corr/GalG15",
+     "ArXiv": "1506.02142",
+     "CorpusId": 160705
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -184,7 +229,7 @@
    "container": "Advances in Neural Information Processing Systems",
    "type": "chapter",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -207,7 +252,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "802168a81571dde28f5ddb94d84677bc007afa7b",
+    "title": "Simple and Scalable Predictive Uncertainty Estimation using Deep Ensembles",
+    "year": 2016,
+    "first_author": "Balaji Lakshminarayanan",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "MAG": "2560321925",
+     "DBLP": "journals/corr/Lakshminarayanan16c",
+     "ArXiv": "1612.01474",
+     "CorpusId": 6294674
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -297,7 +365,7 @@
    "container": "Journal of Machine Learning Research",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -320,7 +388,31 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "fec18520144b8707a5e4cbbad00e5b63caabfbf3",
+    "title": "A tutorial on conformal prediction",
+    "year": 2007,
+    "first_author": "G. Shafer",
+    "container": "Journal of machine learning research",
+    "ext": {
+     "MAG": "2952259152",
+     "DBLP": "journals/corr/abs-0706-3188",
+     "ArXiv": "0706.3188",
+     "DOI": "10.5555/1390681.1390693",
+     "CorpusId": 795794
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -339,7 +431,7 @@
    "container": "Advances in Neural Information Processing Systems",
    "type": "chapter",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -362,7 +454,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "2e2089ae76fe914706e6fa90081a79c8fe01611e",
+    "title": "Practical Bayesian Optimization of Machine Learning Algorithms",
+    "year": 2012,
+    "first_author": "Jasper Snoek",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "MAG": "2950182411",
+     "ArXiv": "1206.2944",
+     "DBLP": "journals/corr/abs-1206-2944",
+     "CorpusId": 632197
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -383,7 +498,7 @@
    "container": "International Conference on Machine Learning",
    "type": "paper-conference",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -406,7 +521,32 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "2218e2e1df2c3adfb70e0def2e326a39928aacfc",
+    "title": "Complex Embeddings for Simple Link Prediction",
+    "year": 2016,
+    "first_author": "Th\u00e9o Trouillon",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "MAG": "2963432357",
+     "DBLP": "conf/icml/TrouillonWRGB16",
+     "ArXiv": "1606.06357",
+     "CorpusId": 15150247
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

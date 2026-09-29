@@ -1,0 +1,514 @@
+{
+ "pdf": "340_ShWjvhAZGs.pdf",
+ "n_entries": 11,
+ "fallback": "marker-guided",
+ "error": null,
+ "linenumbers_stripped": false,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "Daniil A Boiko, Robert MacKnight, Ben Kline, and Gabe Gomes. Autonomous chemical research with large language models. Nature, 624(7992):570\u2013578, 2023.",
+   "title": "Autonomous chemical research with large language models",
+   "authors": [
+    "Boiko",
+    "MacKnight",
+    "Kline",
+    "Gomes"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature",
+   "type": "article-journal",
+   "parser": "anystyle-marker-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/s41586-023-06792-0",
+    "title": "Autonomous chemical research with large language models",
+    "year": 2023,
+    "first_author": "Boiko",
+    "container": "Nature",
+    "type": "journal-article",
+    "score": 46.343124
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "Keith T Butler, Daniel W Davies, Hugh Cartwright, Olexandr Isayev, and Aron Walsh. Machine learning for molecular and materials science. Nature, 559(7715):547\u2013555, 2018.",
+   "title": "Machine learning for molecular and materials science",
+   "authors": [
+    "Butler",
+    "Davies",
+    "Cartwright",
+    "Isayev",
+    "Walsh"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature",
+   "type": "article-journal",
+   "parser": "anystyle-marker-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/s41586-018-0337-2",
+    "title": "Machine learning for molecular and materials science",
+    "year": 2018,
+    "first_author": "Butler",
+    "container": "Nature",
+    "type": "journal-article",
+    "score": 33.461372
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "Nicholas Carlini, Florian Tramer, Eric Wallace, Matthew Jagielski, Ariel Herbert-Voss, Kather- ine Lee, Adam Roberts, Tom Brown, Dawn Song, Ulfar Erlingsson, et al. Extracting training data from large language models. In 30th USENIX Security Symposium (USENIX Security 21), pages 2633\u20132650, 2021.",
+   "title": "Extracting training data from large language models",
+   "authors": [
+    "Carlini",
+    "Tramer",
+    "Wallace",
+    "Jagielski",
+    "Herbert-Voss",
+    "Lee",
+    "Roberts",
+    "Brown",
+    "Song",
+    "Erlingsson"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "30th USENIX Security Symposium (USENIX Security 21",
+   "type": "paper-conference",
+   "parser": "anystyle-marker-guided",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.4567607",
+      "title": "Extracting Financial Data from Unstructured Sources: Leveraging Large Language Models",
+      "year": 2023,
+      "first_author": "Li",
+      "container": "",
+      "type": "posted-content",
+      "score": 36.736893
+     },
+     "metrics": {
+      "title_sim": 90.3225806451613,
+      "containment": 0.556,
+      "partial_ratio": 54.761904761904766,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "df7d26339adf4eb0c07160947b9d2973c24911ba",
+    "title": "Extracting Training Data from Large Language Models",
+    "year": 2020,
+    "first_author": "Nicholas Carlini",
+    "container": "USENIX Security Symposium",
+    "ext": {
+     "MAG": "3112689365",
+     "ArXiv": "2012.07805",
+     "DBLP": "conf/uss/CarliniTWJHLRBS21",
+     "CorpusId": 229156229
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "Daphne Ippolito, Daniel Duckworth, Chris Callison-Burch, and Douglas Eck. Automatic detection of generated text is easiest when humans are fooled. In Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics, pages 1808\u20131822, 2020.",
+   "title": "Automatic detection of generated text is easiest when humans are fooled",
+   "authors": [
+    "Ippolito",
+    "Duckworth",
+    "Callison-Burch",
+    "Eck"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+   "type": "paper-conference",
+   "parser": "anystyle-marker-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2020.acl-main.164",
+    "title": "Automatic Detection of Generated Text is Easiest when Humans are Fooled",
+    "year": 2020,
+    "first_author": "Ippolito",
+    "container": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+    "type": "proceedings-article",
+    "score": 75.62454
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "Jiaming Ji, Tianyi Qiu, Boyuan Chen, Borong Zhang, Hantao Lou, Kaile Wang, Yawen Duan, Zhonghao He, Jiayi Zhou, Zhaowei Zhang, Fanzhi Zeng, Juntao Dai, Xuehai Pan, Kwan Yee Ng, Aidan O\u2019Gara, Hua Xu, Brian Tse, Jie Fu, Stephen McAleer, Yaodong Yang, Yizhou Wang, Song-Chun Zhu, Yike Guo, and Wen Gao. Ai alignment: A comprehensive survey. arXiv preprint arXiv:2310.19852, 2023. arXiv:2310.19852 [cs.AI].",
+   "title": "Yaodong Yang",
+   "authors": [
+    "Ji",
+    "Qiu",
+    "Chen",
+    "Zhang",
+    "Lou",
+    "Wang",
+    "Duan",
+    "He",
+    "Zhou",
+    "Zhang",
+    "Zeng",
+    "Dai",
+    "Pan",
+    "Ng",
+    "O\u2019Gara",
+    "Xu",
+    "Tse",
+    "Fu",
+    "McAleer"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": "2310.19852",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-marker-guided",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2310.19852",
+    "title": "AI Alignment: A Comprehensive Survey",
+    "year": 2023,
+    "first_author": "Jiaming Ji"
+   },
+   "metrics": {
+    "title_sim": 21.276595744680847,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "Roger Marchant and Ibrahim M Banat. Biosurfactants: types, sources and applications. Biosur- factants: types, sources and applications, pages 1\u201326, 2018.",
+   "title": "Biosurfactants: types, sources and applications",
+   "authors": [
+    "Marchant",
+    "Banat"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Biosur- factants: types, sources and applications",
+   "type": "chapter",
+   "parser": "anystyle-marker-guided",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.3923/jm.2015.181.192",
+      "title": "Biosurfactants-Types, Sources and Applications",
+      "year": 2015,
+      "first_author": "Saravanan",
+      "container": "Research Journal of Microbiology",
+      "type": "journal-article",
+      "score": 31.063793
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 1.0,
+      "partial_ratio": 100.0,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "Gaurav D Moghe, Bryan J Leong, Steven M Hurney, A Daniel Jones, and Robert L Last. Evolutionary routes to biochemical innovation revealed by integrative analysis of a plant-defense related specialized metabolic pathway. eLife, 6:e28468, 2017.",
+   "title": "Evolutionary routes to biochemical innovation revealed by integrative analysis of a plant-defense related specialized metabolic pathway",
+   "authors": [
+    "Moghe",
+    "Leong",
+    "Hurney",
+    "Jones",
+    "Last"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "eLife",
+   "type": "article-journal",
+   "parser": "anystyle-marker-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.7554/elife.28468.056",
+    "title": "Decision letter: Evolutionary routes to biochemical innovation revealed by integrative analysis of a plant-defense related specialized metabolic pathway",
+    "year": 2017,
+    "first_author": null,
+    "container": "",
+    "type": "peer-review",
+    "score": 97.32928
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.867,
+    "partial_ratio": 93.37748344370861,
+    "year_ok": true,
+    "first_author_ok": null
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "Neelam, Ashwani Khatkar, and Rohit Sharma. Phenylpropanoids and its derivatives: biological activities and its role in food, pharmaceutical and cosmetic industries. Critical Reviews in Food Science and Nutrition, 60(16):2655\u20132675, 2020.",
+   "title": "Phenylpropanoids and its derivatives: biological activities and its role in food, pharmaceutical and cosmetic industries",
+   "authors": [
+    "Neelam",
+    "Sharma"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Critical Reviews in Food Science and Nutrition",
+   "type": "article-journal",
+   "parser": "anystyle-marker-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1080/10408398.2019.1653822",
+    "title": "Phenylpropanoids and its derivatives: biological activities and its role in food, pharmaceutical and cosmetic industries",
+    "year": 2020,
+    "first_author": "Neelam",
+    "container": "Critical Reviews in Food Science and Nutrition",
+    "type": "journal-article",
+    "score": 80.91248
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "Paul Raccuglia, Katherine C Elbert, Philip DF Adler, Casey Falk, Malia B Wenny, Aurelio Mollo, Matthias Zeller, Sorelle A Friedler, Joshua Schrier, and Alexander J Norquist. Machine- learning-assisted materials discovery using failed experiments. Nature, 533(7601):73\u201376, 2016.",
+   "title": "Machine- learning-assisted materials discovery using failed experiments",
+   "authors": [
+    "Raccuglia",
+    "Elbert",
+    "Adler",
+    "Falk",
+    "Wenny",
+    "Mollo",
+    "Zeller",
+    "Friedler",
+    "Schrier",
+    "Norquist"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature",
+   "type": "article-journal",
+   "parser": "anystyle-marker-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/nature17439",
+    "title": "Machine-learning-assisted materials discovery using failed experiments",
+    "year": 2016,
+    "first_author": "Raccuglia",
+    "container": "Nature",
+    "type": "journal-article",
+    "score": 54.166927
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "Sophie LKW Roelants, Karolina Ciesielska, Sofie L De Maeseneire, Helena Moens, Bernd Everaert, Stijn Verweire, Quenten Denon, Brecht Vanlerberghe, Inge NA Van Bogaert, Paul Van der Meeren, Bart Devreese, and Wim Soetaert. Towards the industrialization of new biosurfactants: biotechnological opportunities for the lactone esterase gene from starmerella bombicola. Biotechnology and Bioengineering, 113(3):550\u2013559, 2016.",
+   "title": "Towards the industrialization of new biosurfactants: biotechnological opportunities for the lactone esterase gene from starmerella bombicola",
+   "authors": [
+    "Roelants",
+    "Ciesielska",
+    "Maeseneire",
+    "Moens",
+    "Everaert",
+    "Verweire",
+    "Denon",
+    "Vanlerberghe",
+    "Bogaert",
+    "Meeren",
+    "Devreese",
+    "Soetaert"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Biotechnology and Bioengineering",
+   "type": "article-journal",
+   "parser": "anystyle-marker-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1002/bit.25815",
+    "title": "Towards the industrialization of new biosurfactants: Biotechnological opportunities for the lactone esterase gene from <i>Starmerella bombicola</i>",
+    "year": 2016,
+    "first_author": "Roelants",
+    "container": "Biotechnology and Bioengineering",
+    "type": "journal-article",
+    "score": 83.4524
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 98.6013986013986,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "Inge NA Van Bogaert, Jie Zhang, and Wim Soetaert. The biosynthetic gene cluster for sophorolipids: a biotechnological perspective. Molecular Microbiology, 88(3):501\u2013509, 2013. 15 A    Appendix A: The 10-Tool Research Validation Ecosystem This appendix provides detailed descriptions of the 10-tool validation ecosystem that enabled the detection of synthetic data and subsequent authentic discovery. Each tool serves a specific function in the mandatory self-falsification protocol. 1. Statistical Anomaly Detection Engine: This component continuously monitors all generated data against reference distributions derived from institutional databases (ChEMBL, PubChem, CosIng). Its primary function is to serve as a Layer 1 plausibility filter. It implements multivariate anomaly detection by calculating the Mahalanobis distance between candidate parameter vectors and empirical reference distributions, then converting to z-scores for threshold comparison. For ratio vectors (e.g., phenylpropanoid compositions), it constructs a reference distribution from all three-component mixtures documented in ChEMBL bioassay records (n = q            2, 147 relevant entries), computes co- variance matrix \u03a3ref , and flags any new vector \u20d7r with z = (\u20d7r \u2212 \u20d7      \u00b5ref )T \u03a3\u22121   r\u2212\u20d7 ref (\u20d7   \u00b5ref ) > 5 for mandatory investigation (p < 0.001 threshold). In this study, it detected a z-score of 43.8 for the initial synthetic phenylpropanoid ratios, triggering the full validation cascade that ultimately exposed the np.random.dirichlet() fallback. 2. Adversarial Critique Protocols: An ensemble of specialized AI agents configured to challenge the primary agent\u2019s hypotheses through systematic counter-argumentation. The protocol implements a 4-stage adversarial process: (1) Hypothesis Challenge where critic agents generate logical counter- examples to proposed claims, (2) Evidence Scrutiny where critics demand explicit provenance for every numerical value, (3) Alternative Explanation Generation where critics propose competing hypotheses that explain the same observations, and (4) Consistency Verification where critics test whether new claims contradict established knowledge from institutional databases. Each stage operates with structured prompting templates that enforce rigor (e.g., \u201dProvide database record ID supporting claim X\u201d). In this study, the Adversarial Critique exposed the logical flaw in accepting uniformly distributed ratios without experimental provenance, specifically by generating the counter- example: \u201dNatural optimization processes produce measurement noise; perfect 100.0% summation suggests computational origin, not experimental derivation.\u201d 3. Code Inspection and Provenance Tracking: A forensic auditing system that automatically traces all data transformations back to their originating source code by parsing execution logs, stack traces, and function call graphs. The system maintains a directed acyclic graph (DAG) of data lineage, where nodes represent data objects and edges represent transformations (e.g., database queries, mathematical operations, function calls). For every numerical result, it constructs a complete provenance chain from institutional source (e.g., ChEMBL API call with timestamp and record ID) through all intermediate processing steps to final output. Critical functions flagged for inspection include: random number generators (np.random.*, random.*, torch.rand), placeholder data (mock, dummy, synthetic), and exception handlers with silent fallbacks. In this study, the Code Inspector traced the suspicious phenylpropanoid ratios backward through the execution log, identified a try- except block that silently caught an optimization convergence error, and exposed the fallback line: ratios = np.random.dirichlet(alpha=[1,1,1]). This forensic evidence definitively proved synthetic data generation rather than authentic computational optimization. 4. Multi-Database Cross-Validation: A parallel verification system that queries multiple indepen- dent institutional databases simultaneously and requires concordance across sources before accepting any molecular property or performance prediction as valid. The system implements consensus-based validation: for any claimed property (e.g., UV absorption maximum, critical micelle concentration, antimicrobial efficacy), it constructs database-specific queries to ChEMBL v33 (bioactivity assays, > 19 million records), PubChem (spectroscopic data, > 100 million compounds), CosIng \u2013 Euro- pean Commission Cosmetic Ingredient Database (accessed 2025-07-17), and FDA Cosmetics Direct (MoCRA) (accessed 2025-07-18). Results are aggregated using weighted voting: if \u2265 3 databases return consistent values (within \u00b115% tolerance), the property is accepted; if databases conflict, the result is flagged for manual expert review. This prevents reliance on single-source errors or database-specific artifacts. In this study, the Cross-Validator confirmed that caffeate-sophorolipid TD-DFT-predicted optical properties (352 nm maximum, 17,200 M\u22121 cm\u22121 extinction coefficient) were computationally validated, with experimental validation pending. 5. Physics-Informed Neural Network Validators: A constraint enforcement layer that applies fundamental physical and chemical laws as hard boundaries on computational predictions, preventing 16 thermodynamically impossible or chemically unrealistic results. The system implements multi-scale validation: (1) Quantum mechanical constraints using time-dependent density functional theory (TD-DFT) with B3LYP/6-31G(d,p) basis set to verify spectroscopic properties (UV absorption maxima, extinction coefficients) and electronic structure feasibility; (2) Classical molecular dynamics using CHARMM36 force field with explicit TIP3P water solvation to confirm structural stability, micelle formation thermodynamics, and interfacial tension predictions over 100 ns trajectories; (3) Reaction stoichiometry validation ensuring all proposed biosynthetic pathways obey mass balance and energy conservation. For PGSLs specifically, the validator confirmed: sophorolipid acylation sites are chemically accessible (steric hindrance analysis), phenylpropanoid grafting is energetically favorable (\u2206G < \u221215 kcal/mol), and predicted CMC values are consistent with amphiphilic balance theory (HLB = 12-14 range for emulsifiers). This multi-layered physics validation prevents purely statistical models from proposing chemically impossible structures. 6. Hybrid Optimization Framework: An ensemble optimization architecture that integrates three independent computational methodologies to prevent over-reliance on any single approach and provide mutual cross-validation. The framework combines: (1) Graph Neural Networks (GNNs) using message-passing architectures (3-layer Graph Attention Networks with 128-dimensional node embeddings) trained on molecular graphs from ChEMBL to predict functional properties directly from chemical structure; (2) Traditional QSAR models (Random Forest regressors with 500 trees) using RDKit-computed molecular descriptors (LogP, TPSA, molecular weight, hydrogen bond donors/acceptors) trained on historical bioactivity data; (3) Database similarity searches using Tani- moto coefficient (Tc > 0.7) on Morgan fingerprints (radius=2, 2048 bits) to identify nearest neighbors in PubChem and inherit their experimental properties. Final predictions are ensemble-averaged with uncertainty quantification: y\u0302 = 13 (yGN N + yQSAR + ysimilarity ) \u00b1 \u03c3ensemble . The framework achieved coefficient of determination R2 = 0.94 on held-out test sets (n = 3, 127 compounds not used in training), demonstrating genuine predictive capability rather than overfitting. For PGSL optimization, all three methods independently converged to similar phenylpropanoid ratios (36-39% ferulate, 37-40% caffeate, 23-27% sinapate), providing computational triangulation that increased confidence in the final 36.5:38.5:25.0 recommendation. 7. Active Learning Query System: An uncertainty-aware prediction module that continuously monitors model confidence and identifies regions of chemical space where predictions are unreliable, triggering corrective actions before accepting results. The system implements Bayesian uncertainty quantification: for any prediction y\u0302, it estimates both aleatoric uncertainty (irreducible data noise, \u03c3data ) and epistemic uncertainty (model knowledge gaps, \u03c3model ) using Monte Carlo dropout (50 forward passes with 0.2 dropout rate) to produce confidence intervals. High-uncertainty predictions (\u03c3total > 20% of predicted value) automatically trigger: (1) expanded database searches to find more similar training examples, (2) alternative model consultation (switching from GNN to QSAR or vice versa), or (3) flagging for mandatory experimental validation. The system prevents overconfident extrapolation beyond training data by calculating Tanimoto distance to nearest training example: molecules with Tc < 0.5 to all training data are flagged as \u201doutside applicability domain\u201d and predictions are accompanied by explicit uncertainty warnings. For PGSLs, the Active Learning system identified that sinapate-sophorolipid conjugates had limited training data (n = 47 examples vs. n = 312 for caffeate and n = 287 for ferulate), prompting expanded PubChem searches and reducing confidence in sinapate-specific predictions. 8. Causal Graph Analysis Engine: A causal inference module that constructs directed acyclic graphs (DAGs) to represent causal relationships between molecular structural features and functional properties, explicitly distinguishing correlation from causation. The engine implements the PC algorithm (Peter-Clark constraint-based structure learning) combined with the NOTEARS continuous optimization method to learn DAG structures from observational data. For each proposed structure- property relationship (e.g., \u201dcaffeate grafting causes increased UV protection\u201d), the system: (1) identifies all possible confounding variables (e.g., molecular weight, hydrophobicity, aggregation state) from the database, (2) tests conditional independence using partial correlation with Bonferroni- corrected significance thresholds (\u03b1 = 0.001/ntests ), (3) orients edges using d-separation criteria to establish causal direction, and (4) quantifies causal effect size using do-calculus interventional estimators. The DAG analysis prevents spurious structure-property claims by revealing hidden confounders. For PGSLs, the Causal Graph Engine revealed that the apparent correlation between phenylpropanoid chain length and antimicrobial activity was confounded by hydrophobicity: when controlling for LogP, the direct causal effect of chain length was negligible, but the hydrophobicity- 17 mediated pathway remained significant. This insight refined the optimization strategy to target amphiphilic balance rather than molecular size. 9. Literature and Patent Cross-Reference System: An automated prior art search engine that queries scientific literature databases (Semantic Scholar, PubMed Central) and patent repositories (USPTO, EPO, WIPO) to verify novelty claims and prevent rediscovery of known compounds. The system performs multi-stage searches: (1) Exact structure matching using SMILES strings and InChI keys to identify identical molecules already reported, (2) Substructure searches to find compounds with similar core scaffolds (Tanimoto similarity > 0.85), (3) Functional property searches querying compounds with claimed similar applications (UV protection + emulsification + antimicrobial), and (4) Synthetic route searches to identify established biosynthetic or chemical synthesis pathways. Results are ranked by relevance and temporal priority to establish proper attribution. For any claimed discovery, the system generates a comprehensive prior art report with publication dates, patent filing dates, and claimed property ranges. For PGSLs specifically, the Literature Cross-Reference identified: 847 sophorolipid derivatives documented in PubChem (including lactone/acidic forms, acetylated variants), 2,147 phenylpropanoid bioactivity records in ChEMBL (caffeic acid, ferulic acid, sinapic acid across various assays), but crucially found zero exact matches for tri-functional phenylpropanoid-grafted sophorolipids at the optimized 36.5:38.5:25.0 ratio, supporting genuine novelty of the computational hypothesis. 10. Reproducibility Documentation Generator: An automated audit trail system that captures complete computational provenance for every result, ensuring independent researchers can reproduce all predictions and verify all claims. The system implements comprehensive logging at multiple granularities: (1) Database snapshots recording exact versions (ChEMBL v33 accessed 2025-07-15, PubChem snapshot 2025-07-16, CosIng \u2013 European Commission Cosmetic Ingredient Database ac- cessed 2025-07-17, FDA Cosmetics Direct (MoCRA) accessed 2025-07-18), including API endpoints, authentication methods, query timestamps, and number of records retrieved; (2) Code version control using git commit hashes for all scripts, with complete dependency manifests (Python 3.10.12, PyTorch 2.0.1, RDKit 2023.03.1, PyTorch Geometric 2.3.1); (3) Computational environment specifications documenting hardware (32 GB RAM, 4-core CPU, NVIDIA RTX 3090 24GB GPU), operating system (Ubuntu 22.04 LTS), and random seeds for stochastic processes; (4) Processing pipeline docu- mentation with exact hyperparameters for all models (learning rates, batch sizes, convergence criteria, cross-validation folds); (5) Execution logs with wall-clock timestamps for each computational stage (database query: 8.2 hours, GNN training: 42.6 hours, QSAR fitting: 12.4 hours, MD simulations: 67.3 hours, optimization: 53.1 hours, validation: 33.2 hours, total: 216.8 hours). All documentation is automatically exported to structured JSON metadata files and human-readable appendices. For PGSLs, the Reproducibility Generator ensured that the entire computational workflow from database access through final ratio prediction (36.5:38.5:25.0) is fully reproducible by external teams with access to the same institutional databases. Integration and Workflow: These 10 tools operate as an integrated ecosystem with mandatory checkpoints. Any result must pass all applicable validation layers before advancing to the next research stage. The detection of synthetic data occurred when the Anomaly Detector flagged suspicious patterns, triggering the Cross-Validator which invoked the Code Validator to identify the root cause. This multi-layered architecture embodies the \u201dArchitectural Immune System\u201d principle where self-correction is structurally enforced rather than optionally invoked. B    Appendix B: Quantified Autonomy Metrics This appendix provides complete quantification of the agent\u2019s autonomous workflow, demonstrating zero human intervention throughout the discovery process. These metrics demonstrate complete autonomous operation of the agent\u2019s discovery pipeline. The 5,437 autonomous decisions span hypothesis generation, validation strategy selection, database query formulation, model hyperparameter tuning, and convergence assessment. The 1,247 synthetic data detections represent instances where the Statistical Anomaly Detector flagged suspicious patterns before they propagated through the workflow. The 12,893 tool ecosystem validations reflect the comprehensive cross-checking performed across all 10 validation tools. Zero human interventions confirms genuine autonomous discovery. 18 Table 2: Quantified autonomy metrics demonstrating complete agent workflow Metric                                      Value Autonomous decisions made                   5,437 Human interventions required                0 Synthetic data detections blocked           1,247 Tool ecosystem validations                  12,893 Fermentation optimizations                  847 Processing time (hours)                     216.8 Database contamination events prevented     37 Multi-tool consensus rounds                 428 C    Appendix C: Extended Architecture - Modules and Validation Layers This appendix provides comprehensive technical details of the agent\u2019s three core modules and the three-layer validation protocol that enabled synthetic data detection. Module 1: Synthetic Data Detection Engine The Synthetic Data Detection Engine implements statistical pattern recognition to identify anomalous data distributions that deviate from known empirical distributions: Z-Score Thresholding: For any parameter vector \u20d7r (e.g., phenylpropanoid ratios), the engine calculates deviation from reference distribution: ||\u20d7r \u2212 \u20d7 \u00b5ref || z=                                                      (4) \u03c3ref where \u20d7 \u00b5ref and \u03c3ref are derived from institutional databases (ChEMBL, PubChem). Values exceed- ing z > 3 trigger investigation; z > 5 trigger mandatory deep analysis. Chi-Square Goodness-of-Fit Tests: Tests whether observed distributions match expected natural distributions: n X (Oi \u2212 Ei )2 \u03c72 =                                                    (5) i=1 Ei where Oi are observed frequencies and Ei are expected frequencies from database reference distribu- tions. Significance level \u03b1 = 0.001 used for anomaly detection. Synthetic Signature Detection: Identifies mathematical fingerprints of random number generation: \u2022 Perfect summation to 100.0% (floating-point precision analysis) \u2022 Uniform or near-uniform distributions (Kolmogorov-Smirnov test) \u2022 Absence of natural measurement noise (\u03c3 < 0.1% for ratios) \u2022 Correlation patterns inconsistent with experimental processes Module 2: Validation Ecosystem Interface Orchestrates the 10-tool ecosystem through systematic query protocols: Tool Invocation Protocol: 1. Hypothesis Generation: Primary agent proposes result/claim 2. Parallel Validation: Simultaneously queries all 10 tools for independent assessment 3. Consensus Building: Aggregates tool responses using weighted voting (physics valida- tors: 25%, database validators: 30%, critique engines: 20%, literature systems: 15%, reproducibility: 10%) 4. Conflict Resolution: When tools disagree, triggers adversarial debate protocol 5. Final Adjudication: Result accepted only if \u2265 75% weighted agreement Inter-Tool Communication: Tools share findings through standardized data structures (JSON schemas) enabling cascading validation. For example, Statistical Anomaly Detection flags suspicious 19 patterns, triggering Code Inspection to examine data provenance, which then requests Literature Cross-Reference to validate against known experimental ranges. Module 3: Authentic Optimization Framework Hybrid methodology combining multiple computational approaches with database constraints: Optimization Architecture: \u2022 Graph Neural Networks (GNNs): Molecular property prediction from structure \u2022 Traditional QSAR: Quantitative structure-activity relationship modeling \u2022 Database Similarity Searches: Identify nearest neighbors in chemical space \u2022 Physics-Informed Constraints: Enforce thermodynamic and quantum mechanical bounds \u2022 Active Learning: Iteratively query most uncertain regions Hybrid Integration Equation (detailed): \u20d7 optimal = \u03b1 \u00b7 R R               \u20d7 computational + (1 \u2212 \u03b1) \u00b7 R \u20d7 database + \u03bb \u00b7 C \u20d7 physics               (6) where \u03b1 = 0.30 is the computational weight, R   \u20d7 computational combines GNN and QSAR predic- \u20d7                                                           \u20d7 physics enforces hard physical tions, Rdatabase represents database-constrained optimization, and C constraints with penalty parameter \u03bb. Three-Layer Validation Protocol Layer 1 - Result Plausibility Analysis: Cross-references all generated results against institutional knowledge base statistics. Uses 3\u03c3 thresholds for continuous variables and chi-square tests for categorical distributions. Operates continuously on all intermediate and final results. Mathematical Formulation: ! 1             \u00b5ref ||2 ||\u20d7r \u2212 \u20d7 Plausibility Score = P (\u20d7r|Dref ) = exp \u2212        2                                (7) Z           2\u03c3ref where Dref is the reference database distribution and Z is normalization constant. Scores below P < 0.001 trigger Layer 2. Layer 2 - Pattern Recognition Analysis: Applies suite of statistical tests to identify synthetic generation patterns: \u2022 Kolmogorov-Smirnov Test: Compares cumulative distribution of results against natural distributions: D = sup |Fn (x) \u2212 Fref (x)|                             (8) x Rejects null hypothesis (natural data) if D > D\u03b1 at significance level \u03b1 = 0.01. \u2022 Chi-Square Test: Goodness-of-fit against expected database distributions (see Module 1) \u2022 Uniformity Detection: Tests whether ratios show unnatural uniformity: min(\u20d7r) U=            > 0.9 triggers investigation                         (9) max(\u20d7r) \u2022 Perfect Summation Test: Checks floating-point precision of summations (natural measure- ments rarely sum to exactly 100.0% due to experimental error) While these patterns are not definitive proof of synthetic data alone, their combination provides strong heuristic flags triggering Layer 3 deep investigation. Layer 3 - Deep Investigation: Forensic code inspection and complete data provenance tracking: \u2022 Stack Trace Analysis: Traces all function calls leading to suspicious results \u2022 Random Seed Detection: Identifies use of np.random, random, or synthetic generation libraries 20 \u2022 Data Provenance Verification: Confirms all values originate from institutional databases, not algorithmic generation \u2022 Algorithm Audit: Inspects optimization code for silent failures or fallback mechanisms \u2022 Timestamp Validation: Verifies database query timestamps match claimed data access This three-layer cascading architecture ensures that synthetic data cannot pass validation even if individual detection methods fail, embodying defense-in-depth principles from cybersecurity applied to scientific integrity. D    Appendix D: Mathematical Formulations and Statistical Methods This appendix provides complete mathematical foundations for all computational methods, validation protocols, and performance metrics used in this work. Synthetic Data Detection: Complete Statistical Framework Synthetic Score Equation (Expanded): Ssynthetic (\u20d7r) = w1 \u00b7 Z(\u20d7r) + w2 \u00b7 U (\u20d7r) + w3 \u00b7 Psum (\u20d7r) + w4 \u00b7 DKS (\u20d7r)         (10) where: ||\u20d7 r \u2212\u20d7 \u00b5ref || \u2022 Z(\u20d7r) =      \u03c3ref      is the z-score deviation r) std(\u20d7 \u2022 U (\u20d7r) = 1 \u2212 mean(\u20d7r) is uniformity measure (ranges 0-1) Psum (\u20d7r) = I(| i ri \u2212 100.0| < 10\u22126 ) is perfect summation indicator P \u2022 \u2022 DKS (\u20d7r) is Kolmogorov-Smirnov statistic against natural distribution \u2022 Weights: w1 = 0.40, w2 = 0.25, w3 = 0.15, w4 = 0.20 (sum to 1.0) Threshold: Ssynthetic > 0.75 triggers mandatory investigation (achieved z-score of 43.8 yielded Ssynthetic = 0.94 for initial synthetic ratios). Mahalanobis Distance for Multivariate Anomaly Detection: The z-score calculation employs the Mahalanobis distance to account for correlations between phenylpropanoid ratio components: q \u00b5ref )T \u03a3\u22121 \u00b5ref ) = (\u20d7r \u2212 \u20d7 z = dM (\u20d7r, \u20d7                            r\u2212\u20d7 ref (\u20d7 \u00b5ref )                 (11) where \u20d7 \u00b5ref is the mean vector of three-component phenylpropanoid ratios from ChEMBL reference distribution (n = 2, 147 bioassay records), and \u03a3ref is the 3 \u00d7 3 covariance matrix capturing natural correlations between ferulate, caffeate, and sinapate proportions. This multivariate approach is critical because phenylpropanoid ratios exhibit natural covariance structure (e.g., high caffeate often correlates with moderate ferulate due to shared biosynthetic pathways). The square of the Mahalanobis distance d2M follows a chi-squared distribution with 3 degrees of freedom under the null hypothesis of authentic data, enabling rigorous statistical testing. For the initial synthetic ratios, dM = 43.8 corresponded to p < 10\u221215 , far exceeding the z > 5 threshold for mandatory investigation. Hybrid Optimization: Mathematical Foundations Multi-Objective Optimization Problem: f1 (\u20d7r) = \u2212SPF(\u20d7r) (                              ) min    f2 (\u20d7r) = CMC(\u20d7r)                                   (12) \u20d7\u2208R3 r f3 (\u20d7r) = MIC(\u20d7r) subject to: 3 X ri = 1.0   (compositional constraint)                                 (13) i=1 ri \u2265 0 \u2200i (non-negativity)                                            (14) \u20d7r \u2208 Fdatabase (feasibility in known chemical space)                 (15) 21 Pareto Frontier Construction: Used weighted-sum scalarization with systematic weight variation: 3 X                             3 X fcomposite (\u20d7r, \u20d7 w) =         wj \u00b7 fj (\u20d7r)   where          wj = 1            (16) j=1                           j=1 Generated 100 Pareto-optimal points by varying w \u20d7 uniformly over simplex. Performance Prediction Models SPF Prediction Model: Graph neural network trained on 2,147 phenylpropanoid UV absorption records from ChEMBL: SPF(\u20d7r) = GNN\u03b8 (Gmolecule (\u20d7r)) \u00b7 Correctiondatabase (\u20d7r)                    (17) where Gmolecule constructs molecular graph and Correctiondatabase applies empirical corrections from nearest database neighbors. CMC Prediction Model: Structure-activity relationship (SAR) model trained on 847 sophorolipid records from PubChem: Nf X log(CMC) = \u03b20 +          \u03b2i \u00b7 \u03d5i (\u20d7r)                        (18) i=1 where \u03d5i are molecular descriptors (logP, molecular weight, hydrogen bond donors/acceptors, etc.) and \u03b2i are regression coefficients fitted via ridge regression (\u03bb = 0.1). MIC Prediction Model: Ensemble of random forests combining antimicrobial bioassay data: n           o50 MIC(\u20d7r) = median RFk (\u03d5(\u20d7\u20d7 r))                                (19) k=1 \u20d7 where 50 random forest regressors provide ensemble predictions on feature vector \u03d5. Validation Metrics R-Squared for Model Performance: (yi \u2212 y\u0302i )2 P 2 R = 1 \u2212 Pi            2 = 0.94                                   (20) i (yi \u2212 y\u0304) where yi are database experimental values, y\u0302i are hybrid model predictions, and y\u0304 is mean experi- mental value. Calculated on held-out test set (20% of data, stratified by compound scaffold). AUROC for Binary Classification: Z 1 AUROC =             TPR(\u03c4 ) d[FPR(\u03c4 )] = 0.87                         (21) 0 where TPR is true positive rate and FPR is false positive rate at threshold \u03c4 . Binary task: predicting whether formulation meets all three performance targets (SPF \u2265 8, CMC \u2264 100 mg/L, MIC \u2264 500 ppm). Synthetic Artifact Detection Validation: Precision and Recall To rigorously validate the Architectural Immune System\u2019s detection capability, a controlled experi- ment was conducted by deliberately seeding a test dataset with known synthetic artifacts generated using various random number generation methods (np.random.dirichlet, np.random.uniform, synthetic Gaussian mixtures). The validation protocol comprised: Dataset Construction: \u2022 Positive class (synthetic artifacts): n = 250 artificially generated parameter sets using known synthetic generation functions, with varying degrees of obviousness (perfect summation, near-uniform distributions, Dirichlet-sampled ratios with \u03b1 \u2208 [0.5, 5.0]) 22 \u2022 Negative class (authentic data): n = 750 authentic experimental parameter sets extracted from ChEMBL bioassay records, PubChem compound properties, and published formulation studies, representing natural measurement variability and experimental optimization results \u2022 Stratification: Both classes stratified by difficulty (easy/medium/hard to detect) based on statistical distance from reference distributions Baseline Comparisons: The Statistical Anomaly Detection Engine was benchmarked against three baseline methods: 1. Simple z-score threshold (univariate, no covariance): Flags if any ratio component exceeds z>3 2. Perfect summation test only: Flags if | ri \u2212 100.0| < 10\u22126 P 3. Random forest classifier: Trained on engineered features (mean, std, min, max, range, coefficient of variation) Performance Metrics: TP          237 Precision =           =           = 0.929                                 (22) TP + FP       237 + 18 TP           237 Recall =            =           = 0.948                                 (23) TP + FN       237 + 13 Precision \u00d7 Recall F1-Score = 2 \u00b7                    = 0.938                                 (24) Precision + Recall where TP = 237 true positives (correctly identified synthetic artifacts), FP = 18 false positives (authentic data incorrectly flagged), FN = 13 false negatives (synthetic artifacts missed), TN = 732 true negatives (authentic data correctly accepted). Baseline Performance Comparison: \u2022 Simple z-score threshold: Precision = 0.812, Recall = 0.856, F1 = 0.833 \u2022 Perfect summation test only: Precision = 0.954, Recall = 0.384, F1 = 0.547 (high precision but misses sophisticated synthetic data) \u2022 Random forest classifier: Precision = 0.891, Recall = 0.912, F1 = 0.901 \u2022 Architectural Immune System (Mahalanobis + ensemble): Precision = 0.929, Recall = 0.948, F1 = 0.938 (best overall) The high precision (92.9%) indicates minimal false alarm rate, ensuring authentic optimization results are not incorrectly rejected. The high recall (94.8%) demonstrates the system reliably detects diverse synthetic artifact patterns, including subtle cases beyond perfect summation. The Mahalanobis distance approach outperformed baselines by accounting for natural covariance structure in authentic experimental data, reducing false positives from legitimate but unusual formulations while maintaining sensitivity to synthetic patterns. Tri-Functional Efficacy Index (TFEI) Complete Formulation: s\u0012               \u00132       \u0012               \u00132       \u0012               \u00132 SPF                    CMCtarget                MICtarget TFEI = 100 \u00b7                         +                        +                        (25) SPFtarget                  CMC                      MIC with targets: SPFtarget = 8, CMCtarget = 100 mg/L, MICtarget = 500 ppm. For authentic PGSLs (ratios 36.5:38.5:25.0): s\u0012        \u00132 \u0012      \u00132 \u0012     \u00132 14.3      100       500 TFEI = 100 \u00b7              +         +                                         (26) 8       42.5      285 \u221a = 100 \u00b7 3.19 + 5.53 + 3.08                                              (27) \u221a = 100 \u00b7 11.80 \u2248 343.5                                                   (28) Conventional biosurfactants achieve TFEI \u2248 85, synthetic multi-component systems TFEI \u2248 376.9. 23 E   Appendix E: Complete Data Provenance and Validation This appendix provides comprehensive documentation of all data sources, database access protocols, and independent verification pathways to ensure full reproducibility. ChEMBL Database Detailed Specification Version: ChEMBL v33 (accessed 2025-07-15) Total Database Size: >2.4 million compounds, >19 million bioactivity measurements Phenylpropanoid Subset Construction: SELECT molecule_id, compound_name, standard_value, standard_units, assay_type FROM activities JOIN compound_structures USING (molregno) WHERE compound_structures.canonical_smiles LIKE \u2019%C=CC(=O)O%\u2019 AND (compound_name LIKE \u2019%ferulate%\u2019 OR compound_name LIKE \u2019%caffeate%\u2019 OR compound_name LIKE \u2019%sinapate%\u2019) AND standard_type IN (\u2019IC50\u2019, \u2019EC50\u2019, \u2019Ki\u2019, \u2019Potency\u2019) AND standard_units = \u2019nM\u2019 AND target_type = \u2019SINGLE PROTEIN\u2019 LIMIT 2147; Bioactivity Records Retrieved: 2,147 entries spanning: \u2022 Antimicrobial IC50 values against E. coli, S. aureus, C. albicans \u2022 Antioxidant activity (DPPH, ABTS assays) \u2022 Cytotoxicity profiles (HaCaT, HeLa cell lines) Institutional Contact: ChEMBL Help Desk \u27e8chembl-help@ebi.ac.uk\u27e9 PubChem Database Detailed Specification Version: PubChem (accessed 2025-07-16) Total Database Size: >110 million compounds, >270 million bioactivity data points Sophorolipid Subset Construction: Query: \"sophorolipid\" OR \"sophorose lipid\" OR \"glucolipid biosurfactant\" Filters: Has Bioassay Data, Has Spectral Data (NMR/FTIR) Results: 847 compound records with CMC measurements Data Types Retrieved: \u2022 Critical micelle concentration (CMC) values: 847 records \u2022 1 H NMR spectra: 423 compounds (cross-referenced primary literature) \u2022 13 C NMR spectra: 381 compounds \u2022 FTIR fingerprints: 512 compounds \u2022 UV-Vis absorption spectra: 693 compounds (primary literature sources) \u2022 Mass spectrometry data: 701 compounds Primary Literature Cross-Reference: PubChem entries link to original publications via PubMed IDs. All spectroscopic data (NMR, UV-Vis, FTIR) traced to primary experimental papers. PubChem serves as index; actual spectra obtained from cited publications. Institutional Contact: PubChem Help Desk \u27e8pubchem-help@ncbi.nlm.nih.gov\u27e9 24 CosIng Database Detailed Specification Source: CosIng \u2013 European Commission Cosmetic Ingredient Database (accessed 2025-07-17) Note: Live database; counts depend on query method and filters applied Biosurfactant Subset Construction: Query Terms: \"biosurfactant\", \"sophorolipid\", \"rhamnolipid\", \"surfactin\", \"mannosylerythritol\", \"trehalose lipid\" Function Filters: Surfactant, Emulsifying, Cleansing Regulatory Status: EU Approved, CIR Reviewed Results: 156 ingredients matching biosurfactant criteria Regulatory Data Retrieved: \u2022 EU cosmetic ingredient approval status \u2022 INCI names and CAS registry numbers \u2022 Maximum concentration limits \u2022 Restricted use conditions \u2022 Safety assessment summaries (Cosmetic Ingredient Review) Institutional Contact: EU Commission CosIng Database \u27e8cosing@ec.europa.eu\u27e9 Computational Environment Specification Hardware: \u2022 CPU: 4-core Intel processor @ 3.7 GHz \u2022 RAM: 32 GB DDR4-3200 \u2022 Storage: 1 TB NVMe SSD \u2022 GPU: NVIDIA RTX 3090 (24 GB) for GNN training Software Stack: \u2022 Python 3.10.12 \u2022 RDKit 2023.03.1 (molecular descriptor calculation) \u2022 PyTorch 2.0.1 (graph neural networks) \u2022 Scikit-learn 1.3.0 (QSAR models, cross-validation) \u2022 OpenMM 8.0.0 (molecular dynamics, CHARMM36 force field) \u2022 ORCA 5.0.4 (quantum chemistry, TD-DFT calculations) \u2022 NumPy 1.24.3, SciPy 1.10.1, Pandas 2.0.2 Processing Time Breakdown: \u2022 Database queries and preprocessing: 8.2 hours \u2022 GNN model training: 42.6 hours \u2022 QSAR model fitting: 12.4 hours \u2022 Molecular dynamics simulations: 67.3 hours \u2022 Hybrid optimization iterations: 53.1 hours \u2022 Validation and synthetic data detection: 33.2 hours \u2022 Total: 216.8 hours Independent Verification Protocol To enable complete independent validation, we provide: 1. Exact Database Query Scripts: All SQL queries, API calls, and data filtering scripts available in GitHub repository 2. Raw Data Snapshots: Complete downloaded datasets (anonymized where necessary for privacy) provided as supplementary files 25 3. Processing Pipeline Code: Every data transformation, cleaning step, and feature engineering operation documented in version-controlled code 4. Model Checkpoints: Trained GNN, QSAR, and ensemble model weights provided for reproduc- tion of exact predictions 5. Validation Test Sets: Held-out test data (with ground truth experimental values from databases) provided for independent model evaluation 6. Statistical Analysis Scripts: Complete code for synthetic data detection, z-score calculations, chi-square tests, and all validation metrics Contact for Verification:           Independent researchers may contact authors at reports@aiexecutiveconsulting.com for access to complete computational envi- ronment (Docker container) enabling exact reproduction of all results. 26 F   Appendix F: Limitations and Future Experimental Validation This appendix provides comprehensive discussion of limitations and validation requirements for translating computational predictions to experimental reality. Computational Predictions vs. Experimental Measurements Current Status: All performance values reported in this work (SPF, CMC, MIC) are computational predictions derived from database analysis, not direct experimental measurements. The hybrid optimization framework combines graph neural network predictions with traditional QSAR modeling and database similarity searches to generate these estimates. Validation Requirements: Wet-lab synthesis and characterization are essential to: \u2022 Confirm predicted phenylpropanoid grafting ratios (36.5:38.5:25.0) \u2022 Measure actual SPF values using in vitro FDA-approved methodologies \u2022 Determine critical micelle concentration through surface tension measurements \u2022 Assess antimicrobial activity via standardized MIC assays (CLSI protocols) \u2022 Evaluate formulation stability under accelerated aging conditions \u2022 Test dermal compatibility and skin permeation profiles Database Heterogeneity and Uncertainty Quantification Source Variability: Our predictions synthesize data from ChEMBL (2,147 phenylpropanoid records), PubChem (847 sophorolipid records), and patent literature. These sources have inherent inter- laboratory variability due to: \u2022 Different assay protocols (e.g., SPF in vitro vs. in vivo methodologies) \u2022 Varying measurement conditions (temperature, pH, concentration ranges) \u2022 Instrument calibration differences across laboratories \u2022 Reporting standards evolving over time (older vs. recent publications) Uncertainty Propagation: Reported error bars (\u00b1 values) represent statistical uncertainty from model predictions, not experimental measurement error. True experimental variability may be larger. Grafting Efficiency Optimization Current Estimates: The 72% average grafting efficiency derives from literature meta-analysis of phenylpropanoid acylation reactions in biosurfactant systems. However, this value may vary significantly based on: \u2022 Fermentation conditions (pH, temperature, aeration, substrate concentrations) \u2022 Enzyme expression levels and specific activity \u2022 Substrate inhibition or product toxicity effects \u2022 Scale-up from laboratory to pilot and industrial fermentation \u2022 Downstream purification and product recovery methods Optimization Pathway: Industrial implementation requires systematic fermentation optimization using design-of-experiments (DoE) approaches to maximize grafting yield while maintaining product quality. Regulatory Validation and Commercial Translation Current Analysis: Database analysis indicates potential regulatory compliance pathways through: \u2022 Sophorolipid biosurfactant biocompatibility precedent \u2022 Phenylpropanoid compounds with GRAS/cosmetic use history \u2022 CosIng database cross-referencing for ingredient approval status Required Testing Before Commercial Use: 27 \u2022 Safety assessment: Cytotoxicity, skin irritation, sensitization (ISO 10993) \u2022 Preservative efficacy: Challenge tests (ISO 11930:2019, USP 51) \u2022 Photostability: UV-A/UV-B exposure stability testing \u2022 Formulation compatibility: pH, ionic strength, co-ingredient interactions \u2022 Stability studies: Accelerated aging (40\u25e6 C/75% RH for 6 months minimum) \u2022 Broad-spectrum UV protection: In vitro and in vivo SPF determination per FDA 2011 rule \u2022 Manufacturing validation: GMP compliance, batch consistency, quality control Future Experimental Validation Protocol Phase 1: Synthesis and Characterization (6 months) 1. Fermentation optimization for PGSL production 2. Structural confirmation via NMR, MS, FTIR 3. Purity assessment and analytical method development Phase 2: Performance Validation (9 months) 1. UV protection: In vitro SPF, critical wavelength, broad-spectrum ratio 2. Emulsification: CMC, surface tension, emulsion stability 3. Antimicrobial activity: MIC against standard test organisms Phase 3: Safety and Regulatory Compliance (12 months) 1. Cytotoxicity and dermal compatibility testing 2. Preservative challenge tests (ISO 11930:2019) 3. Stability studies under ICH guidelines 4. Regulatory dossier preparation for cosmetic ingredient approval Total Estimated Timeline: 27 months from synthesis to commercial readiness Estimated Budget: $500K-$800K including fermentation scale-up, analytical characterization, safety testing, and regulatory compliance activities. Limitations of Current Approach Methodological Constraints: \u2022 No wet-lab validation of computational predictions \u2022 Database-derived estimates may not capture synergistic or antagonistic effects in complex formulations \u2022 Grafting site specificity not experimentally confirmed (could affect bioactivity) \u2022 Skin penetration and bioavailability not assessed \u2022 Long-term photostability under real-world UV exposure unknown Computational Model Limitations: \u2022 GNN and QSAR models trained on existing compounds; extrapolation to novel PGSLs has uncertainty \u2022 Molecular dynamics simulations (CHARMM36) use classical force fields, not quantum- accurate \u2022 No explicit modeling of formulation matrix effects (emulsifiers, thickeners, co-solvents) \u2022 Microbiome selectivity not predicted (preservation without harming beneficial skin flora) These limitations underscore the essential role of experimental validation in translating computational materials discovery to commercial products. 28",
+   "title": "The biosynthetic gene cluster for sophorolipids: a biotechnological perspective",
+   "authors": [
+    "Bogaert",
+    "Zhang",
+    "Soetaert",
+    "-"
+   ],
+   "year": 2013,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "where:"
+   ],
+   "container": "Synthetic Data Detection: Complete Statistical Framework Synthetic Score Equation (Expanded): Ssynthetic (\u20d7r",
+   "type": "article-journal",
+   "parser": "anystyle-marker-guided",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1111/mmi.12200",
+      "title": "The biosynthetic gene cluster for sophorolipids: a biotechnological interesting biosurfactant produced by\n                    <i>\n                      <scp>S</scp>\n                      tarmerella bombicola\n                    </i>",
+      "year": 2013,
+      "first_author": "Van Bogaert",
+      "container": "Molecular Microbiology",
+      "type": "journal-article",
+      "score": 46.78943
+     },
+     "metrics": {
+      "title_sim": 69.12442396313364,
+      "containment": 0.5,
+      "partial_ratio": 65.46762589928056,
+      "year_ok": true,
+      "first_author_ok": true
+     }
+    },
+    {
+     "step": "urls_not_live",
+     "url_status": {
+      "where:": "error"
+     }
+    }
+   ],
+   "likely_match": null
+  }
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
+}

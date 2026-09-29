@@ -145,7 +145,7 @@
    "container": "CoRR",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -168,7 +168,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "df2a56d1b8a7283dc7dfa04579314443d0fa47a4",
+    "title": "AirPen: A Touchless Fingertip Based Gestural Interface for Smartphones and Head-Mounted Devices",
+    "year": 2019,
+    "first_author": "Varun Jain",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-1904-06122",
+     "MAG": "2938787542",
+     "ArXiv": "1904.06122",
+     "CorpusId": 118674798
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -231,7 +254,7 @@
    "container": "Proceedings of the 45th Graphics Interface Conference",
    "type": "paper-conference",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -254,7 +277,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "757b297312dde07d237f00c2c4bb95996f3581fb",
+    "title": "Finding Layers Using Hover Visualizations",
+    "year": 2019,
+    "first_author": "Evan Shimizu",
+    "container": "Graphics Interface",
+    "ext": {
+     "MAG": "2991362862",
+     "DBLP": "conf/graphicsinterface/ShimizuFPF19",
+     "DOI": "10.20380/GI2019.16",
+     "CorpusId": 198975532
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -568,5 +614,7 @@
    },
    "evidence": []
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

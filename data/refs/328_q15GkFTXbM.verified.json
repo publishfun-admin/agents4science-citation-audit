@@ -154,7 +154,7 @@
    "container": "ICLR",
    "type": "chapter",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -177,7 +177,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "bee044c8e8903fb67523c1f8c105ab4718600cdb",
+    "title": "Explaining and Harnessing Adversarial Examples",
+    "year": 2014,
+    "first_author": "I. Goodfellow",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "MAG": "2963207607",
+     "DBLP": "journals/corr/GoodfellowSS14",
+     "ArXiv": "1412.6572",
+     "CorpusId": 6706414
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -247,10 +270,6 @@
    "verdict": "UNVERIFIED",
    "evidence": [
     {
-     "step": "arxiv_id_not_found",
-     "arxiv": "2506.11113"
-    },
-    {
      "step": "crossref_best_reject",
      "rec": {
       "source": "crossref",
@@ -268,6 +287,23 @@
       "partial_ratio": 65.54621848739495,
       "year_ok": true,
       "first_author_ok": true
+     }
+    },
+    {
+     "step": "arxiv_id_resolves_title_mismatch",
+     "rec": {
+      "source": "arxiv_abs",
+      "arxiv": "2506.11113",
+      "title": "Breaking the Reviewer: Assessing the Vulnerability of Large Language Models in Automated Peer Review Under Textual Adversarial Attacks",
+      "year": 2025,
+      "first_author": "Lin, Tzu-Ling"
+     },
+     "metrics": {
+      "title_sim": 67.66169154228857,
+      "containment": 0.462,
+      "partial_ratio": 65.54621848739495,
+      "year_ok": true,
+      "first_author_ok": false
      }
     }
    ],
@@ -333,7 +369,7 @@
    "container": "Journal of Machine Learning Research",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -356,7 +392,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "5e331bf7887e2e634bf5b12788849d2d2b74bc7f",
+    "title": "Improving Reproducibility in Machine Learning Research (A Report from the NeurIPS 2019 Reproducibility Program)",
+    "year": 2020,
+    "first_author": "Joelle Pineau",
+    "container": "Journal of machine learning research",
+    "ext": {
+     "ArXiv": "2003.12206",
+     "DBLP": "journals/corr/abs-2003-12206",
+     "MAG": "3013688454",
+     "CorpusId": 214693121
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -455,7 +514,7 @@
    "container": "BMC Research Notes",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -478,7 +537,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "d901712d928b3336188d659949e124147673b2cd",
+    "title": "Is the future of peer review automated?",
+    "year": 2022,
+    "first_author": "Robert Schulz",
+    "container": "BMC Research Notes",
+    "ext": {
+     "PubMedCentral": "9188010",
+     "DOI": "10.1186/s13104-022-06080-6",
+     "CorpusId": 249579676,
+     "PubMed": "35690782"
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -645,5 +727,7 @@
    ],
    "likely_match": null
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

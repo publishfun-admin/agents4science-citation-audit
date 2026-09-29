@@ -1601,7 +1601,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -1624,7 +1624,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "26bffb8f8cfa36af099f51928153668693225d52",
+    "title": "Asymptotic algebra of quantum electrodynamics",
+    "year": 2004,
+    "first_author": "A. Herdegen",
+    "container": "",
+    "ext": {
+     "MAG": "2963464446",
+     "ArXiv": "hep-th/0412058",
+     "CorpusId": 116979227
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1938,7 +1960,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -1961,7 +1983,26 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "crossref_title",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/tcst.2019.2935421",
+    "title": "Modeling for Non-Markovian Quantum Systems",
+    "year": 2020,
+    "first_author": "Xue",
+    "container": "IEEE Transactions on Control Systems Technology",
+    "type": "journal-article",
+    "score": 34.974667
+   },
+   "metrics": {
+    "title_sim": 88.0,
+    "containment": 0.8,
+    "partial_ratio": 90.47619047619048,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -2345,7 +2386,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -2368,7 +2409,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "80276a6d6ae2744a6e230977c766721129c4ee51",
+    "title": "The convergence proof of the sixth-order compact 9-point FDM for the 2D transport problem",
+    "year": 2025,
+    "first_author": "Qiwei Feng",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2506-12549",
+     "ArXiv": "2506.12549",
+     "DOI": "10.48550/arXiv.2506.12549",
+     "CorpusId": 279402991
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -2458,7 +2522,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -2481,7 +2545,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "404f7ca47169250be261c71532fd3649e1b565ef",
+    "title": "Transitionless intra-cavity quantum state transfer in optomechanical systems",
+    "year": 2016,
+    "first_author": "Hao Zhang",
+    "container": "",
+    "ext": {
+     "MAG": "2547369338",
+     "ArXiv": "1610.09938",
+     "CorpusId": 119204484
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -2609,7 +2695,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -2632,7 +2718,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "e7f151637e8f71de79a5568613e2d4d6b44048e0",
+    "title": "Beyond Pham's algorithm for joint diagonalization",
+    "year": 2018,
+    "first_author": "Pierre Ablin",
+    "container": "The European Symposium on Artificial Neural Networks",
+    "ext": {
+     "MAG": "2902093021",
+     "DBLP": "conf/esann/AblinCG19",
+     "ArXiv": "1811.11433",
+     "CorpusId": 53815536
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -2891,5 +3000,7 @@
    },
    "evidence": []
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

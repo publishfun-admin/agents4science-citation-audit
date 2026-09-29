@@ -21,7 +21,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -48,7 +48,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "642d0f49b7826adcf986616f4af77e736229990f",
+    "title": "Deep Compression: Compressing Deep Neural Network with Pruning, Trained Quantization and Huffman Coding",
+    "year": 2015,
+    "first_author": "Song Han",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "MAG": "2119144962",
+     "ArXiv": "1510.00149",
+     "DBLP": "journals/corr/HanMD15",
+     "CorpusId": 2134321
+    }
+   },
+   "metrics": {
+    "title_sim": 99.50738916256158,
+    "containment": 0.909,
+    "partial_ratio": 99.00990099009901,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -170,7 +193,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -197,7 +220,22 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "arxiv_id_repass",
+   "match": {
+    "source": "arxiv_abs",
+    "arxiv": "1511.05641",
+    "title": "Net2Net: Accelerating Learning via Knowledge Transfer",
+    "year": 2015,
+    "first_author": "Chen, Tianqi"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   }
   },
   {
    "junk": false,
@@ -286,7 +324,7 @@
    "container": "Advances in neural information processing systems",
    "type": "chapter",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -309,7 +347,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "c220cdbcec6f92e4bc0f58c5fa6c1183105be1f9",
+    "title": "Dynamic Network Surgery for Efficient DNNs",
+    "year": 2016,
+    "first_author": "Yiwen Guo",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "MAG": "2952924083",
+     "ArXiv": "1608.04493",
+     "DBLP": "conf/nips/GuoYC16",
+     "CorpusId": 744803
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -362,7 +423,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -389,7 +450,32 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "7823292e5c4b05c47af91ab6ddf671a0da709e82",
+    "title": "Once for All: Train One Network and Specialize it for Efficient Deployment",
+    "year": 2019,
+    "first_author": "Han Cai",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "MAG": "2994749257",
+     "DBLP": "journals/corr/abs-1908-09791",
+     "ArXiv": "1908.09791",
+     "CorpusId": 201666112
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

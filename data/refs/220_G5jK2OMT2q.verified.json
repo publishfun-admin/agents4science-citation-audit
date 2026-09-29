@@ -3024,7 +3024,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -3051,7 +3051,22 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "arxiv_id_repass",
+   "match": {
+    "source": "arxiv_abs",
+    "arxiv": "2402.19450",
+    "title": "Functional Benchmarks for Robust Evaluation of Reasoning Performance, and the Reasoning Gap",
+    "year": 2024,
+    "first_author": "Srivastava, Saurabh"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   }
   },
   {
    "junk": false,
@@ -3122,10 +3137,6 @@
    "verdict": "UNVERIFIED",
    "evidence": [
     {
-     "step": "arxiv_id_not_found",
-     "arxiv": "1707.01495"
-    },
-    {
      "step": "crossref_best_reject",
      "rec": {
       "source": "crossref",
@@ -3143,6 +3154,23 @@
       "partial_ratio": 64.7887323943662,
       "year_ok": true,
       "first_author_ok": true
+     }
+    },
+    {
+     "step": "arxiv_id_resolves_title_mismatch",
+     "rec": {
+      "source": "arxiv_abs",
+      "arxiv": "1707.01495",
+      "title": "Hindsight Experience Replay",
+      "year": 2017,
+      "first_author": "Andrychowicz, Marcin"
+     },
+     "metrics": {
+      "title_sim": 33.684210526315795,
+      "containment": 0.0,
+      "partial_ratio": 48.14814814814815,
+      "year_ok": true,
+      "first_author_ok": false
      }
     }
    ],
@@ -3987,5 +4015,6 @@
    "evidence": []
   }
  ],
- "second_pass": true
+ "second_pass": true,
+ "arxiv_repass": true
 }

@@ -113,7 +113,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -140,7 +140,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "7c44b7fdcec2e517799f6c54f6ba42bf1a89d2e6",
+    "title": "MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering",
+    "year": 2024,
+    "first_author": "Jun Shern Chan",
+    "container": "arXiv.org",
+    "ext": {
+     "ArXiv": "2410.07095",
+     "DBLP": "journals/corr/abs-2410-07095",
+     "DOI": "10.48550/arXiv.2410.07095",
+     "CorpusId": 273233550
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -488,7 +511,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -515,7 +538,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "dbb844e79c0d00c8a2ec2f786457616c1ff7c91d",
+    "title": "EXP-Bench: Can AI Conduct AI Research Experiments?",
+    "year": 2025,
+    "first_author": "Patrick Tser Jern Kon",
+    "container": "arXiv.org",
+    "ext": {
+     "ArXiv": "2505.24785",
+     "DBLP": "journals/corr/abs-2505-24785",
+     "DOI": "10.48550/arXiv.2505.24785",
+     "CorpusId": 279070803
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -682,7 +728,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -709,7 +755,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "c82f67d2a88d082ee28841f133494e60e8d39433",
+    "title": "A Vision for Auto Research with LLM Agents",
+    "year": 2025,
+    "first_author": "Chengwei Liu",
+    "container": "arXiv.org",
+    "ext": {
+     "ArXiv": "2504.18765",
+     "DBLP": "journals/corr/abs-2504-18765",
+     "DOI": "10.48550/arXiv.2504.18765",
+     "CorpusId": 278165604
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -770,7 +839,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -797,7 +866,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "62729cff7dda7614f648a84e8967076d8878a5ff",
+    "title": "ReviewerGPT? An Exploratory Study on Using Large Language Models for Paper Reviewing",
+    "year": 2023,
+    "first_author": "Ryan Liu",
+    "container": "arXiv.org",
+    "ext": {
+     "ArXiv": "2306.00622",
+     "DBLP": "journals/corr/abs-2306-00622",
+     "DOI": "10.48550/arXiv.2306.00622",
+     "CorpusId": 258999338
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -894,7 +986,7 @@
    "container": "International conference on machine learning",
    "type": "paper-conference",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -917,7 +1009,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "9a7ac45eafe11ca003db3a300505f3b5c3f9009a",
+    "title": "DetectGPT: Zero-Shot Machine-Generated Text Detection using Probability Curvature",
+    "year": 2023,
+    "first_author": "E. Mitchell",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "DBLP": "journals/corr/abs-2301-11305",
+     "ArXiv": "2301.11305",
+     "DOI": "10.48550/arXiv.2301.11305",
+     "CorpusId": 256274849
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1031,7 +1146,7 @@
    "container": "AI-Driven Review Systems: Evaluating LLMs in Scalable and Bias-Aware Academic Reviews",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -1058,7 +1173,22 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "arxiv_id_repass",
+   "match": {
+    "source": "arxiv_abs",
+    "arxiv": "2408.10365",
+    "title": "AI-Driven Review Systems: Evaluating LLMs in Scalable and Bias-Aware Academic Reviews",
+    "year": 2024,
+    "first_author": "Tyser, Keith"
+   },
+   "metrics": {
+    "title_sim": 8.98876404494382,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   }
   },
   {
    "junk": false,
@@ -1120,7 +1250,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -1147,7 +1277,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "a3a2ce2de25a640c591b7ff836139510a96537df",
+    "title": "Are We There Yet? Revealing the Risks of Utilizing Large Language Models in Scholarly Peer Review",
+    "year": 2024,
+    "first_author": "Rui Ye",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2412-01708",
+     "ArXiv": "2412.01708",
+     "CorpusId": 274436760
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1233,5 +1385,7 @@
    },
    "evidence": []
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

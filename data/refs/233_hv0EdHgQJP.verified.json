@@ -117,10 +117,6 @@
    "verdict": "UNVERIFIED",
    "evidence": [
     {
-     "step": "arxiv_id_not_found",
-     "arxiv": "2106.05345"
-    },
-    {
      "step": "crossref_best_reject",
      "rec": {
       "source": "crossref",
@@ -136,6 +132,23 @@
       "title_sim": 86.95652173913044,
       "containment": 0.8,
       "partial_ratio": 72.0,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    },
+    {
+     "step": "arxiv_id_resolves_title_mismatch",
+     "rec": {
+      "source": "arxiv_abs",
+      "arxiv": "2106.05345",
+      "title": "Cocktail: Leveraging Ensemble Learning for Optimized Model Serving in Public Cloud",
+      "year": 2021,
+      "first_author": "Gunasekaran, Jashwant Raj"
+     },
+     "metrics": {
+      "title_sim": 38.297872340425535,
+      "containment": 0.0,
+      "partial_ratio": 39.50617283950617,
       "year_ok": true,
       "first_author_ok": false
      }
@@ -159,7 +172,7 @@
    "container": "International Conference on Learning Representations. 4",
    "type": "paper-conference",
    "parser": "anystyle-marker-guided",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -182,7 +195,32 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "36eff562f65125511b5dfab68ce7f7a943c27478",
+    "title": "Semi-Supervised Classification with Graph Convolutional Networks",
+    "year": 2016,
+    "first_author": "Thomas Kipf",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "ArXiv": "1609.02907",
+     "MAG": "2953378061",
+     "DBLP": "journals/corr/KipfW16",
+     "CorpusId": 3144218
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

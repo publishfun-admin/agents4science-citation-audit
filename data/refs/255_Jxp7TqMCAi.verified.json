@@ -66,7 +66,7 @@
    "container": "International Conference on Learning Representations",
    "type": "paper-conference",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -89,7 +89,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "84959e211a767f902cbf1695ec54a5b50148020f",
+    "title": "Clifford Neural Layers for PDE Modeling",
+    "year": 2022,
+    "first_author": "J. Brandstetter",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "DBLP": "conf/iclr/BrandstetterBWG23",
+     "ArXiv": "2209.04934",
+     "DOI": "10.48550/arXiv.2209.04934",
+     "CorpusId": 252199584
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -352,7 +375,7 @@
    "container": "Journal of Machine Learning Research",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -375,7 +398,28 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "f3c546e922a85839c1f19cd0a96a25c4986dbce8",
+    "title": "Neural Operator: Learning Maps Between Function Spaces With Applications to PDEs",
+    "year": 2023,
+    "first_author": "Nikola B. Kovachki",
+    "container": "Journal of machine learning research",
+    "ext": {
+     "DBLP": "journals/jmlr/KovachkiLLABSA23",
+     "CorpusId": 259149906
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -821,5 +865,7 @@
    },
    "evidence": []
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

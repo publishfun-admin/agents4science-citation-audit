@@ -96,7 +96,7 @@
    "container": null,
    "type": "book",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -119,7 +119,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "4cd4ccd9225f0a3c79cd4c72bd171039e28f2ab6",
+    "title": "The Elements of Statistical Learning: Data Mining, Inference, and Prediction",
+    "year": 2001,
+    "first_author": "T. Hastie",
+    "container": "Springer Series in Statistics",
+    "ext": {
+     "MAG": "1480376833",
+     "DBLP": "books/sp/HastieFT01",
+     "DOI": "10.1007/978-0-387-84858-7",
+     "CorpusId": 58068920
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -273,7 +296,7 @@
    "container": "OpenAI Blog",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -296,7 +319,28 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "9405cc0d6169988371b2755e573cc28650d14dfe",
+    "title": "Language Models are Unsupervised Multitask Learners",
+    "year": 2019,
+    "first_author": "Alec Radford",
+    "container": "",
+    "ext": {
+     "MAG": "2955855238",
+     "CorpusId": 160025533
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -319,7 +363,7 @@
    "container": null,
    "type": "report",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -342,7 +386,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "6c4b76232bb72897685d19b3d264c6ee3005bc2b",
+    "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+    "year": 2019,
+    "first_author": "Colin Raffel",
+    "container": "Journal of machine learning research",
+    "ext": {
+     "MAG": "2981852735",
+     "DBLP": "journals/corr/abs-1910-10683",
+     "ArXiv": "1910.10683",
+     "CorpusId": 204838007
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -362,7 +429,7 @@
    "container": "International Journal of Computational Intelligence",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -385,7 +452,28 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "fd020618144e16bdb7b26c548e7b1d3d372631d1",
+    "title": "A Black-box Approach for Response Quality Evaluation of Conversational Agent Systems",
+    "year": 2007,
+    "first_author": "O. Goh",
+    "container": "",
+    "ext": {
+     "MAG": "1671229675",
+     "CorpusId": 18758370
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -826,7 +914,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -853,7 +941,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "b491503b4ef4bc31b309ed615ebbb3eeeaecbe58",
+    "title": "DiverseDialogue: A Methodology for Designing Chatbots with Human-Like Diversity",
+    "year": 2024,
+    "first_author": "Xiao Lin",
+    "container": "arXiv.org",
+    "ext": {
+     "ArXiv": "2409.00262",
+     "DBLP": "journals/corr/abs-2409-00262",
+     "DOI": "10.48550/arXiv.2409.00262",
+     "CorpusId": 272367125
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1056,5 +1167,7 @@
    },
    "evidence": []
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

@@ -157,7 +157,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-marker-guided",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -184,7 +184,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "843e4ade9cb30c5aae93a8caf8a59a709bd35524",
+    "title": "Score Forgetting Distillation: A Swift, Data-Free Method for Machine Unlearning in Diffusion Models",
+    "year": 2024,
+    "first_author": "Tianqi Chen",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "DBLP": "journals/corr/abs-2409-11219",
+     "ArXiv": "2409.11219",
+     "DOI": "10.48550/arXiv.2409.11219",
+     "CorpusId": 272694637
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -856,7 +879,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-marker-guided",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -883,7 +906,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "e846aa9a93d706e942a685bd483f6efd0dd320ee",
+    "title": "Inst-Inpaint: Instructing to Remove Objects with Diffusion Models",
+    "year": 2023,
+    "first_author": "Ahmet Burak Yildirim",
+    "container": "arXiv.org",
+    "ext": {
+     "ArXiv": "2304.03246",
+     "DBLP": "journals/corr/abs-2304-03246",
+     "DOI": "10.48550/arXiv.2304.03246",
+     "CorpusId": 257985241
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -939,7 +985,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-marker-guided",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -966,7 +1012,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "4e6d553f4e52c18040956c1cdeb8200499835c1e",
+    "title": "When Cloud Removal Meets Diffusion Model in Remote Sensing",
+    "year": 2025,
+    "first_author": "Zhen-Yu Yu",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2504-14785",
+     "DOI": "10.48550/arXiv.2504.14785",
+     "CorpusId": 278822491
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1197,7 +1265,7 @@
    "container": "Proc. CVPR workshop on fine-grained visual categorization (FGVC",
    "type": "paper-conference",
    "parser": "anystyle-marker-guided",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -1220,7 +1288,28 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "b5e3beb791cc17cdaf131d5cca6ceb796226d832",
+    "title": "Novel Dataset for Fine-Grained Image Categorization : Stanford Dogs",
+    "year": 2012,
+    "first_author": "A. Khosla",
+    "container": "",
+    "ext": {
+     "MAG": "2950666454",
+     "CorpusId": 3181866
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1291,7 +1380,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-marker-guided",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -1318,7 +1407,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "06b9ad0b52d23231f650be0aeb0b17cc52c8a74b",
+    "title": "The WMDP Benchmark: Measuring and Reducing Malicious Use With Unlearning",
+    "year": 2024,
+    "first_author": "Nathaniel Li",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "DBLP": "journals/corr/abs-2403-03218",
+     "ArXiv": "2403.03218",
+     "CorpusId": 268247897
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1511,7 +1622,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-marker-guided",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -1538,7 +1649,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "e8eb827c0f703a35f59342ee71523656ab7f5d69",
+    "title": "Unstable Unlearning: The Hidden Risk of Concept Resurgence in Diffusion Models",
+    "year": 2024,
+    "first_author": "Vinith M. Suriyakumar",
+    "container": "Trans. Mach. Learn. Res.",
+    "ext": {
+     "ArXiv": "2410.08074",
+     "DBLP": "journals/corr/abs-2410-08074",
+     "DOI": "10.48550/arXiv.2410.08074",
+     "CorpusId": 273233373
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1653,7 +1787,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-marker-guided",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -1676,7 +1810,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "c069629a51f6c1c301eb20ed77bc6b586c24ce32",
+    "title": "The Caltech-UCSD Birds-200-2011 Dataset",
+    "year": 2011,
+    "first_author": "C. Wah",
+    "container": "",
+    "ext": {
+     "MAG": "1797268635",
+     "CorpusId": 16119123
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

@@ -167,7 +167,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -190,7 +190,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "57e849d0de13ed5f91d086936296721d4ff75a75",
+    "title": "LLaMA: Open and Efficient Foundation Language Models",
+    "year": 2023,
+    "first_author": "Hugo Touvron",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2302-13971",
+     "ArXiv": "2302.13971",
+     "CorpusId": 257219404
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -946,7 +968,7 @@
    "container": "Nature Medicine",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -969,7 +991,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "70d4ef27eb1ff38b42229dc502998224e29c5933",
+    "title": "Medical large language models are vulnerable to data-poisoning attacks",
+    "year": 2025,
+    "first_author": "D. Alber",
+    "container": "Nature Medicine",
+    "ext": {
+     "PubMedCentral": "11835729",
+     "DOI": "10.1038/s41591-024-03445-1",
+     "CorpusId": 275426106,
+     "PubMed": "39779928"
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1136,7 +1181,7 @@
    "container": "Nature",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -1159,7 +1204,32 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "6052486bc9144dc1730c12bf35323af3792a1fd0",
+    "title": "Large language models encode clinical knowledge",
+    "year": 2022,
+    "first_author": "K. Singhal",
+    "container": "Nature",
+    "ext": {
+     "DBLP": "journals/corr/abs-2212-13138",
+     "PubMedCentral": "10396962",
+     "ArXiv": "2212.13138",
+     "DOI": "10.1038/s41586-023-06291-2",
+     "CorpusId": 255124952,
+     "PubMed": "37438534"
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -2855,5 +2925,7 @@
    ],
    "likely_match": null
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

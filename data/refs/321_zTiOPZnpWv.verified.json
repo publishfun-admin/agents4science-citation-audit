@@ -21,7 +21,7 @@
    "container": "Nature",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -44,7 +44,32 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "b09e0159bfce50f2305d38aae55bb6dba7196c20",
+    "title": "A reference map of the human binary protein interactome",
+    "year": 2020,
+    "first_author": "Katja Luck",
+    "container": "Nature",
+    "ext": {
+     "PubMedCentral": "7169983",
+     "MAG": "3015964336",
+     "DBLP": "journals/nature/LuckKLSBBBCCCCC20",
+     "DOI": "10.1038/s41586-020-2188-x",
+     "CorpusId": 215411580,
+     "PubMed": "32296183"
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -406,7 +431,7 @@
    "container": "ICLR",
    "type": "chapter",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -429,7 +454,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "268d347e8a55b5eb82fb5e7d2f800e33c75ab18a",
+    "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+    "year": 2020,
+    "first_author": "Alexey Dosovitskiy",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "ArXiv": "2010.11929",
+     "MAG": "3094502228",
+     "DBLP": "journals/corr/abs-2010-11929",
+     "CorpusId": 225039882
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -446,7 +494,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -469,7 +517,33 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "36ee2c8bd605afd48035d15fdc6b8c8842363376",
+    "title": "node2vec: Scalable Feature Learning for Networks",
+    "year": 2016,
+    "first_author": "Aditya Grover",
+    "container": "Knowledge Discovery and Data Mining",
+    "ext": {
+     "MAG": "2951167005",
+     "PubMedCentral": "5108654",
+     "ArXiv": "1607.00653",
+     "DBLP": "conf/kdd/GroverL16",
+     "DOI": "10.1145/2939672.2939754",
+     "CorpusId": 207238980,
+     "PubMed": "27853626"
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -484,7 +558,7 @@
    "container": "NeurIPS",
    "type": "chapter",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -507,7 +581,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "6b7d6e6416343b2a122f8416e69059ce919026ef",
+    "title": "Inductive Representation Learning on Large Graphs",
+    "year": 2017,
+    "first_author": "William L. Hamilton",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "MAG": "2624431344",
+     "DBLP": "conf/nips/HamiltonYL17",
+     "ArXiv": "1706.02216",
+     "CorpusId": 4755450
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -524,7 +621,7 @@
    "container": "ICML",
    "type": "chapter",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -547,7 +644,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "7af72a461ed7cda180e7eab878efd5f35d79bbf4",
+    "title": "A Simple Framework for Contrastive Learning of Visual Representations",
+    "year": 2020,
+    "first_author": "Ting Chen",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "DBLP": "conf/icml/ChenK0H20",
+     "MAG": "3034978746",
+     "ArXiv": "2002.05709",
+     "CorpusId": 211096730
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -600,7 +720,7 @@
    "container": "ICLR",
    "type": "chapter",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -623,7 +743,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "2fb59ebe271d6b007bb0429c1701fd1004782d1b",
+    "title": "InfoGraph: Unsupervised and Semi-supervised Graph-Level Representation Learning via Mutual Information Maximization",
+    "year": 2019,
+    "first_author": "Fan-Yun Sun",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "MAG": "2965556524",
+     "ArXiv": "1908.01000",
+     "DBLP": "journals/corr/abs-1908-01000",
+     "CorpusId": 199441876
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -640,7 +783,7 @@
    "container": "ICML",
    "type": "chapter",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -663,7 +806,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "6f870f7f02a8c59c3e23f407f3ef00dd1dcf8fc4",
+    "title": "Learning Transferable Visual Models From Natural Language Supervision",
+    "year": 2021,
+    "first_author": "Alec Radford",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "DBLP": "conf/icml/RadfordKHRGASAM21",
+     "ArXiv": "2103.00020",
+     "CorpusId": 231591445
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -680,7 +845,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -703,7 +868,26 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "crossref_title",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1101/2023.03.23.534023",
+    "title": "JUMP Cell Painting dataset: morphological impact of 136,000 chemical and genetic perturbations",
+    "year": 2023,
+    "first_author": "Chandrasekaran",
+    "container": "",
+    "type": "posted-content",
+    "score": 60.34362
+   },
+   "metrics": {
+    "title_sim": 95.50561797752809,
+    "containment": 0.818,
+    "partial_ratio": 88.17204301075269,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -821,5 +1005,7 @@
    },
    "evidence": []
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

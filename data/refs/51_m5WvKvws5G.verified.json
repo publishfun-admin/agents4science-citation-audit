@@ -23,7 +23,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -50,7 +50,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "585f8b9725f5f5e5495c3508d39f70d1c053e190",
+    "title": "FrugalGPT: How to Use Large Language Models While Reducing Cost and Improving Performance",
+    "year": 2023,
+    "first_author": "Lingjiao Chen",
+    "container": "Trans. Mach. Learn. Res.",
+    "ext": {
+     "ArXiv": "2305.05176",
+     "DBLP": "journals/corr/abs-2305-05176",
+     "DOI": "10.48550/arXiv.2305.05176",
+     "CorpusId": 258564349
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -70,7 +93,7 @@
    "container": "Transactions on Machine Learning Research",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -93,7 +116,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "6c943670dca38bfc7c8b477ae7c2d1fba1ad3691",
+    "title": "Program of Thoughts Prompting: Disentangling Computation from Reasoning for Numerical Reasoning Tasks",
+    "year": 2022,
+    "first_author": "Wenhu Chen",
+    "container": "Trans. Mach. Learn. Res.",
+    "ext": {
+     "ArXiv": "2211.12588",
+     "DBLP": "journals/corr/abs-2211-12588",
+     "CorpusId": 253801709
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -158,7 +203,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -185,7 +230,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "673fbdd957cada770d10dffca5e45b53da43a3c6",
+    "title": "Training Large Language Models to Reason in a Continuous Latent Space",
+    "year": 2024,
+    "first_author": "Shibo Hao",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2412-06769",
+     "ArXiv": "2412.06769",
+     "DOI": "10.48550/arXiv.2412.06769",
+     "CorpusId": 274610816
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -261,7 +329,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -288,7 +356,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "e6c561d02500b2596a230b341a8eb8b921ca5bf2",
+    "title": "Scaling Laws for Neural Language Models",
+    "year": 2020,
+    "first_author": "J. Kaplan",
+    "container": "arXiv.org",
+    "ext": {
+     "MAG": "3001279689",
+     "DBLP": "journals/corr/abs-2001-08361",
+     "ArXiv": "2001.08361",
+     "CorpusId": 210861095
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -354,7 +445,7 @@
    "container": "Advances in neural information processing systems",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -377,7 +468,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "659bf9ce7175e1ec266ff54359e2bd76e0b7ff31",
+    "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+    "year": 2020,
+    "first_author": "Patrick Lewis",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "DBLP": "conf/nips/LewisPPPKGKLYR020",
+     "MAG": "3027879771",
+     "ArXiv": "2005.11401",
+     "CorpusId": 218869575
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -449,7 +563,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -476,7 +590,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "0bfc804e31eecfd77f45e4ee7f4d629fffdcd628",
+    "title": "ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs",
+    "year": 2023,
+    "first_author": "Yujia Qin",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "DBLP": "journals/corr/abs-2307-16789",
+     "ArXiv": "2307.16789",
+     "DOI": "10.48550/arXiv.2307.16789",
+     "CorpusId": 260334759
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -665,7 +802,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -692,7 +829,32 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "b5bffe41155052a43010ec7197f832e81c546268",
+    "title": "Quiet-STaR: Language Models Can Teach Themselves to Think Before Speaking",
+    "year": 2024,
+    "first_author": "E. Zelikman",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2403-09629",
+     "ArXiv": "2403.09629",
+     "DOI": "10.48550/arXiv.2403.09629",
+     "CorpusId": 268385093
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

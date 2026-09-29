@@ -1,0 +1,980 @@
+{
+ "pdf": "342_Pqjg14gnAV.pdf",
+ "n_entries": 22,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "[1] B\u00fcrger, M., et al. (2024). Truth is Universal: Robust Detection of Lies in LLMs. NeurIPS 2024.",
+   "title": "Truth is Universal: Robust Detection of Lies in LLMs",
+   "authors": [
+    "B\u00fcrger"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "NeurIPS",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/079017-4392",
+    "title": "Truth is Universal: Robust Detection of Lies in LLMs",
+    "year": 2024,
+    "first_author": "B\u00fcrger",
+    "container": "Advances in Neural Information Processing Systems 37",
+    "type": "proceedings-article",
+    "score": 64.04263
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2] Motwani, T., et al. (2024). Secret Collusion among AI Agents: Multi-Agent Deception via Steganography. NeurIPS 2024.",
+   "title": "Secret Collusion among AI Agents: Multi-Agent Deception via Steganography",
+   "authors": [
+    "Motwani"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "NeurIPS",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/079017-2336",
+    "title": "Secret Collusion among AI Agents: Multi-Agent Deception via Steganography",
+    "year": 2024,
+    "first_author": "Motwani",
+    "container": "Advances in Neural Information Processing Systems 37",
+    "type": "proceedings-article",
+    "score": 82.97419
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3] Sriramanan, G., et al. (2024). LLM-Check: Investigating Detection of Hallucinations in LLMs. NeurIPS 2024.",
+   "title": "LLM-Check: Investigating Detection of Hallucinations in LLMs",
+   "authors": [
+    "Sriramanan"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "NeurIPS",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/079017-1077",
+    "title": "LLM-Check: Investigating Detection of Hallucinations in Large Language Models",
+    "year": 2024,
+    "first_author": "Sriramanan",
+    "container": "Advances in Neural Information Processing Systems 37",
+    "type": "proceedings-article",
+    "score": 56.446228
+   },
+   "metrics": {
+    "title_sim": 95.57522123893806,
+    "containment": 0.625,
+    "partial_ratio": 81.08108108108108,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4] Scheurer, J., et al. (2024). Large Language Models can Strategically Deceive their Users when Put Under Pressure. ICLR 2024.",
+   "title": "Large Language Models can Strategically Deceive their Users when Put Under Pressure",
+   "authors": [
+    "Scheurer"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "ICLR",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1111/risa.70284",
+      "title": "Can Large Language Models Reason Strategically? Evidence From Attacker\u2013Defender Signaling Games",
+      "year": 2026,
+      "first_author": "Eyi",
+      "container": "Risk Analysis",
+      "type": "journal-article",
+      "score": 33.443954
+     },
+     "metrics": {
+      "title_sim": 64.40677966101696,
+      "containment": 0.455,
+      "partial_ratio": 63.829787234042556,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "50ac089843f685e73d43f083a27109b91a4dec1c",
+    "title": "Large Language Models can Strategically Deceive their Users when Put Under Pressure",
+    "year": 2023,
+    "first_author": "J\u00e9r\u00e9my Scheurer",
+    "container": "",
+    "ext": {
+     "ArXiv": "2311.07590",
+     "CorpusId": 269635802
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5] Cunningham, W., et al. (2024). Sparse Autoencoders Find Highly Interpretable Features in Language Models. ICLR 2024.",
+   "title": "Sparse Autoencoders Find Highly Interpretable Features in Language Models",
+   "authors": [
+    "Cunningham"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "ICLR",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1101/2024.11.14.623630",
+      "title": "InterPLM: Discovering Interpretable Features in Protein Language Models via Sparse Autoencoders",
+      "year": 2024,
+      "first_author": "Simon",
+      "container": "",
+      "type": "posted-content",
+      "score": 57.036102
+     },
+     "metrics": {
+      "title_sim": 91.04477611940298,
+      "containment": 0.667,
+      "partial_ratio": 65.47619047619048,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "edb548fe7574d99454b352ffdb61bca93c3072ba",
+    "title": "Sparse Autoencoders Find Highly Interpretable Features in Language Models",
+    "year": 2023,
+    "first_author": "Hoagy Cunningham",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "DBLP": "conf/iclr/HubenCRES24",
+     "ArXiv": "2309.08600",
+     "DOI": "10.48550/arXiv.2309.08600",
+     "CorpusId": 261934663
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[6] Zhang, Y., et al. (2024). How Language Model Hallucinations Can Snowball. ICML 2024.",
+   "title": "How Language Model Hallucinations Can Snowball",
+   "authors": [
+    "Zhang"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.4893610",
+      "title": "Freehal: A Framework for Editing Large Language Model Hallucinations",
+      "year": 2024,
+      "first_author": "Lim",
+      "container": "",
+      "type": "posted-content",
+      "score": 25.85262
+     },
+     "metrics": {
+      "title_sim": 77.33333333333333,
+      "containment": 0.429,
+      "partial_ratio": 62.8099173553719,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "6825ba09383bc758f9a2feaebabe35a6cd4adc4c",
+    "title": "How Language Model Hallucinations Can Snowball",
+    "year": 2023,
+    "first_author": "Muru Zhang",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "DBLP": "conf/icml/ZhangPMLS24",
+     "ArXiv": "2305.13534",
+     "DOI": "10.48550/arXiv.2305.13534",
+     "CorpusId": 258841857
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[7] Factuality Testing in Large Language Models with Finite-Sample Guarantees. ICML 2025.",
+   "title": "Factuality Testing in Large Language Models with Finite-Sample Guarantees",
+   "authors": [],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.4981987",
+      "title": "Evaluating Sentiment and Factuality of UK Offshore Wind\u00a0 Using Large Language Models",
+      "year": 2024,
+      "first_author": "Freed",
+      "container": "",
+      "type": "posted-content",
+      "score": 33.20221
+     },
+     "metrics": {
+      "title_sim": 67.94871794871796,
+      "containment": 0.5,
+      "partial_ratio": 62.5,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "aae9acc3fb991969606fc6d42149744a3734f5c1",
+    "title": "FactTest: Factuality Testing in Large Language Models with Finite-Sample and Distribution-Free Guarantees",
+    "year": 2024,
+    "first_author": "Fan Nie",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "DBLP": "conf/icml/NieHL0YZ25",
+     "ArXiv": "2411.02603",
+     "DOI": "10.48550/arXiv.2411.02603",
+     "CorpusId": 273822129
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.727,
+    "partial_ratio": 83.43558282208589,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[8] Gunjal, S., et al. (2024). Detecting and Preventing Hallucinations in Large Vision-Language Models. AAAI 2024.",
+   "title": "Detecting and Preventing Hallucinations in Large Vision-Language Models",
+   "authors": [
+    "Gunjal"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "AAAI",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1609/aaai.v38i16.29771",
+    "title": "Detecting and Preventing Hallucinations in Large Vision Language Models",
+    "year": 2024,
+    "first_author": "Gunjal",
+    "container": "Proceedings of the AAAI Conference on Artificial Intelligence",
+    "type": "journal-article",
+    "score": 61.255474
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[9] Xiao, K., et al. (2025). Detecting and Mitigating Hallucination in LVLMs via Fine-Grained AI Feedback. AAAI 2025.",
+   "title": "Detecting and Mitigating Hallucination in LVLMs via Fine-Grained AI Feedback",
+   "authors": [
+    "Xiao"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "AAAI",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1609/aaai.v39i24.34744",
+    "title": "Detecting and Mitigating Hallucination in Large Vision Language Models via Fine-Grained AI Feedback",
+    "year": 2025,
+    "first_author": "Xiao",
+    "container": "Proceedings of the AAAI Conference on Artificial Intelligence",
+    "type": "journal-article",
+    "score": 56.068672
+   },
+   "metrics": {
+    "title_sim": 95.89041095890411,
+    "containment": 0.6,
+    "partial_ratio": 82.16216216216216,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[10] Guo, Y., et al. (2024). Large Language Model-Based Multi-Agents: A Survey. IJCAI 2024.",
+   "title": "Large Language Model-Based Multi-Agents: A Survey",
+   "authors": [
+    "Guo"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IJCAI",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.24963/ijcai.2024/890",
+    "title": "Large Language Model Based Multi-agents: A Survey of Progress and Challenges",
+    "year": 2024,
+    "first_author": "Guo",
+    "container": "Proceedings of the Thirty-ThirdInternational Joint Conference on Artificial Intelligence",
+    "type": "proceedings-article",
+    "score": 38.11681
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.778,
+    "partial_ratio": 76.11940298507463,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "[11] Quantifying Uncertainty in Natural Language Explanations of LLMs. AISTATS 2024.",
+   "title": "Quantifying Uncertainty in Natural Language Explanations of LLMs",
+   "authors": [],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.18653/v1/2024.emnlp-main.153",
+      "title": "QUITE: Quantifying Uncertainty in Natural Language Text in Bayesian Reasoning Scenarios",
+      "year": 2024,
+      "first_author": "Schrader",
+      "container": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+      "type": "proceedings-article",
+      "score": 31.779741
+     },
+     "metrics": {
+      "title_sim": 80.37383177570094,
+      "containment": 0.444,
+      "partial_ratio": 74.82993197278911,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "[12] UAI 2024. Selected works on LLM reliability and evaluation.",
+   "title": "Selected works on LLM reliability and evaluation",
+   "authors": [],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.31022/n091",
+      "title": "Selected Sacred Works",
+      "year": 2024,
+      "first_author": "Herbeck",
+      "container": "",
+      "type": "edited-book",
+      "score": 22.430882
+     },
+     "metrics": {
+      "title_sim": 80.0,
+      "containment": 0.667,
+      "partial_ratio": 66.66666666666667,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "[13] Chen, X., et al. (2024). Unified Hallucination Detection for Multimodal LLMs. ACL 2024.",
+   "title": "Unified Hallucination Detection for Multimodal LLMs",
+   "authors": [
+    "Chen"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "ACL",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2024.acl-long.178",
+    "title": "Unified Hallucination Detection for Multimodal Large Language Models",
+    "year": 2024,
+    "first_author": "Chen",
+    "container": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "type": "proceedings-article",
+    "score": 33.283028
+   },
+   "metrics": {
+    "title_sim": 94.84536082474227,
+    "containment": 0.571,
+    "partial_ratio": 79.6875,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "[14] Dogra, A., et al. (2025). Language Models can Subtly Deceive Without Lying. ACL 2025.",
+   "title": "Language Models can Subtly Deceive Without Lying",
+   "authors": [
+    "Dogra"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "ACL",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1111/papq.12241",
+      "title": "Can You Lie Without Intending to Deceive?",
+      "year": 2019,
+      "first_author": "Krsti\u0107",
+      "container": "Pacific Philosophical Quarterly",
+      "type": "journal-article",
+      "score": 26.809738
+     },
+     "metrics": {
+      "title_sim": 68.18181818181819,
+      "containment": 0.5,
+      "partial_ratio": 55.00000000000001,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "[15] Jiang, Z., et al. (2024). On LLMs\u2019 Hallucination with Regard to Known Knowledge. NAACL 2024.",
+   "title": "On LLMs\u2019 Hallucination with Regard to Known Knowledge",
+   "authors": [
+    "Jiang"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "NAACL",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.18653/v1/2024.naacl-long.60",
+      "title": "On Large Language Models\u2019 Hallucination with Regard to Known Facts",
+      "year": 2024,
+      "first_author": "Jiang",
+      "container": "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+      "type": "proceedings-article",
+      "score": 29.620111
+     },
+     "metrics": {
+      "title_sim": 83.14606741573033,
+      "containment": 0.429,
+      "partial_ratio": 70.76923076923076,
+      "year_ok": true,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2024.naacl-long.60",
+    "title": "On Large Language Models\u2019 Hallucination with Regard to Known Facts",
+    "year": 2024,
+    "first_author": "Jiang",
+    "container": "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+    "type": "proceedings-article",
+    "score": 29.620111
+   }
+  },
+  {
+   "junk": false,
+   "idx": 16,
+   "raw": "[16] Wu, L., et al. (2024). Fake News in Sheep\u2019s Clothing: Robust Fake News Detection Against LLM-Empowered Style Attacks. KDD 2024.",
+   "title": "Fake News in Sheep\u2019s Clothing: Robust Fake News Detection Against LLM-Empowered Style Attacks",
+   "authors": [
+    "Wu"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "KDD",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3637528.3671977",
+    "title": "Fake News in Sheep's Clothing: Robust Fake News Detection Against LLM-Empowered Style Attacks",
+    "year": 2024,
+    "first_author": "Wu",
+    "container": "Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+    "type": "proceedings-article",
+    "score": 102.12373
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 17,
+   "raw": "[17] Guo, Y., et al. (2024). Online Disinformation and Generative Language Models. WWW 2024 Companion.",
+   "title": "Online Disinformation and Generative Language Models",
+   "authors": [
+    "Guo"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "WWW",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3589335.3651254",
+    "title": "Online Disinformation and Generative Language Models: Motivations, Challenges, and Mitigations",
+    "year": 2024,
+    "first_author": "Guo",
+    "container": "Companion Proceedings of the ACM Web Conference 2024",
+    "type": "proceedings-article",
+    "score": 47.119102
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.625,
+    "partial_ratio": 75.34246575342466,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 18,
+   "raw": "[18] SIGIR 2024 Tutorial. Preventing and Detecting Misinformation Generated by LLMs.",
+   "title": "Tutorial. Preventing and Detecting Misinformation Generated by LLMs",
+   "authors": [],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1145/3626772.3661377",
+      "title": "Preventing and Detecting Misinformation Generated by Large Language Models",
+      "year": 2024,
+      "first_author": "Liu",
+      "container": "Proceedings of the 47th International ACM SIGIR Conference on Research and Development in Information Retrieval",
+      "type": "proceedings-article",
+      "score": 35.323654
+     },
+     "metrics": {
+      "title_sim": 88.13559322033899,
+      "containment": 0.571,
+      "partial_ratio": 87.02290076335878,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 19,
+   "raw": "[19] Ha, D., & Schmidhuber, J. (2018). Recurrent World Models Facilitate Policy Evolution. NeurIPS 2018.",
+   "title": "Recurrent World Models Facilitate Policy Evolution",
+   "authors": [
+    "Ha",
+    "Schmidhuber"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "NeurIPS",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/978-3-030-86230-5_26",
+      "title": "Revisiting \u201cRecurrent World Models Facilitate Policy Evolution\u201d",
+      "year": 2021,
+      "first_author": "Esteves",
+      "container": "Lecture Notes in Computer Science",
+      "type": "book-chapter",
+      "score": 30.404945
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 0.857,
+      "partial_ratio": 85.24590163934427,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "41cca0b0a27ba363ca56e7033569aeb1922b0ac9",
+    "title": "Recurrent World Models Facilitate Policy Evolution",
+    "year": 2018,
+    "first_author": "David R Ha",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "MAG": "2890208753",
+     "DBLP": "conf/nips/HaS18",
+     "ArXiv": "1809.01999",
+     "CorpusId": 52171619
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 20,
+   "raw": "[20] Hafner, D., et al. (2020). DreamerV2: Mastering Atari with Discrete World Models. CoRL / OpenReview.",
+   "title": "DreamerV2: Mastering Atari with Discrete World Models",
+   "authors": [
+    "Hafner"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1117/12.3032937",
+      "title": "Worldlight: mastering regional traffic signal control with discrete world models",
+      "year": 2024,
+      "first_author": "Wang",
+      "container": "Third International Conference on Electronic Information Engineering and Data Processing (EIEDP 2024)",
+      "type": "proceedings-article",
+      "score": 24.769266
+     },
+     "metrics": {
+      "title_sim": 81.81818181818181,
+      "containment": 0.444,
+      "partial_ratio": 60.99290780141844,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 21,
+   "raw": "[21] Farquhar, S., et al. (2024). Semantic Entropy Explains Confabulation in LLMs. Nature 2024.",
+   "title": "Semantic Entropy Explains Confabulation in LLMs",
+   "authors": [
+    "Farquhar"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.24963/ijcai.2026/711",
+      "title": "LLMs Uncertainty Quantification via Adaptive Conformal Semantic Entropy",
+      "year": 2026,
+      "first_author": "Karimi",
+      "container": "Proceedings of the Thirty-Fifth International Joint Conference on Artificial Intelligence",
+      "type": "proceedings-article",
+      "score": 24.980007
+     },
+     "metrics": {
+      "title_sim": 67.79661016949152,
+      "containment": 0.429,
+      "partial_ratio": 50.0,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 22,
+   "raw": "[22] Hagendorff, T. (2024). Emergence of Deception Abilities in LLMs. PNAS 2024.",
+   "title": "Emergence of Deception Abilities in LLMs",
+   "authors": [
+    "Hagendorff"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "PNAS 2024",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1073/pnas.2317967121",
+      "title": "Deception abilities emerged in large language models",
+      "year": 2024,
+      "first_author": "Hagendorff",
+      "container": "Proceedings of the National Academy of Sciences",
+      "type": "journal-article",
+      "score": 36.398746
+     },
+     "metrics": {
+      "title_sim": 76.08695652173913,
+      "containment": 0.333,
+      "partial_ratio": 62.92134831460674,
+      "year_ok": true,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": {
+    "source": "crossref",
+    "doi": "10.1073/pnas.2317967121",
+    "title": "Deception abilities emerged in large language models",
+    "year": 2024,
+    "first_author": "Hagendorff",
+    "container": "Proceedings of the National Academy of Sciences",
+    "type": "journal-article",
+    "score": 36.398746
+   }
+  }
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
+}

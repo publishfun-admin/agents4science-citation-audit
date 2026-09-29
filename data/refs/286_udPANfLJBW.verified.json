@@ -648,7 +648,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -675,7 +675,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "76e9e2ec3de437ffb30d8b7b629f7fe3e61de5c2",
+    "title": "On the Opportunities and Risks of Foundation Models",
+    "year": 2021,
+    "first_author": "Rishi Bommasani",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2108-07258",
+     "ArXiv": "2108.07258",
+     "CorpusId": 237091588
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -735,10 +757,6 @@
    "verdict": "UNVERIFIED",
    "evidence": [
     {
-     "step": "arxiv_id_not_found",
-     "arxiv": "2208.06822"
-    },
-    {
      "step": "crossref_best_reject",
      "rec": {
       "source": "crossref",
@@ -754,6 +772,23 @@
       "title_sim": 61.702127659574465,
       "containment": 0.5,
       "partial_ratio": 63.829787234042556,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    },
+    {
+     "step": "arxiv_id_resolves_title_mismatch",
+     "rec": {
+      "source": "arxiv_abs",
+      "arxiv": "2208.06822",
+      "title": "AFM-based Hamaker Constant Determination with Blind Tip Reconstruction",
+      "year": 2022,
+      "first_author": "Ku, Benny"
+     },
+     "metrics": {
+      "title_sim": 42.97520661157025,
+      "containment": 0.0,
+      "partial_ratio": 42.85714285714286,
       "year_ok": true,
       "first_author_ok": false
      }
@@ -776,7 +811,7 @@
    "container": "International Conference on Machine Learning",
    "type": "paper-conference",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -799,7 +834,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "7af72a461ed7cda180e7eab878efd5f35d79bbf4",
+    "title": "A Simple Framework for Contrastive Learning of Visual Representations",
+    "year": 2020,
+    "first_author": "Ting Chen",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "DBLP": "conf/icml/ChenK0H20",
+     "MAG": "3034978746",
+     "ArXiv": "2002.05709",
+     "CorpusId": 211096730
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -818,7 +876,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -845,7 +903,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "b227f3e4c0dc96e5ac5426b85485a70f2175a205",
+    "title": "Representation Learning with Contrastive Predictive Coding",
+    "year": 2018,
+    "first_author": "A\u00e4ron van den Oord",
+    "container": "arXiv.org",
+    "ext": {
+     "MAG": "2842511635",
+     "DBLP": "journals/corr/abs-1807-03748",
+     "ArXiv": "1807.03748",
+     "CorpusId": 49670925
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -862,7 +943,7 @@
    "container": "Advances in Neural Information Processing Systems",
    "type": "chapter",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -885,7 +966,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "38f93092ece8eee9771e61c1edaf11b1293cae1b",
+    "title": "Bootstrap Your Own Latent: A New Approach to Self-Supervised Learning",
+    "year": 2020,
+    "first_author": "Jean-Bastien Grill",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "MAG": "3101821705",
+     "DBLP": "conf/nips/GrillSATRBDPGAP20",
+     "ArXiv": "2006.07733",
+     "CorpusId": 219687798
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -978,7 +1082,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -1005,7 +1109,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "5a9cb1b3dc4655218b3deeaf4a2417a9a8cd0891",
+    "title": "DINOv2: Learning Robust Visual Features without Supervision",
+    "year": 2023,
+    "first_author": "M. Oquab",
+    "container": "Trans. Mach. Learn. Res.",
+    "ext": {
+     "DBLP": "journals/corr/abs-2304-07193",
+     "ArXiv": "2304.07193",
+     "DOI": "10.48550/arXiv.2304.07193",
+     "CorpusId": 258170077
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1022,7 +1149,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -1049,7 +1176,22 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "arxiv_id_repass",
+   "match": {
+    "source": "arxiv_abs",
+    "arxiv": "2508.10104",
+    "title": "DINOv3",
+    "year": 2025,
+    "first_author": "Sim\u00e9oni, Oriane"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 0,
+    "year_ok": true,
+    "first_author_ok": false
+   }
   },
   {
    "junk": false,
@@ -1271,5 +1413,7 @@
    },
    "evidence": []
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

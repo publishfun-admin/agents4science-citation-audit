@@ -880,7 +880,7 @@
    "container": "IEEE Transactions on Network and Service Management",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -903,7 +903,26 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "crossref_title",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3510003.3510155",
+    "title": "Log-based anomaly detection with deep learning",
+    "year": 2022,
+    "first_author": "Le",
+    "container": "Proceedings of the 44th International Conference on Software Engineering",
+    "type": "proceedings-article",
+    "score": 37.182915
+   },
+   "metrics": {
+    "title_sim": 89.1566265060241,
+    "containment": 0.833,
+    "partial_ratio": 63.04347826086957,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1618,5 +1637,7 @@
    ],
    "likely_match": null
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

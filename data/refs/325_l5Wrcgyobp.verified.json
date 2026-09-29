@@ -1,0 +1,1380 @@
+{
+ "pdf": "325_l5Wrcgyobp.pdf",
+ "n_entries": 26,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": false,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "Long Ouyang et al. Training language models to follow instructions with human feedback. In Advances in Neural Information Processing Systems (NeurIPS), 2022.",
+   "title": "Training language models to follow instructions with human feedback",
+   "authors": [
+    "Ouyang"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems (NeurIPS",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/068431-2011",
+    "title": "Training Language Models to Follow Instructions with Human Feedback",
+    "year": 2022,
+    "first_author": "Ouyang",
+    "container": "Advances in Neural Information Processing Systems 35",
+    "type": "proceedings-article",
+    "score": 41.000145
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "Paul Christiano, Jan Leike, Tom B. Brown, Miljan Martic, Shane Legg, and Dario Amodei. Deep reinforcement learning from human preferences. In Advances in Neural Information Processing Systems (NeurIPS), 2017.",
+   "title": "Deep reinforcement learning from human preferences",
+   "authors": [
+    "Christiano",
+    "Leike",
+    "Brown",
+    "Martic",
+    "Legg",
+    "Amodei"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems (NeurIPS",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1016/j.oceaneng.2024.120036",
+      "title": "Deep reinforcement learning from human preferences for ROV path tracking",
+      "year": 2025,
+      "first_author": "Niu",
+      "container": "Ocean Engineering",
+      "type": "journal-article",
+      "score": 33.220245
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 0.625,
+      "partial_ratio": 79.16666666666666,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "5bbb6f9a8204eb13070b6f033e61c84ef8ee68dd",
+    "title": "Deep Reinforcement Learning from Human Preferences",
+    "year": 2017,
+    "first_author": "P. Christiano",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "MAG": "2626804490",
+     "ArXiv": "1706.03741",
+     "DBLP": "journals/corr/abs-1706-03741",
+     "CorpusId": 4787508
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "Geoffrey Irving, Paul Christiano, and Dario Amodei. AI safety via debate. arXiv preprint arXiv:1805.00899, 2018.",
+   "title": "AI safety via debate",
+   "authors": [
+    "Irving",
+    "Christiano",
+    "Amodei"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": "1805.00899",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "1805.00899"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.23915/distill.00014",
+      "title": "AI Safety Needs Social Scientists",
+      "year": 2019,
+      "first_author": "Irving",
+      "container": "Distill",
+      "type": "journal-article",
+      "score": 25.685007
+     },
+     "metrics": {
+      "title_sim": 62.06896551724138,
+      "containment": 0.25,
+      "partial_ratio": 51.515151515151516,
+      "year_ok": true,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "5a5a1d666e4b7b933bc5aafbbadf179bc447ee67",
+    "title": "AI safety via debate",
+    "year": 2018,
+    "first_author": "G. Irving",
+    "container": "arXiv.org",
+    "ext": {
+     "ArXiv": "1805.00899",
+     "MAG": "2798877128",
+     "DBLP": "journals/corr/abs-1805-00899",
+     "CorpusId": 22050710
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "Collin Burns et al. Weak-to-strong generalization: Eliciting strong capabilities with weak supervision. Proceedings of the 41st International Conference on Machine Learning (ICML), 2024. arXiv:2312.09390.",
+   "title": "Weak-to-strong generalization: Eliciting strong capabilities with weak supervision",
+   "authors": [
+    "Burns"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2312.09390",
+   "urls": [],
+   "container": "Proceedings of the 41st International Conference on Machine Learning (ICML",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2312.09390"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.52202/079017-1486",
+      "title": "Theoretical Analysis of Weak-to-Strong Generalization",
+      "year": 2024,
+      "first_author": "Lang",
+      "container": "Advances in Neural Information Processing Systems 37",
+      "type": "proceedings-article",
+      "score": 45.984066
+     },
+     "metrics": {
+      "title_sim": 70.73170731707317,
+      "containment": 0.6,
+      "partial_ratio": 73.26732673267327,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "6b97aa78bcdb88548c44e7e1671c0ed37ed37976",
+    "title": "Weak-to-Strong Generalization: Eliciting Strong Capabilities With Weak Supervision",
+    "year": 2023,
+    "first_author": "Collin Burns",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "ArXiv": "2312.09390",
+     "DBLP": "conf/icml/BurnsIKBGACEJLS24",
+     "DOI": "10.48550/arXiv.2312.09390",
+     "CorpusId": 266312608
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "Suyash Gaurav, Jukka Heikkonen, and Jatin Chaudhary. Governance-as-a-service: A multi-agent framework for ai system compliance and policy enforcement. arXiv preprint arXiv:2508.18765, 2025.",
+   "title": "Governance-as-a-service: A multi-agent framework for ai system compliance and policy enforcement",
+   "authors": [
+    "Gaurav",
+    "Heikkonen",
+    "Chaudhary"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": "2508.18765",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2508.18765"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.5220/0014937200005024",
+      "title": "Multi-Agent Big Data Governance Framework for Trust, Compliance and Intelligent Decision-Making",
+      "year": 2025,
+      "first_author": "Reddy",
+      "container": "Proceedings of the 1st International Conference on Computational and Cognitive Systems Science",
+      "type": "proceedings-article",
+      "score": 41.423702
+     },
+     "metrics": {
+      "title_sim": 72.72727272727272,
+      "containment": 0.455,
+      "partial_ratio": 60.63829787234043,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "1fb9183fac51736718be853da1e2334089c9fa14",
+    "title": "Governance-as-a-Service: A Multi-Agent Framework for AI System Compliance and Policy Enforcement",
+    "year": 2025,
+    "first_author": "H. Pervez",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2508-18765",
+     "ArXiv": "2508.18765",
+     "DOI": "10.48550/arXiv.2508.18765",
+     "CorpusId": 280870108
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "Yubin Kim et al. Tiered agentic oversight: A hierarchical multi-agent framework for ai safety in healthcare. arXiv preprint arXiv:2506.12482, 2025.",
+   "title": "Tiered agentic oversight: A hierarchical multi-agent framework for ai safety in healthcare",
+   "authors": [
+    "Kim"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": "2506.12482",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2506.12482"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.36227/techrxiv.175099921.10546764/v1",
+      "title": "FATA: A Framework-Agnostic, Task-Agnostic Agentic AI Platform for Serverless Multi-Agent Orchestration",
+      "year": 2025,
+      "first_author": "SHERIFF",
+      "container": "",
+      "type": "posted-content",
+      "score": 44.21978
+     },
+     "metrics": {
+      "title_sim": 65.55555555555556,
+      "containment": 0.364,
+      "partial_ratio": 48.0,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "3d343734acb39bf91b9fd88461484fd3d9433076",
+    "title": "Tiered Agentic Oversight: A Hierarchical Multi-Agent System for AI Safety in Healthcare",
+    "year": 2025,
+    "first_author": "Y. Kim",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2506-12482",
+     "DOI": "10.48550/arXiv.2506.12482",
+     "CorpusId": 279403581
+    }
+   },
+   "metrics": {
+    "title_sim": 95.75757575757575,
+    "containment": 0.889,
+    "partial_ratio": 90.69767441860466,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "Jonah Brown-Cohen, Geoffrey Irving, and Georgios Piliouras. Scalable ai safety via doubly-efficient debate. arXiv preprint arXiv:2311.14125, 2023.",
+   "title": "Scalable ai safety via doubly-efficient debate",
+   "authors": [
+    "Brown-Cohen",
+    "Irving",
+    "Piliouras"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2311.14125",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2311.14125"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.5204/thesis.eprints.264974",
+      "title": "Efficient Subnets for Scalable Onboard AI in Space",
+      "year": 2026,
+      "first_author": "Shipard",
+      "container": "",
+      "type": "dissertation",
+      "score": 26.318909
+     },
+     "metrics": {
+      "title_sim": 62.6865671641791,
+      "containment": 0.4,
+      "partial_ratio": 54.0,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "50d1eeb8678a267d4759bd7418457998c0135d90",
+    "title": "Scalable AI Safety via Doubly-Efficient Debate",
+    "year": 2023,
+    "first_author": "Jonah Brown-Cohen",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "DBLP": "journals/corr/abs-2311-14125",
+     "ArXiv": "2311.14125",
+     "DOI": "10.48550/arXiv.2311.14125",
+     "CorpusId": 265444988
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "Paul Christiano, Buck Shlegeris, and Dario Amodei. Supervising strong learners by amplifying weak experts. arXiv preprint arXiv:1810.08575, 2018.",
+   "title": "Supervising strong learners by amplifying weak experts",
+   "authors": [
+    "Christiano",
+    "Shlegeris",
+    "Amodei"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": "1810.08575",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "1810.08575"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.65528/9780807783115-010",
+      "title": "8. Amplifying Texts for Multilingual Learners",
+      "year": 2010,
+      "first_author": "Martin",
+      "container": "Amplifying the Curriculum",
+      "type": "book-chapter",
+      "score": 24.049343
+     },
+     "metrics": {
+      "title_sim": 61.224489795918366,
+      "containment": 0.5,
+      "partial_ratio": 54.54545454545454,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "0052b31f07eda7737b5e0e2bf3803c3a32f3f728",
+    "title": "Supervising strong learners by amplifying weak experts",
+    "year": 2018,
+    "first_author": "P. Christiano",
+    "container": "arXiv.org",
+    "ext": {
+     "MAG": "2896930824",
+     "ArXiv": "1810.08575",
+     "DBLP": "journals/corr/abs-1810-08575",
+     "CorpusId": 53041432
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "Shuyan Zhou et al. Webarena: A realistic web environment for building agents. arXiv preprint arXiv:2307.13854, 2023.",
+   "title": "Webarena: A realistic web environment for building agents",
+   "authors": [
+    "Zhou"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2307.13854",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2307.13854",
+    "title": "WebArena: A Realistic Web Environment for Building Autonomous Agents",
+    "year": 2023,
+    "first_author": "Shuyan Zhou"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.857,
+    "partial_ratio": 83.5820895522388,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "Xiao Liu, Hao Yu, Hanchen Zhang, Yifan Xu, et al. Agentbench: Evaluating llms as agents. In International Conference on Learning Representations (ICLR), 2024.",
+   "title": "Agentbench: Evaluating llms as agents",
+   "authors": [
+    "Liu",
+    "Yu",
+    "Zhang",
+    "Xu"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Conference on Learning Representations (ICLR",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/978-3-032-26749-8_4",
+      "title": "Evaluating AI Agents",
+      "year": 2026,
+      "first_author": "Robsky",
+      "container": "Reliable Evaluations for LLMs and AI Agents",
+      "type": "book-chapter",
+      "score": 28.92838
+     },
+     "metrics": {
+      "title_sim": 91.89189189189189,
+      "containment": 1.0,
+      "partial_ratio": 70.0,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "5dbf93a68b7fda600521f046dea35ea8ba9e884f",
+    "title": "AgentBench: Evaluating LLMs as Agents",
+    "year": 2023,
+    "first_author": "Xiao Liu",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "ArXiv": "2308.03688",
+     "DBLP": "journals/corr/abs-2308-03688",
+     "DOI": "10.48550/arXiv.2308.03688",
+     "CorpusId": 260682249
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "Mrinank Sharma, Mark Naeem, Ethan Perez, et al. Towards understanding sycophancy in language models. arXiv preprint arXiv:2310.13548, 2023.",
+   "title": "Towards understanding sycophancy in language models",
+   "authors": [
+    "Sharma",
+    "Naeem",
+    "Perez"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2310.13548",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2310.13548"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.31234/osf.io/u4zj2_v1",
+      "title": "Inoculating citizens against sycophancy in large language models",
+      "year": 2026,
+      "first_author": "Marvel",
+      "container": "",
+      "type": "posted-content",
+      "score": 31.014019
+     },
+     "metrics": {
+      "title_sim": 72.5,
+      "containment": 0.429,
+      "partial_ratio": 60.9375,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "e6423c211fea2945aa71e1ac5ea24f8f595b4b0a",
+    "title": "Towards Understanding Sycophancy in Language Models",
+    "year": 2023,
+    "first_author": "Mrinank Sharma",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "DBLP": "conf/iclr/SharmaTKDABDHJK24",
+     "ArXiv": "2310.13548",
+     "DOI": "10.48550/arXiv.2310.13548",
+     "CorpusId": 264405698
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "Sumeet Ramesh Motwani, Bryan Hooi, Roop Kee Tung, et al. Secret collusion among ai agents: Multi-agent deception via steganography. arXiv preprint arXiv:2402.07510, 2024.",
+   "title": "Secret collusion among ai agents: Multi-agent deception via steganography",
+   "authors": [
+    "Motwani",
+    "Hooi",
+    "Tung"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2402.07510",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/079017-2336",
+    "title": "Secret Collusion among AI Agents: Multi-Agent Deception via Steganography",
+    "year": 2024,
+    "first_author": "Motwani",
+    "container": "Advances in Neural Information Processing Systems 37",
+    "type": "proceedings-article",
+    "score": 82.93775
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2402.07510"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "Jan Leike, David Krueger, et al. Scalable agent alignment via reward modeling. arXiv preprint arXiv:1811.07871, 2018.",
+   "title": "Scalable agent alignment via reward modeling",
+   "authors": [
+    "Leike",
+    "Krueger"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": "1811.07871",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "1811.07871"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.18653/v1/2026.acl-long.791",
+      "title": "OpenRubrics: Towards Scalable Synthetic Rubric Generation for Reward Modeling and LLM Alignment",
+      "year": 2026,
+      "first_author": "Liu",
+      "container": "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+      "type": "proceedings-article",
+      "score": 25.335976
+     },
+     "metrics": {
+      "title_sim": 49.27536231884058,
+      "containment": 0.444,
+      "partial_ratio": 52.459016393442624,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "c6f913e4baa7f2c85363c0625c87003ad3b3a14c",
+    "title": "Scalable agent alignment via reward modeling: a research direction",
+    "year": 2018,
+    "first_author": "Jan Leike",
+    "container": "arXiv.org",
+    "ext": {
+     "MAG": "2901707424",
+     "ArXiv": "1811.07871",
+     "DBLP": "journals/corr/abs-1811-07871",
+     "CorpusId": 53745764
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.714,
+    "partial_ratio": 81.53846153846153,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "Xuezhi Wang, Jason Wei, et al. Self-consistency improves chain of thought reasoning in language models. In International Conference on Learning Representations (ICLR), 2023.",
+   "title": "Self-consistency improves chain of thought reasoning in language models",
+   "authors": [
+    "Wang",
+    "Wei"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Conference on Learning Representations (ICLR",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.59350/90sh1-hbs94",
+      "title": "Multimodal Chain-of-Thought Reasoning in Language Models",
+      "year": 2025,
+      "first_author": "Thoram",
+      "container": "",
+      "type": "posted-content",
+      "score": 40.433586
+     },
+     "metrics": {
+      "title_sim": 89.10891089108911,
+      "containment": 0.833,
+      "partial_ratio": 87.5,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "5f19ae1135a9500940978104ec15a5b8751bc7d2",
+    "title": "Self-Consistency Improves Chain of Thought Reasoning in Language Models",
+    "year": 2022,
+    "first_author": "Xuezhi Wang",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "DBLP": "conf/iclr/0002WSLCNCZ23",
+     "ArXiv": "2203.11171",
+     "CorpusId": 247595263
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "Jason Wei et al. Chain-of-thought prompting elicits reasoning in large language models. In Advances in Neural Information Processing Systems (NeurIPS), 2022.",
+   "title": "Chain-of-thought prompting elicits reasoning in large language models",
+   "authors": [
+    "Wei"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems (NeurIPS",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/068431-1800",
+    "title": "Chain-Of-Thought Prompting Elicits Reasoning in Large Language Models",
+    "year": 2022,
+    "first_author": "Wei",
+    "container": "Advances in Neural Information Processing Systems 35",
+    "type": "proceedings-article",
+    "score": 60.12538
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 16,
+   "raw": "Luyu Gao, Aman Madaan, Shuyan Zhou, Uri Alon, et al. Pal: Program-aided language models. In International Conference on Learning Representations (ICLR), 2023.",
+   "title": "Pal: Program-aided language models",
+   "authors": [
+    "Gao",
+    "Madaan",
+    "Zhou",
+    "Alon"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Conference on Learning Representations (ICLR",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.18653/v1/2023.emnlp-main.661",
+      "title": "Conceptor-Aided Debiasing of Large Language Models",
+      "year": 2023,
+      "first_author": "Yifei",
+      "container": "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+      "type": "proceedings-article",
+      "score": 24.02933
+     },
+     "metrics": {
+      "title_sim": 77.77777777777777,
+      "containment": 0.5,
+      "partial_ratio": 58.00000000000001,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "6c1e1cc1e0e1f8fd026fe517607b2d4535565fa7",
+    "title": "PAL: Program-aided Language Models",
+    "year": 2022,
+    "first_author": "Luyu Gao",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "ArXiv": "2211.10435",
+     "DBLP": "journals/corr/abs-2211-10435",
+     "DOI": "10.48550/arXiv.2211.10435",
+     "CorpusId": 253708270
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 17,
+   "raw": "Timo Schick et al. Toolformer: Language models can teach themselves to use tools. arXiv preprint arXiv:2302.04761, 2023.",
+   "title": "Toolformer: Language models can teach themselves to use tools",
+   "authors": [
+    "Schick"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2302.04761",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2302.04761",
+    "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+    "year": 2023,
+    "first_author": "Timo Schick"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 18,
+   "raw": "Shunyu Yao et al. React: Synergizing reasoning and acting in language models. In International Conference on Learning Representations (ICLR), 2023a.",
+   "title": "React: Synergizing reasoning and acting in language models",
+   "authors": [
+    "Yao"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Conference on Learning Representations (ICLR), 2023a",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.36227/techrxiv.175756693.33854887/v1",
+      "title": "Meta-of-Thought: Reasoning About Reasoning in Large Language Models",
+      "year": 2025,
+      "first_author": "Haque",
+      "container": "",
+      "type": "posted-content",
+      "score": 25.654774
+     },
+     "metrics": {
+      "title_sim": 67.2566371681416,
+      "containment": 0.5,
+      "partial_ratio": 66.66666666666667,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "99832586d55f540f603637e458a292406a0ed75d",
+    "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+    "year": 2022,
+    "first_author": "Shunyu Yao",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "DBLP": "conf/iclr/YaoZYDSN023",
+     "ArXiv": "2210.03629",
+     "CorpusId": 252762395
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 19,
+   "raw": "Joon Sung Park, Joseph C. O\u2019Brien, Carrie J. Cai, Meredith Ringel Morris, Percy Liang, and Michael S. Bernstein. Generative agents: Interactive simulacra of human behavior. In Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems (CHI), 2023.",
+   "title": "Generative agents: Interactive simulacra of human behavior",
+   "authors": [
+    "Park",
+    "O\u2019Brien",
+    "Cai",
+    "Morris",
+    "Liang",
+    "Bernstein"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems (CHI",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3586183.3606763",
+    "title": "Generative Agents: Interactive Simulacra of Human Behavior",
+    "year": 2023,
+    "first_author": "Park",
+    "container": "Proceedings of the 36th Annual ACM Symposium on User Interface Software and Technology",
+    "type": "proceedings-article",
+    "score": 46.713745
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 20,
+   "raw": "Lauro Langosco, Rahul Krishna, et al. Goal misgeneralization in deep reinforcement learning. arXiv preprint arXiv:2105.14111, 2021.",
+   "title": "Goal misgeneralization in deep reinforcement learning",
+   "authors": [
+    "Langosco",
+    "Krishna"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": "2105.14111",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1017/9781108955652.016",
+    "title": "Reinforcement Learning and Deep Reinforcement Learning",
+    "year": 2021,
+    "first_author": null,
+    "container": "Deep Learning in Science",
+    "type": "other",
+    "score": 32.096115
+   },
+   "metrics": {
+    "title_sim": 93.10344827586206,
+    "containment": 1.0,
+    "partial_ratio": 70.37037037037037,
+    "year_ok": true,
+    "first_author_ok": null
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2105.14111"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 21,
+   "raw": "Noah Shinn, Federico Cassano, Edward Berman, Ashwin Gopinath, Karthik Narasimhan, and Shunyu Yao. Reflexion: Language agents with verbal reinforcement learning. arXiv preprint arXiv:2303.11366, 2023.",
+   "title": "Reflexion: Language agents with verbal reinforcement learning",
+   "authors": [
+    "Shinn",
+    "Cassano",
+    "Berman",
+    "Gopinath",
+    "Narasimhan",
+    "Yao"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2303.11366",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2303.11366",
+    "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+    "year": 2023,
+    "first_author": "Noah Shinn"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 22,
+   "raw": "Dario Amodei, Chris Olah, Jacob Steinhardt, Paul Christiano, John Schulman, and Dan Mane. Concrete problems in ai safety. arXiv preprint arXiv:1606.06565, 2016.",
+   "title": "Concrete problems in ai safety",
+   "authors": [
+    "Amodei",
+    "Olah",
+    "Steinhardt",
+    "Christiano",
+    "Schulman",
+    "Mane"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": "1606.06565",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "1606.06565",
+    "title": "Concrete Problems in AI Safety",
+    "year": 2016,
+    "first_author": "Dario Amodei"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 23,
+   "raw": "Yuntao Bai et al. Constitutional ai: Harmlessness from ai feedback. arXiv preprint arXiv:2212.08073, 2022.",
+   "title": "Constitutional ai: Harmlessness from ai feedback",
+   "authors": [
+    "Bai"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": "2212.08073",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2212.08073",
+    "title": "Constitutional AI: Harmlessness from AI Feedback",
+    "year": 2022,
+    "first_author": "Yuntao Bai"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 24,
+   "raw": "Aman Madaan et al. Self-refine: Iterative refinement with self-feedback.            arXiv preprint arXiv:2303.17651, 2023.",
+   "title": "Self-refine: Iterative refinement with self-feedback",
+   "authors": [
+    "Madaan"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2303.17651",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/075280-2019",
+    "title": "Self-Refine: Iterative Refinement with Self-Feedback",
+    "year": 2023,
+    "first_author": "Madaan",
+    "container": "Advances in Neural Information Processing Systems 36",
+    "type": "proceedings-article",
+    "score": 51.764908
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2303.17651"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 25,
+   "raw": "Ofir Press et al. Measuring and narrowing the compositionality gap in language models. arXiv preprint arXiv:2209.07550, 2022.",
+   "title": "Measuring and narrowing the compositionality gap in language models",
+   "authors": [
+    "Press"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": "2209.07550",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2023.findings-emnlp.378",
+    "title": "Measuring and Narrowing the Compositionality Gap in Language Models",
+    "year": 2023,
+    "first_author": "Press",
+    "container": "Findings of the Association for Computational Linguistics: EMNLP 2023",
+    "type": "proceedings-article",
+    "score": 50.513313
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2209.07550"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 26,
+   "raw": "Shunyu Yao, Nathanael Scharli, et al. Tree of thoughts: Deliberate problem solving with large language models. arXiv preprint arXiv:2305.10601, 2023b.",
+   "title": "Tree of thoughts: Deliberate problem solving with large language models",
+   "authors": [
+    "Yao",
+    "Scharli"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": "2305.10601",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/075280-0517",
+    "title": "Tree of Thoughts: Deliberate Problem Solving with Large Language Models",
+    "year": 2023,
+    "first_author": "Yao",
+    "container": "Advances in Neural Information Processing Systems 36",
+    "type": "proceedings-article",
+    "score": 58.39103
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2305.10601"
+    }
+   ]
+  }
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
+}

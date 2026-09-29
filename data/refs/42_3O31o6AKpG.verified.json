@@ -1,0 +1,555 @@
+{
+ "pdf": "42_3O31o6AKpG.pdf",
+ "n_entries": 11,
+ "fallback": "marker-guided",
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "Pulkit Mundra, Veni Goyal, and Kusum Deep. Circle packing problem using nature-inspired op- timization techniques. arXiv preprint, 2024. URL http://arxiv.org/abs/2403.10965v1.",
+   "title": "Circle packing problem using nature-inspired op- timization techniques",
+   "authors": [
+    "Mundra",
+    "Goyal",
+    "Deep"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": "2403.10965",
+   "urls": [
+    "http://arxiv.org/abs/2403.10965v1"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-marker-guided",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2403.10965"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1142/s2424862218500094",
+      "title": "Solving Two-Dimensional Rectangle Packing Problem Using Nature-Inspired Metaheuristic Algorithms",
+      "year": 2018,
+      "first_author": "Virk",
+      "container": "Journal of Industrial Integration and Management",
+      "type": "journal-article",
+      "score": 29.52467
+     },
+     "metrics": {
+      "title_sim": 69.81132075471697,
+      "containment": 0.4,
+      "partial_ratio": 62.82722513089005,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "arxiv_id_repass",
+   "match": {
+    "source": "arxiv_abs",
+    "arxiv": "2403.10965",
+    "title": "Circle Packing Problem Using Nature-Inspired Optimization Techniques",
+    "year": 2024,
+    "first_author": "Mundra, Pulkit"
+   },
+   "metrics": {
+    "title_sim": 99.27007299270073,
+    "containment": 0.857,
+    "partial_ratio": 98.52941176470588,
+    "year_ok": true,
+    "first_author_ok": false
+   }
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "Aida Khajavirad. The circle packing problem: a theoretical comparison of various convexifica- tion techniques. arXiv preprint, 2024. URL http://arxiv.org/abs/2404.03091v1.",
+   "title": "The circle packing problem: a theoretical comparison of various convexifica- tion techniques",
+   "authors": [
+    "Khajavirad"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": "2404.03091",
+   "urls": [
+    "http://arxiv.org/abs/2404.03091v1"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-marker-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.orl.2024.107197",
+    "title": "The circle packing problem: A theoretical comparison of various convexification techniques",
+    "year": 2024,
+    "first_author": "Khajavirad",
+    "container": "Operations Research Letters",
+    "type": "journal-article",
+    "score": 65.88188
+   },
+   "metrics": {
+    "title_sim": 99.44134078212291,
+    "containment": 0.875,
+    "partial_ratio": 98.87640449438202,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2404.03091"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "Paolo Amore, Damian de la Cruz, Valeria Hernandez, Ian Rincon, and Ulises Zarate. Circle packing in arbitrary domains. arXiv preprint, 2023. URL http://arxiv.org/abs/2308. 16523v1.",
+   "title": "Circle packing in arbitrary domains",
+   "authors": [
+    "Amore",
+    "Cruz",
+    "Hernandez",
+    "Rincon",
+    "Zarate"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "http://arxiv.org/abs/2308"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-marker-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1063/5.0175768",
+    "title": "Circle packing in arbitrary domains",
+    "year": 2023,
+    "first_author": "Amore",
+    "container": "Physics of Fluids",
+    "type": "journal-article",
+    "score": 46.46103
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "Rabia Tas\u0327p\u0131nar and Burak Kocuk. Discretization-based solution approaches for the circle packing problem. arXiv preprint, 2023. URL http://arxiv.org/abs/2401.00217v1.",
+   "title": "Discretization-based solution approaches for the circle packing problem",
+   "authors": [
+    "Ta\u015fp\u0131nar",
+    "Kocuk"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": "2401.00217",
+   "urls": [
+    "http://arxiv.org/abs/2401.00217v1"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-marker-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1080/0305215x.2023.2301575",
+    "title": "Discretization-based solution approaches for the circle packing problem",
+    "year": 2024,
+    "first_author": "Ta\u015fp\u0131nar",
+    "container": "Engineering Optimization",
+    "type": "journal-article",
+    "score": 65.35615
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2401.00217"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "Ke Wu, Xia Zhu, Thomas G. Bifano, Stephan W. Anderson, and Xin Zhang. Computational- design enabled wearable and tunable metamaterials via freeform auxetics for magnetic resonance imaging. arXiv preprint, 2023. URL http://arxiv.org/abs/2311.13611v1.",
+   "title": "Computational- design enabled wearable and tunable metamaterials via freeform auxetics for magnetic resonance imaging",
+   "authors": [
+    "Wu",
+    "Zhu",
+    "Bifano",
+    "Anderson",
+    "Zhang"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": "2311.13611",
+   "urls": [
+    "http://arxiv.org/abs/2311.13611v1"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-marker-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1002/advs.202400261",
+    "title": "Computational\u2010Design Enabled Wearable and Tunable Metamaterials via Freeform Auxetics for Magnetic Resonance Imaging",
+    "year": 2024,
+    "first_author": "Wu",
+    "container": "Advanced Science",
+    "type": "journal-article",
+    "score": 85.40587
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2311.13611"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "Alexander Vavoulas, Konstantinos K. Delibasis, Harilaos G. Sandalidis, George Nousias, and Nicholas Vaiopoulos. Efficient uav coverage in large convex quadrilateral areas with elliptical footprints. arXiv preprint, 2025. URL http://arxiv.org/abs/2502.13032v1.",
+   "title": "Efficient uav coverage in large convex quadrilateral areas with elliptical footprints",
+   "authors": [
+    "Vavoulas",
+    "Delibasis",
+    "Sandalidis",
+    "Nousias",
+    "Vaiopoulos"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": "2502.13032",
+   "urls": [
+    "http://arxiv.org/abs/2502.13032v1"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-marker-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/lwc.2026.3656481",
+    "title": "Efficient UAV Coverage in Large Convex Quadrilateral Areas With Elliptical Footprints",
+    "year": 2026,
+    "first_author": "Vavoulas",
+    "container": "IEEE Wireless Communications Letters",
+    "type": "journal-article",
+    "score": 79.23324
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2502.13032"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "Xiangjing Lai, Zhenheng Lin, Jin-Kao Hao, and Qinghua Wu. An efficient optimization model and tabu search-based global optimization approach for continuous p-dispersion problem. arXiv preprint, 2024. URL http://arxiv.org/abs/2405.16618v1.",
+   "title": "An efficient optimization model and tabu search-based global optimization approach for continuous p-dispersion problem",
+   "authors": [
+    "Lai",
+    "Lin",
+    "Hao",
+    "Wu"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": "2405.16618",
+   "urls": [
+    "http://arxiv.org/abs/2405.16618v1"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-marker-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1287/ijoc.2023.0089.cd",
+    "title": "Code and Data Repository for An Efficient Optimization Model and Tabu Search-Based Global Optimization Approach for the Continuous p-Dispersion Problem",
+    "year": 2024,
+    "first_author": "Lai",
+    "container": "INFORMS Journal on Computing",
+    "type": "journal-article",
+    "score": 72.94481
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.8,
+    "partial_ratio": 84.10596026490066,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2405.16618"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "Yong Yuan, Kevin Tole, Fei Ni, Kun He, Zhengda Xiong, and Jinfa Liu. Adaptive simulated annealing with greedy search for the circle bin packing problem. arXiv preprint, 2021. URL http://arxiv.org/abs/2108.03203v1.",
+   "title": "Adaptive simulated annealing with greedy search for the circle bin packing problem",
+   "authors": [
+    "Yuan",
+    "Tole",
+    "Ni",
+    "He",
+    "Xiong",
+    "Liu"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": "2108.03203",
+   "urls": [
+    "http://arxiv.org/abs/2108.03203v1"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-marker-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.cor.2022.105826",
+    "title": "Adaptive simulated annealing with greedy search for the circle bin packing problem",
+    "year": 2022,
+    "first_author": "Yuan",
+    "container": "Computers &amp; Operations Research",
+    "type": "journal-article",
+    "score": 69.42972
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2108.03203"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "Paolo Amore. Circle packing in regular polygons. arXiv preprint, 2022. URL http://arxiv. org/abs/2212.12287v1.",
+   "title": "Circle packing in regular polygons",
+   "authors": [
+    "Amore"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "http://arxiv"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-marker-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1063/5.0140644",
+    "title": "Circle packing in regular polygons",
+    "year": 2023,
+    "first_author": "Amore",
+    "container": "Physics of Fluids",
+    "type": "journal-article",
+    "score": 56.365906
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "Jianrong Zhou, Jiyao He, and Kun He. Solution-hashing search based on layout-graph trans- formation for unequal circle packing. arXiv preprint, 2024. URL http://arxiv.org/abs/ 2403.06211v1.",
+   "title": "Solution-hashing search based on layout-graph trans- formation for unequal circle packing",
+   "authors": [
+    "Zhou",
+    "He",
+    "He"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "http://arxiv.org/abs/"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-marker-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.ejor.2025.05.003",
+    "title": "Solution-hashing search based on layout-graph transformation for unequal circle packing",
+    "year": 2025,
+    "first_author": "Zhou",
+    "container": "European Journal of Operational Research",
+    "type": "journal-article",
+    "score": 69.41443
+   },
+   "metrics": {
+    "title_sim": 99.42857142857143,
+    "containment": 0.9,
+    "partial_ratio": 98.85057471264368,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "Alexander Novikov, Ng\u00e2n Vu\u0303, Marvin Eisenberger, Emilien Dupont, Po-Sen Huang, Adam Zsolt Wagner, Sergey Shirobokov, Borislav Kozlovskii, Francisco J. R. Ruiz, Abbas Mehrabian, M. Pawan Kumar, Abigail See, Swarat Chaudhuri, George Holland, Alex Davies, Sebastian Nowozin, Pushmeet Kohli, and Matej Balog. Alphaevolve: A coding agent for scientific and algorithmic discovery, 2025. URL https://arxiv.org/abs/2506.13131. 9",
+   "title": "Alphaevolve: A coding agent for scientific and algorithmic discovery",
+   "authors": [
+    "Novikov",
+    "V\u0169",
+    "Eisenberger",
+    "Dupont",
+    "Huang",
+    "Wagner",
+    "Shirobokov",
+    "Kozlovskii",
+    "Ruiz",
+    "Abbas Mehrabian",
+    "See",
+    "Chaudhuri",
+    "Holland",
+    "Davies",
+    "Nowozin",
+    "Kohli",
+    "Balog"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": "2506.13131",
+   "urls": [
+    "https://arxiv.org/abs/2506.13131"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-marker-guided",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2506.13131"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.4164272",
+      "title": "Algorithmic Behavioral Science: Machine Learning as a Tool for Scientific Discovery",
+      "year": 2022,
+      "first_author": "Ludwig",
+      "container": "",
+      "type": "posted-content",
+      "score": 24.223757
+     },
+     "metrics": {
+      "title_sim": 72.48322147651007,
+      "containment": 0.375,
+      "partial_ratio": 53.65853658536586,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "ed32e5bb11a9e5e2f03ea805782e8670a6e10efd",
+    "title": "AlphaEvolve: A coding agent for scientific and algorithmic discovery",
+    "year": 2025,
+    "first_author": "Alexander Novikov",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2506-13131",
+     "ArXiv": "2506.13131",
+     "DOI": "10.48550/arXiv.2506.13131",
+     "CorpusId": 278658695
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  }
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
+}

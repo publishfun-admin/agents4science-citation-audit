@@ -117,7 +117,7 @@
    "container": "ACM transactions on intelligent systems and technology",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -140,7 +140,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "888728745dbb769e29ed475d4f7661eebe1a71cf",
+    "title": "A Survey on Evaluation of Large Language Models",
+    "year": 2023,
+    "first_author": "Yu-Peng Chang",
+    "container": "ACM Transactions on Intelligent Systems and Technology",
+    "ext": {
+     "DBLP": "journals/tist/ChangWWWYZCYWWYZCYYX24",
+     "ArXiv": "2307.03109",
+     "DOI": "10.1145/3641289",
+     "CorpusId": 259360395
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -489,7 +512,7 @@
    "container": "The Twelfth International Conference on Learning Representations",
    "type": "paper-conference",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -521,7 +544,30 @@
     "container": "Findings of the Association for Computational Linguistics ACL 2024",
     "type": "proceedings-article",
     "score": 40.213
-   }
+   },
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "9ebf47129c15f61f4b77bbfe305c522480c20347",
+    "title": "Prometheus: Inducing Fine-grained Evaluation Capability in Language Models",
+    "year": 2023,
+    "first_author": "Seungone Kim",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "DBLP": "journals/corr/abs-2310-08491",
+     "ArXiv": "2310.08491",
+     "DOI": "10.48550/arXiv.2310.08491",
+     "CorpusId": 265675839
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -628,7 +674,7 @@
    "container": "Conference on health, inference, and learning",
    "type": "paper-conference",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -651,7 +697,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "89184ab496b2a1ae31e068e628479b4cd8f4b9d2",
+    "title": "Do We Still Need Clinical Language Models?",
+    "year": 2023,
+    "first_author": "Eric P. Lehman",
+    "container": "ACM Conference on Health, Inference, and Learning",
+    "ext": {
+     "DBLP": "journals/corr/abs-2302-08091",
+     "ArXiv": "2302.08091",
+     "DOI": "10.48550/arXiv.2302.08091",
+     "CorpusId": 256900662
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -677,7 +746,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -704,7 +773,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "cff26bda86237d113ed01c812ad8bedd0afbe070",
+    "title": "DeID-GPT: Zero-shot Medical Text De-Identification by GPT-4",
+    "year": 2023,
+    "first_author": "Zheng-Long Liu",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2303-11032",
+     "ArXiv": "2303.11032",
+     "DOI": "10.48550/arXiv.2303.11032",
+     "CorpusId": 257632030
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -926,7 +1018,7 @@
    "container": "AMIA Annual Symposium Proceedings",
    "type": "paper-conference",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -949,7 +1041,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "ea69c893c825c4a70e959dff05a85605e8f1dbea",
+    "title": "De-identification of Clinical Text via Bi-LSTM-CRF with Neural Language Models",
+    "year": 2019,
+    "first_author": "Buzhou Tang",
+    "container": "American Medical Informatics Association Annual Symposium",
+    "ext": {
+     "DBLP": "conf/amia/TangJC00S19",
+     "MAG": "3027647720",
+     "CorpusId": 216029661,
+     "PubMed": "32308882"
+    }
+   },
+   "metrics": {
+    "title_sim": 99.35483870967742,
+    "containment": 0.875,
+    "partial_ratio": 98.71794871794873,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1233,7 +1348,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -1260,7 +1375,31 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "b55fba1da859683fb971d0114054d1ab26a88b7a",
+    "title": "KERAP: A Knowledge-Enhanced Reasoning Approach for Accurate Zero-shot Diagnosis Prediction Using Multi-agent LLMs",
+    "year": 2025,
+    "first_author": "Yuzhang Xie",
+    "container": "AMIA ... Annual Symposium proceedings. AMIA Symposium",
+    "ext": {
+     "DBLP": "journals/corr/abs-2507-02773",
+     "ArXiv": "2507.02773",
+     "DOI": "10.48550/arXiv.2507.02773",
+     "CorpusId": 280148229,
+     "PubMed": "41726540"
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1320,7 +1459,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -1347,7 +1486,32 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "69ecf88a0d9752db7dc32b4917ee24b4974cea18",
+    "title": "JudgeLM: Fine-tuned Large Language Models are Scalable Judges",
+    "year": 2023,
+    "first_author": "Liang-Hui Zhu",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "DBLP": "conf/iclr/ZhuWW25",
+     "ArXiv": "2310.17631",
+     "DOI": "10.48550/arXiv.2310.17631",
+     "CorpusId": 264490588
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

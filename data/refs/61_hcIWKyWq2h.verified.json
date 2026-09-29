@@ -1,0 +1,2154 @@
+{
+ "pdf": "61_hcIWKyWq2h.pdf",
+ "n_entries": 42,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": true,
+   "idx": 1,
+   "raw": "Setup: Python script aggregates metrics (Table5 1); RQ3: Mixed 0.74 vs. <Rc3kmmq> 0.64 visuals in the Supplementary Material.",
+   "title": "Setup: Python script aggregates metrics (Table5 1); RQ3: Mixed 0.74 vs. <Rc3kmmq> 0.64 visuals in the Supplementary Material",
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.5194/sed-6-3141-2014-supplement",
+      "title": "Supplementary material to \"GrainSizeTools: a Python script for estimating the dynamically recrystallized grain size from grain sectional areas\"",
+      "year": 2014,
+      "first_author": "Lopez-Sanchez",
+      "container": "",
+      "type": "posted-content",
+      "score": 30.697758
+     },
+     "metrics": {
+      "title_sim": 60.483870967741936,
+      "containment": 0.308,
+      "partial_ratio": 47.111111111111114,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": true,
+   "idx": 2,
+   "raw": "H1 Results (Fig. 1): t = \u22120.365, p = 0.716;6 no size difference (rejected). Interpretation: Contrary to scaling [23], rationality plateaus, per RQ primary.",
+   "title": "1): t = \u22120.365",
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.5040/9781636701653.00000006",
+      "title": "365 Days/365 Plays",
+      "year": 2006,
+      "first_author": "Parks",
+      "container": "365 Days/365 Plays",
+      "type": "other",
+      "score": 12.56049
+     },
+     "metrics": {
+      "title_sim": 50.0,
+      "containment": 0.5,
+      "partial_ratio": 44.44444444444444,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": true,
+   "idx": 3,
+   "raw": "H4: Spearman: params 0.249 (p = 0.12), layers 0.327 (p = 0.08);9 weak positive, partial support. Addresses RQ3 weakly. ANOVA: F = 1.23, p = 0.28;10 no overall LLM variance.",
+   "title": "H4: Spearman: params 0.249 (p = 0.12), layers 0.327 (p = 0.08);9 weak positive, partial support",
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Addresses RQ3 weakly. ANOVA: F = 1.23",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.7717/peerj.2250/supp-7",
+      "title": "Supplemental Information 7: R code for Spearman Partial Correlation.",
+      "year": 2016,
+      "first_author": null,
+      "container": "",
+      "type": "component",
+      "score": 24.827042
+     },
+     "metrics": {
+      "title_sim": 49.645390070921984,
+      "containment": 0.333,
+      "partial_ratio": 39.39393939393939,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "Regression M SE = 0.051;11 modest prediction (Fig. 4 heatmap shows clusters).",
+   "title": null,
+   "authors": [
+    "SE"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.17816/gc631806-4395221",
+      "title": "Fig. 4. Heatmap shows RNA processing biological pathways enriched with protein partners of TRIM29-FLAG and its truncated forms.",
+      "year": 2026,
+      "first_author": null,
+      "container": "",
+      "type": "component",
+      "score": 33.540207
+     },
+     "metrics": {
+      "title_sim": 0,
+      "containment": 0.214,
+      "partial_ratio": 45.652173913043484,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "References [1] Gati V Aher, Rosa I. Arriaga, and Adam Tauman Kalai. Using large language models to simulate multiple humans and replicate human subject studies. In Andreas Krause, Emma Brunskill, Kyunghyun Cho, Barbara Engelhardt, Sivan Sabato, and Jonathan Scarlett, editors, Proceedings of the 40th International Conference on Machine Learning, volume 202 of Proceedings of Machine Learning Research, pages 337\u2013371. PMLR, 23\u201329 Jul 2023. URL https://proceedings.mlr.press/v202/aher23a.html. [2] Elif Akata, Lion Schulz, Julian Coda-Forno, Seong Joon Oh, Matthias Bethge, and Eric Schulz. Playing repeated games with large language models. Nature Human Behaviour, pages 1\u201311, 2025.",
+   "title": "Using large language models to simulate multiple humans and replicate human subject studies",
+   "authors": [
+    "References [1] Gati V Aher, Rosa I. Arriaga, and Adam Tauman Kalai.",
+    "Schulz"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://proceedings.mlr.press/v202/aher23a.html"
+   ],
+   "container": "Proceedings of the 40th International Conference on Machine Learning",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED_URL",
+   "via": "url",
+   "url_status": {
+    "https://proceedings.mlr.press/v202/aher23a.html": 200
+   },
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1177/25152459261461505/v1/review1",
+      "title": "Review for \"The threat of analytic flexibility in using large language models to simulate human data\"",
+      "year": 2025,
+      "first_author": null,
+      "container": "",
+      "type": "peer-review",
+      "score": 40.41016
+     },
+     "metrics": {
+      "title_sim": 68.42105263157895,
+      "containment": 0.5,
+      "partial_ratio": 63.63636363636363,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[3] Julian Ashwin, Aditya Chhabra, and Vijayendra Rao. Using large language models for qualitative analysis can introduce serious bias. Sociological Methods & Research, 0(0): 00491241251338246, 0. doi: 10.1177/00491241251338246. URL https://doi.org/10. 1177/00491241251338246.",
+   "title": "Using large language models for qualitative analysis can introduce serious bias",
+   "authors": [
+    "Ashwin",
+    "Chhabra",
+    "Rao"
+   ],
+   "year": null,
+   "doi": "10.1177/00491241251338246",
+   "arxiv": null,
+   "urls": [
+    "https://doi.org/10"
+   ],
+   "container": "Sociological Methods & Research",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1177/00491241251338246",
+    "title": "Using Large Language Models for Qualitative Analysis can Introduce Serious Bias",
+    "year": 2026,
+    "first_author": "Ashwin",
+    "container": "Sociological Methods &amp; Research",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[4] Douglas Bates, Martin M\u00e4chler, Ben Bolker, and Steve Walker. Fitting linear mixed-effects models using lme4. Journal of Statistical Software, 67(1):1\u201348, 2015. doi: 10.18637/jss.v067. i01. URL https://www.jstatsoft.org/index.php/jss/article/view/v067i01.",
+   "title": "Fitting linear mixed-effects models using lme4",
+   "authors": [
+    "Bates",
+    "M\u00e4chler",
+    "Bolker",
+    "Walker"
+   ],
+   "year": 2015,
+   "doi": "10.18637/jss.v067",
+   "arxiv": null,
+   "urls": [
+    "https://www.jstatsoft.org/index.php/jss/article/view/v067i01"
+   ],
+   "container": "Journal of Statistical Software",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18637/jss.v067.i01",
+    "title": "Fitting Linear Mixed-Effects Models Using\n                    <b>lme4</b>",
+    "year": 2015,
+    "first_author": "Bates",
+    "container": "Journal of Statistical Software",
+    "type": "journal-article",
+    "score": 61.34698
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 94.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "doi_not_resolvable",
+     "doi": "10.18637/jss.v067"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[5] Kenneth George Binmore. Playing for real: a text on game theory. Oxford university press, 2007.",
+   "title": "Playing for real: a text on game theory",
+   "authors": [
+    "Binmore"
+   ],
+   "year": 2007,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1093/acprof:oso/9780195300574.001.0001",
+    "title": "Playing for Real",
+    "year": 2007,
+    "first_author": "Binmore",
+    "container": "",
+    "type": "edited-book",
+    "score": 58.321632
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[6] Sebastian Borgeaud, Arthur Mensch, Jordan Hoffmann, Trevor Cai, Eliza Rutherford, Katie Millican, George Bm Van Den Driessche, Jean-Baptiste Lespiau, Bogdan Damoc, Aidan Clark, Diego De Las Casas, Aurelia Guy, Jacob Menick, Roman Ring, Tom Hennigan, Saffron Huang, Loren Maggiore, Chris Jones, Albin Cassirer, Andy Brock, Michela Paganini, Geoffrey Irving, Oriol Vinyals, Simon Osindero, Karen Simonyan, Jack Rae, Erich Elsen, and Laurent Sifre. Improving language models by retrieving from trillions of tokens. In Kamalika Chaudhuri, Stefanie Jegelka, Le Song, Csaba Szepesvari, Gang Niu, and Sivan Sabato, editors, Proceedings Human author note: This section is composed by human author(s). of the 39th International Conference on Machine Learning, volume 162 of Proceedings of Machine Learning Research, pages 2206\u20132240. PMLR, 17\u201323 Jul 2022. URL https:// proceedings.mlr.press/v162/borgeaud22a.html.",
+   "title": "Improving language models by retrieving from trillions of tokens",
+   "authors": [
+    "Borgeaud",
+    "Mensch",
+    "Hoffmann",
+    "Cai",
+    "Rutherford",
+    "Millican",
+    "Den Driessche",
+    "Lespiau",
+    "Damoc",
+    "Clark",
+    "Las Casas",
+    "Guy",
+    "Menick",
+    "Ring",
+    "Hennigan",
+    "Huang",
+    "Maggiore",
+    "Jones",
+    "Cassirer",
+    "Brock",
+    "Paganini",
+    "Irving",
+    "Vinyals",
+    "Osindero",
+    "Simonyan",
+    "Rae",
+    "Elsen",
+    "Sifre"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://"
+   ],
+   "container": "Proceedings Human author note: This section is composed by human author(s). of the 39th International Conference on Machine Learning",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.64898/2026.05.12.724593",
+      "title": "Structure tokens sharpen the feature vocabulary of protein language models",
+      "year": 2026,
+      "first_author": "Steenwyk",
+      "container": "",
+      "type": "posted-content",
+      "score": 26.719135
+     },
+     "metrics": {
+      "title_sim": 62.31884057971015,
+      "containment": 0.375,
+      "partial_ratio": 55.4054054054054,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    },
+    {
+     "step": "urls_not_live",
+     "url_status": {
+      "https://": "error"
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "002c256d30d6be4b23d365a8de8ae0e67e4c9641",
+    "title": "Improving language models by retrieving from trillions of tokens",
+    "year": 2021,
+    "first_author": "Sebastian Borgeaud",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "DBLP": "conf/icml/BorgeaudMHCRM0L22",
+     "ArXiv": "2112.04426",
+     "CorpusId": 244954723
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[7] Tom Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared D Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, Sandhini Agarwal, Ariel Herbert-Voss, Gretchen Krueger, Tom Henighan, Rewon Child, Aditya Ramesh, Daniel Ziegler, Jeffrey Wu, Clemens Winter, Chris Hesse, Mark Chen, Eric Sigler, Mateusz Litwin, Scott Gray, Benjamin Chess, Jack Clark, Christopher Berner, Sam McCandlish, Alec Radford, Ilya Sutskever, and Dario Amodei. Language models are few-shot learners. In H. Larochelle, M. Ranzato, R. Hadsell, M.F. Balcan, and H. Lin, editors, Advances in Neural Information Processing Systems, volume 33, pages 1877\u20131901. Curran Associates, Inc., 2020. URL https://proceedings.neurips.cc/paper_files/paper/2020/file/ 1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf.",
+   "title": "Language models are few-shot learners",
+   "authors": [
+    "Brown",
+    "Mann",
+    "Ryder",
+    "Subbiah",
+    "Kaplan",
+    "Dhariwal",
+    "Neelakantan",
+    "Shyam",
+    "Sastry",
+    "Askell",
+    "Agarwal",
+    "Herbert-Voss",
+    "Krueger",
+    "Henighan",
+    "Child",
+    "Ramesh",
+    "Ziegler",
+    "Wu",
+    "Winter",
+    "Hesse",
+    "Chen",
+    "Sigler",
+    "Litwin",
+    "Gray",
+    "Chess",
+    "Clark",
+    "Berner",
+    "McCandlish",
+    "Radford",
+    "Sutskever",
+    "Amodei"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://proceedings.neurips.cc/paper_files/paper/2020/file/"
+   ],
+   "container": "Advances in Neural Information Processing Systems",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2021.mrl-1.1",
+    "title": "Language Models are Few-shot Multilingual Learners",
+    "year": 2021,
+    "first_author": "Winata",
+    "container": "Proceedings of the 1st Workshop on Multilingual Representation Learning",
+    "type": "proceedings-article",
+    "score": 33.9889
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.833,
+    "partial_ratio": 74.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "[8] Colin Camerer. Behavioral game theory: Experiments in strategic interaction. Princeton university press, 2003.",
+   "title": "Behavioral game theory: Experiments in strategic interaction",
+   "authors": [
+    "Camerer"
+   ],
+   "year": 2003,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/s11615-004-0067-y",
+    "title": "Colin Camerer: Behavioral game theory, experiments in strategic interaction",
+    "year": 2004,
+    "first_author": "Baltz",
+    "container": "Politische Vierteljahresschrift",
+    "type": "journal-article",
+    "score": 51.042294
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "[9] Yupeng Chang, Xu Wang, Jindong Wang, Yuan Wu, Linyi Yang, Kaijie Zhu, Hao Chen, Xiaoyuan Yi, Cunxiang Wang, Yidong Wang, Wei Ye, Yue Zhang, Yi Chang, Philip S. Yu, Qiang Yang, and Xing Xie. A survey on evaluation of large language models. ACM Trans. Intell. Syst. Technol., 15(3), March 2024. ISSN 2157-6904. doi: 10.1145/3641289. URL https://doi.org/10.1145/3641289.",
+   "title": "A survey on evaluation of large language models",
+   "authors": [
+    "Chang",
+    "Wang",
+    "Wang",
+    "Wu",
+    "Yang",
+    "Zhu",
+    "Chen",
+    "Yi",
+    "Wang",
+    "Wang",
+    "Ye",
+    "Zhang",
+    "Chang",
+    "Yu",
+    "Yang",
+    "Xie"
+   ],
+   "year": 2024,
+   "doi": "10.1145/3641289",
+   "arxiv": null,
+   "urls": [
+    "https://doi.org/10.1145/3641289"
+   ],
+   "container": "ACM Trans. Intell. Syst. Technol",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3641289",
+    "title": "A Survey on Evaluation of Large Language Models",
+    "year": 2024,
+    "first_author": "Chang",
+    "container": "ACM Transactions on Intelligent Systems and Technology",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "[10] Vanessa Cheung, Maximilian Maier, and Falk Lieder. Large language models show amplified cognitive biases in moral decision-making. Proceedings of the National Academy of Sciences, 122(25):e2412015122, 2025.",
+   "title": "Large language models show amplified cognitive biases in moral decision-making",
+   "authors": [
+    "Cheung",
+    "Maier",
+    "Lieder"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the National Academy of Sciences",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.31234/osf.io/aj46b_v3",
+    "title": "Large Language Models Show Amplified Cognitive Biases in Moral Decision-Making",
+    "year": 2025,
+    "first_author": "Cheung",
+    "container": "",
+    "type": "posted-content",
+    "score": 90.85341
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "[11] Allan Dafoe, Yoram Bachrach, Gillian Hadfield, Eric Horvitz, Kate Larson, and Thore Graepel. Cooperative ai: machines must learn to find common ground. Nature, 593(7857):33\u201336, 2021.",
+   "title": "Cooperative ai: machines must learn to find common ground",
+   "authors": [
+    "Dafoe",
+    "Bachrach",
+    "Hadfield",
+    "Horvitz",
+    "Larson",
+    "Graepel"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/d41586-021-01170-0",
+    "title": "Cooperative AI: machines must learn to find common ground",
+    "year": 2021,
+    "first_author": "Dafoe",
+    "container": "Nature",
+    "type": "journal-article",
+    "score": 73.98018
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "[12] Xiachong Feng, Longxu Dou, Ella Li, Qinghao Wang, Haochuan Wang, Yu Guo, Chang Ma, and Lingpeng Kong. A survey on large language model-based social agents in game-theoretic scenarios, 2025. URL https://arxiv.org/abs/2412.03920.",
+   "title": "A survey on large language model-based social agents in game-theoretic scenarios",
+   "authors": [
+    "Feng",
+    "Dou",
+    "Li",
+    "Wang",
+    "Wang",
+    "Guo",
+    "Ma",
+    "Kong"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": "2412.03920",
+   "urls": [
+    "https://arxiv.org/abs/2412.03920"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2412.03920",
+    "title": "A Survey on Large Language Model-Based Social Agents in Game-Theoretic Scenarios",
+    "year": 2024,
+    "first_author": "Xiachong Feng"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 16,
+   "raw": "[13] Ronald Aylmer Fisher. Statistical methods for research workers. In Breakthroughs in statistics: Methodology and distribution, pages 66\u201370. Springer, 1970.",
+   "title": "Statistical methods for research workers",
+   "authors": [
+    "Fisher"
+   ],
+   "year": 1970,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Breakthroughs in statistics: Methodology and distribution",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1093/oso/9780198522294.002.0003",
+    "title": "Statistical Methods for Research Workers",
+    "year": 1990,
+    "first_author": "Fisher",
+    "container": "Statistical Methods, Experimental Design, and Scientific Inference",
+    "type": "other",
+    "score": 36.23639
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 17,
+   "raw": "[14] Trevor Hastie. The elements of statistical learning: data mining, inference, and prediction, 2009.",
+   "title": "The elements of statistical learning: data mining, inference, and prediction",
+   "authors": [
+    "Hastie"
+   ],
+   "year": 2009,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/bf02985802",
+      "title": "The elements of statistical learning: data mining, inference and prediction",
+      "year": 2005,
+      "first_author": "Franklin",
+      "container": "The Mathematical Intelligencer",
+      "type": "journal-article",
+      "score": 43.35686
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 1.0,
+      "partial_ratio": 100.0,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "4cd4ccd9225f0a3c79cd4c72bd171039e28f2ab6",
+    "title": "The Elements of Statistical Learning: Data Mining, Inference, and Prediction",
+    "year": 2001,
+    "first_author": "T. Hastie",
+    "container": "Springer Series in Statistics",
+    "ext": {
+     "MAG": "1480376833",
+     "DBLP": "books/sp/HastieFT01",
+     "DOI": "10.1007/978-0-387-84858-7",
+     "CorpusId": 58068920
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 18,
+   "raw": "[15] John J Horton. Large language models as simulated economic agents: What can we learn from homo silicus? Technical report, National Bureau of Economic Research, 2023.",
+   "title": "Large language models as simulated economic agents: What can we learn from homo silicus?",
+   "authors": [
+    "Horton"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "report",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.3386/w31122",
+    "title": "Large Language Models as Simulated Economic Agents: What Can We Learn from Homo Silicus?",
+    "year": 2023,
+    "first_author": "Horton",
+    "container": "",
+    "type": "report",
+    "score": 112.90058
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 19,
+   "raw": "[16] Jiaming Ji, Tianyi Qiu, Boyuan Chen, Borong Zhang, Hantao Lou, Kaile Wang, Yawen Duan, Zhonghao He, Lukas Vierling, Donghai Hong, Jiayi Zhou, Zhaowei Zhang, Fanzhi Zeng, Juntao Dai, Xuehai Pan, Kwan Yee Ng, Aidan O\u2019Gara, Hua Xu, Brian Tse, Jie Fu, Stephen McAleer, Yaodong Yang, Yizhou Wang, Song-Chun Zhu, Yike Guo, and Wen Gao. Ai alignment: A comprehensive survey, 2025. URL https://arxiv.org/abs/2310.19852.",
+   "title": "Jie Fu",
+   "authors": [
+    "Ji",
+    "Qiu",
+    "Chen",
+    "Zhang",
+    "Lou",
+    "Wang",
+    "Duan",
+    "He",
+    "Vierling",
+    "Hong",
+    "Zhou",
+    "Zhang",
+    "Zeng",
+    "Dai",
+    "Pan",
+    "Ng",
+    "O\u2019Gara",
+    "Xu",
+    "Tse"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": "2310.19852",
+   "urls": [
+    "https://arxiv.org/abs/2310.19852"
+   ],
+   "container": "and Wen Gao. Ai alignment: A comprehensive survey, 2025. URL",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2310.19852",
+    "title": "AI Alignment: A Comprehensive Survey",
+    "year": 2023,
+    "first_author": "Jiaming Ji"
+   },
+   "metrics": {
+    "title_sim": 19.512195121951216,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 20,
+   "raw": "[17] Jingru Jia, Zehua Yuan, Junhao Pan, Paul E. McNamara, and Deming Chen. Large language model strategic reasoning evaluation through behavioral game theory, 2025. URL https: //arxiv.org/abs/2502.20432.",
+   "title": "Large language model strategic reasoning evaluation through behavioral game theory",
+   "authors": [
+    "Jia",
+    "Yuan",
+    "Pan",
+    "McNamara",
+    "Chen"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": "2502.20432",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.52202/085713-1955",
+      "title": "LLM Strategic Reasoning: Agentic Study through Behavioral Game Theory",
+      "year": 2025,
+      "first_author": "Jia",
+      "container": "Advances in Neural Information Processing Systems 38",
+      "type": "proceedings-article",
+      "score": 47.490833
+     },
+     "metrics": {
+      "title_sim": 84.7457627118644,
+      "containment": 0.667,
+      "partial_ratio": 82.35294117647058,
+      "year_ok": true,
+      "first_author_ok": true
+     }
+    },
+    {
+     "step": "arxiv_id_resolves_title_mismatch",
+     "rec": {
+      "source": "arxiv_abs",
+      "arxiv": "2502.20432",
+      "title": "LLM Strategic Reasoning: Agentic Study through Behavioral Game Theory",
+      "year": 2025,
+      "first_author": "Jia, Jingru"
+     },
+     "metrics": {
+      "title_sim": 84.7457627118644,
+      "containment": 0.667,
+      "partial_ratio": 82.35294117647058,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": {
+    "source": "crossref",
+    "doi": "10.52202/085713-1955",
+    "title": "LLM Strategic Reasoning: Agentic Study through Behavioral Game Theory",
+    "year": 2025,
+    "first_author": "Jia",
+    "container": "Advances in Neural Information Processing Systems 38",
+    "type": "proceedings-article",
+    "score": 47.490833
+   }
+  },
+  {
+   "junk": false,
+   "idx": 21,
+   "raw": "[18] Jared Kaplan, Sam McCandlish, Tom Henighan, Tom B. Brown, Benjamin Chess, Rewon Child, Scott Gray, Alec Radford, Jeffrey Wu, and Dario Amodei. Scaling laws for neural language models, 2020. URL https://arxiv.org/abs/2001.08361. [19] D Mark Kilgour. The sequential truel. International Journal of Game Theory, 4(3):151\u2013174, 1975.",
+   "title": "Scaling laws for neural language models",
+   "authors": [
+    "Kaplan",
+    "McCandlish",
+    "Henighan",
+    "Brown",
+    "Chess",
+    "Child",
+    "Gray",
+    "Radford",
+    "Wu",
+    "Amodei",
+    "Kilgour"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": "2001.08361",
+   "urls": [
+    "https://arxiv.org/abs/2001.08361"
+   ],
+   "container": "International Journal of Game Theory",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2001.08361",
+    "title": "Scaling Laws for Neural Language Models",
+    "year": 2020,
+    "first_author": "Jared Kaplan"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 22,
+   "raw": "[20] Michal Kosinski. Evaluating large language models in theory of mind tasks. Proceedings of the National Academy of Sciences, 121(45), October 2024. ISSN 1091-6490. doi: 10.1073/pnas. 2405460121. URL http://dx.doi.org/10.1073/pnas.2405460121.",
+   "title": "Evaluating large language models in theory of mind tasks",
+   "authors": [
+    "Kosinski"
+   ],
+   "year": null,
+   "doi": "10.1073/pnas",
+   "arxiv": null,
+   "urls": [
+    "http://dx.doi.org/10.1073/pnas.2405460121"
+   ],
+   "container": "Proceedings of the National Academy of Sciences, 121(45), October 2024. ISSN 1091-6490",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1073/pnas",
+    "title": "Proceedings of the National Academy of Sciences",
+    "year": 2024,
+    "first_author": null,
+    "container": "",
+    "type": "journal",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 46.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": null
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 23,
+   "raw": "[21] Alain Ledoux. Concours r\u00e9sultats complets. Les victimes se sont plu \u00e0 jouer le, 14:10\u201311, 1981.",
+   "title": "Concours r\u00e9sultats complets",
+   "authors": [
+    "Ledoux"
+   ],
+   "year": 1981,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Les victimes se sont plu \u00e0 jouer le",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1051/quadrature/2010003",
+      "title": "Concours de fantaisies: r\u00e9sultats",
+      "year": 2010,
+      "first_author": null,
+      "container": "Quadrature",
+      "type": "journal-article",
+      "score": 26.344456
+     },
+     "metrics": {
+      "title_sim": 80.0,
+      "containment": 0.667,
+      "partial_ratio": 56.25,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 24,
+   "raw": "[22] Percy Liang, Rishi Bommasani, Tony Lee, Dimitris Tsipras, Dilara Soylu, Michihiro Yasunaga, Yian Zhang, Deepak Narayanan, Yuhuai Wu, Ananya Kumar, Benjamin Newman, Binhang Yuan, Bobby Yan, Ce Zhang, Christian Cosgrove, Christopher D Manning, Christopher Re, Diana Acosta-Navas, Drew A. Hudson, Eric Zelikman, Esin Durmus, Faisal Ladhak, Frieda Rong, Hongyu Ren, Huaxiu Yao, Jue WANG, Keshav Santhanam, Laurel Orr, Lucia Zheng, Mert Yuksekgonul, Mirac Suzgun, Nathan Kim, Neel Guha, Niladri S. Chatterji, Omar Khattab, Peter Henderson, Qian Huang, Ryan Andrew Chi, Sang Michael Xie, Shibani Santurkar, Surya Ganguli, Tatsunori Hashimoto, Thomas Icard, Tianyi Zhang, Vishrav Chaudhary, William Wang, Xuechen Li, Yifan Mai, Yuhui Zhang, and Yuta Koreeda. Holistic evaluation of language models. Transactions on Machine Learning Research, 2023. ISSN 2835-8856. URL https: //openreview.net/forum?id=iO4LZibEqW. Featured Certification, Expert Certification, Outstanding Certification.",
+   "title": "Shibani Santurkar",
+   "authors": [
+    "Liang",
+    "Bommasani",
+    "Lee",
+    "Tsipras",
+    "Soylu",
+    "Yasunaga",
+    "Zhang",
+    "Narayanan",
+    "Wu",
+    "Kumar",
+    "Newman",
+    "Yuan",
+    "Yan",
+    "Zhang",
+    "Cosgrove",
+    "Manning",
+    "Re",
+    "Acosta-Navas",
+    "Hudson",
+    "Zelikman",
+    "Durmus",
+    "Ladhak",
+    "Rong",
+    "Ren",
+    "Yao",
+    "WANG",
+    "Santhanam",
+    "Orr",
+    "Zheng",
+    "Yuksekgonul",
+    "Suzgun",
+    "Kim",
+    "Guha",
+    "Chatterji",
+    "Khattab",
+    "Henderson",
+    "Huang",
+    "Chi",
+    "Xie"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https:"
+   ],
+   "container": "Holistic evaluation of language models. Transactions on Machine Learning Research, 2023. ISSN 2835-8856. URL",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.23915/distill.00019.7",
+      "title": "Discussion and Author Responses",
+      "year": 2019,
+      "first_author": "Engstrom",
+      "container": "Distill",
+      "type": "journal-article",
+      "score": 16.808895
+     },
+     "metrics": {
+      "title_sim": 37.5,
+      "containment": 0.0,
+      "partial_ratio": 48.38709677419355,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    },
+    {
+     "step": "urls_not_live",
+     "url_status": {
+      "https:": "error"
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "99a6a05d211b5e0a314e9d5af2861e3124087a6b",
+    "title": "Towards Generative Compression by Shibani Santurkar",
+    "year": null,
+    "first_author": null,
+    "container": "",
+    "ext": {
+     "CorpusId": 59191154
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.5,
+    "partial_ratio": 54.90196078431373,
+    "year_ok": true,
+    "first_author_ok": null
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 25,
+   "raw": "[23] OpenAI, Josh Achiam, Steven Adler, Sandhini Agarwal, Lama Ahmad, Ilge Akkaya, Florencia Leoni Aleman, Diogo Almeida, Janko Altenschmidt, Sam Altman, Shyamal Anadkat, Red Avila, Igor Babuschkin, Suchir Balaji, Valerie Balcom, Paul Baltescu, Haiming Bao, Mohammad Bavarian, Jeff Belgum, Irwan Bello, Jake Berdine, Gabriel Bernadett-Shapiro, Christopher Berner, Lenny Bogdonoff, Oleg Boiko, Madelaine Boyd, Anna-Luisa Brakman, Greg Brockman, Tim Brooks, Miles Brundage, Kevin Button, Trevor Cai, Rosie Campbell, Andrew Cann, Brittany Carey, Chelsea Carlson, Rory Carmichael, Brooke Chan, Che Chang, Fotis Chantzis, Derek Chen, Sully Chen, Ruby Chen, Jason Chen, Mark Chen, Ben Chess, Chester Cho, Casey Chu, Hyung Won Chung, Dave Cummings, Jeremiah Currier, Yunxing Dai, Cory Decareaux, Thomas Degry, Noah Deutsch, Damien Deville, Arka Dhar, David Dohan, Steve Dowling, Sheila Dunning, Adrien Ecoffet, Atty Eleti, Tyna Eloundou, David Farhi, Liam Fedus, Niko Felix, Sim\u00f3n Posada Fishman, Juston Forte, Isabella Fulford, Leo Gao, Elie Georges, Christian Gibson, Vik Goel, Tarun Gogineni, Gabriel Goh, Rapha Gontijo-Lopes, Jonathan Gordon, Morgan Grafstein, Scott Gray, Ryan Greene, Joshua Gross, Shixiang Shane Gu, Yufei Guo, Chris Hallacy, Jesse Han, Jeff Harris, Yuchen He, Mike Heaton, Johannes Heidecke, Chris Hesse, Alan Hickey, Wade Hickey, Peter Hoeschele, Brandon Houghton, Kenny Hsu, Shengli Hu, Xin Hu, Joost Huizinga, Shantanu Jain, Shawn Jain, Joanne Jang, Angela Jiang, Roger Jiang, Haozhun Jin, Denny Jin, Shino Jomoto, Billie Jonn, Heewoo Jun, Tomer Kaftan, \u0141ukasz Kaiser, Ali Kamali, Ingmar Kanitscheider, Nitish Shirish Keskar, Tabarak Khan, Logan Kilpatrick, Jong Wook Kim, Christina Kim, Yongjik Kim, Jan Hendrik Kirchner, Jamie Kiros, Matt Knight, Daniel Kokotajlo, \u0141ukasz Kondraciuk, Andrew Kondrich, Aris Konstantinidis, Kyle Kosic, Gretchen Krueger, Vishal Kuo, Michael Lampe, Ikai Lan, Teddy Lee, Jan Leike, Jade Leung, Daniel Levy, Chak Ming Li, Rachel Lim, Molly Lin, Stephanie Lin, Mateusz Litwin, Theresa Lopez, Ryan Lowe, Patricia Lue, Anna Makanju, Kim Malfacini, Sam Manning, Todor Markov, Yaniv Markovski, Bianca Martin, Katie Mayer, Andrew Mayne, Bob McGrew, Scott Mayer McKinney, Christine McLeavey, Paul McMillan, Jake McNeil, David Medina, Aalok Mehta, Jacob Menick, Luke Metz, Andrey Mishchenko, Pamela Mishkin, Vinnie Monaco, Evan Morikawa, Daniel Mossing, Tong Mu, Mira Murati, Oleg Murk, David M\u00e9ly, Ashvin Nair, Reiichiro Nakano, Rajeev Nayak, Arvind Neelakantan, Richard Ngo, Hyeonwoo Noh, Long Ouyang, Cullen O\u2019Keefe, Jakub Pachocki, Alex Paino, Joe Palermo, Ashley Pantuliano, Giambattista Parascandolo, Joel Parish, Emy Parparita, Alex Passos, Mikhail Pavlov, Andrew Peng, Adam Perelman, Filipe de Avila Belbute Peres, Michael Petrov, Henrique Ponde de Oliveira Pinto, Michael, Pokorny, Michelle Pokrass, Vitchyr H. Pong, Tolly Powell, Alethea Power, Boris Power, Elizabeth Proehl, Raul Puri, Alec Radford, Jack Rae, Aditya Ramesh, Cameron Raymond, Francis Real, Kendra Rimbach, Carl Ross, Bob Rotsted, Henri Roussez, Nick Ryder, Mario Saltarelli, Ted Sanders, Shibani Santurkar, Girish Sastry, Heather Schmidt, David Schnurr, John Schulman, Daniel Selsam, Kyla Sheppard, Toki Sherbakov, Jessica Shieh, Sarah Shoker, Pranav Shyam, Szymon Sidor, Eric Sigler, Maddie Simens, Jordan Sitkin, Katarina Slama, Ian Sohl, Benjamin Sokolowsky, Yang Song, Natalie Staudacher, Felipe Petroski Such, Natalie Summers, Ilya Sutskever, Jie Tang, Nikolas Tezak, Madeleine B. Thompson, Phil Tillet, Amin Tootoonchian, Elizabeth Tseng, Preston Tuggle, Nick Turley, Jerry Tworek, Juan Felipe Cer\u00f3n Uribe, Andrea Vallone, Arun Vijayvergiya, Chelsea Voss, Carroll Wainwright, Justin Jay Wang, Alvin Wang, Ben Wang, Jonathan Ward, Jason Wei, CJ Weinmann, Akila Welihinda, Peter Welinder, Jiayi Weng, Lilian Weng, Matt Wiethoff, Dave Willner, Clemens Winter, Samuel Wolrich, Hannah Wong, Lauren Workman, Sherwin Wu, Jeff Wu, Michael Wu, Kai Xiao, Tao Xu, Sarah Yoo, Kevin Yu, Qiming Yuan, Wojciech Zaremba, Rowan Zellers, Chong Zhang, Marvin Zhang, Shengjia Zhao, Tianhao Zheng, Juntang Zhuang, William Zhuk, and Barret Zoph. Gpt-4 technical report, 2024. URL https://arxiv.org/abs/2303.08774.",
+   "title": "Filipe de Avila Belbute Peres",
+   "authors": [
+    "OpenAI",
+    "Adler",
+    "Agarwal",
+    "Ahmad",
+    "Akkaya",
+    "Aleman",
+    "Almeida",
+    "Altenschmidt",
+    "Altman",
+    "Anadkat",
+    "Avila",
+    "Babuschkin",
+    "Balaji",
+    "Balcom",
+    "Baltescu",
+    "Bao",
+    "Bavarian",
+    "Belgum",
+    "Bello",
+    "Berdine",
+    "Bernadett-Shapiro",
+    "Berner",
+    "Bogdonoff",
+    "Boiko",
+    "Boyd",
+    "Brakman",
+    "Brockman",
+    "Brooks",
+    "Brundage",
+    "Button",
+    "Cai",
+    "Campbell",
+    "Cann",
+    "Carey",
+    "Carlson",
+    "Carmichael",
+    "Chan",
+    "Chang",
+    "Chantzis",
+    "Chen",
+    "Chen",
+    "Chen",
+    "Chen",
+    "Chen",
+    "Chess",
+    "Cho",
+    "Chu",
+    "Chung",
+    "Cummings",
+    "Currier",
+    "Dai",
+    "Decareaux",
+    "Degry",
+    "Deutsch",
+    "Deville",
+    "Dhar",
+    "Dohan",
+    "Dowling",
+    "Dunning",
+    "Ecoffet",
+    "Eleti",
+    "Eloundou",
+    "Farhi",
+    "Fedus",
+    "Felix",
+    "Fishman",
+    "Forte",
+    "Fulford",
+    "Gao",
+    "Georges",
+    "Gibson",
+    "Goel",
+    "Gogineni",
+    "Goh",
+    "Gontijo-Lopes",
+    "Gordon",
+    "Grafstein",
+    "Gray",
+    "Greene",
+    "Gross",
+    "Gu",
+    "Guo",
+    "Hallacy",
+    "Han",
+    "Harris",
+    "He",
+    "Heaton",
+    "Heidecke",
+    "Hesse",
+    "Hickey",
+    "Hickey",
+    "Hoeschele",
+    "Houghton",
+    "Hsu",
+    "Hu",
+    "Hu",
+    "Huizinga",
+    "Jain",
+    "Jain",
+    "Jang",
+    "Jiang",
+    "Jiang",
+    "Jin",
+    "Jin",
+    "Jomoto",
+    "Jonn",
+    "Jun",
+    "Kaftan",
+    "Kaiser",
+    "Kamali",
+    "Kanitscheider",
+    "Keskar",
+    "Khan",
+    "Kilpatrick",
+    "Kim",
+    "Kim",
+    "Kim",
+    "Kirchner",
+    "Kiros",
+    "Knight",
+    "Kokotajlo",
+    "Kondraciuk",
+    "Kondrich",
+    "Konstantinidis",
+    "Kosic",
+    "Krueger",
+    "Kuo",
+    "Lampe",
+    "Lan",
+    "Lee",
+    "Leike",
+    "Leung",
+    "Levy",
+    "Li",
+    "Lim",
+    "Lin",
+    "Lin",
+    "Litwin",
+    "Lopez",
+    "Lowe",
+    "Lue",
+    "Makanju",
+    "Malfacini",
+    "Manning",
+    "Markov",
+    "Markovski",
+    "Martin",
+    "Mayer",
+    "Mayne",
+    "McGrew",
+    "McKinney",
+    "McLeavey",
+    "McMillan",
+    "McNeil",
+    "Medina",
+    "Mehta",
+    "Menick",
+    "Metz",
+    "Mishchenko",
+    "Mishkin",
+    "Monaco",
+    "Morikawa",
+    "Mossing",
+    "Mu",
+    "Murati",
+    "Murk",
+    "M\u00e9ly",
+    "Nair",
+    "Nakano",
+    "Nayak",
+    "Neelakantan",
+    "Ngo",
+    "Noh",
+    "Ouyang",
+    "O\u2019Keefe",
+    "Pachocki",
+    "Paino",
+    "Palermo",
+    "Pantuliano",
+    "Parascandolo",
+    "Parish",
+    "Parparita",
+    "Passos",
+    "Pavlov",
+    "Peng",
+    "Perelman"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": "2303.08774",
+   "urls": [
+    "https://arxiv.org/abs/2303.08774"
+   ],
+   "container": null,
+   "type": "report",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2303.08774",
+    "title": "GPT-4 Technical Report",
+    "year": 2023,
+    "first_author": " OpenAI"
+   },
+   "metrics": {
+    "title_sim": 35.29411764705882,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 26,
+   "raw": "[24] Soumyakanti Pan, Darpan Das, Gurumurthy Ramachandran, and Sudipto Banerjee. Bayesian hierarchical modeling and inference for mechanistic systems in industrial hygiene, 2024. URL https://arxiv.org/abs/2307.00450.",
+   "title": "Bayesian hierarchical modeling and inference for mechanistic systems in industrial hygiene",
+   "authors": [
+    "Pan",
+    "Das",
+    "Ramachandran",
+    "Banerjee"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2307.00450",
+   "urls": [
+    "https://arxiv.org/abs/2307.00450"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1093/annweh/wxae061",
+    "title": "Bayesian hierarchical modeling and inference for mechanistic systems in industrial hygiene",
+    "year": 2024,
+    "first_author": "Pan",
+    "container": "Annals of Work Exposures and Health",
+    "type": "journal-article",
+    "score": 58.67187
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2307.00450"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 27,
+   "raw": "[25] Joon Sung Park, Joseph O\u2019Brien, Carrie Jun Cai, Meredith Ringel Morris, Percy Liang, and Michael S. Bernstein. Generative agents: Interactive simulacra of human behavior. In Proceedings of the 36th Annual ACM Symposium on User Interface Software and Technology, UIST \u201923, New York, NY, USA, 2023. Association for Computing Machinery. ISBN 9798400701320. doi: 10.1145/3586183.3606763. URL https://doi.org/10.1145/3586183.3606763.",
+   "title": "Generative agents: Interactive simulacra of human behavior",
+   "authors": [
+    "Park",
+    "O\u2019Brien",
+    "Cai",
+    "Morris",
+    "Liang",
+    "Bernstein"
+   ],
+   "year": 2023,
+   "doi": "10.1145/3586183.3606763",
+   "arxiv": null,
+   "urls": [
+    "https://doi.org/10.1145/3586183.3606763"
+   ],
+   "container": "Proceedings of the 36th Annual ACM Symposium on User Interface Software and Technology, UIST \u201923",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3586183.3606763",
+    "title": "Generative Agents: Interactive Simulacra of Human Behavior",
+    "year": 2023,
+    "first_author": "Park",
+    "container": "Proceedings of the 36th Annual ACM Symposium on User Interface Software and Technology",
+    "type": "proceedings-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 28,
+   "raw": "[26] Steve Phelps and Yvan I. Russell. The machine psychology of cooperation: Can gpt models operationalise prompts for altruism, cooperation, competitiveness and selfishness in economic games?, 2024. URL https://arxiv.org/abs/2305.07970.",
+   "title": "The machine psychology of cooperation: Can gpt models operationalise prompts for altruism, cooperation, competitiveness and selfishness in economic games?",
+   "authors": [
+    "Phelps",
+    "Russell"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2305.07970",
+   "urls": [
+    "https://arxiv.org/abs/2305.07970"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1088/2632-072x/ada711",
+    "title": "The machine psychology of cooperation: can GPT models operationalize prompts for altruism, cooperation, competitiveness, and selfishness in economic games?",
+    "year": 2025,
+    "first_author": "Phelps",
+    "container": "Journal of Physics: Complexity",
+    "type": "journal-article",
+    "score": 105.884674
+   },
+   "metrics": {
+    "title_sim": 99.33333333333333,
+    "containment": 0.929,
+    "partial_ratio": 99.33333333333333,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2305.07970"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 29,
+   "raw": "[27] Stuart Russell. Human compatible: AI and the problem of control. Penguin Uk, 2019.",
+   "title": "Human compatible: AI and the problem of control",
+   "authors": [
+    "Russell"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Penguin Uk",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.5840/jis2021331/220",
+      "title": "Russell, Stuart. Human Compatible: Artificial Intelligence and the Problem of Control",
+      "year": 2021,
+      "first_author": "Topf",
+      "container": "Journal of Interdisciplinary Studies",
+      "type": "journal-article",
+      "score": 31.598215
+     },
+     "metrics": {
+      "title_sim": 96.62921348314607,
+      "containment": 0.75,
+      "partial_ratio": 69.6774193548387,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 30,
+   "raw": "[28] Paul A Samuelson. The pure theory of public expenditure. The review of economics and statistics, pages 387\u2013389, 1954.",
+   "title": "The pure theory of public expenditure",
+   "authors": [
+    "Samuelson"
+   ],
+   "year": 1954,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "The review of economics and statistics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.2307/1925895",
+    "title": "The Pure Theory of Public Expenditure",
+    "year": 1954,
+    "first_author": "Samuelson",
+    "container": "The Review of Economics and Statistics",
+    "type": "journal-article",
+    "score": 46.217735
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 31,
+   "raw": "[29] Nino Scherrer, Claudia Shi, Amir Feder, and David Blei. Evaluating the moral beliefs encoded in llms. In A. Oh, T. Naumann, A. Globerson, K. Saenko, M. Hardt, and S. Levine, editors, Advances in Neural Information Processing Systems, volume 36, pages 51778\u201351809. Curran Associates, Inc., 2023. URL https://proceedings.neurips.cc/paper_files/paper/ 2023/file/a2cf225ba392627529efef14dc857e22-Paper-Conference.pdf.",
+   "title": "Evaluating the moral beliefs encoded in llms",
+   "authors": [
+    "Scherrer",
+    "Shi",
+    "Feder",
+    "Blei"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://proceedings.neurips.cc/paper_files/paper/"
+   ],
+   "container": "Advances in Neural Information Processing Systems",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/075280-2256",
+    "title": "Evaluating the Moral Beliefs Encoded in LLMs",
+    "year": 2023,
+    "first_author": "Scherrer",
+    "container": "Advances in Neural Information Processing Systems 36",
+    "type": "proceedings-article",
+    "score": 57.76437
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 32,
+   "raw": "[30] Timo Schick, Jane Dwivedi-Yu, Roberto Dessi, Roberta Raileanu, Maria Lomeli, Eric Hambro, Luke Zettlemoyer, Nicola Cancedda, and Thomas Scialom. Toolformer: Language models can teach themselves to use tools. In A. Oh, T. Naumann, A. Globerson, K. Saenko, M. Hardt, and S. Levine, editors, Advances in Neural Information Processing Systems, volume 36, pages 68539\u201368551. Curran Associates, Inc., 2023.    URL https://proceedings.neurips.cc/paper_files/paper/2023/file/ d842425e4bf79ba039352da0f658a906-Paper-Conference.pdf.",
+   "title": "Toolformer: Language models can teach themselves to use tools",
+   "authors": [
+    "Schick",
+    "Dwivedi-Yu",
+    "Dessi",
+    "Raileanu",
+    "Lomeli",
+    "Hambro",
+    "Zettlemoyer",
+    "Cancedda",
+    "Scialom"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://proceedings.neurips.cc/paper_files/paper/2023/file/"
+   ],
+   "container": "Advances in Neural Information Processing Systems",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/075280-2997",
+    "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+    "year": 2023,
+    "first_author": "Schick",
+    "container": "Advances in Neural Information Processing Systems 36",
+    "type": "proceedings-article",
+    "score": 66.8361
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 33,
+   "raw": "[31] Lloyd S Shapley and Martin Shubik. On the core of an economic system with externalities. The American Economic Review, 59(4):678\u2013684, 1969.",
+   "title": "On the core of an economic system with externalities",
+   "authors": [
+    "Shapley",
+    "Shubik"
+   ],
+   "year": 1969,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "The American Economic Review",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.7249/rm5836",
+    "title": "On the Core of an Economic System with Externalities",
+    "year": 1969,
+    "first_author": null,
+    "container": "",
+    "type": "edited-book",
+    "score": 43.490215
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": null
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 34,
+   "raw": "[32] Charles Spearman. The proof and measurement of association between two things. The American journal of psychology, 100(3/4):441\u2013471, 1987.",
+   "title": "The proof and measurement of association between two things",
+   "authors": [
+    "Spearman"
+   ],
+   "year": 1987,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "The American journal of psychology",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.2307/1422689",
+    "title": "The Proof and Measurement of Association between Two Things",
+    "year": 1987,
+    "first_author": "Spearman",
+    "container": "The American Journal of Psychology",
+    "type": "journal-article",
+    "score": 54.301632
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 35,
+   "raw": "[33] Ian Stewart. A puzzle for pirates. Scientific American, 280(5):98\u201399, 1999.",
+   "title": "A puzzle for pirates",
+   "authors": [
+    "Stewart"
+   ],
+   "year": 1999,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Scientific American",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/scientificamerican0599-98",
+    "title": "A Puzzle for Pirates",
+    "year": 1999,
+    "first_author": "Stewart",
+    "container": "Scientific American",
+    "type": "journal-article",
+    "score": 39.974804
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 36,
+   "raw": "[34] Student. The probable error of a mean. Biometrika, pages 1\u201325, 1908.",
+   "title": "The probable error of a mean",
+   "authors": [],
+   "year": 1908,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Biometrika",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.2307/2331554",
+    "title": "The Probable Error of a Mean",
+    "year": 1908,
+    "first_author": "Student",
+    "container": "Biometrika",
+    "type": "journal-article",
+    "score": 41.299294
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 37,
+   "raw": "[35] Haoran Sun, Yusen Wu, Peng Wang, Wei Chen, Yukun Cheng, Xiaotie Deng, and Xu Chu. Game theory meets large language models: A systematic survey with taxonomy and new frontiers, 2025. URL https://arxiv.org/abs/2502.09053.",
+   "title": "Game theory meets large language models: A systematic survey with taxonomy and new frontiers",
+   "authors": [
+    "Sun",
+    "Wu",
+    "Wang",
+    "Chen",
+    "Cheng",
+    "Deng",
+    "Chu"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": "2502.09053",
+   "urls": [
+    "https://arxiv.org/abs/2502.09053"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.24963/ijcai.2025/1184",
+    "title": "Game Theory Meets Large Language Models: A Systematic Survey",
+    "year": 2025,
+    "first_author": "Sun",
+    "container": "Proceedings of the Thirty-Fourth International Joint Conference on Artificial Intelligence",
+    "type": "proceedings-article",
+    "score": 54.724636
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2502.09053"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 38,
+   "raw": "[36] Jen tse Huang, Eric John Li, Man Ho LAM, Tian Liang, Wenxuan Wang, Youliang Yuan, Wenxiang Jiao, Xing Wang, Zhaopeng Tu, and Michael Lyu. Competing large language models in multi-agent gaming environments. In The Thirteenth International Conference on Learning Representations, 2025. URL https://openreview.net/forum?id=DI4gW8viB6.",
+   "title": "Competing large language models in multi-agent gaming environments",
+   "authors": [
+    "Huang",
+    "Li",
+    "LAM",
+    "Liang",
+    "Wang",
+    "Yuan",
+    "Jiao",
+    "Wang",
+    "Tu",
+    "Lyu"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://openreview.net/forum?id=DI4gW8viB6"
+   ],
+   "container": "The Thirteenth International Conference on Learning Representations, 2025. URL",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED_URL",
+   "via": "url",
+   "url_status": {
+    "https://openreview.net/forum?id=DI4gW8viB6": 200
+   },
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.6682038",
+      "title": "Multi-Agent Large Language Models with Reinforcement Learning for Quant Trading",
+      "year": 2026,
+      "first_author": "Chen",
+      "container": "",
+      "type": "posted-content",
+      "score": 33.329365
+     },
+     "metrics": {
+      "title_sim": 74.48275862068965,
+      "containment": 0.667,
+      "partial_ratio": 58.22784810126582,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 39,
+   "raw": "[37] Tomer Ullman. Large language models fail on trivial alterations to theory-of-mind tasks, 2023. URL https://arxiv.org/abs/2302.08399.",
+   "title": "Large language models fail on trivial alterations to theory-of-mind tasks",
+   "authors": [
+    "Ullman"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2302.08399",
+   "urls": [
+    "https://arxiv.org/abs/2302.08399"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2302.08399"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1073/pnas.2405460121",
+      "title": "Evaluating large language models in theory of mind tasks",
+      "year": 2024,
+      "first_author": "Kosinski",
+      "container": "Proceedings of the National Academy of Sciences",
+      "type": "journal-article",
+      "score": 35.505707
+     },
+     "metrics": {
+      "title_sim": 85.71428571428571,
+      "containment": 0.857,
+      "partial_ratio": 64.28571428571428,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "9004924824cc0b1c840bcc91ba79475882623790",
+    "title": "Large Language Models Fail on Trivial Alterations to Theory-of-Mind Tasks",
+    "year": 2023,
+    "first_author": "T. Ullman",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2302-08399",
+     "ArXiv": "2302.08399",
+     "DOI": "10.48550/arXiv.2302.08399",
+     "CorpusId": 256900823
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 40,
+   "raw": "[38] John Von Neumann and Oskar Morgenstern. Theory of games and economic behavior, 2nd rev. 1947.",
+   "title": "Theory of games and economic behavior",
+   "authors": [
+    "Neumann",
+    "Morgenstern"
+   ],
+   "year": 1947,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.2307/1925651",
+    "title": "Theory of Games and Economic Behavior",
+    "year": 1947,
+    "first_author": "Wald",
+    "container": "The Review of Economics and Statistics",
+    "type": "journal-article",
+    "score": 38.453568
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 41,
+   "raw": "[39] Jason Wei, Xuezhi Wang, Dale Schuurmans, Maarten Bosma, brian ichter, Fei Xia, Ed Chi, Quoc V Le, and Denny Zhou. Chain-of-thought prompting elicits reasoning in large language models. In S. Koyejo, S. Mohamed, A. Agarwal, D. Belgrave, K. Cho, and A. Oh, editors, Advances in Neural Information Processing Systems, volume 35, pages 24824\u201324837. Curran Associates, Inc., 2022. URL https://proceedings.neurips.cc/paper_files/paper/ 2022/file/9d5609613524ecf4f15af0f7b31abca4-Paper-Conference.pdf.",
+   "title": "Chain-of-thought prompting elicits reasoning in large language models",
+   "authors": [
+    "Wei",
+    "Wang",
+    "Schuurmans",
+    "Bosma",
+    "ichter",
+    "Xia",
+    "Chi",
+    "Le",
+    "Zhou"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://proceedings.neurips.cc/paper_files/paper/"
+   ],
+   "container": "Advances in Neural Information Processing Systems",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/068431-1800",
+    "title": "Chain-Of-Thought Prompting Elicits Reasoning in Large Language Models",
+    "year": 2022,
+    "first_author": "Wei",
+    "container": "Advances in Neural Information Processing Systems 35",
+    "type": "proceedings-article",
+    "score": 60.126316
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 42,
+   "raw": "[40] Shunyu Yao, Dian Yu, Jeffrey Zhao, Izhak Shafran, Tom Griffiths, Yuan Cao, and Karthik Narasimhan. Tree of thoughts: Deliberate problem solving with large language models. In A. Oh, T. Naumann, A. Globerson, K. Saenko, M. Hardt, and S. Levine, editors, Advances in Neural Information Processing Systems, volume 36, pages 11809\u201311822. Curran Associates, Inc., 2023. URL https://proceedings.neurips.cc/paper_files/paper/2023/file/ 271db9922b8d1f4dd7aaef84ed5ac703-Paper-Conference.pdf.",
+   "title": "Tree of thoughts: Deliberate problem solving with large language models",
+   "authors": [
+    "Yao",
+    "Yu",
+    "Zhao",
+    "Shafran",
+    "Griffiths",
+    "Cao",
+    "Narasimhan"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://proceedings.neurips.cc/paper_files/paper/2023/file/"
+   ],
+   "container": "Advances in Neural Information Processing Systems",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/075280-0517",
+    "title": "Tree of Thoughts: Deliberate Problem Solving with Large Language Models",
+    "year": 2023,
+    "first_author": "Yao",
+    "container": "Advances in Neural Information Processing Systems 36",
+    "type": "proceedings-article",
+    "score": 61.22408
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  }
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
+}

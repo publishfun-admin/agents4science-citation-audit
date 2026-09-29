@@ -30,7 +30,7 @@
    "container": "Nature",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -53,7 +53,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "7572ba7f604ef95d7acdd657ebac458106bd35df",
+    "title": "Accurate structure prediction of biomolecular interactions with AlphaFold 3",
+    "year": 2024,
+    "first_author": "Josh Abramson",
+    "container": "Nature",
+    "ext": {
+     "PubMedCentral": "11168924",
+     "DOI": "10.1038/s41586-024-07487-w",
+     "CorpusId": 269633210,
+     "PubMed": "38718835"
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -398,7 +421,7 @@
    "container": "International Conference on Learning Representations (ICLR",
    "type": "paper-conference",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -421,7 +444,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "59713b444d3268528416f23fe860ba63bb03fc04",
+    "title": "3D Equivariant Diffusion for Target-Aware Molecule Generation and Affinity Prediction",
+    "year": 2023,
+    "first_author": "Jiaqi Guan",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "DBLP": "conf/iclr/GuanQPS0M23",
+     "ArXiv": "2303.03543",
+     "DOI": "10.48550/arXiv.2303.03543",
+     "CorpusId": 257378597
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -446,7 +492,7 @@
    "container": "International Conference on Machine Learning (ICML",
    "type": "paper-conference",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -469,7 +515,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "d086b0e2fb58024ce264e985334eddd1314f0e7b",
+    "title": "DecompDiff: Diffusion Models with Decomposed Priors for Structure-Based Drug Design",
+    "year": 2024,
+    "first_author": "Jiaqi Guan",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "DBLP": "conf/icml/GuanZYB0M0WG23",
+     "ArXiv": "2403.07902",
+     "DOI": "10.48550/arXiv.2403.07902",
+     "CorpusId": 260835781
+    }
+   },
+   "metrics": {
+    "title_sim": 99.38650306748467,
+    "containment": 0.778,
+    "partial_ratio": 98.78048780487805,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -531,7 +600,7 @@
    "container": "International Conference on Learning Representations (ICLR",
    "type": "paper-conference",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -554,7 +623,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "bbdc99cc9dea5f78d80e6223d343ab52d35914df",
+    "title": "3DMolFormer: A Dual-channel Framework for Structure-based Drug Discovery",
+    "year": 2025,
+    "first_author": "Xiuyuan Hu",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "ArXiv": "2502.05107",
+     "DBLP": "journals/corr/abs-2502-05107",
+     "DOI": "10.48550/arXiv.2502.05107",
+     "CorpusId": 276235958
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -736,7 +828,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -763,7 +855,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "2557e9cc9e0c96fccee61e8655e8a4966e5412bc",
+    "title": "CBGBench: Fill in the Blank of Protein-Molecule Complex Binding Graph",
+    "year": 2024,
+    "first_author": "Haitao Lin",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "DBLP": "journals/corr/abs-2406-10840",
+     "ArXiv": "2406.10840",
+     "DOI": "10.48550/arXiv.2406.10840",
+     "CorpusId": 270560297
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -873,7 +988,7 @@
    "container": "International Conference on Machine Learning (ICML",
    "type": "paper-conference",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -896,7 +1011,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "ecd7332cd3d34220a8cf01c30385da123c61dff0",
+    "title": "Pocket2Mol: Efficient Molecular Sampling Based on 3D Protein Pockets",
+    "year": 2022,
+    "first_author": "Xingang Peng",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "DBLP": "journals/corr/abs-2205-07249",
+     "ArXiv": "2205.07249",
+     "DOI": "10.48550/arXiv.2205.07249",
+     "CorpusId": 248811125
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1183,5 +1321,7 @@
    },
    "evidence": []
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

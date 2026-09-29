@@ -131,7 +131,7 @@
    "container": "Advances in Neural Information Processing Systems",
    "type": "chapter",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -154,7 +154,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "e58c2e9042c29ed3972e35a1a9a2db03a1d288b7",
+    "title": "The Asymptotic Convergence-Rate of Q-learning",
+    "year": 1997,
+    "first_author": "Csaba Szepesvari",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "MAG": "2150147323",
+     "DBLP": "conf/nips/Szepesvari97",
+     "CorpusId": 7144229
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -208,7 +230,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -235,7 +257,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "e460cccfa9c09bcbcd7913b179dbe78866334bec",
+    "title": "Stochastic approximation with cone-contractive operators: Sharp \ud835\udcc1\u221e-bounds for Q-learning",
+    "year": 2019,
+    "first_author": "M. Wainwright",
+    "container": "arXiv.org",
+    "ext": {
+     "MAG": "2946280430",
+     "DBLP": "journals/corr/abs-1905-06265",
+     "ArXiv": "1905.06265",
+     "CorpusId": 167222152
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -295,7 +340,7 @@
    "container": "Conference on Learning Theory",
    "type": "paper-conference",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -318,7 +363,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "5fe5376f88ff94e67ef7f8677a7cb70820bb8338",
+    "title": "Finite-Time Analysis of Asynchronous Stochastic Approximation and Q-Learning",
+    "year": 2020,
+    "first_author": "Guannan Qu",
+    "container": "Annual Conference Computational Learning Theory",
+    "ext": {
+     "DBLP": "journals/corr/abs-2002-00260",
+     "MAG": "3046298552",
+     "ArXiv": "2002.00260",
+     "CorpusId": 211010565
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -539,7 +607,7 @@
    "container": "NeurIPS",
    "type": "chapter",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -562,7 +630,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "0bd07bcdede3fecef852556168471b0098223e9f",
+    "title": "Provable Self-Play Algorithms for Competitive Reinforcement Learning",
+    "year": 2020,
+    "first_author": "Yu Bai",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "DBLP": "conf/icml/BaiJ20",
+     "MAG": "3005199613",
+     "ArXiv": "2002.04017",
+     "CorpusId": 211069002
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -581,7 +672,7 @@
    "container": "ICML",
    "type": "chapter",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -604,7 +695,31 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "31f5755044ba4b05cff59b8e83bd049057311925",
+    "title": "Sample-Efficient Reinforcement Learning for Linearly-Parameterized MDPs with a Generative Model",
+    "year": 2021,
+    "first_author": "Bingyan Wang",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "DBLP": "conf/nips/WangYF21",
+     "PubMedCentral": "9512142",
+     "ArXiv": "2105.14016",
+     "CorpusId": 235248265,
+     "PubMed": "36168331"
+    }
+   },
+   "metrics": {
+    "title_sim": 94.01709401709402,
+    "containment": 0.556,
+    "partial_ratio": 71.76470588235294,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -625,7 +740,7 @@
    "container": "ICML",
    "type": "chapter",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -648,7 +763,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "e1ac9023f2991ebc840b99d6f0203201a3adfaf4",
+    "title": "Pessimistic Q-Learning for Offline Reinforcement Learning: Towards Optimal Sample Complexity",
+    "year": 2022,
+    "first_author": "Laixi Shi",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "DBLP": "journals/corr/abs-2202-13890",
+     "ArXiv": "2202.13890",
+     "CorpusId": 247159013
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -716,7 +853,7 @@
    "container": "ICML",
    "type": "chapter",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -739,7 +876,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "69e76e16740ed69f4dc55361a3d319ac2f1293dd",
+    "title": "Asynchronous Methods for Deep Reinforcement Learning",
+    "year": 2016,
+    "first_author": "Volodymyr Mnih",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "MAG": "2964043796",
+     "DBLP": "journals/corr/MnihBMGLHSK16",
+     "ArXiv": "1602.01783",
+     "CorpusId": 6875312
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -756,7 +916,7 @@
    "container": "ICML",
    "type": "chapter",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -779,7 +939,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "80196cdfcd0c6ce2953bf65a7f019971e2026386",
+    "title": "IMPALA: Scalable Distributed Deep-RL with Importance Weighted Actor-Learner Architectures",
+    "year": 2018,
+    "first_author": "L. Espeholt",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "DBLP": "conf/icml/EspeholtSMSMWDF18",
+     "MAG": "2950708659",
+     "ArXiv": "1802.01561",
+     "CorpusId": 3645060
+    }
+   },
+   "metrics": {
+    "title_sim": 99.42857142857143,
+    "containment": 0.778,
+    "partial_ratio": 98.86363636363636,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -799,7 +982,7 @@
    "container": "ICML",
    "type": "chapter",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -822,7 +1005,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "b42c38975f3d3f8bfe4b0c1a6e576c3e297cec38",
+    "title": "Stochastic Gradient Push for Distributed Deep Learning",
+    "year": 2018,
+    "first_author": "Mahmoud Assran",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "DBLP": "journals/corr/abs-1811-10792",
+     "MAG": "2902410171",
+     "ArXiv": "1811.10792",
+     "CorpusId": 53753741
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -841,7 +1047,7 @@
    "container": "AISTATS",
    "type": "chapter",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -864,7 +1070,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "37cb0aa3ecc995dcff2c39809eb79f6add5f09d0",
+    "title": "Convergence Rates of Distributed TD(0) with Linear Function Approximation for Multi-Agent Reinforcement Learning",
+    "year": 2019,
+    "first_author": "Thinh T. Doan",
+    "container": "",
+    "ext": {
+     "MAG": "2917253626",
+     "ArXiv": "1902.07393",
+     "CorpusId": 119668636
+    }
+   },
+   "metrics": {
+    "title_sim": 98.53658536585365,
+    "containment": 0.9,
+    "partial_ratio": 91.89189189189189,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -925,7 +1153,7 @@
    "container": "NeurIPS",
    "type": "chapter",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -948,7 +1176,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "f929ecd7c7887d140ccd5ec002da758885bc70f5",
+    "title": "Decentralized TD Tracking with Linear Function Approximation and its Finite-Time Analysis",
+    "year": 2020,
+    "first_author": "Gang Wang",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "MAG": "3102694509",
+     "DBLP": "conf/nips/0014LGT020",
+     "CorpusId": 227276589
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1091,7 +1341,7 @@
    "container": "ICML",
    "type": "chapter",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -1114,7 +1364,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "4ed5a908f8610fb8f0fceafe028ff43e39cfc6a7",
+    "title": "Federated Reinforcement Learning: Linear Speedup Under Markovian Sampling",
+    "year": 2022,
+    "first_author": "S. Khodadadian",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "DBLP": "conf/icml/KhodadadianSJM22",
+     "DOI": "10.48550/arXiv.2206.10185",
+     "CorpusId": 280000566
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1133,7 +1405,7 @@
    "container": "Journal of Machine Learning Research",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -1156,7 +1428,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "5279bc7a28aace6d516603e2e3d7cfa1abd3c0e8",
+    "title": "The Blessing of Heterogeneity in Federated Q-learning: Linear Speedup and Beyond",
+    "year": 2023,
+    "first_author": "Jiin Woo",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "DBLP": "conf/icml/WooJC23",
+     "ArXiv": "2305.10697",
+     "DOI": "10.48550/arXiv.2305.10697",
+     "CorpusId": 258762688
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1259,7 +1554,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -1292,7 +1587,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "6ee4bb89f08b932ccecc9c179e1bdd98a1f82487",
+    "title": "Federated Q-Learning: Linear Regret Speedup with Low Communication Cost",
+    "year": 2023,
+    "first_author": "Zhong Zheng",
+    "container": "arXiv.org",
+    "ext": {
+     "ArXiv": "2312.15023",
+     "DBLP": "journals/corr/abs-2312-15023",
+     "DOI": "10.48550/arXiv.2312.15023",
+     "CorpusId": 266551478
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1311,7 +1629,7 @@
    "container": "ICLR",
    "type": "chapter",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -1343,7 +1661,30 @@
     "container": "Advances in Neural Information Processing Systems 38",
     "type": "proceedings-article",
     "score": 45.94768
-   }
+   },
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "5faf1ee9e2f58daac97af704920cc26ae91fd9c3",
+    "title": "Federated Q-Learning with Reference-Advantage Decomposition: Almost Optimal Regret and Logarithmic Communication Cost",
+    "year": 2024,
+    "first_author": "Zhong Zheng",
+    "container": "arXiv.org",
+    "ext": {
+     "ArXiv": "2405.18795",
+     "DBLP": "journals/corr/abs-2405-18795",
+     "DOI": "10.48550/arXiv.2405.18795",
+     "CorpusId": 270094749
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1364,7 +1705,7 @@
    "container": "ICLR",
    "type": "chapter",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -1387,7 +1728,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "fe872e6d3d1fa18852c800e6223a55cbbb977d1c",
+    "title": "Asynchronous Federated Reinforcement Learning with Policy Gradient Updates: Algorithm Design and Convergence Analysis",
+    "year": 2024,
+    "first_author": "Guangchen Lan",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "DBLP": "journals/corr/abs-2404-08003",
+     "ArXiv": "2404.08003",
+     "DOI": "10.48550/arXiv.2404.08003",
+     "CorpusId": 269137649
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1445,7 +1809,7 @@
    "container": "NeurIPS",
    "type": "chapter",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -1468,7 +1832,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "7efa543b005cb4838ec951ef096ef6e5060cedac",
+    "title": "Fault-Tolerant Federated Reinforcement Learning with Theoretical Guarantee",
+    "year": 2021,
+    "first_author": "Flint Xiaofeng Fan",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "DBLP": "conf/nips/FanMDJTL21",
+     "ArXiv": "2110.14074",
+     "CorpusId": 239998764
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1763,7 +2149,7 @@
    "container": "Journal of Machine Learning Research",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -1786,7 +2172,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "69747b3988a1fb9df2754dc3a355380216ddcd39",
+    "title": "Sample Complexity of Variance-reduced Distributionally Robust Q-learning",
+    "year": 2023,
+    "first_author": "Shengbo Wang",
+    "container": "Journal of machine learning research",
+    "ext": {
+     "DBLP": "journals/jmlr/WangSBZ24",
+     "ArXiv": "2305.18420",
+     "DOI": "10.48550/arXiv.2305.18420",
+     "CorpusId": 258967482
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1830,5 +2239,7 @@
     }
    ]
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

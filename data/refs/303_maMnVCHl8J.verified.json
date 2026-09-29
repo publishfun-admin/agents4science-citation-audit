@@ -30,7 +30,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -57,7 +57,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "a38e0f993e4805ba8a9beae4c275c91ffcec01df",
+    "title": "Program Synthesis with Large Language Models",
+    "year": 2021,
+    "first_author": "Jacob Austin",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2108-07732",
+     "ArXiv": "2108.07732",
+     "CorpusId": 237142385
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -114,7 +136,7 @@
    "container": null,
    "type": "book",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -137,7 +159,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "668b1277fbece28c4841eeab1c97e4ebd0079700",
+    "title": "Pattern Recognition and Machine Learning",
+    "year": 2006,
+    "first_author": "Radford M. Neal",
+    "container": "Technometrics",
+    "ext": {
+     "MAG": "2009086942",
+     "DBLP": "journals/jei/BishopN07",
+     "DOI": "10.1007/978-0-387-45528-0",
+     "CorpusId": 31993898
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -155,7 +200,7 @@
    "container": "International conference on machine learning",
    "type": "paper-conference",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -178,7 +223,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "848e3ed9b9b14f648b63ea66cbf2a5663bd22fdd",
+    "title": "The Ladder: A Reliable Leaderboard for Machine Learning Competitions",
+    "year": 2015,
+    "first_author": "Avrim Blum",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "DBLP": "journals/corr/BlumH15",
+     "MAG": "1798749056",
+     "ArXiv": "1502.04585",
+     "CorpusId": 1493191
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -246,7 +314,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -273,7 +341,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "acbdbf49f9bc3f151b93d9ca9a06009f4f6eb269",
+    "title": "Evaluating Large Language Models Trained on Code",
+    "year": 2021,
+    "first_author": "Mark Chen",
+    "container": "arXiv.org",
+    "ext": {
+     "ArXiv": "2107.03374",
+     "DBLP": "journals/corr/abs-2107-03374",
+     "CorpusId": 235755472
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -344,7 +434,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -371,7 +461,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "6ad54e99b9ce6fb7d9d312aa0cc753ba873cfff6",
+    "title": "CURIE: Evaluating LLMs On Multitask Scientific Long Context Understanding and Reasoning",
+    "year": 2025,
+    "first_author": "Hao Cui",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "DBLP": "journals/corr/abs-2503-13517",
+     "ArXiv": "2503.13517",
+     "DOI": "10.48550/arXiv.2503.13517",
+     "CorpusId": 277104795
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -523,7 +636,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -550,7 +663,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "d6d0fd994f37b630f35945736b5e1bb198148404",
+    "title": "Time Travel in LLMs: Tracing Data Contamination in Large Language Models",
+    "year": 2023,
+    "first_author": "Shahriar Golchin",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "ArXiv": "2308.08493",
+     "DBLP": "journals/corr/abs-2308-08493",
+     "DOI": "10.48550/arXiv.2308.08493",
+     "CorpusId": 260925501
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -569,7 +705,7 @@
    "container": null,
    "type": "book",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -592,7 +728,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "4cd4ccd9225f0a3c79cd4c72bd171039e28f2ab6",
+    "title": "The Elements of Statistical Learning: Data Mining, Inference, and Prediction",
+    "year": 2001,
+    "first_author": "T. Hastie",
+    "container": "Springer Series in Statistics",
+    "ext": {
+     "MAG": "1480376833",
+     "DBLP": "books/sp/HastieFT01",
+     "DOI": "10.1007/978-0-387-84858-7",
+     "CorpusId": 58068920
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -686,7 +845,7 @@
    "container": "Ijcai",
    "type": "chapter",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -709,7 +868,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "8c70a0a39a686bf80b76cb1b77f9eef156f6432d",
+    "title": "A Study of Cross-Validation and Bootstrap for Accuracy Estimation and Model Selection",
+    "year": 1995,
+    "first_author": "Ron Kohavi",
+    "container": "International Joint Conference on Artificial Intelligence",
+    "ext": {
+     "MAG": "1680392829",
+     "DBLP": "conf/ijcai/Kohavi95",
+     "CorpusId": 2702042
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -768,7 +949,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -795,7 +976,28 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "7b918880d0944f89e7ba02e6337030ea94cc4af4",
+    "title": "ER-Reason: A Benchmark Dataset for LLM Clinical Reasoning in the Emergency Room",
+    "year": 2025,
+    "first_author": "Nikita Mehandru",
+    "container": "",
+    "ext": {
+     "ArXiv": "2505.22919",
+     "CorpusId": 278995750
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 92.3076923076923,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -951,7 +1153,7 @@
    "container": "Advances in neural information processing systems",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -974,7 +1176,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "b58d8579ece27a60432e667bfbdb750590fa65d9",
+    "title": "True Few-Shot Learning with Language Models",
+    "year": 2021,
+    "first_author": "Ethan Perez",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "ArXiv": "2105.11447",
+     "DBLP": "conf/nips/PerezKC21",
+     "CorpusId": 235166749
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1000,7 +1224,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -1027,7 +1251,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "352420ee61a8da783ca7750170793613b18b8d9c",
+    "title": "Tool Learning with Foundation Models",
+    "year": 2023,
+    "first_author": "Yujia Qin",
+    "container": "ACM Computing Surveys",
+    "ext": {
+     "DBLP": "journals/corr/abs-2304-08354",
+     "ArXiv": "2304.08354",
+     "DOI": "10.1145/3704435",
+     "CorpusId": 258179336
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1080,7 +1327,7 @@
    "container": "International conference on machine learning",
    "type": "paper-conference",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -1103,7 +1350,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "4e0bb8c1c683b43357c5d5216f6b74ff2cb32434",
+    "title": "Do ImageNet Classifiers Generalize to ImageNet?",
+    "year": 2019,
+    "first_author": "B. Recht",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "MAG": "2953937638",
+     "DBLP": "journals/corr/abs-1902-10811",
+     "ArXiv": "1902.10811",
+     "CorpusId": 67855879
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1205,7 +1475,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -1232,7 +1502,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "227b5f8206b64858edeef6723b96af14133077e3",
+    "title": "Rethinking Benchmark and Contamination for Language Models with Rephrased Samples",
+    "year": 2023,
+    "first_author": "Shuo Yang",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2311-04850",
+     "ArXiv": "2311.04850",
+     "DOI": "10.48550/arXiv.2311.04850",
+     "CorpusId": 265050721
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1294,7 +1587,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -1330,7 +1623,29 @@
     "container": "Patterns",
     "type": "journal-article",
     "score": 38.390022
-   }
+   },
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "967e51b71304a8a7e27e56f73f5bc781d2864e72",
+    "title": "MedAgentsBench: Benchmarking Thinking Models and Agent Frameworks for Complex Medical Reasoning",
+    "year": 2025,
+    "first_author": "Xiangru Tang",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2503-07459",
+     "DOI": "10.48550/arXiv.2503.07459",
+     "CorpusId": 290966504
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1610,7 +1925,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -1637,7 +1952,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "1a7b627b5a905eab8a799000475143a4abc1da85",
+    "title": "ABench-Physics: Benchmarking Physical Reasoning in LLMs via High-Difficulty and Dynamic Physics Problems",
+    "year": 2025,
+    "first_author": "Yi-Ming Zhang",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2507-04766",
+     "ArXiv": "2507.04766",
+     "DOI": "10.48550/arXiv.2507.04766",
+     "CorpusId": 280148086
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1709,7 +2047,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -1736,7 +2074,22 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "arxiv_id_repass",
+   "match": {
+    "source": "arxiv_abs",
+    "arxiv": "2502.06215",
+    "title": "LessLeak-Bench: A First Investigation of Data Leakage in LLMs Across 83 Software Engineering Benchmarks",
+    "year": 2025,
+    "first_author": "Zhou, Xin"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   }
   },
   {
    "junk": false,
@@ -1787,5 +2140,7 @@
     }
    ]
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

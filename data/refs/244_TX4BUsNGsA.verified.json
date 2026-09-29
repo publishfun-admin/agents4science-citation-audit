@@ -57,7 +57,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -80,7 +80,26 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "crossref_title",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/978-3-642-24797-2_3",
+    "title": "Neural Networks",
+    "year": 2012,
+    "first_author": "Graves",
+    "container": "Studies in Computational Intelligence",
+    "type": "book-chapter",
+    "score": 29.080944
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -97,7 +116,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -120,7 +139,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "515a21e90117941150923e559729c59f5fdade1c",
+    "title": "The Concrete Distribution: A Continuous Relaxation of Discrete Random Variables",
+    "year": 2016,
+    "first_author": "Chris J. Maddison",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "ArXiv": "1611.00712",
+     "DBLP": "conf/iclr/MaddisonMT17",
+     "MAG": "2548228487",
+     "CorpusId": 14307651
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -137,7 +179,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -160,7 +202,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "6b73775f40467aed52784ff355b9bb7168e9078c",
+    "title": "Mutual Information Neural Estimation",
+    "year": 2018,
+    "first_author": "Mohamed Ishmael Belghazi",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "MAG": "2803832867",
+     "DBLP": "conf/icml/BelghaziBROBHC18",
+     "ArXiv": "1801.04062",
+     "CorpusId": 44220142
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": true,
@@ -434,5 +499,7 @@
    ],
    "likely_match": null
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

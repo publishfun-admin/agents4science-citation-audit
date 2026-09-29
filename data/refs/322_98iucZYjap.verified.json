@@ -178,7 +178,7 @@
    "container": "Journal of Advanced Research",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -201,7 +201,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "bf8b9a913988f6cba1b890716187b64d62656a4a",
+    "title": "Epigenetic orchestration of cancer-immune dynamics: mechanisms, technologies, and clinical advancements",
+    "year": 2025,
+    "first_author": "Yuan-Jun Lu",
+    "container": "Journal of Advanced Research",
+    "ext": {
+     "PubMedCentral": "13131514",
+     "DOI": "10.1016/j.jare.2025.08.057",
+     "CorpusId": 281275894,
+     "PubMed": "40939889"
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -288,5 +311,7 @@
     }
    ]
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

@@ -25,7 +25,7 @@
    "container": "Proceedings of the 40th International Conference on Machine Learning (ICML",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -54,7 +54,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "59b3fbf146b29b581b677ec4384f14cee87997a4",
+    "title": "Using Large Language Models to Simulate Multiple Humans and Replicate Human Subject Studies",
+    "year": 2022,
+    "first_author": "Gati Aher",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "ArXiv": "2208.10264",
+     "DBLP": "conf/icml/AherAK23",
+     "CorpusId": 251719353
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -157,7 +179,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -184,7 +206,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "2e6b6de08f459e2165b11ed8d2103916966b0fcf",
+    "title": "Improving Language Model Negotiation with Self-Play and In-Context Learning from AI Feedback",
+    "year": 2023,
+    "first_author": "Yao Fu",
+    "container": "arXiv.org",
+    "ext": {
+     "ArXiv": "2305.10142",
+     "DBLP": "journals/corr/abs-2305-10142",
+     "DOI": "10.48550/arXiv.2305.10142",
+     "CorpusId": 258740978
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -207,7 +252,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -234,7 +279,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "7150e17eac46cfdfc303ceef882d115e0232de46",
+    "title": "Simulating Financial Market via Large Language Model based Agents",
+    "year": 2024,
+    "first_author": "Shen Gao",
+    "container": "arXiv.org",
+    "ext": {
+     "ArXiv": "2406.19966",
+     "DBLP": "journals/corr/abs-2406-19966",
+     "DOI": "10.48550/arXiv.2406.19966",
+     "CorpusId": 270845937
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -655,7 +723,7 @@
    "container": "First Conference on Language Modeling",
    "type": "paper-conference",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -678,7 +746,28 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "1a4c6856292b8c64d19a812a77f0aa6fd47cb96c",
+    "title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation Framework",
+    "year": 2023,
+    "first_author": "Qingyun Wu",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2308-08155",
+     "CorpusId": 260925901
+    }
+   },
+   "metrics": {
+    "title_sim": 92.81045751633987,
+    "containment": 0.8,
+    "partial_ratio": 91.35802469135803,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -762,5 +851,7 @@
    },
    "evidence": []
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

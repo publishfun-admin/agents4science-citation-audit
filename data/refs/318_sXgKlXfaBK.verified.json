@@ -399,7 +399,7 @@
    "container": "Cancer Chemotherapy Reports",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -422,7 +422,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "5227e39d3e05abed01d8648f83da13d86e079ac0",
+    "title": "Evaluation of survival data and two new rank order statistics arising in its consideration.",
+    "year": 1966,
+    "first_author": "N. Mantel",
+    "container": "Cancer chemotherapy reports",
+    "ext": {
+     "MAG": "2139984188",
+     "CorpusId": 1176212,
+     "PubMed": "5910392"
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -538,5 +560,7 @@
    },
    "evidence": []
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

@@ -26,7 +26,7 @@
    "container": "International Conference on Learning Representations",
    "type": "paper-conference",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -49,7 +49,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "a8ef08940341381390d9a5672546354d0ce51328",
+    "title": "Maximum a Posteriori Policy Optimisation",
+    "year": 2018,
+    "first_author": "A. Abdolmaleki",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "MAG": "2963884015",
+     "ArXiv": "1806.06920",
+     "DBLP": "conf/iclr/AbdolmalekiSTMH18",
+     "CorpusId": 49310753
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -72,7 +95,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -95,7 +118,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "4c84df2281280c31a190138a7bf8e8285d41bbef",
+    "title": "Wasserstein Robust Reinforcement Learning",
+    "year": 2019,
+    "first_author": "Mohammed Abdullah",
+    "container": "arXiv.org",
+    "ext": {
+     "ArXiv": "1907.13196",
+     "MAG": "2966684444",
+     "DBLP": "journals/corr/abs-1907-13196",
+     "CorpusId": 199000696
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -152,7 +198,7 @@
    "container": null,
    "type": "book",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -175,7 +221,28 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "6d971c3f1860e360b75b3b6c76e5a3722ab22d82",
+    "title": "Gradient Flows: In Metric Spaces and in the Space of Probability Measures",
+    "year": 2005,
+    "first_author": "L. Ambrosio",
+    "container": "",
+    "ext": {
+     "MAG": "1522579744",
+     "CorpusId": 62824717
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -232,7 +299,7 @@
    "container": "Advances in Neural Information Processing Systems",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -255,7 +322,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "449310e3538b08b43227d660227dfd2875c3c3c1",
+    "title": "Neural Ordinary Differential Equations",
+    "year": 2018,
+    "first_author": "T. Chen",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "DBLP": "journals/corr/abs-1806-07366",
+     "ArXiv": "1806.07366",
+     "MAG": "2963755523",
+     "CorpusId": 49310446
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -272,7 +362,7 @@
    "container": "Advances in Neural Information Processing Systems",
    "type": "chapter",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -295,7 +385,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "b18833db0de9393d614d511e60821a1504fc6cd1",
+    "title": "A Natural Policy Gradient",
+    "year": 2001,
+    "first_author": "S. Kakade",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "MAG": "2130801532",
+     "DBLP": "conf/nips/Kakade01",
+     "CorpusId": 14540458
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -312,7 +424,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -339,7 +451,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "024006d4c2a89f7acacc6e4438d156525b60a98f",
+    "title": "Continuous control with deep reinforcement learning",
+    "year": 2015,
+    "first_author": "T. Lillicrap",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "DBLP": "journals/corr/LillicrapHPHETS15",
+     "ArXiv": "1509.02971",
+     "MAG": "2173248099",
+     "CorpusId": 16326763
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -357,7 +492,7 @@
    "container": "Advances in Neural Information Processing Systems",
    "type": "chapter",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -380,7 +515,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "768f7353718c6d95f2d63f954f2236369a409135",
+    "title": "Stein Variational Gradient Descent: A General Purpose Bayesian Inference Algorithm",
+    "year": 2016,
+    "first_author": "Qiang Liu",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "MAG": "2511837229",
+     "DBLP": "conf/nips/LiuW16",
+     "ArXiv": "1608.04471",
+     "CorpusId": 697492
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -398,7 +556,7 @@
    "container": "International Conference on Machine Learning",
    "type": "paper-conference",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -421,7 +579,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "cb4dc7277d1c8c3bc76dd7425eb1cc7cbaf99487",
+    "title": "Optimizing Neural Networks with Kronecker-factored Approximate Curvature",
+    "year": 2015,
+    "first_author": "James Martens",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "MAG": "2964125128",
+     "DBLP": "journals/corr/MartensG15",
+     "ArXiv": "1503.05671",
+     "CorpusId": 11480464
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -441,7 +622,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -468,7 +649,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "6e1ee4042e627e17128ff38adc550c305e539a85",
+    "title": "Efficient Wasserstein Natural Gradients for Reinforcement Learning",
+    "year": 2020,
+    "first_author": "Theodore H. Moskovitz",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "DBLP": "journals/corr/abs-2010-05380",
+     "ArXiv": "2010.05380",
+     "MAG": "3092698374",
+     "CorpusId": 222291172
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -486,7 +690,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -513,7 +717,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "e8f95ccfd13689f672c39dca3eccf1c484533bcc",
+    "title": "Revisiting Natural Gradient for Deep Networks",
+    "year": 2013,
+    "first_author": "Razvan Pascanu",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "MAG": "1844261860",
+     "ArXiv": "1301.3584",
+     "DBLP": "journals/corr/abs-1301-3584",
+     "CorpusId": 15085443
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -535,7 +762,7 @@
    "container": "International Conference on Machine Learning",
    "type": "paper-conference",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -558,7 +785,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "687d0e59d5c35f022ce4638b3e3a6142068efc94",
+    "title": "Deterministic Policy Gradient Algorithms",
+    "year": 2014,
+    "first_author": "David Silver",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "MAG": "2643747386",
+     "DBLP": "conf/icml/SilverLHDWR14",
+     "CorpusId": 13928442
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -614,7 +863,7 @@
    "container": "International Conference on Machine Learning",
    "type": "paper-conference",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -637,7 +886,32 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "d7145901883a35302efe777c0baf982df2f6b7f1",
+    "title": "Policy Optimization as Wasserstein Gradient Flows",
+    "year": 2018,
+    "first_author": "Ruiyi Zhang",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "DBLP": "journals/corr/abs-1808-03030",
+     "MAG": "2803213319",
+     "ArXiv": "1808.03030",
+     "CorpusId": 48360612
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

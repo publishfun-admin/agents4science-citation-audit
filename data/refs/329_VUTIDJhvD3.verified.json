@@ -21,7 +21,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -44,7 +44,27 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "aed5e1df3989b90d070c2da0db40a7fcde206cdd",
+    "title": "Diagnostic Failure Paradigm: Transforming AI System Validation Through Systematic Analysis of Classical Model Failures",
+    "year": null,
+    "first_author": null,
+    "container": "",
+    "ext": {
+     "CorpusId": 284594026
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": null
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -61,7 +81,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -84,7 +104,27 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "ee2cacd7c4967acdeb1351c4cda608ac940ee5fc",
+    "title": "The Self-Limiting Nature of QBO-Dependent SAI: An Optimization Agent\u2019s Discovery of Intervention-Variability Feedback",
+    "year": null,
+    "first_author": null,
+    "container": "",
+    "ext": {
+     "CorpusId": 284555177
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": null
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -233,5 +273,7 @@
    },
    "evidence": []
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

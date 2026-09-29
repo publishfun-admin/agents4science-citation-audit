@@ -215,7 +215,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -242,7 +242,28 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "1a4c6856292b8c64d19a812a77f0aa6fd47cb96c",
+    "title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation Framework",
+    "year": 2023,
+    "first_author": "Qingyun Wu",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2308-08155",
+     "CorpusId": 260925901
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -296,10 +317,6 @@
    "verdict": "UNVERIFIED",
    "evidence": [
     {
-     "step": "arxiv_id_not_found",
-     "arxiv": "2306.00622"
-    },
-    {
      "step": "crossref_best_reject",
      "rec": {
       "source": "crossref",
@@ -315,6 +332,23 @@
       "title_sim": 10.81081081081081,
       "containment": 0.0,
       "partial_ratio": 33.009708737864074,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    },
+    {
+     "step": "arxiv_id_resolves_title_mismatch",
+     "rec": {
+      "source": "arxiv_abs",
+      "arxiv": "2306.00622",
+      "title": "ReviewerGPT? An Exploratory Study on Using Large Language Models for Paper Reviewing",
+      "year": 2023,
+      "first_author": "Liu, Ryan"
+     },
+     "metrics": {
+      "title_sim": 4.597701149425292,
+      "containment": 0.125,
+      "partial_ratio": 40.57971014492754,
       "year_ok": true,
       "first_author_ok": false
      }
@@ -559,5 +593,7 @@
    ],
    "likely_match": null
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

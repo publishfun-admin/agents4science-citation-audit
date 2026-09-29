@@ -137,10 +137,6 @@
    "verdict": "UNVERIFIED",
    "evidence": [
     {
-     "step": "arxiv_id_not_found",
-     "arxiv": "2305.12345"
-    },
-    {
      "step": "crossref_best_reject",
      "rec": {
       "source": "crossref",
@@ -158,6 +154,23 @@
       "partial_ratio": 56.38297872340425,
       "year_ok": false,
       "first_author_ok": true
+     }
+    },
+    {
+     "step": "arxiv_id_resolves_title_mismatch",
+     "rec": {
+      "source": "arxiv_abs",
+      "arxiv": "2305.12345",
+      "title": "Overspinning a rotating black hole in semiclassical gravity with type-A trace anomaly",
+      "year": 2023,
+      "first_author": "Jiang, Jie"
+     },
+     "metrics": {
+      "title_sim": 38.46153846153846,
+      "containment": 0.0,
+      "partial_ratio": 37.64705882352941,
+      "year_ok": true,
+      "first_author_ok": false
      }
     }
    ],
@@ -359,5 +372,7 @@
    ],
    "likely_match": null
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

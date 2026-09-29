@@ -58,7 +58,7 @@
    "container": "International Conference on Learning Representations",
    "type": "paper-conference",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -81,7 +81,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "765bdcf27ebc1eb03a14f1e47aefa4dda1e03073",
+    "title": "Synthetic and Natural Noise Both Break Neural Machine Translation",
+    "year": 2017,
+    "first_author": "Yonatan Belinkov",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "MAG": "2963661177",
+     "DBLP": "journals/corr/abs-1711-02173",
+     "ArXiv": "1711.02173",
+     "CorpusId": 3513372
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -218,7 +241,7 @@
    "container": "International Conference on Machine Learning",
    "type": "paper-conference",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -241,7 +264,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "f7f73185e3975bb62a3c42b2ba6bd4db57fee8ed",
+    "title": "Certified Adversarial Robustness via Randomized Smoothing",
+    "year": 2019,
+    "first_author": "Jeremy M. Cohen",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "MAG": "2950048339",
+     "ArXiv": "1902.02918",
+     "DBLP": "conf/icml/CohenRK19",
+     "CorpusId": 59842968
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -338,7 +384,7 @@
    "container": "International Conference on Learning Representations",
    "type": "paper-conference",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -361,7 +407,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "f4a8480cffa491020bdbb8c4c4e7a7e923b1c2c1",
+    "title": "Reducing Transformer Depth on Demand with Structured Dropout",
+    "year": 2019,
+    "first_author": "Angela Fan",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "MAG": "2996159613",
+     "DBLP": "conf/iclr/FanGJ20",
+     "ArXiv": "1909.11556",
+     "CorpusId": 202750230
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -384,7 +453,7 @@
    "container": "Advances in Neural Information Processing Systems",
    "type": "chapter",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -407,7 +476,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "4c13e8071dafeed6a257e4e127b24ffc637bcf81",
+    "title": "AugMax: Adversarial Composition of Random Augmentations for Robust Training",
+    "year": 2021,
+    "first_author": "Haotao Wang",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "ArXiv": "2110.13771",
+     "DBLP": "conf/nips/WangXKYAW21",
+     "CorpusId": 239885364
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -671,7 +762,7 @@
    "container": "Advances in Neural Information Processing Systems",
    "type": "chapter",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -694,7 +785,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "b03c7ff961822183bab66b2e594415e585d3fd09",
+    "title": "Are Sixteen Heads Really Better than One?",
+    "year": 2019,
+    "first_author": "Paul Michel",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "ArXiv": "1905.10650",
+     "MAG": "2945767825",
+     "DBLP": "conf/nips/MichelLN19",
+     "CorpusId": 166227946
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -884,7 +998,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -911,7 +1025,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "a54b56af24bb4873ed0163b77df63b92bd018ddc",
+    "title": "DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter",
+    "year": 2019,
+    "first_author": "Victor Sanh",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-1910-01108",
+     "ArXiv": "1910.01108",
+     "MAG": "2978017171",
+     "CorpusId": 203626972
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1211,7 +1348,7 @@
    "container": "Advances in Neural Information Processing Systems",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -1234,7 +1371,32 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "e71aed7a0680c8fc09733f1dcd0cd3f6bb9cb7aa",
+    "title": "The Lottery Ticket Hypothesis for Pre-trained BERT Networks",
+    "year": 2020,
+    "first_author": "Tianlong Chen",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "MAG": "3104263050",
+     "DBLP": "conf/nips/ChenFC0ZWC20",
+     "ArXiv": "2007.12223",
+     "CorpusId": 220768628
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

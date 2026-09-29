@@ -1,0 +1,408 @@
+{
+ "pdf": "345_3Sv9wfwXPW.pdf",
+ "n_entries": 8,
+ "fallback": "marker-guided",
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "Bass, F.M. (1969) A new product growth model for consumer durables. Management Science, 15(5), 215-227.",
+   "title": "A new product growth model for consumer durables",
+   "authors": [
+    "Bass"
+   ],
+   "year": 1969,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Management Science",
+   "type": "article-journal",
+   "parser": "anystyle-marker-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1287/mnsc.15.5.215",
+    "title": "A New Product Growth for Model Consumer Durables",
+    "year": 1969,
+    "first_author": "Bass",
+    "container": "Management Science",
+    "type": "journal-article",
+    "score": 58.97464
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 91.66666666666666,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "OpenAI (2024) GPT-5 Technical Report. OpenAI.",
+   "title": "GPT-5 Technical Report",
+   "authors": [],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "OpenAI",
+   "type": "article-journal",
+   "parser": "anystyle-marker-guided",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.59350/0e1p8-ryw50",
+      "title": "How to use GPT-4V For Stoplight Report",
+      "year": 2024,
+      "first_author": "Zhang",
+      "container": "",
+      "type": "posted-content",
+      "score": 23.473352
+     },
+     "metrics": {
+      "title_sim": 62.5,
+      "containment": 0.4,
+      "partial_ratio": 47.22222222222222,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "crossref_title",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1371/journal.pdig.0000417",
+    "title": "Peer review of GPT-4 technical report and systems card",
+    "year": 2024,
+    "first_author": "Gallifant",
+    "container": "PLOS Digital Health",
+    "type": "journal-article",
+    "score": 23.20916
+   },
+   "metrics": {
+    "title_sim": 95.23809523809524,
+    "containment": 0.429,
+    "partial_ratio": 70.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "DeepSeek (2024) DeepSeek-V3: Efficient reasoning at scale. DeepSeek AI.",
+   "title": "DeepSeek-V3: Efficient reasoning at scale",
+   "authors": [],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-marker-guided",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1201/9781003674702-6",
+      "title": "A First Look at the DeepSeek-V3 Big Model",
+      "year": 2025,
+      "first_author": "Dai",
+      "container": "DeepSeek in Action",
+      "type": "book-chapter",
+      "score": 28.407486
+     },
+     "metrics": {
+      "title_sim": 56.79012345679013,
+      "containment": 0.2,
+      "partial_ratio": 55.55555555555556,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "Stanford (2024) Agents4Science: Framework for autonomous scientific discovery. Stanford University.",
+   "title": "Agents4Science: Framework for autonomous scientific discovery",
+   "authors": [],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-marker-guided",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1101/2024.12.17.629024",
+      "title": "A Framework for Autonomous AI-Driven Drug Discovery",
+      "year": 2024,
+      "first_author": "Selinger",
+      "container": "",
+      "type": "posted-content",
+      "score": 23.726093
+     },
+     "metrics": {
+      "title_sim": 80.0,
+      "containment": 0.6,
+      "partial_ratio": 76.47058823529412,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "Guo, C., et al. (2022) On calibration of modern neural networks. ICML.",
+   "title": "On calibration of modern neural networks",
+   "authors": [
+    "Guo"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-marker-guided",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/ijcnn55064.2022.9892866",
+      "title": "On Calibration of Graph Neural Networks for Node Classification",
+      "year": 2022,
+      "first_author": "Liu",
+      "container": "2022 International Joint Conference on Neural Networks (IJCNN)",
+      "type": "proceedings-article",
+      "score": 25.763136
+     },
+     "metrics": {
+      "title_sim": 90.41095890410959,
+      "containment": 0.5,
+      "partial_ratio": 70.58823529411764,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "d65ce2b8300541414bfe51d03906fca72e93523c",
+    "title": "On Calibration of Modern Neural Networks",
+    "year": 2017,
+    "first_author": "Chuan Guo",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "MAG": "2950953798",
+     "ArXiv": "1706.04599",
+     "DBLP": "conf/icml/GuoPSW17",
+     "CorpusId": 28671436
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "Wu, Q., et al. (2023) AutoGen: Enabling next-gen LLM applications. Microsoft Research.",
+   "title": "AutoGen: Enabling next-gen LLM applications",
+   "authors": [
+    "Wu"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-marker-guided",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.5382113",
+      "title": "Next-Gen Metamorphism: Analyzing the Potential of Llm-Driven",
+      "year": 2025,
+      "first_author": "Coppolino",
+      "container": "",
+      "type": "posted-content",
+      "score": 26.402996
+     },
+     "metrics": {
+      "title_sim": 51.48514851485149,
+      "containment": 0.429,
+      "partial_ratio": 45.714285714285715,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "9ea0757c750ab1222a7442d3485a74d1c526b04c",
+    "title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
+    "year": 2023,
+    "first_author": "Qingyun Wu",
+    "container": "",
+    "ext": {
+     "ArXiv": "2308.08155",
+     "CorpusId": 263611068
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.667,
+    "partial_ratio": 75.75757575757575,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "Lewis, P., et al. (2024) Retrieval-augmented generation for knowledge-intensive NLP. Meta AI.",
+   "title": "Retrieval-augmented generation for knowledge-intensive NLP",
+   "authors": [
+    "Lewis"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-marker-guided",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1002/9781394374717.ch03",
+      "title": "Retrieval\u2010Augmented Generation",
+      "year": 2026,
+      "first_author": null,
+      "container": "Advanced Retrieval\u2010Augmented Generation",
+      "type": "other",
+      "score": 37.19249
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 1.0,
+      "partial_ratio": 100.0,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "659bf9ce7175e1ec266ff54359e2bd76e0b7ff31",
+    "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+    "year": 2020,
+    "first_author": "Patrick Lewis",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "DBLP": "conf/nips/LewisPPPKGKLYR020",
+     "MAG": "3027879771",
+     "ArXiv": "2005.11401",
+     "CorpusId": 218869575
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.857,
+    "partial_ratio": 95.3125,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "Zhou, Y., et al. (2023) Incorporating domain constraints in neural forecasting. NeurIPS. A    Technical Appendix Additional experimental details, statistical analyses, and supplementary results are provided in the conference submission package. 9",
+   "title": "Incorporating domain constraints in neural forecasting",
+   "authors": [
+    "Zhou"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "NeurIPS. A Technical Appendix Additional experimental details, statistical analyses, and supplementary results are provided in the conference submission",
+   "type": "paper-conference",
+   "parser": "anystyle-marker-guided",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/icnn.1997.616183",
+      "title": "Incorporating State Space Constraints Into a Neural",
+      "year": 2005,
+      "first_author": "Graf",
+      "container": "Proceedings of International Conference on Neural Networks (ICNN'97)",
+      "type": "proceedings-article",
+      "score": 25.40842
+     },
+     "metrics": {
+      "title_sim": 77.10843373493975,
+      "containment": 0.6,
+      "partial_ratio": 72.54901960784314,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  }
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
+}

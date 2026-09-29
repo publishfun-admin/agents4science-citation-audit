@@ -653,7 +653,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -676,7 +676,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "c3e7b7558d4e5257c4d0d3a0434a17f40b685010",
+    "title": "Toward Effective AI Governance: A Review of Principles",
+    "year": 2025,
+    "first_author": "Danilo Ribeiro",
+    "container": "arXiv.org",
+    "ext": {
+     "ArXiv": "2505.23417",
+     "DBLP": "journals/corr/abs-2505-23417",
+     "DOI": "10.48550/arXiv.2505.23417",
+     "CorpusId": 278995754
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -738,7 +761,7 @@
    "container": null,
    "type": "report",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -761,7 +784,27 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "2234f479630f174296dfb9cbab6478e205e8011c",
+    "title": "Calibrating Trust in AI-Assisted Decision Making",
+    "year": null,
+    "first_author": "Amy Turner",
+    "container": "",
+    "ext": {
+     "CorpusId": 235679554
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -839,5 +882,7 @@
    },
    "evidence": []
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

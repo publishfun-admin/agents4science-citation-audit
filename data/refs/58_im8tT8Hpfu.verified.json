@@ -414,7 +414,7 @@
    "container": "Advances in Neural Information Processing Systems",
    "type": "chapter",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -443,7 +443,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "5bbb6f9a8204eb13070b6f033e61c84ef8ee68dd",
+    "title": "Deep Reinforcement Learning from Human Preferences",
+    "year": 2017,
+    "first_author": "P. Christiano",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "MAG": "2626804490",
+     "ArXiv": "1706.03741",
+     "DBLP": "journals/corr/abs-1706-03741",
+     "CorpusId": 4787508
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -623,7 +646,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -650,7 +673,22 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "arxiv_id_repass",
+   "match": {
+    "source": "arxiv_abs",
+    "arxiv": "2209.14375",
+    "title": "Improving alignment of dialogue agents via targeted human judgements",
+    "year": 2022,
+    "first_author": "Glaese, Amelia"
+   },
+   "metrics": {
+    "title_sim": 0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   }
   },
   {
    "junk": false,
@@ -836,7 +874,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -865,7 +903,28 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "a354854c71d60a4490c42ae47464fbb9807d02bf",
+    "title": "The Big Five Trait taxonomy: History, measurement, and theoretical perspectives.",
+    "year": 1999,
+    "first_author": "O. John",
+    "container": "",
+    "ext": {
+     "MAG": "1641003075",
+     "CorpusId": 7027049
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1132,7 +1191,7 @@
    "container": "Advances in Neural Information Processing Systems",
    "type": "chapter",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -1161,7 +1220,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "442e10a3c6640ded9408622005e3c2a8906ce4c2",
+    "title": "A Unified Approach to Interpreting Model Predictions",
+    "year": 2017,
+    "first_author": "Scott M. Lundberg",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "MAG": "2618851150",
+     "DBLP": "journals/corr/LundbergL17",
+     "ArXiv": "1705.07874",
+     "CorpusId": 21889700
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1939,5 +2021,7 @@
    },
    "evidence": []
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

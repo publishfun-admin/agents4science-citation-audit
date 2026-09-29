@@ -93,7 +93,7 @@
    "container": "Artificial Life II",
    "type": "chapter",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -116,7 +116,28 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "2e140a4435f22a04570e35b1b442a22ae90053bd",
+    "title": "An Approach to the Synthesis of Life",
+    "year": 1991,
+    "first_author": "T. Ray",
+    "container": "",
+    "ext": {
+     "MAG": "102349577",
+     "CorpusId": 59633479
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -227,5 +248,7 @@
    },
    "evidence": []
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

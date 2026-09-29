@@ -191,7 +191,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -218,7 +218,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "51f38bd957fa863022feb5878fa1ba3bea6657cf",
+    "title": "Vision-RWKV: Efficient and Scalable Visual Perception with RWKV-Like Architectures",
+    "year": 2024,
+    "first_author": "Yuchen Duan",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "DBLP": "conf/iclr/DuanWCZLLQ0DW25",
+     "ArXiv": "2403.02308",
+     "DOI": "10.48550/arXiv.2403.02308",
+     "CorpusId": 268248528
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -239,7 +262,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -266,7 +289,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "4d84441e7f296d42d6493bb5a7b16d36e479b354",
+    "title": "Diffusion-RWKV: Scaling RWKV-Like Architectures for Diffusion Models",
+    "year": 2024,
+    "first_author": "Zhengcong Fei",
+    "container": "arXiv.org",
+    "ext": {
+     "ArXiv": "2404.04478",
+     "DBLP": "journals/corr/abs-2404-04478",
+     "DOI": "10.48550/arXiv.2404.04478",
+     "CorpusId": 269005284
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -698,7 +744,7 @@
    "container": "Advances in neural information processing systems",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -721,7 +767,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "3c8a456509e6c0805354bd40a35e3f2dbf8069b1",
+    "title": "PyTorch: An Imperative Style, High-Performance Deep Learning Library",
+    "year": 2019,
+    "first_author": "Adam Paszke",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "MAG": "2970971581",
+     "ArXiv": "1912.01703",
+     "DBLP": "conf/nips/PaszkeGMLBCKLGA19",
+     "CorpusId": 202786778
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -797,7 +866,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -824,7 +893,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "157ed5647da39a7f5d33a84a90414b2a9e97e301",
+    "title": "Eagle and Finch: RWKV with Matrix-Valued States and Dynamic Recurrence",
+    "year": 2024,
+    "first_author": "Bo Peng",
+    "container": "arXiv.org",
+    "ext": {
+     "ArXiv": "2404.05892",
+     "DBLP": "journals/corr/abs-2404-05892",
+     "DOI": "10.48550/arXiv.2404.05892",
+     "CorpusId": 269010053
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1007,7 +1099,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -1034,7 +1126,32 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "ff72bf4782793d026b979e11de812f5d14bfe0bf",
+    "title": "Mamba or RWKV: Exploring High-Quality and High-Efficiency Segment Anything Model",
+    "year": 2024,
+    "first_author": "Haobo Yuan",
+    "container": "arXiv.org",
+    "ext": {
+     "ArXiv": "2406.19369",
+     "DBLP": "journals/corr/abs-2406-19369",
+     "DOI": "10.48550/arXiv.2406.19369",
+     "CorpusId": 270764618
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

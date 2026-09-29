@@ -593,7 +593,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -620,7 +620,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "7fd30cd5552ae6e783d48e3cbeae6a63147b8a5f",
+    "title": "LiveIdeaBench: Evaluating LLMs' Scientific Creativity and Idea Generation with Minimal Context",
+    "year": 2024,
+    "first_author": "Kai Ruan",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2412-17596",
+     "DOI": "10.48550/arXiv.2412.17596",
+     "CorpusId": 274982134
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -640,7 +662,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -667,7 +689,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "7fd30cd5552ae6e783d48e3cbeae6a63147b8a5f",
+    "title": "LiveIdeaBench: Evaluating LLMs' Scientific Creativity and Idea Generation with Minimal Context",
+    "year": 2024,
+    "first_author": "Kai Ruan",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2412-17596",
+     "DOI": "10.48550/arXiv.2412.17596",
+     "CorpusId": 274982134
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -912,5 +956,7 @@
    },
    "evidence": []
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

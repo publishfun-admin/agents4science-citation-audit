@@ -182,10 +182,6 @@
    "verdict": "UNVERIFIED",
    "evidence": [
     {
-     "step": "arxiv_id_not_found",
-     "arxiv": "2306.03666"
-    },
-    {
      "step": "crossref_best_reject",
      "rec": {
       "source": "crossref",
@@ -202,6 +198,23 @@
       "containment": 0.8,
       "partial_ratio": 62.264150943396224,
       "year_ok": false,
+      "first_author_ok": false
+     }
+    },
+    {
+     "step": "arxiv_id_resolves_title_mismatch",
+     "rec": {
+      "source": "arxiv_abs",
+      "arxiv": "2306.03666",
+      "title": "Probing the Dark Dimension with Auger data",
+      "year": 2023,
+      "first_author": "Noble, Neena T."
+     },
+     "metrics": {
+      "title_sim": 36.7816091954023,
+      "containment": 0.0,
+      "partial_ratio": 40.476190476190474,
+      "year_ok": true,
       "first_author_ok": false
      }
     }
@@ -372,7 +385,7 @@
    "container": "Advances in Neural Information Processing Systems",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -395,7 +408,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "d42b11ce90c9c69a20ed015b73dc33e0e4100a7b",
+    "title": "Equality of Opportunity in Supervised Learning",
+    "year": 2016,
+    "first_author": "Moritz Hardt",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "DBLP": "journals/corr/HardtPS16",
+     "MAG": "2530395818",
+     "ArXiv": "1610.02413",
+     "CorpusId": 7567061
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -559,10 +595,6 @@
    "verdict": "UNVERIFIED",
    "evidence": [
     {
-     "step": "arxiv_id_not_found",
-     "arxiv": "2402.08522"
-    },
-    {
      "step": "crossref_best_reject",
      "rec": {
       "source": "crossref",
@@ -578,6 +610,23 @@
       "title_sim": 81.48148148148148,
       "containment": 0.444,
       "partial_ratio": 50.70422535211267,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    },
+    {
+     "step": "arxiv_id_resolves_title_mismatch",
+     "rec": {
+      "source": "arxiv_abs",
+      "arxiv": "2402.08522",
+      "title": "Fairness Auditing with Multi-Agent Collaboration",
+      "year": 2024,
+      "first_author": "de Vos, Martijn"
+     },
+     "metrics": {
+      "title_sim": 79.16666666666667,
+      "containment": 0.8,
+      "partial_ratio": 62.5,
       "year_ok": true,
       "first_author_ok": false
      }
@@ -741,7 +790,7 @@
    "container": "Nature",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -764,7 +813,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "84f21d04b1c2a9541cd463f352fa7330d28a711f",
+    "title": "Machine behaviour",
+    "year": 2019,
+    "first_author": "I. Rahwan",
+    "container": "Nature",
+    "ext": {
+     "DBLP": "journals/nature/RahwanCOBBBCCCJ19",
+     "DOI": "10.1038/s41586-019-1138-y",
+     "CorpusId": 129946046,
+     "PubMed": "31019318"
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -889,7 +961,7 @@
    "container": null,
    "type": "book",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -912,7 +984,23 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "openlibrary",
+   "match": {
+    "source": "openlibrary",
+    "id": "/works/OL12331202W",
+    "title": "An introduction to multiagent systems",
+    "year": 2002,
+    "first_author": "Michael J. Wooldridge"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -954,5 +1042,7 @@
    ],
    "likely_match": null
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

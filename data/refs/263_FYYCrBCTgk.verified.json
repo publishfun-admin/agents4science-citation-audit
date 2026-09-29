@@ -21,7 +21,7 @@
    "container": "International Journal of Evidence-Based Healthcare",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -44,7 +44,27 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "783c173b55d2f2371fcc6b9f9eae9dabf094169a",
+    "title": "systematic reviews : methodological development , conduct and reporting of an umbrella review approach",
+    "year": 2015,
+    "first_author": "E. Aromataris",
+    "container": "",
+    "ext": {
+     "CorpusId": 19585182
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -634,7 +654,7 @@
    "container": "Harvard Business Review",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -657,7 +677,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "01ceac73fc71d545063f0ebafbc112c80d29b016",
+    "title": "Collaborative Intelligence: Humans and AI Are Joining Forces",
+    "year": 2018,
+    "first_author": "Paul R. Daugherty",
+    "container": "",
+    "ext": {
+     "CorpusId": 53127445
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

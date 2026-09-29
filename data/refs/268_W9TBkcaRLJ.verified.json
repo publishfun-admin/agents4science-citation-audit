@@ -60,7 +60,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -87,7 +87,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "acd6de3ac2a3d9449aae51b87fbb03f6f0020954",
+    "title": "The Measure and Mismeasure of Fairness: A Critical Review of Fair Machine Learning",
+    "year": 2018,
+    "first_author": "S. Corbett-Davies",
+    "container": "arXiv.org",
+    "ext": {
+     "MAG": "2885659818",
+     "DBLP": "journals/corr/abs-1808-00023",
+     "CorpusId": 51892988
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -146,7 +168,7 @@
    "container": "Advances in Neural Information Processing Systems",
    "type": "chapter",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -169,7 +191,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "d42b11ce90c9c69a20ed015b73dc33e0e4100a7b",
+    "title": "Equality of Opportunity in Supervised Learning",
+    "year": 2016,
+    "first_author": "Moritz Hardt",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "DBLP": "journals/corr/HardtPS16",
+     "MAG": "2530395818",
+     "ArXiv": "1610.02413",
+     "CorpusId": 7567061
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -268,7 +313,7 @@
    "container": "International conference on machine learning",
    "type": "paper-conference",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -291,7 +336,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "37c3303d173c055592ef923235837e1cbc6bd986",
+    "title": "Learning Fair Representations",
+    "year": 2013,
+    "first_author": "R. Zemel",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "MAG": "2162670686",
+     "DBLP": "conf/icml/ZemelWSPD13",
+     "CorpusId": 490669
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -335,5 +402,7 @@
    ],
    "likely_match": null
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

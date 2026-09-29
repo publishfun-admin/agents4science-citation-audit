@@ -133,7 +133,7 @@
    "container": "Journal of Machine Learning Research",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -156,7 +156,31 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "b6b8a1b80891c96c28cc6340267b58186157e536",
+    "title": "End-to-End Training of Deep Visuomotor Policies",
+    "year": 2015,
+    "first_author": "S. Levine",
+    "container": "Journal of machine learning research",
+    "ext": {
+     "MAG": "2952125531",
+     "DBLP": "journals/jmlr/LevineFDA16",
+     "ArXiv": "1504.00702",
+     "DOI": "10.5555/2946645.2946684",
+     "CorpusId": 7242892
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -320,7 +344,7 @@
    "container": "International Conference on Machine Learning",
    "type": "paper-conference",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -343,7 +367,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "4c05d7caa357148f0bbd61720bdd35f0bc05eb81",
+    "title": "Dueling Network Architectures for Deep Reinforcement Learning",
+    "year": 2015,
+    "first_author": "Zi-Yun Wang",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "DBLP": "conf/icml/WangSHHLF16",
+     "ArXiv": "1511.06581",
+     "MAG": "2951799221",
+     "CorpusId": 5389801
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -360,7 +407,7 @@
    "container": "International Conference on Machine Learning",
    "type": "paper-conference",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -383,7 +430,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "69e76e16740ed69f4dc55361a3d319ac2f1293dd",
+    "title": "Asynchronous Methods for Deep Reinforcement Learning",
+    "year": 2016,
+    "first_author": "Volodymyr Mnih",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "MAG": "2964043796",
+     "DBLP": "journals/corr/MnihBMGLHSK16",
+     "ArXiv": "1602.01783",
+     "CorpusId": 6875312
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -580,5 +650,7 @@
    ],
    "likely_match": null
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

@@ -1087,7 +1087,7 @@
    "container": "Physical Review Letters",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -1110,7 +1110,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "a112d9a9e6f39b25c1db335d3d5732d562186b4d",
+    "title": "Li+ transport in poly(ethylene oxide) based electrolytes: neutron scattering, dielectric spectroscopy, and molecular dynamics simulations.",
+    "year": 2013,
+    "first_author": "Changwoo Do",
+    "container": "Physical Review Letters",
+    "ext": {
+     "MAG": "2093848040",
+     "DOI": "10.1103/PHYSREVLETT.111.018301",
+     "CorpusId": 24228763,
+     "PubMed": "23863028"
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1132,7 +1155,7 @@
    "container": "Phys. Rev. E",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -1164,7 +1187,30 @@
     "container": "Physical Review E",
     "type": "journal-article",
     "score": 56.565647
-   }
+   },
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "4ce7a492bb80c75e43373f27e4944b3b6a21e1bc",
+    "title": "Segregation of mass at the periphery of N-isopropylacrylamide-co-acrylic-acid microgels at high temperatures.",
+    "year": 2015,
+    "first_author": "John Shelton Hyatt",
+    "container": "Physical review. E, Statistical, nonlinear, and soft matter physics",
+    "ext": {
+     "MAG": "2416449152",
+     "DOI": "10.1103/PhysRevE.92.030302",
+     "CorpusId": 41067673,
+     "PubMed": "26465408"
+    }
+   },
+   "metrics": {
+    "title_sim": 99.53488372093024,
+    "containment": 0.889,
+    "partial_ratio": 99.07407407407408,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -4173,7 +4219,7 @@
    "container": null,
    "type": "book",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -4196,7 +4242,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "027f46a59827a48dd21b7e262b9e06f731709b98",
+    "title": "Robust Chiral Organization of Cellulose Nanocrystals in Capillary Confinement.",
+    "year": 2018,
+    "first_author": "V. Cherpak",
+    "container": "Nano letters (Print)",
+    "ext": {
+     "MAG": "2898187628",
+     "DOI": "10.1021/acs.nanolett.8b02522",
+     "CorpusId": 206749011,
+     "PubMed": "30351961"
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -6510,5 +6579,7 @@
    },
    "evidence": []
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

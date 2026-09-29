@@ -1,0 +1,1272 @@
+{
+ "pdf": "64_heYWeCpOlS.pdf",
+ "n_entries": 26,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": false,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "[1] Geoffrey Irving, Paul Christiano, and Dario Amodei. AI safety via debate. arXiv preprint arXiv:1805.00899, 2018.",
+   "title": "AI safety via debate",
+   "authors": [
+    "Irving",
+    "Christiano",
+    "Amodei"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": "1805.00899",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "1805.00899"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.23915/distill.00014",
+      "title": "AI Safety Needs Social Scientists",
+      "year": 2019,
+      "first_author": "Irving",
+      "container": "Distill",
+      "type": "journal-article",
+      "score": 25.677528
+     },
+     "metrics": {
+      "title_sim": 62.06896551724138,
+      "containment": 0.25,
+      "partial_ratio": 51.515151515151516,
+      "year_ok": true,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "5a5a1d666e4b7b933bc5aafbbadf179bc447ee67",
+    "title": "AI safety via debate",
+    "year": 2018,
+    "first_author": "G. Irving",
+    "container": "arXiv.org",
+    "ext": {
+     "ArXiv": "1805.00899",
+     "MAG": "2798877128",
+     "DBLP": "journals/corr/abs-1805-00899",
+     "CorpusId": 22050710
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2] Julian Michael, Salsabila Mahdi, David Rein, Jackson Petty, Julien Dirani, Vishakh Padmakumar, and Samuel R. Bowman. Debate helps supervise unreliable experts. arXiv preprint arXiv:2311.08702, 2023.",
+   "title": "Debate helps supervise unreliable experts",
+   "authors": [
+    "Michael",
+    "Mahdi",
+    "Rein",
+    "Petty",
+    "Dirani",
+    "Padmakumar",
+    "Bowman"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2311.08702",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2311.08702"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1093/oed/7249301808",
+      "title": "supervise, v.",
+      "year": 2023,
+      "first_author": null,
+      "container": "Oxford English Dictionary",
+      "type": "book-chapter",
+      "score": 23.785826
+     },
+     "metrics": {
+      "title_sim": 90.0,
+      "containment": 1.0,
+      "partial_ratio": 0,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "arxiv_id_repass",
+   "match": {
+    "source": "arxiv_abs",
+    "arxiv": "2311.08702",
+    "title": "Debate Helps Supervise Unreliable Experts",
+    "year": 2023,
+    "first_author": "Michael, Julian"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   }
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3] Yilun Du, Shuang Li, Antonio Torralba, Joshua B. Tenenbaum, and Igor Mordatch. Improving factuality and reasoning in language models through multiagent debate. arXiv preprint arXiv:2305.14325, 2023.",
+   "title": "Improving factuality and reasoning in language models through multiagent debate",
+   "authors": [
+    "Du",
+    "Li",
+    "Torralba",
+    "Tenenbaum",
+    "Mordatch"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2305.14325",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2305.14325",
+    "title": "Improving Factuality and Reasoning in Language Models through Multiagent Debate",
+    "year": 2023,
+    "first_author": "Yilun Du"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4] Hao Lang, Fei Huang, and Yongbin Li. Debate helps weak-to-strong generalization. arXiv preprint arXiv:2501.13124, 2025.",
+   "title": "Debate helps weak-to-strong generalization",
+   "authors": [
+    "Lang",
+    "Huang",
+    "Li"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": "2501.13124",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1609/aaai.v39i26.34952",
+    "title": "Debate Helps Weak-to-Strong Generalization",
+    "year": 2025,
+    "first_author": "Lang",
+    "container": "Proceedings of the AAAI Conference on Artificial Intelligence",
+    "type": "journal-article",
+    "score": 51.1389
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2501.13124"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5] Chi-Min Chan, Weize Chen, Yusheng Su, Jianxuan Yu, Wei Xue, Shanghang Zhang, Jie Fu, and Zhiyuan Liu. ChatEval: Towards better LLM-based evaluators through multi-agent debate. In International Conference on Learning Representations (ICLR), 2024.",
+   "title": "ChatEval: Towards better LLM-based evaluators through multi-agent debate",
+   "authors": [
+    "Chan",
+    "Chen",
+    "Su",
+    "Yu",
+    "Xue",
+    "Zhang",
+    "Fu",
+    "Liu"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Conference on Learning Representations (ICLR",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1145/3706599.3721207",
+      "title": "Assessing Critical Thinking through a Multi-Agent LLM-Based Debate Chatbot",
+      "year": 2025,
+      "first_author": "Park",
+      "container": "Proceedings of the Extended Abstracts of the CHI Conference on Human Factors in Computing Systems",
+      "type": "proceedings-article",
+      "score": 35.266567
+     },
+     "metrics": {
+      "title_sim": 67.28971962616822,
+      "containment": 0.6,
+      "partial_ratio": 52.702702702702695,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "ec58a564fdda29e6a9a0a7bab5eeb4c290f716d7",
+    "title": "ChatEval: Towards Better LLM-based Evaluators through Multi-Agent Debate",
+    "year": 2023,
+    "first_author": "Chi-Min Chan",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2308-07201",
+     "ArXiv": "2308.07201",
+     "DOI": "10.48550/arXiv.2308.07201",
+     "CorpusId": 260887105
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[6] Todor Mihaylov, Peter Clark, Tushar Khot, and Ashish Sabharwal. Can a suit of armor conduct electricity? a new dataset for open book question answering. arXiv preprint arXiv:1809.02789, 2018.",
+   "title": "Can a suit of armor conduct electricity? a new dataset for open book question answering",
+   "authors": [
+    "Mihaylov",
+    "Clark",
+    "Khot",
+    "Sabharwal"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": "1809.02789",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/d18-1260",
+    "title": "Can a Suit of Armor Conduct Electricity? A New Dataset for Open Book Question Answering",
+    "year": 2018,
+    "first_author": "Mihaylov",
+    "container": "Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing",
+    "type": "proceedings-article",
+    "score": 88.88899
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "1809.02789"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[7] Gemini Team, Google. Gemini 2.5: Pushing the frontier with advanced reasoning, multimodality, long context, and next generation agentic capabilities. Technical report, Google, 2025. Technical report introducing Gemini 2.5 Pro, Flash, 2.0 Flash, and Flash-Lite.",
+   "title": "Gemini 2.5: Pushing the frontier with advanced reasoning, multimodality, long context, and next generation agentic capabilities",
+   "authors": [
+    "Team"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "report",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.5329049",
+      "title": "Comparative Analysis of Next-Generation Large Language Models (LLMs): Architectural Advances, Reasoning Capabilities, and Multimodal Integration (2024-2025)",
+      "year": 2025,
+      "first_author": "Valiulla",
+      "container": "",
+      "type": "posted-content",
+      "score": 36.25574
+     },
+     "metrics": {
+      "title_sim": 64.70588235294117,
+      "containment": 0.312,
+      "partial_ratio": 46.97986577181208,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "39d9c3f1cd4bd5069713e50dc7301570575fc055",
+    "title": "Gemini 2.5: Pushing the Frontier with Advanced Reasoning, Multimodality, Long Context, and Next Generation Agentic Capabilities",
+    "year": 2025,
+    "first_author": "Gheorghe Comanici",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2507-06261",
+     "ArXiv": "2507.06261",
+     "CorpusId": 280151524
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[8] Geoffrey Irving, Paul Christiano, and Dario Amodei. AI safety via debate. arXiv preprint arXiv:1805.00899, 2018.",
+   "title": "AI safety via debate",
+   "authors": [
+    "Irving",
+    "Christiano",
+    "Amodei"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": "1805.00899",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "1805.00899"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.23915/distill.00014",
+      "title": "AI Safety Needs Social Scientists",
+      "year": 2019,
+      "first_author": "Irving",
+      "container": "Distill",
+      "type": "journal-article",
+      "score": 25.677528
+     },
+     "metrics": {
+      "title_sim": 62.06896551724138,
+      "containment": 0.25,
+      "partial_ratio": 51.515151515151516,
+      "year_ok": true,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "5a5a1d666e4b7b933bc5aafbbadf179bc447ee67",
+    "title": "AI safety via debate",
+    "year": 2018,
+    "first_author": "G. Irving",
+    "container": "arXiv.org",
+    "ext": {
+     "ArXiv": "1805.00899",
+     "MAG": "2798877128",
+     "DBLP": "journals/corr/abs-1805-00899",
+     "CorpusId": 22050710
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[9] Anthropic. Anthropic fall 2023 debate progress update. https://www.alignmentforum.org/posts/ QtqysYdJRenWFeWc4/anthropic-fall-2023-debate-progress-update, 2023.",
+   "title": "Anthropic fall 2023 debate progress update",
+   "authors": [],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://www.alignmentforum.org/posts/"
+   ],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED_URL",
+   "via": "url",
+   "url_status": {
+    "https://www.alignmentforum.org/posts/": 200
+   },
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1093/oed/6242921230",
+      "title": "anthropic, adj.",
+      "year": 2023,
+      "first_author": null,
+      "container": "Oxford English Dictionary",
+      "type": "book-chapter",
+      "score": 25.591076
+     },
+     "metrics": {
+      "title_sim": 81.81818181818181,
+      "containment": 0.5,
+      "partial_ratio": 84.61538461538461,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[10] Julian Michael, Salsabila Mahdi, David Rein, Jackson Petty, Julien Dirani, Vishakh Padmakumar, and Samuel R. Bowman. Debate helps supervise unreliable experts. arXiv preprint arXiv:2311.08702, 2023.",
+   "title": "Debate helps supervise unreliable experts",
+   "authors": [
+    "Michael",
+    "Mahdi",
+    "Rein",
+    "Petty",
+    "Dirani",
+    "Padmakumar",
+    "Bowman"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2311.08702",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2311.08702"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1093/oed/7249301808",
+      "title": "supervise, v.",
+      "year": 2023,
+      "first_author": null,
+      "container": "Oxford English Dictionary",
+      "type": "book-chapter",
+      "score": 23.785826
+     },
+     "metrics": {
+      "title_sim": 90.0,
+      "containment": 1.0,
+      "partial_ratio": 0,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "arxiv_id_repass",
+   "match": {
+    "source": "arxiv_abs",
+    "arxiv": "2311.08702",
+    "title": "Debate Helps Supervise Unreliable Experts",
+    "year": 2023,
+    "first_author": "Michael, Julian"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   }
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "[11] Akbir Khan, John Hughes, Dan Valentine, Laura Ruis, Kshitij Sachan, Ansh Radhakrishnan, Edward Grefenstette, Samuel R. Bowman, Tim Rockt\u00e4schel, and Ethan Perez. Debating with more persuasive LLMs leads to more truthful answers. arXiv preprint arXiv:2402.06782, 2024.",
+   "title": "Debating with more persuasive LLMs leads to more truthful answers",
+   "authors": [
+    "Khan",
+    "Hughes",
+    "Valentine",
+    "Ruis",
+    "Sachan",
+    "Radhakrishnan",
+    "Grefenstette",
+    "Bowman",
+    "Rockt\u00e4schel",
+    "Perez"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2402.06782",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2402.06782"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.5057333",
+      "title": "Humility-A Path to More Persuasive Legal Writing",
+      "year": 2024,
+      "first_author": "Rappaport",
+      "container": "",
+      "type": "posted-content",
+      "score": 33.878872
+     },
+     "metrics": {
+      "title_sim": 62.96296296296296,
+      "containment": 0.333,
+      "partial_ratio": 58.33333333333333,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "e5d297461c53153b9b7aae099c146741e97322b8",
+    "title": "Debating with More Persuasive LLMs Leads to More Truthful Answers",
+    "year": 2024,
+    "first_author": "Akbir Khan",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "DBLP": "journals/corr/abs-2402-06782",
+     "ArXiv": "2402.06782",
+     "DOI": "10.48550/arXiv.2402.06782",
+     "CorpusId": 267627652
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "[12] Luke Yoffe, Alfonso Amayuelas, and William Yang Wang. DebUnc: Mitigating hallucinations in large language model agent communication with uncertainty estimations. arXiv preprint arXiv:2407.06426, 2024.",
+   "title": "DebUnc: Mitigating hallucinations in large language model agent communication with uncertainty estimations",
+   "authors": [
+    "Yoffe",
+    "Amayuelas",
+    "Wang"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2407.06426",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2407.06426",
+    "title": "DebUnc: Improving Large Language Model Agent Communication With Uncertainty Metrics",
+    "year": 2024,
+    "first_author": "Luke Yoffe"
+   },
+   "metrics": {
+    "title_sim": 87.67123287671232,
+    "containment": 0.778,
+    "partial_ratio": 82.92682926829268,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "[13] Todor Mihaylov, Peter Clark, Tushar Khot, and Ashish Sabharwal. Can a suit of armor conduct electricity? a new dataset for open book question answering. In Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP), pages 2381\u20132391, 2018.",
+   "title": "Can a suit of armor conduct electricity? a new dataset for open book question answering",
+   "authors": [
+    "Mihaylov",
+    "Clark",
+    "Khot",
+    "Sabharwal"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/d18-1260",
+    "title": "Can a Suit of Armor Conduct Electricity? A New Dataset for Open Book Question Answering",
+    "year": 2018,
+    "first_author": "Mihaylov",
+    "container": "Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing",
+    "type": "proceedings-article",
+    "score": 88.88899
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "[14] Pratyay Banerjee, Kuntal Kumar Pal, Arindam Mitra, and Chitta Baral. Careful selection of knowledge to solve open book question answering. In Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics (ACL), pages 6120\u20136129, Florence, Italy, 2019.",
+   "title": "Careful selection of knowledge to solve open book question answering",
+   "authors": [
+    "Banerjee",
+    "Pal",
+    "Mitra",
+    "Baral"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics (ACL",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/p19-1615",
+    "title": "Careful Selection of Knowledge to Solve Open Book Question Answering",
+    "year": 2019,
+    "first_author": "Banerjee",
+    "container": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+    "type": "proceedings-article",
+    "score": 67.379845
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "[15] Peter Clark, Oren Etzioni, Daniel Khashabi, Tushar Khot, Bhavana Dalvi Mishra, Kyle Richardson, Ashish Sabharwal, Carissa Schoenick, Oyvind Tafjord, Niket Tandon, et al. From f to \u00e4 on the ny regents science exams: An overview of the aristo project. arXiv preprint arXiv:1909.01958, 2019.",
+   "title": "From f to \u00e4 on the ny regents science exams",
+   "authors": [
+    "Clark",
+    "Etzioni",
+    "Khashabi",
+    "Khot",
+    "Mishra",
+    "Richardson",
+    "Sabharwal",
+    "Schoenick",
+    "Tafjord",
+    "Tandon"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": "1909.01958",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "1909.01958",
+    "title": "From 'F' to 'A' on the N.Y. Regents Science Exams: An Overview of the Aristo Project",
+    "year": 2019,
+    "first_author": "Peter Clark"
+   },
+   "metrics": {
+    "title_sim": 96.3855421686747,
+    "containment": 1.0,
+    "partial_ratio": 98.71794871794873,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 16,
+   "raw": "[16] Pratyay Banerjee and Chitta Baral. Knowledge fusion and semantic knowledge ranking for open domain question answering. arXiv preprint arXiv:2004.03101, 2020.",
+   "title": "Knowledge fusion and semantic knowledge ranking for open domain question answering",
+   "authors": [
+    "Banerjee",
+    "Baral"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": "2004.03101",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2004.03101",
+    "title": "Knowledge Fusion and Semantic Knowledge Ranking for Open Domain Question Answering",
+    "year": 2020,
+    "first_author": "Pratyay Banerjee"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 17,
+   "raw": "[17] Yanlin Feng, Xinyue Chen, Bill Yuchen Lin, Peifeng Wang, Jun Yan, and Xiang Ren. Scalable multi-hop relational reasoning for knowledge-aware question answering. In Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), pages 1295\u20131309, 2020.",
+   "title": "Scalable multi-hop relational reasoning for knowledge-aware question answering",
+   "authors": [
+    "Feng",
+    "Chen",
+    "Lin",
+    "Wang",
+    "Yan",
+    "Ren"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2020.emnlp-main.99",
+    "title": "Scalable Multi-Hop Relational Reasoning for Knowledge-Aware Question Answering",
+    "year": 2020,
+    "first_author": "Feng",
+    "container": "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+    "type": "proceedings-article",
+    "score": 70.41789
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 18,
+   "raw": "[18] Michihiro Yasunaga, Hongyu Ren, Antoine Bosselut, Percy Liang, and Jure Leskovec. Qa-gnn: Reasoning with language models and knowledge graphs for question answering. In Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL), pages 535\u2013546, 2021.",
+   "title": "Qa-gnn: Reasoning with language models and knowledge graphs for question answering",
+   "authors": [
+    "Yasunaga",
+    "Ren",
+    "Bosselut",
+    "Liang",
+    "Leskovec"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2021.naacl-main.45",
+    "title": "QA-GNN: Reasoning with Language Models and Knowledge Graphs for Question Answering",
+    "year": 2021,
+    "first_author": "Yasunaga",
+    "container": "Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+    "type": "proceedings-article",
+    "score": 74.23148
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 19,
+   "raw": "[19] Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena, Yanqi Zhou, Wei Li, and Peter J. Liu. Exploring the limits of transfer learning with a unified text-to-text transformer. Journal of Machine Learning Research, 21:1\u201367, 2020.",
+   "title": "Exploring the limits of transfer learning with a unified text-to-text transformer",
+   "authors": [
+    "Raffel",
+    "Shazeer",
+    "Roberts",
+    "Lee",
+    "Narang",
+    "Matena",
+    "Zhou",
+    "Li",
+    "Liu"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Machine Learning Research",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.21437/interspeech.2024-949",
+      "title": "Homograph Disambiguation with Text-to-Text Transfer Transformer",
+      "year": 2024,
+      "first_author": "\u0158ez\u00e1\u010dkov\u00e1",
+      "container": "Interspeech 2024",
+      "type": "proceedings-article",
+      "score": 35.59462
+     },
+     "metrics": {
+      "title_sim": 72.52747252747253,
+      "containment": 0.667,
+      "partial_ratio": 58.730158730158735,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "6c4b76232bb72897685d19b3d264c6ee3005bc2b",
+    "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+    "year": 2019,
+    "first_author": "Colin Raffel",
+    "container": "Journal of machine learning research",
+    "ext": {
+     "MAG": "2981852735",
+     "DBLP": "journals/corr/abs-1910-10683",
+     "ArXiv": "1910.10683",
+     "CorpusId": 204838007
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 20,
+   "raw": "[20] Daniel Khashabi, Sewon Min, Tushar Khot, Ashish Sabharwal, Oyvind Tafjord, Peter Clark, and Hannaneh Hajishirzi. Unifiedqa: Crossing format boundaries with a single qa system. In Findings of the Association for Computational Linguistics: EMNLP 2020, pages 1896\u20131907, 2020.",
+   "title": "Unifiedqa: Crossing format boundaries with a single qa system",
+   "authors": [
+    "Khashabi",
+    "Min",
+    "Khot",
+    "Sabharwal",
+    "Tafjord",
+    "Clark",
+    "Hajishirzi"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Findings of the Association for Computational Linguistics: EMNLP 2020",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2020.findings-emnlp.171",
+    "title": "UNIFIEDQA: Crossing Format Boundaries with a Single QA System",
+    "year": 2020,
+    "first_author": "Khashabi",
+    "container": "Findings of the Association for Computational Linguistics: EMNLP 2020",
+    "type": "proceedings-article",
+    "score": 72.74643
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 21,
+   "raw": "[21] Peifeng Wang, Nanyun Peng, Filip Ilievski, Pedro Szekely, and Xiang Ren. Connecting the dots: A knowledgeable path generator for commonsense question answering. In Findings of the Association for Computational Linguistics: EMNLP 2020, pages 4129\u20134140, 2020.",
+   "title": "Connecting the dots: A knowledgeable path generator for commonsense question answering",
+   "authors": [
+    "Wang",
+    "Peng",
+    "Ilievski",
+    "Szekely",
+    "Ren"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Findings of the Association for Computational Linguistics: EMNLP 2020",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2020.findings-emnlp.369",
+    "title": "Connecting the Dots: A Knowledgeable Path Generator for Commonsense Question Answering",
+    "year": 2020,
+    "first_author": "Wang",
+    "container": "Findings of the Association for Computational Linguistics: EMNLP 2020",
+    "type": "proceedings-article",
+    "score": 77.12165
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 22,
+   "raw": "[22] Alicia Parrish, Harsh Trivedi, Nikita Nangia, Vishakh Padmakumar, Jason Phang, Amanpreet Singh, and Samuel R. Bowman. Two-turn debate does not help humans answer hard reading comprehension questions. In Advances in Neural Information Processing Systems 35 (NeurIPS 2022), 2022.",
+   "title": "Two-turn debate does not help humans answer hard reading comprehension questions",
+   "authors": [
+    "Parrish",
+    "Trivedi",
+    "Nangia",
+    "Padmakumar",
+    "Phang",
+    "Singh",
+    "Bowman"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems 35 (NeurIPS 2022",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2022.lnls-1.3",
+    "title": "Single-Turn Debate Does Not Help Humans Answer Hard Reading-Comprehension Questions",
+    "year": 2022,
+    "first_author": "Parrish",
+    "container": "Proceedings of the First Workshop on Learning with Natural Language Supervision",
+    "type": "proceedings-article",
+    "score": 79.17762
+   },
+   "metrics": {
+    "title_sim": 97.43589743589743,
+    "containment": 0.917,
+    "partial_ratio": 93.97590361445783,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 23,
+   "raw": "[23] Akbir Khan, John Hughes, Dan Valentine, Laura Ruis, Kshitij Sachan, Ansh Radhakrishnan, Edward Grefenstette, Samuel R. Bowman, Tim Rockt\u00e4schel, and Ethan Perez. Debating with more persuasive llms leads to more truthful answers. arXiv preprint arXiv:2402.06782, 2024.",
+   "title": "Debating with more persuasive llms leads to more truthful answers",
+   "authors": [
+    "Khan",
+    "Hughes",
+    "Valentine",
+    "Ruis",
+    "Sachan",
+    "Radhakrishnan",
+    "Grefenstette",
+    "Bowman",
+    "Rockt\u00e4schel",
+    "Perez"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2402.06782",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2402.06782",
+    "title": "Debating with More Persuasive LLMs Leads to More Truthful Answers",
+    "year": 2024,
+    "first_author": "Akbir Khan"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 24,
+   "raw": "[24] Gaurav Srivastava, Zhenyu Bi, Meng Lu, and Xuan Wang. Debate, train, evolve: Self-evolution of language model reasoning. arXiv preprint arXiv:2505.15734, 2025.",
+   "title": "Debate, train, evolve: Self-evolution of language model reasoning",
+   "authors": [
+    "Srivastava",
+    "Bi",
+    "Lu",
+    "Wang"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": "2505.15734",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2505.15734",
+    "title": "DEBATE, TRAIN, EVOLVE: Self Evolution of Language Model Reasoning",
+    "year": 2025,
+    "first_author": "Gaurav Srivastava"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 25,
+   "raw": "[25] Chen Han, Wenzhen Zheng, and Xijin Tang. Debate-to-detect: Reformulating misinformation detection as a real-world debate with large language models. arXiv preprint arXiv:2505.18596, 2025.",
+   "title": "Debate-to-detect: Reformulating misinformation detection as a real-world debate with large language models",
+   "authors": [
+    "Han",
+    "Zheng",
+    "Tang"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": "2505.18596",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2505.18596",
+    "title": "Debate-to-Detect: Reformulating Misinformation Detection as a Real-World Debate with Large Language Models",
+    "year": 2025,
+    "first_author": "Chen Han"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 26,
+   "raw": "[26] Roi Cohen, May Hamri, Mor Geva, and Amir Globerson. LM vs LM: Detecting factual errors via cross examination. In Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing (EMNLP), 2023.",
+   "title": "LM vs LM: Detecting factual errors via cross examination",
+   "authors": [
+    "Cohen",
+    "Hamri",
+    "Geva",
+    "Globerson"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing (EMNLP",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2023.emnlp-main.778",
+    "title": "LM vs LM: Detecting Factual Errors via Cross Examination",
+    "year": 2023,
+    "first_author": "Cohen",
+    "container": "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+    "type": "proceedings-article",
+    "score": 87.45424
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  }
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
+}

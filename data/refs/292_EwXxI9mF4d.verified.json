@@ -176,7 +176,7 @@
    "container": "Proceedings of the 31st USENIX Security Symposium",
    "type": "paper-conference",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -199,7 +199,28 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "b84d3dd9fc5995ec3d5b5970e593cb821072318b",
+    "title": "Inferring Phishing Intention via Webpage Appearance and Dynamics: A Deep Vision Based Approach",
+    "year": 2022,
+    "first_author": "Ruofan Liu",
+    "container": "USENIX Security Symposium",
+    "ext": {
+     "DBLP": "conf/uss/Liu0YNDD22",
+     "CorpusId": 248961475
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -694,7 +715,7 @@
    "container": "Proceedings of the 33rd USENIX Security Symposium",
    "type": "paper-conference",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -717,7 +738,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "e3090518cc30a95b3eb42bcfafb8c381ae238f7e",
+    "title": "KnowPhish: Large Language Models Meet Multimodal Knowledge Graphs for Enhancing Reference-Based Phishing Detection",
+    "year": 2024,
+    "first_author": "Yue-Xin Li",
+    "container": "USENIX Security Symposium",
+    "ext": {
+     "DBLP": "journals/corr/abs-2403-02253",
+     "ArXiv": "2403.02253",
+     "DOI": "10.48550/arXiv.2403.02253",
+     "CorpusId": 268248920
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -760,5 +804,7 @@
    },
    "evidence": []
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

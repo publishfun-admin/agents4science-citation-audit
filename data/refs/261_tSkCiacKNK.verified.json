@@ -60,10 +60,6 @@
    "verdict": "UNVERIFIED",
    "evidence": [
     {
-     "step": "arxiv_id_not_found",
-     "arxiv": "2203.12345"
-    },
-    {
      "step": "crossref_best_reject",
      "rec": {
       "source": "crossref",
@@ -81,6 +77,23 @@
       "partial_ratio": 84.21052631578947,
       "year_ok": true,
       "first_author_ok": true
+     }
+    },
+    {
+     "step": "arxiv_id_resolves_title_mismatch",
+     "rec": {
+      "source": "arxiv_abs",
+      "arxiv": "2203.12345",
+      "title": "Surface Patches with Rounded Corners",
+      "year": 2022,
+      "first_author": "Marussig, Benjamin"
+     },
+     "metrics": {
+      "title_sim": 37.254901960784316,
+      "containment": 0.0,
+      "partial_ratio": 41.666666666666664,
+      "year_ok": true,
+      "first_author_ok": false
      }
     }
    ],
@@ -182,7 +195,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -205,7 +218,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "c889d6f98e6d79b89c3a6adf8a921f88fa6ba518",
+    "title": "Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks",
+    "year": 2017,
+    "first_author": "Chelsea Finn",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "DBLP": "journals/corr/FinnAL17",
+     "MAG": "2951775809",
+     "ArXiv": "1703.03400",
+     "CorpusId": 6719686
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -222,7 +258,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -245,7 +281,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "4aa88c1406414cda3ce9cf76c8af0abaa8391760",
+    "title": "Habitat 2.0: Training Home Assistants to Rearrange their Habitat",
+    "year": 2021,
+    "first_author": "Andrew Szot",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "DBLP": "conf/nips/SzotCUWZTMMCMGV21",
+     "ArXiv": "2106.14405",
+     "CorpusId": 235658123
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -521,10 +579,6 @@
    "verdict": "UNVERIFIED",
    "evidence": [
     {
-     "step": "arxiv_id_not_found",
-     "arxiv": "2004.09888"
-    },
-    {
      "step": "crossref_best_reject",
      "rec": {
       "source": "crossref",
@@ -541,6 +595,23 @@
       "containment": 1.0,
       "partial_ratio": 100.0,
       "year_ok": false,
+      "first_author_ok": false
+     }
+    },
+    {
+     "step": "arxiv_id_resolves_title_mismatch",
+     "rec": {
+      "source": "arxiv_abs",
+      "arxiv": "2004.09888",
+      "title": "ICT Intervention in the Containment of the Pandemic Spread of COVID-19: An Exploratory Study",
+      "year": 2020,
+      "first_author": "Zaman, Akib"
+     },
+     "metrics": {
+      "title_sim": 33.333333333333336,
+      "containment": 0.0,
+      "partial_ratio": 36.8421052631579,
+      "year_ok": true,
       "first_author_ok": false
      }
     }
@@ -601,10 +672,6 @@
    "verdict": "UNVERIFIED",
    "evidence": [
     {
-     "step": "arxiv_id_not_found",
-     "arxiv": "2010.12345"
-    },
-    {
      "step": "crossref_best_reject",
      "rec": {
       "source": "crossref",
@@ -622,6 +689,23 @@
       "partial_ratio": 56.75675675675676,
       "year_ok": false,
       "first_author_ok": null
+     }
+    },
+    {
+     "step": "arxiv_id_resolves_title_mismatch",
+     "rec": {
+      "source": "arxiv_abs",
+      "arxiv": "2010.12345",
+      "title": "Birefringence effect in Raman scattering of anisotropic materials",
+      "year": 2020,
+      "first_author": "Wen, Muqian"
+     },
+     "metrics": {
+      "title_sim": 38.33333333333333,
+      "containment": 0.0,
+      "partial_ratio": 38.46153846153846,
+      "year_ok": true,
+      "first_author_ok": false
      }
     }
    ],
@@ -642,7 +726,7 @@
    "container": null,
    "type": "book",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -665,7 +749,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "c889d6f98e6d79b89c3a6adf8a921f88fa6ba518",
+    "title": "Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks",
+    "year": 2017,
+    "first_author": "Chelsea Finn",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "DBLP": "journals/corr/FinnAL17",
+     "MAG": "2951775809",
+     "ArXiv": "1703.03400",
+     "CorpusId": 6719686
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.75,
+    "partial_ratio": 83.05084745762711,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -728,10 +835,6 @@
    "verdict": "UNVERIFIED",
    "evidence": [
     {
-     "step": "arxiv_id_not_found",
-     "arxiv": "2407.06886"
-    },
-    {
      "step": "crossref_best_reject",
      "rec": {
       "source": "crossref",
@@ -755,6 +858,23 @@
      "step": "urls_not_live",
      "url_status": {
       "arXiv:2407.06886": "error"
+     }
+    },
+    {
+     "step": "arxiv_id_resolves_title_mismatch",
+     "rec": {
+      "source": "arxiv_abs",
+      "arxiv": "2407.06886",
+      "title": "Aligning Cyber Space with Physical World: A Comprehensive Survey on Embodied AI",
+      "year": 2024,
+      "first_author": "Liu, Yang"
+     },
+     "metrics": {
+      "title_sim": 64.34782608695653,
+      "containment": 0.375,
+      "partial_ratio": 70.49180327868852,
+      "year_ok": true,
+      "first_author_ok": false
      }
     }
    ],
@@ -933,7 +1053,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -960,7 +1080,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "db0f1d63f8fc50f056d2742fb0210277697208cb",
+    "title": "Multimodal Data Storage and Retrieval for Embodied AI: A Survey",
+    "year": 2025,
+    "first_author": "Yi-Hao Lu",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2508-13901",
+     "ArXiv": "2508.13901",
+     "DOI": "10.48550/arXiv.2508.13901",
+     "CorpusId": 280685982
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -977,7 +1120,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -1004,7 +1147,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "9e15efa3c0e39c07f03f5dfcd4ff68756093dcb0",
+    "title": "Multimodal Alignment and Fusion: A Survey",
+    "year": 2024,
+    "first_author": "Songtao Li",
+    "container": "International Journal of Computer Vision",
+    "ext": {
+     "DBLP": "journals/corr/abs-2411-17040",
+     "ArXiv": "2411.17040",
+     "DOI": "10.1007/s11263-025-02667-1",
+     "CorpusId": 274280969
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1057,7 +1223,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -1084,7 +1250,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "9e15efa3c0e39c07f03f5dfcd4ff68756093dcb0",
+    "title": "Multimodal Alignment and Fusion: A Survey",
+    "year": 2024,
+    "first_author": "Songtao Li",
+    "container": "International Journal of Computer Vision",
+    "ext": {
+     "DBLP": "journals/corr/abs-2411-17040",
+     "ArXiv": "2411.17040",
+     "DOI": "10.1007/s11263-025-02667-1",
+     "CorpusId": 274280969
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1101,7 +1290,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -1128,7 +1317,26 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "crossref_title",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/tmm.2021.3134168",
+    "title": "M2P2: Multimodal Persuasion Prediction Using Adaptive Fusion",
+    "year": 2023,
+    "first_author": "Bai",
+    "container": "IEEE Transactions on Multimedia",
+    "type": "journal-article",
+    "score": 26.408941
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.5,
+    "partial_ratio": 46.808510638297875,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1253,7 +1461,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -1280,7 +1488,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "42c006b7388d729cb17a0192fa7e66c34f9af904",
+    "title": "Crossing the Human-Robot Embodiment Gap with Sim-to-Real RL using One Human Demonstration",
+    "year": 2025,
+    "first_author": "T. Lum",
+    "container": "arXiv.org",
+    "ext": {
+     "ArXiv": "2504.12609",
+     "DBLP": "journals/corr/abs-2504-12609",
+     "DOI": "10.48550/arXiv.2504.12609",
+     "CorpusId": 277857482
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1297,7 +1528,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -1324,7 +1555,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "0a1ec333b79aa449ff9d2c2ce0913c625729e972",
+    "title": "TRANSIC: Sim-to-Real Policy Transfer by Learning from Online Correction",
+    "year": 2024,
+    "first_author": "Yunfan Jiang",
+    "container": "Conference on Robot Learning",
+    "ext": {
+     "DBLP": "conf/corl/0001WZ0024",
+     "ArXiv": "2405.10315",
+     "DOI": "10.48550/arXiv.2405.10315",
+     "CorpusId": 269791461
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.875,
+    "partial_ratio": 91.42857142857143,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -1572,10 +1826,6 @@
    "verdict": "UNVERIFIED",
    "evidence": [
     {
-     "step": "arxiv_id_not_found",
-     "arxiv": "2409.00015"
-    },
-    {
      "step": "crossref_best_reject",
      "rec": {
       "source": "crossref",
@@ -1599,6 +1849,23 @@
      "step": "urls_not_live",
      "url_status": {
       "arXiv:2409.00015": "error"
+     }
+    },
+    {
+     "step": "arxiv_id_resolves_title_mismatch",
+     "rec": {
+      "source": "arxiv_abs",
+      "arxiv": "2409.00015",
+      "title": "Navigating the sociotechnical labyrinth: Dynamic certification for responsible embodied AI",
+      "year": 2024,
+      "first_author": "Bakirtzis, Georgios"
+     },
+     "metrics": {
+      "title_sim": 71.01449275362319,
+      "containment": 0.571,
+      "partial_ratio": 75.77639751552795,
+      "year_ok": true,
+      "first_author_ok": false
      }
     }
    ],
@@ -1974,7 +2241,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -2007,7 +2274,30 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "883c6cc74d73c91438a3cad76466fd2ae70a44d6",
+    "title": "A call for embodied AI",
+    "year": 2024,
+    "first_author": "Giuseppe Paolo",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "DBLP": "journals/corr/abs-2402-03824",
+     "ArXiv": "2402.03824",
+     "DOI": "10.48550/arXiv.2402.03824",
+     "CorpusId": 267499640
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -2301,7 +2591,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -2328,7 +2618,22 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "arxiv_id_repass",
+   "match": {
+    "source": "arxiv_abs",
+    "arxiv": "2307.15818",
+    "title": "RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control",
+    "year": 2023,
+    "first_author": "Brohan, Anthony"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   }
   },
   {
    "junk": false,
@@ -2443,5 +2748,7 @@
    },
    "evidence": []
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

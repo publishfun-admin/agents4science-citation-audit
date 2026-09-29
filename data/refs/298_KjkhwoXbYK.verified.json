@@ -2068,7 +2068,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -2091,7 +2091,31 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "35ba1f8c8dcdd06148935b7d377753b9c925d7c4",
+    "title": "Quantum phase transitions of two-species bosons in square lattice",
+    "year": 2010,
+    "first_author": "Po-Chung Chen",
+    "container": "",
+    "ext": {
+     "ArXiv": "1009.2841",
+     "DOI": "10.1103/PhysRevB.82.180510",
+     "CorpusId": 118491091
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
   }
- ]
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
 }

@@ -1,0 +1,1157 @@
+{
+ "pdf": "70_BtwfpDb1OO.pdf",
+ "n_entries": 27,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "[1] Maciej Besta, Nils Blach, Ales Kubicek, Robert Gerstenberger, Michal Podstawski, Lukas Gianinazzi, Joanna Gajda, Tomasz Lehmann, Hubert Niewiadomski, Piotr Nyczyk, et al. Graph of thoughts: Solving elaborate problems with large language models. In Proceedings of the AAAI conference on artificial intelligence, volume 38, pages 17682\u201317690, 2024.",
+   "title": "Graph of thoughts: Solving elaborate problems with large language models",
+   "authors": [
+    "Besta",
+    "Blach",
+    "Kubicek",
+    "Gerstenberger",
+    "Podstawski",
+    "Gianinazzi",
+    "Gajda",
+    "Lehmann",
+    "Niewiadomski",
+    "Nyczyk"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the AAAI conference on artificial intelligence",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1609/aaai.v38i16.29720",
+    "title": "Graph of Thoughts: Solving Elaborate Problems with Large Language Models",
+    "year": 2024,
+    "first_author": "Besta",
+    "container": "Proceedings of the AAAI Conference on Artificial Intelligence",
+    "type": "journal-article",
+    "score": 57.681877
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "[2] Rishi Bommasani, Percy Liang, and Tony Lee. Holistic evaluation of language models. Annals of the New York Academy of Sciences, 1525(1):140\u2013146, 2023.",
+   "title": "Holistic evaluation of language models",
+   "authors": [
+    "Bommasani",
+    "Liang",
+    "Lee"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Annals of the New York Academy of Sciences",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1111/nyas.15007",
+    "title": "Holistic Evaluation of Language Models",
+    "year": 2023,
+    "first_author": "Bommasani",
+    "container": "Annals of the New York Academy of Sciences",
+    "type": "journal-article",
+    "score": 38.396065
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "[3] Sirui Hong, Mingchen Zhuge, Jonathan Chen, Xiawu Zheng, Yuheng Cheng, Ceyao Zhang, Jinlin Wang, Zili Wang, Steven Ka Shing Yau, Zijuan Lin, et al. Metagpt: Meta programming for a multi-agent collaborative framework. International Conference on Learning Representations, ICLR, 2024.",
+   "title": "Metagpt: Meta programming for a multi-agent collaborative framework",
+   "authors": [
+    "Hong",
+    "Zhuge",
+    "Chen",
+    "Zheng",
+    "Cheng",
+    "Zhang",
+    "Wang",
+    "Wang",
+    "Yau",
+    "Lin"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Conference on Learning Representations, ICLR",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/tsc.2026.3676128/mm1",
+      "title": "MARS: A Multi-Agent Collaborative Reasoning Framework for Service Recommendation_supp1-3676128.pdf",
+      "year": 2026,
+      "first_author": "Wang",
+      "container": "",
+      "type": "component",
+      "score": 30.742067
+     },
+     "metrics": {
+      "title_sim": 76.6355140186916,
+      "containment": 0.364,
+      "partial_ratio": 59.79381443298969,
+      "year_ok": false,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "792fd55d79d120173e0a944ce6bfe4787239c1d2",
+    "title": "MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework",
+    "year": 2023,
+    "first_author": "Si-Rui Hong",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "DBLP": "conf/iclr/HongZCZCWZWYLZR24",
+     "CorpusId": 265301950
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "[4] Jerry A Jacobs. In defense of disciplines: Interdisciplinarity and specialization in the research university. University of chicago Press, 2014.",
+   "title": "In defense of disciplines: Interdisciplinarity and specialization in the research university",
+   "authors": [
+    "Jacobs"
+   ],
+   "year": 2014,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.7208/chicago/9780226069463.001.0001",
+    "title": "In Defense of Disciplines",
+    "year": 2014,
+    "first_author": "Jacobs",
+    "container": "",
+    "type": "monograph",
+    "score": 66.25323
+   },
+   "metrics": {
+    "title_sim": 43.103448275862064,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "[5] Kwang Deok Kim and Liaquat Hossain. Policy network approach to coordinated disaster response. arXiv preprint arXiv:1312.3693, 2013.",
+   "title": "Policy network approach to coordinated disaster response",
+   "authors": [
+    "Kim",
+    "Hossain"
+   ],
+   "year": 2013,
+   "doi": null,
+   "arxiv": "1312.3693",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "1312.3693",
+    "title": "Policy Network Approach to Coordinated Disaster Response",
+    "year": 2013,
+    "first_author": "Kwang Deok Kim"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "[6] Cristo Leon Ph D and James Lipuma Ph D. Overcoming obstacles to interdisciplinary research: Empirical insights and strategies [peer-reviewed journal]. 2024.",
+   "title": "Overcoming obstacles to interdisciplinary research: Empirical insights and strategies [peer-reviewed journal",
+   "authors": [
+    "D",
+    "D"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.54808/jsci.22.06.18",
+    "title": "Overcoming Obstacles to Interdisciplinary Research: Empirical Insights and Strategies",
+    "year": 2024,
+    "first_author": "Leon",
+    "container": "Journal of Systemics, Cybernetics and Informatics",
+    "type": "journal-article",
+    "score": 45.584064
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "[7] Guohao Li, Hasan Hammoud, Hani Itani, Dmitrii Khizbullin, and Bernard Ghanem. Camel: Communicative agents for\" mind\" exploration of large language model society. Advances in Neural Information Processing Systems, 36:51991\u201352008, 2023.",
+   "title": "Camel: Communicative agents for\" mind\" exploration of large language model society",
+   "authors": [
+    "Li",
+    "Hammoud",
+    "Itani",
+    "Khizbullin",
+    "Ghanem"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/075280-2264",
+    "title": "CAMEL: Communicative Agents for \"Mind\" Exploration of Large Language Model Society",
+    "year": 2023,
+    "first_author": "Li",
+    "container": "Advances in Neural Information Processing Systems 36",
+    "type": "proceedings-article",
+    "score": 64.36643
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "[8] Margaret Mitchell, Simone Wu, Andrew Zaldivar, Parker Barnes, Lucy Vasserman, Ben Hutchinson, Elena Spitzer, Inioluwa Deborah Raji, and Timnit Gebru. Model cards for model reporting. In Proceedings of the conference on fairness, accountability, and transparency, pages 220\u2013229, 2019.",
+   "title": "Model cards for model reporting",
+   "authors": [
+    "Mitchell",
+    "Wu",
+    "Zaldivar",
+    "Barnes",
+    "Vasserman",
+    "Hutchinson",
+    "Spitzer",
+    "Raji",
+    "Gebru"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the conference on fairness, accountability, and transparency",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3287560.3287596",
+    "title": "Model Cards for Model Reporting",
+    "year": 2019,
+    "first_author": "Mitchell",
+    "container": "Proceedings of the Conference on Fairness, Accountability, and Transparency",
+    "type": "proceedings-article",
+    "score": 37.695103
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "[9] Keisuke Okamura. Evolving interdisciplinary contributions to global societal challenges: A 50-year overview. arXiv preprint arXiv:2410.20619, 2024.",
+   "title": "Evolving interdisciplinary contributions to global societal challenges: A 50-year overview",
+   "authors": [
+    "Okamura"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2410.20619",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2410.20619",
+    "title": "Evolving interdisciplinary contributions to global societal challenges: A 50-year overview",
+    "year": 2024,
+    "first_author": "Keisuke Okamura"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "[10] Mat\u00edas Paredes-Vergara, Rodrigo Palma-Behnke, and Jannik Haas. Characterizing decision making under deep uncertainty for model-based energy transitions. Renewable and Sustainable Energy Reviews, 192:114233, 2024.",
+   "title": "Characterizing decision making under deep uncertainty for model-based energy transitions",
+   "authors": [
+    "Paredes-Vergara",
+    "Palma-Behnke",
+    "Haas"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Renewable and Sustainable Energy Reviews",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.rser.2023.114233",
+    "title": "Characterizing decision making under deep uncertainty for model-based energy transitions",
+    "year": 2024,
+    "first_author": "Paredes-Vergara",
+    "container": "Renewable and Sustainable Energy Reviews",
+    "type": "journal-article",
+    "score": 76.650955
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "[11] Timo Schick, Jane Dwivedi-Yu, Roberto Dess\u00ec, Roberta Raileanu, Maria Lomeli, Eric Hambro, Luke Zettlemoyer, Nicola Cancedda, and Thomas Scialom. Toolformer: Language models can teach themselves to use tools. Advances in Neural Information Processing Systems, 36:68539\u201368551, 2023.",
+   "title": "Toolformer: Language models can teach themselves to use tools",
+   "authors": [
+    "Schick",
+    "Dwivedi-Yu",
+    "Dess\u00ec",
+    "Raileanu",
+    "Lomeli",
+    "Hambro",
+    "Zettlemoyer",
+    "Cancedda",
+    "Scialom"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/075280-2997",
+    "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+    "year": 2023,
+    "first_author": "Schick",
+    "container": "Advances in Neural Information Processing Systems 36",
+    "type": "proceedings-article",
+    "score": 66.82388
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "[12] Yongliang Shen, Kaitao Song, Xu Tan, Dongsheng Li, Weiming Lu, and Yueting Zhuang. Hugginggpt: Solving ai tasks with chatgpt and its friends in hugging face. Advances in Neural Information Processing Systems, 36:38154\u201338180, 2023.",
+   "title": "Hugginggpt: Solving ai tasks with chatgpt and its friends in hugging face",
+   "authors": [
+    "Shen",
+    "Song",
+    "Tan",
+    "Li",
+    "Lu",
+    "Zhuang"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/075280-1657",
+    "title": "HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in Hugging Face",
+    "year": 2023,
+    "first_author": "Shen",
+    "container": "Advances in Neural Information Processing Systems 36",
+    "type": "proceedings-article",
+    "score": 83.27641
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "[13] Mirac Suzgun, Nathan Scales, Nathanael Sch\u00e4rli, Sebastian Gehrmann, Yi Tay, Hyung Won Chung, Aakanksha Chowdhery, Quoc V Le, Ed H Chi, Denny Zhou, et al. Challenging bigbench tasks and whether chain-of-thought can solve them. arXiv preprint arXiv:2210.09261, 2022.",
+   "title": "Challenging bigbench tasks and whether chain-of-thought can solve them",
+   "authors": [
+    "Suzgun",
+    "Scales",
+    "Sch\u00e4rli",
+    "Gehrmann",
+    "Tay",
+    "Chung",
+    "Chowdhery",
+    "Le",
+    "Chi",
+    "Zhou"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": "2210.09261",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2210.09261",
+    "title": "Challenging BIG-Bench Tasks and Whether Chain-of-Thought Can Solve Them",
+    "year": 2022,
+    "first_author": "Mirac Suzgun"
+   },
+   "metrics": {
+    "title_sim": 99.29078014184397,
+    "containment": 0.8,
+    "partial_ratio": 98.59154929577466,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "[14] Val\u00e9rie Vermeulen and Yannick H\u00e9mond. Interdisciplinary collaboration in vuca contexts: a conceptual review for environmental upheavals management. Environmental Systems Research, 14(1):16, 2025.",
+   "title": "Interdisciplinary collaboration in vuca contexts: a conceptual review for environmental upheavals management",
+   "authors": [
+    "Vermeulen",
+    "H\u00e9mond"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Environmental Systems Research",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1186/s40068-025-00406-6",
+    "title": "Interdisciplinary collaboration in VUCA contexts: a conceptual review for environmental upheavals management",
+    "year": 2025,
+    "first_author": "Vermeulen",
+    "container": "Environmental Systems Research",
+    "type": "journal-article",
+    "score": 83.52194
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "[15] Yijing Wang and Daniel Laufer. A cross-disciplinary review of crisis spillover research: Spillover types, risk factors, and response strategies. Public Relations Review, 50(3):102411, 2024.",
+   "title": "A cross-disciplinary review of crisis spillover research: Spillover types, risk factors, and response strategies",
+   "authors": [
+    "Wang",
+    "Laufer"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Public Relations Review",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.pubrev.2023.102411",
+    "title": "A cross-disciplinary review of crisis spillover research: Spillover types, risk factors, and response strategies",
+    "year": 2024,
+    "first_author": "Wang",
+    "container": "Public Relations Review",
+    "type": "journal-article",
+    "score": 88.326324
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 16,
+   "raw": "[16] Yubo Wang, Xueguang Ma, Ge Zhang, Yuansheng Ni, Abhranil Chandra, Shiguang Guo, Weiming Ren, Aaran Arulraj, Xuan He, Ziyan Jiang, et al. Mmlu-pro: A more robust and challenging multi-task language understanding benchmark. Advances in Neural Information Processing Systems, 37:95266\u201395290, 2024.",
+   "title": "Mmlu-pro: A more robust and challenging multi-task language understanding benchmark",
+   "authors": [
+    "Wang",
+    "Ma",
+    "Zhang",
+    "Ni",
+    "Chandra",
+    "Guo",
+    "Ren",
+    "Arulraj",
+    "He",
+    "Jiang"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in Neural Information Processing Systems",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/079017-3018",
+    "title": "MMLU-Pro: A More Robust and Challenging Multi-Task Language Understanding Benchmark",
+    "year": 2024,
+    "first_author": "Wang",
+    "container": "Advances in Neural Information Processing Systems 37",
+    "type": "proceedings-article",
+    "score": 62.73686
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 17,
+   "raw": "[17] Qingyun Wu, Gagan Bansal, Jieyu Zhang, Yiran Wu, Beibin Li, Erkang Zhu, Li Jiang, Xiaoyun Zhang, Shaokun Zhang, Jiale Liu, et al. Autogen: Enabling next-gen llm applications via multi-agent conversations. In First Conference on Language Modeling, 2024.",
+   "title": "Autogen: Enabling next-gen llm applications via multi-agent conversations",
+   "authors": [
+    "Wu",
+    "Bansal",
+    "Zhang",
+    "Wu",
+    "Li",
+    "Zhu",
+    "Jiang",
+    "Zhang",
+    "Zhang",
+    "Liu"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "First Conference on Language Modeling",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.6532560",
+      "title": "Optimizing Multi\u2011Agent LLM Collaboration via Communication\u2011Flow Control\u200b",
+      "year": 2026,
+      "first_author": "Tian",
+      "container": "",
+      "type": "posted-content",
+      "score": 32.12242
+     },
+     "metrics": {
+      "title_sim": 58.74125874125874,
+      "containment": 0.375,
+      "partial_ratio": 54.92957746478873,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "1a4c6856292b8c64d19a812a77f0aa6fd47cb96c",
+    "title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation Framework",
+    "year": 2023,
+    "first_author": "Qingyun Wu",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2308-08155",
+     "CorpusId": 260925901
+    }
+   },
+   "metrics": {
+    "title_sim": 92.81045751633987,
+    "containment": 0.8,
+    "partial_ratio": 91.35802469135803,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 18,
+   "raw": "[18] Shunyu Yao, Dian Yu, Jeffrey Zhao, Izhak Shafran, Tom Griffiths, Yuan Cao, and Karthik Narasimhan. Tree of thoughts: Deliberate problem solving with large language models. Advances in neural information processing systems, 36:11809\u201311822, 2023.",
+   "title": "Tree of thoughts: Deliberate problem solving with large language models",
+   "authors": [
+    "Yao",
+    "Yu",
+    "Zhao",
+    "Shafran",
+    "Griffiths",
+    "Cao",
+    "Narasimhan"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in neural information processing systems",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/075280-0517",
+    "title": "Tree of Thoughts: Deliberate Problem Solving with Large Language Models",
+    "year": 2023,
+    "first_author": "Yao",
+    "container": "Advances in Neural Information Processing Systems 36",
+    "type": "proceedings-article",
+    "score": 61.221767
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 19,
+   "raw": "[19] Shunyu Yao, Jeffrey Zhao, Dian Yu, Nan Du, Izhak Shafran, Karthik Narasimhan, and Yuan Cao. React: Synergizing reasoning and acting in language models. In International Conference on Learning Representations (ICLR), 2023.",
+   "title": "React: Synergizing reasoning and acting in language models",
+   "authors": [
+    "Yao",
+    "Zhao",
+    "Yu",
+    "Du",
+    "Shafran",
+    "Narasimhan",
+    "Cao"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Conference on Learning Representations (ICLR",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.4656090",
+      "title": "Large Language Models Reasoning and Reinforcement Learning",
+      "year": 2023,
+      "first_author": "Noguer I Alonso",
+      "container": "",
+      "type": "posted-content",
+      "score": 26.953327
+     },
+     "metrics": {
+      "title_sim": 71.30434782608695,
+      "containment": 0.667,
+      "partial_ratio": 65.51724137931035,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "99832586d55f540f603637e458a292406a0ed75d",
+    "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+    "year": 2022,
+    "first_author": "Shunyu Yao",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "DBLP": "conf/iclr/YaoZYDSN023",
+     "ArXiv": "2210.03629",
+     "CorpusId": 252762395
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": true,
+   "idx": 20,
+   "raw": "You are an independent evaluator of cross-disciplinary counterfactual reasoning ,\u2192  quality. Score fairly, avoid verbosity, and return strict JSON only. C.2   Rubric User Prompt Evaluate the report using a 5-DIMENSION RUBRIC (0-100 total).",
+   "title": "You are an independent evaluator of cross-disciplinary counterfactual reasoning ,\u2192 quality. Score fairly, avoid verbosity, and return strict JSON only",
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "C.2 Rubric User Prompt Evaluate the report using a 5-DIMENSION RUBRIC",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.5381084",
+      "title": "Evaluator Identity Construction Through Citations: Cross-Disciplinary Evidence of How Applied Fields Deploy Critical Evaluation While Pure Fields Signal Gaps",
+      "year": 2025,
+      "first_author": "Zhang",
+      "container": "",
+      "type": "posted-content",
+      "score": 28.30637
+     },
+     "metrics": {
+      "title_sim": 53.24232081911263,
+      "containment": 0.158,
+      "partial_ratio": 46.794871794871796,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": true,
+   "idx": 21,
+   "raw": "Return STRICT JSON with numeric scores (floats) for EXACT keys: - rigor_traceability (0-25): clarity of assumptions, data/source grounding, ,\u2192  traceable reasoning and checks.",
+   "title": "Return STRICT JSON with numeric scores (floats) for EXACT keys: - rigor_traceability (0-25): clarity of assumptions, data/source grounding, ,\u2192 traceable reasoning and checks",
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.7554/elife.46500.009",
+      "title": "Figure 1\u2014source data 1. Numeric data for activity quantification of Cas9 and its variants (XLS).",
+      "year": 2019,
+      "first_author": null,
+      "container": "",
+      "type": "component",
+      "score": 27.285643
+     },
+     "metrics": {
+      "title_sim": 43.65079365079365,
+      "containment": 0.4,
+      "partial_ratio": 45.652173913043484,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": true,
+   "idx": 22,
+   "raw": "- integration_causality (0-25): cross-domain causal links, mechanism coherence, ,\u2192  synthesis quality.",
+   "title": "- integration_causality (0-25): cross-domain causal links, mechanism coherence, ,\u2192 synthesis quality",
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.4324/9781315735542-5",
+      "title": "Mechanistic Theories of Causality and Causal Theories of Mechanism",
+      "year": 2018,
+      "first_author": "Gillies",
+      "container": "Causality, Probability, and Medicine",
+      "type": "book-chapter",
+      "score": 29.829103
+     },
+     "metrics": {
+      "title_sim": 65.0,
+      "containment": 0.5,
+      "partial_ratio": 60.9375,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": true,
+   "idx": 23,
+   "raw": "- feasibility_minimality (0-20): realism under constraints, minimal additional ,\u2192  assumptions.",
+   "title": "- feasibility_minimality (0-20): realism under constraints, minimal additional ,\u2192 assumptions",
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/bf02575590",
+      "title": "Optimal error estimates for linear parabolic problems under minimal regularity assumptions",
+      "year": 1983,
+      "first_author": "Baiocchi",
+      "container": "Calcolo",
+      "type": "journal-article",
+      "score": 27.796307
+     },
+     "metrics": {
+      "title_sim": 55.172413793103445,
+      "containment": 0.222,
+      "partial_ratio": 56.25,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": true,
+   "idx": 24,
+   "raw": "- uncertainty_adaptation (0-15): calibrated ranges, sensitivity, ,\u2192  substitution/adaptation framing.",
+   "title": "- uncertainty_adaptation (0-15): calibrated ranges, sensitivity, ,\u2192 substitution/adaptation framing",
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/tpami.2025.3560696/mm1",
+      "title": "Uncertainty-Calibrated Test-Time Model Adaptation without Forgetting_supp1-3560696.pdf",
+      "year": 2025,
+      "first_author": "Niu",
+      "container": "",
+      "type": "component",
+      "score": 39.876663
+     },
+     "metrics": {
+      "title_sim": 65.85365853658536,
+      "containment": 0.273,
+      "partial_ratio": 51.764705882352935,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": true,
+   "idx": 25,
+   "raw": "- decisionability (0-15): actionable indicators, thresholds, branch decision rules.",
+   "title": "- decisionability (0-15): actionable indicators, thresholds, branch decision rules",
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/skg.2017.00030",
+      "title": "Mining Actionable Behavioral Rules Based on Decision Tree Classifier",
+      "year": 2017,
+      "first_author": "Su",
+      "container": "2017 13th International Conference on Semantics, Knowledge and Grids (SKG)",
+      "type": "proceedings-article",
+      "score": 23.745981
+     },
+     "metrics": {
+      "title_sim": 61.53846153846154,
+      "containment": 0.375,
+      "partial_ratio": 58.53658536585367,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": true,
+   "idx": 26,
+   "raw": "- overall (0-100) = sum of the five dimensions.",
+   "title": "- overall (0-100) = sum of the five dimensions",
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.23919/radio.2018.8572386",
+      "title": "Five-Stub Directional Device with Substantially Reduced Overall Dimensions",
+      "year": 2018,
+      "first_author": "Letavin",
+      "container": "2018 IEEE Radio and Antenna Days of the Indian Ocean (RADIO)",
+      "type": "proceedings-article",
+      "score": 23.673203
+     },
+     "metrics": {
+      "title_sim": 73.01587301587301,
+      "containment": 0.375,
+      "partial_ratio": 62.06896551724138,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": true,
+   "idx": 27,
+   "raw": "C.3   Strict JSON Retry Instruction",
+   "title": null,
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.21203/rs.3.rs-10610100/v1",
+      "title": "Testing JSON Schema Instruction Artifacts: Distributional Robustness under Validation-Equivalent Serialization and JSON Mode",
+      "year": 2026,
+      "first_author": "Sun",
+      "container": "",
+      "type": "posted-content",
+      "score": 26.911297
+     },
+     "metrics": {
+      "title_sim": 0,
+      "containment": 0.25,
+      "partial_ratio": 68.75,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  }
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
+}
