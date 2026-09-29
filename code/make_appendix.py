@@ -27,7 +27,7 @@ out += ['', '### A.5 Search-channel analysis of NOT_FOUND decisions\n', open(os.
 out += ['### A.6 Manual inspection of low-ratio reference lists\n', open(os.path.join(ROOT, 'data/dataset/manual_recall_inspection.md')).read().strip() if os.path.exists(os.path.join(ROOT, 'data/dataset/manual_recall_inspection.md')) else '(see data/dataset/manual_recall_inspection.md)', '']
 hp = os.path.join(ROOT, 'data/dataset/human_agreement.md')
 if os.path.exists(hp):
-    out += ['### A.7 Human coding of 64 items (operator as coder): agreement with the agent labels\n']
+    out += ['### A.7 Human coding of 64 items (the author as coder, no part in the adjudication): agreement with the agent labels\n']
     for line in open(hp).read().split('\n'):
         if line.startswith('- Human vs') or line.startswith('- On the'): out.append(line)
     out.append('')

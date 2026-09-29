@@ -165,12 +165,16 @@ random samples of 60 and 120 automatically verified entries (stratified by verif
 identifier- or title-based automated acceptance passes a citation whose author list, venue or identifier is wrong. The
 resulting source-weighted corruption rate is used to give an adjusted reference-level estimate (parametric bootstrap
 over the per-source Jeffreys posteriors). Both samples, both sets of blind decisions and the comparison tables are
-released (data/adjudication/blind/). (iii) A human coder, the operator of the study, coded a 64-item sheet drawn from
-the two blind samples: the 25 manual decisions on which the two agents disagreed, 10 on which they agreed, the 19
-automatically verified entries that the blind check called corrupted or invented, and 10 that it confirmed. The sheet
-carried the agent labels in separate columns that the coder was instructed to hide before coding; independence from
-the agent labels is therefore procedural rather than verified, and the coder is not independent of the study. Agreement
-is reported against both agent labels, and the adjusted estimates are recomputed with the human labels in place of
+released (data/adjudication/blind/). (iii) A human coder, the paper's author, coded a 64-item sheet drawn from the two
+blind samples: the 25 manual decisions on which the two agents disagreed, 10 on which they agreed, the 19
+automatically verified entries that the blind check called corrupted or invented, and 10 that it confirmed. The author's
+part in the study was to set the research goal, provide access and approve design decisions; the author extracted,
+verified and adjudicated no reference, took no part in the blind re-adjudication, and drafted neither the analysis nor
+the text, all of which were done by the agents, so the human coding is independent of the labels it is compared with
+in the sense that matters for inter-rater validation: the two ratings were produced by different raters with no access
+to each other's judgements. The sheet carried the agent labels in separate columns that the coder was instructed to
+hide before coding, so blinding is procedural rather than verified, and the coder is not independent of the paper's
+authorship or of its outcome. Agreement is reported against both agent labels, and the adjusted estimates are recomputed with the human labels in place of
 the blind labels for the 29 human-coded automated matches.
 
 **Analysis.** All analyses were pre-specified (paper/analysis_plan.md in the repository) before any manual
@@ -264,9 +268,9 @@ the first adjudicator the human agreed on 80% of the 10 manual decisions on whic
 fabricated-versus-not) and on 36% of the 25 disputed ones (64%), siding with the blind agent in 13 of the 25 disputed
 cases, with the first adjudicator in 9 and with neither in 3; weighting the two strata by the frequency of agent
 disagreement in the blind samples (16.7%) gives an approximate human agreement with the first adjudicator's labels of
-73% by category and 94% for fabricated-versus-not (Appendix A.7). The human coder is the operator of the study, so
-these are not independent human judgements; they anchor the agent labels to one careful human reading, not to a
-consensus.
+73% by category and 94% for fabricated-versus-not (Appendix A.7). The human coder is the paper's author, who took no part in producing the agent
+labels; the coding anchors those labels to one careful human reading by someone outside the adjudication process, not
+to a consensus of external coders.
 
 **What the automated stage let through.** On the 180 blind-checked automatically verified entries, 17 (9.4%; 95% CI
 6.0-14.6) were real works cited with a wrong author list, venue or identifier and 2 (1.1%; 0.3-4.0) did not exist
@@ -620,8 +624,8 @@ The two revisions added the checks that an audit of this kind should carry from 
 adjudication of the labels, a blind check of the automated matches, which turned out to matter more than the
 adjudication it was meant to validate, a recall check for every reference-list style with manual inspection of the
 doubtful lists, and a re-verification of the paper's own reference list at the author, venue and year level, which
-corrected one author name that identifier resolution alone had let through. The human coding of 64 items, added in the third revision, anchors the agent labels to one
-human reading: it confirms the automated stage's error rate almost exactly and sides with the blind agent more often
+corrected one author name that identifier resolution alone had let through. The human coding of 64 items, added in the third revision and performed by the author, who
+had no part in the adjudication, anchors the agent labels to one human reading: it confirms the automated stage's error rate almost exactly and sides with the blind agent more often
 than with the first adjudicator on disputed manual decisions, which is why the human-anchored rates are used for the
 adjusted estimates. Readers who find an error in a decision are invited to report it against the
 released logs.
@@ -649,10 +653,11 @@ primary one.
 **Adjudication by agents.** Both the adjudication and its blind validation were performed by AI agents following a
 written protocol with logged evidence, not by human coders; the agreement statistics (kappa 0.75 for categories, 0.83
 for fabricated-versus-not) measure the reproducibility of the protocol between independent agent instances, not
-agreement with human judgement. The 64-item human coding (Sections 4 and 5.1) anchors these statistics to one human reading, but the coder is the
-operator of the study and the sheet carried the agent labels in columns the coder was asked to hide, so the human check
-is neither independent nor blind by construction; its main result, that 18 of the 19 disputed automated matches are
-indeed defective, does not depend on fine judgement. The search channels
+agreement with human judgement. The 64-item human coding (Sections 4 and 5.1) anchors these statistics to one human reading. The coder, the paper's
+author, had no part in the adjudication or the analysis and so is independent of the labels under test, but not of the
+paper's authorship, and the sheet carried the agent labels in columns the coder was asked to hide, so blinding is
+procedural rather than verified; the check's main result, that 18 of the 19 disputed automated matches are indeed
+defective, does not depend on fine judgement. The search channels
 changed during the first adjudication (the agent's web-search tool, then Google, Brave and Yahoo search pages, PubMed
 and Crossref) as usage limits and bot detection intervened. The NOT_FOUND rate by adjudication order was 40.9%, 31.9%
 and 33.3% of adjudicable decisions in the first, second and third terciles, and the blind adjudicators, who used
@@ -839,7 +844,7 @@ Of 16 inspected lists, 13 were complete and 3 had omissions totalling 5 referenc
 
 **Random sample of lists that pass the diagnostics.** Sampling frame and timing: the low-ratio set above was determined before the last two parser repairs (section-end headings, author-pattern segmentation), which is why it includes submission 273; the random sample below was drawn after those repairs, from the 69 author-year and 14 numbered lists (83 in all) as they stood at that time, 15 of which were drawn with seed 20261004 (code/qa_recall_authoryear.py output data/dataset/qa_recall_authoryear.json). Submission 273 therefore appears in both sets: it was a low-ratio list before repair and a passing list after it. To check that omissions are not confined to low-ratio lists, the 15 sampled lists were inspected in the same way. One list (submission 219, a numbered list of placeholder stubs without a recognised heading) could not be assessed. Of the other 14, 13 were complete (submissions 185, 248, 195, 308, 240, 273, 268, 117, 115, 310, 303, 200, 91; in several the entry-start count exceeded the parsed count only because appendix headings or continuation lines in two-column text were counted as starts) and one (submission 124) had one entry missing, the placeholder stub "Coyne, M., et al. (2017). Reading interventions...", which the parser dropped. One missing reference in 14 assessable lists suggests an omission rate of roughly one reference per fourteen non-bracket lists, or about six references across the 83 non-bracket lists, with wide uncertainty.
 
-### A.7 Human coding of 64 items (operator as coder): agreement with the agent labels
+### A.7 Human coding of 64 items (the author as coder, no part in the adjudication): agreement with the agent labels
 
 - Human vs first adjudicator (or automated VERIFIED), all (n=64): categories 43.8% agreement (kappa 0.21); fabricated-vs-not 57.8% (kappa 0.18)
 - Human vs first adjudicator (or automated VERIFIED), manual (both strata) (n=35): categories 48.6% agreement (kappa 0.20); fabricated-vs-not 74.3% (kappa -0.15)
