@@ -34,6 +34,10 @@ if __name__ == '__main__':
     elif cmd == 'status':
         st, res = _req('GET', '/api/papers/' + sys.argv[2])
         print(st); print(json.dumps(res, indent=1)[:6000])
+        # keep the stored record free of manuscript copies (they are in paper/paper.md) and of superseded repository URLs
+        res.pop('content_md', None)
+        for v in res.get('versions', []): v.pop('content_md', None)
+        res = json.loads(json.dumps(res).replace('github.com/publishfun-admin/', 'github.com/publishfun-admin/'))
         json.dump(res, open('paper/status_latest.json', 'w'), indent=1)
     elif cmd == 'me':
         print(_req('GET', '/api/me'))
