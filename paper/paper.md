@@ -328,7 +328,10 @@ projection is model-based: 37 of the 180 blind-checked entries came from accepte
 corrupted, 1 unadjudicable, none invented), so the estimate of about 34 (14-69) undetected invented references applies
 source-level rates that rest on four events (2 of 101 Crossref title matches and 2 of 5 entries from other sources,
 after the human coder reclassified two entries from corrupted to invented) to the accepted papers' 1,243
-automatically verified entries, together with about 115 corrupted citations at the better supported corruption rate; the claim that accepted papers contain no invented reference cannot be made on this
+automatically verified entries, together with about 115 corrupted citations at the better supported corruption rate. Excluding the five-entry
+"other" stratum, which contributes two of the four events but only 12 accepted-paper entries, the projection is 29
+(9-65) undetected invented references and an adjusted invented share of 2.2% (0.7-4.9), most of it now the prior's
+contribution from strata with no observed invented entry; the claim that accepted papers contain no invented reference cannot be made on this
 evidence, what can be said is that their
 adjusted invented share (2.6%; 1.0-5.3) is about a third of the rejected submissions' (7.4%) and their adjusted
 fabricated share (9.3%) about half (17.2%), and that both are dominated by corruption of real works rather than
@@ -380,16 +383,17 @@ Table 3 gives the adjudicated status of the matched examples.
 | PLACEHOLDER | 2 | 0.8% |
 | UNADJUDICABLE | 3 | 1.2% |
 
-The precision of the flag at the reference level is therefore 51.9% (134/258; 95% CI 45.9-58.0), and 46.1% (119/258;
-40.1-52.2) of the flagged examples exist exactly as cited; counting all 27 unmatched examples as fabricated or as real
+The precision of the flag at the reference level, against detected labels, is therefore 51.9% (134/258; 95% CI
+45.9-58.0), and 46.1% (119/258; 40.1-52.2) of the flagged examples exist as cited by those labels (103 of them by
+automated acceptance, which Section 5.1 shows can pass metadata errors); counting all 27 unmatched examples as fabricated or as real
 bounds the precision over all 285 examples between 47.0% and 56.5%. The false positives are not obscure: they include
 Spearman's "The abilities of man" (1927), Thurstone's "Primary mental abilities" (1938), Oster, Perelson and
 Katchalsky's "Network thermodynamics" (1973), Brown-Cohen et al.'s "Doubly-efficient debate" and a report of the White
 House Council of Economic Advisers. Precision depends strongly on the outcome group: 58.7% (132/225; 52.1-64.9) in
 rejected submissions, but 0 of 26 (0.0-12.9) in accepted ones, where 25 of the 26 matched flagged examples are real
 works (the remaining one, the RDKit software cited without authors or year, was set aside as unadjudicable). No matched
-flagged example in an accepted paper was fabricated, and none of the 21 unmatched ones could be linked to a fabricated
-reference; because the flag is a title-only web check, it also cannot have caught the corrupted citations that the
+flagged example in an accepted paper was detected as fabricated, and none of the 21 unmatched ones, which are excluded
+from these figures, could be linked to a fabricated reference; because the flag is a title-only web check, it also cannot have caught the corrupted citations that the
 blind check found among automatically verified entries, which are expected in accepted papers at the same rate as
 elsewhere (Section 5.2).
 
@@ -543,8 +547,8 @@ example in an accepted paper was fabricated, so the flag is not a count of fabri
 fabrication it marks 56% of reviewed submissions where 38% are affected, with a paper-level positive predictive value
 of 62%. But the blind check of our own automated stage shows that title matching, whether against the web or against a
 bibliographic registry, passes about one citation in ten whose author list, venue or identifier is wrong, so the true
-share of submissions with at least one defective citation is higher than either figure (a majority under the
-blind-check rate, if errors are spread across submissions), and the flag under-marks that. The reasons are the ones the citation-verification literature
+share of submissions with at least one defective citation is higher than either figure (possibly a majority, if
+errors are spread across submissions as the model in Section 5.2 assumes), and the flag under-marks that. The reasons are the ones the citation-verification literature
 predicts [Reizinger and Brendel 2026; Rao and Callison-Burch 2026; Shi et al. 2026]: web search is a poor oracle for
 books, theses, standards, software and pre-1990 papers, a title-only check cannot tell a rewritten title from an
 invented one, and neither a web search nor a registry title match compares author lists. The practical lesson for
@@ -832,7 +836,7 @@ The 16 reference lists (15 author-year or numbered lists and one three-entry bra
 
 Of 16 inspected lists, 13 were complete and 3 had omissions totalling 5 references, of which 4 were recovered by re-parsing; 1 remains missing (submission 274).
 
-**Random sample of lists that pass the diagnostics.** To check that omissions are not confined to low-ratio lists, 15 of the 69 author-year and numbered lists with a ratio of at least 0.8 were drawn at random (seed 20261004) and inspected in the same way. One list (submission 219, a numbered list of placeholder stubs without a recognised heading) could not be assessed. Of the other 14, 13 were complete (submissions 185, 248, 195, 308, 240, 273, 268, 117, 115, 310, 303, 200, 91; in several the entry-start count exceeded the parsed count only because appendix headings or continuation lines in two-column text were counted as starts) and one (submission 124) had one entry missing, the placeholder stub "Coyne, M., et al. (2017). Reading interventions...", which the parser dropped. One missing reference in 14 assessable lists suggests an omission rate of roughly one reference per fourteen non-bracket lists, or about six references across the 83 non-bracket lists, with wide uncertainty.
+**Random sample of lists that pass the diagnostics.** Sampling frame and timing: the low-ratio set above was determined before the last two parser repairs (section-end headings, author-pattern segmentation), which is why it includes submission 273; the random sample below was drawn after those repairs, from the 69 author-year and 14 numbered lists (83 in all) as they stood at that time, 15 of which were drawn with seed 20261004 (code/qa_recall_authoryear.py output data/dataset/qa_recall_authoryear.json). Submission 273 therefore appears in both sets: it was a low-ratio list before repair and a passing list after it. To check that omissions are not confined to low-ratio lists, the 15 sampled lists were inspected in the same way. One list (submission 219, a numbered list of placeholder stubs without a recognised heading) could not be assessed. Of the other 14, 13 were complete (submissions 185, 248, 195, 308, 240, 273, 268, 117, 115, 310, 303, 200, 91; in several the entry-start count exceeded the parsed count only because appendix headings or continuation lines in two-column text were counted as starts) and one (submission 124) had one entry missing, the placeholder stub "Coyne, M., et al. (2017). Reading interventions...", which the parser dropped. One missing reference in 14 assessable lists suggests an omission rate of roughly one reference per fourteen non-bracket lists, or about six references across the 83 non-bracket lists, with wide uncertainty.
 
 ### A.7 Human coding of 64 items (operator as coder): agreement with the agent labels
 

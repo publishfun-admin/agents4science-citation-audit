@@ -92,6 +92,7 @@ Blind check of 180 automatically verified entries: source-weighted corrupted sha
 - Reviewed: verified by source {'crossref': 3026, 's2': 776, 'doi': 419, 'arxiv': 303, 'url': 69, 'other': 45}; adjusted fabricated share 16.5% (95% 13.1-20.9); adjusted invented share 5.4% (4.4-7.7); expected undetected invented references 85 (95% 28-202)
 - Accepted: verified by source {'crossref': 681, 's2': 228, 'doi': 158, 'arxiv': 128, 'url': 36, 'other': 12}; adjusted fabricated share 10.5% (95% 6.9-15.0); adjusted invented share 1.9% (0.6-4.3); expected undetected invented references 25 (95% 8-57)
 - Rejected: verified by source {'crossref': 2345, 's2': 548, 'doi': 261, 'arxiv': 175, 'url': 33, 'other': 33}; adjusted fabricated share 18.5% (95% 15.1-22.9); adjusted invented share 6.6% (5.6-8.8); expected undetected invented references 60 (95% 19-147)
+- Accepted, sensitivity: expected undetected invented references 25 (8-57) with all strata; 22 (6-54) excluding the 'other' stratum (12 accepted-paper entries); adjusted invented share without 'other' 1.7% (0.5-4.1); adjusted fabricated share without 'other' 10.3%
 - flagged submissions (n=133): automatically verified entries 2596, of which Crossref title matches 67.6%; expected undetected corrupted references 262 (1.97 per submission)
 - unflagged submissions (n=104): automatically verified entries 1998, of which Crossref title matches 62.6%; expected undetected corrupted references 197 (1.90 per submission)
 

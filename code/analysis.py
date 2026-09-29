@@ -187,6 +187,12 @@ def main():
                 add_c = sum(rates[g][0] * nv[g] for g in rates); add_n = sum(rates[g][1] * nv[g] for g in rates)
                 adj = (int(sub.n_fab.sum()) + add_c) / nr; adj_n = (int(sub.n_notfound.sum()) + add_n) / nr
                 L.append(f"- {lab}: verified by source {nv}; adjusted fabricated share {100*np.median(adj):.1f}% (95% {100*np.percentile(adj,2.5):.1f}-{100*np.percentile(adj,97.5):.1f}); adjusted invented share {100*np.median(adj_n):.1f}% ({100*np.percentile(adj_n,2.5):.1f}-{100*np.percentile(adj_n,97.5):.1f}); expected undetected invented references {np.median(add_n):.0f} (95% {np.percentile(add_n,2.5):.0f}-{np.percentile(add_n,97.5):.0f})")
+            # sensitivity: accepted-paper projection without the five-entry 'other' stratum
+            acc = hc_rev[hc_rev.group == 'Conference']
+            nv_acc = {g: int(acc[g].sum()) for g in rates}
+            add_n_all = sum(rates[g][1] * nv_acc[g] for g in rates); add_n_noother = sum(rates[g][1] * nv_acc[g] for g in rates if g != 'other')
+            add_c_noother = sum(rates[g][0] * nv_acc[g] for g in rates if g != 'other')
+            L.append(f"- Accepted, sensitivity: expected undetected invented references {np.median(add_n_all):.0f} ({np.percentile(add_n_all,2.5):.0f}-{np.percentile(add_n_all,97.5):.0f}) with all strata; {np.median(add_n_noother):.0f} ({np.percentile(add_n_noother,2.5):.0f}-{np.percentile(add_n_noother,97.5):.0f}) excluding the 'other' stratum ({nv_acc['other']} accepted-paper entries); adjusted invented share without 'other' {100*(int(acc.n_notfound.sum()) + add_n_noother).mean()/int(acc.n_refs.sum()) if False else 100*np.median((int(acc.n_notfound.sum()) + add_n_noother)/int(acc.n_refs.sum())):.1f}% ({100*np.percentile((int(acc.n_notfound.sum()) + add_n_noother)/int(acc.n_refs.sum()),2.5):.1f}-{100*np.percentile((int(acc.n_notfound.sum()) + add_n_noother)/int(acc.n_refs.sum()),97.5):.1f}); adjusted fabricated share without 'other' {100*np.median((int(acc.n_fab.sum()) + add_c_noother)/int(acc.n_refs.sum())):.1f}%")
             # flagged vs unflagged composition (reviewed papers with a check)
             hcc = hc_rev[hc_rev.related_work_check == True].copy(); hcc['flag'] = hcc.rw_n_examples.fillna(0) > 0
             for lab, sub in [('flagged', hcc[hcc.flag]), ('unflagged', hcc[~hcc.flag])]:
