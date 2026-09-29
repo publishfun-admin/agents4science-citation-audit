@@ -1,10 +1,12 @@
 {
  "pdf": "202_aubtELkhDi.pdf",
- "n_entries": 12,
- "fallback": false,
+ "n_entries": 13,
+ "fallback": "indent-guided",
  "error": null,
  "linenumbers_stripped": true,
- "parser_version": 2,
+ "two_column": false,
+ "parser_version": 4,
+ "reprocessed": true,
  "entries": [
   {
    "junk": false,
@@ -25,7 +27,7 @@
    "urls": [],
    "container": "Proceedings of the IEEE international conference on computer vision",
    "type": "paper-conference",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -36,7 +38,7 @@
     "first_author": "Antol",
     "container": "2015 IEEE International Conference on Computer Vision (ICCV)",
     "type": "proceedings-article",
-    "score": 54.081043
+    "score": 53.985508
    },
    "metrics": {
     "title_sim": 100.0,
@@ -64,7 +66,7 @@
    "urls": [],
    "container": "Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
    "type": "paper-conference",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -75,7 +77,7 @@
     "first_author": "Devlin",
     "container": "Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)",
     "type": "proceedings-article",
-    "score": 60.74732
+    "score": 60.748817
    },
    "metrics": {
     "title_sim": 100.0,
@@ -100,8 +102,26 @@
    "urls": [],
    "container": "Deep learning",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
+   "via": "openalex",
+   "match": {
+    "source": "openalex",
+    "id": "https://openalex.org/W2765982206",
+    "doi": "https://doi.org/10.1007/s10710-017-9314-z",
+    "title": "Ian Goodfellow, Yoshua Bengio, and Aaron Courville: Deep learning",
+    "year": 2017,
+    "first_author": "Jeff Heaton",
+    "container": "Genetic Programming and Evolvable Machines",
+    "type": "article"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -113,7 +133,7 @@
       "first_author": "Heaton",
       "container": "Genetic Programming and Evolvable Machines",
       "type": "journal-article",
-      "score": 56.127914
+      "score": 55.32186
      },
      "metrics": {
       "title_sim": 100.0,
@@ -123,30 +143,7 @@
       "first_author_ok": false
      }
     }
-   ],
-   "likely_match": null,
-   "via": "s2",
-   "match": {
-    "source": "s2",
-    "id": "6d05a2a8e5b179407de8e4c2507bced8bc99eaed",
-    "title": "Ian Goodfellow, Yoshua Bengio, and Aaron Courville: Deep learning",
-    "year": 2017,
-    "first_author": "J. Heaton",
-    "container": "Genetic Programming and Evolvable Machines",
-    "ext": {
-     "MAG": "2765982206",
-     "DOI": "10.1007/s10710-017-9314-z",
-     "CorpusId": 4300434
-    }
-   },
-   "metrics": {
-    "title_sim": 100.0,
-    "containment": 1.0,
-    "partial_ratio": 100.0,
-    "year_ok": true,
-    "first_author_ok": false
-   },
-   "second_pass_hit": true
+   ]
   },
   {
    "junk": false,
@@ -166,7 +163,7 @@
    "urls": [],
    "container": "Proceedings of the IEEE conference on computer vision and pattern recognition",
    "type": "paper-conference",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -177,7 +174,7 @@
     "first_author": "Johnson",
     "container": "2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
     "type": "proceedings-article",
-    "score": 65.15059
+    "score": 64.9971
    },
    "metrics": {
     "title_sim": 100.0,
@@ -191,7 +188,7 @@
   {
    "junk": false,
    "idx": 5,
-   "raw": "Diederik P Kingma and Jimmy Ba. Adam: A method for stochastic optimization. arXiv preprint arXiv:1412.6980, 2014. Yann LeCun, L \u2019eon Bottou, Yoshua Bengio, and Patrick Haffner. Gradient-based learning applied to document recognition. Proceedings of the IEEE, 86(11):2278\u20132324, 1998a.",
+   "raw": "Diederik P Kingma and Jimmy Ba. Adam: A method for stochastic optimization. arXiv preprint arXiv:1412.6980, 2014.",
    "title": "Adam: A method for stochastic optimization",
    "authors": [
     "Kingma",
@@ -201,30 +198,74 @@
    "doi": null,
    "arxiv": "1412.6980",
    "urls": [],
-   "container": "Gradient-based learning applied to document recognition. Proceedings of the IEEE",
-   "type": "article-journal",
-   "parser": "anystyle-find",
+   "container": null,
+   "type": null,
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
-   "via": "arxiv_id",
+   "via": "crossref",
    "match": {
-    "source": "arxiv",
-    "arxiv": "1412.6980",
-    "title": "Adam: A Method for Stochastic Optimization",
+    "source": "crossref",
+    "doi": "10.1080/10556788.2014.891592",
+    "title": "A smoothing stochastic gradient method for composite optimization",
     "year": 2014,
-    "first_author": "Diederik P. Kingma"
+    "first_author": "Lin",
+    "container": "Optimization Methods and Software",
+    "type": "journal-article",
+    "score": 24.276754
+   },
+   "metrics": {
+    "title_sim": 93.50649350649351,
+    "containment": 0.5,
+    "partial_ratio": 58.46153846153845,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "1412.6980"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "Yann LeCun, L \u2019eon Bottou, Yoshua Bengio, and Patrick Haffner. Gradient-based learning applied to document recognition. Proceedings of the IEEE, 86(11):2278\u20132324, 1998a.",
+   "title": "Gradient-based learning applied to document recognition",
+   "authors": [
+    "Yann LeCun, L \u2019eon Bottou, Yoshua Bengio, and Patrick Haffner."
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the IEEE",
+   "type": "article-journal",
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/5.726791",
+    "title": "Gradient-based learning applied to document recognition",
+    "year": 1998,
+    "first_author": "Lecun",
+    "container": "Proceedings of the IEEE",
+    "type": "journal-article",
+    "score": 84.91239
    },
    "metrics": {
     "title_sim": 100.0,
     "containment": 1.0,
     "partial_ratio": 100.0,
     "year_ok": true,
-    "first_author_ok": true
+    "first_author_ok": false
    },
    "evidence": []
   },
   {
    "junk": false,
-   "idx": 6,
+   "idx": 7,
    "raw": "Yann LeCun, Corinna Cortes, and CJ Burges. The mnist database of handwritten digits. http: //yann.lecun.com/exdb/mnist, 1998b.",
    "title": "The mnist database of handwritten digits",
    "authors": [
@@ -240,7 +281,7 @@
    ],
    "container": null,
    "type": null,
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "evidence": [
     {
@@ -253,7 +294,7 @@
       "first_author": null,
       "container": "International Journal of Engineering Sciences &amp; Research Technology",
       "type": "journal-article",
-      "score": 36.061413
+      "score": 36.08864
      },
      "metrics": {
       "title_sim": 80.59701492537313,
@@ -295,7 +336,7 @@
   },
   {
    "junk": false,
-   "idx": 7,
+   "idx": 8,
    "raw": "Hao Liu, Ali Soroush, Jordan G. Nestor, Elizabeth Park, B. Idnay, Yilu Fang, Jane Pan, Stan Liao, Marguerite Bernard, Yifan Peng, and Chunhua Weng. Retrieval augmented scientific claim verification. JAMIA Open, 7, 2024.",
    "title": "Retrieval augmented scientific claim verification",
    "authors": [
@@ -316,7 +357,7 @@
    "urls": [],
    "container": "JAMIA Open",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -327,7 +368,7 @@
     "first_author": "Liu",
     "container": "JAMIA Open",
     "type": "journal-article",
-    "score": 42.26527
+    "score": 42.272747
    },
    "metrics": {
     "title_sim": 100.0,
@@ -340,7 +381,7 @@
   },
   {
    "junk": false,
-   "idx": 8,
+   "idx": 9,
    "raw": "Yuval Netzer, Tao Wang, Adam Coates, Alessandro Bissacco, Bo Wu, and Andrew Y Ng. Reading digits in natural images with unsupervised feature learning. In NIPS workshop on deep learning and unsupervised feature learning, 2011.",
    "title": "Reading digits in natural images with unsupervised feature learning",
    "authors": [
@@ -357,7 +398,7 @@
    "urls": [],
    "container": "NIPS workshop on deep learning and unsupervised feature learning",
    "type": "chapter",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "evidence": [
     {
@@ -370,7 +411,7 @@
       "first_author": null,
       "container": "SpringerReference",
       "type": "reference-entry",
-      "score": 28.994816
+      "score": 29.032852
      },
      "metrics": {
       "title_sim": 85.29411764705883,
@@ -406,7 +447,7 @@
   },
   {
    "junk": false,
-   "idx": 9,
+   "idx": 10,
    "raw": "T. M. Thai, A. T. Vo, Hao K. Tieu, Linh Bui, and T. Nguyen. Uit-saviors at medvqa-gi 2023: Improving multimodal learning with image enhancement for gastrointestinal visual question answering. In Working Notes of CLEF 2023 - Conference and Labs of the Evaluation Forum, pp. 1571\u20131587, 2023.",
    "title": "Uit-saviors at medvqa-gi 2023: Improving multimodal learning with image enhancement for gastrointestinal visual question answering",
    "authors": [
@@ -422,7 +463,7 @@
    "urls": [],
    "container": "Working Notes of CLEF 2023 - Conference and Labs of the Evaluation Forum",
    "type": "paper-conference",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "evidence": [
     {
@@ -435,7 +476,7 @@
       "first_author": "Yan",
       "container": "Machine Learning",
       "type": "journal-article",
-      "score": 44.307926
+      "score": 44.299343
      },
      "metrics": {
       "title_sim": 66.38655462184875,
@@ -473,7 +514,7 @@
   },
   {
    "junk": false,
-   "idx": 10,
+   "idx": 11,
    "raw": "Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N Gomez, \u0141ukasz Kaiser, and Illia Polosukhin. Attention is all you need. In Advances in neural information processing systems, pp. 5998\u20136008, 2017.",
    "title": "Attention is all you need",
    "authors": [
@@ -492,7 +533,7 @@
    "urls": [],
    "container": "Advances in neural information processing systems",
    "type": "chapter",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -503,7 +544,7 @@
     "first_author": "Vaswani",
     "container": "",
     "type": "posted-content",
-    "score": 43.621178
+    "score": 43.63051
    },
    "metrics": {
     "title_sim": 100.0,
@@ -516,7 +557,7 @@
   },
   {
    "junk": false,
-   "idx": 11,
+   "idx": 12,
    "raw": "Han Xiao, Kashif Rasul, and Roland Vollgraf. Fashion-mnist: a novel image dataset for benchmarking machine learning algorithms. arXiv preprint arXiv:1708.07747, 2017.",
    "title": "Fashion-mnist: a novel image dataset for benchmarking machine learning algorithms",
    "authors": [
@@ -530,8 +571,26 @@
    "urls": [],
    "container": null,
    "type": null,
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
+   "via": "openalex",
+   "match": {
+    "source": "openalex",
+    "id": "https://openalex.org/W2750384547",
+    "doi": "https://doi.org/10.48550/arxiv.1708.07747",
+    "title": "Fashion-MNIST: a Novel Image Dataset for Benchmarking Machine Learning Algorithms",
+    "year": 2017,
+    "first_author": "Xiao, Han",
+    "container": "arXiv (Cornell University)",
+    "type": "preprint"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
    "evidence": [
     {
      "step": "arxiv_id_not_found",
@@ -547,7 +606,7 @@
       "first_author": null,
       "container": "",
       "type": "component",
-      "score": 44.034958
+      "score": 43.895294
      },
      "metrics": {
       "title_sim": 71.42857142857143,
@@ -557,35 +616,11 @@
       "first_author_ok": null
      }
     }
-   ],
-   "likely_match": null,
-   "via": "s2",
-   "match": {
-    "source": "s2",
-    "id": "f9c602cc436a9ea2f9e7db48c77d924e09ce3c32",
-    "title": "Fashion-MNIST: a Novel Image Dataset for Benchmarking Machine Learning Algorithms",
-    "year": 2017,
-    "first_author": "Han Xiao",
-    "container": "arXiv.org",
-    "ext": {
-     "MAG": "2750384547",
-     "DBLP": "journals/corr/abs-1708-07747",
-     "ArXiv": "1708.07747",
-     "CorpusId": 702279
-    }
-   },
-   "metrics": {
-    "title_sim": 100.0,
-    "containment": 1.0,
-    "partial_ratio": 100.0,
-    "year_ok": true,
-    "first_author_ok": true
-   },
-   "second_pass_hit": true
+   ]
   },
   {
    "junk": false,
-   "idx": 12,
+   "idx": 13,
    "raw": "Manzil Zaheer, Satwik Kottur, Siamak Ravanbakhsh, Barnabas Poczos, Russ R Salakhutdinov, and Alexander J Smola. Deep sets. Advances in neural information processing systems, 30, 2017.",
    "title": "Deep sets",
    "authors": [
@@ -602,8 +637,26 @@
    "urls": [],
    "container": "Advances in neural information processing systems",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
+   "via": "openalex",
+   "match": {
+    "source": "openalex",
+    "id": "https://openalex.org/W2952433032",
+    "doi": null,
+    "title": "Deep Sets",
+    "year": 2017,
+    "first_author": "Manzil Zaheer",
+    "container": "arXiv (Cornell University)",
+    "type": "preprint"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -615,7 +668,7 @@
       "first_author": "Azadi",
       "container": "Pancreatic Imaging",
       "type": "book-chapter",
-      "score": 18.68304
+      "score": 18.685932
      },
      "metrics": {
       "title_sim": 34.28571428571429,
@@ -625,29 +678,7 @@
       "first_author_ok": false
      }
     }
-   ],
-   "likely_match": null,
-   "via": "s2",
-   "match": {
-    "source": "s2",
-    "id": "a456265138c088a894301c0433dae938705a9bec",
-    "title": "Deep Sets",
-    "year": 2017,
-    "first_author": "M. Zaheer",
-    "container": "",
-    "ext": {
-     "ArXiv": "1703.06114",
-     "CorpusId": 4870287
-    }
-   },
-   "metrics": {
-    "title_sim": 100.0,
-    "containment": 1.0,
-    "partial_ratio": 0,
-    "year_ok": true,
-    "first_author_ok": true
-   },
-   "second_pass_hit": true
+   ]
   }
  ],
  "second_pass": true,

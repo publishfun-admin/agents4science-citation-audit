@@ -1,15 +1,17 @@
 {
  "pdf": "96_hreVjQIgyt.pdf",
- "n_entries": 7,
- "fallback": false,
+ "n_entries": 8,
+ "fallback": "indent-guided",
  "error": null,
  "linenumbers_stripped": false,
- "parser_version": 3,
+ "two_column": false,
+ "parser_version": 4,
+ "reprocessed": true,
  "entries": [
   {
    "junk": false,
    "idx": 1,
-   "raw": "References Daniel T Gillespie. Exact stochastic simulation of coupled chemical reactions. The journal of physical chemistry, 81(25):2340\u20132361, 1977.",
+   "raw": "Daniel T Gillespie. Exact stochastic simulation of coupled chemical reactions. The journal of physical chemistry, 81(25):2340\u20132361, 1977.",
    "title": "Exact stochastic simulation of coupled chemical reactions",
    "authors": [
     "Gillespie"
@@ -20,7 +22,7 @@
    "urls": [],
    "container": "The journal of physical chemistry",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -31,7 +33,7 @@
     "first_author": "Gillespie",
     "container": "The Journal of Physical Chemistry",
     "type": "journal-article",
-    "score": 55.594265
+    "score": 55.57843
    },
    "metrics": {
     "title_sim": 100.0,
@@ -45,11 +47,11 @@
   {
    "junk": false,
    "idx": 2,
-   "raw": "Jae-Kyoung Kim, Kre\u0161imir Josic, and Matthew R. Bennett. The validity of quasi-steady-state approximations in discrete stochastic simulations. Biophysical Journal, 107(3):783\u2013793, 2014.",
+   "raw": "Jae-Kyoung Kim, Kre\u0161imir Josic\u0301, and Matthew R. Bennett. The validity of quasi-steady-state approximations in discrete stochastic simulations. Biophysical Journal, 107(3):783\u2013793, 2014.",
    "title": "The validity of quasi-steady-state approximations in discrete stochastic simulations",
    "authors": [
     "Kim",
-    "Josic",
+    "Josi\u0107",
     "Bennett"
    ],
    "year": 2014,
@@ -58,7 +60,7 @@
    "urls": [],
    "container": "Biophysical Journal",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -69,7 +71,7 @@
     "first_author": "Kim",
     "container": "Biophysical Journal",
     "type": "journal-article",
-    "score": 68.07496
+    "score": 68.0757
    },
    "metrics": {
     "title_sim": 100.0,
@@ -96,7 +98,7 @@
    "urls": [],
    "container": "Quarterly Reviews of Biophysics",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -107,7 +109,7 @@
     "first_author": "Oster",
     "container": "Quarterly Reviews of Biophysics",
     "type": "journal-article",
-    "score": 45.959217
+    "score": 45.903828
    },
    "metrics": {
     "title_sim": 94.4,
@@ -132,7 +134,7 @@
    "urls": [],
    "container": null,
    "type": null,
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "evidence": [
     {
@@ -172,7 +174,8 @@
     "year_ok": true,
     "first_author_ok": true
    },
-   "second_pass_hit": true
+   "second_pass_hit": true,
+   "carried_over_from": "parser_v3_run"
   },
   {
    "junk": false,
@@ -190,7 +193,7 @@
    "urls": [],
    "container": null,
    "type": null,
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "evidence": [
     {
@@ -235,7 +238,8 @@
     "year_ok": true,
     "first_author_ok": true
    },
-   "second_pass_hit": true
+   "second_pass_hit": true,
+   "carried_over_from": "parser_v3_run"
   },
   {
    "junk": false,
@@ -253,7 +257,7 @@
    "urls": [],
    "container": "PLoS computational biology",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -264,7 +268,7 @@
     "first_author": "Song",
     "container": "",
     "type": "posted-content",
-    "score": 105.317696
+    "score": 105.34827
    },
    "metrics": {
     "title_sim": 100.0,
@@ -290,7 +294,7 @@
    "urls": [],
    "container": "Mathematical Biosciences",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -301,7 +305,7 @@
     "first_author": "Vittadello",
     "container": "Mathematical Biosciences",
     "type": "journal-article",
-    "score": 46.947327
+    "score": 46.948692
    },
    "metrics": {
     "title_sim": 100.0,
@@ -311,6 +315,44 @@
     "first_author_ok": true
    },
    "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "A     Theoretical Framework of the Thermodynamic Guardrail This appendix provides the detailed theoretical and methodological underpinnings of the thermodynamic guardrail. First, a bond graph representation of the Michaelis-Menten reaction network is presented, illustrating how chemical potentials, affinities, and fluxes are defined within this formalism. Next, the derivation of the thermodynamic power metrics used for the guardrail check is outlined. The core consistency check is first derived from fundamental thermodynamic principles. Finally, an algorithmic summary of the guardrail implementation is provided. A.1     Bond Graph Formalism for Biochemical Systems Overview of Bond Graphs. Bond graphs are a domain-independent language for modeling physical systems that explicitly tracks energy flow Paynter [1961], Oster et al. [1973]. The elements provide a direct graphical representation of the thermodynamic concepts defined above. \u2022 C (Capacitor): Represents a chemical species storing energy, defined by its chemical potential, \u00b5i . \u2022 Re (Resistor): Represents a reaction dissipating energy, defined by the relationship between its affinity (Aj ) and flux (Jj ). \u2022 0- and 1-Junctions: These represent Kirchhoff\u2019s laws for chemical systems, enforcing conservation of mass and defining how chemical potentials combine to create reaction affinities.",
+   "title": "A Theoretical Framework of the Thermodynamic Guardrail This appendix provides the detailed theoretical and methodological underpinnings of the thermodynamic guardrail. First, a bond graph representation of the Michaelis-Menten reaction network is presented, illustrating how chemical potentials, affinities, and fluxes are defined within this formalism. Next, the derivation of the thermodynamic power metrics used for the guardrail check is outlined. The core consistency check is first derived from fundamental thermodynamic principles. Finally, an algorithmic summary of the guardrail implementation is provided. A.1 Bond Graph Formalism for Biochemical Systems Overview of Bond Graphs. Bond graphs are a domain-independent language for modeling physical systems that explicitly tracks energy flow Paynter [1961",
+   "authors": [],
+   "year": 1973,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-indent-guided",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1016/j.comptc.2017.10.005",
+      "title": "Phase transition and high-pressure thermodynamic properties of CdN derived from first-principles and quasi-harmonic Debye model",
+      "year": 2017,
+      "first_author": "Tian",
+      "container": "Computational and Theoretical Chemistry",
+      "type": "journal-article",
+      "score": 47.608334
+     },
+     "metrics": {
+      "title_sim": 24.13793103448276,
+      "containment": 0.286,
+      "partial_ratio": 51.181102362204726,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
   }
  ],
  "second_pass": true,

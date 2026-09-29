@@ -1,0 +1,889 @@
+{
+ "pdf": "323_bNP4BRONCE.pdf",
+ "n_entries": 20,
+ "fallback": "indent-guided",
+ "error": null,
+ "linenumbers_stripped": false,
+ "two_column": false,
+ "parser_version": 4,
+ "reprocessed": true,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "Jinze Bai, Shuai Bai, Shusheng Yang, Shijie Wang, Sinan Tan, Peng Wang, Junyang Lin, Chang Zhou, and Jingren Zhou. Qwen-vl: A frontier large vision-language model with versatile abilities. 2023.",
+   "title": "Qwen-vl: A frontier large vision-language model with versatile abilities",
+   "authors": [
+    "Bai",
+    "Bai",
+    "Yang",
+    "Wang",
+    "Tan",
+    "Wang",
+    "Lin",
+    "Zhou",
+    "Zhou"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/ciml69155.2026.11692724",
+      "title": "RadOpt-Qwen: A Large Vision-Language Model-Driven Framework for Optical-Radar Fusion in Space Target Recognition",
+      "year": 2026,
+      "first_author": "Zheng",
+      "container": "2026 International Conference on Computational Intelligence and Machine Learning (CIML)",
+      "type": "proceedings-article",
+      "score": 32.595253
+     },
+     "metrics": {
+      "title_sim": 53.84615384615385,
+      "containment": 0.357,
+      "partial_ratio": 54.73684210526315,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "5ddb51ae85deca14dc7fc8adc07305c22a1ebe0a",
+    "title": "Qwen-VL: A Frontier Large Vision-Language Model with Versatile Abilities",
+    "year": 2023,
+    "first_author": "Jinze Bai",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2308-12966",
+     "DOI": "10.48550/arXiv.2308.12966",
+     "CorpusId": 263875678
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "Yonatan Bitton, Hritik Bansal, Jack Hessel, Rulin Shao, Wanrong Zhu, Anas Awadalla, Josh Gardner, Rohan Taori, and L. Schimdt. Visit-bench: A benchmark for vision-language instruction following inspired by real-world use. 2023.",
+   "title": "Visit-bench: A benchmark for vision-language instruction following inspired by real-world use",
+   "authors": [
+    "Bitton",
+    "Bansal",
+    "Hessel",
+    "Shao",
+    "Zhu",
+    "Awadalla",
+    "Gardner",
+    "Taori",
+    "Schimdt"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.52202/075280-1169",
+      "title": "VisIT-Bench: A Dynamic Benchmark for Evaluating Instruction-Following Vision-and-Language Models",
+      "year": 2023,
+      "first_author": "Bitton",
+      "container": "Advances in Neural Information Processing Systems 36",
+      "type": "proceedings-article",
+      "score": 59.178978
+     },
+     "metrics": {
+      "title_sim": 82.80254777070064,
+      "containment": 0.7,
+      "partial_ratio": 69.47368421052632,
+      "year_ok": true,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": {
+    "source": "crossref",
+    "doi": "10.52202/075280-1169",
+    "title": "VisIT-Bench: A Dynamic Benchmark for Evaluating Instruction-Following Vision-and-Language Models",
+    "year": 2023,
+    "first_author": "Bitton",
+    "container": "Advances in Neural Information Processing Systems 36",
+    "type": "proceedings-article",
+    "score": 59.177605
+   },
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "d6c2523ab97416c2692cbbeab082ed1790e8e55e",
+    "title": "VisIT-Bench: A Benchmark for Vision-Language Instruction Following Inspired by Real-World Use",
+    "year": 2023,
+    "first_author": "Yonatan Bitton",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2308-06595",
+     "ArXiv": "2308.06595",
+     "DOI": "10.48550/arXiv.2308.06595",
+     "CorpusId": 260887670
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true,
+   "carried_over_from": "parser_v3_run"
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "Nitzan Bitton-Guetta, Yonatan Bitton, Jack Hessel, Ludwig Schmidt, Y. Elovici, Gabriel Stanovsky, and Roy Schwartz. Breaking common sense: Whoops! a vision-and-language benchmark of synthetic and compositional images. 2023.",
+   "title": "Breaking common sense: Whoops! a vision-and-language benchmark of synthetic and compositional images",
+   "authors": [
+    "Bitton-Guetta",
+    "Bitton",
+    "Hessel",
+    "Ludwig Schmidt",
+    "Stanovsky",
+    "Schwartz"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/iccv51070.2023.00247",
+    "title": "Breaking Common Sense: WHOOPS! A Vision-and-Language Benchmark of Synthetic and Compositional Images",
+    "year": 2023,
+    "first_author": "Bitton-Guetta",
+    "container": "2023 IEEE/CVF International Conference on Computer Vision (ICCV)",
+    "type": "proceedings-article",
+    "score": 101.87199
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "Hao Cheng, Erjia Xiao, Jindong Gu, Le Yang, Jinhao Duan, Jize Zhang, Jiahang Cao, Kaidi Xu, and Renjing Xu. Unveiling typographic deceptions: Insights of the typographic vulnerability in large vision-language model, 2024. URL https://arxiv.org/abs/2402.19150.",
+   "title": "Unveiling typographic deceptions: Insights of the typographic vulnerability in large vision-language model",
+   "authors": [
+    "Cheng",
+    "Xiao",
+    "Gu",
+    "Yang",
+    "Duan",
+    "Zhang",
+    "Cao",
+    "Xu",
+    "Xu"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2402.19150",
+   "urls": [
+    "https://arxiv.org/abs/2402.19150"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2402.19150",
+    "title": "Unveiling Typographic Deceptions: Insights of the Typographic Vulnerability in Large Vision-Language Model",
+    "year": 2024,
+    "first_author": "Hao Cheng"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "Wenliang Dai, Junnan Li, Dongxu Li, A. M. H. Tiong, Junqi Zhao, Weisheng Wang, Boyang Albert Li, Pascale Fung, and Steven C. H. Hoi. Instructblip: Towards general-purpose vision-language models with instruction tuning. 2023.",
+   "title": "Instructblip: Towards general-purpose vision-language models with instruction tuning",
+   "authors": [
+    "Dai",
+    "Li",
+    "Dongxu Li",
+    "Zhao",
+    "Wang",
+    "Li",
+    "Fung",
+    "Hoi"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/075280-2142",
+    "title": "InstructBLIP: Towards General-purpose Vision-Language Models with Instruction Tuning",
+    "year": 2023,
+    "first_author": "Dai",
+    "container": "Advances in Neural Information Processing Systems 36",
+    "type": "proceedings-article",
+    "score": 68.18224
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "Yao Jiang, Xinyu Yan, Ge-Peng Ji, Keren Fu, Meijun Sun, Huan Xiong, Deng-Ping Fan, and Fahad Khan. Effectiveness assessment of recent large vision-language models. Visual Intelligence, 2: 1\u201317, 2024.",
+   "title": "Effectiveness assessment of recent large vision-language models",
+   "authors": [
+    "Jiang",
+    "Yan",
+    "Ji",
+    "Fu",
+    "Sun",
+    "Xiong",
+    "Fan",
+    "Khan"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Visual Intelligence",
+   "type": "article-journal",
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/s44267-024-00050-1",
+    "title": "Effectiveness assessment of recent large vision-language models",
+    "year": 2024,
+    "first_author": "Jiang",
+    "container": "Visual Intelligence",
+    "type": "journal-article",
+    "score": 44.20358
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "Bohao Li, Yuying Ge, Yixiao Ge, Guangzhi Wang, Rui Wang, Ruimao Zhang, and Ying Shan. Seed-bench-2: Benchmarking multimodal large language models. 2023.",
+   "title": "Seed-bench-2: Benchmarking multimodal large language models",
+   "authors": [
+    "Li",
+    "Ge",
+    "Ge",
+    "Wang",
+    "Wang",
+    "Zhang",
+    "Shan"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/cvpr52733.2024.01263",
+    "title": "SEED-Bench: Benchmarking Multimodal Large Language Models",
+    "year": 2024,
+    "first_author": "Li",
+    "container": "2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "type": "proceedings-article",
+    "score": 48.74513
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 96.42857142857143,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "Tsung-Yi Lin, Michael Maire, Serge Belongie, Lubomir Bourdev, Ross Girshick, James Hays, Pietro Perona, Deva Ramanan, C. Lawrence Zitnick, and Piotr Doll\u00e1r. Microsoft coco: Common objects in context, 2015. URL https://arxiv.org/abs/1405.0312.",
+   "title": "Microsoft coco: Common objects in context",
+   "authors": [
+    "Lin",
+    "Maire",
+    "Belongie",
+    "Bourdev",
+    "Girshick",
+    "Hays",
+    "Perona",
+    "Deva Ramanan",
+    "Doll\u00e1r"
+   ],
+   "year": 2015,
+   "doi": null,
+   "arxiv": "1405.0312",
+   "urls": [
+    "https://arxiv.org/abs/1405.0312"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "1405.0312",
+    "title": "Microsoft COCO: Common Objects in Context",
+    "year": 2014,
+    "first_author": "Tsung-Yi Lin"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "Haotian Liu, Chunyuan Li, Qingyang Wu, and Yong Jae Lee. Visual instruction tuning, 2023. URL https://arxiv.org/abs/2304.08485.",
+   "title": "Qingyang Wu, and Yong Jae Lee",
+   "authors": [
+    "Liu",
+    "Li"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2304.08485",
+   "urls": [
+    "https://arxiv.org/abs/2304.08485"
+   ],
+   "container": "Visual instruction tuning",
+   "type": "article-journal",
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2304.08485",
+    "title": "Visual Instruction Tuning",
+    "year": 2023,
+    "first_author": "Haotian Liu"
+   },
+   "metrics": {
+    "title_sim": 30.188679245283023,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "Maan Qraitem, Nazia Tasnim, Piotr Teterwak, Kate Saenko, and Bryan A. Plummer. Vision-llms can fool themselves with self-generated typographic attacks, 2025. URL https://arxiv.org/ abs/2402.00626.",
+   "title": "Vision-llms can fool themselves with self-generated typographic attacks",
+   "authors": [
+    "Qraitem",
+    "Tasnim",
+    "Teterwak",
+    "Saenko",
+    "Plummer"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://arxiv.org/"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-indent-guided",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.52202/085713-5386",
+      "title": "Can LLMs Correct Themselves? A Benchmark of Self-Correction in LLMs",
+      "year": 2025,
+      "first_author": "Tie",
+      "container": "Advances in Neural Information Processing Systems 38",
+      "type": "proceedings-article",
+      "score": 30.964785
+     },
+     "metrics": {
+      "title_sim": 62.121212121212125,
+      "containment": 0.625,
+      "partial_ratio": 53.03030303030303,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "Elad Segal, Ben Bogin, and Jonathan Berant. Training vision-language models with less bimodal supervision. ArXiv, abs/2211.00262, 2022.",
+   "title": "Training vision-language models with less bimodal supervision",
+   "authors": [
+    "Segal",
+    "Bogin",
+    "Berant"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": "2211.00262",
+   "urls": [],
+   "container": "ArXiv",
+   "type": "article-journal",
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2211.00262",
+    "title": "Training Vision-Language Models with Less Bimodal Supervision",
+    "year": 2022,
+    "first_author": "Elad Segal"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "Alexander Shirnin, Nikita Andreev, Sofia Potapova, and Ekaterina Artemova. Analyzing the robustness of vision language models. IEEE/ACM Transactions on Audio, Speech, and Language Processing, 32:2751\u20132763, 2024.",
+   "title": "Analyzing the robustness of vision language models",
+   "authors": [
+    "Shirnin",
+    "Andreev",
+    "Potapova",
+    "Artemova"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE/ACM Transactions on Audio, Speech, and Language Processing",
+   "type": "article-journal",
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/taslp.2024.3399061",
+    "title": "Analyzing the Robustness of Vision &amp; Language Models",
+    "year": 2024,
+    "first_author": "Shirnin",
+    "container": "IEEE/ACM Transactions on Audio, Speech, and Language Processing",
+    "type": "journal-article",
+    "score": 47.12972
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.833,
+    "partial_ratio": 92.5925925925926,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "Qwen Team. Qwen2.5 technical report. arXiv preprint arXiv:2412.15115, 2024.",
+   "title": "Qwen2.5 technical report",
+   "authors": [
+    "Team"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2412.15115",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2412.15115",
+    "title": "Qwen2.5 Technical Report",
+    "year": 2024,
+    "first_author": " Qwen"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "Tiancheng Wang, Yuguang Yang, Linlin Yang, Shaohui Lin, Juan Zhang, Guodong Guo, and Baochang Zhang. CLIP in mirror: Disentangling text from visual images through reflection. In The Thirty-eighth Annual Conference on Neural Information Processing Systems, 2024. URL https://openreview.net/forum?id=FYm8coxdiR.",
+   "title": "CLIP in mirror: Disentangling text from visual images through reflection",
+   "authors": [
+    "Wang",
+    "Yang",
+    "Yang",
+    "Lin",
+    "Zhang",
+    "Guo",
+    "Zhang"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://openreview.net/forum?id=FYm8coxdiR"
+   ],
+   "container": "The Thirty-eighth Annual Conference on Neural Information Processing Systems, 2024. URL",
+   "type": "paper-conference",
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/079017-0773",
+    "title": "CLIP in Mirror: Disentangling text from visual images through reflection",
+    "year": 2024,
+    "first_author": "Wang",
+    "container": "Advances in Neural Information Processing Systems 37",
+    "type": "proceedings-article",
+    "score": 63.098713
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "Weihan Wang, Qingsong Lv, Wenmeng Yu, Wenyi Hong, Ji Qi, Yan Wang, Junhui Ji, Zhuoyi Yang, Lei Zhao, Xixuan Song, Jiazheng Xu, Bin Xu, Juanzi Li, Yuxiao Dong, Ming Ding, and Jie Tang.",
+   "title": null,
+   "authors": [
+    "Wang",
+    "Lv",
+    "Yu",
+    "Hong",
+    "Qi",
+    "Wang",
+    "Ji",
+    "Yang",
+    "Zhao",
+    "Song"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-indent-guided",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.52202/079017-3860",
+      "title": "CogVLM: Visual Expert for Pretrained Language Models",
+      "year": 2024,
+      "first_author": "Wang",
+      "container": "Advances in Neural Information Processing Systems 37",
+      "type": "proceedings-article",
+      "score": 78.04206
+     },
+     "metrics": {
+      "title_sim": 0,
+      "containment": 0.0,
+      "partial_ratio": 37.254901960784316,
+      "year_ok": true,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 16,
+   "raw": "Cogvlm: Visual expert for pretrained language models. 2023a.",
+   "title": "Cogvlm: Visual expert for pretrained language models",
+   "authors": [],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.52202/079017-3860",
+    "title": "CogVLM: Visual Expert for Pretrained Language Models",
+    "year": 2024,
+    "first_author": "Wang",
+    "container": "Advances in Neural Information Processing Systems 37",
+    "type": "proceedings-article",
+    "score": 39.16523
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 17,
+   "raw": "Youze Wang, Wenbo Hu, Yinpeng Dong, and Richang Hong. Exploring transferability of multimodal adversarial samples for vision-language pre-training models with contrastive learning. ArXiv, abs/2308.12636, 2023b.",
+   "title": "Exploring transferability of multimodal adversarial samples for vision-language pre-training models with contrastive learning",
+   "authors": [
+    "Wang",
+    "Hu",
+    "Dong",
+    "Hong"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": "2308.12636",
+   "urls": [],
+   "container": "ArXiv",
+   "type": "article-journal",
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2308.12636",
+    "title": "Exploring Transferability of Multimodal Adversarial Samples for Vision-Language Pre-training Models with Contrastive Learning",
+    "year": 2023,
+    "first_author": "Youze Wang"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 18,
+   "raw": "Yixin Yang, Zheng Li, Qingxiu Dong, Heming Xia, and Zhifang Sui. Can large multimodal models uncover deep semantics behind images? 2024.",
+   "title": "Can large multimodal models uncover deep semantics behind images?",
+   "authors": [
+    "Yang",
+    "Li",
+    "Dong",
+    "Xia",
+    "Sui"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2024.findings-acl.113",
+    "title": "Can Large Multimodal Models Uncover Deep Semantics Behind Images?",
+    "year": 2024,
+    "first_author": "Yang",
+    "container": "Findings of the Association for Computational Linguistics ACL 2024",
+    "type": "proceedings-article",
+    "score": 70.51581
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 19,
+   "raw": "Haruki Yonekura, Hamada Rizk, and Hirozumi Yamaguchi. Poster: Translating Vision into Words: Advancing Object Recognition with Visual-Language Models. 2024.",
+   "title": "Poster: Translating Vision into Words: Advancing Object Recognition with Visual-Language Models",
+   "authors": [
+    "Yonekura",
+    "Rizk",
+    "Yamaguchi"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3643832.3661407",
+    "title": "Poster: Translating Vision into Words: Advancing Object Recognition with Visual-Language Models",
+    "year": 2024,
+    "first_author": "Yonekura",
+    "container": "Proceedings of the 22nd Annual International Conference on Mobile Systems, Applications and Services",
+    "type": "proceedings-article",
+    "score": 78.368126
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 20,
+   "raw": "Yunqing Zhao, Tianyu Pang, Chao Du, Xiao Yang, Chongxuan Li, Ngai-Man Cheung, and Min Lin. On evaluating adversarial robustness of large vision-language models. ArXiv, abs/2305.16934, 2023.",
+   "title": "On evaluating adversarial robustness of large vision-language models",
+   "authors": [
+    "Zhao",
+    "Pang",
+    "Du",
+    "Yang",
+    "Li",
+    "Cheung",
+    "Lin"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2305.16934",
+   "urls": [],
+   "container": "ArXiv",
+   "type": "article-journal",
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2305.16934",
+    "title": "On Evaluating Adversarial Robustness of Large Vision-Language Models",
+    "year": 2023,
+    "first_author": "Yunqing Zhao"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  }
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
+}

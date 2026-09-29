@@ -4,7 +4,9 @@
  "fallback": false,
  "error": null,
  "linenumbers_stripped": true,
- "parser_version": 3,
+ "two_column": false,
+ "parser_version": 4,
+ "reprocessed": true,
  "entries": [
   {
    "junk": false,
@@ -33,7 +35,7 @@
       "first_author": "Amadxarif",
       "container": "SSRN Electronic Journal",
       "type": "journal-article",
-      "score": 105.70195
+      "score": 105.80097
      },
      "metrics": {
       "title_sim": 100.0,
@@ -72,7 +74,7 @@
     "first_author": "Bommarito",
     "container": "",
     "type": "posted-content",
-    "score": 35.66928
+    "score": 35.665417
    },
    "metrics": {
     "title_sim": 100.0,
@@ -109,7 +111,7 @@
     "first_author": "Charrow",
     "container": "Columbia Law Review",
     "type": "journal-article",
-    "score": 89.502884
+    "score": 89.44915
    },
    "metrics": {
     "title_sim": 100.0,
@@ -180,7 +182,8 @@
     "year_ok": true,
     "first_author_ok": true
    },
-   "second_pass_hit": true
+   "second_pass_hit": true,
+   "carried_over_from": "parser_v4_run"
   },
   {
    "junk": false,
@@ -207,7 +210,7 @@
     "first_author": "Flesch",
     "container": "Journal of Applied Psychology",
     "type": "journal-article",
-    "score": 49.27185
+    "score": 49.21367
    },
    "metrics": {
     "title_sim": 100.0,
@@ -243,7 +246,7 @@
     "first_author": "Garner",
     "container": "",
     "type": "monograph",
-    "score": 46.651634
+    "score": 46.65357
    },
    "metrics": {
     "title_sim": 100.0,
@@ -313,7 +316,8 @@
     "year_ok": false,
     "first_author_ok": true
    },
-   "second_pass_hit": true
+   "second_pass_hit": true,
+   "carried_over_from": "parser_v4_run"
   },
   {
    "junk": false,
@@ -335,53 +339,13 @@
    "type": null,
    "parser": "anystyle-find",
    "verdict": "VERIFIED",
-   "evidence": [
-    {
-     "step": "arxiv_id_not_found",
-     "arxiv": "2411.09497"
-    },
-    {
-     "step": "crossref_best_reject",
-     "rec": {
-      "source": "crossref",
-      "doi": "10.25103/jestr.175.25",
-      "title": "Readability Evaluation Metrics for Indonesian Automatic Text Summarization: A Systematic Review",
-      "year": 2024,
-      "first_author": "Maylawati",
-      "container": "Journal of Engineering Science and Technology Review",
-      "type": "journal-article",
-      "score": 35.241673
-     },
-     "metrics": {
-      "title_sim": 73.94957983193277,
-      "containment": 0.556,
-      "partial_ratio": 56.00000000000001,
-      "year_ok": true,
-      "first_author_ok": false
-     }
-    },
-    {
-     "step": "urls_not_live",
-     "url_status": {
-      "arXiv:2411.09497": "error"
-     }
-    }
-   ],
-   "likely_match": null,
-   "via": "s2",
+   "via": "arxiv_id",
    "match": {
-    "source": "s2",
-    "id": "3d60228dea2813b0d1a3778e6863f6903d0c843d",
+    "source": "arxiv",
+    "arxiv": "2411.09497",
     "title": "The Use of Readability Metrics in Legal Text: A Systematic Literature Review",
     "year": 2024,
-    "first_author": "Yu Han",
-    "container": "arXiv.org",
-    "ext": {
-     "DBLP": "journals/corr/abs-2411-09497",
-     "ArXiv": "2411.09497",
-     "DOI": "10.48550/arXiv.2411.09497",
-     "CorpusId": 274023239
-    }
+    "first_author": "Yu Han"
    },
    "metrics": {
     "title_sim": 100.0,
@@ -390,7 +354,7 @@
     "year_ok": true,
     "first_author_ok": true
    },
-   "second_pass_hit": true
+   "evidence": []
   },
   {
    "junk": false,
@@ -452,7 +416,8 @@
     "year_ok": false,
     "first_author_ok": true
    },
-   "second_pass_hit": true
+   "second_pass_hit": true,
+   "carried_over_from": "parser_v4_run"
   },
   {
    "junk": false,
@@ -480,7 +445,7 @@
     "first_author": "Katz",
     "container": "",
     "type": "posted-content",
-    "score": 53.443047
+    "score": 53.44019
    },
    "metrics": {
     "title_sim": 100.0,
@@ -521,7 +486,7 @@
       "first_author": "SANDS",
       "container": "Personnel Psychology",
       "type": "journal-article",
-      "score": 35.667442
+      "score": 35.69843
      },
      "metrics": {
       "title_sim": 69.23076923076923,
@@ -593,7 +558,8 @@
     "year_ok": true,
     "first_author_ok": false
    },
-   "second_pass_hit": true
+   "second_pass_hit": true,
+   "carried_over_from": "parser_v4_run"
   },
   {
    "junk": false,
@@ -610,7 +576,7 @@
    "container": "Journal of Reading",
    "type": "article-journal",
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -622,7 +588,7 @@
       "first_author": "Besharati",
       "container": "",
       "type": "posted-content",
-      "score": 26.543633
+      "score": 26.544764
      },
      "metrics": {
       "title_sim": 79.36507936507937,
@@ -633,7 +599,29 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "5fccb74c14769762b3de010c5e8a1a7ce700d17a",
+    "title": "SMOG Grading - A New Readability Formula.",
+    "year": 1969,
+    "first_author": "G. H. Mclaughlin",
+    "container": "",
+    "ext": {
+     "MAG": "1481128830",
+     "CorpusId": 9571753
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true,
+   "carried_over_from": "parser_v4_run"
   },
   {
    "junk": false,
@@ -690,7 +678,8 @@
     "year_ok": false,
     "first_author_ok": true
    },
-   "second_pass_hit": true
+   "second_pass_hit": true,
+   "carried_over_from": "parser_v4_run"
   },
   {
    "junk": true,
@@ -717,7 +706,7 @@
       "first_author": null,
       "container": "On Creative Writing",
       "type": "book-chapter",
-      "score": 23.535088
+      "score": 23.533613
      },
      "metrics": {
       "title_sim": 71.7948717948718,
@@ -755,7 +744,7 @@
       "first_author": "Kleeberg",
       "container": "Regulatory Toxicology",
       "type": "book-chapter",
-      "score": 25.03522
+      "score": 25.034695
      },
      "metrics": {
       "title_sim": 71.9298245614035,
@@ -828,7 +817,8 @@
     "year_ok": true,
     "first_author_ok": true
    },
-   "second_pass_hit": true
+   "second_pass_hit": true,
+   "carried_over_from": "parser_v4_run"
   },
   {
    "junk": false,
@@ -857,7 +847,7 @@
     "first_author": "Song",
     "container": "Nature",
     "type": "journal-article",
-    "score": 37.888092
+    "score": 37.887363
    },
    "metrics": {
     "title_sim": 100.0,
@@ -896,7 +886,7 @@
       "first_author": null,
       "container": "Performance-Based Earned Value",
       "type": "book-chapter",
-      "score": 47.154068
+      "score": 47.12051
      },
      "metrics": {
       "title_sim": 74.46808510638297,

@@ -1,10 +1,12 @@
 {
  "pdf": "287_4nrWtE6oZ9.pdf",
- "n_entries": 21,
- "fallback": false,
+ "n_entries": 39,
+ "fallback": "indent-guided",
  "error": null,
  "linenumbers_stripped": false,
- "parser_version": 3,
+ "two_column": false,
+ "parser_version": 4,
+ "reprocessed": true,
  "entries": [
   {
    "junk": false,
@@ -24,7 +26,7 @@
    ],
    "container": "Pharmacoepidemiology and Drug Safety",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "doi",
    "match": {
@@ -60,7 +62,7 @@
    "urls": [],
    "container": "Nature Reviews Drug Discovery",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "doi",
    "match": {
@@ -85,25 +87,22 @@
   {
    "junk": false,
    "idx": 3,
-   "raw": "David A. Broniatowski, Michael J. Paul, and Mark Dredze. Using social media to perform local influenza surveillance in an inner-city hospital: A retrospective observational study. JMIR Public Health and Surveillance, 1(1):e5, 2015. doi: 10.2196/publichealth.3950. URL https://pubmed. ncbi.nlm.nih.gov/27014744/. U.S. Food and Drug Administration. Highlights of prescribing information: Opdivo (nivolumab) injection, for intravenous use \u2014 initial u.s. approval: 2014. FDA Label, November 2015. URL https:",
+   "raw": "David A. Broniatowski, Michael J. Paul, and Mark Dredze. Using social media to perform local influenza surveillance in an inner-city hospital: A retrospective observational study. JMIR Public Health and Surveillance, 1(1):e5, 2015. doi: 10.2196/publichealth.3950. URL https://pubmed. ncbi.nlm.nih.gov/27014744/.",
    "title": "Using social media to perform local influenza surveillance in an inner-city hospital: A retrospective observational study",
    "authors": [
     "Broniatowski",
     "Paul",
-    "Dredze",
-    "Food",
-    "Administration"
+    "Dredze"
    ],
    "year": 2015,
    "doi": "10.2196/publichealth.3950",
    "arxiv": null,
    "urls": [
-    "https://pubmed",
-    "https:"
+    "https://pubmed"
    ],
    "container": "JMIR Public Health and Surveillance",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -114,7 +113,7 @@
     "first_author": "Broniatowski",
     "container": "JMIR Public Health and Surveillance",
     "type": "journal-article",
-    "score": 86.48174
+    "score": 86.37209
    },
    "metrics": {
     "title_sim": 100.0,
@@ -133,34 +132,37 @@
   {
    "junk": false,
    "idx": 4,
-   "raw": "//www.accessdata.fda.gov/drugsatfda_docs/label/2015/125554s012lbl.pdf. Revision date: November 2015.",
-   "title": null,
-   "authors": [],
+   "raw": "U.S. Food and Drug Administration. Highlights of prescribing information: Opdivo (nivolumab) injection, for intravenous use \u2014 initial u.s. approval: 2014. FDA Label, November 2015. URL https: //www.accessdata.fda.gov/drugsatfda_docs/label/2015/125554s012lbl.pdf. Revision date: November 2015.",
+   "title": "Highlights of prescribing information: Opdivo (nivolumab) injection, for intravenous use \u2014 initial u.s. approval: 2014",
+   "authors": [
+    "Food",
+    "Administration"
+   ],
    "year": 2015,
    "doi": null,
    "arxiv": null,
    "urls": [],
-   "container": null,
-   "type": "book",
-   "parser": "anystyle-find",
+   "container": "FDA Label",
+   "type": "article-journal",
+   "parser": "anystyle-indent-guided",
    "verdict": "UNVERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
      "rec": {
       "source": "crossref",
-      "doi": "10.1211/pj.2015.20200243",
-      "title": "FDA adds ketoacidosis risk to label of diabetes drugs",
+      "doi": "10.1211/pj.2015.20200256",
+      "title": "Extended indication for Opdivo and nivolumab discontinued",
       "year": 2015,
       "first_author": null,
       "container": "The Pharmaceutical Journal",
       "type": "journal-article",
-      "score": 29.964312
+      "score": 36.48487
      },
      "metrics": {
-      "title_sim": 0,
-      "containment": 0.286,
-      "partial_ratio": 41.9753086419753,
+      "title_sim": 44.311377245508986,
+      "containment": 0.4,
+      "partial_ratio": 59.64912280701755,
       "year_ok": true,
       "first_author_ok": null
      }
@@ -171,22 +173,20 @@
   {
    "junk": false,
    "idx": 5,
-   "raw": "Isaac Chun-Hai Fung et al. The use of social media in public health surveillance. Western Pacific Surveillance and Response Journal, 6(2):3\u201326, 2015. doi: 10.5365/WPSAR.2015.6.1.019. URL https://pmc.ncbi.nlm.nih.gov/articles/PMC4542478/. C. J. Hayes and colleagues. Comparative analysis of adverse event reporting on reddit and the FDA adverse event reporting system (FAERS). medRxiv preprint, 2024. URL https://www.medrxiv. org/content/10.1101/2024.08.13.24311929v1.",
+   "raw": "Isaac Chun-Hai Fung et al. The use of social media in public health surveillance. Western Pacific Surveillance and Response Journal, 6(2):3\u201326, 2015. doi: 10.5365/WPSAR.2015.6.1.019. URL https://pmc.ncbi.nlm.nih.gov/articles/PMC4542478/.",
    "title": "The use of social media in public health surveillance",
    "authors": [
-    "Fung",
-    "J"
+    "Fung"
    ],
    "year": 2015,
    "doi": "10.5365/WPSAR.2015.6.1.019",
    "arxiv": null,
    "urls": [
-    "https://pmc.ncbi.nlm.nih.gov/articles/PMC4542478/",
-    "https://www.medrxiv"
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC4542478/"
    ],
-   "container": "Comparative analysis of adverse event reporting on reddit and the FDA adverse event reporting system (FAERS",
+   "container": "Western Pacific Surveillance and Response Journal",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "doi",
    "match": {
@@ -211,6 +211,49 @@
   {
    "junk": false,
    "idx": 6,
+   "raw": "C. J. Hayes and colleagues. Comparative analysis of adverse event reporting on reddit and the FDA adverse event reporting system (FAERS). medRxiv preprint, 2024. URL https://www.medrxiv. org/content/10.1101/2024.08.13.24311929v1.",
+   "title": "Hayes and colleagues. Comparative analysis of adverse event reporting on reddit and the FDA adverse event reporting system (FAERS",
+   "authors": [
+    "J"
+   ],
+   "year": 2024,
+   "doi": "10.1101/2024.08.13.24311929v1",
+   "arxiv": null,
+   "urls": [
+    "https://www.medrxiv"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1101/2024.08.13.24311929",
+    "title": "Comparative Analysis of Adverse Event Reporting on Reddit and the FDA Adverse Event Reporting System (FAERS)",
+    "year": 2024,
+    "first_author": "Shoults",
+    "container": "",
+    "type": "posted-content",
+    "score": 103.02908
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": [
+    {
+     "step": "doi_not_resolvable",
+     "doi": "10.1101/2024.08.13.24311929v1"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 7,
    "raw": "L. Hazell and S. A. W. Shakir. Under-reporting of adverse drug reactions: A systematic review. Drug Safety, 29(5):385\u2013396, 2006. doi: 10.2165/00002018-200629050-00003.",
    "title": "Under-reporting of adverse drug reactions: A systematic review",
    "authors": [
@@ -223,7 +266,7 @@
    "urls": [],
    "container": "Drug Safety",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "doi",
    "match": {
@@ -247,7 +290,7 @@
   },
   {
    "junk": false,
-   "idx": 7,
+   "idx": 8,
    "raw": "Luca Imeri and Mark R Opp. How (and why) the immune system makes us sleep. Nature Reviews Neuroscience, 10(3):199\u2013210, 2009.",
    "title": "How (and why) the immune system makes us sleep",
    "authors": [
@@ -260,7 +303,7 @@
    "urls": [],
    "container": "Nature Reviews Neuroscience",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -271,7 +314,7 @@
     "first_author": "Imeri",
     "container": "Nature Reviews Neuroscience",
     "type": "journal-article",
-    "score": 62.557373
+    "score": 62.525352
    },
    "metrics": {
     "title_sim": 100.0,
@@ -284,7 +327,7 @@
   },
   {
    "junk": false,
-   "idx": 8,
+   "idx": 9,
    "raw": "A. Johansen, S. J. Christensen, D. Scheie, J. H\u00f8jgaard, and D. Kondziella. Neuromuscular adverse events associated with anti\u2013pd-1 monoclonal antibodies: Systematic review. Neurology: Neuroimmunology & Neuroinflammation, 6(1):e575, 2019. doi: 10.1212/NXI.0000000000000575.",
    "title": "Neuromuscular adverse events associated with anti\u2013pd-1 monoclonal antibodies: Systematic review",
    "authors": [
@@ -300,7 +343,7 @@
    "urls": [],
    "container": "Neurology: Neuroimmunology & Neuroinflammation",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -311,7 +354,7 @@
     "first_author": "Johansen",
     "container": "Neurology",
     "type": "journal-article",
-    "score": 72.69548
+    "score": 72.68209
    },
    "metrics": {
     "title_sim": 100.0,
@@ -345,7 +388,7 @@
   },
   {
    "junk": false,
-   "idx": 9,
+   "idx": 10,
    "raw": "Andy Ke, Fan Yin, Anirudh Sundar, Eric Wu, Dakshinamurthy Madeka, Jifan Sun, Wenxuan Chen, Rich Caruana, Chieh-Hsin Wu, Tong Zhang, and Eric Horvitz. Natural: End-to-end causal effect estimation from unstructured natural language data. In Advances in Neural Information Processing Systems, 2024.",
    "title": "Natural: End-to-end causal effect estimation from unstructured natural language data",
    "authors": [
@@ -367,7 +410,7 @@
    "urls": [],
    "container": "Advances in Neural Information Processing Systems",
    "type": "chapter",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -378,7 +421,7 @@
     "first_author": "Dhawan",
     "container": "Advances in Neural Information Processing Systems 37",
     "type": "proceedings-article",
-    "score": 70.83946
+    "score": 70.841576
    },
    "metrics": {
     "title_sim": 100.0,
@@ -391,7 +434,7 @@
   },
   {
    "junk": false,
-   "idx": 10,
+   "idx": 11,
    "raw": "James M Krueger, Marcos G Frank, Jonathan P Wisor, and Sandip Roy. Sleep function: Toward elucidating an enigma. Sleep medicine reviews, 28:46\u201354, 2016.",
    "title": "Sleep function: Toward elucidating an enigma",
    "authors": [
@@ -406,7 +449,7 @@
    "urls": [],
    "container": "Sleep medicine reviews",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -417,7 +460,7 @@
     "first_author": "Krueger",
     "container": "Sleep Medicine Reviews",
     "type": "journal-article",
-    "score": 55.682777
+    "score": 55.703724
    },
    "metrics": {
     "title_sim": 100.0,
@@ -430,7 +473,7 @@
   },
   {
    "junk": false,
-   "idx": 11,
+   "idx": 12,
    "raw": "Martin Kulldorff, Richard Heffernan, Jessica Hartman, Richard Assun\u00e7\u00e3o, and Farzad Mostashari. A space\u2013time permutation scan statistic for disease outbreak detection. PLoS Medicine, 2(3): e59, 2005. doi: 10.1371/journal.pmed.0020059. URL https://pmc.ncbi.nlm.nih.gov/ articles/PMC548793/.",
    "title": "A space\u2013time permutation scan statistic for disease outbreak detection",
    "authors": [
@@ -448,7 +491,7 @@
    ],
    "container": "PLoS Medicine",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "doi",
    "match": {
@@ -472,7 +515,7 @@
   },
   {
    "junk": false,
-   "idx": 12,
+   "idx": 13,
    "raw": "Alexandre Lavertu, Raghavendran Srinivasan, Jihad S. Obeid, et al. Quantifying the severity of adverse drug reactions using social media. NPJ Digital Medicine, 4:38, 2021. doi: 10.1038/ s41746-021-00413-5. URL https://pmc.ncbi.nlm.nih.gov/articles/PMC8569532/.",
    "title": "Quantifying the severity of adverse drug reactions using social media",
    "authors": [
@@ -488,7 +531,7 @@
    ],
    "container": "NPJ Digital Medicine",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -499,7 +542,7 @@
     "first_author": "Lavertu",
     "container": "",
     "type": "posted-content",
-    "score": 74.094086
+    "score": 73.95788
    },
    "metrics": {
     "title_sim": 100.0,
@@ -517,52 +560,24 @@
   },
   {
    "junk": false,
-   "idx": 13,
-   "raw": "David Lazer, Ryan Kennedy, Gary King, and Alessandro Vespignani. The parable of google flu: Traps in big data analysis. Science, 343(6176):1203\u20131205, 2014. doi: 10.1126/science.1248506. URL https://gking.harvard.edu/files/gking/files/0314policyforumff.pdf. V. Leroy et al. Pembrolizumab-induced pneumonitis. European Respiratory Journal, 49(2):1600081, 2017. doi: 10.1183/13993003.00081-2016. Azadeh Nikfarjam. Health Information Extraction from Social Media. PhD thesis, Arizona State University, 2016. URL http://hdl.handle.net/2286/R.I.38674. Azadeh Nikfarjam, Abeed Sarker, Karen O\u2019Connor, Rachel Ginn, and Graciela Gonzalez. Pharmacovigilance from social media: mining adverse drug reaction mentions using sequence labeling with word embedding cluster features. Journal of the American Medical Informatics Association, 22(3):671\u2013681, 2015. doi: 10.1093/jamia/ocu041. URL https://academic.oup.com/jamia/ article/22/3/671/776531. Albert Park, Youngbin Im, Subhadeep Kundu, Matthew Johnson, Robert P. Sorrentino, and Michael J. Paul. Tracking health related discussions on reddit for public health applications. In Proceedings of the International Conference on Digital Health, pages 70\u201374, 2018. doi: 10.1145/3194658. 3194677. URL https://pmc.ncbi.nlm.nih.gov/articles/PMC5977623/. Michael J. Paul and Mark Dredze. Discovering health topics in social media using topic models. PLOS ONE, 9(8):e103408, 2014. doi: 10.1371/journal.pone.0103408. URL https://journals. plos.org/plosone/article?id=10.1371/journal.pone.0103408. Julia D. Ransohoff, Azadeh Nikfarjam, Erik Jones, Brian Loew, Bernice Y. Kwong, Kavita Y. Sarin, and Nigam H. Shah. Detecting chemotherapeutic skin adverse reactions in social health networks using deep learning. JAMA Oncology, 4(4):581\u2013583, 2018. doi: 10.1001/jamaoncol.2017.5688. URL https://jamanetwork.com/journals/jamaoncology/fullarticle/2673831. Reddit Inc. Reddit\u2019s api pricing changes and third-party app restrictions. Reddit Official Announcements, 2023. URL https://www.reddit.com/r/reddit/comments/12qwagm/an_update_ regarding_reddits_api/. Accessed September 2024. Abeed Sarker and Graciela Gonzalez. Utilizing social media data for pharmacovigilance: A review. Journal of Biomedical Informatics, 54:202\u2013212, 2015. doi: 10.1016/j.jbi.2015.02.004. URL https://www.sciencedirect.com/science/article/pii/S1532046415000362. P. Spagnolo et al. Pulmonary adverse events following immune checkpoint inhibitors. Current Opinion in Pulmonary Medicine, 28(5):306\u2013314, 2022.",
+   "idx": 14,
+   "raw": "David Lazer, Ryan Kennedy, Gary King, and Alessandro Vespignani. The parable of google flu: Traps in big data analysis. Science, 343(6176):1203\u20131205, 2014. doi: 10.1126/science.1248506. URL https://gking.harvard.edu/files/gking/files/0314policyforumff.pdf.",
    "title": "The parable of google flu: Traps in big data analysis",
    "authors": [
     "Lazer",
     "Kennedy",
     "King",
-    "Vespignani",
-    "Leroy",
-    "Nikfarjam",
-    "Sarker",
-    "O\u2019Connor",
-    "Ginn",
-    "Gonzalez",
-    "Park",
-    "Im",
-    "Kundu",
-    "Johnson",
-    "Sorrentino",
-    "Paul",
-    "Paul",
-    "Dredze",
-    "Julia D. Ransohoff",
-    "Nikfarjam",
-    "Jones",
-    "Loew",
-    "Kwong",
-    "Sarin",
-    "Shah"
+    "Vespignani"
    ],
    "year": 2014,
    "doi": "10.1126/science.1248506",
    "arxiv": null,
    "urls": [
-    "https://gking.harvard.edu/files/gking/files/0314policyforumff.pdf",
-    "http://hdl.handle.net/2286/R.I.38674",
-    "https://academic.oup.com/jamia/",
-    "https://journals",
-    "https://jamanetwork.com/journals/jamaoncology/fullarticle/2673831",
-    "https://www.reddit.com/r/reddit/comments/12qwagm/an_update_",
-    "https://www.sciencedirect.com/science/article/pii/S1532046415000362",
-    "https://pmc.ncbi.nlm.nih.gov/articles/PMC5977623/"
+    "https://gking.harvard.edu/files/gking/files/0314policyforumff.pdf"
    ],
-   "container": "Proceedings of the International Conference on Digital Health",
+   "container": "Science",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "doi",
    "match": {
@@ -586,7 +601,374 @@
   },
   {
    "junk": false,
-   "idx": 14,
+   "idx": 15,
+   "raw": "V. Leroy et al. Pembrolizumab-induced pneumonitis. European Respiratory Journal, 49(2):1600081, 2017. doi: 10.1183/13993003.00081-2016.",
+   "title": "Pembrolizumab-induced pneumonitis",
+   "authors": [
+    "Leroy"
+   ],
+   "year": 2017,
+   "doi": "10.1183/13993003.00081-2016",
+   "arxiv": null,
+   "urls": [],
+   "container": "European Respiratory Journal",
+   "type": "article-journal",
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1183/23120541.00081-2016",
+    "title": "Pembrolizumab-induced pneumonitis",
+    "year": 2017,
+    "first_author": "Leroy",
+    "container": "ERJ Open Research",
+    "type": "journal-article",
+    "score": 36.92476
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "doi_not_resolvable",
+     "doi": "10.1183/13993003.00081-2016"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 16,
+   "raw": "Azadeh Nikfarjam. Health Information Extraction from Social Media. PhD thesis, Arizona State University, 2016. URL http://hdl.handle.net/2286/R.I.38674.",
+   "title": "Health Information Extraction from Social Media",
+   "authors": [
+    "Nikfarjam"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "http://hdl.handle.net/2286/R.I.38674"
+   ],
+   "container": null,
+   "type": "thesis",
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/978-3-319-20582-3_8",
+    "title": "Information Extraction from Medical Social Media",
+    "year": 2015,
+    "first_author": "Denecke",
+    "container": "Health Web Science",
+    "type": "book-chapter",
+    "score": 34.045982
+   },
+   "metrics": {
+    "title_sim": 92.63157894736842,
+    "containment": 0.8,
+    "partial_ratio": 83.33333333333334,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 17,
+   "raw": "Azadeh Nikfarjam, Abeed Sarker, Karen O\u2019Connor, Rachel Ginn, and Graciela Gonzalez. Pharmacovigilance from social media: mining adverse drug reaction mentions using sequence labeling with word embedding cluster features. Journal of the American Medical Informatics Association, 22(3):671\u2013681, 2015. doi: 10.1093/jamia/ocu041. URL https://academic.oup.com/jamia/ article/22/3/671/776531.",
+   "title": "Pharmacovigilance from social media: mining adverse drug reaction mentions using sequence labeling with word embedding cluster features",
+   "authors": [
+    "Nikfarjam",
+    "Sarker",
+    "O\u2019Connor",
+    "Ginn",
+    "Gonzalez"
+   ],
+   "year": 2015,
+   "doi": "10.1093/jamia/ocu041",
+   "arxiv": null,
+   "urls": [
+    "https://academic.oup.com/jamia/"
+   ],
+   "container": "Journal of the American Medical Informatics Association",
+   "type": "article-journal",
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1093/jamia/ocu041",
+    "title": "Pharmacovigilance from social media: mining adverse drug reaction mentions using sequence labeling with word embedding cluster features",
+    "year": 2015,
+    "first_author": "Nikfarjam",
+    "container": "Journal of the American Medical Informatics Association",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 18,
+   "raw": "Albert Park, Youngbin Im, Subhadeep Kundu, Matthew Johnson, Robert P. Sorrentino, and Michael J. Paul. Tracking health related discussions on reddit for public health applications. In Proceedings of the International Conference on Digital Health, pages 70\u201374, 2018. doi: 10.1145/3194658. 3194677. URL https://pmc.ncbi.nlm.nih.gov/articles/PMC5977623/.",
+   "title": "Tracking health related discussions on reddit for public health applications",
+   "authors": [
+    "Park",
+    "Im",
+    "Kundu",
+    "Johnson",
+    "Sorrentino",
+    "Paul"
+   ],
+   "year": 2018,
+   "doi": "10.1145/3194658",
+   "arxiv": null,
+   "urls": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC5977623/"
+   ],
+   "container": "Proceedings of the International Conference on Digital Health",
+   "type": "paper-conference",
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3194658",
+    "title": "Proceedings of the 2018 International Conference on Digital Health",
+    "year": 2018,
+    "first_author": null,
+    "container": "",
+    "type": "proceedings",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 45.925925925925924,
+    "containment": 1.0,
+    "partial_ratio": 92.42424242424242,
+    "year_ok": true,
+    "first_author_ok": null
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 19,
+   "raw": "Michael J. Paul and Mark Dredze. Discovering health topics in social media using topic models. PLOS ONE, 9(8):e103408, 2014. doi: 10.1371/journal.pone.0103408. URL https://journals. plos.org/plosone/article?id=10.1371/journal.pone.0103408.",
+   "title": "Discovering health topics in social media using topic models",
+   "authors": [
+    "Paul",
+    "Dredze"
+   ],
+   "year": 2014,
+   "doi": "10.1371/journal.pone.0103408",
+   "arxiv": null,
+   "urls": [
+    "https://journals"
+   ],
+   "container": "PLOS ONE",
+   "type": "article-journal",
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1371/journal.pone.0103408",
+    "title": "Discovering Health Topics in Social Media Using Topic Models",
+    "year": 2014,
+    "first_author": "Paul",
+    "container": "PLoS ONE",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 20,
+   "raw": "Julia D. Ransohoff, Azadeh Nikfarjam, Erik Jones, Brian Loew, Bernice Y. Kwong, Kavita Y. Sarin, and Nigam H. Shah. Detecting chemotherapeutic skin adverse reactions in social health networks using deep learning. JAMA Oncology, 4(4):581\u2013583, 2018. doi: 10.1001/jamaoncol.2017.5688. URL https://jamanetwork.com/journals/jamaoncology/fullarticle/2673831.",
+   "title": "Detecting chemotherapeutic skin adverse reactions in social health networks using deep learning",
+   "authors": [
+    "Ransohoff",
+    "Nikfarjam",
+    "Jones",
+    "Loew",
+    "Kwong",
+    "Sarin",
+    "Shah"
+   ],
+   "year": 2018,
+   "doi": "10.1001/jamaoncol.2017.5688",
+   "arxiv": null,
+   "urls": [
+    "https://jamanetwork.com/journals/jamaoncology/fullarticle/2673831"
+   ],
+   "container": "JAMA Oncology",
+   "type": "article-journal",
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1001/jamaoncol.2017.5688",
+    "title": "Detecting Chemotherapeutic Skin Adverse Reactions in Social Health Networks Using Deep Learning",
+    "year": 2018,
+    "first_author": "Ransohoff",
+    "container": "JAMA Oncology",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 21,
+   "raw": "Reddit Inc. Reddit\u2019s api pricing changes and third-party app restrictions. Reddit Official Announcements, 2023. URL https://www.reddit.com/r/reddit/comments/12qwagm/an_update_ regarding_reddits_api/. Accessed September 2024.",
+   "title": "Reddit\u2019s api pricing changes and third-party app restrictions",
+   "authors": [
+    "Inc"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://www.reddit.com/r/reddit/comments/12qwagm/an_update_"
+   ],
+   "container": "Reddit Official Announcements",
+   "type": "article-journal",
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED_URL",
+   "via": "url",
+   "url_status": {
+    "https://www.reddit.com/r/reddit/comments/12qwagm/an_update_": 200
+   },
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.4135/9781071878804.n8",
+      "title": "API and Third-Party Apps",
+      "year": 2021,
+      "first_author": null,
+      "container": "Conducting Online Research on Amazon Mechanical Turk and Beyond",
+      "type": "book-chapter",
+      "score": 28.56677
+     },
+     "metrics": {
+      "title_sim": 88.37209302325581,
+      "containment": 0.75,
+      "partial_ratio": 87.5,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 22,
+   "raw": "Abeed Sarker and Graciela Gonzalez. Utilizing social media data for pharmacovigilance: A review. Journal of Biomedical Informatics, 54:202\u2013212, 2015. doi: 10.1016/j.jbi.2015.02.004. URL https://www.sciencedirect.com/science/article/pii/S1532046415000362.",
+   "title": "Utilizing social media data for pharmacovigilance: A review",
+   "authors": [
+    "Sarker",
+    "Gonzalez"
+   ],
+   "year": 2015,
+   "doi": "10.1016/j.jbi.2015.02.004",
+   "arxiv": null,
+   "urls": [
+    "https://www.sciencedirect.com/science/article/pii/S1532046415000362"
+   ],
+   "container": "Journal of Biomedical Informatics",
+   "type": "article-journal",
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.jbi.2015.02.004",
+    "title": "Utilizing social media data for pharmacovigilance: A review",
+    "year": 2015,
+    "first_author": "Sarker",
+    "container": "Journal of Biomedical Informatics",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 23,
+   "raw": "P. Spagnolo et al. Pulmonary adverse events following immune checkpoint inhibitors. Current Opinion in Pulmonary Medicine, 28(5):306\u2013314, 2022.",
+   "title": "Pulmonary adverse events following immune checkpoint inhibitors",
+   "authors": [
+    "Spagnolo"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Current Opinion in Pulmonary Medicine",
+   "type": "article-journal",
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1097/mcp.0000000000000895",
+    "title": "Pulmonary adverse events following immune checkpoint inhibitors",
+    "year": 2022,
+    "first_author": "Spagnolo",
+    "container": "Current Opinion in Pulmonary Medicine",
+    "type": "journal-article",
+    "score": 61.374744
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 24,
    "raw": "S. Suzuki, N. Ishikawa, F. Konoeda, et al. Nivolumab-related myasthenia gravis with myositis and myocarditis in japan. Neurology, 89(11):1127\u20131134, 2017. doi: 10.1212/WNL.0000000000004359.",
    "title": "Nivolumab-related myasthenia gravis with myositis and myocarditis in japan",
    "authors": [
@@ -600,7 +982,7 @@
    "urls": [],
    "container": "Neurology",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "doi",
    "match": {
@@ -624,7 +1006,7 @@
   },
   {
    "junk": false,
-   "idx": 15,
+   "idx": 25,
    "raw": "Rebecca Y. Tay and Raffaele Califano. Checkpoint inhibitor pneumonitis \u2014 real-world incidence and risk. Journal of Thoracic Oncology, 13(12):1812\u20131814, 2018. doi: 10.1016/j.jtho.2018.10.007.",
    "title": "Checkpoint inhibitor pneumonitis \u2014 real-world incidence and risk",
    "authors": [
@@ -637,7 +1019,7 @@
    "urls": [],
    "container": "Journal of Thoracic Oncology",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "doi",
    "match": {
@@ -661,32 +1043,24 @@
   },
   {
    "junk": false,
-   "idx": 16,
-   "raw": "Joel Thomas, Arpan V. Prabhu, Dwight E. Heron, and Sushil Beriwal. Reddit and radiation therapy: A descriptive analysis of posts and comments over seven years by patients and health care professionals. Advances in Radiation Oncology, 4(2):345\u2013353, 2019. doi: 10.1016/j.adro.2019.01.007. URL https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6460228/. Hiroyuki Uetake, Kenichi Sugihara, Kei Muro, Toshiyuki Sunaya, Yuka Horiuchi-Yamamoto, and Hajime Takikawa. Clinical features of regorafenib-induced liver injury in japanese patients from postmarketing experience. Clinical Colorectal Cancer, 17(1):e49\u2013e58, 2018. doi: 10.1016/j.clcc. 2017.09.004. URL https://pubmed.ncbi.nlm.nih.gov/29074353/. U.S. Food and Drug Administration. Stivarga (regorafenib) tablet prescribing information, initial approval. https://www.accessdata.fda.gov/drugsatfda_docs/label/2012/203085lbl. pdf, 2012. Accessed September 2025.",
+   "idx": 26,
+   "raw": "Joel Thomas, Arpan V. Prabhu, Dwight E. Heron, and Sushil Beriwal. Reddit and radiation therapy: A descriptive analysis of posts and comments over seven years by patients and health care professionals. Advances in Radiation Oncology, 4(2):345\u2013353, 2019. doi: 10.1016/j.adro.2019.01.007. URL https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6460228/.",
    "title": "Reddit and radiation therapy: A descriptive analysis of posts and comments over seven years by patients and health care professionals",
    "authors": [
     "Thomas",
     "Prabhu",
     "Heron",
-    "Beriwal",
-    "Uetake",
-    "Sugihara",
-    "Muro",
-    "Sunaya",
-    "Horiuchi-Yamamoto",
-    "Takikawa"
+    "Beriwal"
    ],
    "year": 2019,
    "doi": "10.1016/j.adro.2019.01.007",
    "arxiv": null,
    "urls": [
-    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6460228/",
-    "https://www.accessdata.fda.gov/drugsatfda_docs/label/2012/203085lbl",
-    "https://pubmed.ncbi.nlm.nih.gov/29074353/"
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6460228/"
    ],
-   "container": "2017.09.004. URL https://pubmed.ncbi.nlm.nih.gov/29074353/. U.S. Food and Drug Administration",
+   "container": "Advances in Radiation Oncology",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "doi",
    "match": {
@@ -710,7 +1084,104 @@
   },
   {
    "junk": false,
-   "idx": 17,
+   "idx": 27,
+   "raw": "Hiroyuki Uetake, Kenichi Sugihara, Kei Muro, Toshiyuki Sunaya, Yuka Horiuchi-Yamamoto, and Hajime Takikawa. Clinical features of regorafenib-induced liver injury in japanese patients from postmarketing experience. Clinical Colorectal Cancer, 17(1):e49\u2013e58, 2018. doi: 10.1016/j.clcc. 2017.09.004. URL https://pubmed.ncbi.nlm.nih.gov/29074353/.",
+   "title": "Clinical features of regorafenib-induced liver injury in japanese patients from postmarketing experience",
+   "authors": [
+    "Uetake",
+    "Sugihara",
+    "Muro",
+    "Sunaya",
+    "Horiuchi-Yamamoto",
+    "Takikawa"
+   ],
+   "year": 2018,
+   "doi": "10.1016/j.clcc",
+   "arxiv": null,
+   "urls": [
+    "https://pubmed.ncbi.nlm.nih.gov/29074353/"
+   ],
+   "container": "Clinical Colorectal Cancer",
+   "type": "article-journal",
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.clcc.2017.09.004",
+    "title": "Clinical Features of Regorafenib-induced Liver Injury in Japanese Patients From Postmarketing Experience",
+    "year": 2018,
+    "first_author": "Uetake",
+    "container": "Clinical Colorectal Cancer",
+    "type": "journal-article",
+    "score": 78.80239
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "doi_not_resolvable",
+     "doi": "10.1016/j.clcc"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 28,
+   "raw": "U.S. Food and Drug Administration. Stivarga (regorafenib) tablet prescribing information, initial approval. https://www.accessdata.fda.gov/drugsatfda_docs/label/2012/203085lbl. pdf, 2012. Accessed September 2025.",
+   "title": "Stivarga (regorafenib) tablet prescribing information, initial approval",
+   "authors": [
+    "Food",
+    "Administration"
+   ],
+   "year": 2012,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://www.accessdata.fda.gov/drugsatfda_docs/label/2012/203085lbl"
+   ],
+   "container": "pdf",
+   "type": "article-journal",
+   "parser": "anystyle-indent-guided",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1097/01.cot.0000422179.15823.0c",
+      "title": "Quick FDA Approval for Stivarga (Regorafenib) for Advanced Colorectal Cancer",
+      "year": 2012,
+      "first_author": null,
+      "container": "Oncology Times",
+      "type": "journal-article",
+      "score": 48.810013
+     },
+     "metrics": {
+      "title_sim": 59.79381443298969,
+      "containment": 0.5,
+      "partial_ratio": 55.47445255474452,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    },
+    {
+     "step": "urls_not_live",
+     "url_status": {
+      "https://www.accessdata.fda.gov/drugsatfda_docs/label/2012/203085lbl": 404
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 29,
    "raw": "U.S. Food and Drug Administration. Data mining at FDA \u2013 white paper, 2018. URL https: //www.fda.gov/science-research/data-mining/data-mining-fda-white-paper.",
    "title": "Data mining at FDA \u2013 white paper",
    "authors": [
@@ -725,7 +1196,7 @@
    ],
    "container": null,
    "type": null,
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "UNVERIFIED",
    "evidence": [
     {
@@ -738,7 +1209,7 @@
       "first_author": "Mason",
       "container": "",
       "type": "report",
-      "score": 24.794003
+      "score": 24.770082
      },
      "metrics": {
       "title_sim": 69.56521739130434,
@@ -759,7 +1230,7 @@
   },
   {
    "junk": false,
-   "idx": 18,
+   "idx": 30,
    "raw": "U.S. Food and Drug Administration. Sentinel system five-year strategy: 2019\u20132023, 2019. URL https://www.fda.gov/media/120333/download.",
    "title": "Sentinel system five-year strategy",
    "authors": [
@@ -774,7 +1245,7 @@
    ],
    "container": null,
    "type": null,
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED_URL",
    "via": "url",
    "url_status": {
@@ -791,7 +1262,7 @@
       "first_author": null,
       "container": "Mental Health Practice",
       "type": "journal-article",
-      "score": 25.426476
+      "score": 25.444748
      },
      "metrics": {
       "title_sim": 69.23076923076923,
@@ -805,7 +1276,7 @@
   },
   {
    "junk": false,
-   "idx": 19,
+   "idx": 31,
    "raw": "U.S. Food and Drug Administration. FDA\u2019s sentinel initiative, 2024. URL https://www.fda.gov/ safety/fdas-sentinel-initiative.",
    "title": "FDA\u2019s sentinel initiative",
    "authors": [
@@ -820,7 +1291,7 @@
    ],
    "container": null,
    "type": null,
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED_URL",
    "via": "url",
    "url_status": {
@@ -837,7 +1308,7 @@
       "first_author": null,
       "container": "Forefront Group",
       "type": "dataset",
-      "score": 38.998802
+      "score": 39.0036
      },
      "metrics": {
       "title_sim": 100.0,
@@ -851,30 +1322,155 @@
   },
   {
    "junk": false,
-   "idx": 20,
-   "raw": "U.S. Food and Drug Administration. Drug safety priorities fiscal year 2024 (published 2025), 2025a. URL https://www.fda.gov/media/185592/download. U.S. Food and Drug Administration. Opdivo (nivolumab) injection, for intravenous use. prescribing information. https://www.accessdata.fda.gov/drugsatfda_docs/label/ 2025/125554s124lbl.pdf, 2025b. Accessed September 2025. U.S. Food and Drug Administration. Stivarga (regorafenib) tablets, full prescribing information, revision 2/2025. https://www.accessdata.fda.gov/drugsatfda_docs/label/ 2025/203085s016lbl.pdf, 2025c. Accessed September 2025. H. Wang, Y. Jin, P. Liu, et al. Immune checkpoint inhibitor-related pneumonitis following discontinuation of pembrolizumab in a patient with advanced lung adenocarcinoma: a case report and literature review. BMC Pulmonary Medicine, 24:597, 2024. doi: 10.1186/s12890-024-03424-9. Robert B Weiss, Ross C Donehower, Peter H Wiernik, et al. Hypersensitivity reactions from taxol. Journal of Clinical Oncology, 8(7):1263\u20131268, 1990.",
+   "idx": 32,
+   "raw": "U.S. Food and Drug Administration. Drug safety priorities fiscal year 2024 (published 2025), 2025a. URL https://www.fda.gov/media/185592/download.",
    "title": "Drug safety priorities fiscal year 2024",
    "authors": [
     "Food",
-    "Administration",
+    "Administration"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://www.fda.gov/media/185592/download"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED_URL",
+   "via": "url",
+   "url_status": {
+    "https://www.fda.gov/media/185592/download": 200
+   },
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/s40278-024-53683-x",
+      "title": "CDER drug safety priorities 2023",
+      "year": 2024,
+      "first_author": null,
+      "container": "Reactions Weekly",
+      "type": "journal-article",
+      "score": 27.82553
+     },
+     "metrics": {
+      "title_sim": 84.50704225352112,
+      "containment": 0.6,
+      "partial_ratio": 78.125,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 33,
+   "raw": "U.S. Food and Drug Administration. Opdivo (nivolumab) injection, for intravenous use. prescribing information. https://www.accessdata.fda.gov/drugsatfda_docs/label/ 2025/125554s124lbl.pdf, 2025b. Accessed September 2025.",
+   "title": "Opdivo (nivolumab) injection, for intravenous use. prescribing information",
+   "authors": [
     "Food",
-    "Administration",
+    "Administration"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://www.accessdata.fda.gov/drugsatfda_docs/label/"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-indent-guided",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.31525/fda1-ucm501412.htm",
+      "title": "Nivolumab (Opdivo) for Hodgkin Lymphoma",
+      "year": 2016,
+      "first_author": null,
+      "container": "Case Medical Research",
+      "type": "journal-article",
+      "score": 35.85063
+     },
+     "metrics": {
+      "title_sim": 70.17543859649123,
+      "containment": 0.5,
+      "partial_ratio": 54.054054054054056,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    },
+    {
+     "step": "urls_not_live",
+     "url_status": {
+      "https://www.accessdata.fda.gov/drugsatfda_docs/label/": 403
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 34,
+   "raw": "U.S. Food and Drug Administration. Stivarga (regorafenib) tablets, full prescribing information, revision 2/2025. https://www.accessdata.fda.gov/drugsatfda_docs/label/ 2025/203085s016lbl.pdf, 2025c. Accessed September 2025.",
+   "title": "Stivarga (regorafenib) tablets, full prescribing information, revision 2/2025",
+   "authors": [
     "Food",
-    "Administration",
+    "Administration"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://www.accessdata.fda.gov/drugsatfda_docs/label/"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.31003/uspnf_m7841_10101_01",
+    "title": "Regorafenib Tablets",
+    "year": 2026,
+    "first_author": null,
+    "container": "",
+    "type": "standard",
+    "score": 32.136135
+   },
+   "metrics": {
+    "title_sim": 41.30434782608695,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": null
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 35,
+   "raw": "H. Wang, Y. Jin, P. Liu, et al. Immune checkpoint inhibitor-related pneumonitis following discontinuation of pembrolizumab in a patient with advanced lung adenocarcinoma: a case report and literature review. BMC Pulmonary Medicine, 24:597, 2024. doi: 10.1186/s12890-024-03424-9.",
+   "title": "Immune checkpoint inhibitor-related pneumonitis following discontinuation of pembrolizumab in a patient with advanced lung adenocarcinoma: a case report and literature review",
+   "authors": [
     "Wang",
     "Jin",
     "Liu"
    ],
-   "year": 2025,
+   "year": 2024,
    "doi": "10.1186/s12890-024-03424-9",
    "arxiv": null,
-   "urls": [
-    "https://www.fda.gov/media/185592/download",
-    "https://www.accessdata.fda.gov/drugsatfda_docs/label/"
-   ],
+   "urls": [],
    "container": "BMC Pulmonary Medicine",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "doi",
    "match": {
@@ -888,7 +1484,7 @@
     "score": 1
    },
    "metrics": {
-    "title_sim": 22.64150943396226,
+    "title_sim": 100.0,
     "containment": 1.0,
     "partial_ratio": 100.0,
     "year_ok": true,
@@ -898,26 +1494,60 @@
   },
   {
    "junk": false,
-   "idx": 21,
-   "raw": "Bin Zhao and Hong Zhao. Incidence and risk of regorafenib-induced hepatotoxicity. Oncotarget, 8 (48):84102\u201384111, 2017. doi: 10.18632/oncotarget.21106. URL https://pubmed.ncbi.nlm. nih.gov/29137408/. J. Zhu, Z. Zhou, Z. Shen, et al. Pneumonitis induced by immune checkpoint inhibitors. Frontiers in Oncology, 10:1785, 2020. doi: 10.3389/fonc.2020.01785. Ivan Zorych, David Madigan, Patrick Ryan, and Andrew Bate. Disproportionality methods for pharmacovigilance in longitudinal observational databases. Statistical Methods in Medical Research, 22(1):39\u201356, 2013. doi: 10.1177/0962280211403602. URL https://doi.org/10. 1177/0962280211403602.",
+   "idx": 36,
+   "raw": "Robert B Weiss, Ross C Donehower, Peter H Wiernik, et al. Hypersensitivity reactions from taxol. Journal of Clinical Oncology, 8(7):1263\u20131268, 1990.",
+   "title": "Hypersensitivity reactions from taxol",
+   "authors": [
+    "Weiss",
+    "Donehower",
+    "Wiernik"
+   ],
+   "year": 1990,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Clinical Oncology",
+   "type": "article-journal",
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1200/jco.1990.8.7.1263",
+    "title": "Hypersensitivity reactions from taxol.",
+    "year": 1990,
+    "first_author": "Weiss",
+    "container": "Journal of Clinical Oncology",
+    "type": "journal-article",
+    "score": 35.114697
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 37,
+   "raw": "Bin Zhao and Hong Zhao. Incidence and risk of regorafenib-induced hepatotoxicity. Oncotarget, 8 (48):84102\u201384111, 2017. doi: 10.18632/oncotarget.21106. URL https://pubmed.ncbi.nlm. nih.gov/29137408/.",
    "title": "Incidence and risk of regorafenib-induced hepatotoxicity",
    "authors": [
     "Zhao",
-    "Zhao",
-    "Zhu",
-    "Zhou",
-    "Shen"
+    "Zhao"
    ],
    "year": 2017,
    "doi": "10.18632/oncotarget.21106",
    "arxiv": null,
    "urls": [
-    "https://pubmed.ncbi.nlm",
-    "https://doi.org/10"
+    "https://pubmed.ncbi.nlm"
    ],
    "container": "Oncotarget",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "doi",
    "match": {
@@ -927,6 +1557,109 @@
     "year": 2017,
     "first_author": "Zhao",
     "container": "Oncotarget",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 38,
+   "raw": "J. Zhu, Z. Zhou, Z. Shen, et al. Pneumonitis induced by immune checkpoint inhibitors. Frontiers in Oncology, 10:1785, 2020. doi: 10.3389/fonc.2020.01785.",
+   "title": "Pneumonitis induced by immune checkpoint inhibitors",
+   "authors": [
+    "Zhu",
+    "Zhou",
+    "Shen"
+   ],
+   "year": 2020,
+   "doi": "10.3389/fonc.2020.01785",
+   "arxiv": null,
+   "urls": [],
+   "container": "Frontiers in Oncology",
+   "type": "article-journal",
+   "parser": "anystyle-indent-guided",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "doi_resolves_title_mismatch",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.3389/fonc.2020.01785",
+      "title": "Pneumonitis Induced by Immune Checkpoint Inhibitors: From Clinical Data to Translational Investigation",
+      "year": 2020,
+      "first_author": "Zhu",
+      "container": "Frontiers in Oncology",
+      "type": "journal-article",
+      "score": 1
+     },
+     "metrics": {
+      "title_sim": 67.10526315789474,
+      "containment": 0.556,
+      "partial_ratio": 65.97938144329896,
+      "year_ok": true,
+      "first_author_ok": true
+     }
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/s40278-026-94239-7",
+      "title": "Immune checkpoint protein inhibitors",
+      "year": 2026,
+      "first_author": null,
+      "container": "Reactions Weekly",
+      "type": "journal-article",
+      "score": 37.060795
+     },
+     "metrics": {
+      "title_sim": 87.5,
+      "containment": 0.75,
+      "partial_ratio": 77.77777777777779,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 39,
+   "raw": "Ivan Zorych, David Madigan, Patrick Ryan, and Andrew Bate. Disproportionality methods for pharmacovigilance in longitudinal observational databases. Statistical Methods in Medical Research, 22(1):39\u201356, 2013. doi: 10.1177/0962280211403602. URL https://doi.org/10. 1177/0962280211403602.",
+   "title": "Disproportionality methods for pharmacovigilance in longitudinal observational databases",
+   "authors": [
+    "Zorych",
+    "Madigan",
+    "Ryan",
+    "Bate"
+   ],
+   "year": 2013,
+   "doi": "10.1177/0962280211403602",
+   "arxiv": null,
+   "urls": [
+    "https://doi.org/10"
+   ],
+   "container": "Statistical Methods in Medical Research",
+   "type": "article-journal",
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1177/0962280211403602",
+    "title": "Disproportionality methods for pharmacovigilance in longitudinal observational databases",
+    "year": 2013,
+    "first_author": "Zorych",
+    "container": "Statistical Methods in Medical Research",
     "type": "journal-article",
     "score": 1
    },

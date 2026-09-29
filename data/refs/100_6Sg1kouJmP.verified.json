@@ -1,8 +1,12 @@
 {
  "pdf": "100_6Sg1kouJmP.pdf",
- "n_entries": 7,
- "fallback": false,
+ "n_entries": 9,
+ "fallback": "indent-guided",
  "error": null,
+ "linenumbers_stripped": true,
+ "two_column": false,
+ "parser_version": 4,
+ "reprocessed": true,
  "entries": [
   {
    "junk": false,
@@ -21,7 +25,7 @@
    "urls": [],
    "container": "Science",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -32,7 +36,7 @@
     "first_author": "Eloundou",
     "container": "Science",
     "type": "journal-article",
-    "score": 87.816216
+    "score": 87.60211
    },
    "metrics": {
     "title_sim": 100.0,
@@ -59,7 +63,7 @@
    "urls": [],
    "container": "Strategic Management Journal",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -70,7 +74,7 @@
     "first_author": "Felten",
     "container": "Strategic Management Journal",
     "type": "journal-article",
-    "score": 76.299736
+    "score": 76.31327
    },
    "metrics": {
     "title_sim": 100.0,
@@ -96,7 +100,7 @@
    "urls": [],
    "container": "Technological forecasting and social change",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -107,7 +111,7 @@
     "first_author": "Frey",
     "container": "Technological Forecasting and Social Change",
     "type": "journal-article",
-    "score": 61.702843
+    "score": 61.62051
    },
    "metrics": {
     "title_sim": 100.0,
@@ -136,7 +140,7 @@
    "urls": [],
    "container": "Journal of Artificial Intelligence Research",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -147,7 +151,7 @@
     "first_author": "Grace",
     "container": "Journal of Artificial Intelligence Research",
     "type": "journal-article",
-    "score": 70.268394
+    "score": 70.27315
    },
    "metrics": {
     "title_sim": 100.0,
@@ -186,7 +190,7 @@
    "urls": [],
    "container": null,
    "type": null,
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "arxiv_id",
    "match": {
@@ -224,7 +228,7 @@
    "urls": [],
    "container": "Journal of Artificial Intelligence Research",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -235,7 +239,7 @@
     "first_author": "Tolan",
     "container": "Journal of Artificial Intelligence Research",
     "type": "journal-article",
-    "score": 74.62439
+    "score": 74.68535
    },
    "metrics": {
     "title_sim": 100.0,
@@ -249,7 +253,7 @@
   {
    "junk": false,
    "idx": 7,
-   "raw": "Webb, M. (2019). The impact of artificial intelligence on the labor market. Available at SSRN 3482150.",
+   "raw": "Webb, M. (2019). The impact of artificial intelligence on the labor market. Available at SSRN 3482150. Online Appendix",
    "title": "The impact of artificial intelligence on the labor market",
    "authors": [
     "Webb"
@@ -260,7 +264,7 @@
    "urls": [],
    "container": null,
    "type": null,
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -271,7 +275,7 @@
     "first_author": "Webb",
     "container": "SSRN Electronic Journal",
     "type": "journal-article",
-    "score": 46.646343
+    "score": 46.649094
    },
    "metrics": {
     "title_sim": 100.0,
@@ -281,9 +285,86 @@
     "first_author_ok": true
    },
    "evidence": []
+  },
+  {
+   "junk": true,
+   "idx": 8,
+   "raw": "Benchmarking the Future of Work: Mapping AI Progress to Occupational Exposure .1   Aggregation To construct our measure of AI exposure, we integrate two complementary task-level scores into a single index. The first derives from step 4 (benchmark-to-task translation), and the second from step 6 (human-comparative rating). Both raw scores are normalized onto a common [0, 1] scale and then combined through a weighted average. This yields a composite exposure score for each O*NET task.",
+   "title": "Benchmarking the Future of Work: Mapping AI Progress to Occupational Exposure .1 Aggregation To construct our measure of AI exposure, we integrate two complementary task-level scores into a single index. The first derives from step 4",
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-indent-guided",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.5452354",
+      "title": "Benchmarking the Future of Work: Mapping AI Progress to Occupational Tasks",
+      "year": 2025,
+      "first_author": "Gulati",
+      "container": "",
+      "type": "posted-content",
+      "score": 63.1591
+     },
+     "metrics": {
+      "title_sim": 48.34437086092716,
+      "containment": 0.857,
+      "partial_ratio": 96.45390070921985,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "Following Felten et al. (2021), we then map task-level exposure into occupational exposure. Each task is weighted by O*NET\u2019s measures of importance and prevalence, ensuring that frequently performed and central activities exert greater influence on an occupation\u2019s overall score. Aggregating in this way links advances in AI benchmarks to the heterogeneous distribution of exposure across the labor market.",
+   "title": "we then map task-level exposure into occupational exposure. Each task is weighted by O*NET\u2019s measures of importance and prevalence, ensuring that frequently performed and central activities exert greater influence on an occupation\u2019s overall score. Aggregating in this way links advances in AI benchmarks to the heterogeneous distribution of exposure across the labor market",
+   "authors": [
+    "Felten"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-indent-guided",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.6669678",
+      "title": "Task-Structure Measures of AI Exposure as Instruments for Direct Adoption: Validation Across BTOS, Eurostat, and AIOE",
+      "year": 2026,
+      "first_author": "Verschuere",
+      "container": "",
+      "type": "posted-content",
+      "score": 57.063725
+     },
+     "metrics": {
+      "title_sim": 37.1900826446281,
+      "containment": 0.333,
+      "partial_ratio": 50.0,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
   }
  ],
  "second_pass": true,
- "arxiv_repass": true,
- "openalex_pass": true
+ "arxiv_repass": true
 }

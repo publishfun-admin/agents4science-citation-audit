@@ -382,7 +382,7 @@
    "container": null,
    "type": null,
    "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "verdict": "VERIFIED",
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -405,7 +405,25 @@
      }
     }
    ],
-   "likely_match": null
+   "likely_match": null,
+   "via": "openalex_pass3",
+   "match": {
+    "source": "openalex",
+    "id": "https://openalex.org/W2896934785",
+    "doi": "https://doi.org/10.1080/09687599.2018.1492779",
+    "title": "Disability in higher education. A social justice approach",
+    "year": 2018,
+    "first_author": "Fr\u00e9d\u00e9ric Fovet",
+    "container": "Disability & Society",
+    "type": "article"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.667,
+    "partial_ratio": 60.24096385542168,
+    "year_ok": true,
+    "first_author_ok": false
+   }
   },
   {
    "junk": false,
@@ -630,5 +648,6 @@
   }
  ],
  "second_pass": true,
- "arxiv_repass": true
+ "arxiv_repass": true,
+ "openalex_pass": true
 }

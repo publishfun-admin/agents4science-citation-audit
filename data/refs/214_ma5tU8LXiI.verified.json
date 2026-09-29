@@ -1,25 +1,20 @@
 {
  "pdf": "214_ma5tU8LXiI.pdf",
- "n_entries": 18,
- "fallback": false,
+ "n_entries": 23,
+ "fallback": "indent-guided",
  "error": null,
  "linenumbers_stripped": true,
- "parser_version": 2,
+ "two_column": false,
+ "parser_version": 4,
+ "reprocessed": true,
  "entries": [
   {
    "junk": false,
    "idx": 1,
-   "raw": "American Diabetes Association. (2020). Standards of medical care in diabetes\u20142020. Diabetes Care, 43(Suppl 1), S1\u2013S212. doi: 10.2337/dc20-Sint Bergenstal, R. M., Ahmann, A. J., Bailey, T., Beck, R. W., Bissen, J., Buckingham, B., & Kruger, D. F. (2013). Recommendations for standardizing glucose reporting and analysis to optimize clinical decision making in diabetes: The ambulatory glucose profile (agp). Diabetes Technology & Therapeutics, 15(3), 198\u2013211. doi: 10.1089/dia.2013.0051",
+   "raw": "American Diabetes Association. (2020). Standards of medical care in diabetes\u20142020. Diabetes Care, 43(Suppl 1), S1\u2013S212. doi: 10.2337/dc20-Sint",
    "title": "Standards of medical care in diabetes\u20142020",
    "authors": [
-    "Association",
-    "Bergenstal",
-    "Ahmann",
-    "Bailey",
-    "Beck",
-    "Bissen",
-    "Buckingham",
-    "Kruger"
+    "Association"
    ],
    "year": 2020,
    "doi": "10.2337/dc20-Sint",
@@ -27,7 +22,7 @@
    "urls": [],
    "container": "Diabetes Care",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "doi",
    "match": {
@@ -52,22 +47,61 @@
   {
    "junk": false,
    "idx": 2,
-   "raw": "Ceriello, A., & Ihnat, M. A. (2010). \u2019glycaemic variability\u2019: A new therapeutic challenge in diabetes and the critical care setting. Diabetic Medicine, 27(8), 862\u2013867. doi: 10.1111/ j.1464-5491.2010.03086.x Ceriello, A., Monnier, L., & Owens, D. R. (2019). Glycaemic variability in diabetes: Clinical and therapeutic implications. The Lancet Diabetes & Endocrinology, 7(3), 221\u2013230. doi: 10.1016/S2213-8587(18)30136-0",
+   "raw": "Bergenstal, R. M., Ahmann, A. J., Bailey, T., Beck, R. W., Bissen, J., Buckingham, B., & Kruger, D. F. (2013). Recommendations for standardizing glucose reporting and analysis to optimize clinical decision making in diabetes: The ambulatory glucose profile (agp). Diabetes Technology & Therapeutics, 15(3), 198\u2013211. doi: 10.1089/dia.2013.0051",
+   "title": "Recommendations for standardizing glucose reporting and analysis to optimize clinical decision making in diabetes: The ambulatory glucose profile (agp",
+   "authors": [
+    "Bergenstal",
+    "Ahmann",
+    "Bailey",
+    "Beck",
+    "Bissen",
+    "Buckingham",
+    "Kruger"
+   ],
+   "year": 2013,
+   "doi": "10.1089/dia.2013.0051",
+   "arxiv": null,
+   "urls": [],
+   "container": "Diabetes Technology & Therapeutics",
+   "type": "article-journal",
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1089/dia.2013.0051",
+    "title": "Recommendations for Standardizing Glucose Reporting and Analysis to Optimize Clinical Decision Making in Diabetes: The Ambulatory Glucose Profile (AGP)",
+    "year": 2013,
+    "first_author": "Bergenstal",
+    "container": "Diabetes Technology &amp; Therapeutics",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "Ceriello, A., & Ihnat, M. A. (2010). \u2019glycaemic variability\u2019: A new therapeutic challenge in diabetes and the critical care setting. Diabetic Medicine, 27(8), 862\u2013867. doi: 10.1111/ j.1464-5491.2010.03086.x",
    "title": "glycaemic variability\u2019: A new therapeutic challenge in diabetes and the critical care setting",
    "authors": [
     "Ceriello",
-    "Ihnat",
-    "Ceriello",
-    "Monnier",
-    "Owens"
+    "Ihnat"
    ],
    "year": 2010,
-   "doi": "doi: 10.1111/",
+   "doi": null,
    "arxiv": null,
    "urls": [],
    "container": "Diabetic Medicine",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -78,7 +112,7 @@
     "first_author": "Ceriello",
     "container": "Diabetic Medicine",
     "type": "journal-article",
-    "score": 73.39862
+    "score": 73.45264
    },
    "metrics": {
     "title_sim": 100.0,
@@ -87,16 +121,49 @@
     "year_ok": true,
     "first_author_ok": true
    },
-   "evidence": [
-    {
-     "step": "doi_not_resolvable",
-     "doi": "doi: 10.1111/"
-    }
-   ]
+   "evidence": []
   },
   {
    "junk": false,
-   "idx": 3,
+   "idx": 4,
+   "raw": "Ceriello, A., Monnier, L., & Owens, D. R. (2019). Glycaemic variability in diabetes: Clinical and therapeutic implications. The Lancet Diabetes & Endocrinology, 7(3), 221\u2013230. doi: 10.1016/S2213-8587(18)30136-0",
+   "title": "Glycaemic variability in diabetes: Clinical and therapeutic implications",
+   "authors": [
+    "Ceriello",
+    "Monnier",
+    "Owens"
+   ],
+   "year": 2019,
+   "doi": "10.1016/S2213-8587(18)30136-0",
+   "arxiv": null,
+   "urls": [],
+   "container": "The Lancet Diabetes & Endocrinology",
+   "type": "article-journal",
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/s2213-8587(18)30136-0",
+    "title": "Glycaemic variability in diabetes: clinical and therapeutic implications",
+    "year": 2019,
+    "first_author": "Ceriello",
+    "container": "The Lancet Diabetes &amp; Endocrinology",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 5,
    "raw": "CompBio-IMDEAFood. (2025). Iaged-madrid. https://github.com/CompBio-IMDEAFood/ IAged-Madrid. (GitHub repository. Accessed: 2025-09-15)",
    "title": "Iaged-madrid. https://github.com/CompBio-IMDEAFood/ IAged-Madrid",
    "authors": [],
@@ -108,7 +175,7 @@
    ],
    "container": null,
    "type": null,
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED_URL",
    "via": "url",
    "url_status": {
@@ -125,7 +192,7 @@
       "first_author": null,
       "container": "Revista Portuguesa de Estomatologia, Medicina Dent\u00e1ria e Cirurgia Maxilofacial",
       "type": "journal-article",
-      "score": 31.355978
+      "score": 31.368235
      },
      "metrics": {
       "title_sim": 32.3943661971831,
@@ -139,28 +206,19 @@
   },
   {
    "junk": false,
-   "idx": 4,
-   "raw": "DeVries, J. H. (2013). Glucose variability: Where it is important and how to measure it. Diabetes, 62(5), 1405\u20131408. doi: 10.2337/db12-1610 Eberhart, M. S., Ogden, C., Engelgau, M., Cadwell, B., Hedley, A. A., Saydah, S. H., & Byrd-Holt, D. D. (2004). Prevalence of overweight and obesity among adults with diagnosed diabetes\u2014united states, 1988\u20131994 and 1999\u20132002. Morbidity and Mortality Weekly Report, 53(45), 1066\u20131068. Retrieved from https://www.cdc.gov/mmwr/preview/mmwrhtml/ mm5345a2.htm Gerstein, H. C., Miller, M. E., Byington, R. P., Goff, D. C., Bigger, J. T., Buse, J. B., & Group, A. S. (2008). Effects of intensive glucose lowering in type 2 diabetes. New England Journal of Medicine, 358(24), 2545\u20132559. doi: 10.1056/NEJMoa0802743",
+   "idx": 6,
+   "raw": "DeVries, J. H. (2013). Glucose variability: Where it is important and how to measure it. Diabetes, 62(5), 1405\u20131408. doi: 10.2337/db12-1610",
    "title": "Glucose variability: Where it is important and how to measure it",
    "authors": [
-    "DeVries",
-    "Eberhart",
-    "Ogden",
-    "Engelgau",
-    "Cadwell",
-    "Hedley",
-    "Saydah",
-    "Byrd-Holt"
+    "DeVries"
    ],
    "year": 2013,
    "doi": "10.2337/db12-1610",
    "arxiv": null,
-   "urls": [
-    "https://www.cdc.gov/mmwr/preview/mmwrhtml/"
-   ],
+   "urls": [],
    "container": "Diabetes",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "doi",
    "match": {
@@ -184,7 +242,93 @@
   },
   {
    "junk": false,
-   "idx": 5,
+   "idx": 7,
+   "raw": "Eberhart, M. S., Ogden, C., Engelgau, M., Cadwell, B., Hedley, A. A., Saydah, S. H., & Byrd- Holt, D. D. (2004). Prevalence of overweight and obesity among adults with diagnosed diabetes\u2014united states, 1988\u20131994 and 1999\u20132002. Morbidity and Mortality Weekly Report, 53(45), 1066\u20131068. Retrieved from https://www.cdc.gov/mmwr/preview/mmwrhtml/ mm5345a2.htm",
+   "title": "Prevalence of overweight and obesity among adults with diagnosed diabetes\u2014united states, 1988\u20131994 and 1999\u20132002",
+   "authors": [
+    "Eberhart",
+    "Ogden",
+    "Engelgau",
+    "Cadwell",
+    "Hedley",
+    "Saydah",
+    "Byrd- Holt"
+   ],
+   "year": 2004,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://www.cdc.gov/mmwr/preview/mmwrhtml/"
+   ],
+   "container": "Morbidity and Mortality Weekly Report",
+   "type": "article-journal",
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1001/jama.293.5.546",
+    "title": "Prevalence of Overweight and Obesity Among Adults With Diagnosed Diabetes\u2014United States, 1988-1994 and 1999-2002",
+    "year": 2005,
+    "first_author": null,
+    "container": "JAMA",
+    "type": "journal-article",
+    "score": 81.72768
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": null
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "Gerstein, H. C., Miller, M. E., Byington, R. P., Goff, D. C., Bigger, J. T., Buse, J. B., & Group, A. S. (2008). Effects of intensive glucose lowering in type 2 diabetes. New England Journal of Medicine, 358(24), 2545\u20132559. doi: 10.1056/NEJMoa0802743",
+   "title": "Effects of intensive glucose lowering in type 2 diabetes",
+   "authors": [
+    "Gerstein",
+    "Miller",
+    "Byington",
+    "Goff",
+    "Bigger",
+    "Buse",
+    "Group"
+   ],
+   "year": 2008,
+   "doi": "10.1056/NEJMoa0802743",
+   "arxiv": null,
+   "urls": [],
+   "container": "New England Journal of Medicine",
+   "type": "article-journal",
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1056/nejmoa0802743",
+    "title": "Effects of Intensive Glucose Lowering in Type 2 Diabetes",
+    "year": 2008,
+    "first_author": null,
+    "container": "New England Journal of Medicine",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": null
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 9,
    "raw": "Hirsch, I. B., & Brownlee, M. (2005). Should minimal blood glucose variability become the gold standard of glycemic control? Journal of Diabetes and its Complications, 19(3), 178\u2013181. doi: 10.1016/j.jdiacomp.2004.10.002",
    "title": "Should minimal blood glucose variability become the gold standard of glycemic control?",
    "authors": [
@@ -197,7 +341,7 @@
    "urls": [],
    "container": "Journal of Diabetes and its Complications",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -208,7 +352,7 @@
     "first_author": "Hirsch",
     "container": "Journal of Diabetes and its Complications",
     "type": "journal-article",
-    "score": 77.89514
+    "score": 77.884674
    },
    "metrics": {
     "title_sim": 100.0,
@@ -242,7 +386,7 @@
   },
   {
    "junk": false,
-   "idx": 6,
+   "idx": 10,
    "raw": "Holman, R. R., Paul, S. K., Bethel, M. A., Matthews, D. R., & Neil, H. A. (2008). 10-year follow-up of intensive glucose control in type 2 diabetes. New England Journal of Medicine, 359(15), 1577\u20131589. doi: 10.1056/NEJMoa0806470",
    "title": "10-year follow-up of intensive glucose control in type 2 diabetes",
    "authors": [
@@ -258,7 +402,7 @@
    "urls": [],
    "container": "New England Journal of Medicine",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "doi",
    "match": {
@@ -282,7 +426,7 @@
   },
   {
    "junk": false,
-   "idx": 7,
+   "idx": 11,
    "raw": "Kilpatrick, E. S. (2008). Arguments for and against the role of glucose variability in the development of diabetes complications. Journal of Diabetes Science and Technology, 2(6), 1138\u20131144. doi: 10.1177/193229680800200620",
    "title": "Arguments for and against the role of glucose variability in the development of diabetes complications",
    "authors": [
@@ -294,7 +438,7 @@
    "urls": [],
    "container": "Journal of Diabetes Science and Technology",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -305,7 +449,7 @@
     "first_author": "Kilpatrick",
     "container": "Journal of Diabetes Science and Technology",
     "type": "journal-article",
-    "score": 58.055088
+    "score": 57.993618
    },
    "metrics": {
     "title_sim": 100.0,
@@ -339,7 +483,7 @@
   },
   {
    "junk": false,
-   "idx": 8,
+   "idx": 12,
    "raw": "Kovatchev, B. P., & Cobelli, C. (2016). Glucose variability: Timing, risk analysis, and relationship to hypoglycemia in diabetes. Diabetes Care, 39(4), 502\u2013510. doi: 10.2337/dc15-2035",
    "title": "Glucose variability: Timing, risk analysis, and relationship to hypoglycemia in diabetes",
    "authors": [
@@ -352,7 +496,7 @@
    "urls": [],
    "container": "Diabetes Care",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "doi",
    "match": {
@@ -376,7 +520,7 @@
   },
   {
    "junk": false,
-   "idx": 9,
+   "idx": 13,
    "raw": "Kovatchev, B. P., Cox, D. J., Kumar, A., & Gonder-Frederick, L. A. (2003). Quantifying temporal glucose variability in diabetes via continuous glucose monitoring: Mathematical methods and clinical application. Diabetes Technology & Therapeutics, 5(5), 817\u2013828. doi: 10.1089/ 152091503322640890",
    "title": "Quantifying temporal glucose variability in diabetes via continuous glucose monitoring: Mathematical methods and clinical application",
    "authors": [
@@ -391,7 +535,7 @@
    "urls": [],
    "container": "Diabetes Technology & Therapeutics",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -402,7 +546,7 @@
     "first_author": "Kovatchev",
     "container": "Diabetes Technology &amp; Therapeutics",
     "type": "journal-article",
-    "score": 84.9564
+    "score": 84.963135
    },
    "metrics": {
     "title_sim": 100.0,
@@ -420,7 +564,7 @@
   },
   {
    "junk": false,
-   "idx": 10,
+   "idx": 14,
    "raw": "McDonnell, C. M., Donath, S. M., Vidmar, S. I., & Werther, G. A. (2005). A novel approach to continuous glucose analysis utilizing glycemic variation. Diabetes Technology & Therapeutics, 7(2), 253\u2013263. doi: 10.1089/dia.2005.7.253",
    "title": "A novel approach to continuous glucose analysis utilizing glycemic variation",
    "authors": [
@@ -435,7 +579,7 @@
    "urls": [],
    "container": "Diabetes Technology & Therapeutics",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "doi",
    "match": {
@@ -459,8 +603,8 @@
   },
   {
    "junk": false,
-   "idx": 11,
-   "raw": "Monnier, L., Colette, C., & Owens, D. R. (2008). Glycemic variability: The third component of the dysglycemia in diabetes. is it important? how to measure it? Journal of Diabetes Science and Technology, 2(6), 1094\u20131100. doi: 10.1177/193229680800200618 Nathan, D. M., Cleary, P. A., Backlund, J. Y., Genuth, S. M., Lachin, J. M., Orchard, T. J., . . .",
+   "idx": 15,
+   "raw": "Monnier, L., Colette, C., & Owens, D. R. (2008). Glycemic variability: The third component of the dysglycemia in diabetes. is it important? how to measure it? Journal of Diabetes Science and Technology, 2(6), 1094\u20131100. doi: 10.1177/193229680800200618",
    "title": "Glycemic variability: The third component of the dysglycemia in diabetes. is it important? how to measure it?",
    "authors": [
     "Monnier",
@@ -473,7 +617,7 @@
    "urls": [],
    "container": "Journal of Diabetes Science and Technology",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "doi",
    "match": {
@@ -497,10 +641,16 @@
   },
   {
    "junk": false,
-   "idx": 12,
-   "raw": "Group, C. D. S. R. (2005). Intensive diabetes treatment and cardiovascular disease in patients with type 1 diabetes. New England Journal of Medicine, 353(25), 2643\u20132653. doi: 10.1056/NEJMoa052187",
+   "idx": 16,
+   "raw": "Nathan, D. M., Cleary, P. A., Backlund, J. Y., Genuth, S. M., Lachin, J. M., Orchard, T. J., . . . Group, C. D. S. R. (2005). Intensive diabetes treatment and cardiovascular disease in patients with type 1 diabetes. New England Journal of Medicine, 353(25), 2643\u20132653. doi: 10.1056/NEJMoa052187",
    "title": "Intensive diabetes treatment and cardiovascular disease in patients with type 1 diabetes",
    "authors": [
+    "Nathan",
+    "Cleary",
+    "Backlund",
+    "Genuth",
+    "Lachin",
+    "Orchard",
     "Group"
    ],
    "year": 2005,
@@ -509,7 +659,7 @@
    "urls": [],
    "container": "New England Journal of Medicine",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "doi",
    "match": {
@@ -533,7 +683,7 @@
   },
   {
    "junk": false,
-   "idx": 13,
+   "idx": 17,
    "raw": "Pandit, J., & Maggs, D. G. (2010). The role of glucose variability in the pathophysiology of diabetes complications. Diabetes Technology & Therapeutics, 12(8), 643\u2013649. doi: 10.1089/ dia.2010.0010",
    "title": "The role of glucose variability in the pathophysiology of diabetes complications",
    "authors": [
@@ -546,7 +696,7 @@
    "urls": [],
    "container": "Diabetes Technology & Therapeutics",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "UNVERIFIED",
    "evidence": [
     {
@@ -563,7 +713,7 @@
       "first_author": "Kilpatrick",
       "container": "Journal of Diabetes Science and Technology",
       "type": "journal-article",
-      "score": 31.65151
+      "score": 31.651278
      },
      "metrics": {
       "title_sim": 87.6923076923077,
@@ -578,18 +728,11 @@
   },
   {
    "junk": false,
-   "idx": 14,
-   "raw": "Rodbard, D. (2009). Interpretation of continuous glucose monitoring data: Glycemic variability and quality of glycemic control. Diabetes Technology & Therapeutics, 11(S1), S55\u2013S67. doi: 10.1089/dia.2008.0132 Salinero-Fort, M. A., San Andr\u00e9s-Rebollo, F. J., C\u00e1rdenas-Valladolid, J., Mostaza, J., Lahoz, C., Rodriguez-Artalejo, F., . . . Group, A.-M. S. R. (2024). Effect of glucose variability on the mortality of adults aged 75 years and over during the first year of the covid-19 pandemic. BMC Geriatrics, 24(1), 533. doi: 10.1186/s12877-024-05149-0",
+   "idx": 18,
+   "raw": "Rodbard, D. (2009). Interpretation of continuous glucose monitoring data: Glycemic variability and quality of glycemic control. Diabetes Technology & Therapeutics, 11(S1), S55\u2013S67. doi: 10.1089/dia.2008.0132",
    "title": "Interpretation of continuous glucose monitoring data: Glycemic variability and quality of glycemic control",
    "authors": [
-    "Rodbard",
-    "Salinero-Fort",
-    "San Andr\u00e9s-Rebollo",
-    "C\u00e1rdenas-Valladolid",
-    "Mostaza",
-    "Lahoz",
-    "Rodriguez-Artalejo",
-    "Group"
+    "Rodbard"
    ],
    "year": 2009,
    "doi": "10.1089/dia.2008.0132",
@@ -597,7 +740,7 @@
    "urls": [],
    "container": "Diabetes Technology & Therapeutics",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "doi",
    "match": {
@@ -621,7 +764,49 @@
   },
   {
    "junk": false,
-   "idx": 15,
+   "idx": 19,
+   "raw": "Salinero-Fort, M. A., San Andr\u00e9s-Rebollo, F. J., C\u00e1rdenas-Valladolid, J., Mostaza, J., Lahoz, C., Rodriguez-Artalejo, F., . . . Group, A.-M. S. R. (2024). Effect of glucose variability on the mortality of adults aged 75 years and over during the first year of the covid-19 pandemic. BMC Geriatrics, 24(1), 533. doi: 10.1186/s12877-024-05149-0",
+   "title": "Effect of glucose variability on the mortality of adults aged 75 years and over during the first year of the covid-19 pandemic",
+   "authors": [
+    "Salinero-Fort",
+    "San Andr\u00e9s-Rebollo",
+    "C\u00e1rdenas-Valladolid",
+    "Mostaza",
+    "Lahoz",
+    "Rodriguez-Artalejo",
+    "Group"
+   ],
+   "year": 2024,
+   "doi": "10.1186/s12877-024-05149-0",
+   "arxiv": null,
+   "urls": [],
+   "container": "BMC Geriatrics",
+   "type": "article-journal",
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1186/s12877-024-05149-0",
+    "title": "Effect of glucose variability on the mortality of adults aged 75\u00a0years and over during the first year of the COVID-19 pandemic",
+    "year": 2024,
+    "first_author": "Salinero-Fort",
+    "container": "BMC Geriatrics",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 20,
    "raw": "Siegelaar, S. E., Holleman, F., Hoekstra, J. B., & DeVries, J. H. (2010). Glucose variability; does it matter? Endocrine Reviews, 31(2), 171\u2013182. doi: 10.1210/er.2009-0021",
    "title": "Glucose variability; does it matter?",
    "authors": [
@@ -636,7 +821,7 @@
    "urls": [],
    "container": "Endocrine Reviews",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "doi",
    "match": {
@@ -660,7 +845,7 @@
   },
   {
    "junk": false,
-   "idx": 16,
+   "idx": 21,
    "raw": "Suh, S., & Kim, J. H. (2015). Glycemic variability: How do we measure it and why is it important? Diabetes & Metabolism Journal, 39(4), 273\u2013282. doi: 10.4093/dmj.2015.39.4.273",
    "title": "Glycemic variability: How do we measure it and why is it important?",
    "authors": [
@@ -673,7 +858,7 @@
    "urls": [],
    "container": "Diabetes & Metabolism Journal",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "doi",
    "match": {
@@ -697,7 +882,7 @@
   },
   {
    "junk": false,
-   "idx": 17,
+   "idx": 22,
    "raw": "Swanson, K., Wu, W., Bulaong, N. L., Pak, J. E., & Zou, J. (2025). The virtual lab of ai agents designs new sars-cov-2 nanobodies. Nature, 1\u20133. doi: 10.1038/s41586-025-09442-9",
    "title": "The virtual lab of ai agents designs new sars-cov-2 nanobodies",
    "authors": [
@@ -713,7 +898,7 @@
    "urls": [],
    "container": "Nature",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "doi",
    "match": {
@@ -737,7 +922,7 @@
   },
   {
    "junk": false,
-   "idx": 18,
+   "idx": 23,
    "raw": "Zoungas, S., Patel, A., Chalmers, J., de Galan, B. E., Li, Q., Billot, L., & Group, A. C. (2010). Severe hypoglycemia and risks of vascular events and death. New England Journal of Medicine, 363(15), 1410\u20131418. doi: 10.1056/NEJMoa1003795",
    "title": "Severe hypoglycemia and risks of vascular events and death",
    "authors": [
@@ -755,7 +940,7 @@
    "urls": [],
    "container": "New England Journal of Medicine",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "doi",
    "match": {

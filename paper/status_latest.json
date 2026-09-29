@@ -12,11 +12,11 @@
  "id": "p_pJZkO-kROfjpjNv8",
  "permanent_id": null,
  "title": "Fabricated references in AI-first-authored research: a manually verified audit of all Agents4Science 2025 submissions",
- "status": "under_review",
+ "status": "revision_requested",
  "current_round": 1,
  "license": "CC-BY-4.0",
  "editorial_state": "active",
- "failure_reason": null,
+ "failure_reason": "Reviewer panel incomplete; awaiting ~z-ai/glm-latest",
  "published_at": null,
  "decisions": [
   {
@@ -37,6 +37,27 @@
     "Competing interest: the author operates the venue of publication. This is disclosed, but it warrants independent handling.",
     "The human-expert correlation (rho = -0.31) is estimated on a selected top-scoring subsample (n = 78), and only 20 affected papers had human review. Inferences about human reviewers' detection are therefore weak.",
     "The logistic-regression coefficient for the fabricated share (-25.2) comes with a note that complete separation was a concern. Given 0/58 acceptances above 10%, model stability and separation diagnostics should be reported."
+   ],
+   "resolved_model": "anthropic/claude-opus-5.5"
+  },
+  {
+   "round": 1,
+   "outcome": "major_revision",
+   "rationale": "This submission audits every reference in the Agents4Science 2025 corpus. It combines a cached, reproducible bibliographic-lookup pipeline with manual adjudication of the 821 entries that pipeline could not verify. It then links the resulting labels to the organisers' automated flag, the three LLM reviewers' scores, human expert scores, acceptance decisions and self-reported AI autonomy. The panel agrees that the corpus-level linkage is the distinctive contribution. That means the evaluation of the organisers' flag against adjudicated labels (\u00a75.3), the fabrication\u2013score\u2013acceptance associations (\u00a75.5) and the reviewer-detection analysis (\u00a75.6). Reviewer 1 places the novelty in 'adjudication across this venue's submission corpus linked to its reviews and decisions', not in the pipeline or taxonomy. Reviewer 3 reaches the same conclusion, calling the contribution 'real but incremental relative to an active literature'. Reviewer 2 judges it 'genuinely novel' and recommends acceptance. We accept that the linkage is new, but we weigh Reviewers 1 and 3 more heavily. Their concerns are specific and, in one case, backed by a cited source; Reviewer 2 acknowledges the same central weakness (single-agent adjudication) yet does not treat it as consequential.\n\nThe decisive concern, raised by all three reviewers, is that the paper's ground truth has not been independently validated. Every one of the 821 manual decisions was made by a single AI agent, the author's own. No second coder, no blinded re-adjudication and no human-checked sample is reported. The paper's central methodological argument is that automated checks cannot substitute for careful adjudication, so leaving its own adjudication unvalidated undercuts the claim it is making. The weakness matters most where judgement is involved: the EXISTS vs EXISTS_CORRUPTED boundary accounts for 43% of all fabricated references. Reviewer 1 adds a second gap. None of the 5,864 automatically verified entries was sampled for correctness, and \u00a77 concedes that identifier-based acceptance can miss wrong authors or years. Releasing the decision log is valuable, but it does not replace reported agreement statistics.\n\nReviewer 3's fact-check gives this concern concrete force. Citing the arXiv version of the organisers' report, it shows that the manuscript's own reference list names 'Xian Sun' as an author of Bianchi et al. 2025, whereas the source lists 'Eric Sun'. The paper states that its own references 'were verified by resolving each identifier before submission'. That this author-list corruption survived is exactly the failure mode that \u00a77 ('Identifier-based acceptance') acknowledges and that the paper classifies as EXISTS_CORRUPTED, which the paper counts as fabricated. It shows empirically that identifier resolution without author-level checks misses errors of the kind the paper counts. For a paper about citation integrity, this must be corrected, and every reference in the paper must be re-verified at the author, venue and year level, not just by identifier.\n\nSeveral further points require revision.\n\n- **Unmatched flagged examples (Reviewers 1 and 3).** 28 of 285 organiser-flagged examples could not be matched, 23 of them in accepted papers. They are explained only 'in the cases we could trace'. Yet the headline claim that no flagged example in an accepted paper was fabricated depends on how they are treated. Per-example evidence or explicit bounds are needed.\n- **Internal inconsistency in \u00a75.6 (Reviewer 1).** The section reports 8 affected submissions with explicit LLM statements, then describes 5 independent findings plus 'the other four'. This must be reconciled.\n- **Cross-literature comparison (Reviewers 1 and 3).** \u00a76 asserts that the gap with prior prevalence estimates is 'too large to be an artefact of method'. This is not supported, since the paper itself notes that those studies use different detection methods and outcome definitions. Either tone the claim down or support it with a sensitivity analysis on comparable definitions.\n- **Related work (Reviewer 3).** Two close prior verification pipelines identified by Reviewer 3 are neither cited nor compared: RefChecker/'Phantom References' (arXiv 2607.00738), which uses a conservative identity-level definition on ML venues, and CiteAudit (arXiv 2602.23452).\n- **Pre-registration timing (Reviewer 1).** The timing of the analysis plan and of the PLACEHOLDER amendment relative to data access should be documented verifiably.\n- **Reviewer-model identities (Reviewer 1).** The mapping of anonymised reviewer slots to named models is inferred from matching mean scores. It should be stated as an inference.\n- **Acceptance analysis (Reviewer 1).** The model adjusts only for mean LLM score, so it supports an association, not the claim that fabrication itself was penalised.\n- **Corpus counts.** The organisers' report, as quoted in Reviewer 1's fact-check, gives 62 desk rejections and 253 complete, reviewed submissions. The manuscript reports 61 desk-rejected submissions and 250 with three LLM reviews. The difference may be explained by withdrawals or incomplete reviews, but it should be reconciled explicitly.\n\nWe also note, for transparency, that the author discloses operating this venue. This decision rests solely on the reviewers' grounded findings and the manuscript's content.\n\nThe work is carefully executed in many respects. The categories are well defined, Wilson intervals are used throughout, limitations are candid and all materials are released. The flag-evaluation and reviewer-detection results would be a useful contribution once the ground truth is validated. At present, however, the core labels rest on one unvalidated AI adjudicator, and the manuscript contains a demonstrable citation error of the type it measures. Both are material evidential concerns that preclude acceptance or minor revision. A major revision is required.",
+   "summary_to_authors": "Thank you for a careful, transparent and potentially valuable audit. The reviewers agree that linking adjudicated reference labels to the organisers' automated flag, the LLM and human review scores and acceptance decisions is a distinctive contribution. The evaluation of the flag as 'a good screen but a poor measure' and the finding that LLM reviewers rarely identified fabrication explicitly are of clear practical interest. Your released code, caches and decision logs are exemplary.\n\nHowever, we cannot accept the paper in its current form. Its ground truth rests entirely on a single AI agent's adjudication, with no independent validation of either the manual decisions or the automated matches. In addition, Reviewer 3 found a corrupted author name in your own citation of Bianchi et al. 2025 ('Xian Sun' for 'Eric Sun'). This is precisely the kind of error your study classifies as fabricated, and it slipped past the identifier-based verification you describe.\n\nWe invite a major revision. The central requirement is a blinded, independently adjudicated validation sample with agreement statistics and revised uncertainty bounds, together with a check of the automatically verified entries. Beyond that, please:\n\n- correct and fully re-verify your own reference list;\n- resolve the treatment of the 28 unmatched flagged examples;\n- fix the \u00a75.6 accounting inconsistency and reconcile corpus counts with the organisers' report;\n- temper the cross-study prevalence comparison;\n- engage with the RefChecker and CiteAudit prior work;\n- document the timing of the analysis plan and protocol amendment;\n- frame the score and acceptance results as associations.\n\nWith these changes, the paper could make a solid, well-evidenced contribution, and we look forward to a revised submission.",
+   "key_concerns": [
+    "Independently validate the adjudication. Have a blinded second adjudicator (preferably human) re-code a stratified sample of the 821 manual decisions, oversampling EXISTS vs EXISTS_CORRUPTED boundary cases and NOT_FOUND decisions, and report agreement (e.g., Cohen's kappa) and the resulting uncertainty bounds on the headline prevalence figures.",
+    "Manually check a random sample of the 5,864 automatically verified entries, especially identifier-based acceptances, for author, year and venue corruption. Report the estimated miss rate and how it would revise the fabricated share.",
+    "Correct the Bianchi et al. 2025 author list ('Xian Sun' should be 'Eric Sun', per the arXiv version cited by Reviewer 3). Re-verify every reference in the manuscript at the author, venue and year level, not only by identifier resolution, and revise the \u00a76 statement about how the paper's own references were verified.",
+    "Provide per-example evidence or explicit bounds for the 28 unmatched organiser-flagged examples, 23 of them in accepted papers. Qualify the claim that no flagged example in an accepted paper was fabricated accordingly.",
+    "Reconcile the \u00a75.6 accounting (8 affected submissions with explicit LLM statements vs 5 independent findings plus 'the other four').",
+    "Reconcile the corpus counts with the organisers' report (62 desk rejections and 253 complete, reviewed submissions vs the manuscript's 61 and 250).",
+    "Remove or substantiate the \u00a76 claim that the gap with prior prevalence estimates is 'too large to be an artefact of method'. Ideally, re-estimate prevalence under a definition comparable to prior audits, such as identity-level failures only.",
+    "Engage with and compare against the closest verification-pipeline prior work identified by Reviewer 3: RefChecker/'Phantom References' (arXiv 2607.00738) and CiteAudit (arXiv 2602.23452).",
+    "Document verifiably (e.g., commit hashes and timestamps) when the analysis plan and the PLACEHOLDER protocol amendment were fixed relative to data access and preliminary results.",
+    "State the mapping of anonymised reviewer slots to GPT-5, Gemini 2.5 Pro and Claude Sonnet 4 explicitly as an inference from mean scores, and qualify model-specific claims (e.g., 'all five by Gemini 2.5 Pro') accordingly.",
+    "Frame the acceptance and score analyses as associational. Avoid language implying that fabrication itself was penalised, given the confounding with overall quality that the paper acknowledges, and discuss the selected sample underlying the human-score correlation.",
+    "Assess parser completeness for submissions without bracket-numbered lists, and quantify the sensitivity of headline rates to parser omissions and to the UNADJUDICABLE and PLACEHOLDER classifications."
    ],
    "resolved_model": "anthropic/claude-opus-5.5"
   }
@@ -932,6 +953,347 @@
     ],
     "recommendation": "accept",
     "novelty_assessment": "While the Agents4Science organizers previously reported an unverified 56% figure for papers with potential citation issues using an automated search check, this work provides the first exhaustive, manually adjudicated audit of the complete reference corpus. Unlike broader automated studies of the scholarly literature that rely on automated heuristics, this study inspects every unverified item, quantifies the exact false-positive profile of automated checking tools, and investigates the relationship between citation fabrication and multi-model LLM peer reviews in a live venue. The contribution is genuinely novel and provides concrete empirical benchmarks for citation integrity in agent-authored scientific writing."
+   },
+   "error": null
+  },
+  {
+   "round": 1,
+   "role": "reviewer",
+   "model": "~z-ai/glm-latest",
+   "resolved_model": "z-ai/glm-5.3",
+   "content": {
+    "score": 6,
+    "summary": "The paper presents an exhaustive audit of all references in all Agents4Science 2025 submissions (6,685 references across 304 submissions), combining an automated verification pipeline with manual adjudication of 821 unresolved references. It reports that 36.9% of reviewed submissions contain at least one fabricated reference (vs the organisers' 56% automated-flag estimate), that accepted papers are nearly clean, that the organisers' flag is a good screen but a poor measure, and that LLM reviewers almost never explicitly noticed fabrication despite giving lower scores. The work is preregistered, with released logs and cached API responses.",
+    "evidence": [
+     {
+      "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)00603-3/fulltext?lctg=69653524d79b22af4c03cf7a",
+      "title": "Fabricated citations: an audit across 2\u00b75 million biomedical papers - The Lancet",
+      "snippet": "Fabricated citations: an audit across 2\u00b75 million biomedical papers - The Lancet ... # Fabricated citations: an audit across 2\u00b75 million biomedical papers Maxim Topaz ... Article Info ... Publication History: Published May 9, 2026 DOI: 10.1016/S0140-6736(26)00603-3 External Link Also available on ScienceDirect External Link ... To our knowledge, no systematic audit of reference integrity across the biomedical literature has been conducted until now. We present findings from a reference-integrity audit of 2\u00b75 million biomedical papers spanning 3 years, showing that fabricated references are embedded in the peer-reviewed literature at scale, and that the rate of fab\u2026"
+     },
+     {
+      "url": "https://arxiv.org/html/2607.00738",
+      "title": "Phantom References: Hallucinated Citations That Survive Peer Reviewat Top\u2011Tier Conferences",
+      "snippet": "This paper measures citation hallucination in peer-reviewed proceedings. We define a conservative notion of hallucinated citation that counts identity-level failures: non-existent works and substantial author-list mismatches. We explicitly exclude ordinary bibliographic drift, such as venue changes, year changes, publication-status updates, and minor name variants. To audit citations at scale, we build RefChecker, a reference-verification pipeline that resolves bibliography entries against multiple bibliographic sources and escalates unresolved cases to web-search re-verification. We apply RefChecker to accepted camera-ready papers from ICLR, ICML, NeurIPS, and U\u2026"
+     },
+     {
+      "url": "https://agents4science.stanford.edu/audits/audit_284.html",
+      "title": "Audit Report - 284 - Agents4Science 2025",
+      "snippet": "Audit Report - 284 - Agents4Science 2025 ... # Code Audit Report: sub_284 Date: 2025-10-14 Auditor: Claude Code ... ## Executive Summary ... This submission provides a functioning implementation of an LLM-based system (BadScientist) designed to generate fabricated research papers and evaluate them with LLM reviewers. The code is structurally complete and appears capable of running the experiments described in the paper. However, NO EXPERIMENTAL RESULTS are included in the submission - all results are hosted externally on an anonymous repository, making independent verification impossible. The code requires paid Azure OpenAI API access and specific model names (\"g\u2026"
+     },
+     {
+      "url": "https://github.com/chchenhui/fabscore",
+      "title": "chchenhui/fabscore",
+      "snippet": "**FabScore** is a fine-grained evaluation framework that measures the extent to which AI-generated papers contain fabrications. Given a research paper and its associate code, FabScore executes the following four stages by a coding agent: 1. **Result Extraction**; 2. **Static Analysis**; 3. **Code Execution**; 4. **Verdict Generation**. Figure 1: An overview of the FabScore framework, illustrating our four-stage evaluation pipeline. ... There are six verdict categories: - **Data fabrication:** The input data referenced in the paper does not match what the code actually uses. - **Experiment fabrication:** The experimental procedure described in the paper does not m\u2026"
+     },
+     {
+      "url": "https://chchenhui.github.io/papers/FabScore.pdf",
+      "title": "FABSCORE: Fine-Grained Evaluation of Fabrications in Automated AI Research",
+      "snippet": "Automated AI research shows great promise for accelerating scientific discovery, but ensuring the integrity of AI-generated research remains a critical challenge. In this work, we introduce FABSCORE, a new framework for fine-grained evaluation of fabrications in automated AI research. Given a research paper and its associated code, FABSCORE extracts numerical results and figure labels as individual claims, employs a coding agent to evaluate each claim through static analysis and code execution, and ultimately assigns one of six verdict categories covering fabricated, reproducible, and unverifiable outcomes. Human evaluation confirms that FAB SCORE achieves a high\u2026"
+     },
+     {
+      "url": "https://arxiv.org/pdf/2605.07723",
+      "title": "LLM hallucinations in the wild: Large-scale evidence from ...",
+      "snippet": "Large language models (LLMs) are known to generate plausible but false information across a wide range of contexts, yet the real-world magnitude and consequences of this hallucination problem remain poorly understood. Here we leverage a uniquely verifiable object \u2014 scientific citations \u2014 to audit 111 million references across 2.5 million papers in arXiv, bioRxiv, SSRN, and PubMed Central. We find a sharp rise in non-existent references following widespread LLM adoption, with a conservative estimate of 146,932 hallucinated citations in 2025 alone. These errors are diffusely embedded across many papers but especially pronounced in fields with rapid AI uptake, in ma\u2026"
+     },
+     {
+      "url": "https://www.mdpi.com/2306-5729/11/5/122",
+      "title": "Evaluating the Integrity of LLM-Generated Citations",
+      "snippet": "# Evaluating the Integrity of LLM-Generated Citations: Prevalence and Risks of Fabricated References in Scientific Literature ... Data 2026, 11(5), 122; https://doi.org/10.3390/data11050122 Submission received: 30 March 2026 / Revised: 5 May 2026 / Accepted: 11 May 2026 / Published: 20 May 2026 (This article belongs to the Special Issue Mining and Computational Intelligence for E-Learning and Education\u20144th Edition) ... Large Language Models have become important in our lives, and academia is not agnostic to this trend, offering tools like text rephrasing and summarisation. However, this integration raises significant concerns regarding the integrity of science. I\u2026"
+     },
+     {
+      "url": "https://arxiv.org/abs/2605.07723",
+      "title": "[2605.07723] LLM hallucinations in the wild: Large-scale ...",
+      "snippet": "Search arXiv Press Enter to search \u00b7 Advanced search # Computer Science > Digital Libraries **arXiv:2605.07723** (cs) [Submitted on 8 May 2026] # Title:LLM hallucinations in the wild: Large-scale evidence from non-existent citations Authors:Zhenyue Zhao, Yihe Wang, Toby Stuart, Mathijs De Vaan, Paul Ginsparg, Yian Yin View a PDF of the paper titled LLM hallucinations in the wild: Large-scale evidence from non-existent citations, by Zhenyue Zhao and 5 other authors View PDF > > Abstract: > Large language models (LLMs) are known to generate plausible but false information across a wide range of contexts, yet the real-world magnitude and consequences of this halluci\u2026"
+     },
+     {
+      "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)00603-3/fulltext",
+      "title": "Fabricated citations: an audit across 2\u00b75 million biomedical ...",
+      "snippet": "Fabricated references (references whose claimed titles correspond to no existing publication) can arise from paper mill activity, intentional misconduct, or uncritical use of artificial intelligence (AI) writing tools.1 Large language models (LLMs) generate plausible sounding but fictitious references, a well documented failure mode; previous studies estimate that 30\u201369% of LLM-generated references in biomedical contexts are fabricated.2,3 These references are often correctly formatted, attributed to real researchers, and bear plausible publication dates, making them difficult to detect by conventional peer review.4 To our knowledge, no systematic audit of refere\u2026"
+     },
+     {
+      "url": "https://arxiv.org/pdf/2511.15534",
+      "title": "",
+      "snippet": "Federico Bianchi1,4,*, Owen Queen2,4,*, Nitya Thakkar2,4, Eric Sun3,4, James Zou1,2,3,4 ... 1 Together AI 2 Department of Computer Science, Stanford University 3 Department of Biomedical Data Science, Stanford University 4 Co-organizer of Agents4Science Conference * Equal contribution Correspondence: jamesz@stanford.edu ... There is growing interest in using AI agents for scientific research, yet fundamental questions remain about their capabilities as scientists and reviewers. To explore these questions, we organized Agents4Science, the first conference in which AI agents serve as both primary authors and reviewers, with humans as co-authors and co-reviewers. H\u2026"
+     },
+     {
+      "url": "https://agents4science.stanford.edu/faq.html",
+      "title": "FAQ - Open Conference of AI Agents for Science 2025",
+      "snippet": "#### How much guidance can human co-authors provide to the AI agent during paper writing? ... The AI agent should be the primary contributor, akin to a sole first author in a conventional paper. Human researchers may act as advisors: offering ideas, checking outputs, and providing feedback. However, the core execution\u2014including coding, figure generation, and writing\u2014should be done by the AI agent. We also welcome papers that are entirely written by AI without human input. Human co-authors are asked to clearly document their contributions in the submission. ... Yes, all the reviews will be public. We will also provide information on the AI models used to generate\u2026"
+     },
+     {
+      "url": "https://www.sciencenews.org/article/science-conference-test-ai-agents",
+      "title": "A conference just tested AI agents\u2019 ability to do science",
+      "snippet": "In a first, a scientific conference welcomed paper submissions from any area of science, but with one catch: AI had to do most of the work. Called Agents4Science 2025, the Oct. 22 virtual event focused on the work of artificial intelligence agents \u2014 systems that pair large language models with other tools or databases to perform multistep tasks. ... From formulating hypotheses to analyzing data and providing the first round of peer reviews, AI agents took the lead. Human reviewers then stepped in to assess the top submissions. In all, 48 papers out of 314 made the cut. Each had to detail how people and AI collaborated on every stage of the research and writing p\u2026"
+     },
+     {
+      "url": "https://arxiv.org/abs/2602.23452",
+      "title": "CiteAudit: You Cited It, But Did You Read It? A Benchmark for Verifying Scientific References in the LLM Era",
+      "snippet": "This paper addresses these challenges by introducing the first comprehensive benchmark and detection framework for hallucinated citations in scientific writing. We design a multi-agent verification pipeline that decomposes citation checking into citation metadata extraction, memory lookup, web-based evidence retrieval, scholar search, and final judgment. This pipeline assesses whether a cited reference corresponds to a valid scholarly record and whether its core bibliographic fields are consistent with authoritative evidence. We further construct a large-scale, human-validated dataset spanning diverse domains, citation formats, and hallucination types, with unif\u2026"
+     },
+     {
+      "url": "https://arxiv.gg/abs/2511.15534",
+      "title": "Exploring the use of AI authors and reviewers at Agents4Science - arXiv.gg",
+      "snippet": "Exploring the use of AI authors and reviewers at Agents4Science - arXiv.gg ... # Exploring the use of AI authors and reviewers at Agents4Science ... `2511.15534` \u00b7 2025-11-19 \u00b7 Cited by 0 Federico Bianchi, Owen Queen, Nitya Thakkar, Eric Sun, James Zou ... There is growing interest in using AI agents for scientific research, yet fundamental questions remain about their capabilities as scientists and reviewers. To explore these questions, we organized Agents4Science, the first conference in which AI agents serve as both primary authors and reviewers, with humans as co-authors and co-reviewers. Here, we discuss the key learnings from the conference and their impli\u2026"
+     },
+     {
+      "url": "https://github.com/togethercomputer/reviewing-agents",
+      "title": "togethercomputer/reviewing-agents",
+      "snippet": "- **Agents4Science**: LLM reviewers for the Agents4Science Conference, the first conference where AI agents served as both primary authors and reviewers Agents4Science 2025 was the inaugural conference where AI systems served as both authors and reviewers of research papers. Organized by TogetherAI and Stanford University, it received 315 submissions with 48 papers accepted after AI + human peer review. ... ## Citation ... ```bibtex @article{bianchi2025toerr, title={To Err Is Human: Systematic Quantification of Errors in Published AI Papers via LLM Analysis}, author={Bianchi, Federico and Kwon, Yongchan and Izzo, Zachary and Zhang, Linjun and Zou, James}, journa\u2026"
+     },
+     {
+      "url": "https://www.scribd.com/document/1069076389/2511-15534v1",
+      "title": "2511.15534v1 | PDF | Artificial Intelligence | Intelligence (AI) & Semantics",
+      "snippet": "AI subfields. Accepted papers are shown in darker shades while the lighter shades show total submissions. Applications in machine learning ... b) Topics for all other domains for submissions to the conference. Mathematics and statistics saw the most papers, and other domains from astronomy to economics were also represented. c) AI involvement, or autonomy, levels shown across all submissions (left) and accepted submissions (right), broken down by the stages in the research process included in the checklist. d) Statistics for reference verification agents with verified references on the y-axis and total references on the x-axis. Dots are colored by the percentage\u2026"
+     },
+     {
+      "url": "https://arxiv.org/pdf/2602.05930v1",
+      "title": "Compound Deception in Elite Peer Review: A Failure Mode Taxonomy of 100 Fabricated Citations at NeurIPS 2025",
+      "snippet": "ABSTRACT Large language models (LLMs) are increasingly used in academic writing workflows, yet they fre quently hallucinate by generating citations to sources that do not exist. This study analyzes 100 AI generated hallucinated citations that appeared in papers accepted by the 2025 Conference on Neural Information Processing Systems (NeurIPS), one of the world\u2019s most prestigious AI conferences. Despite review by 3\u20135 expert researchers per paper, these fabricated citations evaded detection, ap pearing in 53 published papers (\u2248 1% of all accepted papers). We develop a five-category taxonomy that classifies hallucinations by their failure mode: Total Fabrication (6\u2026"
+     },
+     {
+      "url": "https://agents4science.stanford.edu/index.html",
+      "title": "Open Conference of AI Agents for Science: 2025",
+      "snippet": "## The 1st open conference where AI serves as both primary authors and reviewers of research papers ... Exploring the future of AI-driven scientific discovery through transparent AI-authored research and AI-driven peer review. ... The 1st Open Conference of AI Agents for Science (\"Agents4Science\") represents a new approach to research conferences, where AI serve as both primary authors and reviewers of research papers. This inaugural conference explores if and how AI can independently generate novel scientific insights, hypotheses, and methodologies while maintaining quality through AI-driven peer review. Agents4Science is the first venue where AI authorship is\u2026"
+     },
+     {
+      "url": "https://www.uef.fi/en/article/international-ai-assisted-audit-finds-fabricated-references-in-nearly-3000-peer-reviewed-medical",
+      "title": "International AI-assisted audit finds fabricated references in nearly 3,000 peer-reviewed medical articles | University of Eastern Finland",
+      "snippet": "The University of Eastern Finland was part of the research team, which developed an AI-based automated verification system. The system scanned 2.5 million articles from PubMed Central's Open Access collection published between 1 January 2023 and 18 February 2026. Among 97.1 million verified ... The project was led by Maxim Topaz of Columbia University. The research team included Dr. Nir Roguin (Tel Aviv Sourasky Medical Center and Faculty of Health Sciences, Ben-Gurion University of the Negev), Dr. Pallavi Gupta and Dr. Zhihong Zhang (Columbia University School of Nursing), and Associate Professor Laura-Maria Peltonen (Department of Health"
+     },
+     {
+      "url": "https://www.nature.com/articles/s41587-025-02963-8",
+      "title": "Exploring the use of AI authors and reviewers at Agents4Science | Nature Biotechnology",
+      "snippet": "# Exploring the use of AI authors and reviewers at Agents4Science ... - Federico Bianchi 1 na1, - Owen Queen 2 na1, - Nitya Thakkar 2, - Eric Sun ORCID: orcid.org/0000-0001-8805-9864 3 & - \u2026 - James Zou ORCID: orcid.org/0000-0001-8880-4764 2, 3 ... F.B., O.Q., N.T., E.S. and J.Z. conceptualized and organized the Agents4Science conference. F.B. and O.Q. conducted data analysis with guidance from J.Z. All authors contributed to the writing of and approved the final manuscript. ... - Published: 17 December 2025 - Version of record: 17 December 2025 - Issue date: January 2026 - DOI: https://doi.org/10.1038/s41587-025-02963-8"
+     },
+     {
+      "url": "https://www.nature.com/articles/d41586-026-00748-w",
+      "title": "Surge in fake citations uncovered by audit of 2.5 million ...",
+      "snippet": "An audit of 2.5 million academic papers has identified nearly 3,000 biomedical-science papers that contain fake references \u2014 ones that could not be traced to known publications. ... - Correction 13 May 2026: The study screened papers in the PubMed Central (PMC) Open Access database, not the whole PubMed database. ... 1. Topaz, M., Roguin, N., Gupta, P., Zhang, Z. & Peltonen, L.-M. Lancet 407, 1779\u20131781 (2026)."
+     },
+     {
+      "url": "https://www.alphaxiv.org/@federico-bianchi",
+      "title": "Federico Bianchi | alphaXiv",
+      "snippet": "### Exploring the use of AI authors and reviewers at Agents4Science ... , we organized Agents4Science, the first conference in which AI agents serve as both primary authors and reviewers, with humans as co-authors and co-reviewers. Here, we discuss the key"
+     },
+     {
+      "url": "https://agents4science.stanford.edu/accepted-papers.html",
+      "title": "Accepted Papers - Open Conference of AI Agents for Science: 2025",
+      "snippet": "The rapid advancement of Large Language Models (LLMs) as both research assistants and peer reviewers creates a critical vulnerability: the potential for fully automated AI-only publication loops where AI-generated research is evaluated by AI reviewers. We"
+     },
+     {
+      "url": "https://arxiv.org/html/2607.22693v2",
+      "title": "Detecting Hallucinated and Suspicious Citations",
+      "snippet": "from 2023 to 2025/2026. In 2023, a fabricated reference was identified in approximately one in 2,828 papers; in 2025, this increased to one in 458 papers; and in early 2026, to one in 277 papers. The Zhao et al. study [27] likewise found that hallucinated"
+     },
+     {
+      "url": "https://pubdb.com/paper/2605.07723",
+      "title": "LLM hallucinations in the wild: Large-scale evidence from non-existent citations\n     \u00b7 Research",
+      "snippet": "111 million references across 2.5 million papers in arXiv, bioRxiv, SSRN, and PubMed Central. We find a sharp rise in non-existent references following widespread LLM adoption, with a conservative estimate of 146,932 hallucinated citations in 2025 alone."
+     },
+     {
+      "url": "https://www.alphaxiv.org/abs/2605.07723",
+      "title": "LLM hallucinations in the wild: Large-scale evidence from ...",
+      "snippet": "111 million references across 2.5 million papers in arXiv, bioRxiv, SSRN, and PubMed Central. We find a sharp rise in non-existent references following widespread LLM adoption, with a conservative estimate of 146,932 hallucinated citations in 2025 alone."
+     },
+     {
+      "url": "https://scifaro.com/en/abs/llm-hallucinations-in-the-wild-large-scale-evidence-from-non-existent-citations-2605.07723",
+      "title": "LLM hallucinations in the wild: Large-scale evidence from non-existent citations \u2014 Scifaro",
+      "snippet": "111 million references across 2.5 million papers in arXiv, bioRxiv, SSRN, and PubMed Central. We find a sharp rise in non-existent references following widespread LLM adoption, with a conservative estimate of 146,932 hallucinated citations in 2025 alone."
+     },
+     {
+      "url": "https://agents4science.stanford.edu/",
+      "title": "Open Conference of AI Agents for Science: 2025 - Stanford ...",
+      "snippet": "to hide or minimize AI's contributions. This prohibition hinders our ability to understand and shape how AI will participate in future scientific research. The 1st Open Conference of AI Agents for Science (\"Agents4Science\") represents a new approach to"
+     },
+     {
+      "url": "https://arxiv.org/abs/2511.04583v4",
+      "title": "[2511.04583v4] Jr. AI Scientist and Its Risk Report: Autonomous Scientific Exploration from a Baseline Paper",
+      "snippet": "of these papers. For the evaluation, we conducted three evaluations: (1) an automated assessment using DeepReviewer (Zhu et al., 2025a), (2) an author-led evaluation, and (3) submission to the Agents4Science conference (Zou et al., 2025). DeepReviewer"
+     },
+     {
+      "url": "https://clawrxiv.io/abs/2604.01992",
+      "title": "A Practical Framework for Auditing AI-Submitted Papers in Open Archives \u2014 clawRxiv",
+      "snippet": "- Citation hallucination (43% of L3 flags), median 1.8 fabricated references per paper. - Unverifiable empirical claims (19% of L3 flags), often missing dataset URLs or hashes. - Self-plagiarism across an agent's submission series (74% of L5 flags)."
+     },
+     {
+      "url": "https://phys.org/news/2026-05-ai-generated-fake-citations-scientific.html",
+      "title": "AI-generated fake citations are flooding scientific literature ...",
+      "snippet": "In this study, the team conducted a large-scale audit of 111 million references drawn from 2.5 million scientific papers. Using a mix of automated and manual checks, they searched for citation titles that could not be linked to any real publication."
+     },
+     {
+      "url": "https://arxiv.org/html/2607.22693v1",
+      "title": "Detecting Hallucinated and Suspicious Citations: What Current Tools Can and Cannot Do",
+      "snippet": "025 may contain ... |Scale|Approximately 2.5 million papers and 125.6 million references. Approximately 97.1 million references with a DOI or PubMed ID were verified.|Approximately 2.5 million papers and 111 million references across four corpora.|"
+     },
+     {
+      "url": "https://www.nursing.columbia.edu/news/nearly-3-000-peer-reviewed-medical-papers-have-fake-citations-columbia-nursing-ai-assisted-audit-finds",
+      "title": "Nearly 3000 peer-reviewed medical papers have fake ...",
+      "snippet": "databases. The results highlight an alarming trend in academic publishing as the use of AI grows. The peer-reviewed research letter, \u201c Fabricated citations: an audit across 2\u00b75 million biomedical papers,\u201d was published in The Lancet on May 7, 2026."
+     },
+     {
+      "url": "https://exa.ai/library/publication/dr2snflv7my",
+      "title": "Fabricated citations: an audit across 2\u00b75 million biomedical papers",
+      "snippet": "# Fabricated citations: an audit across 2\u00b75 million biomedical papers ... - Maxim Topaz (Columbia University Irving Medical Center): h-index 39; 5,592 citations; corresponding author - Nir Roguin (Ben-Gurion University of the Negev): h-index 1; 54"
+     },
+     {
+      "url": "https://openreview.net/submissions?page=2&venue=Agents4Science%2F2025%2FConference",
+      "title": "Agents4Science 2025 Conference Submissions",
+      "snippet": "://openreview.net/images/arrow_left.svg ... Science**](https:// ... /venue?id ... # Agents4Science ... Conference Submissions ... #### [Decontextualization, Everywhere: A Systematic Audit on PeerQA](https://openreview.net/forum?id=cK8YYMc65B)"
+     },
+     {
+      "url": "https://www.maxtopaz.com/citadel",
+      "title": "Fabricated Citations \u2014 CITADEL | Max Topaz",
+      "snippet": "which do not exist \u2014 spreading through the peer-reviewed literature at more than twelve times the rate of three years ago. Topaz \u00b7 Roguin \u00b7 Gupta \u00b7 Zhang \u00b7 Peltonen Columbia University Irving Medical Center \u00b7 The Lancet, Vol 407, May 9, 2026"
+     },
+     {
+      "url": "https://agents4science.stanford.edu/submissions.html",
+      "title": "Paper Submissions - Open Conference of AI Agents for Science: 2025",
+      "snippet": "### AI Reviewer Scores Each paper was evaluated by three independent AI reviewers using a standardized scale from 1 (strong reject) to 6 (strong accept). These scores assess the overall quality, novelty, and contribution of each submission."
+     },
+     {
+      "url": "https://research.utu.fi/converis/portal/detail/Publication/526492955?lang=fi_FI",
+      "title": "Fabricated citations: an audit across 2\u00b75 million biomedical papers - UTU Tutkimustietoj\u00e4rjestelm\u00e4 - UTU Tutkimustietoj\u00e4rjestelm\u00e4",
+      "snippet": "Fabricated citations: an audit across 2\u00b75 million biomedical papers Tekij\u00e4t: Topaz, Maxim; Roguin, Nir; Gupta, Pallavi; Zhang, Zhihong; Peltonen, Laura-Maria Kustantaja: Elsevier Julkaisuvuosi: 2026 Lehti: Lancet"
+     },
+     {
+      "url": "https://crossmark.crossref.org/dialog/?doi=10.1038%2Fs41587-025-02963-8",
+      "title": "Crossmark",
+      "snippet": "Exploring the use of AI authors and reviewers at Agents4Science Crossref DOI link: https://doi.org/10.1038/s41587-025-02963-8 Published Online: 2025-12 ... Bianchi, Federico Queen, Owen Thakkar, Nitya"
+     },
+     {
+      "url": "https://openreview.net/group?id=Agents4Science%2F2025%2FConference",
+      "title": "Agents4Science 2025 Conference",
+      "snippet": "Agents4Science 2025 Conference | OpenReview Loading Agents4Science 2025 Conference | OpenReview Loading Loading"
+     },
+     {
+      "url": "https://aitopics.org/doc/arxivorg:8DA858DC/iframe/page/__PAGE__",
+      "title": "AITopics | Exploring the use of AI authors and reviewers at Agents4Science",
+      "snippet": "AITopics | Exploring the use of AI authors and reviewers at Agents4Science"
+     }
+    ],
+    "prior_art": [
+     {
+      "url": "https://arxiv.org/pdf/2511.15534",
+      "title": "Exploring the use of AI authors and reviewers at Agents4Science",
+      "relation": "The organisers' own report; already documents the conference design, LLM reviewers, autonomy checklists and reference-verification agent statistics \u2014 the raw material and the 56%-style estimate this paper re-examines."
+     },
+     {
+      "url": "https://arxiv.org/html/2607.00738",
+      "title": "Phantom References: Hallucinated Citations That Survive Peer Review at Top-Tier Conferences",
+      "relation": "A reference-verification pipeline resolving bibliography entries against bibliographic sources plus web re-verification, applied to accepted papers at major ML venues \u2014 close methodological prior work not cited or compared."
+     },
+     {
+      "url": "https://arxiv.org/abs/2602.23452",
+      "title": "CiteAudit: You Cited It, But Did You Read It?",
+      "relation": "Benchmark and multi-agent detection framework for hallucinated citations with human-validated dataset \u2014 directly overlapping verification-pipeline methodology, not engaged."
+     },
+     {
+      "url": "https://arxiv.org/pdf/2605.07723",
+      "title": "LLM hallucinations in the wild: Large-scale evidence from non-existent citations",
+      "relation": "Large-scale citation-hallucination prevalence audit (111M references); establishes the general phenomenon this paper measures in an AI-authored venue."
+     },
+     {
+      "url": "https://arxiv.org/pdf/2602.05930v1",
+      "title": "Compound Deception in Elite Peer Review (NeurIPS 2025)",
+      "relation": "Prior taxonomy of hallucinated-citation failure modes that this paper adapts; confirms the '53 papers' figure the paper cites."
+     }
+    ],
+    "questions": [
+     "Can a sample of the 821 adjudications (especially EXISTS_CORRUPTED vs EXISTS boundary cases) be independently re-coded by a human or second agent, with inter-rater agreement reported?",
+     "How exactly were the 28 unmatched flagged examples ruled to be checker extraction artefacts \u2014 can the per-example evidence (e.g. that a flagged title does not occur in the PDF) be published?",
+     "Is the 'Xian Sun' author error indicative of the same identifier-based acceptance weakness the paper describes in Section 7, and were this paper's own references checked at the author level?",
+     "How does your paper-level and reference-level prevalence compare to RefChecker's identity-level results on ML venues, given both audit overlapping venue types?",
+     "Can the sensitivity of the headline 36.9% to the PLACEHOLDER and UNADJUDICABLE classifications be quantified more fully (currently only a 'defective' variant is reported)?"
+    ],
+    "strengths": [
+     "Section 4/Methods: the verification pipeline is fully specified (ordered checks, fuzzy thresholds, quota failures and re-passes), and all API responses are cached and released, making the automated stage exactly reproducible \u2014 a standard most audits in the EVIDENCE (e.g. RefChecker [2]) do not claim.",
+     "Section 4/Analysis: the six questions and analysis plan were fixed before adjudication, deviations are flagged (the Fisher-test fallback, the PLACEHOLDER amendment), and the screening-vs-measurement distinction is handled with proper Wilson intervals throughout (Section 5).",
+     "Section 5.3/Table 3: the evaluation of the organisers' automated flag (reference-level precision 51.8%, paper-level sensitivity/specificity/kappa) is a genuinely useful methodological result, directly supporting the paper's practical recommendation in Section 6.",
+     "Section 5.6: the reviewer-detection analysis (only 5 of 89 affected papers explicitly flagged, all by one reviewer, and accusations as often wrong as right) is a novel and well-quantified finding on LLM review limitations.",
+     "Section 7: limitations are unusually honest, including the lower-bound nature of identifier-based acceptance, the selected-sample problem for human scores, and parser recall bounds via bracket-marker ratios."
+    ],
+    "confidence": 4,
+    "weaknesses": [
+     "Single adjudicator: all 821 manual decisions were made by one AI agent (the paper's own author agent), with no second coder and no reported inter-rater agreement or validation subset checked by a human \u2014 a serious gap for a paper whose central claim is that automated checks need manual adjudication (Section 4, Section 7 'One adjudicator'). Judgement calls like EXISTS vs EXISTS_CORRUPTED boundaries are unvalidated.",
+     "Citation error in the reference list: the paper cites 'Xian Sun' as an author of Bianchi et al. 2025, but the source author list [10] and the Crossref record show 'Eric Sun'. For a citation-audit paper this is an ironic and substantive error, and the registry title match in the reference check does not catch author mismatches.",
+     "The 28 unmatched flagged examples (Section 5.3) are explained as checker extraction artefacts based on the authors' own tracing of only some cases ('in the cases we could trace'); 23 of 28 are in accepted papers and directly drive the headline 'no flagged example in an accepted paper was fabricated', so this ruling is consequential and thinly evidenced.",
+     "Incomplete engagement with the closest prior verification pipelines: RefChecker/Phantom References [2] and CiteAudit [13] perform essentially the same bibliographic-resolution-plus-web-check methodology and are not cited or compared, weakening the related-work coverage (Section 2) and the novelty of the pipeline itself.",
+     "The reference check found DOI 10.1177/01655515241234567 (cited in Section 5.7) is not_found in the Crossref registry. While the paper itself presents it as an example of a placeholder-pattern fabricated identifier from the audited corpus (so its non-resolution is consistent with the paper's claim), it is nonetheless a non-resolving identifier appearing in the manuscript.",
+     "Key conference-level facts rest on a corpus the reviewer cannot independently verify: the 56% organisers' figure, the exact submission counts, the LLM reviewer means, and the submission-level examples (e.g. submission 147's arXiv propagation) have no support in the EVIDENCE beyond the organisers' report excerpts; the 56% figure in particular could not be verified from any EVIDENCE excerpt.",
+     "Section 6's claim that the gap between 7.1%/36.9% and prior literature rates is 'too large to be an artefact of method' is asserted despite the paper's own acknowledgment that prior audits rely on automated detection with different (conservative, identity-level) definitions \u2014 the comparison of prevalence across different outcome definitions and detection methods is not rigorous."
+    ],
+    "fact_checks": [
+     {
+      "claim": "Agents4Science 2025 was held 22 October 2025, with 48 papers accepted out of 314, with AI doing most of the work",
+      "quote": "Called Agents4Science 2025, the Oct. 22 virtual event focused on the work of artificial intelligence agents\u2026 In all, 48 papers out of 314 made the cut.",
+      "verdict": "supported",
+      "source_url": "https://www.sciencenews.org/article/science-conference-test-ai-agents"
+     },
+     {
+      "claim": "Zhao et al. audited 111 million references and conservatively estimate 146,932 hallucinated citations in 2025 alone",
+      "quote": "We leverage a uniquely verifiable object \u2014 scientific citations \u2014 to audit 111 million references across 2.5 million papers in arXiv, bioRxiv, SSRN, and PubMed Central. We find a sharp rise in non-existent references following widespread LLM adoption, with a conservative estimate of 146,932 hallucinated citations in 2025 alone.",
+      "verdict": "supported",
+      "source_url": "https://arxiv.org/pdf/2605.07723"
+     },
+     {
+      "claim": "The Topaz et al. Lancet audit covered 2.5 million biomedical papers",
+      "quote": "We present findings from a reference-integrity audit of 2\u00b75 million biomedical papers spanning 3 years, showing that fabricated references are embedded in the peer-reviewed literature at scale",
+      "verdict": "supported",
+      "source_url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)00603-3/fulltext"
+     },
+     {
+      "claim": "The rate rose from one fabricated reference per 2,828 papers in 2023 to one per 277 in early 2026",
+      "quote": "In 2023, a fabricated reference was identified in approximately one in 2,828 papers; in 2025, this increased to one in 458 papers; and in early 2026, to one in 277 papers.",
+      "verdict": "supported",
+      "source_url": "https://arxiv.org/html/2607.22693v2"
+     },
+     {
+      "claim": "53 papers accepted at NeurIPS 2025 contained AI-generated citations to sources that do not exist",
+      "quote": "these fabricated citations evaded detection, ap pearing in 53 published papers (\u2248 1% of all accepted papers)",
+      "verdict": "supported",
+      "source_url": "https://arxiv.org/pdf/2602.05930v1"
+     },
+     {
+      "claim": "The Bianchi et al. author list includes 'Xian Sun'",
+      "quote": "Federico Bianchi1,4,*, Owen Queen2,4,*, Nitya Thakkar2,4, Eric Sun3,4, James Zou1,2,3,4",
+      "verdict": "refuted",
+      "source_url": "https://arxiv.org/pdf/2511.15534"
+     },
+     {
+      "claim": "The organisers estimated that roughly 56% of submissions had at least one flagged reference",
+      "quote": null,
+      "verdict": "not_enough_evidence",
+      "source_url": null
+     }
+    ],
+    "recommendation": "major_revision",
+    "novelty_assessment": "The general problem of hallucinated-citation auditing at scale is well covered by prior work in the EVIDENCE: Zhao et al.'s 111-million-reference audit [6], the Lancet biomedical audit [9], RefChecker/Phantom References [2], and CiteAudit's multi-agent verification benchmark [13]. The organisers' own report [10] already describes Agents4Science's reference verification agents and provides per-paper verification statistics [16]. What is genuinely new here is (a) the exhaustive, per-reference manual adjudication of a complete single AI-first-author venue, (b) the evaluation of the organisers' automated flag against ground truth, and (c) the linkage of fabrication to LLM scores, human scores and acceptance \u2014 none of which the EVIDENCE shows in prior work. The contribution is therefore real but incremental relative to an active literature the paper only partially engages (RefChecker [2] and CiteAudit [13] are uncited close relatives of its pipeline)."
+   },
+   "error": null
+  },
+  {
+   "round": 1,
+   "role": "editor_final",
+   "model": "~anthropic/claude-opus-latest",
+   "resolved_model": "anthropic/claude-opus-5.5",
+   "content": {
+    "decision": "major_revision",
+    "rationale": "This submission audits every reference in the Agents4Science 2025 corpus. It combines a cached, reproducible bibliographic-lookup pipeline with manual adjudication of the 821 entries that pipeline could not verify. It then links the resulting labels to the organisers' automated flag, the three LLM reviewers' scores, human expert scores, acceptance decisions and self-reported AI autonomy. The panel agrees that the corpus-level linkage is the distinctive contribution. That means the evaluation of the organisers' flag against adjudicated labels (\u00a75.3), the fabrication\u2013score\u2013acceptance associations (\u00a75.5) and the reviewer-detection analysis (\u00a75.6). Reviewer 1 places the novelty in 'adjudication across this venue's submission corpus linked to its reviews and decisions', not in the pipeline or taxonomy. Reviewer 3 reaches the same conclusion, calling the contribution 'real but incremental relative to an active literature'. Reviewer 2 judges it 'genuinely novel' and recommends acceptance. We accept that the linkage is new, but we weigh Reviewers 1 and 3 more heavily. Their concerns are specific and, in one case, backed by a cited source; Reviewer 2 acknowledges the same central weakness (single-agent adjudication) yet does not treat it as consequential.\n\nThe decisive concern, raised by all three reviewers, is that the paper's ground truth has not been independently validated. Every one of the 821 manual decisions was made by a single AI agent, the author's own. No second coder, no blinded re-adjudication and no human-checked sample is reported. The paper's central methodological argument is that automated checks cannot substitute for careful adjudication, so leaving its own adjudication unvalidated undercuts the claim it is making. The weakness matters most where judgement is involved: the EXISTS vs EXISTS_CORRUPTED boundary accounts for 43% of all fabricated references. Reviewer 1 adds a second gap. None of the 5,864 automatically verified entries was sampled for correctness, and \u00a77 concedes that identifier-based acceptance can miss wrong authors or years. Releasing the decision log is valuable, but it does not replace reported agreement statistics.\n\nReviewer 3's fact-check gives this concern concrete force. Citing the arXiv version of the organisers' report, it shows that the manuscript's own reference list names 'Xian Sun' as an author of Bianchi et al. 2025, whereas the source lists 'Eric Sun'. The paper states that its own references 'were verified by resolving each identifier before submission'. That this author-list corruption survived is exactly the failure mode that \u00a77 ('Identifier-based acceptance') acknowledges and that the paper classifies as EXISTS_CORRUPTED, which the paper counts as fabricated. It shows empirically that identifier resolution without author-level checks misses errors of the kind the paper counts. For a paper about citation integrity, this must be corrected, and every reference in the paper must be re-verified at the author, venue and year level, not just by identifier.\n\nSeveral further points require revision.\n\n- **Unmatched flagged examples (Reviewers 1 and 3).** 28 of 285 organiser-flagged examples could not be matched, 23 of them in accepted papers. They are explained only 'in the cases we could trace'. Yet the headline claim that no flagged example in an accepted paper was fabricated depends on how they are treated. Per-example evidence or explicit bounds are needed.\n- **Internal inconsistency in \u00a75.6 (Reviewer 1).** The section reports 8 affected submissions with explicit LLM statements, then describes 5 independent findings plus 'the other four'. This must be reconciled.\n- **Cross-literature comparison (Reviewers 1 and 3).** \u00a76 asserts that the gap with prior prevalence estimates is 'too large to be an artefact of method'. This is not supported, since the paper itself notes that those studies use different detection methods and outcome definitions. Either tone the claim down or support it with a sensitivity analysis on comparable definitions.\n- **Related work (Reviewer 3).** Two close prior verification pipelines identified by Reviewer 3 are neither cited nor compared: RefChecker/'Phantom References' (arXiv 2607.00738), which uses a conservative identity-level definition on ML venues, and CiteAudit (arXiv 2602.23452).\n- **Pre-registration timing (Reviewer 1).** The timing of the analysis plan and of the PLACEHOLDER amendment relative to data access should be documented verifiably.\n- **Reviewer-model identities (Reviewer 1).** The mapping of anonymised reviewer slots to named models is inferred from matching mean scores. It should be stated as an inference.\n- **Acceptance analysis (Reviewer 1).** The model adjusts only for mean LLM score, so it supports an association, not the claim that fabrication itself was penalised.\n- **Corpus counts.** The organisers' report, as quoted in Reviewer 1's fact-check, gives 62 desk rejections and 253 complete, reviewed submissions. The manuscript reports 61 desk-rejected submissions and 250 with three LLM reviews. The difference may be explained by withdrawals or incomplete reviews, but it should be reconciled explicitly.\n\nWe also note, for transparency, that the author discloses operating this venue. This decision rests solely on the reviewers' grounded findings and the manuscript's content.\n\nThe work is carefully executed in many respects. The categories are well defined, Wilson intervals are used throughout, limitations are candid and all materials are released. The flag-evaluation and reviewer-detection results would be a useful contribution once the ground truth is validated. At present, however, the core labels rest on one unvalidated AI adjudicator, and the manuscript contains a demonstrable citation error of the type it measures. Both are material evidential concerns that preclude acceptance or minor revision. A major revision is required.",
+    "summary_to_authors": "Thank you for a careful, transparent and potentially valuable audit. The reviewers agree that linking adjudicated reference labels to the organisers' automated flag, the LLM and human review scores and acceptance decisions is a distinctive contribution. The evaluation of the flag as 'a good screen but a poor measure' and the finding that LLM reviewers rarely identified fabrication explicitly are of clear practical interest. Your released code, caches and decision logs are exemplary.\n\nHowever, we cannot accept the paper in its current form. Its ground truth rests entirely on a single AI agent's adjudication, with no independent validation of either the manual decisions or the automated matches. In addition, Reviewer 3 found a corrupted author name in your own citation of Bianchi et al. 2025 ('Xian Sun' for 'Eric Sun'). This is precisely the kind of error your study classifies as fabricated, and it slipped past the identifier-based verification you describe.\n\nWe invite a major revision. The central requirement is a blinded, independently adjudicated validation sample with agreement statistics and revised uncertainty bounds, together with a check of the automatically verified entries. Beyond that, please:\n\n- correct and fully re-verify your own reference list;\n- resolve the treatment of the 28 unmatched flagged examples;\n- fix the \u00a75.6 accounting inconsistency and reconcile corpus counts with the organisers' report;\n- temper the cross-study prevalence comparison;\n- engage with the RefChecker and CiteAudit prior work;\n- document the timing of the analysis plan and protocol amendment;\n- frame the score and acceptance results as associations.\n\nWith these changes, the paper could make a solid, well-evidenced contribution, and we look forward to a revised submission.",
+    "key_concerns_to_address": [
+     "Independently validate the adjudication. Have a blinded second adjudicator (preferably human) re-code a stratified sample of the 821 manual decisions, oversampling EXISTS vs EXISTS_CORRUPTED boundary cases and NOT_FOUND decisions, and report agreement (e.g., Cohen's kappa) and the resulting uncertainty bounds on the headline prevalence figures.",
+     "Manually check a random sample of the 5,864 automatically verified entries, especially identifier-based acceptances, for author, year and venue corruption. Report the estimated miss rate and how it would revise the fabricated share.",
+     "Correct the Bianchi et al. 2025 author list ('Xian Sun' should be 'Eric Sun', per the arXiv version cited by Reviewer 3). Re-verify every reference in the manuscript at the author, venue and year level, not only by identifier resolution, and revise the \u00a76 statement about how the paper's own references were verified.",
+     "Provide per-example evidence or explicit bounds for the 28 unmatched organiser-flagged examples, 23 of them in accepted papers. Qualify the claim that no flagged example in an accepted paper was fabricated accordingly.",
+     "Reconcile the \u00a75.6 accounting (8 affected submissions with explicit LLM statements vs 5 independent findings plus 'the other four').",
+     "Reconcile the corpus counts with the organisers' report (62 desk rejections and 253 complete, reviewed submissions vs the manuscript's 61 and 250).",
+     "Remove or substantiate the \u00a76 claim that the gap with prior prevalence estimates is 'too large to be an artefact of method'. Ideally, re-estimate prevalence under a definition comparable to prior audits, such as identity-level failures only.",
+     "Engage with and compare against the closest verification-pipeline prior work identified by Reviewer 3: RefChecker/'Phantom References' (arXiv 2607.00738) and CiteAudit (arXiv 2602.23452).",
+     "Document verifiably (e.g., commit hashes and timestamps) when the analysis plan and the PLACEHOLDER protocol amendment were fixed relative to data access and preliminary results.",
+     "State the mapping of anonymised reviewer slots to GPT-5, Gemini 2.5 Pro and Claude Sonnet 4 explicitly as an inference from mean scores, and qualify model-specific claims (e.g., 'all five by Gemini 2.5 Pro') accordingly.",
+     "Frame the acceptance and score analyses as associational. Avoid language implying that fabrication itself was penalised, given the confounding with overall quality that the paper acknowledges, and discuss the selected sample underlying the human-score correlation.",
+     "Assess parser completeness for submissions without bracket-numbered lists, and quantify the sensitivity of headline rates to parser omissions and to the UNADJUDICABLE and PLACEHOLDER classifications."
+    ]
    },
    "error": null
   }

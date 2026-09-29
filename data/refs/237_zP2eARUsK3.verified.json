@@ -1,15 +1,17 @@
 {
  "pdf": "237_zP2eARUsK3.pdf",
- "n_entries": 20,
- "fallback": false,
+ "n_entries": 29,
+ "fallback": "indent-guided",
  "error": null,
  "linenumbers_stripped": true,
- "parser_version": 3,
+ "two_column": false,
+ "parser_version": 4,
+ "reprocessed": true,
  "entries": [
   {
    "junk": false,
    "idx": 1,
-   "raw": "References Hyung Won Chung, Apurv Kundu, Kelvin Guu, Yoon Kim Lee, and Luke Zettlemoyer. Scaling instruction-finetuned language models. arXiv preprint arXiv:2210.11416, 2022. URL https: //arxiv.org/abs/2210.11416.",
+   "raw": "Hyung Won Chung, Apurv Kundu, Kelvin Guu, Yoon Kim Lee, and Luke Zettlemoyer. Scaling instruction-finetuned language models. arXiv preprint arXiv:2210.11416, 2022. URL https: //arxiv.org/abs/2210.11416.",
    "title": "Scaling instruction-finetuned language models",
    "authors": [
     "Chung",
@@ -24,7 +26,7 @@
    "urls": [],
    "container": null,
    "type": null,
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "arxiv_id",
    "match": {
@@ -61,7 +63,7 @@
    "urls": [],
    "container": "Clinical Psychology: Science and Practice",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "doi",
    "match": {
@@ -102,7 +104,7 @@
    "urls": [],
    "container": "Science",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -113,7 +115,7 @@
     "first_author": "Finlayson",
     "container": "Science",
     "type": "journal-article",
-    "score": 42.96106
+    "score": 42.959427
    },
    "metrics": {
     "title_sim": 100.0,
@@ -138,7 +140,7 @@
    "urls": [],
    "container": "Journal of General Internal Medicine",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "doi",
    "match": {
@@ -163,28 +165,23 @@
   {
    "junk": false,
    "idx": 5,
-   "raw": "Keith Harrigian, Kayte Spector-Bagdady Wisniewski, David J. Albers, and Mark Dredze. Characterization of stigmatizing language in the electronic health record. In Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (ACL), pp. 11761\u201311772, 2023. URL https://physionet.org/content/stigmatizing-language/1.0.0/. Pengcheng He, Xiaodong Liu, Jianfeng Gao, and Weizhu Chen. Deberta: Decoding-enhanced bert with disentangled attention. In International Conference on Learning Representations, 2021. URL https://openreview.net/pdf?id=H1eA7AEtvS. Wenkai Jin, Xingyu Zhang, Jie Chen, Yan Xia, Chengyue Zhang, and S Yu Philip Wang. Towards reliable interpretability with Shap in natural language processing. In Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), pp. 5014\u20135023, 2020.",
+   "raw": "Keith Harrigian, Kayte Spector-Bagdady Wisniewski, David J. Albers, and Mark Dredze. Characterization of stigmatizing language in the electronic health record. In Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (ACL), pp. 11761\u201311772, 2023. URL https://physionet.org/content/stigmatizing-language/1.0.0/.",
    "title": "Characterization of stigmatizing language in the electronic health record",
    "authors": [
     "Harrigian",
     "Wisniewski",
     "Albers",
-    "Dredze",
-    "He",
-    "Liu",
-    "Gao",
-    "Chen"
+    "Dredze"
    ],
    "year": 2023,
    "doi": null,
    "arxiv": null,
    "urls": [
-    "https://physionet.org/content/stigmatizing-language/1.0.0/",
-    "https://openreview.net/pdf?id=H1eA7AEtvS"
+    "https://physionet.org/content/stigmatizing-language/1.0.0/"
    ],
    "container": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (ACL",
    "type": "paper-conference",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -195,7 +192,7 @@
     "first_author": "Harrigian",
     "container": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
     "type": "proceedings-article",
-    "score": 34.826904
+    "score": 34.837505
    },
    "metrics": {
     "title_sim": 85.71428571428572,
@@ -209,6 +206,184 @@
   {
    "junk": false,
    "idx": 6,
+   "raw": "Pengcheng He, Xiaodong Liu, Jianfeng Gao, and Weizhu Chen. Deberta: Decoding-enhanced bert with disentangled attention. In International Conference on Learning Representations, 2021. URL https://openreview.net/pdf?id=H1eA7AEtvS.",
+   "title": "Deberta: Decoding-enhanced bert with disentangled attention",
+   "authors": [
+    "He",
+    "Liu",
+    "Gao",
+    "Chen"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://openreview.net/pdf?id=H1eA7AEtvS"
+   ],
+   "container": "International Conference on Learning Representations",
+   "type": "paper-conference",
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.52591/2021072410",
+      "title": "Aspect-based Sentiment Analysis using BERT with Disentangled Attention",
+      "year": 2021,
+      "first_author": "Marcacini",
+      "container": "LatinX in AI at International Conference on Machine Learning 2021",
+      "type": "proceedings-article",
+      "score": 35.152245
+     },
+     "metrics": {
+      "title_sim": 71.11111111111111,
+      "containment": 0.429,
+      "partial_ratio": 65.71428571428571,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    },
+    {
+     "step": "urls_not_live",
+     "url_status": {
+      "https://openreview.net/pdf?id=H1eA7AEtvS": 403
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "14b65a86c82e38fce0eb3506e0d4084ad5cdb583",
+    "title": "DeBERTa: Decoding-enhanced BERT with Disentangled Attention",
+    "year": 2020,
+    "first_author": "Pengcheng He",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "MAG": "3033187248",
+     "DBLP": "conf/iclr/HeLGC21",
+     "ArXiv": "2006.03654",
+     "CorpusId": 219531210
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true,
+   "carried_over_from": "parser_v4_run"
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "Wenkai Jin, Xingyu Zhang, Jie Chen, Yan Xia, Chengyue Zhang, and S Yu Philip Wang. Towards reliable interpretability with Shap in natural language processing. In Proceedings of the 2020",
+   "title": "Towards reliable interpretability with Shap in natural language processing",
+   "authors": [
+    "Jin",
+    "Zhang",
+    "Chen",
+    "Xia",
+    "Zhang",
+    "Wang"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 2020",
+   "type": "paper-conference",
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.5821/dissertation-2117-457572",
+      "title": "Interpretability in natural language processing and machine translation",
+      "year": 2026,
+      "first_author": "Ferrando Monson\u00eds",
+      "container": "",
+      "type": "dissertation",
+      "score": 30.48842
+     },
+     "metrics": {
+      "title_sim": 79.66101694915254,
+      "containment": 0.667,
+      "partial_ratio": 76.05633802816901,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "crossref_title",
+   "match": {
+    "source": "crossref",
+    "doi": "10.4337/9781035301447.vol3.00009",
+    "title": "Natural language processing",
+    "year": 2025,
+    "first_author": "Jin",
+    "container": "Elgar Encyclopedia of Political Communication",
+    "type": "book-chapter",
+    "score": 29.926128
+   },
+   "metrics": {
+    "title_sim": 53.46534653465347,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true,
+   "carried_over_from": "parser_v4_run"
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "Conference on Empirical Methods in Natural Language Processing (EMNLP), pp. 5014\u20135023, 2020.",
+   "title": null,
+   "authors": [],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Conference on Empirical Methods in Natural Language Processing (EMNLP",
+   "type": "paper-conference",
+   "parser": "anystyle-indent-guided",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.18653/v1/2020.emnlp-main",
+      "title": "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+      "year": 2020,
+      "first_author": null,
+      "container": "",
+      "type": "proceedings",
+      "score": 56.270412
+     },
+     "metrics": {
+      "title_sim": 0,
+      "containment": 0.889,
+      "partial_ratio": 88.31168831168831,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 9,
    "raw": "Bruce G. Link and Jo C. Phelan. Conceptualizing stigma. Annual Review of Sociology, 27(1): 363\u2013385, 2001. doi: 10.1146/annurev.soc.27.1.363.",
    "title": "Conceptualizing stigma",
    "authors": [
@@ -221,7 +396,7 @@
    "urls": [],
    "container": "Annual Review of Sociology",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "doi",
    "match": {
@@ -245,7 +420,7 @@
   },
   {
    "junk": false,
-   "idx": 7,
+   "idx": 10,
    "raw": "Scott M Lundberg and Su-In Lee. A unified approach to interpreting model predictions. In Advances in Neural Information Processing Systems (NeurIPS), volume 30, 2017.",
    "title": "A unified approach to interpreting model predictions",
    "authors": [
@@ -258,7 +433,7 @@
    "urls": [],
    "container": "Advances in Neural Information Processing Systems (NeurIPS",
    "type": "chapter",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "evidence": [
     {
@@ -271,7 +446,7 @@
       "first_author": "Murugamoorthy",
       "container": "",
       "type": "posted-content",
-      "score": 26.448544
+      "score": 26.44409
      },
      "metrics": {
       "title_sim": 73.17073170731707,
@@ -305,11 +480,12 @@
     "year_ok": true,
     "first_author_ok": true
    },
-   "second_pass_hit": true
+   "second_pass_hit": true,
+   "carried_over_from": "parser_v4_run"
   },
   {
    "junk": false,
-   "idx": 8,
+   "idx": 11,
    "raw": "Zhiyuan Lyu, Shiqi Huang, Xinyi Zhu, and Bing Liu. Mental health stigma detection using roberta and bert. Neurocomputing, 488:103\u2013112, 2022.",
    "title": "Mental health stigma detection using roberta and bert",
    "authors": [
@@ -324,7 +500,7 @@
    "urls": [],
    "container": "Neurocomputing",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "UNVERIFIED",
    "evidence": [
     {
@@ -337,7 +513,7 @@
       "first_author": "Ibrahim",
       "container": "Computation",
       "type": "journal-article",
-      "score": 33.659737
+      "score": 33.648193
      },
      "metrics": {
       "title_sim": 82.0,
@@ -352,7 +528,7 @@
   },
   {
    "junk": false,
-   "idx": 9,
+   "idx": 12,
    "raw": "Brenda Major and Laurie T O\u2019Brien. Social stigma and physical health: Understanding the health consequences of discrimination. Annual review of psychology, 56:1\u201326, 2005.",
    "title": "Social stigma and physical health: Understanding the health consequences of discrimination",
    "authors": [
@@ -365,7 +541,7 @@
    "urls": [],
    "container": "Annual review of psychology",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "UNVERIFIED",
    "evidence": [
     {
@@ -378,7 +554,7 @@
       "first_author": "Link",
       "container": "The Oxford Handbook of Stigma, Discrimination, and Health",
       "type": "book-chapter",
-      "score": 40.352245
+      "score": 40.34929
      },
      "metrics": {
       "title_sim": 75.77639751552795,
@@ -393,8 +569,8 @@
   },
   {
    "junk": false,
-   "idx": 10,
-   "raw": "Rana Mansour, Casey Baldwin, Alexander White, Beth Sisk, Aiko Miyao, Mark Alexander, Michael Gensheimer, and Daniel L. Rubin. Honeybee: A scalable modular framework for creating multimodal oncology datasets. arXiv preprint arXiv:2405.07460, 2024. URL https://arxiv. org/abs/2405.07460. Han Meng, Yancan Chen, Yunan Li, Yitian Yang, Jungup Lee, Renwen Zhang, and Yi-Chieh Lee. What is stigma attributed to? a theory-grounded, expert-annotated interview corpus for demystifying mental-health stigma. In Wanxiang Che, Joyce Nabende, Ekaterina Shutova, and Mohammad Taher Pilehvar (eds.), Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 5453\u20135490, Vienna, Austria, July 2025. Association for Computational Linguistics. ISBN 979-8-89176-251-0. URL https:// aclanthology.org/2025.acl-long.272/. Mistral AI. Mistral 7b instruct: A dense open-weight language model. https://huggingface.co/ mistralai/Mistral-7B-Instruct, 2023a.",
+   "idx": 13,
+   "raw": "Rana Mansour, Casey Baldwin, Alexander White, Beth Sisk, Aiko Miyao, Mark Alexander, Michael Gensheimer, and Daniel L. Rubin. Honeybee: A scalable modular framework for creating multimodal oncology datasets. arXiv preprint arXiv:2405.07460, 2024. URL https://arxiv. org/abs/2405.07460.",
    "title": "Honeybee: A scalable modular framework for creating multimodal oncology datasets",
    "authors": [
     "Mansour",
@@ -404,7 +580,41 @@
     "Miyao",
     "Alexander",
     "Gensheimer",
-    "Rubin",
+    "Rubin"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2405.07460",
+   "urls": [
+    "https://arxiv"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2405.07460",
+    "title": "HoneyBee: A Scalable Modular Framework for Creating Multimodal Oncology Datasets with Foundational Embedding Models",
+    "year": 2024,
+    "first_author": "Aakash Tripathi"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.727,
+    "partial_ratio": 76.31578947368422,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "Han Meng, Yancan Chen, Yunan Li, Yitian Yang, Jungup Lee, Renwen Zhang, and Yi-Chieh Lee. What is stigma attributed to? a theory-grounded, expert-annotated interview corpus for demystifying mental-health stigma. In Wanxiang Che, Joyce Nabende, Ekaterina Shutova, and Mohammad Taher Pilehvar (eds.), Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 5453\u20135490, Vienna, Austria, July 2025. Association for Computational Linguistics. ISBN 979-8-89176-251-0. URL https:// aclanthology.org/2025.acl-long.272/.",
+   "title": "What is stigma attributed to? a theory-grounded, expert-annotated interview corpus for demystifying mental-health stigma",
+   "authors": [
     "Meng",
     "Chen",
     "Li",
@@ -413,46 +623,76 @@
     "Zhang",
     "Lee"
    ],
-   "year": 2024,
+   "year": 2025,
    "doi": null,
-   "arxiv": "2405.07460",
+   "arxiv": null,
    "urls": [
-    "https://arxiv",
-    "https://",
-    "https://huggingface.co/"
+    "https://"
    ],
    "container": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers",
    "type": "paper-conference",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2025.acl-long.272",
+    "title": "What is Stigma Attributed to? A Theory-Grounded, Expert-Annotated Interview Corpus for Demystifying Mental-Health Stigma",
+    "year": 2025,
+    "first_author": "Meng",
+    "container": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "type": "proceedings-article",
+    "score": 93.312775
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "Mistral AI. Mistral 7b instruct: A dense open-weight language model. https://huggingface.co/ mistralai/Mistral-7B-Instruct, 2023a.",
+   "title": "Mistral 7b instruct: A dense open-weight language model",
+   "authors": [
+    "Mistral"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://huggingface.co/"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED_URL",
    "via": "url",
    "url_status": {
-    "https://arxiv": "error",
-    "https://": "error",
     "https://huggingface.co/": 200
    },
    "evidence": [
     {
-     "step": "arxiv_id_not_found",
-     "arxiv": "2405.07460"
-    },
-    {
      "step": "crossref_best_reject",
      "rec": {
       "source": "crossref",
-      "doi": "10.3390/s24051634",
-      "title": "Building Flexible, Scalable, and Machine Learning-Ready Multimodal Oncology Datasets",
-      "year": 2024,
-      "first_author": "Tripathi",
-      "container": "Sensors",
+      "doi": "10.32473/flairs.39.1.141801",
+      "title": "Evaluating Mistral 7B Instruct Jailbreak Vulnerabilities",
+      "year": 2026,
+      "first_author": "Jamshidi",
+      "container": "The International FLAIRS Conference Proceedings",
       "type": "journal-article",
-      "score": 30.64916
+      "score": 49.674538
      },
      "metrics": {
-      "title_sim": 67.08074534161491,
-      "containment": 0.444,
-      "partial_ratio": 67.07317073170731,
-      "year_ok": true,
+      "title_sim": 60.0,
+      "containment": 0.4,
+      "partial_ratio": 62.365591397849464,
+      "year_ok": false,
       "first_author_ok": false
      }
     }
@@ -460,7 +700,7 @@
   },
   {
    "junk": false,
-   "idx": 11,
+   "idx": 16,
    "raw": "Mistral AI. Openhermes: An open instruction-tuned model on mistral 7b. https://huggingface. co/mistralai/OpenHermes-2.5B, 2023b.",
    "title": "Openhermes: An open instruction-tuned model on mistral 7b",
    "authors": [
@@ -474,7 +714,7 @@
    ],
    "container": null,
    "type": null,
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "UNVERIFIED",
    "evidence": [
     {
@@ -487,7 +727,7 @@
       "first_author": null,
       "container": "",
       "type": "component",
-      "score": 46.651085
+      "score": 46.664963
      },
      "metrics": {
       "title_sim": 55.55555555555556,
@@ -508,7 +748,7 @@
   },
   {
    "junk": false,
-   "idx": 12,
+   "idx": 17,
    "raw": "Adam J Noble, Catrin Jones, and Catherine White. Stigma in mental health: A critical review and call for research. Social Psychiatry and Psychiatric Epidemiology, 56:1\u201314, 2021.",
    "title": "Stigma in mental health: A critical review and call for research",
    "authors": [
@@ -522,7 +762,7 @@
    "urls": [],
    "container": "Social Psychiatry and Psychiatric Epidemiology",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -533,7 +773,7 @@
     "first_author": "Green",
     "container": "Research Anthology on Mental Health Stigma, Education, and Treatment",
     "type": "book-chapter",
-    "score": 32.48739
+    "score": 32.491627
    },
    "metrics": {
     "title_sim": 100.0,
@@ -546,7 +786,7 @@
   },
   {
    "junk": false,
-   "idx": 13,
+   "idx": 18,
    "raw": "Matthew E. Peters, Mark Neumann, Mohit Iyyer, Matt Gardner, Christopher Clark, Kenton Lee, and Luke Zettlemoyer. Deep contextualized word representations. In Proceedings of NAACL-HLT, pp. 2227\u20132237. Association for Computational Linguistics, 2018.",
    "title": "Deep contextualized word representations",
    "authors": [
@@ -564,7 +804,7 @@
    "urls": [],
    "container": "Proceedings of NAACL-HLT",
    "type": "paper-conference",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -575,7 +815,7 @@
     "first_author": "Peters",
     "container": "Proceedings of the 2018 Conference of the North American Chapter of\n          the Association for Computational Linguistics: Human Language\n          Technologies, Volume 1 (Long Papers)",
     "type": "proceedings-article",
-    "score": 37.639404
+    "score": 37.644234
    },
    "metrics": {
     "title_sim": 100.0,
@@ -588,7 +828,7 @@
   },
   {
    "junk": false,
-   "idx": 14,
+   "idx": 19,
    "raw": "Marco Tulio Ribeiro, Sameer Singh, and Carlos Guestrin. Why should i trust you?: Explaining the predictions of any classifier. In Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, pp. 1135\u20131144, 2016.",
    "title": "Why should i trust you?: Explaining the predictions of any classifier",
    "authors": [
@@ -602,7 +842,7 @@
    "urls": [],
    "container": "Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining",
    "type": "paper-conference",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -613,7 +853,7 @@
     "first_author": "Ribeiro",
     "container": "Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining",
     "type": "proceedings-article",
-    "score": 69.044106
+    "score": 69.001274
    },
    "metrics": {
     "title_sim": 49.43820224719101,
@@ -626,7 +866,7 @@
   },
   {
    "junk": false,
-   "idx": 15,
+   "idx": 20,
    "raw": "Kim Scroggins, Lucine Ghaffari, Muxin Zhang, Rebekah Gonzalez, Michael Chen, Kartik K. Venkatesh, and Anna Rumshisky. Identifying stigmatizing and preferred language in obstetric clinical notes: Development and evaluation of annotation schema and language models. medRxiv, 2024. doi: 10.1101/2024.01.10.24301542. URL https://www.medrxiv.org/content/10.1101/2024. 01.10.24301542v1.",
    "title": "Identifying stigmatizing and preferred language in obstetric clinical notes: Development and evaluation of annotation schema and language models",
    "authors": [
@@ -646,8 +886,12 @@
    ],
    "container": "medRxiv",
    "type": "article-journal",
-   "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED_URL",
+   "via": "url",
+   "url_status": {
+    "https://www.medrxiv.org/content/10.1101/2024": 200
+   },
    "evidence": [
     {
      "step": "doi_not_resolvable",
@@ -663,7 +907,7 @@
       "first_author": "Scroggins",
       "container": "Journal of the American Medical Informatics Association",
       "type": "journal-article",
-      "score": 60.627342
+      "score": 60.50591
      },
      "metrics": {
       "title_sim": 81.52173913043478,
@@ -672,28 +916,12 @@
       "year_ok": true,
       "first_author_ok": true
      }
-    },
-    {
-     "step": "urls_not_live",
-     "url_status": {
-      "https://www.medrxiv.org/content/10.1101/2024": 403
-     }
     }
-   ],
-   "likely_match": {
-    "source": "crossref",
-    "doi": "10.1093/jamia/ocae290",
-    "title": "Identifying stigmatizing and positive/preferred language in obstetric clinical notes using natural language processing",
-    "year": 2025,
-    "first_author": "Scroggins",
-    "container": "Journal of the American Medical Informatics Association",
-    "type": "journal-article",
-    "score": 60.627342
-   }
+   ]
   },
   {
    "junk": false,
-   "idx": 16,
+   "idx": 21,
    "raw": "Ritvik Sharma, Ankit Kumar, Nisheeth Batra, Amba Joshi, and Vikas Varma. Mental health stigma detection in social media with contextualized representations. In Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics: Main Volume, pp. 1123\u20131133. Association for Computational Linguistics, 2021. URL https: //aclanthology.org/2021.eacl-main.98.",
    "title": "Mental health stigma detection in social media with contextualized representations",
    "authors": [
@@ -709,7 +937,7 @@
    "urls": [],
    "container": "Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics: Main Volume",
    "type": "paper-conference",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "UNVERIFIED",
    "evidence": [
     {
@@ -722,7 +950,7 @@
       "first_author": "Uprety",
       "container": "Research Anthology on Mental Health Stigma, Education, and Treatment",
       "type": "book-chapter",
-      "score": 35.548893
+      "score": 35.552612
      },
      "metrics": {
       "title_sim": 67.10526315789474,
@@ -737,7 +965,7 @@
   },
   {
    "junk": false,
-   "idx": 17,
+   "idx": 22,
    "raw": "Mukund Sundararajan, Ankur Taly, and Qiqi Yan. Axiomatic attribution for deep networks. In Proceedings of the 34th International Conference on Machine Learning (ICML), volume 70, pp. 3319\u20133328, 2017.",
    "title": "Axiomatic attribution for deep networks",
    "authors": [
@@ -751,8 +979,26 @@
    "urls": [],
    "container": "Proceedings of the 34th International Conference on Machine Learning (ICML",
    "type": "paper-conference",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
+   "via": "openalex",
+   "match": {
+    "source": "openalex",
+    "id": "https://openalex.org/W2594633041",
+    "doi": "https://doi.org/10.48550/arxiv.1703.01365",
+    "title": "Axiomatic Attribution for Deep Networks",
+    "year": 2017,
+    "first_author": "Mukund Sundararajan",
+    "container": "arXiv (Cornell University)",
+    "type": "preprint"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -764,7 +1010,7 @@
       "first_author": "Sun",
       "container": "Proceedings of the 12th ACM conference on Electronic commerce",
       "type": "proceedings-article",
-      "score": 34.4598
+      "score": 34.467255
      },
      "metrics": {
       "title_sim": 78.125,
@@ -774,35 +1020,11 @@
       "first_author_ok": false
      }
     }
-   ],
-   "likely_match": null,
-   "via": "s2",
-   "match": {
-    "source": "s2",
-    "id": "f302e136c41db5de1d624412f68c9174cf7ae8be",
-    "title": "Axiomatic Attribution for Deep Networks",
-    "year": 2017,
-    "first_author": "Mukund Sundararajan",
-    "container": "International Conference on Machine Learning",
-    "ext": {
-     "ArXiv": "1703.01365",
-     "MAG": "2949197630",
-     "DBLP": "conf/icml/SundararajanTY17",
-     "CorpusId": 16747630
-    }
-   },
-   "metrics": {
-    "title_sim": 100.0,
-    "containment": 1.0,
-    "partial_ratio": 100.0,
-    "year_ok": true,
-    "first_author_ok": true
-   },
-   "second_pass_hit": true
+   ]
   },
   {
    "junk": false,
-   "idx": 18,
+   "idx": 23,
    "raw": "Diyi Yang, Ayah Zirikly, Wei-Hung W. Zhang, Oladapo Farri, and Anna Rumshisky. Care-sd: Annotating and detecting subtle stigmatizing language in icu clinical notes. arXiv preprint arXiv:2405.05204, 2024. URL https://arxiv.org/abs/2405.05204.",
    "title": "Care-sd: Annotating and detecting subtle stigmatizing language in icu clinical notes",
    "authors": [
@@ -820,9 +1042,26 @@
    ],
    "container": null,
    "type": null,
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "UNVERIFIED",
    "evidence": [
+    {
+     "step": "arxiv_id_resolves_title_mismatch",
+     "rec": {
+      "source": "arxiv",
+      "arxiv": "2405.05204",
+      "title": "CARE-SD: Classifier-based analysis for recognizing and eliminating stigmatizing and doubt marker labels in electronic health records: model development and validation",
+      "year": 2024,
+      "first_author": "Drew Walker"
+     },
+     "metrics": {
+      "title_sim": 45.344129554655865,
+      "containment": 0.125,
+      "partial_ratio": 46.95121951219512,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    },
     {
      "step": "crossref_best_reject",
      "rec": {
@@ -833,7 +1072,7 @@
       "first_author": "Klassen",
       "container": "Proceedings of the Language Resources and Evaluation Conference",
       "type": "proceedings-article",
-      "score": 31.228764
+      "score": 31.303509
      },
      "metrics": {
       "title_sim": 84.84848484848484,
@@ -842,30 +1081,13 @@
       "year_ok": false,
       "first_author_ok": false
      }
-    },
-    {
-     "step": "arxiv_id_resolves_title_mismatch",
-     "rec": {
-      "source": "arxiv_abs",
-      "arxiv": "2405.05204",
-      "title": "CARE-SD: Classifier-based analysis for recognizing and eliminating stigmatizing and doubt marker labels in electronic health records: model development and validation",
-      "year": 2024,
-      "first_author": "Walker, Drew"
-     },
-     "metrics": {
-      "title_sim": 45.344129554655865,
-      "containment": 0.125,
-      "partial_ratio": 46.95121951219512,
-      "year_ok": true,
-      "first_author_ok": false
-     }
     }
    ],
    "likely_match": null
   },
   {
    "junk": false,
-   "idx": 19,
+   "idx": 24,
    "raw": "Jaewon Yang, Yajie Zhao, Minsung Song, Yanzhi Liu, and Jingwen Zhu. Stigmatizing language in news coverage of the opioid crisis: Variations in framing by substance and by gender. Journal of Health Communication, 24(9):753\u2013761, 2019.",
    "title": "Stigmatizing language in news coverage of the opioid crisis: Variations in framing by substance and by gender",
    "authors": [
@@ -881,7 +1103,7 @@
    "urls": [],
    "container": "Journal of Health Communication",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "UNVERIFIED",
    "evidence": [
     {
@@ -894,7 +1116,7 @@
       "first_author": "McGinty",
       "container": "Preventive Medicine",
       "type": "journal-article",
-      "score": 40.344864
+      "score": 40.371376
      },
      "metrics": {
       "title_sim": 69.90291262135922,
@@ -909,7 +1131,7 @@
   },
   {
    "junk": false,
-   "idx": 20,
+   "idx": 25,
    "raw": "Lawrence H. Yang, Arthur Kleinman, Bruce G. Link, Jo C. Phelan, Sing Lee, and Byron Good. Culture and stigma: Adding moral experience to stigma theory. Social Science & Medicine, 103: 107\u2013112, 2014. doi: 10.1016/j.socscimed.2013.09.023.",
    "title": "Culture and stigma: Adding moral experience to stigma theory",
    "authors": [
@@ -926,7 +1148,7 @@
    "urls": [],
    "container": "Social Science & Medicine",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -937,7 +1159,7 @@
     "first_author": "Yang",
     "container": "Social Science &amp; Medicine",
     "type": "journal-article",
-    "score": 54.28446
+    "score": 54.272358
    },
    "metrics": {
     "title_sim": 100.0,
@@ -968,6 +1190,158 @@
      }
     }
    ]
+  },
+  {
+   "junk": true,
+   "idx": 26,
+   "raw": "A    About the AI authors This study was conceived and initially designed using GPT-5 and GPT-4o, leveraging their advanced capabilities for ideation and methodology planning. The foundational codebase was sketched out using the Google Colab environment enhanced by the Gemini AI feature, which facilitated interactive and iterative development with the Gemini agent. Helper Python functions such as reporting specifications of the compute environments used were authored by Claude Sonnet 4. Subsequent refinements and enhancements to both the code and experimental setup were carried out incrementally through collaborative interactions with GPT-5 and Google Gemini\u2019s chat interface, ensuring a seamless integration of cutting-edge AI assistance throughout the research process. B   Candidate models Model                         Params         Arch          Instr.-Tuned Year of latest release distilbert-base-uncased         66M         Encoder            No        2019 (Sharma et al., 2021) roberta-base                   125M         Encoder            No        2019 (Lyu et al., 2022) deberta-v3-base                183M         Encoder            No        2021 (He et al., 2021) Flan-T5-base                   250M     Encoder-Decoder        Yes       2022 (Chung et al., 2022) OpenHermes-2.5-Mistral           7B         Decoder            Yes       2023 (Mistral AI, 2023b) Mistral-7B-Instruct              7B         Decoder            Yes       2023 (Mistral AI, 2023a) Table 5: Comparison of baseline and instruction-tuned models for mental health stigma detection. Field Name               Description snippet_id               Unique identifiers for the participant and for the snippet. Used to trace which (participant_id)         participant provided which snippet. text                     The transcript of a participant\u2019s response (an interview snippet) to a prompt or question, excluding warm-up and vignette setup. attribution_label        The stigma label assigned to the snippet: one of the seven attribution categories (Responsibility; Social Distance; Anger; Helping; Pity; Coercive Segregation; Fear) or \u201cNon-stigmatizing.\u201d N/A                      Snippets marked \u201cN/A\u201d when they are unsuitable for annotation due to being too brief, irrelevant, incomplete, unintelligible, or otherwise not amenable to meaningful classification. interview_question       Which core interview question was asked (or which attribution prompt) that (attribution_type)       elicited this snippet; helps link content to theoretical attribution dimension. turn_count               Number of conversational turns in the snippet between participant and chatbot; (response_length)        also measures of length (words, tokens) of the response \u2014 useful for controlling for verbosity effects. participant_demographics Demographics of participant (e.g. gender, age, first language, possibly region or (sociocultural_metadata) country) used for socio-cultural analyses of stigma. Table 6: Key data fields in the MH-Stigma-Interview Corpus with their descriptions.",
+   "title": "A About the AI authors This study was conceived and initially designed using GPT-5 and GPT-4o, leveraging their advanced capabilities for ideation and methodology planning. The foundational codebase was sketched out using the Google Colab environment enhanced by the Gemini AI feature, which facilitated interactive and iterative development with the Gemini agent. Helper Python functions such as reporting specifications of the compute environments used were authored by Claude Sonnet 4. Subsequent refinements and enhancements to both the code and experimental setup were carried out incrementally through collaborative interactions with GPT-5 and Google Gemini\u2019s chat interface, ensuring a seamless integration of cutting-edge AI assistance throughout the research process. B Candidate models Model Params Arch Instr.-Tuned Year of latest release distilbert-base-uncased 66M",
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "interview",
+   "parser": "anystyle-indent-guided",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/bhi62660.2024.10913702",
+      "title": "Evaluating Advanced Large Language Models for Pulmonary Disease Diagnosis Using Portable Spirometer Data: A Comparative Analysis of Gemini 1.5 Pro, GPT 4o, and Claude 3.5 Sonnet",
+      "year": 2024,
+      "first_author": "Park",
+      "container": "2024 IEEE EMBS International Conference on Biomedical and Health Informatics (BHI)",
+      "type": "proceedings-article",
+      "score": 65.79924
+     },
+     "metrics": {
+      "title_sim": 26.84563758389261,
+      "containment": 0.444,
+      "partial_ratio": 46.55172413793104,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": true,
+   "idx": 27,
+   "raw": "C    The annotation protocol The annotation framework was grounded in attribution theory (Corrigan et al., 2000), enabling the use of structured labels related to emotions, blame, and behavioral intentions\u2014such as perceived responsibility, desire for social distance, or feelings of anger. This theoretical grounding ensures the annotations go beyond surface-level or purely lexical cues of stigma.",
+   "title": "C The annotation protocol The annotation framework was grounded in attribution theory (Corrigan et al., 2000), enabling the use of structured labels related to emotions, blame, and behavioral intentions\u2014such as perceived responsibility, desire for social distance, or feelings of anger. This theoretical grounding ensures the annotations go beyond surface-level or purely lexical cues of stigma",
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-indent-guided",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.7554/elife.08904.007",
+      "title": "Figure 2\u2014figure supplement 1. Pfam domain set enrichments in differentially expressed genes.",
+      "year": 2016,
+      "first_author": null,
+      "container": "",
+      "type": "component",
+      "score": 26.828201
+     },
+     "metrics": {
+      "title_sim": 27.42616033755274,
+      "containment": 0.0,
+      "partial_ratio": 43.333333333333336,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": true,
+   "idx": 28,
+   "raw": "Annotators were experts in fields such as mental health, psychology, and social sciences. They received training through a detailed codebook that defined each stigma category and provided illustrative examples to ensure consistent interpretation. Annotation was conducted through a multi-stage, expert-in-the-loop process. Multiple annotators independently labeled each snippet, and inter-annotator agreement was computed. Discrepancies were reviewed collaboratively, with final decisions adjudicated by senior experts, ensuring high reliability and consistency. Inter-annotator agreement metrics, such as Cohen\u2019s kappa and Fleiss\u2019s kappa, are reported in detail elsewhere (Meng et al., 2025). To further enhance label reliability, rounds of disagreement resolution were integrated into the process.",
+   "title": "Annotators were experts in fields such as mental health, psychology, and social sciences. They received training through a detailed codebook that defined each stigma category and provided illustrative examples to ensure consistent interpretation. Annotation was conducted through a multi-stage, expert-in-the-loop process. Multiple annotators independently labeled each snippet, and inter-annotator agreement was computed. Discrepancies were reviewed collaboratively, with final decisions adjudicated by senior experts, ensuring high reliability and consistency",
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "report",
+   "parser": "anystyle-indent-guided",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.7554/elife.37551.008",
+      "title": "Figure 3\u2014figure supplement 1. Comparative analysis of gene expression in specific cell types of mouse, rat, and human, related to Figure 3.",
+      "year": 2018,
+      "first_author": null,
+      "container": "",
+      "type": "component",
+      "score": 36.43792
+     },
+     "metrics": {
+      "title_sim": 28.321167883211686,
+      "containment": 0.0,
+      "partial_ratio": 44.776119402985074,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": true,
+   "idx": 29,
+   "raw": "D    Listing of computer resources SYSTEM SPECIFICATIONS REPORT generated using code written by Claude AI SYSTEM INFORMATION ---------------------------------------- Platform: Linux 6.6.56+ Architecture: x86_64 Processor: x86_64 Hostname: 8d50b7df9a6a Python: 3.11.13 (CPython) Generated: 2025-09-16 22:51:42 CPU INFORMATION",
+   "title": "D Listing of computer resources SYSTEM SPECIFICATIONS REPORT generated using code written by Claude AI SYSTEM INFORMATION ---------------------------------------- Platform",
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-indent-guided",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1201/b18658-13",
+      "title": "Enterprise human resources management system platform optimization design in the information technology era",
+      "year": 2018,
+      "first_author": null,
+      "container": "Information, Computer and Application Engineering",
+      "type": "book-chapter",
+      "score": 34.86443
+     },
+     "metrics": {
+      "title_sim": 60.869565217391305,
+      "containment": 0.364,
+      "partial_ratio": 53.271028037383175,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
   }
  ],
  "second_pass": true,

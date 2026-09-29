@@ -1,0 +1,542 @@
+[
+ {
+  "id": "S01",
+  "category": "EXISTS_CORRUPTED",
+  "evidence_url": "https://api.crossref.org/works/10.62177/jaet.v2i1.212",
+  "note": "Real: T. Klein & G. Romano 2025, 'Optimizing Cybersecurity Incident Response via Adaptive Reinforcement Learning', J Adv Eng Technol 2(1). Wrong [title][venue][year]; no 'ARL-CIR' at IEEE CNS 2022"
+ },
+ {
+  "id": "S02",
+  "category": "WEB_RESOURCE_EXISTS",
+  "evidence_url": "http://web.archive.org/web/20251117040534/https://ij.org/report/the-price-of-taxation-by-citation/",
+  "note": "IJ report page (Sweetland, Carpenter, McDonald), published 24 Oct 2019, archived on Wayback (ij.org blocks scripts); entry's year 2021 is off by 2"
+ },
+ {
+  "id": "S03",
+  "category": "NOT_FOUND",
+  "evidence_url": "https://api.crossref.org/works?rows=5&query.bibliographic=Circular%20economy%20implementation%20in%20laboratory%20settings%20Keating",
+  "note": "No title match in Crossref/web; RCR 162:105012 (2020) is Zhi et al. (Yellow River Delta nitrogen metabolism), not this"
+ },
+ {
+  "id": "S04",
+  "category": "WEB_RESOURCE_EXISTS",
+  "evidence_url": "https://docs.apwg.org/reports/apwg_trends_report_q2_2023.pdf",
+  "note": "APWG Phishing Activity Trends Report Q2 2023 PDF is live (HTTP 200)"
+ },
+ {
+  "id": "S05",
+  "category": "EXISTS_CORRUPTED",
+  "evidence_url": "https://api.crossref.org/works?rows=5&query.bibliographic=Sailem%20contrastive%20pretraining%20morphology%20molecular",
+  "note": "Real: Nguyen, Pertusi, Branson 2023 bioRxiv 10.1101/2023.05.01.538999 'Molecule-Morphology Contrastive Pretraining...' (MoCoP). Wrong [authors][title]; no Sailem MoCoP paper"
+ },
+ {
+  "id": "S06",
+  "category": "NOT_FOUND",
+  "evidence_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&term=TRAIL%20cancer%20therapy%20targeting%20apoptosis%20pathways%5BTitle%5D%20AND%202025%5Bdp%5D",
+  "note": "No title match in PubMed/Crossref/web; Cell Death Dis 16:229 (2025) is Mikulak et al. (ovarian carcinoma Tregs). Author+keyword search also empty"
+ },
+ {
+  "id": "S07",
+  "category": "EXISTS_CORRUPTED",
+  "evidence_url": "https://api.crossref.org/works/10.1177/1941738111414175",
+  "note": "Real: Kovacs & Ellenbecker 2011, Sports Health 3(6):504-513. Wrong [authors][venue] (year 2012 vs 2011 within tolerance)"
+ },
+ {
+  "id": "S08",
+  "category": "EXISTS_CORRUPTED",
+  "evidence_url": "https://api.crossref.org/works/10.3389/fcomp.2021.792065",
+  "note": "Real: Ciliberto et al. 2021 'Opportunity++: A Multimodal Dataset for ... Human Activity Recognition', Front Comput Sci 3:792065. Wrong [title][venue]"
+ },
+ {
+  "id": "S09",
+  "category": "EXISTS",
+  "evidence_url": "https://arxiv.org/abs/2407.15368",
+  "note": "arXiv 2407.15368 = 'Nearly Optimal L_p Risk Minimization', Jia, Lan, Zhang, 2024"
+ },
+ {
+  "id": "S10",
+  "category": "WEB_RESOURCE_EXISTS",
+  "evidence_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52022PC0197",
+  "note": "CELEX 52022PC0197 = COM(2022)197 EHDS proposal on EUR-Lex (page serves a 202 bot-challenge to scripts; confirmed via web search and Wayback snapshot)"
+ },
+ {
+  "id": "S11",
+  "category": "EXISTS",
+  "evidence_url": "https://www.jasss.org/5/4/1.html",
+  "note": "JASSS 5(4) article 1, 2002, Deffuant, Amblard, Weisbuch, Faure; title matches"
+ },
+ {
+  "id": "S12",
+  "category": "EXISTS_CORRUPTED",
+  "evidence_url": "https://dblp.org/rec/conf/ijcai/YangIL20.html",
+  "note": "No 'NeuRule' paper exists (web/Crossref/arXiv). Author trio Yang, Ishay, Lee + IJCAI + neuro-symbolic identify NeurASP, IJCAI 2020 pp.1755-1762. Wrong [title][year][pages]"
+ },
+ {
+  "id": "S13",
+  "category": "EXISTS_CORRUPTED",
+  "evidence_url": "http://export.arxiv.org/api/query?max_results=5&search_query=ti%3A%22recommender%20systems%20inspired%20by%20the%20structure%20of%20quantum%20theory%22",
+  "note": "Real: Cyril Stark, arXiv:1601.06035 (2016). Wrong [authors][year][identifier] (2104.09337 is a photonics paper by Davidson et al.)"
+ },
+ {
+  "id": "S14",
+  "category": "WEB_RESOURCE_EXISTS",
+  "evidence_url": "https://openei.org/wiki/ASHRAE_Climate_Zones",
+  "note": "OpenEI wiki page ASHRAE_Climate_Zones is live (HTTP 200)"
+ },
+ {
+  "id": "S15",
+  "category": "EXISTS_CORRUPTED",
+  "evidence_url": "https://arxiv.org/abs/2302.02023",
+  "note": "Real: Lingfeng Shen, Ze Zhang, Haiyun Jiang, Ying Chen, 'TextShield: Beyond Successfully Detecting Adversarial Sentences in Text Classification' (ICLR 2023). Wrong [title][authors][venue]"
+ },
+ {
+  "id": "S16",
+  "category": "EXISTS_CORRUPTED",
+  "evidence_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=19386267",
+  "note": "Real: Gao, White, Kaestner 2009 '...epithelial-mesenchymal signaling by Cdx2', Dev Cell 16(4):588-599. Wrong [title][venue][identifier] (dvdy.21967 = Wheeler & Brandli)"
+ },
+ {
+  "id": "S17",
+  "category": "NOT_FOUND",
+  "evidence_url": "https://api.crossref.org/works?rows=5&query.bibliographic=Parasocial%20relationships%2C%20artificial%20intelligence%2C%20and%20social%20media%20Rubin%20Perse%20Powell",
+  "note": "No such 2019 JOBEM article (web/Crossref). Author trio only has 1985 HCR paper 'Loneliness, parasocial interaction, and local TV news viewing' (different title/topic/year)"
+ },
+ {
+  "id": "S18",
+  "category": "NOT_FOUND",
+  "evidence_url": "https://api.crossref.org/works?rows=5&query.bibliographic=Evaluating%20the%20environmental%20impact%20of%20laboratory%20equipment%3A%20The%20my%20green%20lab%20act%20label",
+  "note": "No title match in Crossref/web; author+keyword search (Williams, ACT label) also empty"
+ },
+ {
+  "id": "S19",
+  "category": "NOT_FOUND",
+  "evidence_url": "https://api.crossref.org/works?rows=5&query.bibliographic=Users%27%20emotional%20attachment%20to%20AI%20assistants%20and%20its%20impact%20on%20user%20trust%20Ta",
+  "note": "No title match in Crossref/web; Ta + keywords search empty (V. Ta's real 2020 work is a JMIR companion-chatbot study, different title/venue)"
+ },
+ {
+  "id": "S20",
+  "category": "NOT_FOUND",
+  "evidence_url": "https://api.crossref.org/works?rows=5&query.bibliographic=1D%20CNNs%20for%20wearable%20sensor%20data%3A%20Adaptive%20normalization%20and%20feature%20extraction%20Krishnaleela",
+  "note": "No title match; Krishnaleela's only indexed work is CNN-SLSTM HAR paper, Neural Comput Appl 2025 (different title/venue/year)"
+ },
+ {
+  "id": "S21",
+  "category": "EXISTS",
+  "evidence_url": "https://illinoislawreview.org/wp-content/uploads/2025/02/Love.pdf",
+  "note": "Benjamin Love, 'Community Caretaking or \"Poverty Towing?\": Vehicle Residents and the Fourth Amendment', U. Ill. L. Rev. vol. 2025, p. 323; title/author/year match"
+ },
+ {
+  "id": "S22",
+  "category": "EXISTS_CORRUPTED",
+  "evidence_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=29731617",
+  "note": "Real: Liguori et al. 2018 'Oxidative stress, aging, and diseases', Clin Interv Aging 13:757-772 (same 11 authors). Wrong [title][venue][year]"
+ },
+ {
+  "id": "S23",
+  "category": "NOT_FOUND",
+  "evidence_url": "https://api.crossref.org/works?rows=5&query.bibliographic=Security%20alert%20correlation%20using%20topic%20modeling%20Liao",
+  "note": "No title match in Crossref/web; Liao + keyword search empty; second author 'V. PDR' is not a name"
+ },
+ {
+  "id": "S24",
+  "category": "EXISTS_CORRUPTED",
+  "evidence_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=10132481",
+  "note": "Merged ref: title = Khan & Bhardwaj 1994 'Access to health care. A conceptual framework...', Eval Health Prof 17(1):60-76; authors = Richardson & Norris 2010 (different paper). Wrong [authors][venue]["
+ },
+ {
+  "id": "S25",
+  "category": "EXISTS_CORRUPTED",
+  "evidence_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=31094356",
+  "note": "Real: Fiske, Henningsen, Buyx 2019 JMIR 21(5):e13216. Wrong [authors] (Resseguier is not an author)"
+ },
+ {
+  "id": "S26",
+  "category": "NOT_FOUND",
+  "evidence_url": "https://api.crossref.org/works?rows=5&query.bibliographic=Policy%20frameworks%20for%20sustainable%20laboratory%20transformation%20Romano%20Rossi%20Mancini",
+  "note": "No title match (Crossref x2, web); Romano/Rossi/Mancini + keywords + Environmental Policy and Governance 2020: nothing"
+ },
+ {
+  "id": "S27",
+  "category": "EXISTS",
+  "evidence_url": "http://export.arxiv.org/api/query?max_results=5&search_query=au%3AAlagoz%20AND%20ti%3Adissimilarity",
+  "note": "arXiv:2402.05275, Celal Alagoz, 2024; title matches"
+ },
+ {
+  "id": "S28",
+  "category": "EXISTS_CORRUPTED",
+  "evidence_url": "https://api.crossref.org/works/10.1016/j.eswa.2025.127256",
+  "note": "Real: Luvisutto, Celani, Renda, Stefanini, De Masi 2025, ESWA 277:127256 'Enhancing collaboration in uncertain environment: MARL for underwater monitoring'. Wrong [authors] (no Y. Chen); title truncat"
+ },
+ {
+  "id": "S29",
+  "category": "NOT_FOUND",
+  "evidence_url": "https://api.crossref.org/works?rows=5&query.bibliographic=Adaptive%20interfaces%20for%20elderly%20users%3A%20A%20review%20Brown%20Green%20CHI%202018",
+  "note": "No title match in Crossref/web; no Brown & Green CHI 2018 paper on adaptive interfaces"
+ },
+ {
+  "id": "S30",
+  "category": "NOT_FOUND",
+  "evidence_url": "https://api.crossref.org/works?rows=5&query.bibliographic=Large%20language%20models%20for%20healthcare%3A%20A%20comprehensive%20survey%20Zhang%20IEEE%20Transactions%20on%20Medical%20Imaging%202023",
+  "note": "No such IEEE TMI 42(11) 2023 article (web/Crossref/arXiv); similar-titled surveys exist by other authors elsewhere"
+ },
+ {
+  "id": "S31",
+  "category": "EXISTS",
+  "evidence_url": "https://openlibrary.org/search.json?limit=5&title=Gender%20Mosaic&author=Joel",
+  "note": "OpenLibrary OL20670020W: Daphna Joel & Luba Vikhanski, Gender Mosaic, 2019 (co-author omitted in entry)"
+ },
+ {
+  "id": "S32",
+  "category": "WEB_RESOURCE_EXISTS",
+  "evidence_url": "https://sakana.ai/ai-scientist-first-publication/",
+  "note": "Sakana AI blog page live (200); page title matches"
+ },
+ {
+  "id": "S33",
+  "category": "NOT_FOUND",
+  "evidence_url": "https://api.crossref.org/works?rows=5&query.bibliographic=Protein%20design%20with%20equivariant%20diffusion%20models%20Lin%20Nature%202023",
+  "note": "No such Nature 2023 paper (Crossref/web); Lin+Ahdritz+'protein design' diffusion search: nothing; author list mixes ESM/OpenFold authors"
+ },
+ {
+  "id": "S34",
+  "category": "PLACEHOLDER",
+  "evidence_url": "https://arxiv.org/abs/2310.00746",
+  "note": "Author field is the stub 'Authors.' with no venue/identifier (RoleLLM itself is a real 2023 arXiv paper by Wang et al., but the entry is a deliberate stub)"
+ },
+ {
+  "id": "S35",
+  "category": "NOT_FOUND",
+  "evidence_url": "https://api.crossref.org/works?rows=5&query.bibliographic=Drift-aware%20domain%20adaptation%20for%20time-series%20analytics%20Zhou%20Li",
+  "note": "No title match (Crossref/web); Zhou/Li + keywords: nothing"
+ },
+ {
+  "id": "S36",
+  "category": "EXISTS",
+  "evidence_url": "https://api.crossref.org/works/10.1145/3626772.3661377",
+  "note": "Liu, Sheng, Hu et al., SIGIR 2024 tutorial 'Preventing and Detecting Misinformation Generated by Large Language Models', pp.3001-3004; entry omits authors, abbreviates title"
+ },
+ {
+  "id": "S37",
+  "category": "WEB_RESOURCE_EXISTS",
+  "evidence_url": "https://api.datacite.org/dois/10.17632/h2xjtc3b7s.1",
+  "note": "DataCite: Szwarcfiter, Mendeley Data v1, 2025, title matches; DOI resolves to data.mendeley.com/datasets/h2xjtc3b7s/1"
+ },
+ {
+  "id": "S38",
+  "category": "NOT_FOUND",
+  "evidence_url": "https://api.crossref.org/works?rows=5&query.bibliographic=Business%20process-oriented%20alert%20correlation%20Lange%20Geis%20Hein%20IFIP/IEEE%20IM%202015",
+  "note": "No title match (Crossref, web x2); Lange/Geis/Hein + alert correlation IM 2015: nothing"
+ },
+ {
+  "id": "S39",
+  "category": "EXISTS_CORRUPTED",
+  "evidence_url": "http://export.arxiv.org/api/query?max_results=5&search_query=ti%3ASciAgents",
+  "note": "Real: Ghafarollahi & Buehler 2024 arXiv:2409.05556 'SciAgents: Automating scientific discovery through multi-agent intelligent graph reasoning'. Wrong [authors][year][identifier][title]; 2211.07292 = "
+ },
+ {
+  "id": "S40",
+  "category": "NOT_FOUND",
+  "evidence_url": "https://api.crossref.org/works?rows=5&query.bibliographic=Automation%20bias%20and%20human-AI%20decision-making%3A%20A%20socio-technical%20perspective%20Mittelstadt%20AI%20%26%20Society",
+  "note": "No title match (Crossref/web); Mittelstadt + automation bias + AI & Society: nothing"
+ },
+ {
+  "id": "S41",
+  "category": "NOT_FOUND",
+  "evidence_url": "https://api.crossref.org/works?rows=5&query.bibliographic=A%20joint%20statistical%20framework%20for%20material%20decomposition%20and%20image%20reconstruction%20in%20spectral%20CT%20Zhang%20Stayman%20Siewerdsen",
+  "note": "No title match (Crossref/web); Zhang/Stayman/Siewerdsen + keywords: no such TMI 2016 paper; author list garbled ('G. L. C. D. G. Nuyts')"
+ },
+ {
+  "id": "S42",
+  "category": "EXISTS_CORRUPTED",
+  "evidence_url": "https://api.crossref.org/works/10.1145/2612669.2612692",
+  "note": "No paper with this title (Crossref/web); same authors+venue+year = Shun, Dhulipala, Blelloch 'A simple and practical linear-work parallel algorithm for connectivity', SPAA 2014 pp.143-153. Wrong [titl"
+ },
+ {
+  "id": "S43",
+  "category": "EXISTS_CORRUPTED",
+  "evidence_url": "https://api.crossref.org/works/10.3352/jeehp.2025.22.4",
+  "note": "Real: Lee J, Lee J, Yoo J 2025 'The role of large language models in the peer-review process: ...', J Educ Eval Health Prof 22:4. Wrong [venue] (not Frontiers in Big Data)"
+ },
+ {
+  "id": "S44",
+  "category": "EXISTS",
+  "evidence_url": "https://transformer-circuits.pub/2021/framework/index.html",
+  "note": "Elhage et al. 2021, Transformer Circuits Thread; page live (200)"
+ },
+ {
+  "id": "S45",
+  "category": "WEB_RESOURCE_EXISTS",
+  "evidence_url": "https://codelibrary.amlegal.com/codes/san_francisco/latest/sf_transportation/0-0-0-52255",
+  "note": "URL is indexed as SF Transportation Code 'SEC. 305. TOWING AND STORAGE FEES' (site blocks scripts, no Wayback copy); entry's section number 320 differs from page (305)"
+ },
+ {
+  "id": "S46",
+  "category": "NOT_FOUND",
+  "evidence_url": "https://api.crossref.org/works/10.1016/j.jenvman.2023.117310",
+  "note": "No title match (Crossref/web); J Environ Manage 331:117310 is Morris et al. (mangrove living shorelines); Chung/Le + keywords: nothing"
+ },
+ {
+  "id": "S47",
+  "category": "NOT_FOUND",
+  "evidence_url": "https://api.crossref.org/works/10.1016/j.media.2021.102257",
+  "note": "No title match (Crossref/web); Med Image Anal 75:102257 is Ravi et al. (brain scan simulations); He/Wang/Ma + keywords: nothing"
+ },
+ {
+  "id": "S48",
+  "category": "EXISTS_CORRUPTED",
+  "evidence_url": "https://api.crossref.org/works/10.3389/fcomm.2024.1402788",
+  "note": "Real: Essex MN, Blakeman KH, Dietrich CE, Arnheim-Dahlstrom L, Front Commun 9:1402788 (2024); first author OK, 3 co-authors invented. Wrong [authors]"
+ },
+ {
+  "id": "S49",
+  "category": "NOT_FOUND",
+  "evidence_url": "https://api.crossref.org/works?rows=5&query.bibliographic=ADEPTUS%3A%20Anomaly-Driven%20and%20Event-Prioritized%20Triage%20for%20Unified%20Security%20Ohana%20CCS%202022",
+  "note": "No 'ADEPTUS' paper (Crossref/web); Ohana + keywords: nothing"
+ },
+ {
+  "id": "S50",
+  "category": "EXISTS_CORRUPTED",
+  "evidence_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=37641012",
+  "note": "Real: Kundu RN, Ghosh A, Chhetri B, Saha I, Hossain MG, Bharati P 2023 BMC Pregnancy Childbirth 23:616; first author Kundu omitted, title paraphrased. Wrong [authors]"
+ },
+ {
+  "id": "S51",
+  "category": "EXISTS",
+  "evidence_url": "http://web.cs.wpi.edu/~leenar/publications/MainAssistmentPaperCR.pdf",
+  "note": "Razzaq et al. 2005, AIED-12 pp.555-562; WPI camera-ready PDF has the same 17-author list under variant title 'Blending Assessment and Instructional Assisting'; '0231773' = NSF grant no."
+ },
+ {
+  "id": "S52",
+  "category": "EXISTS_CORRUPTED",
+  "evidence_url": "http://export.arxiv.org/api/query?max_results=5&search_query=ti%3A%22Qwen2-VL%22",
+  "note": "Real: Wang et al. 2024 arXiv:2409.12191 'Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution'. Wrong [title-subtitle][identifier] (2407.10372 = MPAT)"
+ },
+ {
+  "id": "S53",
+  "category": "NOT_FOUND",
+  "evidence_url": "https://api.crossref.org/works/10.1016/j.ipm.2023.103547",
+  "note": "IP&M 61:103547 is Moffat 2024 (search-engine sort metrics); no title match (Crossref/web); Pan + keywords: nothing"
+ },
+ {
+  "id": "S54",
+  "category": "NOT_FOUND",
+  "evidence_url": "https://api.crossref.org/works/10.1016/S0140-6736(20)32556-5",
+  "note": "DOI not registered (404); no 'GBD 2020' CVD paper; title/collaborator group/vol/pages match no GBD paper (Crossref/web). Nearest real: Roth et al. 2020 JACC 76:2982 (GBD 2019)"
+ },
+ {
+  "id": "S55",
+  "category": "EXISTS",
+  "evidence_url": "https://arxiv.org/abs/2503.12749v1",
+  "note": "arXiv:2503.12749v1 (2025-03-17) 'Matrix phase-space representations in quantum optics', Drummond, Dellios, Reid (later versions retitled); author order garbled in entry"
+ },
+ {
+  "id": "S56",
+  "category": "WEB_RESOURCE_EXISTS",
+  "evidence_url": "http://web.archive.org/web/20251013212004/https://www.bureauworks.com/ko/blog/daegyumo-eoneo-modeli-mueosingayo",
+  "note": "URL live (200, redirects to wxrks.com) and archived; slug is the romanised Korean title"
+ },
+ {
+  "id": "S57",
+  "category": "NOT_FOUND",
+  "evidence_url": "https://arxiv.org/abs/2204.11117",
+  "note": "arXiv id resolves to Padmakumar et al. (multi-task learning); no paper with this title (arXiv/web); Lazaridou's 2022 QA paper is 'Internet-augmented language models...' (2203.05115), different title"
+ },
+ {
+  "id": "S58",
+  "category": "NOT_FOUND",
+  "evidence_url": "https://api.crossref.org/works/10.1016/j.csite.2024.104332",
+  "note": "CSTE 57:104332 is Khedher et al. (multiphase flow); no title match (Crossref/web); Liu + keywords: nothing"
+ },
+ {
+  "id": "S59",
+  "category": "EXISTS",
+  "evidence_url": "https://api.crossref.org/works/10.22418/JSS.2023.12.62.3.403",
+  "note": "Kim Bo Kyoung 2023, Journal of Social Science (Kangwon) 62(3):403-427; DOI resolves (DBpia NODE11658610); title matches"
+ },
+ {
+  "id": "S60",
+  "category": "NOT_FOUND",
+  "evidence_url": "https://api.crossref.org/works?rows=5&query.bibliographic=MXFusion%3A%20A%20flexible%20and%20extensible%20autotuner%20for%20deep%20learning%20Ansor",
+  "note": "No such paper (Crossref/web); 'Ansor' is a system (Zheng et al. OSDI 2020) used as an author; MXFusion is a probabilistic-programming library, not an autotuner"
+ },
+ {
+  "id": "S61",
+  "category": "EXISTS_CORRUPTED",
+  "evidence_url": "http://export.arxiv.org/api/query?max_results=5&search_query=ti%3ARobustFill",
+  "note": "Real: Devlin, Uesato, Bhupatiraju, Singh, Mohamed, Kohli 'RobustFill: Neural Program Learning under Noisy I/O', ICML 2017 (arXiv:1703.07469). Wrong [authors][venue]; title slightly altered"
+ },
+ {
+  "id": "S62",
+  "category": "NOT_FOUND",
+  "evidence_url": "https://api.crossref.org/works?rows=5&query.bibliographic=Energy-saving%20behaviors%20in%20laboratory%20settings%3A%20The%20shut%20the%20sash%20campaign%20at%20Harvard%20University%20Brown%20Davis",
+  "note": "No title match (Crossref/web); Harvard 'Shut the Sash' is a real program but no J Environ Manage 230 paper by Brown & Davis"
+ },
+ {
+  "id": "S63",
+  "category": "NOT_FOUND",
+  "evidence_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&term=%22J%20Mol%20Cell%20Cardiol%22%5BJournal%5D%20AND%2076%5Bvi%5D%20AND%201%5Bpg%5D%20AND%202014%5Bdp%5D",
+  "note": "JMCC 76:1-11 (2014) is Pinali & Kitmitto; no lysine-acetylation/cardiac-fibrosis title (PubMed/Crossref/web); Kong P et al. 2014 CMLS 'The pathogenesis of cardiac fibrosis' has different title/venue"
+ },
+ {
+  "id": "S64",
+  "category": "EXISTS",
+  "evidence_url": "https://api.crossref.org/works/10.1056/NEJMoa1204166",
+  "note": "DOI, Euvrard et al., NEJM 367(4):329-339, 2012 all correct; title reworded (real: 'Sirolimus and Secondary Skin-Cancer Prevention in Kidney Transplantation'). Borderline"
+ },
+ {
+  "id": "S65",
+  "category": "EXISTS",
+  "evidence_url": "https://api.crossref.org/works/10.1103/PhysRevLett.96.181602",
+  "note": "Ryu & Takayanagi 2006, PRL 96(18):181602; title abbreviated (AdS/CFT)"
+ },
+ {
+  "id": "S66",
+  "category": "NOT_FOUND",
+  "evidence_url": "https://api.crossref.org/works?rows=5&query.bibliographic=ACL%20rolling%20review%3A%20A%20new%20approach%20to%20peer%20review%20in%20NLP%20Transactions%20of%20the%20Association%20for%20Computational%20Linguistics%202021",
+  "note": "No such TACL 2021 article (Crossref/web); ACL Rolling Review exists only as a web platform (aclrollingreview.org), not as this article"
+ },
+ {
+  "id": "S67",
+  "category": "EXISTS_CORRUPTED",
+  "evidence_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=34395716",
+  "note": "Real: Stewart AG, Paterson DL, Young B et al. (MERINO-2), Open Forum Infect Dis 8(8):ofab387, 2021. Wrong [authors][venue][year]"
+ },
+ {
+  "id": "S68",
+  "category": "EXISTS_CORRUPTED",
+  "evidence_url": "https://aclanthology.org/P13-1088/",
+  "note": "Real: Hermann & Blunsom 2013 'The Role of Syntax in Vector Space Models of Compositional Semantics', ACL 2013 pp.894-904. Wrong [title][identifier] (1310.4578 = Bertolli et al.)"
+ },
+ {
+  "id": "S69",
+  "category": "EXISTS",
+  "evidence_url": "https://openlibrary.org/search.json?limit=5&title=Deep%20Learning&author=Goodfellow",
+  "note": "Goodfellow, Bengio, Courville, Deep Learning, MIT Press 2016; duplicated 'Yoshua Bengio' is a formatting glitch"
+ },
+ {
+  "id": "S70",
+  "category": "EXISTS",
+  "evidence_url": "https://openreview.net/forum?id=IWC6zUEVcL",
+  "note": "OpenReview (ICLR 2024 submission), authors Zheng, Lin, He, Wang, Zheng, Fu, Fu, Liang, 2023; also arXiv:2310.08367 (MCU)"
+ },
+ {
+  "id": "S71",
+  "category": "NOT_FOUND",
+  "evidence_url": "https://api.crossref.org/works/10.1016/j.jnca.2020.102693",
+  "note": "JNCA 102693 is Nguyen et al. 'Blockchain for 5G...' (vol 166); no title match (Crossref/web); author list garbled"
+ },
+ {
+  "id": "S72",
+  "category": "NOT_FOUND",
+  "evidence_url": "https://api.crossref.org/works/10.1016/j.apenergy.2022.118514",
+  "note": "DOI not registered (404); no title match (Crossref/web); Martinez/Green + keywords: nothing"
+ },
+ {
+  "id": "S73",
+  "category": "EXISTS_CORRUPTED",
+  "evidence_url": "https://arxiv.org/abs/2302.11864",
+  "note": "Real: Linkerhagner, Freymuth, Paul Maria Scheikl, Mathis-Ullrich, Neumann, ICLR 2023; title/venue/year OK but co-authors wrong ('Philipp Michael Scheikl', 'Osman S. Cicek' not authors). Wrong [authors"
+ },
+ {
+  "id": "S74",
+  "category": "EXISTS",
+  "evidence_url": "https://www.taylorfrancis.com/chapters/edit/10.4324/9781315163291-4/soccer-j%C3%BCrgen-perl-daniel-memmert",
+  "note": "Ch.4 'Soccer: Process and interaction', Perl & Memmert, in Baca & Perl (eds.), Routledge 2018, pp.73-94 (entry: 63-83); DOI 10.4324/9781315163291-4"
+ },
+ {
+  "id": "S75",
+  "category": "EXISTS",
+  "evidence_url": "https://arxiv.org/abs/2304.05202",
+  "note": "Qu et al., ACT DR6 CMB lensing power spectrum, ApJ 2024 (arXiv:2304.05202); author list matches"
+ },
+ {
+  "id": "S76",
+  "category": "EXISTS",
+  "evidence_url": "https://www.scientificamerican.com/article/chatgpt-and-gemini-ai-have-uniquely-different-writing-styles/",
+  "note": "Scientific American, July 2025, Karolina Rudnicka; title matches"
+ },
+ {
+  "id": "S77",
+  "category": "EXISTS",
+  "evidence_url": "https://ora.ox.ac.uk/objects/uuid:2e195927-0229-43bf-aeb3-e0645bbc551a",
+  "note": "ORA record: Duporge I, 2021, Oxford DPhil thesis; title matches"
+ },
+ {
+  "id": "S78",
+  "category": "EXISTS_CORRUPTED",
+  "evidence_url": "https://api.crossref.org/works/10.3115/1073336.1073339",
+  "note": "No paper with this title (Crossref/web); Walker + 'trainable sentence planner' identifies SPoT (Walker, Rambow, Rogati, NAACL 2001; CSL 2002). Wrong [title][year][venue]. Borderline"
+ },
+ {
+  "id": "S79",
+  "category": "EXISTS_CORRUPTED",
+  "evidence_url": "http://export.arxiv.org/api/query?max_results=5&search_query=ti%3A%22Synthesis%20of%20realistic%20ECG%22",
+  "note": "Real: Delaney, Brophy, Ward 2019 arXiv:1909.09150. Wrong [authors][year][identifier] (2101.06809 = Quillen et al.); co-authors taken from Brophy's 2021 GAN survey"
+ },
+ {
+  "id": "S80",
+  "category": "EXISTS",
+  "evidence_url": "http://web.archive.org/web/20220120152830/https://www.ideals.illinois.edu/handle/2142/26330",
+  "note": "IDEALS record: Jottar Awad, Juan I., 'Topics in gauge/gravity duality', PhD thesis, 2011-08; live hdl/IDEALS block scripts (403)"
+ },
+ {
+  "id": "S81",
+  "category": "EXISTS_CORRUPTED",
+  "evidence_url": "https://api.crossref.org/works/10.1089/ast.2012.0876",
+  "note": "Merged: authors/year/'ground-based...microgravity' = Herranz et al. 2013 Astrobiology 13(1):1-17; title/journal = Wang et al. 2016 MST 28(1):59-66 '2-D Clinostat...Arabidopsis Seedlings'. Wrong [title"
+ },
+ {
+  "id": "S82",
+  "category": "NOT_FOUND",
+  "evidence_url": "https://api.crossref.org/works?rows=5&query.bibliographic=MatchMaker%3A%20cooperative%20multi-agent%20policy%20for%20drug-drug%20interaction%20mining%20Chen",
+  "note": "No such paper (Crossref/web); MatchMaker (Kuru et al. 2021, drug synergy, IEEE/ACM TCBB) is different topic/authors; Chen + keywords: nothing"
+ },
+ {
+  "id": "S83",
+  "category": "WEB_RESOURCE_EXISTS",
+  "evidence_url": "https://futureoflife.org/document/fli-ai-safety-index-2024/",
+  "note": "FLI AI Safety Index 2024 page live (200)"
+ },
+ {
+  "id": "S84",
+  "category": "NOT_FOUND",
+  "evidence_url": "https://api.crossref.org/works?rows=5&query.bibliographic=Transformer-based%20adaptive%20drift%20detection%20in%20time%20series%20Tuli%20Pattern%20Recognition%20Letters",
+  "note": "No title match (Crossref/web); Tuli's 2022 work is TranAD (VLDB), different title/venue"
+ },
+ {
+  "id": "S85",
+  "category": "EXISTS",
+  "evidence_url": "https://proceedings.mlr.press/v9/glorot10a.html",
+  "note": "Glorot & Bengio 2010, AISTATS, PMLR 9:249-256; venue omitted in entry"
+ },
+ {
+  "id": "S86",
+  "category": "EXISTS",
+  "evidence_url": "https://openlibrary.org/search.json?limit=5&title=Mind%20Children&author=Moravec",
+  "note": "Moravec, Mind Children, Harvard University Press 1988"
+ },
+ {
+  "id": "S87",
+  "category": "EXISTS",
+  "evidence_url": "http://export.arxiv.org/api/query?max_results=5&search_query=ti%3Ahallucination%20AND%20ti%3A%22known%20facts%22%20AND%20au%3AJiang",
+  "note": "Che Jiang et al. 2024 (NAACL 2024) 'On Large Language Models' Hallucination with Regard to Known Facts'; entry says 'Known Knowledge' and initial Z (typo-level)"
+ },
+ {
+  "id": "S88",
+  "category": "EXISTS",
+  "evidence_url": "https://www.geog.com.cn/EN/10.11821/xb199802004",
+  "note": "Qian Zhi 1998, Acta Geographica Sinica 53(2):123-131; DOI resolves; title matches"
+ },
+ {
+  "id": "S89",
+  "category": "WEB_RESOURCE_EXISTS",
+  "evidence_url": "https://www.govinfo.gov/app/details/FR-2018-06-19/2018-13187",
+  "note": "govinfo page live (200); FR doc 2018-13187, final rule of June 19, 2018"
+ },
+ {
+  "id": "S90",
+  "category": "EXISTS_CORRUPTED",
+  "evidence_url": "https://api.crossref.org/works/10.1002/2017jd026912",
+  "note": "Real: Richter et al. 2017 JGR-Atmos 122(23) 'Stratospheric Dynamical Response and Ozone Feedbacks in the Presence of SO2 Injections'; title tail rewritten (QBO); authors partly altered (Rasch, Gettelm"
+ }
+]

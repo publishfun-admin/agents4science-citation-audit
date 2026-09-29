@@ -70,8 +70,10 @@ def main():
             if not isinstance(d, dict): continue
             if not d.get('second_pass'):
                 stem_no = int(os.path.basename(f).split('_')[0]) if os.path.basename(f).split('_')[0].isdigit() else 0
-                if stem_no % int(os.environ.get('NSHARDS', 1)) == int(os.environ.get('SHARD', 0)): todo.append((f, d))
+                sh = os.environ.get('SHARD', '0'); sh = int(sh) if sh.isdigit() else 0
+                if stem_no % int(os.environ.get('NSHARDS', 1)) == sh: todo.append((f, d))
         if not todo:
+            if os.environ.get('ONCE'): break
             idle += 1
             if idle > 40 and len(files) >= 310: break
             time.sleep(30); continue

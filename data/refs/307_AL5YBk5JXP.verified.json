@@ -4,7 +4,9 @@
  "fallback": false,
  "error": null,
  "linenumbers_stripped": true,
- "parser_version": 3,
+ "two_column": false,
+ "parser_version": 4,
+ "reprocessed": true,
  "entries": [
   {
    "junk": false,
@@ -37,7 +39,7 @@
     "first_author": "Cai",
     "container": "Proceedings of the 30th ACM International Conference on Information &amp; Knowledge Management",
     "type": "proceedings-article",
-    "score": 58.750954
+    "score": 58.77016
    },
    "metrics": {
     "title_sim": 100.0,
@@ -68,30 +70,22 @@
    "type": null,
    "parser": "anystyle-find",
    "verdict": "VERIFIED",
-   "via": "crossref",
+   "via": "arxiv_id",
    "match": {
-    "source": "crossref",
-    "doi": "10.1109/tkde.2025.3621291",
+    "source": "arxiv",
+    "arxiv": "2405.00476",
     "title": "A Comprehensive Survey of Dynamic Graph Neural Networks: Models, Frameworks, Benchmarks, Experiments and Challenges",
-    "year": 2026,
-    "first_author": "Feng",
-    "container": "IEEE Transactions on Knowledge and Data Engineering",
-    "type": "journal-article",
-    "score": 62.145855
+    "year": 2024,
+    "first_author": "ZhengZhao Feng"
    },
    "metrics": {
     "title_sim": 100.0,
     "containment": 1.0,
     "partial_ratio": 100.0,
-    "year_ok": false,
+    "year_ok": true,
     "first_author_ok": true
    },
-   "evidence": [
-    {
-     "step": "arxiv_id_not_found",
-     "arxiv": "2405.00476"
-    }
-   ]
+   "evidence": []
   },
   {
    "junk": false,
@@ -120,7 +114,7 @@
     "first_author": "Abadi",
     "container": "Proceedings of the 2016 ACM SIGSAC Conference on Computer and Communications Security",
     "type": "proceedings-article",
-    "score": 24.843359
+    "score": 24.869057
    },
    "metrics": {
     "title_sim": 100.0,
@@ -158,7 +152,7 @@
     "first_author": "Grasso",
     "container": "Frontiers in Big Data",
     "type": "journal-article",
-    "score": 59.676346
+    "score": 59.67522
    },
    "metrics": {
     "title_sim": 100.0,
@@ -195,7 +189,7 @@
     "first_author": "Hosseinzadeh",
     "container": "Network Modeling Analysis in Health Informatics and Bioinformatics",
     "type": "journal-article",
-    "score": 40.878925
+    "score": 40.880905
    },
    "metrics": {
     "title_sim": 100.0,
@@ -240,7 +234,7 @@
     "first_author": "Huang",
     "container": "Advances in Neural Information Processing Systems 36",
     "type": "proceedings-article",
-    "score": 53.051056
+    "score": 53.069164
    },
    "metrics": {
     "title_sim": 100.0,
@@ -278,7 +272,7 @@
     "first_author": "Hulovatyy",
     "container": "Bioinformatics",
     "type": "journal-article",
-    "score": 69.34844
+    "score": 69.35668
    },
    "metrics": {
     "title_sim": 100.0,
@@ -311,47 +305,13 @@
    "type": null,
    "parser": "anystyle-find",
    "verdict": "VERIFIED",
-   "evidence": [
-    {
-     "step": "arxiv_id_not_found",
-     "arxiv": "2405.11868"
-    },
-    {
-     "step": "crossref_best_reject",
-     "rec": {
-      "source": "crossref",
-      "doi": "10.1016/j.inffus.2026.104304",
-      "title": "Towards graph concept-cognitive learning: A survey and beyond",
-      "year": 2026,
-      "first_author": "Hao",
-      "container": "Information Fusion",
-      "type": "journal-article",
-      "score": 30.318493
-     },
-     "metrics": {
-      "title_sim": 89.47368421052632,
-      "containment": 0.667,
-      "partial_ratio": 85.0,
-      "year_ok": false,
-      "first_author_ok": false
-     }
-    }
-   ],
-   "likely_match": null,
-   "via": "s2",
+   "via": "arxiv_id",
    "match": {
-    "source": "s2",
-    "id": "7b10dedde6d45775e01ef3b4751ca7679a78f298",
+    "source": "arxiv",
+    "arxiv": "2405.11868",
     "title": "Towards Graph Contrastive Learning: A Survey and Beyond",
     "year": 2024,
-    "first_author": "Wei Ju",
-    "container": "arXiv.org",
-    "ext": {
-     "ArXiv": "2405.11868",
-     "DBLP": "journals/corr/abs-2405-11868",
-     "DOI": "10.48550/arXiv.2405.11868",
-     "CorpusId": 269921647
-    }
+    "first_author": "Wei Ju"
    },
    "metrics": {
     "title_sim": 100.0,
@@ -360,7 +320,7 @@
     "year_ok": true,
     "first_author_ok": true
    },
-   "second_pass_hit": true
+   "evidence": []
   },
   {
    "junk": false,
@@ -391,7 +351,7 @@
     "first_author": "Haga",
     "container": "",
     "type": "posted-content",
-    "score": 31.582027
+    "score": 31.580616
    },
    "metrics": {
     "title_sim": 100.0,
@@ -430,7 +390,7 @@
     "first_author": "Kovanen",
     "container": "Proceedings of the National Academy of Sciences",
     "type": "journal-article",
-    "score": 86.74345
+    "score": 86.74952
    },
    "metrics": {
     "title_sim": 100.0,
@@ -458,6 +418,24 @@
    "type": "article-journal",
    "parser": "anystyle-find",
    "verdict": "VERIFIED",
+   "via": "openalex",
+   "match": {
+    "source": "openalex",
+    "id": "https://openalex.org/W2952099486",
+    "doi": "https://doi.org/10.48550/arxiv.1606.07550",
+    "title": "SNAP: A General Purpose Network Analysis and Graph Mining Library",
+    "year": 2016,
+    "first_author": "Jure Leskovec",
+    "container": "arXiv (Cornell University)",
+    "type": "preprint"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -469,7 +447,7 @@
       "first_author": "Yang",
       "container": "2012 IEEE 12th International Conference on Data Mining",
       "type": "proceedings-article",
-      "score": 33.14718
+      "score": 33.15282
      },
      "metrics": {
       "title_sim": 50.38167938931298,
@@ -479,34 +457,7 @@
       "first_author_ok": false
      }
     }
-   ],
-   "likely_match": null,
-   "via": "s2",
-   "match": {
-    "source": "s2",
-    "id": "10aa9ee7caaf9381b6a0468ae899a9729824a6b7",
-    "title": "SNAP: A General Purpose Network Analysis and Graph Mining Library",
-    "year": 2016,
-    "first_author": "J. Leskovec",
-    "container": "ACM Transactions on Intelligent Systems and Technology",
-    "ext": {
-     "ArXiv": "1606.07550",
-     "MAG": "2469279958",
-     "PubMedCentral": "5361061",
-     "DBLP": "journals/corr/LeskovecS16",
-     "DOI": "10.1145/2898361",
-     "CorpusId": 2601163,
-     "PubMed": "28344853"
-    }
-   },
-   "metrics": {
-    "title_sim": 100.0,
-    "containment": 1.0,
-    "partial_ratio": 100.0,
-    "year_ok": true,
-    "first_author_ok": true
-   },
-   "second_pass_hit": true
+   ]
   },
   {
    "junk": false,
@@ -534,7 +485,7 @@
     "first_author": "Liu",
     "container": "Proceedings of the 29th ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
     "type": "proceedings-article",
-    "score": 47.511642
+    "score": 47.51278
    },
    "metrics": {
     "title_sim": 100.0,
@@ -572,7 +523,7 @@
     "first_author": "Liu",
     "container": "2022 IEEE 38th International Conference on Data Engineering (ICDE)",
     "type": "proceedings-article",
-    "score": 44.361923
+    "score": 44.295837
    },
    "metrics": {
     "title_sim": 100.0,
@@ -614,7 +565,7 @@
     "first_author": "Liu",
     "container": "IEEE Transactions on Knowledge and Data Engineering",
     "type": "journal-article",
-    "score": 35.546097
+    "score": 35.54142
    },
    "metrics": {
     "title_sim": 100.0,
@@ -652,7 +603,7 @@
     "first_author": "Paranjape",
     "container": "Proceedings of the Tenth ACM International Conference on Web Search and Data Mining",
     "type": "proceedings-article",
-    "score": 38.09122
+    "score": 38.102177
    },
    "metrics": {
     "title_sim": 100.0,
@@ -696,7 +647,7 @@
     "first_author": "Pareja",
     "container": "Proceedings of the AAAI Conference on Artificial Intelligence",
     "type": "journal-article",
-    "score": 58.784576
+    "score": 58.62107
    },
    "metrics": {
     "title_sim": 100.0,
@@ -734,7 +685,7 @@
     "first_author": "Porter",
     "container": "Companion Proceedings of the Web Conference 2022",
     "type": "proceedings-article",
-    "score": 48.467255
+    "score": 48.46502
    },
    "metrics": {
     "title_sim": 100.0,
@@ -775,7 +726,7 @@
     "first_author": "Pang",
     "container": "",
     "type": "component",
-    "score": 44.70981
+    "score": 44.713913
    },
    "metrics": {
     "title_sim": 100.0,
@@ -807,47 +758,13 @@
    "type": null,
    "parser": "anystyle-find",
    "verdict": "VERIFIED",
-   "evidence": [
-    {
-     "step": "arxiv_id_not_found",
-     "arxiv": "2006.10637"
-    },
-    {
-     "step": "crossref_best_reject",
-     "rec": {
-      "source": "crossref",
-      "doi": "10.23919/eusipco47968.2020.9287661",
-      "title": "Dynamic K-Graphs: an Algorithm for Dynamic Graph Learning and Temporal Graph Signal Clustering",
-      "year": 2021,
-      "first_author": "Araghi",
-      "container": "2020 28th European Signal Processing Conference (EUSIPCO)",
-      "type": "proceedings-article",
-      "score": 38.173115
-     },
-     "metrics": {
-      "title_sim": 83.16831683168317,
-      "containment": 0.7,
-      "partial_ratio": 51.61290322580645,
-      "year_ok": true,
-      "first_author_ok": false
-     }
-    }
-   ],
-   "likely_match": null,
-   "via": "s2",
+   "via": "arxiv_id",
    "match": {
-    "source": "s2",
-    "id": "21ab210e28cb37e9ef0241850649a2963791f124",
+    "source": "arxiv",
+    "arxiv": "2006.10637",
     "title": "Temporal Graph Networks for Deep Learning on Dynamic Graphs",
     "year": 2020,
-    "first_author": "Emanuele Rossi",
-    "container": "arXiv.org",
-    "ext": {
-     "ArXiv": "2006.10637",
-     "DBLP": "journals/corr/abs-2006-10637",
-     "MAG": "3036685317",
-     "CorpusId": 219792342
-    }
+    "first_author": "Emanuele Rossi"
    },
    "metrics": {
     "title_sim": 100.0,
@@ -856,7 +773,7 @@
     "year_ok": true,
     "first_author_ok": true
    },
-   "second_pass_hit": true
+   "evidence": []
   },
   {
    "junk": false,
@@ -889,7 +806,7 @@
       "first_author": "Li",
       "container": "Neurocomputing",
       "type": "journal-article",
-      "score": 38.584274
+      "score": 38.599407
      },
      "metrics": {
       "title_sim": 88.27586206896552,
@@ -901,20 +818,16 @@
     }
    ],
    "likely_match": null,
-   "via": "s2",
+   "via": "openalex",
    "match": {
-    "source": "s2",
-    "id": "5b3c1f48229f779fc3c9d35ae67bf568cfdc3e2a",
-    "title": "DySAT: Deep Neural Representation Learning on Dynamic Graphs via Self-Attention Networks",
+    "source": "openalex",
+    "id": "https://openalex.org/W3161012769",
+    "doi": null,
+    "title": "DySAT Deep Neural Representation Learning on Dynamic Graphs via Self-Attention Networks",
     "year": 2020,
     "first_author": "Aravind Sankar",
-    "container": "Web Search and Data Mining",
-    "ext": {
-     "MAG": "2998116985",
-     "DBLP": "conf/wsdm/SankarWGZY20",
-     "DOI": "10.1145/3336191.3371845",
-     "CorpusId": 210884001
-    }
+    "container": "ACM Proceedings",
+    "type": "article"
    },
    "metrics": {
     "title_sim": 100.0,
@@ -923,7 +836,7 @@
     "year_ok": true,
     "first_author_ok": true
    },
-   "second_pass_hit": true
+   "carried_over_from": "parser_v4_run"
   },
   {
    "junk": false,
@@ -953,7 +866,7 @@
     "first_author": "Peng",
     "container": "Proceedings of The Web Conference 2020",
     "type": "proceedings-article",
-    "score": 49.310616
+    "score": 49.282776
    },
    "metrics": {
     "title_sim": 92.85714285714286,
@@ -994,7 +907,7 @@
     "first_author": null,
     "container": "",
     "type": "component",
-    "score": 36.267776
+    "score": 36.27085
    },
    "metrics": {
     "title_sim": 100.0,
@@ -1025,16 +938,13 @@
    "type": null,
    "parser": "anystyle-find",
    "verdict": "VERIFIED",
-   "via": "crossref",
+   "via": "arxiv_id",
    "match": {
-    "source": "crossref",
-    "doi": "10.1145/3669906",
+    "source": "arxiv",
+    "arxiv": "2406.00134",
     "title": "Anomaly Detection in Dynamic Graphs: A Comprehensive Survey",
     "year": 2024,
-    "first_author": "Ekle",
-    "container": "ACM Transactions on Knowledge Discovery from Data",
-    "type": "journal-article",
-    "score": 39.71952
+    "first_author": "Ocheme Anthony Ekle"
    },
    "metrics": {
     "title_sim": 100.0,
@@ -1043,12 +953,7 @@
     "year_ok": true,
     "first_author_ok": false
    },
-   "evidence": [
-    {
-     "step": "arxiv_id_not_found",
-     "arxiv": "2406.00134"
-    }
-   ]
+   "evidence": []
   },
   {
    "junk": false,
@@ -1077,7 +982,7 @@
     "first_author": "You",
     "container": "Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
     "type": "proceedings-article",
-    "score": 49.872765
+    "score": 49.872307
    },
    "metrics": {
     "title_sim": 100.0,
@@ -1118,7 +1023,7 @@
     "first_author": "Wang",
     "container": "",
     "type": "posted-content",
-    "score": 39.141182
+    "score": 39.10824
    },
    "metrics": {
     "title_sim": 100.0,
@@ -1159,7 +1064,7 @@
       "first_author": "Fu",
       "container": "2024 5th International Conference on Computer Vision, Image and Deep Learning (CVIDL)",
       "type": "proceedings-article",
-      "score": 29.174835
+      "score": 29.179161
      },
      "metrics": {
       "title_sim": 100.0,
@@ -1192,7 +1097,8 @@
     "year_ok": true,
     "first_author_ok": true
    },
-   "second_pass_hit": true
+   "second_pass_hit": true,
+   "carried_over_from": "parser_v4_run"
   },
   {
    "junk": false,
@@ -1226,7 +1132,7 @@
       "first_author": "Bansal",
       "container": "Neurocomputing",
       "type": "journal-article",
-      "score": 35.201786
+      "score": 35.200413
      },
      "metrics": {
       "title_sim": 80.31496062992126,
@@ -1260,7 +1166,8 @@
     "year_ok": true,
     "first_author_ok": true
    },
-   "second_pass_hit": true
+   "second_pass_hit": true,
+   "carried_over_from": "parser_v4_run"
   },
   {
    "junk": false,
@@ -1291,7 +1198,7 @@
     "first_author": "Zheng",
     "container": "Proceedings of the Twenty-Eighth International Joint Conference on Artificial Intelligence",
     "type": "proceedings-article",
-    "score": 75.88787
+    "score": 75.90234
    },
    "metrics": {
     "title_sim": 100.0,
@@ -1329,7 +1236,7 @@
     "first_author": "Zheng",
     "container": "Frontiers of Computer Science",
     "type": "journal-article",
-    "score": 38.5444
+    "score": 38.547806
    },
    "metrics": {
     "title_sim": 100.0,
@@ -1370,7 +1277,7 @@
     "first_author": "Zhu",
     "container": "Proceedings of the 29th ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
     "type": "proceedings-article",
-    "score": 67.785866
+    "score": 67.33598
    },
    "metrics": {
     "title_sim": 100.0,
@@ -1411,7 +1318,7 @@
     "first_author": "Zhu",
     "container": "Proceedings of the Web Conference 2021",
     "type": "proceedings-article",
-    "score": 45.9792
+    "score": 45.9604
    },
    "metrics": {
     "title_sim": 100.0,

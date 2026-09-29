@@ -1,0 +1,362 @@
+[
+ {
+  "id": "B01",
+  "category": "EXISTS",
+  "evidence_url": "https://arxiv.org/abs/2209.14375",
+  "note": "arXiv 2209.14375: Glaese et al. 2022; title and full author list match."
+ },
+ {
+  "id": "B02",
+  "category": "EXISTS",
+  "evidence_url": "https://arxiv.org/abs/2507.08219",
+  "note": "LVK Collaboration, 'GW231123: a Binary Black Hole Merger with Total Mass 190-265 Msun', arXiv 2507.08219 (2025); matches."
+ },
+ {
+  "id": "B03",
+  "category": "EXISTS",
+  "evidence_url": "https://www.jasss.org/9/1/13.html",
+  "note": "Salzarulo (2006) JASSS 9(1) 13 'A Continuous Opinion Dynamics Model Based on the Principle of Meta-Contrast'; matches."
+ },
+ {
+  "id": "B04",
+  "category": "EXISTS_CORRUPTED",
+  "evidence_url": "https://arxiv.org/abs/2103.15692",
+  "note": "Real: Samuel Schmidgall, 'Self-Constructing Neural Networks Through Random Mutation', ICLR 2021 NERL workshop. [title] rewritten; [authors] given name John vs Samuel, single author."
+ },
+ {
+  "id": "B05",
+  "category": "EXISTS_CORRUPTED",
+  "evidence_url": "https://arxiv.org/abs/2411.02382",
+  "note": "arXiv 2402.04247 resolves to Tang et al. 'Risks of AI Scientists'. Intended: G. Xiong et al. 2024 'Improving Scientific Hypothesis Generation with Knowledge Grounded LLMs'. [title] [identifier]"
+ },
+ {
+  "id": "B06",
+  "category": "WEB_RESOURCE_EXISTS",
+  "evidence_url": "https://wclp.org/wp-content/uploads/2019/03/TowedIntoDebt.Report.pdf",
+  "note": "Report PDF live (HTTP 200, application/pdf) and archived on Wayback 2026-05-04."
+ },
+ {
+  "id": "B07",
+  "category": "EXISTS_CORRUPTED",
+  "evidence_url": "https://api.crossref.org/works/10.1016/j.tvjl.2020.105505",
+  "note": "No such title/authors; Vet J 274:105699 unregistered. Intended: Burti et al. 2020 Vet J 262:105505 'Use of deep learning to detect cardiomegaly on thoracic radiographs in dogs'. [authors] [identifier]"
+ },
+ {
+  "id": "B08",
+  "category": "EXISTS",
+  "evidence_url": "https://www.chndoi.org/Resolution/Handler?doi=10.13653/j.cnki.jqte.20240925.001",
+  "note": "CNKI DOI registered 2024-09-25: 乘“数”而上：政府数据治理赋能企业数字创新, 李雪琴;郑酌基;韩先锋, 数量经济技术经济研究; matches."
+ },
+ {
+  "id": "B09",
+  "category": "EXISTS",
+  "evidence_url": "https://www.ifo.de/en/publications/2020/monograph-authorship/rohstoff-daten-volkswirtschaflicher-nutzen-von",
+  "note": "ifo Forschungsberichte 113 (2020), Falck & Koenen; matches."
+ },
+ {
+  "id": "B10",
+  "category": "WEB_RESOURCE_EXISTS",
+  "evidence_url": "https://www.anthropic.com/news/core-views-on-ai-safety",
+  "note": "Anthropic post 'Core views on AI safety: When, why, what, and how' (Mar 8, 2023); listed 2024 (within 1 year)."
+ },
+ {
+  "id": "B11",
+  "category": "EXISTS_CORRUPTED",
+  "evidence_url": "https://pubmed.ncbi.nlm.nih.gov/39697538/",
+  "note": "Real: Han J et al. 2024 Front Pharmacol 15:1476699 'New insights into SUMOylation and NEDDylation in fibrosis'. [title] rewritten."
+ },
+ {
+  "id": "B12",
+  "category": "NOT_FOUND",
+  "evidence_url": "https://api.crossref.org/works?rows=5&query.bibliographic=A%20dynamic%20rule-based%20alert%20prioritization%20technique%20using%20contextual%20information%20Bassey",
+  "note": "Exact title: Crossref + web search no hit; JISA 82:103755 is a different article. Bassey+keywords: only C. Bassey et al. 2024 Saudi J Eng Tech, different title/co-authors/venue."
+ },
+ {
+  "id": "B13",
+  "category": "EXISTS",
+  "evidence_url": "https://openreview.net/forum?id=4aWzNhmq4K",
+  "note": "Zhu, Zhang, Lin, Mei; NeurIPS 2024 SafeGenAI workshop; matches (trailing CVPR pages text is a parse artefact)."
+ },
+ {
+  "id": "B14",
+  "category": "EXISTS_CORRUPTED",
+  "evidence_url": "https://arxiv.org/abs/2401.13481",
+  "note": "Real: Ashkinaze, Mendelsohn, Qiwei, Budak, Gilbert 2024 (arXiv; ACM CI 2025). [authors] first author wrong (Mendelsohn is 2nd); [venue] not Nature Human Behaviour."
+ },
+ {
+  "id": "B15",
+  "category": "EXISTS_CORRUPTED",
+  "evidence_url": "https://api.crossref.org/works/10.1145/3243734.3243811",
+  "note": "Real: Shen, Mariconti, Vervier, Stringhini 'Tiresias: Predicting Security Events Through Deep Learning', CCS 2018 pp.592-605. [title] rewritten; [authors] co-authors wrong; pages wrong."
+ },
+ {
+  "id": "B16",
+  "category": "EXISTS_CORRUPTED",
+  "evidence_url": "https://api.crossref.org/works/10.1093/nar/gkac1074",
+  "note": "Real: Wu L et al. 2023 NAR 51(D1):D1432-D1445 'TOXRIC: a comprehensive database of toxicological data and benchmarks'. [authors] first author wrong; [title] rewritten; pages wrong."
+ },
+ {
+  "id": "B17",
+  "category": "EXISTS_CORRUPTED",
+  "evidence_url": "https://api.crossref.org/works/10.1080/0144929X.2025.2469659",
+  "note": "Real: Kaate et al. 2025 Behav Inf Technol 44(16) 'The fourth wall and other usability issues in AI-generated personas'. [title] rewritten as HRI survey; [venue] not PACM HCI."
+ },
+ {
+  "id": "B18",
+  "category": "EXISTS_CORRUPTED",
+  "evidence_url": "https://arxiv.org/abs/2306.12700",
+  "note": "Real: Xin Yuan, Savarese, Maire 'Accelerated Training via Incrementally Growing Neural Networks using Variance Transfer...' NeurIPS 2023. [title] garbled; [venue] not ICLR; given name Lei vs Xin."
+ },
+ {
+  "id": "B19",
+  "category": "EXISTS_CORRUPTED",
+  "evidence_url": "https://api.crossref.org/works/10.1038/s41598-025-06627-0",
+  "note": "Real: Wang J, Wang L 2025 Sci Rep 15:22874 'The impact of intelligent devices utilization on household medical expenditure of older adults in China' (uses CLASS 2020). [title] subtitle rewritten."
+ },
+ {
+  "id": "B20",
+  "category": "EXISTS_CORRUPTED",
+  "evidence_url": "https://api.crossref.org/works/10.1101/2020.03.07.982272",
+  "note": "Real ProGen: Madani et al., bioRxiv 2020. Listed authors are the ProGen2 authors (Nijkamp et al. 2022, arXiv 2206.13517) plus invented names. [authors] [year]"
+ },
+ {
+  "id": "B21",
+  "category": "EXISTS_CORRUPTED",
+  "evidence_url": "https://api.crossref.org/works/10.1016/j.cose.2014.12.003",
+  "note": "Real: Shittu, Healing, Ghanea-Hercock, Bloomfield, Rajarajan 2015 Comput Secur 50:1-15 (framework named ACSAnIA). No Shittu paper at ICITST 2015. [title] [authors] [venue]"
+ },
+ {
+  "id": "B22",
+  "category": "EXISTS_CORRUPTED",
+  "evidence_url": "https://pubmed.ncbi.nlm.nih.gov/31066443/",
+  "note": "Real DrugComb: Zagidullin et al. 2019 NAR 47(W1):W43 (update Zheng 2021). [title] synergy vs combination; [authors] O'Neil et al. not authors; [year]; [identifier] gkab1007 = Ensembl Genomes 2022."
+ },
+ {
+  "id": "B23",
+  "category": "EXISTS",
+  "evidence_url": "https://aclanthology.org/N19-1423/",
+  "note": "Devlin, Chang, Lee, Toutanova, BERT, NAACL-HLT 2019; truncated title only."
+ },
+ {
+  "id": "B24",
+  "category": "EXISTS_CORRUPTED",
+  "evidence_url": "https://api.crossref.org/works/10.1016/j.matt.2021.06.036",
+  "note": "Real: Stach et al. 2021 Matter 4(9):2702-2726 'Autonomous experimentation systems for materials development: A community perspective'. [title] subtitle rewritten; [venue] not APL Materials."
+ },
+ {
+  "id": "B25",
+  "category": "EXISTS_CORRUPTED",
+  "evidence_url": "https://pubmed.ncbi.nlm.nih.gov/28446243/",
+  "note": "Listed title not found (Crossref/PubMed/web). Nearest: Maksymetz, Moran, Conn 2017 Mol Brain 10:15 'Targeting mGlu receptors for novel treatments of schizophrenia'. [title] [authors] [venue]"
+ },
+ {
+  "id": "B26",
+  "category": "EXISTS_CORRUPTED",
+  "evidence_url": "https://api.crossref.org/works/10.1145/3706598.3713477",
+  "note": "Real: Xianzhe Fan et al., CHI 2025 'User-Driven Value Alignment: Understanding Users Perceptions and Strategies for Addressing Biased ... in AI Companions'. [title] subtitle rewritten; [venue]"
+ },
+ {
+  "id": "B27",
+  "category": "EXISTS_CORRUPTED",
+  "evidence_url": "https://dblp.org/rec/conf/aaai/LaszkaVFYM17.html",
+  "note": "Real: Laszka, Vorobeychik, Fabbri, Yan, Malin 'A Game-Theoretic Approach for Alert Prioritization', AAAI-17 AICS workshop. [title] paraphrased; [authors] co-authors wrong; [venue] not MTD."
+ },
+ {
+  "id": "B28",
+  "category": "NOT_FOUND",
+  "evidence_url": "https://api.crossref.org/works?rows=5&query.bibliographic=Modern%20statistical%20methods%20for%20earthquake%20catalogs%20Kagan",
+  "note": "No such title (Crossref, web). Kagan 2002 works: 'Aftershock zone scaling' BSSA 92:641-655; 'Modern California earthquake catalogs and their comparison' SRL 73:921-929; neither matches."
+ },
+ {
+  "id": "B29",
+  "category": "WEB_RESOURCE_EXISTS",
+  "evidence_url": "https://www.ema.europa.eu/en/glossary-terms/european-public-assessment-report",
+  "note": "EPAR resource exists on EMA site (glossary + EPAR pages); cited URL now returns 404 and has no Wayback snapshot."
+ },
+ {
+  "id": "B30",
+  "category": "NOT_FOUND",
+  "evidence_url": "https://api.crossref.org/works?rows=5&query.bibliographic=Seitz%20economic%20validation%20FAIR%20benefits%20materials%20science",
+  "note": "Exact-title web search and Crossref 'Seitz FAIR benefits materials science' return nothing; entry is an annotation-like stub with no venue."
+ },
+ {
+  "id": "B31",
+  "category": "EXISTS_CORRUPTED",
+  "evidence_url": "https://api.crossref.org/works/10.1038/s41598-025-06627-0",
+  "note": "Same as B19: real title 'The impact of intelligent devices utilization on household medical expenditure of older adults in China' (Wang & Wang, Sci Rep 2025). [title] subtitle rewritten."
+ },
+ {
+  "id": "B32",
+  "category": "PLACEHOLDER",
+  "evidence_url": "https://arxiv.org/abs/2307.07924",
+  "note": "Stub: authors 'MetaGPT contributors', venue '[Conference]'. ChatDev is Qian et al. 2023 arXiv 2307.07924."
+ },
+ {
+  "id": "B33",
+  "category": "WEB_RESOURCE_EXISTS",
+  "evidence_url": "https://github.com/confident-ai/deepeval",
+  "note": "GitHub repository confident-ai/deepeval live (HTTP 200)."
+ },
+ {
+  "id": "B34",
+  "category": "EXISTS_CORRUPTED",
+  "evidence_url": "https://book.douban.com/subject/6528937/",
+  "note": "Nearest: 程曼丽、王维佳《对外传播及其效果研究》北京大学出版社 2011 (same title in translation, same year). [authors] Li/Guo/Wang not authors; [venue] publisher not Tsinghua UP."
+ },
+ {
+  "id": "B35",
+  "category": "WEB_RESOURCE_EXISTS",
+  "evidence_url": "http://web.archive.org/web/20241119031030/https://openai.com/blog/chatgpt/",
+  "note": "OpenAI ChatGPT announcement page archived; live openai.com returns 403 to bots."
+ },
+ {
+  "id": "B36",
+  "category": "WEB_RESOURCE_EXISTS",
+  "evidence_url": "http://web.archive.org/web/20260821172732/https://www.irena.org/Publications/2024/Sep/Renewable-Power-Generation-Costs-in-2023",
+  "note": "IRENA report page archived 2026-08-21 (live URL returns 403 to bots)."
+ },
+ {
+  "id": "B37",
+  "category": "WEB_RESOURCE_EXISTS",
+  "evidence_url": "https://www.enago.com/academy/scientific-misconduct-and-data-manipulation-with-ai/",
+  "note": "Enago Academy article live; published 2023-08-14 (listed 2024, within 1 year)."
+ },
+ {
+  "id": "B38",
+  "category": "EXISTS_CORRUPTED",
+  "evidence_url": "https://pubmed.ncbi.nlm.nih.gov/31066443/",
+  "note": "Real DrugComb: Zagidullin et al. 2019 NAR 47(W1):W43-W51 (update Zheng et al. 2021). [title] synergy vs combination; [authors] O'Neil not an author; [year]; vol/pages wrong."
+ },
+ {
+  "id": "B39",
+  "category": "EXISTS_CORRUPTED",
+  "evidence_url": "https://arxiv.org/abs/2310.01783",
+  "note": "arXiv 2306.05448 resolves to Matthee et al. (Little Red Dots). Nearest: Liang et al. 2023 'Can LLMs provide useful feedback on research papers?'. [authors] Gauthier not author; [identifier]; [title]"
+ },
+ {
+  "id": "B40",
+  "category": "EXISTS_CORRUPTED",
+  "evidence_url": "https://link.springer.com/book/10.1007/978-3-540-39408-2",
+  "note": "Real: Thorsten M. Buzug, 'Computed Tomography: From Photon Statistics to Modern Cone-Beam CT', Springer 2008. [authors] Heismann/Kachelriess not authors; [year] 2012."
+ },
+ {
+  "id": "B41",
+  "category": "EXISTS_CORRUPTED",
+  "evidence_url": "https://api.crossref.org/works/10.1101/2023.05.01.538999",
+  "note": "Real: Nguyen, Pertusi, Branson 2023 bioRxiv 'Molecule-Morphology Contrastive Pretraining for Transferable Molecular Representation'. [identifier] cited DOI unregistered; [title] subtitle rewritten."
+ },
+ {
+  "id": "B42",
+  "category": "EXISTS_CORRUPTED",
+  "evidence_url": "https://api.crossref.org/works/10.1109/ismvl.2008.43",
+  "note": "Real: Wille, Grosse, Teuber, Dueck, Drechsler 'RevLib: An Online Resource for Reversible Functions and Reversible Circuits', ISMVL 2008 pp.220-225. [title] [authors] Becker not author [year] [venue]"
+ },
+ {
+  "id": "B43",
+  "category": "WEB_RESOURCE_EXISTS",
+  "evidence_url": "http://web.archive.org/web/20260928073450/https://www.eia.gov/outlooks/aeo/",
+  "note": "EIA Annual Energy Outlook page archived 2026-09-28 (live site returned 503 to bot)."
+ },
+ {
+  "id": "B44",
+  "category": "WEB_RESOURCE_EXISTS",
+  "evidence_url": "https://www.who.int/publications/i/item/9789241549912",
+  "note": "WHO 2016 report 'WHO recommendations on antenatal care for a positive pregnancy experience'; ISBN 9789241549912 matches."
+ },
+ {
+  "id": "B45",
+  "category": "EXISTS_CORRUPTED",
+  "evidence_url": "https://arxiv.org/abs/2502.01100",
+  "note": "arXiv 2407.18946 resolves to WalkTheDog (Li et al.). Real: Bill Yuchen Lin et al. 'ZebraLogic: On the Scaling Limits of LLMs for Logical Reasoning' 2025. [title] [authors] invented [identifier]"
+ },
+ {
+  "id": "B46",
+  "category": "EXISTS_CORRUPTED",
+  "evidence_url": "https://sloanreview.mit.edu/article/using-ai-to-enhance-business-operations/",
+  "note": "Real: Tarafdar, Beath, Ross 'Using AI to Enhance Business Operations', MIT SMR 60(4), Summer 2019. [title] rewritten."
+ },
+ {
+  "id": "B47",
+  "category": "NOT_FOUND",
+  "evidence_url": "http://export.arxiv.org/api/query?search_query=all%3AMAECG&max_results=5",
+  "note": "arXiv 2208.06822 resolves to an AFM paper (Ku et al.). 'MAECG' not in arXiv/Crossref/web; Cao+ECG+masked autoencoder no hit. Similar-topic works (MaeFE 2022) have different names/authors."
+ },
+ {
+  "id": "B48",
+  "category": "EXISTS_CORRUPTED",
+  "evidence_url": "https://arxiv.org/abs/2311.14544",
+  "note": "Real: Bendou et al. 2023 'Inferring Latent Class Statistics from Text for Robust Visual Few-Shot Learning', NeurIPS 2023 R0-FoMo workshop. [title] rewritten (venue is a workshop)."
+ },
+ {
+  "id": "B49",
+  "category": "EXISTS",
+  "evidence_url": "https://arxiv.org/abs/2505.02101",
+  "note": "Dong, Yang, Yao, Zhang 2025, accepted ICML 2025; matches (trailing sentence is an annotation)."
+ },
+ {
+  "id": "B50",
+  "category": "PLACEHOLDER",
+  "evidence_url": "https://arxiv.org/abs/2411.11581",
+  "note": "Stub: 'Authors of OASIS paper', 'arXiv preprint' with no id. OASIS is Yang et al. 2024 arXiv 2411.11581."
+ },
+ {
+  "id": "B51",
+  "category": "EXISTS",
+  "evidence_url": "https://archive.org/details/laotzutetaoching0000laoz",
+  "note": "Henricks, 'Lao-Tzu: Te-Tao Ching: A New Translation Based on the Recently Discovered Ma-wang-tui Texts', Ballantine 1989; matches."
+ },
+ {
+  "id": "B52",
+  "category": "EXISTS_CORRUPTED",
+  "evidence_url": "https://pubmed.ncbi.nlm.nih.gov/25756417/",
+  "note": "Author list matches Lee YJ, Wi YM, Kwon YJ, Kim SR, Chang SH, Cho S 'Association between colistin dose and development of nephrotoxicity' Crit Care Med 2015;43(6):1187. [title] [venue] [year]"
+ },
+ {
+  "id": "B53",
+  "category": "EXISTS_CORRUPTED",
+  "evidence_url": "https://aclanthology.org/2021.acl-long.84/",
+  "note": "Real: Xin, Tang, Yu, Lin 'The Art of Abstention: Selective Prediction and Error Regularization for NLP', ACL-IJCNLP 2021 main. [year] 2025 vs 2021; [venue] not Findings."
+ },
+ {
+  "id": "B54",
+  "category": "EXISTS_CORRUPTED",
+  "evidence_url": "https://arxiv.org/abs/2402.06647",
+  "note": "Real: Xuhui Jiang et al. 2024 'A Survey on Large Language Model Hallucination via a Creativity Perspective' arXiv 2402.06647. [identifier] 2401.12345 is a different paper (Wang et al.)."
+ },
+ {
+  "id": "B55",
+  "category": "EXISTS",
+  "evidence_url": "https://pubmed.ncbi.nlm.nih.gov/36633525/",
+  "note": "Siegel, Miller, Wagle, Jemal. Cancer statistics, 2023. CA Cancer J Clin 73(1):17-48; matches."
+ },
+ {
+  "id": "B56",
+  "category": "EXISTS",
+  "evidence_url": "https://arxiv.org/abs/1312.6114",
+  "note": "Kingma & Welling, Auto-Encoding Variational Bayes (ICLR 2014); matches."
+ },
+ {
+  "id": "B57",
+  "category": "EXISTS",
+  "evidence_url": "https://arxiv.org/abs/2401.18059",
+  "note": "Sarthi et al., RAPTOR, ICLR 2024; matches (trailing sentence is an annotation)."
+ },
+ {
+  "id": "B58",
+  "category": "EXISTS_CORRUPTED",
+  "evidence_url": "https://api.crossref.org/works/10.1609/icwsm.v16i1.19393",
+  "note": "Real: Czestochowska, Gligoric, Peyrard, Mentha, Bien, Grutter, Auer, Xanthos, West; ICWSM 16:1388-1392 (2022). [authors] Nenchev and Scheffler are not authors."
+ },
+ {
+  "id": "B59",
+  "category": "NOT_FOUND",
+  "evidence_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&term=global%20survey%20lysine%20ubiquitination%20spatial%20temporal%20regulation",
+  "note": "Title not in PubMed/Crossref/web. Udeshi 2013 ubiquitin papers are MCP 12:825 and Nat Protoc 8:1950, different titles; no Cell 153(6):1363 match."
+ },
+ {
+  "id": "B60",
+  "category": "EXISTS_CORRUPTED",
+  "evidence_url": "https://pubmed.ncbi.nlm.nih.gov/30866990/",
+  "note": "Real: Koh JY, Kim HN, Hwang JJ, Kim YH, Park SE. Mol Brain 2019;12:18 (subtitle omitted, fine). [authors] first author Koh JY omitted; last author Park SE listed first."
+ }
+]

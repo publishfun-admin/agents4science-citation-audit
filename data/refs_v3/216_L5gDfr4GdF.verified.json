@@ -1,0 +1,976 @@
+{
+ "pdf": "216_L5gDfr4GdF.pdf",
+ "n_entries": 18,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 2,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "Stella Biderman, Hailey Schoelkopf, Quentin Gregory Anthony, Herbie Bradley, Kyle O\u2019Brien, Eric Hallahan, Mohammad Aflah Khan, Shivanshu Purohit, USVSN Sai Prashanth, Edward Raff, et al. Pythia: A suite for analyzing large language models across training and scaling. In International Conference on Machine Learning, pp. 2397\u20132430. PMLR, 2023.",
+   "title": "Pythia: A suite for analyzing large language models across training and scaling",
+   "authors": [
+    "Biderman",
+    "Schoelkopf",
+    "Anthony",
+    "Bradley",
+    "O\u2019Brien",
+    "Hallahan",
+    "Khan",
+    "Shivanshu Purohit",
+    "Raff"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Conference on Machine Learning",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.18653/v1/2024.findings-emnlp.218",
+      "title": "Scaling Behavior for Large Language Models regarding Numeral Systems: An Example using Pythia",
+      "year": 2024,
+      "first_author": "Zhou",
+      "container": "Findings of the Association for Computational Linguistics: EMNLP 2024",
+      "type": "proceedings-article",
+      "score": 35.941845
+     },
+     "metrics": {
+      "title_sim": 71.76470588235294,
+      "containment": 0.5,
+      "partial_ratio": 54.347826086956516,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "be55e8ec4213868db08f2c3168ae666001bea4b8",
+    "title": "Pythia: A Suite for Analyzing Large Language Models Across Training and Scaling",
+    "year": 2023,
+    "first_author": "Stella Biderman",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "DBLP": "conf/icml/BidermanSABOHKP23",
+     "ArXiv": "2304.01373",
+     "DOI": "10.48550/arXiv.2304.01373",
+     "CorpusId": 257921893
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "Chentao Cao, Zhun Zhong, Zhanke Zhou, Yang Liu, Tongliang Liu, and Bo Han. Envisioning outlier exposure by large language models for out-of-distribution detection. ArXiv, abs/2406.00806, 2024.",
+   "title": "Envisioning outlier exposure by large language models for out-of-distribution detection",
+   "authors": [
+    "Cao",
+    "Zhong",
+    "Zhou",
+    "Liu",
+    "Liu",
+    "Han"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2406.00806",
+   "urls": [],
+   "container": "ArXiv",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2406.00806"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/ijcnn60899.2024.10650173",
+      "title": "Zero-Shot Out-of-Distribution Detection with Outlier Label Exposure",
+      "year": 2024,
+      "first_author": "Ding",
+      "container": "2024 International Joint Conference on Neural Networks (IJCNN)",
+      "type": "proceedings-article",
+      "score": 40.282513
+     },
+     "metrics": {
+      "title_sim": 81.41592920353982,
+      "containment": 0.625,
+      "partial_ratio": 60.0,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "14cfe2588311870325e2770c5159d3100d7031ea",
+    "title": "Envisioning Outlier Exposure by Large Language Models for Out-of-Distribution Detection",
+    "year": 2024,
+    "first_author": "Chentao Cao",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "DBLP": "conf/icml/CaoZZ0L024",
+     "ArXiv": "2406.00806",
+     "DOI": "10.48550/arXiv.2406.00806",
+     "CorpusId": 270214464
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "Nicholas Carlini, Florian Tramer, Eric Wallace, Matthew Jagielski, Ariel Herbert-Voss, Katherine Lee, Adam Roberts, Tom Brown, Dawn Song, Ulfar Erlingsson, et al. Extracting training data from large language models. In 30th USENIX Security Symposium (USENIX Security 21), pp. 2633\u20132650, 2021.",
+   "title": "Extracting training data from large language models",
+   "authors": [
+    "Carlini",
+    "Tramer",
+    "Wallace",
+    "Jagielski",
+    "Herbert-Voss",
+    "Lee",
+    "Roberts",
+    "Brown",
+    "Song",
+    "Erlingsson"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "30th USENIX Security Symposium (USENIX Security 21",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.4567607",
+      "title": "Extracting Financial Data from Unstructured Sources: Leveraging Large Language Models",
+      "year": 2023,
+      "first_author": "Li",
+      "container": "",
+      "type": "posted-content",
+      "score": 36.735672
+     },
+     "metrics": {
+      "title_sim": 90.3225806451613,
+      "containment": 0.556,
+      "partial_ratio": 54.761904761904766,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "df7d26339adf4eb0c07160947b9d2973c24911ba",
+    "title": "Extracting Training Data from Large Language Models",
+    "year": 2020,
+    "first_author": "Nicholas Carlini",
+    "container": "USENIX Security Symposium",
+    "ext": {
+     "MAG": "3112689365",
+     "ArXiv": "2012.07805",
+     "DBLP": "conf/uss/CarliniTWJHLRBS21",
+     "CorpusId": 229156229
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "Nicholas Carlini, Daphne Ippolito, Matthew Jagielski, Katherine Lee, Florian Tramer, and Chiyuan Zhang. Quantifying memorization across neural language models. In ICLR, 2023.",
+   "title": "Quantifying memorization across neural language models",
+   "authors": [
+    "Carlini",
+    "Ippolito",
+    "Jagielski",
+    "Lee",
+    "Tramer",
+    "Zhang"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "ICLR",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.52202/085713-4292",
+      "title": "Quantifying Cross-Modality Memorization in Vision-Language Models",
+      "year": 2025,
+      "first_author": "Wen",
+      "container": "Advances in Neural Information Processing Systems 38",
+      "type": "proceedings-article",
+      "score": 35.87384
+     },
+     "metrics": {
+      "title_sim": 85.1063829787234,
+      "containment": 0.571,
+      "partial_ratio": 66.15384615384615,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "28c7e583d90ccfc5c3078dfc1d6b80a9ad90248d",
+    "title": "Quantifying Memorization Across Neural Language Models",
+    "year": 2022,
+    "first_author": "Nicholas Carlini",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "DBLP": "conf/iclr/CarliniIJLTZ23",
+     "ArXiv": "2202.07646",
+     "CorpusId": 246863735
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "Baiyu Chen, Yi Kou, Daniel Zhao, Fang Wu, Liping Wang, and Guilin Liu. Maximum entropy distribution function and uncertainty evaluation criteria. China Ocean Engineering, 35:238 \u2013 249, 2021.",
+   "title": "Maximum entropy distribution function and uncertainty evaluation criteria",
+   "authors": [
+    "Chen",
+    "Kou",
+    "Zhao",
+    "Wu",
+    "Wang",
+    "Liu"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "China Ocean Engineering",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/s13344-021-0021-4",
+    "title": "Maximum Entropy Distribution Function and Uncertainty Evaluation Criteria",
+    "year": 2021,
+    "first_author": "Chen",
+    "container": "China Ocean Engineering",
+    "type": "journal-article",
+    "score": 47.643227
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "Melis Dokumac\u0131. Legal frameworks for ai regulations. Human Computer Interaction, 2024.",
+   "title": "Legal frameworks for ai regulations",
+   "authors": [
+    "Dokumac\u0131"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.62802/ytst2927",
+    "title": "Legal Frameworks for AI Regulations",
+    "year": 2024,
+    "first_author": "Dokumac\u0131",
+    "container": "Human Computer Interaction",
+    "type": "journal-article",
+    "score": 54.517376
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "Albert Gu and Tri Dao. Mamba: Linear-time sequence modeling with selective state spaces. arXiv preprint arXiv:2312.00752, 2023.",
+   "title": "Mamba: Linear-time sequence modeling with selective state spaces",
+   "authors": [
+    "Gu",
+    "Dao"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2312.00752",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2312.00752"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/978-3-031-97529-5_11",
+      "title": "Linear-Time Sequence Modeling with\u00a0Selective State Spaces for\u00a0the\u00a0Ukrainian Language",
+      "year": 2026,
+      "first_author": "Bazdyrev",
+      "container": "Studies in Systems, Decision and Control",
+      "type": "book-chapter",
+      "score": 38.24196
+     },
+     "metrics": {
+      "title_sim": 95.0,
+      "containment": 0.778,
+      "partial_ratio": 78.57142857142857,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "7bbc7595196a0606a07506c4fb1473e5e87f6082",
+    "title": "Mamba: Linear-Time Sequence Modeling with Selective State Spaces",
+    "year": 2023,
+    "first_author": "Albert Gu",
+    "container": "arXiv.org",
+    "ext": {
+     "ArXiv": "2312.00752",
+     "DBLP": "journals/corr/abs-2312-00752",
+     "CorpusId": 265551773
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "Aapo Hyv\u00e4rinen and Peter Dayan. Estimation of non-normalized statistical models by score matching. Journal of Machine Learning Research, 6(4), 2005.",
+   "title": "Estimation of non-normalized statistical models by score matching",
+   "authors": [
+    "Hyv\u00e4rinen",
+    "Dayan"
+   ],
+   "year": 2005,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Machine Learning Research",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/978-1-84882-491-1_21",
+    "title": "Estimation of Non-normalized Statistical Models",
+    "year": 2009,
+    "first_author": "Hyv\u00e4rinen",
+    "container": "Computational Imaging and Vision",
+    "type": "book-chapter",
+    "score": 44.156242
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "Zhenhua Liu, Tong Zhu, Chuanyuan Tan, Haonan Lu, Bing Liu, and Wenliang Chen. Probing language models for pre-training data detection. ArXiv, abs/2406.01333, 2024.",
+   "title": "Probing language models for pre-training data detection",
+   "authors": [
+    "Liu",
+    "Zhu",
+    "Tan",
+    "Lu",
+    "Liu",
+    "Chen"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2406.01333",
+   "urls": [],
+   "container": "ArXiv",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2024.acl-long.86",
+    "title": "Probing Language Models for Pre-training Data Detection",
+    "year": 2024,
+    "first_author": "Liu",
+    "container": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "type": "proceedings-article",
+    "score": 43.537094
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2406.01333"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "Justus Mattern, Fatemehsadat Mireshghallah, Zhijing Jin, Bernhard Schoelkopf, Mrinmaya Sachan, and Taylor Berg-Kirkpatrick. Membership inference attacks against language models via neighbourhood comparison. In Anna Rogers, Jordan Boyd-Graber, and Naoaki Okazaki (eds.), Findings of the Association for Computational Linguistics: ACL 2023, pp. 11330\u201311343, Toronto, Canada, July 2023. Association for Computational Linguistics. doi: 10.18653/v1/2023.findings-acl.719. URL https://aclanthology.org/2023.findings-acl.719. Laxmipriya Samal, H. Palo, and B. Sahu. Comparison of classifiers for power quality disturbances with wavelet statistical analysis. In 2020 International Conference on Computational Intelligence for Smart Power System and Sustainable Energy (CISPSSE), pp. 1\u20135, 2020.",
+   "title": "Membership inference attacks against language models via neighbourhood comparison",
+   "authors": [
+    "Mattern",
+    "Mireshghallah",
+    "Jin",
+    "Schoelkopf",
+    "Sachan",
+    "Berg-Kirkpatrick",
+    "Laxmipriya Samal",
+    "Sahu"
+   ],
+   "year": 2023,
+   "doi": "10.18653/v1/2023.findings-acl.719",
+   "arxiv": null,
+   "urls": [
+    "https://aclanthology.org/2023.findings-acl.719"
+   ],
+   "container": "Findings of the Association for Computational Linguistics: ACL 2023",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2023.findings-acl.719",
+    "title": "Membership Inference Attacks against Language Models via Neighbourhood Comparison",
+    "year": 2023,
+    "first_author": "Mattern",
+    "container": "Findings of the Association for Computational Linguistics: ACL 2023",
+    "type": "proceedings-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "Michael Schneider. Measuring inequality: The origins of the lorenz curve and the gini coefficient. 2004. A. Sharafeldeen, M. Elsharkawy, R. Khaled, A. Shaffie, F. Khalifa, A. Soliman, A. Razek, Ma. Hussein, S. Taman, A. Naglah, M. Alrahmawy, S. Elmougy, J. Yousaf, M. Ghazal, and A. El-Baz. Texture and shape analysis of diffusion-weighted imaging for thyroid nodules classification using machine learning. Medical physics, 2021.",
+   "title": "Measuring inequality: The origins of the lorenz curve and the gini coefficient",
+   "authors": [
+    "Schneider",
+    "Sharafeldeen",
+    "Elsharkawy",
+    "Khaled",
+    "Shaffie",
+    "Khalifa",
+    "Soliman",
+    "Razek",
+    "Ma. Hussein",
+    "Naglah",
+    "Alrahmawy",
+    "Elmougy",
+    "Yousaf",
+    "Ghazal",
+    "El-Baz"
+   ],
+   "year": 2004,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Medical physics",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.7717/peerj.14184/fig-3",
+      "title": "Figure 3: Gini coefficient and Lorenz curve.",
+      "year": 2022,
+      "first_author": null,
+      "container": "",
+      "type": "component",
+      "score": 49.841457
+     },
+     "metrics": {
+      "title_sim": 88.0,
+      "containment": 0.8,
+      "partial_ratio": 61.904761904761905,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "b7e1f9727ce6efae51c6af68110c12497f6c02ce",
+    "title": "Measuring Inequality: The Origins of the Lorenz Curve and the Gini Coefficient",
+    "year": 2004,
+    "first_author": "Michael Schneider",
+    "container": "",
+    "ext": {
+     "MAG": "1530660264",
+     "CorpusId": 118563974
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "Yan Shi, P. Wei, Ke Feng, De-Cheng Feng, and Michael Beer. A survey on machine learning approaches for uncertainty quantification of engineering systems. Machine Learning for Computational Science and Engineering, 2025.",
+   "title": "A survey on machine learning approaches for uncertainty quantification of engineering systems",
+   "authors": [
+    "Yan Shi",
+    "Feng",
+    "Feng",
+    "Beer"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Machine Learning for Computational Science and Engineering",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/s44379-024-00011-x",
+    "title": "A survey on machine learning approaches for uncertainty quantification of engineering systems",
+    "year": 2025,
+    "first_author": "Shi",
+    "container": "Machine Learning for Computational Science and Engineering",
+    "type": "journal-article",
+    "score": 50.974033
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "R. Shokri, M. Stronati, Congzheng Song, and Vitaly Shmatikov. Membership inference attacks against machine learning models. 2017 IEEE Symposium on Security and Privacy (SP), pp. 3\u201318, 2016.",
+   "title": "Membership inference attacks against machine learning models",
+   "authors": [
+    "Shokri",
+    "Stronati",
+    "Song",
+    "Shmatikov"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "2017 IEEE Symposium on Security and Privacy (SP",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/sp.2017.41",
+    "title": "Membership Inference Attacks Against Machine Learning Models",
+    "year": 2017,
+    "first_author": "Shokri",
+    "container": "2017 IEEE Symposium on Security and Privacy (SP)",
+    "type": "proceedings-article",
+    "score": 59.16425
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "Reza Shokri, Marco Stronati, Congzheng Song, and Vitaly Shmatikov. Membership inference attacks against machine learning models. In 2017 IEEE symposium on security and privacy (SP), pp. 3\u201318. IEEE, 2017.",
+   "title": "Membership inference attacks against machine learning models",
+   "authors": [
+    "Shokri",
+    "Stronati",
+    "Song",
+    "Shmatikov"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "2017 IEEE symposium on security and privacy (SP",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/sp.2017.41",
+    "title": "Membership Inference Attacks Against Machine Learning Models",
+    "year": 2017,
+    "first_author": "Shokri",
+    "container": "2017 IEEE Symposium on Security and Privacy (SP)",
+    "type": "proceedings-article",
+    "score": 64.09009
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "Zichen Song, Sitan Huang, and Zhongfeng Kang. Em-mias: Enhancing membership inference attacks in large language models through ensemble modeling. ArXiv, abs/2412.17249, 2024.",
+   "title": "Em-mias: Enhancing membership inference attacks in large language models through ensemble modeling",
+   "authors": [
+    "Song",
+    "Huang",
+    "Kang"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2412.17249",
+   "urls": [],
+   "container": "ArXiv",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/icassp49660.2025.10888320",
+    "title": "EM-MIAs: Enhancing Membership Inference Attacks in Large Language Models through Ensemble Modeling",
+    "year": 2025,
+    "first_author": "Song",
+    "container": "ICASSP 2025 - 2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "type": "proceedings-article",
+    "score": 83.307045
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2412.17249"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 16,
+   "raw": "Samuel Yeom, Irene Giacomelli, Matt Fredrikson, and Somesh Jha. Privacy risk in machine learning: Analyzing the connection to overfitting. In 2018 IEEE 31st computer security foundations symposium (CSF), pp. 268\u2013282. IEEE, 2018.",
+   "title": "Privacy risk in machine learning: Analyzing the connection to overfitting",
+   "authors": [
+    "Yeom",
+    "Giacomelli",
+    "Fredrikson",
+    "Jha"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "2018 IEEE 31st computer security foundations symposium (CSF",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/csf.2018.00027",
+    "title": "Privacy Risk in Machine Learning: Analyzing the Connection to Overfitting",
+    "year": 2018,
+    "first_author": "Yeom",
+    "container": "2018 IEEE 31st Computer Security Foundations Symposium (CSF)",
+    "type": "proceedings-article",
+    "score": 65.55355
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 17,
+   "raw": "Anqi Zhang and Chaofeng Wu. Adaptive pre-training data detection for large language models via surprising tokens. ArXiv, abs/2407.21248, 2024.",
+   "title": "Adaptive pre-training data detection for large language models via surprising tokens",
+   "authors": [
+    "Zhang",
+    "Wu"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2407.21248",
+   "urls": [],
+   "container": "ArXiv",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2407.21248"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.5220/0013094800003899",
+      "title": "CyLLM-DAP: Cybersecurity Domain-Adaptive Pre-Training Framework of Large Language Models",
+      "year": 2025,
+      "first_author": "Mai",
+      "container": "Proceedings of the 11th International Conference on Information Systems Security and Privacy",
+      "type": "proceedings-article",
+      "score": 41.370796
+     },
+     "metrics": {
+      "title_sim": 67.71653543307087,
+      "containment": 0.545,
+      "partial_ratio": 64.36781609195403,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "2f906e35988ab458ea2232759eb6cace0c53985c",
+    "title": "Adaptive Pre-training Data Detection for Large Language Models via Surprising Tokens",
+    "year": 2024,
+    "first_author": "Anqi Zhang",
+    "container": "arXiv.org",
+    "ext": {
+     "DBLP": "journals/corr/abs-2407-21248",
+     "ArXiv": "2407.21248",
+     "DOI": "10.48550/arXiv.2407.21248",
+     "CorpusId": 271570943
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 18,
+   "raw": "Jingyang Zhang, Jingwei Sun, Eric Yeats, Yang Ouyang, Martin Kuo, Jianyi Zhang, Hao Frank Yang, and Hai Li. Min-k%++: Improved baseline for pre-training data detection from large language models. In International Conference on Learning Representations, 2025.",
+   "title": "Min-k%++: Improved baseline for pre-training data detection from large language models",
+   "authors": [
+    "Zhang",
+    "Sun",
+    "Yeats",
+    "Ouyang",
+    "Kuo",
+    "Zhang",
+    "Yang",
+    "Li"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International Conference on Learning Representations",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.18653/v1/2025.findings-emnlp.610",
+      "title": "An Improved, Strong Baseline for Pre-Trained Large Language Models as Task-Oriented Dialogue Systems",
+      "year": 2025,
+      "first_author": "Steindl",
+      "container": "Findings of the Association for Computational Linguistics: EMNLP 2025",
+      "type": "proceedings-article",
+      "score": 38.450577
+     },
+     "metrics": {
+      "title_sim": 75.13812154696133,
+      "containment": 0.5,
+      "partial_ratio": 66.66666666666667,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "b6575128d930cb25d2c0a4ae2e8168b576ad45ba",
+    "title": "Min-K%++: Improved Baseline for Pre-Training Data Detection from Large Language Models",
+    "year": 2025,
+    "first_author": "Jing-Yang Zhang",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "DBLP": "conf/iclr/Zhang0YOKZY025",
+     "CorpusId": 278498331
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  }
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
+}

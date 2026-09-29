@@ -1,30 +1,64 @@
 {
  "pdf": "289_ExGHHgTM2p.pdf",
- "n_entries": 18,
- "fallback": false,
+ "n_entries": 23,
+ "fallback": "indent-guided",
  "error": null,
  "linenumbers_stripped": false,
- "parser_version": 3,
+ "two_column": false,
+ "parser_version": 4,
+ "reprocessed": true,
  "entries": [
   {
    "junk": false,
    "idx": 1,
-   "raw": "Ahmed Alkhateeb. DeepMIMO: A generic deep learning dataset for millimeter wave and massive MIMO applications. 2019. URL https://arxiv.org/abs/1902.06435. Marius Arvinte and Jonathan I. Tamir. MIMO channel estimation using score-based generative models. IEEE Trans. Wireless Commun., 22(6):3698\u20133713, 2023. doi: 10.1109/TWC.2022.3220784.",
+   "raw": "Ahmed Alkhateeb. DeepMIMO: A generic deep learning dataset for millimeter wave and massive MIMO applications. 2019. URL https://arxiv.org/abs/1902.06435.",
    "title": "DeepMIMO: A generic deep learning dataset for millimeter wave and massive MIMO applications",
    "authors": [
-    "Alkhateeb",
-    "Arvinte",
-    "Tamir"
+    "Alkhateeb"
    ],
    "year": 2019,
-   "doi": "10.1109/TWC.2022.3220784",
+   "doi": null,
    "arxiv": "1902.06435",
    "urls": [
     "https://arxiv.org/abs/1902.06435"
    ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "1902.06435",
+    "title": "DeepMIMO: A Generic Deep Learning Dataset for Millimeter Wave and Massive MIMO Applications",
+    "year": 2019,
+    "first_author": "Ahmed Alkhateeb"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "Marius Arvinte and Jonathan I. Tamir. MIMO channel estimation using score-based generative models. IEEE Trans. Wireless Commun., 22(6):3698\u20133713, 2023. doi: 10.1109/TWC.2022.3220784.",
+   "title": "MIMO channel estimation using score-based generative models",
+   "authors": [
+    "Arvinte",
+    "Tamir"
+   ],
+   "year": 2023,
+   "doi": "10.1109/TWC.2022.3220784",
+   "arxiv": null,
+   "urls": [],
    "container": "IEEE Trans. Wireless Commun",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "doi",
    "match": {
@@ -38,18 +72,17 @@
     "score": 1
    },
    "metrics": {
-    "title_sim": 45.63758389261745,
+    "title_sim": 100.0,
     "containment": 1.0,
     "partial_ratio": 100.0,
-    "year_ok": false,
-    "first_author_ok": true,
-    "rule": "id+raw_containment"
+    "year_ok": true,
+    "first_author_ok": true
    },
    "evidence": []
   },
   {
    "junk": false,
-   "idx": 2,
+   "idx": 3,
    "raw": "Constantine A Balanis. Antenna theory: analysis and design. John wiley & sons, 2016.",
    "title": "Antenna theory: analysis and design",
    "authors": [
@@ -61,7 +94,7 @@
    "urls": [],
    "container": null,
    "type": "book",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "evidence": [
     {
@@ -74,7 +107,7 @@
       "first_author": "Balanis",
       "container": "Proceedings of the IEEE",
       "type": "journal-article",
-      "score": 28.759
+      "score": 28.809158
      },
      "metrics": {
       "title_sim": 75.67567567567568,
@@ -106,11 +139,12 @@
     "year_ok": false,
     "first_author_ok": true
    },
-   "second_pass_hit": true
+   "second_pass_hit": true,
+   "carried_over_from": "parser_v4_run"
   },
   {
    "junk": false,
-   "idx": 3,
+   "idx": 4,
    "raw": "Eren Balevi, Akash Doshi, Ajil Jalal, Alexandros Dimakis, and Jeffrey G. Andrews. High dimensional channel estimation using deep generative networks. IEEE J. Sel. Areas Commun., 39(1):18\u201330, 2021. doi: 10.1109/JSAC.2020.3036947.",
    "title": "High dimensional channel estimation using deep generative networks",
    "authors": [
@@ -126,7 +160,7 @@
    "urls": [],
    "container": "IEEE J. Sel. Areas Commun",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "doi",
    "match": {
@@ -150,8 +184,8 @@
   },
   {
    "junk": false,
-   "idx": 4,
-   "raw": "Michael Baur, Nurettin Turan, Simon Wallner, and Wolfgang Utschick. Evaluation metrics and methods for generative models in the wireless PHY layer, Aug. 2024. [Online]. Available: https://arxiv.org/abs/2408.00634. Robert W. Heath Jr. and Angel Lozano. Foundations of MIMO Communication. Cambridge University Press, Cambridge, U.K., 2018.",
+   "idx": 5,
+   "raw": "Michael Baur, Nurettin Turan, Simon Wallner, and Wolfgang Utschick. Evaluation metrics and methods for generative models in the wireless PHY layer, Aug. 2024. [Online]. Available: https://arxiv.org/abs/2408.00634.",
    "title": "Evaluation metrics and methods for generative models in the wireless PHY layer",
    "authors": [
     "Baur",
@@ -165,20 +199,17 @@
    "urls": [
     "https://arxiv.org/abs/2408.00634"
    ],
-   "container": "Foundations of MIMO Communication",
-   "type": "chapter",
-   "parser": "anystyle-find",
+   "container": null,
+   "type": null,
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
-   "via": "crossref",
+   "via": "arxiv_id",
    "match": {
-    "source": "crossref",
-    "doi": "10.1109/tmlcn.2025.3571026",
+    "source": "arxiv",
+    "arxiv": "2408.00634",
     "title": "Evaluation Metrics and Methods for Generative Models in the Wireless PHY Layer",
-    "year": 2025,
-    "first_author": "Baur",
-    "container": "IEEE Transactions on Machine Learning in Communications and Networking",
-    "type": "journal-article",
-    "score": 55.811222
+    "year": 2024,
+    "first_author": "Michael Baur"
    },
    "metrics": {
     "title_sim": 100.0,
@@ -187,16 +218,48 @@
     "year_ok": true,
     "first_author_ok": true
    },
-   "evidence": [
-    {
-     "step": "arxiv_id_not_found",
-     "arxiv": "2408.00634"
-    }
-   ]
+   "evidence": []
   },
   {
    "junk": false,
-   "idx": 5,
+   "idx": 6,
+   "raw": "Robert W. Heath Jr. and Angel Lozano. Foundations of MIMO Communication. Cambridge University Press, Cambridge, U.K., 2018.",
+   "title": "Foundations of MIMO Communication",
+   "authors": [
+    "Heath",
+    "Lozano"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1017/9781139049276",
+    "title": "Foundations of MIMO Communication",
+    "year": 2018,
+    "first_author": "Heath Jr",
+    "container": "",
+    "type": "monograph",
+    "score": 41.767246
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 7,
    "raw": "Jonathan Ho, Ajay Jain, and Pieter Abbeel. Denoising diffusion probabilistic models. In Proc. Adv. Neural Inf. Process. Syst. (NeurIPS), volume 10, pages 6840\u20136851, December 2020.",
    "title": "Denoising diffusion probabilistic models",
    "authors": [
@@ -210,7 +273,7 @@
    "urls": [],
    "container": "Proc. Adv. Neural Inf. Process. Syst. (NeurIPS",
    "type": "paper-conference",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "evidence": [
     {
@@ -223,7 +286,7 @@
       "first_author": "Capel",
       "container": "2023 IEEE Belgrade PowerTech",
       "type": "proceedings-article",
-      "score": 35.233192
+      "score": 35.232445
      },
      "metrics": {
       "title_sim": 100.0,
@@ -257,11 +320,12 @@
     "year_ok": true,
     "first_author_ok": true
    },
-   "second_pass_hit": true
+   "second_pass_hit": true,
+   "carried_over_from": "parser_v4_run"
   },
   {
    "junk": false,
-   "idx": 6,
+   "idx": 8,
    "raw": "Wonjun Kim, Yongjun Ahn, Jinhong Kim, and Byonghyo Shim. Towards deep learning-aided wireless channel estimation and channel state information feedback for 6G. arXiv preprint, 2022.",
    "title": "Towards deep learning-aided wireless channel estimation and channel state information feedback for 6G",
    "authors": [
@@ -276,7 +340,7 @@
    "urls": [],
    "container": null,
    "type": null,
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -287,7 +351,7 @@
     "first_author": "Kim",
     "container": "Journal of Communications and Networks",
     "type": "journal-article",
-    "score": 76.648605
+    "score": 76.65444
    },
    "metrics": {
     "title_sim": 100.0,
@@ -300,7 +364,7 @@
   },
   {
    "junk": false,
-   "idx": 7,
+   "idx": 9,
    "raw": "Taekyun Lee, Juseong Park, Hyeji Kim, and Jeffrey G. Andrews. High dimensional user-specific channel generation for csi compression using diffusion models. In 2024 58th Asilomar Conference on Signals, Systems, and Computers, pages 759\u2013763, 2024a. doi: 10.1109/IEEECONF60004.2024. 10942761.",
    "title": "High dimensional user-specific channel generation for csi compression using diffusion models",
    "authors": [
@@ -315,7 +379,7 @@
    "urls": [],
    "container": "2024 58th Asilomar Conference on Signals, Systems, and Computers",
    "type": "paper-conference",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "doi",
    "match": {
@@ -339,32 +403,24 @@
   },
   {
    "junk": false,
-   "idx": 8,
-   "raw": "Taekyun Lee, Juseong Park, Hyeji Kim, and Jeffrey G. Andrews. Generating high dimensional user-specific wireless channels using diffusion models, 2024b. URL https://arxiv.org/abs/ 2409.03924. Linyu Li, Zhengming Zhang, and Luxi Yang. Influence of autoencoder-based data augmentation on deep learning-based wireless communication. IEEE Wireless Commun. Lett., 10(9):2090\u20132093, Sep. 2021. doi: 10.1109/LWC.2021.3140102. Xin Liang, Zhenyu Liu, Haoran Chang, and Lin Zhang. Wireless channel data augmentation for artificial intelligence of things in industrial environment using generative adversarial networks. In 2020 IEEE 18th International Conference on Industrial Informatics (INDIN), volume 1, pages 502\u2013507, 2020. doi: 10.1109/INDIN45582.2020.9442206. Akbar M. Sayeed. Deconstructing multi-antenna fading channels. IEEE Trans. Signal Process., 50 (10):2563\u20132579, October 2002.",
+   "idx": 10,
+   "raw": "Taekyun Lee, Juseong Park, Hyeji Kim, and Jeffrey G. Andrews. Generating high dimensional user-specific wireless channels using diffusion models, 2024b. URL https://arxiv.org/abs/ 2409.03924.",
    "title": "Generating high dimensional user-specific wireless channels using diffusion models, 2024b",
    "authors": [
     "Lee",
     "Park",
     "Kim",
-    "Andrews",
-    "Li",
-    "Zhang",
-    "Yang",
-    "Liang",
-    "Liu",
-    "Chang",
-    "Zhang",
-    "Sayeed"
+    "Andrews"
    ],
-   "year": 2021,
-   "doi": "10.1109/LWC.2021.3140102",
+   "year": null,
+   "doi": null,
    "arxiv": null,
    "urls": [
     "https://arxiv.org/abs/"
    ],
-   "container": "2020 IEEE 18th International Conference on Industrial Informatics (INDIN",
-   "type": "article-journal",
-   "parser": "anystyle-find",
+   "container": null,
+   "type": null,
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -375,13 +431,51 @@
     "first_author": "Lee",
     "container": "IEEE Transactions on Wireless Communications",
     "type": "journal-article",
-    "score": 63.05557
+    "score": 63.057777
    },
    "metrics": {
     "title_sim": 100.0,
     "containment": 1.0,
     "partial_ratio": 100.0,
-    "year_ok": false,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "Linyu Li, Zhengming Zhang, and Luxi Yang. Influence of autoencoder-based data augmentation on deep learning-based wireless communication. IEEE Wireless Commun. Lett., 10(9):2090\u20132093, Sep. 2021. doi: 10.1109/LWC.2021.3140102.",
+   "title": "Influence of autoencoder-based data augmentation on deep learning-based wireless communication",
+   "authors": [
+    "Li",
+    "Zhang",
+    "Yang"
+   ],
+   "year": 2021,
+   "doi": "10.1109/LWC.2021.3140102",
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE Wireless Commun. Lett",
+   "type": "article-journal",
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/lwc.2021.3092716",
+    "title": "Influence of Autoencoder-Based Data Augmentation on Deep Learning-Based Wireless Communication",
+    "year": 2021,
+    "first_author": "Li",
+    "container": "IEEE Wireless Communications Letters",
+    "type": "journal-article",
+    "score": 64.34849
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
     "first_author_ok": true
    },
    "evidence": [
@@ -398,8 +492,8 @@
       "score": 1
      },
      "metrics": {
-      "title_sim": 50.666666666666664,
-      "containment": 0.714,
+      "title_sim": 53.333333333333336,
+      "containment": 0.429,
       "partial_ratio": 56.4516129032258,
       "year_ok": true,
       "first_author_ok": false
@@ -409,7 +503,82 @@
   },
   {
    "junk": false,
-   "idx": 9,
+   "idx": 12,
+   "raw": "Xin Liang, Zhenyu Liu, Haoran Chang, and Lin Zhang. Wireless channel data augmentation for artificial intelligence of things in industrial environment using generative adversarial networks. In 2020 IEEE 18th International Conference on Industrial Informatics (INDIN), volume 1, pages 502\u2013507, 2020. doi: 10.1109/INDIN45582.2020.9442206.",
+   "title": "Wireless channel data augmentation for artificial intelligence of things in industrial environment using generative adversarial networks",
+   "authors": [
+    "Liang",
+    "Liu",
+    "Chang",
+    "Zhang"
+   ],
+   "year": 2020,
+   "doi": "10.1109/INDIN45582.2020.9442206",
+   "arxiv": null,
+   "urls": [],
+   "container": "2020 IEEE 18th International Conference on Industrial Informatics (INDIN",
+   "type": "paper-conference",
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/indin45582.2020.9442206",
+    "title": "Wireless Channel Data Augmentation for Artificial Intelligence of Things in Industrial Environment Using Generative Adversarial Networks",
+    "year": 2020,
+    "first_author": "Liang",
+    "container": "2020 IEEE 18th International Conference on Industrial Informatics (INDIN)",
+    "type": "proceedings-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "Akbar M. Sayeed. Deconstructing multi-antenna fading channels. IEEE Trans. Signal Process., 50 (10):2563\u20132579, October 2002.",
+   "title": "Deconstructing multi-antenna fading channels",
+   "authors": [
+    "Sayeed"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE Trans. Signal Process",
+   "type": "article-journal",
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/tsp.2002.803324",
+    "title": "Deconstructing multiantenna fading channels",
+    "year": 2002,
+    "first_author": "Sayeed",
+    "container": "IEEE Transactions on Signal Processing",
+    "type": "journal-article",
+    "score": 41.1238
+   },
+   "metrics": {
+    "title_sim": 98.85057471264368,
+    "containment": 0.75,
+    "partial_ratio": 97.67441860465115,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 14,
    "raw": "Andreas F Molisch. Wireless communications. John Wiley & sons, 2012.",
    "title": "Wireless communications",
    "authors": [
@@ -421,7 +590,7 @@
    "urls": [],
    "container": null,
    "type": "book",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -432,7 +601,7 @@
     "first_author": "Misra",
     "container": "IEEE Wireless Communications",
     "type": "journal-article",
-    "score": 35.0876
+    "score": 35.092403
    },
    "metrics": {
     "title_sim": 100.0,
@@ -445,7 +614,7 @@
   },
   {
    "junk": false,
-   "idx": 10,
+   "idx": 15,
    "raw": "Ushnish Sengupta, Chinkuo Jao, Alberto Bernacchia, Sattar Vakili, and Da-shan Shiu. Generative diffusion models for radio wireless channel modeling and sampling. In Proc. IEEE Global Commun. Conf. (GLOBECOM), pages 4779\u20134784, December 2023.",
    "title": "Generative diffusion models for radio wireless channel modeling and sampling",
    "authors": [
@@ -461,7 +630,7 @@
    "urls": [],
    "container": "Proc. IEEE Global Commun. Conf. (GLOBECOM",
    "type": "paper-conference",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -472,7 +641,7 @@
     "first_author": "Sengupta",
     "container": "GLOBECOM 2023 - 2023 IEEE Global Communications Conference",
     "type": "proceedings-article",
-    "score": 58.727196
+    "score": 58.72581
    },
    "metrics": {
     "title_sim": 99.34640522875817,
@@ -485,7 +654,7 @@
   },
   {
    "junk": false,
-   "idx": 11,
+   "idx": 16,
    "raw": "Nasim Soltani, Kunal Sankhe, Jennifer Dy, Stratis Ioannidis, and Kaushik Chowdhury. More is better: Data augmentation for channel-resilient RF fingerprinting. IEEE Commun. Mag., 58(10):66\u201372, October 2020.",
    "title": "More is better: Data augmentation for channel-resilient RF fingerprinting",
    "authors": [
@@ -501,7 +670,7 @@
    "urls": [],
    "container": "IEEE Commun. Mag",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -512,7 +681,7 @@
     "first_author": "Soltani",
     "container": "IEEE Communications Magazine",
     "type": "journal-article",
-    "score": 66.986946
+    "score": 67.081856
    },
    "metrics": {
     "title_sim": 100.0,
@@ -525,7 +694,7 @@
   },
   {
    "junk": false,
-   "idx": 12,
+   "idx": 17,
    "raw": "Yue Tian, Hanpeng Li, Qiuming Zhu, Kai Mao, Farman Ali, Xiaomin Chen, and Weizhi Zhong. Generative network-based channel modeling and generation for air-to-ground communication scenarios. IEEE Commun. Lett., 28(4):892\u2013896, April 2024.",
    "title": "Generative network-based channel modeling and generation for air-to-ground communication scenarios",
    "authors": [
@@ -543,7 +712,7 @@
    "urls": [],
    "container": "IEEE Commun. Lett",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -554,7 +723,7 @@
     "first_author": "Tian",
     "container": "IEEE Communications Letters",
     "type": "journal-article",
-    "score": 58.36223
+    "score": 58.397842
    },
    "metrics": {
     "title_sim": 100.0,
@@ -567,7 +736,7 @@
   },
   {
    "junk": false,
-   "idx": 13,
+   "idx": 18,
    "raw": "Haotian Wu, Yulin Shao, Emre Ozfatura, Krystian Mikolajczyk, and Deniz G\u00fcnd\u00fcz. Transformeraided wireless image transmission with channel feedback. IEEE Transactions on Wireless Communications, 23(9):11904\u201311919, 2024. doi: 10.1109/TWC.2024.3386052.",
    "title": "Transformeraided wireless image transmission with channel feedback",
    "authors": [
@@ -583,7 +752,7 @@
    "urls": [],
    "container": "IEEE Transactions on Wireless Communications",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "doi",
    "match": {
@@ -607,7 +776,7 @@
   },
   {
    "junk": false,
-   "idx": 14,
+   "idx": 19,
    "raw": "Han Xiao, Wenqiang Tian, Wendong Liu, and Jia Shen. ChannelGAN: Deep learning-based channel modeling and generating. IEEE Wireless Commun. Lett., 11(3):650\u2013654, Mar. 2022. doi: 10.1109/ LWC.2021.3140102.",
    "title": "ChannelGAN: Deep learning-based channel modeling and generating",
    "authors": [
@@ -622,7 +791,7 @@
    "urls": [],
    "container": "IEEE Wireless Commun. Lett",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -633,7 +802,7 @@
     "first_author": "Xiao",
     "container": "IEEE Wireless Communications Letters",
     "type": "journal-article",
-    "score": 56.094242
+    "score": 56.100998
    },
    "metrics": {
     "title_sim": 100.0,
@@ -651,7 +820,7 @@
   },
   {
    "junk": false,
-   "idx": 15,
+   "idx": 20,
    "raw": "Mingfeng Xu, Yang Li, Mingyu Li, Houxiao Cui, Jiamo Jiang, and Ying Du. A denoising diffusion probabilistic model based data augmentation method for wireless channel. In Proc. IEEE Int. Conf. Wirel. Commun. Signal Process. (WCSP), pages 195\u2013200, November 2023.",
    "title": "A denoising diffusion probabilistic model based data augmentation method for wireless channel",
    "authors": [
@@ -668,7 +837,7 @@
    "urls": [],
    "container": "Proc. IEEE Int. Conf. Wirel. Commun. Signal Process. (WCSP",
    "type": "paper-conference",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -679,7 +848,7 @@
     "first_author": "Xu",
     "container": "2023 International Conference on Wireless Communications and Signal Processing (WCSP)",
     "type": "proceedings-article",
-    "score": 66.1292
+    "score": 66.14462
    },
    "metrics": {
     "title_sim": 100.0,
@@ -692,7 +861,7 @@
   },
   {
    "junk": false,
-   "idx": 16,
+   "idx": 21,
    "raw": "Yang Yang, Yang Li, Wuxiong Zhang, Fei Qin, Pengcheng Zhu, and Cheng-Xiang Wang. Generativeadversarial-network-based wireless channel modeling: Challenges and opportunities. IEEE Commun. Mag., 57(3):22\u201327, March 2019.",
    "title": "Generativeadversarial-network-based wireless channel modeling: Challenges and opportunities",
    "authors": [
@@ -709,7 +878,7 @@
    "urls": [],
    "container": "IEEE Commun. Mag",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -720,7 +889,7 @@
     "first_author": "Yang",
     "container": "IEEE Communications Magazine",
     "type": "journal-article",
-    "score": 42.36011
+    "score": 42.363583
    },
    "metrics": {
     "title_sim": 99.4475138121547,
@@ -733,7 +902,7 @@
   },
   {
    "junk": false,
-   "idx": 17,
+   "idx": 22,
    "raw": "Jiahui Zheng, Zhaoning Zhao, Yuhang Liao, Yuxiang Wang, Linglong Dai, and Wei Yu. Transformerdriven neural beamforming with imperfect csi in urban macro wireless channels. arXiv preprint arXiv:2504.11667, 2025.",
    "title": "Transformerdriven neural beamforming with imperfect csi in urban macro wireless channels",
    "authors": [
@@ -750,18 +919,15 @@
    "urls": [],
    "container": null,
    "type": null,
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
-   "via": "crossref",
+   "via": "arxiv_id",
    "match": {
-    "source": "crossref",
-    "doi": "10.1109/pimrc62392.2025.11275132",
+    "source": "arxiv",
+    "arxiv": "2504.11667",
     "title": "Transformer-Driven Neural Beamforming with Imperfect CSI in Urban Macro Wireless Channels",
     "year": 2025,
-    "first_author": "Vahapoglu",
-    "container": "2025 IEEE 36th International Symposium on Personal, Indoor and Mobile Radio Communications (PIMRC)",
-    "type": "proceedings-article",
-    "score": 58.640083
+    "first_author": "Cemil Vahapoglu"
    },
    "metrics": {
     "title_sim": 99.43502824858757,
@@ -770,16 +936,11 @@
     "year_ok": true,
     "first_author_ok": false
    },
-   "evidence": [
-    {
-     "step": "arxiv_id_not_found",
-     "arxiv": "2504.11667"
-    }
-   ]
+   "evidence": []
   },
   {
    "junk": false,
-   "idx": 18,
+   "idx": 23,
    "raw": "Zihan Zheng, Tsung-Yen Chung, Kuan-Hao Lin, and Jian Yang. Faster diffusion: Rethinking the role of the encoder for diffusion model inference. arXiv preprint arXiv:2405.18527, 2024.",
    "title": "Faster diffusion: Rethinking the role of the encoder for diffusion model inference",
    "authors": [
@@ -794,7 +955,7 @@
    "urls": [],
    "container": null,
    "type": null,
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -805,7 +966,7 @@
     "first_author": "Li",
     "container": "Advances in Neural Information Processing Systems 37",
     "type": "proceedings-article",
-    "score": 54.837975
+    "score": 54.84107
    },
    "metrics": {
     "title_sim": 100.0,
@@ -816,8 +977,21 @@
    },
    "evidence": [
     {
-     "step": "arxiv_id_not_found",
-     "arxiv": "2405.18527"
+     "step": "arxiv_id_resolves_title_mismatch",
+     "rec": {
+      "source": "arxiv",
+      "arxiv": "2405.18527",
+      "title": "Task-Driven Uncertainty Quantification in Inverse Problems via Conformal Prediction",
+      "year": 2024,
+      "first_author": "Jeffrey Wen"
+     },
+     "metrics": {
+      "title_sim": 41.463414634146346,
+      "containment": 0.0,
+      "partial_ratio": 46.98795180722891,
+      "year_ok": true,
+      "first_author_ok": false
+     }
     }
    ]
   }

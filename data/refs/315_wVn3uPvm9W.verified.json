@@ -1,14 +1,712 @@
 {
  "pdf": "315_wVn3uPvm9W.pdf",
- "n_entries": 9,
- "fallback": false,
+ "n_entries": 33,
+ "fallback": "indent-guided",
  "error": null,
  "linenumbers_stripped": false,
- "parser_version": 3,
+ "two_column": false,
+ "parser_version": 4,
+ "reprocessed": true,
  "entries": [
   {
    "junk": false,
    "idx": 1,
+   "raw": "Maciej Besta, Nils Blach, Ales Kubicek, Robert Gerstenberger, Michal Podstawski, Lukas Gianinazzi, Joanna Gajda, Tomasz Lehmann, Hubert Niewiadomski, Piotr Nyczyk, et al. Graph of thoughts: Solving elaborate problems with large language models. In Proceedings of the AAAI conference on artificial intelligence, volume 38, pages 17682\u201317690, 2024.",
+   "title": "Graph of thoughts: Solving elaborate problems with large language models",
+   "authors": [
+    "Besta",
+    "Blach",
+    "Kubicek",
+    "Gerstenberger",
+    "Podstawski",
+    "Gianinazzi",
+    "Gajda",
+    "Lehmann",
+    "Niewiadomski",
+    "Nyczyk"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the AAAI conference on artificial intelligence",
+   "type": "paper-conference",
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1609/aaai.v38i16.29720",
+    "title": "Graph of Thoughts: Solving Elaborate Problems with Large Language Models",
+    "year": 2024,
+    "first_author": "Besta",
+    "container": "Proceedings of the AAAI Conference on Artificial Intelligence",
+    "type": "journal-article",
+    "score": 57.69257
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "Tom Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared D Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, et al. Language models are few-shot learners. volume 33, pages 1877\u20131901, 2020.",
+   "title": "Language models are few-shot learners",
+   "authors": [
+    "Brown",
+    "Mann",
+    "Ryder",
+    "Subbiah",
+    "Kaplan",
+    "Dhariwal",
+    "Neelakantan",
+    "Shyam",
+    "Sastry",
+    "Askell"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2021.mrl-1.1",
+    "title": "Language Models are Few-shot Multilingual Learners",
+    "year": 2021,
+    "first_author": "Winata",
+    "container": "Proceedings of the 1st Workshop on Multilingual Representation Learning",
+    "type": "proceedings-article",
+    "score": 33.98637
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.833,
+    "partial_ratio": 74.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "Mateusz Bystron\u0301ski, Miko\u0142aj Ho\u0142ysz, Grzegorz Piotrowski, Nitesh V Chawla, and Tomasz Kajdanowicz. Large language models as innovators: A framework to leverage latent space exploration for novelty discovery. arXiv preprint arXiv:2507.13874, 2025.",
+   "title": "Large language models as innovators: A framework to leverage latent space exploration for novelty discovery",
+   "authors": [
+    "Bystro\u0144ski",
+    "Ho\u0142ysz",
+    "Piotrowski",
+    "Chawla",
+    "Kajdanowicz"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": "2507.13874",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id_v1",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2507.13874v1",
+    "title": "Large Language Models as Innovators: A Framework to Leverage Latent Space Exploration for Novelty Discovery",
+    "year": 2025,
+    "first_author": "Mateusz Bystro\u0144ski"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true,
+    "note": "title matches an earlier arXiv version"
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "Matthijs Douze, Alexandr Guzhva, Chengqi Deng, Jeff Johnson, Gergely Szilvasy, Pierre-Emmanuel Mazar\u00e9, Maria Lomeli, Lucas Hosseini, and Herv\u00e9 J\u00e9gou. The faiss library. arXiv preprint arXiv:2401.08281, 2024.",
+   "title": "The faiss library",
+   "authors": [
+    "Douze",
+    "Guzhva",
+    "Deng",
+    "Johnson",
+    "Szilvasy",
+    "Mazar\u00e9",
+    "Lomeli",
+    "Hosseini",
+    "J\u00e9gou"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2401.08281",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2401.08281",
+    "title": "The Faiss library",
+    "year": 2024,
+    "first_author": "Matthijs Douze"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "Tao Feng, Yihang Sun, and Jiaxuan You. Grapheval: A lightweight graph-based llm framework for idea evaluation. arXiv preprint arXiv:2503.12600, 2025.",
+   "title": "Grapheval: A lightweight graph-based llm framework for idea evaluation",
+   "authors": [
+    "Feng",
+    "Sun",
+    "You"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": "2503.12600",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2503.12600",
+    "title": "GraphEval: A Lightweight Graph-Based LLM Framework for Idea Evaluation",
+    "year": 2025,
+    "first_author": "Tao Feng"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "Alireza Ghafarollahi and Markus J Buehler. Sciagents: automating scientific discovery through bioinspired multi-agent intelligent graph reasoning. Advanced Materials, 37(22):2413523, 2025.",
+   "title": "Sciagents: automating scientific discovery through bioinspired multi-agent intelligent graph reasoning",
+   "authors": [
+    "Ghafarollahi",
+    "Buehler"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advanced Materials",
+   "type": "article-journal",
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1002/adma.202413523",
+    "title": "SciAgents: Automating Scientific Discovery Through Bioinspired Multi\u2010Agent Intelligent Graph Reasoning",
+    "year": 2025,
+    "first_author": "Ghafarollahi",
+    "container": "Advanced Materials",
+    "type": "journal-article",
+    "score": 102.44138
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "Alex Graves. Sequence transduction with recurrent neural networks. arXiv preprint arXiv:1211.3711, 2012.",
+   "title": "Sequence transduction with recurrent neural networks",
+   "authors": [
+    "Graves"
+   ],
+   "year": 2012,
+   "doi": null,
+   "arxiv": "1211.3711",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "1211.3711",
+    "title": "Sequence Transduction with Recurrent Neural Networks",
+    "year": 2012,
+    "first_author": "Alex Graves"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "Sikun Guo, Amir Hassan Shariatmadari, Guangzhi Xiong, Albert Huang, Myles Kim, Corey M Williams, Stefan Bekiranov, and Aidong Zhang. Ideabench: Benchmarking large language models for research idea generation. In Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining V. 2, pages 5888\u20135899, 2025.",
+   "title": "Ideabench: Benchmarking large language models for research idea generation",
+   "authors": [
+    "Guo",
+    "Shariatmadari",
+    "Xiong",
+    "Huang",
+    "Kim",
+    "Williams",
+    "Bekiranov",
+    "Zhang"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+   "type": "paper-conference",
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3711896.3737419",
+    "title": "IdeaBench: Benchmarking Large Language Models for Research Idea Generation",
+    "year": 2025,
+    "first_author": "Guo",
+    "container": "Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2",
+    "type": "proceedings-article",
+    "score": 55.878365
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "Ari Holtzman, Jan Buys, Li Du, Maxwell Forbes, and Yejin Choi. The curious case of neural text degeneration. 2019.",
+   "title": "The curious case of neural text degeneration",
+   "authors": [
+    "Holtzman",
+    "Buys",
+    "Du",
+    "Forbes",
+    "Choi"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "openalex",
+   "match": {
+    "source": "openalex",
+    "id": "https://openalex.org/W2938704169",
+    "doi": "https://doi.org/10.48550/arxiv.1904.09751",
+    "title": "The Curious Case of Neural Text Degeneration",
+    "year": 2019,
+    "first_author": "Ari Holtzman",
+    "container": "arXiv (Cornell University)",
+    "type": "preprint"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1609/aaai.v38i2.27863",
+      "title": "Real3D: The Curious Case of Neural Scene Degeneration",
+      "year": 2024,
+      "first_author": "Chen",
+      "container": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "type": "journal-article",
+      "score": 26.605452
+     },
+     "metrics": {
+      "title_sim": 93.97590361445783,
+      "containment": 0.667,
+      "partial_ratio": 82.35294117647058,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "Arash Lagzian, Srinivas Anumasa, and Dianbo Liu. Enhancing diversity and novelty in text generation via multi-view embeddings. In Towards Agentic AI for Science: Hypothesis Generation, Comprehension, Quantification, and Validation. Long Li, Weiwen Xu, Jiayan Guo, Ruochen Zhao, Xingxuan Li, Yuqian Yuan, Boqiang Zhang, Yuming Jiang, Yifei Xin, Ronghao Dang, et al. Chain of ideas: Revolutionizing research via novel idea development with llm agents. arXiv preprint arXiv:2410.13185, 2024.",
+   "title": "Enhancing diversity and novelty in text generation via multi-view embeddings. In Towards Agentic AI for Science: Hypothesis Generation, Comprehension, Quantification, and Validation",
+   "authors": [
+    "Lagzian",
+    "Anumasa",
+    "Liu",
+    "Li",
+    "Xu",
+    "Guo",
+    "Zhao",
+    "Li",
+    "Yuan",
+    "Zhang",
+    "Jiang",
+    "Xin"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2410.13185",
+   "urls": [],
+   "container": "Chain of ideas: Revolutionizing research via novel idea development with llm agents",
+   "type": "article-journal",
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2410.13185",
+    "title": "Chain of Ideas: Revolutionizing Research Via Novel Idea Development with LLM Agents",
+    "year": 2024,
+    "first_author": "Long Li"
+   },
+   "metrics": {
+    "title_sim": 34.883720930232556,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "Ethan Lin, Zhiyuan Peng, and Yi Fang. Evaluating and enhancing large language models for novelty assessment in scholarly publications. arXiv preprint arXiv:2409.16605, 2024.",
+   "title": "Evaluating and enhancing large language models for novelty assessment in scholarly publications",
+   "authors": [
+    "Lin",
+    "Peng",
+    "Fang"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2409.16605",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2409.16605",
+    "title": "Evaluating and Enhancing Large Language Models for Novelty Assessment in Scholarly Publications",
+    "year": 2024,
+    "first_author": "Ethan Lin"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "Aixin Liu, Bei Feng, Bing Xue, Bingxuan Wang, Bochao Wu, Chengda Lu, Chenggang Zhao, Chengqi Deng, Chenyu Zhang, Chong Ruan, et al. Deepseek-v3 technical report, 2024.",
+   "title": null,
+   "authors": [
+    "Liu",
+    "Feng",
+    "Xue",
+    "Wang",
+    "Wu",
+    "Lu",
+    "Zhao",
+    "Deng",
+    "Zhang",
+    "Ruan"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "report",
+   "parser": "anystyle-indent-guided",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/iwjt.2012.6212814",
+      "title": "Process match between DSA and LSA for ultra-shallow junction formation",
+      "year": 2012,
+      "first_author": "Yonggen He",
+      "container": "2012 12th International Workshop on Junction Technology",
+      "type": "proceedings-article",
+      "score": 43.165752
+     },
+     "metrics": {
+      "title_sim": 0,
+      "containment": 0.0,
+      "partial_ratio": 38.57142857142857,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "Yan Liu, Zonglin Yang, Soujanya Poria, Thanh-Son Nguyen, and Erik Cambria. Harnessing large language models for scientific novelty detection. arXiv preprint arXiv:2505.24615, 2025.",
+   "title": "Harnessing large language models for scientific novelty detection",
+   "authors": [
+    "Liu",
+    "Yang",
+    "Poria",
+    "Nguyen",
+    "Cambria"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": "2505.24615",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2505.24615",
+    "title": "Harnessing Large Language Models for Scientific Novelty Detection",
+    "year": 2025,
+    "first_author": "Yan Liu"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "Chris Lu, Cong Lu, Robert Tjarko Lange, Jakob Foerster, Jeff Clune, and David Ha. The ai scientist: Towards fully automated open-ended scientific discovery. arXiv preprint arXiv:2408.06292, 2024.",
+   "title": "The ai scientist: Towards fully automated open-ended scientific discovery",
+   "authors": [
+    "Lu",
+    "Lu",
+    "Lange",
+    "Foerster",
+    "Clune",
+    "Ha"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2408.06292",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2408.06292",
+    "title": "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery",
+    "year": 2024,
+    "first_author": "Chris Lu"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "Haoran Luo, Yikai Guo, Qika Lin, Xiaobao Wu, Xinyu Mu, Wenhao Liu, Meina Song, Yifan Zhu, Luu Anh Tuan, et al. Kbqa-o1: Agentic knowledge base question answering with monte carlo tree search. arXiv preprint arXiv:2501.18922, 2025.",
+   "title": "Kbqa-o1: Agentic knowledge base question answering with monte carlo tree search",
+   "authors": [
+    "Luo",
+    "Guo",
+    "Lin",
+    "Wu",
+    "Mu",
+    "Liu",
+    "Song",
+    "Zhu",
+    "Tuan"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": "2501.18922",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2501.18922",
+    "title": "KBQA-o1: Agentic Knowledge Base Question Answering with Monte Carlo Tree Search",
+    "year": 2025,
+    "first_author": "Haoran Luo"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 16,
+   "raw": "Marissa Radensky, Simra Shahid, Raymond Fok, Pao Siangliulue, Tom Hope, and Daniel S Weld. Scideator: Human-llm scientific idea generation grounded in research-paper facet recombination. arXiv preprint arXiv:2409.14634, 2024.",
+   "title": "Scideator: Human-llm scientific idea generation grounded in research-paper facet recombination",
+   "authors": [
+    "Radensky",
+    "Shahid",
+    "Fok",
+    "Siangliulue",
+    "Hope",
+    "Weld"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2409.14634",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id_v1",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2409.14634v1",
+    "title": "Scideator: Human-LLM Scientific Idea Generation Grounded in Research-Paper Facet Recombination",
+    "year": 2024,
+    "first_author": "Marissa Radensky"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true,
+    "note": "title matches an earlier arXiv version"
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 17,
+   "raw": "Chenglei Si, Diyi Yang, and Tatsunori Hashimoto. Can llms generate novel research ideas? a large-scale human study with 100+ nlp researchers. arXiv preprint arXiv:2409.04109, 2024.",
+   "title": "Can llms generate novel research ideas? a large-scale human study with 100+ nlp researchers",
+   "authors": [
+    "Si",
+    "Yang",
+    "Hashimoto"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2409.04109",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2409.04109",
+    "title": "Can LLMs Generate Novel Research Ideas? A Large-Scale Human Study with 100+ NLP Researchers",
+    "year": 2024,
+    "first_author": "Chenglei Si"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 18,
    "raw": "David Silver, Aja Huang, Chris J Maddison, Arthur Guez, Laurent Sifre, George Van Den Driessche, Julian Schrittwieser, Ioannis Antonoglou, Veda Panneershelvam, Marc Lanctot, et al. Mastering the game of go with deep neural networks and tree search. nature, 529(7587):484\u2013489, 2016.",
    "title": "Mastering the game of go with deep neural networks and tree search",
    "authors": [
@@ -29,7 +727,7 @@
    "urls": [],
    "container": "nature",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -40,7 +738,7 @@
     "first_author": "Chittka",
     "container": "Faculty Opinions \u2013 Post-Publication Peer Review of the Biomedical Literature",
     "type": "dataset",
-    "score": 57.06131
+    "score": 57.02916
    },
    "metrics": {
     "title_sim": 100.0,
@@ -53,7 +751,7 @@
   },
   {
    "junk": false,
-   "idx": 2,
+   "idx": 19,
    "raw": "Haoyang Su, Renqi Chen, Shixiang Tang, Zhenfei Yin, Xinzhe Zheng, Jinzhe Li, Biqing Qi, Qi Wu, Hui Li, Wanli Ouyang, et al. Many heads are better than one: Improved scientific idea generation by a llm-based multi-agent system. arXiv preprint arXiv:2410.09403, 2024.",
    "title": "Many heads are better than one: Improved scientific idea generation by a llm-based multi-agent system",
    "authors": [
@@ -74,18 +772,15 @@
    "urls": [],
    "container": null,
    "type": null,
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
-   "via": "crossref",
+   "via": "arxiv_id",
    "match": {
-    "source": "crossref",
-    "doi": "10.18653/v1/2025.acl-long.1368",
+    "source": "arxiv",
+    "arxiv": "2410.09403",
     "title": "Many Heads Are Better Than One: Improved Scientific Idea Generation by A LLM-Based Multi-Agent System",
-    "year": 2025,
-    "first_author": "Su",
-    "container": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
-    "type": "proceedings-article",
-    "score": 69.44252
+    "year": 2024,
+    "first_author": "Haoyang Su"
    },
    "metrics": {
     "title_sim": 100.0,
@@ -94,16 +789,11 @@
     "year_ok": true,
     "first_author_ok": true
    },
-   "evidence": [
-    {
-     "step": "arxiv_id_not_found",
-     "arxiv": "2410.09403"
-    }
-   ]
+   "evidence": []
   },
   {
    "junk": false,
-   "idx": 3,
+   "idx": 20,
    "raw": "Wenxiao Wang, Lihui Gu, Liye Zhang, Yunxiang Luo, Yi Dai, Chen Shen, Liang Xie, Binbin Lin, Xiaofei He, and Jieping Ye. Scipip: An llm-based scientific paper idea proposer. arXiv preprint arXiv:2410.23166, 2024.",
    "title": "Scipip",
    "authors": [
@@ -124,54 +814,28 @@
    "urls": [],
    "container": null,
    "type": null,
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
-   "evidence": [
-    {
-     "step": "arxiv_id_not_found",
-     "arxiv": "2410.23166"
-    },
-    {
-     "step": "crossref_best_reject",
-     "rec": {
-      "source": "crossref",
-      "doi": "10.1007/978-3-031-62906-8_1",
-      "title": "Introduction",
-      "year": 2024,
-      "first_author": "Wang",
-      "container": "Encountering Mobile Data Dynamics in Heterogeneous Wireless Networks",
-      "type": "book-chapter",
-      "score": 10.272345
-     },
-     "metrics": {
-      "title_sim": 22.22222222222223,
-      "containment": 0.0,
-      "partial_ratio": 41.666666666666664,
-      "year_ok": true,
-      "first_author_ok": true
-     }
-    }
-   ],
-   "likely_match": null,
-   "via": "arxiv_id_repass",
+   "via": "arxiv_id",
    "match": {
-    "source": "arxiv_abs",
+    "source": "arxiv",
     "arxiv": "2410.23166",
     "title": "SciPIP: An LLM-based Scientific Paper Idea Proposer",
     "year": 2024,
-    "first_author": "Wang, Wenxiao"
+    "first_author": "Wenxiao Wang"
    },
    "metrics": {
     "title_sim": 21.42857142857143,
     "containment": 1.0,
     "partial_ratio": 100.0,
     "year_ok": true,
-    "first_author_ok": false
-   }
+    "first_author_ok": true
+   },
+   "evidence": []
   },
   {
    "junk": false,
-   "idx": 4,
+   "idx": 21,
    "raw": "Jason Wei, Xuezhi Wang, Dale Schuurmans, Maarten Bosma, Fei Xia, Ed Chi, Quoc V Le, Denny Zhou, et al. Chain-of-thought prompting elicits reasoning in large language models. Advances in neural information processing systems, 35:24824\u201324837, 2022.",
    "title": "Chain-of-thought prompting elicits reasoning in large language models",
    "authors": [
@@ -190,7 +854,7 @@
    "urls": [],
    "container": "Advances in neural information processing systems",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -201,7 +865,7 @@
     "first_author": "Wei",
     "container": "Advances in Neural Information Processing Systems 35",
     "type": "proceedings-article",
-    "score": 60.12538
+    "score": 60.129154
    },
    "metrics": {
     "title_sim": 100.0,
@@ -214,7 +878,7 @@
   },
   {
    "junk": false,
-   "idx": 5,
+   "idx": 22,
    "raw": "An Yang, Anfeng Li, Baosong Yang, Beichen Zhang, Binyuan Hui, Bo Zheng, Bowen Yu, Chang Gao, Chengen Huang, Chenxu Lv, et al. Qwen3 technical report. arXiv preprint arXiv:2505.09388, 2025.",
    "title": "Qwen3 technical report",
    "authors": [
@@ -235,7 +899,7 @@
    "urls": [],
    "container": null,
    "type": null,
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "arxiv_id",
    "match": {
@@ -256,7 +920,7 @@
   },
   {
    "junk": false,
-   "idx": 6,
+   "idx": 23,
    "raw": "Shunyu Yao, Dian Yu, Jeffrey Zhao, Izhak Shafran, Tom Griffiths, Yuan Cao, and Karthik Narasimhan. Tree of thoughts: Deliberate problem solving with large language models. Advances in neural information processing systems, 36:11809\u201311822, 2023a.",
    "title": "Tree of thoughts: Deliberate problem solving with large language models",
    "authors": [
@@ -274,7 +938,7 @@
    "urls": [],
    "container": "Advances in neural information processing systems",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -285,7 +949,7 @@
     "first_author": "Yao",
     "container": "Advances in Neural Information Processing Systems 36",
     "type": "proceedings-article",
-    "score": 58.39103
+    "score": 58.426037
    },
    "metrics": {
     "title_sim": 100.0,
@@ -298,7 +962,7 @@
   },
   {
    "junk": false,
-   "idx": 7,
+   "idx": 24,
    "raw": "Shunyu Yao, Jeffrey Zhao, Dian Yu, Nan Du, Izhak Shafran, Karthik Narasimhan, and Yuan Cao. React: Synergizing reasoning and acting in language models. In International Conference on Learning Representations (ICLR), 2023b.",
    "title": "React: Synergizing reasoning and acting in language models",
    "authors": [
@@ -316,7 +980,7 @@
    "urls": [],
    "container": "International Conference on Learning Representations (ICLR), 2023b",
    "type": "paper-conference",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "evidence": [
     {
@@ -329,7 +993,7 @@
       "first_author": "Haque",
       "container": "",
       "type": "posted-content",
-      "score": 25.654774
+      "score": 25.666412
      },
      "metrics": {
       "title_sim": 67.2566371681416,
@@ -362,11 +1026,12 @@
     "year_ok": true,
     "first_author_ok": true
    },
-   "second_pass_hit": true
+   "second_pass_hit": true,
+   "carried_over_from": "parser_v4_run"
   },
   {
    "junk": false,
-   "idx": 8,
+   "idx": 25,
    "raw": "Yiming Zhang, Harshita Diddee, Susan Holm, Hanchen Liu, Xinyue Liu, Vinay Samuel, Barry Wang, and Daphne Ippolito. Noveltybench: Evaluating language models for humanlike diversity. arXiv preprint arXiv:2504.05228, 2025.",
    "title": "Noveltybench: Evaluating language models for humanlike diversity",
    "authors": [
@@ -385,49 +1050,15 @@
    "urls": [],
    "container": null,
    "type": null,
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
-   "evidence": [
-    {
-     "step": "arxiv_id_not_found",
-     "arxiv": "2504.05228"
-    },
-    {
-     "step": "crossref_best_reject",
-     "rec": {
-      "source": "crossref",
-      "doi": "10.2139/ssrn.5336635",
-      "title": "Causalbench: A Multi-Domain Benchmark for Evaluating Causal Reasoning in Large Language Models",
-      "year": 2025,
-      "first_author": "Zhang",
-      "container": "",
-      "type": "posted-content",
-      "score": 26.637981
-     },
-     "metrics": {
-      "title_sim": 64.51612903225806,
-      "containment": 0.3,
-      "partial_ratio": 48.38709677419355,
-      "year_ok": true,
-      "first_author_ok": true
-     }
-    }
-   ],
-   "likely_match": null,
-   "via": "s2",
+   "via": "arxiv_id",
    "match": {
-    "source": "s2",
-    "id": "ef8d40aa7aa36cc9683b55e0285a33e02322b223",
+    "source": "arxiv",
+    "arxiv": "2504.05228",
     "title": "NoveltyBench: Evaluating Language Models for Humanlike Diversity",
     "year": 2025,
-    "first_author": "Yiming Zhang",
-    "container": "arXiv.org",
-    "ext": {
-     "ArXiv": "2504.05228",
-     "DBLP": "journals/corr/abs-2504-05228",
-     "DOI": "10.48550/arXiv.2504.05228",
-     "CorpusId": 277621515
-    }
+    "first_author": "Yiming Zhang"
    },
    "metrics": {
     "title_sim": 100.0,
@@ -436,11 +1067,11 @@
     "year_ok": true,
     "first_author_ok": true
    },
-   "second_pass_hit": true
+   "evidence": []
   },
   {
    "junk": false,
-   "idx": 9,
+   "idx": 26,
    "raw": "Wayne Xin Zhao, Kun Zhou, Junyi Li, Tianyi Tang, Xiaolei Wang, Yupeng Hou, Yingqian Min, Beichen Zhang, Junjie Zhang, Zican Dong, et al. A survey of large language models, 2023.",
    "title": "A survey of large language models",
    "authors": [
@@ -461,7 +1092,7 @@
    "urls": [],
    "container": null,
    "type": null,
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -472,7 +1103,7 @@
     "first_author": "Li",
     "container": "",
     "type": "posted-content",
-    "score": 30.329685
+    "score": 30.32937
    },
    "metrics": {
     "title_sim": 95.23809523809524,
@@ -482,6 +1113,272 @@
     "first_author_ok": true
    },
    "evidence": []
+  },
+  {
+   "junk": true,
+   "idx": 27,
+   "raw": "Reproducibility Statement Reproducing the Final Experimental Results To ensure full reproducibility of our findings, our supplementary package contains all necessary components. Specifically, it includes: (1) Source Code: The complete source code for the Magellan framework and all evaluation scripts. (2) Data: The data required to replicate our experiments, including the identifiers for the knowledge corpus and the test set of themes. (3) Configuration: Configuration files detailing all hyperparameters and a requirements.txt file for the software environment.",
+   "title": "Reproducibility Statement Reproducing the Final Experimental Results To ensure full reproducibility of our findings, our supplementary package contains all necessary components. Specifically, it includes: (1) Source Code: The complete source code for the Magellan framework and all evaluation scripts. (2) Data: The data required to replicate our experiments, including the identifiers for the knowledge corpus and the test set of themes",
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.7554/elife.08208.015",
+    "title": "Source code 1.",
+    "year": 2015,
+    "first_author": null,
+    "container": "",
+    "type": "component",
+    "score": 80.72178
+   },
+   "metrics": {
+    "title_sim": 5.936073059360735,
+    "containment": 1.0,
+    "partial_ratio": 92.3076923076923,
+    "year_ok": true,
+    "first_author_ok": null
+   },
+   "evidence": []
+  },
+  {
+   "junk": true,
+   "idx": 28,
+   "raw": "Reproducing the AI-driven Discovery Process The primary goal of our supplementary package is to make the agent-driven research process transparent, understandable, and conceptually reproducible. Transparency: The AgentChatLog/ directory provides a complete, step-by-step record of the prompts, agent outputs, and intermediate artifacts. This serves as a \"lab notebook\" for the AI\u2019s work. Conceptual Reproducibility: While the stochastic nature of large language models means that identical outputs cannot be guaranteed, another researcher can follow the dialogues to understand the methodology. By using similar prompts and guidance, one could reasonably expect to guide a comparable AI agent to a similar set of ideas, code, and scientific conclusions. The logs document the critical path of inquiry, including dead ends, refinements, and breakthroughs. We believe this detailed record is essential for evaluating the methodology of using agents in science and provides a strong foundation for other researchers to build upon our approach. Responsible AI Statement Magellan is designed to augment human creativity and accelerate scientific discovery. We recognize that any powerful generative tool carries risks, such as generating plausible-sounding misinformation or amplifying biases from its training data. Therefore, we strongly assert that Magellan is a tool for assisting experts, not a replacement for them. Human oversight and expert validation of all outputs are the most critical safety measures for its responsible deployment. Our framework\u2019s design incorporates further precautions by grounding the search in a peer-reviewed knowledge corpus and by providing full transparency through our open-source code. We believe that when used under expert supervision, Magellan can serve as a safe and powerful partner for innovation. AI Agent Setup The AI agent used in this research was configured within the gemini-cli interactive environment, which utilized the Gemini 2.5 Pro large language model as its core reasoning engine. The orchestration was managed by the gemini-cli framework, a stateful system that enables the LLM to decompose high-level objectives into sequential, executable tasks. This setup provided the agent with direct access to a suite of tools for interacting with the local development environment. Key tool integrations included: a comprehensive set of functions for file system manipulation (read_file, write_file, glob, search_file_content); and the ability to execute shell commands (run_shell_command) for compiling code and running experiments. A     Supplementary Material A.1   Knowledge Corpus and Evaluation Dataset The knowledge corpus serves as the semantic foundation for our agent. Its design was guided by the principles of representativeness and methodological rigor. To ensure it reflects the current state-of-the-art, we curated papers from premier venues. The detailed composition is in Table 7. Table 7: Composition of the Knowledge Corpus. Source                  Years       Number of Papers CVPR                 2023\u20132025                    7,937 ICML                 2023\u20132025                    7,695 Nature Medicine      2022\u20132025                      950 Total                                            16,582",
+   "title": "Reproducing the AI-driven Discovery Process The primary goal of our supplementary package is to make the agent-driven research process transparent, understandable, and conceptually reproducible. Transparency: The AgentChatLog/ directory provides a complete, step-by-step record of the prompts, agent outputs, and intermediate artifacts. This serves as a \"lab notebook\" for the AI\u2019s work. Conceptual Reproducibility: While the stochastic nature of large language models means that identical outputs cannot be guaranteed, another researcher can follow the dialogues to understand the methodology. By using similar prompts and guidance, one could reasonably expect to guide a comparable AI agent to a similar set of ideas, code, and scientific conclusions. The logs document the critical path of inquiry, including dead ends, refinements, and breakthroughs. We believe this detailed record is essential for evaluating the methodology of using agents in science and provides a strong foundation for other researchers to build upon our approach. Responsible AI Statement Magellan is designed to augment human creativity and accelerate scientific discovery. We recognize that any powerful generative tool carries risks, such as generating plausible-sounding misinformation or amplifying biases from its training data. Therefore, we strongly assert that Magellan is a tool for assisting experts, not a replacement for them. Human oversight and expert validation of all outputs are the most critical safety measures for its responsible deployment. Our framework\u2019s design incorporates further precautions by grounding the search in a peer-reviewed knowledge corpus and by providing full transparency through our open-source code. We believe that when used under expert supervision, Magellan can serve as a safe and powerful partner for innovation. AI Agent Setup The AI agent used in this research was configured within the gemini-cli interactive environment, which utilized the Gemini 2.5 Pro large language model as its core reasoning engine. The orchestration was managed by the gemini-cli framework, a stateful system that enables the LLM to decompose high-level objectives into sequential, executable tasks. This setup provided the agent with direct access to a suite of tools for interacting with the local development environment. Key tool integrations included: a comprehensive set of functions for file system manipulation",
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-indent-guided",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.52567/trehabj.v9i03.105",
+      "title": "Advances in artificial intelligence (AI) are rapidly transforming rehabilitation research, from predictive models of gait and recovery to AI-driven robotics and tele-rehabilitation systems. Such work promises more personalized therapy, but it also raises a question about fully disclosing AI tools in research . Despite the hype, a recent study shows that AI involvement in medical research is often underreported. In a systematic review of 65 clinical trials involving AI,only 10 explicitly mentioned that they used AI, and many AI-specific details were missing[1]. These findings suggest that there is a wide transparency gap.    Some authors simply may not realize that standard reporting guidelines exist, and others may resist publishing code or details of AI usage. Resnik and Hosseini (2025) reported that some publishers have different and sometimes contradictory policies on AI disclosure [2]. So, without clear directives, many investigators share minimal information. However, whatever the reason is, if the methodology isn\u2019t fully reported, it can\u2019t be independently verified or reproduced. Failing to declare AI methods is not a mere editorial oversight; it poses real risks to science and patients. From a scientific standpoint, transparency is essential for reproducibility.  Finally, not disclosing AI use can backfire academically. Many journals and professional societies now recognize that using AI (even for writing or image generation)can raise questions of authorship and ethics. The ICMJE updated its guidelines to address AI explicitly, noting that manuscripts must disclose information on how work conducted with the assistance of artificial intelligence (AI)technology [3]. So, the publishers are moving toward mandatory disclosure: if you used AI in any substantive way, you must tell readers. Rehabilitation research must get ahead of this curve rather than be caught unprepared.  However, merely having guidelines is not enough; they must be adopted. As noted, several rehabilitation journals have not issued AI-specific author instructions. Specialty fields may assume general reporting standards suffice, but complexity demands explicit mention. We believe The Rehabilitation Journal and peer publications will adopt and consider revising their policies and submission checklists to explicitly ask about the use of any AI tools in this study. If so, describe in detail. Without these directives, underreporting is likely to continue. By embracing clear guidelines and ethical norms today, we can use AI\u2019s potential to improve rehabilitation without compromising the integrity or equity of our science.",
+      "year": 2025,
+      "first_author": null,
+      "container": "The Rehabilitation Journal",
+      "type": "journal-article",
+      "score": 20.492863
+     },
+     "metrics": {
+      "title_sim": 44.170539502929884,
+      "containment": 0.178,
+      "partial_ratio": 44.431464174454824,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": true,
+   "idx": 29,
+   "raw": "A.2   Theme Generation Methodology.",
+   "title": "A.2 Theme Generation Methodology",
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-indent-guided",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.26419/res.00910.003",
+      "title": "Job Change Theme Month 2025 Methodology",
+      "year": 2025,
+      "first_author": "Perron",
+      "container": "",
+      "type": "report",
+      "score": 21.84332
+     },
+     "metrics": {
+      "title_sim": 70.4225352112676,
+      "containment": 0.333,
+      "partial_ratio": 68.85245901639344,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": true,
+   "idx": 30,
+   "raw": "Our automated theme generation process, which produced the evaluation dataset, is rooted in conceptual clustering. We applied K-Means to the document embeddings, partitioning the semantic space into K = 20 clusters. This value was chosen to create a fine-grained conceptual map, allowing the theme generator to bridge specific and nuanced conceptual gaps. The generator then repeatedly sampled pairs of papers from distinct clusters and prompted an LLM to synthesize a bridging theme, using the prompt detailed in the A.4.1. A qualitative visualization of the corpus clusters is provided in Figure 1.",
+   "title": "Our automated theme generation process, which produced the evaluation dataset, is rooted in conceptual clustering. We applied K-Means to the document embeddings, partitioning the semantic space into K = 20 clusters. This value was chosen to create a fine-grained conceptual map, allowing the theme generator to bridge specific and nuanced conceptual gaps. The generator then repeatedly sampled pairs of papers from distinct clusters and prompted an LLM to synthesize a bridging theme",
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-indent-guided",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.7554/elife.12613.018",
+      "title": "Supplementary file 2. (a)\u00a0Numbers and types of mutations in the core population compared to genetically distinct strains LV9 (MHOM/ET/1967/HU3) and JPCM5 (MCAN/ES/1998/LLM-877), as well as the ISC1/2.\u00a0N/S ratio denotes the number of nonsynonymous SNPs divided by the synonymous\u00a0ones.",
+      "year": 2016,
+      "first_author": null,
+      "container": "",
+      "type": "component",
+      "score": 8.136335
+     },
+     "metrics": {
+      "title_sim": 39.08969210174029,
+      "containment": 0.067,
+      "partial_ratio": 43.4077079107505,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 31,
+   "raw": "To illustrate the capability of our automated theme generation module (Section 3.1), we present a curated example below. The process begins by selecting two concepts from different, but related, conceptual clusters. These serve as inputs to the LLM, which then synthesizes a novel, bridging research theme. A.3   Implementation and Hyperparameter Details To ensure full reproducibility, this section provides key details on the models and hyperparameters used in our experiments. Figure 1: t-SNE visualization of the knowledge corpus embeddings. Each point represents a paper, colored by its assigned cluster ID (0-19). The plot shows clear semantic separation between conceptual groups, validating the basis of our cross-disciplinary theme generation strategy. General LLM Configuration. Across all experiments, for both our method and the baselines, the core Large Language Model was Qwen3-1.7B Yang et al. [2025]. For text generation, we consistently used a sampling temperature of 0.7 and a top-p value of 0.9 to encourage creative yet coherent outputs.",
+   "title": "To illustrate the capability of our automated theme generation module (Section 3.1), we present a curated example below. The process begins by selecting two concepts from different, but related, conceptual clusters. These serve as inputs to the LLM, which then synthesizes a novel, bridging research theme. A.3 Implementation and Hyperparameter Details To ensure full reproducibility, this section provides key details on the models and hyperparameters used in our experiments. Figure 1: t-SNE visualization of the knowledge corpus embeddings. Each point represents a paper, colored by its assigned cluster ID (0-19). The plot shows clear semantic separation between conceptual groups, validating the basis of our cross-disciplinary theme generation strategy",
+   "authors": [],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "General LLM Configuration. Across all experiments, for both our method and the baselines, the core Large Language Model was Qwen3-1.7B Yang et al",
+   "type": "chapter",
+   "parser": "anystyle-indent-guided",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.7554/elife.30963.017",
+      "title": "Figure 4\u2014figure supplement 1. Definition of the length-width ratio (LWR) in the simulations, and example for full force-balanced state.",
+      "year": 2018,
+      "first_author": null,
+      "container": "",
+      "type": "component",
+      "score": 41.36387
+     },
+     "metrics": {
+      "title_sim": 24.395857307249713,
+      "containment": 0.286,
+      "partial_ratio": 49.23076923076923,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 32,
+   "raw": "Magellan Configuration. The MCTS search was configured with a maximum of 30 iterations and an expansion width (K) of 3. The early stopping mechanism was triggered if the best path remained stable for 2 consecutive iterations (Patience=2), and the progress pruning threshold was set to \u03b8prog = 0.05. The UCT formula was balanced with an exploration constant (C) of 1.5 and a guidance weight (wg ) of 1.0. The three components of our evaluation function were weighted as wcoh = 0.5, wnov = 0.3, and wprog = 0.2. The guidance vector weight is set to \u03b1 = 1.0.",
+   "title": "The MCTS search was configured with a maximum of 30 iterations and an expansion width (K) of 3. The early stopping mechanism was triggered if the best path remained stable for 2 consecutive iterations (Patience=2), and the progress pruning threshold was set to \u03b8prog = 0.05. The UCT formula was balanced with an exploration constant (C) of 1.5 and a guidance weight (wg ) of 1.0. The three components of our evaluation function were weighted as wcoh = 0.5, wnov = 0.3, and wprog = 0.2. The guidance vector weight is set to \u03b1 = 1.0",
+   "authors": [
+    "Configuration"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-indent-guided",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.7554/elife.22630.019",
+      "title": "Figure 7\u2014figure supplement 1. Fitting Gaussian mixture models to olfactory bulb peak latency distributions.",
+      "year": 2017,
+      "first_author": null,
+      "container": "",
+      "type": "component",
+      "score": 28.110493
+     },
+     "metrics": {
+      "title_sim": 24.26229508196721,
+      "containment": 0.0,
+      "partial_ratio": 42.85714285714286,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 33,
+   "raw": "Baselines Configuration. The baselines were configured to be strong competitors. For Tree of Thoughts (ToT), we allowed the model to explore 5 candidates at each of a maximum of 5 steps. For ReAct, the agent was permitted a maximum of 10 steps to develop its reasoning and action plan. Detailed prompt settings for each method are shown in TableA.4.2, A.4.3, A.4.7, A.4.8. A.4   LLM-as-a-Judge Protocol To ensure a transparent and reproducible evaluation process, this section details the protocol used for our LLM-as-a-Judge methodology. We utilized the DeepSeek-V3.1-Think model Liu et al. [2024] as the core evaluator. To mitigate potential bias, the proposals from all methods were presented to the judge in a randomized order and without any identifying labels. The evaluation was guided by a prompt shown in A.4.9.",
+   "title": "The baselines were configured to be strong competitors. For Tree of Thoughts (ToT), we allowed the model to explore 5 candidates at each of a maximum of 5 steps. For ReAct, the agent was permitted a maximum of 10 steps to develop its reasoning and action plan. Detailed prompt settings for each method are shown in TableA.4.2, A.4.3, A.4.7, A.4.8. A.4 LLM-as-a-Judge Protocol To ensure a transparent and reproducible evaluation process, this section details the protocol used for our LLM-as-a-Judge methodology",
+   "authors": [
+    "Configuration"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-indent-guided",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.7554/elife.42955.006",
+      "title": "Figure 1\u2014figure supplement 4. The ubiquitin allele SGA protocol Ubiquitin K-to-R mutant strains were mated to an array of single-gene deletion strains.",
+      "year": 2018,
+      "first_author": null,
+      "container": "",
+      "type": "component",
+      "score": 58.104378
+     },
+     "metrics": {
+      "title_sim": 31.221020092735706,
+      "containment": 0.118,
+      "partial_ratio": 46.308724832214764,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
   }
  ],
  "second_pass": true,

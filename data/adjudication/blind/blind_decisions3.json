@@ -1,0 +1,722 @@
+[
+ {
+  "id": "W001",
+  "category": "EXISTS",
+  "evidence_url": "https://api.crossref.org/works/10.2196/37784",
+  "note": "Smith N et al., JMIR Formative Research 7:e37784, 2023; matches."
+ },
+ {
+  "id": "W002",
+  "category": "EXISTS_CORRUPTED",
+  "evidence_url": "https://api.crossref.org/works/10.1007/978-3-031-22950-3_3",
+  "note": "DOI resolves to the titled chapter (CCIS, pp 25-35, 2022) but authors are Roy, Haldar, Das, Banerjee, Biswas; 'Girma A. G.' is not an author. [authors]"
+ },
+ {
+  "id": "W003",
+  "category": "EXISTS",
+  "evidence_url": "https://api.crossref.org/works/10.1038/s41591-018-0268-3",
+  "note": "Hannun et al., Nature Medicine 25(1):65-69, 2019; matches."
+ },
+ {
+  "id": "W004",
+  "category": "EXISTS",
+  "evidence_url": "https://arxiv.org/abs/1005.3035",
+  "note": "Van Raamsdonk, GRG 42:2323-2329 (2010), DOI 10.1007/s10714-010-1034-0; arXiv id matches."
+ },
+ {
+  "id": "W005",
+  "category": "WEB_RESOURCE_EXISTS",
+  "evidence_url": "https://www.emodiversity.org/",
+  "note": "Site resolves (HTTP 200); Emodiversity Project website."
+ },
+ {
+  "id": "W006",
+  "category": "WEB_RESOURCE_EXISTS",
+  "evidence_url": "https://ember-energy.org/latest-insights/global-electricity-review-2024/",
+  "note": "Page live (HTTP 200), title 'Global Electricity Review 2024 | Ember'."
+ },
+ {
+  "id": "W007",
+  "category": "EXISTS",
+  "evidence_url": "http://arxiv.org/abs/1906.09382",
+  "note": "Robles, Gomez, Ramirez Rivera, Gonzalez, Padilla, Dujovne, arXiv:1906.09382 (2019); matches."
+ },
+ {
+  "id": "W008",
+  "category": "EXISTS",
+  "evidence_url": "https://arxiv.org/abs/2403.00867",
+  "note": "arXiv id resolves to Gradient Cuff by Hu, Chen, Ho (2024); matches."
+ },
+ {
+  "id": "W009",
+  "category": "EXISTS",
+  "evidence_url": "https://arxiv.org/abs/1811.00075",
+  "note": "arXiv id resolves to the UEA archive paper, Bagnall et al. 2018; some co-authors omitted."
+ },
+ {
+  "id": "W010",
+  "category": "EXISTS",
+  "evidence_url": "https://api.crossref.org/works/10.18653/v1/p19-1612",
+  "note": "DOI resolves to Lee, Chang, Toutanova, ACL 2019; matches."
+ },
+ {
+  "id": "W011",
+  "category": "EXISTS",
+  "evidence_url": "https://api.crossref.org/works/10.1093/oso/9780199672196.001.0001",
+  "note": "DOI resolves to Mapping and Measuring Deliberation, Bachtiger & Parkinson, OUP 2019; matches."
+ },
+ {
+  "id": "W012",
+  "category": "EXISTS",
+  "evidence_url": "https://api.crossref.org/works/10.1093/imaman/dpaa017",
+  "note": "Hamada & Tanaka, IMA J Management Math 32(3):283-301, 2021 (online 2020); year within 1, end page differs."
+ },
+ {
+  "id": "W013",
+  "category": "EXISTS",
+  "evidence_url": "https://api.crossref.org/works/10.1056/nejmra1614394",
+  "note": "Frieden, NEJM 377(5):465-475, 2017; matches."
+ },
+ {
+  "id": "W014",
+  "category": "EXISTS",
+  "evidence_url": "https://api.crossref.org/works/10.1038/s41598-023-43689-4",
+  "note": "Hoseini et al., Scientific Reports 13, 2023; matches."
+ },
+ {
+  "id": "W015",
+  "category": "EXISTS",
+  "evidence_url": "https://api.crossref.org/works/10.1021/acs.langmuir.3c00432",
+  "note": "Ma et al., Langmuir 39(16):5917-5928, 2023; issue number differs slightly."
+ },
+ {
+  "id": "W016",
+  "category": "EXISTS",
+  "evidence_url": "https://arxiv.org/abs/2210.01955",
+  "note": "arXiv id resolves to Dadvar, Nayyar, Srivastava 2022; matches."
+ },
+ {
+  "id": "W017",
+  "category": "EXISTS",
+  "evidence_url": "https://api.crossref.org/works/10.18653/v1/2020.emnlp-main.99",
+  "note": "Feng et al., EMNLP 2020, pp 1295-1309; matches."
+ },
+ {
+  "id": "W018",
+  "category": "EXISTS",
+  "evidence_url": "https://api.crossref.org/works/10.1016/0012-365x(88)90199-9",
+  "note": "Fajtlowicz, Discrete Mathematics 72(1-3):113-118, 1988; end page typo only."
+ },
+ {
+  "id": "W019",
+  "category": "EXISTS",
+  "evidence_url": "https://api.crossref.org/works/10.1109/cvpr52733.2024.00246",
+  "note": "Xu, Yu, Wang, Mi, Yao, CVPR 2024 pp 2546-2555; matches."
+ },
+ {
+  "id": "W020",
+  "category": "EXISTS",
+  "evidence_url": "https://api.crossref.org/works/10.2478/qic-2025-0011",
+  "note": "Tang, Ding, Cheng, Zhao, Guan, Quantum Inf. Comput. 25(3), 2025; author names garbled in order but same people."
+ },
+ {
+  "id": "W021",
+  "category": "NOT_FOUND",
+  "evidence_url": "https://api.crossref.org/works?filter=issn:1932-4537&query.bibliographic=4219-4231&rows=5",
+  "note": "No such title in Crossref, OpenAlex, web search; TNSM pages 4219-4231 (vol 19, 2022) is a different paper; author initials malformed."
+ },
+ {
+  "id": "W022",
+  "category": "EXISTS",
+  "evidence_url": "https://api.crossref.org/works/10.1287/isre.1070.0165",
+  "note": "DOI resolves to Ragu-Nathan et al., ISR 19(4):417-433, 2008; year/volume off by one."
+ },
+ {
+  "id": "W023",
+  "category": "EXISTS_CORRUPTED",
+  "evidence_url": "https://api.crossref.org/works/10.1145/3713043.3728836",
+  "note": "Real work: Dangol et al., Proc. 24th Interaction Design and Children (IDC 2025), pp 444-464; cited as CHI 2024, 1-15. [venue]"
+ },
+ {
+  "id": "W024",
+  "category": "EXISTS",
+  "evidence_url": "https://ideas.repec.org/p/ltr/wpaper/2004.01.html",
+  "note": "Merged entry. Schneider 2004 = La Trobe Sch. of Economics WP 2004.01 (exists); Sharafeldeen et al. Med Phys 49(2):988-999, 2022 (10.1002/mp.15399) also exists."
+ },
+ {
+  "id": "W025",
+  "category": "WEB_RESOURCE_EXISTS",
+  "evidence_url": "https://www.fda.gov/media/120333/download",
+  "note": "URL live (HTTP 200), serves Sentinel-System-Five-Year-Strategy-2019-2023.pdf."
+ },
+ {
+  "id": "W026",
+  "category": "EXISTS",
+  "evidence_url": "https://api.crossref.org/works/10.18653/v1/2020.acl-main.485",
+  "note": "Blodgett et al., ACL 2020 pp 5454-5476; matches."
+ },
+ {
+  "id": "W027",
+  "category": "EXISTS",
+  "evidence_url": "https://api.crossref.org/works/10.1109/32.221135",
+  "note": "Gansner et al., IEEE TSE 19(3):214-230, 1993; matches."
+ },
+ {
+  "id": "W028",
+  "category": "EXISTS",
+  "evidence_url": "https://api.crossref.org/works/10.1016/j.cmpbup.2024.100145",
+  "note": "DOI resolves to Khalifa & Albadawy, CMPB Update 5:100145, 2024; matches."
+ },
+ {
+  "id": "W029",
+  "category": "EXISTS",
+  "evidence_url": "https://api.crossref.org/works/10.1016/j.media.2016.10.004",
+  "note": "DOI resolves to Kamnitsas et al., Medical Image Analysis 36:61-78, 2017; matches."
+ },
+ {
+  "id": "W030",
+  "category": "EXISTS_CORRUPTED",
+  "evidence_url": "https://arxiv.org/abs/2410.12934",
+  "note": "arXiv:2410.12934 has this title but authors are Wu, Zeng, Zhang, Tan, Shen, Jiang; cited authors (Jiayi Wang et al.) are not the authors. [authors]"
+ },
+ {
+  "id": "W031",
+  "category": "EXISTS",
+  "evidence_url": "https://api.crossref.org/works/10.1053/j.semnuclmed.2018.11.005",
+  "note": "DOI resolves to Chasse & Fergusson, Semin Nucl Med 49(2):87-93, 2019; matches."
+ },
+ {
+  "id": "W032",
+  "category": "EXISTS",
+  "evidence_url": "http://arxiv.org/abs/1706.08500",
+  "note": "Heusel, Ramsauer, Unterthiner, Nessler, Hochreiter, NeurIPS 2017 (arXiv:1706.08500); matches."
+ },
+ {
+  "id": "W033",
+  "category": "EXISTS",
+  "evidence_url": "https://api.crossref.org/works/10.1007/978-3-642-11731-2_21",
+  "note": "Ludwig, Heinrich, Marquardt, LNICST 2010 pp 167-179; author order garbled but same people."
+ },
+ {
+  "id": "W034",
+  "category": "EXISTS",
+  "evidence_url": "https://api.crossref.org/works/10.3390/app12062979",
+  "note": "Wang & Wu, Applied Sciences 12(6):2979, 2022; matches."
+ },
+ {
+  "id": "W035",
+  "category": "EXISTS",
+  "evidence_url": "https://arxiv.org/abs/2203.15556",
+  "note": "arXiv id resolves to Hoffmann et al. 2022; matches."
+ },
+ {
+  "id": "W036",
+  "category": "EXISTS_CORRUPTED",
+  "evidence_url": "https://api.crossref.org/works/10.1093/clipsy.7.1.48",
+  "note": "DOI resolves to 'Mental health stigma as social attribution...' by Corrigan alone (2000); cited co-authors Markowitz, Watson, Rowan, Kubiak belong to a different 2003 paper. [authors] [title]"
+ },
+ {
+  "id": "W037",
+  "category": "EXISTS",
+  "evidence_url": "https://arxiv.org/abs/2405.00451",
+  "note": "arXiv id resolves to Xie et al. 2024; matches."
+ },
+ {
+  "id": "W038",
+  "category": "EXISTS",
+  "evidence_url": "https://arxiv.org/abs/1110.3193",
+  "note": "arXiv id resolves to Euclid Definition Study Report, Laureijs et al. 2011; matches."
+ },
+ {
+  "id": "W039",
+  "category": "EXISTS",
+  "evidence_url": "https://api.crossref.org/works/10.1109/icist55546.2022.9926900",
+  "note": "Yang, Lian, Zeng, ICIST 2022 pp 95-98; matches."
+ },
+ {
+  "id": "W040",
+  "category": "PLACEHOLDER",
+  "evidence_url": "https://api.crossref.org/works?rows=5&query.bibliographic=Machine%20learning%20for%20equity%20in%20education%20Graham%20Hopkins",
+  "note": "Stub with trailing ellipsis, no venue/identifier; no matching work in Crossref either."
+ },
+ {
+  "id": "W041",
+  "category": "EXISTS_CORRUPTED",
+  "evidence_url": "https://arxiv.org/abs/2102.12846",
+  "note": "arXiv:2102.12846 (QNLP in Practice) is by Lorenz, Pearson, Meichanetzidis, Kartsaklis, Coecke; cited list (Meichanetzidis, Gogioso, de Felice...) is from a different paper. [authors]"
+ },
+ {
+  "id": "W042",
+  "category": "EXISTS",
+  "evidence_url": "https://arxiv.org/abs/2103.03874",
+  "note": "arXiv id resolves to Hendrycks et al. 2021; matches."
+ },
+ {
+  "id": "W043",
+  "category": "EXISTS",
+  "evidence_url": "https://api.crossref.org/works/10.1080/00043125.2018.1414542",
+  "note": "Hunter-Doniger, Art Education 71(2):46-51, 2018; matches."
+ },
+ {
+  "id": "W044",
+  "category": "EXISTS",
+  "evidence_url": "https://api.crossref.org/works/10.1038/s41586-023-06291-2",
+  "note": "Singhal et al., Nature 620(7972):172-180, 2023; matches."
+ },
+ {
+  "id": "W045",
+  "category": "EXISTS",
+  "evidence_url": "https://api.crossref.org/works/10.1016/j.ijsolstr.2013.10.037",
+  "note": "Brisard, Dormieux, Sab, IJSS 51(3-4):716-728, 2014; matches."
+ },
+ {
+  "id": "W046",
+  "category": "EXISTS",
+  "evidence_url": "https://api.crossref.org/works/10.1109/cvpr.2017.354",
+  "note": "Bau et al., CVPR 2017; cited pages are the CVF open-access pagination."
+ },
+ {
+  "id": "W047",
+  "category": "EXISTS",
+  "evidence_url": "https://api.crossref.org/works/10.1063/1.336412",
+  "note": "Hatta & Taya, J Appl Phys 59(6):1851-1860, 1986; matches."
+ },
+ {
+  "id": "W048",
+  "category": "EXISTS",
+  "evidence_url": "https://arxiv.org/abs/1509.02971",
+  "note": "arXiv id resolves to Lillicrap et al. 2015; matches."
+ },
+ {
+  "id": "W049",
+  "category": "EXISTS",
+  "evidence_url": "https://api.crossref.org/works/10.1016/j.psychsport.2023.102586",
+  "note": "Cosh et al., Psychology of Sport and Exercise 71:102586, 2024; matches."
+ },
+ {
+  "id": "W050",
+  "category": "EXISTS",
+  "evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/d41b70011dd21ec3de5e019302279551-Paper-Datasets_and_Benchmarks.pdf",
+  "note": "Liu & Zhang, NeurIPS 2023 Datasets and Benchmarks; matches."
+ },
+ {
+  "id": "W051",
+  "category": "EXISTS",
+  "evidence_url": "https://api.crossref.org/works/10.1103/physrevd.98.106004",
+  "note": "Wen, Phys Rev D 98:106004, 2018; matches."
+ },
+ {
+  "id": "W052",
+  "category": "EXISTS",
+  "evidence_url": "https://api.crossref.org/works/10.1145/988672.988687",
+  "note": "Etzioni et al., WWW 2004 pp 100-110; matches."
+ },
+ {
+  "id": "W053",
+  "category": "EXISTS_CORRUPTED",
+  "evidence_url": "https://arxiv.org/abs/2502.07374",
+  "note": "arXiv:2502.07374 has this title but authors are Li, Cao, Griggs, ..., Stoica; cited authors (Zijun Wang et al.) are not the authors. [authors]"
+ },
+ {
+  "id": "W054",
+  "category": "EXISTS",
+  "evidence_url": "https://api.crossref.org/works/10.1109/3477.484436",
+  "note": "Dorigo, Maniezzo, Colorni, IEEE TSMC-B 26(1):29-41, 1996; matches."
+ },
+ {
+  "id": "W055",
+  "category": "EXISTS",
+  "evidence_url": "https://api.crossref.org/works/10.1109/ratfg.1999.799235",
+  "note": "Iwai, Shimizu, Yachida, RATFG-RTS 1999 pp 127-134; matches."
+ },
+ {
+  "id": "W056",
+  "category": "EXISTS",
+  "evidence_url": "https://arxiv.org/abs/2304.02015",
+  "note": "arXiv id resolves to Yuan et al. 2023; matches."
+ },
+ {
+  "id": "W057",
+  "category": "EXISTS",
+  "evidence_url": "http://arxiv.org/abs/2210.14278",
+  "note": "Meng & Xu, arXiv:2210.14278 (2022-10-25); author order garbled but same people."
+ },
+ {
+  "id": "W058",
+  "category": "EXISTS",
+  "evidence_url": "https://jmlr.org/papers/v7/shimizu06a.html",
+  "note": "Shimizu, Hoyer, Hyvarinen, Kerminen, JMLR 7:2003-2030, 2006; 'Michael Jordan' was the action editor, a common citation-export artefact."
+ },
+ {
+  "id": "W059",
+  "category": "EXISTS",
+  "evidence_url": "https://api.crossref.org/works/10.4155/fso.15.64",
+  "note": "Li M, Future Science OA 1(4), 2015; matches."
+ },
+ {
+  "id": "W060",
+  "category": "EXISTS",
+  "evidence_url": "http://arxiv.org/abs/2305.19256",
+  "note": "Daras et al., NeurIPS 2023 (vol 36); year within 1."
+ },
+ {
+  "id": "W061",
+  "category": "WEB_RESOURCE_EXISTS",
+  "evidence_url": "https://www.ai-bites.net/retrieval-augmented-generation-rag-a-quick-and-comprehensive-introduction/",
+  "note": "Blog article by S Sankar (AI Bites / Medium), 2024; found."
+ },
+ {
+  "id": "W062",
+  "category": "EXISTS",
+  "evidence_url": "https://api.crossref.org/works/10.1145/3287560.3287598",
+  "note": "Selbst et al., FAT* 2019 pp 59-68; matches."
+ },
+ {
+  "id": "W063",
+  "category": "EXISTS",
+  "evidence_url": "https://api.crossref.org/works/10.3389/fpsyg.2024.1343022",
+  "note": "Kennison et al., Front Psychol 15:1343022, 2024; matches."
+ },
+ {
+  "id": "W064",
+  "category": "EXISTS",
+  "evidence_url": "https://arxiv.org/abs/2211.09110",
+  "note": "arXiv id resolves to HELM, Liang et al. 2022; matches."
+ },
+ {
+  "id": "W065",
+  "category": "EXISTS",
+  "evidence_url": "https://api.crossref.org/works/10.1002/3527608958.ch5",
+  "note": "Einstein 1915 Sitzungsberichte paper; Crossref has the reprint (Akademie-Vortraege); matches."
+ },
+ {
+  "id": "W066",
+  "category": "EXISTS",
+  "evidence_url": "http://arxiv.org/abs/2205.14727",
+  "note": "Chen et al., CPED, arXiv:2205.14727 (2022); matches."
+ },
+ {
+  "id": "W067",
+  "category": "EXISTS",
+  "evidence_url": "https://api.crossref.org/works/10.1093/bib/bbaf140",
+  "note": "Xu et al., Briefings in Bioinformatics 26(2), 2025; matches."
+ },
+ {
+  "id": "W068",
+  "category": "EXISTS",
+  "evidence_url": "https://api.crossref.org/works/10.1007/978-3-031-19827-4_41",
+  "note": "Jia et al., ECCV 2022 (LNCS) pp 709-727; matches."
+ },
+ {
+  "id": "W069",
+  "category": "EXISTS",
+  "evidence_url": "https://api.crossref.org/works/10.1145/342009.335388",
+  "note": "Breunig, Kriegel, Ng, Sander, SIGMOD 2000 pp 93-104; matches."
+ },
+ {
+  "id": "W070",
+  "category": "EXISTS",
+  "evidence_url": "https://arxiv.org/abs/2504.08989",
+  "note": "arXiv id resolves to RouterKT, Liao & Zu 2025; matches."
+ },
+ {
+  "id": "W071",
+  "category": "EXISTS",
+  "evidence_url": "https://api.crossref.org/works/10.1016/b978-075067531-4/50006-3",
+  "note": "Book: Mobley, An Introduction to Predictive Maintenance, Butterworth-Heinemann 2002 (ISBN 9780750675314, 'Plant Engineering' series); cited as a journal article, vol/issue/pages spurious."
+ },
+ {
+  "id": "W072",
+  "category": "EXISTS",
+  "evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/d842425e4bf79ba039352da0f658a906-Paper-Conference.pdf",
+  "note": "Toolformer, Schick et al., NeurIPS 36 (2023); URL live."
+ },
+ {
+  "id": "W073",
+  "category": "EXISTS",
+  "evidence_url": "https://arxiv.org/abs/2304.03442",
+  "note": "arXiv id resolves to Park et al. 2023; matches."
+ },
+ {
+  "id": "W074",
+  "category": "EXISTS_CORRUPTED",
+  "evidence_url": "https://api.crossref.org/works/10.1146/annurev-soc-121919-054621",
+  "note": "Real work: Edelmann, Wolff, Montagne, Bail, Annual Review of Sociology 46:61-81, 2020; cited as Sociological Theory 38(1):1-10. [venue]"
+ },
+ {
+  "id": "W075",
+  "category": "EXISTS",
+  "evidence_url": "https://api.crossref.org/works/10.1155/2011/152474",
+  "note": "Suntres, Journal of Toxicology 2011:152474; matches."
+ },
+ {
+  "id": "W076",
+  "category": "EXISTS",
+  "evidence_url": "https://api.crossref.org/works/10.1109/iccv48922.2021.00951",
+  "note": "Caron et al., ICCV 2021; cited pages are a truncated CVF pagination."
+ },
+ {
+  "id": "W077",
+  "category": "WEB_RESOURCE_EXISTS",
+  "evidence_url": "https://homes.psd.uchicago.edu/~ejmartin/course/JournalClub/Basic_AdS-CFT_JournalClub.pdf",
+  "note": "URL redirects and serves the PDF 'A Very Introductory AdS/CFT', Yuxiao Wu, Feb 8 2016; also archived on Wayback (2021)."
+ },
+ {
+  "id": "W078",
+  "category": "EXISTS",
+  "evidence_url": "https://api.crossref.org/works/10.1109/tssc.1968.300136",
+  "note": "Hart, Nilsson, Raphael, IEEE TSSC 4(2):100-107, 1968; matches."
+ },
+ {
+  "id": "W079",
+  "category": "EXISTS",
+  "evidence_url": "https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf",
+  "note": "OpenAI technical report 2018 (Radford, Narasimhan, Salimans, Sutskever); URL live; co-authors omitted."
+ },
+ {
+  "id": "W080",
+  "category": "EXISTS",
+  "evidence_url": "https://api.crossref.org/works/10.1371/journal.pmed.1001953",
+  "note": "Fragment; DOI resolves to Piwek et al., 'The Rise of Consumer Health Wearables: Promises and Barriers', PLoS Med 13(2):e1001953, 2016 (title truncated, authors missing)."
+ },
+ {
+  "id": "W081",
+  "category": "EXISTS",
+  "evidence_url": "https://arxiv.org/abs/2403.07974",
+  "note": "arXiv id resolves to LiveCodeBench, Jain et al. 2024; matches."
+ },
+ {
+  "id": "W082",
+  "category": "EXISTS",
+  "evidence_url": "http://arxiv.org/abs/2308.00352",
+  "note": "MetaGPT, Hong et al., arXiv:2308.00352, ICLR 2024; 'Jonathan Chen' is a given-name variant of Jiaqi Chen."
+ },
+ {
+  "id": "W083",
+  "category": "EXISTS",
+  "evidence_url": "https://arxiv.org/abs/2404.06364",
+  "note": "arXiv id resolves to SurveyAgent, Wang et al. 2024; matches."
+ },
+ {
+  "id": "W084",
+  "category": "EXISTS",
+  "evidence_url": "https://api.crossref.org/works/10.1145/3394486.3403282",
+  "note": "Ghosh, Heffernan, Lan, KDD 2020 pp 2330-2339; matches."
+ },
+ {
+  "id": "W085",
+  "category": "EXISTS",
+  "evidence_url": "https://openlibrary.org/works/OL20125992W",
+  "note": "Peters, Janzing, Scholkopf, Elements of Causal Inference, MIT Press 2017; matches."
+ },
+ {
+  "id": "W086",
+  "category": "EXISTS",
+  "evidence_url": "https://api.crossref.org/works/10.1016/s2589-7500(21)00208-9",
+  "note": "Ghassemi, Oakden-Rayner, Beam, Lancet Digital Health 3(11):e745-e750, 2021; matches."
+ },
+ {
+  "id": "W087",
+  "category": "EXISTS",
+  "evidence_url": "http://arxiv.org/abs/2305.13534",
+  "note": "Muru Zhang, Press, Merrill, Liu, Smith; arXiv 2023, ICML 2024. First-author surname matches; initial 'Y.' is wrong (treated as typographic)."
+ },
+ {
+  "id": "W088",
+  "category": "EXISTS",
+  "evidence_url": "https://api.crossref.org/works/10.18653/v1/2021.naacl-main.365",
+  "note": "DOI resolves to Dasigi et al., NAACL 2021; matches."
+ },
+ {
+  "id": "W089",
+  "category": "EXISTS",
+  "evidence_url": "https://inspirehep.net/api/literature?q=t%20%22radiative%20corrections%20for%20unpolarized%20electron%20proton%20elastic%20scattering%22",
+  "note": "Tomasi-Gustafsson, arXiv:hep-ph/0610108 (Oct 2006); matches."
+ },
+ {
+  "id": "W090",
+  "category": "EXISTS",
+  "evidence_url": "https://arxiv.org/abs/2305.14314",
+  "note": "arXiv id resolves to QLoRA, Dettmers et al. 2023; matches."
+ },
+ {
+  "id": "W091",
+  "category": "EXISTS_CORRUPTED",
+  "evidence_url": "https://arxiv.org/abs/2002.04017",
+  "note": "Real work: Yu Bai & Chi Jin, ICML 2020 (arXiv:2002.04017). Cited co-author 'J. T. Lee' is not an author; cited venue NeurIPS 2019 is wrong. [authors] [venue]"
+ },
+ {
+  "id": "W092",
+  "category": "EXISTS",
+  "evidence_url": "https://arxiv.org/abs/2404.02039",
+  "note": "arXiv id resolves to Hu et al., A Survey on LLM-Based Game Agents (2024); year within 1."
+ },
+ {
+  "id": "W093",
+  "category": "EXISTS",
+  "evidence_url": "https://api.crossref.org/works/10.3390/s23146635",
+  "note": "Carta et al., Sensors 23(14):6635, 2023; matches."
+ },
+ {
+  "id": "W094",
+  "category": "EXISTS",
+  "evidence_url": "https://api.crossref.org/works/10.1017/S0140525X00076512",
+  "note": "DOI resolves to Premack & Woodruff, BBS 1(4):515-526, 1978; matches."
+ },
+ {
+  "id": "W095",
+  "category": "EXISTS",
+  "evidence_url": "https://api.crossref.org/works/10.1186/s13034-021-00367-5",
+  "note": "Malboeuf-Hurtubise et al., Child Adolesc Psychiatry Ment Health 15(1), 2021; matches."
+ },
+ {
+  "id": "W096",
+  "category": "EXISTS",
+  "evidence_url": "https://api.crossref.org/works/10.1016/j.neuroimage.2007.03.008",
+  "note": "Frieboes et al., NeuroImage 37:S59-S70, 2007; matches."
+ },
+ {
+  "id": "W097",
+  "category": "EXISTS",
+  "evidence_url": "https://api.crossref.org/works/10.1093/comjnl/3.3.175",
+  "note": "Rosenbrock, The Computer Journal 3(3):175-184, 1960; matches."
+ },
+ {
+  "id": "W098",
+  "category": "EXISTS",
+  "evidence_url": "https://api.crossref.org/works/10.1080/07350015.1995.10524599",
+  "note": "Diebold & Mariano, JBES 13(3):253-263, 1995; matches."
+ },
+ {
+  "id": "W099",
+  "category": "EXISTS",
+  "evidence_url": "https://api.crossref.org/works/10.1038/bjc.2011.401",
+  "note": "DOI resolves to White et al., Br J Cancer 105(11):1741-1749, 2011; matches."
+ },
+ {
+  "id": "W100",
+  "category": "EXISTS",
+  "evidence_url": "https://api.crossref.org/works/10.3389/fphar.2025.1597351",
+  "note": "Liu et al., Frontiers in Pharmacology 16:1597351, 2025; matches."
+ },
+ {
+  "id": "W101",
+  "category": "EXISTS",
+  "evidence_url": "https://api.crossref.org/works/10.1038/s41587-021-01108-x",
+  "note": "Wang et al., Nature Biotechnology 39(11):1348-1365, 2021; matches."
+ },
+ {
+  "id": "W102",
+  "category": "EXISTS",
+  "evidence_url": "https://api.crossref.org/works/10.1016/j.frl.2023.103662",
+  "note": "Dowling & Lucey, Finance Research Letters 53:103662, 2023; matches."
+ },
+ {
+  "id": "W103",
+  "category": "EXISTS",
+  "evidence_url": "https://api.crossref.org/works/10.1016/j.jmb.2017.03.003",
+  "note": "Callaway et al., J Mol Biol 429(7):987-998, 2017; matches."
+ },
+ {
+  "id": "W104",
+  "category": "EXISTS",
+  "evidence_url": "https://api.crossref.org/works/10.1109/tau.1967.1161901",
+  "note": "Welch, IEEE Trans Audio Electroacoust 15(2):70-73, 1967; matches."
+ },
+ {
+  "id": "W105",
+  "category": "EXISTS",
+  "evidence_url": "https://api.crossref.org/works/10.1016/j.ijheh.2018.01.015",
+  "note": "DOI resolves to Wolkoff, IJHEH 221(3):376-390, 2018; matches."
+ },
+ {
+  "id": "W106",
+  "category": "EXISTS_CORRUPTED",
+  "evidence_url": "https://api.crossref.org/works/10.3846/cs.2021.13775",
+  "note": "Real work: Griniuk, Creativity Studies 14(2):577-592, 2021; cited as Int. J. Education Through Art 17(2):195-212 (no Griniuk article in that journal). [venue]"
+ },
+ {
+  "id": "W107",
+  "category": "EXISTS",
+  "evidence_url": "https://arxiv.org/abs/2003.13624",
+  "note": "arXiv id resolves to Dalton, Xiong, Callan, TREC CAsT 2019 overview (2020); matches."
+ },
+ {
+  "id": "W108",
+  "category": "EXISTS",
+  "evidence_url": "https://api.crossref.org/works/10.1145/3491102.3502030",
+  "note": "Lee, Liang, Yang, CHI 2022; matches."
+ },
+ {
+  "id": "W109",
+  "category": "EXISTS",
+  "evidence_url": "https://api.crossref.org/works/10.1109/tpami.2023.3321097",
+  "note": "Fan, Wang, Shi, Cui, Wang, IEEE TPAMI 46(1):322-337, 2024; matches."
+ },
+ {
+  "id": "W110",
+  "category": "EXISTS",
+  "evidence_url": "https://arxiv.org/abs/2405.00451",
+  "note": "arXiv id resolves to Xie et al. 2024; matches (duplicate of W037)."
+ },
+ {
+  "id": "W111",
+  "category": "EXISTS",
+  "evidence_url": "https://arxiv.org/abs/1708.07747",
+  "note": "arXiv id resolves to Fashion-MNIST, Xiao, Rasul, Vollgraf 2017; matches."
+ },
+ {
+  "id": "W112",
+  "category": "EXISTS_CORRUPTED",
+  "evidence_url": "https://api.crossref.org/works/10.3390/app15062971",
+  "note": "Real work: Kim Sungeun & Oh Dongsuk, Applied Sciences 15(6):2971, 2025; cited authors Rodriguez, Thompson, Chen are not the authors. [authors]"
+ },
+ {
+  "id": "W113",
+  "category": "EXISTS_CORRUPTED",
+  "evidence_url": "https://api.crossref.org/works/10.3390/app14199103",
+  "note": "Real work: Han, Susnjak, Mathrani, Applied Sciences 14(19):9103, 2024; cited authors Salloum, Alshurideh, Aburayya are not the authors. [authors]"
+ },
+ {
+  "id": "W114",
+  "category": "EXISTS",
+  "evidence_url": "https://arxiv.org/abs/1909.13231",
+  "note": "Sun et al., ICML 2020 (arXiv:1909.13231); matches."
+ },
+ {
+  "id": "W115",
+  "category": "EXISTS",
+  "evidence_url": "https://arxiv.org/abs/2107.03374",
+  "note": "arXiv id resolves to Chen et al. 2021 (Codex); matches."
+ },
+ {
+  "id": "W116",
+  "category": "EXISTS",
+  "evidence_url": "https://api.crossref.org/works/10.1088/1361-6382/ac086d",
+  "note": "Di Valentino et al., Class. Quantum Grav. 38(15):153001, 2021; matches."
+ },
+ {
+  "id": "W117",
+  "category": "NOT_FOUND",
+  "evidence_url": "https://api.openalex.org/works?per-page=5&search=Wang%20Tseng%20online%20manifold%20alignment%20fault%20detection",
+  "note": "No trace of this title in Crossref, OpenAlex, arXiv or web search; author+keyword search also empty; the venue 'Pacific Symposium on Industrial AI' is not found either."
+ },
+ {
+  "id": "W118",
+  "category": "EXISTS",
+  "evidence_url": "https://api.crossref.org/works/10.1007/s11721-012-0075-2",
+  "note": "Brambilla et al., Swarm Intelligence 7(1):1-41, 2013; matches."
+ },
+ {
+  "id": "W119",
+  "category": "EXISTS",
+  "evidence_url": "https://api.crossref.org/works/10.1002/ecm.1470",
+  "note": "Auger-Methe, Newman, Cole et al., Ecological Monographs 91(4):e01470, 2021; co-authors omitted."
+ },
+ {
+  "id": "W120",
+  "category": "EXISTS",
+  "evidence_url": "https://api.crossref.org/works/10.1109/ijcnn.2017.7966039",
+  "note": "Wang, Yan, Oates, IJCNN 2017 pp 1578-1585; matches."
+ }
+]

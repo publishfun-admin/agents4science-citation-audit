@@ -1,31 +1,28 @@
 {
  "pdf": "116_nuMdhnLDxv.pdf",
- "n_entries": 1,
- "fallback": true,
+ "n_entries": 15,
+ "fallback": "indent-guided",
  "error": null,
  "linenumbers_stripped": true,
- "parser_version": 2,
+ "two_column": false,
+ "parser_version": 4,
+ "reprocessed": true,
  "entries": [
   {
    "junk": false,
    "idx": 1,
-   "raw": "Michael Abian et al. Integrating wikidata into financial applications. Data Science Quarterly, 2022. Robert Ankner et al. Perplexity and its role in filtering generated negatives. In NAACL Workshop, 2024. 81 87 89 91 S. Arun et al. Numerical reasoning in financial texts: Challenges and limitations. Journal of Financial NLP, 2023. Patrick Callanan et al. Can gpt really solve financial tasks? a zero-shot analysis. Financial AI Journal, 2023. Ting Chen et al. A simple framework for contrastive learning of visual representations. In ICML, 2020. Tianyu Gao et al. Simcse: Simple contrastive learning of sentence embeddings. In EMNLP, 2021. Alice Jacobs et al. Sentivent: A dataset for event extraction in financial texts. In ACL, 2021. 97 Karl Jansen et al. Perplexity-based quality filtering in text generation. Journal of NLP Research, 2022. Li Jin et al. Correlation-based techniques in financial nlp. In NAACL, 2024. 100 Ankur Parikh et al. A decomposable attention model for natural language inference. In EMNLP, 2016. Ling Xi et al. Applications of structured knowledge in financial nlp. Financial AI Review, 2024. 103 Alexander Yang et al. Finbert: Financial sentiment analysis using pre-trained language models. In ACL Workshop, 2020. Fei Yang et al. Aspect-based sentiment analysis in financial reviews. In EMNLP, 2018. Bo Zhang et al. Instruct-fingpt: Instruction tuning for financial sentiment. In ICLR Workshop, 2023. 4 107 109 111",
+   "raw": "Michael Abian et al. Integrating wikidata into financial applications. Data Science Quarterly, 2022.",
    "title": "Integrating wikidata into financial applications",
    "authors": [
-    "Abian",
-    "Arun",
-    "Callanan",
-    "Jacobs",
-    "Jansen",
-    "Jin"
+    "Abian"
    ],
    "year": 2022,
    "doi": null,
    "arxiv": null,
    "urls": [],
-   "container": "NAACL Workshop",
+   "container": "Data Science Quarterly",
    "type": "article-journal",
-   "parser": "anystyle-parse",
+   "parser": "anystyle-indent-guided",
    "verdict": "UNVERIFIED",
    "evidence": [
     {
@@ -38,7 +35,7 @@
       "first_author": "Zhou",
       "container": "The Future and FinTech",
       "type": "book-chapter",
-      "score": 23.509098
+      "score": 23.50996
      },
      "metrics": {
       "title_sim": 82.92682926829268,
@@ -46,6 +43,602 @@
       "partial_ratio": 65.67164179104478,
       "year_ok": true,
       "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "Robert Ankner et al. Perplexity and its role in filtering generated negatives. In NAACL Workshop, 2024.",
+   "title": "Perplexity and its role in filtering generated negatives",
+   "authors": [
+    "Ankner"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "NAACL Workshop",
+   "type": "chapter",
+   "parser": "anystyle-indent-guided",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1515/9781501520914-008",
+      "title": "Chapter 7: SVG and Perplexity",
+      "year": 2024,
+      "first_author": null,
+      "container": "CSS3 and SVG with Perplexity",
+      "type": "book-chapter",
+      "score": 23.421467
+     },
+     "metrics": {
+      "title_sim": 66.66666666666666,
+      "containment": 0.333,
+      "partial_ratio": 60.71428571428572,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "S. Arun et al. Numerical reasoning in financial texts: Challenges and limitations. Journal of Financial NLP, 2023.",
+   "title": "Numerical reasoning in financial texts: Challenges and limitations",
+   "authors": [
+    "Arun"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Financial NLP",
+   "type": "article-journal",
+   "parser": "anystyle-indent-guided",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.6155406",
+      "title": "Challenges and Limitations of Machine Learning Models in Financial Volatility Prediction",
+      "year": 2026,
+      "first_author": "Attarwala",
+      "container": "",
+      "type": "posted-content",
+      "score": 24.362858
+     },
+     "metrics": {
+      "title_sim": 75.0,
+      "containment": 0.375,
+      "partial_ratio": 62.5,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "Patrick Callanan et al. Can gpt really solve financial tasks? a zero-shot analysis. Financial AI Journal, 2023.",
+   "title": "Can gpt really solve financial tasks? a zero-shot analysis",
+   "authors": [
+    "Callanan"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Financial AI Journal",
+   "type": "article-journal",
+   "parser": "anystyle-indent-guided",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.4458613",
+      "title": "Zero is Not Hero Yet: Benchmarking Zero-Shot Performance of LLMs for Financial Tasks",
+      "year": 2023,
+      "first_author": "Shah",
+      "container": "",
+      "type": "posted-content",
+      "score": 40.004852
+     },
+     "metrics": {
+      "title_sim": 60.97560975609756,
+      "containment": 0.455,
+      "partial_ratio": 50.70422535211267,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "Ting Chen et al. A simple framework for contrastive learning of visual representations. In ICML, 2020.",
+   "title": "A simple framework for contrastive learning of visual representations",
+   "authors": [
+    "Chen"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "ICML",
+   "type": "chapter",
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1167/jov.24.10.771",
+      "title": "A biologically inspired framework for contrastive learning of visual representations: BioCLR",
+      "year": 2024,
+      "first_author": "Han",
+      "container": "Journal of Vision",
+      "type": "journal-article",
+      "score": 32.7579
+     },
+     "metrics": {
+      "title_sim": 94.65648854961832,
+      "containment": 0.625,
+      "partial_ratio": 81.81818181818181,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "7af72a461ed7cda180e7eab878efd5f35d79bbf4",
+    "title": "A Simple Framework for Contrastive Learning of Visual Representations",
+    "year": 2020,
+    "first_author": "Ting Chen",
+    "container": "International Conference on Machine Learning",
+    "ext": {
+     "DBLP": "conf/icml/ChenK0H20",
+     "MAG": "3034978746",
+     "ArXiv": "2002.05709",
+     "CorpusId": 211096730
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "Tianyu Gao et al. Simcse: Simple contrastive learning of sentence embeddings. In EMNLP, 2021.",
+   "title": "Simcse: Simple contrastive learning of sentence embeddings",
+   "authors": [
+    "Gao"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "EMNLP",
+   "type": "chapter",
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2021.emnlp-main.552",
+    "title": "SimCSE: Simple Contrastive Learning of Sentence Embeddings",
+    "year": 2021,
+    "first_author": "Gao",
+    "container": "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing",
+    "type": "proceedings-article",
+    "score": 64.81613
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "Alice Jacobs et al. Sentivent: A dataset for event extraction in financial texts. In ACL, 2021.",
+   "title": "Sentivent: A dataset for event extraction in financial texts",
+   "authors": [
+    "Jacobs"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "ACL",
+   "type": "chapter",
+   "parser": "anystyle-indent-guided",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1038/s41597-025-05083-9",
+      "title": "A dataset for document level Chinese financial event extraction",
+      "year": 2025,
+      "first_author": "Chen",
+      "container": "Scientific Data",
+      "type": "journal-article",
+      "score": 26.977463
+     },
+     "metrics": {
+      "title_sim": 81.9672131147541,
+      "containment": 0.571,
+      "partial_ratio": 62.903225806451616,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "Karl Jansen et al. Perplexity-based quality filtering in text generation. Journal of NLP Research, 2022.",
+   "title": "Perplexity-based quality filtering in text generation",
+   "authors": [
+    "Jansen"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of NLP Research",
+   "type": "article-journal",
+   "parser": "anystyle-indent-guided",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/ispras64596.2024.10899150",
+      "title": "N-Gram Perplexity-Based AI-Generated Text Detection",
+      "year": 2024,
+      "first_author": "Dmitrii",
+      "container": "2024 Ivannikov Ispras Open Conference (ISPRAS)",
+      "type": "proceedings-article",
+      "score": 25.01785
+     },
+     "metrics": {
+      "title_sim": 71.15384615384616,
+      "containment": 0.5,
+      "partial_ratio": 64.70588235294117,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "Li Jin et al. Correlation-based techniques in financial nlp. In NAACL, 2024.",
+   "title": "Correlation-based techniques in financial nlp",
+   "authors": [
+    "Jin"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "NAACL",
+   "type": "chapter",
+   "parser": "anystyle-indent-guided",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.56726/irjmets56402",
+      "title": "Code Generation Using NLP and AI Based Techniques",
+      "year": 2024,
+      "first_author": null,
+      "container": "International Research Journal of Modernization in Engineering Technology and Science",
+      "type": "journal-article",
+      "score": 24.246216
+     },
+     "metrics": {
+      "title_sim": 68.08510638297872,
+      "containment": 0.6,
+      "partial_ratio": 60.0,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "Ankur Parikh et al. A decomposable attention model for natural language inference. In EMNLP, 2016.",
+   "title": "A decomposable attention model for natural language inference",
+   "authors": [
+    "Parikh"
+   ],
+   "year": 2016,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "EMNLP",
+   "type": "chapter",
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/d16-1244",
+    "title": "A Decomposable Attention Model for Natural Language Inference",
+    "year": 2016,
+    "first_author": "Parikh",
+    "container": "Proceedings of the 2016 Conference on Empirical Methods in Natural\n          Language Processing",
+    "type": "proceedings-article",
+    "score": 58.176113
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "Ling Xi et al. Applications of structured knowledge in financial nlp. Financial AI Review, 2024.",
+   "title": "Applications of structured knowledge in financial nlp",
+   "authors": [
+    "Xi"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Financial AI Review",
+   "type": "article-journal",
+   "parser": "anystyle-indent-guided",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.32657/10356/182513",
+      "title": "Leveraging linguistic knowledge to enhance low-resource NLP applications",
+      "year": 2025,
+      "first_author": null,
+      "container": "",
+      "type": "dissertation",
+      "score": 25.903704
+     },
+     "metrics": {
+      "title_sim": 67.2,
+      "containment": 0.375,
+      "partial_ratio": 51.02040816326531,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "Alexander Yang et al. Finbert: Financial sentiment analysis using pre-trained language models. In ACL Workshop, 2020.",
+   "title": "Finbert: Financial sentiment analysis using pre-trained language models",
+   "authors": [
+    "Yang"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "ACL Workshop",
+   "type": "chapter",
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/icpics62053.2024.10796670",
+      "title": "Financial Sentiment Analysis on News and Reports Using Large Language Models and FinBERT",
+      "year": 2024,
+      "first_author": "Shen",
+      "container": "2024 IEEE 6th International Conference on Power, Intelligent Computing and Systems (ICPICS)",
+      "type": "proceedings-article",
+      "score": 44.600616
+     },
+     "metrics": {
+      "title_sim": 90.625,
+      "containment": 0.667,
+      "partial_ratio": 67.83625730994152,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "7102bb3fe73bd057ff161d9db5214a267c1ef312",
+    "title": "FinBERT: Financial Sentiment Analysis with Pre-trained Language Models",
+    "year": 2019,
+    "first_author": "Dogu Araci",
+    "container": "arXiv.org",
+    "ext": {
+     "MAG": "2970636124",
+     "ArXiv": "1908.10063",
+     "DBLP": "journals/corr/abs-1908-10063",
+     "CorpusId": 201646244
+    }
+   },
+   "metrics": {
+    "title_sim": 96.2406015037594,
+    "containment": 1.0,
+    "partial_ratio": 94.20289855072464,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "Fei Yang et al. Aspect-based sentiment analysis in financial reviews. In EMNLP, 2018.",
+   "title": "Aspect-based sentiment analysis in financial reviews",
+   "authors": [
+    "Yang"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "EMNLP",
+   "type": "chapter",
+   "parser": "anystyle-indent-guided",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.5285139",
+      "title": "Utilizing Deep Learning for Aspect-Based Sentiment Analysis in Restaurant Reviews",
+      "year": 2025,
+      "first_author": "Khadivar",
+      "container": "",
+      "type": "posted-content",
+      "score": 35.156036
+     },
+     "metrics": {
+      "title_sim": 89.36170212765957,
+      "containment": 0.556,
+      "partial_ratio": 71.62162162162163,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "Bo Zhang et al. Instruct-fingpt: Instruction tuning for financial sentiment. In ICLR Workshop, 2023.",
+   "title": "Instruct-fingpt: Instruction tuning for financial sentiment",
+   "authors": [
+    "Zhang"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "ICLR Workshop",
+   "type": "chapter",
+   "parser": "anystyle-indent-guided",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.52202/085713-1580",
+      "title": "Learning to Instruct for Visual Instruction Tuning",
+      "year": 2025,
+      "first_author": "Zhou",
+      "container": "Advances in Neural Information Processing Systems 38",
+      "type": "proceedings-article",
+      "score": 29.619967
+     },
+     "metrics": {
+      "title_sim": 76.54320987654322,
+      "containment": 0.6,
+      "partial_ratio": 72.72727272727273,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": true,
+   "idx": 15,
+   "raw": "Supplementary Material This appendix includes additional experimental results, detailed hyperparameter settings (optimizer: Adam with learning rate 3e-5; weight decay of 0.01; batch size: 32), extended ablation studies, and further analysis of the negative generation process. Also included is the domain-specific perturbation analysis (originally Figure 4), which confirms that single-domain and multi-domain training yield nearly identical trajectories in F1 scores and loss curves. Extra plots, error bars, and confidence interval details are provided to aid reproducibility.",
+   "title": "Supplementary Material This appendix includes additional experimental results, detailed hyperparameter settings (optimizer: Adam with learning rate 3e-5; weight decay of 0.01; batch size: 32), extended ablation studies, and further analysis of the negative generation process. Also included is the domain-specific perturbation analysis (originally Figure 4), which confirms that single-domain and multi-domain training yield nearly identical trajectories in F1 scores and loss curves",
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Extra plots",
+   "type": "article-journal",
+   "parser": "anystyle-indent-guided",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.7554/elife.36405.023",
+      "title": "Figure 6\u2014figure supplement 2. Morphological integration between the shapes of the limb bud and the Dusp6 gene expression domain, as measured by partial least square (PLS) analysis.",
+      "year": 2018,
+      "first_author": null,
+      "container": "",
+      "type": "component",
+      "score": 34.84151
+     },
+     "metrics": {
+      "title_sim": 35.65891472868217,
+      "containment": 0.211,
+      "partial_ratio": 45.714285714285715,
+      "year_ok": true,
+      "first_author_ok": null
      }
     }
    ],

@@ -1,15 +1,17 @@
 {
  "pdf": "242_pjpkEHH5YS.pdf",
- "n_entries": 18,
- "fallback": false,
+ "n_entries": 19,
+ "fallback": "indent-guided",
  "error": null,
  "linenumbers_stripped": false,
- "parser_version": 3,
+ "two_column": false,
+ "parser_version": 4,
+ "reprocessed": true,
  "entries": [
   {
    "junk": false,
    "idx": 1,
-   "raw": "Gati Aher, Rosa I. Arriaga, and Adam Tauman Kalai. Using large language models to simulate multiple humans and replicate human subject studies. In Proceedings of the 40th International Conference on Machine Learning (ICML), volume 202 of Proceedings of Machine Learning Research, pages 511\u2013536, 2023. URL https://proceedings.mlr.press/v202/aher23a/ aher23a.pdf. W Brian Arthur. Inductive reasoning and bounded rationality. The American economic review, 84(2): 406\u2013411, 1994.",
+   "raw": "Gati Aher, Rosa I. Arriaga, and Adam Tauman Kalai. Using large language models to simulate multiple humans and replicate human subject studies. In Proceedings of the 40th International Conference on Machine Learning (ICML), volume 202 of Proceedings of Machine Learning Research, pages 511\u2013536, 2023. URL https://proceedings.mlr.press/v202/aher23a/ aher23a.pdf.",
    "title": "Using large language models to simulate multiple humans and replicate human subject studies",
    "authors": [
     "Aher",
@@ -22,9 +24,9 @@
    "urls": [
     "https://proceedings.mlr.press/v202/aher23a/"
    ],
-   "container": "Proceedings of the 40th International Conference on Machine Learning (ICML",
-   "type": "article-journal",
-   "parser": "anystyle-find",
+   "container": "Proceedings of the 40th International Conference on Machine Learning (ICML), volume 202 of Proceedings of Machine Learning Research",
+   "type": "paper-conference",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "evidence": [
     {
@@ -37,11 +39,11 @@
       "first_author": null,
       "container": "",
       "type": "peer-review",
-      "score": 40.410156
+      "score": 40.421734
      },
      "metrics": {
       "title_sim": 68.42105263157895,
-      "containment": 0.6,
+      "containment": 0.5,
       "partial_ratio": 63.63636363636363,
       "year_ok": false,
       "first_author_ok": null
@@ -81,6 +83,67 @@
   {
    "junk": false,
    "idx": 2,
+   "raw": "W Brian Arthur. Inductive reasoning and bounded rationality. The American economic review, 84(2): 406\u2013411, 1994.",
+   "title": "Inductive reasoning and bounded rationality",
+   "authors": [
+    "Arthur"
+   ],
+   "year": 1994,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "The American economic review",
+   "type": "article-journal",
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/4235.771167",
+      "title": "Inductive reasoning and bounded rationality reconsidered",
+      "year": 1999,
+      "first_author": "Fogel",
+      "container": "IEEE Transactions on Evolutionary Computation",
+      "type": "journal-article",
+      "score": 35.29901
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 0.8,
+      "partial_ratio": 83.92857142857143,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "8f1f0e79365e75c5ba5d513355b32b03d6940c97",
+    "title": "Inductive Reasoning and Bounded Rationality",
+    "year": 1994,
+    "first_author": "W. Arthur",
+    "container": "",
+    "ext": {
+     "MAG": "1575989700",
+     "CorpusId": 18874307
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 3,
    "raw": "Federico Bianchi, Patrick John Chia, Mert Yuksekgonul, Jacopo Tagliabue, Dan Jurafsky, and James Zou. How well can LLMs negotiate? NegotiationArena, a large-scale, open-source evaluation platform. In International Conference on Machine Learning, pages 3935\u20133951. PMLR, 2024.",
    "title": "How well can LLMs negotiate? NegotiationArena, a large-scale, open-source evaluation platform",
    "authors": [
@@ -97,7 +160,7 @@
    "urls": [],
    "container": "International Conference on Machine Learning",
    "type": "paper-conference",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "UNVERIFIED",
    "evidence": [
     {
@@ -110,7 +173,7 @@
       "first_author": "Jacobs",
       "container": "Proceedings 2026 Workshop on LLM Assisted Security and Trust Exploration",
       "type": "proceedings-article",
-      "score": 36.481518
+      "score": 36.458797
      },
      "metrics": {
       "title_sim": 68.90756302521008,
@@ -125,7 +188,7 @@
   },
   {
    "junk": false,
-   "idx": 3,
+   "idx": 4,
    "raw": "Andrey Fradkin, Elena Grewal, and David Holtz. Reciprocity and unveiling in two-sided reputation systems: Evidence from an experiment on Airbnb. Marketing Science, 40(6):1009\u20131216, 2021.",
    "title": "Reciprocity and unveiling in two-sided reputation systems: Evidence from an experiment on Airbnb",
    "authors": [
@@ -139,7 +202,7 @@
    "urls": [],
    "container": "Marketing Science",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -150,7 +213,7 @@
     "first_author": "Fradkin",
     "container": "Marketing Science",
     "type": "journal-article",
-    "score": 83.72303
+    "score": 83.67773
    },
    "metrics": {
     "title_sim": 100.0,
@@ -163,7 +226,7 @@
   },
   {
    "junk": false,
-   "idx": 4,
+   "idx": 5,
    "raw": "Yao Fu, Hao Peng, Tushar Khot, and Mirella Lapata. Improving language model negotiation with self-play and in-context learning from ai feedback. arXiv preprint arXiv:2305.10142, 2023.",
    "title": "Improving language model negotiation with self-play and in-context learning from ai feedback",
    "authors": [
@@ -178,49 +241,15 @@
    "urls": [],
    "container": null,
    "type": null,
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
-   "evidence": [
-    {
-     "step": "arxiv_id_not_found",
-     "arxiv": "2305.10142"
-    },
-    {
-     "step": "crossref_best_reject",
-     "rec": {
-      "source": "crossref",
-      "doi": "10.31637/epsir-2025-1568",
-      "title": "AI-assisted feedback in CLIL courses as a self-regulated language learning mechanism: students\u2019 perceptions and experiences",
-      "year": 2025,
-      "first_author": "Campos",
-      "container": "European Public &amp; Social Innovation Review",
-      "type": "journal-article",
-      "score": 32.485367
-     },
-     "metrics": {
-      "title_sim": 61.65413533834587,
-      "containment": 0.333,
-      "partial_ratio": 44.628099173553714,
-      "year_ok": false,
-      "first_author_ok": false
-     }
-    }
-   ],
-   "likely_match": null,
-   "via": "s2",
+   "via": "arxiv_id",
    "match": {
-    "source": "s2",
-    "id": "2e6b6de08f459e2165b11ed8d2103916966b0fcf",
+    "source": "arxiv",
+    "arxiv": "2305.10142",
     "title": "Improving Language Model Negotiation with Self-Play and In-Context Learning from AI Feedback",
     "year": 2023,
-    "first_author": "Yao Fu",
-    "container": "arXiv.org",
-    "ext": {
-     "ArXiv": "2305.10142",
-     "DBLP": "journals/corr/abs-2305-10142",
-     "DOI": "10.48550/arXiv.2305.10142",
-     "CorpusId": 258740978
-    }
+    "first_author": "Yao Fu"
    },
    "metrics": {
     "title_sim": 100.0,
@@ -229,11 +258,11 @@
     "year_ok": true,
     "first_author_ok": true
    },
-   "second_pass_hit": true
+   "evidence": []
   },
   {
    "junk": false,
-   "idx": 5,
+   "idx": 6,
    "raw": "Shen Gao, Yuntao Wen, Minghang Zhu, Jianing Wei, Yuhan Cheng, Qunzi Zhang, and Shuo Shang. Simulating financial market via large language model based agents. arXiv preprint arXiv:2406.19966, 2024.",
    "title": "Simulating financial market via large language model based agents",
    "authors": [
@@ -251,87 +280,15 @@
    "urls": [],
    "container": null,
    "type": null,
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
-   "evidence": [
-    {
-     "step": "arxiv_id_not_found",
-     "arxiv": "2406.19966"
-    },
-    {
-     "step": "crossref_best_reject",
-     "rec": {
-      "source": "crossref",
-      "doi": "10.2139/ssrn.5217340",
-      "title": "Can Large Language Models Trade? Testing Financial Theories with LLM Agents in Market Simulations",
-      "year": 2025,
-      "first_author": "Lopez-Lira",
-      "container": "",
-      "type": "posted-content",
-      "score": 34.175438
-     },
-     "metrics": {
-      "title_sim": 74.53416149068323,
-      "containment": 0.417,
-      "partial_ratio": 51.04166666666667,
-      "year_ok": true,
-      "first_author_ok": false
-     }
-    }
-   ],
-   "likely_match": null,
-   "via": "s2",
+   "via": "arxiv_id",
    "match": {
-    "source": "s2",
-    "id": "7150e17eac46cfdfc303ceef882d115e0232de46",
+    "source": "arxiv",
+    "arxiv": "2406.19966",
     "title": "Simulating Financial Market via Large Language Model based Agents",
     "year": 2024,
-    "first_author": "Shen Gao",
-    "container": "arXiv.org",
-    "ext": {
-     "ArXiv": "2406.19966",
-     "DBLP": "journals/corr/abs-2406-19966",
-     "DOI": "10.48550/arXiv.2406.19966",
-     "CorpusId": 270845937
-    }
-   },
-   "metrics": {
-    "title_sim": 100.0,
-    "containment": 1.0,
-    "partial_ratio": 100.0,
-    "year_ok": true,
-    "first_author_ok": true
-   },
-   "second_pass_hit": true
-  },
-  {
-   "junk": false,
-   "idx": 6,
-   "raw": "Yuncheng Hua, Lizhen Qu, and Reza Haf. Assistive large language model agents for socially-aware negotiation dialogues. In Findings of the Association for Computational Linguistics: EMNLP 2024, pages 8047\u20138074, 2024.",
-   "title": "Assistive large language model agents for socially-aware negotiation dialogues",
-   "authors": [
-    "Hua",
-    "Qu",
-    "Haf"
-   ],
-   "year": 2024,
-   "doi": null,
-   "arxiv": null,
-   "urls": [],
-   "container": "Findings of the Association for Computational Linguistics: EMNLP 2024",
-   "type": "chapter",
-   "parser": "anystyle-find",
-   "verdict": "VERIFIED",
-   "via": "crossref",
-   "match": {
-    "source": "crossref",
-    "doi": "10.18653/v1/2024.findings-emnlp.473",
-    "title": "Assistive Large Language Model Agents for Socially-Aware Negotiation Dialogues",
-    "year": 2024,
-    "first_author": "Hua",
-    "container": "Findings of the Association for Computational Linguistics: EMNLP 2024",
-    "type": "proceedings-article",
-    "score": 78.615814
+    "first_author": "Shen Gao"
    },
    "metrics": {
     "title_sim": 100.0,
@@ -345,6 +302,44 @@
   {
    "junk": false,
    "idx": 7,
+   "raw": "Yuncheng Hua, Lizhen Qu, and Reza Haf. Assistive large language model agents for socially-aware negotiation dialogues. In Findings of the Association for Computational Linguistics: EMNLP 2024, pages 8047\u20138074, 2024.",
+   "title": "Assistive large language model agents for socially-aware negotiation dialogues",
+   "authors": [
+    "Hua",
+    "Qu",
+    "Haf"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Findings of the Association for Computational Linguistics: EMNLP 2024",
+   "type": "chapter",
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2024.findings-emnlp.473",
+    "title": "Assistive Large Language Model Agents for Socially-Aware Negotiation Dialogues",
+    "year": 2024,
+    "first_author": "Hua",
+    "container": "Findings of the Association for Computational Linguistics: EMNLP 2024",
+    "type": "proceedings-article",
+    "score": 78.608635
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
    "raw": "Guohao Li, Hasan Abed Al Kader Hammoud, Hani Itani, Dmitrii Khizbullin, and Bernard Ghanem. Camel: Communicative agents for \"mind\" exploration of large language model society. In Thirtyseventh Conference on Neural Information Processing Systems, 2023.",
    "title": "Camel: Communicative agents for \"mind\" exploration of large language model society",
    "authors": [
@@ -360,7 +355,7 @@
    "urls": [],
    "container": "Thirtyseventh Conference on Neural Information Processing Systems",
    "type": "paper-conference",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -371,7 +366,7 @@
     "first_author": "Li",
     "container": "Advances in Neural Information Processing Systems 36",
     "type": "proceedings-article",
-    "score": 64.362686
+    "score": 64.35812
    },
    "metrics": {
     "title_sim": 100.0,
@@ -384,8 +379,8 @@
   },
   {
    "junk": false,
-   "idx": 8,
-   "raw": "Nian Li, Chen Gao, Mingyu Li, Yong Li, and Qingmin Liao. Econagent: Large language modelempowered agents for simulating macroeconomic activities. In Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pages 15523\u201315536, 2024.",
+   "idx": 9,
+   "raw": "Nian Li, Chen Gao, Mingyu Li, Yong Li, and Qingmin Liao. Econagent: Large language modelempowered agents for simulating macroeconomic activities. In Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pages 15523\u2013 15536, 2024.",
    "title": "Econagent: Large language modelempowered agents for simulating macroeconomic activities",
    "authors": [
     "Li",
@@ -400,7 +395,7 @@
    "urls": [],
    "container": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers",
    "type": "paper-conference",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -411,7 +406,7 @@
     "first_author": "Li",
     "container": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
     "type": "proceedings-article",
-    "score": 58.34958
+    "score": 58.358967
    },
    "metrics": {
     "title_sim": 99.42196531791907,
@@ -424,7 +419,7 @@
   },
   {
    "junk": false,
-   "idx": 9,
+   "idx": 10,
    "raw": "Jianhao Lin, Lexuan Sun, and Yixin Yan. Simulating macroeconomic expectations using llm agents. arXiv preprint arXiv:2505.17648, 2025.",
    "title": "Simulating macroeconomic expectations using llm agents",
    "authors": [
@@ -438,36 +433,28 @@
    "urls": [],
    "container": null,
    "type": null,
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
-   "via": "crossref",
+   "via": "arxiv_id",
    "match": {
-    "source": "crossref",
-    "doi": "10.2139/ssrn.5265729",
-    "title": "Simulating Macroeconomic Expectations using LLM Agents",
+    "source": "arxiv",
+    "arxiv": "2505.17648",
+    "title": "Simulating Macroeconomic Expectations in Survey Experiments with LLM-based Economic Agents",
     "year": 2025,
-    "first_author": "Lin",
-    "container": "",
-    "type": "posted-content",
-    "score": 66.41038
+    "first_author": "Jianhao Lin"
    },
    "metrics": {
-    "title_sim": 100.0,
-    "containment": 1.0,
-    "partial_ratio": 100.0,
+    "title_sim": 94.11764705882354,
+    "containment": 0.556,
+    "partial_ratio": 62.22222222222222,
     "year_ok": true,
     "first_author_ok": true
    },
-   "evidence": [
-    {
-     "step": "arxiv_id_not_found",
-     "arxiv": "2505.17648"
-    }
-   ]
+   "evidence": []
   },
   {
    "junk": false,
-   "idx": 10,
+   "idx": 11,
    "raw": "Alejandro Lopez-Lira. Can large language models trade? testing financial theories with llm agents in market simulations. Testing Financial Theories with LLM Agents in Market Simulations (April 14, 2025), 2025.",
    "title": "Can large language models trade? testing financial theories with llm agents in market simulations",
    "authors": [
@@ -479,7 +466,7 @@
    "urls": [],
    "container": "Testing Financial Theories with LLM Agents in Market Simulations",
    "type": "chapter",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -490,7 +477,7 @@
     "first_author": "Lopez-Lira",
     "container": "",
     "type": "posted-content",
-    "score": 110.68675
+    "score": 110.69607
    },
    "metrics": {
     "title_sim": 100.0,
@@ -503,7 +490,7 @@
   },
   {
    "junk": false,
-   "idx": 11,
+   "idx": 12,
    "raw": "Aman Madaan, Niket Tandon, Prakhar Gupta, Skyler Hallinan, Luyu Gao, Sarah Wiegreffe, Uri Alon, Nouha Dziri, Shrimai Prabhumoye, Yiming Yang, et al. Self-refine: Iterative refinement with self-feedback. Advances in Neural Information Processing Systems, 36:46534\u201346594, 2023.",
    "title": "Self-refine: Iterative refinement with self-feedback",
    "authors": [
@@ -524,7 +511,7 @@
    "urls": [],
    "container": "Advances in Neural Information Processing Systems",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -535,7 +522,7 @@
     "first_author": "Madaan",
     "container": "Advances in Neural Information Processing Systems 36",
     "type": "proceedings-article",
-    "score": 51.758877
+    "score": 51.774433
    },
    "metrics": {
     "title_sim": 100.0,
@@ -548,7 +535,7 @@
   },
   {
    "junk": false,
-   "idx": 12,
+   "idx": 13,
    "raw": "Amanda Pallais. Inefficient hiring in entry-level labor markets. American Economic Review, 104(11): 3565\u20133599, 2014. doi: 10.1257/aer.104.11.3565.",
    "title": "Inefficient hiring in entry-level labor markets",
    "authors": [
@@ -560,7 +547,7 @@
    "urls": [],
    "container": "American Economic Review",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "doi",
    "match": {
@@ -584,7 +571,7 @@
   },
   {
    "junk": false,
-   "idx": 13,
+   "idx": 14,
    "raw": "Joon Sung Park, Joseph O\u2019Brien, Carrie Jun Cai, Meredith Ringel Morris, Percy Liang, and Michael S Bernstein. Generative agents: Interactive simulacra of human behavior. In Proceedings of the 36th annual acm symposium on user interface software and technology, pages 1\u201322, 2023.",
    "title": "Generative agents: Interactive simulacra of human behavior",
    "authors": [
@@ -601,7 +588,7 @@
    "urls": [],
    "container": "Proceedings of the 36th annual acm symposium on user interface software and technology",
    "type": "paper-conference",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -612,7 +599,7 @@
     "first_author": "Park",
     "container": "Proceedings of the 36th Annual ACM Symposium on User Interface Software and Technology",
     "type": "proceedings-article",
-    "score": 46.712753
+    "score": 46.718597
    },
    "metrics": {
     "title_sim": 100.0,
@@ -625,7 +612,7 @@
   },
   {
    "junk": false,
-   "idx": 14,
+   "idx": 15,
    "raw": "Noah Shinn, Federico Cassano, Ashwin Gopinath, Karthik Narasimhan, and Shunyu Yao. Reflexion: Language agents with verbal reinforcement learning. Advances in Neural Information Processing Systems, 36:8634\u20138652, 2023.",
    "title": "Reflexion: Language agents with verbal reinforcement learning",
    "authors": [
@@ -641,7 +628,7 @@
    "urls": [],
    "container": "Advances in Neural Information Processing Systems",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -652,43 +639,7 @@
     "first_author": "Shinn",
     "container": "Advances in Neural Information Processing Systems 36",
     "type": "proceedings-article",
-    "score": 58.488945
-   },
-   "metrics": {
-    "title_sim": 100.0,
-    "containment": 1.0,
-    "partial_ratio": 100.0,
-    "year_ok": true,
-    "first_author_ok": true
-   },
-   "evidence": []
-  },
-  {
-   "junk": false,
-   "idx": 15,
-   "raw": "Leigh Tesfatsion. Agent-based computational economics: Growing economies from the bottom up. Artificial life, 8(1):55\u201382, 2002.",
-   "title": "Agent-based computational economics: Growing economies from the bottom up",
-   "authors": [
-    "Tesfatsion"
-   ],
-   "year": 2002,
-   "doi": null,
-   "arxiv": null,
-   "urls": [],
-   "container": "Artificial life",
-   "type": "article-journal",
-   "parser": "anystyle-find",
-   "verdict": "VERIFIED",
-   "via": "crossref",
-   "match": {
-    "source": "crossref",
-    "doi": "10.2139/ssrn.305080",
-    "title": "Agent-Based Computational Economics: Growing Economies from the Bottom Up",
-    "year": 2002,
-    "first_author": "Tesfatsion",
-    "container": "",
-    "type": "posted-content",
-    "score": 90.33385
+    "score": 58.487972
    },
    "metrics": {
     "title_sim": 100.0,
@@ -702,6 +653,42 @@
   {
    "junk": false,
    "idx": 16,
+   "raw": "Leigh Tesfatsion. Agent-based computational economics: Growing economies from the bottom up. Artificial life, 8(1):55\u201382, 2002.",
+   "title": "Agent-based computational economics: Growing economies from the bottom up",
+   "authors": [
+    "Tesfatsion"
+   ],
+   "year": 2002,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Artificial life",
+   "type": "article-journal",
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.2139/ssrn.305080",
+    "title": "Agent-Based Computational Economics: Growing Economies from the Bottom Up",
+    "year": 2002,
+    "first_author": "Tesfatsion",
+    "container": "",
+    "type": "posted-content",
+    "score": 90.3396
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 17,
    "raw": "Qingyun Wu, Gagan Bansal, Jieyu Zhang, Yiran Wu, Beibin Li, Erkang Zhu, Li Jiang, Xiaoyun Zhang, Shaokun Zhang, Jiale Liu, et al. Autogen: Enabling next-gen llm applications via multi-agent conversations. In First Conference on Language Modeling, 2024.",
    "title": "Autogen: Enabling next-gen llm applications via multi-agent conversations",
    "authors": [
@@ -722,7 +709,7 @@
    "urls": [],
    "container": "First Conference on Language Modeling",
    "type": "paper-conference",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "evidence": [
     {
@@ -767,11 +754,12 @@
     "year_ok": true,
     "first_author_ok": true
    },
-   "second_pass_hit": true
+   "second_pass_hit": true,
+   "carried_over_from": "parser_v3_run"
   },
   {
    "junk": false,
-   "idx": 17,
+   "idx": 18,
    "raw": "Tian Xia, Zhiwei He, Tong Ren, Yibo Miao, Zhuosheng Zhang, Yang Yang, and Rui Wang. Measuring bargaining abilities of llms: A benchmark and a buyer-enhancement method. In Findings of the Association for Computational Linguistics ACL 2024, pages 3579\u20133602, 2024.",
    "title": "Measuring bargaining abilities of llms: A benchmark and a buyer-enhancement method",
    "authors": [
@@ -789,7 +777,7 @@
    "urls": [],
    "container": "Findings of the Association for Computational Linguistics ACL 2024",
    "type": "chapter",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -800,7 +788,7 @@
     "first_author": "Xia",
     "container": "Findings of the Association for Computational Linguistics ACL 2024",
     "type": "proceedings-article",
-    "score": 69.28599
+    "score": 69.28098
    },
    "metrics": {
     "title_sim": 100.0,
@@ -813,7 +801,7 @@
   },
   {
    "junk": false,
-   "idx": 18,
+   "idx": 19,
    "raw": "Stephan Zheng, Alexander Trott, Sunil Srinivasa, David C Parkes, and Richard Socher. The ai economist: Taxation policy design via two-level deep multiagent reinforcement learning. Science advances, 8(18):eabk2607, 2022.",
    "title": "The ai economist: Taxation policy design via two-level deep multiagent reinforcement learning",
    "authors": [
@@ -829,7 +817,7 @@
    "urls": [],
    "container": "Science advances",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -840,7 +828,7 @@
     "first_author": "Zheng",
     "container": "Science Advances",
     "type": "journal-article",
-    "score": 81.93798
+    "score": 81.94618
    },
    "metrics": {
     "title_sim": 100.0,

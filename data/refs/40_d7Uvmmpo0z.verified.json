@@ -1,15 +1,17 @@
 {
  "pdf": "40_d7Uvmmpo0z.pdf",
- "n_entries": 10,
- "fallback": false,
+ "n_entries": 11,
+ "fallback": "indent-guided",
  "error": null,
  "linenumbers_stripped": true,
- "parser_version": 3,
+ "two_column": false,
+ "parser_version": 4,
+ "reprocessed": true,
  "entries": [
   {
    "junk": false,
    "idx": 1,
-   "raw": "References Yassine Chemingui, Aryan Deshwal, Honghao Wei, Alan Fern and Janardhan Rao Doppa. Constraint-adaptive policy switching for offline safe reinforcement learning. In AAAI Conference on Artificial Intelligence, 2025. CAPS trains multiple policies with different reward-cost trade-offs and switches among them to satisfy varying safety constraints.",
+   "raw": "Yassine Chemingui, Aryan Deshwal, Honghao Wei, Alan Fern and Janardhan Rao Doppa. Constraint-adaptive policy switching for offline safe reinforcement learning. In AAAI Conference on Artificial Intelligence, 2025. CAPS trains multiple policies with different reward-cost trade-offs and switches among them to satisfy varying safety constraints.",
    "title": "Constraint-adaptive policy switching for offline safe reinforcement learning",
    "authors": [
     "Chemingui",
@@ -24,7 +26,7 @@
    "urls": [],
    "container": "AAAI Conference on Artificial Intelligence",
    "type": "paper-conference",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -35,7 +37,7 @@
     "first_author": "Chemingui",
     "container": "Proceedings of the AAAI Conference on Artificial Intelligence",
     "type": "journal-article",
-    "score": 66.19486
+    "score": 66.182884
    },
    "metrics": {
     "title_sim": 100.0,
@@ -65,7 +67,7 @@
    "urls": [],
    "container": "International Conference on Machine Learning",
    "type": "paper-conference",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "evidence": [
     {
@@ -112,7 +114,8 @@
     "year_ok": true,
     "first_author_ok": true
    },
-   "second_pass_hit": true
+   "second_pass_hit": true,
+   "carried_over_from": "parser_v3_run"
   },
   {
    "junk": false,
@@ -130,32 +133,24 @@
    "urls": [],
    "container": null,
    "type": null,
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
-   "via": "crossref",
+   "via": "arxiv_id",
    "match": {
-    "source": "crossref",
-    "doi": "10.1109/tai.2025.3610390/mm1",
-    "title": "Offline Inverse Constrained Reinforcement Learning for Safe-Critical Decision Making in Healthcare_supp1-3610390.pdf",
-    "year": 2025,
-    "first_author": "Gong",
-    "container": "",
-    "type": "component",
-    "score": 74.076744
+    "source": "arxiv",
+    "arxiv": "2410.07525",
+    "title": "Offline Inverse Constrained Reinforcement Learning for Safe-Critical Decision Making in Healthcare",
+    "year": 2024,
+    "first_author": "Nan Fang"
    },
    "metrics": {
     "title_sim": 100.0,
-    "containment": 0.769,
-    "partial_ratio": 87.93103448275862,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
     "year_ok": true,
     "first_author_ok": true
    },
-   "evidence": [
-    {
-     "step": "arxiv_id_not_found",
-     "arxiv": "2410.07525"
-    }
-   ]
+   "evidence": []
   },
   {
    "junk": false,
@@ -177,7 +172,7 @@
    "urls": [],
    "container": "Nature Medicine",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -188,7 +183,7 @@
     "first_author": "Gottesman",
     "container": "Nature Medicine",
     "type": "journal-article",
-    "score": 37.796448
+    "score": 37.80192
    },
    "metrics": {
     "title_sim": 100.0,
@@ -215,7 +210,7 @@
    "urls": [],
    "container": "Journal of Biomedical Informatics",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -226,7 +221,7 @@
     "first_author": "Gu",
     "container": "",
     "type": "posted-content",
-    "score": 69.900375
+    "score": 69.90693
    },
    "metrics": {
     "title_sim": 100.0,
@@ -240,26 +235,21 @@
   {
    "junk": false,
    "idx": 6,
-   "raw": "Woosung Kim, Jinho Lee, Jongmin Lee and Byung-Jun Lee. FairDICE: fairness-driven offline multi-objective reinforcement learning. arXiv preprint arXiv:2506.08062, 2025. FairDICE maximises concave welfare objectives such as Nash social welfare and is the first offline algorithm for fair multi-objective RL. Matthieu Komorowski, Leo A. Celi, Omar Badawi, Anthony C. Gordon and A. Aldo Faisal. The Artificial Intelligence Clinician learns optimal treatment strategies for sepsis in intensive care using deep reinforcement learning and demonstrates potential to improve survival compared with clinicians. Nature Medicine, 24(11):1716\u20131720, 2018.",
+   "raw": "Woosung Kim, Jinho Lee, Jongmin Lee and Byung-Jun Lee. FairDICE: fairness-driven offline multi-objective reinforcement learning. arXiv preprint arXiv:2506.08062, 2025. FairDICE maximises concave welfare objectives such as Nash social welfare and is the first offline algorithm for fair multi-objective RL.",
    "title": "FairDICE: fairness-driven offline multi-objective reinforcement learning",
    "authors": [
     "Kim",
     "Lee",
     "Lee",
-    "Lee",
-    "Komorowski",
-    "Celi",
-    "Badawi",
-    "Gordon",
-    "Faisal"
+    "Lee"
    ],
    "year": 2025,
    "doi": null,
    "arxiv": "2506.08062",
    "urls": [],
-   "container": "Nature Medicine",
-   "type": "article-journal",
-   "parser": "anystyle-find",
+   "container": null,
+   "type": null,
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -270,7 +260,7 @@
     "first_author": "Kim",
     "container": "Advances in Neural Information Processing Systems 38",
     "type": "proceedings-article",
-    "score": 75.140305
+    "score": 75.14195
    },
    "metrics": {
     "title_sim": 100.0,
@@ -289,6 +279,46 @@
   {
    "junk": false,
    "idx": 7,
+   "raw": "Matthieu Komorowski, Leo A. Celi, Omar Badawi, Anthony C. Gordon and A. Aldo Faisal. The Artificial Intelligence Clinician learns optimal treatment strategies for sepsis in intensive care using deep reinforcement learning and demonstrates potential to improve survival compared with clinicians. Nature Medicine, 24(11):1716\u20131720, 2018.",
+   "title": "The Artificial Intelligence Clinician learns optimal treatment strategies for sepsis in intensive care using deep reinforcement learning and demonstrates potential to improve survival compared with clinicians",
+   "authors": [
+    "Komorowski",
+    "Celi",
+    "Badawi",
+    "Gordon",
+    "Faisal"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature Medicine",
+   "type": "article-journal",
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/s41591-018-0213-5",
+    "title": "The Artificial Intelligence Clinician learns optimal treatment strategies for sepsis in intensive care",
+    "year": 2018,
+    "first_author": "Komorowski",
+    "container": "Nature Medicine",
+    "type": "journal-article",
+    "score": 75.02004
+   },
+   "metrics": {
+    "title_sim": 65.80645161290323,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
    "raw": "Ankita Raghu, Matthieu Komorowski, Leo A. Celi, Peter Szolovits, Paul Pfohl, Jonas E. Miller Dunn and Marzyeh Ghassemi. Continuous state-space models for sepsis management: a deep reinforcement learning approach. In Proceedings of the Conference on Machine Learning for Healthcare, pages 147\u2013167, 2017.",
    "title": "Continuous state-space models for sepsis management: a deep reinforcement learning approach",
    "authors": [
@@ -306,7 +336,7 @@
    "urls": [],
    "container": "Proceedings of the Conference on Machine Learning for Healthcare",
    "type": "paper-conference",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "evidence": [
     {
@@ -353,11 +383,12 @@
     "year_ok": true,
     "first_author_ok": true
    },
-   "second_pass_hit": true
+   "second_pass_hit": true,
+   "carried_over_from": "parser_v3_run"
   },
   {
    "junk": false,
-   "idx": 8,
+   "idx": 9,
    "raw": "Richard S. Sutton and Andrew G. Barto. Reinforcement Learning: An Introduction. MIT Press, 2018.",
    "title": "Reinforcement Learning: An Introduction",
    "authors": [
@@ -370,7 +401,7 @@
    "urls": [],
    "container": null,
    "type": "book",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -381,7 +412,7 @@
     "first_author": "Sutton",
     "container": "Reinforcement Learning",
     "type": "book-chapter",
-    "score": 34.510212
+    "score": 34.509304
    },
    "metrics": {
     "title_sim": 95.89041095890411,
@@ -394,7 +425,7 @@
   },
   {
    "junk": false,
-   "idx": 9,
+   "idx": 10,
    "raw": "Runze Yan, Xun Shen, Akifumi Wachi, Sebastien Gros, Anni Zhao and Xiao Hu. Offline guarded safe reinforcement learning for medical treatment optimization strategies. arXiv preprint arXiv:2505.16242, 2025. The paper introduces OGSRL, which uses an out-of-distribution guardian and a safety cost constraint to keep trajectories within clinically validated regions.",
    "title": "Offline guarded safe reinforcement learning for medical treatment optimization strategies",
    "authors": [
@@ -411,18 +442,15 @@
    "urls": [],
    "container": null,
    "type": null,
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
-   "via": "crossref",
+   "via": "arxiv_id",
    "match": {
-    "source": "crossref",
-    "doi": "10.52202/085713-3275",
+    "source": "arxiv",
+    "arxiv": "2505.16242",
     "title": "Offline Guarded Safe Reinforcement Learning for Medical Treatment Optimization Strategies",
     "year": 2025,
-    "first_author": "Yan",
-    "container": "Advances in Neural Information Processing Systems 38",
-    "type": "proceedings-article",
-    "score": 67.83503
+    "first_author": "Runze Yan"
    },
    "metrics": {
     "title_sim": 100.0,
@@ -431,16 +459,11 @@
     "year_ok": true,
     "first_author_ok": true
    },
-   "evidence": [
-    {
-     "step": "arxiv_id_not_found",
-     "arxiv": "2505.16242"
-    }
-   ]
+   "evidence": []
   },
   {
    "junk": false,
-   "idx": 10,
+   "idx": 11,
    "raw": "Yinan Zheng, Jianxiong Li, Dongjie Yu, Yujie Yang, Shengbo Eben Li and Xianyuan Zhan. Safe offline reinforcement learning with feasibility-guided diffusion model. In International Conference on Learning Representations, 2024. The authors propose FISOR, which translates hard safety constraints into a feasibility region and trains a diffusion model to generate safe actions.",
    "title": "Safe offline reinforcement learning with feasibility-guided diffusion model",
    "authors": [
@@ -457,8 +480,26 @@
    "urls": [],
    "container": "International Conference on Learning Representations",
    "type": "paper-conference",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
+   "via": "openalex",
+   "match": {
+    "source": "openalex",
+    "id": "https://openalex.org/W4391124299",
+    "doi": "https://doi.org/10.48550/arxiv.2401.10700",
+    "title": "Safe Offline Reinforcement Learning with Feasibility-Guided Diffusion Model",
+    "year": 2024,
+    "first_author": "Yinan Zheng",
+    "container": "arXiv (Cornell University)",
+    "type": "preprint"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -470,7 +511,7 @@
       "first_author": "Fang",
       "container": "",
       "type": "dissertation",
-      "score": 38.571194
+      "score": 38.573746
      },
      "metrics": {
       "title_sim": 86.02150537634408,
@@ -480,31 +521,7 @@
       "first_author_ok": false
      }
     }
-   ],
-   "likely_match": null,
-   "via": "s2",
-   "match": {
-    "source": "s2",
-    "id": "a2246e09ab0b56ba91322747addad030eae56c50",
-    "title": "Safe Offline Reinforcement Learning with Feasibility-Guided Diffusion Model",
-    "year": 2024,
-    "first_author": "Yinan Zheng",
-    "container": "International Conference on Learning Representations",
-    "ext": {
-     "ArXiv": "2401.10700",
-     "DBLP": "journals/corr/abs-2401-10700",
-     "DOI": "10.48550/arXiv.2401.10700",
-     "CorpusId": 267061384
-    }
-   },
-   "metrics": {
-    "title_sim": 100.0,
-    "containment": 1.0,
-    "partial_ratio": 100.0,
-    "year_ok": true,
-    "first_author_ok": true
-   },
-   "second_pass_hit": true
+   ]
   }
  ],
  "second_pass": true,

@@ -4,7 +4,9 @@
  "fallback": false,
  "error": null,
  "linenumbers_stripped": true,
- "parser_version": 3,
+ "two_column": false,
+ "parser_version": 4,
+ "reprocessed": true,
  "entries": [
   {
    "junk": false,
@@ -29,16 +31,13 @@
    "type": null,
    "parser": "anystyle-find",
    "verdict": "VERIFIED",
-   "via": "crossref",
+   "via": "arxiv_id",
    "match": {
-    "source": "crossref",
-    "doi": "10.52591/lxai202312101",
-    "title": "Self-Consuming Generative Models go MAD",
+    "source": "arxiv",
+    "arxiv": "2307.01850",
+    "title": "Self-Consuming Generative Models Go MAD",
     "year": 2023,
-    "first_author": "Casco-Rodriguez",
-    "container": "LatinX in AI at Neural Information Processing Systems Conference 2023",
-    "type": "proceedings-article",
-    "score": 60.481007
+    "first_author": "Sina Alemohammad"
    },
    "metrics": {
     "title_sim": 100.0,
@@ -47,12 +46,7 @@
     "year_ok": true,
     "first_author_ok": true
    },
-   "evidence": [
-    {
-     "step": "arxiv_id_not_found",
-     "arxiv": "2307.01850"
-    }
-   ]
+   "evidence": []
   },
   {
    "junk": false,
@@ -79,46 +73,13 @@
    "type": null,
    "parser": "anystyle-find",
    "verdict": "VERIFIED",
-   "evidence": [
-    {
-     "step": "arxiv_id_not_found",
-     "arxiv": "2108.07732"
-    },
-    {
-     "step": "crossref_best_reject",
-     "rec": {
-      "source": "crossref",
-      "doi": "10.1145/3680410",
-      "title": "On Program Synthesis and Large Language Models",
-      "year": 2025,
-      "first_author": "H\u00fcttel",
-      "container": "Communications of the ACM",
-      "type": "journal-article",
-      "score": 28.27823
-     },
-     "metrics": {
-      "title_sim": 93.97590361445783,
-      "containment": 1.0,
-      "partial_ratio": 89.13043478260869,
-      "year_ok": false,
-      "first_author_ok": false
-     }
-    }
-   ],
-   "likely_match": null,
-   "via": "s2",
+   "via": "arxiv_id",
    "match": {
-    "source": "s2",
-    "id": "a38e0f993e4805ba8a9beae4c275c91ffcec01df",
+    "source": "arxiv",
+    "arxiv": "2108.07732",
     "title": "Program Synthesis with Large Language Models",
     "year": 2021,
-    "first_author": "Jacob Austin",
-    "container": "arXiv.org",
-    "ext": {
-     "DBLP": "journals/corr/abs-2108-07732",
-     "ArXiv": "2108.07732",
-     "CorpusId": 237142385
-    }
+    "first_author": "Jacob Austin"
    },
    "metrics": {
     "title_sim": 100.0,
@@ -127,7 +88,7 @@
     "year_ok": true,
     "first_author_ok": true
    },
-   "second_pass_hit": true
+   "evidence": []
   },
   {
    "junk": false,
@@ -154,7 +115,7 @@
     "first_author": "Borji",
     "container": "Computer Vision and Image Understanding",
     "type": "journal-article",
-    "score": 69.40084
+    "score": 69.39095
    },
    "metrics": {
     "title_sim": 100.0,
@@ -199,7 +160,7 @@
     "first_author": "Winata",
     "container": "Proceedings of the 1st Workshop on Multilingual Representation Learning",
     "type": "proceedings-article",
-    "score": 33.996895
+    "score": 33.98637
    },
    "metrics": {
     "title_sim": 100.0,
@@ -236,7 +197,7 @@
     "first_author": "Charlesworth",
     "container": "Nature Reviews Genetics",
     "type": "journal-article",
-    "score": 43.585262
+    "score": 43.580673
    },
    "metrics": {
     "title_sim": 100.0,
@@ -272,46 +233,13 @@
    "type": null,
    "parser": "anystyle-find",
    "verdict": "VERIFIED",
-   "evidence": [
-    {
-     "step": "arxiv_id_not_found",
-     "arxiv": "2107.03374"
-    },
-    {
-     "step": "crossref_best_reject",
-     "rec": {
-      "source": "crossref",
-      "doi": "10.31274/td-20250502-3",
-      "title": "Analyzing redundancy in code-trained language models",
-      "year": 2025,
-      "first_author": "Sharma",
-      "container": "",
-      "type": "dissertation",
-      "score": 36.195316
-     },
-     "metrics": {
-      "title_sim": 76.0,
-      "containment": 0.667,
-      "partial_ratio": 55.769230769230774,
-      "year_ok": false,
-      "first_author_ok": false
-     }
-    }
-   ],
-   "likely_match": null,
-   "via": "s2",
+   "via": "arxiv_id",
    "match": {
-    "source": "s2",
-    "id": "acbdbf49f9bc3f151b93d9ca9a06009f4f6eb269",
+    "source": "arxiv",
+    "arxiv": "2107.03374",
     "title": "Evaluating Large Language Models Trained on Code",
     "year": 2021,
-    "first_author": "Mark Chen",
-    "container": "arXiv.org",
-    "ext": {
-     "ArXiv": "2107.03374",
-     "DBLP": "journals/corr/abs-2107-03374",
-     "CorpusId": 235755472
-    }
+    "first_author": "Mark Chen"
    },
    "metrics": {
     "title_sim": 100.0,
@@ -320,7 +248,7 @@
     "year_ok": true,
     "first_author_ok": true
    },
-   "second_pass_hit": true
+   "evidence": []
   },
   {
    "junk": false,
@@ -390,7 +318,7 @@
     "first_author": "Cover",
     "container": "",
     "type": "monograph",
-    "score": 28.289127
+    "score": 28.301104
    },
    "metrics": {
     "title_sim": 100.0,
@@ -426,47 +354,13 @@
    "type": null,
    "parser": "anystyle-find",
    "verdict": "VERIFIED",
-   "evidence": [
-    {
-     "step": "arxiv_id_not_found",
-     "arxiv": "2404.01413"
-    },
-    {
-     "step": "crossref_best_reject",
-     "rec": {
-      "source": "crossref",
-      "doi": "10.31219/osf.io/et6hm_v1",
-      "title": "Osmotic Recursion and the Collapse Threshold: A Recursive Collapse Model of Mitosis and Cellular Division",
-      "year": 2025,
-      "first_author": "Serio",
-      "container": "",
-      "type": "posted-content",
-      "score": 28.948372
-     },
-     "metrics": {
-      "title_sim": 61.78010471204188,
-      "containment": 0.4,
-      "partial_ratio": 45.192307692307686,
-      "year_ok": true,
-      "first_author_ok": false
-     }
-    }
-   ],
-   "likely_match": null,
-   "via": "s2",
+   "via": "arxiv_id",
    "match": {
-    "source": "s2",
-    "id": "e8815da26d4e6cac8b23b7e6aa75cec028cb66d2",
+    "source": "arxiv",
+    "arxiv": "2404.01413",
     "title": "Is Model Collapse Inevitable? Breaking the Curse of Recursion by Accumulating Real and Synthetic Data",
     "year": 2024,
-    "first_author": "Matthias Gerstgrasser",
-    "container": "arXiv.org",
-    "ext": {
-     "DBLP": "journals/corr/abs-2404-01413",
-     "ArXiv": "2404.01413",
-     "DOI": "10.48550/arXiv.2404.01413",
-     "CorpusId": 268856698
-    }
+    "first_author": "Matthias Gerstgrasser"
    },
    "metrics": {
     "title_sim": 100.0,
@@ -475,7 +369,7 @@
     "year_ok": true,
     "first_author_ok": true
    },
-   "second_pass_hit": true
+   "evidence": []
   },
   {
    "junk": false,
@@ -499,47 +393,13 @@
    "type": null,
    "parser": "anystyle-find",
    "verdict": "VERIFIED",
-   "evidence": [
-    {
-     "step": "arxiv_id_not_found",
-     "arxiv": "2009.03300"
-    },
-    {
-     "step": "crossref_best_reject",
-     "rec": {
-      "source": "crossref",
-      "doi": "10.18653/v1/2026.findings-acl.593",
-      "title": "BnMMLU: Measuring Massive Multitask Language Understanding in Bengali",
-      "year": 2026,
-      "first_author": "Joy",
-      "container": "Findings of the Association for Computational Linguistics: ACL 2026",
-      "type": "proceedings-article",
-      "score": 39.32206
-     },
-     "metrics": {
-      "title_sim": 100.0,
-      "containment": 0.714,
-      "partial_ratio": 83.82352941176471,
-      "year_ok": false,
-      "first_author_ok": false
-     }
-    }
-   ],
-   "likely_match": null,
-   "via": "s2",
+   "via": "arxiv_id",
    "match": {
-    "source": "s2",
-    "id": "814a4f680b9ba6baba23b93499f4b48af1a27678",
+    "source": "arxiv",
+    "arxiv": "2009.03300",
     "title": "Measuring Massive Multitask Language Understanding",
     "year": 2020,
-    "first_author": "Dan Hendrycks",
-    "container": "International Conference on Learning Representations",
-    "ext": {
-     "MAG": "3083410900",
-     "DBLP": "journals/corr/abs-2009-03300",
-     "ArXiv": "2009.03300",
-     "CorpusId": 221516475
-    }
+    "first_author": "Dan Hendrycks"
    },
    "metrics": {
     "title_sim": 100.0,
@@ -548,7 +408,7 @@
     "year_ok": true,
     "first_author_ok": true
    },
-   "second_pass_hit": true
+   "evidence": []
   },
   {
    "junk": false,
@@ -613,47 +473,13 @@
    "type": "report",
    "parser": "anystyle-find",
    "verdict": "VERIFIED",
-   "evidence": [
-    {
-     "step": "arxiv_id_not_found",
-     "arxiv": "2309.05463"
-    },
-    {
-     "step": "crossref_best_reject",
-     "rec": {
-      "source": "crossref",
-      "doi": "10.2139/ssrn.5104419",
-      "title": "(International Law) Textbooks Are All You Need \n&lt;br&gt;",
-      "year": 2025,
-      "first_author": "Ridi",
-      "container": "",
-      "type": "posted-content",
-      "score": 36.372265
-     },
-     "metrics": {
-      "title_sim": 94.54545454545455,
-      "containment": 0.667,
-      "partial_ratio": 71.69811320754718,
-      "year_ok": false,
-      "first_author_ok": false
-     }
-    }
-   ],
-   "likely_match": null,
-   "via": "s2",
+   "via": "arxiv_id",
    "match": {
-    "source": "s2",
-    "id": "e26888285436bc7998e5c95102a9beb60144be5e",
+    "source": "arxiv",
+    "arxiv": "2309.05463",
     "title": "Textbooks Are All You Need II: phi-1.5 technical report",
     "year": 2023,
-    "first_author": "Yuan-Fang Li",
-    "container": "arXiv.org",
-    "ext": {
-     "DBLP": "journals/corr/abs-2309-05463",
-     "ArXiv": "2309.05463",
-     "DOI": "10.48550/arXiv.2309.05463",
-     "CorpusId": 261696657
-    }
+    "first_author": "Yuanzhi Li"
    },
    "metrics": {
     "title_sim": 100.0,
@@ -662,7 +488,7 @@
     "year_ok": true,
     "first_author_ok": true
    },
-   "second_pass_hit": true
+   "evidence": []
   },
   {
    "junk": false,
@@ -691,7 +517,7 @@
     "first_author": "Lin",
     "container": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
     "type": "proceedings-article",
-    "score": 65.833046
+    "score": 65.42301
    },
    "metrics": {
     "title_sim": 100.0,
@@ -730,7 +556,7 @@
     "first_author": "Sakaguchi",
     "container": "Proceedings of the AAAI Conference on Artificial Intelligence",
     "type": "journal-article",
-    "score": 62.910793
+    "score": 62.327774
    },
    "metrics": {
     "title_sim": 100.0,
@@ -761,47 +587,13 @@
    "type": null,
    "parser": "anystyle-find",
    "verdict": "VERIFIED",
-   "evidence": [
-    {
-     "step": "arxiv_id_not_found",
-     "arxiv": "2404.05090"
-    },
-    {
-     "step": "crossref_best_reject",
-     "rec": {
-      "source": "crossref",
-      "doi": "10.1109/southeastcon52093.2024.10500084",
-      "title": "Synthetic Data Creation for ML/AL Model Training",
-      "year": 2024,
-      "first_author": null,
-      "container": "SoutheastCon 2024",
-      "type": "proceedings-article",
-      "score": 31.596668
-     },
-     "metrics": {
-      "title_sim": 75.32467532467533,
-      "containment": 0.8,
-      "partial_ratio": 58.33333333333333,
-      "year_ok": true,
-      "first_author_ok": null
-     }
-    }
-   ],
-   "likely_match": null,
-   "via": "s2",
+   "via": "arxiv_id",
    "match": {
-    "source": "s2",
-    "id": "1f71820adfe5eaa344494b1158cbe46ca2d00fc3",
+    "source": "arxiv",
+    "arxiv": "2404.05090",
     "title": "How Bad is Training on Synthetic Data? A Statistical Analysis of Language Model Collapse",
     "year": 2024,
-    "first_author": "M. Seddik",
-    "container": "arXiv.org",
-    "ext": {
-     "DBLP": "journals/corr/abs-2404-05090",
-     "ArXiv": "2404.05090",
-     "DOI": "10.48550/arXiv.2404.05090",
-     "CorpusId": 269005923
-    }
+    "first_author": "Mohamed El Amine Seddik"
    },
    "metrics": {
     "title_sim": 100.0,
@@ -810,7 +602,7 @@
     "year_ok": true,
     "first_author_ok": true
    },
-   "second_pass_hit": true
+   "evidence": []
   },
   {
    "junk": false,
@@ -837,7 +629,7 @@
     "first_author": "Shannon",
     "container": "Bell System Technical Journal",
     "type": "journal-article",
-    "score": 37.98263
+    "score": 37.975414
    },
    "metrics": {
     "title_sim": 100.0,
@@ -880,7 +672,7 @@
       "first_author": "Singh",
       "container": "",
       "type": "posted-content",
-      "score": 28.682785
+      "score": 28.686724
      },
      "metrics": {
       "title_sim": 69.62962962962963,
@@ -913,7 +705,8 @@
     "year_ok": true,
     "first_author_ok": true
    },
-   "second_pass_hit": true
+   "second_pass_hit": true,
+   "carried_over_from": "parser_v4_run"
   },
   {
    "junk": false,
@@ -982,7 +775,7 @@
       "first_author": null,
       "container": "",
       "type": "component",
-      "score": 11.737553
+      "score": 11.77408
      },
      "metrics": {
       "title_sim": 23.11886586695747,

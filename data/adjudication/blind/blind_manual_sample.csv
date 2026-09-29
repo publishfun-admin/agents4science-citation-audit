@@ -1,0 +1,151 @@
+id,sample,key,first,blind,blind_note
+S01,blind_sample,28:29,NOT_FOUND,EXISTS_CORRUPTED,"Real: T. Klein & G. Romano 2025, 'Optimizing Cybersecurity Incident Response via Adaptive Reinforcement Learning', J Adv Eng Technol 2(1). Wrong [title][venue][year]; no 'ARL-CIR' at IEEE CNS 2022"
+S02,blind_sample,168:18,EXISTS_CORRUPTED,EXISTS,"IJ report page (Sweetland, Carpenter, McDonald), published 24 Oct 2019, archived on Wayback (ij.org blocks scripts); entry's year 2021 is off by 2"
+S03,blind_sample,319:36,NOT_FOUND,NOT_FOUND,"No title match in Crossref/web; RCR 162:105012 (2020) is Zhi et al. (Yellow River Delta nitrogen metabolism), not this"
+S04,blind_sample,292:3,EXISTS,EXISTS,APWG Phishing Activity Trends Report Q2 2023 PDF is live (HTTP 200)
+S05,blind_sample,321:20,EXISTS_CORRUPTED,EXISTS_CORRUPTED,"Real: Nguyen, Pertusi, Branson 2023 bioRxiv 10.1101/2023.05.01.538999 'Molecule-Morphology Contrastive Pretraining...' (MoCoP). Wrong [authors][title]; no Sailem MoCoP paper"
+S06,blind_sample,334:2,NOT_FOUND,NOT_FOUND,No title match in PubMed/Crossref/web; Cell Death Dis 16:229 (2025) is Mikulak et al. (ovarian carcinoma Tregs). Author+keyword search also empty
+S07,blind_sample,169:2,EXISTS_CORRUPTED,EXISTS_CORRUPTED,"Real: Kovacs & Ellenbecker 2011, Sports Health 3(6):504-513. Wrong [authors][venue] (year 2012 vs 2011 within tolerance)"
+S08,blind_sample,110:2,EXISTS_CORRUPTED,EXISTS_CORRUPTED,"Real: Ciliberto et al. 2021 'Opportunity++: A Multimodal Dataset for ... Human Activity Recognition', Front Comput Sci 3:792065. Wrong [title][venue]"
+S09,blind_sample,16:8,EXISTS,EXISTS,"arXiv 2407.15368 = 'Nearly Optimal L_p Risk Minimization', Jia, Lan, Zhang, 2024"
+S10,blind_sample,167:2,EXISTS,EXISTS,CELEX 52022PC0197 = COM(2022)197 EHDS proposal on EUR-Lex (page serves a 202 bot-challenge to scripts; confirmed via web search and Wayback snapshot)
+S11,blind_sample,180:6,EXISTS,EXISTS,"JASSS 5(4) article 1, 2002, Deffuant, Amblard, Weisbuch, Faure; title matches"
+S12,blind_sample,260:6,NOT_FOUND,EXISTS_CORRUPTED,"No 'NeuRule' paper exists (web/Crossref/arXiv). Author trio Yang, Ishay, Lee + IJCAI + neuro-symbolic identify NeurASP, IJCAI 2020 pp.1755-1762. Wrong [title][year][pages]"
+S13,blind_sample,314:22,EXISTS_CORRUPTED,EXISTS_CORRUPTED,"Real: Cyril Stark, arXiv:1601.06035 (2016). Wrong [authors][year][identifier] (2104.09337 is a photonics paper by Davidson et al.)"
+S14,blind_sample,213:27,EXISTS,EXISTS,OpenEI wiki page ASHRAE_Climate_Zones is live (HTTP 200)
+S15,blind_sample,277:23,EXISTS_CORRUPTED,EXISTS_CORRUPTED,"Real: Lingfeng Shen, Ze Zhang, Haiyun Jiang, Ying Chen, 'TextShield: Beyond Successfully Detecting Adversarial Sentences in Text Classification' (ICLR 2023). Wrong [title][authors][venue]"
+S16,blind_sample,161:61,EXISTS_CORRUPTED,EXISTS_CORRUPTED,"Real: Gao, White, Kaestner 2009 '...epithelial-mesenchymal signaling by Cdx2', Dev Cell 16(4):588-599. Wrong [title][venue][identifier] (dvdy.21967 = Wheeler & Brandli)"
+S17,blind_sample,147:39,NOT_FOUND,NOT_FOUND,"No such 2019 JOBEM article (web/Crossref). Author trio only has 1985 HCR paper 'Loneliness, parasocial interaction, and local TV news viewing' (different title/topic/year)"
+S18,blind_sample,319:59,NOT_FOUND,NOT_FOUND,"No title match in Crossref/web; author+keyword search (Williams, ACT label) also empty"
+S19,blind_sample,147:42,NOT_FOUND,NOT_FOUND,"No title match in Crossref/web; Ta + keywords search empty (V. Ta's real 2020 work is a JMIR companion-chatbot study, different title/venue)"
+S20,blind_sample,110:4,NOT_FOUND,NOT_FOUND,"No title match; Krishnaleela's only indexed work is CNN-SLSTM HAR paper, Neural Comput Appl 2025 (different title/venue/year)"
+S21,blind_sample,168:10,EXISTS,EXISTS,"Benjamin Love, 'Community Caretaking or ""Poverty Towing?"": Vehicle Residents and the Fourth Amendment', U. Ill. L. Rev. vol. 2025, p. 323; title/author/year match"
+S22,blind_sample,211:4,EXISTS_CORRUPTED,EXISTS_CORRUPTED,"Real: Liguori et al. 2018 'Oxidative stress, aging, and diseases', Clin Interv Aging 13:757-772 (same 11 authors). Wrong [title][venue][year]"
+S23,blind_sample,28:19,NOT_FOUND,NOT_FOUND,No title match in Crossref/web; Liao + keyword search empty; second author 'V. PDR' is not a name
+S24,blind_sample,246:5,EXISTS_CORRUPTED,EXISTS_CORRUPTED,"Merged ref: title = Khan & Bhardwaj 1994 'Access to health care. A conceptual framework...', Eval Health Prof 17(1):60-76; authors = Richardson & Norris 2010 (different paper). Wrong [authors][venue]["
+S25,blind_sample,261:41,EXISTS_CORRUPTED,EXISTS_CORRUPTED,"Real: Fiske, Henningsen, Buyx 2019 JMIR 21(5):e13216. Wrong [authors] (Resseguier is not an author)"
+S26,blind_sample,319:61,NOT_FOUND,NOT_FOUND,"No title match (Crossref x2, web); Romano/Rossi/Mancini + keywords + Environmental Policy and Governance 2020: nothing"
+S27,blind_sample,230:1,EXISTS,EXISTS,"arXiv:2402.05275, Celal Alagoz, 2024; title matches"
+S28,blind_sample,137:27,EXISTS_CORRUPTED,EXISTS_CORRUPTED,"Real: Luvisutto, Celani, Renda, Stefanini, De Masi 2025, ESWA 277:127256 'Enhancing collaboration in uncertain environment: MARL for underwater monitoring'. Wrong [authors] (no Y. Chen); title truncat"
+S29,blind_sample,158:7,NOT_FOUND,NOT_FOUND,No title match in Crossref/web; no Brown & Green CHI 2018 paper on adaptive interfaces
+S30,blind_sample,184:41,NOT_FOUND,NOT_FOUND,No such IEEE TMI 42(11) 2023 article (web/Crossref/arXiv); similar-titled surveys exist by other authors elsewhere
+S31,blind_sample,150:9,EXISTS,EXISTS,"OpenLibrary OL20670020W: Daphna Joel & Luba Vikhanski, Gender Mosaic, 2019 (co-author omitted in entry)"
+S32,blind_sample,101:10,EXISTS,EXISTS,Sakana AI blog page live (200); page title matches
+S33,blind_sample,326:5,EXISTS_CORRUPTED,NOT_FOUND,No such Nature 2023 paper (Crossref/web); Lin+Ahdritz+'protein design' diffusion search: nothing; author list mixes ESM/OpenFold authors
+S34,blind_sample,179:3,EXISTS_CORRUPTED,PLACEHOLDER,"Author field is the stub 'Authors.' with no venue/identifier (RoleLLM itself is a real 2023 arXiv paper by Wang et al., but the entry is a deliberate stub)"
+S35,blind_sample,112:25,NOT_FOUND,NOT_FOUND,No title match (Crossref/web); Zhou/Li + keywords: nothing
+S36,blind_sample,342:18,EXISTS,EXISTS,"Liu, Sheng, Hu et al., SIGIR 2024 tutorial 'Preventing and Detecting Misinformation Generated by Large Language Models', pp.3001-3004; entry omits authors, abbreviates title"
+S37,blind_sample,172:18,EXISTS,EXISTS,"DataCite: Szwarcfiter, Mendeley Data v1, 2025, title matches; DOI resolves to data.mendeley.com/datasets/h2xjtc3b7s/1"
+S38,blind_sample,28:36,NOT_FOUND,NOT_FOUND,"No title match (Crossref, web x2); Lange/Geis/Hein + alert correlation IM 2015: nothing"
+S39,blind_sample,238:3,EXISTS_CORRUPTED,EXISTS_CORRUPTED,Real: Ghafarollahi & Buehler 2024 arXiv:2409.05556 'SciAgents: Automating scientific discovery through multi-agent intelligent graph reasoning'. Wrong [authors][year][identifier][title]; 2211.07292 = 
+S40,blind_sample,148:28,NOT_FOUND,NOT_FOUND,No title match (Crossref/web); Mittelstadt + automation bias + AI & Society: nothing
+S41,blind_sample,343:24,EXISTS_CORRUPTED,NOT_FOUND,No title match (Crossref/web); Zhang/Stayman/Siewerdsen + keywords: no such TMI 2016 paper; author list garbled ('G. L. C. D. G. Nuyts')
+S42,blind_sample,26:15,EXISTS_CORRUPTED,EXISTS_CORRUPTED,"No paper with this title (Crossref/web); same authors+venue+year = Shun, Dhulipala, Blelloch 'A simple and practical linear-work parallel algorithm for connectivity', SPAA 2014 pp.143-153. Wrong [titl"
+S43,blind_sample,310:9,EXISTS_CORRUPTED,EXISTS_CORRUPTED,"Real: Lee J, Lee J, Yoo J 2025 'The role of large language models in the peer-review process: ...', J Educ Eval Health Prof 22:4. Wrong [venue] (not Frontiers in Big Data)"
+S44,blind_sample,155:6,EXISTS,EXISTS,"Elhage et al. 2021, Transformer Circuits Thread; page live (200)"
+S45,blind_sample,168:15,EXISTS,EXISTS,"URL is indexed as SF Transportation Code 'SEC. 305. TOWING AND STORAGE FEES' (site blocks scripts, no Wayback copy); entry's section number 320 differs from page (305)"
+S46,blind_sample,319:74,NOT_FOUND,NOT_FOUND,No title match (Crossref/web); J Environ Manage 331:117310 is Morris et al. (mangrove living shorelines); Chung/Le + keywords: nothing
+S47,blind_sample,343:12,NOT_FOUND,NOT_FOUND,No title match (Crossref/web); Med Image Anal 75:102257 is Ravi et al. (brain scan simulations); He/Wang/Ma + keywords: nothing
+S48,blind_sample,113:15,EXISTS_CORRUPTED,EXISTS_CORRUPTED,"Real: Essex MN, Blakeman KH, Dietrich CE, Arnheim-Dahlstrom L, Front Commun 9:1402788 (2024); first author OK, 3 co-authors invented. Wrong [authors]"
+S49,blind_sample,28:38,NOT_FOUND,NOT_FOUND,No 'ADEPTUS' paper (Crossref/web); Ohana + keywords: nothing
+S50,blind_sample,223:5,EXISTS_CORRUPTED,EXISTS_CORRUPTED,"Real: Kundu RN, Ghosh A, Chhetri B, Saha I, Hossain MG, Bharati P 2023 BMC Pregnancy Childbirth 23:616; first author Kundu omitted, title paraphrased. Wrong [authors]"
+S51,blind_sample,87:18,EXISTS,EXISTS,"Razzaq et al. 2005, AIED-12 pp.555-562; WPI camera-ready PDF has the same 17-author list under variant title 'Blending Assessment and Instructional Assisting'; '0231773' = NSF grant no."
+S52,blind_sample,77:28,EXISTS_CORRUPTED,EXISTS_CORRUPTED,Real: Wang et al. 2024 arXiv:2409.12191 'Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution'. Wrong [title-subtitle][identifier] (2407.10372 = MPAT)
+S53,blind_sample,148:29,NOT_FOUND,NOT_FOUND,IP&M 61:103547 is Moffat 2024 (search-engine sort metrics); no title match (Crossref/web); Pan + keywords: nothing
+S54,blind_sample,286:2,EXISTS_CORRUPTED,NOT_FOUND,DOI not registered (404); no 'GBD 2020' CVD paper; title/collaborator group/vol/pages match no GBD paper (Crossref/web). Nearest real: Roth et al. 2020 JACC 76:2982 (GBD 2019)
+S55,blind_sample,254:77,EXISTS_CORRUPTED,EXISTS,"arXiv:2503.12749v1 (2025-03-17) 'Matrix phase-space representations in quantum optics', Drummond, Dellios, Reid (later versions retitled); author order garbled in entry"
+S56,blind_sample,302:6,EXISTS,EXISTS,"URL live (200, redirects to wxrks.com) and archived; slug is the romanised Korean title"
+S57,blind_sample,170:16,NOT_FOUND,NOT_FOUND,"arXiv id resolves to Padmakumar et al. (multi-task learning); no paper with this title (arXiv/web); Lazaridou's 2022 QA paper is 'Internet-augmented language models...' (2203.05115), different title"
+S58,blind_sample,319:26,NOT_FOUND,NOT_FOUND,CSTE 57:104332 is Khedher et al. (multiphase flow); no title match (Crossref/web); Liu + keywords: nothing
+S59,blind_sample,302:2,EXISTS,EXISTS,"Kim Bo Kyoung 2023, Journal of Social Science (Kangwon) 62(3):403-427; DOI resolves (DBpia NODE11658610); title matches"
+S60,blind_sample,231:5,EXISTS_CORRUPTED,NOT_FOUND,"No such paper (Crossref/web); 'Ansor' is a system (Zheng et al. OSDI 2020) used as an author; MXFusion is a probabilistic-programming library, not an autotuner"
+S61,blind_sample,231:6,EXISTS_CORRUPTED,EXISTS_CORRUPTED,"Real: Devlin, Uesato, Bhupatiraju, Singh, Mohamed, Kohli 'RobustFill: Neural Program Learning under Noisy I/O', ICML 2017 (arXiv:1703.07469). Wrong [authors][venue]; title slightly altered"
+S62,blind_sample,319:46,NOT_FOUND,NOT_FOUND,No title match (Crossref/web); Harvard 'Shut the Sash' is a real program but no J Environ Manage 230 paper by Brown & Davis
+S63,blind_sample,38:22,NOT_FOUND,NOT_FOUND,JMCC 76:1-11 (2014) is Pinali & Kitmitto; no lysine-acetylation/cardiac-fibrosis title (PubMed/Crossref/web); Kong P et al. 2014 CMLS 'The pathogenesis of cardiac fibrosis' has different title/venue
+S64,blind_sample,241:16,EXISTS_CORRUPTED,EXISTS,"DOI, Euvrard et al., NEJM 367(4):329-339, 2012 all correct; title reworded (real: 'Sirolimus and Secondary Skin-Cancer Prevention in Kidney Transplantation'). Borderline"
+S65,blind_sample,99:1,EXISTS,EXISTS,"Ryu & Takayanagi 2006, PRL 96(18):181602; title abbreviated (AdS/CFT)"
+S66,blind_sample,328:10,NOT_FOUND,NOT_FOUND,"No such TACL 2021 article (Crossref/web); ACL Rolling Review exists only as a web platform (aclrollingreview.org), not as this article"
+S67,blind_sample,81:22,EXISTS_CORRUPTED,EXISTS_CORRUPTED,"Real: Stewart AG, Paterson DL, Young B et al. (MERINO-2), Open Forum Infect Dis 8(8):ofab387, 2021. Wrong [authors][venue][year]"
+S68,blind_sample,314:24,EXISTS_CORRUPTED,EXISTS_CORRUPTED,"Real: Hermann & Blunsom 2013 'The Role of Syntax in Vector Space Models of Compositional Semantics', ACL 2013 pp.894-904. Wrong [title][identifier] (1310.4578 = Bertolli et al.)"
+S69,blind_sample,143:7,EXISTS,EXISTS,"Goodfellow, Bengio, Courville, Deep Learning, MIT Press 2016; duplicated 'Yoshua Bengio' is a formatting glitch"
+S70,blind_sample,303:38,EXISTS,EXISTS,"OpenReview (ICLR 2024 submission), authors Zheng, Lin, He, Wang, Zheng, Fu, Fu, Liang, 2023; also arXiv:2310.08367 (MCU)"
+S71,blind_sample,28:3,NOT_FOUND,NOT_FOUND,JNCA 102693 is Nguyen et al. 'Blockchain for 5G...' (vol 166); no title match (Crossref/web); author list garbled
+S72,blind_sample,319:58,NOT_FOUND,NOT_FOUND,DOI not registered (404); no title match (Crossref/web); Martinez/Green + keywords: nothing
+S73,blind_sample,208:11,EXISTS,EXISTS_CORRUPTED,"Real: Linkerhagner, Freymuth, Paul Maria Scheikl, Mathis-Ullrich, Neumann, ICLR 2023; title/venue/year OK but co-authors wrong ('Philipp Michael Scheikl', 'Osman S. Cicek' not authors). Wrong [authors"
+S74,blind_sample,75:56,EXISTS,EXISTS,"Ch.4 'Soccer: Process and interaction', Perl & Memmert, in Baca & Perl (eds.), Routledge 2018, pp.73-94 (entry: 63-83); DOI 10.4324/9781315163291-4"
+S75,blind_sample,85:43,EXISTS,EXISTS,"Qu et al., ACT DR6 CMB lensing power spectrum, ApJ 2024 (arXiv:2304.05202); author list matches"
+S76,blind_sample,344:19,EXISTS,EXISTS,"Scientific American, July 2025, Karolina Rudnicka; title matches"
+S77,blind_sample,92:3,EXISTS,EXISTS,"ORA record: Duporge I, 2021, Oxford DPhil thesis; title matches"
+S78,blind_sample,147:43,NOT_FOUND,EXISTS_CORRUPTED,"No paper with this title (Crossref/web); Walker + 'trainable sentence planner' identifies SPoT (Walker, Rambow, Rogati, NAACL 2001; CSL 2002). Wrong [title][year][venue]. Borderline"
+S79,blind_sample,184:61,EXISTS_CORRUPTED,EXISTS_CORRUPTED,"Real: Delaney, Brophy, Ward 2019 arXiv:1909.09150. Wrong [authors][year][identifier] (2101.06809 = Quillen et al.); co-authors taken from Brophy's 2021 GAN survey"
+S80,blind_sample,123:7,EXISTS,EXISTS,"IDEALS record: Jottar Awad, Juan I., 'Topics in gauge/gravity duality', PhD thesis, 2011-08; live hdl/IDEALS block scripts (403)"
+S81,blind_sample,243:4,NOT_FOUND,EXISTS_CORRUPTED,Merged: authors/year/'ground-based...microgravity' = Herranz et al. 2013 Astrobiology 13(1):1-17; title/journal = Wang et al. 2016 MST 28(1):59-66 '2-D Clinostat...Arabidopsis Seedlings'. Wrong [title
+S82,blind_sample,224:4,NOT_FOUND,NOT_FOUND,"No such paper (Crossref/web); MatchMaker (Kuru et al. 2021, drug synergy, IEEE/ACM TCBB) is different topic/authors; Chen + keywords: nothing"
+S83,blind_sample,133:7,EXISTS,EXISTS,FLI AI Safety Index 2024 page live (200)
+S84,blind_sample,112:15,NOT_FOUND,NOT_FOUND,"No title match (Crossref/web); Tuli's 2022 work is TranAD (VLDB), different title/venue"
+S85,blind_sample,142:5,EXISTS,EXISTS,"Glorot & Bengio 2010, AISTATS, PMLR 9:249-256; venue omitted in entry"
+S86,blind_sample,134:10,EXISTS,EXISTS,"Moravec, Mind Children, Harvard University Press 1988"
+S87,blind_sample,342:15,EXISTS_CORRUPTED,EXISTS,Che Jiang et al. 2024 (NAACL 2024) 'On Large Language Models' Hallucination with Regard to Known Facts'; entry says 'Known Knowledge' and initial Z (typo-level)
+S88,blind_sample,78:15,EXISTS,EXISTS,"Qian Zhi 1998, Acta Geographica Sinica 53(2):123-131; DOI resolves; title matches"
+S89,blind_sample,157:40,EXISTS,EXISTS,"govinfo page live (200); FR doc 2018-13187, final rule of June 19, 2018"
+S90,blind_sample,332:13,EXISTS_CORRUPTED,EXISTS_CORRUPTED,"Real: Richter et al. 2017 JGR-Atmos 122(23) 'Stratospheric Dynamical Response and Ozone Feedbacks in the Presence of SO2 Injections'; title tail rewritten (QBO); authors partly altered (Rasch, Gettelm"
+B01,blind_sample4,58:14,EXISTS,EXISTS,arXiv 2209.14375: Glaese et al. 2022; title and full author list match.
+B02,blind_sample4,230:7,EXISTS,EXISTS,"LVK Collaboration, 'GW231123: a Binary Black Hole Merger with Total Mass 190-265 Msun', arXiv 2507.08219 (2025); matches."
+B03,blind_sample4,180:20,EXISTS,EXISTS,Salzarulo (2006) JASSS 9(1) 13 'A Continuous Opinion Dynamics Model Based on the Principle of Meta-Contrast'; matches.
+B04,blind_sample4,117:9,EXISTS_CORRUPTED,EXISTS_CORRUPTED,"Real: Samuel Schmidgall, 'Self-Constructing Neural Networks Through Random Mutation', ICLR 2021 NERL workshop. [title] rewritten; [authors] given name John vs Samuel, single author."
+B05,blind_sample4,131:3,EXISTS_CORRUPTED,EXISTS_CORRUPTED,arXiv 2402.04247 resolves to Tang et al. 'Risks of AI Scientists'. Intended: G. Xiong et al. 2024 'Improving Scientific Hypothesis Generation with Knowledge Grounded LLMs'. [title] [identifier]
+B06,blind_sample4,168:19,EXISTS,EXISTS,"Report PDF live (HTTP 200, application/pdf) and archived on Wayback 2026-05-04."
+B07,blind_sample4,126:16,EXISTS_CORRUPTED,EXISTS_CORRUPTED,No such title/authors; Vet J 274:105699 unregistered. Intended: Burti et al. 2020 Vet J 262:105505 'Use of deep learning to detect cardiomegaly on thoracic radiographs in dogs'. [authors] [identifier]
+B08,blind_sample4,24:4,EXISTS,EXISTS,"CNKI DOI registered 2024-09-25: 乘“数”而上：政府数据治理赋能企业数字创新, 李雪琴;郑酌基;韩先锋, 数量经济技术经济研究; matches."
+B09,blind_sample4,52:5,EXISTS,EXISTS,"ifo Forschungsberichte 113 (2020), Falck & Koenen; matches."
+B10,blind_sample4,133:2,EXISTS,EXISTS,"Anthropic post 'Core views on AI safety: When, why, what, and how' (Mar 8, 2023); listed 2024 (within 1 year)."
+B11,blind_sample4,38:29,EXISTS_CORRUPTED,EXISTS_CORRUPTED,Real: Han J et al. 2024 Front Pharmacol 15:1476699 'New insights into SUMOylation and NEDDylation in fibrosis'. [title] rewritten.
+B12,blind_sample4,28:11,EXISTS_CORRUPTED,NOT_FOUND,"Exact title: Crossref + web search no hit; JISA 82:103755 is a different article. Bassey+keywords: only C. Bassey et al. 2024 Saudi J Eng Tech, different title/co-authors/venue."
+B13,blind_sample4,2:27,EXISTS,EXISTS,"Zhu, Zhang, Lin, Mei; NeurIPS 2024 SafeGenAI workshop; matches (trailing CVPR pages text is a parse artefact)."
+B14,blind_sample4,119:13,EXISTS_CORRUPTED,EXISTS_CORRUPTED,"Real: Ashkinaze, Mendelsohn, Qiwei, Budak, Gilbert 2024 (arXiv; ACM CI 2025). [authors] first author wrong (Mendelsohn is 2nd); [venue] not Nature Human Behaviour."
+B15,blind_sample4,28:21,EXISTS,EXISTS_CORRUPTED,"Real: Shen, Mariconti, Vervier, Stringhini 'Tiresias: Predicting Security Events Through Deep Learning', CCS 2018 pp.592-605. [title] rewritten; [authors] co-authors wrong; pages wrong."
+B16,blind_sample4,241:4,EXISTS_CORRUPTED,EXISTS_CORRUPTED,Real: Wu L et al. 2023 NAR 51(D1):D1432-D1445 'TOXRIC: a comprehensive database of toxicological data and benchmarks'. [authors] first author wrong; [title] rewritten; pages wrong.
+B17,blind_sample4,147:15,EXISTS_CORRUPTED,EXISTS_CORRUPTED,Real: Kaate et al. 2025 Behav Inf Technol 44(16) 'The fourth wall and other usability issues in AI-generated personas'. [title] rewritten as HRI survey; [venue] not PACM HCI.
+B18,blind_sample4,117:12,EXISTS_CORRUPTED,EXISTS_CORRUPTED,"Real: Xin Yuan, Savarese, Maire 'Accelerated Training via Incrementally Growing Neural Networks using Variance Transfer...' NeurIPS 2023. [title] garbled; [venue] not ICLR; given name Lei vs Xin."
+B19,blind_sample4,184:92,EXISTS,EXISTS_CORRUPTED,"Real: Wang J, Wang L 2025 Sci Rep 15:22874 'The impact of intelligent devices utilization on household medical expenditure of older adults in China' (uses CLASS 2020). [title] subtitle rewritten."
+B20,blind_sample4,326:7,EXISTS_CORRUPTED,EXISTS_CORRUPTED,"Real ProGen: Madani et al., bioRxiv 2020. Listed authors are the ProGen2 authors (Nijkamp et al. 2022, arXiv 2206.13517) plus invented names. [authors] [year]"
+B21,blind_sample4,28:37,EXISTS_CORRUPTED,EXISTS_CORRUPTED,"Real: Shittu, Healing, Ghanea-Hercock, Bloomfield, Rajarajan 2015 Comput Secur 50:1-15 (framework named ACSAnIA). No Shittu paper at ICITST 2015. [title] [authors] [venue]"
+B22,blind_sample4,224:1,EXISTS_CORRUPTED,EXISTS_CORRUPTED,Real DrugComb: Zagidullin et al. 2019 NAR 47(W1):W43 (update Zheng 2021). [title] synergy vs combination; [authors] O'Neil et al. not authors; [year]; [identifier] gkab1007 = Ensembl Genomes 2022.
+B23,blind_sample4,80:11,EXISTS,EXISTS,"Devlin, Chang, Lee, Toutanova, BERT, NAACL-HLT 2019; truncated title only."
+B24,blind_sample4,131:7,EXISTS_CORRUPTED,EXISTS_CORRUPTED,Real: Stach et al. 2021 Matter 4(9):2702-2726 'Autonomous experimentation systems for materials development: A community perspective'. [title] subtitle rewritten; [venue] not APL Materials.
+B25,blind_sample4,160:20,EXISTS_CORRUPTED,EXISTS_CORRUPTED,"Listed title not found (Crossref/PubMed/web). Nearest: Maksymetz, Moran, Conn 2017 Mol Brain 10:15 'Targeting mGlu receptors for novel treatments of schizophrenia'. [title] [authors] [venue]"
+B26,blind_sample4,147:9,EXISTS_CORRUPTED,EXISTS_CORRUPTED,"Real: Xianzhe Fan et al., CHI 2025 'User-Driven Value Alignment: Understanding Users Perceptions and Strategies for Addressing Biased ... in AI Companions'. [title] subtitle rewritten; [venue]"
+B27,blind_sample4,28:12,EXISTS_CORRUPTED,EXISTS_CORRUPTED,"Real: Laszka, Vorobeychik, Fabbri, Yan, Malin 'A Game-Theoretic Approach for Alert Prioritization', AAAI-17 AICS workshop. [title] paraphrased; [authors] co-authors wrong; [venue] not MTD."
+B28,blind_sample4,30:6,EXISTS_CORRUPTED,NOT_FOUND,"No such title (Crossref, web). Kagan 2002 works: 'Aftershock zone scaling' BSSA 92:641-655; 'Modern California earthquake catalogs and their comparison' SRL 73:921-929; neither matches."
+B29,blind_sample4,241:1,EXISTS,EXISTS,EPAR resource exists on EMA site (glossary + EPAR pages); cited URL now returns 404 and has no Wayback snapshot.
+B30,blind_sample4,109:10,EXISTS_CORRUPTED,NOT_FOUND,Exact-title web search and Crossref 'Seitz FAIR benefits materials science' return nothing; entry is an annotation-like stub with no venue.
+B31,blind_sample4,184:4,EXISTS,EXISTS_CORRUPTED,"Same as B19: real title 'The impact of intelligent devices utilization on household medical expenditure of older adults in China' (Wang & Wang, Sci Rep 2025). [title] subtitle rewritten."
+B32,blind_sample4,179:11,EXISTS_CORRUPTED,PLACEHOLDER,"Stub: authors 'MetaGPT contributors', venue '[Conference]'. ChatDev is Qian et al. 2023 arXiv 2307.07924."
+B33,blind_sample4,101:5,EXISTS,EXISTS,GitHub repository confident-ai/deepeval live (HTTP 200).
+B34,blind_sample4,210:9,EXISTS_CORRUPTED,EXISTS_CORRUPTED,"Nearest: 程曼丽、王维佳《对外传播及其效果研究》北京大学出版社 2011 (same title in translation, same year). [authors] Li/Guo/Wang not authors; [venue] publisher not Tsinghua UP."
+B35,blind_sample4,23:19,EXISTS,EXISTS,OpenAI ChatGPT announcement page archived; live openai.com returns 403 to bots.
+B36,blind_sample4,118:4,EXISTS,EXISTS,IRENA report page archived 2026-08-21 (live URL returns 403 to bots).
+B37,blind_sample4,133:6,EXISTS,EXISTS,"Enago Academy article live; published 2023-08-14 (listed 2024, within 1 year)."
+B38,blind_sample4,238:7,EXISTS_CORRUPTED,EXISTS_CORRUPTED,Real DrugComb: Zagidullin et al. 2019 NAR 47(W1):W43-W51 (update Zheng et al. 2021). [title] synergy vs combination; [authors] O'Neil not an author; [year]; vol/pages wrong.
+B39,blind_sample4,148:10,EXISTS_CORRUPTED,EXISTS_CORRUPTED,arXiv 2306.05448 resolves to Matthee et al. (Little Red Dots). Nearest: Liang et al. 2023 'Can LLMs provide useful feedback on research papers?'. [authors] Gauthier not author; [identifier]; [title]
+B40,blind_sample4,343:13,EXISTS_CORRUPTED,EXISTS_CORRUPTED,"Real: Thorsten M. Buzug, 'Computed Tomography: From Photon Statistics to Modern Cone-Beam CT', Springer 2008. [authors] Heismann/Kachelriess not authors; [year] 2012."
+B41,blind_sample4,321:10,EXISTS,EXISTS_CORRUPTED,"Real: Nguyen, Pertusi, Branson 2023 bioRxiv 'Molecule-Morphology Contrastive Pretraining for Transferable Molecular Representation'. [identifier] cited DOI unregistered; [title] subtitle rewritten."
+B42,blind_sample4,232:3,EXISTS_CORRUPTED,EXISTS_CORRUPTED,"Real: Wille, Grosse, Teuber, Dueck, Drechsler 'RevLib: An Online Resource for Reversible Functions and Reversible Circuits', ISMVL 2008 pp.220-225. [title] [authors] Becker not author [year] [venue]"
+B43,blind_sample4,213:2,EXISTS,EXISTS,EIA Annual Energy Outlook page archived 2026-09-28 (live site returned 503 to bot).
+B44,blind_sample4,223:15,EXISTS,EXISTS,WHO 2016 report 'WHO recommendations on antenatal care for a positive pregnancy experience'; ISBN 9789241549912 matches.
+B45,blind_sample4,187:13,EXISTS_CORRUPTED,EXISTS_CORRUPTED,arXiv 2407.18946 resolves to WalkTheDog (Li et al.). Real: Bill Yuchen Lin et al. 'ZebraLogic: On the Scaling Limits of LLMs for Logical Reasoning' 2025. [title] [authors] invented [identifier]
+B46,blind_sample4,265:13,EXISTS_CORRUPTED,EXISTS_CORRUPTED,"Real: Tarafdar, Beath, Ross 'Using AI to Enhance Business Operations', MIT SMR 60(4), Summer 2019. [title] rewritten."
+B47,blind_sample4,288:19,EXISTS_CORRUPTED,NOT_FOUND,arXiv 2208.06822 resolves to an AFM paper (Ku et al.). 'MAECG' not in arXiv/Crossref/web; Cao+ECG+masked autoencoder no hit. Similar-topic works (MaeFE 2022) have different names/authors.
+B48,blind_sample4,111:1,EXISTS_CORRUPTED,EXISTS_CORRUPTED,"Real: Bendou et al. 2023 'Inferring Latent Class Statistics from Text for Robust Visual Few-Shot Learning', NeurIPS 2023 R0-FoMo workshop. [title] rewritten (venue is a workshop)."
+B49,blind_sample4,337:18,EXISTS,EXISTS,"Dong, Yang, Yao, Zhang 2025, accepted ICML 2025; matches (trailing sentence is an annotation)."
+B50,blind_sample4,179:24,EXISTS_CORRUPTED,PLACEHOLDER,"Stub: 'Authors of OASIS paper', 'arXiv preprint' with no id. OASIS is Yang et al. 2024 arXiv 2411.11581."
+B51,blind_sample4,198:19,EXISTS,EXISTS,"Henricks, 'Lao-Tzu: Te-Tao Ching: A New Translation Based on the Recently Discovered Ma-wang-tui Texts', Ballantine 1989; matches."
+B52,blind_sample4,81:26,EXISTS_CORRUPTED,EXISTS_CORRUPTED,"Author list matches Lee YJ, Wi YM, Kwon YJ, Kim SR, Chang SH, Cho S 'Association between colistin dose and development of nephrotoxicity' Crit Care Med 2015;43(6):1187. [title] [venue] [year]"
+B53,blind_sample4,119:8,EXISTS_CORRUPTED,EXISTS_CORRUPTED,"Real: Xin, Tang, Yu, Lin 'The Art of Abstention: Selective Prediction and Error Regularization for NLP', ACL-IJCNLP 2021 main. [year] 2025 vs 2021; [venue] not Findings."
+B54,blind_sample4,119:11,EXISTS_CORRUPTED,EXISTS_CORRUPTED,Real: Xuhui Jiang et al. 2024 'A Survey on Large Language Model Hallucination via a Creativity Perspective' arXiv 2402.06647. [identifier] 2401.12345 is a different paper (Wang et al.).
+B55,blind_sample4,56:1,EXISTS,EXISTS,"Siegel, Miller, Wagle, Jemal. Cancer statistics, 2023. CA Cancer J Clin 73(1):17-48; matches."
+B56,blind_sample4,248:1,EXISTS,EXISTS,"Kingma & Welling, Auto-Encoding Variational Bayes (ICLR 2014); matches."
+B57,blind_sample4,295:8,EXISTS,EXISTS,"Sarthi et al., RAPTOR, ICLR 2024; matches (trailing sentence is an annotation)."
+B58,blind_sample4,113:3,EXISTS_CORRUPTED,EXISTS_CORRUPTED,"Real: Czestochowska, Gligoric, Peyrard, Mentha, Bien, Grutter, Auer, Xanthos, West; ICWSM 16:1388-1392 (2022). [authors] Nenchev and Scheffler are not authors."
+B59,blind_sample4,38:25,EXISTS_CORRUPTED,NOT_FOUND,"Title not in PubMed/Crossref/web. Udeshi 2013 ubiquitin papers are MCP 12:825 and Nat Protoc 8:1950, different titles; no Cell 153(6):1363 match."
+B60,blind_sample4,174:10,EXISTS_CORRUPTED,EXISTS_CORRUPTED,"Real: Koh JY, Kim HN, Hwang JJ, Kim YH, Park SE. Mol Brain 2019;12:18 (subtitle omitted, fine). [authors] first author Koh JY omitted; last author Park SE listed first."

@@ -1,0 +1,606 @@
+{
+ "pdf": "173_gBmfD0QYPs.pdf",
+ "n_entries": 12,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 2,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "References Daniil Boiko et al. Autonomous discovery of scientific knowledge with ai agents. In Proceedings of the 2023 International Conference on Autonomous Agents and Multiagent Systems (AAMAS), pages 1234\u20131242, 2023.",
+   "title": "Autonomous discovery of scientific knowledge with ai agents",
+   "authors": [
+    "Boiko"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 2023 International Conference on Autonomous Agents and Multiagent Systems (AAMAS",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.6821678",
+      "title": "Governing Scientific Knowledge in the Era of Autonomous Discovery",
+      "year": 2026,
+      "first_author": "Sugawara",
+      "container": "",
+      "type": "posted-content",
+      "score": 30.728256
+     },
+     "metrics": {
+      "title_sim": 87.09677419354838,
+      "containment": 0.667,
+      "partial_ratio": 62.60869565217391,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "Francisco Bola\u00f1os, Angelo A. Salatino, Francesco Osborne, and Enrico Motta. Artificial intelligence for literature reviews: Opportunities and challenges. Artificial Intelligence Review, 57:259, 2024. doi: 10.1007/s10462-024-10902-3.",
+   "title": "Artificial intelligence for literature reviews: Opportunities and challenges",
+   "authors": [
+    "Bola\u00f1os",
+    "Salatino",
+    "Osborne",
+    "Motta"
+   ],
+   "year": 2024,
+   "doi": "10.1007/s10462-024-10902-3",
+   "arxiv": null,
+   "urls": [],
+   "container": "Artificial Intelligence Review",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/s10462-024-10902-3",
+    "title": "Artificial intelligence for literature reviews: opportunities and challenges",
+    "year": 2024,
+    "first_author": "Bola\u00f1os",
+    "container": "Artificial Intelligence Review",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "Agust\u00edn Borrego, Danilo Dess\u00ec, Daniel Ayala, Inmaculada Hern\u00e1ndez, Francesco Osborne, Diego Reforgiato Recupero, Davide Buscaldi, David Ruiz, and Enrico Motta. Research hypothesis generation over scientific knowledge graphs. Knowledge-Based Systems, 315:113280, 2025. doi: 10.1016/j.knosys.2025.113280.",
+   "title": "Research hypothesis generation over scientific knowledge graphs",
+   "authors": [
+    "Borrego",
+    "Dess\u00ec",
+    "Ayala",
+    "Hern\u00e1ndez",
+    "Osborne",
+    "Recupero",
+    "Buscaldi",
+    "Ruiz",
+    "Motta"
+   ],
+   "year": 2025,
+   "doi": "10.1016/j.knosys.2025.113280",
+   "arxiv": null,
+   "urls": [],
+   "container": "Knowledge-Based Systems",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.knosys.2025.113280",
+    "title": "Research hypothesis generation over scientific knowledge graphs",
+    "year": 2025,
+    "first_author": "Borrego",
+    "container": "Knowledge-Based Systems",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "Alberto Bran et al. Genesis: Autonomous generation and execution of scientific experiments. arXiv preprint arXiv:2401.12345, 2024. URL https://arxiv.org/abs/2401.12345. Danilo Dess\u00ec, Francesco Osborne, Diego Reforgiato Recupero, Davide Buscaldi, and Enrico Motta. AI-KG: An automatically generated knowledge graph of artificial intelligence. In The Semantic Web \u2013 ISWC 2020, Part II, volume 12507 of LNCS, pages 127\u2013143. Springer, 2020. doi: 10.1007/ 978-3-030-62466-8_9. Danilo Dess\u00ec, Francesco Osborne, Diego Reforgiato Recupero, Davide Buscaldi, and Enrico Motta. CS-KG: A large-scale knowledge graph of research entities and claims in computer science. In Proceedings of the International Semantic Web Conference (ISWC), pages 678\u2013696. Springer, 2022. doi: 10.1007/978-3-031-19433-7_39. Chuang Gan et al. Hidden entities: Discovering latent concepts in foundation models. In Proceedings of the 2024 Conference on Neural Information Processing Systems (NeurIPS). NeurIPS, 2024. To appear. Sarthak Jain, Madeleine van Zuylen, Hannaneh Hajishirzi, and Iz Beltagy. SciREX: A challenge dataset for document-level information extraction. In Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL), pages 7506\u20137516. Association for Computational Linguistics, 2020. doi: 10.18653/v1/2020.acl-main.670. Mohamad Y. Jaradeh, Allard Oelen, Manuel Prinz, Markus Stocker, and S\u00f6ren Auer. Open research knowledge graph: Next generation infrastructure for semantic scholarly knowledge. In Proceedings of the 10th International Conference on Knowledge Capture (K-CAP), pages 243\u2013246, 2019. doi: 10.1145/3360901.3364435. Ross D King, Jasmine Rowland, Stephen G Oliver, Michael Young, Wayne Aubrey, Emma Byrne, Maria Liakata, Mark Markham, Pinar Pir, Larisa N Soldatova, Andrew Sparkes, Ken E Whelan, and Amanda Clare. The automation of science. Science, 324(5923):85\u201389, 2009.",
+   "title": "Genesis: Autonomous generation and execution of scientific experiments",
+   "authors": [
+    "Bran",
+    "Dess\u00ec",
+    "Osborne",
+    "Recupero",
+    "Buscaldi",
+    "Motta",
+    "Dess\u00ec",
+    "Osborne",
+    "Recupero",
+    "Buscaldi",
+    "Motta",
+    "Gan",
+    "Sarthak Jain",
+    "Zuylen",
+    "Hajishirzi",
+    "Beltagy",
+    "Whelan",
+    "Clare"
+   ],
+   "year": 2024,
+   "doi": "doi:",
+   "arxiv": "2401.12345",
+   "urls": [
+    "https://arxiv.org/abs/2401.12345"
+   ],
+   "container": "The Semantic Web \u2013 ISWC 2020",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "doi_not_resolvable",
+     "doi": "doi:"
+    },
+    {
+     "step": "arxiv_id_resolves_title_mismatch",
+     "rec": {
+      "source": "arxiv",
+      "arxiv": "2401.12345",
+      "title": "Distributionally Robust Receive Combining",
+      "year": 2024,
+      "first_author": "Shixiong Wang"
+     },
+     "metrics": {
+      "title_sim": 36.36363636363637,
+      "containment": 0.0,
+      "partial_ratio": 48.78048780487805,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1017/cbo9780511760396.016",
+      "title": "Design and execution of validation experiments",
+      "year": 2010,
+      "first_author": null,
+      "container": "Verification and Validation in Scientific Computing",
+      "type": "book-chapter",
+      "score": 25.249855
+     },
+     "metrics": {
+      "title_sim": 75.67567567567568,
+      "containment": 0.5,
+      "partial_ratio": 76.08695652173914,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "Ross D King et al. The automation of science: The future of laboratory robotics. Nature, 560(7719): 24\u201325, 2018.",
+   "title": "The automation of science: The future of laboratory robotics",
+   "authors": [
+    "King"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1002/(sici)1098-2728(1996)8:3<>1.0.co;2-#",
+      "title": "",
+      "year": 1996,
+      "first_author": null,
+      "container": "Laboratory Robotics and Automation",
+      "type": "journal-issue",
+      "score": 29.483454
+     },
+     "metrics": {
+      "title_sim": 0,
+      "containment": 0.0,
+      "partial_ratio": 0,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "Mario Krenn, Lorenzo Buffoni, Bruno Coutinho, Sagi Eppel, Jacob G. Foster, et al. Forecasting the future of artificial intelligence with machine learning-based link prediction in an exponentially growing knowledge network. Nature Machine Intelligence, 5(12):1326\u20131335, 2023. doi: 10.1038/ s42256-023-00735-0.",
+   "title": "Forecasting the future of artificial intelligence with machine learning-based link prediction in an exponentially growing knowledge network",
+   "authors": [
+    "Krenn",
+    "Buffoni",
+    "Coutinho",
+    "Eppel",
+    "Foster"
+   ],
+   "year": 2023,
+   "doi": "doi:",
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature Machine Intelligence",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/s42256-023-00735-0",
+    "title": "Forecasting the future of artificial intelligence with machine learning-based link prediction in an exponentially growing knowledge network",
+    "year": 2023,
+    "first_author": "Krenn",
+    "container": "Nature Machine Intelligence",
+    "type": "journal-article",
+    "score": 68.4367
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "doi_not_resolvable",
+     "doi": "doi:"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "Antonello Meloni, Simone Angioni, Angelo A. Salatino, Francesco Osborne, Diego Reforgiato Recupero, and Enrico Motta. Integrating conversational agents and knowledge graphs within the scholarly domain. IEEE Access, 11:22468\u201322489, 2023. doi: 10.1109/ACCESS.2023.3253388.",
+   "title": "Integrating conversational agents and knowledge graphs within the scholarly domain",
+   "authors": [
+    "Meloni",
+    "Angioni",
+    "Salatino",
+    "Osborne",
+    "Recupero",
+    "Motta"
+   ],
+   "year": 2023,
+   "doi": "10.1109/ACCESS.2023.3253388",
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE Access",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/access.2023.3253388",
+    "title": "Integrating Conversational Agents and Knowledge Graphs Within the Scholarly Domain",
+    "year": 2023,
+    "first_author": "Meloni",
+    "container": "IEEE Access",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "Antonello Meloni, Simone Angioni, Angelo Salatino, Francesco Osborne, Diego Reforgiato Recupero, and Enrico Motta. Cs-kg 2.0: A large-scale knowledge graph of computer science. Scientific Data, 12:964, 2025. doi: 10.1038/s41597-025-05200-8.",
+   "title": "Cs-kg 2.0: A large-scale knowledge graph of computer science",
+   "authors": [
+    "Meloni",
+    "Angioni",
+    "Salatino",
+    "Osborne",
+    "Recupero",
+    "Motta"
+   ],
+   "year": 2025,
+   "doi": "10.1038/s41597-025-05200-8",
+   "arxiv": null,
+   "urls": [],
+   "container": "Scientific Data",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/s41597-025-05200-8",
+    "title": "CS-KG 2.0: A Large-scale Knowledge Graph of Computer Science",
+    "year": 2025,
+    "first_author": "Dess\u00ed",
+    "container": "Scientific Data",
+    "type": "journal-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "Neel Nanda, Tom Chan, et al. Progress measures for grokking via mechanistic interpretability. arXiv preprint arXiv:2301.05217, 2023.",
+   "title": "Progress measures for grokking via mechanistic interpretability",
+   "authors": [
+    "Nanda",
+    "Chan"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2301.05217",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2301.05217"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.55277/researchhub.srgqdejk",
+      "title": "PROPOSAL: Neural Mycelium: Decoding Vascular Signaling Plasticity via Mechanistic Interpretability",
+      "year": 2026,
+      "first_author": "Ducar",
+      "container": "",
+      "type": "report",
+      "score": 30.099686
+     },
+     "metrics": {
+      "title_sim": 67.36842105263159,
+      "containment": 0.222,
+      "partial_ratio": 59.45945945945945,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "f680d47a51a0e470fcb228bf0110c026535ead1b",
+    "title": "Progress measures for grokking via mechanistic interpretability",
+    "year": 2023,
+    "first_author": "Neel Nanda",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "ArXiv": "2301.05217",
+     "DBLP": "journals/corr/abs-2301-05217",
+     "DOI": "10.48550/arXiv.2301.05217",
+     "CorpusId": 255749430
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "Chris Olah, Nick Cammarata, Ludwig Schubert, Gabriel Goh, Michael Petrov, and Shan Carter. Zoom in: An introduction to circuits. Distill, 5(3), 2020. URL https://distill.pub/2020/ circuits/zoom-in/. Jason Priem, Heather Piwowar, and Richard Orr. OpenAlex: A fully-open index of scholarly works, authors, venues, institutions, and concepts. arXiv preprint arXiv:2205.01833, 2022. Version 2, June 2022. Jun Qi, Yifan Zhang, et al. Sparks of science: Hypothesis generation using structured paper data. arXiv preprint arXiv:2504.12976, 2025.",
+   "title": "Zoom in: An introduction to circuits",
+   "authors": [
+    "Olah",
+    "Cammarata",
+    "Schubert",
+    "Goh",
+    "Petrov",
+    "Carter",
+    "Jason Priem",
+    "Piwowar",
+    "Orr"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": "2205.01833",
+   "urls": [
+    "https://distill.pub/2020/"
+   ],
+   "container": "Distill",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.23915/distill.00024.001",
+    "title": "Zoom In: An Introduction to Circuits",
+    "year": 2020,
+    "first_author": "Olah",
+    "container": "Distill",
+    "type": "journal-article",
+    "score": 39.09668
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2205.01833"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "David Schindler, Benjamin Zapilko, and Frank Kr\u00fcger. Investigating software usage in the social sciences: A knowledge graph approach. In The Semantic Web \u2013 ESWC 2020, volume 12123 of LNCS, pages 271\u2013286. Springer, 2020. doi: 10.1007/978-3-030-49461-2_16.",
+   "title": "Investigating software usage in the social sciences: A knowledge graph approach",
+   "authors": [
+    "Schindler",
+    "Zapilko",
+    "Kr\u00fcger"
+   ],
+   "year": 2020,
+   "doi": "10.1007/978-3-030-49461-2_16",
+   "arxiv": null,
+   "urls": [],
+   "container": "The Semantic Web \u2013 ESWC 2020",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/978-3-030-49461-2_16",
+    "title": "Investigating Software Usage in the Social Sciences: A Knowledge Graph Approach",
+    "year": 2020,
+    "first_author": "Schindler",
+    "container": "Lecture Notes in Computer Science",
+    "type": "book-chapter",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "Sina Taslimi, Artemis Capari, Hosein Azarbonyad, Zi Long Zhu, Zubair Afzal, Evangelos Kanoulas, and Georgios Tsatsaronis. Extracting, detecting, and generating research questions for scientific articles. In Proceedings of the 31st International Conference on Computational Linguistics (COLING), pages 8573\u20138588, 2025.",
+   "title": "Extracting, detecting, and generating research questions for scientific articles",
+   "authors": [
+    "Taslimi",
+    "Capari",
+    "Azarbonyad",
+    "Zhu",
+    "Afzal",
+    "Kanoulas",
+    "Tsatsaronis"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 31st International Conference on Computational Linguistics (COLING",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.5220/0013060900003838",
+      "title": "An Improved Meta-Knowledge Prompt Engineering Approach for Generating Research Questions in Scientific Literature",
+      "year": 2024,
+      "first_author": "Wang",
+      "container": "Proceedings of the 16th International Joint Conference on Knowledge Discovery, Knowledge Engineering and Knowledge Management",
+      "type": "proceedings-article",
+      "score": 26.284857
+     },
+     "metrics": {
+      "title_sim": 72.1311475409836,
+      "containment": 0.364,
+      "partial_ratio": 61.061946902654874,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "61b1ffb89d5f95988096a20e5dd5305fb4c508b4",
+    "title": "Extracting, Detecting, and Generating Research Questions for Scientific Articles",
+    "year": 2025,
+    "first_author": "Sina Taslimi",
+    "container": "International Conference on Computational Linguistics",
+    "ext": {
+     "DBLP": "conf/coling/TaslimiCAZAK025",
+     "CorpusId": 275821272
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  }
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
+}

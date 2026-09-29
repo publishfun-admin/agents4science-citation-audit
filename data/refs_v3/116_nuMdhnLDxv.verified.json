@@ -1,0 +1,57 @@
+{
+ "pdf": "116_nuMdhnLDxv.pdf",
+ "n_entries": 1,
+ "fallback": true,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 2,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "Michael Abian et al. Integrating wikidata into financial applications. Data Science Quarterly, 2022. Robert Ankner et al. Perplexity and its role in filtering generated negatives. In NAACL Workshop, 2024. 81 87 89 91 S. Arun et al. Numerical reasoning in financial texts: Challenges and limitations. Journal of Financial NLP, 2023. Patrick Callanan et al. Can gpt really solve financial tasks? a zero-shot analysis. Financial AI Journal, 2023. Ting Chen et al. A simple framework for contrastive learning of visual representations. In ICML, 2020. Tianyu Gao et al. Simcse: Simple contrastive learning of sentence embeddings. In EMNLP, 2021. Alice Jacobs et al. Sentivent: A dataset for event extraction in financial texts. In ACL, 2021. 97 Karl Jansen et al. Perplexity-based quality filtering in text generation. Journal of NLP Research, 2022. Li Jin et al. Correlation-based techniques in financial nlp. In NAACL, 2024. 100 Ankur Parikh et al. A decomposable attention model for natural language inference. In EMNLP, 2016. Ling Xi et al. Applications of structured knowledge in financial nlp. Financial AI Review, 2024. 103 Alexander Yang et al. Finbert: Financial sentiment analysis using pre-trained language models. In ACL Workshop, 2020. Fei Yang et al. Aspect-based sentiment analysis in financial reviews. In EMNLP, 2018. Bo Zhang et al. Instruct-fingpt: Instruction tuning for financial sentiment. In ICLR Workshop, 2023. 4 107 109 111",
+   "title": "Integrating wikidata into financial applications",
+   "authors": [
+    "Abian",
+    "Arun",
+    "Callanan",
+    "Jacobs",
+    "Jansen",
+    "Jin"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "NAACL Workshop",
+   "type": "article-journal",
+   "parser": "anystyle-parse",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1142/9789811250903_0013",
+      "title": "DevSecOps: Integrating Security in DevOps for Financial Applications",
+      "year": 2022,
+      "first_author": "Zhou",
+      "container": "The Future and FinTech",
+      "type": "book-chapter",
+      "score": 23.509098
+     },
+     "metrics": {
+      "title_sim": 82.92682926829268,
+      "containment": 0.5,
+      "partial_ratio": 65.67164179104478,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  }
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
+}

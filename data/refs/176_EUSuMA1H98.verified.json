@@ -1,10 +1,12 @@
 {
  "pdf": "176_EUSuMA1H98.pdf",
- "n_entries": 26,
- "fallback": false,
+ "n_entries": 29,
+ "fallback": "indent-guided",
  "error": null,
  "linenumbers_stripped": true,
- "parser_version": 2,
+ "two_column": false,
+ "parser_version": 4,
+ "reprocessed": true,
  "entries": [
   {
    "junk": false,
@@ -24,7 +26,7 @@
    "urls": [],
    "container": "Proceedings of the IEEE conference on computer vision and pattern recognition",
    "type": "paper-conference",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -35,7 +37,7 @@
     "first_author": "Bau",
     "container": "2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
     "type": "proceedings-article",
-    "score": 64.68622
+    "score": 64.678696
    },
    "metrics": {
     "title_sim": 100.0,
@@ -66,7 +68,7 @@
    "urls": [],
    "container": "Proceedings of the National Academy of Sciences",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -77,7 +79,7 @@
     "first_author": "Bau",
     "container": "Proceedings of the National Academy of Sciences",
     "type": "journal-article",
-    "score": 46.38543
+    "score": 46.367058
    },
    "metrics": {
     "title_sim": 100.0,
@@ -107,9 +109,26 @@
    "urls": [],
    "container": null,
    "type": null,
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "UNVERIFIED",
    "evidence": [
+    {
+     "step": "arxiv_id_resolves_title_mismatch",
+     "rec": {
+      "source": "arxiv",
+      "arxiv": "2501.14926",
+      "title": "Interpretability in Parameter Space: Minimizing Mechanistic Description Length with Attribution-based Parameter Decomposition",
+      "year": 2025,
+      "first_author": "Dan Braun"
+     },
+     "metrics": {
+      "title_sim": 49.696969696969695,
+      "containment": 0.455,
+      "partial_ratio": 55.64516129032258,
+      "year_ok": true,
+      "first_author_ok": true
+     }
+    },
     {
      "step": "crossref_best_reject",
      "rec": {
@@ -120,29 +139,12 @@
       "first_author": "Liu",
       "container": "Knowledge-Based Systems",
       "type": "journal-article",
-      "score": 23.201809
+      "score": 23.21082
      },
      "metrics": {
       "title_sim": 75.75757575757575,
       "containment": 0.4,
       "partial_ratio": 49.25373134328358,
-      "year_ok": true,
-      "first_author_ok": false
-     }
-    },
-    {
-     "step": "arxiv_id_resolves_title_mismatch",
-     "rec": {
-      "source": "arxiv_abs",
-      "arxiv": "2501.14926",
-      "title": "Interpretability in Parameter Space: Minimizing Mechanistic Description Length with Attribution-based Parameter Decomposition",
-      "year": 2025,
-      "first_author": "Braun, Dan"
-     },
-     "metrics": {
-      "title_sim": 49.696969696969695,
-      "containment": 0.455,
-      "partial_ratio": 55.64516129032258,
       "year_ok": true,
       "first_author_ok": false
      }
@@ -173,7 +175,7 @@
    "urls": [],
    "container": "Anthropic",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "UNVERIFIED",
    "evidence": [
     {
@@ -186,7 +188,7 @@
       "first_author": "Pan",
       "container": "",
       "type": "dissertation",
-      "score": 27.853998
+      "score": 27.827007
      },
      "metrics": {
       "title_sim": 75.0,
@@ -202,7 +204,7 @@
   {
    "junk": false,
    "idx": 5,
-   "raw": "Rickard Br\u00fcel-Gabrielsson, Jiacheng Zhu, Onkar Bhardwaj, Leshem Choshen, Kristjan Greenewald, Mikhail Yurochkin, and Justin Solomon. Compress then serve: Serving thousands of lora adapters with little overhead, 2024. URL https://arxiv.org/abs/2407.00066. Karl Cobbe, Vineet Kosaraju, Mohammad Bavarian, Mark Chen, Heewoo Jun, Lukasz Kaiser, Matthias Plappert, Jerry Tworek, Jacob Hilton, Reiichiro Nakano, Christopher Hesse, and John Schulman. Training verifiers to solve math word problems. arXiv preprint arXiv:2110.14168, 2021.",
+   "raw": "Rickard Br\u00fcel-Gabrielsson, Jiacheng Zhu, Onkar Bhardwaj, Leshem Choshen, Kristjan Greenewald, Mikhail Yurochkin, and Justin Solomon. Compress then serve: Serving thousands of lora adapters with little overhead, 2024. URL https://arxiv.org/abs/2407.00066.",
    "title": "Compress then serve: Serving thousands of lora adapters with little overhead",
    "authors": [
     "Br\u00fcel-Gabrielsson",
@@ -211,23 +213,61 @@
     "Choshen",
     "Greenewald",
     "Yurochkin",
-    "Solomon",
-    "Cobbe",
-    "Kosaraju",
-    "Bavarian",
-    "Chen",
-    "Jun",
-    "Kaiser"
+    "Solomon"
    ],
    "year": 2024,
    "doi": null,
-   "arxiv": "2110.14168",
+   "arxiv": "2407.00066",
    "urls": [
     "https://arxiv.org/abs/2407.00066"
    ],
    "container": null,
    "type": null,
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2407.00066",
+    "title": "Compress then Serve: Serving Thousands of LoRA Adapters with Little Overhead",
+    "year": 2024,
+    "first_author": "Rickard Br\u00fcel-Gabrielsson"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "Karl Cobbe, Vineet Kosaraju, Mohammad Bavarian, Mark Chen, Heewoo Jun, Lukasz Kaiser, Matthias Plappert, Jerry Tworek, Jacob Hilton, Reiichiro Nakano, Christopher Hesse, and John Schulman. Training verifiers to solve math word problems. arXiv preprint arXiv:2110.14168, 2021.",
+   "title": "Training verifiers to solve math word problems",
+   "authors": [
+    "Cobbe",
+    "Kosaraju",
+    "Bavarian",
+    "Chen",
+    "Jun",
+    "Kaiser",
+    "Plappert",
+    "Tworek",
+    "Hilton",
+    "Nakano",
+    "Hesse",
+    "Schulman"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": "2110.14168",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "arxiv_id",
    "match": {
@@ -238,19 +278,18 @@
     "first_author": "Karl Cobbe"
    },
    "metrics": {
-    "title_sim": 39.66942148760331,
+    "title_sim": 100.0,
     "containment": 1.0,
     "partial_ratio": 100.0,
-    "year_ok": false,
-    "first_author_ok": true,
-    "rule": "id+raw_containment"
+    "year_ok": true,
+    "first_author_ok": true
    },
    "evidence": []
   },
   {
    "junk": false,
-   "idx": 6,
-   "raw": "Arman Cohan, Franck Dernoncourt, Doo Soon Kim, Trung Bui, Seokhwan Kim, Walter Chang, and Nazli Goharian. A discourse-aware attention model for abstractive summarization of long documents. In Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 2 (Short Papers), pages 615\u2013621, New Orleans, Louisiana, June 2018. Association for Computational Linguistics. doi: 10.18653/v1/N18-2097. URL https://aclanthology.org/N18-2097. Arthur Conmy, Augustine N Mavor-Parker, Aengus Lynch, Stefan Heimersheim, and Adri\u00e0 Garriga-Alonso. Towards automated circuit discovery for mechanistic interpretability. arXiv preprint arXiv:2304.14997, 2023.",
+   "idx": 7,
+   "raw": "Arman Cohan, Franck Dernoncourt, Doo Soon Kim, Trung Bui, Seokhwan Kim, Walter Chang, and Nazli Goharian. A discourse-aware attention model for abstractive summarization of long documents. In Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 2 (Short Papers), pages 615\u2013621, New Orleans, Louisiana, June 2018. Association for Computational Linguistics. doi: 10.18653/v1/N18-2097. URL https://aclanthology.org/N18-2097.",
    "title": "A discourse-aware attention model for abstractive summarization of long documents",
    "authors": [
     "Cohan",
@@ -263,13 +302,13 @@
    ],
    "year": 2018,
    "doi": "10.18653/v1/N18-2097",
-   "arxiv": "2304.14997",
+   "arxiv": null,
    "urls": [
     "https://aclanthology.org/N18-2097"
    ],
    "container": "Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
    "type": "paper-conference",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "doi",
    "match": {
@@ -293,7 +332,44 @@
   },
   {
    "junk": false,
-   "idx": 7,
+   "idx": 8,
+   "raw": "Arthur Conmy, Augustine N Mavor-Parker, Aengus Lynch, Stefan Heimersheim, and Adri\u00e0 Garriga- Alonso. Towards automated circuit discovery for mechanistic interpretability. arXiv preprint arXiv:2304.14997, 2023.",
+   "title": "Towards automated circuit discovery for mechanistic interpretability",
+   "authors": [
+    "Conmy",
+    "Mavor-Parker",
+    "Lynch",
+    "Heimersheim",
+    "Alonso"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2304.14997",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2304.14997",
+    "title": "Towards Automated Circuit Discovery for Mechanistic Interpretability",
+    "year": 2023,
+    "first_author": "Arthur Conmy"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 9,
    "raw": "Michael Elad. Sparse and redundant representations: from theory to applications in signal and image processing. Springer Science & Business Media, 2010.",
    "title": "Sparse and redundant representations: from theory to applications in signal and image processing",
    "authors": [
@@ -305,7 +381,7 @@
    "urls": [],
    "container": null,
    "type": "book",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -316,7 +392,7 @@
     "first_author": "Elad",
     "container": "",
     "type": "book",
-    "score": 82.02005
+    "score": 82.04629
    },
    "metrics": {
     "title_sim": 54.961832061068705,
@@ -329,7 +405,7 @@
   },
   {
    "junk": false,
-   "idx": 8,
+   "idx": 10,
    "raw": "Nelson Elhage, Neel Nanda, Catherine Olsson, Tom Henighan, Nicholas Joseph, Ben Mann, Amanda Askell, Yuntao Bai, Anna Chen, Tom Conerly, et al. A mathematical framework for transformer circuits. Anthropic, 2021.",
    "title": "A mathematical framework for transformer circuits",
    "authors": [
@@ -350,7 +426,7 @@
    "urls": [],
    "container": "Anthropic",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "UNVERIFIED",
    "evidence": [
     {
@@ -363,7 +439,7 @@
       "first_author": "Delgado",
       "container": "",
       "type": "posted-content",
-      "score": 24.606792
+      "score": 24.607979
      },
      "metrics": {
       "title_sim": 77.5,
@@ -378,8 +454,8 @@
   },
   {
    "junk": false,
-   "idx": 9,
-   "raw": "Charles Goddard, Shamane Siriwardhana, Malikeh Ehghaghi, Luke Meyers, Vladimir Karpukhin, Brian Benedict, Mark McQuade, and Jacob Solawetz. Arcee\u2019s MergeKit: A toolkit for merging large language models. In Franck Dernoncourt, Daniel Preotiuc-Pietro, and Anastasia Shimorina, editors, Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing: Industry Track, pages 477\u2013485, Miami, Florida, US, November 2024.",
+   "idx": 11,
+   "raw": "Charles Goddard, Shamane Siriwardhana, Malikeh Ehghaghi, Luke Meyers, Vladimir Karpukhin, Brian Benedict, Mark McQuade, and Jacob Solawetz. Arcee\u2019s MergeKit: A toolkit for merging large language models. In Franck Dernoncourt, Daniel Preot\u0327iuc-Pietro, and Anastasia Shimorina, editors, Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing: Industry Track, pages 477\u2013485, Miami, Florida, US, November 2024. Association for Computational Linguistics. doi: 10.18653/v1/2024.emnlp-industry.36. URL https://aclanthology.org/2024.emnlp-industry.36.",
    "title": "Arcee\u2019s MergeKit: A toolkit for merging large language models",
    "authors": [
     "Goddard",
@@ -392,14 +468,16 @@
     "Solawetz"
    ],
    "year": 2024,
-   "doi": null,
+   "doi": "10.18653/v1/2024.emnlp-industry.36",
    "arxiv": null,
-   "urls": [],
+   "urls": [
+    "https://aclanthology.org/2024.emnlp-industry.36"
+   ],
    "container": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing: Industry Track",
    "type": "paper-conference",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
-   "via": "crossref",
+   "via": "doi",
    "match": {
     "source": "crossref",
     "doi": "10.18653/v1/2024.emnlp-industry.36",
@@ -408,7 +486,7 @@
     "first_author": "Goddard",
     "container": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing: Industry Track",
     "type": "proceedings-article",
-    "score": 70.31212
+    "score": 1
    },
    "metrics": {
     "title_sim": 100.0,
@@ -420,65 +498,8 @@
    "evidence": []
   },
   {
-   "junk": true,
-   "idx": 10,
-   "raw": "Association for Computational Linguistics. doi: 10.18653/v1/2024.emnlp-industry.36. URL https://aclanthology.org/2024.emnlp-industry.36.",
-   "title": "Association for Computational Linguistics",
-   "authors": [],
-   "year": null,
-   "doi": "10.18653/v1/2024.emnlp-industry.36",
-   "arxiv": null,
-   "urls": [
-    "https://aclanthology.org/2024.emnlp-industry.36"
-   ],
-   "container": null,
-   "type": null,
-   "parser": "anystyle-find",
-   "verdict": "VERIFIED",
-   "via": "crossref",
-   "match": {
-    "source": "crossref",
-    "doi": "10.1016/b0-08-044854-2/05234-2",
-    "title": "Association for Computational Linguistics",
-    "year": 2006,
-    "first_author": "Hirst",
-    "container": "Encyclopedia of Language &amp; Linguistics",
-    "type": "book-chapter",
-    "score": 23.337528
-   },
-   "metrics": {
-    "title_sim": 100.0,
-    "containment": 1.0,
-    "partial_ratio": 100.0,
-    "year_ok": true,
-    "first_author_ok": false
-   },
-   "evidence": [
-    {
-     "step": "doi_resolves_title_mismatch",
-     "rec": {
-      "source": "crossref",
-      "doi": "10.18653/v1/2024.emnlp-industry.36",
-      "title": "Arcee\u2019s MergeKit: A Toolkit for Merging Large Language Models",
-      "year": 2024,
-      "first_author": "Goddard",
-      "container": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing: Industry Track",
-      "type": "proceedings-article",
-      "score": 1
-     },
-     "metrics": {
-      "title_sim": 41.584158415841586,
-      "containment": 0.0,
-      "partial_ratio": 43.29896907216495,
-      "year_ok": true,
-      "first_author_ok": false
-     }
-    }
-   ]
-  },
-  {
    "junk": false,
-   "idx": 11,
+   "idx": 12,
    "raw": "Edward J Hu, Yelong Shen, Phillip Wallis, Zeyuan Allen-Zhu, Yuanzhi Li, Shean Wang, Lu Wang, and Weizhu Chen. Lora: Low-rank adaptation of large language models. arXiv preprint arXiv:2106.09685, 2021.",
    "title": "Lora: Low-rank adaptation of large language models",
    "authors": [
@@ -497,7 +518,7 @@
    "urls": [],
    "container": null,
    "type": null,
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "arxiv_id",
    "match": {
@@ -518,7 +539,7 @@
   },
   {
    "junk": false,
-   "idx": 12,
+   "idx": 13,
    "raw": "Gabriel Ilharco, Marco Tulio Ribeiro, Mitchell Wortsman, Ludwig Schmidt, Hannaneh Hajishirzi, and Ali Farhadi. Editing models with task arithmetic. arXiv preprint arXiv:2212.04089, 2022.",
    "title": "Editing models with task arithmetic",
    "authors": [
@@ -535,49 +556,15 @@
    "urls": [],
    "container": null,
    "type": null,
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
-   "evidence": [
-    {
-     "step": "arxiv_id_not_found",
-     "arxiv": "2212.04089"
-    },
-    {
-     "step": "crossref_best_reject",
-     "rec": {
-      "source": "crossref",
-      "doi": "10.1037/t92117-000",
-      "title": "Social and Arithmetic Task",
-      "year": 2024,
-      "first_author": "Wiese",
-      "container": "PsycTESTS Dataset",
-      "type": "dataset",
-      "score": 22.239515
-     },
-     "metrics": {
-      "title_sim": 73.17073170731707,
-      "containment": 0.667,
-      "partial_ratio": 65.38461538461539,
-      "year_ok": false,
-      "first_author_ok": false
-     }
-    }
-   ],
-   "likely_match": null,
-   "via": "s2",
+   "via": "arxiv_id",
    "match": {
-    "source": "s2",
-    "id": "71ba5f845bd22d42003675b7cea970ca9e590bcc",
+    "source": "arxiv",
+    "arxiv": "2212.04089",
     "title": "Editing Models with Task Arithmetic",
     "year": 2022,
-    "first_author": "Gabriel Ilharco",
-    "container": "International Conference on Learning Representations",
-    "ext": {
-     "ArXiv": "2212.04089",
-     "DBLP": "conf/iclr/IlharcoRWSHF23",
-     "DOI": "10.48550/arXiv.2212.04089",
-     "CorpusId": 254408495
-    }
+    "first_author": "Gabriel Ilharco"
    },
    "metrics": {
     "title_sim": 100.0,
@@ -586,11 +573,11 @@
     "year_ok": true,
     "first_author_ok": true
    },
-   "second_pass_hit": true
+   "evidence": []
   },
   {
    "junk": false,
-   "idx": 13,
+   "idx": 14,
    "raw": "Edward Kim, Connor Onweller, Andrew O\u2019Brien, Yogesh Balaji, Sylvestre-Alvise Rebuffi, and Alan Yuille. The interpretable dictionary in sparse coding. arXiv preprint arXiv:2011.11805, 2020.",
    "title": "The interpretable dictionary in sparse coding",
    "authors": [
@@ -607,49 +594,15 @@
    "urls": [],
    "container": null,
    "type": null,
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
-   "evidence": [
-    {
-     "step": "arxiv_id_not_found",
-     "arxiv": "2011.11805"
-    },
-    {
-     "step": "crossref_best_reject",
-     "rec": {
-      "source": "crossref",
-      "doi": "10.36934/t2020-011",
-      "title": "Inherently Interpretable Sparse Word Embeddings through Sparse Coding",
-      "year": 2020,
-      "first_author": "Templeton",
-      "container": "",
-      "type": "dissertation",
-      "score": 35.486027
-     },
-     "metrics": {
-      "title_sim": 75.0,
-      "containment": 0.5,
-      "partial_ratio": 56.52173913043479,
-      "year_ok": true,
-      "first_author_ok": false
-     }
-    }
-   ],
-   "likely_match": null,
-   "via": "s2",
+   "via": "arxiv_id",
    "match": {
-    "source": "s2",
-    "id": "ef0e1e6203b2a1e958659c18f456f1a7a4732ae4",
+    "source": "arxiv",
+    "arxiv": "2011.11805",
     "title": "The Interpretable Dictionary in Sparse Coding",
     "year": 2020,
-    "first_author": "Edward J. Kim",
-    "container": "arXiv.org",
-    "ext": {
-     "MAG": "3110354756",
-     "ArXiv": "2011.11805",
-     "DBLP": "journals/corr/abs-2011-11805",
-     "CorpusId": 227151571
-    }
+    "first_author": "Edward Kim"
    },
    "metrics": {
     "title_sim": 100.0,
@@ -658,11 +611,11 @@
     "year_ok": true,
     "first_author_ok": true
    },
-   "second_pass_hit": true
+   "evidence": []
   },
   {
    "junk": false,
-   "idx": 14,
+   "idx": 15,
    "raw": "Andrew L. Maas, Raymond E. Daly, Peter T. Pham, Dan Huang, Andrew Y. Ng, and Christopher Potts. Learning word vectors for sentiment analysis. In Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies, pages 142\u2013150, Portland, Oregon, USA, June 2011. Association for Computational Linguistics. URL http: //www.aclweb.org/anthology/P11-1015.",
    "title": "Learning word vectors for sentiment analysis",
    "authors": [
@@ -679,7 +632,7 @@
    "urls": [],
    "container": "Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies",
    "type": "paper-conference",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "evidence": [
     {
@@ -692,7 +645,7 @@
       "first_author": "Marreddy",
       "container": "Computational Intelligence Applications for Text and Sentiment Data Analysis",
       "type": "book-chapter",
-      "score": 29.748657
+      "score": 29.75725
      },
      "metrics": {
       "title_sim": 84.21052631578948,
@@ -730,7 +683,7 @@
   },
   {
    "junk": false,
-   "idx": 15,
+   "idx": 16,
    "raw": "Kevin Meng, David Bau, Alex Andonian, and Yonatan Belinkov. Locating and editing factual associations in gpt. Advances in Neural Information Processing Systems, 35:17359\u201317372, 2022.",
    "title": "Locating and editing factual associations in gpt",
    "authors": [
@@ -745,7 +698,7 @@
    "urls": [],
    "container": "Advances in Neural Information Processing Systems",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -756,7 +709,7 @@
     "first_author": "Meng",
     "container": "Advances in Neural Information Processing Systems 35",
     "type": "proceedings-article",
-    "score": 60.40812
+    "score": 60.42887
    },
    "metrics": {
     "title_sim": 100.0,
@@ -769,7 +722,7 @@
   },
   {
    "junk": false,
-   "idx": 16,
+   "idx": 17,
    "raw": "Eric Mitchell, Charles Lin, Antoine Bosselut, Chelsea Finn, and Christopher D Manning. Fast model editing at scale. arXiv preprint arXiv:2110.11309, 2022.",
    "title": "Fast model editing at scale",
    "authors": [
@@ -785,48 +738,15 @@
    "urls": [],
    "container": null,
    "type": null,
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
-   "evidence": [
-    {
-     "step": "arxiv_id_not_found",
-     "arxiv": "2110.11309"
-    },
-    {
-     "step": "crossref_best_reject",
-     "rec": {
-      "source": "crossref",
-      "doi": "10.2139/ssrn.4907732",
-      "title": "Large-Scale Model Comparison with Fast Model Confidence Sets",
-      "year": 2024,
-      "first_author": "Barde",
-      "container": "",
-      "type": "posted-content",
-      "score": 22.123753
-     },
-     "metrics": {
-      "title_sim": 74.4186046511628,
-      "containment": 0.5,
-      "partial_ratio": 50.0,
-      "year_ok": false,
-      "first_author_ok": false
-     }
-    }
-   ],
-   "likely_match": null,
-   "via": "s2",
+   "via": "arxiv_id",
    "match": {
-    "source": "s2",
-    "id": "9286ac6e9b1aacd7d93496eb4615ae7678876d2a",
+    "source": "arxiv",
+    "arxiv": "2110.11309",
     "title": "Fast Model Editing at Scale",
     "year": 2021,
-    "first_author": "E. Mitchell",
-    "container": "International Conference on Learning Representations",
-    "ext": {
-     "DBLP": "journals/corr/abs-2110-11309",
-     "ArXiv": "2110.11309",
-     "CorpusId": 239050360
-    }
+    "first_author": "Eric Mitchell"
    },
    "metrics": {
     "title_sim": 100.0,
@@ -835,11 +755,11 @@
     "year_ok": true,
     "first_author_ok": true
    },
-   "second_pass_hit": true
+   "evidence": []
   },
   {
    "junk": false,
-   "idx": 17,
+   "idx": 18,
    "raw": "Arindam Mitra, Hamed Khanpour, Corby Rosset, and Ahmed Awadallah. Orca-math: Unlocking the potential of slms in grade school math, 2024.",
    "title": "Orca-math: Unlocking the potential of slms in grade school math",
    "authors": [
@@ -854,7 +774,7 @@
    "urls": [],
    "container": null,
    "type": null,
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "evidence": [
     {
@@ -867,7 +787,7 @@
       "first_author": null,
       "container": "",
       "type": "database",
-      "score": 29.496143
+      "score": 29.50063
      },
      "metrics": {
       "title_sim": 68.9655172413793,
@@ -905,7 +825,7 @@
   },
   {
    "junk": false,
-   "idx": 18,
+   "idx": 19,
    "raw": "Shashi Narayan, Shay B. Cohen, and Mirella Lapata. Don\u2019t give me the details, just the summary! topic-aware convolutional neural networks for extreme summarization. ArXiv, abs/1808.08745, 2018.",
    "title": "Don\u2019t give me the details, just the summary! topic-aware convolutional neural networks for extreme summarization",
    "authors": [
@@ -919,18 +839,15 @@
    "urls": [],
    "container": "ArXiv",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
-   "via": "crossref",
+   "via": "arxiv_id",
    "match": {
-    "source": "crossref",
-    "doi": "10.18653/v1/d18-1206",
-    "title": "Don\u2019t Give Me the Details, Just the Summary! Topic-Aware Convolutional Neural Networks for Extreme Summarization",
+    "source": "arxiv",
+    "arxiv": "1808.08745",
+    "title": "Don't Give Me the Details, Just the Summary! Topic-Aware Convolutional Neural Networks for Extreme Summarization",
     "year": 2018,
-    "first_author": "Narayan",
-    "container": "Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing",
-    "type": "proceedings-article",
-    "score": 104.73629
+    "first_author": "Shashi Narayan"
    },
    "metrics": {
     "title_sim": 100.0,
@@ -939,17 +856,12 @@
     "year_ok": true,
     "first_author_ok": true
    },
-   "evidence": [
-    {
-     "step": "arxiv_id_not_found",
-     "arxiv": "1808.08745"
-    }
-   ]
+   "evidence": []
   },
   {
    "junk": false,
-   "idx": 19,
-   "raw": "Tri Nguyen, Mir Rosenberg, Xia Song, Jianfeng Gao, Saurabh Tiwary, Rangan Majumder, and Li Deng. MS MARCO: A human generated machine reading comprehension dataset. CoRR, abs/1611.09268, 2016. URL http://arxiv.org/abs/1611.09268. Bruno A Olshausen and David J Field. Emergence of simple-cell receptive field properties by learning a sparse code for natural images. Nature, 381(6583):607\u2013609, 1996.",
+   "idx": 20,
+   "raw": "Tri Nguyen, Mir Rosenberg, Xia Song, Jianfeng Gao, Saurabh Tiwary, Rangan Majumder, and Li Deng. MS MARCO: A human generated machine reading comprehension dataset. CoRR, abs/1611.09268, 2016. URL http://arxiv.org/abs/1611.09268.",
    "title": "MS MARCO: A human generated machine reading comprehension dataset",
    "authors": [
     "Nguyen",
@@ -958,9 +870,7 @@
     "Gao",
     "Tiwary",
     "Majumder",
-    "Deng",
-    "Olshausen",
-    "Field"
+    "Deng"
    ],
    "year": 2016,
    "doi": null,
@@ -970,49 +880,15 @@
    ],
    "container": "CoRR",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
-   "evidence": [
-    {
-     "step": "arxiv_id_not_found",
-     "arxiv": "1611.09268"
-    },
-    {
-     "step": "crossref_best_reject",
-     "rec": {
-      "source": "crossref",
-      "doi": "10.1016/b978-0-323-90118-5.00005-9",
-      "title": "Common machine reading comprehension models",
-      "year": 2021,
-      "first_author": "Zhu",
-      "container": "Machine Reading Comprehension",
-      "type": "book-chapter",
-      "score": 32.474453
-     },
-     "metrics": {
-      "title_sim": 80.55555555555556,
-      "containment": 0.6,
-      "partial_ratio": 79.06976744186046,
-      "year_ok": false,
-      "first_author_ok": false
-     }
-    }
-   ],
-   "likely_match": null,
-   "via": "s2",
+   "via": "arxiv_id",
    "match": {
-    "source": "s2",
-    "id": "dd95f96e3322dcaee9b1e3f7871ecc3ebcd51bfe",
+    "source": "arxiv",
+    "arxiv": "1611.09268",
     "title": "MS MARCO: A Human Generated MAchine Reading COmprehension Dataset",
     "year": 2016,
-    "first_author": "Daniel Fernando Campos",
-    "container": "CoCo@NIPS",
-    "ext": {
-     "DBLP": "journals/corr/NguyenRSGTMD16",
-     "MAG": "2558203065",
-     "ArXiv": "1611.09268",
-     "CorpusId": 1289517
-    }
+    "first_author": "Payal Bajaj"
    },
    "metrics": {
     "title_sim": 100.0,
@@ -1021,12 +897,49 @@
     "year_ok": true,
     "first_author_ok": false
    },
-   "second_pass_hit": true
+   "evidence": []
   },
   {
    "junk": false,
-   "idx": 20,
-   "raw": "Pranav Rajpurkar, Jian Zhang, Konstantin Lopyrev, and Percy Liang. SQuAD: 100,000+ questions for machine comprehension of text. In Jian Su, Kevin Duh, and Xavier Carreras, editors, Proceedings of the 2016 Conference on Empirical Methods in Natural Language Processing, pages 2383\u20132392, Austin, Texas, November 2016. Association for Computational Linguistics. doi: 10.18653/v1/ D16-1264. URL https://aclanthology.org/D16-1264. Aaquib Syed, Can Rager, and Arthur Conmy. Attribution patching: Activation patching at industrial scale. arXiv preprint arXiv:2310.10348, 2023.",
+   "idx": 21,
+   "raw": "Bruno A Olshausen and David J Field. Emergence of simple-cell receptive field properties by learning a sparse code for natural images. Nature, 381(6583):607\u2013609, 1996.",
+   "title": "Emergence of simple-cell receptive field properties by learning a sparse code for natural images",
+   "authors": [
+    "Olshausen",
+    "Field"
+   ],
+   "year": 1996,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature",
+   "type": "article-journal",
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/381607a0",
+    "title": "Emergence of simple-cell receptive field properties by learning a sparse code for natural images",
+    "year": 1996,
+    "first_author": "Olshausen",
+    "container": "Nature",
+    "type": "journal-article",
+    "score": 88.232025
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 22,
+   "raw": "Pranav Rajpurkar, Jian Zhang, Konstantin Lopyrev, and Percy Liang. SQuAD: 100,000+ questions for machine comprehension of text. In Jian Su, Kevin Duh, and Xavier Carreras, editors, Proceedings of the 2016 Conference on Empirical Methods in Natural Language Processing, pages 2383\u20132392, Austin, Texas, November 2016. Association for Computational Linguistics. doi: 10.18653/v1/ D16-1264. URL https://aclanthology.org/D16-1264.",
    "title": "SQuAD: 100,000+ questions for machine comprehension of text",
    "authors": [
     "Rajpurkar",
@@ -1036,13 +949,13 @@
    ],
    "year": 2016,
    "doi": "10.18653/v1/",
-   "arxiv": "2310.10348",
+   "arxiv": null,
    "urls": [
     "https://aclanthology.org/D16-1264"
    ],
    "container": "Proceedings of the 2016 Conference on Empirical Methods in Natural Language Processing",
    "type": "paper-conference",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -1053,7 +966,7 @@
     "first_author": "Rajpurkar",
     "container": "Proceedings of the 2016 Conference on Empirical Methods in Natural\n          Language Processing",
     "type": "proceedings-article",
-    "score": 57.664097
+    "score": 58.022633
    },
    "metrics": {
     "title_sim": 100.0,
@@ -1066,16 +979,71 @@
     {
      "step": "doi_not_resolvable",
      "doi": "10.18653/v1/"
-    },
-    {
-     "step": "arxiv_id_not_found",
-     "arxiv": "2310.10348"
     }
    ]
   },
   {
    "junk": false,
-   "idx": 21,
+   "idx": 23,
+   "raw": "Aaquib Syed, Can Rager, and Arthur Conmy. Attribution patching: Activation patching at industrial scale. arXiv preprint arXiv:2310.10348, 2023.",
+   "title": "Attribution patching: Activation patching at industrial scale",
+   "authors": [
+    "Syed",
+    "Rager",
+    "Conmy"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2310.10348",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-indent-guided",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_resolves_title_mismatch",
+     "rec": {
+      "source": "arxiv",
+      "arxiv": "2310.10348",
+      "title": "Attribution Patching Outperforms Automated Circuit Discovery",
+      "year": 2023,
+      "first_author": "Aaquib Syed"
+     },
+     "metrics": {
+      "title_sim": 61.26126126126126,
+      "containment": 0.333,
+      "partial_ratio": 60.0,
+      "year_ok": true,
+      "first_author_ok": true
+     }
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.18653/v1/2024.blackboxnlp-1.25",
+      "title": "Attribution Patching Outperforms Automated Circuit Discovery",
+      "year": 2024,
+      "first_author": "Syed",
+      "container": "Proceedings of the 7th BlackboxNLP Workshop: Analyzing and Interpreting Neural Networks for NLP",
+      "type": "proceedings-article",
+      "score": 42.216675
+     },
+     "metrics": {
+      "title_sim": 61.26126126126126,
+      "containment": 0.333,
+      "partial_ratio": 60.0,
+      "year_ok": true,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 24,
    "raw": "Rohan Taori, Ishaan Gulrajani, Tianyi Zhang, Yann Dubois, Xuechen Li, Carlos Guestrin, Percy Liang, and Tatsunori B. Hashimoto. Stanford alpaca: An instruction-following llama model. https://github.com/tatsu-lab/stanford_alpaca, 2023.",
    "title": "Stanford alpaca: An instruction-following llama model",
    "authors": [
@@ -1096,7 +1064,7 @@
    ],
    "container": null,
    "type": null,
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED_URL",
    "via": "url",
    "url_status": {
@@ -1113,7 +1081,7 @@
       "first_author": null,
       "container": "",
       "type": "edited-book",
-      "score": 34.078514
+      "score": 34.086143
      },
      "metrics": {
       "title_sim": 72.72727272727272,
@@ -1127,7 +1095,7 @@
   },
   {
    "junk": false,
-   "idx": 22,
+   "idx": 25,
    "raw": "Adly Templeton, Tom Conerly, Jonathan Marcus, Jack Lindsey, Trenton Bricken, Brian Chen, Adam Pearce, Craig Citro, Emmanuel Ameisen, Andy Jones, et al. Scaling monosemanticity: Extracting interpretable features from claude 3 sonnet. Anthropic, 2024.",
    "title": "Scaling monosemanticity: Extracting interpretable features from claude 3 sonnet",
    "authors": [
@@ -1148,7 +1116,7 @@
    "urls": [],
    "container": "Anthropic",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "evidence": [
     {
@@ -1161,7 +1129,7 @@
       "first_author": "Xie",
       "container": "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 2: Short Papers)",
       "type": "proceedings-article",
-      "score": 27.73318
+      "score": 27.736305
      },
      "metrics": {
       "title_sim": 68.78980891719745,
@@ -1199,7 +1167,7 @@
   },
   {
    "junk": false,
-   "idx": 23,
+   "idx": 26,
    "raw": "Kevin Wang, Alexandre Variengien, Arthur Conmy, Buck Shlegeris, and Jacob Steinhardt. Interpretability in the wild: a circuit for indirect object identification in gpt-2 small. arXiv preprint arXiv:2211.00593, 2022.",
    "title": "Interpretability in the wild: a circuit for indirect object identification in gpt-2 small",
    "authors": [
@@ -1215,54 +1183,28 @@
    "urls": [],
    "container": null,
    "type": null,
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
-   "evidence": [
-    {
-     "step": "arxiv_id_not_found",
-     "arxiv": "2211.00593"
-    },
-    {
-     "step": "crossref_best_reject",
-     "rec": {
-      "source": "crossref",
-      "doi": "10.2139/ssrn.4085465",
-      "title": "A Novel Probabilistic Framework with Interpretability for Generator Coherency Identification",
-      "year": 2022,
-      "first_author": "Li",
-      "container": "",
-      "type": "posted-content",
-      "score": 23.384298
-     },
-     "metrics": {
-      "title_sim": 63.27683615819209,
-      "containment": 0.286,
-      "partial_ratio": 57.608695652173914,
-      "year_ok": true,
-      "first_author_ok": false
-     }
-    }
-   ],
-   "likely_match": null,
-   "via": "arxiv_id_repass",
+   "via": "arxiv_id",
    "match": {
-    "source": "arxiv_abs",
+    "source": "arxiv",
     "arxiv": "2211.00593",
     "title": "Interpretability in the Wild: a Circuit for Indirect Object Identification in GPT-2 small",
     "year": 2022,
-    "first_author": "Wang, Kevin"
+    "first_author": "Kevin Wang"
    },
    "metrics": {
     "title_sim": 100.0,
     "containment": 1.0,
     "partial_ratio": 100.0,
     "year_ok": true,
-    "first_author_ok": false
-   }
+    "first_author_ok": true
+   },
+   "evidence": []
   },
   {
    "junk": false,
-   "idx": 24,
+   "idx": 27,
    "raw": "Prateek Yadav, Derek Tam, Leshem Choshen, Colin Raffel, and Mohit Bansal. Ties-merging: Resolving interference when merging models. arXiv preprint arXiv:2306.01708, 2023.",
    "title": "Ties-merging: Resolving interference when merging models",
    "authors": [
@@ -1278,18 +1220,15 @@
    "urls": [],
    "container": null,
    "type": null,
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
-   "via": "crossref",
+   "via": "arxiv_id",
    "match": {
-    "source": "crossref",
-    "doi": "10.52202/075280-0310",
+    "source": "arxiv",
+    "arxiv": "2306.01708",
     "title": "TIES-Merging: Resolving Interference When Merging Models",
     "year": 2023,
-    "first_author": "Yadav",
-    "container": "Advances in Neural Information Processing Systems 36",
-    "type": "proceedings-article",
-    "score": 76.47259
+    "first_author": "Prateek Yadav"
    },
    "metrics": {
     "title_sim": 100.0,
@@ -1298,16 +1237,11 @@
     "year_ok": true,
     "first_author_ok": true
    },
-   "evidence": [
-    {
-     "step": "arxiv_id_not_found",
-     "arxiv": "2306.01708"
-    }
-   ]
+   "evidence": []
   },
   {
    "junk": false,
-   "idx": 25,
+   "idx": 28,
    "raw": "Le Yu, Bowen Xiang, Haiyang Ding, Jingren Hu, Chengming Yuan, Yatao Yang, Qianyu Chen, Yonghua Han, and Jingren Yuan. Language models are super mario: Absorbing abilities from homologous models as a free lunch. arXiv preprint arXiv:2311.03099, 2023.",
    "title": "Language models are super mario: Absorbing abilities from homologous models as a free lunch",
    "authors": [
@@ -1327,49 +1261,15 @@
    "urls": [],
    "container": null,
    "type": null,
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
-   "evidence": [
-    {
-     "step": "arxiv_id_not_found",
-     "arxiv": "2311.03099"
-    },
-    {
-     "step": "crossref_best_reject",
-     "rec": {
-      "source": "crossref",
-      "doi": "10.18653/v1/2025.emnlp-industry.141",
-      "title": "LLMInit: A Free Lunch from Large Language Models for Selective Initialization of Recommendation",
-      "year": 2025,
-      "first_author": "Zhang",
-      "container": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing: Industry Track",
-      "type": "proceedings-article",
-      "score": 34.63562
-     },
-     "metrics": {
-      "title_sim": 63.27683615819209,
-      "containment": 0.444,
-      "partial_ratio": 50.0,
-      "year_ok": false,
-      "first_author_ok": false
-     }
-    }
-   ],
-   "likely_match": null,
-   "via": "s2",
+   "via": "arxiv_id",
    "match": {
-    "source": "s2",
-    "id": "c0230760f644f6b7538d93e4296a5e9aa7028e45",
+    "source": "arxiv",
+    "arxiv": "2311.03099",
     "title": "Language Models are Super Mario: Absorbing Abilities from Homologous Models as a Free Lunch",
     "year": 2023,
-    "first_author": "Le Yu",
-    "container": "International Conference on Machine Learning",
-    "ext": {
-     "DBLP": "conf/icml/Yu0Y0L24",
-     "ArXiv": "2311.03099",
-     "DOI": "10.48550/arXiv.2311.03099",
-     "CorpusId": 265034087
-    }
+    "first_author": "Le Yu"
    },
    "metrics": {
     "title_sim": 100.0,
@@ -1378,11 +1278,11 @@
     "year_ok": true,
     "first_author_ok": true
    },
-   "second_pass_hit": true
+   "evidence": []
   },
   {
    "junk": false,
-   "idx": 26,
+   "idx": 29,
    "raw": "Ningyu Zhang, Yunzhi Yao, Bozhong Tian, Peng Wang, Shumin Deng, Mengru Wang, Zekun Xi, Shengyu Mao, Jintian Zhang, Yuansheng Ni, et al. A comprehensive study of knowledge editing for large language models. arXiv preprint arXiv:2401.01286, 2024.",
    "title": "A comprehensive study of knowledge editing for large language models",
    "authors": [
@@ -1403,32 +1303,24 @@
    "urls": [],
    "container": null,
    "type": null,
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
-   "via": "crossref",
+   "via": "arxiv_id",
    "match": {
-    "source": "crossref",
-    "doi": "10.1109/smartiot62235.2024.00092",
-    "title": "Learning from Mistakes: A Comprehensive Review of Knowledge Editing for Large Language Models",
+    "source": "arxiv",
+    "arxiv": "2401.01286",
+    "title": "A Comprehensive Study of Knowledge Editing for Large Language Models",
     "year": 2024,
-    "first_author": "Li",
-    "container": "2024 IEEE International Conference on Smart Internet of Things (SmartIoT)",
-    "type": "proceedings-article",
-    "score": 38.31966
+    "first_author": "Ningyu Zhang"
    },
    "metrics": {
-    "title_sim": 95.38461538461539,
-    "containment": 0.667,
-    "partial_ratio": 78.26086956521739,
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
     "year_ok": true,
-    "first_author_ok": false
+    "first_author_ok": true
    },
-   "evidence": [
-    {
-     "step": "arxiv_id_not_found",
-     "arxiv": "2401.01286"
-    }
-   ]
+   "evidence": []
   }
  ],
  "second_pass": true,

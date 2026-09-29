@@ -1,0 +1,1523 @@
+{
+ "pdf": "308_S8uzdZvStA.pdf",
+ "n_entries": 32,
+ "fallback": false,
+ "error": null,
+ "linenumbers_stripped": true,
+ "parser_version": 3,
+ "entries": [
+  {
+   "junk": false,
+   "idx": 1,
+   "raw": "References Isra Al-Turaiki and Najwa Altwaijry. Network intrusion detection using convolutional neural networks for representation learning. Neural Computing and Applications, 33(24):17055\u201317070, 2021.",
+   "title": "Network intrusion detection using convolutional neural networks for representation learning",
+   "authors": [
+    "Al-Turaiki",
+    "Altwaijry"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Neural Computing and Applications",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.3837/tiis.2018.10.028",
+      "title": "Enhanced Network Intrusion Detection using Deep Convolutional Neural Networks",
+      "year": 2018,
+      "first_author": null,
+      "container": "KSII Transactions on Internet and Information Systems",
+      "type": "journal-article",
+      "score": 44.218086
+     },
+     "metrics": {
+      "title_sim": 90.0,
+      "containment": 0.75,
+      "partial_ratio": 84.4155844155844,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "Muhammad Ali, Low Tang Jung, Abdel-Haleem Abdel-Aty, Maisarah Yasmin Abubakar, Mohamed Elhoseny, and Ishtiaq Ali. Comparative analysis of machine learning and deep learning algorithms for network intrusion detection. IEEE Access, 13:3456\u20133478, 2025.",
+   "title": "Comparative analysis of machine learning and deep learning algorithms for network intrusion detection",
+   "authors": [
+    "Ali",
+    "Jung",
+    "Abdel-Aty",
+    "Abubakar",
+    "Elhoseny",
+    "Ali"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE Access",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.28925/2663-4023.2026.32.1115",
+    "title": "COMPARATIVE ANALYSIS OF DEEP AND MACHINE LEARNING METHODS FOR NETWORK INTRUSION DETECTION",
+    "year": 2026,
+    "first_author": "Rykhva",
+    "container": "Cybersecurity Education Science Technique",
+    "type": "journal-article",
+    "score": 50.72915
+   },
+   "metrics": {
+    "title_sim": 95.29411764705883,
+    "containment": 0.889,
+    "partial_ratio": 73.03370786516854,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "Giuseppina Andresini, Annalisa Appice, and Donato Malerba. Insomnia: Towards concept-drift robustness in network intrusion detection. In Proceedings of the 14th ACM workshop on artificial intelligence and security, pages 111\u2013122, 2021.",
+   "title": "Insomnia: Towards concept-drift robustness in network intrusion detection",
+   "authors": [
+    "Andresini",
+    "Appice",
+    "Malerba"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 14th ACM workshop on artificial intelligence and security",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.7042179",
+      "title": "Adversarial Robustness in Network Intrusion Detection Systems",
+      "year": 2026,
+      "first_author": "Briggt",
+      "container": "",
+      "type": "posted-content",
+      "score": 34.380203
+     },
+     "metrics": {
+      "title_sim": 80.3921568627451,
+      "containment": 0.667,
+      "partial_ratio": 78.68852459016394,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "1934d3009456e6baddae344995eb4634234beede",
+    "title": "INSOMNIA: Towards Concept-Drift Robustness in Network Intrusion Detection",
+    "year": 2021,
+    "first_author": "Giuseppina Andresini",
+    "container": "AISec@CCS",
+    "ext": {
+     "DBLP": "conf/ccs/AndresiniPPLAC21",
+     "DOI": "10.1145/3474369.3486864",
+     "CorpusId": 240001863
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "Mert Bedir T\u00fcz\u00fcn. Network intrusion detection system with incremental active learning. MSc Thesis, Middle East Technical University, 2022.",
+   "title": "Network intrusion detection system with incremental active learning",
+   "authors": [
+    "T\u00fcz\u00fcn"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "thesis",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/978-3-031-57942-4_33",
+    "title": "Network Intrusion Detection with\u00a0Incremental Active Learning",
+    "year": 2024,
+    "first_author": "T\u00fcz\u00fcn",
+    "container": "Lecture Notes on Data Engineering and Communications Technologies",
+    "type": "book-chapter",
+    "score": 38.50669
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 88.33333333333333,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "Miel Bouke, Mitchell Dekker, Willem Noom, and Marcel Reinders. Pattern-based leakage and feature drift in intrusion detection system datasets. arXiv preprint arXiv:2310.00389, 2023.",
+   "title": "Pattern-based leakage and feature drift in intrusion detection system datasets",
+   "authors": [
+    "Bouke",
+    "Dekker",
+    "Noom",
+    "Reinders"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": "2310.00389",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.31838/jcr.07.05.241",
+      "title": "Feature reduction based on Sequential pattern matching to detect worm hole attack in Intrusion detection system",
+      "year": 2020,
+      "first_author": null,
+      "container": "Journal of critical reviews",
+      "type": "journal-article",
+      "score": 35.369648
+     },
+     "metrics": {
+      "title_sim": 79.06976744186046,
+      "containment": 0.462,
+      "partial_ratio": 54.95495495495495,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    },
+    {
+     "step": "arxiv_id_resolves_title_mismatch",
+     "rec": {
+      "source": "arxiv_abs",
+      "arxiv": "2310.00389",
+      "title": "Magneto-optical trap reaction microscope for photoionization of cold strontium atoms",
+      "year": 2023,
+      "first_author": "Ruan, Shushu"
+     },
+     "metrics": {
+      "title_sim": 41.9753086419753,
+      "containment": 0.0,
+      "partial_ratio": 42.85714285714286,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "Shaked Brody, Uri Alon, and Eran Yahav. How attentive are graph attention networks? arXiv preprint arXiv:2105.14491, 2021.",
+   "title": "How attentive are graph attention networks?",
+   "authors": [
+    "Brody",
+    "Alon",
+    "Yahav"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": "2105.14491",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2105.14491"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1016/j.adhoc.2020.102383",
+      "title": "Recommending irregular regions using graph attentive networks",
+      "year": 2021,
+      "first_author": "Xu",
+      "container": "Ad Hoc Networks",
+      "type": "journal-article",
+      "score": 31.701149
+     },
+     "metrics": {
+      "title_sim": 72.72727272727272,
+      "containment": 0.5,
+      "partial_ratio": 54.0983606557377,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "ab30672c8c5e4787f6a5985f26a8f281f0db2fb8",
+    "title": "How Attentive are Graph Attention Networks?",
+    "year": 2021,
+    "first_author": "Shaked Brody",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "DBLP": "journals/corr/abs-2105-14491",
+     "ArXiv": "2105.14491",
+     "CorpusId": 235254358
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "Evan Caville, Wai Weng Lo, Siamak Layeghy, and Marius Portmann. Anomal-e: A self-supervised network intrusion detection system based on graph neural networks. In IEEE International Conference on Communications. IEEE, 2022.",
+   "title": "Anomal-e: A self-supervised network intrusion detection system based on graph neural networks",
+   "authors": [
+    "Caville",
+    "Lo",
+    "Layeghy",
+    "Portmann"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE International Conference on Communications",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.knosys.2022.110030",
+    "title": "Anomal-E: A self-supervised network intrusion detection system based on graph neural networks",
+    "year": 2022,
+    "first_author": "Caville",
+    "container": "Knowledge-Based Systems",
+    "type": "journal-article",
+    "score": 85.50207
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "Cisco Systems. Network digital twins: From concept to reality. Cisco Live 2025 Presentation, 2025.",
+   "title": "Network digital twins: From concept to reality",
+   "authors": [
+    "Systems"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Cisco Live",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.55938/wlp.v2i7.308",
+      "title": "Introduction to Plant Digital Twins: Concept and Evolution",
+      "year": 2025,
+      "first_author": "Yadav",
+      "container": "Plant Digital Twins: The Fusion of Biology and Artificial Intelligence",
+      "type": "book-chapter",
+      "score": 31.055637
+     },
+     "metrics": {
+      "title_sim": 69.56521739130434,
+      "containment": 0.5,
+      "partial_ratio": 61.40350877192983,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "Communications Security Establishment and Canadian Institute for Cybersecurity. Cse-cic-ids2018 on aws. Registry of Open Data on AWS, 2018. https://www.unb.ca/cic/datasets/ids-2018.html. Yarin Gal and Zoubin Ghahramani. Dropout as a bayesian approximation: Representing model uncertainty in deep learning. In International conference on machine learning, pages 1050\u20131059. PMLR, 2016.",
+   "title": "Communications Security Establishment and Canadian Institute for Cybersecurity. Cse-cic-ids2018 on aws",
+   "authors": [
+    "Gal",
+    "Ghahramani"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://www.unb.ca/cic/datasets/ids-2018.html"
+   ],
+   "container": "International conference on machine learning",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED_URL",
+   "via": "url",
+   "url_status": {
+    "https://www.unb.ca/cic/datasets/ids-2018.html": 200
+   },
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.7717/peerj-cs.749/table-3",
+      "title": "Table 3: Selected features for signal categorization, CIC-IDS2017 and CSE-CIC-IDS2018 datasets.",
+      "year": 2021,
+      "first_author": null,
+      "container": "",
+      "type": "component",
+      "score": 48.947796
+     },
+     "metrics": {
+      "title_sim": 55.026455026455025,
+      "containment": 0.455,
+      "partial_ratio": 47.82608695652174,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "Will Hamilton, Zhitao Ying, and Jure Leskovec. Inductive representation learning on large graphs. In Advances in neural information processing systems, pages 1024\u20131034, 2017.",
+   "title": "Inductive representation learning on large graphs",
+   "authors": [
+    "Hamilton",
+    "Ying",
+    "Leskovec"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in neural information processing systems",
+   "type": "chapter",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.21203/rs.3.rs-3972512/v1",
+      "title": "Unsupervised Inductive node representation learning for dynamic graphs",
+      "year": 2024,
+      "first_author": "Zhou",
+      "container": "",
+      "type": "posted-content",
+      "score": 34.134594
+     },
+     "metrics": {
+      "title_sim": 89.88764044943821,
+      "containment": 0.571,
+      "partial_ratio": 71.42857142857143,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "6b7d6e6416343b2a122f8416e69059ce919026ef",
+    "title": "Inductive Representation Learning on Large Graphs",
+    "year": 2017,
+    "first_author": "William L. Hamilton",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "MAG": "2624431344",
+     "DBLP": "conf/nips/HamiltonYL17",
+     "ArXiv": "1706.02216",
+     "CorpusId": 4755450
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "Tom R Henderson and George F Riley. ns-3 Network Simulator in Practice. CreateSpace Independent Publishing Platform, 2020.",
+   "title": "ns-3 Network Simulator in Practice",
+   "authors": [
+    "Henderson",
+    "Riley"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": "book",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/978-3-642-12331-3_2",
+      "title": "The ns-3 Network Simulator",
+      "year": 2010,
+      "first_author": "Riley",
+      "container": "Modeling and Tools for Network Simulation",
+      "type": "book-chapter",
+      "score": 35.186893
+     },
+     "metrics": {
+      "title_sim": 91.66666666666667,
+      "containment": 1.0,
+      "partial_ratio": 92.3076923076923,
+      "year_ok": false,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "IEEE Network. Call for papers: Ieee network special issue on network digital twins. IEEE Network, 2024. https://www.comsoc.org/publications/magazines/ieee-network/cfp/network-digital-twins. Sydney M Kasongo and Yanxia Sun. Performance analysis of intrusion detection systems using a feature selection method on the unsw-nb15 dataset. Journal of Big Data, 7(1):1\u201320, 2020.",
+   "title": "Call for papers: Ieee network special issue on network digital twins",
+   "authors": [
+    "Network",
+    "Kasongo",
+    "Sun"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://www.comsoc.org/publications/magazines/ieee-network/cfp/network-digital-twins"
+   ],
+   "container": "IEEE Network",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/mnet.2005.1383437",
+      "title": "IEEE Network Magazine - Call for Papers - Special Issue on: Multimedia over Broadband Wireless Networks",
+      "year": 2005,
+      "first_author": null,
+      "container": "IEEE Network",
+      "type": "journal-article",
+      "score": 57.879276
+     },
+     "metrics": {
+      "title_sim": 86.53846153846153,
+      "containment": 0.545,
+      "partial_ratio": 68.06282722513089,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    },
+    {
+     "step": "urls_not_live",
+     "url_status": {
+      "https://www.comsoc.org/publications/magazines/ieee-network/cfp/network-digital-twins": 404
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 13,
+   "raw": "Nickolaos Koroniotis, Nour Moustafa, Elena Sitnikova, and Benjamin Turnbull. Towards the development of realistic botnet dataset in the internet of things for network forensic analytics: Bot-iot dataset. Future Generation Computer Systems, 100:779\u2013796, 2019.",
+   "title": "Towards the development of realistic botnet dataset in the internet of things for network forensic analytics: Bot-iot dataset",
+   "authors": [
+    "Koroniotis",
+    "Moustafa",
+    "Sitnikova",
+    "Turnbull"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Future Generation Computer Systems",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.future.2019.05.041",
+    "title": "Towards the development of realistic botnet dataset in the Internet of Things for network forensic analytics: Bot-IoT dataset",
+    "year": 2019,
+    "first_author": "Koroniotis",
+    "container": "Future Generation Computer Systems",
+    "type": "journal-article",
+    "score": 100.65173
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "Dominik Kus, Eric Wagner, Jan Pennekamp, Konrad Wolsing, Ina Berenice Fink, Markus Dahlmanns, Klaus Wehrle, and Martin Henze. A false sense of security? revisiting the state of machine learning-based industrial intrusion detection. arXiv preprint arXiv:2205.09199, 2022.",
+   "title": "A false sense of security? revisiting the state of machine learning-based industrial intrusion detection",
+   "authors": [
+    "Kus",
+    "Wagner",
+    "Pennekamp",
+    "Wolsing",
+    "Fink",
+    "Dahlmanns",
+    "Wehrle",
+    "Henze"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": "2205.09199",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3494107.3522773",
+    "title": "A False Sense of Security?",
+    "year": 2022,
+    "first_author": "Kus",
+    "container": "Proceedings of the 8th ACM on Cyber-Physical System Security Workshop",
+    "type": "proceedings-article",
+    "score": 70.335785
+   },
+   "metrics": {
+    "title_sim": 39.0625,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2205.09199"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "Balaji Lakshminarayanan, Alexander Pritzel, and Charles Blundell. Simple and scalable predictive uncertainty estimation using deep ensembles. Advances in neural information processing systems, 30, 2017.",
+   "title": "Simple and scalable predictive uncertainty estimation using deep ensembles",
+   "authors": [
+    "Lakshminarayanan",
+    "Pritzel",
+    "Blundell"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in neural information processing systems",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.3390/w8040125",
+      "title": "Predictive Uncertainty Estimation of Hydrological Multi-Model Ensembles Using Pair-Copula Construction",
+      "year": 2016,
+      "first_author": "Klein",
+      "container": "Water",
+      "type": "journal-article",
+      "score": 33.345276
+     },
+     "metrics": {
+      "title_sim": 79.67479674796748,
+      "containment": 0.4,
+      "partial_ratio": 62.745098039215684,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "802168a81571dde28f5ddb94d84677bc007afa7b",
+    "title": "Simple and Scalable Predictive Uncertainty Estimation using Deep Ensembles",
+    "year": 2016,
+    "first_author": "Balaji Lakshminarayanan",
+    "container": "Neural Information Processing Systems",
+    "ext": {
+     "MAG": "2560321925",
+     "DBLP": "journals/corr/Lakshminarayanan16c",
+     "ArXiv": "1612.01474",
+     "CorpusId": 6294674
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 16,
+   "raw": "Kenton Lee, Michael Laskey, Siddharth Roy, Anna Lee, Anca Dragan, and Ken Goldberg. Plato: Policy learning using adaptive trajectory optimization. In 2018 IEEE International Conference on Robotics and Automation (ICRA), pages 7752\u20137759. IEEE, 2018.",
+   "title": "Plato: Policy learning using adaptive trajectory optimization",
+   "authors": [
+    "Lee",
+    "Laskey",
+    "Roy",
+    "Lee",
+    "Dragan",
+    "Goldberg"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "2018 IEEE International Conference on Robotics and Automation (ICRA",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/icra.2017.7989379",
+    "title": "PLATO: Policy learning using adaptive trajectory optimization",
+    "year": 2017,
+    "first_author": "Kahn",
+    "container": "2017 IEEE International Conference on Robotics and Automation (ICRA)",
+    "type": "proceedings-article",
+    "score": 43.756546
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 17,
+   "raw": "Joffrey L Leevy and Taghi M Khoshgoftaar. A survey of deep learning for network intrusion detection. Big Data, 8(2):151\u2013165, 2020.",
+   "title": "A survey of deep learning for network intrusion detection",
+   "authors": [
+    "Leevy",
+    "Khoshgoftaar"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Big Data",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.jnca.2020.102767",
+    "title": "Deep learning methods in network intrusion detection: A survey and an objective comparison",
+    "year": 2020,
+    "first_author": "Gamage",
+    "container": "Journal of Network and Computer Applications",
+    "type": "journal-article",
+    "score": 39.062992
+   },
+   "metrics": {
+    "title_sim": 93.45794392523365,
+    "containment": 0.667,
+    "partial_ratio": 62.5,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 18,
+   "raw": "Gabriel Maci\u00e1-Fern\u00e1ndez, Jos\u00e9 Camacho, Roberto Mag\u00e1n-Carri\u00f3n, Pedro Garc\u00eda-Teodoro, and Roberto Ther\u00f3n. Ugr\u201916: A new dataset for the evaluation of cyclostationarity-based network idss. Computers & Security, 73:411\u2013424, 2018.",
+   "title": "Ugr\u201916: A new dataset for the evaluation of cyclostationarity-based network idss",
+   "authors": [
+    "Maci\u00e1-Fern\u00e1ndez",
+    "Camacho",
+    "Mag\u00e1n-Carri\u00f3n",
+    "Garc\u00eda-Teodoro",
+    "Ther\u00f3n"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Computers & Security",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.cose.2017.11.004",
+    "title": "UGR\u201816: A new dataset for the evaluation of cyclostationarity-based network IDSs",
+    "year": 2018,
+    "first_author": "Maci\u00e1-Fern\u00e1ndez",
+    "container": "Computers &amp; Security",
+    "type": "journal-article",
+    "score": 81.46812
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 19,
+   "raw": "Omid Madani, Sai Ankith Averineni, and Shashidhar Gandham. A dataset of networks of computing hosts. In Proceedings of the 2022 ACM on International Workshop on Security and Privacy Analytics, pages 100\u2013104. ACM, 2022.",
+   "title": "A dataset of networks of computing hosts",
+   "authors": [
+    "Madani",
+    "Averineni",
+    "Gandham"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 2022 ACM on International Workshop on Security and Privacy Analytics",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3510548.3519368",
+    "title": "A Dataset of Networks of Computing Hosts",
+    "year": 2022,
+    "first_author": "Madani",
+    "container": "Proceedings of the 2022 ACM on International Workshop on Security and Privacy Analytics",
+    "type": "proceedings-article",
+    "score": 39.650097
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 20,
+   "raw": "Jacqueline Mahmood et al. Enhancing trustworthiness in ml-based network intrusion detection with uncertainty quantification. arXiv preprint arXiv:2407.08956, 2024.",
+   "title": "Enhancing trustworthiness in ml-based network intrusion detection with uncertainty quantification",
+   "authors": [
+    "Mahmood"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2407.08956",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/s40860-024-00238-8",
+    "title": "Enhancing trustworthiness in ML-based network intrusion detection with uncertainty quantification",
+    "year": 2024,
+    "first_author": "Talpini",
+    "container": "Journal of Reliable Intelligent Environments",
+    "type": "journal-article",
+    "score": 61.441055
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2407.08956"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 21,
+   "raw": "Nathan Mani, Melody Moh, and Teng-Sheng Moh. Dcg-nids: Deep contrastive graph network for network intrusion detection. IEEE Access, 11:89234\u201389248, 2023.",
+   "title": "Dcg-nids: Deep contrastive graph network for network intrusion detection",
+   "authors": [
+    "Mani",
+    "Moh",
+    "Moh"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE Access",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.5220/0012080000003555",
+      "title": "ZT-NIDS: Zero Trust, Network Intrusion Detection System",
+      "year": 2023,
+      "first_author": "Alalmaie",
+      "container": "Proceedings of the 20th International Conference on Security and Cryptography",
+      "type": "proceedings-article",
+      "score": 49.663303
+     },
+     "metrics": {
+      "title_sim": 75.29411764705883,
+      "containment": 0.571,
+      "partial_ratio": 69.81132075471699,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 22,
+   "raw": "Nour Moustafa. A new distributed architecture for evaluating ai-based security systems at the edge: Network ton_iot datasets. Sustainable Cities and Society, 72:102994, 2021.",
+   "title": "A new distributed architecture for evaluating ai-based security systems at the edge: Network ton_iot datasets",
+   "authors": [
+    "Moustafa"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Sustainable Cities and Society",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.scs.2021.102994",
+    "title": "A new distributed architecture for evaluating AI-based security systems at the edge: Network TON_IoT datasets",
+    "year": 2021,
+    "first_author": "Moustafa",
+    "container": "Sustainable Cities and Society",
+    "type": "journal-article",
+    "score": 72.490204
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 23,
+   "raw": "Nour Moustafa and Jill Slay. Unsw-nb15: a comprehensive data set for network intrusion detection systems (unsw-nb15 network data set). In 2015 military communications and information systems conference (MilCIS), pages 1\u20136. IEEE, 2015.",
+   "title": "Unsw-nb15: a comprehensive data set for network intrusion detection systems (unsw-nb15 network data set",
+   "authors": [
+    "Moustafa",
+    "Slay"
+   ],
+   "year": 2015,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "2015 military communications and information systems conference (MilCIS",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/milcis.2015.7348942",
+    "title": "UNSW-NB15: a comprehensive data set for network intrusion detection systems (UNSW-NB15 network data set)",
+    "year": 2015,
+    "first_author": "Moustafa",
+    "container": "2015 Military Communications and Information Systems Conference (MilCIS)",
+    "type": "proceedings-article",
+    "score": 154.12073
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 24,
+   "raw": "Stanford Network Analysis Project. Cisco networks dataset. https://snap.stanford.edu/data/ cisco-networks.html, 2022. Accessed: 2024. Dorsa Sadigh, Shankar Sastry, Sanjit A Seshia, and Anca D Dragan. Planning for autonomous cars that leverage effects on human actions. In Robotics: Science and Systems, volume 2, pages 1\u20139, 2016.",
+   "title": "Cisco networks dataset",
+   "authors": [
+    "Project",
+    "Sadigh",
+    "Sastry",
+    "Seshia",
+    "Dragan"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://snap.stanford.edu/data/"
+   ],
+   "container": "Robotics: Science and Systems",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED_URL",
+   "via": "url",
+   "url_status": {
+    "https://snap.stanford.edu/data/": 200
+   },
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1016/b978-1-928994-13-8.x5000-3",
+      "title": "Building Cisco Remote Access Networks",
+      "year": 2000,
+      "first_author": null,
+      "container": "",
+      "type": "edited-book",
+      "score": 23.756739
+     },
+     "metrics": {
+      "title_sim": 77.77777777777777,
+      "containment": 0.4,
+      "partial_ratio": 51.35135135135135,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 25,
+   "raw": "Iman Sharafaldin, Arash Habibi Lashkari, and Ali A Ghorbani. Toward generating a new intrusion detection dataset and intrusion traffic characterization. In 4th International Conference on Information Systems Security and Privacy (ICISSP), pages 108\u2013116, 2018.",
+   "title": "Toward generating a new intrusion detection dataset and intrusion traffic characterization",
+   "authors": [
+    "Sharafaldin",
+    "Lashkari",
+    "Ghorbani"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "4th International Conference on Information Systems Security and Privacy (ICISSP",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.5220/0006639801080116",
+    "title": "Toward Generating a New Intrusion Detection Dataset and Intrusion Traffic Characterization",
+    "year": 2018,
+    "first_author": "Sharafaldin",
+    "container": "Proceedings of the 4th International Conference on Information Systems Security and Privacy",
+    "type": "proceedings-article",
+    "score": 91.42488
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 26,
+   "raw": "Yaraq Abdulhameed Shyaa and Noor Farizah Abdul-Hassan. A comprehensive survey on concept drift and feature drift in data stream mining: Evolution, taxonomy, and future directions. Artificial Intelligence Review, 57(12):345, 2024.",
+   "title": "A comprehensive survey on concept drift and feature drift in data stream mining: Evolution, taxonomy, and future directions",
+   "authors": [
+    "Shyaa",
+    "Abdul-Hassan"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Artificial Intelligence Review",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/s10462-025-11428-y",
+      "title": "Concept drift detection in image data stream: a survey on current literature, limitations and future directions",
+      "year": 2025,
+      "first_author": "Tran",
+      "container": "Artificial Intelligence Review",
+      "type": "journal-article",
+      "score": 50.57104
+     },
+     "metrics": {
+      "title_sim": 76.7123287671233,
+      "containment": 0.583,
+      "partial_ratio": 62.38532110091744,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 27,
+   "raw": "Stanford Network Analysis Project. Cisco secure workload networks of computing hosts. https: //snap.stanford.edu/data/cisco-networks.html, 2024. Accessed: 2024.",
+   "title": "Stanford Network Analysis Project. Cisco secure workload networks of computing hosts",
+   "authors": [],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https:"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1016/s1353-4858(03)00603-2",
+      "title": "Cisco self-protecting networks",
+      "year": 2003,
+      "first_author": null,
+      "container": "Network Security",
+      "type": "journal-article",
+      "score": 29.049232
+     },
+     "metrics": {
+      "title_sim": 38.93805309734514,
+      "containment": 0.5,
+      "partial_ratio": 66.66666666666667,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    },
+    {
+     "step": "urls_not_live",
+     "url_status": {
+      "https:": "error"
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 28,
+   "raw": "Mahbod Tavallaee, Ebrahim Bagheri, Wei Lu, and Ali A Ghorbani. A detailed analysis of the kdd cup 99 data set. In 2009 IEEE symposium on computational intelligence for security and defense applications, pages 1\u20136. IEEE, 2009.",
+   "title": "A detailed analysis of the kdd cup 99 data set",
+   "authors": [
+    "Tavallaee",
+    "Bagheri",
+    "Lu",
+    "Ghorbani"
+   ],
+   "year": 2009,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "2009 IEEE symposium on computational intelligence for security and defense applications",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/cisda.2009.5356528",
+    "title": "A detailed analysis of the KDD CUP 99 data set",
+    "year": 2009,
+    "first_author": "Tavallaee",
+    "container": "2009 IEEE Symposium on Computational Intelligence for Security and Defense Applications",
+    "type": "proceedings-article",
+    "score": 67.22599
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 29,
+   "raw": "Petar Velickovic, Guillem Cucurull, Arantxa Casanova, Adriana Romero, Pietro Lio, and Yoshua Bengio. Graph attention networks. In International conference on learning representations, 2018.",
+   "title": "Graph attention networks",
+   "authors": [
+    "Velickovic",
+    "Cucurull",
+    "Casanova",
+    "Romero",
+    "Lio",
+    "Bengio"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International conference on learning representations",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.14711/thesis-991012757468803412",
+      "title": "AHEG : attention-based heterogeneous graph convolutional networks",
+      "year": 2020,
+      "first_author": "Zhang",
+      "container": "",
+      "type": "dissertation",
+      "score": 25.943626
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 0.429,
+      "partial_ratio": 57.14285714285714,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "33998aff64ce51df8dee45989cdca4b6b1329ec4",
+    "title": "Graph Attention Networks",
+    "year": 2017,
+    "first_author": "Petar Velickovic",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "MAG": "2766453196",
+     "DBLP": "journals/corr/abs-1710-10903",
+     "ArXiv": "1710.10903",
+     "DOI": "10.17863/CAM.48429",
+     "CorpusId": 3292002
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 30,
+   "raw": "Keyulu Xu, Weihua Hu, Jure Leskovec, and Stefanie Jegelka. How powerful are graph neural networks? In International conference on learning representations, 2019.",
+   "title": "How powerful are graph neural networks?",
+   "authors": [
+    "Xu",
+    "Hu",
+    "Leskovec",
+    "Jegelka"
+   ],
+   "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "International conference on learning representations",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.52202/068431-0345",
+      "title": "How Powerful Are K-Hop Message Passing Graph Neural Networks",
+      "year": 2022,
+      "first_author": "Feng",
+      "container": "Advances in Neural Information Processing Systems 35",
+      "type": "proceedings-article",
+      "score": 33.95136
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 0.625,
+      "partial_ratio": 63.33333333333333,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "62ed9bf1d83c8db1f9cbf92ea2f57ea90ef683d9",
+    "title": "How Powerful are Graph Neural Networks?",
+    "year": 2018,
+    "first_author": "Keyulu Xu",
+    "container": "International Conference on Learning Representations",
+    "ext": {
+     "MAG": "2950468517",
+     "ArXiv": "1810.00826",
+     "DBLP": "journals/corr/abs-1810-00826",
+     "CorpusId": 52895589
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 31,
+   "raw": "Limin Yang, Wenbo Guo, Qingying Hao, Arridhana Ciptadi, Ali Ahmadzadeh, Xinyu Xing, and Gang Wang. Cade: Detecting and explaining concept drift samples for security applications. In 30th USENIX Security Symposium (USENIX Security 21), pages 2327\u20132344, 2021.",
+   "title": "Cade: Detecting and explaining concept drift samples for security applications",
+   "authors": [
+    "Yang",
+    "Guo",
+    "Hao",
+    "Ciptadi",
+    "Ahmadzadeh",
+    "Xing",
+    "Wang"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "30th USENIX Security Symposium (USENIX Security 21",
+   "type": "paper-conference",
+   "parser": "anystyle-find",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1201/9781003595533-5",
+      "title": "Detecting Concept Drift in Language Models",
+      "year": 2025,
+      "first_author": "Desale",
+      "container": "Concept Drift in Large Language Models",
+      "type": "book-chapter",
+      "score": 30.456398
+     },
+     "metrics": {
+      "title_sim": 70.76923076923077,
+      "containment": 0.6,
+      "partial_ratio": 61.904761904761905,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "2cf435278f4a3d44660d13e502b69bc0f1dbc539",
+    "title": "CADE: Detecting and Explaining Concept Drift Samples for Security Applications",
+    "year": 2021,
+    "first_author": "Limin Yang",
+    "container": "USENIX Security Symposium",
+    "ext": {
+     "DBLP": "conf/uss/Yang0HCAX021",
+     "CorpusId": 227947686
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 32,
+   "raw": "Ying Zhang, Bing Li, et al. Ssf: Accelerating continual learning for network intrusion detection with self-supervised features. IEEE Transactions on Network and Service Management, 2024.",
+   "title": "Ssf: Accelerating continual learning for network intrusion detection with self-supervised features",
+   "authors": [
+    "Zhang",
+    "Li"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "IEEE Transactions on Network and Service Management",
+   "type": "article-journal",
+   "parser": "anystyle-find",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/cisce62493.2024.10653325",
+      "title": "Mix-CL: Semi-Supervised Continual Learning for Network Intrusion Detection",
+      "year": 2024,
+      "first_author": "Tian",
+      "container": "2024 6th International Conference on Communications, Information System and Computer Engineering (CISCE)",
+      "type": "proceedings-article",
+      "score": 43.70424
+     },
+     "metrics": {
+      "title_sim": 91.04477611940298,
+      "containment": 0.75,
+      "partial_ratio": 80.82191780821918,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  }
+ ],
+ "second_pass": true,
+ "arxiv_repass": true
+}

@@ -1,15 +1,17 @@
 {
  "pdf": "203_4UmxrtV7eY.pdf",
- "n_entries": 5,
- "fallback": false,
+ "n_entries": 15,
+ "fallback": "indent-guided",
  "error": null,
  "linenumbers_stripped": true,
- "parser_version": 2,
+ "two_column": false,
+ "parser_version": 4,
+ "reprocessed": true,
  "entries": [
   {
    "junk": false,
    "idx": 1,
-   "raw": "References Robert Axelrod. The dissemination of culture: A model with local convergence and global polarization. Journal of conflict resolution, 41(2):203\u2013226, 1997.",
+   "raw": "Robert Axelrod. The dissemination of culture: A model with local convergence and global polarization. Journal of conflict resolution, 41(2):203\u2013226, 1997.",
    "title": "The dissemination of culture: A model with local convergence and global polarization",
    "authors": [
     "Axelrod"
@@ -20,7 +22,7 @@
    "urls": [],
    "container": "Journal of conflict resolution",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -31,7 +33,7 @@
     "first_author": "Axelrod",
     "container": "Journal of Conflict Resolution",
     "type": "journal-article",
-    "score": 59.788094
+    "score": 59.775436
    },
    "metrics": {
     "title_sim": 50.45045045045045,
@@ -45,63 +47,29 @@
   {
    "junk": false,
    "idx": 2,
-   "raw": "Lauro A. Barbosa and Jos\u00e9 F. Fontanari. Culture-area relation in axelrod\u2019s model for culture dissemination, 2009. URL https://arxiv.org/abs/0902.1346. P\u00e1draig Mac Carron, Paul J. Maher, Susan Fennell, Kevin Burke, James P. Gleeson, Kevin Durrheim, and Mike Quayle. Agreement threshold on axelrod\u2019s model of cultural dissemination, 2020. URL https://arxiv.org/abs/1911.05681. C. Gracia-Lazaro, L. F. Lafuerza, L. M. Floria, and Y. Moreno. Residential segregation and cultural dissemination: An axelrod-schelling model, 2009. URL https://arxiv.org/abs/0907.2360. Carlos Gracia-L\u00e1zaro, Edgardo Brigatti, Alexis R. Hern\u00e1ndez, and Yamir Moreno. Polarization inhibits the phase transition of axelrod\u2019s model, 2021. URL https://arxiv.org/abs/2102. 06921. Alexis R. Hernandez, Carlos Gracia-Lazaro, Edgardo Brigatti, and Yamir Moreno. Robustness of cultural communities in an open-ended axelrod\u2019s model, 2017. URL https://arxiv.org/abs/ 1707.06933. Luc\u00eda Pedraza, Sebasti\u00e1n Pinto, Juan Pablo Pinasco, and Pablo Balenzuela. A novel analytical formulation of the axelrod model, 2020. URL https://arxiv.org/abs/2006.15241. Lucas R. Peres and Jos\u00e9 F. Fontanari. Mass media destabilizes the cultural homogeneous regime in axelrod\u2019s model, 2009. URL https://arxiv.org/abs/0910.0866. Sebasti\u00e1n Pinto and Pablo Balenzuela. Erd\u00f6s-r\u00e9nyi phase transition in the axelrod model on complete graphs, 2020. URL https://arxiv.org/abs/1912.09420. Arezky H. Rodr\u00edguez and Y. Moreno. Effects of mass media action on the axelrod model with social influence, 2010. URL https://arxiv.org/abs/1002.4615.",
+   "raw": "Lauro A. Barbosa and Jos\u00e9 F. Fontanari. Culture-area relation in axelrod\u2019s model for culture dissemination, 2009. URL https://arxiv.org/abs/0902.1346.",
    "title": "Culture-area relation in axelrod\u2019s model for culture dissemination",
    "authors": [
     "Barbosa",
-    "Fontanari",
-    "Carron",
-    "Maher",
-    "Fennell",
-    "Burke",
-    "Gleeson",
-    "Durrheim",
-    "Quayle",
-    "Gracia-Lazaro",
-    "Lafuerza",
-    "Floria",
-    "Moreno",
-    "Gracia-L\u00e1zaro",
-    "Brigatti",
-    "Hern\u00e1ndez",
-    "Moreno",
-    "Hernandez",
-    "Gracia-Lazaro",
-    "Brigatti",
-    "Moreno",
-    "Pedraza",
-    "Pinto",
-    "Pinasco",
-    "Balenzuela"
+    "Fontanari"
    ],
    "year": 2009,
    "doi": null,
    "arxiv": "0902.1346",
    "urls": [
-    "https://arxiv.org/abs/0902.1346",
-    "https://arxiv.org/abs/1911.05681",
-    "https://arxiv.org/abs/0907.2360",
-    "https://arxiv.org/abs/",
-    "https://arxiv.org/abs/2006.15241",
-    "https://arxiv.org/abs/1912.09420",
-    "https://arxiv.org/abs/1002.4615",
-    "https://arxiv.org/abs/2102",
-    "https://arxiv.org/abs/0910.0866"
+    "https://arxiv.org/abs/0902.1346"
    ],
-   "container": "Mass media destabilizes the cultural homogeneous regime in axelrod\u2019s model, 2009. URL https://arxiv.org/abs/0910.0866. Sebasti\u00e1n Pinto and Pablo Balenzuela. Erd\u00f6s-r\u00e9nyi phase transition in the axelrod model on complete graphs",
-   "type": "article-journal",
-   "parser": "anystyle-find",
+   "container": null,
+   "type": null,
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
-   "via": "crossref",
+   "via": "arxiv_id",
    "match": {
-    "source": "crossref",
-    "doi": "10.1007/s12064-009-0066-z",
-    "title": "Culture\u2013area relation in Axelrod\u2019s model for culture dissemination",
+    "source": "arxiv",
+    "arxiv": "0902.1346",
+    "title": "Culture-area relation in Axelrod's model for culture dissemination",
     "year": 2009,
-    "first_author": "Barbosa",
-    "container": "Theory in Biosciences",
-    "type": "journal-article",
-    "score": 69.35548
+    "first_author": "Lauro A. Barbosa"
    },
    "metrics": {
     "title_sim": 100.0,
@@ -110,16 +78,318 @@
     "year_ok": true,
     "first_author_ok": true
    },
-   "evidence": [
-    {
-     "step": "arxiv_id_not_found",
-     "arxiv": "0902.1346"
-    }
-   ]
+   "evidence": []
   },
   {
    "junk": false,
    "idx": 3,
+   "raw": "P\u00e1draig Mac Carron, Paul J. Maher, Susan Fennell, Kevin Burke, James P. Gleeson, Kevin Durrheim, and Mike Quayle. Agreement threshold on axelrod\u2019s model of cultural dissemination, 2020. URL https://arxiv.org/abs/1911.05681.",
+   "title": "Agreement threshold on axelrod\u2019s model of cultural dissemination",
+   "authors": [
+    "Carron",
+    "Maher",
+    "Fennell",
+    "Burke",
+    "Gleeson",
+    "Durrheim",
+    "Quayle"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": "1911.05681",
+   "urls": [
+    "https://arxiv.org/abs/1911.05681"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "1911.05681",
+    "title": "Agreement Threshold on Axelrod's model of Cultural Dissemination",
+    "year": 2019,
+    "first_author": "P\u00e1draig Mac Carron"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "C. Gracia-Lazaro, L. F. Lafuerza, L. M. Floria, and Y. Moreno. Residential segregation and cultural dissemination: An axelrod-schelling model, 2009. URL https://arxiv.org/abs/0907.2360.",
+   "title": "Residential segregation and cultural dissemination: An axelrod-schelling model",
+   "authors": [
+    "Gracia-Lazaro",
+    "Lafuerza",
+    "Floria",
+    "Moreno"
+   ],
+   "year": 2009,
+   "doi": null,
+   "arxiv": "0907.2360",
+   "urls": [
+    "https://arxiv.org/abs/0907.2360"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "0907.2360",
+    "title": "Residential segregation and cultural dissemination: An Axelrod-Schelling model",
+    "year": 2009,
+    "first_author": "C. Gracia-Lazaro"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 5,
+   "raw": "Carlos Gracia-L\u00e1zaro, Edgardo Brigatti, Alexis R. Hern\u00e1ndez, and Yamir Moreno. Polarization inhibits the phase transition of axelrod\u2019s model, 2021. URL https://arxiv.org/abs/2102. 06921.",
+   "title": "Polarization inhibits the phase transition of axelrod\u2019s model",
+   "authors": [
+    "Gracia-L\u00e1zaro",
+    "Brigatti",
+    "Hern\u00e1ndez",
+    "Moreno"
+   ],
+   "year": 2021,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://arxiv.org/abs/2102"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1103/physreve.103.062306",
+    "title": "Polarization inhibits the phase transition of Axelrod's model",
+    "year": 2021,
+    "first_author": "Gracia-L\u00e1zaro",
+    "container": "Physical Review E",
+    "type": "journal-article",
+    "score": 51.880634
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 6,
+   "raw": "Alexis R. Hernandez, Carlos Gracia-Lazaro, Edgardo Brigatti, and Yamir Moreno. Robustness of cultural communities in an open-ended axelrod\u2019s model, 2017. URL https://arxiv.org/abs/ 1707.06933.",
+   "title": "Robustness of cultural communities in an open-ended axelrod\u2019s model",
+   "authors": [
+    "Hernandez",
+    "Gracia-Lazaro",
+    "Brigatti",
+    "Moreno"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://arxiv.org/abs/"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1016/j.physa.2018.06.023",
+    "title": "Robustness of cultural communities in an open-ended Axelrod\u2019s model",
+    "year": 2018,
+    "first_author": "Hern\u00e1ndez",
+    "container": "Physica A: Statistical Mechanics and its Applications",
+    "type": "journal-article",
+    "score": 49.41535
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "Luc\u00eda Pedraza, Sebasti\u00e1n Pinto, Juan Pablo Pinasco, and Pablo Balenzuela. A novel analytical formulation of the axelrod model, 2020. URL https://arxiv.org/abs/2006.15241.",
+   "title": "A novel analytical formulation of the axelrod model",
+   "authors": [
+    "Pedraza",
+    "Pinto",
+    "Pinasco",
+    "Balenzuela"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": "2006.15241",
+   "urls": [
+    "https://arxiv.org/abs/2006.15241"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2006.15241",
+    "title": "A novel analytical formulation of the Axelrod model",
+    "year": 2020,
+    "first_author": "Luc\u00eda Pedraza"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "Lucas R. Peres and Jos\u00e9 F. Fontanari. Mass media destabilizes the cultural homogeneous regime in axelrod\u2019s model, 2009. URL https://arxiv.org/abs/0910.0866.",
+   "title": "Mass media destabilizes the cultural homogeneous regime in axelrod\u2019s model",
+   "authors": [
+    "Peres",
+    "Fontanari"
+   ],
+   "year": 2009,
+   "doi": null,
+   "arxiv": "0910.0866",
+   "urls": [
+    "https://arxiv.org/abs/0910.0866"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "0910.0866",
+    "title": "Mass media destabilizes the cultural homogeneous regime in Axelrod's model",
+    "year": 2009,
+    "first_author": "Lucas R. Peres"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "Sebasti\u00e1n Pinto and Pablo Balenzuela. Erd\u00f6s-r\u00e9nyi phase transition in the axelrod model on complete graphs, 2020. URL https://arxiv.org/abs/1912.09420.",
+   "title": "Erd\u00f6s-r\u00e9nyi phase transition in the axelrod model on complete graphs",
+   "authors": [
+    "Pinto",
+    "Balenzuela"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": "1912.09420",
+   "urls": [
+    "https://arxiv.org/abs/1912.09420"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "1912.09420",
+    "title": "Erd\u00f6s-R\u00e9nyi phase transition in the Axelrod model on complete graphs",
+    "year": 2019,
+    "first_author": "Sebasti\u00e1n Pinto"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "Arezky H. Rodr\u00edguez and Y. Moreno. Effects of mass media action on the axelrod model with social influence, 2010. URL https://arxiv.org/abs/1002.4615.",
+   "title": "Effects of mass media action on the axelrod model with social influence",
+   "authors": [
+    "Rodr\u00edguez",
+    "Moreno"
+   ],
+   "year": 2010,
+   "doi": null,
+   "arxiv": "1002.4615",
+   "urls": [
+    "https://arxiv.org/abs/1002.4615"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "1002.4615",
+    "title": "Effects of Mass Media action on the Axelrod Model with Social Influence",
+    "year": 2010,
+    "first_author": "Arezky H. Rodr\u00edguez"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 11,
    "raw": "Alex Stivala and Paul Keeler. Another phase transition in the axelrod model, 2016. URL https: //arxiv.org/abs/1612.02537.",
    "title": "Another phase transition in the axelrod model",
    "authors": [
@@ -132,48 +402,15 @@
    "urls": [],
    "container": null,
    "type": null,
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
-   "evidence": [
-    {
-     "step": "arxiv_id_not_found",
-     "arxiv": "1612.02537"
-    },
-    {
-     "step": "crossref_best_reject",
-     "rec": {
-      "source": "crossref",
-      "doi": "10.1103/physreve.101.052319",
-      "title": "Erd\u00f3s-R\u00e9nyi phase transition in the Axelrod model on complete graphs",
-      "year": 2020,
-      "first_author": "Pinto",
-      "container": "Physical Review E",
-      "type": "journal-article",
-      "score": 26.623497
-     },
-     "metrics": {
-      "title_sim": 90.2439024390244,
-      "containment": 0.5,
-      "partial_ratio": 70.58823529411764,
-      "year_ok": false,
-      "first_author_ok": false
-     }
-    }
-   ],
-   "likely_match": null,
-   "via": "s2",
+   "via": "arxiv_id",
    "match": {
-    "source": "s2",
-    "id": "8ee6b4c898e59010c94440be6c0aa8fd6b67d365",
+    "source": "arxiv",
+    "arxiv": "1612.02537",
     "title": "Another phase transition in the Axelrod model",
     "year": 2016,
-    "first_author": "A. Stivala",
-    "container": "",
-    "ext": {
-     "ArXiv": "1612.02537",
-     "MAG": "2580466432",
-     "CorpusId": 119365069
-    }
+    "first_author": "Alex Stivala"
    },
    "metrics": {
     "title_sim": 100.0,
@@ -182,11 +419,11 @@
     "year_ok": true,
     "first_author_ok": true
    },
-   "second_pass_hit": true
+   "evidence": []
   },
   {
    "junk": false,
-   "idx": 4,
+   "idx": 12,
    "raw": "Ruoxi Xu, Yingfei Sun, Mengjie Ren, Shiguang Guo, Ruotong Pan, Hongyu Lin, Le Sun, and Xianpei Han. Ai for social science and social science of ai: A survey, 2024. URL https: //arxiv.org/abs/2401.11839.",
    "title": "Ai for social science and social science of ai: A survey",
    "authors": [
@@ -205,18 +442,15 @@
    "urls": [],
    "container": null,
    "type": null,
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
-   "via": "crossref",
+   "via": "arxiv_id",
    "match": {
-    "source": "crossref",
-    "doi": "10.1016/j.ipm.2024.103665",
-    "title": "AI for social science and social science of AI: A survey",
+    "source": "arxiv",
+    "arxiv": "2401.11839",
+    "title": "AI for social science and social science of AI: A Survey",
     "year": 2024,
-    "first_author": "Xu",
-    "container": "Information Processing &amp; Management",
-    "type": "journal-article",
-    "score": 45.46788
+    "first_author": "Ruoxi Xu"
    },
    "metrics": {
     "title_sim": 100.0,
@@ -225,16 +459,11 @@
     "year_ok": true,
     "first_author_ok": true
    },
-   "evidence": [
-    {
-     "step": "arxiv_id_not_found",
-     "arxiv": "2401.11839"
-    }
-   ]
+   "evidence": []
   },
   {
    "junk": false,
-   "idx": 5,
+   "idx": 13,
    "raw": "An Yang, Anfeng Li, Baosong Yang, Beichen Zhang, Binyuan Hui, Bo Zheng, Bowen Yu, Chang Gao, Chengen Huang, Chenxu Lv, Chujie Zheng, Dayiheng Liu, Fan Zhou, Fei Huang, Feng Hu, Hao Ge, Haoran Wei, Huan Lin, Jialong Tang, Jian Yang, Jianhong Tu, Jianwei Zhang, Jianxin Yang, Jiaxi Yang, Jing Zhou, Jingren Zhou, Junyang Lin, Kai Dang, Keqin Bao, Kexin Yang, Le Yu, Lianghao Deng, Mei Li, Mingfeng Xue, Mingze Li, Pei Zhang, Peng Wang, Qin Zhu, Rui Men, Ruize Gao, Shixuan Liu, Shuang Luo, Tianhao Li, Tianyi Tang, Wenbiao Yin, Xingzhang Ren, Xinyu Wang, Xinyu Zhang, Xuancheng Ren, Yang Fan, Yang Su, Yichang Zhang, Yinger Zhang, Yu Wan, Yuqiong Liu, Zekun Wang, Zeyu Cui, Zhenru Zhang, Zhipeng Zhou, and Zihan Qiu. Qwen3 technical report, 2025. URL https://arxiv.org/abs/2505.09388.",
    "title": null,
    "authors": [
@@ -288,7 +517,7 @@
    ],
    "container": null,
    "type": "report",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "arxiv_id",
    "match": {
@@ -306,6 +535,84 @@
     "first_author_ok": true
    },
    "evidence": []
+  },
+  {
+   "junk": true,
+   "idx": 14,
+   "raw": "A    Computational Resources All experiments were conducted on NVIDIA A100 GPUs with 40GB memory using PyTorch 2.0 and transformers library version 4.35.0. Each simulation required approximately 2-3 hours of computation time depending on the convergence rate. Each experiment was replicated three times across conditions to ensure reproducibility while maintaining statistical independence.",
+   "title": "A Computational Resources All experiments were conducted on NVIDIA A100 GPUs with 40GB memory using PyTorch 2.0 and transformers library version 4.35.0. Each simulation required approximately 2-3 hours of computation time depending on the convergence rate. Each experiment was replicated three times across conditions to ensure reproducibility while maintaining statistical independence",
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-indent-guided",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.7717/peerj.5063/table-3",
+      "title": "Table 3: Correlation coefficients for associations amongst leaf traits, using data for each CSDH line and trait meaned across the three experiments, except leaf lamina, midrib thickness and stomatal number/unit area (Experiment III), for which Experiment III data only were used for all correlations).",
+      "year": 2018,
+      "first_author": null,
+      "container": "",
+      "type": "component",
+      "score": 53.18214
+     },
+     "metrics": {
+      "title_sim": 42.603550295857985,
+      "containment": 0.222,
+      "partial_ratio": 44.52054794520548,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "LLM Configuration:     Qwen3-8B was configured with temperature=0.7, top-p=0.9, max_tokens=4096, and presence_penalty=0.0 to balance reasoning consistency with behavioral variability.",
+   "title": "Qwen3-8B was configured with temperature=0.7, top-p=0.9, max_tokens=4096, and presence_penalty=0.0 to balance reasoning consistency with behavioral variability",
+   "authors": [
+    "Configuration"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-indent-guided",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1117/12.3120243",
+      "title": "Social and behavioral determinants of health classification from clinical notes using Qwen3-8B with low-rank adaptation",
+      "year": 2026,
+      "first_author": "Liu",
+      "container": "International Conference on Machine Vision and Deep Learning (MVDL 2026)",
+      "type": "proceedings-article",
+      "score": 32.052895
+     },
+     "metrics": {
+      "title_sim": 53.78787878787879,
+      "containment": 0.182,
+      "partial_ratio": 41.951219512195124,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
   }
  ],
  "second_pass": true,

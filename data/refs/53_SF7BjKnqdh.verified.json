@@ -1,10 +1,12 @@
 {
  "pdf": "53_SF7BjKnqdh.pdf",
  "n_entries": 37,
- "fallback": false,
+ "fallback": "indent-guided",
  "error": null,
  "linenumbers_stripped": true,
- "parser_version": 3,
+ "two_column": false,
+ "parser_version": 4,
+ "reprocessed": true,
  "entries": [
   {
    "junk": false,
@@ -24,7 +26,7 @@
    "urls": [],
    "container": "British journal of social psychology",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -35,7 +37,7 @@
     "first_author": "Abrams",
     "container": "British Journal of Social Psychology",
     "type": "journal-article",
-    "score": 99.74965
+    "score": 99.76277
    },
    "metrics": {
     "title_sim": 100.0,
@@ -67,7 +69,7 @@
    "urls": [],
    "container": "Proceedings of the 24th international conference on World Wide Web",
    "type": "paper-conference",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -78,7 +80,7 @@
     "first_author": "Bessi",
     "container": "Proceedings of the 24th International Conference on World Wide Web",
     "type": "proceedings-article",
-    "score": 53.3598
+    "score": 53.368446
    },
    "metrics": {
     "title_sim": 100.0,
@@ -110,7 +112,7 @@
    "urls": [],
    "container": "IEEE Transactions on Computational Social Systems",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -121,7 +123,7 @@
     "first_author": "Lin",
     "container": "",
     "type": "component",
-    "score": 63.754295
+    "score": 63.754753
    },
    "metrics": {
     "title_sim": 100.0,
@@ -148,7 +150,7 @@
    "urls": [],
    "container": "Games and economic behavior",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -159,7 +161,7 @@
     "first_author": "Bornstein",
     "container": "",
     "type": "posted-content",
-    "score": 60.85268
+    "score": 60.859173
    },
    "metrics": {
     "title_sim": 100.0,
@@ -185,7 +187,7 @@
    "urls": [],
    "container": "Journal of personality and social psychology",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -196,7 +198,7 @@
     "first_author": "Chaiken",
     "container": "Journal of Personality and Social Psychology",
     "type": "journal-article",
-    "score": 110.76441
+    "score": 110.90498
    },
    "metrics": {
     "title_sim": 100.0,
@@ -210,7 +212,7 @@
   {
    "junk": false,
    "idx": 6,
-   "raw": "Ho-Chun Herbert Chang, Benjamin Shaman, Yung-chun Chen, Mingyue Zha, Sean Noh, Chiyu Wei, Tracy Weener, and Maya Magee. Generative memesis: Ai mediates political memes in the 2024 usa presidential election. arXiv preprint arXiv:2411.00934, 2024. URL https://arxiv.org/ abs/2411.00934. Jiangjie Chen, Xintao Wang, Rui Xu, Siyu Yuan, Yikai Zhang, Wei Shi, Jian Xie, Shuang Li, Ruihan Yang, Tinghui Zhu, et al. From persona to personalization: A survey on role-playing language agents. arXiv preprint arXiv:2404.18231, 2024.",
+   "raw": "Ho-Chun Herbert Chang, Benjamin Shaman, Yung-chun Chen, Mingyue Zha, Sean Noh, Chiyu Wei, Tracy Weener, and Maya Magee. Generative memesis: Ai mediates political memes in the 2024 usa presidential election. arXiv preprint arXiv:2411.00934, 2024. URL https://arxiv.org/ abs/2411.00934.",
    "title": "Generative memesis: Ai mediates political memes in the 2024 usa presidential election",
    "authors": [
     "Chang",
@@ -230,36 +232,71 @@
    ],
    "container": null,
    "type": null,
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
-   "via": "crossref",
+   "via": "arxiv_id_v1",
    "match": {
-    "source": "crossref",
-    "doi": "10.2139/ssrn.5007096",
-    "title": "Generative Memesis: AI Mediates Political Information in the 2024 United States Presidential Election",
-    "year": 2025,
-    "first_author": "Chang",
-    "container": "",
-    "type": "posted-content",
-    "score": 69.45539
+    "source": "arxiv",
+    "arxiv": "2411.00934v1",
+    "title": "Generative Memesis: AI Mediates Political Memes in the 2024 USA Presidential Election",
+    "year": 2024,
+    "first_author": "Ho-Chun Herbert Chang"
    },
    "metrics": {
-    "title_sim": 93.67088607594937,
-    "containment": 0.7,
-    "partial_ratio": 80.0,
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
     "year_ok": true,
-    "first_author_ok": true
+    "first_author_ok": true,
+    "note": "title matches an earlier arXiv version"
    },
-   "evidence": [
-    {
-     "step": "arxiv_id_not_found",
-     "arxiv": "2411.00934"
-    }
-   ]
+   "evidence": []
   },
   {
    "junk": false,
    "idx": 7,
+   "raw": "Jiangjie Chen, Xintao Wang, Rui Xu, Siyu Yuan, Yikai Zhang, Wei Shi, Jian Xie, Shuang Li, Ruihan Yang, Tinghui Zhu, et al. From persona to personalization: A survey on role-playing language agents. arXiv preprint arXiv:2404.18231, 2024.",
+   "title": "From persona to personalization: A survey on role-playing language agents",
+   "authors": [
+    "Chen",
+    "Wang",
+    "Xu",
+    "Yuan",
+    "Zhang",
+    "Shi",
+    "Xie",
+    "Li",
+    "Yang",
+    "Zhu"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": "2404.18231",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2404.18231",
+    "title": "From Persona to Personalization: A Survey on Role-Playing Language Agents",
+    "year": 2024,
+    "first_author": "Jiangjie Chen"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 8,
    "raw": "Matteo Cinelli, Gianmarco De Francisci Morales, Alessandro Galeazzi, Walter Quattrociocchi, and Michele Starnini. The echo chamber effect on social media. Proceedings of the national academy of sciences, 118(9):e2023301118, 2021.",
    "title": "The echo chamber effect on social media",
    "authors": [
@@ -275,7 +312,7 @@
    "urls": [],
    "container": "Proceedings of the national academy of sciences",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -286,7 +323,7 @@
     "first_author": "Cinelli",
     "container": "Proceedings of the National Academy of Sciences",
     "type": "journal-article",
-    "score": 41.991364
+    "score": 41.989067
    },
    "metrics": {
     "title_sim": 100.0,
@@ -299,7 +336,7 @@
   },
   {
    "junk": false,
-   "idx": 8,
+   "idx": 9,
    "raw": "Pedro Cisneros-Velarde. On the principles behind opinion dynamics in multi-agent systems of large language models. arXiv preprint arXiv:2406.15492, 2024.",
    "title": "On the principles behind opinion dynamics in multi-agent systems of large language models",
    "authors": [
@@ -311,66 +348,15 @@
    "urls": [],
    "container": null,
    "type": null,
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
-   "via": "crossref",
+   "via": "arxiv_id",
    "match": {
-    "source": "crossref",
-    "doi": "10.18653/v1/2025.findings-naacl.101",
-    "title": "Biases in Opinion Dynamics in Multi-Agent Systems of Large Language Models: A Case Study on Funding Allocation",
-    "year": 2025,
-    "first_author": "Cisneros-Velarde",
-    "container": "Findings of the Association for Computational Linguistics: NAACL 2025",
-    "type": "proceedings-article",
-    "score": 61.468754
-   },
-   "metrics": {
-    "title_sim": 85.8974358974359,
-    "containment": 0.615,
-    "partial_ratio": 73.39449541284404,
-    "year_ok": true,
-    "first_author_ok": true
-   },
-   "evidence": [
-    {
-     "step": "arxiv_id_not_found",
-     "arxiv": "2406.15492"
-    }
-   ]
-  },
-  {
-   "junk": false,
-   "idx": 9,
-   "raw": "Saloni Dash, Am\u00e9lie Reymond, Emma S Spiro, and Aylin Caliskan. Persona-assigned large language models exhibit human-like motivated reasoning, 2025. URL https://arxiv.org/abs/2506. 20020. Carlos Diaz Ruiz and Tomas Nilsson. Disinformation and echo chambers: how disinformation circulates on social media through identity-driven controversies. Journal of public policy & marketing, 42(1):18\u201335, 2023.",
-   "title": "Persona-assigned large language models exhibit human-like motivated reasoning",
-   "authors": [
-    "Dash",
-    "Reymond",
-    "Spiro",
-    "Caliskan",
-    "Ruiz",
-    "Nilsson"
-   ],
-   "year": 2025,
-   "doi": null,
-   "arxiv": null,
-   "urls": [
-    "https://arxiv.org/abs/2506"
-   ],
-   "container": "Journal of public policy & marketing",
-   "type": "article-journal",
-   "parser": "anystyle-find",
-   "verdict": "VERIFIED",
-   "via": "crossref",
-   "match": {
-    "source": "crossref",
-    "doi": "10.18653/v1/2026.findings-acl.585",
-    "title": "Persona-Assigned Large Language Models Exhibit Human-Like Motivated Reasoning",
-    "year": 2026,
-    "first_author": "Dash",
-    "container": "Findings of the Association for Computational Linguistics: ACL 2026",
-    "type": "proceedings-article",
-    "score": 81.642235
+    "source": "arxiv",
+    "arxiv": "2406.15492",
+    "title": "On the Principles behind Opinion Dynamics in Multi-Agent Systems of Large Language Models",
+    "year": 2024,
+    "first_author": "Pedro Cisneros-Velarde"
    },
    "metrics": {
     "title_sim": 100.0,
@@ -384,6 +370,84 @@
   {
    "junk": false,
    "idx": 10,
+   "raw": "Saloni Dash, Am\u00e9lie Reymond, Emma S Spiro, and Aylin Caliskan. Persona-assigned large language models exhibit human-like motivated reasoning, 2025. URL https://arxiv.org/abs/2506. 20020.",
+   "title": "Persona-assigned large language models exhibit human-like motivated reasoning",
+   "authors": [
+    "Dash",
+    "Reymond",
+    "Spiro",
+    "Caliskan"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://arxiv.org/abs/2506"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2026.findings-acl.585",
+    "title": "Persona-Assigned Large Language Models Exhibit Human-Like Motivated Reasoning",
+    "year": 2026,
+    "first_author": "Dash",
+    "container": "Findings of the Association for Computational Linguistics: ACL 2026",
+    "type": "proceedings-article",
+    "score": 81.62662
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "Carlos Diaz Ruiz and Tomas Nilsson. Disinformation and echo chambers: how disinformation circulates on social media through identity-driven controversies. Journal of public policy & marketing, 42(1):18\u201335, 2023.",
+   "title": "Disinformation and echo chambers: how disinformation circulates on social media through identity-driven controversies",
+   "authors": [
+    "Ruiz",
+    "Nilsson"
+   ],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of public policy & marketing",
+   "type": "article-journal",
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1177/07439156221103852",
+    "title": "Disinformation and Echo Chambers: How Disinformation Circulates on Social Media Through Identity-Driven Controversies",
+    "year": 2023,
+    "first_author": "Diaz Ruiz",
+    "container": "Journal of Public Policy &amp; Marketing",
+    "type": "journal-article",
+    "score": 99.238304
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 12,
    "raw": "Chad Edwards, Autumn Edwards, Brett Stoll, Xialing Lin, and Noelle Massey. Evaluations of an artificial intelligence instructor\u2019s voice: Social identity theory in human-robot interactions. Computers in Human Behavior, 90:357\u2013362, 2019.",
    "title": "Evaluations of an artificial intelligence instructor\u2019s voice: Social identity theory in human-robot interactions",
    "authors": [
@@ -399,7 +463,7 @@
    "urls": [],
    "container": "Computers in Human Behavior",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -410,7 +474,7 @@
     "first_author": "Edwards",
     "container": "Computers in Human Behavior",
     "type": "journal-article",
-    "score": 68.65285
+    "score": 68.66229
    },
    "metrics": {
     "title_sim": 100.0,
@@ -423,56 +487,81 @@
   },
   {
    "junk": false,
-   "idx": 11,
-   "raw": "Xingli Fang, Jianwei Li, Varun Mulchandani, and Jung-Eun Kim. Trustworthy ai: Safety, bias, and privacy \u2013 a survey, 2025. URL https://arxiv.org/abs/2502.10450. Iason Gabriel. Artificial intelligence, values, and alignment. Minds and machines, 30(3):411\u2013437, 2020.",
-   "title": "Trustworthy ai: Safety, bias, and privacy \u2013 a survey, 2025",
+   "idx": 13,
+   "raw": "Xingli Fang, Jianwei Li, Varun Mulchandani, and Jung-Eun Kim. Trustworthy ai: Safety, bias, and privacy \u2013 a survey, 2025. URL https://arxiv.org/abs/2502.10450.",
+   "title": "Trustworthy ai: Safety, bias, and privacy \u2013 a survey",
    "authors": [
     "Fang",
     "Li",
     "Mulchandani",
     "Kim"
    ],
-   "year": 2020,
+   "year": 2025,
    "doi": null,
    "arxiv": "2502.10450",
    "urls": [
     "https://arxiv.org/abs/2502.10450"
    ],
-   "container": "Artificial intelligence, values, and alignment. Minds and machines",
-   "type": "article-journal",
-   "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
-   "evidence": [
-    {
-     "step": "arxiv_id_not_found",
-     "arxiv": "2502.10450"
-    },
-    {
-     "step": "crossref_best_reject",
-     "rec": {
-      "source": "crossref",
-      "doi": "10.62311/nesx/rb-978-81-985979-9-1",
-      "title": "Securing AI Combating Deepfakes, Misinformation, and Bias with Trustworthy Systems",
-      "year": 2025,
-      "first_author": "Pasupuleti",
-      "container": "Securing AI: Combating Deepfakes, Misinformation, and Bias with Trustworthy Systems",
-      "type": "book-chapter",
-      "score": 35.74324
-     },
-     "metrics": {
-      "title_sim": 61.333333333333336,
-      "containment": 0.286,
-      "partial_ratio": 49.681528662420384,
-      "year_ok": false,
-      "first_author_ok": false
-     }
-    }
-   ],
-   "likely_match": null
+   "container": null,
+   "type": null,
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2502.10450",
+    "title": "Trustworthy AI: Safety, Bias, and Privacy -- A Survey",
+    "year": 2025,
+    "first_author": "Xingli Fang"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
   },
   {
    "junk": false,
-   "idx": 12,
+   "idx": 14,
+   "raw": "Iason Gabriel. Artificial intelligence, values, and alignment. Minds and machines, 30(3):411\u2013437, 2020.",
+   "title": "Artificial intelligence, values, and alignment",
+   "authors": [
+    "Gabriel"
+   ],
+   "year": 2020,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Minds and machines",
+   "type": "article-journal",
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/s11023-020-09539-2",
+    "title": "Artificial Intelligence, Values, and Alignment",
+    "year": 2020,
+    "first_author": "Gabriel",
+    "container": "Minds and Machines",
+    "type": "journal-article",
+    "score": 41.894638
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 15,
    "raw": "Eleni Georganta and Anna-Sophie Ulfert. Would you trust an ai team member? team trust in human-ai teams. Journal of occupational and organizational psychology, 97(3):1212\u20131241, 2024.",
    "title": "Would you trust an ai team member? team trust in human-ai teams",
    "authors": [
@@ -485,7 +574,7 @@
    "urls": [],
    "container": "Journal of occupational and organizational psychology",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -496,7 +585,7 @@
     "first_author": "Georganta",
     "container": "Journal of Occupational and Organizational Psychology",
     "type": "journal-article",
-    "score": 97.87826
+    "score": 97.94107
    },
    "metrics": {
     "title_sim": 100.0,
@@ -509,7 +598,7 @@
   },
   {
    "junk": false,
-   "idx": 13,
+   "idx": 16,
    "raw": "Yufei Guo, Muzhe Guo, Juntao Su, Zhou Yang, Mengqiu Zhu, Hongfei Li, Mengyang Qiu, and Shuo Shuo Liu. Bias in large language models: Origin, evaluation, and mitigation. arXiv preprint arXiv:2411.10915, 2024.",
    "title": "Bias in large language models: Origin, evaluation, and mitigation",
    "authors": [
@@ -528,36 +617,28 @@
    "urls": [],
    "container": null,
    "type": null,
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
-   "via": "crossref",
+   "via": "arxiv_id",
    "match": {
-    "source": "crossref",
-    "doi": "10.3390/electronics15091824",
+    "source": "arxiv",
+    "arxiv": "2411.10915",
     "title": "Bias in Large Language Models: Origin, Evaluation, and Mitigation",
-    "year": 2026,
-    "first_author": "Guo",
-    "container": "Electronics",
-    "type": "journal-article",
-    "score": 47.43877
+    "year": 2024,
+    "first_author": "Yufei Guo"
    },
    "metrics": {
     "title_sim": 100.0,
     "containment": 1.0,
     "partial_ratio": 100.0,
-    "year_ok": false,
+    "year_ok": true,
     "first_author_ok": true
    },
-   "evidence": [
-    {
-     "step": "arxiv_id_not_found",
-     "arxiv": "2411.10915"
-    }
-   ]
+   "evidence": []
   },
   {
    "junk": false,
-   "idx": 14,
+   "idx": 17,
    "raw": "Michael A Hogg and Scott A Reid. Social identity, self-categorization, and the communication of group norms. Communication theory, 16(1):7\u201330, 2006.",
    "title": "Social identity, self-categorization, and the communication of group norms",
    "authors": [
@@ -570,7 +651,7 @@
    "urls": [],
    "container": "Communication theory",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -581,7 +662,7 @@
     "first_author": "Hogg",
     "container": "Communication Theory",
     "type": "journal-article",
-    "score": 61.560204
+    "score": 61.56206
    },
    "metrics": {
     "title_sim": 100.0,
@@ -594,7 +675,7 @@
   },
   {
    "junk": false,
-   "idx": 15,
+   "idx": 18,
    "raw": "Michael A Hogg and John C Turner. Intergroup behaviour, self-stereotyping and the salience of social categories. British journal of social psychology, 26(4):325\u2013340, 1987.",
    "title": "Intergroup behaviour, self-stereotyping and the salience of social categories",
    "authors": [
@@ -607,7 +688,7 @@
    "urls": [],
    "container": "British journal of social psychology",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -618,7 +699,7 @@
     "first_author": "Hogg",
     "container": "British Journal of Social Psychology",
     "type": "journal-article",
-    "score": 70.70067
+    "score": 70.711006
    },
    "metrics": {
     "title_sim": 100.0,
@@ -631,7 +712,7 @@
   },
   {
    "junk": false,
-   "idx": 16,
+   "idx": 19,
    "raw": "Tiancheng Hu, Yara Kyrychenko, Steve Rathje, Nigel Collier, Sander van der Linden, and Jon Roozenbeek. Generative language models exhibit social identity biases. Nature Computational Science, 5(1):65\u201375, 2025.",
    "title": "Generative language models exhibit social identity biases",
    "authors": [
@@ -648,7 +729,7 @@
    "urls": [],
    "container": "Nature Computational Science",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -659,7 +740,7 @@
     "first_author": "Hu",
     "container": "Nature Computational Science",
     "type": "journal-article",
-    "score": 48.920303
+    "score": 48.926582
    },
    "metrics": {
     "title_sim": 100.0,
@@ -672,7 +753,7 @@
   },
   {
    "junk": false,
-   "idx": 17,
+   "idx": 20,
    "raw": "Jiaming Ji, Tianyi Qiu, Boyuan Chen, Borong Zhang, Hantao Lou, Kaile Wang, Yawen Duan, Zhonghao He, Jiayi Zhou, Zhaowei Zhang, et al. Ai alignment: A comprehensive survey. arXiv preprint arXiv:2310.19852, 2023.",
    "title": "Ai alignment: A comprehensive survey",
    "authors": [
@@ -693,48 +774,15 @@
    "urls": [],
    "container": null,
    "type": null,
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
-   "evidence": [
-    {
-     "step": "arxiv_id_not_found",
-     "arxiv": "2310.19852"
-    },
-    {
-     "step": "crossref_best_reject",
-     "rec": {
-      "source": "crossref",
-      "doi": "10.20944/preprints202603.1876.v1",
-      "title": "Towards Pluralistic Alignment of LLMs: A Comprehensive Survey",
-      "year": 2026,
-      "first_author": "Shetty",
-      "container": "",
-      "type": "posted-content",
-      "score": 28.232838
-     },
-     "metrics": {
-      "title_sim": 95.5223880597015,
-      "containment": 0.6,
-      "partial_ratio": 66.66666666666667,
-      "year_ok": false,
-      "first_author_ok": false
-     }
-    }
-   ],
-   "likely_match": null,
-   "via": "s2",
+   "via": "arxiv_id",
    "match": {
-    "source": "s2",
-    "id": "a3d1954a57110f199ad58c24a6e588ee73135170",
+    "source": "arxiv",
+    "arxiv": "2310.19852",
     "title": "AI Alignment: A Comprehensive Survey",
     "year": 2023,
-    "first_author": "Jia-Ming Ji",
-    "container": "arXiv.org",
-    "ext": {
-     "ArXiv": "2310.19852",
-     "DBLP": "journals/corr/abs-2310-19852",
-     "CorpusId": 264743032
-    }
+    "first_author": "Jiaming Ji"
    },
    "metrics": {
     "title_sim": 100.0,
@@ -743,11 +791,11 @@
     "year_ok": true,
     "first_author_ok": true
    },
-   "second_pass_hit": true
+   "evidence": []
   },
   {
    "junk": false,
-   "idx": 18,
+   "idx": 21,
    "raw": "Julie Jiang, Xiang Ren, and Emilio Ferrara. Social media polarization and echo chambers in the context of covid-19: Case study. JMIRx med, 2(3):e29570, 2021.",
    "title": "Social media polarization and echo chambers in the context of covid-19: Case study",
    "authors": [
@@ -761,7 +809,7 @@
    "urls": [],
    "container": "JMIRx med",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -772,7 +820,7 @@
     "first_author": "Jiang",
     "container": "",
     "type": "posted-content",
-    "score": 71.29636
+    "score": 71.27769
    },
    "metrics": {
     "title_sim": 100.0,
@@ -785,7 +833,7 @@
   },
   {
    "junk": false,
-   "idx": 19,
+   "idx": 22,
    "raw": "Ziva Kunda. The case for motivated reasoning. Psychological bulletin, 108(3):480, 1990.",
    "title": "The case for motivated reasoning",
    "authors": [
@@ -797,7 +845,7 @@
    "urls": [],
    "container": "Psychological bulletin",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -808,7 +856,7 @@
     "first_author": "Kunda",
     "container": "Psychological Bulletin",
     "type": "journal-article",
-    "score": 45.65897
+    "score": 45.637203
    },
    "metrics": {
     "title_sim": 100.0,
@@ -821,7 +869,7 @@
   },
   {
    "junk": false,
-   "idx": 20,
+   "idx": 23,
    "raw": "Kristina Lerman, Dan Feldman, Zihao He, and Ashwin Rao. Affective polarization and dynamics of information spread in online networks. npj Complexity, 1(1):8, 2024.",
    "title": "Affective polarization and dynamics of information spread in online networks",
    "authors": [
@@ -836,7 +884,7 @@
    "urls": [],
    "container": "npj Complexity",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -847,7 +895,7 @@
     "first_author": "Lerman",
     "container": "",
     "type": "posted-content",
-    "score": 63.274574
+    "score": 63.27653
    },
    "metrics": {
     "title_sim": 100.0,
@@ -860,7 +908,7 @@
   },
   {
    "junk": false,
-   "idx": 21,
+   "idx": 24,
    "raw": "Terrence Neumann, Sooyong Lee, Maria De-Arteaga, Sina Fazelpour, and Matthew Lease. Diverse, but divisive: Llms can exaggerate gender differences in opinion related to harms of misinformation. arXiv preprint arXiv:2401.16558, 2024.",
    "title": "Diverse, but divisive: Llms can exaggerate gender differences in opinion related to harms of misinformation",
    "authors": [
@@ -876,49 +924,15 @@
    "urls": [],
    "container": null,
    "type": null,
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
-   "evidence": [
-    {
-     "step": "arxiv_id_not_found",
-     "arxiv": "2401.16558"
-    },
-    {
-     "step": "crossref_best_reject",
-     "rec": {
-      "source": "crossref",
-      "doi": "10.4309/fbwa9860",
-      "title": "Gender Differences in Gambling-Related Harms and Gambling-Motivated Crime",
-      "year": 2024,
-      "first_author": "Malkin",
-      "container": "Journal of Gambling Issues",
-      "type": "journal-article",
-      "score": 33.169144
-     },
-     "metrics": {
-      "title_sim": 70.7070707070707,
-      "containment": 0.5,
-      "partial_ratio": 67.12328767123287,
-      "year_ok": true,
-      "first_author_ok": false
-     }
-    }
-   ],
-   "likely_match": null,
-   "via": "s2",
+   "via": "arxiv_id",
    "match": {
-    "source": "s2",
-    "id": "35ffe1425af16f13a3efd0b38c9334bc02d1310c",
+    "source": "arxiv",
+    "arxiv": "2401.16558",
     "title": "Diverse, but Divisive: LLMs Can Exaggerate Gender Differences in Opinion Related to Harms of Misinformation",
     "year": 2024,
-    "first_author": "Terrence Neumann",
-    "container": "arXiv.org",
-    "ext": {
-     "ArXiv": "2401.16558",
-     "DBLP": "journals/corr/abs-2401-16558",
-     "DOI": "10.48550/arXiv.2401.16558",
-     "CorpusId": 267321007
-    }
+    "first_author": "Terrence Neumann"
    },
    "metrics": {
     "title_sim": 100.0,
@@ -927,11 +941,11 @@
     "year_ok": true,
     "first_author_ok": true
    },
-   "second_pass_hit": true
+   "evidence": []
   },
   {
    "junk": false,
-   "idx": 22,
+   "idx": 25,
    "raw": "Masaya Ohagi. Polarization of autonomous generative ai agents under echo chambers. arXiv preprint arXiv:2402.12212, 2024.",
    "title": "Polarization of autonomous generative ai agents under echo chambers",
    "authors": [
@@ -943,18 +957,15 @@
    "urls": [],
    "container": null,
    "type": null,
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
-   "via": "crossref",
+   "via": "arxiv_id",
    "match": {
-    "source": "crossref",
-    "doi": "10.18653/v1/2024.wassa-1.10",
+    "source": "arxiv",
+    "arxiv": "2402.12212",
     "title": "Polarization of Autonomous Generative AI Agents Under Echo Chambers",
     "year": 2024,
-    "first_author": "Ohagi",
-    "container": "Proceedings of the 14th Workshop on Computational Approaches to Subjectivity, Sentiment, &amp; Social Media Analysis",
-    "type": "proceedings-article",
-    "score": 75.24379
+    "first_author": "Masaya Ohagi"
    },
    "metrics": {
     "title_sim": 100.0,
@@ -963,16 +974,11 @@
     "year_ok": true,
     "first_author_ok": true
    },
-   "evidence": [
-    {
-     "step": "arxiv_id_not_found",
-     "arxiv": "2402.12212"
-    }
-   ]
+   "evidence": []
   },
   {
    "junk": false,
-   "idx": 23,
+   "idx": 26,
    "raw": "Joon Sung Park, Joseph O\u2019Brien, Carrie Jun Cai, Meredith Ringel Morris, Percy Liang, and Michael S Bernstein. Generative agents: Interactive simulacra of human behavior. In Proceedings of the 36th annual acm symposium on user interface software and technology, pages 1\u201322, 2023.",
    "title": "Generative agents: Interactive simulacra of human behavior",
    "authors": [
@@ -989,7 +995,7 @@
    "urls": [],
    "container": "Proceedings of the 36th annual acm symposium on user interface software and technology",
    "type": "paper-conference",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -1000,7 +1006,7 @@
     "first_author": "Park",
     "container": "Proceedings of the 36th Annual ACM Symposium on User Interface Software and Technology",
     "type": "proceedings-article",
-    "score": 46.743874
+    "score": 46.777855
    },
    "metrics": {
     "title_sim": 100.0,
@@ -1013,7 +1019,7 @@
   },
   {
    "junk": false,
-   "idx": 24,
+   "idx": 27,
    "raw": "Gordon Pennycook, Jabin Binnendyk, Christie Newton, and David G Rand. A practical guide to doing behavioral research on fake news and misinformation. Collabra: Psychology, 7(1):25293, 2021.",
    "title": "A practical guide to doing behavioral research on fake news and misinformation",
    "authors": [
@@ -1028,7 +1034,7 @@
    "urls": [],
    "container": "Collabra: Psychology",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -1039,7 +1045,7 @@
     "first_author": "Pennycook",
     "container": "Collabra: Psychology",
     "type": "journal-article",
-    "score": 69.74646
+    "score": 69.827774
    },
    "metrics": {
     "title_sim": 100.0,
@@ -1052,7 +1058,7 @@
   },
   {
    "junk": false,
-   "idx": 25,
+   "idx": 28,
    "raw": "Clara Pretus, Camila Servin-Barthet, Elizabeth A Harris, William J Brady, Oscar Vilarroya, and Jay J Van Bavel. The role of political devotion in sharing partisan misinformation and resistance to fact-checking. Journal of Experimental Psychology: General, 152(11):3116, 2023.",
    "title": "The role of political devotion in sharing partisan misinformation and resistance to fact-checking",
    "authors": [
@@ -1069,7 +1075,7 @@
    "urls": [],
    "container": "Journal of Experimental Psychology: General",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -1080,7 +1086,7 @@
     "first_author": "Pretus",
     "container": "",
     "type": "posted-content",
-    "score": 84.99521
+    "score": 84.997574
    },
    "metrics": {
     "title_sim": 100.0,
@@ -1093,7 +1099,7 @@
   },
   {
    "junk": false,
-   "idx": 26,
+   "idx": 29,
    "raw": "Walter Quattrociocchi, Antonio Scala, and Cass R Sunstein. Echo chambers on facebook. Available at SSRN 2795110, 2016.",
    "title": "Echo chambers on facebook",
    "authors": [
@@ -1107,7 +1113,7 @@
    "urls": [],
    "container": null,
    "type": null,
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -1118,7 +1124,7 @@
     "first_author": "Quattrociocchi",
     "container": "SSRN Electronic Journal",
     "type": "journal-article",
-    "score": 46.365875
+    "score": 46.233925
    },
    "metrics": {
     "title_sim": 100.0,
@@ -1131,7 +1137,7 @@
   },
   {
    "junk": false,
-   "idx": 27,
+   "idx": 30,
    "raw": "Drew Roselli, Jeanna Matthews, and Nisha Talagala. Managing bias in ai. In Companion proceedings of the 2019 world wide web conference, pages 539\u2013544, 2019.",
    "title": "Managing bias in ai",
    "authors": [
@@ -1145,7 +1151,7 @@
    "urls": [],
    "container": "Companion proceedings of the 2019 world wide web conference",
    "type": "paper-conference",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -1156,7 +1162,7 @@
     "first_author": "Roselli",
     "container": "Companion Proceedings of The 2019 World Wide Web Conference",
     "type": "proceedings-article",
-    "score": 40.231834
+    "score": 40.235302
    },
    "metrics": {
     "title_sim": 100.0,
@@ -1169,7 +1175,7 @@
   },
   {
    "junk": false,
-   "idx": 28,
+   "idx": 31,
    "raw": "Reva Schwartz, Reva Schwartz, Apostol Vassilev, Kristen Greene, Lori Perine, Andrew Burt, and Patrick Hall. Towards a standard for identifying and managing bias in artificial intelligence. US Department of Commerce, National Institute of Standards and Technology, 2022.",
    "title": "Towards a standard for identifying and managing bias in artificial intelligence",
    "authors": [
@@ -1187,7 +1193,7 @@
    "urls": [],
    "container": null,
    "type": "book",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -1198,118 +1204,7 @@
     "first_author": "Schwartz",
     "container": "",
     "type": "report",
-    "score": 60.345142
-   },
-   "metrics": {
-    "title_sim": 100.0,
-    "containment": 1.0,
-    "partial_ratio": 100.0,
-    "year_ok": true,
-    "first_author_ok": true
-   },
-   "evidence": []
-  },
-  {
-   "junk": false,
-   "idx": 29,
-   "raw": "Laura GE Smith and Tom Postmes. The power of talk: Developing discriminatory group norms through discussion. British Journal of Social Psychology, 50(2):193\u2013215, 2011.",
-   "title": "The power of talk: Developing discriminatory group norms through discussion",
-   "authors": [
-    "Smith",
-    "Postmes"
-   ],
-   "year": 2011,
-   "doi": null,
-   "arxiv": null,
-   "urls": [],
-   "container": "British Journal of Social Psychology",
-   "type": "article-journal",
-   "parser": "anystyle-find",
-   "verdict": "VERIFIED",
-   "via": "crossref",
-   "match": {
-    "source": "crossref",
-    "doi": "10.1348/014466610x504805",
-    "title": "The power of talk: Developing discriminatory group norms through discussion",
-    "year": 2011,
-    "first_author": "Smith",
-    "container": "British Journal of Social Psychology",
-    "type": "journal-article",
-    "score": 62.756218
-   },
-   "metrics": {
-    "title_sim": 100.0,
-    "containment": 1.0,
-    "partial_ratio": 100.0,
-    "year_ok": true,
-    "first_author_ok": true
-   },
-   "evidence": []
-  },
-  {
-   "junk": false,
-   "idx": 30,
-   "raw": "Henri Tajfel and John C Turner. The social identity theory of intergroup behavior. In Political psychology, pages 276\u2013293. Psychology Press, 2004.",
-   "title": "The social identity theory of intergroup behavior",
-   "authors": [
-    "Tajfel",
-    "Turner"
-   ],
-   "year": 2004,
-   "doi": null,
-   "arxiv": null,
-   "urls": [],
-   "container": "Political psychology",
-   "type": "chapter",
-   "parser": "anystyle-find",
-   "verdict": "VERIFIED",
-   "via": "crossref",
-   "match": {
-    "source": "crossref",
-    "doi": "10.4324/9780203505984-16",
-    "title": "The Social Identity Theory of Intergroup Behavior",
-    "year": 2004,
-    "first_author": "Tajfel",
-    "container": "Political Psychology",
-    "type": "book-chapter",
-    "score": 56.064064
-   },
-   "metrics": {
-    "title_sim": 100.0,
-    "containment": 1.0,
-    "partial_ratio": 100.0,
-    "year_ok": true,
-    "first_author_ok": true
-   },
-   "evidence": []
-  },
-  {
-   "junk": false,
-   "idx": 31,
-   "raw": "John C Turner and Penelope J Oakes. The significance of the social identity concept for social psychology with reference to individualism, interactionism and social influence. British journal of social psychology, 25(3):237\u2013252, 1986.",
-   "title": "The significance of the social identity concept for social psychology with reference to individualism, interactionism and social influence",
-   "authors": [
-    "Turner",
-    "Oakes"
-   ],
-   "year": 1986,
-   "doi": null,
-   "arxiv": null,
-   "urls": [],
-   "container": "British journal of social psychology",
-   "type": "article-journal",
-   "parser": "anystyle-find",
-   "verdict": "VERIFIED",
-   "via": "crossref",
-   "match": {
-    "source": "crossref",
-    "doi": "10.1111/j.2044-8309.1986.tb00732.x",
-    "title": "The significance of the social identity concept for social psychology with reference to individualism, interactionism and social influence",
-    "year": 1986,
-    "first_author": "Turner",
-    "container": "British Journal of Social Psychology",
-    "type": "journal-article",
-    "score": 88.028915
+    "score": 60.346733
    },
    "metrics": {
     "title_sim": 100.0,
@@ -1323,6 +1218,117 @@
   {
    "junk": false,
    "idx": 32,
+   "raw": "Laura GE Smith and Tom Postmes. The power of talk: Developing discriminatory group norms through discussion. British Journal of Social Psychology, 50(2):193\u2013215, 2011.",
+   "title": "The power of talk: Developing discriminatory group norms through discussion",
+   "authors": [
+    "Smith",
+    "Postmes"
+   ],
+   "year": 2011,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "British Journal of Social Psychology",
+   "type": "article-journal",
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1348/014466610x504805",
+    "title": "The power of talk: Developing discriminatory group norms through discussion",
+    "year": 2011,
+    "first_author": "Smith",
+    "container": "British Journal of Social Psychology",
+    "type": "journal-article",
+    "score": 62.763477
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 33,
+   "raw": "Henri Tajfel and John C Turner. The social identity theory of intergroup behavior. In Political psychology, pages 276\u2013293. Psychology Press, 2004.",
+   "title": "The social identity theory of intergroup behavior",
+   "authors": [
+    "Tajfel",
+    "Turner"
+   ],
+   "year": 2004,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Political psychology",
+   "type": "chapter",
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.4324/9780203505984-16",
+    "title": "The Social Identity Theory of Intergroup Behavior",
+    "year": 2004,
+    "first_author": "Tajfel",
+    "container": "Political Psychology",
+    "type": "book-chapter",
+    "score": 56.07127
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 34,
+   "raw": "John C Turner and Penelope J Oakes. The significance of the social identity concept for social psychology with reference to individualism, interactionism and social influence. British journal of social psychology, 25(3):237\u2013252, 1986.",
+   "title": "The significance of the social identity concept for social psychology with reference to individualism, interactionism and social influence",
+   "authors": [
+    "Turner",
+    "Oakes"
+   ],
+   "year": 1986,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "British journal of social psychology",
+   "type": "article-journal",
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1111/j.2044-8309.1986.tb00732.x",
+    "title": "The significance of the social identity concept for social psychology with reference to individualism, interactionism and social influence",
+    "year": 1986,
+    "first_author": "Turner",
+    "container": "British Journal of Social Psychology",
+    "type": "journal-article",
+    "score": 88.0349
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 35,
    "raw": "John C Turner, Michael A Hogg, Penelope J Oakes, Stephen D Reicher, and Margaret S Wetherell. Rediscovering the social group: A self-categorization theory. basil Blackwell, 1987.",
    "title": "Rediscovering the social group: A self-categorization theory",
    "authors": [
@@ -1338,7 +1344,7 @@
    "urls": [],
    "container": null,
    "type": "book",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -1349,7 +1355,7 @@
     "first_author": "REID",
     "container": "British Journal of Social Psychology",
     "type": "journal-article",
-    "score": 49.684315
+    "score": 49.68389
    },
    "metrics": {
     "title_sim": 100.0,
@@ -1362,7 +1368,7 @@
   },
   {
    "junk": false,
-   "idx": 33,
+   "idx": 36,
    "raw": "Jay J Van Bavel, Steve Rathje, Madalina Vlasceanu, and Clara Pretus. Updating the identity-based model of belief: From false belief to the spread of misinformation. Current Opinion in Psychology, 56:101787, 2024.",
    "title": "Updating the identity-based model of belief: From false belief to the spread of misinformation",
    "authors": [
@@ -1377,7 +1383,7 @@
    "urls": [],
    "container": "Current Opinion in Psychology",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -1388,7 +1394,7 @@
     "first_author": "Van Bavel",
     "container": "",
     "type": "posted-content",
-    "score": 90.69666
+    "score": 90.676506
    },
    "metrics": {
     "title_sim": 100.0,
@@ -1401,7 +1407,7 @@
   },
   {
    "junk": false,
-   "idx": 34,
+   "idx": 37,
    "raw": "Xixian Yong, Jianxun Lian, Xiaoyuan Yi, Xiao Zhou, and Xing Xie. Motivebench: How far are we from human-like motivational reasoning in large language models? arXiv preprint arXiv:2506.13065, 2025.",
    "title": "Motivebench: How far are we from human-like motivational reasoning in large language models?",
    "authors": [
@@ -1417,18 +1423,15 @@
    "urls": [],
    "container": null,
    "type": null,
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
-   "via": "crossref",
+   "via": "arxiv_id",
    "match": {
-    "source": "crossref",
-    "doi": "10.18653/v1/2025.findings-acl.1029",
+    "source": "arxiv",
+    "arxiv": "2506.13065",
     "title": "MotiveBench: How Far Are We From Human-Like Motivational Reasoning in Large Language Models?",
     "year": 2025,
-    "first_author": "Yong",
-    "container": "Findings of the Association for Computational Linguistics: ACL 2025",
-    "type": "proceedings-article",
-    "score": 87.09434
+    "first_author": "Xixian Yong"
    },
    "metrics": {
     "title_sim": 100.0,
@@ -1437,126 +1440,7 @@
     "year_ok": true,
     "first_author_ok": true
    },
-   "evidence": [
-    {
-     "step": "arxiv_id_not_found",
-     "arxiv": "2506.13065"
-    }
-   ]
-  },
-  {
-   "junk": true,
-   "idx": 35,
-   "raw": "This protocol is identical in structure to the Alpha Team protocols, with \"Beta Analysts\" substituted for \"Alpha Thinkers\" and vice versa. Step 10. Correction Stimulus (In-group): \"Urgent update: Cross-verification by the Beta Analysts\u2019 internal fact-check unit has discovered a data-processing error in the previous creativity-reduction simulation. Re-analysis confirms that the four-day workweek does not have a substantive effect on creativity.\" A.5   Beta Team \u2013 Out-group Condition Protocol Steps 1-9 & 11-12: Identical to the Beta Team \u2013 In-group Condition Protocol.",
-   "title": "This protocol is identical in structure to the Alpha Team protocols, with \"Beta Analysts\" substituted for \"Alpha Thinkers\" and vice versa. Step 10. Correction Stimulus (In-group): \"Urgent update: Cross-verification by the Beta Analysts\u2019 internal fact-check unit has discovered a data-processing error in the previous creativity-reduction simulation. Re-analysis confirms that the four-day workweek does not have a substantive effect on creativity",
-   "authors": [],
-   "year": null,
-   "doi": null,
-   "arxiv": null,
-   "urls": [],
-   "container": "A.5 Beta Team \u2013 Out-group Condition Protocol Steps 1-9 & 11-12: Identical to the Beta Team \u2013 In-group Condition Protocol",
-   "type": "chapter",
-   "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
-   "evidence": [
-    {
-     "step": "crossref_best_reject",
-     "rec": {
-      "source": "crossref",
-      "doi": "10.7554/elife.11450.019",
-      "title": "Figure 7. Ketamine prevents expression of SRP through blockade of NMDA receptors expressed in parvalbumin+ neurons but does not impact expression of the adult OD shift.",
-      "year": 2016,
-      "first_author": null,
-      "container": "",
-      "type": "component",
-      "score": 21.44377
-     },
-     "metrics": {
-      "title_sim": 34.84087102177554,
-      "containment": 0.105,
-      "partial_ratio": 44.242424242424235,
-      "year_ok": true,
-      "first_author_ok": null
-     }
-    }
-   ],
-   "likely_match": null
-  },
-  {
-   "junk": true,
-   "idx": 36,
-   "raw": "Step 10. Correction Stimulus (Out-group): \"Competing team update: The Alpha Thinkers have objected to our creativity-reduction simulation, claiming it contains errors and that a four-day workweek does not affect creativity.\" A.6   Beta Team \u2013 High-Credibility Condition Protocol Steps 1-9 & 11-12: Identical to the Beta Team \u2013 In-group Condition Protocol.",
-   "title": "Step 10. Correction Stimulus (Out-group): \"Competing team update: The Alpha Thinkers have objected to our creativity-reduction simulation, claiming it contains errors and that a four-day workweek does not affect creativity",
-   "authors": [],
-   "year": null,
-   "doi": null,
-   "arxiv": null,
-   "urls": [],
-   "container": "A.6 Beta Team \u2013 High-Credibility Condition Protocol Steps 1-9 & 11-12: Identical to the Beta Team \u2013 In-group Condition Protocol",
-   "type": "chapter",
-   "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
-   "evidence": [
-    {
-     "step": "crossref_best_reject",
-     "rec": {
-      "source": "crossref",
-      "doi": "10.31235/osf.io/7ucy9",
-      "title": "Does work time reduction improve workers' well-being? Evidence from global four-day workweek trials",
-      "year": 2023,
-      "first_author": "Fan",
-      "container": "",
-      "type": "posted-content",
-      "score": 41.61138
-     },
-     "metrics": {
-      "title_sim": 40.38461538461539,
-      "containment": 0.357,
-      "partial_ratio": 54.639175257731964,
-      "year_ok": true,
-      "first_author_ok": false
-     }
-    }
-   ],
-   "likely_match": null
-  },
-  {
-   "junk": true,
-   "idx": 37,
-   "raw": "Step 10. Correction Stimulus (High-credibility): \"Official announcement: The International AI Ethics & Fact-Checking Committee (IAEFC) has announced that the creativity-reduction simulation cited by the Beta Analysts contained serious errors and in fact shows no relationship with creativity.\"",
-   "title": "Step 10. Correction Stimulus (High-credibility): \"Official announcement: The International AI Ethics & Fact-Checking Committee (IAEFC) has announced that the creativity-reduction simulation cited by the Beta Analysts contained serious errors and in fact shows no relationship with creativity",
-   "authors": [],
-   "year": null,
-   "doi": null,
-   "arxiv": null,
-   "urls": [],
-   "container": null,
-   "type": null,
-   "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
-   "evidence": [
-    {
-     "step": "crossref_best_reject",
-     "rec": {
-      "source": "crossref",
-      "doi": "10.1080/10447318.2025.2546045",
-      "title": "When AI or Human Matters: Correction Timing as a Moderator of the Relationship Between Source Type and Fact-Checking Effectiveness in Health Misinformation",
-      "year": 2026,
-      "first_author": "Meng",
-      "container": "International Journal of Human\u2013Computer Interaction",
-      "type": "journal-article",
-      "score": 38.257923
-     },
-     "metrics": {
-      "title_sim": 40.45977011494253,
-      "containment": 0.267,
-      "partial_ratio": 48.44290657439446,
-      "year_ok": true,
-      "first_author_ok": false
-     }
-    }
-   ],
-   "likely_match": null
+   "evidence": []
   }
  ],
  "second_pass": true,

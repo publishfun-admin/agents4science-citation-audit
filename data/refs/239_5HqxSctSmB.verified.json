@@ -1,163 +1,17 @@
 {
  "pdf": "239_5HqxSctSmB.pdf",
- "n_entries": 17,
- "fallback": false,
+ "n_entries": 13,
+ "fallback": "indent-guided",
  "error": null,
  "linenumbers_stripped": true,
- "parser_version": 2,
+ "two_column": false,
+ "parser_version": 4,
+ "reprocessed": true,
  "entries": [
   {
-   "junk": true,
-   "idx": 1,
-   "raw": "1. Initializing knowledge base with domain constraints",
-   "title": "Initializing knowledge base with domain constraints",
-   "authors": [],
-   "year": null,
-   "doi": null,
-   "arxiv": null,
-   "urls": [],
-   "container": null,
-   "type": null,
-   "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
-   "evidence": [
-    {
-     "step": "crossref_best_reject",
-     "rec": {
-      "source": "crossref",
-      "doi": "10.70675/8f8cd87dz74b8z42ddz9eabz674c4e74a7f0",
-      "title": "Knowledge base curation using constraints",
-      "year": 2026,
-      "first_author": "Pellissier-Tanon",
-      "container": "",
-      "type": "dissertation",
-      "score": 26.996588
-     },
-     "metrics": {
-      "title_sim": 77.61194029850746,
-      "containment": 0.75,
-      "partial_ratio": 78.48101265822784,
-      "year_ok": true,
-      "first_author_ok": false
-     }
-    }
-   ],
-   "likely_match": null
-  },
-  {
-   "junk": true,
-   "idx": 2,
-   "raw": "2. Extracting and preprocessing multi-temporal data 3. Engineering temporal-spatial features",
-   "title": "Extracting and preprocessing multi-temporal data 3. Engineering temporal-spatial features",
-   "authors": [],
-   "year": null,
-   "doi": null,
-   "arxiv": null,
-   "urls": [],
-   "container": null,
-   "type": null,
-   "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
-   "evidence": [
-    {
-     "step": "crossref_best_reject",
-     "rec": {
-      "source": "crossref",
-      "doi": "10.1201/9780429088933-17",
-      "title": "Modelling Spatial and Spatial-Temporal Data: Future Agendas?",
-      "year": 2020,
-      "first_author": "Haining",
-      "container": "Modelling Spatial and Spatial-Temporal Data",
-      "type": "book-chapter",
-      "score": 34.561195
-     },
-     "metrics": {
-      "title_sim": 66.66666666666666,
-      "containment": 0.571,
-      "partial_ratio": 55.04587155963303,
-      "year_ok": true,
-      "first_author_ok": false
-     }
-    }
-   ],
-   "likely_match": null
-  },
-  {
-   "junk": true,
-   "idx": 3,
-   "raw": "4. Building modeling prompts with biological constraints",
-   "title": "Building modeling prompts with biological constraints",
-   "authors": [],
-   "year": null,
-   "doi": null,
-   "arxiv": null,
-   "urls": [],
-   "container": null,
-   "type": null,
-   "parser": "anystyle-find",
-   "verdict": "VERIFIED",
-   "via": "crossref",
-   "match": {
-    "source": "crossref",
-    "doi": "10.1007/978-1-4302-0272-1_3",
-    "title": "Building Prompts",
-    "year": 2007,
-    "first_author": null,
-    "container": "Pro Microsoft Speech Server 2007",
-    "type": "book-chapter",
-    "score": 22.422129
-   },
-   "metrics": {
-    "title_sim": 100.0,
-    "containment": 1.0,
-    "partial_ratio": 75.0,
-    "year_ok": true,
-    "first_author_ok": null
-   },
-   "evidence": []
-  },
-  {
-   "junk": true,
-   "idx": 4,
-   "raw": "5. Executing automated machine learning implementation 6. Evaluating biological plausibility 7. Summarizing experiment results The framework employs spatial cross-validation to account for spatial autocorrelation, ensuring robust performance estimation. Evaluation metrics specifically address class imbalance through weighted F1-score and Matthews correlation coefficient, providing comprehensive assessment of predictive performance.",
-   "title": "Executing automated machine learning implementation 6. Evaluating biological plausibility 7. Summarizing experiment results The framework employs spatial cross-validation to account for spatial autocorrelation, ensuring robust performance estimation. Evaluation metrics specifically address class imbalance through weighted F1-score and Matthews correlation coefficient, providing comprehensive assessment of predictive performance",
-   "authors": [],
-   "year": null,
-   "doi": null,
-   "arxiv": null,
-   "urls": [],
-   "container": null,
-   "type": null,
-   "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
-   "evidence": [
-    {
-     "step": "crossref_best_reject",
-     "rec": {
-      "source": "crossref",
-      "doi": "10.7717/peerj-cs.3985/fig-16",
-      "title": "Figure 16: Comprehensive five-strategy performance comparison on the Arabic vishing dataset across ten evaluation metrics: accuracy, balanced accuracy, precision, recall, weighted F1, macro F1, Matthews correlation coefficient, Cohen\u2019s kappa, AUC-ROC, and AUC-PR.",
-      "year": 2026,
-      "first_author": null,
-      "container": "",
-      "type": "component",
-      "score": 65.3978
-     },
-     "metrics": {
-      "title_sim": 47.562776957163955,
-      "containment": 0.286,
-      "partial_ratio": 54.96828752642706,
-      "year_ok": true,
-      "first_author_ok": null
-     }
-    }
-   ],
-   "likely_match": null
-  },
-  {
    "junk": false,
-   "idx": 5,
-   "raw": "References Elizabeth Cieniewicz and Marc Fuchs. Grapevine red blotch disease: A threat to the grape and wine industries. APS Features, 2018. doi: 10.1094/APSFeature-2018-10.",
+   "idx": 1,
+   "raw": "Elizabeth Cieniewicz and Marc Fuchs. Grapevine red blotch disease: A threat to the grape and wine industries. APS Features, 2018. doi: 10.1094/APSFeature-2018-10.",
    "title": "Grapevine red blotch disease: A threat to the grape and wine industries",
    "authors": [
     "Cieniewicz",
@@ -169,7 +23,7 @@
    "urls": [],
    "container": "APS Features",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -180,7 +34,7 @@
     "first_author": "Cieniewicz",
     "container": "Annual Review of Virology",
     "type": "journal-article",
-    "score": 79.477264
+    "score": 79.831116
    },
    "metrics": {
     "title_sim": 100.0,
@@ -198,7 +52,7 @@
   },
   {
    "junk": false,
-   "idx": 6,
+   "idx": 2,
    "raw": "Madison Flasco, Elizabeth J. Cieniewicz, Monica L. Cooper, Heather McLane, and Marc Fuchs. Investigating the latency period of grapevine red blotch virus in a diseased cabernet franc vineyard experiencing secondary spread. Phytopathology, 110(5):1011\u20131021, 2020.",
    "title": "Investigating the latency period of grapevine red blotch virus in a diseased cabernet franc vineyard experiencing secondary spread",
    "authors": [
@@ -214,7 +68,7 @@
    "urls": [],
    "container": "Phytopathology",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -225,7 +79,7 @@
     "first_author": "Flasco",
     "container": "American Journal of Enology and Viticulture",
     "type": "journal-article",
-    "score": 114.67039
+    "score": 114.68213
    },
    "metrics": {
     "title_sim": 100.0,
@@ -238,7 +92,7 @@
   },
   {
    "junk": false,
-   "idx": 7,
+   "idx": 3,
    "raw": "Laurence V. Madden, Gareth Hughes, and Frank van den Bosch. Introduction to modeling in epidemiology. Plant Disease Epidemiology, 2007a.",
    "title": "Introduction to modeling in epidemiology",
    "authors": [
@@ -252,7 +106,7 @@
    "urls": [],
    "container": "Plant Disease Epidemiology",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -263,7 +117,7 @@
     "first_author": null,
     "container": "The Study of Plant Disease Epidemics",
     "type": "book-chapter",
-    "score": 27.8986
+    "score": 27.904179
    },
    "metrics": {
     "title_sim": 100.0,
@@ -276,7 +130,7 @@
   },
   {
    "junk": false,
-   "idx": 8,
+   "idx": 4,
    "raw": "Laurence V. Madden, Gareth Hughes, and Frank van den Bosch. Spatial aspects of epidemics\u2014ii: A theory of spatio-temporal disease dynamics. In The Study of Plant Disease Epidemics. APS Press, 2007b.",
    "title": "Spatial aspects of epidemics\u2014ii: A theory of spatio-temporal disease dynamics",
    "authors": [
@@ -290,7 +144,7 @@
    "urls": [],
    "container": "The Study of Plant Disease Epidemics",
    "type": "chapter",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "evidence": [
     {
@@ -336,12 +190,13 @@
     "year_ok": false,
     "first_author_ok": true
    },
-   "second_pass_hit": true
+   "second_pass_hit": true,
+   "carried_over_from": "parser_v4_run"
   },
   {
    "junk": false,
-   "idx": 9,
-   "raw": "P.J. Zarco-Tejada, T. Poblete, C. Camino, V. Gonzalez-Dugo, R. Calderon, A. Hornero, R. Hernandez-Clemente, M. Rom\u00e1n-\u00c9cija, M.P. Velasco-Amo, B.B. Landa, P.S.A. Beck, M. Saponari, D. Boscia, and J.A. Navas-Cortes. Divergent abiotic spectral pathways unravel pathogen stress signals across species. Nature Plants, 4:976\u2013986, 2018.",
+   "idx": 5,
+   "raw": "P.J. Zarco-Tejada, T. Poblete, C. Camino, V. Gonzalez-Dugo, R. Calderon, A. Hornero, R. Hernandez- Clemente, M. Rom\u00e1n-\u00c9cija, M.P. Velasco-Amo, B.B. Landa, P.S.A. Beck, M. Saponari, D. Boscia, and J.A. Navas-Cortes. Divergent abiotic spectral pathways unravel pathogen stress signals across species. Nature Plants, 4:976\u2013986, 2018.",
    "title": "Divergent abiotic spectral pathways unravel pathogen stress signals across species",
    "authors": [
     "Zarco-Tejada",
@@ -350,7 +205,7 @@
     "Gonzalez-Dugo",
     "Calderon",
     "Hornero",
-    "Hernandez-Clemente",
+    "Clemente",
     "Rom\u00e1n-\u00c9cija",
     "Velasco-Amo",
     "Landa",
@@ -365,7 +220,7 @@
    "urls": [],
    "container": "Nature Plants",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -376,7 +231,7 @@
     "first_author": "Zarco-Tejada",
     "container": "Nature Communications",
     "type": "journal-article",
-    "score": 72.94871
+    "score": 72.92503
    },
    "metrics": {
     "title_sim": 100.0,
@@ -389,7 +244,7 @@
   },
   {
    "junk": false,
-   "idx": 10,
+   "idx": 6,
    "raw": "Erica Sawyer, Eve Laroche-Pinel, Madison Flasco, Monica L. Cooper, Benjamin Corrales, Marc Fuchs, and Luca Brillante. Phenotyping grapevine red blotch virus and grapevine leafroll-associated viruses before and after symptom expression through machine-learning analysis of hyperspectral images. Computers and Electronics in Agriculture, 194:106740, 2022.",
    "title": "Phenotyping grapevine red blotch virus and grapevine leafroll-associated viruses before and after symptom expression through machine-learning analysis of hyperspectral images",
    "authors": [
@@ -407,7 +262,7 @@
    "urls": [],
    "container": "Computers and Electronics in Agriculture",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -418,7 +273,7 @@
     "first_author": "Sawyer",
     "container": "Frontiers in Plant Science",
     "type": "journal-article",
-    "score": 124.82847
+    "score": 124.836525
    },
    "metrics": {
     "title_sim": 100.0,
@@ -431,7 +286,7 @@
   },
   {
    "junk": false,
-   "idx": 11,
+   "idx": 7,
    "raw": "Gloire Rubambiza, Fernando Romero Galvan, Ryan Pavlick, Hakim Weatherspoon, and Kaitlin M. Gold. Toward cloud-native, machine learning base detection of crop disease with imaging spectroscopy. In Proceedings of the ACM Symposium on Cloud Computing, pages 1\u201315, 2022.",
    "title": "Toward cloud-native, machine learning base detection of crop disease with imaging spectroscopy",
    "authors": [
@@ -447,7 +302,7 @@
    "urls": [],
    "container": "Proceedings of the ACM Symposium on Cloud Computing",
    "type": "paper-conference",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -458,7 +313,7 @@
     "first_author": "Rubambiza",
     "container": "",
     "type": "posted-content",
-    "score": 73.29135
+    "score": 73.292564
    },
    "metrics": {
     "title_sim": 98.93617021276596,
@@ -471,7 +326,7 @@
   },
   {
    "junk": false,
-   "idx": 12,
+   "idx": 8,
    "raw": "Madison T. Flasco, Victoria Hoyle, Elizabeth J. Cieniewicz, Greg Loeb, Heather McLane, Keith Perry, and Marc F. Fuchs. The three-cornered alfalfa hopper, spissistilus festinus, is a vector of grapevine red blotch virus in vineyards. Phytopathology, 111(9):1501\u20131510, 2021a.",
    "title": "The three-cornered alfalfa hopper, spissistilus festinus, is a vector of grapevine red blotch virus in vineyards",
    "authors": [
@@ -489,7 +344,7 @@
    "urls": [],
    "container": "Phytopathology",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -500,7 +355,7 @@
     "first_author": "Flasco",
     "container": "Viruses",
     "type": "journal-article",
-    "score": 117.264465
+    "score": 117.28649
    },
    "metrics": {
     "title_sim": 100.0,
@@ -513,7 +368,7 @@
   },
   {
    "junk": false,
-   "idx": 13,
+   "idx": 9,
    "raw": "M.T. Flasco, D.W. Heck, E.J. Cieniewicz, M.L. Cooper, S.J. Pethybridge, and M.F. Fuchs. A decade of grapevine red blotch disease epidemiology reveals zonal roguing as novel disease management. Phytopathology, 111(6):1019\u20131031, 2021b.",
    "title": "A decade of grapevine red blotch disease epidemiology reveals zonal roguing as novel disease management",
    "authors": [
@@ -530,7 +385,7 @@
    "urls": [],
    "container": "Phytopathology",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -541,7 +396,7 @@
     "first_author": "Flasco",
     "container": "npj Viruses",
     "type": "journal-article",
-    "score": 96.366325
+    "score": 96.414696
    },
    "metrics": {
     "title_sim": 100.0,
@@ -554,7 +409,7 @@
   },
   {
    "junk": false,
-   "idx": 14,
+   "idx": 10,
    "raw": "K.A. Garrett, D.P. Bebber, B.A. Etherton, K.M. Gold, A.I. Plex Sul\u00e1, and M.G. Selvaraj. Climate change effects on pathogen emergence: Artificial intelligence to translate big data for mitigation. Phytopathology, 112(8):1666\u20131685, 2022.",
    "title": "Climate change effects on pathogen emergence: Artificial intelligence to translate big data for mitigation",
    "authors": [
@@ -571,7 +426,7 @@
    "urls": [],
    "container": "Phytopathology",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -582,7 +437,7 @@
     "first_author": "Garrett",
     "container": "Annual Review of Phytopathology",
     "type": "journal-article",
-    "score": 72.387344
+    "score": 72.383575
    },
    "metrics": {
     "title_sim": 100.0,
@@ -595,7 +450,7 @@
   },
   {
    "junk": false,
-   "idx": 15,
+   "idx": 11,
    "raw": "Alexey Mikaberidze, C.D. Cruz, Ayalsew Zerihun, Abel Barreto, Pieter Beck, Roc\u00edo Calder\u00f3n, Carlos Camino, Rebecca E. Campbell, Stephanie K.L. Delalieux, Fr\u00e9d\u00e9ric Fabre, Elin Falla, Stuart Fraser, Kaitlin M. Gold, Carlos Gongora-Canul, Fr\u00e9d\u00e9ric Hamelin, Dalphy O.C. Harteveld, Cheng-Fang Hong, Melen Leclerc, Da-Young Lee, Murillo Lobo Jr., Anne-Katrin Mahlein, Emily McLay, Paul Melloy, Stephen Parnell, Uwe Rascher, Jack Rich, Irene Salotti, Samuel Soubeyrand, Susan Sprague, Antony Surano, Sandhya D. Takooree, Thomas H. Taylor, Suzanne Touzeau, Pablo J. Zarco-Tejada, and Nik J. Cunniffe. Opportunities and challenges in combining optical sensing and epidemiological modelling. Phytopathology, 113(4):592\u2013609, 2023.",
    "title": "Opportunities and challenges in combining optical sensing and epidemiological modelling",
    "authors": [
@@ -640,7 +495,7 @@
    "urls": [],
    "container": "Phytopathology",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -651,7 +506,7 @@
     "first_author": "Mikaberidze",
     "container": "Phytopathology\u00ae",
     "type": "journal-article",
-    "score": 27.189869
+    "score": 27.19667
    },
    "metrics": {
     "title_sim": 99.42196531791907,
@@ -664,7 +519,7 @@
   },
   {
    "junk": false,
-   "idx": 16,
+   "idx": 12,
    "raw": "Mike Jeger, Fred Hamelin, and Nik Cunniffe. Emerging themes and approaches in plant virus epidemiology. Virus Research, 256:1\u20132, 2018.",
    "title": "Emerging themes and approaches in plant virus epidemiology",
    "authors": [
@@ -678,7 +533,7 @@
    "urls": [],
    "container": "Virus Research",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -689,7 +544,7 @@
     "first_author": "Jeger",
     "container": "Phytopathology\u00ae",
     "type": "journal-article",
-    "score": 52.1838
+    "score": 52.189598
    },
    "metrics": {
     "title_sim": 100.0,
@@ -702,7 +557,7 @@
   },
   {
    "junk": false,
-   "idx": 17,
+   "idx": 13,
    "raw": "Laurence V. Madden, Gareth Hughes, and Frank van den Bosch. The study of plant disease epidemics. In The Study of Plant Disease Epidemics. APS Press, 2007c.",
    "title": "The study of plant disease epidemics",
    "authors": [
@@ -716,7 +571,7 @@
    "urls": [],
    "container": "The Study of Plant Disease Epidemics",
    "type": "chapter",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -727,7 +582,7 @@
     "first_author": "Madden",
     "container": "",
     "type": "monograph",
-    "score": 38.658848
+    "score": 38.68973
    },
    "metrics": {
     "title_sim": 100.0,

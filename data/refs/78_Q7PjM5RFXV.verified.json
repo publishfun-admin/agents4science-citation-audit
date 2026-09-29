@@ -1,15 +1,17 @@
 {
  "pdf": "78_Q7PjM5RFXV.pdf",
- "n_entries": 15,
- "fallback": false,
+ "n_entries": 17,
+ "fallback": "indent-guided",
  "error": null,
  "linenumbers_stripped": true,
- "parser_version": 3,
+ "two_column": false,
+ "parser_version": 4,
+ "reprocessed": true,
  "entries": [
   {
    "junk": false,
    "idx": 1,
-   "raw": "References Besio, K., & Tung, C. (Eds.). (2008). Three Kingdoms and Chinese Culture. State University of New York Press. https://doi.org/10.1515/9780791480496",
+   "raw": "Besio, K., & Tung, C. (Eds.). (2008). Three Kingdoms and Chinese Culture. State University of New York Press. https://doi.org/10.1515/9780791480496",
    "title": "Three Kingdoms and Chinese Culture",
    "authors": [],
    "year": 2008,
@@ -20,7 +22,7 @@
    ],
    "container": null,
    "type": "book",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "doi",
    "match": {
@@ -59,7 +61,7 @@
    ],
    "container": "Progress in Human Geography",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "doi",
    "match": {
@@ -97,7 +99,7 @@
    ],
    "container": "The Cambridge History of China",
    "type": "chapter",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "doi",
    "match": {
@@ -135,7 +137,7 @@
    ],
    "container": "Management and Organization Review",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "doi",
    "match": {
@@ -173,7 +175,7 @@
    ],
    "container": "The Cambridge History of China",
    "type": "chapter",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "doi",
    "match": {
@@ -209,7 +211,7 @@
    "urls": [],
    "container": null,
    "type": "book",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -220,7 +222,7 @@
     "first_author": "Fei",
     "container": "",
     "type": "monograph",
-    "score": 50.023624
+    "score": 50.022964
    },
    "metrics": {
     "title_sim": 100.0,
@@ -247,7 +249,7 @@
    ],
    "container": "Asia Pacific Journal of Education",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -258,7 +260,7 @@
     "first_author": "Goh",
     "container": "Asia Pacific Journal of Education",
     "type": "journal-article",
-    "score": 86.3831
+    "score": 86.39894
    },
    "metrics": {
     "title_sim": 100.0,
@@ -288,7 +290,7 @@
    ],
    "container": "Linguistics",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -299,7 +301,7 @@
     "first_author": "Huang",
     "container": "Linguistics",
     "type": "journal-article",
-    "score": 64.65549
+    "score": 64.66512
    },
    "metrics": {
     "title_sim": 100.0,
@@ -313,22 +315,65 @@
   {
    "junk": false,
    "idx": 9,
-   "raw": "Kyushu National Museum. (2019). The Three Kingdoms [Exhibition]. Retrieved August 18, 2025, from https://www.kyuhaku.jp/en/exhibition/exhibition_s56.html Li, P. P. (2014). The unique value of Yin-Yang balancing: A critical response. Management and Organization Review, 10(2), 321\u2013332. https://doi.org/10.1111/more.12050",
+   "raw": "Kyushu National Museum. (2019). The Three Kingdoms [Exhibition]. Retrieved August 18, 2025, from https://www.kyuhaku.jp/en/exhibition/exhibition_s56.html",
    "title": "The Three Kingdoms [Exhibition",
    "authors": [
-    "Museum",
-    "Li"
+    "Museum"
    ],
    "year": 2019,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://www.kyuhaku.jp/en/exhibition/exhibition_s56.html"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED_URL",
+   "via": "url",
+   "url_status": {
+    "https://www.kyuhaku.jp/en/exhibition/exhibition_s56.html": 200
+   },
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1525/9780520957879-008",
+      "title": "PRINCIPAL CHARACTERS IN THREE KINGDOMS",
+      "year": 2019,
+      "first_author": null,
+      "container": "Three Kingdoms",
+      "type": "book-chapter",
+      "score": 30.168388
+     },
+     "metrics": {
+      "title_sim": 65.11627906976744,
+      "containment": 0.5,
+      "partial_ratio": 57.89473684210527,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "Li, P. P. (2014). The unique value of Yin-Yang balancing: A critical response. Management and Organization Review, 10(2), 321\u2013332. https://doi.org/10.1111/more.12050",
+   "title": "The unique value of Yin-Yang balancing: A critical response",
+   "authors": [
+    "Li"
+   ],
+   "year": 2014,
    "doi": "10.1111/more.12050",
    "arxiv": null,
    "urls": [
-    "https://www.kyuhaku.jp/en/exhibition/exhibition_s56.html",
     "https://doi.org/10.1111/more.12050"
    ],
    "container": "Management and Organization Review",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "doi",
    "match": {
@@ -342,18 +387,17 @@
     "score": 1
    },
    "metrics": {
-    "title_sim": 39.08045977011494,
+    "title_sim": 100.0,
     "containment": 1.0,
     "partial_ratio": 100.0,
-    "year_ok": false,
-    "first_author_ok": true,
-    "rule": "id+raw_containment"
+    "year_ok": true,
+    "first_author_ok": true
    },
    "evidence": []
   },
   {
    "junk": false,
-   "idx": 10,
+   "idx": 11,
    "raw": "Liu, Y., Chen, M., & Tian, Y. (2022). Temporal and spatial patterns and influencing factors of intangible cultural heritage: Ancient Qin-Shu roads, Western China. Heritage Science, 10(1), 1\u201319. https://doi.org/10.1186/s40494-022-00840-0",
    "title": "Temporal and spatial patterns and influencing factors of intangible cultural heritage: Ancient Qin-Shu roads, Western China",
    "authors": [
@@ -369,7 +413,7 @@
    ],
    "container": "Heritage Science",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "doi",
    "match": {
@@ -393,7 +437,7 @@
   },
   {
    "junk": false,
-   "idx": 11,
+   "idx": 12,
    "raw": "Peng, K., & Nisbett, R. E. (1999). Culture, dialectics, and reasoning about contradiction. American Psychologist, 54(9), 741\u2013754. https://doi.org/10.1037/0003-066X.54.9.741",
    "title": "Culture, dialectics, and reasoning about contradiction",
    "authors": [
@@ -408,7 +452,7 @@
    ],
    "container": "American Psychologist",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "doi",
    "match": {
@@ -432,17 +476,105 @@
   },
   {
    "junk": false,
-   "idx": 12,
-   "raw": "The Editors of Encyclopaedia Britannica. (2023a, August 1). Yangtze Plain. Encyclopedia Britannica.",
+   "idx": 13,
+   "raw": "The Editors of Encyclopaedia Britannica. (2023a, August 1). Yangtze Plain. Encyclopedia Britannica. Retrieved August 18, 2025, from https://www.britannica.com/place/Yangtze-Plain",
    "title": "The Editors of Encyclopaedia Britannica",
    "authors": [],
    "year": 2023,
    "doi": null,
    "arxiv": null,
-   "urls": [],
+   "urls": [
+    "https://www.britannica.com/place/Yangtze-Plain"
+   ],
    "container": null,
-   "type": "book",
-   "parser": "anystyle-find",
+   "type": null,
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED_URL",
+   "via": "url",
+   "url_status": {
+    "https://www.britannica.com/place/Yangtze-Plain": 200
+   },
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1163/9789004337862__com_050367",
+      "title": "Encyclopaedia Britannica",
+      "year": 2020,
+      "first_author": null,
+      "container": "Lexikon des gesamten Buchwesens Online",
+      "type": "dataset",
+      "score": 29.908506
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 1.0,
+      "partial_ratio": 100.0,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 14,
+   "raw": "The Editors of Encyclopaedia Britannica. (2023b, August 22). Sichuan Basin. Encyclopedia Britannica. Retrieved August 18, 2025, from https://www.britannica.com/place/Sichuan-Basin",
+   "title": "The Editors of Encyclopaedia Britannica",
+   "authors": [],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://www.britannica.com/place/Sichuan-Basin"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED_URL",
+   "via": "url",
+   "url_status": {
+    "https://www.britannica.com/place/Sichuan-Basin": 200
+   },
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1163/9789004337862__com_050367",
+      "title": "Encyclopaedia Britannica",
+      "year": 2020,
+      "first_author": null,
+      "container": "Lexikon des gesamten Buchwesens Online",
+      "type": "dataset",
+      "score": 29.908506
+     },
+     "metrics": {
+      "title_sim": 100.0,
+      "containment": 1.0,
+      "partial_ratio": 100.0,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 15,
+   "raw": "The Editors of Encyclopaedia Britannica. (2023c, November 3). North China Plain. Encyclopedia Britannica. Retrieved August 18, 2025, from https://www.britannica.com/place/North- China-Plain",
+   "title": "The Editors of Encyclopaedia Britannica",
+   "authors": [],
+   "year": 2023,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://www.britannica.com/place/North-"
+   ],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-indent-guided",
    "verdict": "UNVERIFIED",
    "evidence": [
     {
@@ -455,7 +587,7 @@
       "first_author": null,
       "container": "Lexikon des gesamten Buchwesens Online",
       "type": "dataset",
-      "score": 29.957254
+      "score": 29.908506
      },
      "metrics": {
       "title_sim": 100.0,
@@ -464,60 +596,22 @@
       "year_ok": false,
       "first_author_ok": null
      }
+    },
+    {
+     "step": "urls_not_live",
+     "url_status": {
+      "https://www.britannica.com/place/North-": 404
+     }
     }
    ],
    "likely_match": null
   },
   {
-   "junk": true,
-   "idx": 13,
-   "raw": "Retrieved August 18, 2025, from https://www.britannica.com/place/Yangtze-Plain",
-   "title": null,
-   "authors": [],
-   "year": null,
-   "doi": null,
-   "arxiv": null,
-   "urls": [
-    "https://www.britannica.com/place/Yangtze-Plain"
-   ],
-   "container": null,
-   "type": null,
-   "parser": "anystyle-find",
-   "verdict": "VERIFIED_URL",
-   "via": "url",
-   "url_status": {
-    "https://www.britannica.com/place/Yangtze-Plain": 200
-   },
-   "evidence": [
-    {
-     "step": "crossref_best_reject",
-     "rec": {
-      "source": "crossref",
-      "doi": "10.1089/glre.2016.201011",
-      "title": "LAS VEGAS SANDS CORP., a Nevada corporation, Plaintiff, v. UKNOWN REGISTRANTS OF www.wn0000.com, www.wn1111.com, www.wn2222.com, www.wn3333.com, www.wn4444.com, www.wn5555.com, www.wn6666.com, www.wn7777.com, www.wn8888.com, www.wn9999.com, www.112211.com, www.4456888.com, www.4489888.com, www.001148.com, and www.2289888.com, Defendants.",
-      "year": 2016,
-      "first_author": null,
-      "container": "Gaming Law Review and Economics",
-      "type": "journal-article",
-      "score": 28.636536
-     },
-     "metrics": {
-      "title_sim": 0,
-      "containment": 0.545,
-      "partial_ratio": 39.66942148760331,
-      "year_ok": true,
-      "first_author_ok": null
-     }
-    }
-   ]
-  },
-  {
    "junk": false,
-   "idx": 14,
-   "raw": "The Editors of Encyclopaedia Britannica. (2023b, August 22). Sichuan Basin. Encyclopedia Britannica. Retrieved August 18, 2025, from https://www.britannica.com/place/Sichuan-Basin The Editors of Encyclopaedia Britannica. (2023c, November 3). North China Plain. Encyclopedia Britannica. Retrieved August 18, 2025, from https://www.britannica.com/place/North-China-Plain Zhao, M., Chen, J., Shi, H., Li, T., & Li, L. (2023). The research on spatial network replication based on toponym co-occurrence by location recommendation model: A case study of the history of the Three Kingdoms. Journal of Geo-information Science, 25(7), 1386\u20131404. https://doi.org/10.12082/dqxxkx.2023.220786",
-   "title": "Sichuan Basin",
+   "idx": 16,
+   "raw": "Zhao, M., Chen, J., Shi, H., Li, T., & Li, L. (2023). The research on spatial network replication based on toponym co-occurrence by location recommendation model: A case study of the history of the Three Kingdoms. Journal of Geo-information Science, 25(7), 1386\u20131404. https://doi.org/10.12082/dqxxkx.2023.220786",
+   "title": "The research on spatial network replication based on toponym co-occurrence by location recommendation model: A case study of the history of the Three Kingdoms",
    "authors": [
-    "Encyclopaedia Britannica",
     "Zhao",
     "Chen",
     "Shi",
@@ -528,19 +622,12 @@
    "doi": "10.12082/dqxxkx.2023.220786",
    "arxiv": null,
    "urls": [
-    "https://www.britannica.com/place/Sichuan-Basin",
-    "https://www.britannica.com/place/North-China-Plain",
     "https://doi.org/10.12082/dqxxkx.2023.220786"
    ],
    "container": "Journal of Geo-information Science",
    "type": "article-journal",
-   "parser": "anystyle-find",
-   "verdict": "VERIFIED_URL",
-   "via": "url",
-   "url_status": {
-    "https://www.britannica.com/place/Sichuan-Basin": 200,
-    "https://www.britannica.com/place/North-China-Plain": 403
-   },
+   "parser": "anystyle-indent-guided",
+   "verdict": "UNVERIFIED",
    "evidence": [
     {
      "step": "doi_not_resolvable",
@@ -550,27 +637,28 @@
      "step": "crossref_best_reject",
      "rec": {
       "source": "crossref",
-      "doi": "10.1163/9789004337862__com_050367",
-      "title": "Encyclopaedia Britannica",
-      "year": 2020,
-      "first_author": null,
-      "container": "Lexikon des gesamten Buchwesens Online",
-      "type": "dataset",
-      "score": 29.957254
+      "doi": "10.21298/ijthr.2017.03.31.3.35",
+      "title": "Research on the travel history of the era of three kingdoms - Based on a text analysis of History of Three Kingdoms -",
+      "year": 2017,
+      "first_author": "Ko",
+      "container": "International Journal of Tourism and Hospitality Research",
+      "type": "journal-article",
+      "score": 33.06555
      },
      "metrics": {
-      "title_sim": 37.83783783783784,
-      "containment": 1.0,
-      "partial_ratio": 100.0,
+      "title_sim": 56.29629629629629,
+      "containment": 0.667,
+      "partial_ratio": 53.98230088495575,
       "year_ok": false,
-      "first_author_ok": null
+      "first_author_ok": false
      }
     }
-   ]
+   ],
+   "likely_match": null
   },
   {
    "junk": false,
-   "idx": 15,
+   "idx": 17,
    "raw": "Zhi, Q. (1998). A preliminary study on regional system of Wu culture. Acta Geographica Sinica, 53(2), 123\u2013131. https://doi.org/10.11821/xb199802004",
    "title": "A preliminary study on regional system of Wu culture",
    "authors": [
@@ -584,7 +672,7 @@
    ],
    "container": "Acta Geographica Sinica",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "UNVERIFIED",
    "evidence": [
     {
@@ -601,7 +689,7 @@
       "first_author": null,
       "container": "International Education and Culture Studies",
       "type": "journal-article",
-      "score": 24.743242
+      "score": 24.731665
      },
      "metrics": {
       "title_sim": 70.0,

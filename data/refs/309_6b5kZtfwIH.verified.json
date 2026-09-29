@@ -1,15 +1,17 @@
 {
  "pdf": "309_6b5kZtfwIH.pdf",
- "n_entries": 8,
- "fallback": false,
+ "n_entries": 11,
+ "fallback": "indent-guided",
  "error": null,
  "linenumbers_stripped": true,
- "parser_version": 3,
+ "two_column": false,
+ "parser_version": 4,
+ "reprocessed": true,
  "entries": [
   {
    "junk": false,
    "idx": 1,
-   "raw": "References David M Blei, Andrew Y Ng, and Michael I Jordan. Latent dirichlet allocation. Journal of machine Learning research, 3(Jan):993\u20131022, 2003.",
+   "raw": "David M Blei, Andrew Y Ng, and Michael I Jordan. Latent dirichlet allocation. Journal of machine Learning research, 3(Jan):993\u20131022, 2003.",
    "title": "Latent dirichlet allocation",
    "authors": [
     "Blei",
@@ -22,7 +24,7 @@
    "urls": [],
    "container": "Journal of machine Learning research",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -33,7 +35,7 @@
     "first_author": "Blei",
     "container": "Advances in Neural Information Processing Systems 14",
     "type": "book-chapter",
-    "score": 37.097527
+    "score": 37.09429
    },
    "metrics": {
     "title_sim": 100.0,
@@ -47,19 +49,130 @@
   {
    "junk": false,
    "idx": 2,
-   "raw": "Haoru Chen, Xiaocheng Zhang, Yang Zhou, Mengjiao Bao, and Peng Yan. Grafting learning is all you need. In KDD 2024 Workshop OAGChallenge Cup, 2024a. URL https://openreview. net/forum?id=s2hVfSPTbU. Kunlong Chen, Junjun Wang, Zhaoqun Chen, Kunjin Chen, and Yitian Chen. Llm-powered ensemble learning for paper source tracing: A gpu-free approach. In KDD 2024 Workshop OAG-Challenge Cup, 2024b. URL https://openreview.net/forum?id=H5wbKuYjxR. Daryl E. Chubin and Eugene Garfield. Is citation analysis a legitimate evaluation tool? Scientometrics, 2(1):91\u201394, 1980. doi: 10.1007/BF02016602. URL https://doi.org/10.1007/BF02016602.",
+   "raw": "Haoru Chen, Xiaocheng Zhang, Yang Zhou, Mengjiao Bao, and Peng Yan. Grafting learning is all you need. In KDD 2024 Workshop OAGChallenge Cup, 2024a. URL https://openreview. net/forum?id=s2hVfSPTbU.",
    "title": "Grafting learning is all you need",
    "authors": [
     "Chen",
     "Zhang",
     "Zhou",
     "Bao",
-    "Yan",
+    "Yan"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://openreview"
+   ],
+   "container": "KDD 2024 Workshop OAGChallenge Cup, 2024a. URL",
+   "type": "chapter",
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.5040/9781350101272.00000005",
+      "title": "All You Need Is LSD",
+      "year": 2018,
+      "first_author": "Butler",
+      "container": "All You Need Is LSD",
+      "type": "other",
+      "score": 31.085297
+     },
+     "metrics": {
+      "title_sim": 88.23529411764706,
+      "containment": 0.75,
+      "partial_ratio": 84.21052631578947,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    },
+    {
+     "step": "urls_not_live",
+     "url_status": {
+      "https://openreview": "error"
+     }
+    }
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "434f09cc3e619ef18406b94712e2a233f49c4da6",
+    "title": "Grafting Learning Is All You Need",
+    "year": null,
+    "first_author": "Haoru Chen",
+    "container": "",
+    "ext": {
+     "CorpusId": 274456692
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "second_pass_hit": true
+  },
+  {
+   "junk": false,
+   "idx": 3,
+   "raw": "Kunlong Chen, Junjun Wang, Zhaoqun Chen, Kunjin Chen, and Yitian Chen. Llm-powered ensemble learning for paper source tracing: A gpu-free approach. In KDD 2024 Workshop OAG-Challenge Cup, 2024b. URL https://openreview.net/forum?id=H5wbKuYjxR.",
+   "title": "Llm-powered ensemble learning for paper source tracing: A gpu-free approach",
+   "authors": [
     "Chen",
     "Wang",
     "Chen",
     "Chen",
-    "Chen",
+    "Chen"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://openreview.net/forum?id=H5wbKuYjxR"
+   ],
+   "container": "KDD 2024 Workshop OAG-Challenge Cup, 2024b. URL",
+   "type": "chapter",
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED_URL",
+   "via": "url",
+   "url_status": {
+    "https://openreview.net/forum?id=H5wbKuYjxR": 200
+   },
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1111/issj.12368/v1/review3",
+      "title": "Review for \"Tracing prodromal behaviour by analysing data patterns from social media with ensemble machine learning approach\"",
+      "year": 2022,
+      "first_author": null,
+      "container": "",
+      "type": "peer-review",
+      "score": 29.880033
+     },
+     "metrics": {
+      "title_sim": 44.67005076142132,
+      "containment": 0.308,
+      "partial_ratio": 45.52845528455285,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 4,
+   "raw": "Daryl E. Chubin and Eugene Garfield. Is citation analysis a legitimate evaluation tool? Scientometrics, 2(1):91\u201394, 1980. doi: 10.1007/BF02016602. URL https://doi.org/10.1007/BF02016602.",
+   "title": "Is citation analysis a legitimate evaluation tool?",
+   "authors": [
     "Chubin",
     "Garfield"
    ],
@@ -67,13 +180,11 @@
    "doi": "10.1007/BF02016602",
    "arxiv": null,
    "urls": [
-    "https://openreview",
-    "https://openreview.net/forum?id=H5wbKuYjxR",
     "https://doi.org/10.1007/BF02016602"
    ],
-   "container": "KDD 2024 Workshop OAGChallenge Cup, 2024a. URL",
+   "container": "Scientometrics",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "doi",
    "match": {
@@ -87,7 +198,7 @@
     "score": 1
    },
    "metrics": {
-    "title_sim": 48.78048780487805,
+    "title_sim": 100.0,
     "containment": 1.0,
     "partial_ratio": 100.0,
     "year_ok": true,
@@ -97,7 +208,7 @@
   },
   {
    "junk": false,
-   "idx": 3,
+   "idx": 5,
    "raw": "MM KESSLER. Bibliographic coupling between scientific papers. 14:10\u201325, 1963.",
    "title": "Bibliographic coupling between scientific papers",
    "authors": [
@@ -109,7 +220,7 @@
    "urls": [],
    "container": null,
    "type": null,
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -120,7 +231,7 @@
     "first_author": "Kessler",
     "container": "American Documentation",
     "type": "journal-article",
-    "score": 54.882236
+    "score": 54.886467
    },
    "metrics": {
     "title_sim": 100.0,
@@ -133,7 +244,7 @@
   },
   {
    "junk": false,
-   "idx": 4,
+   "idx": 6,
    "raw": "Thomas N Kipf and Max Welling. Semi-supervised classification with graph convolutional networks. In International Conference on Learning Representations, 2017.",
    "title": "Semi-supervised classification with graph convolutional networks",
    "authors": [
@@ -146,7 +257,7 @@
    "urls": [],
    "container": "International Conference on Learning Representations",
    "type": "paper-conference",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -157,7 +268,7 @@
     "first_author": "Zhuang",
     "container": "Proceedings of the 2018 World Wide Web Conference on World Wide Web - WWW '18",
     "type": "proceedings-article",
-    "score": 42.16685
+    "score": 42.170982
    },
    "metrics": {
     "title_sim": 95.9349593495935,
@@ -170,7 +281,7 @@
   },
   {
    "junk": false,
-   "idx": 5,
+   "idx": 7,
    "raw": "Quoc V. Le and Tomas Mikolov.           Distributed representations of sentences and documents. abs/1405.4053, 2014.",
    "title": "Distributed representations of sentences and documents",
    "authors": [
@@ -183,7 +294,7 @@
    "urls": [],
    "container": null,
    "type": null,
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "evidence": [
     {
@@ -196,7 +307,7 @@
       "first_author": "Wijffels",
       "container": "CRAN: Contributed Packages",
       "type": "dataset",
-      "score": 39.193253
+      "score": 39.19937
      },
      "metrics": {
       "title_sim": 100.0,
@@ -234,19 +345,11 @@
   },
   {
    "junk": false,
-   "idx": 6,
-   "raw": "Henry Small. Co-citation in the scientific literature: A new measure of the relationship between two documents. J. Am. Soc. Inf. Sci., 24(4):265\u2013269, 1973. doi: 10.1002/ASI.4630240406. URL https://doi.org/10.1002/asi.4630240406. Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N Gomez, \u0141ukasz Kaiser, and Illia Polosukhin. Attention is all you need. In Advances in neural information processing systems, pp. 5998\u20136008, 2017.",
+   "idx": 8,
+   "raw": "Henry Small. Co-citation in the scientific literature: A new measure of the relationship between two documents. J. Am. Soc. Inf. Sci., 24(4):265\u2013269, 1973. doi: 10.1002/ASI.4630240406. URL https://doi.org/10.1002/asi.4630240406.",
    "title": "Co-citation in the scientific literature: A new measure of the relationship between two documents",
    "authors": [
-    "Small",
-    "Vaswani",
-    "Shazeer",
-    "Parmar",
-    "Uszkoreit",
-    "Jones",
-    "Gomez",
-    "Kaiser",
-    "Polosukhin"
+    "Small"
    ],
    "year": 1973,
    "doi": "10.1002/ASI.4630240406",
@@ -254,9 +357,9 @@
    "urls": [
     "https://doi.org/10.1002/asi.4630240406"
    ],
-   "container": "Advances in neural information processing systems",
+   "container": "J. Am. Soc. Inf. Sci",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "doi",
    "match": {
@@ -280,7 +383,50 @@
   },
   {
    "junk": false,
-   "idx": 7,
+   "idx": 9,
+   "raw": "Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N Gomez, \u0141ukasz Kaiser, and Illia Polosukhin. Attention is all you need. In Advances in neural information processing systems, pp. 5998\u20136008, 2017.",
+   "title": "Attention is all you need",
+   "authors": [
+    "Vaswani",
+    "Shazeer",
+    "Parmar",
+    "Uszkoreit",
+    "Jones",
+    "Gomez",
+    "Kaiser",
+    "Polosukhin"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Advances in neural information processing systems",
+   "type": "chapter",
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.65215/r5bs2d54",
+    "title": "Attention Is All You Need",
+    "year": 2025,
+    "first_author": "Vaswani",
+    "container": "",
+    "type": "posted-content",
+    "score": 43.630707
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": false,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 10,
    "raw": "Fanjin Zhang, Kun Cao, Yukuo Cen, Jifan Yu, Da Yin, and Jie Tang. Pst-bench: Tracing and benchmarking the source of publications. In Computing Research Repository, 2024.",
    "title": "Pst-bench: Tracing and benchmarking the source of publications",
    "authors": [
@@ -297,7 +443,7 @@
    "urls": [],
    "container": "Computing Research Repository",
    "type": "chapter",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "evidence": [
     {
@@ -310,7 +456,7 @@
       "first_author": "Erwich",
       "container": "2024 IEEE International Conference on Robotics and Automation (ICRA)",
       "type": "proceedings-article",
-      "score": 27.901617
+      "score": 27.912176
      },
      "metrics": {
       "title_sim": 63.492063492063494,
@@ -348,7 +494,7 @@
   },
   {
    "junk": false,
-   "idx": 8,
+   "idx": 11,
    "raw": "Shupeng Zhong, Xinger Li, Shushan Jin, and Yang Yang. The solution for the pst-kdd-2024 oagchallenge. In KDD 2024 Workshop OAGChallenge Cup, 2024. URL https://openreview. net/forum?id=Ov0EZ7PuuI.",
    "title": "The solution for the pst-kdd-2024 oagchallenge",
    "authors": [
@@ -365,7 +511,7 @@
    ],
    "container": "KDD 2024 Workshop OAGChallenge Cup",
    "type": "chapter",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "UNVERIFIED",
    "evidence": [
     {
@@ -378,7 +524,7 @@
       "first_author": null,
       "container": "",
       "type": "proceedings",
-      "score": 24.110933
+      "score": 24.116543
      },
      "metrics": {
       "title_sim": 42.73504273504273,

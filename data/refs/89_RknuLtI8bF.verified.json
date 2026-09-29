@@ -1,16 +1,54 @@
 {
  "pdf": "89_RknuLtI8bF.pdf",
- "n_entries": 2,
- "fallback": false,
+ "n_entries": 4,
+ "fallback": "indent-guided",
  "error": null,
  "linenumbers_stripped": false,
- "parser_version": 3,
+ "two_column": false,
+ "parser_version": 4,
+ "reprocessed": true,
  "entries": [
   {
    "junk": false,
    "idx": 1,
-   "raw": "Agents4science 2025 call for papers.   https://agents4science.stanford.edu/ call-for-papers.html, 2025. Open Conference of AI Agents for Science, accessed 5 Sept 2025. Su Golder, Dongfang Xu, Karen O\u2019Connor, Yunwen Wang, Mahak Batra, and Graciela Gonzalez Hernandez. Leveraging natural language processing and machine learning methods for adverse drug event detection in electronic health/medical records: A scoping review. Drug Safety, 48(4): 321\u2013337, 2025. doi: 10.1007/s40264-024-01505-6. URL https://pubmed.ncbi.nlm.nih. gov/39786481/. Reviews NLP and machine learning methods for adverse drug event detection. Sengwee Toh. Pharmacoepidemiology in the era of real-world evidence. Current Epidemiology Reports, 4(4):262\u2013265, 2017. doi: 10.1007/s40471-017-0118-5. URL https://pubmed.ncbi. nlm.nih.gov/29314770/. Defines real-world data and evidence and discusses regulatory significance.",
+   "raw": "Agents4science 2025 call for papers.   https://agents4science.stanford.edu/ call-for-papers.html, 2025. Open Conference of AI Agents for Science, accessed 5 Sept 2025.",
    "title": "Agents4science 2025 call for papers",
+   "authors": [],
+   "year": 2025,
+   "doi": null,
+   "arxiv": null,
+   "urls": [
+    "https://agents4science.stanford.edu/"
+   ],
+   "container": "Open Conference of AI Agents for Science",
+   "type": "paper-conference",
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.15291/gem.3072",
+    "title": "Call for papers",
+    "year": 2025,
+    "first_author": "Group of authors",
+    "container": "GEM: Germanistica Euromediterrae",
+    "type": "journal-article",
+    "score": 27.861462
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 2,
+   "raw": "Su Golder, Dongfang Xu, Karen O\u2019Connor, Yunwen Wang, Mahak Batra, and Graciela Gonzalez Hernandez. Leveraging natural language processing and machine learning methods for adverse drug event detection in electronic health/medical records: A scoping review. Drug Safety, 48(4): 321\u2013337, 2025. doi: 10.1007/s40264-024-01505-6. URL https://pubmed.ncbi.nlm.nih. gov/39786481/. Reviews NLP and machine learning methods for adverse drug event detection.",
+   "title": "Leveraging natural language processing and machine learning methods for adverse drug event detection in electronic health/medical records: A scoping review",
    "authors": [
     "Golder",
     "Xu",
@@ -23,13 +61,11 @@
    "doi": "10.1007/s40264-024-01505-6",
    "arxiv": null,
    "urls": [
-    "https://agents4science.stanford.edu/",
-    "https://pubmed.ncbi.nlm.nih",
-    "https://pubmed.ncbi"
+    "https://pubmed.ncbi.nlm.nih"
    ],
    "container": "Drug Safety",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "doi",
    "match": {
@@ -43,7 +79,7 @@
     "score": 1
    },
    "metrics": {
-    "title_sim": 25.396825396825395,
+    "title_sim": 100.0,
     "containment": 1.0,
     "partial_ratio": 100.0,
     "year_ok": true,
@@ -53,7 +89,50 @@
   },
   {
    "junk": false,
-   "idx": 2,
+   "idx": 3,
+   "raw": "Sengwee Toh. Pharmacoepidemiology in the era of real-world evidence. Current Epidemiology Reports, 4(4):262\u2013265, 2017. doi: 10.1007/s40471-017-0118-5. URL https://pubmed.ncbi. nlm.nih.gov/29314770/. Defines real-world data and evidence and discusses regulatory significance.",
+   "title": "Pharmacoepidemiology in the era of real-world evidence",
+   "authors": [
+    "Toh"
+   ],
+   "year": 2017,
+   "doi": "10.1007/s40471-017-0118-5",
+   "arxiv": null,
+   "urls": [
+    "https://pubmed.ncbi"
+   ],
+   "container": "Current Epidemiology Reports",
+   "type": "article-journal",
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/s40471-017-0123-y",
+    "title": "Pharmacoepidemiology in the Era of Real-World Evidence",
+    "year": 2017,
+    "first_author": "Toh",
+    "container": "Current Epidemiology Reports",
+    "type": "journal-article",
+    "score": 51.161713
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "doi_not_resolvable",
+     "doi": "10.1007/s40471-017-0118-5"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 4,
    "raw": "Yongqi Zheng, Meng Zhang, Zhe Wang, Yiqun Zhou, Mengling Feng, Qi Ke, et al. Pharmacoepidemiologic research based on common data models: Systematic review and bibliometric analysis. JMIR Medical Informatics, 13(7):e72225, 2025. doi: 10.2196/72225. URL https://pubmed.ncbi.nlm.nih.gov/47355013/. A systematic review of common data model applications in pharmacoepidemiology.",
    "title": "Pharmacoepidemiologic research based on common data models: Systematic review and bibliometric analysis",
    "authors": [
@@ -72,7 +151,7 @@
    ],
    "container": "JMIR Medical Informatics",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "doi",
    "match": {

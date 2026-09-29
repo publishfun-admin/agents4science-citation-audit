@@ -59,7 +59,10 @@ def main():
     denom = ok[ok.status != 'UNADJUDICABLE']
     per = denom.groupby(['number', 'forum_id']).agg(n_refs=('idx', 'size'), n_fab=('fabricated', 'sum'), n_defective=('defective', 'sum'), n_placeholder=('status', lambda s: (s=='PLACEHOLDER').sum()), n_notfound=('status', lambda s: (s=='NOT_FOUND').sum()),
                                                    n_corrupt=('status', lambda s: (s=='EXISTS_CORRUPTED').sum()), n_pending=('status', lambda s: (s=='PENDING').sum())).reset_index()
+    nv = denom[denom.status == 'VERIFIED'].groupby(['number', 'forum_id']).size().rename('n_verified').reset_index()
+    per = per.merge(nv, on=['number', 'forum_id'], how='left').fillna({'n_verified': 0})
     per['share_fab'] = per.n_fab / per.n_refs
+    per['share_nf'] = per.n_notfound / per.n_refs
     per['share_defective'] = per.n_defective / per.n_refs
     df = papers.merge(per, on=['number', 'forum_id'], how='left')
     df.to_csv('data/dataset/papers_final.csv', index=False)
@@ -130,8 +133,81 @@ def main():
             else:
                 res = sm.Logit(y, X).fit(disp=0)
                 L.append(f"- Logistic regression accepted ~ share_fab + mean LLM score: coef(share_fab)={res.params['share_fab']:.2f} (p={res.pvalues['share_fab']:.3f}), coef(mean_llm)={res.params['mean_llm']:.2f} (p={res.pvalues['mean_llm']:.3g}), n={len(y)}")
+                ci = res.conf_int(); L.append(f"- Logistic diagnostics: converged={res.mle_retvals.get('converged')}, iterations={res.mle_retvals.get('iterations')}; SE(share_fab)={res.bse['share_fab']:.2f}, 95% CI [{ci.loc['share_fab',0]:.1f}, {ci.loc['share_fab',1]:.1f}]; SE(mean_llm)={res.bse['mean_llm']:.2f}; no accepted paper above a fabricated share of 10% (quasi-separation in the tail)")
+                Xi = X.copy(); Xi['share_fab'] = (rev.share_fab > 0.10).astype(int).values
+                try:
+                    ri = sm.Logit(y, Xi).fit(disp=0); L.append(f"- Indicator model accepted ~ (share_fab > 10%) + mean LLM score: coef={ri.params['share_fab']:.2f} (SE {ri.bse['share_fab']:.2f}, p={ri.pvalues['share_fab']:.3g}); converged={ri.mle_retvals.get('converged')}")
+                except Exception as e2: L.append(f"- Indicator model not fitted (separation): {e2}")
+                Xb = X.copy(); Xb['share_fab'] = rev.any_fab.astype(int).values
+                rb = sm.Logit(y, Xb).fit(disp=0); cb = rb.conf_int(); L.append(f"- Binary model accepted ~ any_fab + mean LLM score: coef(any_fab)={rb.params['share_fab']:.2f} (SE {rb.bse['share_fab']:.2f}, 95% CI [{cb.loc['share_fab',0]:.2f}, {cb.loc['share_fab',1]:.2f}], p={rb.pvalues['share_fab']:.3g}); odds ratio {np.exp(rb.params['share_fab']):.2f}")
         except Exception as e:
             L.append(f"- Logistic regression failed: {e}")
+    L.append('')
+    # Q1b adjusted for undetected corruption among automatically verified entries (blind check, code/blind_checks.py)
+    bj = 'data/dataset/blind_autoverified_estimate.json'
+    if os.path.exists(bj):
+        b = json.load(open(bj)); pop = b['population_by_source']; samp = b['sample_by_source']; N = sum(pop.values())
+        rng = np.random.default_rng(20260929); draws = []
+        for _ in range(4000):
+            est = 0.0
+            for g, cnt in samp.items():
+                ng = sum(cnt.values()); kg = cnt.get('EXISTS_CORRUPTED', 0)
+                est += rng.beta(kg + 0.5, ng - kg + 0.5) * pop.get(g, 0)
+            draws.append(est / N)
+        draws = np.array(draws); est = b['est_corrupted_share']; lo, hi = np.percentile(draws, [2.5, 97.5])
+        L.append('## Q1b Reference-level prevalence adjusted for corrupted citations among automatically verified entries\n')
+        L.append(f"Blind check of {b['n']} automatically verified entries: source-weighted corrupted share {100*est:.1f}% (bootstrap 95% CI {100*lo:.1f}-{100*hi:.1f}); wholly invented {100*b['est_notfound_share']:.1f}%. Applied uniformly to each paper's automatically verified entries:\n")
+        for lab, sub in [('Reviewed (accepted+rejected)', rev), ('Accepted', rev[rev.group == 'Conference']), ('Rejected', rev[rev.group == 'Rejected_Submission']), ('All papers with references', have)]:
+            nf, nr, nv_ = int(sub.n_fab.sum()), int(sub.n_refs.sum()), int(sub.n_verified.sum())
+            adj = (nf + draws * nv_) / nr
+            exp_any = float(np.mean([1.0 if a else 1 - (1 - est) ** v for a, v in zip(sub.any_fab, sub.n_verified)]))
+            L.append(f"- {lab}: adjudicated fabricated share {100*nf/nr:.1f}% -> adjusted {100*(nf + est*nv_)/nr:.1f}% (95% CI {100*np.percentile(adj,2.5):.1f}-{100*np.percentile(adj,97.5):.1f}); expected share of papers with >=1 fabricated or corrupted reference {100*exp_any:.0f}% (observed {100*sub.any_fab.mean():.1f}%)")
+        L.append('')
+    # Strict identity-level definition (comparable to Russinovich et al.): NOT_FOUND plus corrupted entries whose author list is wrong
+    ok['identity_fail'] = (ok.status == 'NOT_FOUND') | ((ok.status == 'EXISTS_CORRUPTED') & ok.corrupt_tags.str.contains('authors'))
+    idf = denom.assign(identity_fail=ok.loc[denom.index, 'identity_fail']).groupby(['number', 'forum_id']).identity_fail.sum().rename('n_identity').reset_index()
+    have = have.merge(idf, on=['number', 'forum_id'], how='left').fillna({'n_identity': 0}); rev = have[have.group.isin(['Conference', 'Rejected_Submission'])]
+    L.append('## Strict identity-level definition (wholly invented, or real work with a wrong author list)\n')
+    for lab, sub in [('Reviewed', rev), ('Accepted', rev[rev.group == 'Conference']), ('Rejected', rev[rev.group == 'Rejected_Submission'])]:
+        L.append(f"- {lab}: references {fmt_pct(int(sub.n_identity.sum()), int(sub.n_refs.sum()))}; papers with >=1 {fmt_pct(int((sub.n_identity > 0).sum()), len(sub))}; papers with >=2 {fmt_pct(int((sub.n_identity >= 2).sum()), len(sub))}")
+    L.append('')
+    # Sensitivity of the headline (reviewed papers) to the PLACEHOLDER and UNADJUDICABLE classifications
+    un = ok[(ok.status == 'UNADJUDICABLE')].groupby(['number', 'forum_id']).size().rename('n_unadj').reset_index()
+    sens = rev.merge(un, on=['number', 'forum_id'], how='left').fillna({'n_unadj': 0})
+    L.append('## Sensitivity of the reviewed-paper headline to classification choices\n')
+    L.append(f"- Base (fabricated = NOT_FOUND + EXISTS_CORRUPTED; UNADJUDICABLE excluded): papers {fmt_pct(int(sens.any_fab.sum()), len(sens))}; references {fmt_pct(int(sens.n_fab.sum()), int(sens.n_refs.sum()))}")
+    L.append(f"- Placeholders counted as fabricated: papers {fmt_pct(int((sens.n_defective > 0).sum()), len(sens))}; references {fmt_pct(int(sens.n_defective.sum()), int(sens.n_refs.sum()))}")
+    L.append(f"- UNADJUDICABLE entries counted as fabricated: papers {fmt_pct(int(((sens.n_fab + sens.n_unadj) > 0).sum()), len(sens))}; references {fmt_pct(int((sens.n_fab + sens.n_unadj).sum()), int((sens.n_refs + sens.n_unadj).sum()))}")
+    L.append(f"- UNADJUDICABLE entries counted as real: papers {fmt_pct(int(sens.any_fab.sum()), len(sens))}; references {fmt_pct(int(sens.n_fab.sum()), int((sens.n_refs + sens.n_unadj).sum()))}")
+    L.append(f"- Wholly invented only: papers {fmt_pct(int((sens.n_notfound > 0).sum()), len(sens))}; references {fmt_pct(int(sens.n_notfound.sum()), int(sens.n_refs.sum()))}\n")
+    # Secondary outcome: wholly invented references only (NOT_FOUND), robust to undetected corruption
+    L.append('## Secondary outcome: wholly invented references only (NOT_FOUND)\n')
+    rev2 = rev.copy(); rev2['any_nf'] = rev2.n_notfound > 0
+    L.append(f"- Reviewed papers with >=1 wholly invented reference: {fmt_pct(int(rev2.any_nf.sum()), len(rev2))}; reference-level: {fmt_pct(int(rev2.n_notfound.sum()), int(rev2.n_refs.sum()))}")
+    if len(w):
+        t2 = w.copy(); t2['any_nf'] = t2.n_notfound > 0
+        L.append('- By writing tier (papers with >=1 wholly invented): ' + '; '.join(f"{k}: {fmt_pct(int(x.any_nf.sum()), len(x))}" for k, x in t2.groupby('writing')))
+        if w.writing.nunique() > 1:
+            kw2 = stats.kruskal(*[x.share_nf.values for _, x in w.groupby('writing')]); L.append(f"- Kruskal-Wallis across writing tiers (invented share): H={kw2.statistic:.2f}, p={kw2.pvalue:.4f}")
+    for col, name in [('airev1', 'GPT-5'), ('airev2', 'Gemini 2.5 Pro'), ('airev3', 'Claude Sonnet 4'), ('human_score', 'Human expert')]:
+        s2 = rev2.dropna(subset=[col])
+        if len(s2) > 5:
+            rho = stats.spearmanr(s2[col], s2.share_nf)
+            L.append(f"- {name}: Spearman rho(invented share)={rho.statistic:.3f} (p={rho.pvalue:.3f}, n={len(s2)}); mean score with vs without invented refs: {s2[s2.any_nf][col].mean():.2f} vs {s2[~s2.any_nf][col].mean():.2f}")
+    a_w = rev2[rev2.any_nf].group.eq('Conference'); a_wo = rev2[~rev2.any_nf].group.eq('Conference')
+    L.append(f"- Acceptance: papers with >=1 invented ref {fmt_pct(int(a_w.sum()), len(a_w))} vs without {fmt_pct(int(a_wo.sum()), len(a_wo))}")
+    tbl2 = [[int(a_w.sum()), int((~a_w).sum())], [int(a_wo.sum()), int((~a_wo).sum())]]
+    if all(v >= 0 for r_ in tbl2 for v in r_):
+        fe2 = stats.fisher_exact(tbl2); L.append(f"- Fisher exact test (accepted x any invented): odds ratio={fe2[0]:.2f}, p={fe2[1]:.4g}; table={tbl2}")
+    if sm is not None and int(a_w.sum()) > 0:
+        try:
+            X2 = rev2[['share_nf']].copy(); X2['mean_llm'] = rev2[['airev1', 'airev2', 'airev3']].mean(axis=1); X2 = sm.add_constant(X2.fillna(X2.mean()))
+            res2 = sm.Logit((rev2.group == 'Conference').astype(int), X2).fit(disp=0)
+            L.append(f"- Logistic regression accepted ~ invented share + mean LLM score: coef(share_nf)={res2.params['share_nf']:.2f} (p={res2.pvalues['share_nf']:.3g}), coef(mean_llm)={res2.params['mean_llm']:.2f}")
+        except Exception as e:
+            L.append(f"- Logistic regression (invented share) not fitted: {e}")
+    elif int(a_w.sum()) == 0:
+        L.append("- Logistic regression (invented share) not fitted: complete separation (no accepted paper has a wholly invented reference); Fisher's exact test above applies")
     L.append('')
     # Q5 reviewer detection
     rm_path = 'data/dataset/review_ref_mentions.csv'

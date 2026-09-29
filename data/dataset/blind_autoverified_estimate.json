@@ -1,0 +1,43 @@
+{
+ "population_by_source": {
+  "crossref": 4040,
+  "s2": 932,
+  "other": 63,
+  "arxiv": 344,
+  "doi": 516,
+  "url": 93
+ },
+ "sample_by_source": {
+  "doi": {
+   "EXISTS": 18,
+   "EXISTS_CORRUPTED": 2
+  },
+  "arxiv": {
+   "EXISTS": 14,
+   "EXISTS_CORRUPTED": 1
+  },
+  "crossref": {
+   "UNADJUDICABLE": 1,
+   "EXISTS": 87,
+   "EXISTS_CORRUPTED": 11,
+   "PLACEHOLDER": 1,
+   "NOT_FOUND": 1
+  },
+  "other": {
+   "EXISTS": 2,
+   "EXISTS_CORRUPTED": 1,
+   "NOT_FOUND": 1,
+   "PLACEHOLDER": 1
+  },
+  "s2": {
+   "EXISTS": 32,
+   "EXISTS_CORRUPTED": 2
+  },
+  "url": {
+   "EXISTS": 5
+  }
+ },
+ "est_corrupted_share": 0.09718718482717069,
+ "est_notfound_share": 0.008784235136940549,
+ "n": 180
+}

@@ -32,6 +32,7 @@ while True:
         except Exception: continue
         if isinstance(d, dict) and d.get('second_pass') and not d.get('arxiv_repass'): todo.append((f, d))
     if not todo:
+        if os.environ.get('ONCE'): break
         idle += 1
         if idle > 40: break
         time.sleep(60); continue

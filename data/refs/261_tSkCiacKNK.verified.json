@@ -4,7 +4,9 @@
  "fallback": false,
  "error": null,
  "linenumbers_stripped": false,
- "parser_version": 3,
+ "two_column": false,
+ "parser_version": 4,
+ "reprocessed": true,
  "entries": [
   {
    "junk": false,
@@ -31,7 +33,7 @@
     "first_author": "Brooks",
     "container": "Artificial Intelligence",
     "type": "journal-article",
-    "score": 41.011604
+    "score": 41.023003
    },
    "metrics": {
     "title_sim": 100.0,
@@ -60,6 +62,23 @@
    "verdict": "UNVERIFIED",
    "evidence": [
     {
+     "step": "arxiv_id_resolves_title_mismatch",
+     "rec": {
+      "source": "arxiv",
+      "arxiv": "2203.12345",
+      "title": "Surface Patches with Rounded Corners",
+      "year": 2022,
+      "first_author": "Benjamin Marussig"
+     },
+     "metrics": {
+      "title_sim": 37.254901960784316,
+      "containment": 0.0,
+      "partial_ratio": 41.666666666666664,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    },
+    {
      "step": "crossref_best_reject",
      "rec": {
       "source": "crossref",
@@ -69,7 +88,7 @@
       "first_author": "Duan",
       "container": "IEEE Transactions on Emerging Topics in Computational Intelligence",
       "type": "journal-article",
-      "score": 38.45894
+      "score": 38.496765
      },
      "metrics": {
       "title_sim": 81.25,
@@ -77,23 +96,6 @@
       "partial_ratio": 84.21052631578947,
       "year_ok": true,
       "first_author_ok": true
-     }
-    },
-    {
-     "step": "arxiv_id_resolves_title_mismatch",
-     "rec": {
-      "source": "arxiv_abs",
-      "arxiv": "2203.12345",
-      "title": "Surface Patches with Rounded Corners",
-      "year": 2022,
-      "first_author": "Marussig, Benjamin"
-     },
-     "metrics": {
-      "title_sim": 37.254901960784316,
-      "containment": 0.0,
-      "partial_ratio": 41.666666666666664,
-      "year_ok": true,
-      "first_author_ok": false
      }
     }
    ],
@@ -105,7 +107,7 @@
     "first_author": "Duan",
     "container": "IEEE Transactions on Emerging Topics in Computational Intelligence",
     "type": "journal-article",
-    "score": 38.45894
+    "score": 38.496765
    }
   },
   {
@@ -133,7 +135,7 @@
     "first_author": "Zhuang",
     "container": "Proceedings of the IEEE",
     "type": "journal-article",
-    "score": 30.190248
+    "score": 30.191978
    },
    "metrics": {
     "title_sim": 100.0,
@@ -169,7 +171,7 @@
     "first_author": "Baltrusaitis",
     "container": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
     "type": "journal-article",
-    "score": 33.00052
+    "score": 32.999554
    },
    "metrics": {
     "title_sim": 100.0,
@@ -207,7 +209,7 @@
       "first_author": "Kumkam",
       "container": "2024 IEEE International Smart Cities Conference (ISC2)",
       "type": "proceedings-article",
-      "score": 36.74841
+      "score": 36.775562
      },
      "metrics": {
       "title_sim": 87.93103448275862,
@@ -270,7 +272,7 @@
       "first_author": null,
       "container": "",
       "type": "dissertation",
-      "score": 32.120815
+      "score": 32.152065
      },
      "metrics": {
       "title_sim": 47.22222222222222,
@@ -332,7 +334,7 @@
       "first_author": "Zhang",
       "container": "Neurocomputing",
       "type": "journal-article",
-      "score": 35.480423
+      "score": 35.482395
      },
      "metrics": {
       "title_sim": 76.28865979381443,
@@ -370,7 +372,7 @@
     "first_author": "Atrey",
     "container": "Multimedia Systems",
     "type": "journal-article",
-    "score": 50.335358
+    "score": 50.34313
    },
    "metrics": {
     "title_sim": 100.0,
@@ -406,7 +408,7 @@
     "first_author": "Fu",
     "container": "Proceedings of the 28th ACM International Conference on Multimedia",
     "type": "proceedings-article",
-    "score": 45.57053
+    "score": 45.57253
    },
    "metrics": {
     "title_sim": 100.0,
@@ -442,7 +444,7 @@
     "first_author": "Ramachandram",
     "container": "IEEE Signal Processing Magazine",
     "type": "journal-article",
-    "score": 56.4943
+    "score": 56.435856
    },
    "metrics": {
     "title_sim": 100.0,
@@ -478,7 +480,7 @@
     "first_author": "Savva",
     "container": "2019 IEEE/CVF International Conference on Computer Vision (ICCV)",
     "type": "proceedings-article",
-    "score": 42.291588
+    "score": 42.300938
    },
    "metrics": {
     "title_sim": 100.0,
@@ -514,7 +516,7 @@
     "first_author": "Shi",
     "container": "IEEE Internet of Things Journal",
     "type": "journal-article",
-    "score": 32.69316
+    "score": 32.696354
    },
    "metrics": {
     "title_sim": 100.0,
@@ -550,7 +552,7 @@
     "first_author": "Lahat",
     "container": "Proceedings of the IEEE",
     "type": "journal-article",
-    "score": 57.32199
+    "score": 57.30932
    },
    "metrics": {
     "title_sim": 100.0,
@@ -579,6 +581,23 @@
    "verdict": "UNVERIFIED",
    "evidence": [
     {
+     "step": "arxiv_id_resolves_title_mismatch",
+     "rec": {
+      "source": "arxiv",
+      "arxiv": "2004.09888",
+      "title": "ICT Intervention in the Containment of the Pandemic Spread of COVID-19: An Exploratory Study",
+      "year": 2020,
+      "first_author": "Akib Zaman"
+     },
+     "metrics": {
+      "title_sim": 33.333333333333336,
+      "containment": 0.0,
+      "partial_ratio": 36.8421052631579,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    },
+    {
      "step": "crossref_best_reject",
      "rec": {
       "source": "crossref",
@@ -588,30 +607,13 @@
       "first_author": "Chrisley",
       "container": "Artificial Intelligence",
       "type": "journal-article",
-      "score": 28.716167
+      "score": 28.705425
      },
      "metrics": {
       "title_sim": 100.0,
       "containment": 1.0,
       "partial_ratio": 100.0,
       "year_ok": false,
-      "first_author_ok": false
-     }
-    },
-    {
-     "step": "arxiv_id_resolves_title_mismatch",
-     "rec": {
-      "source": "arxiv_abs",
-      "arxiv": "2004.09888",
-      "title": "ICT Intervention in the Containment of the Pandemic Spread of COVID-19: An Exploratory Study",
-      "year": 2020,
-      "first_author": "Zaman, Akib"
-     },
-     "metrics": {
-      "title_sim": 33.333333333333336,
-      "containment": 0.0,
-      "partial_ratio": 36.8421052631579,
-      "year_ok": true,
       "first_author_ok": false
      }
     }
@@ -643,7 +645,7 @@
     "first_author": "Kober",
     "container": "Adaptation, Learning, and Optimization",
     "type": "book-chapter",
-    "score": 41.510704
+    "score": 41.507523
    },
    "metrics": {
     "title_sim": 100.0,
@@ -672,6 +674,23 @@
    "verdict": "UNVERIFIED",
    "evidence": [
     {
+     "step": "arxiv_id_resolves_title_mismatch",
+     "rec": {
+      "source": "arxiv",
+      "arxiv": "2010.12345",
+      "title": "Birefringence effect in Raman scattering of anisotropic materials",
+      "year": 2020,
+      "first_author": "Muqian Wen"
+     },
+     "metrics": {
+      "title_sim": 38.33333333333333,
+      "containment": 0.0,
+      "partial_ratio": 38.46153846153846,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    },
+    {
      "step": "crossref_best_reject",
      "rec": {
       "source": "crossref",
@@ -681,7 +700,7 @@
       "first_author": null,
       "container": "Socially Responsible AI",
       "type": "book-chapter",
-      "score": 30.07352
+      "score": 30.071686
      },
      "metrics": {
       "title_sim": 74.57627118644068,
@@ -689,23 +708,6 @@
       "partial_ratio": 56.75675675675676,
       "year_ok": false,
       "first_author_ok": null
-     }
-    },
-    {
-     "step": "arxiv_id_resolves_title_mismatch",
-     "rec": {
-      "source": "arxiv_abs",
-      "arxiv": "2010.12345",
-      "title": "Birefringence effect in Raman scattering of anisotropic materials",
-      "year": 2020,
-      "first_author": "Wen, Muqian"
-     },
-     "metrics": {
-      "title_sim": 38.33333333333333,
-      "containment": 0.0,
-      "partial_ratio": 38.46153846153846,
-      "year_ok": true,
-      "first_author_ok": false
      }
     }
    ],
@@ -727,6 +729,24 @@
    "type": "book",
    "parser": "anystyle-find",
    "verdict": "VERIFIED",
+   "via": "openalex",
+   "match": {
+    "source": "openalex",
+    "id": "https://openalex.org/W2604763608",
+    "doi": "https://doi.org/10.48550/arxiv.1703.03400",
+    "title": "Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks",
+    "year": 2017,
+    "first_author": "Chelsea Finn",
+    "container": "arXiv (Cornell University)",
+    "type": "preprint"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 0.75,
+    "partial_ratio": 83.05084745762711,
+    "year_ok": true,
+    "first_author_ok": true
+   },
    "evidence": [
     {
      "step": "crossref_best_reject",
@@ -738,7 +758,7 @@
       "first_author": "Lin",
       "container": "IEEE/ACM Transactions on Audio, Speech, and Language Processing",
       "type": "journal-article",
-      "score": 34.028126
+      "score": 34.03046
      },
      "metrics": {
       "title_sim": 100.0,
@@ -748,31 +768,7 @@
       "first_author_ok": false
      }
     }
-   ],
-   "likely_match": null,
-   "via": "s2",
-   "match": {
-    "source": "s2",
-    "id": "c889d6f98e6d79b89c3a6adf8a921f88fa6ba518",
-    "title": "Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks",
-    "year": 2017,
-    "first_author": "Chelsea Finn",
-    "container": "International Conference on Machine Learning",
-    "ext": {
-     "DBLP": "journals/corr/FinnAL17",
-     "MAG": "2951775809",
-     "ArXiv": "1703.03400",
-     "CorpusId": 6719686
-    }
-   },
-   "metrics": {
-    "title_sim": 100.0,
-    "containment": 0.75,
-    "partial_ratio": 83.05084745762711,
-    "year_ok": true,
-    "first_author_ok": true
-   },
-   "second_pass_hit": true
+   ]
   },
   {
    "junk": false,
@@ -790,16 +786,13 @@
    "type": null,
    "parser": "anystyle-find",
    "verdict": "VERIFIED",
-   "via": "crossref",
+   "via": "arxiv_id",
    "match": {
-    "source": "crossref",
-    "doi": "10.1007/s10462-024-10922-z",
-    "title": "Domain generalization through meta-learning: a survey",
+    "source": "arxiv",
+    "arxiv": "2404.02785",
+    "title": "Domain Generalization through Meta-Learning: A Survey",
     "year": 2024,
-    "first_author": "Khoee",
-    "container": "Artificial Intelligence Review",
-    "type": "journal-article",
-    "score": 41.797497
+    "first_author": "Arsham Gholamzadeh Khoee"
    },
    "metrics": {
     "title_sim": 100.0,
@@ -808,12 +801,7 @@
     "year_ok": true,
     "first_author_ok": false
    },
-   "evidence": [
-    {
-     "step": "arxiv_id_not_found",
-     "arxiv": "2404.02785"
-    }
-   ]
+   "evidence": []
   },
   {
    "junk": false,
@@ -835,6 +823,23 @@
    "verdict": "UNVERIFIED",
    "evidence": [
     {
+     "step": "arxiv_id_resolves_title_mismatch",
+     "rec": {
+      "source": "arxiv",
+      "arxiv": "2407.06886",
+      "title": "Aligning Cyber Space with Physical World: A Comprehensive Survey on Embodied AI",
+      "year": 2024,
+      "first_author": "Yang Liu"
+     },
+     "metrics": {
+      "title_sim": 64.34782608695653,
+      "containment": 0.375,
+      "partial_ratio": 70.49180327868852,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    },
+    {
      "step": "crossref_best_reject",
      "rec": {
       "source": "crossref",
@@ -844,7 +849,7 @@
       "first_author": "Wang",
       "container": "Autonomous Embodied AI",
       "type": "book-chapter",
-      "score": 27.158827
+      "score": 27.153994
      },
      "metrics": {
       "title_sim": 100.0,
@@ -858,23 +863,6 @@
      "step": "urls_not_live",
      "url_status": {
       "arXiv:2407.06886": "error"
-     }
-    },
-    {
-     "step": "arxiv_id_resolves_title_mismatch",
-     "rec": {
-      "source": "arxiv_abs",
-      "arxiv": "2407.06886",
-      "title": "Aligning Cyber Space with Physical World: A Comprehensive Survey on Embodied AI",
-      "year": 2024,
-      "first_author": "Liu, Yang"
-     },
-     "metrics": {
-      "title_sim": 64.34782608695653,
-      "containment": 0.375,
-      "partial_ratio": 70.49180327868852,
-      "year_ok": true,
-      "first_author_ok": false
      }
     }
    ],
@@ -896,16 +884,13 @@
    "type": null,
    "parser": "anystyle-find",
    "verdict": "VERIFIED",
-   "via": "crossref",
+   "via": "arxiv_id",
    "match": {
-    "source": "crossref",
-    "doi": "10.24963/ijcai.2024/906",
+    "source": "arxiv",
+    "arxiv": "2402.04580",
     "title": "A Comprehensive Survey of Cross-Domain Policy Transfer for Embodied Agents",
     "year": 2024,
-    "first_author": "Niu",
-    "container": "Proceedings of the Thirty-ThirdInternational Joint Conference on Artificial Intelligence",
-    "type": "proceedings-article",
-    "score": 51.671165
+    "first_author": "Haoyi Niu"
    },
    "metrics": {
     "title_sim": 100.0,
@@ -914,12 +899,7 @@
     "year_ok": true,
     "first_author_ok": false
    },
-   "evidence": [
-    {
-     "step": "arxiv_id_not_found",
-     "arxiv": "2402.04580"
-    }
-   ]
+   "evidence": []
   },
   {
    "junk": false,
@@ -946,7 +926,7 @@
     "first_author": "Niu",
     "container": "Proceedings of the Thirty-ThirdInternational Joint Conference on Artificial Intelligence",
     "type": "proceedings-article",
-    "score": 51.686985
+    "score": 51.672348
    },
    "metrics": {
     "title_sim": 100.0,
@@ -984,7 +964,7 @@
       "first_author": "Bullard",
       "container": "2016 11th ACM/IEEE International Conference on Human-Robot Interaction (HRI)",
       "type": "proceedings-article",
-      "score": 24.532509
+      "score": 24.52921
      },
      "metrics": {
       "title_sim": 73.01587301587301,
@@ -1022,7 +1002,7 @@
     "first_author": "Feng",
     "container": "Science China Information Sciences",
     "type": "journal-article",
-    "score": 42.54967
+    "score": 42.543327
    },
    "metrics": {
     "title_sim": 100.0,
@@ -1033,8 +1013,21 @@
    },
    "evidence": [
     {
-     "step": "arxiv_id_not_found",
-     "arxiv": "2405.05108"
+     "step": "arxiv_id_resolves_title_mismatch",
+     "rec": {
+      "source": "arxiv",
+      "arxiv": "2405.05108",
+      "title": "Spin-lattice-coupled helical magnetic order in breathing pyrochlore magnets, CuAlCr$_{4}$S$_{8}$ and CuGaCr$_{4}$S$_{8}$",
+      "year": 2024,
+      "first_author": "Masaki Gen"
+     },
+     "metrics": {
+      "title_sim": 36.47798742138365,
+      "containment": 0.0,
+      "partial_ratio": 42.93785310734464,
+      "year_ok": true,
+      "first_author_ok": false
+     }
     }
    ]
   },
@@ -1056,8 +1049,21 @@
    "verdict": "VERIFIED",
    "evidence": [
     {
-     "step": "arxiv_id_not_found",
-     "arxiv": "2408.13901"
+     "step": "arxiv_id_resolves_title_mismatch",
+     "rec": {
+      "source": "arxiv",
+      "arxiv": "2408.13901",
+      "title": "On the minimum strength of (unobserved) covariates to overturn an insignificant result",
+      "year": 2024,
+      "first_author": "Danielle Tsao"
+     },
+     "metrics": {
+      "title_sim": 43.83561643835616,
+      "containment": 0.0,
+      "partial_ratio": 37.9746835443038,
+      "year_ok": true,
+      "first_author_ok": false
+     }
     },
     {
      "step": "crossref_best_reject",
@@ -1069,7 +1075,7 @@
       "first_author": "Song",
       "container": "IEEE Transactions on Knowledge and Data Engineering",
       "type": "journal-article",
-      "score": 29.136309
+      "score": 29.136618
      },
      "metrics": {
       "title_sim": 64.61538461538461,
@@ -1121,47 +1127,13 @@
    "type": null,
    "parser": "anystyle-find",
    "verdict": "VERIFIED",
-   "evidence": [
-    {
-     "step": "arxiv_id_not_found",
-     "arxiv": "2411.17040"
-    },
-    {
-     "step": "crossref_best_reject",
-     "rec": {
-      "source": "crossref",
-      "doi": "10.1007/s11263-025-02667-1",
-      "title": "Multimodal Alignment and Fusion: A Survey",
-      "year": 2026,
-      "first_author": "Li",
-      "container": "International Journal of Computer Vision",
-      "type": "journal-article",
-      "score": 28.509245
-     },
-     "metrics": {
-      "title_sim": 100.0,
-      "containment": 1.0,
-      "partial_ratio": 100.0,
-      "year_ok": false,
-      "first_author_ok": false
-     }
-    }
-   ],
-   "likely_match": null,
-   "via": "s2",
+   "via": "arxiv_id",
    "match": {
-    "source": "s2",
-    "id": "9e15efa3c0e39c07f03f5dfcd4ff68756093dcb0",
+    "source": "arxiv",
+    "arxiv": "2411.17040",
     "title": "Multimodal Alignment and Fusion: A Survey",
     "year": 2024,
-    "first_author": "Songtao Li",
-    "container": "International Journal of Computer Vision",
-    "ext": {
-     "DBLP": "journals/corr/abs-2411-17040",
-     "ArXiv": "2411.17040",
-     "DOI": "10.1007/s11263-025-02667-1",
-     "CorpusId": 274280969
-    }
+    "first_author": "Songtao Li"
    },
    "metrics": {
     "title_sim": 100.0,
@@ -1170,7 +1142,7 @@
     "year_ok": true,
     "first_author_ok": false
    },
-   "second_pass_hit": true
+   "evidence": []
   },
   {
    "junk": false,
@@ -1197,7 +1169,7 @@
     "first_author": "Baltrusaitis",
     "container": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
     "type": "journal-article",
-    "score": 33.00052
+    "score": 32.999554
    },
    "metrics": {
     "title_sim": 100.0,
@@ -1224,47 +1196,13 @@
    "type": null,
    "parser": "anystyle-find",
    "verdict": "VERIFIED",
-   "evidence": [
-    {
-     "step": "arxiv_id_not_found",
-     "arxiv": "2411.17040"
-    },
-    {
-     "step": "crossref_best_reject",
-     "rec": {
-      "source": "crossref",
-      "doi": "10.1007/s11263-025-02667-1",
-      "title": "Multimodal Alignment and Fusion: A Survey",
-      "year": 2026,
-      "first_author": "Li",
-      "container": "International Journal of Computer Vision",
-      "type": "journal-article",
-      "score": 28.509245
-     },
-     "metrics": {
-      "title_sim": 100.0,
-      "containment": 1.0,
-      "partial_ratio": 100.0,
-      "year_ok": false,
-      "first_author_ok": false
-     }
-    }
-   ],
-   "likely_match": null,
-   "via": "s2",
+   "via": "arxiv_id",
    "match": {
-    "source": "s2",
-    "id": "9e15efa3c0e39c07f03f5dfcd4ff68756093dcb0",
+    "source": "arxiv",
+    "arxiv": "2411.17040",
     "title": "Multimodal Alignment and Fusion: A Survey",
     "year": 2024,
-    "first_author": "Songtao Li",
-    "container": "International Journal of Computer Vision",
-    "ext": {
-     "DBLP": "journals/corr/abs-2411-17040",
-     "ArXiv": "2411.17040",
-     "DOI": "10.1007/s11263-025-02667-1",
-     "CorpusId": 274280969
-    }
+    "first_author": "Songtao Li"
    },
    "metrics": {
     "title_sim": 100.0,
@@ -1273,7 +1211,7 @@
     "year_ok": true,
     "first_author_ok": false
    },
-   "second_pass_hit": true
+   "evidence": []
   },
   {
    "junk": false,
@@ -1293,8 +1231,21 @@
    "verdict": "VERIFIED",
    "evidence": [
     {
-     "step": "arxiv_id_not_found",
-     "arxiv": "2411.17040"
+     "step": "arxiv_id_resolves_title_mismatch",
+     "rec": {
+      "source": "arxiv",
+      "arxiv": "2411.17040",
+      "title": "Multimodal Alignment and Fusion: A Survey",
+      "year": 2024,
+      "first_author": "Songtao Li"
+     },
+     "metrics": {
+      "title_sim": 79.06976744186046,
+      "containment": 0.5,
+      "partial_ratio": 56.75675675675676,
+      "year_ok": true,
+      "first_author_ok": false
+     }
     },
     {
      "step": "crossref_best_reject",
@@ -1306,7 +1257,7 @@
       "first_author": "Zhai",
       "container": "Scientific Reports",
       "type": "journal-article",
-      "score": 27.665455
+      "score": 27.664658
      },
      "metrics": {
       "title_sim": 45.21739130434783,
@@ -1327,7 +1278,7 @@
     "first_author": "Bai",
     "container": "IEEE Transactions on Multimedia",
     "type": "journal-article",
-    "score": 26.408941
+    "score": 26.389252
    },
    "metrics": {
     "title_sim": 100.0,
@@ -1363,7 +1314,7 @@
     "first_author": "Shin",
     "container": "Findings of the Association for Computational Linguistics ACL 2024",
     "type": "proceedings-article",
-    "score": 74.52112
+    "score": 74.529755
    },
    "metrics": {
     "title_sim": 100.0,
@@ -1399,7 +1350,7 @@
     "first_author": "Shin",
     "container": "Proceedings of the AAAI Conference on Artificial Intelligence",
     "type": "journal-article",
-    "score": 82.579384
+    "score": 82.60609
    },
    "metrics": {
     "title_sim": 100.0,
@@ -1435,7 +1386,7 @@
     "first_author": "Khoee",
     "container": "Artificial Intelligence Review",
     "type": "journal-article",
-    "score": 41.725555
+    "score": 41.795734
    },
    "metrics": {
     "title_sim": 100.0,
@@ -1462,47 +1413,13 @@
    "type": null,
    "parser": "anystyle-find",
    "verdict": "VERIFIED",
-   "evidence": [
-    {
-     "step": "arxiv_id_not_found",
-     "arxiv": "2504.12609"
-    },
-    {
-     "step": "crossref_best_reject",
-     "rec": {
-      "source": "crossref",
-      "doi": "10.1145/2559636.2563713",
-      "title": "Human embodiment creates problems for robot learning by demonstration using a control panel",
-      "year": 2014,
-      "first_author": "Kirstein",
-      "container": "Proceedings of the 2014 ACM/IEEE international conference on Human-robot interaction",
-      "type": "proceedings-article",
-      "score": 39.69294
-     },
-     "metrics": {
-      "title_sim": 67.816091954023,
-      "containment": 0.444,
-      "partial_ratio": 54.94505494505495,
-      "year_ok": false,
-      "first_author_ok": false
-     }
-    }
-   ],
-   "likely_match": null,
-   "via": "s2",
+   "via": "arxiv_id",
    "match": {
-    "source": "s2",
-    "id": "42c006b7388d729cb17a0192fa7e66c34f9af904",
+    "source": "arxiv",
+    "arxiv": "2504.12609",
     "title": "Crossing the Human-Robot Embodiment Gap with Sim-to-Real RL using One Human Demonstration",
     "year": 2025,
-    "first_author": "T. Lum",
-    "container": "arXiv.org",
-    "ext": {
-     "ArXiv": "2504.12609",
-     "DBLP": "journals/corr/abs-2504-12609",
-     "DOI": "10.48550/arXiv.2504.12609",
-     "CorpusId": 277857482
-    }
+    "first_author": "Tyler Ga Wei Lum"
    },
    "metrics": {
     "title_sim": 100.0,
@@ -1511,7 +1428,7 @@
     "year_ok": true,
     "first_author_ok": true
    },
-   "second_pass_hit": true
+   "evidence": []
   },
   {
    "junk": false,
@@ -1529,47 +1446,13 @@
    "type": null,
    "parser": "anystyle-find",
    "verdict": "VERIFIED",
-   "evidence": [
-    {
-     "step": "arxiv_id_not_found",
-     "arxiv": "2405.10315"
-    },
-    {
-     "step": "crossref_best_reject",
-     "rec": {
-      "source": "crossref",
-      "doi": "10.1109/access.2025.3581035/mm1",
-      "title": "Sim-to-Real Transfer of Deep Reinforcement Learning Agents for Online Coverage Path Planning_supp5-3581035.mp4",
-      "year": 2025,
-      "first_author": "Jonnarth",
-      "container": "",
-      "type": "component",
-      "score": 34.409668
-     },
-     "metrics": {
-      "title_sim": 55.81395348837209,
-      "containment": 0.357,
-      "partial_ratio": 52.74725274725275,
-      "year_ok": true,
-      "first_author_ok": false
-     }
-    }
-   ],
-   "likely_match": null,
-   "via": "s2",
+   "via": "arxiv_id",
    "match": {
-    "source": "s2",
-    "id": "0a1ec333b79aa449ff9d2c2ce0913c625729e972",
+    "source": "arxiv",
+    "arxiv": "2405.10315",
     "title": "TRANSIC: Sim-to-Real Policy Transfer by Learning from Online Correction",
     "year": 2024,
-    "first_author": "Yunfan Jiang",
-    "container": "Conference on Robot Learning",
-    "ext": {
-     "DBLP": "conf/corl/0001WZ0024",
-     "ArXiv": "2405.10315",
-     "DOI": "10.48550/arXiv.2405.10315",
-     "CorpusId": 269791461
-    }
+    "first_author": "Yunfan Jiang"
    },
    "metrics": {
     "title_sim": 100.0,
@@ -1578,7 +1461,7 @@
     "year_ok": true,
     "first_author_ok": true
    },
-   "second_pass_hit": true
+   "evidence": []
   },
   {
    "junk": false,
@@ -1605,7 +1488,7 @@
     "first_author": "Ma",
     "container": "Robotics: Science and Systems XX",
     "type": "proceedings-article",
-    "score": 60.334023
+    "score": 60.361446
    },
    "metrics": {
     "title_sim": 100.0,
@@ -1641,7 +1524,7 @@
     "first_author": "Tobin",
     "container": "2017 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
     "type": "proceedings-article",
-    "score": 67.7021
+    "score": 67.70477
    },
    "metrics": {
     "title_sim": 100.0,
@@ -1677,7 +1560,7 @@
     "first_author": "Peng",
     "container": "2018 IEEE International Conference on Robotics and Automation (ICRA)",
     "type": "proceedings-article",
-    "score": 55.78205
+    "score": 55.765137
    },
    "metrics": {
     "title_sim": 100.0,
@@ -1713,7 +1596,7 @@
     "first_author": "James",
     "container": "2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
     "type": "proceedings-article",
-    "score": 105.13964
+    "score": 105.13749
    },
    "metrics": {
     "title_sim": 100.0,
@@ -1740,16 +1623,13 @@
    "type": null,
    "parser": "anystyle-find",
    "verdict": "VERIFIED",
-   "via": "crossref",
+   "via": "arxiv_id",
    "match": {
-    "source": "crossref",
-    "doi": "10.1109/cvpr52734.2025.00995",
+    "source": "arxiv",
+    "arxiv": "2412.08442",
     "title": "From Multimodal LLMs to Generalist Embodied Agents: Methods and Lessons",
-    "year": 2025,
-    "first_author": "Szot",
-    "container": "2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
-    "type": "proceedings-article",
-    "score": 60.911552
+    "year": 2024,
+    "first_author": "Andrew Szot"
    },
    "metrics": {
     "title_sim": 100.0,
@@ -1758,12 +1638,7 @@
     "year_ok": true,
     "first_author_ok": true
    },
-   "evidence": [
-    {
-     "step": "arxiv_id_not_found",
-     "arxiv": "2412.08442"
-    }
-   ]
+   "evidence": []
   },
   {
    "junk": false,
@@ -1781,16 +1656,13 @@
    "type": null,
    "parser": "anystyle-find",
    "verdict": "VERIFIED",
-   "via": "crossref",
+   "via": "arxiv_id",
    "match": {
-    "source": "crossref",
-    "doi": "10.52202/068431-0433",
+    "source": "arxiv",
+    "arxiv": "2206.06994",
     "title": "ProcTHOR: Large-Scale Embodied AI Using Procedural Generation",
     "year": 2022,
-    "first_author": "Deitke",
-    "container": "Advances in Neural Information Processing Systems 35",
-    "type": "proceedings-article",
-    "score": 69.69345
+    "first_author": "Matt Deitke"
    },
    "metrics": {
     "title_sim": 100.0,
@@ -1799,12 +1671,7 @@
     "year_ok": true,
     "first_author_ok": true
    },
-   "evidence": [
-    {
-     "step": "arxiv_id_not_found",
-     "arxiv": "2206.06994"
-    }
-   ]
+   "evidence": []
   },
   {
    "junk": false,
@@ -1826,6 +1693,23 @@
    "verdict": "UNVERIFIED",
    "evidence": [
     {
+     "step": "arxiv_id_resolves_title_mismatch",
+     "rec": {
+      "source": "arxiv",
+      "arxiv": "2409.00015",
+      "title": "Navigating the sociotechnical labyrinth: Dynamic certification for responsible embodied AI",
+      "year": 2024,
+      "first_author": "Georgios Bakirtzis"
+     },
+     "metrics": {
+      "title_sim": 71.01449275362319,
+      "containment": 0.571,
+      "partial_ratio": 75.77639751552795,
+      "year_ok": true,
+      "first_author_ok": true
+     }
+    },
+    {
      "step": "crossref_best_reject",
      "rec": {
       "source": "crossref",
@@ -1835,7 +1719,7 @@
       "first_author": "Bakirtzis",
       "container": "Bi-directionality in Human-AI Collaborative Systems",
       "type": "book-chapter",
-      "score": 51.368156
+      "score": 51.273148
      },
      "metrics": {
       "title_sim": 71.01449275362319,
@@ -1850,23 +1734,6 @@
      "url_status": {
       "arXiv:2409.00015": "error"
      }
-    },
-    {
-     "step": "arxiv_id_resolves_title_mismatch",
-     "rec": {
-      "source": "arxiv_abs",
-      "arxiv": "2409.00015",
-      "title": "Navigating the sociotechnical labyrinth: Dynamic certification for responsible embodied AI",
-      "year": 2024,
-      "first_author": "Bakirtzis, Georgios"
-     },
-     "metrics": {
-      "title_sim": 71.01449275362319,
-      "containment": 0.571,
-      "partial_ratio": 75.77639751552795,
-      "year_ok": true,
-      "first_author_ok": false
-     }
     }
    ],
    "likely_match": {
@@ -1877,7 +1744,7 @@
     "first_author": "Bakirtzis",
     "container": "Bi-directionality in Human-AI Collaborative Systems",
     "type": "book-chapter",
-    "score": 51.368156
+    "score": 51.273148
    }
   },
   {
@@ -1907,7 +1774,7 @@
       "first_author": "Svoboda",
       "container": "Nature",
       "type": "journal-article",
-      "score": 45.693916
+      "score": 45.727703
      },
      "metrics": {
       "title_sim": 87.09677419354838,
@@ -1947,7 +1814,7 @@
       "first_author": "Qamar",
       "container": "",
       "type": "posted-content",
-      "score": 29.338776
+      "score": 29.342701
      },
      "metrics": {
       "title_sim": 72.56637168141593,
@@ -1987,7 +1854,7 @@
       "first_author": "Wang",
       "container": "Synthesis Lectures on Learning, Networks, and Algorithms",
       "type": "book-chapter",
-      "score": 29.801485
+      "score": 29.800446
      },
      "metrics": {
       "title_sim": 82.35294117647058,
@@ -2025,7 +1892,7 @@
     "first_author": "Lesort",
     "container": "Information Fusion",
     "type": "journal-article",
-    "score": 74.39111
+    "score": 74.399055
    },
    "metrics": {
     "title_sim": 100.0,
@@ -2061,7 +1928,7 @@
     "first_author": "Parisi",
     "container": "Neural Networks",
     "type": "journal-article",
-    "score": 57.318993
+    "score": 57.30483
    },
    "metrics": {
     "title_sim": 100.0,
@@ -2097,7 +1964,7 @@
     "first_author": "Stone",
     "container": "",
     "type": "report",
-    "score": 56.31383
+    "score": 56.320225
    },
    "metrics": {
     "title_sim": 100.0,
@@ -2133,7 +2000,7 @@
     "first_author": "Oroojlooy",
     "container": "Applied Intelligence",
     "type": "journal-article",
-    "score": 59.66003
+    "score": 59.665615
    },
    "metrics": {
     "title_sim": 100.0,
@@ -2171,7 +2038,7 @@
       "first_author": null,
       "container": "",
       "type": "component",
-      "score": 34.233826
+      "score": 34.238308
      },
      "metrics": {
       "title_sim": 76.19047619047619,
@@ -2211,7 +2078,7 @@
       "first_author": "Feng",
       "container": "2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
       "type": "proceedings-article",
-      "score": 25.559933
+      "score": 25.561424
      },
      "metrics": {
       "title_sim": 92.95774647887323,
@@ -2242,53 +2109,13 @@
    "type": null,
    "parser": "anystyle-find",
    "verdict": "VERIFIED",
-   "evidence": [
-    {
-     "step": "arxiv_id_not_found",
-     "arxiv": "2402.03824"
-    },
-    {
-     "step": "crossref_best_reject",
-     "rec": {
-      "source": "crossref",
-      "doi": "10.1007/978-3-031-68256-8_17",
-      "title": "The Industrial AI Revolution: A Guide to Embodied AI Systems",
-      "year": 2024,
-      "first_author": "Choubey",
-      "container": "Information Systems Engineering and Management",
-      "type": "book-chapter",
-      "score": 23.310205
-     },
-     "metrics": {
-      "title_sim": 74.28571428571428,
-      "containment": 0.2,
-      "partial_ratio": 45.714285714285715,
-      "year_ok": true,
-      "first_author_ok": false
-     }
-    },
-    {
-     "step": "urls_not_live",
-     "url_status": {
-      "arXiv:2402.03824": "error"
-     }
-    }
-   ],
-   "likely_match": null,
-   "via": "s2",
+   "via": "arxiv_id",
    "match": {
-    "source": "s2",
-    "id": "883c6cc74d73c91438a3cad76466fd2ae70a44d6",
+    "source": "arxiv",
+    "arxiv": "2402.03824",
     "title": "A call for embodied AI",
     "year": 2024,
-    "first_author": "Giuseppe Paolo",
-    "container": "International Conference on Machine Learning",
-    "ext": {
-     "DBLP": "journals/corr/abs-2402-03824",
-     "ArXiv": "2402.03824",
-     "DOI": "10.48550/arXiv.2402.03824",
-     "CorpusId": 267499640
-    }
+    "first_author": "Giuseppe Paolo"
    },
    "metrics": {
     "title_sim": 100.0,
@@ -2297,7 +2124,7 @@
     "year_ok": true,
     "first_author_ok": true
    },
-   "second_pass_hit": true
+   "evidence": []
   },
   {
    "junk": false,
@@ -2324,7 +2151,7 @@
     "first_author": "Duan",
     "container": "IEEE Transactions on Emerging Topics in Computational Intelligence",
     "type": "journal-article",
-    "score": 48.01753
+    "score": 48.06453
    },
    "metrics": {
     "title_sim": 100.0,
@@ -2360,7 +2187,7 @@
     "first_author": "Xu",
     "container": "2025 4th International Symposium on Robotics, Artificial Intelligence and Information Engineering (RAIIE)",
     "type": "proceedings-article",
-    "score": 46.706768
+    "score": 46.699715
    },
    "metrics": {
     "title_sim": 100.0,
@@ -2398,7 +2225,7 @@
       "first_author": "Peng",
       "container": "2018 IEEE International Conference on Robotics and Automation (ICRA)",
       "type": "proceedings-article",
-      "score": 36.686398
+      "score": 36.687584
      },
      "metrics": {
       "title_sim": 76.92307692307692,
@@ -2417,7 +2244,7 @@
     "first_author": "Peng",
     "container": "2018 IEEE International Conference on Robotics and Automation (ICRA)",
     "type": "proceedings-article",
-    "score": 36.686398
+    "score": 36.687584
    }
   },
   {
@@ -2447,7 +2274,7 @@
       "first_author": "Finn",
       "container": "",
       "type": "book",
-      "score": 18.374031
+      "score": 18.357887
      },
      "metrics": {
       "title_sim": 40.0,
@@ -2487,7 +2314,7 @@
       "first_author": "Li",
       "container": "2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
       "type": "proceedings-article",
-      "score": 53.49019
+      "score": 53.49053
      },
      "metrics": {
       "title_sim": 100.0,
@@ -2525,7 +2352,7 @@
     "first_author": "Liang",
     "container": "Proceedings of the 29th ACM International Conference on Multimedia",
     "type": "proceedings-article",
-    "score": 70.73565
+    "score": 70.73757
    },
    "metrics": {
     "title_sim": 100.0,
@@ -2563,7 +2390,7 @@
       "first_author": null,
       "container": "Arxiv Ismail Suardi Wekke",
       "type": "journal-issue",
-      "score": 25.20886
+      "score": 25.218601
      },
      "metrics": {
       "title_sim": 0,
@@ -2592,48 +2419,22 @@
    "type": null,
    "parser": "anystyle-find",
    "verdict": "VERIFIED",
-   "evidence": [
-    {
-     "step": "arxiv_id_not_found",
-     "arxiv": "2307.15818"
-    },
-    {
-     "step": "crossref_best_reject",
-     "rec": {
-      "source": "crossref",
-      "doi": "10.56028/aetr.15.1.1423.2025",
-      "title": "RT-2: Vision-Language-Action Models for Generalizable Robotic Control: A Comprehensive Review",
-      "year": 2025,
-      "first_author": "Zhou",
-      "container": "Advances in Engineering Technology Research",
-      "type": "journal-article",
-      "score": 44.729786
-     },
-     "metrics": {
-      "title_sim": 79.36507936507937,
-      "containment": 0.667,
-      "partial_ratio": 70.32967032967032,
-      "year_ok": false,
-      "first_author_ok": false
-     }
-    }
-   ],
-   "likely_match": null,
-   "via": "arxiv_id_repass",
+   "via": "arxiv_id",
    "match": {
-    "source": "arxiv_abs",
+    "source": "arxiv",
     "arxiv": "2307.15818",
     "title": "RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control",
     "year": 2023,
-    "first_author": "Brohan, Anthony"
+    "first_author": "Anthony Brohan"
    },
    "metrics": {
     "title_sim": 100.0,
     "containment": 1.0,
     "partial_ratio": 100.0,
     "year_ok": true,
-    "first_author_ok": false
-   }
+    "first_author_ok": true
+   },
+   "evidence": []
   },
   {
    "junk": false,
@@ -2651,16 +2452,13 @@
    "type": null,
    "parser": "anystyle-find",
    "verdict": "VERIFIED",
-   "via": "crossref",
+   "via": "arxiv_id",
    "match": {
-    "source": "crossref",
-    "doi": "10.52202/068431-0433",
+    "source": "arxiv",
+    "arxiv": "2206.06994",
     "title": "ProcTHOR: Large-Scale Embodied AI Using Procedural Generation",
     "year": 2022,
-    "first_author": "Deitke",
-    "container": "Advances in Neural Information Processing Systems 35",
-    "type": "proceedings-article",
-    "score": 69.69345
+    "first_author": "Matt Deitke"
    },
    "metrics": {
     "title_sim": 100.0,
@@ -2669,12 +2467,7 @@
     "year_ok": true,
     "first_author_ok": true
    },
-   "evidence": [
-    {
-     "step": "arxiv_id_not_found",
-     "arxiv": "2206.06994"
-    }
-   ]
+   "evidence": []
   },
   {
    "junk": false,
@@ -2701,7 +2494,7 @@
     "first_author": "Lv",
     "container": "IEEE Transactions on Neural Networks and Learning Systems",
     "type": "journal-article",
-    "score": 64.242256
+    "score": 64.25203
    },
    "metrics": {
     "title_sim": 100.0,
@@ -2737,7 +2530,7 @@
     "first_author": "Zhou",
     "container": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
     "type": "journal-article",
-    "score": 26.262598
+    "score": 26.25787
    },
    "metrics": {
     "title_sim": 100.0,

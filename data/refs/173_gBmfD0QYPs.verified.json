@@ -1,15 +1,17 @@
 {
  "pdf": "173_gBmfD0QYPs.pdf",
- "n_entries": 12,
- "fallback": false,
+ "n_entries": 23,
+ "fallback": "indent-guided",
  "error": null,
  "linenumbers_stripped": true,
- "parser_version": 2,
+ "two_column": false,
+ "parser_version": 4,
+ "reprocessed": true,
  "entries": [
   {
    "junk": false,
    "idx": 1,
-   "raw": "References Daniil Boiko et al. Autonomous discovery of scientific knowledge with ai agents. In Proceedings of the 2023 International Conference on Autonomous Agents and Multiagent Systems (AAMAS), pages 1234\u20131242, 2023.",
+   "raw": "Daniil Boiko et al. Autonomous discovery of scientific knowledge with ai agents. In Proceedings of the 2023 International Conference on Autonomous Agents and Multiagent Systems (AAMAS), pages 1234\u20131242, 2023.",
    "title": "Autonomous discovery of scientific knowledge with ai agents",
    "authors": [
     "Boiko"
@@ -20,7 +22,7 @@
    "urls": [],
    "container": "Proceedings of the 2023 International Conference on Autonomous Agents and Multiagent Systems (AAMAS",
    "type": "paper-conference",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "UNVERIFIED",
    "evidence": [
     {
@@ -33,12 +35,12 @@
       "first_author": "Sugawara",
       "container": "",
       "type": "posted-content",
-      "score": 30.728256
+      "score": 30.723955
      },
      "metrics": {
       "title_sim": 87.09677419354838,
       "containment": 0.667,
-      "partial_ratio": 62.60869565217391,
+      "partial_ratio": 61.53846153846154,
       "year_ok": false,
       "first_author_ok": false
      }
@@ -63,7 +65,7 @@
    "urls": [],
    "container": "Artificial Intelligence Review",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "doi",
    "match": {
@@ -107,7 +109,7 @@
    "urls": [],
    "container": "Knowledge-Based Systems",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "doi",
    "match": {
@@ -132,43 +134,22 @@
   {
    "junk": false,
    "idx": 4,
-   "raw": "Alberto Bran et al. Genesis: Autonomous generation and execution of scientific experiments. arXiv preprint arXiv:2401.12345, 2024. URL https://arxiv.org/abs/2401.12345. Danilo Dess\u00ec, Francesco Osborne, Diego Reforgiato Recupero, Davide Buscaldi, and Enrico Motta. AI-KG: An automatically generated knowledge graph of artificial intelligence. In The Semantic Web \u2013 ISWC 2020, Part II, volume 12507 of LNCS, pages 127\u2013143. Springer, 2020. doi: 10.1007/ 978-3-030-62466-8_9. Danilo Dess\u00ec, Francesco Osborne, Diego Reforgiato Recupero, Davide Buscaldi, and Enrico Motta. CS-KG: A large-scale knowledge graph of research entities and claims in computer science. In Proceedings of the International Semantic Web Conference (ISWC), pages 678\u2013696. Springer, 2022. doi: 10.1007/978-3-031-19433-7_39. Chuang Gan et al. Hidden entities: Discovering latent concepts in foundation models. In Proceedings of the 2024 Conference on Neural Information Processing Systems (NeurIPS). NeurIPS, 2024. To appear. Sarthak Jain, Madeleine van Zuylen, Hannaneh Hajishirzi, and Iz Beltagy. SciREX: A challenge dataset for document-level information extraction. In Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL), pages 7506\u20137516. Association for Computational Linguistics, 2020. doi: 10.18653/v1/2020.acl-main.670. Mohamad Y. Jaradeh, Allard Oelen, Manuel Prinz, Markus Stocker, and S\u00f6ren Auer. Open research knowledge graph: Next generation infrastructure for semantic scholarly knowledge. In Proceedings of the 10th International Conference on Knowledge Capture (K-CAP), pages 243\u2013246, 2019. doi: 10.1145/3360901.3364435. Ross D King, Jasmine Rowland, Stephen G Oliver, Michael Young, Wayne Aubrey, Emma Byrne, Maria Liakata, Mark Markham, Pinar Pir, Larisa N Soldatova, Andrew Sparkes, Ken E Whelan, and Amanda Clare. The automation of science. Science, 324(5923):85\u201389, 2009.",
+   "raw": "Alberto Bran et al. Genesis: Autonomous generation and execution of scientific experiments. arXiv preprint arXiv:2401.12345, 2024. URL https://arxiv.org/abs/2401.12345.",
    "title": "Genesis: Autonomous generation and execution of scientific experiments",
    "authors": [
-    "Bran",
-    "Dess\u00ec",
-    "Osborne",
-    "Recupero",
-    "Buscaldi",
-    "Motta",
-    "Dess\u00ec",
-    "Osborne",
-    "Recupero",
-    "Buscaldi",
-    "Motta",
-    "Gan",
-    "Sarthak Jain",
-    "Zuylen",
-    "Hajishirzi",
-    "Beltagy",
-    "Whelan",
-    "Clare"
+    "Bran"
    ],
    "year": 2024,
-   "doi": "doi:",
+   "doi": null,
    "arxiv": "2401.12345",
    "urls": [
     "https://arxiv.org/abs/2401.12345"
    ],
-   "container": "The Semantic Web \u2013 ISWC 2020",
-   "type": "article-journal",
-   "parser": "anystyle-find",
+   "container": null,
+   "type": null,
+   "parser": "anystyle-indent-guided",
    "verdict": "UNVERIFIED",
    "evidence": [
-    {
-     "step": "doi_not_resolvable",
-     "doi": "doi:"
-    },
     {
      "step": "arxiv_id_resolves_title_mismatch",
      "rec": {
@@ -181,7 +162,7 @@
      "metrics": {
       "title_sim": 36.36363636363637,
       "containment": 0.0,
-      "partial_ratio": 48.78048780487805,
+      "partial_ratio": 41.463414634146346,
       "year_ok": true,
       "first_author_ok": false
      }
@@ -196,7 +177,7 @@
       "first_author": null,
       "container": "Verification and Validation in Scientific Computing",
       "type": "book-chapter",
-      "score": 25.249855
+      "score": 25.248396
      },
      "metrics": {
       "title_sim": 75.67567567567568,
@@ -212,73 +193,33 @@
   {
    "junk": false,
    "idx": 5,
-   "raw": "Ross D King et al. The automation of science: The future of laboratory robotics. Nature, 560(7719): 24\u201325, 2018.",
-   "title": "The automation of science: The future of laboratory robotics",
+   "raw": "Danilo Dess\u00ec, Francesco Osborne, Diego Reforgiato Recupero, Davide Buscaldi, and Enrico Motta. AI-KG: An automatically generated knowledge graph of artificial intelligence. In The Semantic Web \u2013 ISWC 2020, Part II, volume 12507 of LNCS, pages 127\u2013143. Springer, 2020. doi: 10.1007/ 978-3-030-62466-8_9.",
+   "title": "AI-KG: An automatically generated knowledge graph of artificial intelligence",
    "authors": [
-    "King"
+    "Dess\u00ec",
+    "Osborne",
+    "Recupero",
+    "Buscaldi",
+    "Motta"
    ],
-   "year": 2018,
-   "doi": null,
-   "arxiv": null,
-   "urls": [],
-   "container": "Nature",
-   "type": "article-journal",
-   "parser": "anystyle-find",
-   "verdict": "UNVERIFIED",
-   "evidence": [
-    {
-     "step": "crossref_best_reject",
-     "rec": {
-      "source": "crossref",
-      "doi": "10.1002/(sici)1098-2728(1996)8:3<>1.0.co;2-#",
-      "title": "",
-      "year": 1996,
-      "first_author": null,
-      "container": "Laboratory Robotics and Automation",
-      "type": "journal-issue",
-      "score": 29.483454
-     },
-     "metrics": {
-      "title_sim": 0,
-      "containment": 0.0,
-      "partial_ratio": 0,
-      "year_ok": false,
-      "first_author_ok": null
-     }
-    }
-   ],
-   "likely_match": null
-  },
-  {
-   "junk": false,
-   "idx": 6,
-   "raw": "Mario Krenn, Lorenzo Buffoni, Bruno Coutinho, Sagi Eppel, Jacob G. Foster, et al. Forecasting the future of artificial intelligence with machine learning-based link prediction in an exponentially growing knowledge network. Nature Machine Intelligence, 5(12):1326\u20131335, 2023. doi: 10.1038/ s42256-023-00735-0.",
-   "title": "Forecasting the future of artificial intelligence with machine learning-based link prediction in an exponentially growing knowledge network",
-   "authors": [
-    "Krenn",
-    "Buffoni",
-    "Coutinho",
-    "Eppel",
-    "Foster"
-   ],
-   "year": 2023,
+   "year": 2020,
    "doi": "doi:",
    "arxiv": null,
    "urls": [],
-   "container": "Nature Machine Intelligence",
-   "type": "article-journal",
-   "parser": "anystyle-find",
+   "container": "The Semantic Web \u2013 ISWC 2020",
+   "type": "chapter",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
     "source": "crossref",
-    "doi": "10.1038/s42256-023-00735-0",
-    "title": "Forecasting the future of artificial intelligence with machine learning-based link prediction in an exponentially growing knowledge network",
-    "year": 2023,
-    "first_author": "Krenn",
-    "container": "Nature Machine Intelligence",
-    "type": "journal-article",
-    "score": 68.4367
+    "doi": "10.1007/978-3-030-62466-8_9",
+    "title": "AI-KG: An Automatically Generated Knowledge Graph of Artificial Intelligence",
+    "year": 2020,
+    "first_author": "Dess\u00ec",
+    "container": "Lecture Notes in Computer Science",
+    "type": "book-chapter",
+    "score": 56.63073
    },
    "metrics": {
     "title_sim": 100.0,
@@ -296,7 +237,299 @@
   },
   {
    "junk": false,
+   "idx": 6,
+   "raw": "Danilo Dess\u00ec, Francesco Osborne, Diego Reforgiato Recupero, Davide Buscaldi, and Enrico Motta. CS-KG: A large-scale knowledge graph of research entities and claims in computer science. In Proceedings of the International Semantic Web Conference (ISWC), pages 678\u2013696. Springer, 2022. doi: 10.1007/978-3-031-19433-7_39.",
+   "title": "CS-KG: A large-scale knowledge graph of research entities and claims in computer science",
+   "authors": [
+    "Dess\u00ec",
+    "Osborne",
+    "Recupero",
+    "Buscaldi",
+    "Motta"
+   ],
+   "year": 2022,
+   "doi": "10.1007/978-3-031-19433-7_39",
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the International Semantic Web Conference (ISWC",
+   "type": "paper-conference",
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1007/978-3-031-19433-7_39",
+    "title": "CS-KG: A Large-Scale Knowledge Graph of\u00a0Research Entities and\u00a0Claims in\u00a0Computer Science",
+    "year": 2022,
+    "first_author": "Dess\u00ed",
+    "container": "Lecture Notes in Computer Science",
+    "type": "book-chapter",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
    "idx": 7,
+   "raw": "Chuang Gan et al. Hidden entities: Discovering latent concepts in foundation models. In Proceedings of the 2024 Conference on Neural Information Processing Systems (NeurIPS). NeurIPS, 2024. To appear.",
+   "title": "Hidden entities: Discovering latent concepts in foundation models",
+   "authors": [
+    "Gan"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 2024 Conference on Neural Information Processing Systems (NeurIPS). NeurIPS",
+   "type": "paper-conference",
+   "parser": "anystyle-indent-guided",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.62311/nesx/rp8-30052026",
+      "title": "Persistent Homology-Driven Foundation Models for Discovering Hidden Structures in Complex Data Space",
+      "year": 2026,
+      "first_author": "Pasupuleti",
+      "container": "International Journal of Academic and Industrial Research Innovations(IJAIRI)",
+      "type": "journal-article",
+      "score": 28.318802
+     },
+     "metrics": {
+      "title_sim": 75.72815533980582,
+      "containment": 0.364,
+      "partial_ratio": 53.0,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 8,
+   "raw": "Sarthak Jain, Madeleine van Zuylen, Hannaneh Hajishirzi, and Iz Beltagy. SciREX: A challenge dataset for document-level information extraction. In Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL), pages 7506\u20137516. Association for Computational Linguistics, 2020. doi: 10.18653/v1/2020.acl-main.670.",
+   "title": "SciREX: A challenge dataset for document-level information extraction",
+   "authors": [
+    "Jain",
+    "Zuylen",
+    "Hajishirzi",
+    "Beltagy"
+   ],
+   "year": 2020,
+   "doi": "10.18653/v1/2020.acl-main.670",
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL",
+   "type": "paper-conference",
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/2020.acl-main.670",
+    "title": "SciREX: A Challenge Dataset for Document-Level Information Extraction",
+    "year": 2020,
+    "first_author": "Jain",
+    "container": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+    "type": "proceedings-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "Mohamad Y. Jaradeh, Allard Oelen, Manuel Prinz, Markus Stocker, and S\u00f6ren Auer. Open research knowledge graph: Next generation infrastructure for semantic scholarly knowledge. In Proceedings of the 10th International Conference on Knowledge Capture (K-CAP), pages 243\u2013246, 2019. doi: 10.1145/3360901.3364435.",
+   "title": "Open research knowledge graph: Next generation infrastructure for semantic scholarly knowledge",
+   "authors": [
+    "Jaradeh",
+    "Oelen",
+    "Prinz",
+    "Stocker",
+    "Auer"
+   ],
+   "year": 2019,
+   "doi": "10.1145/3360901.3364435",
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the 10th International Conference on Knowledge Capture (K-CAP",
+   "type": "paper-conference",
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1145/3360901.3364435",
+    "title": "Open Research Knowledge Graph",
+    "year": 2019,
+    "first_author": "Jaradeh",
+    "container": "Proceedings of the 10th International Conference on Knowledge Capture",
+    "type": "proceedings-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 47.540983606557376,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "Ross D King, Jasmine Rowland, Stephen G Oliver, Michael Young, Wayne Aubrey, Emma Byrne, Maria Liakata, Mark Markham, Pinar Pir, Larisa N Soldatova, Andrew Sparkes, Ken E Whelan, and Amanda Clare. The automation of science. Science, 324(5923):85\u201389, 2009.",
+   "title": "The automation of science",
+   "authors": [
+    "King",
+    "Rowland",
+    "Oliver",
+    "Young",
+    "Aubrey",
+    "Byrne",
+    "Liakata",
+    "Markham",
+    "Pir",
+    "Soldatova",
+    "Sparkes",
+    "Whelan",
+    "Clare"
+   ],
+   "year": 2009,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Science",
+   "type": "article-journal",
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1126/science.1165620",
+    "title": "The Automation of Science",
+    "year": 2009,
+    "first_author": "King",
+    "container": "Science",
+    "type": "journal-article",
+    "score": 19.925007
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 11,
+   "raw": "Ross D King et al. The automation of science: The future of laboratory robotics. Nature, 560(7719): 24\u201325, 2018.",
+   "title": "The automation of science: The future of laboratory robotics",
+   "authors": [
+    "King"
+   ],
+   "year": 2018,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature",
+   "type": "article-journal",
+   "parser": "anystyle-indent-guided",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1002/(sici)1098-2728(1996)8:1<>1.0.co;2-1",
+      "title": "",
+      "year": 1996,
+      "first_author": null,
+      "container": "Laboratory Robotics and Automation",
+      "type": "journal-issue",
+      "score": 29.480644
+     },
+     "metrics": {
+      "title_sim": 0,
+      "containment": 0.0,
+      "partial_ratio": 0,
+      "year_ok": false,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 12,
+   "raw": "Mario Krenn, Lorenzo Buffoni, Bruno Coutinho, Sagi Eppel, Jacob G. Foster, et al. Forecasting the future of artificial intelligence with machine learning-based link prediction in an exponentially growing knowledge network. Nature Machine Intelligence, 5(12):1326\u20131335, 2023. doi: 10.1038/ s42256-023-00735-0.",
+   "title": "Forecasting the future of artificial intelligence with machine learning-based link prediction in an exponentially growing knowledge network",
+   "authors": [
+    "Krenn",
+    "Buffoni",
+    "Coutinho",
+    "Eppel",
+    "Foster"
+   ],
+   "year": 2023,
+   "doi": "doi:",
+   "arxiv": null,
+   "urls": [],
+   "container": "Nature Machine Intelligence",
+   "type": "article-journal",
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/s42256-023-00735-0",
+    "title": "Forecasting the future of artificial intelligence with machine learning-based link prediction in an exponentially growing knowledge network",
+    "year": 2023,
+    "first_author": "Krenn",
+    "container": "Nature Machine Intelligence",
+    "type": "journal-article",
+    "score": 68.449356
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": [
+    {
+     "step": "doi_not_resolvable",
+     "doi": "doi:"
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 13,
    "raw": "Antonello Meloni, Simone Angioni, Angelo A. Salatino, Francesco Osborne, Diego Reforgiato Recupero, and Enrico Motta. Integrating conversational agents and knowledge graphs within the scholarly domain. IEEE Access, 11:22468\u201322489, 2023. doi: 10.1109/ACCESS.2023.3253388.",
    "title": "Integrating conversational agents and knowledge graphs within the scholarly domain",
    "authors": [
@@ -313,7 +546,7 @@
    "urls": [],
    "container": "IEEE Access",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "doi",
    "match": {
@@ -337,7 +570,7 @@
   },
   {
    "junk": false,
-   "idx": 8,
+   "idx": 14,
    "raw": "Antonello Meloni, Simone Angioni, Angelo Salatino, Francesco Osborne, Diego Reforgiato Recupero, and Enrico Motta. Cs-kg 2.0: A large-scale knowledge graph of computer science. Scientific Data, 12:964, 2025. doi: 10.1038/s41597-025-05200-8.",
    "title": "Cs-kg 2.0: A large-scale knowledge graph of computer science",
    "authors": [
@@ -354,7 +587,7 @@
    "urls": [],
    "container": "Scientific Data",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "doi",
    "match": {
@@ -378,7 +611,7 @@
   },
   {
    "junk": false,
-   "idx": 9,
+   "idx": 15,
    "raw": "Neel Nanda, Tom Chan, et al. Progress measures for grokking via mechanistic interpretability. arXiv preprint arXiv:2301.05217, 2023.",
    "title": "Progress measures for grokking via mechanistic interpretability",
    "authors": [
@@ -391,49 +624,15 @@
    "urls": [],
    "container": null,
    "type": null,
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
-   "evidence": [
-    {
-     "step": "arxiv_id_not_found",
-     "arxiv": "2301.05217"
-    },
-    {
-     "step": "crossref_best_reject",
-     "rec": {
-      "source": "crossref",
-      "doi": "10.55277/researchhub.srgqdejk",
-      "title": "PROPOSAL: Neural Mycelium: Decoding Vascular Signaling Plasticity via Mechanistic Interpretability",
-      "year": 2026,
-      "first_author": "Ducar",
-      "container": "",
-      "type": "report",
-      "score": 30.099686
-     },
-     "metrics": {
-      "title_sim": 67.36842105263159,
-      "containment": 0.222,
-      "partial_ratio": 59.45945945945945,
-      "year_ok": false,
-      "first_author_ok": false
-     }
-    }
-   ],
-   "likely_match": null,
-   "via": "s2",
+   "via": "arxiv_id",
    "match": {
-    "source": "s2",
-    "id": "f680d47a51a0e470fcb228bf0110c026535ead1b",
+    "source": "arxiv",
+    "arxiv": "2301.05217",
     "title": "Progress measures for grokking via mechanistic interpretability",
     "year": 2023,
-    "first_author": "Neel Nanda",
-    "container": "International Conference on Learning Representations",
-    "ext": {
-     "ArXiv": "2301.05217",
-     "DBLP": "journals/corr/abs-2301-05217",
-     "DOI": "10.48550/arXiv.2301.05217",
-     "CorpusId": 255749430
-    }
+    "first_author": "Neel Nanda"
    },
    "metrics": {
     "title_sim": 100.0,
@@ -442,12 +641,12 @@
     "year_ok": true,
     "first_author_ok": true
    },
-   "second_pass_hit": true
+   "evidence": []
   },
   {
    "junk": false,
-   "idx": 10,
-   "raw": "Chris Olah, Nick Cammarata, Ludwig Schubert, Gabriel Goh, Michael Petrov, and Shan Carter. Zoom in: An introduction to circuits. Distill, 5(3), 2020. URL https://distill.pub/2020/ circuits/zoom-in/. Jason Priem, Heather Piwowar, and Richard Orr. OpenAlex: A fully-open index of scholarly works, authors, venues, institutions, and concepts. arXiv preprint arXiv:2205.01833, 2022. Version 2, June 2022. Jun Qi, Yifan Zhang, et al. Sparks of science: Hypothesis generation using structured paper data. arXiv preprint arXiv:2504.12976, 2025.",
+   "idx": 16,
+   "raw": "Chris Olah, Nick Cammarata, Ludwig Schubert, Gabriel Goh, Michael Petrov, and Shan Carter. Zoom in: An introduction to circuits. Distill, 5(3), 2020. URL https://distill.pub/2020/ circuits/zoom-in/.",
    "title": "Zoom in: An introduction to circuits",
    "authors": [
     "Olah",
@@ -455,20 +654,17 @@
     "Schubert",
     "Goh",
     "Petrov",
-    "Carter",
-    "Jason Priem",
-    "Piwowar",
-    "Orr"
+    "Carter"
    ],
    "year": 2020,
    "doi": null,
-   "arxiv": "2205.01833",
+   "arxiv": null,
    "urls": [
     "https://distill.pub/2020/"
    ],
    "container": "Distill",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -479,7 +675,7 @@
     "first_author": "Olah",
     "container": "Distill",
     "type": "journal-article",
-    "score": 39.09668
+    "score": 39.101143
    },
    "metrics": {
     "title_sim": 100.0,
@@ -488,16 +684,80 @@
     "year_ok": true,
     "first_author_ok": true
    },
-   "evidence": [
-    {
-     "step": "arxiv_id_not_found",
-     "arxiv": "2205.01833"
-    }
-   ]
+   "evidence": []
   },
   {
    "junk": false,
-   "idx": 11,
+   "idx": 17,
+   "raw": "Jason Priem, Heather Piwowar, and Richard Orr. OpenAlex: A fully-open index of scholarly works, authors, venues, institutions, and concepts. arXiv preprint arXiv:2205.01833, 2022. Version 2, June 2022.",
+   "title": "OpenAlex: A fully-open index of scholarly works, authors, venues, institutions, and concepts",
+   "authors": [
+    "Priem",
+    "Piwowar",
+    "Orr"
+   ],
+   "year": 2022,
+   "doi": null,
+   "arxiv": "2205.01833",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2205.01833",
+    "title": "OpenAlex: A fully-open index of scholarly works, authors, venues, institutions, and concepts",
+    "year": 2022,
+    "first_author": "Jason Priem"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 18,
+   "raw": "Jun Qi, Yifan Zhang, et al. Sparks of science: Hypothesis generation using structured paper data. arXiv preprint arXiv:2504.12976, 2025.",
+   "title": "Sparks of science: Hypothesis generation using structured paper data",
+   "authors": [
+    "Qi",
+    "Zhang"
+   ],
+   "year": 2025,
+   "doi": null,
+   "arxiv": "2504.12976",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "arxiv_id",
+   "match": {
+    "source": "arxiv",
+    "arxiv": "2504.12976",
+    "title": "Sparks of Science: Hypothesis Generation Using Structured Paper Data",
+    "year": 2025,
+    "first_author": "Charles O'Neill"
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 19,
    "raw": "David Schindler, Benjamin Zapilko, and Frank Kr\u00fcger. Investigating software usage in the social sciences: A knowledge graph approach. In The Semantic Web \u2013 ESWC 2020, volume 12123 of LNCS, pages 271\u2013286. Springer, 2020. doi: 10.1007/978-3-030-49461-2_16.",
    "title": "Investigating software usage in the social sciences: A knowledge graph approach",
    "authors": [
@@ -511,7 +771,7 @@
    "urls": [],
    "container": "The Semantic Web \u2013 ESWC 2020",
    "type": "chapter",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "doi",
    "match": {
@@ -535,7 +795,7 @@
   },
   {
    "junk": false,
-   "idx": 12,
+   "idx": 20,
    "raw": "Sina Taslimi, Artemis Capari, Hosein Azarbonyad, Zi Long Zhu, Zubair Afzal, Evangelos Kanoulas, and Georgios Tsatsaronis. Extracting, detecting, and generating research questions for scientific articles. In Proceedings of the 31st International Conference on Computational Linguistics (COLING), pages 8573\u20138588, 2025.",
    "title": "Extracting, detecting, and generating research questions for scientific articles",
    "authors": [
@@ -553,7 +813,7 @@
    "urls": [],
    "container": "Proceedings of the 31st International Conference on Computational Linguistics (COLING",
    "type": "paper-conference",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "evidence": [
     {
@@ -566,7 +826,7 @@
       "first_author": "Wang",
       "container": "Proceedings of the 16th International Joint Conference on Knowledge Discovery, Knowledge Engineering and Knowledge Management",
       "type": "proceedings-article",
-      "score": 26.284857
+      "score": 26.270666
      },
      "metrics": {
       "title_sim": 72.1311475409836,
@@ -599,6 +859,120 @@
     "first_author_ok": true
    },
    "second_pass_hit": true
+  },
+  {
+   "junk": true,
+   "idx": 21,
+   "raw": "A    Technical Appendices and Supplementary Material System Architecture Diagrams For clarity, we provide diagrams of the system in the prototype (Phase 1) and extended future work (Phase 2) configurations. Figure 1: Phase 1: Prototype system architecture.",
+   "title": "A Technical Appendices and Supplementary Material System Architecture Diagrams For clarity, we provide diagrams of the system in the prototype (Phase 1) and extended future work (Phase 2) configurations. Figure 1: Phase 1: Prototype system architecture",
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-indent-guided",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/bf02883290",
+      "title": "The Bi\u2212Cu (Bismuth-Copper) system",
+      "year": 1980,
+      "first_author": null,
+      "container": "Bulletin of Alloy Phase Diagrams",
+      "type": "journal-article",
+      "score": 60.82058
+     },
+     "metrics": {
+      "title_sim": 20.36363636363636,
+      "containment": 0.333,
+      "partial_ratio": 48.38709677419355,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": true,
+   "idx": 22,
+   "raw": "Figure 2: Phase 2: Extended architecture including ranking and experiment-executing agents. Listing 1: Example structured representation of a research problem in software engineering.",
+   "title": "Figure 2: Phase 2: Extended architecture including ranking and experiment-executing agents. Listing 1: Example structured representation of a research problem in software engineering",
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-indent-guided",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/sera.2011.22",
+      "title": "Analysis of Software Product Line Architecture Representation Mechanisms",
+      "year": 2011,
+      "first_author": "Ahn",
+      "container": "2011 Ninth International Conference on Software Engineering Research, Management and Applications",
+      "type": "proceedings-article",
+      "score": 29.214678
+     },
+     "metrics": {
+      "title_sim": 38.4,
+      "containment": 0.429,
+      "partial_ratio": 52.77777777777778,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": true,
+   "idx": 23,
+   "raw": "{ \" i d \" : \" p r o b : d o i : 1 0 . 1 1 4 5 / xxxx # p3 \" , \" t i t l e \" : \" I m p r o v i n g a u t o m a t e d p r o g r a m r e p a i r u n d e r r e a l i s t i c bug d i s t r i b u t i o n s \" , \" problem_type \" : [ \" open_problem \" , \" c h a l l e n g e \" ] , \" s t a t e m e n t \" : \" D e s i g n an a u t o m a t e d p r o g r a m r e p a i r t e c h n i q u e t h a t a c h i e v e s h i g h e r c o \" domain \" : [ \" S o f t w a r e E n g i n e e r i n g \" , \" Program R e p a i r \" ] , \" acm_ccs \" : [ \"D . 2 . 5 \" , \"D . 2 . 7 \" ] , \" assumptions \" : [ \" Bugs a r e s a m p l e d from open \u2212 s o u r c e r e p o s i t o r i e s ( e . g . , D e f e c t s 4 J , Bugs . j a r ) \" , \" Patch v a l i d a t i o n uses r e g r e s s i o n t e s t s u i t e s \" ], \" constraints \" : [ \" R e p a i r must c o m p l e t e w i t h i n 1 h o u r o f compute t i m e \" , \" G e n e r a t e d p a t c h e s must c o m p i l e s u c c e s s f u l l y \" ], \" datasets \" : [ { \" name \" : \" D e f e c t s 4 J \" , \" i d \" : \" d o i : 1 0 . 1 1 4 5 / 2 5 9 1 0 6 2 . 2 5 9 1 0 6 9 \" } , { \" name \" : \" Bugs . j a r \" , \" i d \" : \" d o i : 1 0 . 1 1 0 9 /MSR. 2 0 1 8 . 0 0 \u2212 1 1 \" } ], \" m e t r i c s \" : [ \" P a t c h C o r r e c t n e s s \" , \" C o m p i l a t i o n S u c c e s s \" , \" TimeToRepair \" ] , \" b a s e l i n e s \" : [ \" GenProg \" , \"PAR\" , \" TBar \" ] , \" signals \" : [ { \" t y p e \" : \" gap \" , \" t e x t \" : \" C u r r e n t t e c h n i q u e s s t r u g g l e w i t h m u l t i \u2212 l o c a t i o n b u g s . \" } { \" t y p e \" : \" f u t u r e _ w o r k \" , \" t e x t \" : \" E x p l o r e h y b r i d a p p r o a c h e s t h a t combine s e a r c h \u2212 b a ], \" evidence \" : [ { \" s o u r c e \" : \" d o i : 1 0 . 1 1 4 5 / xxxx \" , \" section \" : \" Limitations \" , \" s p a n s \" : [ \" L410 \u2212L431 \" ] } ], \" links \" : { \" e x t e n d s \" : [ \" p r o b : a r X i v : 2 1 0 1 . 0 1 2 3 4 # p1 \" ] , \" contradicts \" : [] }, \" confidence \" : 0.74 , \" e x t r a c t e d _ a t \" : \" 2025 \u221209 \u221215 \" , \" v e r s i o n \" : \" i d e a s \u2212graph@0 . 3 . 1 \"",
+   "title": " I m p r o v i n g a u t o m a t e d p r o g r a m r e p a i r u n d e r r e a l i s t i c bug d i s t r i b u t i o n s",
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "domain \" : [ \" S o f t w a r e E n g i n e e r i n g \" , \" Program R e p a i r \"",
+   "type": "chapter",
+   "parser": "anystyle-indent-guided",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1007/springerreference_86187",
+      "title": "Dubas Bug (Old World Date Bug), Ommatissus lybicus Bergerin (Tropiduchidae: Hemiptera)",
+      "year": 2012,
+      "first_author": null,
+      "container": "SpringerReference",
+      "type": "reference-entry",
+      "score": 15.5952015
+     },
+     "metrics": {
+      "title_sim": 37.16814159292036,
+      "containment": 0.182,
+      "partial_ratio": 41.25,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
   }
  ],
  "second_pass": true,

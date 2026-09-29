@@ -1,43 +1,43 @@
 {
  "pdf": "115_CpiOENQuoE.pdf",
- "n_entries": 24,
- "fallback": false,
+ "n_entries": 28,
+ "fallback": "indent-guided",
  "error": null,
  "linenumbers_stripped": true,
- "parser_version": 2,
+ "two_column": false,
+ "parser_version": 4,
+ "reprocessed": true,
  "entries": [
   {
    "junk": false,
    "idx": 1,
-   "raw": "Dr. Sujith Das. Real-time crisis response and resource allocation using natural language processing. International Journal for Research in Applied Science and Engineering Technology, 2025.",
-   "title": "Real-time crisis response and resource allocation using natural language processing",
+   "raw": "Reem AlRashdi and Simon E. M. O\u2019Keefe. Deep learning and word embeddings for tweet classification for crisis response. ArXiv, abs/1903.11024, 2019.",
+   "title": "Deep learning and word embeddings for tweet classification for crisis response",
    "authors": [
-    "Das"
+    "AlRashdi",
+    "O\u2019Keefe"
    ],
-   "year": 2025,
+   "year": 1903,
    "doi": null,
-   "arxiv": null,
+   "arxiv": "1903.11024",
    "urls": [],
-   "container": "International Journal for Research in Applied Science and Engineering Technology",
+   "container": "ArXiv",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
-   "via": "crossref",
+   "via": "arxiv_id",
    "match": {
-    "source": "crossref",
-    "doi": "10.22214/ijraset.2025.68789",
-    "title": "Real-Time Crisis Response and Resource Allocation using Natural Language Processing",
-    "year": 2025,
-    "first_author": "Das",
-    "container": "International Journal for Research in Applied Science and Engineering Technology",
-    "type": "journal-article",
-    "score": 61.927174
+    "source": "arxiv",
+    "arxiv": "1903.11024",
+    "title": "Deep Learning and Word Embeddings for Tweet Classification for Crisis Response",
+    "year": 2019,
+    "first_author": "Reem ALRashdi"
    },
    "metrics": {
     "title_sim": 100.0,
     "containment": 1.0,
     "partial_ratio": 100.0,
-    "year_ok": true,
+    "year_ok": false,
     "first_author_ok": true
    },
    "evidence": []
@@ -45,31 +45,30 @@
   {
    "junk": false,
    "idx": 2,
-   "raw": "Yiqiu Fang, Chunjiang Li, and Junwei Ge. Product attribute extraction based on affinity propagation clustering algorithm and pointwise mutual information pruning. 2019 International Conference on Artificial Intelligence and Advanced Manufacturing (AIAM), pp. 662\u2013666, 2019.",
-   "title": "Product attribute extraction based on affinity propagation clustering algorithm and pointwise mutual information pruning",
+   "raw": "Ibrahim Bouabdallaoui, Fatima Guerouate, Samya Bouhaddour, Chaimae Saadi, and Mohammed Sbihi. Fewtopner: Integrating few-shot learning with topic modeling and named entity recognition in a multilingual framework. ArXiv, abs/2502.02391, 2025.",
+   "title": "Fewtopner: Integrating few-shot learning with topic modeling and named entity recognition in a multilingual framework",
    "authors": [
-    "Fang",
-    "Li",
-    "Ge"
+    "Bouabdallaoui",
+    "Guerouate",
+    "Bouhaddour",
+    "Saadi",
+    "Sbihi"
    ],
-   "year": 2019,
+   "year": 2025,
    "doi": null,
-   "arxiv": null,
+   "arxiv": "2502.02391",
    "urls": [],
-   "container": "2019 International Conference on Artificial Intelligence and Advanced Manufacturing (AIAM",
-   "type": "paper-conference",
-   "parser": "anystyle-find",
+   "container": "ArXiv",
+   "type": "article-journal",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
-   "via": "crossref",
+   "via": "arxiv_id",
    "match": {
-    "source": "crossref",
-    "doi": "10.1109/aiam48774.2019.00137",
-    "title": "Product Attribute Extraction Based on Affinity Propagation Clustering Algorithm and Pointwise Mutual Information Pruning",
-    "year": 2019,
-    "first_author": "Fang",
-    "container": "2019 International Conference on Artificial Intelligence and Advanced Manufacturing (AIAM)",
-    "type": "proceedings-article",
-    "score": 93.82324
+    "source": "arxiv",
+    "arxiv": "2502.02391",
+    "title": "FewTopNER: Integrating Few-Shot Learning with Topic Modeling and Named Entity Recognition in a Multilingual Framework",
+    "year": 2025,
+    "first_author": "Ibrahim Bouabdallaoui"
    },
    "metrics": {
     "title_sim": 100.0,
@@ -83,31 +82,29 @@
   {
    "junk": false,
    "idx": 3,
-   "raw": "Pierre-Yves Genest, P. Portier, El\u00f6d Egyed-Zsigmond, and M. Lovisetto. Owner \u2014 toward unsupervised open-world named entity recognition. IEEE Access, 13:50077\u201350105, 2025.",
-   "title": "Owner \u2014 toward unsupervised open-world named entity recognition",
+   "raw": "Dr. Sujith Das. Real-time crisis response and resource allocation using natural language processing. International Journal for Research in Applied Science and Engineering Technology, 2025.",
+   "title": "Real-time crisis response and resource allocation using natural language processing",
    "authors": [
-    "Pierre-Yves Genest",
-    "Egyed-Zsigmond",
-    "Lovisetto"
+    "Das"
    ],
    "year": 2025,
    "doi": null,
    "arxiv": null,
    "urls": [],
-   "container": "IEEE Access",
+   "container": "International Journal for Research in Applied Science and Engineering Technology",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
     "source": "crossref",
-    "doi": "10.1109/access.2025.3552122",
-    "title": "OWNER \u2014 Toward Unsupervised Open-World Named Entity Recognition",
+    "doi": "10.22214/ijraset.2025.68789",
+    "title": "Real-Time Crisis Response and Resource Allocation using Natural Language Processing",
     "year": 2025,
-    "first_author": "Genest",
-    "container": "IEEE Access",
+    "first_author": "Das",
+    "container": "International Journal for Research in Applied Science and Engineering Technology",
     "type": "journal-article",
-    "score": 72.91219
+    "score": 61.9562
    },
    "metrics": {
     "title_sim": 100.0,
@@ -121,33 +118,34 @@
   {
    "junk": false,
    "idx": 4,
-   "raw": "Jos\u00e9 Manu\u00e9l G\u00f3mez-P\u00e9rez, R. Denaux, and Andres Garcia-Silva. A Practical Guide to Hybrid Natural Language Processing: Combining Neural Models and Knowledge Graphs for NLP. 2020.",
-   "title": "A Practical Guide to Hybrid Natural Language Processing: Combining Neural Models and Knowledge Graphs for NLP",
+   "raw": "Yiqiu Fang, Chunjiang Li, and Junwei Ge. Product attribute extraction based on affinity propagation clustering algorithm and pointwise mutual information pruning. 2019 International Conference on Artificial Intelligence and Advanced Manufacturing (AIAM), pp. 662\u2013666, 2019.",
+   "title": "Product attribute extraction based on affinity propagation clustering algorithm and pointwise mutual information pruning",
    "authors": [
-    "Jos\u00e9 Manu\u00e9l G\u00f3mez-P\u00e9rez",
-    "Garcia-Silva"
+    "Fang",
+    "Li",
+    "Ge"
    ],
-   "year": 2020,
+   "year": 2019,
    "doi": null,
    "arxiv": null,
    "urls": [],
-   "container": null,
-   "type": null,
-   "parser": "anystyle-find",
+   "container": "2019 International Conference on Artificial Intelligence and Advanced Manufacturing (AIAM",
+   "type": "paper-conference",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
     "source": "crossref",
-    "doi": "10.1007/978-3-030-44830-1",
-    "title": "A Practical Guide to Hybrid Natural Language Processing",
-    "year": 2020,
-    "first_author": "Gomez-Perez",
-    "container": "",
-    "type": "book",
-    "score": 80.01129
+    "doi": "10.1109/aiam48774.2019.00137",
+    "title": "Product Attribute Extraction Based on Affinity Propagation Clustering Algorithm and Pointwise Mutual Information Pruning",
+    "year": 2019,
+    "first_author": "Fang",
+    "container": "2019 International Conference on Artificial Intelligence and Advanced Manufacturing (AIAM)",
+    "type": "proceedings-article",
+    "score": 93.809845
    },
    "metrics": {
-    "title_sim": 67.48466257668711,
+    "title_sim": 100.0,
     "containment": 1.0,
     "partial_ratio": 100.0,
     "year_ok": true,
@@ -158,29 +156,31 @@
   {
    "junk": false,
    "idx": 5,
-   "raw": "Sri Santhosh Hari. Understanding feedback loops in machine learning systems. International Journal of Scientific Research in Computer Science, Engineering and Information Technology, 2025.",
-   "title": "Understanding feedback loops in machine learning systems",
+   "raw": "Pierre-Yves Genest, P. Portier, El\u00f6d Egyed-Zsigmond, and M. Lovisetto. Owner \u2014 toward unsupervised open-world named entity recognition. IEEE Access, 13:50077\u201350105, 2025.",
+   "title": "Owner \u2014 toward unsupervised open-world named entity recognition",
    "authors": [
-    "Hari"
+    "Pierre-Yves Genest",
+    "Egyed-Zsigmond",
+    "Lovisetto"
    ],
    "year": 2025,
    "doi": null,
    "arxiv": null,
    "urls": [],
-   "container": "International Journal of Scientific Research in Computer Science, Engineering and Information Technology",
+   "container": "IEEE Access",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
     "source": "crossref",
-    "doi": "10.32628/cseit25112725",
-    "title": "Understanding Feedback Loops in Machine Learning Systems",
+    "doi": "10.1109/access.2025.3552122",
+    "title": "OWNER \u2014 Toward Unsupervised Open-World Named Entity Recognition",
     "year": 2025,
-    "first_author": "Sri Santhosh Hari",
-    "container": "International Journal of Scientific Research in Computer Science, Engineering and Information Technology",
+    "first_author": "Genest",
+    "container": "IEEE Access",
     "type": "journal-article",
-    "score": 44.027863
+    "score": 72.92507
    },
    "metrics": {
     "title_sim": 100.0,
@@ -194,33 +194,33 @@
   {
    "junk": false,
    "idx": 6,
-   "raw": "Minh Le and Antske Fokkens. Tackling error propagation through reinforcement learning: A case of greedy dependency parsing. pp. 677\u2013687, 2017.",
-   "title": "Tackling error propagation through reinforcement learning: A case of greedy dependency parsing",
+   "raw": "Jos\u00e9 Manu\u00e9l G\u00f3mez-P\u00e9rez, R. Denaux, and Andres Garcia-Silva. A Practical Guide to Hybrid Natural Language Processing: Combining Neural Models and Knowledge Graphs for NLP. 2020.",
+   "title": "A Practical Guide to Hybrid Natural Language Processing: Combining Neural Models and Knowledge Graphs for NLP",
    "authors": [
-    "Le",
-    "Fokkens"
+    "Jos\u00e9 Manu\u00e9l G\u00f3mez-P\u00e9rez",
+    "Garcia-Silva"
    ],
-   "year": 2017,
+   "year": 2020,
    "doi": null,
    "arxiv": null,
    "urls": [],
    "container": null,
    "type": null,
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
     "source": "crossref",
-    "doi": "10.18653/v1/e17-1064",
-    "title": "Tackling Error Propagation through Reinforcement Learning: A Case of\n            Greedy Dependency Parsing",
-    "year": 2017,
-    "first_author": "Le",
-    "container": "Proceedings of the 15th Conference of the European Chapter of the\n          Association for Computational Linguistics: Volume 1, Long Papers",
-    "type": "proceedings-article",
-    "score": 74.14413
+    "doi": "10.1007/978-3-030-44830-1",
+    "title": "A Practical Guide to Hybrid Natural Language Processing",
+    "year": 2020,
+    "first_author": "Gomez-Perez",
+    "container": "",
+    "type": "book",
+    "score": 80.023094
    },
    "metrics": {
-    "title_sim": 100.0,
+    "title_sim": 67.48466257668711,
     "containment": 1.0,
     "partial_ratio": 100.0,
     "year_ok": true,
@@ -231,29 +231,29 @@
   {
    "junk": false,
    "idx": 7,
-   "raw": "Zesheng Li. Leveraging ai automated emergency response with natural language processing: Enhancing real-time decision making and communication. Applied and Computational Engineering, 2024.",
-   "title": "Leveraging ai automated emergency response with natural language processing: Enhancing real-time decision making and communication",
+   "raw": "Sri Santhosh Hari. Understanding feedback loops in machine learning systems. International Journal of Scientific Research in Computer Science, Engineering and Information Technology, 2025.",
+   "title": "Understanding feedback loops in machine learning systems",
    "authors": [
-    "Li"
+    "Hari"
    ],
-   "year": 2024,
+   "year": 2025,
    "doi": null,
    "arxiv": null,
    "urls": [],
-   "container": "Applied and Computational Engineering",
+   "container": "International Journal of Scientific Research in Computer Science, Engineering and Information Technology",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
     "source": "crossref",
-    "doi": "10.54254/2755-2721/71/20241629",
-    "title": "Leveraging AI automated emergency response with natural language processing: Enhancing real-time decision making and communication",
-    "year": 2024,
-    "first_author": "Li",
-    "container": "Applied and Computational Engineering",
+    "doi": "10.32628/cseit25112725",
+    "title": "Understanding Feedback Loops in Machine Learning Systems",
+    "year": 2025,
+    "first_author": "Sri Santhosh Hari",
+    "container": "International Journal of Scientific Research in Computer Science, Engineering and Information Technology",
     "type": "journal-article",
-    "score": 85.953445
+    "score": 44.050644
    },
    "metrics": {
     "title_sim": 100.0,
@@ -267,6 +267,79 @@
   {
    "junk": false,
    "idx": 8,
+   "raw": "Minh Le and Antske Fokkens. Tackling error propagation through reinforcement learning: A case of greedy dependency parsing. pp. 677\u2013687, 2017.",
+   "title": "Tackling error propagation through reinforcement learning: A case of greedy dependency parsing",
+   "authors": [
+    "Le",
+    "Fokkens"
+   ],
+   "year": 2017,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.18653/v1/e17-1064",
+    "title": "Tackling Error Propagation through Reinforcement Learning: A Case of\n            Greedy Dependency Parsing",
+    "year": 2017,
+    "first_author": "Le",
+    "container": "Proceedings of the 15th Conference of the European Chapter of the\n          Association for Computational Linguistics: Volume 1, Long Papers",
+    "type": "proceedings-article",
+    "score": 74.142
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "Zesheng Li. Leveraging ai automated emergency response with natural language processing: Enhancing real-time decision making and communication. Applied and Computational Engineering, 2024.",
+   "title": "Leveraging ai automated emergency response with natural language processing: Enhancing real-time decision making and communication",
+   "authors": [
+    "Li"
+   ],
+   "year": 2024,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": "Applied and Computational Engineering",
+   "type": "article-journal",
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.54254/2755-2721/71/20241629",
+    "title": "Leveraging AI automated emergency response with natural language processing: Enhancing real-time decision making and communication",
+    "year": 2024,
+    "first_author": "Li",
+    "container": "Applied and Computational Engineering",
+    "type": "journal-article",
+    "score": 85.96843
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 10,
    "raw": "Shining Liang, Ming Gong, J. Pei, Linjun Shou, Wanli Zuo, Xianglin Zuo, and Daxin Jiang. Reinforced Iterative Knowledge Distillation for Cross-Lingual Named Entity Recognition. 2021.",
    "title": "Reinforced Iterative Knowledge Distillation for Cross-Lingual Named Entity Recognition",
    "authors": [
@@ -283,7 +356,7 @@
    "urls": [],
    "container": null,
    "type": null,
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -294,7 +367,7 @@
     "first_author": "Liang",
     "container": "Proceedings of the 27th ACM SIGKDD Conference on Knowledge Discovery &amp; Data Mining",
     "type": "proceedings-article",
-    "score": 71.137054
+    "score": 71.14577
    },
    "metrics": {
     "title_sim": 100.0,
@@ -307,7 +380,7 @@
   },
   {
    "junk": false,
-   "idx": 9,
+   "idx": 11,
    "raw": "Xin Liu, Farima Fatahi Bayat, and Lu Wang. Enhancing language model factuality via activationbased confidence calibration and guided decoding. pp. 10436\u201310448, 2024.",
    "title": "Enhancing language model factuality via activationbased confidence calibration and guided decoding",
    "authors": [
@@ -321,7 +394,7 @@
    "urls": [],
    "container": null,
    "type": null,
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -332,7 +405,7 @@
     "first_author": "Liu",
     "container": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
     "type": "proceedings-article",
-    "score": 71.56249
+    "score": 71.51468
    },
    "metrics": {
     "title_sim": 99.49238578680203,
@@ -345,7 +418,7 @@
   },
   {
    "junk": false,
-   "idx": 10,
+   "idx": 12,
    "raw": "Yinhan Liu, Myle Ott, Naman Goyal, Jingfei Du, Mandar Joshi, Danqi Chen, Omer Levy, M. Lewis, Luke Zettlemoyer, and Veselin Stoyanov. Roberta: A robustly optimized bert pretraining approach. ArXiv, abs/1907.11692, 2019.",
    "title": "Roberta: A robustly optimized bert pretraining approach",
    "authors": [
@@ -365,7 +438,7 @@
    "urls": [],
    "container": "ArXiv",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "arxiv_id",
    "match": {
@@ -386,7 +459,7 @@
   },
   {
    "junk": false,
-   "idx": 11,
+   "idx": 13,
    "raw": "S. Malmasi, Anjie Fang, B. Fetahu, Sudipta Kar, and Oleg Rokhlenko. Multiconer: A large-scale multilingual dataset for complex named entity recognition. pp. 3798\u20133809, 2022.",
    "title": "Multiconer: A large-scale multilingual dataset for complex named entity recognition",
    "authors": [
@@ -401,7 +474,7 @@
    "urls": [],
    "container": null,
    "type": null,
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "evidence": [
     {
@@ -449,11 +522,12 @@
     "year_ok": true,
     "first_author_ok": true
    },
-   "second_pass_hit": true
+   "second_pass_hit": true,
+   "carried_over_from": "parser_v3_run"
   },
   {
    "junk": false,
-   "idx": 12,
+   "idx": 14,
    "raw": "Leland McInnes, John Healy, and S. Astels. hdbscan: Hierarchical density based clustering. J. Open Source Softw., 2:205, 2017.",
    "title": "Hierarchical density based clustering",
    "authors": [
@@ -467,7 +541,7 @@
    "urls": [],
    "container": "J. Open Source Softw",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -478,7 +552,7 @@
     "first_author": "McInnes",
     "container": "2017 IEEE International Conference on Data Mining Workshops (ICDMW)",
     "type": "proceedings-article",
-    "score": 44.217747
+    "score": 44.21705
    },
    "metrics": {
     "title_sim": 100.0,
@@ -491,7 +565,7 @@
   },
   {
    "junk": false,
-   "idx": 13,
+   "idx": 15,
    "raw": "Sara Meftah, N. Semmar, Y. Tamaazousti, H. Essafi, and F. Sadat. On the hidden negative transfer in sequential transfer learning for domain adaptation from news to tweets. In ADAPTNLP, 2021.",
    "title": "On the hidden negative transfer in sequential transfer learning for domain adaptation from news to tweets",
    "authors": [
@@ -506,7 +580,7 @@
    "urls": [],
    "container": "ADAPTNLP",
    "type": "chapter",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "evidence": [
     {
@@ -551,11 +625,12 @@
     "year_ok": true,
     "first_author_ok": true
    },
-   "second_pass_hit": true
+   "second_pass_hit": true,
+   "carried_over_from": "parser_v3_run"
   },
   {
    "junk": false,
-   "idx": 14,
+   "idx": 16,
    "raw": "Viyom Mittal, Hongmiao Yu, and K. Ramakrishnan. Fused: Fusing social media stream classification techniques for effective disaster response. 2022 Workshop on Cyber Physical Systems for Emergency Response (CPS-ER), pp. 36\u201341, 2022.",
    "title": "Fused: Fusing social media stream classification techniques for effective disaster response",
    "authors": [
@@ -569,7 +644,7 @@
    "urls": [],
    "container": "2022 Workshop on Cyber Physical Systems for Emergency Response (CPS-ER",
    "type": "chapter",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -580,7 +655,7 @@
     "first_author": "Mittal",
     "container": "2022 Workshop on Cyber Physical Systems for Emergency Response (CPS-ER)",
     "type": "proceedings-article",
-    "score": 79.41771
+    "score": 79.423065
    },
    "metrics": {
     "title_sim": 100.0,
@@ -593,7 +668,7 @@
   },
   {
    "junk": false,
-   "idx": 15,
+   "idx": 17,
    "raw": "G. Mohan, K. S. Ganesh, G. Lavanya, and R. Elakkiya. Enhancing named entity recognition with a bert-dqn hybrid model. 2024 15th International Conference on Computing Communication and Networking Technologies (ICCCNT), pp. 1\u20135, 2024.",
    "title": "Enhancing named entity recognition with a bert-dqn hybrid model",
    "authors": [
@@ -608,7 +683,7 @@
    "urls": [],
    "container": "2024 15th International Conference on Computing Communication and Networking Technologies (ICCCNT",
    "type": "paper-conference",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -619,7 +694,7 @@
     "first_author": "Bharathi Mohan",
     "container": "2024 15th International Conference on Computing Communication and Networking Technologies (ICCCNT)",
     "type": "proceedings-article",
-    "score": 69.71722
+    "score": 69.75492
    },
    "metrics": {
     "title_sim": 100.0,
@@ -632,7 +707,7 @@
   },
   {
    "junk": false,
-   "idx": 16,
+   "idx": 18,
    "raw": "Amrit Rajeev, Udayaadithya Avadhanam, H. Tulapurkar, and SaiBarath Sundar. Small sample-based adaptive text classification through iterative and contrastive description refinement. 2025.",
    "title": "Small sample-based adaptive text classification through iterative and contrastive description refinement",
    "authors": [
@@ -646,7 +721,7 @@
    "urls": [],
    "container": null,
    "type": null,
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "evidence": [
     {
@@ -693,11 +768,12 @@
     "year_ok": true,
     "first_author_ok": true
    },
-   "second_pass_hit": true
+   "second_pass_hit": true,
+   "carried_over_from": "parser_v3_run"
   },
   {
    "junk": false,
-   "idx": 17,
+   "idx": 19,
    "raw": "Hao Wang, S. Mukhopadhyay, Yunyu Xiao, and S. Fang. An interactive approach to bias mitigation in machine learning. 2021 IEEE 20th International Conference on Cognitive Informatics & Cognitive Computing (ICCI*CC), pp. 199\u2013205, 2021.",
    "title": "An interactive approach to bias mitigation in machine learning",
    "authors": [
@@ -711,7 +787,7 @@
    "urls": [],
    "container": "2021 IEEE 20th International Conference on Cognitive Informatics & Cognitive Computing (ICCI*CC",
    "type": "paper-conference",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -722,7 +798,7 @@
     "first_author": "Wang",
     "container": "2021 IEEE 20th International Conference on Cognitive Informatics &amp; Cognitive Computing (ICCI*CC)",
     "type": "proceedings-article",
-    "score": 42.89788
+    "score": 42.916847
    },
    "metrics": {
     "title_sim": 100.0,
@@ -735,7 +811,7 @@
   },
   {
    "junk": false,
-   "idx": 18,
+   "idx": 20,
    "raw": "Xiaochen Wang, Junqing He, Zhe Yang, Yiru Wang, Xiangdi Meng, Kunhao Pan, and Zhifang Sui. Fsm: A finite state machine based zero-shot prompting paradigm for multi-hop question answering. ArXiv, abs/2407.02964, 2024.",
    "title": "Fsm: A finite state machine based zero-shot prompting paradigm for multi-hop question answering",
    "authors": [
@@ -753,28 +829,36 @@
    "urls": [],
    "container": "ArXiv",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
-   "via": "arxiv_id",
+   "via": "crossref",
    "match": {
-    "source": "arxiv",
-    "arxiv": "2407.02964",
-    "title": "FSM: A Finite State Machine Based Zero-Shot Prompting Paradigm for Multi-Hop Question Answering",
-    "year": 2024,
-    "first_author": "Xiaochen Wang"
+    "source": "crossref",
+    "doi": "10.18653/v1/2025.findings-naacl.335",
+    "title": "SG-FSM: A Self-Guiding Zero-Shot Prompting Paradigm for Multi-Hop Question Answering Based on Finite State Machine",
+    "year": 2025,
+    "first_author": "Wang",
+    "container": "Findings of the Association for Computational Linguistics: NAACL 2025",
+    "type": "proceedings-article",
+    "score": 83.13597
    },
    "metrics": {
     "title_sim": 100.0,
-    "containment": 1.0,
-    "partial_ratio": 100.0,
+    "containment": 0.867,
+    "partial_ratio": 71.68141592920354,
     "year_ok": true,
     "first_author_ok": true
    },
-   "evidence": []
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2407.02964"
+    }
+   ]
   },
   {
    "junk": false,
-   "idx": 19,
+   "idx": 21,
    "raw": "Tingyu Xie, Qi Li, Yan Zhang, Zuozhu Liu, and Hongwei Wang. Self-improving for zero-shot named entity recognition with large language models. ArXiv, abs/2311.08921, 2023.",
    "title": "Self-improving for zero-shot named entity recognition with large language models",
    "authors": [
@@ -790,15 +874,18 @@
    "urls": [],
    "container": "ArXiv",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
-   "via": "arxiv_id",
+   "via": "crossref",
    "match": {
-    "source": "arxiv",
-    "arxiv": "2311.08921",
+    "source": "crossref",
+    "doi": "10.18653/v1/2024.naacl-short.49",
     "title": "Self-Improving for Zero-Shot Named Entity Recognition with Large Language Models",
-    "year": 2023,
-    "first_author": "Tingyu Xie"
+    "year": 2024,
+    "first_author": "Xie",
+    "container": "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 2: Short Papers)",
+    "type": "proceedings-article",
+    "score": 60.28076
    },
    "metrics": {
     "title_sim": 100.0,
@@ -807,11 +894,16 @@
     "year_ok": true,
     "first_author_ok": true
    },
-   "evidence": []
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2311.08921"
+    }
+   ]
   },
   {
    "junk": false,
-   "idx": 20,
+   "idx": 22,
    "raw": "Xiaojun Xue, Chunxia Zhang, Tianxiang Xu, and Zhendong Niu. Robust few-shot named entity recognition with boundary discrimination and correlation purification. ArXiv, abs/2312.07961, 2023.",
    "title": "Robust few-shot named entity recognition with boundary discrimination and correlation purification",
    "authors": [
@@ -826,15 +918,18 @@
    "urls": [],
    "container": "ArXiv",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
-   "via": "arxiv_id",
+   "via": "crossref",
    "match": {
-    "source": "arxiv",
-    "arxiv": "2312.07961",
+    "source": "crossref",
+    "doi": "10.1609/aaai.v38i17.29904",
     "title": "Robust Few-Shot Named Entity Recognition with Boundary Discrimination and Correlation Purification",
-    "year": 2023,
-    "first_author": "Xiaojun Xue"
+    "year": 2024,
+    "first_author": "Xue",
+    "container": "Proceedings of the AAAI Conference on Artificial Intelligence",
+    "type": "journal-article",
+    "score": 73.2565
    },
    "metrics": {
     "title_sim": 100.0,
@@ -843,11 +938,16 @@
     "year_ok": true,
     "first_author_ok": true
    },
-   "evidence": []
+   "evidence": [
+    {
+     "step": "arxiv_id_not_found",
+     "arxiv": "2312.07961"
+    }
+   ]
   },
   {
    "junk": false,
-   "idx": 21,
+   "idx": 23,
    "raw": "Zheyu Ying, Jinglei Zhang, Rui Xie, Guochang Wen, Feng Xiao, Xueyang Liu, and Shikun Zhang. 3rs: Data augmentation techniques using document contexts for low-resource chinese named entity recognition. 2022 International Joint Conference on Neural Networks (IJCNN), pp. 1\u20138, 2022.",
    "title": "3rs: Data augmentation techniques using document contexts for low-resource chinese named entity recognition",
    "authors": [
@@ -865,7 +965,7 @@
    "urls": [],
    "container": "2022 International Joint Conference on Neural Networks (IJCNN",
    "type": "paper-conference",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -876,7 +976,7 @@
     "first_author": "Ying",
     "container": "2022 International Joint Conference on Neural Networks (IJCNN)",
     "type": "proceedings-article",
-    "score": 92.38244
+    "score": 92.37653
    },
    "metrics": {
     "title_sim": 100.0,
@@ -889,7 +989,7 @@
   },
   {
    "junk": false,
-   "idx": 22,
+   "idx": 24,
    "raw": "Maria Zafar, Patrick J. Wall, Souhail Bakkali, and Rejwanul Haque. Confidence-based knowledge distillation to reduce training costs and carbon footprint for low-resource neural machine translation. Applied Sciences, 2025.",
    "title": "Confidence-based knowledge distillation to reduce training costs and carbon footprint for low-resource neural machine translation",
    "authors": [
@@ -904,7 +1004,7 @@
    "urls": [],
    "container": "Applied Sciences",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -915,7 +1015,7 @@
     "first_author": "Zafar",
     "container": "Applied Sciences",
     "type": "journal-article",
-    "score": 94.83978
+    "score": 94.85479
    },
    "metrics": {
     "title_sim": 100.0,
@@ -928,7 +1028,7 @@
   },
   {
    "junk": false,
-   "idx": 23,
+   "idx": 25,
    "raw": "Tao Zhang, Congying Xia, Philip S. Yu, Zhiwei Liu, and Shu Zhao. Pdaln: Progressive domain adaptation over a pre-trained model for low-resource cross-domain named entity recognition. pp. 5441\u20135451, 2021.",
    "title": "Pdaln: Progressive domain adaptation over a pre-trained model for low-resource cross-domain named entity recognition",
    "authors": [
@@ -944,7 +1044,7 @@
    "urls": [],
    "container": null,
    "type": null,
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -955,7 +1055,7 @@
     "first_author": "Zhang",
     "container": "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing",
     "type": "proceedings-article",
-    "score": 104.95343
+    "score": 104.966255
    },
    "metrics": {
     "title_sim": 100.0,
@@ -968,7 +1068,7 @@
   },
   {
    "junk": false,
-   "idx": 24,
+   "idx": 26,
    "raw": "Zhihao Zhang, S. Lee, Junshuang Wu, Dong Zhang, Shoushan Li, Erik Cambria, and Guodong Zhou. Cross-domain ner with generated task-oriented knowledge: An empirical study from information density perspective. pp. 1595\u20131609, 2024.",
    "title": "Cross-domain ner with generated task-oriented knowledge: An empirical study from information density perspective",
    "authors": [
@@ -985,7 +1085,7 @@
    "urls": [],
    "container": null,
    "type": null,
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -996,7 +1096,7 @@
     "first_author": "Zhang",
     "container": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
     "type": "proceedings-article",
-    "score": 75.92413
+    "score": 75.93388
    },
    "metrics": {
     "title_sim": 100.0,
@@ -1006,6 +1106,86 @@
     "first_author_ok": true
    },
    "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 27,
+   "raw": "A    Technical Appendices and Supplementary Material Extended Figures and Additional Details. The following figure (originally in the main text) is included here for completeness. It shows the zero-shot F1 evolution across three refinement iterations, remaining flat around 0.295: Figure 2: Zero-Shot F1-Score over three refinement iterations. The performance remains constant.",
+   "title": "The following figure (originally in the main text) is included here for completeness. It shows the zero-shot F1 evolution across three refinement iterations, remaining flat around 0.295: Figure 2: Zero-Shot F1-Score over three refinement iterations",
+   "authors": [
+    "Appendices",
+    "Figures",
+    "Details"
+   ],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-indent-guided",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.7717/peerj-cs.3479/fig-12",
+      "title": "Figure 12: F1-score comparison across TransMammo, YOLOv5-ECN, and CNN models over epochs.",
+      "year": 2026,
+      "first_author": null,
+      "container": "",
+      "type": "component",
+      "score": 59.938553
+     },
+     "metrics": {
+      "title_sim": 34.862385321100916,
+      "containment": 0.3,
+      "partial_ratio": 45.88235294117647,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": true,
+   "idx": 28,
+   "raw": "Hyperparameters. We employed roberta-base from HuggingFace Transformers, with default subword tokenization. The confidence threshold was set to 0.6. HDBSCAN used min_cluster_size=5 and min_samples=5. PMI-based pattern extraction applied a cooccurrence window of three tokens, discarding patterns with PMI < 1.0.",
+   "title": "We employed roberta-base from HuggingFace Transformers, with default subword tokenization. The confidence threshold was set to 0.6. HDBSCAN used min_cluster_size=5 and min_samples=5. PMI-based pattern extraction applied a cooccurrence window of three tokens, discarding patterns with PMI < 1.0",
+   "authors": [],
+   "year": null,
+   "doi": null,
+   "arxiv": null,
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-indent-guided",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.7554/elife.33322.011",
+      "title": "Figure 6\u2014figure supplement 1. Optimization of cluster size for self-organizing maps and gene ontology analysis of cluster patterns.",
+      "year": 2018,
+      "first_author": null,
+      "container": "",
+      "type": "component",
+      "score": 32.672813
+     },
+     "metrics": {
+      "title_sim": 38.55421686746988,
+      "containment": 0.286,
+      "partial_ratio": 44.96124031007752,
+      "year_ok": true,
+      "first_author_ok": null
+     }
+    }
+   ],
+   "likely_match": null
   }
  ],
  "second_pass": true,
