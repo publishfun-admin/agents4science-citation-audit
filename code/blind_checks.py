@@ -61,7 +61,9 @@ for f in glob.glob(os.path.join(ROOT, 'data', 'refs', '*.verified.json')):
     for i, e in enumerate(json.load(open(f))['entries'], 1): ent[(num, i)] = e
 def grp(via): via = str(via or ''); return {'crossref': 'crossref', 's2': 's2', 'doi': 'doi'}.get(via, 'arxiv' if via.startswith('arxiv') else ('url' if via == 'url' else 'other'))
 pop = collections.Counter(grp(e.get('via')) for (n, i), e in ent.items() if not e.get('junk') and e.get('verdict') in ('VERIFIED', 'VERIFIED_URL') and (n, i) not in dec)
+HUMAN = json.load(open(os.path.join(REL, 'human_overrides.json'))) if os.path.exists(os.path.join(REL, 'human_overrides.json')) else {}
 tab = collections.defaultdict(collections.Counter); rows = []; n_used = 0
+SUFFIX = '_human' if os.environ.get('HUMAN_OVERRIDE') else ''
 for s, d in [('blind_sample2.json', 'blind_decisions2.json'), ('blind_sample3.json', 'blind_decisions3.json')]:
     sp, dp = os.path.join(TMP, s), os.path.join(TMP, d)
     if not (os.path.exists(sp) and os.path.exists(dp)): continue
@@ -70,7 +72,9 @@ for s, d in [('blind_sample2.json', 'blind_decisions2.json'), ('blind_sample3.js
         if i not in blind: continue
         n, idx = o['key'].split(':'); e = ent.get((n, cur_idx.get((n, norm(o['raw'])), int(idx))))
         if not e or e.get('verdict') not in ('VERIFIED', 'VERIFIED_URL'): continue   # re-parsed away or no longer auto-verified
-        g = grp(e.get('via')); c = collapse(blind[i]['category']); tab[g][c] += 1; n_used += 1
+        lab = blind[i]['category']
+        if os.environ.get('HUMAN_OVERRIDE') and o['key'] in HUMAN: lab = HUMAN[o['key']]   # human label replaces the blind label where coded
+        g = grp(e.get('via')); c = collapse(lab); tab[g][c] += 1; n_used += 1
         rows.append({'id': i, 'key': o['key'], 'via': e.get('via'), 'blind': c, 'blind_note': blind[i].get('note', '')[:200]})
 if n_used:
     N = sum(pop.values()); est_c = est_nf = 0.0; parts = []
@@ -83,7 +87,7 @@ if n_used:
     L.append(f"- Corrupted citations of real works among auto-verified entries: crude {fmt(tot_c, n_used)}; source-weighted estimate {100*est_c/N:.1f}% (~{est_c:.0f} of {N})")
     L.append(f"- Wholly invented among auto-verified entries: {fmt(tot_nf, n_used)}; source-weighted {100*est_nf/N:.1f}%")
     L.append('- By source: ' + '; '.join(parts) + '\n')
-    with open(os.path.join(REL, 'blind_autoverified_sample.csv'), 'w', newline='') as f:
+    with open(os.path.join(REL, 'blind_autoverified_sample' + SUFFIX + '.csv'), 'w', newline='') as f:
         w = csv.DictWriter(f, fieldnames=list(rows[0].keys())); w.writeheader(); w.writerows(rows)
-    json.dump({'population_by_source': dict(pop), 'sample_by_source': {g: dict(c) for g, c in tab.items()}, 'est_corrupted_share': est_c / N, 'est_notfound_share': est_nf / N, 'n': n_used}, open(os.path.join(ROOT, 'data', 'dataset', 'blind_autoverified_estimate.json'), 'w'), indent=1)
-open(os.path.join(ROOT, 'data', 'dataset', 'blind_checks.md'), 'w').write('\n'.join(L) + '\n'); print('\n'.join(L))
+    json.dump({'population_by_source': dict(pop), 'sample_by_source': {g: dict(c) for g, c in tab.items()}, 'est_corrupted_share': est_c / N, 'est_notfound_share': est_nf / N, 'n': n_used}, open(os.path.join(ROOT, 'data', 'dataset', 'blind_autoverified_estimate' + SUFFIX + '.json'), 'w'), indent=1)
+open(os.path.join(ROOT, 'data', 'dataset', 'blind_checks' + SUFFIX + '.md'), 'w').write('\n'.join(L) + '\n'); print('\n'.join(L))
