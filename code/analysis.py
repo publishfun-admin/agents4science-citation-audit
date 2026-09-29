@@ -139,14 +139,24 @@ def main():
         rm = pd.read_csv(rm_path)
         det = rm.groupby('number').agg(ai_strong=('n_strong', lambda s: (s[rm.loc[s.index, 'kind']=='ai'] > 0).any()), human_strong=('n_strong', lambda s: (s[rm.loc[s.index, 'kind']=='human'] > 0).any()), ai_mention=('n_ref_sentences', lambda s: (s[rm.loc[s.index, 'kind']=='ai'] > 0).any())).reset_index()
         q5 = rev.merge(det, on='number', how='left').fillna({'ai_strong': False, 'human_strong': False, 'ai_mention': False})
+        cls_path = 'data/dataset/strong_ref_statements_classified.csv'
+        if os.path.exists(cls_path):  # explicit = independent assertion or echo of the authors' disclosure (vague/unrelated hits excluded)
+            cls = pd.read_csv(cls_path); cls = cls[cls.kind == 'ai']
+            expl = set(cls[cls['class'].isin(['explicit_independent', 'author_acknowledged'])].number.astype(int))
+            indep = set(cls[cls['class'] == 'explicit_independent'].number.astype(int))
+            q5['ai_strong'] = q5.number.astype(int).isin(expl); q5['ai_indep'] = q5.number.astype(int).isin(indep)
+        else:
+            q5['ai_indep'] = q5['ai_strong']
         fab = q5[q5.any_fab]
         L.append('## Q5 Did reviewers notice? (reviewed papers with >=1 fabricated reference)\n')
         L.append(f"- Any LLM review explicitly states references are fabricated/non-existent/unverifiable: {fmt_pct(int(fab.ai_strong.sum()), len(fab))}")
         L.append(f"- Any LLM review mentions references/citations at all: {fmt_pct(int(fab.ai_mention.sum()), len(fab))}")
+        L.append(f"- ... of which the statement is the reviewer's own finding (not an echo of the authors' disclosure): {fmt_pct(int(fab.ai_indep.sum()), len(fab))}")
         hf = fab[fab.human_score.notna()]
         L.append(f"- Human expert review explicitly states so (papers with a human review): {fmt_pct(int(hf.human_strong.sum()), len(hf))}")
         nf = q5[~q5.any_fab]
-        L.append(f"- False alarms: LLM 'strong' statements in papers without fabricated refs: {fmt_pct(int(nf.ai_strong.sum()), len(nf))}\n")
+        L.append(f"- False alarms: LLM 'strong' statements in papers without fabricated refs: {fmt_pct(int(nf.ai_strong.sum()), len(nf))}")
+        L.append(f"- False alarms, independent assertions only: {fmt_pct(int(nf.ai_indep.sum()), len(nf))}\n")
     # Q6 taxonomy
     L.append('## Q6 Categories of adjudicated entries\n')
     adj = ok[ok.status.isin(['EXISTS', 'EXISTS_CORRUPTED', 'NOT_FOUND', 'UNADJUDICABLE'])]

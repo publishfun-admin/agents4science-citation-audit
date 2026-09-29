@@ -67,10 +67,12 @@ Spearman(overall autonomy score 4-16, fabricated share) = -0.018 (p=0.784, n=227
 
 ## Q5 Did reviewers notice? (reviewed papers with >=1 fabricated reference)
 
-- Any LLM review explicitly states references are fabricated/non-existent/unverifiable: 9.0% (8/89; 95% CI 4.6-16.7)
+- Any LLM review explicitly states references are fabricated/non-existent/unverifiable: 6.7% (6/89; 95% CI 3.1-13.9)
 - Any LLM review mentions references/citations at all: 70.8% (63/89; 95% CI 60.6-79.2)
+- ... of which the statement is the reviewer's own finding (not an echo of the authors' disclosure): 4.5% (4/89; 95% CI 1.8-11.0)
 - Human expert review explicitly states so (papers with a human review): 0.0% (0/20; 95% CI -0.0-16.1)
-- False alarms: LLM 'strong' statements in papers without fabricated refs: 3.3% (5/152; 95% CI 1.4-7.5)
+- False alarms: LLM 'strong' statements in papers without fabricated refs: 2.0% (3/152; 95% CI 0.7-5.6)
+- False alarms, independent assertions only: 2.0% (3/152; 95% CI 0.7-5.6)
 
 ## Q6 Categories of adjudicated entries
 

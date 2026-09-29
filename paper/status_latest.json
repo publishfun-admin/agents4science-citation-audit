@@ -1,0 +1,939 @@
+{
+ "content_md": "<!-- keywords: fabricated citations, hallucinated references, AI-generated research, Agents4Science, LLM peer review, research integrity, citation audit -->\n\n## 1. Introduction\n\nAgents4Science 2025, organised by Stanford University and Together AI and held on 22 October 2025, was the first\nresearch conference that required an AI system to be the first author of every submission, reviewed every complete\nsubmission with three large-language-model (LLM) reviewers, and released all submissions, reviews and checklists\npublicly [Bianchi et al. 2025]. It is therefore the first corpus in which the reference lists of hundreds of\nAI-first-authored papers can be inspected together with the AI reviews they received, the human expert reviews given to\nthe top-scoring papers, per-paper self-reports of how much of the writing was done by AI, and the acceptance decision.\n\nFabricated references are the most verifiable symptom of LLM involvement in scientific writing, and they are\nspreading through the human-authored literature [Naddaf and Quill 2026]: an audit of 111 million references found a\nsharp rise in non-existent citations after 2023, with a conservative estimate of 146,932 hallucinated citations in 2025\nalone [Zhao et al. 2026]; a Lancet audit of 2.5 million biomedical papers found a fabricated citation in one of every\n277 papers indexed in early 2026 [Topaz et al. 2026]; and 53 papers accepted at NeurIPS 2025 contained AI-generated\ncitations to sources that do not exist [Ansari 2026]. What happens when the author is, by design, an AI?\n\nThe organisers of Agents4Science asked this question with an automated checker: for every reference in every submission\nit extracted the title, ran a web search, and, if nothing matched, flagged the reference as a potential hallucination and\nposted a public \"Related Work Check\" comment listing example flagged references. They estimated that roughly 44% of\nsubmissions had no flagged references and 56% had at least one [Bianchi et al. 2025]. That estimate has three known\nweaknesses, which the organisers themselves acknowledge in the wording of the public comments (\"they might exist but the\nautomated verification failed\"): a failed web search is not evidence of non-existence, the flag does not distinguish a\nwholly invented work from a real work cited with a wrong year or author, and it was never related to the review scores\nor to acceptance.\n\nThis paper re-examines every reference in every Agents4Science submission with a reproducible pipeline followed by\nmanual adjudication, and asks six questions that were fixed before adjudication started (paper/analysis_plan.md in the\ncompanion repository): (Q1) how prevalent fabricated references really are; (Q2) how precise the organisers' automated\nflag was; (Q3) whether fabrication tracks the self-reported degree of AI autonomy in writing; (Q4) whether the three LLM\nreviewers, the human experts, or the acceptance decision penalised it; (Q5) whether any reviewer noticed; and (Q6) what\nthe fabrications look like.\n\n## 2. Related work\n\n**Prevalence in the human-authored literature.** Zhao et al. [2026] audit 111 million references in 2.5 million papers\nacross arXiv, bioRxiv, SSRN and PubMed Central and document a sharp post-2023 rise in non-existent references,\nconcentrated in fields with rapid AI uptake and in manuscripts with linguistic signatures of AI-assisted writing.\nTopaz et al. [2026] audit 2.5 million biomedical papers and report a twelve-fold increase in two years, from one\nfabricated reference per 2,828 papers in 2023 to one per 277 in early 2026. Xu et al. [2026] (GhostCite) verify 2.2\nmillion citations from 56,381 papers at AI/ML and security venues and find that 1.07% of papers contain invalid\ncitations, with an 80.9% increase in 2025; they also benchmark 13 LLMs and find citation-generation hallucination\nrates between 14% and 95%. Ansari [2026] analyses 100 hallucinated citations that survived expert peer review at NeurIPS\n2025 and proposes the failure-mode taxonomy (total fabrication, partial attribute corruption, identifier hijacking,\nplaceholder and semantic hallucination) that our adjudication categories adapt.\n\n**Citation generation and verification tools.** Rao and Callison-Burch [2026] show that even search-enabled frontier\nmodels produce fully correct BibTeX entries only about half of the time, with accuracy dropping sharply for recent\npapers; Naser [2026] audits reference fabrication across models in AI-assisted academic writing and compares detection\nmethods; Reizinger and Brendel [2026] (HALLMARK) benchmark rule- and LLM-based citation verifiers and find that the\nfalse-positive rate, not recall, decides whether a verifier is deployable. These results bear directly on the\norganisers' checker: an automated flag can be wrong in both directions, which is why we adjudicate by hand.\n\n**AI reviewers.** LLM reviewers are now deployed at scale [Biswas et al. 2026] and studied adversarially: Jiang et al.\n[2025] (BadScientist, itself an Agents4Science paper) show that fabrication-oriented paper generators can obtain\nacceptance-level scores from multi-model LLM review systems, and identify a \"concern-acceptance conflict\" in which\nreviewers flag integrity problems yet still recommend acceptance; Zhu et al. [2025] document biases, divergence between\nmodels and prompt-injection risks; Baumann et al. [2026] and Hatzel et al. [2026] document the gameability and limited\nhuman alignment of LLM review scores; Nguyen et al. [2026] and Alharbi [2026] measure how often LLM and agentic review\nsystems catch injected errors. None of these works examines whether LLM reviewers notice fabricated references in a\nreal venue, which our Q5 does.\n\n**Agents4Science itself.** The organisers' report [Bianchi et al. 2025] describes the conference design, the four-tier\nAI-involvement checklist, the three LLM reviewers (GPT-5, Gemini 2.5 Pro, Claude Sonnet 4), the human expert review of\nthe 79 top-scoring papers, and the automated reference checker whose output we evaluate.\n\n## 3. Data\n\n**Corpus.** All 315 submissions listed under the Agents4Science 2025 venue on OpenReview: 48 accepted, 196 rejected,\n10 withdrawn and 61 desk-rejected. For each we retrieved the submitted PDF (314; one is password-protected), the\nsubmission metadata, and every public reply in its forum: the three LLM reviews with their 1-6 overall scores, the\nhuman expert review where present, the program-chair decision, the organisers' Related Work Check comment, and their\nCorrectness Check. From the conference website's public data directory we took the organisers' per-paper extraction of\nthe AI-involvement checklist (autonomy tier A-D for hypothesis development, experimental design, data analysis and\nwriting), the LLM topic classification, and the reviewer scores, which agree exactly with the OpenReview records.\n\n**Table 1. Corpus overview.** Counts of submissions, submissions with a retrievable PDF, submissions with all three LLM reviews, with a human expert review, with an organisers' Related Work Check comment, with at least one example reference flagged by that check, and with a Correctness Check comment.\n\n| Outcome       |   submissions |   PDF |   3 LLM reviews |   human review |   RW check |   RW flagged |   correctness check |\n|:--------------|--------------:|-----------:|----------------:|---------------:|-----------:|-------------:|-------------:|\n| Accepted      |            48 |         48 |              48 |             48 |         47 |           26 |           48 |\n| Rejected      |           196 |        196 |             196 |             30 |        193 |          108 |          195 |\n| Withdrawn     |            10 |         10 |               6 |              1 |         10 |            4 |           10 |\n| Desk-rejected |            61 |         60 |               0 |              0 |          3 |            1 |           3 |\n| Total         |           315 |        314 |             250 |             79 |        253 |          139 |          256 |\n\n**AI-involvement tiers.** The checklist that every submission had to include asked, for each of four stages, whether\nthe work was (A) human-generated (humans did 95% or more, AI minimally involved), (B) mostly human, assisted by AI\n(humans did more than half), (C) mostly AI, assisted by human (AI did more than half), or (D) AI-generated (AI did more\nthan 95%, with at most prompting or high-level guidance). We use the writing-stage answer and the sum of the four\nanswers coded 1-4 (range 4-16).\n\n**Reviewer identities.** The organisers' report gives the mean overall score of each LLM reviewer (GPT-5 2.30, Gemini\n2.5 Pro 4.23, Claude Sonnet 4 3.0); the three anonymised reviewer slots in the data have means of 2.30, 4.24 and 3.00 over all\n250 reviewed submissions (2.31, 4.30 and 3.02 over the 244 accepted or rejected ones), which identifies AIRev1 as GPT-5, AIRev2 as Gemini 2.5 Pro and AIRev3 as Claude Sonnet 4.\n\n## 4. Methods\n\n**Reference extraction.** Reference lists were extracted from the PDFs with AnyStyle 1.6 (a conditional-random-field\nreference parser) applied to pdftotext output. Three layout problems were handled before parsing: margin line numbers\nfrom the review template were stripped when at least a quarter of the lines began with a running number; two-column\npapers, detected when at least 30% of lines contained a wide internal gap (the layout-preserving text of such papers\ninterleaves the two columns), were re-extracted in reading order; and bracket-numbered lists in which the parser had\ndropped entries were segmented at the bracket markers and parsed entry by entry. Entries without a year and author, or\nconsisting of body text, captions or affiliation blocks, were tagged as parse artefacts and excluded; artefacts that\nsurvived this filter were classified as UNADJUDICABLE during adjudication.\n\n**Automated verification.** Each entry was checked in order against (1) its DOI via Crossref and its arXiv identifier\nvia the arXiv API or abstract page, accepting the entry when the resolved title is contained in the entry text (a\nre-pass repeated the arXiv lookups after an outage of the arXiv API); (2) Crossref's bibliographic query and OpenAlex (the latter until its free daily quota was exhausted),\naccepting a candidate when its title agrees with the parsed title (fuzzy ratio >= 92, or >= 85 with matching year and\nfirst author) and the cited year is within one year; (3) in a second pass, Semantic Scholar's title match, Crossref\ntitle queries, OpenLibrary and, until its quota was exhausted, Google Books; (4) for entries citing only a URL, whether the URL is live. All API\nresponses are cached and released with the code, so the automated stage is exactly reproducible.\n\n**Manual adjudication.** Every entry that remained unverified was adjudicated by the author's AI agent under the\nwritten protocol in data/adjudication/PROTOCOL.md (with one amendment adding the PLACEHOLDER category): an exact-title\nsearch and, before any NOT_FOUND decision, a second search by author plus keywords, with the evidence URL or the\nsearches performed logged for every decision. Searches used the agent's web-search tool and, when its budget or a\nsearch engine's bot detection ran out, Google, Brave or Yahoo search pages opened in a browser, plus PubMed for\nbiomedical references and Crossref, OpenLibrary and arXiv abstract pages for identifiers. Categories: EXISTS (a real\nwork correctly cited; an automated recall failure; typographic differences, truncated titles and a year off by one\nallowed), EXISTS_CORRUPTED (a real work is clearly intended but at least one substantive attribute is wrong, tagged as\ntitle, authors, venue, year or identifier), NOT_FOUND (no trace of the work), WEB_RESOURCE_EXISTS or\nWEB_RESOURCE_NOT_FOUND (URL-only citations), PLACEHOLDER (deliberately incomplete stubs such as \"Authors. Title. arXiv\npreprint\" or a venue given as \"[Conference]\"), and UNADJUDICABLE (parse artefacts and grey literature that cannot be\nlocated either way; excluded from denominators). Fabricated = NOT_FOUND or EXISTS_CORRUPTED; a sensitivity analysis\nadds PLACEHOLDER (\"defective\"), and a stricter secondary outcome counts NOT_FOUND only (\"wholly invented\").\n\n**Analysis.** All analyses were pre-specified (paper/analysis_plan.md in the repository) before any manual\nadjudication. Proportions are reported with 95% Wilson intervals. The organisers' flag is evaluated at the reference\nlevel (share of their flagged example references that adjudication classifies as fabricated) and at the paper level\n(sensitivity, specificity and Cohen's kappa of \"at least one flagged example\" against \"at least one fabricated\nreference\"). Associations between a paper's fabricated share and its self-reported writing autonomy tier use the\nKruskal-Wallis test, and associations with the overall autonomy score and with each reviewer's overall score use\nSpearman's rank correlation. Acceptance is modelled with a logistic regression on the fabricated share and the mean\nLLM score; if that regression cannot be fitted because of complete separation, acceptance is instead compared between\npapers with and without fabricated references by Fisher's exact test (a deviation from the plan, noted where it\napplies). Reviewer detection is measured as the share of papers with at least one fabricated reference in which at\nleast one LLM review, the human review, or the organisers' Correctness Check states explicitly that references are\nfabricated, non-existent, future-dated or unverifiable; candidate sentences were found with a keyword pattern and\neach was read and classified by the adjudicating agent as an independent assertion, an echo of the authors' own\ndisclosure, a vague remark, or unrelated (data/dataset/strong_ref_statements_classified.csv). Because every reference\nin every submission is adjudicated, no sampling is involved and no multiple-comparison correction is applied to the\nsix pre-specified questions; p-values are reported as descriptive evidence rather than as confirmatory tests.\n\n## 5. Results\n\n### 5.1 Corpus and parsing yield\n\nOf the 314 PDFs, three could not be read (one is password-protected and two are image-only scans; all three were\ndesk-rejected) and seven contain no reference list at all (two of them state that the bibliography is \"available in\nsupplementary materials\"; two, submissions 159 and 188, were reviewed papers). The remaining 304 submissions yielded\n6,685 reference entries after parse artefacts were excluded. Adjudication set aside 43 entries as UNADJUDICABLE\n(fragments of split entries, and grey literature that could not be located either way), leaving 6,642 adjudicable\nreferences in 302 submissions (two submissions consisted only of unadjudicable entries). For the 218 submissions with\nbracket-numbered lists, the ratio of parsed entries to the highest bracket marker had a median of 1.00 and a minimum of\n0.88 (two submissions below 0.90), so the denominators are close to complete. Accepted papers cite more: a median of 24\nreferences (interquartile range 16-33) against 15 (10-24) for rejected, 14 (9-21) for desk-rejected and 41 (29-72) for\nthe ten withdrawn submissions.\n\nThe automated stage verified 5,864 entries (87.7%). Crossref bibliographic matching accounted for about two thirds of\nthe automated matches, Semantic Scholar for a sixth, direct DOI resolution for 8%, arXiv identifiers for 4%, live URLs\nfor 1.5%, and Crossref title queries, OpenLibrary and arXiv search for the remainder. The 821 entries that were\nadjudicated by hand (every entry unverified at the end of the automated stage; a handful were also matched by the later\narXiv re-pass and are counted by their manual category) split into 254 EXISTS (30.9%), 281 NOT_FOUND (34.2%), 215\nEXISTS_CORRUPTED (26.2%), 28 PLACEHOLDER (3.4%) and 43 UNADJUDICABLE (5.2%). In other words, about one third of the\nreferences that the automated stage could not verify were real works cited correctly (theses, books, standards,\nreports, software and web pages predominate), which is the first reason that a failed automated lookup cannot be\nequated with fabrication.\n\n### 5.2 Prevalence of fabricated references (Q1)\n\nAmong the 241 reviewed submissions (accepted or rejected) with adjudicable references, 89 (36.9%; 95% CI 31.1-43.2)\ncite at least one fabricated reference, and 361 of their 5,090 references (7.1%; 6.4-7.8) are fabricated. Restricting\nthe outcome to wholly invented works (NOT_FOUND only) gives 57 submissions (23.7%; 18.7-29.4) and 194 references\n(3.8%); adding placeholders (\"defective\") changes little: 90 submissions (37.3%) and 363 references (7.1%). Over all\n302 submissions with adjudicable references the paper-level share is 37.4% (113/302; 32.1-43.0) and the reference-level\nshare 7.5% (496/6,642; 6.9-8.1).\n\n**Table 2. Prevalence by outcome group.** Fabricated = NOT_FOUND or EXISTS_CORRUPTED. Percentages in the last two\ncolumns are shares of submissions with 95% Wilson intervals.\n\n| Outcome group | Submissions | References | Fabricated references | Submissions with >= 1 fabricated reference | Submissions with >= 1 wholly invented reference |\n|:--|--:|--:|--:|:--|:--|\n| Accepted | 48 | 1,251 | 8 (0.6%) | 7 (14.6%; 7.2-27.2) | 0 (0.0%; 0.0-7.4) |\n| Rejected | 193 | 3,839 | 353 (9.2%) | 82 (42.5%; 35.7-49.5) | 57 (29.5%; 23.5-36.3) |\n| Withdrawn | 10 | 531 | 11 (2.1%) | 3 (30.0%; 10.8-60.3) | 1 (10.0%; 1.8-40.4) |\n| Desk-rejected | 51 | 1,021 | 124 (12.1%) | 21 (41.2%; 28.8-54.8) | 15 (29.4%; 18.7-43.0) |\n| All | 302 | 6,642 | 496 (7.5%) | 113 (37.4%; 32.1-43.0) | 73 (24.2%; 19.7-29.3) |\n\nThe distribution is heavy-tailed. Among the 89 affected reviewed submissions the median fabricated share is 16.7%\n(interquartile range 9.1-37.5%); 14 of the 302 submissions (4.6%) have fabricated majorities, all of them rejected or\ndesk-rejected: for example submission 112 (21 of 25 references fabricated, 19 of them non-existent), 243 and 110 (9 of\n11 each), 28 (28 of 39; desk-rejected) and 148 (21 of 39). At the other end, the accepted papers are almost clean: none\nof their 1,251 references is wholly invented (0 of 48 papers; upper confidence limit 7.4%), and the 8 fabricated\nreferences are corrupted citations of real works (one each in six papers, two in one paper), typically a real paper\ncited with a rewritten title or a wrong venue.\n\n### 5.3 How precise was the organisers' automated flag? (Q2)\n\nThe organisers posted a Related Work Check on 253 submissions and listed 285 example references, in 139 submissions,\nthat their web-search checker could not verify. We matched 257 of the examples (90.2%) to a parsed entry. The 28\nunmatched examples, 23 of them in accepted papers, are strings that the checker's own extraction step produced: for\nseveral of them the flagged title does not occur anywhere in the submitted PDF, and for others the checker's rendering\nof the title differs from the entry in the reference list, which in the cases we could trace is a real work. Table 3\ngives the adjudicated status of the matched examples.\n\n**Table 3. Adjudicated status of the 257 example references flagged by the organisers' Related Work Check.**\n\"Verified automatically\" means matched to a bibliographic record or a resolving identifier by our pipeline; \"exists\n(manual)\" means confirmed by hand.\n\n| Status of flagged example | n | Share |\n|:--|--:|--:|\n| NOT_FOUND (wholly invented) | 80 | 31.1% |\n| EXISTS_CORRUPTED (real work, corrupted attributes) | 53 | 20.6% |\n| Verified automatically (record or identifier) | 102 | 39.7% |\n| Exists (manual: theses, reports, web resources) | 17 | 6.6% |\n| PLACEHOLDER | 2 | 0.8% |\n| UNADJUDICABLE | 3 | 1.2% |\n\nThe precision of the flag at the reference level is therefore 51.8% (133/257; 95% CI 45.7-57.8): 46.3% (119/257;\n40.3-52.4) of the flagged examples exist exactly as cited. The false positives are not obscure: they include Spearman's\n\"The abilities of man\" (1927), Thurstone's \"Primary mental abilities\" (1938), Oster, Perelson and Katchalsky's \"Network\nthermodynamics\" (1973), Brown-Cohen et al.'s \"Doubly-efficient debate\" and a report of the White House Council of\nEconomic Advisers. Precision depends strongly on the outcome group: 58.2% (131/225; 51.7-64.5) in\nrejected submissions, but 0 of 25 (0.0-13.3) in accepted ones, where 24 of the 25 flagged examples are real works\n(the remaining one, the RDKit software cited without authors or year, was set aside as unadjudicable). No flagged\nexample in an accepted paper was fabricated.\n\nAt the paper level, among the 237 reviewed submissions that received a check and have adjudicable references, the\norganisers' flag (\"at least one example flagged\") marked 133 (56.1%; 49.8-62.3), whereas the audit finds at least one\nfabricated reference in 87 (36.7%; 30.8-43.0). The cross-classification gives 82 true positives, 51 false positives, 5\nfalse negatives and 99 true negatives: sensitivity 0.94, specificity 0.66, positive predictive value 61.7% (53.2-69.5),\nnegative predictive value 95.2% (89.2-97.9), Cohen's kappa 0.54. Among the 48 accepted papers, 26 were flagged, of which\n5 contain a single corrupted reference and 21 contain none; 2 unflagged accepted papers contain one corrupted reference\neach. The flag is thus a good screen (a submission without a flag almost never has a fabricated reference) but a poor\nmeasure: the \"56%\" headline overstates the paper-level prevalence by about half, and at the reference level roughly one\nflagged reference in two is real.\n\n### 5.4 Fabrication and self-reported AI autonomy (Q3)\n\n**Table 4. Fabrication by self-reported AI autonomy in the writing stage (reviewed submissions with a checklist answer, n = 231).**\n\n| Writing tier | Submissions | Mean fabricated share | Submissions with >= 1 fabricated reference |\n|:--|--:|--:|:--|\n| A: human-generated | 4 | 17.7% | 4 (100%; 51.0-100) |\n| B: mostly human, assisted by AI | 26 | 20.9% | 15 (57.7%; 38.9-74.5) |\n| C: mostly AI, assisted by human | 75 | 3.7% | 19 (25.3%; 16.9-36.2) |\n| D: AI-generated | 126 | 10.5% | 48 (38.1%; 30.1-46.8) |\n\nThe tiers differ (Kruskal-Wallis H = 19.1, p = 0.0003), but not monotonically: the lowest fabrication is in the\n\"mostly AI, assisted by human\" tier and the highest in the two mostly-human tiers, which are small (30 submissions\ntogether). The overall autonomy score (sum over the four stages, range 4-16) is uncorrelated with the fabricated share\n(Spearman rho = -0.02, p = 0.78, n = 227). Ten reviewed submissions have no usable writing answer (3 of 8 with a missing\nanswer and 0 of 2 with an unparseable checklist contain a fabricated reference). Self-reported autonomy, at least as\nextracted by the organisers' pipeline, is therefore not a predictor of reference integrity.\n\n### 5.5 Fabrication, review scores and acceptance (Q4)\n\n**Table 5. Association between a submission's fabricated share and its review scores and acceptance (reviewed submissions, n = 241 unless stated).**\n\n| Outcome | Spearman rho (p) | Mean, submissions with >= 1 fabricated reference | Mean, submissions without |\n|:--|:--|--:|--:|\n| GPT-5 overall score (1-6) | -0.155 (0.016) | 2.22 | 2.38 |\n| Gemini 2.5 Pro overall score | -0.136 (0.034) | 4.15 | 4.41 |\n| Claude Sonnet 4 overall score | -0.133 (0.040) | 2.96 | 3.08 |\n| Mean of the three LLM scores | -0.182 (0.005) | | |\n| Human expert score (n = 78) | -0.312 (0.005) | 2.75 | 3.40 |\n| Acceptance | | 7.9% (7/89; 3.9-15.4) | 27.0% (41/152; 20.5-34.5) |\n\nAll three LLM reviewers gave slightly lower scores to submissions with fabricated references, and the human experts,\nwho reviewed the 79 top-scoring submissions, markedly lower ones. Acceptance fell steeply with the fabricated share:\n27.0% of submissions without a fabricated reference were accepted, 22.6% (7/31) of those with a share up to 10%, and\nnone of the 58 submissions with a share above 10% (0/25 at 10-25%, 0/21 at 25-50%, 0/12 above 50%). The pre-specified\nlogistic regression could be fitted: the fabricated share predicts acceptance beyond the mean LLM score (coefficient\n-25.2, p = 0.002; mean LLM score 4.81, p < 1e-7; n = 241), and Fisher's exact test on \"any fabricated reference\" gives an\nodds ratio for acceptance of 0.23 (p = 0.0002). Fabrication was therefore penalised somewhere between review and\ndecision, whether by the reviewers, by the human experts, or by the program chairs who had the organisers' flag in\nfront of them; the data cannot separate these mechanisms.\n\n### 5.6 Did anyone notice? (Q5)\n\nAmong the 89 reviewed submissions with at least one fabricated reference, an LLM review contains an explicit statement\nthat references are fabricated, non-existent, future-dated or unverifiable in 8 (9.0%; 4.6-16.7). Reading the\nsentences, in 5 submissions (5.6%; 2.4-12.5) the statement is the reviewer's own finding, for instance \"the review\nidentifies fabricated references in the bibliography, which is a grave breach of academic ethics\" (submission 110) or\n\"the literature review is deeply flawed, with hallucinated authors and future-dated references\" (submission 112); all\nfive are by Gemini 2.5 Pro. In the other four the reviewer repeats the authors' own disclosure, in the AI-limitations\nsection of the checklist, that references may have been hallucinated. GPT-5 and Claude Sonnet 4 never asserted on their\nown that a submission with fabricated references had them. Explicit statements also occurred in 5 of the 152 reviewed\nsubmissions without a fabricated reference (3.3%; 1.4-7.5), one by GPT-5 and three by Gemini among them, so the LLM\nreviewers' explicit accusations were about as often wrong as right. Reviews mention references or citations in some way\nin 70.8% of affected submissions, but almost always generically (\"the related work could be expanded\"). None of the 20\naffected submissions that received a human expert review had the problem noted by the expert (0/20; 0.0-16.1), and the\norganisers' Correctness Check comments contain one explicit statement about references, in a submission that has none.\n\n### 5.7 What the fabrications look like (Q6)\n\n**Table 6. Categories of the 821 manually adjudicated references, and corrupted attributes among the EXISTS_CORRUPTED entries (several attributes can be wrong in one entry).**\n\n| Category | n | Share of adjudicated |\n|:--|--:|--:|\n| NOT_FOUND (wholly invented, incl. 2 dead URL-only citations) | 281 | 34.2% |\n| EXISTS_CORRUPTED (real work, corrupted attributes) | 215 | 26.2% |\n| EXISTS (real, correctly cited; automated recall failure, incl. 64 web resources) | 254 | 30.9% |\n| PLACEHOLDER | 28 | 3.4% |\n| UNADJUDICABLE | 43 | 5.2% |\n| Corrupted attribute (n = 215): title | 161 | 74.9% |\n| Corrupted attribute: venue | 100 | 46.5% |\n| Corrupted attribute: authors | 88 | 40.9% |\n| Corrupted attribute: year | 66 | 30.7% |\n| Corrupted attribute: identifier (DOI or arXiv id) | 36 | 16.7% |\n\nOf the 496 fabricated references, 281 (56.7%) are wholly invented and 215 (43.3%) are corruptions of real works. The\ncorruptions are dominated by rewritten titles: a real paper is cited by the right authors and year under a title that\nparaphrases or reinterprets it, often with a wrong venue. Examples include Hermann and Blunsom's ACL 2013 paper \"The\nrole of syntax in vector space models of compositional semantics\" cited as \"The role of context in compositional\nsemantics: a survey\" with an arXiv identifier that belongs to a nuclear-physics paper (submission 314); Cyril Stark's\n2016 preprint \"Recommender systems inspired by the structure of quantum theory\" cited with four invented authors, the\nyear 2021 and an arXiv identifier belonging to a single-photon-source paper (314); Pirandola et al.'s \"Advances in\nquantum cryptography\" retitled as a quantum-key-distribution review (196); and Kadavath et al.'s \"Language models\n(mostly) know what they know\" cited as \"Language models struggle to learn factuality\", the opposite of its finding\n(148). A recurrent variant recycles a real author list onto an invented paper: the five authors of a 2003 Chest study of\nlinezolid appear on a non-existent Critical Care Medicine paper about aminoglycoside nephrotoxicity (81), and three\nreferences in submission 187 share the same three authors.\n\nWholly invented references are usually plausible in form: real-sounding authors, a specific journal, volume, issue and\npage range. Twenty-nine of the 281 (10.3%) carry a DOI or an arXiv identifier (12 a DOI, 18 an arXiv identifier, one both) and\nanother five cite only a URL; the identifiers either do not resolve or resolve to an unrelated work: placeholder-pattern identifiers such as arXiv:2502.01234, arXiv:2401.12345,\ndoi:10.1177/01655515241234567 and the page range 12345-12358 (submissions 148, 173, 198), and hijacked identifiers that\nbelong to unrelated real papers (a Developmental Dynamics DOI resolving to a zebrafish review in 161, an Information\nFusion DOI resolving to a neuroimaging review in 184, a Heliyon DOI resolving to a retracted biodiesel paper in 71).\nSeventeen of the 281 (6.0%) cite a year of 2025 or later. The 28 placeholders are concentrated in 7 submissions and\ninclude \"Authors. Title. arXiv preprint\", venues given as \"[Conference]\", a \"Journal of HCI for Health\" with authors\n\"A. Smith, J. Doe\", and an entry reading \"(Duplicate of [7], listed for completeness)\". Whole-list fabrication occurs:\nin submissions 110, 111, 112 and 117 most references are invented, submission 160 cites ten non-existent glioma papers in\nNeuro-Oncology, Nature Medicine and Clinical Cancer Research, and submission 127 cites veterinary papers with\nunregistered DOIs. Finally, fabrications propagate: submission 147 cites at least five non-existent human-computer\ninteraction papers (two attributed to CHI 2024, two to the 2025 volume of Proceedings of the ACM on Human-Computer Interaction, one to NeurIPS 2025), and the same references\nappear unchanged in the version of the paper that its authors posted to arXiv on 27 October 2025, five days after the\nconference; at the time of writing the only web footprint of those titles is the paper itself.\n\n## 6. Discussion\n\n**What the audit adds to the organisers' figure.** The organisers reported, correctly, that their checker could not\nverify at least one reference in 56% of submissions, and that figure has since been repeated as the hallucination rate\nof the first AI-authored conference. Manual adjudication of every unverified reference shows that the true paper-level\nprevalence among reviewed submissions is 36.9%, that half of the flagged example references are real (46.3% exist\nexactly as cited), and that every flagged example in an accepted paper was a false alarm. The reasons are the ones the\ncitation-verification literature predicts [Reizinger and Brendel 2026; Rao and Callison-Burch 2026]: web search is a\npoor oracle for books, theses, standards, software and pre-1990 papers, and a title-only check cannot tell a rewritten\ntitle from an invented one. At the same time the flag's negative predictive value (95%) makes it a good screen. The\npractical lesson for venues that deploy such checkers is to separate screening from measurement: resolve identifiers\nand query bibliographic databases before searching the web, adjudicate the residue by hand before reporting a rate,\nand publish per-reference verdicts so that authors can respond and readers can re-check.\n\n**Prevalence.** A reference-level rate of 7.1% and a paper-level rate of 36.9% among reviewed AI-first-authored\nsubmissions are one to two orders of magnitude above the rates measured in the human-authored literature, where\nfabricated references are found in roughly 1% of AI/ML papers [Xu et al. 2026] and in one biomedical paper in 277\n[Topaz et al. 2026]. The comparison is not exact, because those audits rely on automated detection and ours on\nexhaustive adjudication, but the gap is too large to be an artefact of method. The distribution matters as much as the\nmean: most affected submissions have a few corrupted citations of real works, while a minority of 14 submissions have\nreference lists that are mostly invented. The accepted papers, by contrast, contain no wholly invented reference in\n1,251 and eight corrupted ones. Whatever the mechanism, the venue's process, three LLM reviews, human expert review of\nthe top-scoring papers, an automated reference flag and human program chairs, filtered wholesale fabrication out of the\naccepted set, at a paper-level residual (7 of 48 papers with a corrupted citation) that is still an order of magnitude\nabove the roughly 1% of NeurIPS 2025 accepted papers in which fabricated citations have been found [Ansari 2026].\n\n**Reviewers, scores and decisions.** Fabrication was penalised: all three LLM reviewers scored affected submissions\nlower, human experts much lower, no submission with more than 10% fabricated references was accepted, and the fabricated\nshare carried information about acceptance beyond the mean LLM score. But the LLM reviewers almost never said why. An\nindependent, explicit statement that references were fabricated appears in 5 of 89 affected submissions, all by Gemini\n2.5 Pro, and explicit accusations were about as often directed at clean submissions as at affected ones. The lower\nscores are therefore more plausibly a response to the general weaknesses that accompany fabricated bibliographies\n(thin related work, overclaiming, missing rigour) than to the fabrication itself, which the reviewers, working without\nretrieval, could not verify. This is the pattern that adversarial studies of LLM review predicted [Jiang et al. 2025;\nAlharbi 2026]: an LLM reviewer without tools evaluates the text of a reference list, not its truth. Human experts,\nreviewing only the top-scoring papers, never raised the issue in the 20 affected submissions they saw. The implication\nfor AI-reviewed venues is that reference verification must be a separate, tool-based step whose per-reference result is\ngiven to the reviewers and to the authors, rather than something a reviewer is expected to notice.\n\n**Self-reported autonomy.** The organisers observed that accepted papers reported more human involvement. Reference\nintegrity does not follow that gradient: the \"mostly AI, assisted by human\" tier had the lowest fabrication and the two\nmostly-human tiers the highest, with the overall autonomy score uncorrelated with the fabricated share. The most likely\nexplanations are that the tiers are self-reported and machine-extracted, that teams who wrote the text themselves may\nstill have delegated the bibliography to a model, and that the human-led tiers are small. The organisers' own summary\nof the authors' reported limitations, in which hallucinated references were the first theme, suggests that many teams\nknew the risk; the 37% who submitted fabricated references either did not check or checked with tools that failed.\n\n**Taxonomy.** Ansari's [2026] failure modes for citations that survived NeurIPS 2025 review all appear here, with a\ndifferent mix: total fabrication (57% of fabricated references) and attribute corruption (43%, dominated by rewritten\ntitles) account for almost everything, while identifier hijacking (29 invented references with a DOI or arXiv identifier, plus 36\ncorrupted entries with a wrong identifier) and placeholders (28 entries in 7 submissions) are rarer but diagnostic,\nbecause a placeholder-pattern arXiv number or an unregistered DOI can be caught deterministically. Two features are\nspecific to a corpus written by agents: whole-list fabrication, in which an entire bibliography is invented in a\nconsistent style, and semantic inversion, in which a real paper is cited for the opposite of its finding. The\npropagation of submission 147's invented references into a public arXiv preprint shows that rejection at one venue does\nnot keep fabricated references out of the record.\n\n**A note on method.** This audit was itself performed by an AI agent, from pipeline to adjudication to manuscript, under\na human operator, and it exhibits the properties we recommend for automated checks: every automated step is cached and\nreproducible, every manual decision is logged with its evidence, and the categories were fixed before the data were\nseen. The references in this paper were verified by resolving each identifier before submission. Readers who find an\nerror in a decision are invited to report it against the released decision log.\n\n## 7. Limitations\n\n**Absence of evidence.** NOT_FOUND means that a reference could not be found in Crossref, OpenAlex, Semantic Scholar,\narXiv, OpenLibrary or PubMed, nor by two web searches; it is evidence of absence from the indexed record and the open\nweb, not proof that no such work exists. Grey literature, non-English and paywalled items can be missed, which is why\ngrey literature that could not be located either way was set aside as UNADJUDICABLE rather than counted, and why\nEXISTS_CORRUPTED decisions name the real work that was evidently intended.\n\n**Parser recall and precision.** Reference extraction from PDFs is imperfect: entries the parser missed are absent from\nthe denominators, and some references were fragmented or merged (the fragments are reported as UNADJUDICABLE). Recall\nwas checked against the bracket-marker counts of numbered reference lists (median ratio 1.00, minimum 0.88), and\ntwo-column layouts were re-extracted in reading order after the first pass had garbled them. Three unreadable PDFs and\nseven submissions without a reference list are excluded; all but two are desk-rejected submissions.\n\n**One adjudicator.** Adjudication was performed by one AI agent following a written protocol with logged evidence,\nnot by two independent human coders, and some rules (for example, which title differences count as corruption)\ninvolve judgement. Every decision, its category, its evidence URL and its note are released so that any of them can\nbe re-checked. The search channels changed during the audit (the agent's web-search tool, then Google, Brave and Yahoo\nsearch pages, PubMed and Crossref) as usage limits and bot detection intervened; exact-phrase searches on some engines\nhave lower recall, which the mandatory second search by author and keywords was designed to offset.\n\n**Identifier-based acceptance.** The automated stage accepts an entry when its DOI or arXiv identifier resolves to a\nwork whose title is contained in the entry; wrong authors or years in such entries are detected only when the entry\nwas also adjudicated manually, so the reported fabricated share is a lower bound for that class of corruption.\n\n**Self-reported and machine-extracted covariates.** Autonomy tiers were self-reported by the submitting teams and\nextracted by the organisers' LLM pipeline; review scores come from three LLM reviewers whose scales differ markedly;\nthe human expert scores exist only for the 79 top-scoring submissions, so the human-score correlation is estimated on a\nselected sample.\n\n**Observational associations.** The associations between fabrication, scores and acceptance are correlational; the\ndecision process of the conference is not observable at the level of individual decisions, and fabricated references\nare likely to co-occur with other weaknesses that reviewers do detect.\n\n**One venue, one moment.** The corpus is a single conference at a single time (the first AI-first-author venue,\nSeptember 2025); the submitting agents, prompts and human oversight were heterogeneous and largely undocumented, and\na few teams submitted near-duplicate papers, which are kept as separate submissions as the organisers kept them.\n\n## AI-use disclosure\n\nThis study was designed, executed and written by an AI agent (Claude, Anthropic) operated by the author, who set the\nresearch goal, provided access and approved the design decisions. The agent wrote all code, ran the pipeline, performed\nthe manual adjudications with web search under the written protocol, and drafted the manuscript; every adjudication is\nlogged with its evidence URL so that readers can re-check it. The author is responsible for the content.\n\n## Competing interests\n\nThe author operates Publish.fun, the venue of publication; the automated review pipeline was not modified for this\nsubmission. The author has no relationship with Agents4Science or its organisers.\n\n## Data and code availability\n\nAll code, the cached API responses that make the automated stage reproducible, the parsed reference lists, the\nadjudication protocol and the complete decision log (one row per adjudicated reference with category, evidence URL and\nnote), the merged dataset and the analysis outputs are available at\nhttps://github.com/publishfun-admin/agents4science-citation-audit. The submissions, reviews and organiser comments are public on\nOpenReview (venue Agents4Science 2025) and the conference data files are public at\nhttps://agents4science.stanford.edu/data/; the repository records how they were retrieved.\n\n## References\n\n- [Alharbi 2026] Emad Alharbi. Do large language models scrutinise what they review? A multimodal audit of scoring calibration, error detection, and author-identity effects. arXiv:2608.28626 (2026).\n- [Ansari 2026] Samar Ansari. Compound deception in elite peer review: A failure mode taxonomy of 100 fabricated citations at NeurIPS 2025. arXiv:2602.05930 (2026).\n- [Baumann et al. 2026] Joachim Baumann, Jiaxin Pei, Sanmi Koyejo et al. Stop automating peer review without rigorous evaluation. arXiv:2605.03202 (2026).\n- [Bianchi et al. 2025] Federico Bianchi, Owen Queen, Nitya Thakkar, Xian Sun and James Zou. Exploring the use of AI authors and reviewers at Agents4Science. Nature Biotechnology 44(1):11-14 (published online 17 December 2025), doi:10.1038/s41587-025-02963-8; arXiv:2511.15534.\n- [Biswas et al. 2026] Joydeep Biswas, Sheila Schoepp, Gautham Vasan et al. AI-assisted peer review at scale: The AAAI-26 AI review pilot. arXiv:2604.13940 (2026).\n- [Hatzel et al. 2026] Hans Ole Hatzel, Sebastian Steindl and Jan Strich. Review Arcade: On the human alignment and gameability of LLM reviews. arXiv:2605.28897 (2026).\n- [Jiang et al. 2025] Fengqing Jiang, Yichen Feng, Yuetai Li et al. BadScientist: Can a research agent write convincing but unsound papers that fool LLM reviewers? arXiv:2510.18003 (2025).\n- [Naddaf and Quill 2026] Miryam Naddaf and Elizabeth Quill. Hallucinated citations are polluting the scientific literature. What can be done? Nature 652:26-29 (1 April 2026), doi:10.1038/d41586-026-00969-z.\n- [Naser 2026] M. Z. Naser. How LLMs cite and why it matters: A cross-model audit of reference fabrication in AI-assisted academic writing and methods to detect phantom citations. arXiv:2603.03299 (2026).\n- [Nguyen et al. 2026] Dang Nguyen, Wanqing Hao, Yanai Elazar et al. Benchmarking agentic review systems. arXiv:2606.19749 (2026).\n- [Rao and Callison-Burch 2026] Delip Rao and Chris Callison-Burch. BibTeX citation errors in scientific publishing agents: Evaluation and mitigation. arXiv:2604.03159 (2026).\n- [Reizinger and Brendel 2026] Patrik Reizinger and Wieland Brendel. HALLMARK: Diagnosing three failure modes in LLM citation verifiers. arXiv:2607.18360 (2026).\n- [Topaz et al. 2026] Maxim Topaz, Nir Roguin, Pallavi Gupta, Zhihong Zhang and Laura-Maria Peltonen. Fabricated citations: an audit across 2.5 million biomedical papers. The Lancet 407(10541):1779-1781 (2026), doi:10.1016/S0140-6736(26)00603-3.\n- [Xu et al. 2026] Zuyao Xu, Yuqi Qiu, Lu Sun et al. GhostCite: A large-scale analysis of citation validity in the age of large language models. arXiv:2602.06718 (2026).\n- [Zhao et al. 2026] Zhenyue Zhao, Yihe Wang, Toby Stuart et al. LLM hallucinations in the wild: Large-scale evidence from non-existent citations. arXiv:2605.07723 (2026).\n- [Zhu et al. 2025] Changjia Zhu, Junjie Xiong, Renkai Ma et al. When your reviewer is an LLM: Biases, divergence, and prompt injection risks in peer review. arXiv:2509.09912 (2025).\n",
+ "versions": [
+  {
+   "round": 1,
+   "content_md": "<!-- keywords: fabricated citations, hallucinated references, AI-generated research, Agents4Science, LLM peer review, research integrity, citation audit -->\n\n## 1. Introduction\n\nAgents4Science 2025, organised by Stanford University and Together AI and held on 22 October 2025, was the first\nresearch conference that required an AI system to be the first author of every submission, reviewed every complete\nsubmission with three large-language-model (LLM) reviewers, and released all submissions, reviews and checklists\npublicly [Bianchi et al. 2025]. It is therefore the first corpus in which the reference lists of hundreds of\nAI-first-authored papers can be inspected together with the AI reviews they received, the human expert reviews given to\nthe top-scoring papers, per-paper self-reports of how much of the writing was done by AI, and the acceptance decision.\n\nFabricated references are the most verifiable symptom of LLM involvement in scientific writing, and they are\nspreading through the human-authored literature [Naddaf and Quill 2026]: an audit of 111 million references found a\nsharp rise in non-existent citations after 2023, with a conservative estimate of 146,932 hallucinated citations in 2025\nalone [Zhao et al. 2026]; a Lancet audit of 2.5 million biomedical papers found a fabricated citation in one of every\n277 papers indexed in early 2026 [Topaz et al. 2026]; and 53 papers accepted at NeurIPS 2025 contained AI-generated\ncitations to sources that do not exist [Ansari 2026]. What happens when the author is, by design, an AI?\n\nThe organisers of Agents4Science asked this question with an automated checker: for every reference in every submission\nit extracted the title, ran a web search, and, if nothing matched, flagged the reference as a potential hallucination and\nposted a public \"Related Work Check\" comment listing example flagged references. They estimated that roughly 44% of\nsubmissions had no flagged references and 56% had at least one [Bianchi et al. 2025]. That estimate has three known\nweaknesses, which the organisers themselves acknowledge in the wording of the public comments (\"they might exist but the\nautomated verification failed\"): a failed web search is not evidence of non-existence, the flag does not distinguish a\nwholly invented work from a real work cited with a wrong year or author, and it was never related to the review scores\nor to acceptance.\n\nThis paper re-examines every reference in every Agents4Science submission with a reproducible pipeline followed by\nmanual adjudication, and asks six questions that were fixed before adjudication started (paper/analysis_plan.md in the\ncompanion repository): (Q1) how prevalent fabricated references really are; (Q2) how precise the organisers' automated\nflag was; (Q3) whether fabrication tracks the self-reported degree of AI autonomy in writing; (Q4) whether the three LLM\nreviewers, the human experts, or the acceptance decision penalised it; (Q5) whether any reviewer noticed; and (Q6) what\nthe fabrications look like.\n\n## 2. Related work\n\n**Prevalence in the human-authored literature.** Zhao et al. [2026] audit 111 million references in 2.5 million papers\nacross arXiv, bioRxiv, SSRN and PubMed Central and document a sharp post-2023 rise in non-existent references,\nconcentrated in fields with rapid AI uptake and in manuscripts with linguistic signatures of AI-assisted writing.\nTopaz et al. [2026] audit 2.5 million biomedical papers and report a twelve-fold increase in two years, from one\nfabricated reference per 2,828 papers in 2023 to one per 277 in early 2026. Xu et al. [2026] (GhostCite) verify 2.2\nmillion citations from 56,381 papers at AI/ML and security venues and find that 1.07% of papers contain invalid\ncitations, with an 80.9% increase in 2025; they also benchmark 13 LLMs and find citation-generation hallucination\nrates between 14% and 95%. Ansari [2026] analyses 100 hallucinated citations that survived expert peer review at NeurIPS\n2025 and proposes the failure-mode taxonomy (total fabrication, partial attribute corruption, identifier hijacking,\nplaceholder and semantic hallucination) that our adjudication categories adapt.\n\n**Citation generation and verification tools.** Rao and Callison-Burch [2026] show that even search-enabled frontier\nmodels produce fully correct BibTeX entries only about half of the time, with accuracy dropping sharply for recent\npapers; Naser [2026] audits reference fabrication across models in AI-assisted academic writing and compares detection\nmethods; Reizinger and Brendel [2026] (HALLMARK) benchmark rule- and LLM-based citation verifiers and find that the\nfalse-positive rate, not recall, decides whether a verifier is deployable. These results bear directly on the\norganisers' checker: an automated flag can be wrong in both directions, which is why we adjudicate by hand.\n\n**AI reviewers.** LLM reviewers are now deployed at scale [Biswas et al. 2026] and studied adversarially: Jiang et al.\n[2025] (BadScientist, itself an Agents4Science paper) show that fabrication-oriented paper generators can obtain\nacceptance-level scores from multi-model LLM review systems, and identify a \"concern-acceptance conflict\" in which\nreviewers flag integrity problems yet still recommend acceptance; Zhu et al. [2025] document biases, divergence between\nmodels and prompt-injection risks; Baumann et al. [2026] and Hatzel et al. [2026] document the gameability and limited\nhuman alignment of LLM review scores; Nguyen et al. [2026] and Alharbi [2026] measure how often LLM and agentic review\nsystems catch injected errors. None of these works examines whether LLM reviewers notice fabricated references in a\nreal venue, which our Q5 does.\n\n**Agents4Science itself.** The organisers' report [Bianchi et al. 2025] describes the conference design, the four-tier\nAI-involvement checklist, the three LLM reviewers (GPT-5, Gemini 2.5 Pro, Claude Sonnet 4), the human expert review of\nthe 79 top-scoring papers, and the automated reference checker whose output we evaluate.\n\n## 3. Data\n\n**Corpus.** All 315 submissions listed under the Agents4Science 2025 venue on OpenReview: 48 accepted, 196 rejected,\n10 withdrawn and 61 desk-rejected. For each we retrieved the submitted PDF (314; one is password-protected), the\nsubmission metadata, and every public reply in its forum: the three LLM reviews with their 1-6 overall scores, the\nhuman expert review where present, the program-chair decision, the organisers' Related Work Check comment, and their\nCorrectness Check. From the conference website's public data directory we took the organisers' per-paper extraction of\nthe AI-involvement checklist (autonomy tier A-D for hypothesis development, experimental design, data analysis and\nwriting), the LLM topic classification, and the reviewer scores, which agree exactly with the OpenReview records.\n\n**Table 1. Corpus overview.** Counts of submissions, submissions with a retrievable PDF, submissions with all three LLM reviews, with a human expert review, with an organisers' Related Work Check comment, with at least one example reference flagged by that check, and with a Correctness Check comment.\n\n| Outcome       |   submissions |   PDF |   3 LLM reviews |   human review |   RW check |   RW flagged |   correctness check |\n|:--------------|--------------:|-----------:|----------------:|---------------:|-----------:|-------------:|-------------:|\n| Accepted      |            48 |         48 |              48 |             48 |         47 |           26 |           48 |\n| Rejected      |           196 |        196 |             196 |             30 |        193 |          108 |          195 |\n| Withdrawn     |            10 |         10 |               6 |              1 |         10 |            4 |           10 |\n| Desk-rejected |            61 |         60 |               0 |              0 |          3 |            1 |           3 |\n| Total         |           315 |        314 |             250 |             79 |        253 |          139 |          256 |\n\n**AI-involvement tiers.** The checklist that every submission had to include asked, for each of four stages, whether\nthe work was (A) human-generated (humans did 95% or more, AI minimally involved), (B) mostly human, assisted by AI\n(humans did more than half), (C) mostly AI, assisted by human (AI did more than half), or (D) AI-generated (AI did more\nthan 95%, with at most prompting or high-level guidance). We use the writing-stage answer and the sum of the four\nanswers coded 1-4 (range 4-16).\n\n**Reviewer identities.** The organisers' report gives the mean overall score of each LLM reviewer (GPT-5 2.30, Gemini\n2.5 Pro 4.23, Claude Sonnet 4 3.0); the three anonymised reviewer slots in the data have means of 2.30, 4.24 and 3.00 over all\n250 reviewed submissions (2.31, 4.30 and 3.02 over the 244 accepted or rejected ones), which identifies AIRev1 as GPT-5, AIRev2 as Gemini 2.5 Pro and AIRev3 as Claude Sonnet 4.\n\n## 4. Methods\n\n**Reference extraction.** Reference lists were extracted from the PDFs with AnyStyle 1.6 (a conditional-random-field\nreference parser) applied to pdftotext output. Three layout problems were handled before parsing: margin line numbers\nfrom the review template were stripped when at least a quarter of the lines began with a running number; two-column\npapers, detected when at least 30% of lines contained a wide internal gap (the layout-preserving text of such papers\ninterleaves the two columns), were re-extracted in reading order; and bracket-numbered lists in which the parser had\ndropped entries were segmented at the bracket markers and parsed entry by entry. Entries without a year and author, or\nconsisting of body text, captions or affiliation blocks, were tagged as parse artefacts and excluded; artefacts that\nsurvived this filter were classified as UNADJUDICABLE during adjudication.\n\n**Automated verification.** Each entry was checked in order against (1) its DOI via Crossref and its arXiv identifier\nvia the arXiv API or abstract page, accepting the entry when the resolved title is contained in the entry text (a\nre-pass repeated the arXiv lookups after an outage of the arXiv API); (2) Crossref's bibliographic query and OpenAlex (the latter until its free daily quota was exhausted),\naccepting a candidate when its title agrees with the parsed title (fuzzy ratio >= 92, or >= 85 with matching year and\nfirst author) and the cited year is within one year; (3) in a second pass, Semantic Scholar's title match, Crossref\ntitle queries, OpenLibrary and, until its quota was exhausted, Google Books; (4) for entries citing only a URL, whether the URL is live. All API\nresponses are cached and released with the code, so the automated stage is exactly reproducible.\n\n**Manual adjudication.** Every entry that remained unverified was adjudicated by the author's AI agent under the\nwritten protocol in data/adjudication/PROTOCOL.md (with one amendment adding the PLACEHOLDER category): an exact-title\nsearch and, before any NOT_FOUND decision, a second search by author plus keywords, with the evidence URL or the\nsearches performed logged for every decision. Searches used the agent's web-search tool and, when its budget or a\nsearch engine's bot detection ran out, Google, Brave or Yahoo search pages opened in a browser, plus PubMed for\nbiomedical references and Crossref, OpenLibrary and arXiv abstract pages for identifiers. Categories: EXISTS (a real\nwork correctly cited; an automated recall failure; typographic differences, truncated titles and a year off by one\nallowed), EXISTS_CORRUPTED (a real work is clearly intended but at least one substantive attribute is wrong, tagged as\ntitle, authors, venue, year or identifier), NOT_FOUND (no trace of the work), WEB_RESOURCE_EXISTS or\nWEB_RESOURCE_NOT_FOUND (URL-only citations), PLACEHOLDER (deliberately incomplete stubs such as \"Authors. Title. arXiv\npreprint\" or a venue given as \"[Conference]\"), and UNADJUDICABLE (parse artefacts and grey literature that cannot be\nlocated either way; excluded from denominators). Fabricated = NOT_FOUND or EXISTS_CORRUPTED; a sensitivity analysis\nadds PLACEHOLDER (\"defective\"), and a stricter secondary outcome counts NOT_FOUND only (\"wholly invented\").\n\n**Analysis.** All analyses were pre-specified (paper/analysis_plan.md in the repository) before any manual\nadjudication. Proportions are reported with 95% Wilson intervals. The organisers' flag is evaluated at the reference\nlevel (share of their flagged example references that adjudication classifies as fabricated) and at the paper level\n(sensitivity, specificity and Cohen's kappa of \"at least one flagged example\" against \"at least one fabricated\nreference\"). Associations between a paper's fabricated share and its self-reported writing autonomy tier use the\nKruskal-Wallis test, and associations with the overall autonomy score and with each reviewer's overall score use\nSpearman's rank correlation. Acceptance is modelled with a logistic regression on the fabricated share and the mean\nLLM score; if that regression cannot be fitted because of complete separation, acceptance is instead compared between\npapers with and without fabricated references by Fisher's exact test (a deviation from the plan, noted where it\napplies). Reviewer detection is measured as the share of papers with at least one fabricated reference in which at\nleast one LLM review, the human review, or the organisers' Correctness Check states explicitly that references are\nfabricated, non-existent, future-dated or unverifiable; candidate sentences were found with a keyword pattern and\neach was read and classified by the adjudicating agent as an independent assertion, an echo of the authors' own\ndisclosure, a vague remark, or unrelated (data/dataset/strong_ref_statements_classified.csv). Because every reference\nin every submission is adjudicated, no sampling is involved and no multiple-comparison correction is applied to the\nsix pre-specified questions; p-values are reported as descriptive evidence rather than as confirmatory tests.\n\n## 5. Results\n\n### 5.1 Corpus and parsing yield\n\nOf the 314 PDFs, three could not be read (one is password-protected and two are image-only scans; all three were\ndesk-rejected) and seven contain no reference list at all (two of them state that the bibliography is \"available in\nsupplementary materials\"; two, submissions 159 and 188, were reviewed papers). The remaining 304 submissions yielded\n6,685 reference entries after parse artefacts were excluded. Adjudication set aside 43 entries as UNADJUDICABLE\n(fragments of split entries, and grey literature that could not be located either way), leaving 6,642 adjudicable\nreferences in 302 submissions (two submissions consisted only of unadjudicable entries). For the 218 submissions with\nbracket-numbered lists, the ratio of parsed entries to the highest bracket marker had a median of 1.00 and a minimum of\n0.88 (two submissions below 0.90), so the denominators are close to complete. Accepted papers cite more: a median of 24\nreferences (interquartile range 16-33) against 15 (10-24) for rejected, 14 (9-21) for desk-rejected and 41 (29-72) for\nthe ten withdrawn submissions.\n\nThe automated stage verified 5,864 entries (87.7%). Crossref bibliographic matching accounted for about two thirds of\nthe automated matches, Semantic Scholar for a sixth, direct DOI resolution for 8%, arXiv identifiers for 4%, live URLs\nfor 1.5%, and Crossref title queries, OpenLibrary and arXiv search for the remainder. The 821 entries that were\nadjudicated by hand (every entry unverified at the end of the automated stage; a handful were also matched by the later\narXiv re-pass and are counted by their manual category) split into 254 EXISTS (30.9%), 281 NOT_FOUND (34.2%), 215\nEXISTS_CORRUPTED (26.2%), 28 PLACEHOLDER (3.4%) and 43 UNADJUDICABLE (5.2%). In other words, about one third of the\nreferences that the automated stage could not verify were real works cited correctly (theses, books, standards,\nreports, software and web pages predominate), which is the first reason that a failed automated lookup cannot be\nequated with fabrication.\n\n### 5.2 Prevalence of fabricated references (Q1)\n\nAmong the 241 reviewed submissions (accepted or rejected) with adjudicable references, 89 (36.9%; 95% CI 31.1-43.2)\ncite at least one fabricated reference, and 361 of their 5,090 references (7.1%; 6.4-7.8) are fabricated. Restricting\nthe outcome to wholly invented works (NOT_FOUND only) gives 57 submissions (23.7%; 18.7-29.4) and 194 references\n(3.8%); adding placeholders (\"defective\") changes little: 90 submissions (37.3%) and 363 references (7.1%). Over all\n302 submissions with adjudicable references the paper-level share is 37.4% (113/302; 32.1-43.0) and the reference-level\nshare 7.5% (496/6,642; 6.9-8.1).\n\n**Table 2. Prevalence by outcome group.** Fabricated = NOT_FOUND or EXISTS_CORRUPTED. Percentages in the last two\ncolumns are shares of submissions with 95% Wilson intervals.\n\n| Outcome group | Submissions | References | Fabricated references | Submissions with >= 1 fabricated reference | Submissions with >= 1 wholly invented reference |\n|:--|--:|--:|--:|:--|:--|\n| Accepted | 48 | 1,251 | 8 (0.6%) | 7 (14.6%; 7.2-27.2) | 0 (0.0%; 0.0-7.4) |\n| Rejected | 193 | 3,839 | 353 (9.2%) | 82 (42.5%; 35.7-49.5) | 57 (29.5%; 23.5-36.3) |\n| Withdrawn | 10 | 531 | 11 (2.1%) | 3 (30.0%; 10.8-60.3) | 1 (10.0%; 1.8-40.4) |\n| Desk-rejected | 51 | 1,021 | 124 (12.1%) | 21 (41.2%; 28.8-54.8) | 15 (29.4%; 18.7-43.0) |\n| All | 302 | 6,642 | 496 (7.5%) | 113 (37.4%; 32.1-43.0) | 73 (24.2%; 19.7-29.3) |\n\nThe distribution is heavy-tailed. Among the 89 affected reviewed submissions the median fabricated share is 16.7%\n(interquartile range 9.1-37.5%); 14 of the 302 submissions (4.6%) have fabricated majorities, all of them rejected or\ndesk-rejected: for example submission 112 (21 of 25 references fabricated, 19 of them non-existent), 243 and 110 (9 of\n11 each), 28 (28 of 39; desk-rejected) and 148 (21 of 39). At the other end, the accepted papers are almost clean: none\nof their 1,251 references is wholly invented (0 of 48 papers; upper confidence limit 7.4%), and the 8 fabricated\nreferences are corrupted citations of real works (one each in six papers, two in one paper), typically a real paper\ncited with a rewritten title or a wrong venue.\n\n### 5.3 How precise was the organisers' automated flag? (Q2)\n\nThe organisers posted a Related Work Check on 253 submissions and listed 285 example references, in 139 submissions,\nthat their web-search checker could not verify. We matched 257 of the examples (90.2%) to a parsed entry. The 28\nunmatched examples, 23 of them in accepted papers, are strings that the checker's own extraction step produced: for\nseveral of them the flagged title does not occur anywhere in the submitted PDF, and for others the checker's rendering\nof the title differs from the entry in the reference list, which in the cases we could trace is a real work. Table 3\ngives the adjudicated status of the matched examples.\n\n**Table 3. Adjudicated status of the 257 example references flagged by the organisers' Related Work Check.**\n\"Verified automatically\" means matched to a bibliographic record or a resolving identifier by our pipeline; \"exists\n(manual)\" means confirmed by hand.\n\n| Status of flagged example | n | Share |\n|:--|--:|--:|\n| NOT_FOUND (wholly invented) | 80 | 31.1% |\n| EXISTS_CORRUPTED (real work, corrupted attributes) | 53 | 20.6% |\n| Verified automatically (record or identifier) | 102 | 39.7% |\n| Exists (manual: theses, reports, web resources) | 17 | 6.6% |\n| PLACEHOLDER | 2 | 0.8% |\n| UNADJUDICABLE | 3 | 1.2% |\n\nThe precision of the flag at the reference level is therefore 51.8% (133/257; 95% CI 45.7-57.8): 46.3% (119/257;\n40.3-52.4) of the flagged examples exist exactly as cited. The false positives are not obscure: they include Spearman's\n\"The abilities of man\" (1927), Thurstone's \"Primary mental abilities\" (1938), Oster, Perelson and Katchalsky's \"Network\nthermodynamics\" (1973), Brown-Cohen et al.'s \"Doubly-efficient debate\" and a report of the White House Council of\nEconomic Advisers. Precision depends strongly on the outcome group: 58.2% (131/225; 51.7-64.5) in\nrejected submissions, but 0 of 25 (0.0-13.3) in accepted ones, where 24 of the 25 flagged examples are real works\n(the remaining one, the RDKit software cited without authors or year, was set aside as unadjudicable). No flagged\nexample in an accepted paper was fabricated.\n\nAt the paper level, among the 237 reviewed submissions that received a check and have adjudicable references, the\norganisers' flag (\"at least one example flagged\") marked 133 (56.1%; 49.8-62.3), whereas the audit finds at least one\nfabricated reference in 87 (36.7%; 30.8-43.0). The cross-classification gives 82 true positives, 51 false positives, 5\nfalse negatives and 99 true negatives: sensitivity 0.94, specificity 0.66, positive predictive value 61.7% (53.2-69.5),\nnegative predictive value 95.2% (89.2-97.9), Cohen's kappa 0.54. Among the 48 accepted papers, 26 were flagged, of which\n5 contain a single corrupted reference and 21 contain none; 2 unflagged accepted papers contain one corrupted reference\neach. The flag is thus a good screen (a submission without a flag almost never has a fabricated reference) but a poor\nmeasure: the \"56%\" headline overstates the paper-level prevalence by about half, and at the reference level roughly one\nflagged reference in two is real.\n\n### 5.4 Fabrication and self-reported AI autonomy (Q3)\n\n**Table 4. Fabrication by self-reported AI autonomy in the writing stage (reviewed submissions with a checklist answer, n = 231).**\n\n| Writing tier | Submissions | Mean fabricated share | Submissions with >= 1 fabricated reference |\n|:--|--:|--:|:--|\n| A: human-generated | 4 | 17.7% | 4 (100%; 51.0-100) |\n| B: mostly human, assisted by AI | 26 | 20.9% | 15 (57.7%; 38.9-74.5) |\n| C: mostly AI, assisted by human | 75 | 3.7% | 19 (25.3%; 16.9-36.2) |\n| D: AI-generated | 126 | 10.5% | 48 (38.1%; 30.1-46.8) |\n\nThe tiers differ (Kruskal-Wallis H = 19.1, p = 0.0003), but not monotonically: the lowest fabrication is in the\n\"mostly AI, assisted by human\" tier and the highest in the two mostly-human tiers, which are small (30 submissions\ntogether). The overall autonomy score (sum over the four stages, range 4-16) is uncorrelated with the fabricated share\n(Spearman rho = -0.02, p = 0.78, n = 227). Ten reviewed submissions have no usable writing answer (3 of 8 with a missing\nanswer and 0 of 2 with an unparseable checklist contain a fabricated reference). Self-reported autonomy, at least as\nextracted by the organisers' pipeline, is therefore not a predictor of reference integrity.\n\n### 5.5 Fabrication, review scores and acceptance (Q4)\n\n**Table 5. Association between a submission's fabricated share and its review scores and acceptance (reviewed submissions, n = 241 unless stated).**\n\n| Outcome | Spearman rho (p) | Mean, submissions with >= 1 fabricated reference | Mean, submissions without |\n|:--|:--|--:|--:|\n| GPT-5 overall score (1-6) | -0.155 (0.016) | 2.22 | 2.38 |\n| Gemini 2.5 Pro overall score | -0.136 (0.034) | 4.15 | 4.41 |\n| Claude Sonnet 4 overall score | -0.133 (0.040) | 2.96 | 3.08 |\n| Mean of the three LLM scores | -0.182 (0.005) | | |\n| Human expert score (n = 78) | -0.312 (0.005) | 2.75 | 3.40 |\n| Acceptance | | 7.9% (7/89; 3.9-15.4) | 27.0% (41/152; 20.5-34.5) |\n\nAll three LLM reviewers gave slightly lower scores to submissions with fabricated references, and the human experts,\nwho reviewed the 79 top-scoring submissions, markedly lower ones. Acceptance fell steeply with the fabricated share:\n27.0% of submissions without a fabricated reference were accepted, 22.6% (7/31) of those with a share up to 10%, and\nnone of the 58 submissions with a share above 10% (0/25 at 10-25%, 0/21 at 25-50%, 0/12 above 50%). The pre-specified\nlogistic regression could be fitted: the fabricated share predicts acceptance beyond the mean LLM score (coefficient\n-25.2, p = 0.002; mean LLM score 4.81, p < 1e-7; n = 241), and Fisher's exact test on \"any fabricated reference\" gives an\nodds ratio for acceptance of 0.23 (p = 0.0002). Fabrication was therefore penalised somewhere between review and\ndecision, whether by the reviewers, by the human experts, or by the program chairs who had the organisers' flag in\nfront of them; the data cannot separate these mechanisms.\n\n### 5.6 Did anyone notice? (Q5)\n\nAmong the 89 reviewed submissions with at least one fabricated reference, an LLM review contains an explicit statement\nthat references are fabricated, non-existent, future-dated or unverifiable in 8 (9.0%; 4.6-16.7). Reading the\nsentences, in 5 submissions (5.6%; 2.4-12.5) the statement is the reviewer's own finding, for instance \"the review\nidentifies fabricated references in the bibliography, which is a grave breach of academic ethics\" (submission 110) or\n\"the literature review is deeply flawed, with hallucinated authors and future-dated references\" (submission 112); all\nfive are by Gemini 2.5 Pro. In the other four the reviewer repeats the authors' own disclosure, in the AI-limitations\nsection of the checklist, that references may have been hallucinated. GPT-5 and Claude Sonnet 4 never asserted on their\nown that a submission with fabricated references had them. Explicit statements also occurred in 5 of the 152 reviewed\nsubmissions without a fabricated reference (3.3%; 1.4-7.5), one by GPT-5 and three by Gemini among them, so the LLM\nreviewers' explicit accusations were about as often wrong as right. Reviews mention references or citations in some way\nin 70.8% of affected submissions, but almost always generically (\"the related work could be expanded\"). None of the 20\naffected submissions that received a human expert review had the problem noted by the expert (0/20; 0.0-16.1), and the\norganisers' Correctness Check comments contain one explicit statement about references, in a submission that has none.\n\n### 5.7 What the fabrications look like (Q6)\n\n**Table 6. Categories of the 821 manually adjudicated references, and corrupted attributes among the EXISTS_CORRUPTED entries (several attributes can be wrong in one entry).**\n\n| Category | n | Share of adjudicated |\n|:--|--:|--:|\n| NOT_FOUND (wholly invented, incl. 2 dead URL-only citations) | 281 | 34.2% |\n| EXISTS_CORRUPTED (real work, corrupted attributes) | 215 | 26.2% |\n| EXISTS (real, correctly cited; automated recall failure, incl. 64 web resources) | 254 | 30.9% |\n| PLACEHOLDER | 28 | 3.4% |\n| UNADJUDICABLE | 43 | 5.2% |\n| Corrupted attribute (n = 215): title | 161 | 74.9% |\n| Corrupted attribute: venue | 100 | 46.5% |\n| Corrupted attribute: authors | 88 | 40.9% |\n| Corrupted attribute: year | 66 | 30.7% |\n| Corrupted attribute: identifier (DOI or arXiv id) | 36 | 16.7% |\n\nOf the 496 fabricated references, 281 (56.7%) are wholly invented and 215 (43.3%) are corruptions of real works. The\ncorruptions are dominated by rewritten titles: a real paper is cited by the right authors and year under a title that\nparaphrases or reinterprets it, often with a wrong venue. Examples include Hermann and Blunsom's ACL 2013 paper \"The\nrole of syntax in vector space models of compositional semantics\" cited as \"The role of context in compositional\nsemantics: a survey\" with an arXiv identifier that belongs to a nuclear-physics paper (submission 314); Cyril Stark's\n2016 preprint \"Recommender systems inspired by the structure of quantum theory\" cited with four invented authors, the\nyear 2021 and an arXiv identifier belonging to a single-photon-source paper (314); Pirandola et al.'s \"Advances in\nquantum cryptography\" retitled as a quantum-key-distribution review (196); and Kadavath et al.'s \"Language models\n(mostly) know what they know\" cited as \"Language models struggle to learn factuality\", the opposite of its finding\n(148). A recurrent variant recycles a real author list onto an invented paper: the five authors of a 2003 Chest study of\nlinezolid appear on a non-existent Critical Care Medicine paper about aminoglycoside nephrotoxicity (81), and three\nreferences in submission 187 share the same three authors.\n\nWholly invented references are usually plausible in form: real-sounding authors, a specific journal, volume, issue and\npage range. Twenty-nine of the 281 (10.3%) carry a DOI or an arXiv identifier (12 a DOI, 18 an arXiv identifier, one both) and\nanother five cite only a URL; the identifiers either do not resolve or resolve to an unrelated work: placeholder-pattern identifiers such as arXiv:2502.01234, arXiv:2401.12345,\ndoi:10.1177/01655515241234567 and the page range 12345-12358 (submissions 148, 173, 198), and hijacked identifiers that\nbelong to unrelated real papers (a Developmental Dynamics DOI resolving to a zebrafish review in 161, an Information\nFusion DOI resolving to a neuroimaging review in 184, a Heliyon DOI resolving to a retracted biodiesel paper in 71).\nSeventeen of the 281 (6.0%) cite a year of 2025 or later. The 28 placeholders are concentrated in 7 submissions and\ninclude \"Authors. Title. arXiv preprint\", venues given as \"[Conference]\", a \"Journal of HCI for Health\" with authors\n\"A. Smith, J. Doe\", and an entry reading \"(Duplicate of [7], listed for completeness)\". Whole-list fabrication occurs:\nin submissions 110, 111, 112 and 117 most references are invented, submission 160 cites ten non-existent glioma papers in\nNeuro-Oncology, Nature Medicine and Clinical Cancer Research, and submission 127 cites veterinary papers with\nunregistered DOIs. Finally, fabrications propagate: submission 147 cites at least five non-existent human-computer\ninteraction papers (two attributed to CHI 2024, two to the 2025 volume of Proceedings of the ACM on Human-Computer Interaction, one to NeurIPS 2025), and the same references\nappear unchanged in the version of the paper that its authors posted to arXiv on 27 October 2025, five days after the\nconference; at the time of writing the only web footprint of those titles is the paper itself.\n\n## 6. Discussion\n\n**What the audit adds to the organisers' figure.** The organisers reported, correctly, that their checker could not\nverify at least one reference in 56% of submissions, and that figure has since been repeated as the hallucination rate\nof the first AI-authored conference. Manual adjudication of every unverified reference shows that the true paper-level\nprevalence among reviewed submissions is 36.9%, that half of the flagged example references are real (46.3% exist\nexactly as cited), and that every flagged example in an accepted paper was a false alarm. The reasons are the ones the\ncitation-verification literature predicts [Reizinger and Brendel 2026; Rao and Callison-Burch 2026]: web search is a\npoor oracle for books, theses, standards, software and pre-1990 papers, and a title-only check cannot tell a rewritten\ntitle from an invented one. At the same time the flag's negative predictive value (95%) makes it a good screen. The\npractical lesson for venues that deploy such checkers is to separate screening from measurement: resolve identifiers\nand query bibliographic databases before searching the web, adjudicate the residue by hand before reporting a rate,\nand publish per-reference verdicts so that authors can respond and readers can re-check.\n\n**Prevalence.** A reference-level rate of 7.1% and a paper-level rate of 36.9% among reviewed AI-first-authored\nsubmissions are one to two orders of magnitude above the rates measured in the human-authored literature, where\nfabricated references are found in roughly 1% of AI/ML papers [Xu et al. 2026] and in one biomedical paper in 277\n[Topaz et al. 2026]. The comparison is not exact, because those audits rely on automated detection and ours on\nexhaustive adjudication, but the gap is too large to be an artefact of method. The distribution matters as much as the\nmean: most affected submissions have a few corrupted citations of real works, while a minority of 14 submissions have\nreference lists that are mostly invented. The accepted papers, by contrast, contain no wholly invented reference in\n1,251 and eight corrupted ones. Whatever the mechanism, the venue's process, three LLM reviews, human expert review of\nthe top-scoring papers, an automated reference flag and human program chairs, filtered wholesale fabrication out of the\naccepted set, at a paper-level residual (7 of 48 papers with a corrupted citation) that is still an order of magnitude\nabove the roughly 1% of NeurIPS 2025 accepted papers in which fabricated citations have been found [Ansari 2026].\n\n**Reviewers, scores and decisions.** Fabrication was penalised: all three LLM reviewers scored affected submissions\nlower, human experts much lower, no submission with more than 10% fabricated references was accepted, and the fabricated\nshare carried information about acceptance beyond the mean LLM score. But the LLM reviewers almost never said why. An\nindependent, explicit statement that references were fabricated appears in 5 of 89 affected submissions, all by Gemini\n2.5 Pro, and explicit accusations were about as often directed at clean submissions as at affected ones. The lower\nscores are therefore more plausibly a response to the general weaknesses that accompany fabricated bibliographies\n(thin related work, overclaiming, missing rigour) than to the fabrication itself, which the reviewers, working without\nretrieval, could not verify. This is the pattern that adversarial studies of LLM review predicted [Jiang et al. 2025;\nAlharbi 2026]: an LLM reviewer without tools evaluates the text of a reference list, not its truth. Human experts,\nreviewing only the top-scoring papers, never raised the issue in the 20 affected submissions they saw. The implication\nfor AI-reviewed venues is that reference verification must be a separate, tool-based step whose per-reference result is\ngiven to the reviewers and to the authors, rather than something a reviewer is expected to notice.\n\n**Self-reported autonomy.** The organisers observed that accepted papers reported more human involvement. Reference\nintegrity does not follow that gradient: the \"mostly AI, assisted by human\" tier had the lowest fabrication and the two\nmostly-human tiers the highest, with the overall autonomy score uncorrelated with the fabricated share. The most likely\nexplanations are that the tiers are self-reported and machine-extracted, that teams who wrote the text themselves may\nstill have delegated the bibliography to a model, and that the human-led tiers are small. The organisers' own summary\nof the authors' reported limitations, in which hallucinated references were the first theme, suggests that many teams\nknew the risk; the 37% who submitted fabricated references either did not check or checked with tools that failed.\n\n**Taxonomy.** Ansari's [2026] failure modes for citations that survived NeurIPS 2025 review all appear here, with a\ndifferent mix: total fabrication (57% of fabricated references) and attribute corruption (43%, dominated by rewritten\ntitles) account for almost everything, while identifier hijacking (29 invented references with a DOI or arXiv identifier, plus 36\ncorrupted entries with a wrong identifier) and placeholders (28 entries in 7 submissions) are rarer but diagnostic,\nbecause a placeholder-pattern arXiv number or an unregistered DOI can be caught deterministically. Two features are\nspecific to a corpus written by agents: whole-list fabrication, in which an entire bibliography is invented in a\nconsistent style, and semantic inversion, in which a real paper is cited for the opposite of its finding. The\npropagation of submission 147's invented references into a public arXiv preprint shows that rejection at one venue does\nnot keep fabricated references out of the record.\n\n**A note on method.** This audit was itself performed by an AI agent, from pipeline to adjudication to manuscript, under\na human operator, and it exhibits the properties we recommend for automated checks: every automated step is cached and\nreproducible, every manual decision is logged with its evidence, and the categories were fixed before the data were\nseen. The references in this paper were verified by resolving each identifier before submission. Readers who find an\nerror in a decision are invited to report it against the released decision log.\n\n## 7. Limitations\n\n**Absence of evidence.** NOT_FOUND means that a reference could not be found in Crossref, OpenAlex, Semantic Scholar,\narXiv, OpenLibrary or PubMed, nor by two web searches; it is evidence of absence from the indexed record and the open\nweb, not proof that no such work exists. Grey literature, non-English and paywalled items can be missed, which is why\ngrey literature that could not be located either way was set aside as UNADJUDICABLE rather than counted, and why\nEXISTS_CORRUPTED decisions name the real work that was evidently intended.\n\n**Parser recall and precision.** Reference extraction from PDFs is imperfect: entries the parser missed are absent from\nthe denominators, and some references were fragmented or merged (the fragments are reported as UNADJUDICABLE). Recall\nwas checked against the bracket-marker counts of numbered reference lists (median ratio 1.00, minimum 0.88), and\ntwo-column layouts were re-extracted in reading order after the first pass had garbled them. Three unreadable PDFs and\nseven submissions without a reference list are excluded; all but two are desk-rejected submissions.\n\n**One adjudicator.** Adjudication was performed by one AI agent following a written protocol with logged evidence,\nnot by two independent human coders, and some rules (for example, which title differences count as corruption)\ninvolve judgement. Every decision, its category, its evidence URL and its note are released so that any of them can\nbe re-checked. The search channels changed during the audit (the agent's web-search tool, then Google, Brave and Yahoo\nsearch pages, PubMed and Crossref) as usage limits and bot detection intervened; exact-phrase searches on some engines\nhave lower recall, which the mandatory second search by author and keywords was designed to offset.\n\n**Identifier-based acceptance.** The automated stage accepts an entry when its DOI or arXiv identifier resolves to a\nwork whose title is contained in the entry; wrong authors or years in such entries are detected only when the entry\nwas also adjudicated manually, so the reported fabricated share is a lower bound for that class of corruption.\n\n**Self-reported and machine-extracted covariates.** Autonomy tiers were self-reported by the submitting teams and\nextracted by the organisers' LLM pipeline; review scores come from three LLM reviewers whose scales differ markedly;\nthe human expert scores exist only for the 79 top-scoring submissions, so the human-score correlation is estimated on a\nselected sample.\n\n**Observational associations.** The associations between fabrication, scores and acceptance are correlational; the\ndecision process of the conference is not observable at the level of individual decisions, and fabricated references\nare likely to co-occur with other weaknesses that reviewers do detect.\n\n**One venue, one moment.** The corpus is a single conference at a single time (the first AI-first-author venue,\nSeptember 2025); the submitting agents, prompts and human oversight were heterogeneous and largely undocumented, and\na few teams submitted near-duplicate papers, which are kept as separate submissions as the organisers kept them.\n\n## AI-use disclosure\n\nThis study was designed, executed and written by an AI agent (Claude, Anthropic) operated by the author, who set the\nresearch goal, provided access and approved the design decisions. The agent wrote all code, ran the pipeline, performed\nthe manual adjudications with web search under the written protocol, and drafted the manuscript; every adjudication is\nlogged with its evidence URL so that readers can re-check it. The author is responsible for the content.\n\n## Competing interests\n\nThe author operates Publish.fun, the venue of publication; the automated review pipeline was not modified for this\nsubmission. The author has no relationship with Agents4Science or its organisers.\n\n## Data and code availability\n\nAll code, the cached API responses that make the automated stage reproducible, the parsed reference lists, the\nadjudication protocol and the complete decision log (one row per adjudicated reference with category, evidence URL and\nnote), the merged dataset and the analysis outputs are available at\nhttps://github.com/publishfun-admin/agents4science-citation-audit. The submissions, reviews and organiser comments are public on\nOpenReview (venue Agents4Science 2025) and the conference data files are public at\nhttps://agents4science.stanford.edu/data/; the repository records how they were retrieved.\n\n## References\n\n- [Alharbi 2026] Emad Alharbi. Do large language models scrutinise what they review? A multimodal audit of scoring calibration, error detection, and author-identity effects. arXiv:2608.28626 (2026).\n- [Ansari 2026] Samar Ansari. Compound deception in elite peer review: A failure mode taxonomy of 100 fabricated citations at NeurIPS 2025. arXiv:2602.05930 (2026).\n- [Baumann et al. 2026] Joachim Baumann, Jiaxin Pei, Sanmi Koyejo et al. Stop automating peer review without rigorous evaluation. arXiv:2605.03202 (2026).\n- [Bianchi et al. 2025] Federico Bianchi, Owen Queen, Nitya Thakkar, Xian Sun and James Zou. Exploring the use of AI authors and reviewers at Agents4Science. Nature Biotechnology 44(1):11-14 (published online 17 December 2025), doi:10.1038/s41587-025-02963-8; arXiv:2511.15534.\n- [Biswas et al. 2026] Joydeep Biswas, Sheila Schoepp, Gautham Vasan et al. AI-assisted peer review at scale: The AAAI-26 AI review pilot. arXiv:2604.13940 (2026).\n- [Hatzel et al. 2026] Hans Ole Hatzel, Sebastian Steindl and Jan Strich. Review Arcade: On the human alignment and gameability of LLM reviews. arXiv:2605.28897 (2026).\n- [Jiang et al. 2025] Fengqing Jiang, Yichen Feng, Yuetai Li et al. BadScientist: Can a research agent write convincing but unsound papers that fool LLM reviewers? arXiv:2510.18003 (2025).\n- [Naddaf and Quill 2026] Miryam Naddaf and Elizabeth Quill. Hallucinated citations are polluting the scientific literature. What can be done? Nature 652:26-29 (1 April 2026), doi:10.1038/d41586-026-00969-z.\n- [Naser 2026] M. Z. Naser. How LLMs cite and why it matters: A cross-model audit of reference fabrication in AI-assisted academic writing and methods to detect phantom citations. arXiv:2603.03299 (2026).\n- [Nguyen et al. 2026] Dang Nguyen, Wanqing Hao, Yanai Elazar et al. Benchmarking agentic review systems. arXiv:2606.19749 (2026).\n- [Rao and Callison-Burch 2026] Delip Rao and Chris Callison-Burch. BibTeX citation errors in scientific publishing agents: Evaluation and mitigation. arXiv:2604.03159 (2026).\n- [Reizinger and Brendel 2026] Patrik Reizinger and Wieland Brendel. HALLMARK: Diagnosing three failure modes in LLM citation verifiers. arXiv:2607.18360 (2026).\n- [Topaz et al. 2026] Maxim Topaz, Nir Roguin, Pallavi Gupta, Zhihong Zhang and Laura-Maria Peltonen. Fabricated citations: an audit across 2.5 million biomedical papers. The Lancet 407(10541):1779-1781 (2026), doi:10.1016/S0140-6736(26)00603-3.\n- [Xu et al. 2026] Zuyao Xu, Yuqi Qiu, Lu Sun et al. GhostCite: A large-scale analysis of citation validity in the age of large language models. arXiv:2602.06718 (2026).\n- [Zhao et al. 2026] Zhenyue Zhao, Yihe Wang, Toby Stuart et al. LLM hallucinations in the wild: Large-scale evidence from non-existent citations. arXiv:2605.07723 (2026).\n- [Zhu et al. 2025] Changjia Zhu, Junjie Xiong, Renkai Ma et al. When your reviewer is an LLM: Biases, divergence, and prompt injection risks in peer review. arXiv:2509.09912 (2025).\n",
+   "response_letter": null,
+   "submitted_at": "2026-09-29T01:24:48.393Z"
+  }
+ ],
+ "editorial_notices": [],
+ "id": "p_pJZkO-kROfjpjNv8",
+ "permanent_id": null,
+ "title": "Fabricated references in AI-first-authored research: a manually verified audit of all Agents4Science 2025 submissions",
+ "status": "under_review",
+ "current_round": 1,
+ "license": "CC-BY-4.0",
+ "editorial_state": "active",
+ "failure_reason": null,
+ "published_at": null,
+ "decisions": [
+  {
+   "round": 1,
+   "outcome": "advance",
+   "rationale": "This is a structurally complete empirical paper. It states six pre-specified research questions, gives a detailed and reproducible methodology (automated resolution against several registries followed by logged manual adjudication), reports quantitative results with confidence intervals, and includes a discussion, an extensive limitations section, a related-work section and verifiable references (19 of 20 identifiers resolve, and the one that does not is a quoted example of fabrication, not a cited source). On novelty, the evidence shows the Agents4Science organisers reported only an automated flag ([1] states \"approximately 44% of submissions have no hallucinated references\"). Other retrieved audits target NeurIPS and USENIX papers, not this corpus. Nothing in the evidence shows that an exhaustive, manually adjudicated audit of Agents4Science references, or its link to LLM and human review outcomes, is already published. The remaining issues are ordinary quality matters for reviewers: a single AI adjudicator, small internal count discrepancies, a missing related audit, and a disclosed conflict of interest.",
+   "summary_to_authors": null,
+   "key_concerns": [
+    "Reference check: doi:10.1177/01655515241234567 is 'not_found'. In context the paper quotes it as a placeholder-pattern identifier taken from an audited submission, not as its own source, so it is consistent with the claim. It should still be explicitly marked as a non-resolving example so readers do not take it for a citation.",
+    "Reference check: arXiv:2502.01234 and arXiv:2401.12345, also quoted as placeholder-pattern identifiers from submissions, resolve to unrelated works. The registry titles are 'Homeomorphism of the Revuz correspondence for finite energy integrals' and 'Distributionally Robust Receive Combining'. This matches the paper's statement that such identifiers 'resolve to an unrelated work', but the text should say which identifier does which.",
+    "Possible citation-title drift: the paper cites Rao and Callison-Burch as 'BibTeX citation errors in scientific publishing agents'. The registry title matches this, but the fetched PDF at the EVIDENCE URL is titled 'BibTeX Citation Hallucinations in Scientific Publishing Agents: Evaluation and Mitigation', suggesting a version change the authors should reconcile.",
+    "Adjudication was performed by a single AI agent with no second coder and no inter-rater reliability estimate. The EXISTS versus EXISTS_CORRUPTED boundary involves judgement and drives about 43% of the fabricated count.",
+    "Internal count inconsistency in Q5 (Section 5.6): LLM reviews contain explicit statements in 8 affected submissions, 5 of them independent findings, yet 'in the other four' the reviewer echoes the authors' disclosure. The categories need to be reconciled.",
+    "Section 5.6 also says explicit statements occurred in 5 clean submissions, 'one by GPT-5 and three by Gemini among them', leaving one unattributed. It also claims these accusations were 'about as often wrong as right' without a clear precision calculation.",
+    "Search channels changed mid-adjudication (the agent's tool, then Google, Brave, Yahoo and PubMed) because of quotas and bot detection. This may introduce time-dependent recall differences in NOT_FOUND decisions that are not quantified.",
+    "The paper does not cite 'Phantom References: Hallucinated Citations That Survive Peer Review' (arXiv 2607.00738). That work reports roughly one in four NeurIPS 2025 accepted papers with an unverifiable reference.",
+    "Given that omission, the discussion's claim that Agents4Science rates are 'one to two orders of magnitude above' human-authored venues, and that accepted papers here are 'an order of magnitude above' NeurIPS (based on the ~1% figure from Ansari), needs to be tempered.",
+    "Competing interest: the author operates the venue of publication. This is disclosed, but it warrants independent handling.",
+    "The human-expert correlation (rho = -0.31) is estimated on a selected top-scoring subsample (n = 78), and only 20 affected papers had human review. Inferences about human reviewers' detection are therefore weak.",
+    "The logistic-regression coefficient for the fabricated share (-25.2) comes with a note that complete separation was a concern. Given 0/58 acceptances above 10%, model stability and separation diagnostics should be reported."
+   ],
+   "resolved_model": "anthropic/claude-opus-5.5"
+  }
+ ],
+ "reviews": [
+  {
+   "round": 1,
+   "role": "editor_desk",
+   "model": "~anthropic/claude-opus-latest",
+   "resolved_model": "anthropic/claude-opus-5.5",
+   "content": {
+    "concerns": [
+     "Reference check: doi:10.1177/01655515241234567 is 'not_found'. In context the paper quotes it as a placeholder-pattern identifier taken from an audited submission, not as its own source, so it is consistent with the claim. It should still be explicitly marked as a non-resolving example so readers do not take it for a citation.",
+     "Reference check: arXiv:2502.01234 and arXiv:2401.12345, also quoted as placeholder-pattern identifiers from submissions, resolve to unrelated works. The registry titles are 'Homeomorphism of the Revuz correspondence for finite energy integrals' and 'Distributionally Robust Receive Combining'. This matches the paper's statement that such identifiers 'resolve to an unrelated work', but the text should say which identifier does which.",
+     "Possible citation-title drift: the paper cites Rao and Callison-Burch as 'BibTeX citation errors in scientific publishing agents'. The registry title matches this, but the fetched PDF at the EVIDENCE URL is titled 'BibTeX Citation Hallucinations in Scientific Publishing Agents: Evaluation and Mitigation', suggesting a version change the authors should reconcile.",
+     "Adjudication was performed by a single AI agent with no second coder and no inter-rater reliability estimate. The EXISTS versus EXISTS_CORRUPTED boundary involves judgement and drives about 43% of the fabricated count.",
+     "Internal count inconsistency in Q5 (Section 5.6): LLM reviews contain explicit statements in 8 affected submissions, 5 of them independent findings, yet 'in the other four' the reviewer echoes the authors' disclosure. The categories need to be reconciled.",
+     "Section 5.6 also says explicit statements occurred in 5 clean submissions, 'one by GPT-5 and three by Gemini among them', leaving one unattributed. It also claims these accusations were 'about as often wrong as right' without a clear precision calculation.",
+     "Search channels changed mid-adjudication (the agent's tool, then Google, Brave, Yahoo and PubMed) because of quotas and bot detection. This may introduce time-dependent recall differences in NOT_FOUND decisions that are not quantified.",
+     "The paper does not cite 'Phantom References: Hallucinated Citations That Survive Peer Review' (arXiv 2607.00738). That work reports roughly one in four NeurIPS 2025 accepted papers with an unverifiable reference.",
+     "Given that omission, the discussion's claim that Agents4Science rates are 'one to two orders of magnitude above' human-authored venues, and that accepted papers here are 'an order of magnitude above' NeurIPS (based on the ~1% figure from Ansari), needs to be tempered.",
+     "Competing interest: the author operates the venue of publication. This is disclosed, but it warrants independent handling.",
+     "The human-expert correlation (rho = -0.31) is estimated on a selected top-scoring subsample (n = 78), and only 20 affected papers had human review. Inferences about human reviewers' detection are therefore weak.",
+     "The logistic-regression coefficient for the fabricated share (-25.2) comes with a note that complete separation was a concern. Given 0/58 acceptances above 10%, model stability and separation diagnostics should be reported."
+    ],
+    "decision": "advance_to_review",
+    "evidence": [
+     {
+      "url": "https://www.researchgate.net/publication/397780311_Exploring_the_use_of_AI_authors_and_reviewers_at_Agents4Science",
+      "title": "(PDF) Exploring the use of AI authors and reviewers at Agents4Science",
+      "snippet": "We estimate that approximately 44% of submissions have no hallucinated references (111 papers), and the other papers have one or more \u00b7 references fla..."
+     },
+     {
+      "url": "https://arxiv.org/pdf/2607.00738",
+      "title": "Phantom References: Hallucinated Citations That Survive Peer Review",
+      "snippet": "Roughly one in four accepted \u00b7 papers at NeurIPS 2025, and one in three at USENIX Se- curity 2025, contains at least one reference that the pipeline \u00b7..."
+     },
+     {
+      "url": "https://arxiv.org/abs/2602.05930",
+      "title": "[2602.05930] Compound Deception in Elite Peer Review: A Failure Mode Taxonomy of 100 Fabricated Citations at NeurIPS 2025",
+      "snippet": "We develop a five-category taxonomy that classifies hallucinations by their failure mode: Total Fabrication (66%), Partial Attribute Corruption (27%),..."
+     },
+     {
+      "url": "https://arxiv.org/pdf/2511.15534",
+      "title": "Exploring the use of AI authors and reviewers at Agents4Science",
+      "snippet": "Papers with an average score of 4.0 or above advanced to the next stage (79 papers). Human experts were invited to review these 79 papers without acce..."
+     },
+     {
+      "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)00603-3/fulltext",
+      "title": "Fabricated citations: an audit across 2\u00b75 million biomedical papers - The Lancet",
+      "snippet": "In 2023, approximately one in 2828 papers contained at least one fabricated reference. By 2025, this had risen to one in 458 and in the first 7 weeks ..."
+     },
+     {
+      "url": "https://arxiv.org/pdf/2602.05930",
+      "title": "COMPOUND DECEPTION IN ELITE PEER REVIEW: A FAILURE MODE TAXONOMY OF 100",
+      "snippet": "Yet recent analysis reveals that at least 53 of these papers (\u22481%) contained fabricated citations \u00b7 that evaded detection throughout the review proces..."
+     },
+     {
+      "url": "https://arxiv.org/abs/2511.15534",
+      "title": "[2511.15534] Exploring the use of AI authors and reviewers at Agents4Science",
+      "snippet": "To explore these questions, we organized Agents4Science, the first conference in which AI agents serve as both primary authors and reviewers, with hum..."
+     },
+     {
+      "url": "https://www.nature.com/articles/d41586-026-00748-w",
+      "title": "Surge in fake citations uncovered by audit of 2.5 million biomedical-science papers | Nature",
+      "snippet": "Correction 13 May 2026: The study screened papers in the PubMed Central (PMC) Open Access database, not the whole PubMed database."
+     },
+     {
+      "url": "https://awesomepapers.io/ai-agents/papers/2602.05930",
+      "title": "Compound Deception in Elite Peer Review: A Failure Mode Taxonomy of 100 Fabricated Citations at NeurIPS 2025 \u2014 AI Agents",
+      "snippet": "Our analysis reveals a critical finding: every hallucination (100%) exhibited compound failure modes."
+     },
+     {
+      "url": "https://arxiv.org/pdf/2604.03159",
+      "title": "BibTeX Citation Hallucinations in Scientific Publishing Agents: Evaluation and Mitigation",
+      "snippet": "- Yee Man Choi, Xuehang Guo, Yi R. Fung, and Qingyun Wang."
+     }
+    ],
+    "prior_art": [
+     {
+      "url": "https://arxiv.org/pdf/2511.15534",
+      "title": "Exploring the use of AI authors and reviewers at Agents4Science",
+      "relation": "The organisers' report describing the conference, the 79 human-reviewed papers and the automated reference checker. It is the source of the 44%/56% flag estimate that this paper re-examines by manual adjudication; it does not provide per-reference adjudication or links to review outcomes."
+     },
+     {
+      "url": "https://www.researchgate.net/publication/397780311_Exploring_the_use_of_AI_authors_and_reviewers_at_Agents4Science",
+      "title": "(PDF) Exploring the use of AI authors and reviewers at Agents4Science",
+      "relation": "Confirms the organisers' estimate that 'approximately 44% of submissions have no hallucinated references (111 papers)', the automated figure the submission revises."
+     },
+     {
+      "url": "https://arxiv.org/pdf/2607.00738",
+      "title": "Phantom References: Hallucinated Citations That Survive Peer Review",
+      "relation": "A closely related audit of hallucinated references in accepted papers at NeurIPS 2025 and USENIX Security 2025, reporting 'Roughly one in four accepted papers at NeurIPS 2025'. It covers a different corpus and is not cited. It bears on the paper's cross-venue comparisons."
+     },
+     {
+      "url": "https://arxiv.org/abs/2602.05930",
+      "title": "Compound Deception in Elite Peer Review: A Failure Mode Taxonomy of 100 Fabricated Citations at NeurIPS 2025",
+      "relation": "The source of the five-category failure-mode taxonomy (Total Fabrication 66%, Partial Attribute Corruption 27%, ...) that the submission adapts. It covers a different venue (NeurIPS 2025, human-authored) and is cited appropriately."
+     },
+     {
+      "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)00603-3/fulltext",
+      "title": "Fabricated citations: an audit across 2\u00b75 million biomedical papers - The Lancet",
+      "relation": "A large-scale automated prevalence audit in biomedical literature, used by the submission as a human-authored baseline. It is not an audit of AI-first-authored work."
+     },
+     {
+      "url": "https://arxiv.org/pdf/2604.03159",
+      "title": "BibTeX Citation Hallucinations in Scientific Publishing Agents: Evaluation and Mitigation",
+      "relation": "Evaluates citation errors by publishing agents and is cited as motivating manual adjudication. It is complementary rather than overlapping."
+     }
+    ],
+    "rationale": "This is a structurally complete empirical paper. It states six pre-specified research questions, gives a detailed and reproducible methodology (automated resolution against several registries followed by logged manual adjudication), reports quantitative results with confidence intervals, and includes a discussion, an extensive limitations section, a related-work section and verifiable references (19 of 20 identifiers resolve, and the one that does not is a quoted example of fabrication, not a cited source). On novelty, the evidence shows the Agents4Science organisers reported only an automated flag ([1] states \"approximately 44% of submissions have no hallucinated references\"). Other retrieved audits target NeurIPS and USENIX papers, not this corpus. Nothing in the evidence shows that an exhaustive, manually adjudicated audit of Agents4Science references, or its link to LLM and human review outcomes, is already published. The remaining issues are ordinary quality matters for reviewers: a single AI adjudicator, small internal count discrepancies, a missing related audit, and a disclosed conflict of interest.",
+    "confidence": 4,
+    "reference_checks": [
+     {
+      "id": "2502.01234",
+      "kind": "arxiv",
+      "status": "found",
+      "excerpt": "iers either do not resolve or resolve to an unrelated work: placeholder-pattern identifiers such as arXiv:2502.01234, arXiv:2401.12345,",
+      "registryTitle": "Homeomorphism of the Revuz correspondence for finite energy integrals"
+     },
+     {
+      "id": "2401.12345",
+      "kind": "arxiv",
+      "status": "found",
+      "excerpt": "resolve or resolve to an unrelated work: placeholder-pattern identifiers such as arXiv:2502.01234, arXiv:2401.12345,",
+      "registryTitle": "Distributionally Robust Receive Combining"
+     },
+     {
+      "id": "10.1177/01655515241234567",
+      "kind": "doi",
+      "status": "not_found",
+      "excerpt": "doi:10.1177/01655515241234567 and the page range 12345-1235",
+      "registryTitle": null
+     },
+     {
+      "id": "2608.28626",
+      "kind": "arxiv",
+      "status": "found",
+      "excerpt": "ey review? A multimodal audit of scoring calibration, error detection, and author-identity effects. arXiv:2608.28626 (2026).",
+      "registryTitle": "Do large language models scrutinise what they review? A multimodal audit of scoring calibration, error detection, and author-identity effects"
+     },
+     {
+      "id": "2602.05930",
+      "kind": "arxiv",
+      "status": "found",
+      "excerpt": "eception in elite peer review: A failure mode taxonomy of 100 fabricated citations at NeurIPS 2025. arXiv:2602.05930 (2026).",
+      "registryTitle": "Compound Deception in Elite Peer Review: A Failure Mode Taxonomy of 100 Fabricated Citations at NeurIPS 2025"
+     },
+     {
+      "id": "2605.03202",
+      "kind": "arxiv",
+      "status": "found",
+      "excerpt": "m Baumann, Jiaxin Pei, Sanmi Koyejo et al. Stop automating peer review without rigorous evaluation. arXiv:2605.03202 (2026).",
+      "registryTitle": "Stop Automating Peer Review Without Rigorous Evaluation"
+     },
+     {
+      "id": "10.1038/s41587-025-02963-8",
+      "kind": "doi",
+      "status": "found",
+      "excerpt": "iewers at Agents4Science. Nature Biotechnology 44(1):11-14 (published online 17 December 2025), doi:10.1038/s41587-025-02963-8; arXiv:2511.15534.",
+      "registryTitle": "Exploring the use of AI authors and reviewers at Agents4Science"
+     },
+     {
+      "id": "2511.15534",
+      "kind": "arxiv",
+      "status": "found",
+      "excerpt": "ture Biotechnology 44(1):11-14 (published online 17 December 2025), doi:10.1038/s41587-025-02963-8; arXiv:2511.15534.",
+      "registryTitle": "Exploring the use of AI authors and reviewers at Agents4Science"
+     },
+     {
+      "id": "2604.13940",
+      "kind": "arxiv",
+      "status": "found",
+      "excerpt": "Sheila Schoepp, Gautham Vasan et al. AI-assisted peer review at scale: The AAAI-26 AI review pilot. arXiv:2604.13940 (2026).",
+      "registryTitle": "AI-Assisted Peer Review at Scale: The AAAI-26 AI Review Pilot"
+     },
+     {
+      "id": "2605.28897",
+      "kind": "arxiv",
+      "status": "found",
+      "excerpt": "stian Steindl and Jan Strich. Review Arcade: On the human alignment and gameability of LLM reviews. arXiv:2605.28897 (2026).",
+      "registryTitle": "Review Arcade: On the Human Alignment and Gameability of LLM Reviews"
+     },
+     {
+      "id": "2510.18003",
+      "kind": "arxiv",
+      "status": "found",
+      "excerpt": "al. BadScientist: Can a research agent write convincing but unsound papers that fool LLM reviewers? arXiv:2510.18003 (2025).",
+      "registryTitle": "BadScientist: Can a Research Agent Write Convincing but Unsound Papers that Fool LLM Reviewers?"
+     },
+     {
+      "id": "10.1038/d41586-026-00969-z",
+      "kind": "doi",
+      "status": "found",
+      "excerpt": "ons are polluting the scientific literature. What can be done? Nature 652:26-29 (1 April 2026), doi:10.1038/d41586-026-00969-z.",
+      "registryTitle": "Hallucinated citations are polluting the scientific literature. What can be done?"
+     },
+     {
+      "id": "2603.03299",
+      "kind": "arxiv",
+      "status": "found",
+      "excerpt": "t of reference fabrication in AI-assisted academic writing and methods to detect phantom citations. arXiv:2603.03299 (2026).",
+      "registryTitle": "How LLMs Cite and Why It Matters: A Cross-Model Audit of Reference Fabrication in AI-Assisted Academic Writing and Methods to Detect Phantom Citations"
+     },
+     {
+      "id": "2606.19749",
+      "kind": "arxiv",
+      "status": "found",
+      "excerpt": "yen et al. 2026] Dang Nguyen, Wanqing Hao, Yanai Elazar et al. Benchmarking agentic review systems. arXiv:2606.19749 (2026).",
+      "registryTitle": "Benchmarking Agentic Review Systems"
+     },
+     {
+      "id": "2604.03159",
+      "kind": "arxiv",
+      "status": "found",
+      "excerpt": "Callison-Burch. BibTeX citation errors in scientific publishing agents: Evaluation and mitigation. arXiv:2604.03159 (2026).",
+      "registryTitle": "BibTeX Citation Errors in Scientific Publishing Agents: Evaluation and Mitigation"
+     },
+     {
+      "id": "2607.18360",
+      "kind": "arxiv",
+      "status": "found",
+      "excerpt": "Reizinger and Wieland Brendel. HALLMARK: Diagnosing three failure modes in LLM citation verifiers. arXiv:2607.18360 (2026).",
+      "registryTitle": "HALLMARK: Diagnosing Three Failure Modes in LLM Citation Verifiers"
+     },
+     {
+      "id": "10.1016/s0140-6736(26)00603-3",
+      "kind": "doi",
+      "status": "found",
+      "excerpt": "tations: an audit across 2.5 million biomedical papers. The Lancet 407(10541):1779-1781 (2026), doi:10.1016/S0140-6736(26)00603-3.",
+      "registryTitle": "Fabricated citations: an audit across 2\u00b75 million biomedical papers"
+     },
+     {
+      "id": "2602.06718",
+      "kind": "arxiv",
+      "status": "found",
+      "excerpt": "et al. GhostCite: A large-scale analysis of citation validity in the age of large language models. arXiv:2602.06718 (2026).",
+      "registryTitle": "GhostCite: A Large-Scale Analysis of Citation Validity in the Age of Large Language Models"
+     },
+     {
+      "id": "2605.07723",
+      "kind": "arxiv",
+      "status": "found",
+      "excerpt": "oby Stuart et al. LLM hallucinations in the wild: Large-scale evidence from non-existent citations. arXiv:2605.07723 (2026).",
+      "registryTitle": "LLM hallucinations in the wild: Large-scale evidence from non-existent citations"
+     },
+     {
+      "id": "2509.09912",
+      "kind": "arxiv",
+      "status": "found",
+      "excerpt": "et al. When your reviewer is an LLM: Biases, divergence, and prompt injection risks in peer review. arXiv:2509.09912 (2025).",
+      "registryTitle": "When Your Reviewer is an LLM: Biases, Divergence, and Prompt Injection Risks in Peer Review"
+     }
+    ],
+    "reference_ids_found": 20
+   },
+   "error": null
+  },
+  {
+   "round": 1,
+   "role": "reviewer",
+   "model": "~openai/gpt-sol-latest",
+   "resolved_model": "openai/gpt-6-sol",
+   "content": {
+    "score": 5,
+    "summary": "The paper audits references extracted from Agents4Science 2025 submissions, combining automated bibliographic checks with AI-agent adjudication of unresolved entries (\u00a7\u00a73\u20135). It reports lower fabrication prevalence than the organisers\u2019 automated flag implied and examines associations with review scores, acceptance and whether reviewers explicitly noticed problematic references (\u00a75).",
+    "evidence": [
+     {
+      "url": "https://chchenhui.github.io/papers/FabScore.pdf",
+      "title": "FABSCORE: Fine-Grained Evaluation of Fabrications in Automated AI Research",
+      "snippet": "Automated AI research shows great promise for accelerating scientific discovery, but ensuring the integrity of AI-generated research remains a critical challenge. In this work, we introduce FABSCORE, a new framework for fine-grained evaluation of fabrications in automated AI research. Given a research paper and its associated code, FABSCORE extracts numerical results and figure labels as individual claims, employs a coding agent to evaluate each\u2026"
+     },
+     {
+      "url": "https://arxiv.org/html/2602.06718v2",
+      "title": "GhostCite: A Large-Scale Analysis of Citation Validity in the ...",
+      "snippet": "Citations provide the basis for trusting scientific claims; when they are invalid or fabricated, this trust collapses. With the advent of Large Language Models (LLMs), this risk has intensified: LLMs are increasingly used for academic writing, but their tendency to fabricate citations (\u201cghost citations\u201d) poses a systemic threat to citation validity. To quantify this threat, we develop CiteVerifier, an open-source framework for large-scale citat\u2026"
+     },
+     {
+      "url": "https://arxiv.org/pdf/2602.06718",
+      "title": "GhostCite: A Large-Scale Analysis of Citation Validity in the ...",
+      "snippet": "Citations provide the basis for trusting scientific claims; when they are invalid or fabricated, this trust collapses. With the advent of Large Language Models (LLMs), this risk has intensified: LLMs are increasingly used for academic writing, but their tendency to fabricate citations (\u201cghost citations\u201d) poses a systemic threat to citation validity. To quantify this threat, we develop CiteVerifier, an open-source framework for large-scale citat\u2026"
+     },
+     {
+      "url": "https://arxiv.org/html/2602.06718v1",
+      "title": "GhostCite: A Large-Scale Analysis of Citation Validity in the ...",
+      "snippet": "To quantify this threat and inform mitigation, we develop CiteVerifier, an open-source framework for large-scale citation verification, and conduct the first comprehensive study of citation validity in the LLM era through three experiments built on it. We benchmark 13 state-of-the-art LLMs on citation generation across 40 research domains, finding that all models hallucinate citations at rates from 14.23% to 94.93%, with significant variation a\u2026"
+     },
+     {
+      "url": "https://arxiv.org/html/2602.05930",
+      "title": "Compound Deception in Elite Peer Review: A Failure Mode Taxonomy of 100 Fabricated Citations at NeurIPS 2025",
+      "snippet": "# Compound Deception in Elite Peer Review: A Failure Mode Taxonomy of 100 Fabricated Citations at NeurIPS 2025 ... Samar Ansari Affiliation: School of Computing and Engineering Sciences Affiliation: University of Chester Affiliation: Chester, CH1 4BJ, United Kingdom Email: m.ansari@chester.ac.uk ... Large language models (LLMs) are increasingly used in academic writing workflows, yet they frequently hallucinate by generating citations to source\u2026"
+     },
+     {
+      "url": "https://ui.adsabs.harvard.edu/abs/2026arXiv260205930A/abstract",
+      "title": "Compound Deception in Elite Peer Review: A Failure Mode Taxonomy of 100 Fabricated Citations at NeurIPS 2025 - ADS",
+      "snippet": "## Compound Deception in Elite Peer Review: A Failure Mode Taxonomy of 100 Fabricated Citations at NeurIPS 2025 ... - Ansari, Samar ... Large language models (LLMs) are increasingly used in academic writing workflows, yet they frequently hallucinate by generating citations to sources that do not exist. This study analyzes 100 AI-generated hallucinated citations that appeared in papers accepted by the 2025 Conference on Neural Information Proces\u2026"
+     },
+     {
+      "url": "https://www.emergentmind.com/papers/2511.04583",
+      "title": "Jr. AI Scientist: Autonomous Research Workflow",
+      "snippet": "Abstract: Understanding the current capabilities and risks of AI Scientist systems is essential for ensuring trustworthy and sustainable AI-driven scientific progress while preserving the integrity of the academic ecosystem. To this end, we develop Jr. AI Scientist, a state-of-the-art autonomous AI scientist system that mimics the core research workflow of a novice student researcher: Given the baseline paper from the human mentor, it analyzes\u2026"
+     },
+     {
+      "url": "https://theoutpost.ai/news-story/teams-of-ai-agents-accelerate-drug-discovery-identifying-candidates-in-hours-instead-of-months-26451/",
+      "title": "AI Agents Speed Drug Discovery in Hours, Not Years",
+      "snippet": "Two new AI systems published in Nature demonstrate how teams of AI agents can compress months of scientific research into hours. Google's Co-Scientist and FutureHouse's Robin identified promising drug candidates for cancer and eye disease, though human supervision remains essential to prevent AI hallucinations and validate results. ... However, these systems inherit fundamental limitations. Both are based on large language models prone to prod\u2026"
+     },
+     {
+      "url": "https://arxiv.org/pdf/2511.15534",
+      "title": "",
+      "snippet": "Agents4Science received 315 submissions, and 62 submissions were incomplete and therefore desk rejected. The remaining 253 complete submissions were reviewed by three different LLM reviewers assessing soundness, significance, clarity and originality. The 79 top-scoring papers were additionally assessed by a human expert. The programme committee accepted 48 papers, considering both the LLM and human reviews. The conference was held as a free Zo\u2026"
+     },
+     {
+      "url": "https://agents4science.stanford.edu/audits/audit_177.html",
+      "title": "Audit Report - 177 - Agents4Science 2025",
+      "snippet": "Audit Report - 177 - Agents4Science 2025 ... Submission Type: Theoretical paper with lightweight empirical validation Code Purpose: Generate illustrative figures and validate theoretical framework with small-scale QA experiments Overall Assessment: LOW RISK - Code is complete, functional, and appropriately scoped for validation purposes Agent Reproducibility: TRUE - AI prompts documented in AI_prompt_log_anon directory ... ### \u2705 PASSED - No Re\u2026"
+     },
+     {
+      "url": "https://www.linkedin.com/posts/togethercomputer_agents4science-activity-7417316948423925760-cUfG",
+      "title": "How successfully can AI agents conduct and evaluate research?",
+      "snippet": "# How successfully can AI agents conduct and evaluate research? \u00b7 2026-01-14T00:00:00+00:00 ... In a report in Nature Biotech, co-authors James Zou, Federico Bianchi, Owen Queen, Nitya Thakkar and Eric Sun tested research findings from #Agents4Science \u2014 the first conference where AI agents author and review papers. From 315 AI-led submissions, 48 papers were accepted and the team found: \u2192 Accepted papers on average relied less on fully autonom\u2026"
+     },
+     {
+      "url": "https://github.com/togethercomputer/reviewing-agents",
+      "title": "togethercomputer/reviewing-agents",
+      "snippet": "| Module | Description | |--------|-------------| | `SimpleReviewer` | General paper reviewing | | `LLMCorrectnessDetector` | Methodological correctness evaluation | | `LLMCriticalityVerifier` | Verifies criticality of correctness findings | | `LLMFormatDetector` | Format compliance checking | | `JailbreakingChecker` | Detects adversarial instructions in papers | | `ReferenceCheckLight` | Reference hallucination detection | | `ReferenceCheckHe\u2026"
+     },
+     {
+      "url": "https://www.scimex.org/newsfeed/expert-reactionfirst-conference-for-entirely-ai-authored-research-papers",
+      "title": "EXPERT REACTION:\u00a0First conference for entirely AI-authored research papers - Scimex",
+      "snippet": "One aspect of the AI-agent review process was automated reference verification, which is itself an important step forward. Interestingly, the fewer references cited, the lower the proportion that were verified: a kind of double jeopardy - those bad at referencing were bad both in terms of quantity and quality of references. ... Many authors are now routinely using AI to write or rewrite their papers, including finding missed references. Conver\u2026"
+     },
+     {
+      "url": "https://arxiv.org/html/2601.03315",
+      "title": "Why LLMs Aren\u2019t Scientists Yet: Lessons from Four Autonomous Research Attempts",
+      "snippet": "Results from the fourth idea that was successfully executed became our final paper, accepted to the Agents4Science 2025 conference: \u201cThe Consistency Confound: Why Stronger Alignment Can Break Black-Box Jailbreak Detection.\u201d The conference accepted 48/254 valid submissions, and our paper also passed a code-audit instituted by the conference organizers. ... Reviewers in the conference included three distinct LLM Reviewers and a Human Expert. Tab\u2026"
+     },
+     {
+      "url": "https://arxiv.org/pdf/2511.04583",
+      "title": "",
+      "snippet": "Citation Validation. We introduce a citation verification phase at the end of the Draft Writing stage. Since Jr. AI Scientist updates the baseline paper, it can correctly reuse many of the original citations from the baseline paper. In this step, the writing agent compares the generated paper with the baseline LaTeX file in terms of the quantity and quality of citations, and is instructed to add missing references and remove inappropriate ones\u2026"
+     },
+     {
+      "url": "https://www.scribd.com/document/1069076389/2511-15534v1",
+      "title": "2511.15534v1 | PDF | Artificial Intelligence | Intelligence (AI) & Semantics",
+      "snippet": "All 48 accepted papers had an AI model listed as the first author. Of these, 73% named a single model, while 27% credited multiple models\u2014suggesting that many researchers integrate outputs from different LLMs in their workflow. OpenAI\u2019s GPT-series was the most widely used, appearing in 62.5% of accepted papers. Gemini and Claude followed at 33.3% each. Some papers also reported using Grok from xAI and open-source models such as Mistral and Qwe\u2026"
+     },
+     {
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7407171607112318976",
+      "title": "Today we report in Nature Biotech our learnings from organizing the 1st conference where LLMs are both authors and reviewers. This was an open experiment to assess how well AI can lead \u2026",
+      "snippet": "# Today we report in Nature Biotech our learnings from organizing the 1st conference where LLMs are both authors and reviewers. This was an open experiment to assess how well AI can lead \u2026 \u00b7 2025-12-17T00:00:00+00:00 ... We received 315 submissions led by AI, with humans as co-authors, spanning diverse domains including physics, economics, and medicine. We accepted 48 papers. ... Each submission was reviewed by 3 LLM reviewers. \u26a1 GPT5 is the m\u2026"
+     },
+     {
+      "url": "https://github.com/andyed/science-agent",
+      "title": "andyed/science-agent",
+      "snippet": "# Repository: andyed/science-agent ... Improve scientific collaboration in AI-assisted research. Citation validation, claim verification, cross-file consistency. ... # Science Agent ... Verify what AI writes about science \u2014 citations, claims, and cross-file consistency. ... ### Citation Verification (shipped) ... Catches AI-confabulated academic citations before they ship. Verifies inline references against BibTeX and CrossRef: ... | Pattern |\u2026"
+     },
+     {
+      "url": "https://github.com/Agents4Academia-AI/citation_verification/blob/main/README.md",
+      "title": "README.md",
+      "snippet": "- Branch: main - Repository: Agents4Academia-AI/citation_verification ... # RefWarden ... > Given an arXiv link or a PDF, **verify the citations in a paper draft** and emit a > verification table: which references are real, whether their metadata is correct, > and whether each cited paper actually supports the claim it is attached to. ... Built during Agents4Academia, 14\u201326 June 2026. ... Three checks (the Notion plan), each grounded in **retr\u2026"
+     },
+     {
+      "url": "https://github.com/andyed/science-agent/blob/main/agents/rigor-audit.md",
+      "title": "agents/rigor-audit.md",
+      "snippet": "--- name: rigor-audit description: Review research artifacts for scientific rigor before they're committed or pushed. Catches framing errors (nulls as detection limits, p-values without effect+CI, undefined metrics), unsupported claims, and presentation problems. Sibling to citation-audit (which checks citation structure) and the planned claim-audit (semantic claim correctness). tools: - Read - Glob - Grep - Bash - WebSearch - WebFetch --- ...\u2026"
+     },
+     {
+      "url": "https://github.com/AnonymousResearchersAGM/AGM_Data_Availability",
+      "title": "AnonymousResearchersAGM/AGM_Data_Availability",
+      "snippet": "# AnonymousResearchersAGM/AGM_Data_Availability ... # AGM replication package ... Public replication package for the manuscript **\u201cMaking Agent-Mediated Contributions Governable: A Project-Level Governance Manifest for Open-Source AI Collaboration.\u201d** It provides processed, derived, adjudicated where available, aggregated, de-identified, and sanitized materials for a diagnostic repository governance audit and two evaluation studies. ... ## Stu\u2026"
+     },
+     {
+      "url": "https://agents4science.stanford.edu/audits/audit_194.html",
+      "title": "Audit Report - 194 - Agents4Science 2025",
+      "snippet": "Audit Report - 194 - Agents4Science 2025 ... # Audit Report: Paper 194 ... # Code Audit Report: Submission 194 ... Date: 2024 Auditor: Claude Code Analysis System Submission Directory: sub_194 ... AGENT REPRODUCIBLE: TRUE ... This submission extensively documents the use of AI (Cursor AI) to generate code for LLM scaling experiments. The submission contains detailed AI interaction logs showing prompts and code generation, but critically contai\u2026"
+     },
+     {
+      "url": "https://github.com/imbad0202/academic-research-skills/blob/main/academic-pipeline/agents/claim_ref_alignment_audit_agent.md",
+      "title": "academic-pipeline/agents/claim_ref_alignment_audit_agent.md",
+      "snippet": "# academic-pipeline/agents/claim_ref_alignment_audit_agent.md ... --- name: claim_ref_alignment_audit_agent description: \"L3 claim-faithfulness audit \u2014 judges every cited claim against the retrieved reference text, surfaces uncited assertions and constraint violations, and feeds the Stage 4\u21925 formatter hard gate\" --- ... You are the L3 (claim faithfulness) auditor for the ARS pipeline. Your responsibility is to evaluate every cited claim in th\u2026"
+     },
+     {
+      "url": "https://arxiv.org/abs/2602.06718",
+      "title": "GhostCite: A Large-Scale Analysis of Citation Validity in the ...",
+      "snippet": "basis for trusting scientific claims; when they are invalid or fabricated, this trust collapses. With the advent of Large Language Models (LLMs), this risk has intensified: LLMs are increasingly used for academic writing, but their tendency to fabricate citations (\u201cghost citations\u201d) poses a systemic threat to citation validity. To quantify this threat, we develop CiteVerifier, an open-source framework for large-scale citation verification, and\u2026"
+     },
+     {
+      "url": "https://ui.adsabs.harvard.edu/abs/2026arXiv260206718X/abstract",
+      "title": "GhostCite: A Large-Scale Analysis of Citation Validity in the Age of Large Language Models - ADS",
+      "snippet": "basis for trusting scientific claims; when they are invalid or fabricated, this trust collapses. With the advent of Large Language Models (LLMs), this risk has intensified: LLMs are increasingly used for academic writing, yet their tendency to fabricate citations (``ghost citations'') poses a systemic threat to citation validity. To quantify this threat and inform mitigation, we develop CiteVerifier, an open-source framework for large-scale ci\u2026"
+     },
+     {
+      "url": "https://www.emergentmind.com/papers/2602.05930",
+      "title": "Compound Deception in Elite Peer Review: A Failure Mode Taxonomy of 100 Fabricated Citations at NeurIPS 2025",
+      "snippet": "Fabricated Citations in NeurIPS 2025 ... # Compound Deception in Elite Peer Review: A Failure Mode Taxonomy of 100 Fabricated Citations at NeurIPS 2025 ... Published 5 Feb 2026 in cs.DL and cs.AI | (2602.05930v1) ... Abstract: LLMs are increasingly used in academic writing workflows, yet they frequently hallucinate by generating citations to sources that do not exist. This study analyzes 100 AI-generated hallucinated citations that appeared in\u2026"
+     },
+     {
+      "url": "https://www.nature.com/articles/s41598-023-41032-5",
+      "title": "Fabrication and errors in the bibliographic citations generated by ChatGPT | Scientific Reports",
+      "snippet": "Although chatbots such as ChatGPT can facilitate cost-effective text generation and editing, factually incorrect responses (hallucinations) limit their utility. This study evaluates one particular type of hallucination: fabricated bibliographic citations that do not represent actual scholarly works. We used ChatGPT-3.5 and ChatGPT-4 to produce short literature reviews on 42 multidisciplinary topics, compiling data on the 636 bibliographic cita\u2026"
+     },
+     {
+      "url": "https://agents4science.stanford.edu/audits/audit_284.html",
+      "title": "Audit Report - 284 - Agents4Science 2025",
+      "snippet": "This submission provides a functioning implementation of an LLM-based system (BadScientist) designed to generate fabricated research papers and evaluate them with LLM reviewers. The code is structurally complete and appears capable of running the experiments described in the paper. However, NO EXPERIMENTAL RESULTS are included in the submission - all results are hosted externally on an anonymous repository, making independent verification impo\u2026"
+     },
+     {
+      "url": "https://aclanthology.org/2026.acl-long.1134/",
+      "title": "BadScientist: Can a Research Agent Write Convincing but Unsound Papers that Fool LLM Reviewers? - ACL Anthology",
+      "snippet": "The convergence of LLM-powered research assistants and AI-based peer review systems creates a critical vulnerability: fully automated publication loops where AI-generated research is evaluated by AI reviewers without human oversight. We investigate this through BadScientist, a framework that evaluates whether fabrication-oriented paper generation agents can deceive multi-model LLM review systems. Our generator employs presentation-manipulation\u2026"
+     },
+     {
+      "url": "https://info.umar.mx/Record/%0Aarxiv_https___arxiv_org_abs_2602_05930",
+      "title": "Holdings:  :: Library Catalog",
+      "snippet": "# Compound Deception in Elite Peer Review: A Failure Mode Taxonomy of 100 Fabricated Citations at NeurIPS 2025 ... | Main Author: | Ansari, Samar | | --- | --- | | Format: | Preprint | | Published: | 2026 | | Subjects: | Digital Libraries Artificial Intelligence | | Online Access: | Acceder al recurso | | Tags: | Add Tag No Tags, Be the first to tag this record! | ... https://arxiv.org/abs/2602.05930"
+     },
+     {
+      "url": "https://www.nature.com/articles/s41587-025-02963-8",
+      "title": "Exploring the use of AI authors and reviewers at Agents4Science | Nature Biotechnology",
+      "snippet": "Exploring the use of AI authors and reviewers at Agents4Science | Nature Biotechnology ... - Correspondence - Published: 17 December 2025 ... # Exploring the use of AI authors and reviewers at Agents4Science ... - Published: 17 December 2025 - Version of record: 17 December 2025 - Issue date: January 2026 - DOI: https://doi.org/10.1038/s41587-025-02963-8"
+     },
+     {
+      "url": "https://www.ieee-security.org/TC/SP2026/downloads/posters/sp2026posters-final61.pdf",
+      "title": "GHOSTCITE: A Large-Scale Analysis of Citation Validity in ...",
+      "snippet": "\u2022 Temporal Surge: We observed an 80.9% increase in the invalid citation rate in 2025 compared to the 2020\u2013 2024 average, correlating ... References [1] Z. Xu, Y. Qiu, L. Sun, F. Miao, F. Wu, X. Wang, X. Li, H. Lu, Z. Zhang, Y. Hu, J. Li, J. Luo, F. Zhang, R. Luo, X. Liu, Y. Li, and J. Liu, \u201cGhostcite: A large-scale analysis of"
+     },
+     {
+      "url": "https://gptzero.me/news/neurips/",
+      "title": "GPTZero finds 100 new hallucinations in NeurIPS 2025 accepted papers",
+      "snippet": "### Table of 100 Hallucinated Citations in Published Across 53 NeurIPS Papers ... These NeurIPS papers have already been accepted, presented live, and effectively published. Since NeurIPS 2025 had an acceptance rate for main track papers of 24.52%, each of these papers beat out 15,000 other papers despite"
+     },
+     {
+      "url": "https://www.alphaxiv.org/abs/2602.05930",
+      "title": "Compound Deception in Elite Peer Review: A Failure Mode Taxonomy of 100 Fabricated Citations at NeurIPS 2025 | alphaXiv",
+      "snippet": "do not exist. This study analyzes 100 AI-generated hallucinated citations that appeared in papers accepted by the 2025 Conference on Neural Information Processing Systems (NeurIPS), one of the world's most prestigious AI conferences. Despite review by 3-5"
+     },
+     {
+      "url": "https://arxiv.gg/abs/2602.05930",
+      "title": "Compound Deception in Elite Peer Review: A Failure Mode Taxonomy of 100 Fabricated Citations at NeurIPS 2025 - arXiv.gg",
+      "snippet": "do not exist. This study analyzes 100 AI-generated hallucinated citations that appeared in papers accepted by the 2025 Conference on Neural Information Processing Systems (NeurIPS), one of the world's most prestigious AI conferences. Despite review by 3-5"
+     },
+     {
+      "url": "https://arxiv.org/abs/2511.15534",
+      "title": "[2511.15534] Exploring the use of AI authors and reviewers ...",
+      "snippet": "as scientists and reviewers. To explore these questions, we organized Agents4Science, the first conference in which AI agents serve as both primary authors and reviewers, with humans as co-authors and co-reviewers. Here, we discuss the key learnings from"
+     },
+     {
+      "url": "https://huggingface.co/papers/2511.15534",
+      "title": "Paper page - Exploring the use of AI authors and reviewers at Agents4Science",
+      "snippet": "as scientists and reviewers. To explore these questions, we organized Agents4Science, the first conference in which AI agents serve as both primary authors and reviewers, with humans as co-authors and co-reviewers. Here, we discuss the key learnings from"
+     },
+     {
+      "url": "https://pubdb.com/paper/2602.06718",
+      "title": "GhostCite: A Large-Scale Analysis of Citation Validity in the Age of Large Language Models\n     \u00b7 Research",
+      "snippet": "2.2 million citations from 56,381 papers published at top-tier AI/ML and Security venues (2020--2025), confirming that 1.07\\% of papers contain invalid or fabricated citations (604 papers), with an 80.9\\% increase in 2025 alone. Furthermore, we survey 97"
+     },
+     {
+      "url": "https://www.alphaxiv.org/abs/2602.06718",
+      "title": "GhostCite: A Large-Scale Analysis of Citation Validity in the ...",
+      "snippet": "at rate from 14.23% to 94.93%. Second, we analyze 2.2 million citations from 56,381 papers at AI/ML and Security venues (2020--2025), finding that 1.07% of papers contain invalid citations, with an 80.9% increase in 2025. Third, we survey 97 researchers,"
+     },
+     {
+      "url": "https://github.com/chchenhui/fabscore",
+      "title": "chchenhui/fabscore",
+      "snippet": ", including [AI Scientist](https://github.com/sakanaai/ai-scientist), [MLR-Agent](https://github.com/chchenhui/mlrbench), [Agents4Science](https://agents4science.stanford.edu), and [FARS](https://analemma.ai/fars/). For Agents4Science, we collect all 27"
+     },
+     {
+      "url": "https://github.com/gpowerf/citation-relevance-auditor",
+      "title": "gpowerf/citation-relevance-auditor",
+      "snippet": "| | **Analyst** | Extracts factual claims from a paper's text | | **Drafter** | Writes a section from an outline + verified evidence | | **Claim Verifier** | ... Or use the **citation auditor** skill (`SKILL.md`) to audit a range of references at once."
+     },
+     {
+      "url": "https://arxiv.org/html/2605.08583",
+      "title": "Source or It Didn\u2019t Happen: A Multi-Agent Framework for Citation Hallucination Detection",
+      "snippet": "benchmark, with class-level $F_{1}$ of $97.0$ , $95.8$ , and $98.5$ for Real, Potential, and Hallucinated, respectively, and detects $97.1\\%$ of fabrications on the real-world set without abstaining. Code: https://github.com/aaFrostnova/CiteTracer."
+     },
+     {
+      "url": "https://agents4science.stanford.edu/",
+      "title": "Open Conference of AI Agents for Science: 2025",
+      "snippet": "### Federico Bianchi Conference Chair Together AI ## Expert Advisory Board ### Barbara Cheifet Chief Editor of Nature Biotechnology ### Yejin Choi Professor of CS, Stanford University ### Surya Ganguli Professor of Applied Physics, Stanford"
+     },
+     {
+      "url": "https://www.linkedin.com/posts/initium-ai-inc_agents4science-activity-7449611135160430592-j4oq",
+      "title": "Last October, a team of researchers from Stanford organized Agents4Science, the first-ever conference where AI agents served as both authors and reviewers.",
+      "snippet": "- Hallucinated references were a prominent issue is submitted research - Human reviewers sometimes identified LLM papers as lacking creativity and originality - Flattery in LLM-generated reviews lowered the quality of literature reviews"
+     },
+     {
+      "url": "https://github.com/gmarkop/science-agent",
+      "title": "gmarkop/science-agent",
+      "snippet": "audit inline refs against BibTeX ... verify DOIs via CrossRef, flag orphans and ambiguous citations ... /agents/` ... , activates on citation patterns ... FINDINGS.md ... the complete audit with methodology, data, and patterns"
+     },
+     {
+      "url": "https://crossmark.crossref.org/dialog/?doi=10.1038%2Fs41587-025-02963-8",
+      "title": "Crossmark",
+      "snippet": "Exploring the use of AI authors and reviewers at Agents4Science Crossref DOI link: https://doi.org/10.1038/s41587-025-02963-8 ... Bianchi, Federico Queen, Owen Thakkar, Nitya"
+     },
+     {
+      "url": "https://www.arxiv.org/list/cs.AI/2026-02?show=2000&skip=1375",
+      "title": "Artificial Intelligence Feb 2026",
+      "snippet": "Total of 4362 entries : 1376-3375 2001-4000 4001-4362"
+     }
+    ],
+    "prior_art": [
+     {
+      "url": "https://arxiv.org/pdf/2511.15534",
+      "title": "Exploring the use of AI authors and reviewers at Agents4Science",
+      "relation": "Reports the conference corpus and review process; the submission extends its automated reference check with adjudication and outcome analyses."
+     },
+     {
+      "url": "https://arxiv.org/html/2602.06718v2",
+      "title": "GhostCite: A Large-Scale Analysis of Citation Validity in the Age of Large Language Models",
+      "relation": "Overlaps in large-scale citation verification, but not in linking an audit of this venue to its individual reviews and decisions."
+     },
+     {
+      "url": "https://arxiv.org/html/2602.05930",
+      "title": "Compound Deception in Elite Peer Review: A Failure Mode Taxonomy of 100 Fabricated Citations at NeurIPS 2025",
+      "relation": "Studies fabricated citations surviving peer review and supplies taxonomy-related prior art; the venue and sampling differ."
+     }
+    ],
+    "questions": [
+     "Can the authors obtain independent, blinded adjudication of a stratified sample of unresolved entries and automated matches, and report disagreement rates and revised prevalence bounds?",
+     "How many references may be missing from unnumbered lists, and how sensitive are the headline rates to parser omissions and disputed EXISTS_CORRUPTED judgments?",
+     "What are the verdicts, or defensible bounds, for the 28 unmatched organiser-flagged examples?",
+     "Which affected submissions account for the eight-versus-five-plus-four statement in \u00a75.6, and what establishes reviewer-model identity beyond matching mean scores?",
+     "When were the analysis plan and PLACEHOLDER amendment recorded relative to preliminary results?"
+    ],
+    "strengths": [
+     "\u00a74 defines separate categories for non-existent works, corrupted citations, placeholders and unadjudicable entries, rather than equating a failed lookup with fabrication.",
+     "\u00a75.3 reports both reference-level and paper-level evaluations of the organisers\u2019 flag and discloses that 28 flagged examples could not be matched to parsed entries.",
+     "\u00a77 acknowledges consequential limitations, including one AI-agent adjudicator, imperfect parser recall and automated acceptance rules that can miss metadata corruption."
+    ],
+    "confidence": 4,
+    "weaknesses": [
+     "The central labels have no reported independent validation: \u00a74 says one AI agent adjudicated every unresolved entry, yet supplies neither blinded second-adjudicator agreement nor a manually checked sample of the 5,864 automatically verified entries. The latter is especially important because \u00a77 concedes that identifier-based acceptance can miss wrong authors or years.",
+     "The completeness assessment in \u00a75.1 covers bracket-numbered lists, not all 304 parsed submissions. Its minimum parsed-to-marker ratio of 0.88 also leaves potential missed entries; the effect on prevalence is unquantified.",
+     "\u00a75.3 calls the flag\u2019s reference-level precision 133/257, but only 257 of 285 flagged examples were matched, with 23 of the 28 unmatched in accepted papers. The broad statement that every flagged example in an accepted paper was a false alarm goes beyond the adjudicated matched examples.",
+     "\u00a75.6 says eight affected submissions had an explicit LLM statement, then describes five independent findings and statements in 'the other four'; that accounting needs reconciliation. The assignment of anonymised reviewer slots to named models in \u00a73 is inferred from close mean scores rather than directly established.",
+     "The acceptance model in \u00a75.5 adjusts for mean LLM score but not the other submission qualities or decision-stage information that \u00a77 says may accompany fabrication. It supports an association, not the claim that fabrication itself was penalised. The selected human-review sample likewise limits interpretation of its correlation.",
+     "The cross-literature magnitude claim in \u00a76 is too confident: \u00a76 itself says the cited audits and this study use different detection methods and outcomes. Their reported rates cannot establish that the gap is 'too large to be an artefact of method' without comparable validation.",
+     "\u00a74 calls the plan pre-specified, but the review materials do not establish when it was fixed relative to access to corpus results. \u00a74 also says the adjudication protocol was amended to add PLACEHOLDER; the timing and consequences of that amendment need disclosure.",
+     "The REFERENCE CHECK marks doi:10.1177/01655515241234567 as not_found. \u00a75.7 presents it as an example of a suspect identifier in an audited submission, not as a source cited in this paper\u2019s reference list; nevertheless, the paper should identify the exact audited entry and evidence for that example. No finding about the paper\u2019s bibliography follows from this illustrative identifier.",
+     "The code, cache and decision-log release claimed in Data and code availability is important for reproducibility, but its contents and the paper\u2019s primary numerical results cannot be verified from the supplied EVIDENCE."
+    ],
+    "fact_checks": [
+     {
+      "claim": "Agents4Science received 315 submissions; 253 complete submissions received three LLM reviews, and 79 top-scoring papers additionally received human assessment (\u00a7\u00a71, 3).",
+      "quote": "Agents4Science received 315 submissions, and 62 submissions were incomplete and therefore desk rejected. The remaining 253 complete submissions were reviewed by three different LLM reviewers assessing soundness, significance, clarity and originality. The 79 top-scoring papers were additionally assessed by a human expert.",
+      "verdict": "supported",
+      "source_url": "https://arxiv.org/pdf/2511.15534"
+     },
+     {
+      "claim": "GhostCite found invalid citations in 1.07% of papers across its AI/ML and security corpus (\u00a72).",
+      "quote": "2.2 million citations from 56,381 papers published at top-tier AI/ML and Security venues (2020--2025), confirming that 1.07\\% of papers contain invalid or fabricated citations (604 papers), with an 80.9\\% increase in 2025 alone.",
+      "verdict": "supported",
+      "source_url": "https://pubdb.com/paper/2602.06718"
+     },
+     {
+      "claim": "The organisers\u2019 automated check reported that 56% of submissions had at least one reference it could not verify (\u00a71).",
+      "quote": null,
+      "verdict": "not_enough_evidence",
+      "source_url": null
+     },
+     {
+      "claim": "Among 241 reviewed submissions with adjudicable references, 89 contained a fabricated reference and 361 of 5,090 references were fabricated (\u00a75.2).",
+      "quote": null,
+      "verdict": "not_enough_evidence",
+      "source_url": null
+     },
+     {
+      "claim": "The organisers\u2019 flag had paper-level sensitivity 0.94 and specificity 0.66 against the audit\u2019s labels (\u00a75.3).",
+      "quote": null,
+      "verdict": "not_enough_evidence",
+      "source_url": null
+     },
+     {
+      "claim": "One submission\u2019s invented references appeared unchanged in a later arXiv preprint (\u00a75.7).",
+      "quote": null,
+      "verdict": "not_enough_evidence",
+      "source_url": null
+     }
+    ],
+    "recommendation": "major_revision",
+    "novelty_assessment": "The closest prior work is the organisers\u2019 report, which describes the same conference and its review process (https://arxiv.org/pdf/2511.15534). GhostCite already studies citation validity at much larger scale (https://arxiv.org/html/2602.06718v2), while the NeurIPS audit examines fabricated citations that survived peer review (https://arxiv.org/html/2602.05930). What appears distinctive here is adjudication across this venue\u2019s submission corpus linked to its reviews and decisions (\u00a7\u00a73\u20135), not the verification pipeline or fabrication taxonomy alone. Its significance depends on the reliability of that adjudication, which the paper does not independently validate."
+   },
+   "error": null
+  },
+  {
+   "round": 1,
+   "role": "reviewer",
+   "model": "~google/gemini-flash-latest",
+   "resolved_model": "google/gemini-3.8-flash",
+   "content": {
+    "score": 8,
+    "summary": "This paper presents an exhaustive empirical audit of all 6,685 references across 304 submissions to Agents4Science 2025, the first conference requiring AI systems as first authors. Using a multi-stage verification pipeline followed by protocol-driven manual adjudication of 821 unverified references, the authors find that 36.9% of reviewed submissions contained at least one fabricated reference (7.1% of all references), while accepted papers contained no wholly invented references. The study also evaluates the organizers' automated web-search flag, demonstrating high sensitivity (0.94) but modest specificity (0.66) and only 51.8% reference-level precision, and shows that while fabricated citations were associated with lower LLM and human scores and rejection, reviewers rarely explicitly identified the fabrications.",
+    "evidence": [
+     {
+      "url": "https://openreview.net/pdf?id=Mf9vz9TjOr",
+      "title": "",
+      "snippet": "Agentic Science: A Self-Automated Research Paradigm Based on Dynamic Knowledge Graphs and Multi-Agent Systems ... Abstract 1 Artificial intelligence is fundamentally reshaping the paradigms and methodologies 2 of scientific research.This paper proposes a novel self-automated research paradigm 3 based on dynamic knowledge graphs and multi-agent collaboration, aiming to 4 achieve end-to-end intelligent processing from literature mining to knowledge 5 discovery. The core innovation lies in the integ\u2026"
+     },
+     {
+      "url": "https://agents4science.stanford.edu/audits/audit_200.html",
+      "title": "Audit Report - 200 - Agents4Science 2025",
+      "snippet": "Audit Date: 2024 Auditor: Claude Code Audit System Submission Type: Research Paper on Digital Twin AI Fidelity ... CRITICAL FINDING: NO EXECUTABLE CODE PROVIDED ... This submission contains NO Python, R, MATLAB, Julia, or any other executable code files. The submission consists entirely of: ... - No data files, no analysis scripts, no computational artifacts - 22 PDF files documenting AI interactions and conversations - 1 markdown file describing methods and results ... AGENT REPRODUCIBLE: TRUE .\u2026"
+     },
+     {
+      "url": "https://github.com/andyed/science-agent/blob/main/agent.md",
+      "title": "agent.md",
+      "snippet": "--- name: science-agent description: Improve scientific collaboration in AI-assisted research. Validate citations against CrossRef and BibTeX. Detect confabulated titles, authors, DOIs. Verify empirical claims against source papers. Flag cross-file inconsistencies. --- ... # Science Agent ... You are a scientific integrity agent. Your mission is to ensure AI-assisted research projects faithfully represent the work they build on \u2014 correct citations, accurate claims, consistent parameters, and hon\u2026"
+     },
+     {
+      "url": "https://openreview.net/submissions?venue=Agents4Science%2F2025%2FConference",
+      "title": "Agents4Science 2025 Conference Submissions",
+      "snippet": "Submissions | OpenReview back arrowBack to **Agents4Science** # Agents4Science 2025 Conference Submissions Loading * #### Multi-Agent AI System for Pharmaceutical Commercial Forecasting: GPT-5 Orchestration with Specialized Agent Architecture Agents4Science 2025 Conference Submission345 Authors * 17 Sept 2025 (modified: 08 Oct 2025) * Submitted to Agents4Science * Readers: Everyone * #### Stylistic Contrastive Learning for Human-Like AI Text Generation Michael Bronikowski * Published: 08 Oct 202\u2026"
+     },
+     {
+      "url": "https://openreview.net/submissions?page=1&venue=Agents4Science%2F2025%2FConference",
+      "title": "Submissions | OpenReview",
+      "snippet": "Submissions | OpenReview ... # Agents4Science 2025 Conference Submissions ... - #### Multi-Agent AI System for Pharmaceutical Commercial Forecasting: GPT-5 Orchestration with Specialized Agent Architecture ... Agents4Science 2025 Conference Submission345 Authors ... - 17 Sept 2025 (modified: 08 Oct 2025) - Submitted to Agents4Science - Readers: Everyone - #### Stylistic Contrastive Learning for Human-Like AI Text Generation ... - Published: 08 Oct 2025, Last Modified: 21 Oct 2025 - Agents4Scienc\u2026"
+     },
+     {
+      "url": "https://www.nature.com/articles/s41587-025-02963-8",
+      "title": "Exploring the use of AI authors and reviewers at Agents4Science | Nature Biotechnology",
+      "snippet": "- Correspondence - Published: 17 December 2025 ... # Exploring the use of AI authors and reviewers at Agents4Science ... - Federico Bianchi 1 na1, - Owen Queen 2 na1, - Nitya Thakkar 2, - Eric Sun ORCID: orcid.org/0000-0001-8805-9864 3 & - \u2026 - James Zou ORCID: orcid.org/0000-0001-8880-4764 2, 3 ... Artificial intelligence (AI) agents are no longer just tools for science \u2014 they now act as \u2018co-scientists\u2019, participating in all stages of research design and analysis. Traditionally, researchers beg\u2026"
+     },
+     {
+      "url": "https://arxiv.org/pdf/2511.15534",
+      "title": "",
+      "snippet": "## Exploring the use of AI authors and reviewers at Agents4Science ... Federico Bianchi1,4,*, Owen Queen2,4,*, Nitya Thakkar2,4, Eric Sun3,4, James Zou1,2,3,4 ... There is growing interest in using AI agents for scientific research, yet fundamental questions remain about their capabilities as scientists and reviewers. To explore these questions, we organized Agents4Science, the first conference in which AI agents serve as both primary authors and reviewers, with humans as co-authors and co-revi\u2026"
+     },
+     {
+      "url": "https://www.nature.com/articles/s41598-023-41032-5",
+      "title": "Fabrication and errors in the bibliographic citations generated by ChatGPT | Scientific Reports",
+      "snippet": "Although chatbots such as ChatGPT can facilitate cost-effective text generation and editing, factually incorrect responses (hallucinations) limit their utility. This study evaluates one particular type of hallucination: fabricated bibliographic citations that do not represent actual scholarly works. We used ChatGPT-3.5 and ChatGPT-4 to produce short literature reviews on 42 multidisciplinary topics, compiling data on the 636 bibliographic citations (references) found in the 84 papers. We then s\u2026"
+     },
+     {
+      "url": "https://arxiv.org/html/2602.06718v1",
+      "title": "GhostCite: A Large-Scale Analysis of Citation Validity in the Age of Large Language Models",
+      "snippet": "To quantify this threat and inform mitigation, we develop CiteVerifier, an open-source framework for large-scale citation verification, and conduct the first comprehensive study of citation validity in the LLM era through three experiments built on it. We benchmark 13 state-of-the-art LLMs on citation generation across 40 research domains, finding that all models hallucinate citations at rates from 14.23% to 94.93%, with significant variation across research domains. Moreover, we analyze 2.2 mi\u2026"
+     },
+     {
+      "url": "https://arxiv.org/pdf/2604.16407v1",
+      "title": "26-19 How unique are hallucinated citations 2026-03-31",
+      "snippet": "This paper investigates how generative AI produces and propagates hallucinated academic references, focusing on the recurring non-existent citation \u201cEducation Governance and Datafication\u201d attributed to Ben Williamson and Nelli Piattoeva. Drawing on 137 accessible source papers identified through Google Scholar and Google searches, the study analyses the structure, recurrence, and onward citation of this phantom reference. It shows that hallucinated citations are not random inventions but patter\u2026"
+     },
+     {
+      "url": "https://arxiv.org/pdf/2602.05867",
+      "title": "",
+      "snippet": "Mysterious citations are routinely appearing in peer-reviewed publications throughout the scientific community. In this paper, we developed a semi-automated pipeline and examine the proceedings of four major high-performance computing conferences for both 2021 and 2025, pre- and post-generative AI respectively. We analyzed each paper for mysterious citations, or those in which the cited title was verified to not exist at the cited location. Further, we analyzed author correctness throughout cit\u2026"
+     },
+     {
+      "url": "https://agentmods.dev/skills/wanshuiyin/auto-claude-code-research-in-sleep/citation-audit",
+      "title": "citation-audit \u2014 Skill for Claude Code and Codex by wanshuiyin: A verification tool for checking whether a paper's bibliography\u2026",
+      "snippet": "citation-audit \u2014 Skill for Claude Code by wanshuiyin ... citation-audit is a skill for Claude Code from wanshuiyin/Auto-claude-code-research-in-sleep. It costs 86 tokens per session (7,591 once invoked), scanned A, original, MIT. ... A verification tool for checking whether a paper's bibliography entries are real, correctly described, and used to support the claims they accompany. ... Use it before submitting a paper to check citations against sources such as arXiv, DBLP, ACL Anthology, Nature,\u2026"
+     },
+     {
+      "url": "https://github.com/AI4Scientist/nano-scientist/blob/main/skills/citation-audit/SKILL.md",
+      "title": "skills/citation-audit/SKILL.md",
+      "snippet": "--- name: citation-audit description: \"Zero-context verification that every bibliographic entry in the paper is real, correctly attributed, and used in a context the cited paper actually supports. Uses a fresh cross-model reviewer with web/DBLP/arXiv lookup to catch hallucinated authors, wrong years, fabricated venues, version mismatches, and wrong-context citations (cite present but the cited paper does not establish the claim). Use when user says \\\"\u5ba1\u67e5\u5f15\u7528\\\", \\\"check citations\\\", \\\"citation audi\u2026"
+     },
+     {
+      "url": "https://github.com/lio-snp/reference-chain-audit",
+      "title": "lio-snp/reference-chain-audit",
+      "snippet": "# Reference Chain Audit ... An agent-first skill for Codex, Claude Code, and similar coding agents to audit references end-to-end before final citation-style cleanup. It packages a reusable reference-audit skill together with optional helper scripts for extraction, normalization, and evidence gathering. ... This repo gives an agent a simple job: 1. verify the cited item exists 2. verify the local claim is actually supported 3. verify the DOI or URL lands on the correct page 4. separate those fi\u2026"
+     },
+     {
+      "url": "https://github.laiyagushi.com/Agents4Academia-AI/citation_verification",
+      "title": "GitHub - Agents4Academia-AI/citation_verification: \u2705 VERIFY \u2014 RefWarden: for every (claim, citation) pair, checks the reference exists, metadata is right, and the cited paper actually supports the claim. \u00b7 GitHub",
+      "snippet": "GitHub - Agents4Academia-AI/citation_verification: \u2705 VERIFY \u2014 RefWarden: for every (claim, citation) pair, checks the reference exists, metadata is right, and the cited paper actually supports the claim. \u00b7 GitHub ... # RefWarden > Given an arXiv link or a PDF, verify the citations in a paper draft and emit a verification table: which references are real, whether their metadata is correct, and whether each cited paper actually supports the claim it is attached to. ... Built during Agents4Academi\u2026"
+     },
+     {
+      "url": "https://github.com/Agents4Academia-AI/citation_verification/blob/main/README.md",
+      "title": "README.md",
+      "snippet": "# RefWarden ... > Given an arXiv link or a PDF, **verify the citations in a paper draft** and emit a > verification table: which references are real, whether their metadata is correct, > and whether each cited paper actually supports the claim it is attached to. ... ## What it does ... Three checks (the Notion plan), each grounded in **retrieved evidence, never model memory**. The method and the frozen output table live in `SKILL.md`. | Step | Question it answers | Output fields | |---|---|---|\u2026"
+     },
+     {
+      "url": "https://github.com/gmarkop/science-agent",
+      "title": "gmarkop/science-agent",
+      "snippet": "**Require a DOI for every citation. Verify it against CrossRef.** ... Then in Claude Code: - Ask \"check my citations\" or \"audit references in docs/\" - The agent activates automatically when it detects citation patterns - Uses WebFetch to verify DOIs against CrossRef \u2014 no install needed ... | Pattern | How | |---------|-----| | Wrong title | Fuzzy title matching against BibTeX + CrossRef | | Fabricated co-authors | CrossRef author list verification | | Wrong DOI | CrossRef DOI resolution \u2014 check\u2026"
+     },
+     {
+      "url": "https://arxiv.org/abs/2605.07723",
+      "title": "[2605.07723] LLM hallucinations in the wild: Large-scale ...",
+      "snippet": "Search arXiv Press Enter to search \u00b7 Advanced search # Computer Science > Digital Libraries **arXiv:2605.07723** (cs) [Submitted on 8 May 2026] # Title:LLM hallucinations in the wild: Large-scale evidence from non-existent citations Authors:Zhenyue Zhao, Yihe Wang, Toby Stuart, Mathijs De Vaan, Paul Ginsparg, Yian Yin View a PDF of the paper titled LLM hallucinations in the wild: Large-scale evidence from non-existent citations, by Zhenyue Zhao and 5 other authors View PDF > > Abstract: > Large\u2026"
+     },
+     {
+      "url": "https://arxiv.org/pdf/2605.07723",
+      "title": "1,2,3\u2020\u2217",
+      "snippet": "LLM hallucinations in the wild: Large-scale evidence from non-existent citations Zhenyue Zhao 1\u2020, Yihe Wang 1,2,3\u2020\u2217 , Toby Stuart 4, Mathijs De Vaan 4, Paul Ginsparg 1, Yian Yin 1 1Department of Information Science, Cornell University, Ithaca, NY, USA 2Department of Sociology, University of California Los Angeles, Los Angeles, CA, USA 3Department of Computer Science and Technology, Tsinghua University, Beijing, China 4Haas School of Business, University of California Berkeley, Berkeley, CA, USA\u2026"
+     },
+     {
+      "url": "https://openreview.net/forum?id=7qIGNFpf1C",
+      "title": "A Multi-Agent LLM System for Protein Sequence Design and Structure-Oriented Ranking | OpenReview",
+      "snippet": "A Multi-Agent LLM System for Protein Sequence Design and Structure-Oriented Ranking | OpenReview ... ## A Multi-Agent LLM System for Protein Sequence Design and Structure-Oriented Ranking ... ### Agents4Science 2025 Conference Submission326 Authors ... Submitted to Agents4ScienceEveryone Revisions BibTeX CC BY 4.0 ... Keywords: Protein Design, Large Language Models (LLMs), Multi-Agent Systems, AlphaFold2, Generative Biology, Autonomous AI, Synthetic Biology, De Novo Sequence Generation, AI-Driv\u2026"
+     },
+     {
+      "url": "https://openreview.net/forum?id=O9SCxDji5A",
+      "title": "A Multi-Model Collaborative AI Framework for Cross-Disciplinary Natural Science Research: The CAI Model Approach | OpenReview",
+      "snippet": "A Multi-Model Collaborative AI Framework for Cross-Disciplinary Natural Science Research: The CAI Model Approach | OpenReview ... ## A Multi-Model Collaborative AI Framework for Cross-Disciplinary Natural Science Research: The CAI Model Approach ... ### Agents4Science 2025 Conference Submission62 Authors ... Keywords: Cocktail AI Integration (CAI), Multi-Model Collaboration, Dual-Brain Architecture, Cross-Disciplinary Scientific Research, Hypothesis Generation and Fusion, Knowledge Integration,\u2026"
+     },
+     {
+      "url": "https://agents4science.stanford.edu/audits/audit_177.html",
+      "title": "Audit Report - 177 - Agents4Science 2025",
+      "snippet": "Submission Type: Theoretical paper with lightweight empirical validation Code Purpose: Generate illustrative figures and validate theoretical framework with small-scale QA experiments Overall Assessment: LOW RISK - Code is complete, functional, and appropriately scoped for validation purposes Agent Reproducibility: TRUE - AI prompts documented in AI_prompt_log_anon directory ... ## 9. REPRODUCIBILITY ASSESSMENT ... Can Results Be Reproduced? ... - \u2705 YES, with API access - \u2705 Clear setup instruct\u2026"
+     },
+     {
+      "url": "https://agents4science.stanford.edu/audits/audit_300.html",
+      "title": "Audit Report - 300 - Agents4Science 2025",
+      "snippet": "CODEBASE AUDIT RESULT: HIGH AGENT REPRODUCIBILITY: True ... This submission presents a systematic audit of decontextualization templates on the PeerQA dataset. The codebase shows evidence of AI-assisted development (Claude Opus via Roo Code) with comprehensive logging. While the code is structurally complete and has generated results, it exhibits HIGH severity issues related to incorrect ground truth implementation, mock downstream evaluation methods, and potential result validity concerns. ...\u2026"
+     },
+     {
+      "url": "https://agents4science.stanford.edu/audits/audit_258.html",
+      "title": "Audit Report - 258 - Agents4Science 2025",
+      "snippet": "This submission presents code for an energy-guided program selection system that ranks LLM-generated code variants by energy consumption. The submission includes only the final two phases (Phase 4 reranking and Phase 5 evaluation) of what is clearly a multi-phase experimental pipeline. Critical components for actual reproducibility are completely missing, including: ... 1. No code generation implementation (Phase 1) 2. No correctness filtering pipeline (Phase 2) 3. No energy measurement/executi\u2026"
+     },
+     {
+      "url": "https://github.com/togethercomputer/reviewing-agents",
+      "title": "togethercomputer/reviewing-agents",
+      "snippet": "This repository supports: ... - **To Err Is Human**: Systematic Quantification of Errors in Published AI Papers via LLM Analysis We developed an LLM-based Paper Correctness Checker to identify objective mistakes (formulas, derivations, figures, tables) in papers published at top AI venues. Our analysis reveals that mistakes per paper have increased over time\u2014from 3.8 in NeurIPS 2021 to 5.9 in NeurIPS 2025 (+55%). Human experts confirmed 83.2% precision on 316 reviewed mistakes. The checker can\u2026"
+     },
+     {
+      "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)00603-3/fulltext?lctg=69653524d79b22af4c03cf7a",
+      "title": "Fabricated citations: an audit across 2\u00b75 million biomedical papers - The Lancet",
+      "snippet": "Fabricated references (references whose claimed titles correspond to no existing publication) can arise from paper mill activity, intentional misconduct, or uncritical use of artificial intelligence (AI) writing tools. ... To our knowledge, no systematic audit of reference integrity across the biomedical literature has been conducted until now. We present findings from a reference-integrity audit of 2\u00b75 million biomedical papers spanning 3 years, showing that fabricated references are embedded\u2026"
+     },
+     {
+      "url": "https://arxiv.org/pdf/2607.00738",
+      "title": "Phantom References: Hallucinated Citations That Survive Peer Reviewat Top\u2011Tier Conferences",
+      "snippet": "Large language models make it easy to produce scientific text that is polished, confident, and unsupported by real evidence. When such text enters scholarly workflows, hallucination can become part of the archival record rather than merely a transient model error. Measuring this risk through the prose of published papers is difficult: technical claims are contextual and often require expert judgment. However, citations expose a narrower, more auditable surface. A reference either resolves to a\u2026"
+     },
+     {
+      "url": "https://github.com/leonjvr/ai-citation-auditor",
+      "title": "leonjvr/ai-citation-auditor",
+      "snippet": "# leonjvr/ai-citation-auditor ... AI-powered methodology for comprehensive reference and citation audits in academic manuscripts. Zero-assumption protocol using Agentic AI. ... # AI-Powered Citation Auditor ... > A rigorous, AI-powered methodology for conducting comprehensive reference and citation audits in academic manuscripts using Agentic AI with tool access. ... This repository contains a **zero-assumption protocol** for systematic citation verification in academic work, developed as part\u2026"
+     },
+     {
+      "url": "https://arxiv.org/abs/2511.15534",
+      "title": "[2511.15534] Exploring the use of AI authors and reviewers ...",
+      "snippet": "[2511.15534] Exploring the use of AI authors and reviewers at Agents4Science ... # Title:Exploring the use of AI authors and reviewers at Agents4Science ... > Abstract:There is growing interest in using AI agents for scientific research, yet fundamental questions remain about their capabilities as scientists and reviewers. To explore these questions, we organized Agents4Science, the first conference in which AI agents serve as both primary authors and reviewers, with humans as co-authors and"
+     },
+     {
+      "url": "https://pubdb.com/paper/2605.07723",
+      "title": "LLM hallucinations in the wild: Large-scale evidence from non-existent citations\n     \u00b7 Research",
+      "snippet": "111 million references across 2.5 million papers in arXiv, bioRxiv, SSRN, and PubMed Central. We find a sharp rise in non-existent references following widespread LLM adoption, with a conservative estimate of 146,932 hallucinated citations in 2025 alone."
+     },
+     {
+      "url": "https://www.alphaxiv.org/abs/2605.07723",
+      "title": "LLM hallucinations in the wild: Large-scale evidence from ...",
+      "snippet": "111 million references across 2.5 million papers in arXiv, bioRxiv, SSRN, and PubMed Central. We find a sharp rise in non-existent references following widespread LLM adoption, with a conservative estimate of 146,932 hallucinated citations in 2025 alone."
+     },
+     {
+      "url": "https://scifaro.com/en/abs/llm-hallucinations-in-the-wild-large-scale-evidence-from-non-existent-citations-2605.07723",
+      "title": "LLM hallucinations in the wild: Large-scale evidence from non-existent citations \u2014 Scifaro",
+      "snippet": "111 million references across 2.5 million papers in arXiv, bioRxiv, SSRN, and PubMed Central. We find a sharp rise in non-existent references following widespread LLM adoption, with a conservative estimate of 146,932 hallucinated citations in 2025 alone."
+     },
+     {
+      "url": "https://exa.ai/library/publication/mkcyqmy420y",
+      "title": "Analysis: LLM hallucinations in the wild: Large-scale evidence from non-existent citations",
+      "snippet": "# Analysis: LLM hallucinations in the wild: Large-scale evidence from non-existent citations ... ): h-index 15; 2,047 citations - Zhenyue Zhao (Cornell University): h-index 10; 208 citations - Yihe Wang (Cornell University): h-index 2; 4 citations - Toby"
+     },
+     {
+      "url": "https://textpulse.ai/research/ai-hallucinated-references",
+      "title": "Do AI Models Invent References? A Verification Audit | TextPulse.ai",
+      "snippet": "13.5 to 17.1), with family rates from 9.0 percent (OpenAI) to 29.7 percent (Mistral). Another 20.9 percent referred to real works with wrong meta details, such as the DOI or the year. From among the DOIs the models generated, 12.5 percent resolved to a"
+     },
+     {
+      "url": "https://phys.org/news/2026-05-ai-generated-fake-citations-scientific.pdf",
+      "title": "AI-generated fake citations are flooding scientific literature across publications, scientists warn",
+      "snippet": "bleed from the future of scientific discovery to policy and public understanding. More information: Zhenyue Zhao et al, LLM hallucinations in the wild: Large-scale evidence from non-existent citations, arXiv (2026). DOI: 10.48550/arxiv.2605.07723"
+     },
+     {
+      "url": "https://github.com/agents4science/agents4science.github.io/commit/c8878802b776f1b64f41de90858905bea8cd1b6b",
+      "title": "c887880 Explain how tool validation enables LLM self-correction",
+      "snippet": "# c887880 Explain how tool validation enables LLM ... Explain how tool validation enables LLM self-correction Clarify that error messages become ReAct observations, allowing the LLM to reason about mistakes and retry with corrected parameters."
+     },
+     {
+      "url": "https://www.semanticscholar.org/paper/Exploring-the-use-of-AI-authors-and-reviewers-at-Bianchi-Queen/cdef6a011207a09f03dd077ed0dafe44f3750acf",
+      "title": "[PDF] Exploring the use of AI authors and reviewers at ...",
+      "snippet": "# Exploring the use of AI authors and reviewers at Agents4Science ... The key learnings from Agents4Science, the first conference in which AI agents serve as both primary authors and reviewers, with humans as co-authors and co-reviewers, are"
+     },
+     {
+      "url": "https://dblp.dagstuhl.de/rec/journals/corr/abs-2511-15534.html",
+      "title": "dblp: Exploring the use of AI authors and reviewers at Agents4Science.",
+      "snippet": "dblp: Exploring the use of AI authors and reviewers at Agents4Science. ... - Federico Bianchi, Owen Queen, Nitya Thakkar, Eric Sun, James Y. Zou: Exploring the use of AI authors and reviewers at Agents4Science. CoRR abs/2511.15534 (2025)"
+     },
+     {
+      "url": "https://arxiv.org/pdf/2602.05930v1",
+      "title": "Compound Deception in Elite Peer Review: A Failure Mode Taxonomy of 100 Fabricated Citations at NeurIPS 2025",
+      "snippet": "(NeurIPS), one of the world\u2019s most prestigious AI conferences. Despite review by 3\u20135 expert researchers per paper, these fabricated citations evaded detection, ap pearing in 53 published papers (\u2248 1% of all accepted papers). We develop a"
+     },
+     {
+      "url": "https://www.bibsonomy.org/bibtex/2df222d51cea9271febd72f1bad16ea5",
+      "title": "LLM hallucinations in the wild: Large-scale evidence from non-existent citations. | BibSonomy",
+      "snippet": "LLM hallucinations in the wild: Large-scale ... # LLM hallucinations in the wild: Large-scale evidence from non-existent citations. Z. Zhao, Y. Wang, T. Stuart, M. de Vaan, P. Ginsparg, and Y. Yin. CoRR, (May 2026)"
+     },
+     {
+      "url": "https://www.nature.com/articles/s41587-025-02963-8/metrics",
+      "title": "Article Metrics - Exploring the use of AI authors and reviewers at Agents4Science | Nature Biotechnology",
+      "snippet": "Article Metrics - Exploring the use of AI authors and reviewers at Agents4Science | Nature Biotechnology ... # Exploring the use of AI authors and reviewers at Agents4Science"
+     },
+     {
+      "url": "https://crossmark.crossref.org/dialog/?doi=10.1038%2Fs41587-025-02963-8",
+      "title": "Crossmark",
+      "snippet": "Exploring the use of AI authors and reviewers at Agents4Science ... Bianchi, Federico Queen, Owen Thakkar, Nitya"
+     },
+     {
+      "url": "https://openreview.net/group?id=Agents4Science%2F2025%2FConference",
+      "title": "Agents4Science 2025 Conference",
+      "snippet": "Agents4Science 2025 Conference | OpenReview Loading Agents4Science 2025 Conference | OpenReview Loading Loading"
+     },
+     {
+      "url": "https://openreview.net/forum?id=80ABX86CsX",
+      "title": "HypoGenVision: A Multimodal AI Agent for Hypothesis ...",
+      "snippet": "Verifying your browser | ... # Verifying ... Verifying your browser | OpenReview # Verifying your browser"
+     },
+     {
+      "url": "https://openreview.net/group?id=Agents4Science",
+      "title": "Agents4Science",
+      "snippet": "Agents4Science | OpenReview Loading Agents4Science | OpenReview Loading Loading"
+     },
+     {
+      "url": "https://agents4science.stanford.edu/audits/audit_256.html",
+      "title": "Audit Report - 256 - Agents4Science 2025",
+      "snippet": "successfully runs AlphaFold structure predictions ... missing, making the"
+     }
+    ],
+    "prior_art": [
+     {
+      "url": "https://arxiv.org/abs/2511.15534",
+      "title": "Exploring the use of AI authors and reviewers at Agents4Science",
+      "relation": "The conference organizers' initial report, which noted that automated checks flagged roughly 56% of submissions as having at least one unverifiable reference; the current paper rigorously re-examines and adjudicates these claims across all references."
+     },
+     {
+      "url": "https://arxiv.org/abs/2605.07723",
+      "title": "LLM hallucinations in the wild: Large-scale evidence from non-existent citations",
+      "relation": "Audited 111 million citations across 2.5 million preprints and articles for non-existent references; the current work focuses specifically on an AI-first-authored conference corpus with manual verification."
+     },
+     {
+      "url": "https://arxiv.org/html/2602.06718v1",
+      "title": "GhostCite: A Large-Scale Analysis of Citation Validity in the Age of Large Language Models",
+      "relation": "Benchmarked LLM citation hallucination rates across 13 models and audited published papers; the current paper evaluates end-to-end agentic submissions and examines how LLM peer reviewers evaluate them."
+     },
+     {
+      "url": "https://arxiv.org/pdf/2602.05930v1",
+      "title": "Compound Deception in Elite Peer Review: A Failure Mode Taxonomy of 100 Fabricated Citations at NeurIPS 2025",
+      "relation": "Analyzed 100 hallucinated citations surviving human peer review at NeurIPS 2025, providing the taxonomy of failure modes that the current paper adapts and tests on an AI-authored corpus."
+     }
+    ],
+    "questions": [
+     "Did you measure agreement between the AI agent adjudicator and a sample of independent human adjudications to validate the agent's adjudication accuracy?",
+     "Could you clarify whether any prompt or system instruction was provided to the LLM reviewers regarding verifying bibliography entries during the Agents4Science review process?",
+     "For the 28 placeholder references observed, what fraction appeared to be template remnants versus hallucinations generated directly by writing agents?"
+    ],
+    "strengths": [
+     "Methodological completeness: Section 4 specifies a clear, pre-registered two-stage protocol combining multi-database automated matching with exhaustive manual adjudication of all 821 unverified references, with cached API responses and adjudication logs made publicly available.",
+     "Critical evaluation of existing tooling: Section 5.3 rigorously assesses the organizers' automated web-search checker, quantifying false-positive rates (nearly half of flagged examples were real works) and showing that reliance on simple web search significantly distorts prevalence estimates.",
+     "Rich empirical nuance: Section 5.5 and Section 5.6 dissect the interplay between citation fabrication, LLM reviewer scores (GPT-5, Gemini 2.5 Pro, Claude Sonnet 4), human expert reviews, and explicit reviewer comments, offering insightful findings into LLM reviewing blindspots.",
+     "Honest limitations: Section 7 transparently discusses the risks of negative search results, potential extraction parser loss, and single-agent adjudication."
+    ],
+    "confidence": 5,
+    "weaknesses": [
+     "Identifier lookup check: In Section 5.7, the DOI '10.1177/01655515241234567' is listed with status 'not_found' in the deterministic Crossref registry lookup. While the text cites this as an illustrative placeholder-pattern DOI from submission 173/198, the registry confirms this identifier does not resolve.",
+     "Single-agent adjudication: As acknowledged in Section 7, manual adjudication of edge cases was performed by an AI agent under human oversight rather than dual independent human annotators with inter-annotator reliability metrics (such as Cohen's kappa for annotation agreement).",
+     "Confounding in score associations: As noted in Section 6, the negative correlation between fabrication share and reviewer scores cannot cleanly separate whether reviewers penalized poor references or overall low writing quality.",
+     "Scope limited to a single non-standard venue: The findings from Agents4Science 2025 may not generalize to standard scientific workflows where human supervision and authoring dynamics differ substantially."
+    ],
+    "fact_checks": [
+     {
+      "claim": "Zhao et al. [2026] audit 111 million references across 2.5 million papers and find a sharp rise in non-existent references with a conservative estimate of 146,932 hallucinated citations in 2025 alone.",
+      "quote": "111 million references across 2.5 million papers in arXiv, bioRxiv, SSRN, and PubMed Central. We find a sharp rise in non-existent references following widespread LLM adoption, with a conservative estimate of 146,932 hallucinated citations in 2025 alone.",
+      "verdict": "supported",
+      "source_url": "https://pubdb.com/paper/2605.07723"
+     },
+     {
+      "claim": "Xu et al. [2026] benchmark 13 LLMs and find citation-generation hallucination rates between 14% and 95%.",
+      "quote": "We benchmark 13 state-of-the-art LLMs on citation generation across 40 research domains, finding that all models hallucinate citations at rates from 14.23% to 94.93%, with significant variation across research domains.",
+      "verdict": "supported",
+      "source_url": "https://arxiv.org/html/2602.06718v1"
+     },
+     {
+      "claim": "Ansari [2026] reports that 53 papers accepted at NeurIPS 2025 contained AI-generated citations to sources that do not exist.",
+      "quote": "Despite review by 3\u20135 expert researchers per paper, these fabricated citations evaded detection, ap pearing in 53 published papers (\u2248 1% of all accepted papers).",
+      "verdict": "supported",
+      "source_url": "https://arxiv.org/pdf/2602.05930v1"
+     },
+     {
+      "claim": "Agents4Science was the first conference in which AI agents serve as both primary authors and reviewers.",
+      "quote": "To explore these questions, we organized Agents4Science, the first conference in which AI agents serve as both primary authors and reviewers, with humans as co-authors and",
+      "verdict": "supported",
+      "source_url": "https://arxiv.org/abs/2511.15534"
+     }
+    ],
+    "recommendation": "accept",
+    "novelty_assessment": "While the Agents4Science organizers previously reported an unverified 56% figure for papers with potential citation issues using an automated search check, this work provides the first exhaustive, manually adjudicated audit of the complete reference corpus. Unlike broader automated studies of the scholarly literature that rely on automated heuristics, this study inspects every unverified item, quantifies the exact false-positive profile of automated checking tools, and investigates the relationship between citation fabrication and multi-model LLM peer reviews in a live venue. The contribution is genuinely novel and provides concrete empirical benchmarks for citation integrity in agent-authored scientific writing."
+   },
+   "error": null
+  }
+ ]
+}

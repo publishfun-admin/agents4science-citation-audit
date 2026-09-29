@@ -4,7 +4,7 @@
 
 ## Abstract
 
-Agents4Science 2025 was the first conference to require an AI system as the first author of every submission and to review every complete submission with three large-language-model (LLM) reviewers. Its organisers' automated reference check reported that 56% of submissions contained at least one reference that could not be verified. We re-examined all 6,685 references in the 304 submissions with a parsable reference list, using a reproducible verification pipeline (DOI, arXiv and URL resolution; Crossref, OpenAlex, Semantic Scholar, OpenLibrary and Google Books) followed by manual adjudication of every reference it could not verify (821 decisions, each with logged evidence) under a protocol fixed before adjudication began. Among the 241 reviewed submissions with references, 36.9% (95% CI 31.1–43.2) contained at least one fabricated reference (a non-existent work, or a real work cited with a corrupted title, author list, venue, year or identifier) and 7.1% of their 5,090 references were fabricated; 14 submissions had fabricated majorities. Accepted papers were almost clean: none of their 1,251 references was wholly invented, and 8 corrupted references were spread over 7 of 48 papers. The organisers' flag was a useful screen but a poor measure: only 51.8% of the example references it flagged were fabricated, its paper-level specificity was 0.66 (sensitivity 0.94), and none of the 25 flagged examples in accepted papers was fabricated. Fabrication was associated with lower scores from all three LLM reviewers (Spearman rho between -0.13 and -0.16), with lower human expert scores (rho = -0.31) and with rejection: no paper with more than 10% fabricated references was accepted, and the fabricated share predicted acceptance beyond the mean LLM score. Yet reviewers rarely said so: an LLM review asserted on its own that references were fabricated in 5 of the 89 affected papers (all five by Gemini 2.5 Pro), and no human expert review did. Self-reported AI autonomy in writing did not predict fabrication monotonically. Of the 496 fabricated references, 57% were wholly invented and 43% were real works with corrupted attributes; 29 non-existent references carried a DOI or an arXiv identifier that resolves to an unrelated work or to nothing, and one submission's invented references were carried unchanged into its later arXiv preprint. All code, cached API responses and adjudication logs are released.
+Agents4Science 2025 was the first conference to require an AI system as the first author of every submission and to review every complete submission with three large-language-model (LLM) reviewers. Its organisers' automated reference check reported that 56% of submissions contained at least one reference that could not be verified. We re-examined all 6,685 references in the 304 submissions with a parsable reference list, using a reproducible verification pipeline (DOI, arXiv and URL resolution; Crossref, OpenAlex, Semantic Scholar, OpenLibrary and Google Books) followed by manual adjudication of every reference it could not verify (821 decisions, each with logged evidence) under a protocol fixed before adjudication began. Among the 241 reviewed submissions with references, 36.9% (95% CI 31.1–43.2) contained at least one fabricated reference (a non-existent work, or a real work cited with a corrupted title, author list, venue, year or identifier) and 7.1% of their 5,090 references were fabricated; 14 submissions had fabricated majorities. Accepted papers were almost clean: none of their 1,251 references was wholly invented, and 8 corrupted references were spread over 7 of 48 papers. The organisers' flag was a useful screen but a poor measure: only 51.8% of the example references it flagged were fabricated, its paper-level specificity was 0.66 (sensitivity 0.94), and none of the 25 flagged examples in accepted papers was fabricated. Fabrication was associated with lower scores from all three LLM reviewers (Spearman rho between -0.13 and -0.16), with lower human expert scores (rho = -0.31) and with rejection: no paper with more than 10% fabricated references was accepted, and the fabricated share predicted acceptance beyond the mean LLM score. Yet reviewers rarely said so: an LLM review asserted on its own that references were fabricated in 4 of the 89 affected papers (all four by Gemini 2.5 Pro), and no human expert review did. Self-reported AI autonomy in writing did not predict fabrication monotonically. Of the 496 fabricated references, 57% were wholly invented and 43% were real works with corrupted attributes; 29 non-existent references carried a DOI or an arXiv identifier that resolves to an unrelated work or to nothing, and one submission's invented references were carried unchanged into its later arXiv preprint. All code, cached API responses and adjudication logs are released.
 
 ## 1. Introduction
 
@@ -49,7 +49,13 @@ million citations from 56,381 papers at AI/ML and security venues and find that 
 citations, with an 80.9% increase in 2025; they also benchmark 13 LLMs and find citation-generation hallucination
 rates between 14% and 95%. Ansari [2026] analyses 100 hallucinated citations that survived expert peer review at NeurIPS
 2025 and proposes the failure-mode taxonomy (total fabrication, partial attribute corruption, identifier hijacking,
-placeholder and semantic hallucination) that our adjudication categories adapt.
+placeholder and semantic hallucination) that our adjudication categories adapt. Russinovich et al. [2026] (Phantom
+References) resolve the bibliographies of accepted ICLR, ICML, NeurIPS and USENIX Security papers against several
+bibliographic sources, escalate unresolved entries to web-search re-verification, and count only identity-level
+failures (non-existent works and substantial author-list mismatches): reference-level rates are usually below 1%, but
+in 2025 roughly one in twenty NeurIPS and USENIX Security papers contains at least two such references. Their
+two-stage design (registries first, web search for the residue) is the one our pipeline follows, with manual
+adjudication replacing the final automated step.
 
 **Citation generation and verification tools.** Rao and Callison-Burch [2026] show that even search-enabled frontier
 models produce fully correct BibTeX entries only about half of the time, with accuracy dropping sharply for recent
@@ -289,18 +295,22 @@ front of them; the data cannot separate these mechanisms.
 ### 5.6 Did anyone notice? (Q5)
 
 Among the 89 reviewed submissions with at least one fabricated reference, an LLM review contains an explicit statement
-that references are fabricated, non-existent, future-dated or unverifiable in 8 (9.0%; 4.6-16.7). Reading the
-sentences, in 5 submissions (5.6%; 2.4-12.5) the statement is the reviewer's own finding, for instance "the review
-identifies fabricated references in the bibliography, which is a grave breach of academic ethics" (submission 110) or
-"the literature review is deeply flawed, with hallucinated authors and future-dated references" (submission 112); all
-five are by Gemini 2.5 Pro. In the other four the reviewer repeats the authors' own disclosure, in the AI-limitations
-section of the checklist, that references may have been hallucinated. GPT-5 and Claude Sonnet 4 never asserted on their
-own that a submission with fabricated references had them. Explicit statements also occurred in 5 of the 152 reviewed
-submissions without a fabricated reference (3.3%; 1.4-7.5), one by GPT-5 and three by Gemini among them, so the LLM
-reviewers' explicit accusations were about as often wrong as right. Reviews mention references or citations in some way
-in 70.8% of affected submissions, but almost always generically ("the related work could be expanded"). None of the 20
-affected submissions that received a human expert review had the problem noted by the expert (0/20; 0.0-16.1), and the
-organisers' Correctness Check comments contain one explicit statement about references, in a submission that has none.
+that references are fabricated, non-existent, future-dated or unverifiable in 6 (6.7%; 3.1-13.9). Reading the sentences,
+in 4 submissions (4.5%; 1.8-11.0) the statement is the reviewer's own finding, for instance "the review identifies
+fabricated references in the bibliography, which is a grave breach of academic ethics" (submission 110) or "the
+literature review is deeply flawed, with hallucinated authors and future-dated references" (112); all four are by
+Gemini 2.5 Pro (a fifth such finding by Gemini, in a withdrawn submission that had been reviewed, lies outside the
+accepted-or-rejected set). In the other two (38 and 148) the reviewers only repeat the authors' own disclosure, in the
+AI-limitations section of the checklist, that the bibliography may contain hallucinated references (Claude Sonnet 4 does
+so in both, and GPT-5 and Gemini also in 148; in submission 21 Claude Sonnet 4 echoes the disclosure while Gemini
+independently identifies a fabricated key reference). GPT-5 and Claude Sonnet 4 never asserted on their own that a
+reviewed submission with fabricated references had them. Among the 152 reviewed submissions without a fabricated
+reference, Gemini made an independent accusation in 3 (2.0%; 0.7-5.6) and Gemini and GPT-5 one vague remark each
+("bibliographic issues undermine credibility"), so 4 of Gemini's 7 independent accusations (57.1%) in the reviewed set
+concerned a submission that does have a fabricated reference. Reviews mention references or citations in some way in 70.8% of affected
+submissions, but almost always generically ("the related work could be expanded"). None of the 20 affected submissions
+that received a human expert review had the problem noted by the expert (0/20; 0.0-16.1), and the organisers'
+Correctness Check comments contain one explicit statement about references, in a submission that has none.
 
 ### 5.7 What the fabrications look like (Q6)
 
@@ -334,10 +344,14 @@ references in submission 187 share the same three authors.
 
 Wholly invented references are usually plausible in form: real-sounding authors, a specific journal, volume, issue and
 page range. Twenty-nine of the 281 (10.3%) carry a DOI or an arXiv identifier (12 a DOI, 18 an arXiv identifier, one both) and
-another five cite only a URL; the identifiers either do not resolve or resolve to an unrelated work: placeholder-pattern identifiers such as arXiv:2502.01234, arXiv:2401.12345,
-doi:10.1177/01655515241234567 and the page range 12345-12358 (submissions 148, 173, 198), and hijacked identifiers that
-belong to unrelated real papers (a Developmental Dynamics DOI resolving to a zebrafish review in 161, an Information
-Fusion DOI resolving to a neuroimaging review in 184, a Heliyon DOI resolving to a retracted biodiesel paper in 71).
+another five cite only a URL; the identifiers either do not resolve or resolve to an unrelated work. The following
+identifiers are quoted from the audited submissions as examples and are not sources of this paper: the
+placeholder-pattern arXiv:2502.01234 (submission 148) resolves to an unrelated mathematics preprint on the Revuz
+correspondence, arXiv:2401.12345 (173) to an unrelated preprint on distributionally robust receive combining,
+doi:10.1177/01655515241234567 (148) is not registered with the DOI system, and submission 198 cites a page range of
+12345-12358. Hijacked identifiers belong to unrelated real papers: a Developmental Dynamics DOI resolving to a zebrafish
+review in 161, an Information Fusion DOI resolving to a neuroimaging review in 184, a Heliyon DOI resolving to a retracted
+biodiesel paper in 71.
 Seventeen of the 281 (6.0%) cite a year of 2025 or later. The 28 placeholders are concentrated in 7 submissions and
 include "Authors. Title. arXiv preprint", venues given as "[Conference]", a "Journal of HCI for Health" with authors
 "A. Smith, J. Doe", and an entry reading "(Duplicate of [7], listed for completeness)". Whole-list fabrication occurs:
@@ -364,9 +378,11 @@ and publish per-reference verdicts so that authors can respond and readers can r
 
 **Prevalence.** A reference-level rate of 7.1% and a paper-level rate of 36.9% among reviewed AI-first-authored
 submissions are one to two orders of magnitude above the rates measured in the human-authored literature, where
-fabricated references are found in roughly 1% of AI/ML papers [Xu et al. 2026] and in one biomedical paper in 277
-[Topaz et al. 2026]. The comparison is not exact, because those audits rely on automated detection and ours on
-exhaustive adjudication, but the gap is too large to be an artefact of method. The distribution matters as much as the
+fabricated references are found in roughly 1% of AI/ML papers [Xu et al. 2026], in one biomedical paper in 277
+[Topaz et al. 2026], and, under a strict identity-level definition, at reference-level rates below 1% in accepted
+machine-learning and security papers, with about one accepted NeurIPS or USENIX Security 2025 paper in twenty carrying
+two or more such references [Russinovich et al. 2026]. The comparison is not exact, because those audits rely on
+automated detection and ours on exhaustive adjudication, but the gap is too large to be an artefact of method. The distribution matters as much as the
 mean: most affected submissions have a few corrupted citations of real works, while a minority of 14 submissions have
 reference lists that are mostly invented. The accepted papers, by contrast, contain no wholly invented reference in
 1,251 and eight corrupted ones. Whatever the mechanism, the venue's process, three LLM reviews, human expert review of
@@ -377,8 +393,9 @@ above the roughly 1% of NeurIPS 2025 accepted papers in which fabricated citatio
 **Reviewers, scores and decisions.** Fabrication was penalised: all three LLM reviewers scored affected submissions
 lower, human experts much lower, no submission with more than 10% fabricated references was accepted, and the fabricated
 share carried information about acceptance beyond the mean LLM score. But the LLM reviewers almost never said why. An
-independent, explicit statement that references were fabricated appears in 5 of 89 affected submissions, all by Gemini
-2.5 Pro, and explicit accusations were about as often directed at clean submissions as at affected ones. The lower
+independent, explicit statement that references were fabricated appears in 4 of 89 affected submissions, all by Gemini
+2.5 Pro, and 3 of Gemini's 7 such accusations were directed at submissions in which the audit found no fabricated
+reference. The lower
 scores are therefore more plausibly a response to the general weaknesses that accompany fabricated bibliographies
 (thin related work, overclaiming, missing rigour) than to the fabrication itself, which the reviewers, working without
 retrieval, could not verify. This is the pattern that adversarial studies of LLM review predicted [Jiang et al. 2025;
@@ -482,7 +499,8 @@ https://agents4science.stanford.edu/data/; the repository records how they were 
 - [Naddaf and Quill 2026] Miryam Naddaf and Elizabeth Quill. Hallucinated citations are polluting the scientific literature. What can be done? Nature 652:26-29 (1 April 2026), doi:10.1038/d41586-026-00969-z.
 - [Naser 2026] M. Z. Naser. How LLMs cite and why it matters: A cross-model audit of reference fabrication in AI-assisted academic writing and methods to detect phantom citations. arXiv:2603.03299 (2026).
 - [Nguyen et al. 2026] Dang Nguyen, Wanqing Hao, Yanai Elazar et al. Benchmarking agentic review systems. arXiv:2606.19749 (2026).
-- [Rao and Callison-Burch 2026] Delip Rao and Chris Callison-Burch. BibTeX citation errors in scientific publishing agents: Evaluation and mitigation. arXiv:2604.03159 (2026).
+- [Rao and Callison-Burch 2026] Delip Rao and Chris Callison-Burch. BibTeX citation errors in scientific publishing agents: Evaluation and mitigation. arXiv:2604.03159 (2026; the first version, 3 April 2026, was titled "BibTeX citation hallucinations in scientific publishing agents: Evaluation and mitigation").
+- [Russinovich et al. 2026] Mark Russinovich, Ram Shankar Siva Kumar and Ahmed Salem. Phantom references: Hallucinated citations that survive peer review at top-tier conferences. arXiv:2607.00738 (2026).
 - [Reizinger and Brendel 2026] Patrik Reizinger and Wieland Brendel. HALLMARK: Diagnosing three failure modes in LLM citation verifiers. arXiv:2607.18360 (2026).
 - [Topaz et al. 2026] Maxim Topaz, Nir Roguin, Pallavi Gupta, Zhihong Zhang and Laura-Maria Peltonen. Fabricated citations: an audit across 2.5 million biomedical papers. The Lancet 407(10541):1779-1781 (2026), doi:10.1016/S0140-6736(26)00603-3.
 - [Xu et al. 2026] Zuyao Xu, Yuqi Qiu, Lu Sun et al. GhostCite: A large-scale analysis of citation validity in the age of large language models. arXiv:2602.06718 (2026).
