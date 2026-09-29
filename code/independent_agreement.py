@@ -45,10 +45,17 @@ def kappa_ci(pairs, B=2000):
         idx = rng.integers(0, len(pairs), len(pairs)); ks.append(kappa([pairs[i] for i in idx])[1])
     ks = [k for k in ks if k == k]
     return (np.percentile(ks, 2.5), np.percentile(ks, 97.5)) if ks else (float('nan'), float('nan'))
-def line(label, pairs, ci=False):
+def stats(pairs):
+    po, k = kappa(pairs); pb = [(fab(a), fab(b)) for a, b in pairs]; po2, k2 = kappa(pb)
+    w1 = wilson(round(po * len(pairs)), len(pairs)); w2 = wilson(round(po2 * len(pairs)), len(pairs)); c1 = kappa_ci(pairs); c2 = kappa_ci(pb)
+    return {'n': len(pairs), 'cat_pct': 100 * po, 'cat_ci': list(w1), 'cat_kappa': k, 'cat_kappa_ci': list(c1),
+            'fab_pct': 100 * po2, 'fab_ci': list(w2), 'fab_kappa': k2, 'fab_kappa_ci': list(c2)}
+def line(label, pairs, ci=False, key=None):
+    """One report line; with ci=True adds Wilson and bootstrap intervals; with key=... stores the statistics in OUT['summary'][key]."""
+    if key: OUT.setdefault('summary', {})[key] = stats(pairs)
     po, k = kappa(pairs); pb = [(fab(a), fab(b)) for a, b in pairs]; po2, k2 = kappa(pb)
     if not ci: return f'- Coder vs {label} (n={len(pairs)}): categories {100*po:.1f}% agreement (kappa {k:.2f}); fabricated-vs-not {100*po2:.1f}% (kappa {k2:.2f})'
-    w1 = wilson(round(po * len(pairs)), len(pairs)); w2 = wilson(round(po2 * len(pairs)), len(pairs)); c1 = kappa_ci(pairs); c2 = kappa_ci(pb)
+    st = OUT['summary'][key] if key else stats(pairs); w1, w2, c1, c2 = st['cat_ci'], st['fab_ci'], st['cat_kappa_ci'], st['fab_kappa_ci']
     return (f'- Coder vs {label} (n={len(pairs)}): categories {100*po:.1f}% agreement (95% CI {w1[0]:.1f}-{w1[1]:.1f}; kappa {k:.2f}, bootstrap 95% CI {c1[0]:.2f}-{c1[1]:.2f}); '
             f'fabricated-vs-not {100*po2:.1f}% ({w2[0]:.1f}-{w2[1]:.1f}; kappa {k2:.2f}, {c2[0]:.2f}-{c2[1]:.2f})')
 
@@ -73,10 +80,10 @@ mapA = {m['coder_item']: m for m in json.load(open(BL + 'independent_coder_sheet
 if A:
     items = [(r, H[mapA[i]['sheet_item']]) for i, r in A.items()]
     L.append('\n## Sheet A (the 64-item sheet, reference strings only)\n')
-    for label, key in [('first adjudicator (or automated VERIFIED)', 'label_first_adjudicator'), ('blind agent', 'label_blind_agent'), ("the author's coding", 'HUMAN_CATEGORY')]:
+    for label, key, sk in [('first adjudicator (or automated VERIFIED)', 'label_first_adjudicator', 'A_first'), ('blind agent', 'label_blind_agent', 'A_blind'), ("the author's coding", 'HUMAN_CATEGORY', 'A_author')]:
         for strat in ['all', 'manual (both strata)', 'manual-disputed', 'manual-agreed', 'automated (both strata)', 'auto-disputed', 'auto-agreed']:
             sel = [(r, h) for r, h in items if strat == 'all' or (strat.startswith('manual (') and h['stratum'].startswith('manual')) or (strat.startswith('automated (') and h['stratum'].startswith('auto')) or h['stratum'] == strat]
-            if sel: L.append(line(f'{label}, {strat}', [(col(h[key]), col(r['CODER_CATEGORY'])) for r, h in sel], ci=(strat == 'all')))
+            if sel: L.append(line(f'{label}, {strat}', [(col(h[key]), col(r['CODER_CATEGORY'])) for r, h in sel], ci=(strat == 'all'), key=(sk if strat == 'all' else None)))
         L.append('')
     dis = [(r, h) for r, h in items if h['stratum'] == 'manual-disputed']
     side = collections.Counter('first' if col(r['CODER_CATEGORY']) == col(h['label_first_adjudicator']) else ('blind' if col(r['CODER_CATEGORY']) == col(h['label_blind_agent']) else 'neither') for r, h in dis)
@@ -97,11 +104,11 @@ if B:
         pf.append((col(first), col(r['CODER_CATEGORY']))); conf[state(first)][state(r['CODER_CATEGORY'])] += 1
         b = blind.get((n, norm(r['reference_as_printed'])))
         if b: pb.append((col(b), col(r['CODER_CATEGORY'])))
-    L.append(line('first adjudicator, all coded items', pf, ci=True))
+    L.append(line('first adjudicator, all coded items', pf, ci=True, key='B_first'))
     for s in ('NOT_FOUND', 'EXISTS_CORRUPTED', 'EXISTS', 'PLACEHOLDER', 'UNADJUDICABLE'):
         sub = [p for p in pf if p[0] == s]
         if sub: L.append(f"  - first adjudicator {s} (n={len(sub)}): coder said " + ', '.join(f'{k} {v}' for k, v in collections.Counter(b for _, b in sub).most_common()))
-    if pb: L.append(line('blind agent (items that were also blind re-adjudicated)', pb, ci=True))
+    if pb: L.append(line('blind agent (items that were also blind re-adjudicated)', pb, ci=True, key='B_blind'))
     L.append("- The author's 64-item sheet and sheet B share no item, so no comparison with the author's coding is possible on sheet B")
     OUT['sheet_B'] = {'pairs_first': pf, 'pairs_blind': pb, 'confusion_first_to_coder': {s: dict(c) for s, c in conf.items()}}
 
@@ -170,6 +177,7 @@ if B and sum(sum(c.values()) for c in conf.values()) >= 10:
         for s in S:
             p = rng.dirichlet([conf[s][t] + 0.5 for t in S]); st[idx_by[s]] = rng.choice(S, size=len(idx_by[s]), p=p)
         for k, v in summarise(st).items(): sims[k].append(v)
+    OUT['n_sim'] = N_SIM; OUT['confusion'] = {s_: {t: conf[s_][t] for t in S} for s_ in S}
     L.append(f'\n## Sensitivity of the detected figures to the independent coder\'s labels ({N_SIM} simulations, seed {SEED})\n')
     L.append("Each manual decision is relabelled independently with the coder's label distribution given the first adjudicator's state, "
              'estimated from sheet B (Dirichlet posterior, Jeffreys prior): ' + '; '.join(f"first {s}: coder " + ', '.join(f'{t} {conf[s][t]}' for t in S) for s in S) + '. '

@@ -31,4 +31,14 @@ if os.path.exists(hp):
     for line in open(hp).read().split('\n'):
         if line.startswith('- Human vs') or line.startswith('- On the'): out.append(line)
     out.append('')
+ip = os.path.join(ROOT, 'data/dataset/independent_agreement.md')
+if os.path.exists(ip) and '## Sheet B' in open(ip).read():
+    txt = open(ip).read()
+    out += ['### A.8 Independent human coding of the random sample of manual decisions (sheet B) and of the 64-item sheet (sheet A): agreement and sensitivity bound\n']
+    for line in txt.split('\n'):
+        if line.startswith('Sheet ') or line.startswith('- Coder vs') or line.startswith('  - first adjudicator') or line.startswith("- The author's") or line.startswith('- On the'): out.append(line)
+    if '## Sensitivity' in txt:
+        head, rest = txt.split('## Sensitivity', 1)[1].split('\n', 1)
+        out += ['', '**Sensitivity' + head.rstrip() + '**', rest.strip()]
+    out.append('')
 print('\n'.join(out))
