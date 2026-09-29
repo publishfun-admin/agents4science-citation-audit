@@ -169,10 +169,10 @@ released (data/adjudication/blind/). The second adjudicator is an agent, not a h
 statistics are used.
 
 **Analysis.** All analyses were pre-specified (paper/analysis_plan.md in the repository) before any manual
-adjudication: the plan and the adjudication protocol were committed to the repository (commit cdc5a08, 28 September
+adjudication: the plan and the adjudication protocol were committed to the repository (commit 18f47a4, 28 September
 2026, 21:16 UTC) after the automated pipeline had been calibrated on 21 papers and before the first adjudication
-decision was recorded (commit 6c9f513, 21:38 UTC); the PLACEHOLDER amendment was committed after 85 decisions (commit
-2cb53f4, 21:48 UTC), when the first stub entries were met. The amendment created a category for entries that would
+decision was recorded (commit 93c715f, 21:38 UTC); the PLACEHOLDER amendment was committed after 85 decisions (commit
+924d9f5, 21:48 UTC), when the first stub entries were met. The amendment created a category for entries that would
 otherwise have been NOT_FOUND or UNADJUDICABLE; its 28 entries are reported separately and enter only the "defective"
 sensitivity analysis. Proportions are reported with 95% Wilson intervals. The organisers' flag is evaluated at the reference
 level (share of their flagged example references that adjudication classifies as fabricated) and at the paper level
