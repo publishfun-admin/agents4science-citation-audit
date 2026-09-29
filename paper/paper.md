@@ -542,8 +542,8 @@ after the conference; at the time of writing the only web footprint of those tit
 **What the audit adds to the organisers' figure.** The organisers reported, correctly, that their checker could not
 verify at least one reference in 56% of submissions, and that figure has since been repeated as the hallucination rate
 of the first AI-authored conference. Adjudication of every unverified reference shows what the figure does and does
-not measure. Half of the flagged example references are real (46.1% exist exactly as cited), and no matched flagged
-example in an accepted paper was fabricated, so the flag is not a count of fabricated references. Against detected
+not measure. Half of the flagged example references are real by detected labels (46.1% exist as cited), and no matched
+flagged example in an accepted paper was detected as fabricated, so the flag is not a count of fabricated references. Against detected
 fabrication it marks 56% of reviewed submissions where 38% are affected, with a paper-level positive predictive value
 of 62%. But the blind check of our own automated stage shows that title matching, whether against the web or against a
 bibliographic registry, passes about one citation in ten whose author list, venue or identifier is wrong, so the true
@@ -638,8 +638,9 @@ are pooled in the primary outcome.
 
 **Undetected errors among automatically verified entries.** The automated stage accepts an entry when its DOI or
 arXiv identifier resolves to a work whose title is contained in the entry, or when a registry record's title agrees
-with the parsed title; the blind check shows that about one accepted citation in ten has a wrong author list, venue or
-identifier and about one in a hundred does not exist, concentrated in title-based Crossref matches. All detected rates
+with the parsed title; the blind check shows that about one accepted citation in twelve has a wrong author list, venue or
+identifier (14 of 180; source-weighted 8.2%) and about two in a hundred do not exist (4 of 180, 2.2%; source-weighted
+1.7%), concentrated in title-based Crossref matches. All detected rates
 are therefore lower bounds, the adjusted estimates rest on 180 sampled entries (29 of them human-coded) and on the
 assumption that the per-source rates apply across submissions (the flagged and unflagged groups have similar source profiles, but
 submission-level clustering of errors was not measured), and the invented-only outcome is affected as well as the
