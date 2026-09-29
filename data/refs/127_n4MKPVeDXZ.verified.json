@@ -1,15 +1,17 @@
 {
  "pdf": "127_n4MKPVeDXZ.pdf",
- "n_entries": 14,
- "fallback": false,
+ "n_entries": 23,
+ "fallback": "indent-guided",
  "error": null,
  "linenumbers_stripped": true,
- "parser_version": 2,
+ "two_column": false,
+ "parser_version": 4,
+ "reprocessed": true,
  "entries": [
   {
    "junk": false,
    "idx": 1,
-   "raw": "References A. Al-Fuqaha, M. Guizani, M. Mohammadi, M. Aledhari, and M. Ayyash. A survey of large language models. ACM Computing Surveys, 56(1):1\u201340, 2023. doi: 10.1145/3626245.",
+   "raw": "A. Al-Fuqaha, M. Guizani, M. Mohammadi, M. Aledhari, and M. Ayyash. A survey of large language models. ACM Computing Surveys, 56(1):1\u201340, 2023. doi: 10.1145/3626245.",
    "title": "A survey of large language models",
    "authors": [
     "Al-Fuqaha",
@@ -24,26 +26,8 @@
    "urls": [],
    "container": "ACM Computing Surveys",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
-   "via": "crossref",
-   "match": {
-    "source": "crossref",
-    "doi": "10.26434/chemrxiv-2024-fmf9k",
-    "title": "Large Language Models in Drug Discovery: A Survey",
-    "year": 2024,
-    "first_author": "AbuNasser",
-    "container": "",
-    "type": "posted-content",
-    "score": 28.605864
-   },
-   "metrics": {
-    "title_sim": 95.23809523809524,
-    "containment": 0.667,
-    "partial_ratio": 66.66666666666667,
-    "year_ok": true,
-    "first_author_ok": false
-   },
    "evidence": [
     {
      "step": "doi_resolves_title_mismatch",
@@ -64,8 +48,52 @@
       "year_ok": true,
       "first_author_ok": false
      }
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.2139/ssrn.5314015",
+      "title": "Multimodal Large Language Models : A Survey",
+      "year": 2025,
+      "first_author": "Joshi",
+      "container": "",
+      "type": "posted-content",
+      "score": 28.614164
+     },
+     "metrics": {
+      "title_sim": 95.23809523809524,
+      "containment": 0.8,
+      "partial_ratio": 70.73170731707317,
+      "year_ok": false,
+      "first_author_ok": false
+     }
     }
-   ]
+   ],
+   "likely_match": null,
+   "via": "s2",
+   "match": {
+    "source": "s2",
+    "id": "36709000a9272e941338244ef80ff5ab1dd2bba1",
+    "title": "A Survey of Large Language Models",
+    "year": 2023,
+    "first_author": "W. Zhao",
+    "container": "Frontiers Comput. Sci.",
+    "ext": {
+     "DBLP": "journals/fcsc/ZhaoZLTDHZMZLWDYCCJRLTL26",
+     "ArXiv": "2303.18223",
+     "DOI": "10.1007/s11704-026-60308-3",
+     "CorpusId": 257900969
+    }
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "second_pass_hit": true
   },
   {
    "junk": false,
@@ -83,7 +111,7 @@
    "urls": [],
    "container": "Veterinary Radiology & Ultrasound",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "UNVERIFIED",
    "evidence": [
     {
@@ -116,7 +144,7 @@
       "first_author": "Guo",
       "container": "Discover Computing",
       "type": "journal-article",
-      "score": 44.250603
+      "score": 44.235603
      },
      "metrics": {
       "title_sim": 83.07692307692308,
@@ -145,7 +173,7 @@
    "urls": [],
    "container": "Journal of Veterinary Internal Medicine",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "UNVERIFIED",
    "evidence": [
     {
@@ -178,7 +206,7 @@
       "first_author": null,
       "container": "Veterinary Pathology",
       "type": "journal-article",
-      "score": 29.219599
+      "score": 29.19487
      },
      "metrics": {
       "title_sim": 87.85046728971963,
@@ -207,7 +235,7 @@
    "urls": [],
    "container": "Acta Veterinaria Scandinavica",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "UNVERIFIED",
    "evidence": [
     {
@@ -224,7 +252,7 @@
       "first_author": "Buch",
       "container": "The Veterinary Journal",
       "type": "journal-article",
-      "score": 31.269941
+      "score": 31.283367
      },
      "metrics": {
       "title_sim": 58.241758241758234,
@@ -254,7 +282,7 @@
    "urls": [],
    "container": "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP",
    "type": "paper-conference",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "doi",
    "match": {
@@ -279,29 +307,22 @@
   {
    "junk": false,
    "idx": 6,
-   "raw": "Difei Gu, Yunhe Gao, Yang Zhou, Mu Zhou, and Dimitris Metaxas. Radalign: Advancing radiology report generation with vision-language concept alignment, 2025. Accepted to MICCAI 2025. G. Haffari, A. Ghoshal, and S. Vahdati. A survey on the evaluation of medical report generation. arXiv preprint arXiv:2310.08794, 2023. doi: 10.48550/arXiv.2310.08794. K. He, X. Zhang, S. Ren, and J. Sun. Deep residual learning for image recognition. In Proceedings of the IEEE conference on computer vision & pattern recognition, pages 770\u2013778. IEEE, 2016. doi: 10.1109/CVPR.2016.90.",
+   "raw": "Difei Gu, Yunhe Gao, Yang Zhou, Mu Zhou, and Dimitris Metaxas. Radalign: Advancing radiology report generation with vision-language concept alignment, 2025. Accepted to MICCAI 2025.",
    "title": "Radalign: Advancing radiology report generation with vision-language concept alignment",
    "authors": [
     "Gu",
     "Gao",
     "Zhou",
     "Zhou",
-    "Metaxas",
-    "Haffari",
-    "Ghoshal",
-    "Vahdati",
-    "He",
-    "Zhang",
-    "Ren",
-    "Sun"
+    "Metaxas"
    ],
    "year": 2025,
-   "doi": "10.48550/arXiv.2310.08794",
-   "arxiv": "2310.08794",
+   "doi": null,
+   "arxiv": null,
    "urls": [],
-   "container": "Proceedings of the IEEE conference on computer vision & pattern recognition",
-   "type": "paper-conference",
-   "parser": "anystyle-find",
+   "container": null,
+   "type": null,
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -312,7 +333,7 @@
     "first_author": "Gu",
     "container": "Lecture Notes in Computer Science",
     "type": "book-chapter",
-    "score": 58.298626
+    "score": 58.316128
    },
    "metrics": {
     "title_sim": 100.0,
@@ -321,46 +342,131 @@
     "year_ok": true,
     "first_author_ok": true
    },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 7,
+   "raw": "G. Haffari, A. Ghoshal, and S. Vahdati. A survey on the evaluation of medical report generation. arXiv preprint arXiv:2310.08794, 2023. doi: 10.48550/arXiv.2310.08794.",
+   "title": "A survey on the evaluation of medical report generation",
+   "authors": [
+    "Haffari",
+    "Ghoshal",
+    "Vahdati"
+   ],
+   "year": 2023,
+   "doi": "10.48550/arXiv.2310.08794",
+   "arxiv": "2310.08794",
+   "urls": [],
+   "container": null,
+   "type": null,
+   "parser": "anystyle-indent-guided",
+   "verdict": "UNVERIFIED",
    "evidence": [
     {
      "step": "doi_not_resolvable",
      "doi": "10.48550/arXiv.2310.08794"
     },
     {
-     "step": "arxiv_id_not_found",
-     "arxiv": "2310.08794"
+     "step": "arxiv_id_resolves_title_mismatch",
+     "rec": {
+      "source": "arxiv",
+      "arxiv": "2310.08794",
+      "title": "Federated Learning in Competitive EV Charging Market",
+      "year": 2023,
+      "first_author": "Chenxi Sun"
+     },
+     "metrics": {
+      "title_sim": 41.12149532710281,
+      "containment": 0.0,
+      "partial_ratio": 44.230769230769226,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.7759/cureus.37589",
+      "title": "Evaluation of ChatGPT's Capabilities in Medical Report Generation",
+      "year": 2023,
+      "first_author": "Zhou",
+      "container": "Cureus",
+      "type": "journal-article",
+      "score": 28.23461
+     },
+     "metrics": {
+      "title_sim": 82.97872340425532,
+      "containment": 0.667,
+      "partial_ratio": 63.07692307692307,
+      "year_ok": true,
+      "first_author_ok": false
+     }
     }
-   ]
+   ],
+   "likely_match": null
   },
   {
    "junk": false,
-   "idx": 7,
-   "raw": "Jia Ji, Yongshuai Hou, Xinyu Chen, Youcheng Pan, and Yang Xiang. Vision-language model for generating textual descriptions from clinical images: Model development and validation study. JMIR Formative Research, 8:e32690, 2024. URL https://formative.jmir.org/2024/1/ e32690. A. E. Johnson, T. J. Pollard, S. J. Berkowitz, N. R. Greenbaum, M. P. Lungren, C. Y. Deng, R. G. Mark, and S. Horng. Mimic-cxr, a de-identified publicly available database of chest radiographs with free-text reports. Scientific data, 6(1):345, 2019. doi: 10.1038/s41597-019-0359-6.",
+   "idx": 8,
+   "raw": "K. He, X. Zhang, S. Ren, and J. Sun. Deep residual learning for image recognition. In Proceedings of the IEEE conference on computer vision & pattern recognition, pages 770\u2013778. IEEE, 2016. doi: 10.1109/CVPR.2016.90.",
+   "title": "Deep residual learning for image recognition",
+   "authors": [
+    "He",
+    "Zhang",
+    "Ren",
+    "Sun"
+   ],
+   "year": 2016,
+   "doi": "10.1109/CVPR.2016.90",
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the IEEE conference on computer vision & pattern recognition",
+   "type": "paper-conference",
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "doi",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/cvpr.2016.90",
+    "title": "Deep Residual Learning for Image Recognition",
+    "year": 2016,
+    "first_author": "He",
+    "container": "2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "type": "proceedings-article",
+    "score": 1
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 9,
+   "raw": "Jia Ji, Yongshuai Hou, Xinyu Chen, Youcheng Pan, and Yang Xiang. Vision-language model for generating textual descriptions from clinical images: Model development and validation study. JMIR Formative Research, 8:e32690, 2024. URL https://formative.jmir.org/2024/1/ e32690.",
    "title": "Vision-language model for generating textual descriptions from clinical images: Model development and validation study",
    "authors": [
     "Ji",
     "Hou",
     "Chen",
     "Pan",
-    "Xiang",
-    "Johnson",
-    "Pollard",
-    "Berkowitz",
-    "Greenbaum",
-    "Lungren",
-    "Deng",
-    "Mark",
-    "Horng"
+    "Xiang"
    ],
    "year": 2024,
-   "doi": "10.1038/s41597-019-0359-6",
+   "doi": null,
    "arxiv": null,
    "urls": [
     "https://formative.jmir.org/2024/1/"
    ],
    "container": "JMIR Formative Research",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -371,12 +477,55 @@
     "first_author": "Ji",
     "container": "",
     "type": "posted-content",
-    "score": 82.11686
+    "score": 82.12523
    },
    "metrics": {
     "title_sim": 100.0,
     "containment": 0.923,
     "partial_ratio": 95.23809523809523,
+    "year_ok": true,
+    "first_author_ok": true
+   },
+   "evidence": []
+  },
+  {
+   "junk": false,
+   "idx": 10,
+   "raw": "A. E. Johnson, T. J. Pollard, S. J. Berkowitz, N. R. Greenbaum, M. P. Lungren, C. Y. Deng, R. G. Mark, and S. Horng. Mimic-cxr, a de-identified publicly available database of chest radiographs with free-text reports. Scientific data, 6(1):345, 2019. doi: 10.1038/s41597-019-0359-6.",
+   "title": "Mimic-cxr, a de-identified publicly available database of chest radiographs with free-text reports",
+   "authors": [
+    "Johnson",
+    "Pollard",
+    "Berkowitz",
+    "Greenbaum",
+    "Lungren",
+    "Deng",
+    "Mark",
+    "Horng"
+   ],
+   "year": 2019,
+   "doi": "10.1038/s41597-019-0359-6",
+   "arxiv": null,
+   "urls": [],
+   "container": "Scientific data",
+   "type": "article-journal",
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1038/s41597-019-0322-0",
+    "title": "MIMIC-CXR, a de-identified publicly available database of chest radiographs with free-text reports",
+    "year": 2019,
+    "first_author": "Johnson",
+    "container": "Scientific Data",
+    "type": "journal-article",
+    "score": 83.6767
+   },
+   "metrics": {
+    "title_sim": 100.0,
+    "containment": 1.0,
+    "partial_ratio": 100.0,
     "year_ok": true,
     "first_author_ok": true
    },
@@ -389,15 +538,13 @@
   },
   {
    "junk": false,
-   "idx": 8,
-   "raw": "S. Kim, J. Lee, and J. Kim. A deep learning model for generating veterinary dental reports from radiographs. Frontiers in Veterinary Science, 10:1129354, 2023. doi: 10.3389/fvets.2023.1129354. Y. Kim and C. Chiu. Vertebral heart size in 7,866 dogs. Journal of the American Veterinary Medical Association, 255(10):1145\u20131151, 2019. doi: 10.2460/javma.255.10.1145.",
+   "idx": 11,
+   "raw": "S. Kim, J. Lee, and J. Kim. A deep learning model for generating veterinary dental reports from radiographs. Frontiers in Veterinary Science, 10:1129354, 2023. doi: 10.3389/fvets.2023.1129354.",
    "title": "A deep learning model for generating veterinary dental reports from radiographs",
    "authors": [
     "Kim",
     "Lee",
-    "Kim",
-    "Kim",
-    "Chiu"
+    "Kim"
    ],
    "year": 2023,
    "doi": "10.3389/fvets.2023.1129354",
@@ -405,7 +552,7 @@
    "urls": [],
    "container": "Frontiers in Veterinary Science",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "UNVERIFIED",
    "evidence": [
     {
@@ -422,7 +569,7 @@
       "first_author": "Hong",
       "container": "Scientific Reports",
       "type": "journal-article",
-      "score": 32.717518
+      "score": 32.713837
      },
      "metrics": {
       "title_sim": 68.6046511627907,
@@ -437,7 +584,52 @@
   },
   {
    "junk": false,
-   "idx": 9,
+   "idx": 12,
+   "raw": "Y. Kim and C. Chiu. Vertebral heart size in 7,866 dogs. Journal of the American Veterinary Medical Association, 255(10):1145\u20131151, 2019. doi: 10.2460/javma.255.10.1145.",
+   "title": "Vertebral heart size in 7,866 dogs",
+   "authors": [
+    "Kim",
+    "Chiu"
+   ],
+   "year": 2019,
+   "doi": "10.2460/javma.255.10.1145",
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of the American Veterinary Medical Association",
+   "type": "article-journal",
+   "parser": "anystyle-indent-guided",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "doi_not_resolvable",
+     "doi": "10.2460/javma.255.10.1145"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1111/vru.13027",
+      "title": "Vertebral heart size and vertebral left atrial size reference ranges in healthy Maltese dogs",
+      "year": 2022,
+      "first_author": "Baisan",
+      "container": "Veterinary Radiology &amp; Ultrasound",
+      "type": "journal-article",
+      "score": 31.69527
+     },
+     "metrics": {
+      "title_sim": 47.61904761904761,
+      "containment": 0.5,
+      "partial_ratio": 53.260869565217384,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 13,
    "raw": "S. Lee, H. Kim, and J. Kim. A review on deep learning-based automatic report generation in veterinary medicine. Journal of Veterinary Science, 24(1):e1, 2023. doi: 10.4142/jvs.2023.24.e1.",
    "title": "A review on deep learning-based automatic report generation in veterinary medicine",
    "authors": [
@@ -451,7 +643,7 @@
    "urls": [],
    "container": "Journal of Veterinary Science",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "UNVERIFIED",
    "evidence": [
     {
@@ -468,7 +660,7 @@
       "first_author": "Kumar",
       "container": "2023 Third International Conference on Artificial Intelligence and Smart Energy (ICAIS)",
       "type": "proceedings-article",
-      "score": 33.442127
+      "score": 33.44847
      },
      "metrics": {
       "title_sim": 90.38461538461539,
@@ -483,30 +675,19 @@
   },
   {
    "junk": false,
-   "idx": 10,
-   "raw": "A. Li and et al. Automated canine cardiomegaly detection on thoracic radiographs using deep learning. The Veterinary Journal, 274:105699, 2021. doi: 10.1016/j.tvjl.2021.105699. Y. Li and et al. Variational autoencoders for medical image generation and synthesis. Medical Image Analysis, 58:101529, 2019. doi: 10.1016/j.media.2019.101529. H. Liao, Y. Gao, and Y. Zhang. Medical image report generation based on multi-instance and multi-scale learning. Computer Methods and Programs in Biomedicine, 238:107594, 2023. doi: 10.1016/j.cmpb.2023.107594. F. Liu and et al. Exploring and distilling posterior representations for vision-language modeling. In Proceedings of the IEEE/CVF International Conference on Computer Vision, pages 1968\u20131977. IEEE, 2021. doi: 10.1109/ICCV48922.2021.00199. M. M\u00fcller, J. M. Ale, R. T. O\u2019Brien, and P. V. Scrivani. Automated generation of veterinary radiology reports using deep learning. Veterinary Radiology & Ultrasound, 63(5):635\u2013642, 2022. doi: 10.1111/vru.13104. A. Pinto and R. T. O\u2019Brien. Progress and challenges in automatic report generation in veterinary sciences. Journal of Veterinary Radiology & Ultrasound, 64(1):1\u20132, 2023. doi: 10.1111/vru.13185.",
+   "idx": 14,
+   "raw": "A. Li and et al. Automated canine cardiomegaly detection on thoracic radiographs using deep learning. The Veterinary Journal, 274:105699, 2021. doi: 10.1016/j.tvjl.2021.105699.",
    "title": "Automated canine cardiomegaly detection on thoracic radiographs using deep learning",
    "authors": [
-    "and",
-    "and",
-    "Liao",
-    "Gao",
-    "Zhang",
-    "and",
-    "M\u00fcller",
-    "Ale",
-    "O\u2019Brien",
-    "Scrivani",
-    "Pinto",
-    "O\u2019Brien"
+    "and"
    ],
    "year": 2021,
    "doi": "10.1016/j.tvjl.2021.105699",
    "arxiv": null,
    "urls": [],
-   "container": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+   "container": "The Veterinary Journal",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "UNVERIFIED",
    "evidence": [
     {
@@ -523,11 +704,11 @@
       "first_author": "Guo",
       "container": "Discover Computing",
       "type": "journal-article",
-      "score": 51.88483
+      "score": 51.892544
      },
      "metrics": {
       "title_sim": 87.07482993197279,
-      "containment": 0.636,
+      "containment": 0.545,
       "partial_ratio": 70.75471698113208,
       "year_ok": false,
       "first_author_ok": false
@@ -538,7 +719,303 @@
   },
   {
    "junk": false,
-   "idx": 11,
+   "idx": 15,
+   "raw": "Y. Li and et al. Variational autoencoders for medical image generation and synthesis. Medical Image Analysis, 58:101529, 2019. doi: 10.1016/j.media.2019.101529.",
+   "title": "Variational autoencoders for medical image generation and synthesis",
+   "authors": [
+    "and"
+   ],
+   "year": 2019,
+   "doi": "10.1016/j.media.2019.101529",
+   "arxiv": null,
+   "urls": [],
+   "container": "Medical Image Analysis",
+   "type": "article-journal",
+   "parser": "anystyle-indent-guided",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "doi_not_resolvable",
+     "doi": "10.1016/j.media.2019.101529"
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1016/b978-0-12-824349-7.00015-3",
+      "title": "Autoencoders and variational autoencoders in medical image analysis",
+      "year": 2022,
+      "first_author": "Ehrhardt",
+      "container": "Biomedical Image Synthesis and Simulation",
+      "type": "book-chapter",
+      "score": 42.52359
+     },
+     "metrics": {
+      "title_sim": 87.5,
+      "containment": 1.0,
+      "partial_ratio": 75.2,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 16,
+   "raw": "H. Liao, Y. Gao, and Y. Zhang. Medical image report generation based on multi-instance and multi-scale learning. Computer Methods and Programs in Biomedicine, 238:107594, 2023. doi: 10.1016/j.cmpb.2023.107594.",
+   "title": "Medical image report generation based on multi-instance and multi-scale learning",
+   "authors": [
+    "Liao",
+    "Gao",
+    "Zhang"
+   ],
+   "year": 2023,
+   "doi": "10.1016/j.cmpb.2023.107594",
+   "arxiv": null,
+   "urls": [],
+   "container": "Computer Methods and Programs in Biomedicine",
+   "type": "article-journal",
+   "parser": "anystyle-indent-guided",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "doi_resolves_title_mismatch",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1016/j.cmpb.2023.107594",
+      "title": "Influence of transurethral catheters on urine pressure-flow relationships in males: A computational fluid-dynamics study",
+      "year": 2023,
+      "first_author": "Mascolini",
+      "container": "Computer Methods and Programs in Biomedicine",
+      "type": "journal-article",
+      "score": 1
+     },
+     "metrics": {
+      "title_sim": 41.45077720207254,
+      "containment": 0.0,
+      "partial_ratio": 43.69747899159664,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.3390/app122312432",
+      "title": "Face Gender and Age Classification Based on Multi-Task, Multi-Instance and Multi-Scale Learning",
+      "year": 2022,
+      "first_author": "Liao",
+      "container": "Applied Sciences",
+      "type": "journal-article",
+      "score": 42.30862
+     },
+     "metrics": {
+      "title_sim": 77.63157894736842,
+      "containment": 0.583,
+      "partial_ratio": 70.2127659574468,
+      "year_ok": true,
+      "first_author_ok": true
+     }
+    }
+   ],
+   "likely_match": {
+    "source": "crossref",
+    "doi": "10.3390/app122312432",
+    "title": "Face Gender and Age Classification Based on Multi-Task, Multi-Instance and Multi-Scale Learning",
+    "year": 2022,
+    "first_author": "Liao",
+    "container": "Applied Sciences",
+    "type": "journal-article",
+    "score": 42.30862
+   }
+  },
+  {
+   "junk": false,
+   "idx": 17,
+   "raw": "F. Liu and et al. Exploring and distilling posterior representations for vision-language modeling. In Proceedings of the IEEE/CVF International Conference on Computer Vision, pages 1968\u20131977. IEEE, 2021. doi: 10.1109/ICCV48922.2021.00199.",
+   "title": "Exploring and distilling posterior representations for vision-language modeling",
+   "authors": [
+    "and"
+   ],
+   "year": 2021,
+   "doi": "10.1109/ICCV48922.2021.00199",
+   "arxiv": null,
+   "urls": [],
+   "container": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+   "type": "paper-conference",
+   "parser": "anystyle-indent-guided",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "doi_resolves_title_mismatch",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1109/iccv48922.2021.00199",
+      "title": "Cross-Camera Convolutional Color Constancy",
+      "year": 2021,
+      "first_author": "Afifi",
+      "container": "2021 IEEE/CVF International Conference on Computer Vision (ICCV)",
+      "type": "proceedings-article",
+      "score": 1
+     },
+     "metrics": {
+      "title_sim": 34.710743801652896,
+      "containment": 0.0,
+      "partial_ratio": 45.238095238095234,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.70675/b6a15d0ez15bez43e5za967z16a069e0a8bb",
+      "title": "Improving Representations for Language Modeling",
+      "year": 2026,
+      "first_author": "Godey",
+      "container": "",
+      "type": "dissertation",
+      "score": 25.603016
+     },
+     "metrics": {
+      "title_sim": 88.0952380952381,
+      "containment": 0.75,
+      "partial_ratio": 82.97872340425532,
+      "year_ok": false,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 18,
+   "raw": "M. M\u00fcller, J. M. Ale, R. T. O\u2019Brien, and P. V. Scrivani. Automated generation of veterinary radiology reports using deep learning. Veterinary Radiology & Ultrasound, 63(5):635\u2013642, 2022. doi: 10.1111/vru.13104.",
+   "title": "Automated generation of veterinary radiology reports using deep learning",
+   "authors": [
+    "M\u00fcller",
+    "Ale",
+    "O\u2019Brien",
+    "Scrivani"
+   ],
+   "year": 2022,
+   "doi": "10.1111/vru.13104",
+   "arxiv": null,
+   "urls": [],
+   "container": "Veterinary Radiology & Ultrasound",
+   "type": "article-journal",
+   "parser": "anystyle-indent-guided",
+   "verdict": "VERIFIED",
+   "via": "crossref",
+   "match": {
+    "source": "crossref",
+    "doi": "10.1109/icai55857.2022.9960063",
+    "title": "Automated Music Generation using Deep Learning",
+    "year": 2022,
+    "first_author": "Bhardwaj",
+    "container": "2022 International Conference Automatics and Informatics (ICAI)",
+    "type": "proceedings-article",
+    "score": 31.397217
+   },
+   "metrics": {
+    "title_sim": 93.02325581395348,
+    "containment": 0.8,
+    "partial_ratio": 60.86956521739131,
+    "year_ok": true,
+    "first_author_ok": false
+   },
+   "evidence": [
+    {
+     "step": "doi_resolves_title_mismatch",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1111/vru.13104",
+      "title": "Clinical and CT sialography findings in 22 dogs with surgically confirmed sialoceles",
+      "year": 2022,
+      "first_author": "Tan",
+      "container": "Veterinary Radiology &amp; Ultrasound",
+      "type": "journal-article",
+      "score": 1
+     },
+     "metrics": {
+      "title_sim": 37.17948717948718,
+      "containment": 0.0,
+      "partial_ratio": 41.666666666666664,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ]
+  },
+  {
+   "junk": false,
+   "idx": 19,
+   "raw": "A. Pinto and R. T. O\u2019Brien. Progress and challenges in automatic report generation in veterinary sciences. Journal of Veterinary Radiology & Ultrasound, 64(1):1\u20132, 2023. doi: 10.1111/vru.13185.",
+   "title": "Progress and challenges in automatic report generation in veterinary sciences",
+   "authors": [
+    "Pinto",
+    "O\u2019Brien"
+   ],
+   "year": 2023,
+   "doi": "10.1111/vru.13185",
+   "arxiv": null,
+   "urls": [],
+   "container": "Journal of Veterinary Radiology & Ultrasound",
+   "type": "article-journal",
+   "parser": "anystyle-indent-guided",
+   "verdict": "UNVERIFIED",
+   "evidence": [
+    {
+     "step": "doi_resolves_title_mismatch",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.1111/vru.13185",
+      "title": "Accuracy of the modified vertebral heart score and the cardio\u2010vertebral ratio for radiographic evaluation of cardiomegaly in ferrets",
+      "year": 2023,
+      "first_author": "Godart",
+      "container": "Veterinary Radiology &amp; Ultrasound",
+      "type": "journal-article",
+      "score": 1
+     },
+     "metrics": {
+      "title_sim": 39.23444976076556,
+      "containment": 0.0,
+      "partial_ratio": 43.939393939393945,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    },
+    {
+     "step": "crossref_best_reject",
+     "rec": {
+      "source": "crossref",
+      "doi": "10.20944/preprints202312.0056.v1",
+      "title": "Progress on Next Generation Electrochemical Energy Storages: Status and Challenges",
+      "year": 2023,
+      "first_author": "Benti",
+      "container": "",
+      "type": "posted-content",
+      "score": 28.150167
+     },
+     "metrics": {
+      "title_sim": 67.09677419354838,
+      "containment": 0.375,
+      "partial_ratio": 53.125,
+      "year_ok": true,
+      "first_author_ok": false
+     }
+    }
+   ],
+   "likely_match": null
+  },
+  {
+   "junk": false,
+   "idx": 20,
    "raw": "Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N Gomez, \u0141ukasz Kaiser, and Illia Polosukhin. Attention is all you need. In Advances in neural information processing systems, pages 5998\u20136008, 2017.",
    "title": "Attention is all you need",
    "authors": [
@@ -557,7 +1034,7 @@
    "urls": [],
    "container": "Advances in neural information processing systems",
    "type": "chapter",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -568,7 +1045,7 @@
     "first_author": "Vaswani",
     "container": "",
     "type": "posted-content",
-    "score": 43.621178
+    "score": 43.63292
    },
    "metrics": {
     "title_sim": 100.0,
@@ -581,7 +1058,7 @@
   },
   {
    "junk": false,
-   "idx": 12,
+   "idx": 21,
    "raw": "X. Wang, A. Liu, and Y. Li. R-net: A deep learning-based approach for automatic radiology report generation. IEEE Journal of Biomedical & Health Informatics, 26(10):5135\u20135146, 2022. doi: 10.1109/JBHI.2022.3184615.",
    "title": "R-net: A deep learning-based approach for automatic radiology report generation",
    "authors": [
@@ -595,7 +1072,7 @@
    "urls": [],
    "container": "IEEE Journal of Biomedical & Health Informatics",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -606,7 +1083,7 @@
     "first_author": "Debnath",
     "container": "International Journal of Science and Research (IJSR)",
     "type": "journal-article",
-    "score": 42.223267
+    "score": 42.224155
    },
    "metrics": {
     "title_sim": 94.82758620689656,
@@ -624,7 +1101,7 @@
   },
   {
    "junk": false,
-   "idx": 13,
+   "idx": 22,
    "raw": "P. Zhang, X. Wang, and Y. Zhang. When radiology report generation meets knowledge graph. In Proceedings of the AAAI Conference on Artificial Intelligence, volume 34, pages 12910\u201312917. AAAI Press, 2020. doi: 10.1609/aaai.v34i07.6989.",
    "title": "When radiology report generation meets knowledge graph",
    "authors": [
@@ -638,7 +1115,7 @@
    "urls": [],
    "container": "Proceedings of the AAAI Conference on Artificial Intelligence",
    "type": "paper-conference",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "doi",
    "match": {
@@ -662,7 +1139,7 @@
   },
   {
    "junk": false,
-   "idx": 14,
+   "idx": 23,
    "raw": "Y. Zhou and et al. Efficient convolutional neural networks and network compression methods for object detection: a survey. Multimedia Tools & Applications, pages 1\u201326, 2023. doi: 10.1007/ s11042-023-15608-2.",
    "title": "Efficient convolutional neural networks and network compression methods for object detection: a survey",
    "authors": [
@@ -674,7 +1151,7 @@
    "urls": [],
    "container": "Multimedia Tools & Applications",
    "type": "article-journal",
-   "parser": "anystyle-find",
+   "parser": "anystyle-indent-guided",
    "verdict": "VERIFIED",
    "via": "crossref",
    "match": {
@@ -685,7 +1162,7 @@
     "first_author": "Zhou",
     "container": "Multimedia Tools and Applications",
     "type": "journal-article",
-    "score": 54.63873
+    "score": 54.64095
    },
    "metrics": {
     "title_sim": 100.0,
@@ -703,6 +1180,5 @@
   }
  ],
  "second_pass": true,
- "arxiv_repass": true,
- "openalex_pass": true
+ "arxiv_repass": true
 }

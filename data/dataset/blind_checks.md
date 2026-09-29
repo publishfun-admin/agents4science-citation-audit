@@ -9,7 +9,7 @@
 
 ## (b) Blind adjudication of 180 automatically verified entries (stratified by verification source)
 
-- Corrupted citations of real works among auto-verified entries: crude 9.4% (17/180; 95% CI 6.0-14.6); source-weighted estimate 9.7% (~582 of 5988)
+- Corrupted citations of real works among auto-verified entries: crude 9.4% (17/180; 95% CI 6.0-14.6); source-weighted estimate 9.7% (~582 of 5992)
 - Wholly invented among auto-verified entries: 1.1% (2/180; 95% CI 0.3-4.0); source-weighted 0.9%
-- By source: arxiv: 1/15 corrupted, 0/15 not found (population 344); crossref: 11/101 corrupted, 1/101 not found (population 4040); doi: 2/20 corrupted, 0/20 not found (population 516); other: 1/5 corrupted, 1/5 not found (population 63); s2: 2/34 corrupted, 0/34 not found (population 932); url: 0/5 corrupted, 0/5 not found (population 93)
+- By source: arxiv: 1/15 corrupted, 0/15 not found (population 343); crossref: 11/101 corrupted, 1/101 not found (population 4042); doi: 2/20 corrupted, 0/20 not found (population 517); other: 1/5 corrupted, 1/5 not found (population 62); s2: 2/34 corrupted, 0/34 not found (population 935); url: 0/5 corrupted, 0/5 not found (population 93)
 

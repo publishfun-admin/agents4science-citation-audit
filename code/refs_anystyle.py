@@ -68,8 +68,9 @@ def _indent_guided(text, n_found):
     ridx = [i for i, l in enumerate(lines) if REFHEAD_RX.match(l)]
     if not ridx: return None, None
     sec = lines[ridx[-1] + 1:]
+    END_RX = re.compile(r'^\s*(?:[A-Z]\.?\s+)?(responsible ai statement|reproducibility statement|ethics statement|ethical statement|broader impact|acknowledg|appendix|appendices|supplementary|technical appendices)', re.I)
     for i, l in enumerate(sec):
-        if CHECKLIST_RX.match(l): sec = sec[:i]; break
+        if CHECKLIST_RX.match(l) or END_RX.match(l): sec = sec[:i]; break
     keep = [l for l in sec if not re.fullmatch(r'\s*\d{1,3}\s*', l)]          # drop bare page numbers
     nonempty = [l for l in keep if l.strip()]
     if len(nonempty) < 6: return None, None
@@ -111,6 +112,14 @@ def _indent_guided(text, n_found):
                 cur.append(l)
             if cur: chunks.append(_join_lines(cur))
             cands.append(finish(chunks))
+    # author-pattern starts (Vancouver "Surname AB, Surname CD." and APA "Surname, A. B." lists without hanging indents)
+    AUTH_START = re.compile(r'^\s*(?:[A-Z][\w\'\-\u00C0-\u024F]+(?: [A-Z][\w\'\-\u00C0-\u024F]+)? [A-Z]{1,3}[,.]|[A-Z][\w\'\-\u00C0-\u024F]+, [A-Z]\.|[A-Z][\w\'\-\u00C0-\u024F]+ [A-Z][\w\'\-\u00C0-\u024F]+ (?:and |& )?[A-Z])')
+    chunks, cur = [], []
+    for l in nonempty:
+        if AUTH_START.match(l) and cur and re.search(r'[.)\]0-9]\s*$', cur[-1]): chunks.append(_join_lines(cur)); cur = []
+        cur.append(l)
+    if cur: chunks.append(_join_lines(cur))
+    if len(chunks) >= 3: cands.append(finish(chunks))
     blocks, cur = [], []                                                # blank-line separated blocks
     for l in keep:
         if l.strip(): cur.append(l)
