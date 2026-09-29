@@ -4,7 +4,7 @@ entries from blind samples, weighted by verification source. Reads the sample/de
 (copied into data/adjudication/blind/ for release) and writes data/dataset/blind_checks.md."""
 import csv, glob, json, math, os, sys, collections
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..')
-TMP = os.environ.get('BLIND_DIR', '/Users/admin/.claude/jobs/5f500ff7/tmp')
+TMP = os.environ.get('BLIND_DIR', os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'data', 'adjudication', 'blind'))   # released blind samples and decisions
 REL = os.path.join(ROOT, 'data', 'adjudication', 'blind'); os.makedirs(REL, exist_ok=True)
 def wilson(k, n, z=1.96):
     if n == 0: return (float('nan'),) * 3

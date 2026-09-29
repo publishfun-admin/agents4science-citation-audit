@@ -9,6 +9,9 @@ md = open(md_path, encoding='utf-8').read(); title, abstract, body_noabs = split
 # the revision endpoint does not update the stored abstract: keep the Abstract section inside the body so reviewers see the current one
 body = re.sub(r'^# .+\n', '', md, count=1).strip() + '\n'
 letter = open(letter_path, encoding='utf-8').read()
+for name, text in (('manuscript', md), ('response letter', letter)):
+    if 'PENDING-' in text:
+        sys.exit(f'refusing to submit: the {name} still contains a PENDING- marker (fill in the independent-coder results first)')
 payload = {'content': body, 'response_letter': letter, 'abstract': abstract, 'title': title}
 print(json.dumps({k: (v if k in ('title',) else f'<{len(v)} chars>') for k, v in payload.items()}, indent=1))
 if '--dry-run' in sys.argv: sys.exit(0)

@@ -1,6 +1,10 @@
 # Instructions for the independent coder
 
-You are asked to judge whether 109 references, copied exactly as they appear in submitted research papers, cite real works correctly. Two files: `independent_coder_sheet_A.csv` (64 rows) and `independent_coder_sheet_B.csv` (45 rows). They contain only the reference text; do not look at any other file in this folder, and please do the coding yourself, without an AI assistant. Expect about one to two hours in all; you can stop and resume.
+You are asked to judge whether 109 references, copied exactly as they appear in submitted research papers, cite real works correctly. Two files: `independent_coder_sheet_B.csv` (45 rows) and `independent_coder_sheet_A.csv` (64 rows). They contain only the reference text. Please do sheet B first: it is a random sample and is the one that matters most; sheet A contains harder, deliberately selected cases. Expect about 45 minutes for B and about an hour for A; you can stop and resume.
+
+Who may code: someone who is not an author of the study, does not operate or work for Publish.fun, and has no other connection to the study. Please fill in `CODER_STATEMENT.md` when you finish; it is published with your coding (you may withhold your name there).
+
+Rules: do not look at any other file in this folder or repository, do not use an AI assistant for any item, and do not discuss items with the study's author before you have finished both sheets. Your labels will be compared with labels produced by AI agents and by the author; none of those labels are in your files.
 
 For each row, search for the cited work with whatever you normally use (Google Scholar, Google, Crossref, PubMed, arXiv, publisher sites) and fill in three columns:
 
@@ -13,4 +17,4 @@ For each row, search for the cited work with whatever you normally use (Google S
 - `CODER_EVIDENCE_URL`: the page or DOI that settled it; for NOT_FOUND, the two searches you ran.
 - `CODER_NOTE`: one line, e.g. "real: Smith et al. 2019, J Neurosci; cited with wrong journal" or "no such paper; only unrelated hits".
 
-When finished, save both files in place. Thank you.
+When finished, save both files in place (same file names, same columns) and complete `CODER_STATEMENT.md`. Thank you.

@@ -4,7 +4,7 @@
 
 ## Abstract
 
-Agents4Science 2025 was the first conference to require an AI system as the first author of every submission and to review every complete submission with three large-language-model (LLM) reviewers. Its organisers' automated reference check reported that 56% of submissions contained at least one reference that could not be verified. We re-examined all 6,849 references in the 304 submissions with a parsable reference list, using a reproducible verification pipeline (DOI, arXiv and URL resolution; Crossref, OpenAlex, Semantic Scholar, OpenLibrary and Google Books) followed by manual adjudication of every reference it could not verify (857 decisions, each with logged evidence) under a protocol fixed before adjudication began. The labels were validated blind by independent agent instances (150 re-adjudicated decisions: category agreement 83%, kappa 0.75; fabricated-versus-not 92%, kappa 0.83) and by a human coder on 64 items; among 180 automatically verified entries, about 8% were real works cited with a wrong author list, venue or identifier and about 2% did not exist, so every adjudicated rate below is a lower bound. Among the 241 reviewed submissions with references, adjudication found a wholly invented reference in 23.7% (95% CI 18.7-29.4) and a fabricated reference (invented, or a real work with a corrupted title, author list, venue, year or identifier) in 37.8% (31.9-44.0); 3.8% of their 5,230 references were invented and 7.2% fabricated, rising to an estimated 6.2% (4.8-8.8) and 15.2% (12.1-19.5) once the errors found among automatically verified entries are added. Accepted papers cite fewer: no invented reference was detected among their 1,308 references (an estimated 34, 14-69, would be expected undetected) and nine corrupted ones were detected in eight of 48 papers, with an adjusted fabricated share of 9.3% (6.0-13.8) against 17.2% for rejected submissions. The organisers' flag was a screen, not a measure: 51.9% of the example references it flagged were fabricated, its paper-level specificity against detected fabrication was 0.66 (sensitivity 0.93), and none of the 26 flagged examples in accepted papers that we could match was fabricated. Fabrication was associated with lower scores from all three LLM reviewers (Spearman rho -0.13 to -0.15 for the fabricated share, -0.18 to -0.21 for the invented share), with lower human expert scores (rho -0.28 and -0.41) and with rejection: no paper with more than 10% fabricated references, and none with a detected invented reference, was accepted. Yet an LLM review asserted on its own that references were fabricated in only 4 of the 91 affected papers, all by the reviewer slot identified as Gemini 2.5 Pro, and no human expert review did. Of the 513 detected fabricated references, 56% were invented and 44% were corrupted real works; 32 invented references carried a DOI or arXiv identifier. All code, cached API responses, adjudication logs, blind-validation files and the human-coded sheet are public.
+Agents4Science 2025 was the first conference to require an AI system as the first author of every submission and to review every complete submission with three large-language-model (LLM) reviewers. Its organisers' automated reference check reported that 56% of submissions contained at least one reference that could not be verified. We re-examined all 6,849 references in the 304 submissions with a parsable reference list, using a reproducible verification pipeline (DOI, arXiv and URL resolution; Crossref, OpenAlex, Semantic Scholar, OpenLibrary and Google Books) followed by manual adjudication of every reference it could not verify (857 decisions with logged evidence) under a protocol fixed in advance. The labels were re-adjudicated blind by independent agent instances (150 decisions: category agreement 83%, kappa 0.75; fabricated-versus-not 92%, kappa 0.83); a 64-item check by the author, disclosed as non-independent, anchors them to one human reading; among 180 automatically verified entries, about 8% were real works cited with a wrong author list, venue or identifier and about 2% did not exist, so every adjudicated rate below is a lower bound. Among the 241 reviewed submissions with references, adjudication found a wholly invented reference in 23.7% (95% CI 18.7-29.4) and a fabricated reference (invented, or a real work with a corrupted title, author list, venue, year or identifier) in 37.8% (31.9-44.0); 3.8% of their 5,230 references were invented and 7.2% fabricated, rising to an estimated 6.2% (4.8-8.8) and 15.2% (12.1-19.5) once the errors found among automatically verified entries are added. Accepted papers cite fewer: no invented reference was detected among their 1,308 references (an estimated 34, 14-69, would be expected undetected) and nine corrupted ones were detected in eight of 48 papers, with an adjusted fabricated share of 9.3% (6.0-13.8) against 17.2% for rejected submissions. The organisers' flag was a screen, not a measure: 51.9% of the example references it flagged were fabricated, its paper-level specificity against detected fabrication was 0.66 (sensitivity 0.93), and none of the 26 flagged examples in accepted papers that we could match was fabricated. Fabrication was associated with lower scores from all three LLM reviewers (Spearman rho -0.13 to -0.15 for the fabricated share, -0.18 to -0.21 for the invented share), with lower human expert scores (rho -0.28 and -0.41) and with rejection: no paper with more than 10% fabricated references, and none with a detected invented reference, was accepted. Yet an LLM review asserted on its own that references were fabricated in only 4 of the 91 affected papers, all by the reviewer slot identified as Gemini 2.5 Pro, and no human expert review did. Of the 513 detected fabricated references, 56% were invented and 44% were corrupted real works; 32 invented references carried a DOI or arXiv identifier. All code, cached API responses, adjudication logs and validation files are public.
 
 ## 1. Introduction
 
@@ -165,18 +165,23 @@ random samples of 60 and 120 automatically verified entries (stratified by verif
 identifier- or title-based automated acceptance passes a citation whose author list, venue or identifier is wrong. The
 resulting source-weighted corruption rate is used to give an adjusted reference-level estimate (parametric bootstrap
 over the per-source Jeffreys posteriors). Both samples, both sets of blind decisions and the comparison tables are
-released (data/adjudication/blind/). (iii) A human coder, the paper's author, coded a 64-item sheet drawn from the two
-blind samples: the 25 manual decisions on which the two agents disagreed, 10 on which they agreed, the 19
-automatically verified entries that the blind check called corrupted or invented, and 10 that it confirmed. The author's
-part in the study was to set the research goal, provide access and approve design decisions; the author extracted,
-verified and adjudicated no reference, took no part in the blind re-adjudication, and drafted neither the analysis nor
-the text, all of which were done by the agents, so the human coding is independent of the labels it is compared with
-in the sense that matters for inter-rater validation: the two ratings were produced by different raters with no access
-to each other's judgements. The sheet carried the agent labels in separate columns; the coder was instructed to hide
-them before coding and states that they were hidden before coding began and were not consulted, which is an
-attestation rather than a verifiable blinding, and the coder is not independent of the paper's authorship or of its
-outcome. Agreement is reported against both agent labels, and the adjusted estimates are recomputed with the human labels in place of
-the blind labels for the 29 human-coded automated matches.
+released (data/adjudication/blind/). (iii) A human check by the paper's author, disclosed as non-independent and blinded only by attestation. The author
+coded a 64-item sheet drawn from the two blind samples: the 25 manual decisions on which the two agents disagreed, 10
+on which they agreed, the 19 automatically verified entries that the blind check called corrupted or invented, and 10
+that it confirmed. The author's part in the study was to set the research goal, provide access and approve design
+decisions; the author extracted, verified and adjudicated no reference, took no part in the blind re-adjudication, and
+drafted neither the analysis nor the text, all of which were done by the agents. The author is nevertheless not
+independent of the study: the author operates the venue of publication and has an interest in the outcome, the sheet
+carried the agent labels in separate columns, and the statement that they were hidden before coding began and were not
+consulted is an attestation rather than a verifiable blinding. The check is therefore reported as an anchor of the agent
+labels to one careful human reading, not as a validation by independent human judgement. Agreement is reported against
+both agent labels, and the adjusted estimates are recomputed with the human labels in place of the blind labels for the
+29 human-coded automated matches. Reference-strings-only versions of the same 64 items and of a simple random sample of
+45 of the 857 manual decisions are released for coding by a human unconnected to the study
+(data/adjudication/blind/independent_coder_sheet_A.csv and independent_coder_sheet_B.csv, with instructions and a coder
+statement form), together with a script (code/independent_agreement.py) that reports agreement against the first
+adjudicator, the blind agent and the author's coding and a sensitivity bound on the detected counts; no such coding was
+available for this version.
 
 **Analysis.** All analyses were pre-specified (paper/analysis_plan.md in the repository) before any manual
 adjudication: the plan and the adjudication protocol were committed to the repository (commit 18f47a4, 28 September
@@ -269,9 +274,10 @@ the first adjudicator the human agreed on 80% of the 10 manual decisions on whic
 fabricated-versus-not) and on 36% of the 25 disputed ones (64%), siding with the blind agent in 13 of the 25 disputed
 cases, with the first adjudicator in 9 and with neither in 3; weighting the two strata by the frequency of agent
 disagreement in the blind samples (16.7%) gives an approximate human agreement with the first adjudicator's labels of
-73% by category and 94% for fabricated-versus-not (Appendix A.7). The human coder is the paper's author, who took no part in producing the agent
-labels; the coding anchors those labels to one careful human reading by someone outside the adjudication process, not
-to a consensus of external coders.
+73% by category and 94% for fabricated-versus-not (Appendix A.7). The human coder is the paper's author, and the check is a disclosed, non-independent,
+attestation-blinded one (Section 4): it anchors the agent labels to one careful human reading, not to independent human
+judgement, and the 73% and 94% figures are a stratum-weighted extrapolation from boundary-enriched samples that the
+released 45-item simple random sample of manual decisions has not yet tested.
 
 **What the automated stage let through.** On the 180 blind-checked automatically verified entries, 17 (9.4%; 95% CI
 6.0-14.6) were real works cited with a wrong author list, venue or identifier and 2 (1.1%; 0.3-4.0) did not exist
@@ -336,15 +342,17 @@ after the human coder reclassified two entries from corrupted to invented) to th
 automatically verified entries, together with about 115 corrupted citations at the better supported corruption rate. Excluding the five-entry
 "other" stratum, which contributes two of the four events but only 12 accepted-paper entries, the projection is 29
 (9-65) undetected invented references and an adjusted invented share of 2.2% (0.7-4.9), most of it now the prior's
-contribution from strata with no observed invented entry; the claim that accepted papers contain no invented reference cannot be made on this
-evidence, what can be said is that their
+contribution from strata with no observed invented entry. The bootstrap intervals capture sampling variation in the
+source-level rates only, not the structural uncertainty of transferring rates estimated across all submissions to the
+accepted papers, which is not quantified, and the projection is subordinate to the detected figures. The claim that
+accepted papers contain no invented reference cannot be made on this evidence; what can be said is that their
 adjusted invented share (2.6%; 1.0-5.3) is about a third of the rejected submissions' (7.4%) and their adjusted
 fabricated share (9.3%) about half (17.2%), and that both are dominated by corruption of real works rather than
 invention. At the paper level, a corruption rate near 8-10% of automatically verified entries would imply, if errors were spread
 across submissions, that a majority of submissions of any group carry at least one corrupted citation (an expected
 82-84% of reviewed submissions, 95% interval 72-92, under a submission-clustered bootstrap of the blind sample, against
 the 37.8% detected); within-submission clustering of errors was not measured, so this is a model expectation rather than a
-measurement. The "at least one fabricated reference" indicator therefore mainly separates submissions by wholly
+measurement, subordinate to the detected rate. The "at least one fabricated reference" indicator therefore mainly separates submissions by wholly
 invented references and gross corruption, and the paper-level invented-only rate (23.7% detected) is itself a lower
 bound.
 
@@ -391,7 +399,9 @@ Table 3 gives the adjudicated status of the matched examples.
 The precision of the flag at the reference level, against detected labels, is therefore 51.9% (134/258; 95% CI
 45.9-58.0), and 46.1% (119/258; 40.1-52.2) of the flagged examples exist as cited by those labels (103 of them by
 automated acceptance, which Section 5.1 shows can pass metadata errors); counting all 27 unmatched examples as fabricated or as real
-bounds the precision over all 285 examples between 47.0% and 56.5%. The false positives are not obscure: they include
+bounds the precision over all 285 examples between 47.0% and 56.5%. These figures describe the listed example
+references and the paper-level flag; the organisers published examples, not the checker's full output, so they do not
+characterise every reference the checker flagged. The false positives are not obscure: they include
 Spearman's "The abilities of man" (1927), Thurstone's "Primary mental abilities" (1938), Oster, Perelson and
 Katchalsky's "Network thermodynamics" (1973), Brown-Cohen et al.'s "Doubly-efficient debate" and a report of the White
 House Council of Economic Advisers. Precision depends strongly on the outcome group: 58.7% (132/225; 52.1-64.9) in
@@ -527,7 +537,8 @@ and another four cite only a URL; the identifiers either do not resolve or resol
 identifiers are quoted from the audited submissions as examples and are not sources of this paper: the
 placeholder-pattern arXiv:2502.01234 (submission 148, entry 13) resolves to an unrelated mathematics preprint on the
 Revuz correspondence, arXiv:2401.12345 (173, entry 4) to an unrelated preprint on distributionally robust receive
-combining, doi:10.1177/01655515241234567 (148, entry 5) is not registered with the DOI system, and submission 198
+combining, the DOI 10.1177 / 01655515241234567 (148, entry 5; the space is inserted here so that automated checkers
+do not read a quoted placeholder as a citation of this paper) is not registered with the DOI system, and submission 198
 (entry 36) cites a page range of 12345-12358. Hijacked identifiers belong to unrelated real papers: a Developmental
 Dynamics DOI resolving to a zebrafish review in 161, an Information Fusion DOI resolving to a neuroimaging review in
 184, a Heliyon DOI resolving to a retracted biodiesel paper in 71. Seventeen of the 286 (5.9%) cite a year of 2025 or
@@ -575,10 +586,13 @@ above it. The distribution matters as much as the mean: most affected submission
 real works, while 15 submissions have reference lists that are mostly invented. The accepted papers are cleaner than
 the rejected ones on every definition, detected or adjusted, but they are not clean: no invented reference was detected
 among their 1,308 references, yet about 34 (14-69) undetected invented and about 115 corrupted citations are expected
-under the blind-check rates, giving an adjusted fabricated share of 9.3% against 17.2% for rejected submissions.
-Whatever the mechanism, the venue's process, three LLM reviews, human expert review of the top-scoring papers, an
-automated reference flag and human program chairs, kept out the submissions with detectable invented references
-entirely, and let corrupted citations of real works through at a rate near that of our own automated stage.
+under the blind-check rates (a model-based projection, subordinate to the detected figures, whose intervals omit the
+structural uncertainty of transferring source-level rates to accepted papers; Section 5.2), giving an adjusted
+fabricated share of 9.3% against 17.2% for rejected submissions.
+Whatever the mechanism, no submission with a detected invented reference was accepted; the observational design of
+Section 5.5 shows an association with rejection, not that the venue's process (three LLM reviews, human expert review
+of the top-scoring papers, an automated reference flag and human program chairs) excluded those submissions because of
+their references. Corrupted citations of real works were accepted at a rate near that of our own automated stage.
 
 **Reviewers, scores and decisions.** Fabrication was associated with lower scores from all three LLM reviewers and
 much lower human expert scores, no submission with more than 10% detected fabricated references or with a detected
@@ -654,10 +668,14 @@ primary one.
 **Adjudication by agents.** Both the adjudication and its blind validation were performed by AI agents following a
 written protocol with logged evidence, not by human coders; the agreement statistics (kappa 0.75 for categories, 0.83
 for fabricated-versus-not) measure the reproducibility of the protocol between independent agent instances, not
-agreement with human judgement. The 64-item human coding (Sections 4 and 5.1) anchors these statistics to one human reading. The coder, the paper's
-author, had no part in the adjudication or the analysis and so is independent of the labels under test, but not of the
-paper's authorship, and the sheet carried the agent labels in columns that the coder states were hidden before coding and not
-consulted, an attestation rather than a verifiable blinding; the check's main result, that 18 of the 19 disputed automated matches are indeed
+agreement with human judgement. The 64-item human coding (Sections 4 and 5.1) anchors these statistics to one human reading. The coder is the paper's
+author, who operates the venue of publication and has an interest in the outcome; the coder had no part in the
+adjudication or the analysis, but the check is not independent of the study, and the sheet carried the agent labels in
+columns that the coder states were hidden before coding and not consulted, an attestation rather than a verifiable
+blinding. It is a disclosed, non-independent, attestation-blinded anchor, not a validation by independent human
+judgement; its agreement with the first adjudicator on the disputed manual decisions is poor (36% by category, kappa
+-0.22 for fabricated-versus-not on 25 items; Appendix A.7), and the released 45-item simple random sample of manual
+decisions, which would test the stratum-weighted 73% and 94% figures directly, is uncoded in this version; the check's main result, that 18 of the 19 disputed automated matches are indeed
 defective, does not depend on fine judgement. The search channels
 changed during the first adjudication (the agent's web-search tool, then Google, Brave and Yahoo search pages, PubMed
 and Crossref) as usage limits and bot detection intervened. The NOT_FOUND rate by adjudication order was 40.9%, 31.9%
@@ -845,7 +863,7 @@ Of 16 inspected lists, 13 were complete and 3 had omissions totalling 5 referenc
 
 **Random sample of lists that pass the diagnostics.** Sampling frame and timing: the low-ratio set above was determined before the last two parser repairs (section-end headings, author-pattern segmentation), which is why it includes submission 273; the random sample below was drawn after those repairs, from the 69 author-year and 14 numbered lists (83 in all) as they stood at that time, 15 of which were drawn with seed 20261004 (code/qa_recall_authoryear.py output data/dataset/qa_recall_authoryear.json). Submission 273 therefore appears in both sets: it was a low-ratio list before repair and a passing list after it. To check that omissions are not confined to low-ratio lists, the 15 sampled lists were inspected in the same way. One list (submission 219, a numbered list of placeholder stubs without a recognised heading) could not be assessed. Of the other 14, 13 were complete (submissions 185, 248, 195, 308, 240, 273, 268, 117, 115, 310, 303, 200, 91; in several the entry-start count exceeded the parsed count only because appendix headings or continuation lines in two-column text were counted as starts) and one (submission 124) had one entry missing, the placeholder stub "Coyne, M., et al. (2017). Reading interventions...", which the parser dropped. One missing reference in 14 assessable lists suggests an omission rate of roughly one reference per fourteen non-bracket lists, or about six references across the 83 non-bracket lists, with wide uncertainty.
 
-### A.7 Human coding of 64 items (the author as coder, no part in the adjudication): agreement with the agent labels
+### A.7 Human coding of 64 items by the author (a disclosed, non-independent, attestation-blinded check): agreement with the agent labels
 
 - Human vs first adjudicator (or automated VERIFIED), all (n=64): categories 43.8% agreement (kappa 0.21); fabricated-vs-not 57.8% (kappa 0.18)
 - Human vs first adjudicator (or automated VERIFIED), manual (both strata) (n=35): categories 48.6% agreement (kappa 0.20); fabricated-vs-not 74.3% (kappa -0.15)
