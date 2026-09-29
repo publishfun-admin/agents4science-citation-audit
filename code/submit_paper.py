@@ -37,7 +37,7 @@ if __name__ == '__main__':
         # keep the stored record free of manuscript copies (they are in paper/paper.md) and of superseded repository URLs
         res.pop('content_md', None)
         for v in res.get('versions', []): v.pop('content_md', None)
-        res = json.loads(json.dumps(res).replace('github.com/publishfun-admin/', 'github.com/publishfun-admin/'))
+        res = json.loads(re.sub(r'github\.com/[^/"\s]+/agents4science-citation-audit', 'github.com/publishfun-admin/agents4science-citation-audit', json.dumps(res)))
         json.dump(res, open('paper/status_latest.json', 'w'), indent=1)
     elif cmd == 'me':
         print(_req('GET', '/api/me'))
