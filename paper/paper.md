@@ -58,8 +58,8 @@ two-stage design (registries first, web search for the residue) is the one our p
 adjudication replacing the final automated step. Shi et al. [2026] (CiteAudit) decompose citation checking into
 metadata extraction, memory lookup, web retrieval and a final judgement by cooperating agents, and release a
 human-validated benchmark on which their pipeline outperforms single LLMs and commercial checkers; our automated stage
-is a deterministic, cached version of the same decomposition, and our blind re-adjudication plays the role of their
-human validation.
+is a deterministic, cached version of the same decomposition; our blind re-adjudication is an agent-level analogue of
+their human validation, not a substitute for it (Sections 5.1 and 7).
 
 **Citation generation and verification tools.** Rao and Callison-Burch [2026] show that even search-enabled frontier
 models produce fully correct BibTeX entries only about half of the time, with accuracy dropping sharply for recent
@@ -227,10 +227,11 @@ bracket marker has a median of 1.00 and a minimum of 0.88 (two submissions below
 and the 14 "1."-numbered lists there is no marker to count against; the ratio of parsed entries to year tokens in the
 reference section (a proxy that over-counts entries because DOIs, URLs and date ranges contain years) has a median of
 0.93 (quartiles 0.85 and 0.99) for author-year lists and 0.86 for numbered lists. Every list whose ratio fell below
-0.80 (16 lists) was inspected by reading its reference section and counting entry starts (Appendix A.6): 13 were
-complete, and 3 had omissions totalling 5 references (a three-entry list parsed as one, a Vancouver-style list without
+0.80 (15 author-year or numbered lists and one three-entry bracket list) was inspected by reading its reference
+section and counting entry starts (Appendix A.6): 13 were complete, and 3 had omissions totalling 5 references (a three-entry list parsed as one, a Vancouver-style list without
 hanging indents in which two pairs of entries were merged, and one entry missed in a three-entry bracket list), of
-which 4 were recovered by re-parsing and 1 is still missing. The first version of this audit had missed a larger
+which 4 were recovered by re-parsing and 1 is still missing; a random sample of 15 lists that pass the diagnostics found one further missing entry in 14
+assessable lists (Appendix A.6). The first version of this audit had missed a larger
 failure of the same kind: the CRF finder had merged several references into one entry in 31 hanging-indent lists (14
 references parsed as one in the worst case), and the indent-guided segmentation added in revision recovered 164
 references. After the fixes, 99 entries (1.4%) still contain two year tokens; inspection of the low-ratio lists shows
@@ -260,7 +261,9 @@ available yet.
 6.0-14.6) were real works cited with a wrong author list, venue or identifier and 2 (1.1%; 0.3-4.0) did not exist
 (Appendix A.3). Corruption concentrated in entries accepted by Crossref bibliographic title matching (11 of 101, plus
 the one invented entry) rather than by identifier resolution (DOI 2 of 20, arXiv 1 of 15) or Semantic Scholar (2 of
-34). Weighting by source, an estimated 9.7% (bootstrap 95% CI 6.7-15.7) of the 5,992 automatically verified entries,
+34); 37 of the 180 entries came from accepted papers (1 corrupted, none invented), 109 from rejected, 22 from
+desk-rejected and 12 from withdrawn submissions. A submission-clustered bootstrap over the 125 submissions represented
+in the sample gives 9.5% (4.8-14.9) corrupted and 1.1% (0.0-2.8) invented. Weighting by source, an estimated 9.7% (bootstrap 95% CI 6.7-15.7) of the 5,992 automatically verified entries,
 about 580 references, are corrupted citations that the adjudicated counts do not include, and 0.9% are invented. That
 is more corrupted references than adjudication found in the whole corpus (513 fabricated, 227 of them corrupted), so
 the adjudicated rates in Sections 5.2-5.7 are lower bounds for both outcomes, and Section 5.2 gives adjusted
@@ -301,16 +304,22 @@ gives 15.9% (13.2-21.2), 9.9% (7.0-15.6) and 17.8% (15.2-23.0) for the fabricate
 The adjustment changes the reading of the accepted papers. By adjudication they are far cleaner than rejected
 submissions: no wholly invented reference was detected among their 1,308 references (0 of 48 papers), and the nine
 detected fabricated references are corrupted citations of real works (one each in seven papers, two in one), typically
-a real paper cited with a rewritten title, a wrong venue or a wrong identifier. But the blind check implies that about
-25 (8-57) invented and about 130 corrupted citations passed through the automated stage undetected in the accepted
-set, so the claim that accepted papers contain no invented reference cannot be made; what can be said is that their
+a real paper cited with a rewritten title, a wrong venue or a wrong identifier. But the blind check implies that undetected errors passed through the automated stage in the accepted set too. The
+projection is model-based: 37 of the 180 blind-checked entries came from accepted papers (35 correctly cited, 1
+corrupted, 1 unadjudicable, none invented), so the estimate of about 25 (8-57) undetected invented references applies
+source-level rates that rest on two events (1 of 101 Crossref title matches and 1 of 5 entries from other sources) to
+the accepted papers' 1,243 automatically verified entries, together with about 130 corrupted citations at the better
+supported corruption rate; the claim that accepted papers contain no invented reference cannot be made on this
+evidence, what can be said is that their
 adjusted invented share (1.9%; 0.6-4.3) is about a third of the rejected submissions' (6.6%) and their adjusted
 fabricated share (10.5%) about half (18.5%), and that both are dominated by corruption of real works rather than
-invention. At the paper level, a corruption rate near 10% of automatically verified entries implies that most
-submissions of any group carry at least one corrupted citation (an expected 86% of reviewed submissions under the
-uniform rate, against the 37.8% detected), so the "at least one fabricated reference" indicator mainly separates
-submissions by wholly invented references and gross corruption, and the paper-level invented-only rate (23.7%
-detected) is itself a lower bound.
+invention. At the paper level, a corruption rate near 10% of automatically verified entries would imply, if errors were spread
+across submissions, that a majority of submissions of any group carry at least one corrupted citation (an expected 84%
+of reviewed submissions, 95% interval 72-92, under a submission-clustered bootstrap of the blind sample, against the
+37.8% detected); within-submission clustering of errors was not measured, so this is a model expectation rather than a
+measurement. The "at least one fabricated reference" indicator therefore mainly separates submissions by wholly
+invented references and gross corruption, and the paper-level invented-only rate (23.7% detected) is itself a lower
+bound.
 
 The distribution of detected fabrication is heavy-tailed. Among the 91 affected reviewed submissions the median
 fabricated share is 16.0% (interquartile range 8.2-36.9%); 15 of the 302 submissions (5.0%) have fabricated
@@ -369,11 +378,13 @@ At the paper level, among the 237 reviewed submissions that received a check and
 organisers' flag ("at least one example flagged") marked 133 (56.1%; 49.8-62.3), whereas adjudication finds at least
 one fabricated reference in 89 (37.6%; 31.6-43.9). The cross-classification against detected fabrication gives 83
 true positives, 50 false positives, 6 false negatives and 98 true negatives: sensitivity 0.93, specificity 0.66,
-positive predictive value 62.4%, negative predictive value 94.2%, Cohen's kappa 0.54. Undetected corruption does not
-change this comparison differentially: flagged and unflagged submissions have similar verification-source profiles
+positive predictive value 62.4%, negative predictive value 94.2%, Cohen's kappa 0.54, all computed against detected
+labels, not against adjusted ground truth. Flagged and unflagged submissions have similar verification-source profiles
 (67.6% and 62.6% of their automatically verified entries are Crossref title matches) and the expected number of
-undetected corrupted references per submission is 1.97 for flagged and 1.90 for unflagged submissions. It does change
-what the 56% figure means. Against detected fabrication the flag over-marks (56% flagged, 38% affected, half of the
+undetected corrupted references per submission is 1.97 for flagged and 1.90 for unflagged submissions, which makes a
+large differential effect of undetected corruption on this comparison unlikely, although similar source mixes do not
+establish equal within-source error rates in the two groups. Undetected corruption does change what the 56% figure
+means. Against detected fabrication the flag over-marks (56% flagged, 38% affected, half of the
 flagged examples real); against the adjusted expectation that most submissions carry at least one corrupted citation
 it under-marks, because a title-only web search does not see corrupted author lists, venues or identifiers. The flag is
 therefore a useful screen for wholly invented and grossly corrupted references (a submission without a flag rarely has
@@ -513,8 +524,8 @@ example in an accepted paper was fabricated, so the flag is not a count of fabri
 fabrication it marks 56% of reviewed submissions where 38% are affected, with a paper-level positive predictive value
 of 62%. But the blind check of our own automated stage shows that title matching, whether against the web or against a
 bibliographic registry, passes about one citation in ten whose author list, venue or identifier is wrong, so the true
-share of submissions with at least one defective citation is higher than either figure (an expected 86% under the
-blind-check rate), and the flag under-marks that. The reasons are the ones the citation-verification literature
+share of submissions with at least one defective citation is higher than either figure (a majority under the
+blind-check rate, if errors are spread across submissions), and the flag under-marks that. The reasons are the ones the citation-verification literature
 predicts [Reizinger and Brendel 2026; Rao and Callison-Burch 2026; Shi et al. 2026]: web search is a poor oracle for
 books, theses, standards, software and pre-1990 papers, a title-only check cannot tell a rewritten title from an
 invented one, and neither a web search nor a registry title match compares author lists. The practical lesson for
@@ -614,17 +625,19 @@ for fabricated-versus-not) measure the reproducibility of the protocol between i
 agreement with human judgement. A human-coding sheet of 64 items (disputed and agreed decisions, and the 19 disputed
 automated matches) is released for that purpose and had not been coded at the time of writing. The search channels
 changed during the first adjudication (the agent's web-search tool, then Google, Brave and Yahoo search pages, PubMed
-and Crossref) as usage limits and bot detection intervened. The NOT_FOUND rate by adjudication order was 40.5%, 32.3%
+and Crossref) as usage limits and bot detection intervened. The NOT_FOUND rate by adjudication order was 40.9%, 31.9%
 and 33.3% of adjudicable decisions in the first, second and third terciles, and the blind adjudicators, who used
 registry APIs and web search throughout, agreed with 14 of 16 sampled NOT_FOUND decisions whose evidence is a search
 page and 12 of 14 whose evidence is a logged search string (Appendix A.5); this does not isolate channel from the
 order in which submissions were adjudicated (accepted papers first), so a channel effect on recall cannot be excluded.
 
 **Parser recall and precision.** Reference extraction from PDFs is imperfect. The first version of this audit missed
-that the parser had merged references in hanging-indent lists; the revisions recovered 164 references and the manual
-inspection of the 16 doubtful lists found 5 further omissions, 4 of them now recovered. Extrapolating the inspected
-omission rate (one reference missing in 16 doubtful lists, none found in the complete ones) to the 87 non-bracket lists
-gives at most a handful of missing references; if every one of the 99 remaining two-year-token entries hid one
+that the parser had merged references in hanging-indent lists; the revisions recovered 164 references, the manual
+inspection of the 16 doubtful lists found 5 further omissions, 4 of them now recovered, and a random sample of 15 lists
+that pass the diagnostics found one further missing entry (a placeholder stub) in 14 assessable lists (Appendix A.6).
+That rate, about one missing reference per fourteen non-bracket lists, suggests roughly six missing references across
+the 83 non-bracket lists, with wide uncertainty; the residual is small relative to the 6,849 extracted references but
+has not been measured exhaustively. If every one of the 99 remaining two-year-token entries hid one
 additional reference and none of them were fabricated, the reference-level fabricated share of reviewed submissions
 would fall from 7.2% to about 7.1%, and if all were fabricated it would rise to about 8.6%. Recall for bracket-numbered
 lists was checked against the highest marker (median 1.00, minimum 0.88), and two-column layouts were re-extracted in
@@ -696,6 +709,7 @@ https://agents4science.stanford.edu/data/; the repository records how they were 
 - [Xu et al. 2026] Zuyao Xu, Yuqi Qiu, Lu Sun et al. GhostCite: A large-scale analysis of citation validity in the age of large language models. arXiv:2602.06718 (2026).
 - [Zhao et al. 2026] Zhenyue Zhao, Yihe Wang, Toby Stuart et al. LLM hallucinations in the wild: Large-scale evidence from non-existent citations. arXiv:2605.07723 (2026).
 - [Zhu et al. 2025] Changjia Zhu, Junjie Xiong, Renkai Ma et al. When your reviewer is an LLM: Biases, divergence, and prompt injection risks in peer review. arXiv:2509.09912 (2025).
+
 ## Appendix A. Auditable tables
 
 ### A.1 Flow of references
@@ -770,7 +784,7 @@ https://agents4science.stanford.edu/data/; the repository records how they were 
 
 ### A.6 Manual inspection of low-ratio reference lists
 
-The 16 non-bracket reference lists whose parsed-entry count fell below 0.8 of the year-token count were inspected by reading the reference section of the PDF and counting entry starts. Year tokens over-count entries because DOIs, URLs and date ranges contain years; once DOI and URL strings are removed, the token count is close to the entry count for complete lists.
+The 16 reference lists (15 author-year or numbered lists and one three-entry bracket list, submission 274) whose parsed-entry count fell below 0.8 of the year-token count were inspected by reading the reference section of the PDF and counting entry starts. Year tokens over-count entries because DOIs, URLs and date ranges contain years; once DOI and URL strings are removed, the token count is close to the entry count for complete lists.
 
 | Submission | Parsed entries (before inspection) | Entries counted on inspection | Outcome |
 |--:|--:|--:|:--|
@@ -792,4 +806,6 @@ The 16 non-bracket reference lists whose parsed-entry count fell below 0.8 of th
 | 329 | 6 | 6 | complete (appendix text follows the list) |
 
 Of 16 inspected lists, 13 were complete and 3 had omissions totalling 5 references, of which 4 were recovered by re-parsing; 1 remains missing (submission 274).
+
+**Random sample of lists that pass the diagnostics.** To check that omissions are not confined to low-ratio lists, 15 of the 69 author-year and numbered lists with a ratio of at least 0.8 were drawn at random (seed 20261004) and inspected in the same way. One list (submission 219, a numbered list of placeholder stubs without a recognised heading) could not be assessed. Of the other 14, 13 were complete (submissions 185, 248, 195, 308, 240, 273, 268, 117, 115, 310, 303, 200, 91; in several the entry-start count exceeded the parsed count only because appendix headings or continuation lines in two-column text were counted as starts) and one (submission 124) had one entry missing, the placeholder stub "Coyne, M., et al. (2017). Reading interventions...", which the parser dropped. One missing reference in 14 assessable lists suggests an omission rate of roughly one reference per fourteen non-bracket lists, or about six references across the 83 non-bracket lists, with wide uncertainty.
 
