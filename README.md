@@ -29,12 +29,16 @@ Run from the repository root with Python 3.11 or later and `pandas numpy scipy u
 | Command | Writes | Used for |
 |:--|:--|:--|
 | `python code/analysis.py` | `paper/results_tables.md`, `data/dataset/papers_final.csv` | Table 1b (flow), Q1 prevalence (Section 5.1, 5.2), Q2 flag metrics (5.3), Q3, Q4 (5.5), Q5 (5.6), sensitivity to PLACEHOLDER/UNADJUDICABLE; blind-agent labels for the adjustment |
-| `BLIND_ESTIMATE=data/dataset/blind_autoverified_estimate_human.json python code/analysis.py` | `data/dataset/results_tables_human_override.md` | Table 2b: the human-anchored adjusted estimates (Q1b, Q1c) and the accepted-paper projection with and without the `other` stratum |
+| `BLIND_ESTIMATE=data/dataset/blind_autoverified_estimate_coder.json RESULTS_OUT=data/dataset/results_tables_coder_override.md python code/analysis.py` | `data/dataset/results_tables_coder_override.md` | Table 2b: the adjusted estimates anchored to the independent coder's labels (Q1b, Q1c) and the accepted-paper projection with and without the `other` stratum |
+| `BLIND_ESTIMATE=data/dataset/blind_autoverified_estimate_human.json python code/analysis.py` | `data/dataset/results_tables_human_override.md` | The same estimates anchored to the author's labels (reported as a comparison in the Table 2b caption) |
 | `python code/blind_checks.py` | `data/dataset/blind_checks.md`, `data/dataset/blind_autoverified_estimate.json`, `data/adjudication/blind/blind_manual_sample.csv`, `blind_autoverified_sample.csv` | Appendix A.2 (agent-agent confusion), blind-agent version of A.3 |
-| `HUMAN_OVERRIDE=1 python code/blind_checks.py` | `data/dataset/blind_checks_human.md`, `blind_autoverified_estimate_human.json`, `blind_autoverified_sample_human.csv` | Appendix A.3 as printed (per-source counts with the author's labels for the 29 coded entries) |
+| `HUMAN_OVERRIDE=1 python code/blind_checks.py` | `data/dataset/blind_checks_human.md`, `blind_autoverified_estimate_human.json`, `blind_autoverified_sample_human.csv` | Appendix A.3, author's-labels column (the author's labels replace the blind agent's for the 29 coded entries) |
+| `HUMAN_OVERRIDE=1 OVERRIDES=data/adjudication/blind/coder_overrides.json SUFFIX=_coder python code/blind_checks.py` | `data/dataset/blind_checks_coder.md`, `blind_autoverified_estimate_coder.json`, `blind_autoverified_sample_coder.csv` | Appendix A.3, independent coder's column: the per-source rates behind Table 2b |
+| `SUFFIX=_coder python code/clustered_bootstrap.py` (also `SUFFIX=` and `SUFFIX=_human`) | stdout | Submission-clustered intervals for the blind-check shares and for the expected share of submissions with at least one corrupted citation (Sections 5.1 and 5.2) |
 | `python code/human_agreement.py` | `data/dataset/human_agreement.md`, `data/adjudication/blind/human_overrides.json` | Appendix A.7 (the author's 64-item coding against both agent labels) |
 | `python code/make_appendix.py > appendix.md` | stdout | Appendix A.1 to A.7 exactly as pasted into `paper/paper.md` (A.4 from `unmatched_flags_verdicts.json`, A.5 from `channel_analysis.md`, A.6 from `manual_recall_inspection.md`) |
-| `python code/independent_agreement.py` | `data/dataset/independent_agreement.md`, `.json` | Agreement of an independent coder with the first adjudicator, the blind agent and the author, and a sensitivity bound on the detected counts; also recomputes the detected headline values as a self-check |
+| `python code/independent_agreement.py` | `data/dataset/independent_agreement.md`, `.json` | Appendix A.8: agreement of the independent coder with the first adjudicator, the blind agent and the author (both sheets), and the sensitivity bound on the detected counts; also recomputes the detected headline values as a self-check |
+| `CODER_ROLE="..." python code/fill_coder_results.py` | `paper/paper.md`, `paper/coder_results_paragraphs.md` | Writes the coder's results into the manuscript and regenerates the appendix (already applied) |
 
 Supporting scripts: `channel_analysis.py` (A.5), `unmatched_flags.py` (A.4 inputs), `qa_parser_recall.py` and
 `qa_recall_authoryear.py` (parser recall checks behind A.6), `make_coder_sheets.py` (built the independent-coder sheets
@@ -44,10 +48,12 @@ with seed 20261005; do not re-run after a coder has filled them in), `submit_pap
 none of it needs to run to reproduce the analysis.
 
 The headline numbers in the manuscript map to these outputs as follows: reviewed-submission rates (37.8%, 23.7%; 7.2%,
-3.8%) to `paper/results_tables.md` Q1; adjusted rates (15.2%, 6.2%; accepted 9.3%, 2.6%; projection 34, 14-69, and 29,
-9-65) to `results_tables_human_override.md` Q1c; flag metrics (51.9%; sensitivity 0.93, specificity 0.66, kappa 0.54) to
+3.8%) to `paper/results_tables.md` Q1; adjusted rates (13.5%, 6.2%; accepted 7.8%, 2.6%; projection 34, 14-70, and 29,
+9-65) to `results_tables_coder_override.md` Q1c (author-anchored comparison values 15.2%, 9.3%, 17.2% in
+`results_tables_human_override.md`); flag metrics (51.9%; sensitivity 0.93, specificity 0.66, kappa 0.54) to
 `paper/results_tables.md` Q2a/Q2b; agent-agent agreement (83.3%/0.75, 92.0%/0.83) to `blind_checks.md`; the per-source
-rates (8.2%, 1.7%) to `blind_checks_human.md`; the author's coding to `human_agreement.md`.
+rates (6.2%, 1.7%) to `blind_checks_coder.md`; the author's coding to `human_agreement.md`; the independent coder's
+agreement (97.8%, kappa 0.94 on the random sample) and the sensitivity bound to `independent_agreement.md`.
 
 ## Provenance
 
@@ -62,8 +68,9 @@ rates (8.2%, 1.7%) to `blind_checks_human.md`; the author's coding to `human_agr
 
 `data/adjudication/blind/INDEPENDENT_CODER_INSTRUCTIONS.md` describes the task for a coder unconnected to the study:
 `independent_coder_sheet_B.csv` (a simple random sample of 45 of the 857 manual decisions) and
-`independent_coder_sheet_A.csv` (the author's 64-item sheet without labels), reference strings only. The coder completes
-`CODER_STATEMENT.md`; `python code/independent_agreement.py` then scores both sheets.
+`independent_coder_sheet_A.csv` (the author's 64-item sheet without labels), reference strings only. Both sheets were
+coded by an independent coder (statement in `CODER_STATEMENT.md`); `coder_overrides.json` holds the coder's labels for
+the 29 automatically verified entries, which anchor Table 2b. `python code/independent_agreement.py` scores both sheets.
 
 ## Licence
 

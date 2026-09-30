@@ -14,12 +14,20 @@ for a, b, c in pairs: M[(a, b)] += c
 out += ['| First \\ Blind | ' + ' | '.join(cats) + ' |', '|:--|' + '--:|' * len(cats)]
 for a in cats:
     if any(M[(a, b)] for b in cats): out.append(f'| {a} | ' + ' | '.join(str(M[(a, b)]) for b in cats) + ' |')
-out += ['', '### A.3 Blind check of automatically verified entries, by verification source\n']
-src = re.search(r'- By source: (.*)', bc).group(1)
-out += ['| Source | Corrupted / sampled | Invented / sampled | Population |', '|:--|--:|--:|--:|']
-for part in src.split(';'):
-    m = re.match(r'\s*(\w+): (\d+)/(\d+) corrupted, (\d+)/(\d+) not found \(population (\d+)\)', part)
-    if m: out.append(f'| {m.group(1)} | {m.group(2)}/{m.group(3)} | {m.group(4)}/{m.group(5)} | {m.group(6)} |')
+out += ['', '### A.3 Blind check of automatically verified entries, by verification source (corrupted / invented / sampled, under each label set)\n']
+def by_source(path):
+    if not os.path.exists(path): return {}
+    src = re.search(r'- By source: (.*)', open(path).read()).group(1); d = {}
+    for part in src.split(';'):
+        m = re.match(r'\s*(\w+): (\d+)/(\d+) corrupted, (\d+)/(\d+) not found \(population (\d+)\)', part)
+        if m: d[m.group(1)] = (m.group(2), m.group(4), m.group(3), m.group(6))
+    return d
+sets = [('Blind agent', by_source(os.path.join(ROOT, 'data/dataset/blind_checks.md'))), ("Author's labels for the 29 coded entries", by_source(os.path.join(ROOT, 'data/dataset/blind_checks_human.md'))),
+        ("Independent coder's labels for the 29 coded entries (used for Table 2b)", by_source(os.path.join(ROOT, 'data/dataset/blind_checks_coder.md')))]
+sets = [(n, d) for n, d in sets if d]
+out += ['| Source | Population | ' + ' | '.join(n for n, _ in sets) + ' |', '|:--|--:|' + '--:|' * len(sets)]
+for g in sets[0][1]:
+    out.append(f'| {g} | {sets[0][1][g][3]} | ' + ' | '.join(f'{d[g][0]} / {d[g][1]} / {d[g][2]}' if g in d else '' for _, d in sets) + ' |')
 out += ['', '### A.4 The 27 organiser-flagged examples that could not be matched to a parsed entry\n', '| Submission | Group | Flagged title (truncated) | Title words in PDF | Closest parsed entry status | Verdict |', '|--:|:--|:--|--:|:--|:--|']
 for o in json.load(open(os.path.join(ROOT, 'data/dataset/unmatched_flags_verdicts.json'))):
     out.append(f"| {o['number']} | {str(o['group']).replace('_Submission','').replace('Conference','Accepted')} | {o['flag_title'][:70].replace('|','/')} | {o['title_words_in_pdf']:.2f} | {o['closest_status'] or 'none'} | {o['verdict']} |")

@@ -1,5 +1,74 @@
 {
  "summary": {
+  "A_first": {
+   "n": 64,
+   "cat_pct": 42.1875,
+   "cat_ci": [
+    30.869593661451578,
+    54.39018794747275
+   ],
+   "cat_kappa": 0.1828847481021394,
+   "cat_kappa_ci": [
+    0.03203793094346175,
+    0.3366777374525608
+   ],
+   "fab_pct": 62.5,
+   "fab_ci": [
+    50.25015331382642,
+    73.33419611189468
+   ],
+   "fab_kappa": 0.26996197718631176,
+   "fab_kappa_ci": [
+    0.06262626262626263,
+    0.4749161339325273
+   ]
+  },
+  "A_blind": {
+   "n": 64,
+   "cat_pct": 68.75,
+   "cat_ci": [
+    56.60743364084737,
+    78.76909049773427
+   ],
+   "cat_kappa": 0.5481821390751853,
+   "cat_kappa_ci": [
+    0.3897650679557434,
+    0.6942043695532557
+   ],
+   "fab_pct": 85.9375,
+   "fab_ci": [
+    75.38349160536258,
+    92.42151299358557
+   ],
+   "fab_kappa": 0.6461916461916462,
+   "fab_kappa_ci": [
+    0.42168674698795183,
+    0.8319677871148458
+   ]
+  },
+  "A_author": {
+   "n": 64,
+   "cat_pct": 87.5,
+   "cat_ci": [
+    77.22521366978408,
+    93.52783460737919
+   ],
+   "cat_kappa": 0.8164216565077088,
+   "cat_kappa_ci": [
+    0.6930908391253628,
+    0.9288414346506157
+   ],
+   "fab_pct": 92.1875,
+   "fab_ci": [
+    82.98024712135222,
+    96.61693219045645
+   ],
+   "fab_kappa": 0.7964376590330788,
+   "fab_kappa_ci": [
+    0.614446204601276,
+    0.9554317548746518
+   ]
+  },
   "B_first": {
    "n": 45,
    "cat_pct": 75.55555555555556,
@@ -45,6 +114,456 @@
     0.4210526315789474,
     1.0
    ]
+  }
+ },
+ "sheet_A": {
+  "A01": {
+   "coder": "EXISTS_CORRUPTED",
+   "first": "EXISTS",
+   "blind": "EXISTS_CORRUPTED",
+   "author": "EXISTS_CORRUPTED",
+   "stratum": "auto-disputed"
+  },
+  "A02": {
+   "coder": "NOT_FOUND",
+   "first": "EXISTS_CORRUPTED",
+   "blind": "EXISTS_CORRUPTED",
+   "author": "EXISTS_CORRUPTED",
+   "stratum": "manual-agreed"
+  },
+  "A03": {
+   "coder": "EXISTS_CORRUPTED",
+   "first": "EXISTS",
+   "blind": "EXISTS_CORRUPTED",
+   "author": "EXISTS_CORRUPTED",
+   "stratum": "auto-disputed"
+  },
+  "A04": {
+   "coder": "EXISTS_CORRUPTED",
+   "first": "EXISTS",
+   "blind": "EXISTS_CORRUPTED",
+   "author": "EXISTS_CORRUPTED",
+   "stratum": "auto-disputed"
+  },
+  "A05": {
+   "coder": "EXISTS",
+   "first": "EXISTS",
+   "blind": "EXISTS_CORRUPTED",
+   "author": "EXISTS_CORRUPTED",
+   "stratum": "auto-disputed"
+  },
+  "A06": {
+   "coder": "NOT_FOUND",
+   "first": "NOT_FOUND",
+   "blind": "NOT_FOUND",
+   "author": "NOT_FOUND",
+   "stratum": "manual-agreed"
+  },
+  "A07": {
+   "coder": "EXISTS",
+   "first": "EXISTS",
+   "blind": "EXISTS_CORRUPTED",
+   "author": "EXISTS_CORRUPTED",
+   "stratum": "auto-disputed"
+  },
+  "A08": {
+   "coder": "EXISTS_CORRUPTED",
+   "first": "EXISTS",
+   "blind": "EXISTS_CORRUPTED",
+   "author": "EXISTS_CORRUPTED",
+   "stratum": "manual-disputed"
+  },
+  "A09": {
+   "coder": "EXISTS",
+   "first": "EXISTS",
+   "blind": "EXISTS",
+   "author": "EXISTS",
+   "stratum": "auto-agreed"
+  },
+  "A10": {
+   "coder": "NOT_FOUND",
+   "first": "EXISTS",
+   "blind": "EXISTS_CORRUPTED",
+   "author": "NOT_FOUND",
+   "stratum": "auto-disputed"
+  },
+  "A11": {
+   "coder": "EXISTS",
+   "first": "EXISTS",
+   "blind": "EXISTS",
+   "author": "EXISTS",
+   "stratum": "auto-agreed"
+  },
+  "A12": {
+   "coder": "NOT_FOUND",
+   "first": "NOT_FOUND",
+   "blind": "EXISTS_CORRUPTED",
+   "author": "NOT_FOUND",
+   "stratum": "manual-disputed"
+  },
+  "A13": {
+   "coder": "EXISTS_CORRUPTED",
+   "first": "EXISTS_CORRUPTED",
+   "blind": "EXISTS_CORRUPTED",
+   "author": "EXISTS_CORRUPTED",
+   "stratum": "manual-agreed"
+  },
+  "A14": {
+   "coder": "NOT_FOUND",
+   "first": "EXISTS_CORRUPTED",
+   "blind": "EXISTS_CORRUPTED",
+   "author": "NOT_FOUND",
+   "stratum": "manual-agreed"
+  },
+  "A15": {
+   "coder": "EXISTS_CORRUPTED",
+   "first": "EXISTS_CORRUPTED",
+   "blind": "NOT_FOUND",
+   "author": "EXISTS_CORRUPTED",
+   "stratum": "manual-disputed"
+  },
+  "A16": {
+   "coder": "EXISTS",
+   "first": "EXISTS",
+   "blind": "EXISTS",
+   "author": "EXISTS",
+   "stratum": "auto-agreed"
+  },
+  "A17": {
+   "coder": "EXISTS_CORRUPTED",
+   "first": "EXISTS",
+   "blind": "EXISTS_CORRUPTED",
+   "author": "EXISTS_CORRUPTED",
+   "stratum": "auto-disputed"
+  },
+  "A18": {
+   "coder": "NOT_FOUND",
+   "first": "EXISTS_CORRUPTED",
+   "blind": "NOT_FOUND",
+   "author": "EXISTS_CORRUPTED",
+   "stratum": "manual-disputed"
+  },
+  "A19": {
+   "coder": "EXISTS_CORRUPTED",
+   "first": "EXISTS_CORRUPTED",
+   "blind": "EXISTS",
+   "author": "EXISTS_CORRUPTED",
+   "stratum": "manual-disputed"
+  },
+  "A20": {
+   "coder": "EXISTS_CORRUPTED",
+   "first": "EXISTS",
+   "blind": "EXISTS_CORRUPTED",
+   "author": "EXISTS_CORRUPTED",
+   "stratum": "auto-disputed"
+  },
+  "A21": {
+   "coder": "NOT_FOUND",
+   "first": "NOT_FOUND",
+   "blind": "NOT_FOUND",
+   "author": "NOT_FOUND",
+   "stratum": "manual-agreed"
+  },
+  "A22": {
+   "coder": "EXISTS_CORRUPTED",
+   "first": "EXISTS",
+   "blind": "EXISTS_CORRUPTED",
+   "author": "EXISTS_CORRUPTED",
+   "stratum": "auto-disputed"
+  },
+  "A23": {
+   "coder": "NOT_FOUND",
+   "first": "NOT_FOUND",
+   "blind": "EXISTS_CORRUPTED",
+   "author": "NOT_FOUND",
+   "stratum": "manual-disputed"
+  },
+  "A24": {
+   "coder": "EXISTS",
+   "first": "EXISTS_CORRUPTED",
+   "blind": "EXISTS",
+   "author": "EXISTS",
+   "stratum": "manual-disputed"
+  },
+  "A25": {
+   "coder": "NOT_FOUND",
+   "first": "EXISTS_CORRUPTED",
+   "blind": "NOT_FOUND",
+   "author": "NOT_FOUND",
+   "stratum": "manual-disputed"
+  },
+  "A26": {
+   "coder": "EXISTS",
+   "first": "EXISTS",
+   "blind": "EXISTS",
+   "author": "EXISTS",
+   "stratum": "auto-agreed"
+  },
+  "A27": {
+   "coder": "EXISTS_CORRUPTED",
+   "first": "EXISTS",
+   "blind": "EXISTS_CORRUPTED",
+   "author": "EXISTS_CORRUPTED",
+   "stratum": "auto-disputed"
+  },
+  "A28": {
+   "coder": "NOT_FOUND",
+   "first": "NOT_FOUND",
+   "blind": "EXISTS_CORRUPTED",
+   "author": "NOT_FOUND",
+   "stratum": "manual-disputed"
+  },
+  "A29": {
+   "coder": "EXISTS",
+   "first": "EXISTS",
+   "blind": "EXISTS",
+   "author": "EXISTS",
+   "stratum": "auto-agreed"
+  },
+  "A30": {
+   "coder": "EXISTS_CORRUPTED",
+   "first": "EXISTS",
+   "blind": "EXISTS_CORRUPTED",
+   "author": "EXISTS_CORRUPTED",
+   "stratum": "auto-disputed"
+  },
+  "A31": {
+   "coder": "EXISTS",
+   "first": "EXISTS",
+   "blind": "EXISTS",
+   "author": "EXISTS",
+   "stratum": "auto-agreed"
+  },
+  "A32": {
+   "coder": "EXISTS",
+   "first": "EXISTS",
+   "blind": "EXISTS_CORRUPTED",
+   "author": "EXISTS",
+   "stratum": "auto-disputed"
+  },
+  "A33": {
+   "coder": "UNADJUDICABLE",
+   "first": "EXISTS_CORRUPTED",
+   "blind": "NOT_FOUND",
+   "author": "UNADJUDICABLE",
+   "stratum": "manual-disputed"
+  },
+  "A34": {
+   "coder": "NOT_FOUND",
+   "first": "EXISTS_CORRUPTED",
+   "blind": "NOT_FOUND",
+   "author": "NOT_FOUND",
+   "stratum": "manual-disputed"
+  },
+  "A35": {
+   "coder": "EXISTS",
+   "first": "EXISTS",
+   "blind": "EXISTS",
+   "author": "EXISTS",
+   "stratum": "auto-agreed"
+  },
+  "A36": {
+   "coder": "EXISTS",
+   "first": "EXISTS",
+   "blind": "EXISTS_CORRUPTED",
+   "author": "EXISTS_CORRUPTED",
+   "stratum": "auto-disputed"
+  },
+  "A37": {
+   "coder": "NOT_FOUND",
+   "first": "EXISTS_CORRUPTED",
+   "blind": "PLACEHOLDER",
+   "author": "EXISTS_CORRUPTED",
+   "stratum": "manual-disputed"
+  },
+  "A38": {
+   "coder": "EXISTS",
+   "first": "EXISTS",
+   "blind": "EXISTS",
+   "author": "EXISTS",
+   "stratum": "auto-agreed"
+  },
+  "A39": {
+   "coder": "EXISTS_CORRUPTED",
+   "first": "EXISTS",
+   "blind": "EXISTS_CORRUPTED",
+   "author": "EXISTS_CORRUPTED",
+   "stratum": "manual-disputed"
+  },
+  "A40": {
+   "coder": "NOT_FOUND",
+   "first": "EXISTS_CORRUPTED",
+   "blind": "NOT_FOUND",
+   "author": "NOT_FOUND",
+   "stratum": "manual-disputed"
+  },
+  "A41": {
+   "coder": "NOT_FOUND",
+   "first": "EXISTS",
+   "blind": "EXISTS_CORRUPTED",
+   "author": "NOT_FOUND",
+   "stratum": "manual-disputed"
+  },
+  "A42": {
+   "coder": "NOT_FOUND",
+   "first": "NOT_FOUND",
+   "blind": "NOT_FOUND",
+   "author": "NOT_FOUND",
+   "stratum": "manual-agreed"
+  },
+  "A43": {
+   "coder": "EXISTS",
+   "first": "EXISTS",
+   "blind": "EXISTS",
+   "author": "EXISTS",
+   "stratum": "auto-agreed"
+  },
+  "A44": {
+   "coder": "NOT_FOUND",
+   "first": "NOT_FOUND",
+   "blind": "NOT_FOUND",
+   "author": "NOT_FOUND",
+   "stratum": "manual-agreed"
+  },
+  "A45": {
+   "coder": "EXISTS_CORRUPTED",
+   "first": "EXISTS_CORRUPTED",
+   "blind": "EXISTS",
+   "author": "EXISTS_CORRUPTED",
+   "stratum": "manual-disputed"
+  },
+  "A46": {
+   "coder": "NOT_FOUND",
+   "first": "EXISTS",
+   "blind": "EXISTS_CORRUPTED",
+   "author": "NOT_FOUND",
+   "stratum": "auto-disputed"
+  },
+  "A47": {
+   "coder": "EXISTS_CORRUPTED",
+   "first": "EXISTS",
+   "blind": "EXISTS_CORRUPTED",
+   "author": "EXISTS_CORRUPTED",
+   "stratum": "auto-disputed"
+  },
+  "A48": {
+   "coder": "NOT_FOUND",
+   "first": "EXISTS",
+   "blind": "NOT_FOUND",
+   "author": "NOT_FOUND",
+   "stratum": "auto-disputed"
+  },
+  "A49": {
+   "coder": "NOT_FOUND",
+   "first": "EXISTS_CORRUPTED",
+   "blind": "PLACEHOLDER",
+   "author": "PLACEHOLDER",
+   "stratum": "manual-disputed"
+  },
+  "A50": {
+   "coder": "EXISTS_CORRUPTED",
+   "first": "EXISTS",
+   "blind": "EXISTS_CORRUPTED",
+   "author": "EXISTS_CORRUPTED",
+   "stratum": "auto-disputed"
+  },
+  "A51": {
+   "coder": "EXISTS",
+   "first": "EXISTS_CORRUPTED",
+   "blind": "EXISTS",
+   "author": "EXISTS_CORRUPTED",
+   "stratum": "manual-disputed"
+  },
+  "A52": {
+   "coder": "NOT_FOUND",
+   "first": "EXISTS_CORRUPTED",
+   "blind": "NOT_FOUND",
+   "author": "NOT_FOUND",
+   "stratum": "manual-disputed"
+  },
+  "A53": {
+   "coder": "EXISTS_CORRUPTED",
+   "first": "NOT_FOUND",
+   "blind": "EXISTS_CORRUPTED",
+   "author": "EXISTS_CORRUPTED",
+   "stratum": "manual-disputed"
+  },
+  "A54": {
+   "coder": "NOT_FOUND",
+   "first": "EXISTS_CORRUPTED",
+   "blind": "NOT_FOUND",
+   "author": "NOT_FOUND",
+   "stratum": "manual-disputed"
+  },
+  "A55": {
+   "coder": "EXISTS_CORRUPTED",
+   "first": "EXISTS",
+   "blind": "EXISTS_CORRUPTED",
+   "author": "EXISTS_CORRUPTED",
+   "stratum": "manual-disputed"
+  },
+  "A56": {
+   "coder": "PLACEHOLDER",
+   "first": "EXISTS_CORRUPTED",
+   "blind": "PLACEHOLDER",
+   "author": "PLACEHOLDER",
+   "stratum": "manual-disputed"
+  },
+  "A57": {
+   "coder": "EXISTS_CORRUPTED",
+   "first": "EXISTS_CORRUPTED",
+   "blind": "EXISTS_CORRUPTED",
+   "author": "EXISTS_CORRUPTED",
+   "stratum": "manual-agreed"
+  },
+  "A58": {
+   "coder": "EXISTS",
+   "first": "EXISTS",
+   "blind": "EXISTS",
+   "author": "EXISTS",
+   "stratum": "auto-agreed"
+  },
+  "A59": {
+   "coder": "EXISTS_CORRUPTED",
+   "first": "EXISTS",
+   "blind": "EXISTS_CORRUPTED",
+   "author": "EXISTS_CORRUPTED",
+   "stratum": "auto-disputed"
+  },
+  "A60": {
+   "coder": "NOT_FOUND",
+   "first": "EXISTS",
+   "blind": "EXISTS_CORRUPTED",
+   "author": "NOT_FOUND",
+   "stratum": "manual-disputed"
+  },
+  "A61": {
+   "coder": "NOT_FOUND",
+   "first": "EXISTS_CORRUPTED",
+   "blind": "NOT_FOUND",
+   "author": "NOT_FOUND",
+   "stratum": "manual-disputed"
+  },
+  "A62": {
+   "coder": "NOT_FOUND",
+   "first": "NOT_FOUND",
+   "blind": "NOT_FOUND",
+   "author": "NOT_FOUND",
+   "stratum": "manual-agreed"
+  },
+  "A63": {
+   "coder": "NOT_FOUND",
+   "first": "EXISTS",
+   "blind": "NOT_FOUND",
+   "author": "NOT_FOUND",
+   "stratum": "auto-disputed"
+  },
+  "A64": {
+   "coder": "NOT_FOUND",
+   "first": "EXISTS_CORRUPTED",
+   "blind": "EXISTS_CORRUPTED",
+   "author": "NOT_FOUND",
+   "stratum": "manual-agreed"
   }
  },
  "sheet_B": {

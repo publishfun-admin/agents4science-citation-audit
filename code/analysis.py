@@ -285,7 +285,7 @@ def main():
         L.append(f"Corrupted attributes among EXISTS_CORRUPTED entries (n={len(cor)}): " + ', '.join(f"{k}: {v}" for k, v in tc.most_common()) + '\n')
     nfd = ok[ok.status == 'NOT_FOUND']
     if len(nfd): L.append(f"NOT_FOUND entries carrying a DOI: {int(nfd.doi.notna().sum())}; an arXiv id: {int(nfd.arxiv.notna().sum())}; a URL: {int(nfd.has_url.sum())}; cited year >= 2025: {int((nfd.year >= 2025).sum())} of {len(nfd)}\n")
-    open('data/dataset/results_tables_human_override.md' if os.environ.get('BLIND_ESTIMATE') else 'paper/results_tables.md', 'w').write('\n'.join(L))
+    open(os.environ.get('RESULTS_OUT', 'data/dataset/results_tables_human_override.md') if os.environ.get('BLIND_ESTIMATE') else 'paper/results_tables.md', 'w').write('\n'.join(L))
     print('\n'.join(L))
 
 if __name__ == '__main__':

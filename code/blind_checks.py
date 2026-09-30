@@ -61,9 +61,10 @@ for f in glob.glob(os.path.join(ROOT, 'data', 'refs', '*.verified.json')):
     for i, e in enumerate(json.load(open(f))['entries'], 1): ent[(num, i)] = e
 def grp(via): via = str(via or ''); return {'crossref': 'crossref', 's2': 's2', 'doi': 'doi'}.get(via, 'arxiv' if via.startswith('arxiv') else ('url' if via == 'url' else 'other'))
 pop = collections.Counter(grp(e.get('via')) for (n, i), e in ent.items() if not e.get('junk') and e.get('verdict') in ('VERIFIED', 'VERIFIED_URL') and (n, i) not in dec)
-HUMAN = json.load(open(os.path.join(REL, 'human_overrides.json'))) if os.path.exists(os.path.join(REL, 'human_overrides.json')) else {}
+OVR = os.environ.get('OVERRIDES', os.path.join(REL, 'human_overrides.json'))   # labels that replace the blind labels for coded entries (author's, or the independent coder's)
+HUMAN = json.load(open(OVR)) if os.path.exists(OVR) else {}
 tab = collections.defaultdict(collections.Counter); rows = []; n_used = 0
-SUFFIX = '_human' if os.environ.get('HUMAN_OVERRIDE') else ''
+SUFFIX = os.environ.get('SUFFIX', '_human' if os.environ.get('HUMAN_OVERRIDE') else '')
 for s, d in [('blind_sample2.json', 'blind_decisions2.json'), ('blind_sample3.json', 'blind_decisions3.json')]:
     sp, dp = os.path.join(TMP, s), os.path.join(TMP, d)
     if not (os.path.exists(sp) and os.path.exists(dp)): continue

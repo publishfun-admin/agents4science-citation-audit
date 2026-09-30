@@ -8,5 +8,5 @@ To be completed by the independent coder after both sheets are finished. It is p
 - I coded from `independent_coder_sheet_A.csv` and `independent_coder_sheet_B.csv` only and opened no other file in this repository: yes
 - I did not use an AI assistant for any item: yes
 - I did not discuss any item with the study's author before finishing: yes
-- Approximate time spent: sheet B 30 minutes, sheet A 0 minutes
+- Approximate time spent: sheet B 30 minutes, sheet A 40 minutes
 - Anything the editor should know (items you could not decide, sources you could not reach): nothing

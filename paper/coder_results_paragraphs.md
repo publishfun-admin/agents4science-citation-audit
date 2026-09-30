@@ -2,7 +2,7 @@
 
 Item 1. Sheet B (45 items) was coded by an acquaintance of the author, identified by initials in the released statement, who had no role in the study and reports no relationship to the study, its author or Publish.fun. Agreement with the first adjudicator: 76% by category (95% Wilson CI 61-86; kappa 0.63 (0.42-0.81)) and 98% for fabricated-versus-not (88-100; kappa 0.94 (0.78-1.00)). Against the blind agent on the 11 items also blind re-adjudicated: 82% and 91%. By first-adjudicator category: NF: coder NF 14, EC 6; EC: coder NF 4, EC 10; OTHER: coder OTHER 10, EC 1.
 
-Item 2. Sheet A was not coded by the independent coder; the manuscript says so in Section 4.
+Item 2. Sheet A (64 items): agreement with the first adjudicator 42%/62%, with the blind agent 69%/86%, with the author 88%/92% (categories/fabricated-versus-not).
 
 Item 3. Sensitivity table (data/dataset/independent_agreement.md):
 
