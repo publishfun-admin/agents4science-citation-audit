@@ -75,14 +75,14 @@
   ],
   "editorial_notices": [],
   "id": "p_pJZkO-kROfjpjNv8",
-  "permanent_id": null,
+  "permanent_id": "PF-260930.000001",
   "title": "Fabricated references in AI-first-authored research: a manually verified audit of all Agents4Science 2025 submissions",
-  "status": "editor_deciding",
+  "status": "published",
   "current_round": 6,
   "license": "CC-BY-4.0",
   "editorial_state": "active",
   "failure_reason": null,
-  "published_at": null,
+  "published_at": "2026-09-30T20:05:44.763Z",
   "decisions": [
     {
       "round": 1,
@@ -203,6 +203,21 @@
       ],
       "resolved_model": "anthropic/claude-opus-5.5",
       "editorial_notes": []
+    },
+    {
+      "round": 6,
+      "outcome": "accept",
+      "rationale": "Verdict: accept. Every round-5 condition is addressed in the manuscript. The remaining points are editorial and do not change the validity of the claims.\n\nRound-5 concerns:\n(1) Independent coding of random sheet B: resolved. \u00a74 describes a coder with no role in the study, working from the reference strings alone. \u00a75.1 and Appendix A.8 report 75.6% category agreement (kappa 0.63, 0.42\u20130.81) and 97.8% fabricated-versus-not agreement (kappa 0.94, 0.78\u20131.00), superseding the stratum-weighted 73%/94%.\n(2) Sheet A coded by the same coder, with agreement against the first adjudicator, the blind agent and the author: resolved (Appendix A.8; the coder's role is recorded in \u00a74).\n(3) Bounds on detected counts and robustness: resolved. The A.8 relabelling table gives 549 (493\u2013638) fabricated references and 45.2% of reviewed submissions affected; \u00a75.3 gives flag sensitivity 0.83; \u00a75.2 gives 4 (0\u201313) accepted papers with an invented reference. Table 2b and Appendix A.3 are recomputed with the coder's labels (13.5%, 6.2%, 7.8%).\n(4) Qualification of the \u00a74 independence claim: resolved in \u00a74, \u00a75.1, \u00a77 and the Appendix A.7 heading.\n(5) The \u00a76 'kept out' sentence: resolved; it now states an association.\n(6) Repository contents: stated in the response letter but unverifiable from the supplied evidence (not_enough_evidence). This is reproducibility documentation, not a validity defect in the reported analysis.\n\nNew issues: residual stale corruption figures remain in \u00a7\u00a75.1, 5.2, 6 and 7, and the Data availability section omits the new coder files. All are editorial; the abstract and Table 2b are correct. The competing interest (the author operates the venue) remains disclosed.",
+      "summary_to_authors": "We are pleased to accept your paper. The independent, label-free coding of the random sample of 45 manual decisions (Appendix A.8) gives a directly estimated fabricated-versus-not agreement of 97.8% (kappa 0.94). The relabelling sensitivity analysis shows that the detected figures remain lower bounds and that the associations keep their sign. You propagated the coder's labels through Table 2b and Appendix A.3, and you revised the \u00a74 independence wording and the \u00a76 causal wording as asked. Please make the editorial corrections listed in the notes before publication. In particular, reconcile the remaining stale corruption-rate phrases with the 6.2% coder-anchored rate. Please also deposit the Zenodo-archived release and report its DOI, so that the repository contents described in your response letter can be checked against the paper.",
+      "key_concerns": [],
+      "resolved_model": "anthropic/claude-opus-5.5",
+      "editorial_notes": [
+        "\u00a77 'Undetected errors' says 'about one accepted citation in twelve' for 11 of 180 (6.1%); correct it to about one in sixteen to match \u00a75.1 and Table 2b.",
+        "\u00a76 'What the audit adds' says title matching passes 'about one citation in ten' with wrong metadata; update this to the coder-anchored 6.2% (author-anchored 8.2%, blind-agent-only 9.7%).",
+        "\u00a75.1 calls about 370 undetected corrupted references 'about twice' the 227 adjudicated corruptions, and \u00a75.2 cites 'Nine of the 14 human-confirmed' author-list corruptions; restate both under the coder-anchored counts (about 1.6 times; out of 11).",
+        "Data and code availability: list the independent coder's sheets, CODER_STATEMENT.md, coder_overrides.json, independent_agreement outputs and the README mapping, and add the Zenodo DOI of the archived release.",
+        "\u00a74: state that the coder's independence rests on the coder's signed statement, since the coder was recruited from the author's personal acquaintance."
+      ]
     }
   ],
   "reviews": [
@@ -5149,6 +5164,28 @@
         ]
       },
       "error": null
+    },
+    {
+      "round": 6,
+      "role": "editor_final",
+      "model": "~anthropic/claude-opus-latest",
+      "resolved_model": "anthropic/claude-opus-5.5",
+      "content": {
+        "decision": "accept",
+        "rationale": "Verdict: accept. Every round-5 condition is addressed in the manuscript. The remaining points are editorial and do not change the validity of the claims.\n\nRound-5 concerns:\n(1) Independent coding of random sheet B: resolved. \u00a74 describes a coder with no role in the study, working from the reference strings alone. \u00a75.1 and Appendix A.8 report 75.6% category agreement (kappa 0.63, 0.42\u20130.81) and 97.8% fabricated-versus-not agreement (kappa 0.94, 0.78\u20131.00), superseding the stratum-weighted 73%/94%.\n(2) Sheet A coded by the same coder, with agreement against the first adjudicator, the blind agent and the author: resolved (Appendix A.8; the coder's role is recorded in \u00a74).\n(3) Bounds on detected counts and robustness: resolved. The A.8 relabelling table gives 549 (493\u2013638) fabricated references and 45.2% of reviewed submissions affected; \u00a75.3 gives flag sensitivity 0.83; \u00a75.2 gives 4 (0\u201313) accepted papers with an invented reference. Table 2b and Appendix A.3 are recomputed with the coder's labels (13.5%, 6.2%, 7.8%).\n(4) Qualification of the \u00a74 independence claim: resolved in \u00a74, \u00a75.1, \u00a77 and the Appendix A.7 heading.\n(5) The \u00a76 'kept out' sentence: resolved; it now states an association.\n(6) Repository contents: stated in the response letter but unverifiable from the supplied evidence (not_enough_evidence). This is reproducibility documentation, not a validity defect in the reported analysis.\n\nNew issues: residual stale corruption figures remain in \u00a7\u00a75.1, 5.2, 6 and 7, and the Data availability section omits the new coder files. All are editorial; the abstract and Table 2b are correct. The competing interest (the author operates the venue) remains disclosed.",
+        "editorial_notes": [
+          "\u00a77 'Undetected errors' says 'about one accepted citation in twelve' for 11 of 180 (6.1%); correct it to about one in sixteen to match \u00a75.1 and Table 2b.",
+          "\u00a76 'What the audit adds' says title matching passes 'about one citation in ten' with wrong metadata; update this to the coder-anchored 6.2% (author-anchored 8.2%, blind-agent-only 9.7%).",
+          "\u00a75.1 calls about 370 undetected corrupted references 'about twice' the 227 adjudicated corruptions, and \u00a75.2 cites 'Nine of the 14 human-confirmed' author-list corruptions; restate both under the coder-anchored counts (about 1.6 times; out of 11).",
+          "Data and code availability: list the independent coder's sheets, CODER_STATEMENT.md, coder_overrides.json, independent_agreement outputs and the README mapping, and add the Zenodo DOI of the archived release.",
+          "\u00a74: state that the coder's independence rests on the coder's signed statement, since the coder was recruited from the author's personal acquaintance."
+        ],
+        "summary_to_authors": "We are pleased to accept your paper. The independent, label-free coding of the random sample of 45 manual decisions (Appendix A.8) gives a directly estimated fabricated-versus-not agreement of 97.8% (kappa 0.94). The relabelling sensitivity analysis shows that the detected figures remain lower bounds and that the associations keep their sign. You propagated the coder's labels through Table 2b and Appendix A.3, and you revised the \u00a74 independence wording and the \u00a76 causal wording as asked. Please make the editorial corrections listed in the notes before publication. In particular, reconcile the remaining stale corruption-rate phrases with the 6.2% coder-anchored rate. Please also deposit the Zenodo-archived release and report its DOI, so that the repository contents described in your response letter can be checked against the paper.",
+        "key_concerns_to_address": []
+      },
+      "error": null
     }
-  ]
+  ],
+  "html_url": "https://publish.fun/papers/PF-260930.000001",
+  "cite_url": "https://publish.fun/api/cite/PF-260930.000001"
 }

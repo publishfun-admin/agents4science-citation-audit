@@ -180,7 +180,7 @@ both agent labels, and the adjusted estimates are recomputed with the human labe
 45 of the 857 manual decisions are released for coding by a human unconnected to the study
 (data/adjudication/blind/independent_coder_sheet_A.csv and independent_coder_sheet_B.csv, with instructions and a coder
 statement form), together with a script (code/independent_agreement.py) that reports agreement against the first
-adjudicator, the blind agent and the author's coding and a sensitivity bound on the detected counts; sheet B was coded by an acquaintance of the author, identified by initials in the released statement, who had no role in the study and reports no relationship to the study, its author or Publish.fun, working from the reference strings alone; the coder's statement (data/adjudication/blind/CODER_STATEMENT.md) records that no other file was opened, that no AI assistant was used and that no item was discussed with the author before coding ended. The coder also coded sheet A (a page, identifier or search link for 62 of the 64 items and a note for 59); sheet B carries a link or the searches run for 43 of its 45 items. Agreement is reported in Section 5.1 and Appendix A.8, together with the sensitivity of the detected figures to the coder's labels.
+adjudicator, the blind agent and the author's coding and a sensitivity bound on the detected counts; sheet B was coded by an acquaintance of the author, identified by initials in the released statement, who had no role in the study and reports no relationship to the study, its author or Publish.fun, working from the reference strings alone; the coder's statement (data/adjudication/blind/CODER_STATEMENT.md) records that no other file was opened, that no AI assistant was used and that no item was discussed with the author before coding ended. The coder also coded sheet A (a page, identifier or search link for 62 of the 64 items and a note for 59); sheet B carries a link or the searches run for 43 of its 45 items. The coder was recruited from the author's personal acquaintance, so the coder's independence rests on the coder's signed statement rather than on an institutional separation. Agreement is reported in Section 5.1 and Appendix A.8, together with the sensitivity of the detected figures to the coder's labels.
 
 **Analysis.** All analyses were pre-specified (paper/analysis_plan.md in the repository) before any manual
 adjudication: the plan and the adjudication protocol were committed to the repository (commit 18f47a4, 28 September
@@ -288,7 +288,7 @@ blind agent had called corrupted or invented and all 10 it had confirmed: the 10
 and 18 of the 19 were confirmed as defective (14 corrupted, 4 invented; the blind agent had called 2 of the 4 corrupted
 rather than invented), while one, a real paper cited with altered given names of several co-authors, was accepted by the
 human as correctly cited. With the author's labels in place of the blind labels for these 29 entries, the sample gives 14 corrupted (7.8%; 95% CI 4.7-12.6) and 4 invented (2.2%; 0.9-5.6), source-weighted 8.2% and 1.7%. The independent coder (Section 4) also coded these 29 entries: the coder confirmed 15 of the 19 as defective, accepted four as correctly cited (the entry the author had also accepted, and three real works that the blind agent and the author had called corrupted for a wrong identifier, author list or venue) and confirmed all 10 that the blind agent had confirmed; with the coder's labels the sample gives 11 corrupted (6.1%; 95% CI 3.4-10.6; submission-clustered 2.7-10.1) and 4 invented (2.2%; 0.9-5.6), source-weighted 6.2% and 1.7%. These independent-coder-anchored rates are used for the adjusted estimates below; the author-anchored (8.2%) and blind-agent-only (9.7%) rates are given in Appendix A.3 and the released tables and bracket them from above. Weighting by source, an estimated 6.2% (bootstrap 95% CI 4.0-11.4; 8.2% with the author's labels, 9.7% with the blind-agent labels alone) of the 5,992 automatically verified entries, about 370 references, are corrupted citations that the adjudicated counts do not include, and 1.7% are invented. That
-is about twice the corrupted references adjudication found in the whole corpus (227 of the 513 fabricated), so the
+is about 1.6 times the corrupted references adjudication found in the whole corpus (227 of the 513 fabricated), so the
 adjudicated rates in Sections 5.2-5.7 are lower bounds for both outcomes, and Section 5.2 gives adjusted estimates.
 
 ### 5.2 Prevalence of fabricated references (Q1)
@@ -361,7 +361,7 @@ the references of reviewed submissions fail, 29.5% (71/241) of reviewed submissi
 and 19.9% (48/241) have at least two. Their audit covers accepted papers only, so the comparable figures are those for
 our 48 accepted papers: 0.2% of references (3/1,308), 6.2% of papers with at least one (3/48) and none with two or
 more (0/48; upper confidence limit 7.4%), against roughly one accepted NeurIPS or USENIX Security 2025 paper in twenty
-with two or more. Nine of the 14 human-confirmed corrupted entries among automatically verified entries were author-list corruptions,
+with two or more. Nine of the 11 corrupted entries that the independent coder confirmed among automatically verified entries were author-list corruptions,
 so this comparison, like the others, is a lower bound on our side.
 
 ### 5.3 How precise was the organisers' automated flag? (Q2)
@@ -554,7 +554,7 @@ not measure. Half of the flagged example references are real by detected labels 
 flagged example in an accepted paper was detected as fabricated, so the flag is not a count of fabricated references. Against detected
 fabrication it marks 56% of reviewed submissions where 38% are affected, with a paper-level positive predictive value
 of 62%. But the blind check of our own automated stage shows that title matching, whether against the web or against a
-bibliographic registry, passes about one citation in ten whose author list, venue or identifier is wrong, so the true
+bibliographic registry, passes about one citation in sixteen whose author list, venue or identifier is wrong (6.2% anchored to the independent coder's labels; 8.2% with the author's, 9.7% with the blind agent's), so the true
 share of submissions with at least one defective citation is higher than either figure (possibly a majority, if
 errors are spread across submissions as the model in Section 5.2 assumes), and the flag under-marks that. The reasons are the ones the citation-verification literature
 predicts [Reizinger and Brendel 2026; Rao and Callison-Burch 2026; Shi et al. 2026]: web search is a poor oracle for
@@ -649,8 +649,7 @@ are pooled in the primary outcome.
 
 **Undetected errors among automatically verified entries.** The automated stage accepts an entry when its DOI or
 arXiv identifier resolves to a work whose title is contained in the entry, or when a registry record's title agrees
-with the parsed title; the blind check shows that about one accepted citation in twelve has a wrong author list, venue or
-identifier (11 of 180; source-weighted 6.2%) and about two in a hundred do not exist (4 of 180, 2.2%; source-weighted
+with the parsed title; the blind check shows that about one accepted citation in sixteen has a wrong author list, venue or identifier (11 of 180; source-weighted 6.2%) and about two in a hundred do not exist (4 of 180, 2.2%; source-weighted
 1.7%), concentrated in title-based Crossref matches. All detected rates
 are therefore lower bounds, the adjusted estimates rest on 180 sampled entries (29 of them human-coded) and on the
 assumption that the per-source rates apply across submissions (the flagged and unflagged groups have similar source profiles, but
@@ -727,10 +726,9 @@ submission. The author has no relationship with Agents4Science or its organisers
 
 All code, the cached API responses that make the automated stage reproducible, the parsed reference lists, the
 adjudication protocol and the complete decision log (one row per adjudicated reference with category, evidence URL and
-note), the retired decisions from the re-parses, the blind validation samples and decisions, the human-coded sheet
-and its agreement tables, the unmatched-flag verdicts, the manual recall inspection, the merged dataset and the
+note), the retired decisions from the re-parses, the blind validation samples and decisions, the author's coded sheet and its agreement tables, the independent coder's two coded sheets (independent_coder_sheet_A.csv, independent_coder_sheet_B.csv), the coder's signed statement (CODER_STATEMENT.md), the coder's labels for the 29 automatically verified entries (coder_overrides.json), the independent-coder agreement and sensitivity outputs (independent_agreement.md and .json) and a README that maps every table and headline figure to the script and file that produce it, the unmatched-flag verdicts, the manual recall inspection, the merged dataset and the
 analysis outputs are publicly available at
-https://github.com/publishfun-admin/agents4science-citation-audit. The submissions, reviews and organiser comments are public on
+https://github.com/publishfun-admin/agents4science-citation-audit (release v1.0 is the version as published; a Zenodo archive of that release and its DOI are added to the repository README when deposited). The submissions, reviews and organiser comments are public on
 OpenReview (venue Agents4Science 2025) and the conference data files are public at
 https://agents4science.stanford.edu/data/; the repository records how they were retrieved.
 
