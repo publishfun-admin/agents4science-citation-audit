@@ -49,14 +49,14 @@ s51 += (f". Relabelling every manual decision with the coder's label distributio
         f"and {sv('accepted_with_invented')} accepted papers with an invented reference against none detected. "
         + verdict)
 s7 = (f"; the independent coding of the random sample (Section 5.1, Appendix A.8) gives the direct figure, {pct(b['fab_pct'])} agreement for fabricated-versus-not ({kk(b, 'fab_kappa')}), and the sensitivity bound "
-      + ("shows that the detected figures are robust to the coder's disagreements" if robust else ("shows that they remain lower bounds under the coder's stricter reading" if stricter else "is carried into Sections 5.2 and 6")) + "; the check's main result,")
+      + ("shows that the detected figures are robust to the coder's disagreements" if robust else ("shows that the detected figures remain lower bounds under the coder's stricter reading" if stricter else "is carried into Sections 5.2 and 6")) + "; the check's main result,")
 sabs = f"an independent human coder agreed with the adjudication on {pct(b['fab_pct'])} of a random sample of 45 manual decisions for fabricated-versus-not (kappa {b['fab_kappa']:.2f});"
 s52 = (f" Under the independent coder's labels (Section 5.1), a median of {sv('accepted_with_invented')} accepted papers would carry a reference classed as invented, mostly through the invented-versus-corrupted boundary, the least stable one, so the absence of a detected invented reference among accepted papers is a statement about the adjudication's labels rather than a label-independent fact.")
 s53 = (f" Under the independent coder's labels (Section 5.1) the paper-level sensitivity is {sv('flag_sensitivity', '{:.2f}')}, the specificity {sv('flag_specificity', '{:.2f}')} and the example-level precision {svp('flag_example_precision_pct')}.")
 R = [("no such coding was\navailable for this version.", s4),
      ("invention. At the paper level, a corruption rate near 8-10% of automatically verified entries would imply,", "invention." + s52 + " At the paper level, a corruption rate near 8-10% of automatically verified entries would imply,"),
      ("bounds the precision over all 285 examples between 47.0% and 56.5%.", "bounds the precision over all 285 examples between 47.0% and 56.5%." + s53),
-     ("that the\nreleased 45-item simple random sample of manual decisions has not yet tested.", s51),
+     (" that the\nreleased 45-item simple random sample of manual decisions has not yet tested.", s51),
      (", and the released 45-item simple random sample of manual\ndecisions, which would test the stratum-weighted 73% and 94% figures directly, is uncoded in this version; the check's main result,", s7),
      ("a 64-item check by the author, disclosed as non-independent, anchors them to one human reading;", sabs),
      ("Of the 513 detected fabricated references, 56% were invented and 44% were corrupted real works; 32 invented references carried a DOI or arXiv identifier.",

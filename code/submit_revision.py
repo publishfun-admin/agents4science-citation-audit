@@ -10,8 +10,8 @@ md = open(md_path, encoding='utf-8').read(); title, abstract, body_noabs = split
 body = re.sub(r'^# .+\n', '', md, count=1).strip() + '\n'
 letter = open(letter_path, encoding='utf-8').read()
 for name, text in (('manuscript', md), ('response letter', letter)):
-    if 'PENDING-' in text:
-        sys.exit(f'refusing to submit: the {name} still contains a PENDING- marker (fill in the independent-coder results first)')
+    if 'PENDING-' in text or 'no such coding was\navailable for this version' in text:
+        sys.exit(f'refusing to submit: the {name} still contains a placeholder (run code/fill_coder_results.py first)')
 payload = {'content': body, 'response_letter': letter, 'abstract': abstract, 'title': title}
 print(json.dumps({k: (v if k in ('title',) else f'<{len(v)} chars>') for k, v in payload.items()}, indent=1))
 if '--dry-run' in sys.argv: sys.exit(0)
