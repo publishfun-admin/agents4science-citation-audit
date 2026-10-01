@@ -728,7 +728,7 @@ All code, the cached API responses that make the automated stage reproducible, t
 adjudication protocol and the complete decision log (one row per adjudicated reference with category, evidence URL and
 note), the retired decisions from the re-parses, the blind validation samples and decisions, the author's coded sheet and its agreement tables, the independent coder's two coded sheets (independent_coder_sheet_A.csv, independent_coder_sheet_B.csv), the coder's signed statement (CODER_STATEMENT.md), the coder's labels for the 29 automatically verified entries (coder_overrides.json), the independent-coder agreement and sensitivity outputs (independent_agreement.md and .json) and a README that maps every table and headline figure to the script and file that produce it, the unmatched-flag verdicts, the manual recall inspection, the merged dataset and the
 analysis outputs are publicly available at
-https://github.com/publishfun-admin/agents4science-citation-audit (release v1.0 is the version as published; a Zenodo archive of that release and its DOI are added to the repository README when deposited). The submissions, reviews and organiser comments are public on
+https://github.com/publishfun-admin/agents4science-citation-audit (release v1.0 is the version as published; release v1.1, the published version with the editorial corrections recorded with the article, is archived on Zenodo under DOI 10.5281/zenodo.23072623, concept DOI 10.5281/zenodo.23072622 for all versions). The submissions, reviews and organiser comments are public on
 OpenReview (venue Agents4Science 2025) and the conference data files are public at
 https://agents4science.stanford.edu/data/; the repository records how they were retrieved.
 

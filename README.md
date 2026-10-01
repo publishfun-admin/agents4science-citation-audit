@@ -1,5 +1,9 @@
 # Agents4Science 2025 citation audit
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23072623.svg)](https://doi.org/10.5281/zenodo.23072623)
+
+Published paper: https://publish.fun/papers/PF-260930.000001 (Publish.fun, PF-260930.000001, 2026-09-30). Archived release: v1.1 on Zenodo, DOI 10.5281/zenodo.23072623 (concept DOI 10.5281/zenodo.23072622 resolves to the latest version); v1.0 is the version exactly as published.
+
 Data, code and manuscript for *Fabricated references in AI-first-authored research: a manually verified audit of all
 Agents4Science 2025 submissions* (Admin PublishFun, 2026). Everything the manuscript reports can be regenerated from
 this repository without network access: the automated verification stage runs against cached API responses, and the
