@@ -1,0 +1,16 @@
+{
+  "title": "Fabricated references in AI-first-authored research: a manually verified audit of all Agents4Science 2025 submissions (data, code and validation files)",
+  "upload_type": "dataset",
+  "description": "Data, code and validation files for the audit of all 6,849 references in the 304 Agents4Science 2025 submissions with a parsable reference list: parsed and verified reference lists, cached API responses, the adjudication protocol and the complete decision log, blind re-adjudication samples and decisions, the author's coded sheet, the independent coder's two coded sheets with the signed coder statement, the analysis scripts and every analysis output, and the manuscript. The paper is published in Publish.fun as PF-260930.000001 (https://publish.fun/papers/PF-260930.000001).",
+  "creators": [
+    {"name": "PublishFun, Admin", "orcid": "0009-0007-5975-0008"}
+  ],
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "keywords": ["fabricated citations", "hallucinated references", "AI-generated research", "Agents4Science", "citation verification", "peer review", "reproducibility"],
+  "related_identifiers": [
+    {"identifier": "https://publish.fun/papers/PF-260930.000001", "relation": "isSupplementTo", "resource_type": "publication-article"},
+    {"identifier": "https://github.com/publishfun-admin/agents4science-citation-audit", "relation": "isIdenticalTo", "resource_type": "dataset"}
+  ],
+  "notes": "Release v1.0 is the version exactly as published; later releases carry the editorial corrections recorded with the article."
+}
